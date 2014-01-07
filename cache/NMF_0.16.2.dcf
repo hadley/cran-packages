@@ -1,0 +1,52 @@
+Package: NMF
+Type: Package
+Title: Algorithms and framework for Nonnegative Matrix Factorization
+        (NMF).
+Version: 0.16.2
+Date: 2013-02-27
+Author: Renaud Gaujoux, Cathal Seoighe
+Maintainer: Renaud Gaujoux <renaud@mancala.cbio.uct.ac.za>
+Authors@R: c( person("Renaud", "Gaujoux", role=c('aut', 'cre'),
+        email='renaud@mancala.cbio.uct.ac.za') , person("Cathal",
+        "Seoighe", role='ths') , person("P.", "Brunet", role = "ctb",
+        comment='method: brunet (Matlab original version)') ,
+        person("H.", "Kim", role = "ctb", comment='methods: snmf/r(l)
+        (Matlab original version)') )
+Description: This package provides a framework to perform Non-negative
+        Matrix Factorization (NMF). It implements a set of already
+        published algorithms and seeding methods, and provides a
+        framework to test, develop and plug new/custom algorithms. Most
+        of the built-in algorithms have been optimized in C++, and the
+        main interface function provides an easy way of performing
+        parallel computations on multicore machines.
+License: GPL (>= 2)
+URL: http://nmf.r-forge.r-project.org
+LazyLoad: yes
+Depends: R (>= 2.15.2), methods, stats, pkgmaker (>= 0.15.2), rngtools,
+        registry, digest, grid
+Imports: graphics, rngtools, stringr, grDevices, gridBase, colorspace,
+        RColorBrewer, iterators, foreach, doParallel
+Suggests: RcppOctave (>= 0.8.12), Biobase, fastICA, doMPI, bigmemory
+        (>= 4.2), synchronicity, corpcor, xtable, devtools, knitr,
+        RUnit, mail
+Enhances: Biobase
+Collate: 'rmatrix.R' 'nmf-package.R' 'utils.R' 'simulation.R'
+        'versions.R' 'colorcode.R' 'options.R' 'algorithmic.R'
+        'atracks.R' 'grid.R' 'aheatmap.R' 'NMF-class.R'
+        'extractFeatures.R' 'setNMFClass.R' 'NMFstd-class.R'
+        'fixed-terms.R' 'NMFOffset-class.R' 'NMFns-class.R'
+        'nmfModel.R' 'NMFfit-class.R' 'rnmf.R' 'heatmaps.R'
+        'NMFSet-class.R' 'registry.R' 'NMFStrategy-class.R'
+        'NMFStrategyFunction-class.R' 'NMFStrategyIterative-class.R'
+        'NMFStrategyOctave-class.R' 'registry-algorithms.R'
+        'algorithms-base.R' 'algorithms-brunet.R' 'NMFSeed-class.R'
+        'registry-seed.R' 'seed-base.R' 'parallel.R' 'nmf.R'
+        'Bioc-layer.R' 'transforms.R' 'NMFplots.R' 'algorithms-lnmf.R'
+        'algorithms-lsnmf.R' 'algorithms-pe-nmf.R' 'algorithms-snmf.R'
+        'algorithms-siNMF.R' 'seed-ica.R' 'seed-nndsvd.R' 'data.R'
+        'tests.R'
+BuildVignettes: no
+Packaged: 2013-03-27 19:12:25 UTC; renaud
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-27 23:22:45

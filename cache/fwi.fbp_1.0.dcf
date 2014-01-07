@@ -1,0 +1,23 @@
+Package: fwi.fbp
+Type: Package
+Title: Fire Weather Index System and Fire Behaviour Prediction System
+        Calculations
+Version: 1.0
+Date: 2012-10-12
+Author: Xianli Wang, Alan Cantin, Marc-Andr&eacute; Parisien, Mike
+        Wotton, Kerry Anderson, and Mike Flannigan
+Maintainer: Alan Cantin <Alan.Cantin@RNCan-NRCan.gc.ca>
+Depends: R (>= 2.11.0)
+Description: This package provides three new functions to calculate the
+        outputs of the two main components of the Canadian Forest Fire
+        Danger Rating System (CFFDRS): the Fire Weather Index (FWI)
+        System and the Fire Behaviour Prediction (FBP) System.
+License: GPL-2
+URL: https://r-forge.r-project.org/projects/fwi-fbp/
+BugReports: https://r-forge.r-project.org/tracker/?group_id=1453
+Repository: CRAN
+Repository/R-Forge/Project: fwi-fbp
+Repository/R-Forge/Revision: 51
+Repository/R-Forge/DateTimeStamp: 2012-10-24 16:19:13
+Date/Publication: 2012-10-25 06:15:25
+Packaged: 2012-10-24 18:22:14 UTC; rforge

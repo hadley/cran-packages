@@ -1,0 +1,20 @@
+Package: graph
+Title: graph: A package to handle graph data structures
+Version: 1.14.2
+Author: R. Gentleman, Elizabeth Whalen, W. Huber, S. Falcon
+Description: A package that implements some simple graph handling
+        capabilities.
+Maintainer: Seth Falcon <sfalcon@fhcrc.org>
+License: The Artistic License, Version 2.0
+Depends: R (>= 2.5.0), methods
+Imports: cluster, methods
+Suggests: SparseM (>= 0.36), XML, RBGL
+biocViews: GraphsAndNetworks
+Collate: AllClasses.R AllGenerics.R buildDepGraph.R 
+         methods-graph.R graphNEL.R clustergraph.R NELhandler.R
+         edgefunctions.R graphfunctions.R GXLformals.R gxlReader.R
+         random.R write.tlp.R mat2graph.R zzz.R 
+         standardLabeling.R TODOT.R methods-graphAM.R attrData.R
+         reverseEdgeDirections.R nodes-methods.R
+SaveImage: yes
+Packaged: Wed May 30 02:21:05 2007; biocbuild

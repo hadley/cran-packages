@@ -1,0 +1,12 @@
+Package: urca
+Version: 0.5-5
+Date: 2004-08-10
+Title: Unit root and cointegration tests for time series data
+Author: Bernhard Pfaff <bernhard.pfaff@drkw.com>
+Maintainer: Bernhard Pfaff <bernhard.pfaff@drkw.com>
+Depends: R (>= 1.8.1), methods, nlme
+Description: Unit root and cointegration tests encountered in applied 
+ econometric analysis are implemented.
+License: GPL version 2 or newer
+URL: http://www.r-project.org 
+Packaged: Tue Aug 10 09:08:11 2004; pfaffb

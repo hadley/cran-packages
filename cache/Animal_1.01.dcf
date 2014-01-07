@@ -1,0 +1,23 @@
+Package: Animal
+Type: Package
+Title: Analyze time-coded animal behavior data
+Version: 1.01
+Date: 2009-03-26
+Author: Matti Pastell <matti.pastell@helsinki.fi>
+Maintainer: Matti Pastell <matti.pastell@helsinki.fi>
+Description: The Animal package is a collection of functions for
+        analyzing animal (including humans) behavior data originating
+        from a variety of sources. The package has functions to analyze
+        time coded behaviors from CowLog (open source software for
+        coding behaviors from digital video) data files and observation
+        files with similar format. Other features include hourly,
+        daily, weekly and monthly summaries of time coded data,
+        analysis of RIC (roughage intake system, Insentec automation)
+        data files and labeling measurement data according to
+        behavioral observations for e.g model building purpose.
+License: GPL (>=3)
+LazyLoad: yes
+Repository: CRAN
+URL: http://www.mm.helsinki.fi/~mpastell/CowLog/Animal.html
+Packaged: Fri Mar 27 20:25:23 2009; Matti
+Date/Publication: 2009-03-28 10:20:22

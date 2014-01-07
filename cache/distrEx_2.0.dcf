@@ -1,0 +1,13 @@
+Package: distrEx
+Version: 2.0
+Date: 2008-05-30
+Title: Extensions of package distr
+Description: Extensions of package distr and some additional functionality
+Depends: R(>= 2.6.0), methods, distr(>= 2.0), evd, startupmsg
+Suggests: tcltk
+Author: Matthias Kohl, Peter Ruckdeschel
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+LazyLoad: yes
+License: GPL (version 2 or later)
+URL: http://distr.r-forge.r-project.org/
+Packaged: Fri Sep 12 04:53:35 2008; theussl

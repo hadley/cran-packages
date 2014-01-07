@@ -1,0 +1,23 @@
+Package: RQuantLib
+Title: R interface to the QuantLib libraries
+Version: 0.1.10
+Date: $Date: 2004/09/12 19:01:38 $
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Author: Dirk Eddelbuettel <edd@debian.org> for the R interface, the QuantLib
+	group for QuantLib (http://www.quantlib.org/html/group.html)
+Description: The RQuantLib packages provides access to (some) of the QuantLib
+	functions from within R. It is currently limited to some Option
+	pricing and analysis functions.
+        The QuantLib project aims to provide a comprehensive software 
+        framework for quantitative finance. The goal is to provide a 
+	standard free/open source library to quantitative analysts and
+	developers for modeling, trading, and risk management of financial
+	assets.
+        You need to have QuantLib and Boost installed in order to use RQuantLib.
+Depends: R (>= 1.9.1)
+SystemRequirements: QuantLib library from http://quantlib.org, Boost library
+        from http://www.boost.org
+License: GPL Version 2 or later for RQuantLib; QuantLib itself is released
+        under an Open Source license as well
+URL: http://quantlib.org http://dirk.eddelbuettel.com/code/rquantlib.html
+Packaged: Sun Sep 12 14:19:27 2004; edd

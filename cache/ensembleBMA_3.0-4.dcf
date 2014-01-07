@@ -1,0 +1,14 @@
+Package: ensembleBMA
+Version: 3.0-4
+Date: 2008-08-14
+Title: Probabilistic Forecasting using Ensembles and Bayesian Model Averaging
+Author: Chris Fraley, Adrian E. Raftery, J. McLean Sloughter, 
+        Tilmann Gneiting, University of Washington
+        With contributions from Bobby Yuen and Michael Polokowski
+Maintainer: Chris Fraley <fraley@stat.washington.edu>
+Depends: chron
+Suggests: fields, maps
+Description: Bayesian Model Averaging to create probabilistic
+             forecasts from ensemble forecasts and weather observations.
+License: GPL (>= 2)
+Packaged: Wed Aug 20 12:37:46 2008; hornik

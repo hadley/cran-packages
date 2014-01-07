@@ -1,0 +1,20 @@
+Package: gamlss.cens
+Type: Package
+Title: Fitting an interval response variable using gamlss.family
+        distributions
+Version: 4.1.0
+Date: 2012-02-21
+Depends: R (>= 2.2.1), gamlss, gamlss.dist, survival
+Imports: survival
+Author: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>, Bob
+        Rigby <r.rigby@londonmet.ac.uk>, Nicoleta Mortan
+Maintainer: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>
+Description: This is an add on package to GAMLSS. The purpose of this
+        package is to allow users to fit interval response variables in
+        GAMLSS models. The main function gen.cens() generates a
+        censored version of an existing GAMLSS family distribution.
+License: GPL-2 | GPL-3
+URL: http://www.gamlss.org/
+Packaged: 2012-02-21 10:14:10 UTC; stasinom
+Repository: CRAN
+Date/Publication: 2012-02-21 10:40:49

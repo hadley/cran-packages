@@ -1,0 +1,15 @@
+Package: TunePareto
+Type: Package
+Title: Multi-objective parameter tuning for classifiers
+Version: 1.0
+Date: 2010-07-13
+Author: Christoph Muessel, Hans Kestler
+Maintainer: Hans Kestler <hans.kestler@uni-ulm.de>
+Description: Generic methods for parameter tuning of classification
+        algorithms using multiple scoring functions
+Suggests: snowfall, class, tree, e1071, randomForest, igraph
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2010-08-13 13:20:38 UTC; muessel
+Repository: CRAN
+Date/Publication: 2010-08-16 13:46:23

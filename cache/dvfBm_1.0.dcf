@@ -1,0 +1,17 @@
+Package: dvfBm
+Type: Package
+Title: Discrete variations of a fractional Brownian motion
+Version: 1.0
+Date: 2009-10-14
+Author: Jean-Francois Coeurjolly
+Maintainer: J.-F. Coeurjolly
+        <Jean-francois.Coeurjolly@upmf-grenoble.fr>
+Description: Hurst exponent estimation of a fractional Brownian motion
+        by using discrete variations methods in presence of outliers
+        and/or an additive noise
+License: GPL (>= 2.0)
+LazyLoad: yes
+Depends: wmtsa
+Packaged: Fri Nov 20 14:34:09 2009; jeff
+Repository: CRAN
+Date/Publication: 2009-11-22 16:11:39

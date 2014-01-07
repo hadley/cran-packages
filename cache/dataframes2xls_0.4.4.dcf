@@ -1,0 +1,15 @@
+Package: dataframes2xls
+Type: Package
+Title: dataframes2xls writes data frames to xls files
+Depends: R (>= 2.0.0)
+SystemRequirements: python (>= 2.4)
+Version: 0.4.4
+Date: 2009-07-22
+Author: Guido van Steen
+Maintainer: <vansteen@users.sourceforge.net>
+Description: dataframes2xls writes data frames to xls files. It
+        supports multiple sheets and basic formatting.
+License: MIT
+Packaged: Sat Aug 22 14:20:06 2009; root
+Repository: CRAN
+Date/Publication: 2009-08-24 05:42:14

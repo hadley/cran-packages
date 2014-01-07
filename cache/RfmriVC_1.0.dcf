@@ -1,0 +1,17 @@
+Package: RfmriVC
+Type: Package
+Title: Varying stimulus coefficient fMRI models in R
+Version: 1.0
+Date: 2012-04-25
+Author: Ludwig Bothmann, Stefanie Kalus
+Maintainer: Stefanie Kalus <stefanie.kalus@stat.uni-muenchen.de>
+Description: A varying coefficient on the stimulus effect is introduced
+        into the voxelwise fMRI regression model. By this the effects
+        of the canonical hemodynamic response function are allowed to
+        vary with another variable, like for example time or a
+        vigilance parameter.
+Depends: methods, splines, mvtnorm, mgcv, Rniftilib
+License: GPL-2
+Packaged: 2012-04-25 14:40:30 UTC; kalus
+Repository: CRAN
+Date/Publication: 2012-04-26 05:08:42

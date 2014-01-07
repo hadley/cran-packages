@@ -1,0 +1,11 @@
+Package: hapsim
+Title: Haplotype Data Simulation 
+Version: 0.1
+Date: 2005-07-22
+Author: Giovanni Montana
+Maintainer: Giovanni Montana <g.montana@imperial.ac.uk>
+Description: Package for haplotype data simulation. Haplotypes are generated such that their
+   allele frequencies and linkage disequilibrium coefficients match those estimated from an input data set.
+Depends: MASS
+License: GPL version 2 or later
+Packaged: Sat Aug  6 00:52:50 2005; gmontana

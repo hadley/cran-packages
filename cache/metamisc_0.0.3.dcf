@@ -1,0 +1,20 @@
+Package: metamisc
+Type: Package
+Title: Diagnostic and prognostic meta analysis (metamisc)
+Version: 0.0.3
+Date: 2012-09-12
+Author: Thomas Debray
+Maintainer: Thomas Debray <thomas.debray@gmail.com>
+Description: This package provides functions for diagnostic and
+        prognostic meta-analyses. It estimates univariate, bivariate
+        and multivariate models, and allows the aggregation of
+        previously published prediction models with new data.
+Depends: R (>= 2.10), stats, mvtnorm, ellipse
+License: GPL-2
+URL: http://r-forge.r-project.org/projects/metamisc/
+Repository: CRAN
+Repository/R-Forge/Project: metamisc
+Repository/R-Forge/Revision: 137
+Repository/R-Forge/DateTimeStamp: 2012-09-17 19:47:32
+Date/Publication: 2012-09-18 08:24:59
+Packaged: 2012-09-17 22:19:34 UTC; rforge

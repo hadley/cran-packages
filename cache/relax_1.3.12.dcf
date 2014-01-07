@@ -1,0 +1,30 @@
+Package: relax
+Version: 1.3.12
+Date: 2012-12-18
+Title: relax -- R Editor for Literate Analysis and lateX
+Author: Hans Peter Wolf <pwolf@wiwi.uni-bielefeld.de>
+Maintainer: Hans Peter Wolf <pwolf@wiwi.uni-bielefeld.de>
+Depends: R (>= 2.10.0), tcltk
+Suggests: tkrplot
+Description: package relax contains some functions for report writing,
+        presentation, and programming: relax(), tangleR(), weaveR(),
+        (g)slider(). "relax" is written in R and Tcl/Tk.  relax creates
+        a new window (top level Tcl/Tk widget) that consists of two
+        text fields and some buttons and menus.  Text (chunks) and code
+        (chunks) are inserted in the upper text field (report field).
+        Code chunks are evaluated by clicking on EvalRCode.  Results
+        are shown in the lower text field (output field) and will be
+        transferred to the report field by pressing on Insert.  In this
+        way you get correct reports. These reports can be loaded again
+        in cause of presentation, modification and result checking.
+        tangleR() and weaveR() implement a plain kind of tangling and
+        weaving. gslider() and slider() are designed to define sliders
+        for interactive experiments in a simple way.  The syntax rules
+        of code chunks and text chunks are defined by the noweb system
+        proposed by Norman Ramsey
+        (http://www.eecs.harvard.edu/~nr/noweb/intro.html).
+License: GPL (>= 2)
+URL: http://www.wiwi.uni-bielefeld.de/com/wolf/software/relax.html
+Packaged: 2012-12-18 20:10:24 UTC; pwolf
+Repository: CRAN
+Date/Publication: 2012-12-19 08:52:51

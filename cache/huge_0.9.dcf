@@ -1,0 +1,37 @@
+Package: huge
+Type: Package
+Title: High-dimensional Undirected Graph Estimation
+Version: 0.9
+Date: 2010-11-21
+Author: Tuo Zhao, Han Liu, Kathryn Roeder, John Lafferty, Larry
+        Wasserman
+Maintainer: Tuo Zhao <tourzhao@andrew.cmu.edu>, Han Liu
+        <hanliu@cs.jhu.edu>
+Depends: glmnet, glasso, igraph, MASS, Matrix, lattice,
+Description: The package "huge" provides a general framework for
+        high-dimensional undirected graph estimation. It integrates
+        data preprocessing (Gaussianization), neighborhood screening,
+        graph estimation, and model selection techniques into a
+        pipeline. In preprocessing stage, the NonparaNormal(NPN)
+        transformation is applied to help relax the normality
+        assumption. In the graph estimation stage, the structure of
+        either the whole graph or a pre-specified sub-graph is
+        estimated by the Meinshausen & Buhlmann Graph Estimation via
+        Lasso (GEL) by default and it can be further accelerated by the
+        Graph SURE Screening (GSS) subroutine which preselects the
+        graph neighborhood of each variable. In the case d >> n, the
+        computation is memory optimized and is targeted on larger-scale
+        problems (with d>2000). We also provide two alternative
+        approaches for the graph estimation stage:(1) Graph
+        Approximation via Correlation Thresholding (GACT) which is
+        highly efficient and (2) A slightly modified Graphical Lasso
+        (GLASSO) procedure in which the memory usage is optimized using
+        sparse matrix output. Three regularization/thresholding
+        parameter selection methods are included in this package: (1)
+        StARS: Stability Approach for Regularization Selection (2) PIC:
+        Permutation Information Criterion (3) Extended Bayesian
+        Information Criterion (EBIC).
+License: GPL-2
+Repository: CRAN
+Packaged: 2010-11-21 23:51:10 UTC; asnoppy
+Date/Publication: 2010-11-22 07:50:42

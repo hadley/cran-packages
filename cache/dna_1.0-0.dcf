@@ -1,0 +1,15 @@
+Package: dna
+Version: 1.0-0
+Date: 2012-8-19
+Title: Differential Network Analysis
+Author: Ryan Gill, Somnath Datta, Susmita Datta
+Maintainer: Gill,Ryan S. <ryan.gill@louisville.edu>
+Description: Package for conducting differential network analysis from
+        microarray data.
+Depends: R (>= 2.14.0), methods
+LazyData: yes
+Suggests: igraph
+License: GPL (>= 2)
+Packaged: 2012-08-24 23:56:31 UTC; Jaime
+Repository: CRAN
+Date/Publication: 2012-08-25 05:44:11

@@ -1,0 +1,12 @@
+Package: xlsReadWrite
+Version: 1.0
+Title: Natively read and write Excel files
+Date: 2006-08-20
+Author: Hans-Peter Suter, Treetron, Switzerland <gchappi@gmail>
+Maintainer: Hans-Peter Suter <gchappi@gmail>
+Depends: R (>= 2.2.1)
+Description: Read and write Excelfiles natively (v97-2003/BIFF8).
+License: GPLv2 with an exception to allow linking the flexcel library
+         (www.tmssoftware.com/flexcel.htm).
+URL: http://treetron.googlepages.com/   (temporary)
+Packaged: Mon Aug 21 13:55:07 2006; Chappi

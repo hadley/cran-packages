@@ -1,0 +1,21 @@
+Package: diagram
+Version: 1.5.2
+Date: 2011-02-02
+Title: Functions for visualising simple graphs (networks), plotting
+        flow diagrams
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01) ,shape
+Description: Visualises simple graphs (networks) based on a transition
+        matrix, utilities to plot flow diagrams, visualising webs,...
+        Support for the book "A practical guide to ecological modelling
+        - using R as a simulation platform" by Karline Soetaert and
+        Peter M.J. Herman (2009). Springer. Includes demo(flowchart),
+        demo(plotmat), demo(plotweb)
+License: GPL (>= 2)
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: diagram
+Repository/R-Forge/Revision: 37
+Date/Publication: 2011-03-15 09:52:49
+Packaged: 2011-03-01 21:56:14 UTC; rforge

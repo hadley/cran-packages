@@ -1,0 +1,14 @@
+Package: ExomeCNV
+Type: Package
+Title: Detect CNV and LOH from Exome Sequecing Data
+Version: 1.2
+Date: 2011-09-09
+Author: J. Fah Sathirapongsasuti, Hane Lee, and Stanley F. Nelson
+Maintainer: J. Fah Sathirapongsasuti <fsathira@fas.harvard.edu>
+Description: ExomeCNV is a statistical method to detect CNV and LOH using depth-of-coverage and B-allele frequencies from mapped short sequence reads in exome sequencing data.
+License: LGPL-2.1
+LazyLoad: yes
+Depends: DNAcopy
+Packaged: 2011-10-27 20:10:13 UTC; fah
+Repository: CRAN
+Date/Publication: 2011-10-28 07:07:58

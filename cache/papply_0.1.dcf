@@ -1,0 +1,18 @@
+Package: papply
+Version: 0.1
+Date: 2005-06-23
+Title: Parallel apply function using MPI
+Author: Duane Currie <duane.currie@acadiau.ca>
+Maintainer: Duane Currie <duane.currie@acadiau.ca>
+Depends: R (>= 2.0.1)
+Suggests: Rmpi
+Description: Similar to apply and lapply, applies a function to all
+        items of a list, and returns a list with the results.  Uses
+        Rmpi to distribute the processing evenly across a cluster.  If
+        Rmpi is not available, implements this as a non-parallel
+        algorithm.  Includes some debugging support
+License: GPL (>= 2)
+URL: http://ace.acadiau.ca/math/ACMMaC/software/papply/
+Packaged: Thu Jun 23 11:25:16 2005; dcurrie
+Repository: CRAN
+Date/Publication: 2005-06-24 05:39:47

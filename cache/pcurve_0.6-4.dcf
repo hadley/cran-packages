@@ -1,0 +1,19 @@
+Package: pcurve
+Version: 0.6-4
+Date: 2011/01/22
+Title: Principal curve analysis
+Author: S original by Trevor Hastie <hastie@stat.stanford.edu> S+
+        library by Glenn De'ath <g.death@aims.gov.au> R port by Chris
+        Walsh <cwalsh@unimelb.edu.au>
+Depends: R(>= 1.9.0), mgcv, vegan, MASS, stats
+Description: Fits a principal curve to a numeric multivariate dataset
+        in arbitrary dimensions. Produces diagnostic plots.
+Maintainer: Gavin Simpson <gavin.simpson@uregina.ca>
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: pcurve
+Repository/R-Forge/Revision: 2
+Repository/R-Forge/DateTimeStamp: 2013-05-31 14:50:23
+Date/Publication: 2013-06-03 07:22:57
+Packaged: 2013-05-31 18:19:15 UTC; rforge
+NeedsCompilation: yes

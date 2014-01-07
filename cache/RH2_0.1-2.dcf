@@ -1,0 +1,15 @@
+Package: RH2
+Version: 0.1-2
+Date: 2010-02-13
+Title: DBI/RJDBC interface to H2 Database
+Author: G. Grothendieck. Author of H2 is Thomas Mueller.
+Maintainer: G. Grothendieck <ggrothendieck@gmail.com>
+Description: DBI interface to H2 database. H2 version 1.2.128 is
+        included.
+Depends: chron, methods, RJDBC
+SystemRequirements: java runtime
+License: Mozilla Public License
+URL: http://www.h2database.com
+Packaged: 2010-02-13 11:33:46 UTC; Louis
+Repository: CRAN
+Date/Publication: 2010-02-14 14:44:16

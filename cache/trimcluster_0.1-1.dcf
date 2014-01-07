@@ -1,0 +1,14 @@
+Package: trimcluster
+Title: Cluster analysis with trimming
+Version: 0.1-1
+Date: 2006-08-08
+Author: Christian Hennig <chrish@stats.ucl.ac.uk>
+Depends: R
+Suggests: fpc
+Description: Trimmed k-means clustering. The package is planned to be 
+  expanded to contain further trimmed clustering methods
+  developed at the University of Valladolid.  
+Maintainer: Christian Hennig <chrish@stats.ucl.ac.uk>
+License: GPL
+URL: http://www.www.homepages.ucl.ac.uk/~ucakche/
+Packaged: Wed Aug  9 18:10:06 2006; chrish

@@ -1,0 +1,22 @@
+Package: JMbayes
+Title: Joint Modeling of Longitudinal and Time-to-Event Data under a
+        Bayesian Approach
+Version: 0.1-1
+Date: 2012-09-17
+Authors@R: c(person("Dimitris", "Rizopoulos", role = c("aut", "cre"),
+        email = "d.rizopoulos@erasmusmc.nl"))
+Description: Shared parameter models for the joint modeling of
+        longitudinal and time-to-event data using JAGS, WinBUGS, or
+        OpenBUGS.
+Depends: R (>= 2.14.0), MASS, nlme, splines, survival, rjags, coda
+Suggests: R2WinBUGS, R2OpenBUGS
+SystemRequirements: JAGS (>= 3.2.0) (or WinBUGS (>= 1.4) or OpenBUGS
+        (>= 3.2.2))
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2012-09-17 06:29:31 UTC; 698791
+Author: Dimitris Rizopoulos [aut, cre]
+Maintainer: Dimitris Rizopoulos <d.rizopoulos@erasmusmc.nl>
+Repository: CRAN
+Date/Publication: 2012-09-17 07:27:06

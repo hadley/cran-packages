@@ -1,0 +1,14 @@
+Package: matlab
+Version: 0.8.6
+Date: 2011-04-15
+Title: MATLAB emulation package
+Author: P. Roebuck
+Maintainer: P. Roebuck <proebuck@mdanderson.org>
+Description: Emulate MATLAB code using R
+Depends: R (>= 2.7), methods
+LazyLoad: true
+License: Artistic-2.0
+URL: http://odin.mdacc.tmc.edu/~plroebuck/R/index.html#matlab
+Packaged: 2011-04-19 19:45:04 UTC; paulr
+Repository: CRAN
+Date/Publication: 2011-04-24 06:56:46

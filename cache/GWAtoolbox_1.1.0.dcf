@@ -1,0 +1,18 @@
+Package: GWAtoolbox
+Version: 1.1.0
+Date: 2011-06-17
+Title: GWAS Quality Control
+Author: Daniel Taliun <Daniel.Taliun@eurac.edu>, Christian Fuchsberger
+        <cfuchsb@umich.edu>, Cristian Pattaro
+        <Cristian.Pattaro@eurac.edu>
+Maintainer: Daniel Taliun <Daniel.Taliun@eurac.edu>, Christian
+        Fuchsberger <cfuchsb@umich.edu>
+Description: Controls for duplicated IDs, distribution of betas, SEs,
+        etc.
+SystemRequirements: GNU GSL
+License: GPL (>= 3)
+Repository: CRAN
+Repository/R-Forge/Project: gwatoolbox
+Repository/R-Forge/Revision: 44
+Date/Publication: 2011-06-19 19:22:00
+Packaged: 2011-06-17 20:44:40 UTC; rforge

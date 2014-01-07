@@ -1,0 +1,15 @@
+Package: FAiR
+Type: Package
+Title: Factor Analysis in R
+Version: 0.2-0
+Date: 2008-01-31
+Author: Ben Goodrich
+Maintainer: Ben Goodrich <bgokGM@gmail.com>
+Description: This package estimates factor analysis models using a genetic algorithm, which  makes opens up a number of new ways to pursue old ideas, such as those discussed by Allen  Yates in his 1987 book Multivariate Exploratory Data Analysis. The major sources of value added in this package are new ways to transform factors in exploratory factor analysis, and perhaps more importantly, a new estimator for the factor analysis model called semi-exploratory factor analysis.
+License: GPL (>= 3)
+Imports:  stats4
+Enhances: stats4
+Depends: R (>= 2.6.0), methods, rgenoud (>= 5.4-7), gWidgetsRGtk2, stats4
+Suggests: robustbase, MASS, nFactors
+LazyLoad: yes
+Packaged: Fri Feb  1 04:54:38 2008; goodrich

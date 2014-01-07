@@ -1,0 +1,17 @@
+Package: aqfig
+Type: Package
+Title: Functions to help display air quality model output and
+        monitoring data
+Version: 0.8
+Date: 2013-11-08
+Author: Jenise Swall, with contributions from Kristen Foley
+Maintainer: Jenise Swall <jswall@vcu.edu>
+Depends: geoR
+Suggests: maps
+Description: This package contains functions to help display air quality model output and monitoring data, such as creating color scatterplots, color legends, etc.
+License: Unlimited
+LazyLoad: yes
+Packaged: 2013-11-08 22:38:00 UTC; jenise
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-09 11:34:23

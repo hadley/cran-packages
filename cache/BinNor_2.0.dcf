@@ -1,0 +1,18 @@
+Package: BinNor
+Type: Package
+Title: Simultaneous generation of multivariate binary and normal
+        variates.
+Version: 2.0
+Date: 2012-05-23
+Author: Anup Amatya, Hakan Demirtas
+Maintainer: Anup Amatya <aamatya@nmsu.edu>
+Depends: mvtnorm, corpcor, psych, Matrix
+Description: Generating multiple binary and normal variables
+        simultaneously given marginal characteristics and association
+        structure based on the methodology proposed by Demirtas and
+        Doganay (2012).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-05-23 16:34:45 UTC; aamatya
+Repository: CRAN
+Date/Publication: 2012-05-24 06:24:10

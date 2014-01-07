@@ -1,0 +1,16 @@
+Package: PhaseType
+Title: Inference for Phase-type Distributions
+Description: Functions to perform Bayesian inference on absorption time
+        data for Phase-type distributions.  Plans to expand this to
+        include frequentist inference and simulation tools.
+URL: http://www.louisaslett.com/PhaseType/
+Version: 0.1.0
+Maintainer: Louis Aslett <louis@maths.tcd.ie>
+Author: Louis Aslett <louis@maths.tcd.ie>
+Depends: coda, ggplot2, reshape
+Suggests: actuar
+License: GPL-2 | GPL-3
+LazyLoad: yes
+Packaged: 2011-10-12 17:33:17 UTC; louis
+Repository: CRAN
+Date/Publication: 2011-10-12 20:05:16

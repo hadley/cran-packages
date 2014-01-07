@@ -1,0 +1,14 @@
+Package: foreign
+Priority: recommended
+Version: 0.5-9
+Date: 2003-03-01
+Title: Read data stored by Minitab, S, SAS, SPSS, Stata, ...
+Depends: R (>= 1.2.0)
+Maintainer: R-core <R-core@r-project.org>
+Author: Thomas Lumley <thomas@biostat.washington.edu>,
+        Saikat DebRoy <saikat@stat.wisc.edu>,
+        Douglas M. Bates <bates@stat.wisc.edu> and
+	Duncan Murdoch <murdoch@stats.uwo.ca>
+Description: Functions for reading and writing data stored by statistical
+         packages such as Minitab, S, SAS, SPSS, Stata, ...
+License: GPL version 2 or later

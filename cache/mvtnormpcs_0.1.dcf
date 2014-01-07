@@ -1,0 +1,18 @@
+Package: mvtnormpcs
+Type: Package
+Version: 0.1
+Date: 2006-06-15
+Title: Multivariate Normal and T Distribution functions of (Dunnett,
+        1989)
+Author: Duane Currie <duane.currie@acadiau.ca> and Jianan Peng, using
+        code from (Dunnett, Appl Stats., 1989)
+Maintainer: Duane Currie <duane.currie@acadiau.ca>
+Description: Computes multivariate student and multivariate normal
+        integrals, given a correlation matrix structure defined by a
+        vector bpd, s.t.  rho(i,j) = bpd(i) * bpd(j) (product
+        correlation structure)
+License: LGPL (>= 2.0)
+Depends: R (>= 2.1.0)
+Packaged: Thu Jun 15 11:32:36 2006; dcurrie
+Repository: CRAN
+Date/Publication: 2006-06-16 14:11:22

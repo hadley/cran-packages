@@ -1,0 +1,20 @@
+Package: gcExplorer
+Version: 0.9-1
+Date: 2009-04-13
+Author: Theresa Scharl, Ingo Voglhuber, Friedrich Leisch
+Maintainer: Theresa Scharl <Theresa.Scharl@ci.tuwien.ac.at>
+Title: Graphical Cluster Explorer
+Description: Visualize cluster results and investigate additional
+        properties of clusters using interactive neighbourhood graphs.
+        By clicking on the node representing the cluster, information
+        about the cluster is provided using additional graphics or
+        summary statistics. For microarray data, tables with links to
+        genetic databases like gene ontolgy can be created for each
+        cluster.
+Depends: graphics, methods, flexclust (>= 1.0-0), Rgraphviz
+Imports: flexclust, modeltools, Rgraphviz
+Suggests: splines, lattice
+License: GPL-2
+Packaged: Wed May 6 17:23:33 2009; scharl
+Repository: CRAN
+Date/Publication: 2009-05-06 17:38:35

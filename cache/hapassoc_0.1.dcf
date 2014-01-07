@@ -1,0 +1,10 @@
+Package: hapassoc
+Version: 0.1
+Date: 2003-11-15
+Title: Likelihood inference of trait associations with SNP haplotypes and other attributes using the EM Algorithm
+Author: K. Burkett <KBurkett@mrl.ubc.ca>, B. McNeney <mcneney@stat.sfu@sfu>, J. Graham <jgraham@stat.sfu.ca>
+Maintainer: M. Pratola <mtpratol@cs.sfu.ca>
+Depends: R (>= 1.61)
+Description: The following R functions are used for likelihood inference of trait associations with haplotypes and other covariates in generalized linear models.  The functions accommodate uncertain haplotype phase and can handle missing genotypes at some SNPs.
+License: GPL version 2
+URL: http://stat-db.stat.sfu.ca/statgen/

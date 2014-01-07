@@ -1,0 +1,22 @@
+Package: SeqGrapheR
+Type: Package
+Title: Simple GUI for graph based visualization of cluster of DNA
+        sequence reads
+Version: 0.4.8.2
+Date: 2012-09-04
+Author: Petr Novak
+Maintainer: Petr Novak <petr@umbr.cas.cz>
+Description: SeqGrapheR package provide interactive GUI for
+        visualization of DNA sequence clusters. Detailes and principles
+        of usage are described in user manual and (2010 BMC
+        Bioinformatics 11:378) ,For full functionallity installed NCBI
+        blast is required
+License: GPL (>= 2)
+Collate: 'SeqGrapheR-package.R' 'SeqGrapheR.R'
+Depends: R (>= 2.14.0),
+        Biostrings,igraph,rggobi,gWidgets,gWidgetsRGtk2,cairoDevice
+SystemRequirements: ggobi
+LazyLoad: yes
+Packaged: 2012-09-04 10:23:24 UTC; petr
+Repository: CRAN
+Date/Publication: 2012-09-05 09:57:17

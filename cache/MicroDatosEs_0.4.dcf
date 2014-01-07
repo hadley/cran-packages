@@ -1,0 +1,24 @@
+Package: MicroDatosEs
+Type: Package
+Title: Utilities for Official Spanish Microdata
+Version: 0.4
+Date: 2013-10-21
+Encoding: UTF-8
+Authors@R: c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
+		person("José Luis", "Cañadas Reche", email = "canadasreche@gmail.com", role="ctb"))
+Description: The MicroDatosEs package provides utilities for reading and processing microdata from Spanish official statistics with R
+URL: TBA
+Depends: memisc, Hmisc
+License: GPL-3
+LazyLoad: yes
+LazyData: yes
+Author: Carlos J. Gil Bellosta [aut, cre],
+  José Luis Cañadas Reche [ctb]
+Maintainer: Carlos J. Gil Bellosta <cgb@datanalytics.com>
+Repository: CRAN
+Repository/R-Forge/Project: microdataes
+Repository/R-Forge/Revision: 10
+Repository/R-Forge/DateTimeStamp: 2013-10-21 21:21:26
+Date/Publication: 2013-10-22 12:33:59
+Packaged: 2013-10-21 22:15:35 UTC; rforge
+NeedsCompilation: no

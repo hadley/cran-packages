@@ -1,0 +1,16 @@
+Package: sdtalt
+Title: Signal detection theory measures and alternatives
+Version: 0.1-0
+Date: 2008-05-18
+Author: Daniel B. Wright
+Maintainer: Daniel B. Wright <danw@sussex.ac.uk>
+Description: Two functions, sdt and mlmsdt, for calculating statistics
+    from signal detection theory. sdt calculates several measures where each
+    individual's data form a 2x2 table. Statistics for each individual and for
+    the sample are calculated. mlmsdt using Bates' (2008) lme4 to run multilevel
+    generalized linear models for this situation. Deatails in Wright, D.B., 
+    Horry, R., & Skagerberg, E.M. (in press). Functions for traditional and 
+    multilevel approaches to signal detection theory. Behavior Research Methods.
+Depends: lme4, boot
+License: GPL
+Packaged: Tue May 20 07:52:23 2008; danw

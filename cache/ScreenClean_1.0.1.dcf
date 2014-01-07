@@ -1,0 +1,13 @@
+Package: ScreenClean
+Title: Screen and clean variable selection procedures
+Version: 1.0.1
+Date: 2012-10-30
+Author: Pengsheng Ji, Jiashun Jin, Qi Zhang
+Maintainer: Qi Zhang <karlmzhang@gmail.com>
+Description: Routines for a collection of screen-and-clean type
+        variable selection procedures, including UPS and GS.
+Imports: MASS, Matrix, quadprog
+License: GPL (>= 2)
+Packaged: 2012-10-30 14:23:17 UTC; Zhang-Qi
+Repository: CRAN
+Date/Publication: 2012-10-30 17:34:49

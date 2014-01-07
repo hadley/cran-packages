@@ -1,0 +1,15 @@
+Package: rbamtools
+Type: Package
+Title: Reading, manipulation and writing BAM (Binary alignment) files.
+Version: 2.0
+Date: 2012-02-03
+Author: Wolfgang Kaisers
+Maintainer: Wolfgang Kaisers <kaisers@med.uni-duesseldorf.de>
+Description: This package provides an interface to functions of the
+        'SAMtools' C-Library by Heng Li.
+License: Artistic-2.0
+LazyLoad: yes
+Depends: methods
+Packaged: 2012-03-12 08:04:37 UTC; kaisers
+Repository: CRAN
+Date/Publication: 2012-03-12 08:27:33

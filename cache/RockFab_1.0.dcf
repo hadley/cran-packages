@@ -1,0 +1,15 @@
+Package: RockFab
+Type: Package
+Title: Rock fabric and strain analysis tools.
+Version: 1.0
+Date: 2013-11-02
+Author: Jeffrey R. Webber
+Maintainer: Jeffrey R. Webber <jwebber@geo.umass.edu>
+Description: Provides functions to complete three-dimensional rock fabric and strain analyses following the Rf Phi, Fry, and normalized Fry methods. Also allows for plotting of results and interactive 3D visualization functionality.
+License: GPL
+Imports: rgl, EBImage
+Depends: methods
+Packaged: 2013-11-02 17:29:24 UTC; jeff webber
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-02 22:16:12

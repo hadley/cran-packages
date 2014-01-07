@@ -1,0 +1,22 @@
+Package: Rassoc
+Type: Package
+Title: Robust tests for case-control genetic association studies
+Version: 1.0
+Date: 2009-07-21
+Author: Yong ZANG <zanngyong@hku.hk>, Wingkam FUNG <wingfung@hku.hk>,
+        Gang ZHENG <zhengg@nhlbi.nih.gov>
+Maintainer: Yong ZANG <zangyong@hku.hk>
+Depends: R (>= 2.6.0), mvtnorm
+Description: This package supplies several robust tests for
+        case-control genetic association studies. The tests contained
+        in this package are: allelic based test, Cochran-Armitage trend
+        test, maximin efficiency robust test, MAX3 test and genetic
+        model selection test. For each test, the corresponding R code
+        reports the test statistics, the associated p-value and
+        conclusion of hypothesis test under significant level 0.05
+        respectively.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2009-07-29 01:53:40 UTC; zangyong
+Repository: CRAN
+Date/Publication: 2009-07-30 13:10:06

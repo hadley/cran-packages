@@ -1,0 +1,12 @@
+Package: xgobi
+Version: 1.2-6
+Title: Interface to the XGobi and XGvis programs for graphical data analysis
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Author: Martin Maechler,
+	originally packaged for R by Kurt Hornik <Kurt.Hornik@ci.tuwien.ac.at>,
+	based on the S code in the XGobi distribution.
+Description: Interface to the XGobi and XGvis programs for graphical
+  data analysis.
+Suggests: xgobi must be installed additionally, see ./README.
+License: Copyright (C) by Bellcore, non-profit use and redistribution
+  permitted (see COPYING for details)

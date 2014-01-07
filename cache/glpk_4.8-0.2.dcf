@@ -1,0 +1,8 @@
+Package: glpk
+Title: GNU Linear Programming Kit
+Version: 4.8-0.2
+Author: Lopaka Lee
+Description: Interface to the GNU Linear Programming Kit (GLPK) version 4.8.  This release requires some knowledge of the GLPK C API.  Almost all GLPK lpx routines are supported.  However, this release is beta status due to the fact that not all routines have been tested.  Suggestions and improvements are solicited.
+Maintainer: Lopaka Lee <rlee@fpcc.gov>
+License: GPL version 2 or newer
+Packaged: Fri Jun 17 10:22:46 2005; rclee

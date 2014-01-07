@@ -1,0 +1,15 @@
+Package: hyperdirichlet
+Type: Package
+Title: A generalization of the Dirichlet distribution
+Version: 1.4-9
+Date: 2008-04-28
+Depends: R (>= 2.10), aylmer (>= 1.0.11), abind
+Imports: methods, mvtnorm, cubature
+Author: Robin K.S. Hankin
+Maintainer: Robin K. S. Hankin <hankin.robin@gmail.com>
+Description: A suite of routines for the hyperdirichlet distribution
+License: GPL-2
+Packaged: 2013-12-10 21:07:31 UTC; rhankin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-10 23:05:41

@@ -1,0 +1,20 @@
+Package: mseq
+Type: Package
+Title: Modeling non-uniformity in short-read rates in RNA-Seq data
+Version: 1.1
+Date: 2010-01-27
+Depends: R(>= 2.5),gbm
+Author: Jun Li
+Maintainer: Jun Li <junli07@stanford.edu>
+Description: This package implements all the methods in the paper
+        "Modeling non-uniformity in short-read rates in RNA-Seq data".
+        Especially, it implements both the iterative glm procedure for
+        the Poisson linear model and the training procedure of the MART
+        model. The cross-validation for both of the methods is also
+        implemented. Version 1.1 (current version) also implements the
+        Poisson linear model with dinucleotide composition.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: Wed Jan 27 23:25:43 2010; junli07
+Repository: CRAN
+Date/Publication: 2010-01-28 08:04:22

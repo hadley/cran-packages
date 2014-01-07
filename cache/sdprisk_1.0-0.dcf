@@ -1,0 +1,23 @@
+Package: sdprisk
+Type: Package
+Version: 1.0-0
+Date: 2013-04-30
+Title: Measures of Risk for the Compound Poisson Risk Process with
+        Diffusion
+Author: Benjamin Baumgartner, Riccardo Gatto
+Maintainer: Benjamin Baumgartner <benjamin.baumgartner@stat.unibe.ch>
+Description: This package provides saddlepoint approximations to some
+        measures of risk based on the compound Poisson risk process
+        that is perturbated by a Brownian motion.  It also includes
+        various approximation methods for the probability of ruin.
+        Furthermore, exact values of both the risk measures as well as
+        the probability of ruin are available if the individual claims
+        follow a hypo-exponential distribution (i. e., if it can be
+        represented as a sum of independent exponentially distributed
+        random variables with different rate parameters).
+License: AGPL-3
+Imports: numDeriv, PolynomF, rootSolve
+Packaged: 2013-04-30 18:07:59 UTC; benjamin
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-01 07:12:57

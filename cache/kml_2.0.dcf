@@ -1,0 +1,22 @@
+Package: kml
+Type: Package
+Title: K-means for Longitudinal data
+Version: 2.0
+Date: 2012-04-01
+Author: Christophe Genolini
+Maintainer: Christophe Genolini <christophe.genolini@u-paris10.fr>
+Description: KmL is an implementation of k-means specificaly design to
+        deal with longitudinal data. It provide facilities to deal with
+        missing value, compute several quality criterion (Calinski and
+        Harabatz, Ray and Turie, Davies and Bouldin, ...) and propose
+        various a graphical interphace for chosing the 'best' number of
+        clusters.
+License: GPL (>= 2)
+Lazyload: yes
+URL: http:www.r-project.org
+Collate: global.r clusterLongData.r parKml.r parChoice.r kml.r
+Depends: methods,clv,longitudinalData
+Encoding: latin1
+Packaged: 2012-03-28 08:42:10 UTC; GENOLLINI
+Repository: CRAN
+Date/Publication: 2012-03-28 11:09:19

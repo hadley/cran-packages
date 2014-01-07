@@ -1,0 +1,14 @@
+Package: gamlss.dist
+Type: Package
+Title: Extra distributions to be used for GAMLSS modelling.
+Version: 1.6-0
+Date: 2006-04-26
+Author: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>, Bob Rigby <r.rigby@londonmet.ac.uk> with
+        contributions from Calliope Akantziliotou and Raydonal Ospina <rospina@ime.usp.br> and
+        Nicoletta Motpan.
+Maintainer: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>
+Depends: R (>= 2.4.0), gamlss
+Description:  This package contains few extra distributions for GAMLSS modelling.
+License: GPL (version 2 or later).
+URL: http://www.londonmet.ac.uk/gamlss/
+Packaged: Wed May  2 08:51:13 2007; stasinom

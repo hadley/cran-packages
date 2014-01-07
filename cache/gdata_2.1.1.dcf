@@ -1,0 +1,12 @@
+Package: gdata
+Title: Various R programming tools for data manipulation
+Description: Various R programming tools for data manipulation
+Depends: R (>= 1.9.0)
+Imports: gtools
+Version: 2.1.1
+Date: 2005-10-27
+Author: Gregory R. Warnes. Includes R source code and/or documentation
+        contributed by Ben Bolker and Thomas Lumley
+Maintainer: Nitin Jain <nitin.jain@pfizer.com>
+License: GPL (version 2 or later)
+Packaged: Thu Oct 27 14:41:23 2005; warneg

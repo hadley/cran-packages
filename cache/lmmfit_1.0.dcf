@@ -1,0 +1,16 @@
+Package: lmmfit
+Type: Package
+Title: Goodness-of-fit-measures for linear mixed models with
+        one-level-grouping
+Version: 1.0
+Date: 2011-04-28
+Author: Aleksandra Maj
+Maintainer: Aleksandra Maj <am248424@students.mimuw.edu.pl>
+Depends: nlme, MASS
+Description: Package lmmfit contains three functions evaluating some
+        goodness-of-fit-measures for linear mixed models with
+        one-level-grouping fitted using lme() from package nlme.
+License: GPL-2
+Packaged: 2011-08-08 14:40:25 UTC; cogito
+Repository: CRAN
+Date/Publication: 2011-08-08 15:46:10

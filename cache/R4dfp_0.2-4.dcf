@@ -1,0 +1,15 @@
+Package: R4dfp
+Version: 0.2-4
+Date: 2013-01-10
+Title: 4dfp MRI Image Read and Write Routines
+Author: Kevin P. Barry <ta0kira@users.berlios.de> with contributions from Avi Z.
+  Snyder <avi@npg.wustl.edu>
+Maintainer: Aaron Benjamin Tanenbaum <tanenbauma@neuro.wustl.edu>
+Description: This package provides an R interface with 2-part 4dfp MRI images
+  (.4dfp.ifh and .4dfp.img files.)
+License: GPL-3
+Packaged: 2013-03-29 20:17:46 UTC; aaron
+NeedsCompilation: yes
+OS_type: unix
+Repository: CRAN
+Date/Publication: 2013-09-16 20:24:52

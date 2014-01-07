@@ -1,0 +1,16 @@
+Package: BayesDA
+Version: 1.0-0
+Date:    2008-02-20
+Title:   Functions and Datasets for the book "Bayesian Data Analysis" 
+Author:  Compiled by Kjetil Halvorsen
+Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+Depends:    stats, R (>= 2.2.0)    
+Suggests:   MCMCpack
+LazyData:   FALSE   
+ZipData:    no
+Description: Functions for Bayesian Data Analysis, with datasets
+             from the book "Bayesian data Analysis (second edition)" by 
+             Gelman, Carlin, Stern and Rubin. Not all datasets yet, hopefully
+             completed soon.
+License: GPL version 2 or any later version
+Packaged: Thu Jan 29 21:16:47 2009; kjetil

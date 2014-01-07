@@ -1,0 +1,22 @@
+Package: deamer
+Type: Package
+Title: Deconvolution density estimation with adaptive methods for a
+        variable prone to measurement error
+Version: 1.0
+Date: 2012-07-03
+Author: Julien Stirnemann, Adeline Samson, Fabienne Comte. Contribution
+        from Claire Lacour.
+Maintainer: j.stirnemann <j.stirnemann@gmail.com>
+Description: deamer provides deconvolution algorithms for the
+        non-parametric estimation of the density f of an error-prone
+        variable x with additive noise e. The model is y = x + e where
+        the noisy variable y is observed, while x is unobserved.
+        Estimation may be performed for i) a known density of the error
+        ii) with an auxiliary sample of pure noise and iii) with an
+        auxiliary sample of replicate (repeated) measurements.
+        Estimation is performed using adaptive model selection and
+        penalized contrasts.
+License: GPL
+Packaged: 2012-08-04 18:18:07 UTC; Joe
+Repository: CRAN
+Date/Publication: 2012-08-05 06:07:55

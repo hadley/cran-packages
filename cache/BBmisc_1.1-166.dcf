@@ -1,0 +1,27 @@
+Package: BBmisc
+Title: Miscellaneous helper functions for B. Bischl.
+Description: Miscellaneous helper functions for and from B. Bischl and
+        some other guys at TU Dortmund, mainly for package development.
+Author: Bernd Bischl <bernd_bischl@gmx.net>, Michel Lang
+        <lang@statistik.tu-dortmund.de>, Olaf Mersmann
+        <olafm@p-value.net>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+License: BSD
+Depends: methods
+Suggests: testthat, snowfall, multicore, Rmpi
+LazyData: yes
+ByteCompile: yes
+Version: 1.1-166
+Collate: 'addClasses.R' 'catf.R' 'checkArg.R' 'checkListElementClass.R'
+        'chunk.R' 'coalesce.R' 'collapse.R' 'computeMode.R'
+        'convertInteger.R' 'directory.R' 'extractSubList.R' 'factor.R'
+        'insert.R' 'is_error.R' 'isExpensiveExampleOk.R' 'isFALSE.R'
+        'isProperlyNamed.R' 'listToShortString.R' 'load2.R' 'lsort.R'
+        'makeProgressBar.R' 'messagef.R' 'namedList.R' 'notin.R'
+        'parallel.R' 'printToChar.R' 'requirePackages.R' 'save2.R'
+        'setClasses.R' 'setRowColNames.R' 'splitTime.R' 'stopf.R'
+        'stringsAsFactors.R' 'suppressAll.R' 'system3.R' 'warningf.R'
+        'zzz.R'
+Packaged: 2012-11-16 19:10:21 UTC; bischl
+Repository: CRAN
+Date/Publication: 2012-11-16 20:39:26

@@ -1,0 +1,14 @@
+Package: TwslmSpikeWeight
+Version: 1.0.1
+Date: 2006-01-17
+Maintainer: Deli Wang <deli.wang@ccc.uab.edu>
+Author: Deli Wang, Jian Huang
+Depends:  splines
+Title: Systematic approaches using TW-SLM for incorporating control spots and data quality information to improve normalization of cDNA microarray data.
+Description: TwslmSpikeWeight is for normalization of cDNA microarray data with
+         the two-way semilinear model(TW-SLM). It incorporates information from 
+         control spots and data quality in the TW-SLM to improve normalization of 
+         cDNA microarray data. Huber's and Tukey's bisquare
+         weight functions are available for robust estimation of the TW-SLM.
+License: GPL version 2 or newer
+Packaged: Mon Jul 23 10:21:06 2007; dwang

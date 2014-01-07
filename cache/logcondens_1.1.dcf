@@ -1,0 +1,17 @@
+Package: logcondens
+Type: Package
+Title: Estimate a Log-Concave Probability Density from i.i.d. Observations
+Version: 1.1
+Date: 2006-10-12
+Author: Kaspar Rufibach <kaspar.rufibach@stanford.edu> and Lutz Duembgen <duembgen@stat.unibe.ch>
+Maintainer: Kaspar Rufibach <kaspar.rufibach@stanford.edu>
+Description: Given independent and identically distributed observations X(1), ..., X(n), this package allows to
+ compute a concave, piecewise linear function phi on [X(1), X(n)] with knots only in {X(1), X(2), ..., X(n)}
+ such that L(phi) = sum_{i=1}^n W(i)*phi(X(i)) - int_{X(1)}^{X(n)} exp(phi(x)) dx is maximal, for some
+ weights W(1), ..., W(n) s.t. sum_{i=1}^n W(i) = 1. According to the results in Duembgen and Rufibach (2006),
+ this function phi maximizes the ordinary log-likelihood sum_{i=1}^n W(i)*phi(X(i))
+ under the constraint that phi is concave. The corresponding  function exp(phi) is a log-concave probability density.
+ Two algorithms are offered: An active set algorithm and one based on the pool-adjacent-violaters algorithm.
+License: GPL version 2 or newer
+URL: www.stanford.edu/~kasparr, www.stat.unibe.ch/~duembgen
+Packaged: Thu Oct 12 16:31:35 2006; rufibach

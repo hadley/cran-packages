@@ -1,0 +1,18 @@
+Package: BADER
+Type: Package
+Title: Fully Bayesian Analysis of Differential Expression in RNA
+        Sequencing Data
+Version: 0.1
+Date: 2012-11-15
+Author: Andreas Neudecker
+Maintainer: Andreas Neudecker <a.neudecker@arcor.de>
+Description: This package lets you estimate the posterior distribution
+        of various parameters regarding RNA Sequencing data. The most
+        interesting parameter is the probability of differential
+        expression (DE) between two groups A and B. But also estimates
+        for the log mean and the log dispersion parameter of the
+        underlying poisson - log-normal model can be returned.
+License: GPL-2
+Packaged: 2012-11-15 13:11:36 UTC; andreas
+Repository: CRAN
+Date/Publication: 2012-11-15 13:39:27

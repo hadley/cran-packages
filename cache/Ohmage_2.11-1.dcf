@@ -1,0 +1,27 @@
+Package: Ohmage
+Type: Package
+Title: R Client for Mobilize/Andwellness server
+Version: 2.11-1
+Date: 2012-05-29
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Description: R Client for Mobilize and Andwellness server. Implements
+        basic R functions to call and process data.
+License: GPL
+Depends: R (>= 2.14), stats, methods, reshape, plyr, RColorBrewer
+Imports: RCurl, RJSONIO
+Suggests: XML
+Collate: 'increment.curlcount.R' 'loadtest.R' 'multifactor.R'
+        'oh.auth_token.R' 'oh.call.R' 'oh.campaign.create.R'
+        'oh.campaign.delete.R' 'oh.campaign.read.R' 'oh.class.create.R'
+        'oh.class.delete.R' 'oh.class.read.R' 'oh.class.update.R'
+        'oh.image.read.R' 'oh.login.R' 'oh.logout.R'
+        'oh.mobility.read.R' 'oh.survey_response.function.read.R'
+        'oh.survey_response.read.R' 'oh.survey_response.update.R'
+        'oh.survey.upload.R' 'oh.user.auth.R' 'oh.user.create.R'
+        'oh.user.delete.R' 'oh.user.read.R' 'oh.user_stat.read.R'
+        'onLoad.R' 'parse.date.R' 'parse.item.R' 'parse.prompt.R'
+        'parsevector.R' 'print.param.list.R' 'renewCurl.R' 'today.R'
+Packaged: 2012-05-29 19:37:52 UTC; jeroen
+Repository: CRAN
+Date/Publication: 2012-05-30 06:58:08

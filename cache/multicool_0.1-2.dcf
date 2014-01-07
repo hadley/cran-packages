@@ -1,0 +1,12 @@
+Package: multicool
+Title: Permutations of multisets in cool-lex order.
+Version: 0.1-2
+Date: 2013-07-08
+Author: James M. Curran, Aaron Williams, Dave Barber
+Maintainer: James M. Curran <j.curran@auckland.ac.nz>
+Description: A set of tools to permute multisets without loops or hash tables. The permutation functions are based on C code from Aaron Williams. Cool-lex order is similar to colexicographical order. The algorithm is described in Williams, A. Loopless Generation of Multiset Permutations by Prefix Shifts. SODA 2009, Symposium on Discrete Algorithms, New York, United States. The permutation code is distributed without restrictions. The code for stable and efficient computation of multinomial coefficients comes from Dave Barber. The code can be download from http://home.comcast.net/~tamivox/dave/multinomial/index.html and is distributed without conditions.
+License: GPL (>= 2)
+Packaged: 2013-07-07 22:57:33 UTC; curran
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-10 07:33:50

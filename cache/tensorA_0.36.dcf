@@ -1,0 +1,17 @@
+Package: tensorA
+Version: 0.36
+Date: 2008-5-14
+Title: Advanced tensors arithmetic with named indices
+Author: K. Gerald van den Boogaart <boogaart@uni-greifswald.de>
+Maintainer: K. Gerald van den Boogaart <boogaart@math.tu-freiberg.de>
+Depends: R (>= 2.2.0),stats
+Description: The package provides convenience functions for advance
+        linear algebra with tensors and computation with datasets of
+        tensors on a higher level abstraction. It includes Einstein and
+        Riemann summing conventions, dragging, co- and contravariate
+        indices, parallel computations on sequences of tensors.
+License: GPL (>= 2)
+URL: http://www.stat.boogaart.de/tensorA
+Packaged: 2010-12-01 14:54:31 UTC; boogaart
+Repository: CRAN
+Date/Publication: 2010-12-01 15:07:54

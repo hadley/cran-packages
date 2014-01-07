@@ -1,0 +1,23 @@
+Package: phia
+Version: 0.1-5
+Date: 2013-10-12
+Title: Post-Hoc Interaction Analysis
+Authors@R: c(person("Helios", "De Rosario-Martinez", role=c("aut", "cre"), 
+	email="helios.derosario@gmail.com"), 
+	person("John", "Fox", role="ctb"), 
+	person("R Core Team", role="ctb"))
+Description: Analysis of terms in linear, generalized and mixed linear models, 
+	on the basis of multiple comparisons of factor contrasts.  Specially suited 
+	for the analysis of interaction terms.
+Depends: car, graphics, stats
+Suggests: nlme, lme4
+License: GPL (>= 3)
+LazyData: yes
+Packaged: 2013-10-12 00:04:04 UTC; helios
+Author: Helios De Rosario-Martinez [aut, cre],
+  John Fox [ctb],
+  R Core Team [ctb]
+Maintainer: Helios De Rosario-Martinez <helios.derosario@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-12 08:33:11

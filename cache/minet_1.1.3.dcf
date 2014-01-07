@@ -1,0 +1,14 @@
+Package: minet
+Title: Mutual Information Network Inference
+Version: 1.1.3
+Date: 2007
+Author: P.E.Meyer, F.Lafitte, G.Bontempi
+Description: This package implements various algorithms for inferring mutual information networks from data.
+        All the algorithms compute the mutual information matrix in order to infer a network.
+        Several mutual information estimators are implemented.
+Maintainer: P.E.Meyer <pmeyer@ulb.ac.be>
+Depends: R (>= 2.3.0)
+License: GPL (>= 3)
+URL: http://www.ulb.ac.be/di/mlg
+biocViews: Microarray, GraphsAndNetworks
+Packaged: Mon Mar  3 11:50:01 2008; fred

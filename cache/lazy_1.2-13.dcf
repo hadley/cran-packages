@@ -1,0 +1,15 @@
+Package: lazy
+Version: 1.2-13
+Date: $Date: 2003/11/18 15:36:29 $
+Title: Lazy Learning for Local Regression 	
+Author: Mauro Birattari <mbiro@ulb.ac.be> and 
+        Gianluca Bontempi <gbonte@ulb.ac.be> 
+Maintainer: Mauro Birattari <mbiro@ulb.ac.be>
+Description: By combining constant, linear, and quadratic local models,
+  lazy estimates the value of an unknown multivariate function on
+  the basis of a set of possibly noisy samples of the function itself.
+  This implementation of lazy learning automatically adjusts the
+  bandwidth on a query-by-query basis through a leave-one-out
+  cross-validation.
+License: GPL version 2 or newer
+URL: http://iridia.ulb.ac.be/~lazy

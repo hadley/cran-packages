@@ -1,0 +1,24 @@
+Package: Distance
+Maintainer: David Lawrence Miller <dave@ninepointeightone.net>
+License: GPL (>= 2)
+Title: A simple way to fit detection functions to distance sampling
+        data and calculate abundance/density for biological
+        populations.
+LazyLoad: yes
+Author: David L. Miller
+Description: A library that provides a simple way of fitting detection
+    functions to distance sampling data for both line and point transects.
+    Adjustment term selection, left and right truncation as well as
+    monotonicity constraints and binning are supported. Abundance and density
+    estimates can also be calculated if survey area information is provided.
+Version: 0.7.3
+URL: http://github.com/dill/Distance/wiki
+Date: 2013-08-19
+Depends: R (>= 2.10.0), mrds, optimx, Rsolnp
+Suggests: testthat
+Collate: 'ds.R' 'create.bins.R' 'model.description.R' 'plot.dsmodel.R'
+        'print.dsmodel.R' 'print.summary.dsmodel.R' 'summary.dsmodel.R'
+Packaged: 2013-08-19 13:57:58 UTC; dill
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-19 16:37:51

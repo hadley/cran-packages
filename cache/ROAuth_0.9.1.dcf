@@ -1,0 +1,15 @@
+Package: ROAuth
+Title: R interface for OAuth
+Description: This package provides an interface to the OAuth 1.0
+        specification, allowing users to authenticate via OAuth to the
+        server of their choice.
+Version: 0.9.1
+Author: Jeff Gentry <geoffjentry@gmail.com>, Duncan Temple Lang
+        <duncan@r-project.org>
+Maintainer: Jeff Gentry <geoffjentry@gmail.com>
+Depends: R (>= 2.12.0), RCurl (>= 1.6-4), digest, methods
+Imports: methods
+License: Artistic-2.0
+Packaged: 2012-02-20 15:50:32 UTC; gentrj
+Repository: CRAN
+Date/Publication: 2012-02-20 20:06:27

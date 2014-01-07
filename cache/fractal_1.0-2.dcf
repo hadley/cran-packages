@@ -1,0 +1,13 @@
+Package: fractal
+Type: Package
+Title: Insightful Fractal Time Series Modeling and Analysis
+Version: 1.0-2
+Date: 2007-1-01
+Author: William Constantine (Insightful Corporation) and Donald Percival (Applied Physics Laboratory, University of Washington)
+Maintainer: William Constantine <wconstan@insightful.com>
+Depends: R (>= 2.5.1), splus2R (>= 1.0-2), ifultools (>= 1.0-3), sapa (>= 1.0-2), wmtsa (>= 1.0-3), akima, MASS, scatterplot3d
+DependsSplus: ifultools (>= 1.0-2), sapa, wmtsa
+Description: Software to book in development entitled Fractal Time Series Analysis in S-PLUS and R, William Constantine and Donald B. Percival, Springer.
+License: GPL-2
+ZipData: no
+Packaged: Mon Nov 26 18:14:47 2007; wconstan

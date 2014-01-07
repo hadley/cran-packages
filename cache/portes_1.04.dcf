@@ -1,0 +1,21 @@
+Package: portes
+Type: Package
+Title: Portmanteau Tests for ARMA, VARMA, ARCH, and FGN Models
+Version: 1.04
+Date: 2010-09-08
+Author: Esam Mahdi & A. Ian McLeod
+Maintainer: A. Ian McLeod <aim@stats.uwo.ca>
+URL: http://www.stats.uwo.ca/faculty/aim
+Description: This package contains a set of portmanteau diagnostic
+        checks for univariate and multivariate time series.
+Depends: R (>= 2.0.0), FitAR, akima
+Suggests: FGN, snow, rlecuyer
+Recommends: Rmpi
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+License: GPL (>= 2)
+Packaged: 2010-09-09 02:37:13 UTC; aim
+Repository: CRAN
+Date/Publication: 2010-09-09 11:04:41

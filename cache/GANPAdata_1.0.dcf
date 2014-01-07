@@ -1,0 +1,19 @@
+Package: GANPAdata
+Type: Package
+Title: The GANPA Datasets Package
+Version: 1.0
+Date: 2011-05-26
+Author: Zhaoyuan Fang, Weidong Tian and Hongbin Ji
+Maintainer: Zhaoyuan Fang <fangzhaoyuan@sibs.ac.cn>
+Suggests: GANPA
+Description: This is a dataset package for GANPA, which implements a
+        network-based gene weighting approach to pathway analysis. This
+        package includes data useful for GANPA, such as a functional
+        association network, pathways, an expression dataset and
+        multi-subunit proteins.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:06 UTC; ripley
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:06

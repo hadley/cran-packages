@@ -1,0 +1,32 @@
+Package: TraMineR
+Version: 1.6
+Date: 2010-04-02
+Title: Sequences and trajectories mining for social scientists
+Author: Alexis Gabadinho <alexis.gabadinho@unige.ch>, Matthias Studer
+        <matthias.studer@unige.ch>, Nicolas S. Muller
+        <nicolas.muller@unige.ch>, Gilbert Ritschard
+        <gilbert.ritschard@unige.ch>.
+Maintainer: Alexis Gabadinho <alexis.gabadinho@unige.ch>
+Depends: R (>= 2.8.1), RColorBrewer, boot
+Suggests: cluster
+Description: This package is a toolbox for sequence manipulation,
+        description, rendering and more generally sequence data mining
+        in the field of social sciences. Though it is primarily
+        intended for analyzing state or event sequences that describe
+        life courses such as family formation histories or professional
+        careers its features apply indeed also to many other kinds of
+        categorical sequence data. It accepts as input many different
+        sequence representations and provides tools for translating
+        sequences from one format to another. It offers several
+        statistical functions for describing and rendering sequences,
+        for computing distances between sequences with different
+        metrics among which optimal matching, the longest common prefix
+        and the longest common subsequence, and simple functions for
+        extracting the most frequent subsequences and identifying the
+        most discriminating ones among them. A user's guide can be
+        found on TraMineR's web page.
+License: GPL (>= 2)
+URL: http://mephisto.unige.ch/traminer
+Packaged: 2010-04-02 12:06:04 UTC; gabuntu
+Repository: CRAN
+Date/Publication: 2010-04-02 17:05:53

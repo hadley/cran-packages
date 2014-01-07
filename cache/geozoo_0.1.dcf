@@ -1,0 +1,12 @@
+Package: geozoo
+Version: 0.1
+Date: 2008-12-25
+Title: Zoo of Geometric Objects
+Description: The package allows geometric objects defined in geozoo to be displayed in GGobi through the use of rggobi.
+Author: Barret Scloerke <bigbear1711@iastate.edu>, with
+  contributions from Dianne Cook <dicook@iastate.edu> and Hadley Wickham <h.wickham@gmail.com>.
+Maintainer: Barret Scloerke <bigbear1711@iastate.edu>
+Depends: R (>= 1.8.0), rggobi, bitops
+License: GPL-2
+URL: http://streaming.stat.iastate.edu/~dicook/geometric-data/, http://www.ggobi.org
+Packaged: Fri Jan 11 19:47:55 2008; hornik

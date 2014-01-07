@@ -1,0 +1,18 @@
+Package: infutil
+Version: 0.9
+Date: 2012-05-29
+Title: Information Utility
+Authors@R: person(given="Kristian", family="Markon", middle="E.", role
+        = c("aut", "cre"), email = "kristian-markon@uiowa.edu")
+Author: Kristian E. Markon
+Maintainer: Kristian E. Markon <kristian-markon@uiowa.edu>
+Depends: ltm
+Enhances: MASS
+Description: Calculation of information utility (i.e., Lindley
+        information) quantities for item response models.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://www.psychology.uiowa.edu/faculty/markon
+Packaged: 2012-07-21 01:37:11 UTC; merkri
+Repository: CRAN
+Date/Publication: 2012-07-22 06:20:18

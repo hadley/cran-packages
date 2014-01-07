@@ -1,0 +1,16 @@
+Package: OptInterim
+Type: Package
+Title: Optimal Two and Three Stage Designs for Single-Arm and Two-Arm
+        Randomized Controlled Trials with a Long-Term Binary Endpoint
+Version: 3.0.1
+Date: 2012-9-30
+Author: Bo Huang <bo.huang@pfizer.com> and Neal Thomas
+        <neal.thomas@pfizer.com>
+Maintainer: Bo Huang <bo.huang@pfizer.com>
+Description: Optimal two and three stage designs monitoring
+        time-to-event endpoints at a specified timepoint
+Depends: mvtnorm, clinfun, stats, graphics, R (>= 2.14.1)
+License: GPL (>= 2)
+Packaged: 2012-12-12 03:50:13 UTC; ThomasN
+Repository: CRAN
+Date/Publication: 2012-12-12 20:39:06

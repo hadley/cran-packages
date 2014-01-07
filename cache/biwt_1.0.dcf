@@ -1,0 +1,16 @@
+Package: biwt
+Type: Package
+Title: Functions to compute the biweight mean vector and covariance &
+        correlation matrices
+Version: 1.0
+Date: 2009-08-11
+Author: Jo Hardin <jo.hardin@pomona.edu>
+Maintainer: Jo Hardin <jo.hardin@pomona.edu>
+Depends: R (>= 2.1.0), rrcov, MASS
+Description: Compute multivariate location, scale, and correlation
+        estimates based on Tukey's biweight M-estimator.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:19 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:19

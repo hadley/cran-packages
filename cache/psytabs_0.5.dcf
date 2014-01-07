@@ -1,0 +1,14 @@
+Package: psytabs
+Type: Package
+Title: Produce well-formatted tables for psychological research
+Version: 0.5
+Date: 2012-12-28
+Author: Johannes Beller, Soeren Kliem
+Maintainer: Johannes Beller <johannesbeller@gmail.com>
+Depends: psych, plyr, rtf, R2HTML, mokken, lavaan, semTools
+Description: Psytabs produces well-formatted tables in .rtf or .html,
+        which largely conform to "psychological style".
+License: GPL-2
+Packaged: 2012-12-29 06:16:13 UTC; jb
+Repository: CRAN
+Date/Publication: 2012-12-29 07:30:22

@@ -1,0 +1,17 @@
+Package: genomicper
+Title: Circular Genomic Permutation using GWAS p-values of association
+Version: 1.3
+Date: 2012-05-29
+Author: Claudia P.Cabrera-Cardenas,Pau Navarro,Chris S.Haley
+Maintainer: Claudia Cabrera <claudia.cabrera@ed.ac.uk>
+Description: Circular genomic permutation approach uses GWAS results to
+        establish the significance of pathway/gene-set associations
+        whilst accounting for genomic structure. All SNPs in the GWAS
+        are placed in a 'circular genome' according to their location.
+        Then the complete set of SNP association p-values are permuted
+        by rotation with respect to the SNPs' genomic locations
+License: GPL-2
+Packaged: 2012-05-29 17:20:51 UTC; user
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2012-05-29 20:09:53

@@ -1,0 +1,16 @@
+Package: fracdiff
+Version: 1.4-1
+Date: 2012-03-21
+Title: Fractionally differenced ARIMA aka ARFIMA(p,d,q) models
+Author: S original by Chris Fraley, U.Washington, Seattle.  R port by
+        Fritz Leisch at TU-Wien; since 2003-12: Martin Maechler;
+        fdGPH(), fdSperio(), etc by Valderio Reisen and Artur Lemonte.
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Maximum likelihood estimation of the parameters of a
+        fractionally differenced ARIMA(p,d,q) model (Haslett and
+        Raftery, Appl.Statistics, 1989).
+Suggests: longmemo, urca
+License: GPL (>= 2)
+Packaged: 2012-03-21 11:02:28 UTC; maechler
+Repository: CRAN
+Date/Publication: 2012-03-22 08:33:14

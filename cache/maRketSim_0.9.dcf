@@ -1,0 +1,21 @@
+Package: maRketSim
+Type: Package
+Title: Market simulator for R
+Version: 0.9
+Date: 2010-9-11
+Author: Ari Friedman
+Maintainer: Ari Friedman <abfriedman@gmail.com>
+Description: maRketSim is a market simulator for R.  It was initially
+        designed around the bond market, with plans to expand to
+        stocks.  maRketSim is built around the idea of portfolios of
+        fundmantal objects.  Therefore it is slow in its current
+        incarnation, but allows you the flexibility of seeing exactly
+        what is in your final results, since the objects are retained.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Suggests: taRifx
+Depends: R (>= 2.12.0)
+Packaged: 2012-10-29 08:59:08 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:08

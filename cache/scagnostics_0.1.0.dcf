@@ -1,0 +1,13 @@
+Package: scagnostics
+Type: Package
+Title: Compute scagnostics.
+Version: 0.1.0
+Date: 2006-09-29
+Author: Heike Hofmann, <hofmann@iastate.edu>, Lee Wilkinson <leland@spss.com>,  Hadley Wickham <h.wickham@gmail.com>, Duncan Temple Lang, Anushka Anand
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: Calculates Tukey's scagnostics.  Scagnostics describe various measures of interest for pairs of variables, based on their appearance on a scatterplot.  They are useful tool for weeding out interesting or unusual scatterplots from a scatterplot matrix, without having to look at ever individual plot.
+Depends: R
+Suggests: rggobi
+LazyData: yes
+License: GPL
+Packaged: Fri Jun 29 17:34:17 2007; hadley

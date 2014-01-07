@@ -1,0 +1,14 @@
+Package: CondReg
+Title: Condition Number Regularized Covariance Estimation
+Version: 0.16
+Author: Sang-Yun Oh <sangoh@stanford.edu>, Bala Rajaratnam
+        <brajarat@stanford.edu>, Joong-Ho Won <wonj@korea.ac.kr>
+Maintainer: Sang-Yun Oh <sangoh@stanford.edu>
+Description: Based on
+        \url{http://statistics.stanford.edu/~ckirby/techreports/GEN/2012/2012-10.pdf}
+License: GPL-3
+Collate: 'condreg.R'
+Packaged: 2013-03-23 16:09:53 UTC; sangoh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-23 20:29:30

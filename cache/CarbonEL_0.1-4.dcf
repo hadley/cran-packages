@@ -1,0 +1,15 @@
+Package: CarbonEL
+Version: 0.1-4
+Title: Carbon Event Loop
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: R (>= 2.0.0), grDevices
+Description: This package hooks a Carbon event loop handler into R.
+        This is useful for enabling UI from a console R (such as using
+        the Quartz device from Terminal or ESS).
+License: GPL-2
+URL: http://www.rforge.net/CarbonEL/
+SystemRequirements: Mac OS X
+Repository: CRAN
+Date/Publication: 2012-10-29 08:56:52
+Packaged: 2012-10-29 08:56:52 UTC; ripley

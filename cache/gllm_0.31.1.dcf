@@ -1,0 +1,12 @@
+Package: gllm
+Version: 0.31.1
+Date: 2009-03-01
+Title: Generalised log-linear model
+Author: David Duffy <davidD@qimr.edu.au>
+Maintainer: ORPHANED
+Depends: R (>= 0.99)
+Description: Routines for log-linear models of incomplete contingency tables,
+             including some latent class models, via EM and Fisher scoring
+             approaches.  Allows bootstrapping.
+License: GPL2 save AS207 where JRSS
+Packaged: Sun Mar  1 12:30:14 2009; hornik

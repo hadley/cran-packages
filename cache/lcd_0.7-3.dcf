@@ -1,0 +1,17 @@
+Package: lcd
+Type: Package
+Title: Learn Chain graphs via Decomposition
+Version: 0.7-3
+Date: 2012-11-09
+Author: Zongming Ma and Xiangrui Meng
+Maintainer: Zongming Ma <zongming.ma@gmail.com>
+Depends: R(>= 2.12.0), igraph, methods
+Imports: MASS, ggm
+Description: Functions for learning chain graphs (and as a special
+        case, Bayesian networks) via the decomposition approach.
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+Packaged: 2012-11-11 00:37:20 UTC; zongming
+Repository: CRAN
+Date/Publication: 2012-11-11 14:15:12

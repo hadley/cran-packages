@@ -1,0 +1,18 @@
+Package: HW.pval
+Type: Package
+Title: Testing Hardy-Weinberg Equilibrium for Multiallelic Genes
+Version: 1.0
+Date: 2012-06-22
+Author: Shubhodeep Mukherji <deep.mukherji@utexas.edu>
+Maintainer: Shubhodeep Mukherji <deep.mukherji@utexas.edu>
+Description: HW.pval calculates plain and fully conditional
+        root-mean-square, chi-square, and log likelihood-ratio P-values
+        for the user-provided genotypic counts to be consistent with
+        the Hardy-Weinberg equilibrium model.  For further information
+        on the Hardy-Weinberg equilibrium model and the pseudocode,
+        refer to the paper "Testing Hardy-Weinberg equilibrium with a
+        simple root-mean-square statistic" by Rachel Ward.
+License: GPL-3
+Packaged: 2012-06-22 07:15:03 UTC; smukherji
+Repository: CRAN
+Date/Publication: 2012-07-11 12:43:08

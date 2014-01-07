@@ -1,0 +1,18 @@
+Package: PTAk
+Version: 1.2-3
+Date: 2010-07-31
+Title: Principal Tensor Analysis on k modes
+Author: Didier Leibovici <didier.leibovici@nottingham.ac.uk>
+Maintainer: Didier Leibovici <c3s2i@free.fr>
+Depends: tensor
+Description: A multiway method to decompose a tensor (array) of any
+        order, as a generalisation of SVD also supporting non-identity
+        metrics and penalisations. 2-way SVD with these extensions is
+        also available. The package includes also some other multiway
+        methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with these
+        extensions.
+License: GPL (>= 2)
+URL: http://c3s2i.free.fr/
+Packaged: 2010-08-01 15:02:06 UTC; user
+Repository: CRAN
+Date/Publication: 2010-08-01 16:52:38

@@ -1,0 +1,11 @@
+Package: EMCC
+Type: Package
+Title: Evolutionary Monte Carlo (EMC) methods for clustering
+Version: 1.0
+Date: 2008-02-06
+Author: Gopi Goswami <goswami@stat.harvard.edu>
+Maintainer: Gopi Goswami <grgoswami@gmail.com>
+Depends: R (>= 1.9.0), MASS, mclust, EMC
+Description: evolutionary Monte Carlo methods for clustering, temperature ladder construction and placement
+License: GPL (>= 2)
+Packaged: Wed Feb  6 00:40:41 2008; gopi

@@ -1,0 +1,10 @@
+Package: AnalyzeFMRI
+Version: 1.0-0
+Date: 2001-10-08
+Title: Functions for analysis of fMRI datasets stored in the ANALYZE format.
+Author: J L Marchini <marchini@stats.ox.ac.uk>
+Maintainer: J L Marchini <marchini@stats.ox.ac.uk>
+Description: Functions for I/O, visualisation and analysis of functional Magnetic Resonance Imaging (fMRI) datasets stored in the ANALYZE format.
+License: GPL (version 2 or later)
+Depends: tcltk 
+URL: http://www.stats.ox.ac.uk/~marchini/software.html

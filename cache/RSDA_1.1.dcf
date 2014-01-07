@@ -1,0 +1,21 @@
+Package: RSDA
+Type: Package
+Title: RSDA - R to Symbolic Data Analysis
+Version: 1.1
+Date: 2013-06-29
+Author: Oldemar Rodriguez R. with contributions from Johnny Villalobos
+        M.
+Maintainer: Oldemar Rodriguez <oldemar.rodriguez@ucr.ac.cr>
+Description: Symbolic Data Analysis (SDA) was proposed by professor
+        Edwin DIDAY in 1987, the main purpose of SDA is to substitute
+        the set of rows (cases) in the data table for a concept (second
+        order statistical unit). This package implements, to the
+        symbolic case, certain techniques of automatic classification,
+        as well as some linear models.
+License: GPL (>= 2)
+Depends: R (>= 2.10), abind, RODBC, glmnet, ggplot2, scales,
+        scatterplot3d, FactoMineR
+Packaged: 2013-06-30 02:08:14 UTC; oldemarrodriguez
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-30 07:28:56

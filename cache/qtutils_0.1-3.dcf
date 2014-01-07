@@ -1,0 +1,15 @@
+Package: qtutils
+Version: 0.1-3
+Title: Miscellaneous Qt-based utilities
+Author: Deepayan Sarkar
+Depends: R (>= 2.14.0), qtbase
+Suggests: xtable
+Imports: qtbase
+LinkingTo: qtbase
+Maintainer: Deepayan Sarkar <deepayan.sarkar@gmail.com>
+Description: Miscellaneous Qt-based tools for R
+URL: http://qtinterfaces.r-forge.r-project.org
+License: LGPL (>= 2)
+Packaged: 2012-05-23 07:25:12 UTC; deepayan
+Repository: CRAN
+Date/Publication: 2012-05-23 09:38:51

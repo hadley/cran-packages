@@ -1,0 +1,23 @@
+Encoding: UTF-8
+Package: RSA
+Type: Package
+Title: Response surface analyses
+Version: 0.4
+Date: 2013-02-07
+Author: Felix Schönbrodt
+Maintainer: Felix Schönbrodt <felix@nicebread.de>
+Description: Advanced response surface analyses. The function compares
+        several nested models (full polynomial, shifted and rotated
+        squared differences, shifted squared differences, basic squared
+        differenceds). Provides plotting functions for wireframe
+        surface, interactive 3d, and contour plots.  Calculates many
+        surface parameters and provides standard, robust, or
+        bootstrapped SEs and confidence intervals for them.
+Depends: lavaan (>= 0.5.11), plyr, ggplot2, lattice, gridExtra,
+        tkrplot, RColorBrewer, rgl
+License: GPL (>= 2)
+Collate: 'RSA.R' 'RSA.ST.R' 'demoRSA.R' 'helpers.R' 'plot.RSA.R'
+        'compare.R' 'print.RSA.R' 'getPar.R' 'bootRSA.R'
+Packaged: 2013-02-07 14:02:52 UTC; Felix
+Repository: CRAN
+Date/Publication: 2013-02-07 15:53:09

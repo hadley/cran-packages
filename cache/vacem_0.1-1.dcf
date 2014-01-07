@@ -1,0 +1,18 @@
+Package: vacem
+Version: 0.1-1
+Date: 2012-01-30
+Title: Vaccination Activities Coverage Estimation Model
+Description: A likelihood framework for estimating the effective
+        coverage of vaccination programs using cross-sectional surveys
+        combined with administrative data.
+Author: Justin Lessler <jlessler@jhsph.edu>, Jessica Metcalf
+        <cmetcalf@@princeton.edu>
+Maintainer: Ken Cline <kcline@jhsph.edu>
+Depends: foreach
+Suggests: RUnit
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'vacem.r' 'coverage.r' 'analysis.r' 'sample.r'
+Packaged: 2012-01-31 05:06:12 UTC; kcline
+Repository: CRAN
+Date/Publication: 2012-01-31 06:39:02

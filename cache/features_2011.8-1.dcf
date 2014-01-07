@@ -1,0 +1,22 @@
+Package: features
+Type: Package
+Title: Feature Extraction for Discretely-Sampled Functional Data
+Description: Discretely-sampled function is first smoothed.  Features
+        of the smoothed function are then extracted.  Some of the key
+        features include mean value, first and second derivatives,
+        critical points (i.e. local maxima and minima), curvature of
+        cunction at critical points, wiggliness of the function, noise
+        in data, and outliers in data.
+Depends: lokern
+Version: 2011.8-1
+Date: 2011-08-04
+Author: Ravi Varadhan, Johns Hopkins University, and MKG Subramaniam,
+        AT&T Reserach Labs.
+Maintainer: Ravi Varadhan <rvaradhan@jhmi.edu>
+URL:
+        http://www.jhsph.edu/agingandhealth/People/Faculty_personal_pages/Varadhan.html
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-08-13 13:04:41
+Packaged: 2011-08-12 21:37:48 UTC; rvaradh1

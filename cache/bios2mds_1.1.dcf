@@ -1,0 +1,18 @@
+Package: bios2mds
+Title: From BIOlogical Sequences to MultiDimensional Scaling
+Version: 1.1
+Date: 2011-07-12
+Author: Julien Pele with Jean-Michel Becu, Herve Abdi, and Marie
+        Chabbert
+Maintainer: Marie Chabbert <marie.chabbert@univ-angers.fr>
+Depends: R (>= 2.0), gtools, amap, e1071, ggplot2, cluster, rgl
+Description: Bios2mds is primarily dedicated to the analysis of
+        biological sequences by metric MultiDimensional Scaling with
+        projection of supplementary data. It contains functions for
+        reading multiple sequence alignment files, calculating distance
+        matrices, performing metric multidimensional scaling and
+        visualizing results.
+License: GPL
+Repository: CRAN
+Packaged: 2011-07-12 15:19:35 UTC; becu
+Date/Publication: 2011-07-23 13:50:13

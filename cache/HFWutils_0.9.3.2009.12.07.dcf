@@ -1,0 +1,18 @@
+Package: HFWutils
+Version: 0.9.3.2009.12.07
+Date: 2009-12-07
+Title: csv import, csv export, garbage collection,string matching and
+        passing by reference
+Author: Felix Wittmann <hfwittmann@gmail.com>
+Maintainer: Felix Wittmann <hfwittmann@gmail.com>
+LazyLoad: yes
+ZipData: no
+Depends: R (>= 2.7.0),debug,grDevices,methods,R.oo
+Description: package containing functions for convenient csv import and
+        export with a view of using R as a calculation back end to
+        spreadsheet-like programs such as scalc in open office; string
+        matching and passing by reference
+License: GPL (>= 2)
+Packaged: 2009-12-07 21:50:02 UTC; felix40
+Repository: CRAN
+Date/Publication: 2009-12-09 09:42:04

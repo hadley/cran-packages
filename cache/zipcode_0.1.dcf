@@ -1,0 +1,18 @@
+Package: zipcode
+Maintainer: Jeffrey Breen <jbreen@cloudsmiths.com>
+Author: Jeffrey Breen <jbreen@cloudsmiths.com>
+Version: 0.1
+License: file LICENSE
+Title: U.S. ZIP Code database
+Description: This package contains the "CivicSpace US ZIP Code
+        Database" by Schuyler Erle, August 2004 as a data.frame.
+        Believed to contain over 98% of U.S. ZIP Codes as of 2004 The
+        source data is available in CSV from
+        \url{http://www.boutell.com/zipcodes/} and
+        \url{http://mappinghacks.com/data/} and has been released under
+        the Creative Commons Share-Alike license. What little code is
+        included in this package to clean up suspect ZIP codes is
+        released under GPL-2.
+Packaged: 2011-01-03 21:07:08 UTC; jbreen
+Repository: CRAN
+Date/Publication: 2011-01-05 08:42:19

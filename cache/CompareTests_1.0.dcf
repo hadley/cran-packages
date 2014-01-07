@@ -1,0 +1,25 @@
+Package: CompareTests
+Type: Package
+Title: Estimate diagnostic accuracy (sensitivity, specificity, etc) and
+        agreement statistics when one test is conducted on only a
+        subsample of specimens
+Version: 1.0
+Date: 2011-03-30
+Author: Hormuzd A. Katki and David W. Edelstein
+Maintainer: Hormuzd Katki <katkih@mail.nih.gov>
+Description: A standard test is observed on all specimens.  We treat
+        the second test (or sampled test) as being conducted on only a
+        stratified sample of specimens.  We treat the total sample as
+        stratified two-phase sampling and use inverse probability
+        weighting.  We estimate diagnostic accuracy (category-specific
+        classification probabilities; for binary tests reduces to
+        specificity and sensitivity) and agreement statistics (percent
+        agreement, percent agreement by category, Kappa (unweighted),
+        and symmetry tests (reduces to McNemar's test for binary
+        tests)).
+License: GPL-3
+LazyLoad: yes
+URL: http://dceg.cancer.gov/about/staff-bios/katki-hormuzd
+Packaged: 2012-10-29 08:56:53 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:56:53

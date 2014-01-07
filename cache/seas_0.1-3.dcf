@@ -1,0 +1,20 @@
+Package: seas
+Type: Package
+Version: 0.1-3
+Date: 2006-03-03
+Title: Seasonal statistics, analysis and graphics, especially for climatology
+Author: M.W. Toews
+Maintainer: M.W. Toews <mwtoews@sfu.ca>
+Suggests: 
+ZipData: no
+Description: Capable of deriving seasonal statistics, such as "normals", and
+  analysis of  seasonal data, such as departures. This package also has
+  graphics capabilities for representing seasonal data, including boxplots for
+  seasonal parameters, and bars for summed normals. There are many specific
+  functions related to climatology, including precipitation normals,
+  temperature normals, degree days and precipitation interarrivals. However,
+  this package is designed to represent any time-varying parameter with a
+  discernible seasonal signal, such as found in hydrology and ecology.
+License: BSD
+URL: http://www.sfu.ca/~mwtoews/
+Packaged: Tue Mar 14 22:17:46 2006; mwtoews

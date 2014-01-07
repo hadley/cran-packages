@@ -1,0 +1,24 @@
+Package: sdnet
+Title: Soft Discretization-based Bayesian Network Inference
+Version: 1.01.2
+Author: Nikolay Balov
+Description: Fitting discrete Bayesian networks using marginal mixture
+        distributions
+Maintainer: Nikolay Balov <nikolay_balov@urmc.rochester.edu>
+License: GPL (>= 2)
+Depends: R (>= 2.10.0), methods
+Imports: methods, stats, tools, utils
+Suggests:
+Collate: catnet.class.R catnet.def.R graph2catnet.R catnet.dags.R
+        catnet.probs.R catnet.joint.prob.R catnet.marginal.prob.R
+        catnet.samples.R catnet.loglik.R catnet.entropy.R
+        catnet.categor.R catnet.dist.R catnet.plot.R catnet.find.R
+        catnet.search.R catnet.eval.R catnet.predict.R catnet.chisq.R
+        catnet.histo.R catnet.cluster.R catnet.bif.R catnet.xdsl.R
+        catnet.quant.R expres.r zzz.R
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2012-09-14 17:01:07
+URL: http://rwiki.sciviews.org/doku.php?id=packages:cran:catnet,
+http: //www.otherurl.org
+Packaged: 2012-09-13 21:11:44 UTC; root

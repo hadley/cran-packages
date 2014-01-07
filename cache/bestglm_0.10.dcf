@@ -1,0 +1,19 @@
+Package: bestglm
+Type: Package
+Title: Best Subset GLM
+Version: 0.10
+Date: 2009-08-26
+Author: A.I. McLeod and Changjiang Xu
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.0.0), leaps
+Suggests: xtable
+Description: Best subset glm using AIC, BIC, EBIC, BICq or
+        Cross-Validation. For the normal case, the 'leaps' is used.
+        Otherwise, a slower exhaustive search. The 'xtable' package is
+        needed for vignette 'SimExperimentBICq.Rnw' accompanying this
+        package.
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2009-08-26 21:27:16 UTC; aim
+Repository: CRAN
+Date/Publication: 2009-08-27 07:37:30

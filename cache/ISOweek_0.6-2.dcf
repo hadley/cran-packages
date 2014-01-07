@@ -1,0 +1,21 @@
+Package: ISOweek
+Type: Package
+Title: Week of the year and weekday according to ISO 8601
+Version: 0.6-2
+Date: 2011-09-07
+Author: Uwe Block <u.block.mz@googlemail.com>, using an algorithm by
+        Hatto von Hatzfeld <hatto@salesianer.de>
+Maintainer: Uwe Block <u.block.mz@googlemail.com>
+Imports: stringr
+Suggests: testthat
+Description: This is an substitute for the %V and %u formats which are
+        not implemented on Windows. In addition, the package offers
+        functions to convert from standard calender format yyyy-mm-dd
+        to and from ISO 8601 week format yyyy-Www-d.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'ISOweek.R' 'ISOweekday.R' 'date2ISOweek.R' 'ISOweek2date.R'
+        'ISOweek-internal.R'
+Packaged: 2011-09-07 06:45:51 UTC; Uwe
+Repository: CRAN
+Date/Publication: 2011-09-07 07:25:10

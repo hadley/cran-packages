@@ -1,0 +1,24 @@
+Package: logconcens
+Type: Package
+Title: Maximum likelihood estimation of a log-concave density based on
+        censored data
+Version: 0.11-2
+Date: 2011-10-17
+Author: Dominic Schuhmacher <schuhmacher@stat.unibe.ch>, Kaspar
+        Rufibach <kaspar.rufibach@gmail.com>, Lutz Duembgen
+        <duembgen@stat.unibe.ch>
+Maintainer: Dominic Schuhmacher <schuhmacher@stat.unibe.ch>
+Depends: R (>= 2.10.0), base, methods, utils, grDevices, graphics,
+        stats
+Suggests: logcondens
+Description: Based on right or interval censored data, compute the
+        maximum likelihood estimator of a density under the assumption
+        that it is log-concave. For further information see Duembgen,
+        Schuhmacher, and Rufibach (2011, preprint).
+License: GPL (>= 2)
+URL: http://www.dominic.schuhmacher.name http://www.kasparrufibach.ch
+        http://www.staff.unibe.ch/duembgen
+LazyLoad: yes
+Packaged: 2011-10-18 07:10:58 UTC; schumi
+Repository: CRAN
+Date/Publication: 2011-10-18 10:50:17

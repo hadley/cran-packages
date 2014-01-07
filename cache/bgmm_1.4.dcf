@@ -1,0 +1,16 @@
+Package: bgmm
+Type: Package
+Title: Gaussian Mixture Modeling algorithms. Including the belief-based
+        mixture modeling.
+Version: 1.4
+Date: 2011-12-06
+Author: Przemyslaw Biecek \& Ewa Szczurek
+Description: 
+Reference:
+Maintainer: Przemyslaw Biecek <P.Biecek@mimuw.edu.pl>
+Depends: R (>= 2.0), mvtnorm, car, lattice, combinat
+URL: http://bgmm.molgen.mpg.de/
+License: GPL-3
+Repository: CRAN
+Packaged: 2011-12-07 09:59:46 UTC; cogito
+Date/Publication: 2011-12-07 10:52:19

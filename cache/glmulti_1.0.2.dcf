@@ -1,0 +1,21 @@
+Package: glmulti
+Version: 1.0.2
+Date: 2011-07-15
+Title: GLM model selection and multimodel inference made easy
+Author: Vincent Calcagno <vincent.calcagno@mcgill.ca>
+Maintainer: Vincent Calcagno <vincent.calcagno@mcgill.ca>
+Depends: R (>= 2.5.0), rJava (>= 0.5-0), methods
+SystemRequirements: Java (>= 5.0)
+Suggests: MASS, aod, lme4, pscl, leaps, survival
+Description: Automated model selection and model-averaging. Provides a
+        wrapper for glm and similar functions, automatically generating
+        all possible models (under constraints set by the user) with
+        the specified response and explanatory variables, and finding
+        the best models in terms of some Information Criterion (AIC,
+        AICc or BIC). Can handle very large numbers of candidate
+        models. Features a Genetic Algorithm to find the best models
+        when an exhaustive screening of the candidates is not feasible.
+License: GPL (>= 2)
+Packaged: 2011-07-28 16:44:27 UTC; cvince
+Repository: CRAN
+Date/Publication: 2011-07-29 05:23:42

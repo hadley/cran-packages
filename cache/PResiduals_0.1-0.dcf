@@ -1,0 +1,18 @@
+Package: PResiduals
+Type: Package
+Title: Probability scale residuals and residual correlations.
+Version: 0.1-0
+Date: 2013-01-15
+Author: Charles Dupont, Chun Li, Bryan Shepherd
+Maintainer: Charles Dupont <charles.dupont@vanderbilt.edu>
+Description: Computes probability scale residuals adn residual
+        correlations for continuous, ordinal, binary, count, and
+        time-to-event data (currently only implements ordinal data).
+Imports: Formula
+License: GPL (>= 2)
+Collate: 'GKGamma.R' 'diagn.R' 'newPolr.R' 'pgumbel.R' 'cobot.R'
+        'print.cobot.R' 'PResiduals-package.R'
+Packaged: 2013-03-14 13:42:26 UTC; dupontct
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-14 17:33:48

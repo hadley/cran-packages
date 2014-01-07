@@ -1,0 +1,15 @@
+Package: gitter
+Type: Package
+Title: Robust and accurate quantification of pinned colony sizes in
+        microorganisms
+Version: 1.0.2
+Date: 2013-04-18
+Author: Omar Wagih, Leopold Parts
+Maintainer: Omar Wagih <omar.wagih@utoronto.ca>
+Description: gitter is a image analysis package for R. Its primary goal is to allow users to robustly and quickly grid and quantify biological images of pinned colonies. It includes several image pre-processing techniques, such as autorotation of plates, noise removal, contrast adjustment and image resizing.
+License: LGPL
+Imports: jpeg, logging, parallel, PET, ggplot2, EBImage
+Packaged: 2013-08-25 17:29:12 UTC; omarwagih
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-25 20:00:07

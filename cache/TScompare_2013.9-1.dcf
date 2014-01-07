@@ -1,0 +1,20 @@
+Package: TScompare
+Version: 2013.9-1
+Title: TSdbi Comparison
+Description: Utilities for comparing the equality of series on two databases.
+	Comprehensive examples of all the TS* packages is provided in the
+	vignette Guide.pdf with the TSdata package.
+Depends: R (>= 2.10.0), TSdbi (>= 2013.9-1)
+Imports: tframe, tfplot
+Suggests: tframePlus, TSsql, TSMySQL, TSSQLite, TShistQuote
+Enhances: TSPostgreSQL, TSodbc, TSfame, TSgetSymbol
+BuildVignettes: true
+License: GPL-2
+Copyright: 2007-2011 Bank of Canada.  2012-2013 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Packaged: 2013-09-25 14:36:08 UTC; paul
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-29 18:08:37

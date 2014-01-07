@@ -1,0 +1,15 @@
+Package: symbols
+Type: Package
+Title: Symbol plots
+Version: 1.1
+Date: 2009-11-28
+Author: Jaroslav Myslivec <jaroslav.myslivec@upce.cz>
+Maintainer: Jaroslav Myslivec <jaroslav.myslivec@upce.cz>
+Depends: R (>= 2.9.1), shape
+Description: Package that implements various symbol plots (bars,
+        profiles, stars, Chernoff faces, color icons, stick figures).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:54 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:54

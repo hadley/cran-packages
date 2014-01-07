@@ -1,0 +1,22 @@
+Package: bsml
+Version: 1.5-0
+Date: 2011-05-11
+Title: Basis Selection from Multiple Libraries
+Author: Junqing Wu <wjqpu@yahoo.com>, Jeff Sklar <jsklar@calpoly.edu>,
+        Yuedong Wang <yuedong@pstat.ucsb.edu>, Wendy Meiring
+        <meiring@pstat.ucsb.edu>
+Maintainer: Junqing Wu <wjqpu@yahoo.com>
+Depends: R (>= 2.5.1)
+Suggests: assist, nlme, leaps
+Description: BSML stands for Basis Selection from Multiple Libraries
+        and it is a methodology for spatially-adaptive multivariate
+        regression. To fit a nonparametric or semiparametric regression
+        model, multiple libraries may be used to approximate the mean
+        function. The program will adaptively select basis functions
+        from each library and find the optimal model complexity by
+        using the Generalized Degrees of Freedom or Covariance Penalty.
+License: GPL (>= 2)
+URL: http://www.pstat.ucsb.edu/faculty/yuedong/software.html
+Packaged: Fri May 13 12:15:05 2011; wuj
+Repository: CRAN
+Date/Publication: 2011-05-15 07:29:24

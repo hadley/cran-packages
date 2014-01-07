@@ -1,0 +1,16 @@
+Package: OpenMPController
+Version: 0.1-1
+Date: 2013-05-10
+Author: Simon Guest <simon.guest@agresearch.co.nz>
+Maintainer: Simon Guest <simon.guest@agresearch.co.nz>
+Title: Control number of OpenMP threads dynamically
+Description: The OpenMPController package provides a function
+        'omp_set_num_threads()' to set the number of OpenMP threads to
+        be used.  This may be useful, for example, when linking against
+        a vendor optimised BLAS/LAPACK library (e.g. the AMD Core Math
+        Library), since the defaults used by those libraries may not be
+        highly performant.
+License: GPL-2
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-10 18:38:13

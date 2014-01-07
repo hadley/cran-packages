@@ -1,0 +1,23 @@
+Package: timetools
+Type: Package
+Title: provides objects and tools to manipulate irregular unhomogeneous
+        time data and subtime data.
+Version: 1.1-2
+Date: 2012-04-25
+Depends: methods
+Author: Vladislav Navel
+Maintainer: Vladislav Navel <vnavel@yahoo.fr>
+Description: This package is intended to manipulate irregular time
+        series such as subtime series, series based on time intervals,
+        etc. This package uses only POSIX* format. Main things defined
+        in this package are the classes POSIXcti, POSIXctp,
+        TimeIntervalDataFrame, TimeInstantDataFrame, SubtimeDataFrame,
+        methods to switch from one class to another and the
+        changeSupport method for TimeIntervalDataFrame.
+License: GPL
+LazyLoad: yes
+URL: http://sourceforge.net/projects/timetools/
+Encoding: UTF-8
+Packaged: 2012-04-25 08:43:47 UTC; vladislav
+Repository: CRAN
+Date/Publication: 2012-04-25 11:06:54

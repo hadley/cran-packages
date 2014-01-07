@@ -1,0 +1,20 @@
+Package: antitrust
+Type: Package
+Title: Antitrust Library
+Version: 0.9
+Date: 2012-10-10
+Author: Michael Sandfort and Charles Taragin
+Maintainer: Charles Taragin <charles.taragin@usdoj.gov>
+Depends: R (>= 2.15.0), methods, nleqslv, numDeriv
+Description: A collection of tools for antitrust practitioners,
+        including the ability to calibrate different consumer demand
+        systems and simulate the effects mergers under different
+        competitive regimes.
+License: Unlimited
+LazyLoad: yes
+Collate: Antitrust.R Bertrand.R logit.R linear.R loglin.R logitALM.R
+        logitNests.R logitCap.R ces.R cesNests.R aids.R pcaids.R
+        pcaidsNests.R cmcr.R upp.R hhi.R sim.R
+Packaged: 2012-10-23 13:12:59 UTC; taragic
+Repository: CRAN
+Date/Publication: 2012-10-23 13:44:26

@@ -1,0 +1,15 @@
+Package: h5r
+Type: Package
+Title: Interface to HDF5 Files
+Version: 1.4.5
+Date: 2011-09-19
+Author: James Bullard
+Maintainer: James Bullard <jbullard@pacificbiosciences.com>
+Depends: R (>= 2.10.0), methods
+Imports: utils, methods
+Description: A package for reading and writing HDF5 files.
+License: LGPL
+Packaged: 2013-06-18 17:05:08 UTC; jbullard
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-19 00:36:07

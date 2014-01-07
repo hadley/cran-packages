@@ -1,0 +1,25 @@
+Package: CDM
+Type: Package
+Title: Cognitive Diagnosis Modeling
+Version: 1.1-0
+Date: 2012-07-27
+Authors@R: c(person("Alexander", "Robitzsch", role = c("aut", "cre"),
+        email = "a.robitzsch@bifie.at"), person("Thomas", "Kiefer",
+        role = "aut"), person("Ann Cathrice", "George", role = "aut"),
+        person("Ali", "Uenlue", role = "aut"))
+Description: Functions and example empirical (i.e., fraction
+        subtraction) and artificial data for cognitive diagnosis
+        modeling.  This package implements parameter estimation
+        procedures for the deterministic-input, noisy-and-gate (DINA)
+        and deterministic-input, noisy-or-gate (DINO) models.  See
+        package?CDM for an overview.
+Depends: R (>= 2.13.0), mvtnorm
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2012-07-27 18:18:15 UTC; robitzsch
+Author: Alexander Robitzsch [aut, cre], Thomas Kiefer [aut], Ann
+        Cathrice George [aut], Ali Uenlue [aut]
+Maintainer: Alexander Robitzsch <a.robitzsch@bifie.at>
+Repository: CRAN
+Date/Publication: 2012-07-29 13:29:03

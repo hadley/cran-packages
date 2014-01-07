@@ -1,0 +1,19 @@
+Package: lsa
+Title: Latent Semantic Analysis
+Version: 0.63-3
+Date: 2011-06-26
+Author: Fridolin Wild
+Description: The basic idea of latent semantic analysis (LSA) is, that
+        text do have a higher order (=latent semantic) structure which,
+        however, is obscured by word usage (e.g. through the use of
+        synonyms or polysemy). By using conceptual indices that are
+        derived statistically via a truncated singular value
+        decomposition (a two-mode factor analysis) over a given
+        document-term matrix, this variability problem can be overcome.
+Depends: R (>= 2.10), Snowball, RWeka
+Maintainer: Fridolin Wild <f.wild@open.ac.uk>
+License: GPL (>= 2)
+Encoding: UTF-8
+Packaged: 2011-06-26 14:46:27 UTC; hornik
+Repository: CRAN
+Date/Publication: 2011-06-26 14:59:06

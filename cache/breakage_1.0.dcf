@@ -1,0 +1,16 @@
+Package: breakage
+Type: Package
+Title: SICM pipette tip geometry estimation
+Version: 1.0
+Date: 2012-06-19
+Author: Matthew Caldwell <m.caldwell@ucl.ac.uk>
+Maintainer: Matthew Caldwell <m.caldwell@ucl.ac.uk>
+Description: Estimates geometry of SICM pipette tips by fitting a
+        physical model to recorded breakage-current data.
+License: Artistic-2.0
+LazyLoad: yes
+LazyData: yes
+Depends: Imap
+Packaged: 2012-08-17 16:03:29 UTC; matt
+Repository: CRAN
+Date/Publication: 2012-08-17 19:55:56

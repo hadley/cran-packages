@@ -1,0 +1,18 @@
+Package: expands
+Type: Package
+Title: ExPANdS
+Version: 1.2
+Date: 2013-08-12
+Author: Noemi Andor
+Maintainer: Noemi Andor <noemi.andor@gmail.com>
+Description: Expanding Ploidy and Allele Frequency on Nested Subpopulations (ExPANdS) characterizes coexisting subpopulations (SPs) in a tumor using copy number and allele frequencies derived from exome- or whole genome sequencing input data. The model amplifies the statistical power to detect coexisting genotypes, by fully exploiting run-specific tradeoffs between depth of coverage and breadth of coverage. ExPANdS predicts the number of clonal expansions, the size of the resulting SPs in the tumor bulk, the mutations specific to each SP and tumor purity. The main function runExPANdS provides the complete functionality needed to predict coexisting SPs from single nucleotide variations (SNVs) and associated copy numbers.  The robustness of the subpopulation predictions by ExPANdS increases with the number of mutations provided. It is recommended that at least 200 mutations are used as an input to obtain stable results.
+License: GPL-2
+Depends: R (>= 2.7.0)
+Imports: rJava (>= 0.5-0), flexmix (>= 2.3), matlab (>= 0.8.9), mclust
+        (>= 4.2), moments (>= 0.13)
+Suggests: rgl
+SystemRequirements: Java (>= 1.5)
+Packaged: 2013-09-03 15:19:13 UTC; noemi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-03 17:28:07

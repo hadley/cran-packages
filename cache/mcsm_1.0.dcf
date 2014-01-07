@@ -1,0 +1,17 @@
+Package: mcsm
+Type: Package
+Title: Functions for Monte Carlo Methods with R
+Version: 1.0
+Date: 2009-02-26
+Depends: stats, MASS, coda
+Author: Christian P. Robert, Universite Paris Dauphine
+Maintainer: Christian P. Robert <xian@ceremade.dauphine.fr>
+Description: mcsm contains a collection of functions that allows the
+        reenactment of the R programs used in the book EnteR Monte
+        Carlo Methods without further programming. Programs being
+        available as well, they can be modified by the user to conduct
+        one's own simulations.
+License: GPL (>= 2)
+Packaged: 2009-04-28 10:03:21 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-04-28 10:10:13

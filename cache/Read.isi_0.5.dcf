@@ -1,0 +1,10 @@
+Package: Read.isi
+Type: Package
+Title: Automated access to old World Fertility Survey data saved in fixed-width format based on ISI-formatted codebooks.
+Version: 0.5
+Date: 2008-06-27
+Author: Rense Nieuwenhuis
+Maintainer: <contact@rensenieuwenhuis.nl>
+Description: Old statistical data was often stored in formats that are difficult to gain access to by modern statistical software. An example of this are the data-files of the `World Fertility Survey', which are stored in fixed-width format and accompanied by codebooks in a format developed by the International Statistical Institute. The read.isi package allows to gain access to these statistical data automatically, or to convert to codebook to SPSS-syntax.
+License: GPL (>= 2.0). Additionally, publications to which the Read.isi-package has contributed should refer to this package. Use license('Read.isi') for information on how to refer to this package.
+Packaged: Thu Aug  7 11:59:18 2008; Rense

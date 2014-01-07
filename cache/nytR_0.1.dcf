@@ -1,0 +1,16 @@
+Package: nytR
+Type: Package
+Title: Provides access to the NY Times API.
+Version: 0.1
+Date: 2009-12-23
+Author: Shane Conway
+Maintainer: Shane Conway <shane.conway@gmail.com>
+Description: Provides access to various data sources (congressional
+        vote data) through the NY Times API.
+License: GPL-3
+LazyLoad: no
+Depends: XML, plyr
+Collate: 'nyt.congress.R'
+Packaged: 2009-12-27 17:07:37 UTC; sconway
+Repository: CRAN
+Date/Publication: 2009-12-28 10:53:08

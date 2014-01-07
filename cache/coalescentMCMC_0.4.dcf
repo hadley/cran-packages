@@ -1,0 +1,19 @@
+Package: coalescentMCMC
+Version: 0.4
+Date: 2013-12-04
+Title: MCMC Algorithms for the Coalescent
+Authors@R: c(person("Emmanuel", "Paradis", role = c("aut", "cre", "cph"), email = "Emmanuel.Paradis@ird.fr"))
+Depends: ape, coda
+Imports: Matrix, phangorn, stats
+ZipData: no
+Description: coalescentMCMC provides a flexible framework for
+  coalescent analyses in R. It includes a main function running the
+  MCMC algorithm, auxiliary functions for tree rearrangement, and some
+  functions to compute population genetic parameters.
+License: GPL (>= 2)
+Packaged: 2013-12-04 08:23:47 UTC; paradis
+Author: Emmanuel Paradis [aut, cre, cph]
+Maintainer: Emmanuel Paradis <Emmanuel.Paradis@ird.fr>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-04 09:41:46

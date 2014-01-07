@@ -1,0 +1,16 @@
+Package: MultiPhen
+Type: Package
+Title: MultiPhen, a package for the genetic association testing of
+        multiple phenotypes
+Version: 0.1
+Date: 2011-07-05
+Author: Lachlan Coin, Paul O'reilly and Federico Calboli
+Depends: MASS, abind, epitools, meta
+Maintainer: Federico Calboli <f.calboli@imperial.ac.uk>
+Description: Genetic association analysis of for multiple genotypes and
+        phenotypes
+License: GPL
+LazyLoad: yes
+Packaged: 2011-07-05 13:06:10 UTC; greatsage
+Repository: CRAN
+Date/Publication: 2011-07-06 18:56:00

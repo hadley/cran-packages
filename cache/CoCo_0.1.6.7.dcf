@@ -1,0 +1,13 @@
+Bundle: CoCo
+Contains: CoCoGraph CoCoObjects CoCoCore CoCoOldData CoCoRaw CoCo CoCoCg
+Version: 0.1.6.7
+Date: 2005/09/23
+Title: Graphical modelling by CoCo
+Author: Jens Henrik Badsberg <JensHenrik.Badsberg@agrsci.dk>
+Maintainer: Jens Henrik Badsberg <JensHenrik.Badsberg@agrsci.dk>
+Depends: R (>= 2.0.0), methods
+BundleDescription: Interface to CoCo from R
+License: Copyright (C) by Jens Henrik Badsberg, non-profit use and redistribution permitted (see COPYING for details)
+URL: http://www.agrsci.org
+Address: Danish Institute of Agricultural Sciences, 8830 Tjele, Denmark
+Packaged: Fri Sep 23 08:36:39 2005; jhb

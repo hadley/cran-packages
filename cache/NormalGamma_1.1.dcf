@@ -1,0 +1,14 @@
+Package: NormalGamma
+Type: Package
+Title: Normal-gamma convolution model
+Version: 1.1
+Date: 2013-09-20
+Author: S. Plancade and Y. Rozenholc
+Maintainer: Sandra Plancade <Sandra.Plancade@jouy.inra.fr>
+Description: The functions proposed in this package compute the density of the sum of a Gaussian and a gamma random variables, estimate the parameters and correct the noise effect in a gamma-signal and Gaussian-noise model. This package has been used to implement the background correction method for Illumina microarray data presented in Plancade S., Rozenholc Y. and Lund E. "Generalization of the normal-exponential model : exploration of a more accurate parameterization for the signal distribution on Illumina BeadArrays", BMC Bioinfo 2012, 13(329).
+License: GPL-2
+Depends: optimx , histogram
+Packaged: 2013-10-16 12:57:36 UTC; sandra
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-16 16:46:36

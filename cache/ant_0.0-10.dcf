@@ -1,0 +1,21 @@
+Package: ant
+Type: Package
+Title: Version of ant specific to R
+Version: 0.0-10
+Date: 2009-10-28
+Author: Romain Francois
+Maintainer: ORPHANED
+Description: Version of the ant apache build tool, with a few R
+        specific tasks to ease use of ant within an R package
+License: Apache License (== 2.0)
+LazyLoad: yes
+LazyData: no
+Depends: rJava (>= 0.8-0)
+SystemRequirements: Java (>= 5.0)
+Packaged: 2009-10-28 09:57:20 UTC; romain
+Repository: CRAN
+Date/Publication: 2009-10-28 10:02:21
+X-CRAN-Original-Package: ant
+X-CRAN-Comment: Orphaned on 2012-07-18 as the orginal maintainer,
+        Romain Francois <francoisromain@free.fr>, is unresponsive.
+X-CRAN-Original-Maintainer: Romain Francois <francoisromain@free.fr>

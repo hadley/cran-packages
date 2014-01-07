@@ -1,0 +1,20 @@
+Package: YieldCurve
+Type: Package
+Title: Modelling and estimation of the yield curve
+Version: 3.0
+Date: 2010-07-19
+Author: Sergio Salvino Guirreri
+Maintainer: Sergio Salvino Guirreri <sergioguirreri@gmail.com>
+Description: Modelling the yield curve with some parametric models. The
+        models implemented are: Nelson-Siegel, Diebold-Li and Svensson.
+        The package also includes the data of the term structure of
+        interest rate of Federal Reserve Bank and European Central
+        Bank.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://www.guirreri.host22.com
+Repository: CRAN
+Repository/R-Forge/Project: yield-curve
+Repository/R-Forge/Revision: 15
+Date/Publication: 2010-07-24 19:42:51
+Packaged: 2010-07-19 20:42:17 UTC; rforge

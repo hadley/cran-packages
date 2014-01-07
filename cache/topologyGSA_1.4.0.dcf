@@ -1,0 +1,20 @@
+Package: topologyGSA
+Version: 1.4.0
+Date: 2013-10-23
+Title: Gene Set Analysis Exploiting Pathway Topology
+Author: Sofia Massa, Gabriele Sales
+Maintainer: Gabriele Sales <gabriele.sales@unipd.it>
+Description: Using Gaussian graphical models we propose a novel approach to
+             perform pathway analysis using gene expression. Given the
+             structure of a graph (a pathway) we introduce two statistical
+             tests to compare the mean and the concentration matrices between
+             two groups. Specifically, these tests can be performed on the
+             graph and on its connected components (cliques).
+Depends: gRbase, qpgraph, fields
+Suggests: Rgraphviz
+License: AGPL-3
+LazyLoad: yes
+Packaged: 2013-10-23 15:43:37 UTC; border
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-23 18:34:12

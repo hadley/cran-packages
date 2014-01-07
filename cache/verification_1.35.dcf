@@ -1,0 +1,16 @@
+Package: verification
+Version: 1.35
+Date: 2012-4-09
+Title: Forecast verification utilities.
+Author: NCAR - Research Application Program
+Maintainer: Eric Gilleland <ericg@ucar.edu>
+Depends: R (>= 2.10), methods, waveslim, fields, boot, CircStats, MASS
+Description: This package contains utilities for verification of
+        discrete,continuous, probabilistic forecasts and forecast
+        expressed as parametric distributions.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-10-01 23:01:12 UTC; ericg
+Repository: CRAN
+Date/Publication: 2012-10-02 06:14:54

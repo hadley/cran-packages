@@ -1,0 +1,36 @@
+Package: gregmisc
+Title: Backword compatibility package for gregmisc bundle
+Description: Backword compatibility package for gregmisc bundle.  This package
+             simply loads the other packages within the gregmisc bundle, in
+	     in order to simulate the old behavior when gregmisc was a single
+             package.
+Version: 2.0.8
+Depends: R (>= 1.9.0), gdata, gtools, gmodels, gplots
+Author: Gregory R. Warnes.  Includes R source code and documentation
+        contributed by
+	   - Ben Bolker,
+	   - Lodewijk Bonebakker,
+	   - Bendix Carstensen,
+	   - R. Gentleman,
+	   - Kjetil Halvorsen,
+	   - W. Huber
+           - Nitin Jain,
+	   - Andy Liaw,
+	   - Don MacQueen,
+	   - M. Maechler,
+	   - Arni Magnusson,
+	   - Jim Rogers,
+	   - Marc Schwartz,
+	   - William Venables,
+	   - Ian Wilson,
+	and others (let me know if I missed you!), as well as the Perl
+        modules
+	   - "IO-stringy" (copyright 1996 by Eryq, and 1999,2001 by
+  	     ZeeGee Software Inc),
+	   - OLE::Storage_Lite (copyright 2000,2001 by Kawai Takanori),
+	   - Spreadsheet::ParseExcel (copyright 2000-2002 by Kawai
+ 	     Takanori )
+	under the terms of the GNU General Public Licence (GPL).
+Maintainer: Nitin Jain <nitin.jain@pfizer.com>
+License: GPL (version 2 or later)
+Packaged: Thu Jun  2 12:09:45 2005; jainn02

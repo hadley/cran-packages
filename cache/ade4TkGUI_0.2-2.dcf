@@ -1,0 +1,12 @@
+Package: ade4TkGUI
+Version: 0.2-2
+Date: 2007/09/14
+Title: ade4 Tcl/Tk Graphical User Interface
+Author: Jean Thioulouse <jthioulouse@biomserv.univ-lyon1.fr>, Stephane Dray <dray@biomserv.univ-lyon1.fr>
+Maintainer: Jean Thioulouse <jthioulouse@biomserv.univ-lyon1.fr>
+Depends: ade4 (>= 1.4-3), tcltk
+Suggests: tkrplot, pixmap
+Description: a Tcl/Tk GUI for some basic functions in the ade4 package
+License: GPL version 2 or newer
+URL: http://pbil.univ-lyon1.fr/ade4, Mailing list: http://listes.univ-lyon1.fr/wws/info/adelist
+Packaged: Mon Oct  1 11:27:11 2007; jthioulo

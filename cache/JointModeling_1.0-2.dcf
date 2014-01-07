@@ -1,0 +1,13 @@
+Package: JointModeling
+Version: 1.0-2
+Date: 2010-01-15
+Title: Joint Modelling of Mean and Dispersion
+Author: Mathieu Ribatet <mathieu.ribatet@epfl.ch> and Bertrand Iooss
+Maintainer: Bertrand Iooss <biooss@yahoo.fr>
+Depends: R (>= 1.8.0), mgcv
+Description: Some functions useful to perform joint modelling of Mean
+        and Dispersion through two interlinked GLM's or GAM's.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:57:12 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:12

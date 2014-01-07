@@ -1,0 +1,24 @@
+Package: ModelMap
+Type: Package
+Title: Creates Random Forest and Stochastic Gradient Boosting Models,
+        and applies them to GIS .img files to build detailed prediction
+        maps.
+Version: 2.0.2.1
+Date: 2010-06-12
+Depends: R (>= 2.8.1), randomForest, gbm, PresenceAbsence, rgdal
+Author: Elizabeth Freeman, Tracey Frescino
+Maintainer: Elizabeth Freeman <eafreeman@fs.fed.us>
+Description: This package will create sophisticated models of training
+        data and validate the models with an independant test set,
+        cross validation, or in the case of Random Forest Models, with
+        Out OF Bag (OOB) predictions on the training data. It will
+        creat graphs and tables of the model validation results. It
+        will apply these models to GIS .img files of predictors to
+        create detailed prediction surfaces. It will handle large
+        predictor files for map making, by reading in the .img files in
+        chuncks, and output to the .txt file the prediction for each
+        data chunk, before reading the next chenk of data.
+License: Unlimited
+Repository: CRAN
+Date/Publication: 2011-02-18 19:17:09
+Packaged: 2011-02-14 11:51:35 UTC; ripley

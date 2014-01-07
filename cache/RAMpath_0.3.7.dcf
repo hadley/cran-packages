@@ -1,0 +1,16 @@
+Package: RAMpath
+Type: Package
+Title: Structural Equation Modeling using the reticular action model
+        (RAM) Notation
+Version: 0.3.7
+Date: 2012-05-29
+Author: Zhiyong Zhang, Jack McArdle, Aki Hamagami, & Kevin Grimm
+Maintainer: Zhiyong Zhang <zzhang4@nd.edu>
+Description: RAMpath is a rewrite of RAMpath software developed by John McArdle and Steven Boker. In addition to performing regular SEM analysis through the R package lavaan, RAMpath has unique features.  First, it can generate path diagrams according to a given model. Second, it can display path tracing rules through path diagrams and decompose total effects into their respective direct and indirect effects as well as decompose variances and covariances into individual bridges. Furthermore, RAMpath can fit dynamic system models automatically based on latent change scores and generate vector field plots based upon results obtained from a bivariate dynamic system.
+Depends: R (>= 2.0), lavaan, ellipse
+License: GPL-2
+URL: http://nd.psychstat.org
+Packaged: 2013-08-09 18:07:32 UTC; zzhang4
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-10 00:58:36

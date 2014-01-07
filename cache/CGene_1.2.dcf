@@ -1,0 +1,17 @@
+Package: CGene
+Type: Package
+Title: Causal Genetic Analysis
+Version: 1.2
+Date: 2011-2-9
+Author: Peter Lipman
+Maintainer: Contact <pjlipman@fas.harvard.edu>
+Depends: survival
+Description: Implements statistical techniques to understand the causal
+        pathways between genetic markers and a primary outcome when an
+        intermediate phenotype is also associated with both the marker
+        and the primary outcome with population-based data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 13:13:09 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:38

@@ -1,0 +1,19 @@
+Package: mfr
+Version: 1.03
+Date: 2012-05-05
+Title: Minimal Free Resolutions of Graph Edge Ideals
+Author: David J. Marchette, <dmarchette@gmail.com>
+Maintainer: David J. Marchette, <dmarchette@gmail.com>
+Depends: R (>= 2.10), igraph, MCMCpack
+Suggests: xtable
+SystemRequirements: Singular (http://www.singular.uni-kl.de) for exact
+        calculation of the MFR for graphs without splitting edges (only
+        for Unix systems).
+Description: Algebraic Geometry: Minimal Free Resolutions of the Edge
+        Ideal of a Graph
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2012-05-05 15:07:21 UTC; dmarchet
+OS_type: unix
+Repository: CRAN
+Date/Publication: 2012-05-06 06:57:58

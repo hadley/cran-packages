@@ -1,0 +1,17 @@
+Package: WilcoxCV
+Version: 1.0-2
+Date: 2009-05-29
+Title: Wilcoxon-based variable selection in cross-validation
+Author: Anne-Laure Boulesteix <boulesteix@ibe.med.uni-muenchen.de>.
+Maintainer: Anne-Laure Boulesteix <boulesteix@ibe.med.uni-muenchen.de>
+Depends: R (>= 2.0.0)
+Suggests:
+Description: This package provides functions to perform fast variable
+        selection based on the Wilcoxon rank sum test in the
+        cross-validation or Monte-Carlo cross-validation settings, for
+        use in microarray-based binary classification.
+License: GPL (>= 2)
+URL: http://cran.r-project.org/web/packages/WilcoxCV/index.html
+Packaged: 2012-10-29 08:58:09 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:09

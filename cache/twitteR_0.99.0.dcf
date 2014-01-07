@@ -1,0 +1,13 @@
+Package: twitteR
+Title: R based Twitter client
+Description: Provides an interface to the Twitter web API
+Version: 0.99.0
+Author: Jeff Gentry <geoffjentry@gmail.com>
+Maintainer: Jeff Gentry <geoffjentry@gmail.com>
+Depends: RCurl, RJSONIO, methods
+Suggests: ROAuth
+License: Artistic-2.0
+LazyData: yes
+Packaged: 2011-03-31 18:33:13 UTC; jgentry
+Repository: CRAN
+Date/Publication: 2011-03-31 19:04:35

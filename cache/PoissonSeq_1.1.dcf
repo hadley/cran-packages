@@ -1,0 +1,26 @@
+Package: PoissonSeq
+Type: Package
+Title: Significance analysis of sequencing data based on a Poisson log
+        linear model
+Version: 1.1
+Date: 2011-09-5
+Depends: R(>= 2.10),combinat,splines
+Author: Jun Li
+Maintainer: Jun Li <junli07@stanford.edu>
+Description: This package implements a method for normalization,
+        testing, and false discovery rate estimation for RNA-sequencing
+        data. The description of the method is in Li J, Witten DM,
+        Johnstone I, Tibshirani R (2011). Normalization, testing, and
+        false discovery rate estimation for RNA-sequencing data. To
+        appear, Biostatistics. We estimate the sequencing depths of
+        experiments using a new method based on Poisson goodness-of-fit
+        statistic, calculate a score statistic on the basis of a
+        Poisson log-linear model, and then estimate the false discovery
+        rate using a modified version of permutation plug-in method. A
+        more detailed instruction as well as sample data is available
+        at http://www.stanford.edu/~junli07/research.html.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-09-08 06:01:34
+Packaged: 2011-09-08 05:17:22 UTC; junli07

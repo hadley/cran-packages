@@ -1,0 +1,20 @@
+Package: dixon
+Type: Package
+Title: Nearest Neighbour Contingency Table Analysis
+Version: 0.0-5
+Date: 2013-03-13
+Author: Marcelino de la Cruz Rot and Philip M. Dixon
+Maintainer: Marcelino de la Cruz Rot <marcelino.delacruz@upm.es>
+Depends: splancs, spatstat
+Description: Function to test spatial segregation and association based
+        in contingency table analysis of nearest neighbour counts
+        following Dixon (2002). Some fortran code has been included to
+        the original dixon2002 function of the ecespa package to
+        improve speed.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-03-13 19:54:46 UTC; mc
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-13 21:10:26

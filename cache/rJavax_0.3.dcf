@@ -1,0 +1,15 @@
+Package: rJavax
+Maintainer: Peter Danenberg <pcd@roxygen.org>
+License: GPL-3
+Title: rJava extensions
+Author: Peter Danenberg <pcd@roxygen.org>
+Description: Support for e.g. interfaces
+SystemRequirements: Java (>= 1.5)
+Version: 0.3
+Depends: rJava
+Suggests: RUnit
+Collate: 'onLoad.R' 'ascend-class-hierarchy.R'
+        'set-java-implementation.R'
+Packaged: 2011-08-29 19:22:20 UTC; pcdanenb
+Repository: CRAN
+Date/Publication: 2011-08-30 05:37:31

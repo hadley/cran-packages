@@ -1,0 +1,13 @@
+Package: fbati
+Version: 0.5
+Date: 2007-04-08
+Title: Gene by Environment Interaction Tests
+Author: Thomas Hoffmann
+Maintainer: Thomas Hoffmann <thoffman@hsph.harvard.edu>
+Depends: pbatR(>= 2.0.0), fgui
+Imports: tcltk, fgui
+Description: Does family-based gene by environment interaction tests, and joint gene, gene-environment interaction test.
+License: GPL
+URL: http://www.people.fas.harvard.edu/~tjhoffm/ibat.html
+LazyLoad: true
+Packaged: Wed May 21 12:12:39 2008; merlin

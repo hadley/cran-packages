@@ -1,0 +1,12 @@
+Package: tseries
+Version: 0.8-0
+Date: 2001-10-12
+Title: Package for time series analysis
+Author: Compiled by Adrian Trapletti <adrian@olsen.ch>
+Maintainer: Kurt.Hornik <Kurt.Hornik@ci.tuwien.ac.at>
+Description: Package for time series analysis with emphasis on non-linear 
+  and non-stationary modelling
+Depends: ts, mva, quadprog
+License: GPL (see file COPYING), except for ./src/muin2ser.f and ./misc which 
+  are free for non-commercial purposes. See file README for details.
+URL: http://www.r-project.org

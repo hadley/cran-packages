@@ -1,0 +1,14 @@
+Package: ggplot2
+Type: Package
+Title: An implementation of the Grammar of Graphics in R
+Version: 0.5.2
+Date: 2007-06-17
+Author: Hadley Wickham <h.wickham@gmail.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: An implementation of the grammar of graphics in R. It combines the advantages of both base and lattice graphics: conditioning and shared axes are handled automatically, and you can still build up a plot step by step from multiple data sources. It also implements a more sophisticated multidimensional conditioning system and a consistent interface to map data to aesthetic attributes. See \url{http://had.co.nz/ggplot/} for more information, documentation and examples.
+Depends: R (>= 2.4), grid, reshape (>= 0.7.3), proto, splines, MASS, RColorBrewer
+Suggests: quantreg, Hmisc, mapproj, maps
+License: GPL
+SaveImage: true
+LazyData: true
+Packaged: Sun Jun 17 21:57:47 2007; hadley

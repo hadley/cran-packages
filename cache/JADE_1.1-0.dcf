@@ -1,0 +1,20 @@
+Package: JADE
+Type: Package
+Title: JADE and other BSS methods as well as some BSS performance
+        criteria
+Version: 1.1-0
+Date: 2012-02-14
+Author: Klaus Nordhausen, Jean-Francois Cardoso, Jari Miettinen, Hannu
+        Oja, Esa Ollila, Sara Taskinen
+Maintainer: Klaus Nordhausen <klaus.nordhausen@uta.fi>
+Depends: clue
+Suggests: ICS, ICSNP
+Description: The package ports JF Cardoso's JADE algorithm as well as
+        his function for joint diagonalization. There are also several
+        other blind source separation (BSS) methods like AMUSE and SOBI
+        as well as some criteria for performance evaluation of BSS
+        algorithms.
+License: GPL (>= 2)
+Packaged: 2012-02-14 11:49:30 UTC; klaus
+Repository: CRAN
+Date/Publication: 2012-02-14 13:09:54

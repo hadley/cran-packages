@@ -1,0 +1,11 @@
+Package: WaveCGH
+Type: Package
+Title: Wavelet Changepoint Detection for Array CGH 
+Version: 2.01
+Date: 2008-09-27
+Author: M. S. Islam and A. I. McLeod
+Maintainer: <aimcleod@uwo.ca>
+Depends: R (>= 2.0.0), waveslim, lattice, leaps, FitAR, qvalue 
+Description: Detects changepoints and finds gain/loss regions
+License: GPL (>= 2)
+Packaged: Tue Oct 28 11:07:57 2008; aim

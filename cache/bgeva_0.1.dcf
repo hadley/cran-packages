@@ -1,0 +1,19 @@
+Package: bgeva
+Version: 0.1
+Author: Raffaella Calabrese <raffaella.calabrese1@unimib.it>, Giampiero
+        Marra <giampiero.marra@ucl.ac.uk> and Silvia Anlgela Osmetti
+        <silvia.osmetti@unicatt.it>
+Maintainer: Giampiero Marra <giampiero.marra@ucl.ac.uk>
+Title: Binary Generalized Extreme Value Additive Models
+Description: Routine for fitting regression models for binary rare
+        events with linear and nonlinear covariate effects when using
+        the quantile function of the Generalized Extreme Value random
+        variable.
+Depends: R (>= 2.15.0), magic, mgcv, trust
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.ucl.ac.uk/statistics/people/giampieromarra
+Repository: CRAN
+Date/Publication: 2013-04-29 11:37:38
+Packaged: 2013-04-29 08:30:31 UTC; giampiero
+NeedsCompilation: no

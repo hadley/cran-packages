@@ -1,0 +1,21 @@
+Package: TSgetSymbol
+Version: 2010.12-1
+Date: 2010-12-20
+Title: Time Series Database Interface extension to connect with
+        getSymbols
+Description: Provides methods for generics in the TSdbi package to
+        retrieve data with getSymbols, in particular from the Federal
+        Reserve FRED database.
+Depends: R (>= 2.8.0), methods, DBI, TSdbi (>= 2010.5-1), quantmod,
+        tframe, tframePlus
+Imports: methods, DBI, TSdbi (>= 2010.5-1)
+Enhances: TSdbi
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 199
+Date/Publication: 2010-12-22 08:57:38
+Packaged: 2010-12-19 21:43:37 UTC; rforge

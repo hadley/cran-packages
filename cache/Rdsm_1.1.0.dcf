@@ -1,0 +1,16 @@
+Package: Rdsm
+Version: 1.1.0
+Author: Norm Matloff <normmatloff@gmail.com>
+Maintainer: Norm Matloff <normmatloff@ugmail.com>
+Date: 2/1/2011
+Title: Threads Environment for R
+Description: Provides a threads-type programming environment for R,
+        usable both on a multicore machine and across a network of
+        multiple machines.  The package gives the programmer a shared
+        memory world view, again even across multiple machines on a
+        network.
+LazyLoad: no
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2011-02-03 21:20:07 UTC; matloff
+Date/Publication: 2011-02-04 06:44:17

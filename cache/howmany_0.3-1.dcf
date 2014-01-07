@@ -1,0 +1,23 @@
+Package: howmany
+Type: Package
+Title: A lower bound for the number of correct rejections
+Version: 0.3-1
+Date: 2012-06-01
+Author: Nicolai Meinshausen
+Maintainer: Nicolai Meinshausen <meinshausen@stats.ox.ac.uk>
+Imports: graphics, stats
+Description: When testing multiple hypotheses simultaneously, this
+        package provides functionality to calculate a lower bound for
+        the number of correct rejections (as a function of the number
+        of rejected hypotheses), which holds simultaneously -with high
+        probability- for all possible number of rejections.  As a
+        special case, a lower bound for the total number of false null
+        hypotheses can be inferred.  Dependent test statistics can be
+        handled for multiple tests of associations. For independent
+        test statistics, it is sufficient to provide a list of
+        p-values.
+License: GPL
+URL: http://www.stats.ox.ac.uk/~meinshau/
+Packaged: 2012-06-01 15:50:44 UTC; meinsn
+Repository: CRAN
+Date/Publication: 2012-06-01 16:06:00

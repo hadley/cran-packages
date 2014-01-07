@@ -1,0 +1,14 @@
+Package: phonTools
+Title: Functions for phonetics in R.
+Version: 0.2-1.1
+Date: 2014-01-01
+Author: Santiago Barreda
+Maintainer: Santiago Barreda <sbarreda@ualberta.ca>
+Depends: R (>= 2.15)
+Description: The functions contained in this package are intended to facilitate the organization, display, and analysis of the sorts of data frequently encountered in phonetics research and experimentation, including the easy creation of IPA vowel plots. Some functions also allow for the creation and manipulation of sounds saved as WAV files.
+License: BSD_2_clause + file LICENSE
+URL: http://www.santiagobarreda.com/rscripts.html
+Packaged: 2014-01-01 03:52:47 UTC; santiago
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-01 05:19:55

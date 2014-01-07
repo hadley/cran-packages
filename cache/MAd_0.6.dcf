@@ -1,0 +1,24 @@
+Package: MAd
+Type: Package
+Title: Meta-Analysis with Mean Differences
+Version: 0.6
+Date: 2010-06-21
+Author: AC Del Re & William T. Hoyt
+Maintainer: AC Del Re <acdelre@gmail.com>
+Description: This is an integrated meta-analysis package for conducting
+        a research synthesis with mean differences data. One of the
+        unique features of this package is in its integration of
+        user-friendly functions to facilitate statistical analyses at
+        each stage in a meta-analysis with mean differences. It uses
+        recommended procedures as described in The Handbook of Research
+        Synthesis and Meta-Analysis (Cooper, Hedges, & Valentine,
+        2009).
+Depends: R (>= 2.10.1)
+Suggests: metafor, R2wd, ggplot2
+Enhances: compute.es
+License: GPL-2
+URL:
+        http://rwiki.sciviews.org/doku.php?id=packages:cran:ma_meta-analysis
+Packaged: 2010-06-20 21:18:08 UTC; User
+Repository: CRAN
+Date/Publication: 2010-06-21 08:03:39

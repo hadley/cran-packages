@@ -1,0 +1,14 @@
+Package: lmeSplines
+Version: 1.0-4
+Title: lmeSplines
+Author: Rod Ball <rod.ball@scionresearch.com>
+Maintainer: Rod Ball <rod.ball@scionresearch.com>
+Description: Add smoothing spline modelling capability to nlme. Fit
+        smoothing spline terms in Gaussian linear and nonlinear
+        mixed-effects models
+Depends: nlme(>= 3.1-29)
+License: GPL (>= 2)
+URL: mailto:rod.ball@scionresearch.com www.scionresearch.com/
+Packaged: 2011-10-16 22:14:09 UTC; rod
+Repository: CRAN
+Date/Publication: 2011-10-17 05:55:16

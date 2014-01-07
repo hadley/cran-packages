@@ -1,0 +1,37 @@
+Package: roxyPackage
+Type: Package
+Title: Utilities to automate package builds
+Author: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Depends: R (>= 2.9.0),methods,roxygen2,tools,XiMpLe (>= 0.03-12)
+Description: The intention of this package is to make packaging R code
+        as easy as possible. roxyPackage uses tools from the roxygen2
+        package to generate documentation. It also automatically
+        generates and updates files like *-package.R, DESCRIPTION,
+        CITATION, ChangeLog and NEWS.Rd. Building packages supports
+        source format, as well as several binary formats (MS Windows,
+        Mac OS X, Debian GNU/Linux) if the package contains pure R code
+        only. The packages built are stored in a fully functional local
+        R package repository which can be synced to a web server to
+        share them with others.  This includes the generation of
+        browsable HTML pages similar to CRAN, with support for RSS
+        feeds from the ChangeLog. Please read the vignette for a more
+        detailed explanation by example.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://reaktanz.de/?c=hacking&s=roxyPackage
+Authors@R: c(person(given="Meik", family="Michalke",
+        email="meik.michalke@hhu.de", role=c("aut", "cre")))
+Version: 0.03-6
+Date: 2013-04-07
+Collate: 'archive.packages.R' 'roxyPackage-internal_ChangeLog.R'
+        'ChangeLog_functions.R' 'citationText.R' 'cl2news.R'
+        'debianize.R' 'entities.R' 'news2rss.R' 'roxy.description.R'
+        'roxy.html.R' 'roxyPackage-internal.R'
+        'roxyPackage-internal_sandbox.R' 'roxyPackage-package.R'
+        'roxy.package.R' 'sandbox.R'
+Packaged: 2013-04-07 19:13:36 UTC; m
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-08 00:05:48

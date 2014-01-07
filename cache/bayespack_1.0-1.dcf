@@ -1,0 +1,20 @@
+Package: bayespack
+Type: Package
+Title: Numerical Integration for Bayesian Inference
+Version: 1.0-1
+Date: 2011-02-17
+Suggests: sn
+Author: Alan Genz (BAYESPACK Fortran source code) and Bjoern Bornkamp
+        (R interface and minor adaptions in Fortran source code)
+Maintainer: Bjoern Bornkamp <bbnkmp@gmail.com>
+Description: The bayespack package provides an R interface to the
+        Fortran BAYESPACK integration routines written by Alan Genz.
+        Given an unnormalized posterior distribution, the BAYESPACK
+        routines approximate the normalization constant and the mean
+        and covariance of the posterior. Posterior means of additional
+        functions of the parameters can be calculated as well.
+License: GPL
+LazyLoad: yes
+Packaged: 2011-02-16 23:04:51 UTC; bjoern
+Repository: CRAN
+Date/Publication: 2011-02-17 13:07:37

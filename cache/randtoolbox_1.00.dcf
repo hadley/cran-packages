@@ -1,0 +1,12 @@
+Package: randtoolbox	
+Type: Package
+Title: toolbox for pseudo and quasi random number generation.
+Version: 1.00
+Date: 2008-5-15
+Author: Christophe Dutang (for the code except the SFMT algorithm from M. Matsumoto and M. Saito), Thibault Marchal (for the pdf document)
+Maintainer: Christophe Dutang <christophe.dutang@ensimag.fr>
+Description: The package provides (1) pseudo random generators - general linear congruential generators such as Park Miller sequence and SF-Mersenne Twister algorithm; (2) a quasi random generator - the Torus algorithm (for Van Der Corput low-discrepancy sequences, use the 'Rmetrics - fOptions' package) and (3) some additional tests such as the gap test, the serial test... (other test can be found in the 'RDieHarder' package). For true random number generation, use the 'random' package.
+Depends: R (>= 2.6.0)
+License: GPL (>= 2)
+Encoding: latin1
+Packaged: Thu May 22 18:33:48 2008; christophedutang

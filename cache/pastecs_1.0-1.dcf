@@ -1,0 +1,10 @@
+Package: pastecs
+Title: Package for Analysis of Space-Time Ecological Series
+Version: 1.0-1
+Date: 2002-01-30
+Author: Frederic Ibanez <ibanez@obs-vlfr.fr>, Philippe Grosjean <phgrosjean@sciviews.org> & Michele Etienne <etienne@obs-vlfr.fr>
+Description: Regulation, decomposition and analysis of space-time series. The pastecs library is a PNEC-Art4 and IFREMER (Benoit Beliaeff <Benoit.Beliaeff@ifremer.fr>) initiative to translate PASSTEC 2000 (http://www.obs-vlfr.fr/~enseigne/anado/passtec/passtec.htm).
+URL: http://www.sciviews.org/pastecs
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: GNU Public Licence 2.0 or above at your convenience
+Depends: boot, ctest, mva, ts

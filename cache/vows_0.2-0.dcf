@@ -1,0 +1,17 @@
+Package: vows
+Type: Package
+Title: Voxelwise semiparametrics
+Version: 0.2-0
+Date: 2012-09-06
+Author: Philip Reiss, Yin-Hsiu Chen, Lei Huang, and Lan Huo
+Maintainer: Lan Huo <lan.huo@nyumc.org>
+Depends: R (>= 2.9.0), fda, gamm4, RLRsim, Rniftilib, rpanel, shape,
+        stringr, tcltk, tkrplot
+Description: Parametric and semiparametric inference for massively
+        parallel models, i.e., a large number of models with common
+        design matrix, as often occurs with brain imaging data.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-09-07 15:05:57 UTC; lanhuo
+Repository: CRAN
+Date/Publication: 2012-09-07 15:39:34

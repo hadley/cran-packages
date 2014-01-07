@@ -1,0 +1,27 @@
+Package: RProtoBuf
+Version: 0.3.2
+Date: $Date: 2013-12-15 17:04:49 -0600 (Sun, 15 Dec 2013) $
+Author: Romain Francois, Dirk Eddelbuettel and Murray Stokely
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Title: R Interface to the Protocol Buffers API
+Description: Protocol Buffers are a way of encoding structured data in an
+ efficient yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.  
+Depends: R (>= 2.11), methods
+LinkingTo: Rcpp
+Suggests: RUnit, highlight, Rcpp
+Imports: utils, stats, tools, RCurl
+SystemRequirements: Protocol Buffer compiler (to create C++ header and
+        source files from .proto descriptions) and library (version
+        2.2.0 or later)
+License: GPL-2
+URL: http://r-forge.r-project.org/projects/rprotobuf/,
+        http://romainfrancois.blog.free.fr/index.php?category/R-package/RProtoBuf,
+        http://dirk.eddelbuettel.com/blog/code/rprotobuf/
+BugReports:
+        http://r-forge.r-project.org/tracker/index.php?group_id=576&atid=2338
+OS_type: unix
+Packaged: 2013-12-15 23:05:03.742065 UTC; edd
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-16 11:22:25

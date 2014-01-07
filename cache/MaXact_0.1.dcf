@@ -1,0 +1,17 @@
+Package: MaXact
+Type: Package
+Title: Exact max-type Cochran-Armitage trend test(CATT)
+Version: 0.1
+Date: 2009-10-31
+Author: Jianan Tian <jiant17@gmail.com>, Chenliang Xu
+        <lucky.random@gmail.com>
+Maintainer: Chenliang Xu <lucky.random@gmail.com>
+Depends: R (>= 2.2.0), mnormt
+Description: Perform exact MAX3 or MAX2 test for one-locus genetic
+        association analysis and trend test for dominant, recessive and
+        additive models. It can also calculate approximated p-value
+        with the normal approximation method.
+License: GPL-2
+Packaged: Mon Nov 2 16:24:30 2009; lucky
+Repository: CRAN
+Date/Publication: 2009-11-03 11:23:42

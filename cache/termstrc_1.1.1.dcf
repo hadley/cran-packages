@@ -1,0 +1,25 @@
+Package: termstrc
+Type: Package
+Title: Zero-coupon Yield Curve Estimation
+Version: 1.1.1
+Date: 2009-10-16
+Author: Robert Ferstl, Josef Hayden
+Maintainer: Josef Hayden <josef.hayden@wiwi.uni-regensburg.de>
+Description: Zero-coupon yield curves and spread curves are important
+        inputs for various financial models, e.g. pricing of
+        securities, risk management, monetary policy issues. Since
+        zero-coupon rates are rarely directly observable, they have to
+        be estimated from market data. The literature broadly
+        distinguishes between parametric and spline-based estimation
+        methods for the zero-coupon yield curve. Our package consists
+        of several widely-used approaches, i.e. the parametric Nelson
+        and Siegel (1987) method with the Svensson (1994) extension,
+        and the McCulloch (1975) cubic splines approach. Extensive
+        summary statistics and plots are provided to compare the
+        results of the different estimation methods.
+Depends: R (>= 2.9.0)
+License: GPL
+URL: http://R-Forge.R-project.org/projects/termstrc/
+Packaged: 2009-10-18 10:06:05 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-10-18 10:23:06

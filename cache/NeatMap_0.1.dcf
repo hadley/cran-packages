@@ -1,0 +1,19 @@
+Package: NeatMap
+Type: Package
+Title: Non-clustered heatmap alternatives
+Version: 0.1
+Date: 2009-05-12
+Author: Satwik Rajaram and Yoshi Oono
+Depends: ggplot2, rgl
+Maintainer: Satwik Rajaram <srajaram@illinois.edu>
+Description: NeatMap is a package to create heatmap like plots in 2 and
+        3 dimensions, without the need for cluster analysis. Like the
+        heatmap, the plots created by NeatMap display both a
+        dimensionally reduced representation of the data as well as the
+        data itself. They are intended to be used in conjunction with
+        dimensional reduction techniques such as PCA.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2009-05-13 00:30:51 UTC; satwik
+Repository: CRAN
+Date/Publication: 2009-05-13 07:05:21

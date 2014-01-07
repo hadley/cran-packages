@@ -1,0 +1,19 @@
+Package: MSBVAR
+Title: Bayesian Vector Autoregression Models, Impulse Responses and Forecasting.
+Version: 0.1
+Date: 2005-09-15
+Author: Patrick T. Brandt <pbrandt@utdallas.edu>
+Maintainer: Patrick T. Brandt <pbrandt@utdallas.edu>
+Depends: R (>= 2.1.0), KernSmooth, xtable
+Description: Provides methods for estimating frequentist and 
+  Bayesian Vector Autoregression (VAR) models.  Also includes 
+  methods for the generating posterior inferences for VAR 
+  forecasts, impulse responses (using likelihood-based error bands),
+  and forecast error decompositions.  Also includes utility functions 
+  for plotting forecasts and impulse responses, and generating draws 
+  from Wishart and singular multivariate normal densities.  Future 
+  versions will include Bayesian Structural VAR (B-SVAR) models and 
+  possibly some models with Markov switching. 
+License: GPL version 2 or newer
+URL: http://www.utdallas.edu/~pbrandt/
+Packaged: Mon Sep 19 17:36:19 2005; brandt

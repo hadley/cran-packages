@@ -1,0 +1,9 @@
+Package: LDheatmap
+Title: This package produces a pairwise LD plot
+Version: 0.1
+Author: Jinko Graham <jgraham@cs.sfu.ca>, Ji-hyung Shin <jshinb@sfu.ca>, Sigal Blay <sblay@sfu.ca>
+Description: Produces a graphical display, as a heat map, of linkage disequilibrium measures.
+Maintainer: Sigal Blay <sblay@fraser.sfu>
+Depends: R (>= 2.0.0), genetics
+License: GPL version 2
+Packaged: Sun Jan 23 19:15:50 2005; root

@@ -1,0 +1,15 @@
+Package: BAYSTAR
+Title: On Bayesian analysis of Threshold autoregressive model (BAYSTAR)
+Version: 0.2-5
+Date: 2012-03-20
+Author: Cathy W. S. Chen, Edward M.H. Lin, F.C. Liu, and Richard
+        Gerlach
+Maintainer: Cathy W. S. Chen <chenws@fcu.edu.tw>
+Depends: R (>= 2.8.0), mvtnorm, coda
+Description: The manuscript introduces the BAYSTAR package, which
+        provides the functionality for Bayesian estimation in
+        autoregressive threshold models.
+License: GPL (>= 2)
+Packaged: 2012-03-20 02:06:56 UTC; Edward
+Repository: CRAN
+Date/Publication: 2012-03-20 08:26:44

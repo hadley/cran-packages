@@ -1,0 +1,18 @@
+Package: scout
+Type: Package
+Title: Implements the Scout method for Covariance-Regularized
+        Regression
+Version: 1.0.1
+Date: 2008-11-20
+Author: Daniela M. Witten and Robert Tibshirani
+Maintainer: Daniela M. Witten <dwitten@stanford.edu>
+Depends: R (>= 1.9.0), glasso, lars
+Description: Implements the Scout method for regression, described in
+        "Covariance-regularized regression and classification for
+        high-dimensional problems", by Witten and Tibshirani (2008),
+        Journal of the Royal Statistical Society, Series B 71(3):
+        615-636. <http://www-stat.stanford.edu/~dwitten>
+License: GPL (>= 2)
+Packaged: 2009-10-12 17:19:29 UTC; dwitten
+Repository: CRAN
+Date/Publication: 2009-10-13 06:37:13

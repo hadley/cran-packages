@@ -1,0 +1,12 @@
+Package: analogue
+Type: Package
+Title: Analogue methods for palaeoecology
+Version: 0.4-3
+Date: 2007-10-13
+Depends: R (>= 2.5.0), stats, graphics, vegan
+Author: Gavin L. Simpson.
+Maintainer: Gavin L. Simpson <gavin.simpson@ucl.ac.uk>
+Description: Fits Modern Analogue Technique transfer function models for prediction of environmental data from
+  species data. Also performs analogue matching, a related technique used in palaeo ecological restoration.
+License: GPL Version 2
+Packaged: Sat Oct 13 19:36:53 2007; gavin

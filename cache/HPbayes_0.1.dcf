@@ -1,0 +1,19 @@
+Package: HPbayes
+Type: Package
+Title: Heligman Pollard mortality model parameter estimation using
+        Bayesian Melding with Incremental Mixture Importance Sampling
+Depends: MASS, mvtnorm, corpcor, numDeriv, stats, boot
+Version: 0.1
+Date: 2011-01-19
+Author: David J Sharrow
+Maintainer: Dave Sharrow <dsharrow@u.washington.edu>
+Description: This package provides all the functions necessary to
+        estimate the 8 parameters of the Heligman Pollard mortality
+        model using a Bayesian Melding procedure with IMIS as well as
+        to convert those parameters into age-specifc probabilities of
+        death and a corresponding life table
+License: Unlimited
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:08 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:08

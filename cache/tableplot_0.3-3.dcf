@@ -1,0 +1,18 @@
+Package: tableplot
+Type: Package
+Title: Represents tables as semi-graphic displays
+Version: 0.3-3
+Date: 2010-01-25
+Author: Ernest Kwan and Michael Friendly
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Depends: grid
+Suggests: lattice, corrgram, perturb, car, vcd, abind
+Description:
+License: GPL
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: tableplot
+Repository/R-Forge/Revision: 10
+Date/Publication: 2010-11-07 08:22:30
+Packaged: 2010-03-29 20:45:26 UTC; rforge

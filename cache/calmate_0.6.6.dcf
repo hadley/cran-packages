@@ -1,0 +1,23 @@
+Package: calmate
+Version: 0.6.6
+Date: 2011-08-01
+Title: Post-calibration of allele-specific copy-number estimates
+        (ASCNs)
+Author: Angel Rubio <arubio@ceit.es>, Maria Ortiz <mortiz@ceit.es>,
+        Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.10.1), MASS, R.methodsS3 (>= 1.2.1), R.oo (>= 1.8.1),
+        R.utils (>= 1.7.8), matrixStats (>= 0.2.2), aroma.core (>=
+        2.1.3)
+Description: Post-calibration of allele-specific copy-number estimates
+        (ASCNs).
+License: LGPL (>= 2.1)
+URL: http://r-forge.r-project.org/projects/snpsprocessing/
+LazyLoad: TRUE
+biocViews: Infrastructure, Microarray, DNACopyNumber, Preprocessing,
+        aCGH, SNP, CopyNumberVariants
+Repository: CRAN
+Repository/R-Forge/Project: snpsprocessing
+Repository/R-Forge/Revision: 137
+Date/Publication: 2011-09-16 17:43:27
+Packaged: 2011-08-02 20:57:13 UTC; rforge

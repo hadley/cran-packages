@@ -1,0 +1,16 @@
+Package: codep
+Version: 0.2-2
+Date: 2013-08-06
+Type: Package
+Title: Multiscale Codependence Analysis
+Author: Guillaume Guenard and Pierre Legendre, with contributions from Bertrand Pages
+Maintainer: Guillaume Guenard <guillaume.guenard@gmail.com>
+Description: Computation of Multiscale Codependence Analysis and spatial eigenvector maps, as an additional feature.
+Depends: R (>= 3.0.0), stats
+Suggests: vegan
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-09-05 14:17:09 UTC; guenardg
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-05 16:34:58

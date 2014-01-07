@@ -1,0 +1,19 @@
+Package: DAAGbio
+Version: 0.6
+Date: 2011-April-10
+Title: Data Sets and Functions, for demonstrations with expression
+        arrays and gene sequences
+Author: John Maindonald
+Maintainer: John Maindonald <john.maindonald@anu.edu.au>
+Description: Data sets and functions, for the display of microarray
+        data and for demonstrations with microarray data
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.10.0), limma (>= 2.9.15)
+Suggests: DAAG
+ZipData: no
+License: Unlimited
+URL: http://www.maths.anu.edu.au/~johnm
+Packaged: 2011-04-09 09:50:03 UTC; johnm
+Repository: CRAN
+Date/Publication: 2011-04-09 10:13:08

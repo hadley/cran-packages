@@ -1,0 +1,18 @@
+Package: RSofia
+Type: Package
+Title: Port of sofia-ml (http://code.google.com/p/sofia-ml/) to R
+Version: 1.1
+Date: 2011-09-06
+Author: Michael King <wmichaelking1@gmail.com> and Fernando Cela Diaz <fcela@sloan.mit.edu>. Original sofia-ml code by D. Sculley <dsculley@google.com>.
+Maintainer: Michael King <wmichaelking1@gmail.com>
+Description: sofia-ml is a suite of fast incremental algorithms for machine learning that can be used for training models for classification or ranking
+License: Apache License 2.0
+LazyLoad: yes
+Depends: methods, Rcpp (>= 0.9.6)
+Suggests: RUnit
+LinkingTo: Rcpp
+RcppModules: sofia
+Packaged: 2013-12-21 09:57:43 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-12-21 11:00:48
+NeedsCompilation: yes

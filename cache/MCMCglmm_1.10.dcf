@@ -1,0 +1,14 @@
+Package: MCMCglmm
+Title: MCMC Generalised Linear Mixed Models
+Version: 1.10
+Depends: MASS, corpcor, tensorA, Matrix, coda, ape, pscl, orthopolynom,
+        combinat, gtools
+Suggests: rgl
+Date: 2009-05-14
+Author: Jarrod Hadfield
+Maintainer: Jarrod Hadfield <j.hadfield@ed.ac.uk>
+Description: MCMC Generalised Linear Mixed Models
+License: GPL (>= 2)
+Packaged: Thu May 14 20:52:48 2009; jarrod
+Repository: CRAN
+Date/Publication: 2009-05-15 11:25:43

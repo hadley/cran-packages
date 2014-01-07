@@ -1,0 +1,26 @@
+Package: hbsae
+Version: 1.0
+Author: Harm Jan Boonstra
+Maintainer: Harm Jan Boonstra <hjboonstra@gmail.com>
+License: GPL-3
+Title: Hierarchical Bayesian Small Area Estimation
+Type: Package
+LazyLoad: yes
+Description: Functions to compute small area estimates based on a basic
+        area or unit-level model. The model is fit using restricted
+        maximum likelihood, or in a hierarchical Bayesian way. In the
+        latter case numerical integration is used to average over the
+        posterior density for the between-area variance.  The output
+        includes the model fit, small area estimates and corresponding
+        MSEs, as well as some model selection measures. Additional
+        functions provide means to compute aggregate estimates and
+        MSEs, to minimally adjust the small area estimates to
+        benchmarks at a higher aggregation level, and to graphically
+        compare different sets of small area estimates.
+Date: 2012-09-05
+Depends: R (>= 2.10)
+Imports: Matrix, arm
+Collate: 'fakedata.R' 'hbsae.R'
+Packaged: 2012-09-05 09:26:15 UTC; mpet
+Repository: CRAN
+Date/Publication: 2012-09-05 13:03:20

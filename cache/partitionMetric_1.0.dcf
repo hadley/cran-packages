@@ -1,0 +1,17 @@
+Package: partitionMetric
+Type: Package
+Title: Compute a distance metric between two partitions of a set
+Version: 1.0
+Date: 2009-12-29
+Author: David Weisman, Dan Simovici
+Maintainer: <David.Weisman@acm.org>
+Depends: R (>= 2.10.1)
+Description: partitionMetric computes a distance between two partitions
+        of a set.
+License: BSD
+Copyright: Copyright (c) 2010, David Weisman and Dan Simovici, All
+        rights reserved.
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:23 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:23

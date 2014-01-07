@@ -1,0 +1,26 @@
+Package: Design
+Version: 2.1-2
+Date: 2008-11-04
+Title: Design Package
+Author: Frank E Harrell Jr <f.harrell@vanderbilt.edu>
+Maintainer: Charles Dupont <charles.dupont@vanderbilt.edu>
+Depends: Hmisc (>= 3.4-0), survival
+Suggests: MASS, rpart, nlme
+Description: Regression modeling, testing, estimation, validation,
+	graphics, prediction, and typesetting by storing enhanced model design
+	attributes in the fit.  Design is a collection of about 180 functions
+	that assist and streamline modeling, especially for biostatistical and
+	epidemiologic applications.  It also contains new functions for binary
+	and ordinal logistic regression models and the Buckley-James multiple
+	regression model for right-censored responses, and implements
+	penalized maximum likelihood estimation for logistic and ordinary
+	linear models.  Design works with almost any regression model, but it
+	was especially written to work with logistic regression, Cox
+	regression, accelerated failure time models, ordinary linear models,
+	the Buckley-James model, and generalized least squares for
+	serially or spatially correlated observations.
+License: GPL version 2 or newer
+URL: http://biostat.mc.vanderbilt.edu/s/Design,
+	http://biostat.mc.vanderbilt.edu/rms
+LazyLoad: yes
+Packaged: Tue Nov  4 11:41:46 2008; dupontct

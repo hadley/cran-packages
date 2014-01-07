@@ -1,0 +1,24 @@
+Package: glassomix
+Type: Package
+Title: High dimensional Sparse Gaussian Graphical Mixture Model
+Version: 1.0
+Date: 2013-01-10
+Author: Anani Lotsi and Ernst Wit
+Maintainer: Anani Lotsi <a.lotsi@rug.nl>
+Depends: R (>= 3.0.0),mvtnorm,glasso,igraph
+Description: The R package glassomix is a statistical tool for
+        performing model-based soft clustering.  It provides functions
+        for parameter estimation via the EM algorithm for Gaussian
+        graphical mixture models in high dimensional setting. The main
+        function is ``glasso.mix'' upon which a model selection is
+        performed. The package estimates the optimum number of mixture
+        components (K) and the tuning parameter (lambda) based on the
+        Extended Bayesian Information Criteria (EBIC) via ``gm.select''
+        function.  The graphical structural of the K-networks are also
+        plotted through the function ``gm.plot''
+License: GPL (>= 3)
+URL: http://www.math.rug.nl/stat/Main/Research
+Packaged: 2013-05-13 17:12:39 UTC; P260008
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-13 19:34:47

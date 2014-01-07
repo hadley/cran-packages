@@ -1,0 +1,16 @@
+Package: seriation
+Type: Package
+Title: Infrastructure for seriation
+Author: Michael Hahsler, Christian Buchta and Kurt Hornik 
+Maintainer: Michael Hahsler <hahsler@ai.wu-wien.ac.at>
+Version: 0.1-4
+Date: 2008-4-4
+URL: http://R-Forge.R-project.org/projects/seriation/
+Depends: stats, cluster, TSP, gclus, grid
+Suggests: MASS
+Description: Infrastructure for seriation with an implementation of several
+    seriation/sequencing techniques to reorder matrices, dissimilarity
+    matrices, and dendrograms. Also contains some visualizations techniques
+    based on seriation.
+License: GPL-2 
+Packaged: Fri Apr  4 07:18:16 2008; hahsler

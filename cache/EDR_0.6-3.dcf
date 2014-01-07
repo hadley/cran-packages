@@ -1,0 +1,16 @@
+Package: EDR
+Version: 0.6-3
+Date: 2009-10-12
+Title: Estimation of the effective dimension reduction (EDR) space
+Author: Joerg Polzehl <polzehl@wias-berlin.de>
+Maintainer: Joerg Polzehl <polzehl@wias-berlin.de>
+Depends: akima
+Suggests: sm
+Description: The library contains R-functions to estimate the effective
+        dimension reduction space in multi-index regression models.
+License: GPL (>= 2)
+URL: http://www.wias-berlin.de/
+Note: This software comes with NO warranty!
+Packaged: 2009-10-12 16:15:24 UTC; polzehl
+Repository: CRAN
+Date/Publication: 2009-10-12 17:17:03

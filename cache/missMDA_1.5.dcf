@@ -1,0 +1,22 @@
+Package: missMDA
+Type: Package
+Title: Handling missing values with/in multivariate data analysis
+        (principal component methods)
+Version: 1.5
+Date: 2012-02-08
+Author: Francois Husson, Julie Josse
+Maintainer: Francois Husson <husson@agrocampus-ouest.fr>
+Description: Imputation of incomplete continuous or categorical
+        datasets; Missing values are imputed with a principal component
+        analysis (PCA), a multiple correspondence analysis (MCA) model
+        or a multiple factor analysis (MFA) model; Perform multiple
+        imputation with and in PCA
+Depends: FactoMineR (>= 1.19)
+License: GPL (>= 2)
+URL: http://www.agrocampus-ouest.fr/math/husson,
+        http://www.agrocampus-ouest.fr/math/josse
+Encoding: latin1
+LazyLoad: yes
+Packaged: 2012-08-02 08:37:36 UTC; Husson
+Repository: CRAN
+Date/Publication: 2012-08-03 08:14:19

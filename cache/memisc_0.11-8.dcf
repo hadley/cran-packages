@@ -1,0 +1,17 @@
+Package: memisc
+Type: Package
+Title: Tools for Data Management,
+    Simulation, and Presentation of Estimates. 
+Version: 0.11-8
+Date: 2007-09-29
+Author: Martin Elff
+Maintainer: Martin Elff <elff@uni-mannheim.de>
+Depends: R (>= 2.6.0), stats, lattice, grid
+Suggests: DBI, RSQLite
+Description: A couple of tools
+  for preparing (especially social science) survey data,
+  conducting simulation studies, and presentation
+  of results of statistical analyses.
+License: GPL Version 2 or later.
+LazyLoad: No
+Packaged: Sat Sep 29 00:56:53 2007; elff

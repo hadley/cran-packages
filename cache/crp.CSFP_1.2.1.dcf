@@ -1,0 +1,18 @@
+Package: crp.CSFP
+Type: Package
+Title: CreditRisk+ portfolio model
+Version: 1.2.1
+Date: 2013-04-12
+Author: Kevin Jakob, Dr. Matthias Fischer & Stefan Kolb
+Maintainer: Kevin Jakob <Kevin_Jakob@t-online.de>
+Description: Modelling credit risks based on the concept of
+        "CreditRisk+", First Boston Financial Products, 1997 and
+        "CreditRisk+ in the Banking Industry", Gundlach & Lehrbass,
+        Springer, 2003.
+License: GPL-2
+LazyLoad: yes
+Depends: methods
+Packaged: 2013-05-08 10:27:06 UTC; Kevin_Jakob
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-08 15:37:32

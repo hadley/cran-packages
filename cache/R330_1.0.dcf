@@ -1,0 +1,15 @@
+Package: R330
+Type: Package
+Title: An R package for Stats 330
+Version: 1.0
+Date: 2012-01-18
+Author: Alan Lee, Blair Robertson
+Maintainer: Alan Lee <aj.lee@auckland.ac.nz>
+Description: This is a collection of useful functions and data for
+        Stats 330
+Depends: s20x, leaps, rgl, lattice
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-06-07 04:55:47 UTC; alee044
+Repository: CRAN
+Date/Publication: 2012-06-07 06:08:12

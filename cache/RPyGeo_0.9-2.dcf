@@ -1,0 +1,19 @@
+Package: RPyGeo
+Type: Package
+Title: ArcGIS Geoprocessing in R via Python
+Version: 0.9-2
+Date: 2010-08-25
+Author: Alexander Brenning
+Maintainer: Alexander Brenning <brenning@uwaterloo.ca>
+Description: Provide access to (virtually any) ArcGIS Geoprocessing
+        tool from within R by running Python geoprocessing scripts
+        without writing Python code or touching ArcGIS. Requires ArcGIS
+        >=9.2, a suitable version of Python (currently 2.4), and
+        Windows.
+License: GPL
+Depends: shapefiles, RSAGA
+SystemRequirements: Windows, Python 2.4.0, ArcGIS (>= 9.2)
+Packaged: 2010-08-26 03:43:21 UTC; !brenning
+OS_type: windows
+Repository: CRAN
+Date/Publication: 2010-08-26 06:42:37

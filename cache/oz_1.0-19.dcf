@@ -1,0 +1,17 @@
+Package: oz
+Version: 1.0-19
+Authors@R: c(person("Bill", "Venables", role = "aut", email =
+        "Bill.Venables@adelaide.edu.au", comment = "S original"),
+        person("Kurt", "Hornik", role = c("aut", "cre"), email =
+        "Kurt.Hornik@R-project.org", comment = "R port"))
+Title: Plot the Australian coastline and states
+Description: Functions for plotting Australia's coastline and state
+        boundaries.
+Imports: graphics
+License: GPL-2
+Packaged: 2012-12-22 12:40:39 UTC; hornik
+Author: Bill Venables [aut] (S original), Kurt Hornik [aut, cre] (R
+        port)
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2012-12-22 13:50:26

@@ -1,0 +1,33 @@
+Package: wethepeople
+Title: An R client for interacting with the White House's "We The
+        People" petition API.
+Description: Implements an R client for the We The People petitions
+        API. The client supports loading petitions, signatures, and
+        users. Additionally, the package includes petition and
+        signature data samples. There are also several functions for
+        analyzing and visualizing the data. Term frequency calculations
+        and word clouds are supported using the tm and wordcloud
+        package, respectively. Petition and issue summary plots are
+        also implemented using the ggplot2 package. For additional
+        information about the We The People project, see
+        https://petitions.whitehouse.gov. Note that the API limits
+        requests to 10/second. For bulk data loading, please use the
+        data dump provided by the White House:
+        https://petitions.whitehouse.gov/developers
+Version: 0.5
+License: GPL-3
+Author: Yoni Ben-Meshulam
+Maintainer: Yoni Ben-Meshulam <yoni@opower.com>
+Depends: R (>= 2.15), rjson, ggplot2, plyr, reshape, tm, wordcloud,
+        RColorBrewer, RCurl
+Suggests: RMySQL
+Collate: 'melt_issues.r' 'plot_issues_over_time.r'
+        'wethepeople-package.r' 'plot_wordcloud.r'
+        'petition_term_document_matrix.r' 'generate_wordcloud_plots.r'
+        'plot_status_by_creation.r' 'plot_issues_pending_response.r'
+        'plot_signature_count.r' 'plot_signatures_by_time_of_day.r'
+        'WeThePeopleAPIClient.r' 'WeThePeopleMySQLClient.r'
+Packaged: 2013-06-04 14:56:20 UTC; yoniben
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-04 18:03:24

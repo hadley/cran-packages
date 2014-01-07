@@ -1,0 +1,17 @@
+Package: robfilter
+Version: 4.0
+Date: 2012-09-13
+Title: Robust Time Series Filters
+Author: Roland Fried <fried@statistik.tu-dortmund.de>, Karen
+        Schettlinger <schettlinger@statistik.tu-dortmund.de> and
+        Matthias Borowski <borowski@statistik.tu-dortmund.de>
+Maintainer: Roland Fried <fried@statistik.tu-dortmund.de>
+Depends: R (>= 2.5.0), robustbase, MASS, lattice
+Description: A set of functions to filter time series based on concepts
+        from robust statistics.
+License: GPL (>= 2)
+URL: http://www.statistik.tu-dortmund.de/fried.html
+LazyData: yes
+Repository: CRAN
+Packaged: 2012-09-13 15:02:24 UTC; borowski
+Date/Publication: 2012-09-13 16:22:54

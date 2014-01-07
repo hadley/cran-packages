@@ -1,0 +1,22 @@
+Package: secr
+Type: Package
+Title: Spatially explicit capture-recapture
+Version: 1.5.1
+Depends: R (>= 2.12.0), abind, utils
+Suggests: MASS, nlme, sp, maptools, gpclib
+Date: 2010-12-02
+Author: Murray Efford
+Maintainer: Murray Efford <murray.efford@otago.ac.nz>
+Description: Estimate animal population density with capture-recapture
+        data from an array of passive detectors (traps). Models
+        incorporating distance-dependent detection are fitted by
+        maximizing the likelihood. Tools are included for data
+        manipulation and model selection.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+ZipData: yes
+URL: http://www.otago.ac.nz/density
+Packaged: 2010-12-02 09:42:49 UTC; Murray
+Repository: CRAN
+Date/Publication: 2010-12-03 08:33:19

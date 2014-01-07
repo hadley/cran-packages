@@ -1,0 +1,21 @@
+Package: tsfa
+Version: 2012.4-1
+Title: Time Series Factor Analysis
+Description: Extraction of Factors from Multivariate Time Series. See
+        ?00tsfa-Intro for more details.
+Depends: R (>= 2.1.0), GPArotation (>= 2006.9-1), setRNG (>= 2004.4-1),
+        tframe (>= 2011.3-1), tfplot, dse (>= 2006.1-1), EvalEst (>=
+        2006.1-1)
+Suggests: CDNmoney, MASS
+LazyLoad: yes
+License: GPL-2
+Copyright: 2004-2011 Bank of Canada and Erik Meijer. 2012 Paul Gilbert
+        and Erik Meijer
+Author: Paul Gilbert and Erik Meijer <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert and Erik Meijer <pgilbert.ttv9z@ncf.ca>
+URL: http://tsanalysis.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsanalysis
+Repository/R-Forge/Revision: 106
+Packaged: 2012-04-12 16:31:43 UTC; rforge
+Date/Publication: 2012-05-02 06:39:37

@@ -1,0 +1,15 @@
+Package: MAMA
+Version: 2.1.0
+Date: 2012-9-16
+Title: Meta-Analysis of MicroArry
+Author: Ivana Ihnatova <184415@mail.muni.cz>.
+Maintainer: Ivana Ihnatova <184415@mail.muni.cz>
+Depends: R (>= 2.15.1), methods, genefilter, metaMA, tspair, xtable,
+        multtest, RankProd, gtools, grid, GeneMeta
+Suggests: gplots
+Imports: MergeMaid, GeneMeta, tspair, xtable, methods, metaArray
+Description: Implementation of methods for microarray meta-analysis.
+License: GPL (>= 2)
+Packaged: 2012-09-16 17:28:21 UTC; user
+Repository: CRAN
+Date/Publication: 2012-09-17 17:27:50

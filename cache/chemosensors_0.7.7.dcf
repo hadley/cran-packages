@@ -1,0 +1,41 @@
+Package: chemosensors
+Type: Package
+Title: A tool for the design of synthetic experiments in machine
+        olfaction.
+Version: 0.7.7
+Date: 2012-12-21
+Author: Alexandre Perera-Lluna and Andrey Ziyatdinov
+Maintainer: Andrey Ziyatdinov <andrey.ziyatdinov@upc.edu>
+Description: This package introduces a software tool for the design of
+    synthetic experiments in machine olfaction. The generator of gas sensor
+    signals can be used in applications related to test and benchmarking of
+    signal processing methods, neuromorphic simulations in machine olfaction
+    and educational tools. A so-called virtual sensor array features unlimited
+    number of sensors, support of multicomponent gas mixtures and full
+    parametric control of the noise in the system. The artificial (virtual)
+    sensor array is inspired from a reference database of seventeen polymeric
+    sensors with concentration profiles for three analytes.
+License: GPL (>= 3)
+URL: http://chemosensors.r-forge.r-project.org/
+LazyData: yes
+LazyLoad: yes
+Depends: R (>= 2.11.0), methods, stats, pls, plyr, reshape2, ggplot2
+Imports: LearnBayes, quadprog, RColorBrewer
+Suggests: doMC, multicore, car, gridExtra
+Collate: 'package.R' 'datasets.R' 'methods.R' 'demos.R' 'dev.lib.R'
+        'support.lib.R' 'spline.lib.R' 'ChemosensorsClass.R'
+        'ChemosensorsClassMethods.R' 'conc.lib.R' 'sdata.lib.R'
+        'plot.lib.R' 'SensorDataModelClassMethods.R'
+        'ConcNoiseModelClass.R' 'ConcNoiseModelClassMethods.R'
+        'DriftCommonModelClassMethods.R' 'DriftNoiseModelClass.R'
+        'DriftNoiseModelClassMethods.R' 'ScenarioClass.R'
+        'ScenarioClassMethods.R' 'SensorDynamicsClass.R'
+        'SensorDynamicsClassMethods.R' 'SensorModelClass.R'
+        'SensorModelClassMethods.R' 'SensorNoiseModelClass.R'
+        'SensorNoiseModelClassMethods.R' 'SorptionModelClass.R'
+        'SorptionModelClassMethods.R' 'SensorArrayClass.R'
+        'SensorArrayClassMethods.R' 'affinity.lib.R'
+Packaged: 2013-10-09 10:08:31 UTC; andrey
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-09 12:53:35

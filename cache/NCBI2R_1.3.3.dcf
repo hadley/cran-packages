@@ -1,0 +1,34 @@
+Package: NCBI2R
+Type: Package
+Title: NCBI2R-An R package to navigate and annotate genes and SNPs
+Version: 1.3.3
+Date: 2011-04-12
+Author: Scott Melville <ncbi2r@gmail.com>
+Maintainer: Scott Melville <ncbi2r@gmail.com>
+Depends: startupmsg
+Description: NCBI2R is a R package that annotates lists of SNPs and/or
+        genes, with current information from NCBI, including LD
+        information. Functions are provided that with one command will
+        provide annotation of the results from genome wide association
+        studies to provide a broader context of their meaning. Other
+        functions enable comparisons between a user's GWA results, and
+        candidate snp/gene lists that are created from keywords, such
+        as specific diseases, phenotypes or gene ontology terms.
+        Commands are simple to follow and designed to work with R
+        objects to integrate into existing workflows. The output
+        produces text fields and weblinks to more information for items
+        such as: gene descriptions, nucleotide positions, OMIM,
+        pathways, phenotypes, and lists of interacting and neighboring
+        genes. Annotation can then be used in R for further analysis,
+        or the objects can be customized for use in spreadsheet
+        programs or web browsers. The NCBI2R package was designed to
+        allow those performing genome analysis to produce output that
+        could easily be understood by a person not familiar with R.
+        Please see the new website at http://NCBI2R.wordpress.com for
+        more information. The internet is required for almost all of
+        these functions.
+License: GPL (> 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-04-13 15:16:01
+Packaged: 2011-04-13 14:17:20 UTC; scott7

@@ -1,0 +1,16 @@
+Package: tkrgl
+Title: TK widget tools for rgl package
+Version: 0.7
+Author: Duncan Murdoch/Ming Chen
+Description: TK widget tools for rgl package 
+Maintainer: Duncan Murdoch <murdoch@stats.uwo.ca>
+License: GPL
+Depends: R (>= 2.0.0), tcltk, rgl (>= 0.66)
+SystemRequirements: rgl packages for rendering
+URL: http://www.stats.uwo.ca/faculty/murdoch
+BugReports: https://r-forge.r-project.org/projects/rgl/
+Repository: CRAN
+Repository/R-Forge/Project: rgl
+Repository/R-Forge/Revision: 831
+Date/Publication: 2011-11-27 09:14:21
+Packaged: 2011-11-25 22:38:01 UTC; rforge

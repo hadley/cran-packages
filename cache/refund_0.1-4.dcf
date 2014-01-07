@@ -1,0 +1,22 @@
+Package: refund
+Type: Package
+Title: Regression with Functional Data
+Version: 0.1-4
+Date: 2011-07-19
+Author: Coordinating authors: Ciprian Crainiceanu <ccrainic@jhsph.edu>
+        and Philip Reiss <phil.reiss@nyumc.org>. Contributors: Jeff
+        Goldsmith <jgoldsmi@jhsph.edu> and Lei Huang
+        <huangracer@gmail.com>
+Maintainer: Lei Huang <huangracer@gmail.com>
+Depends: R (>= 2.9.0), mgcv, fda
+Description: Functions for regression with functional data.  The
+        principal methods currently implemented are (I) regression of
+        scalar responses on functional predictors, by (longitudinal)
+        penalized functional regression and functional principal
+        component regression; and (II) regression of functional
+        responses on scalar predictors, by penalized OLS or GLS.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-07-23 14:42:18
+Packaged: 2011-07-21 17:25:48 UTC; huangl08

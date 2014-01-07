@@ -1,0 +1,23 @@
+Package: mmds
+Version: 1.1
+Date: 2011-07-10
+Title: Mixture Model Distance Sampling (mmds)
+Author: David Lawrence Miller <dave@ninepointeightone.net>
+Maintainer: David Lawrence Miller <dave@ninepointeightone.net>
+Description: This library implements mixture model distance sampling
+        methods. See Miller and Thomas (in prep.).
+Depends: R (>= 2.8.0)
+LazyLoad: yes
+License: GPL-2
+Collate: 'checkinitialvalues.R' 'DeltaMethod.R' 'detfct.R' 'em.R'
+        'eval.pdf.R' 'fitmix.R' 'flt.gr.R' 'flt.R' 'flt.var.R'
+        'getpars.R' 'goftests.R' 'integrate.hn.pt.R' 'integrate.hn.R'
+        'integrate.pdf.R' 'inv.reparam.pi.R' 'keyfct.hn.R' 'keyfct.R'
+        'mu.calc.R' 'namepars.R' 'plot.ds.mixture.R'
+        'print.ds.mixture.R' 'print.summary.ds.mixture.R'
+        'reparam.pi.R' 'scalevalue.R' 'setinitialvalues.R' 'sim.mix.R'
+        'solvecov.R' 'step.ds.mixture.R' 'summary.ds.mixture.R'
+        'switchpars.R' 'varNp.R' 'zzz.R' 'mmds-package.R'
+Packaged: 2012-04-10 19:59:02 UTC; dave
+Repository: CRAN
+Date/Publication: 2012-04-11 06:03:52

@@ -1,0 +1,12 @@
+Package: iid.test
+Version: 0.5
+Date: August 11 2005
+Title: iid-test
+Author: Rasmus E. Benestad <rasmus.benestad@met.no>
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: clim.pact, R (>= 2.1.1)
+Description: Testing whether data is independent and identically distributed
+License: GPL version 2 or newer. The use should be acknowledged in publication acknowledgement: .. "results were obtained using iid-test by Benestad (The Norwegian Meteorological Institute and the Norwegian Research Council's RegClim programme)."
+URL: http://www.r-project.org http://cran.r-project.org
+ZipData: no 
+Packaged: Thu Aug 11 11:46:05 2005; rasmusb

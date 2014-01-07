@@ -1,0 +1,24 @@
+Package: lawstat
+Version: 2.3
+Date: 2009-07-19
+Title: An R package for biostatistics, public policy, and law
+Author: Kimihiro Noguchi <knoguchi@uwaterloo.ca>, W. L. Wallace Hui
+        <wlwhui@uwaterloo.ca>, Yulia R. Gel <ygl@math.uwaterloo.ca>,
+        Joseph L. Gastwirth <jlgast@gwu.edu>, Weiwen Miao
+        <miao@macalester.edu>
+Maintainer: Kimihiro Noguchi <knoguchi@uwaterloo.ca>
+Depends: R (>= 2.6.0), grDevices, stats, mvtnorm, VGAM
+Suggests: Kendall, Hmisc, fBasics
+License: GPL (>= 2)
+Description: An R software package on statistical tests widely utilized
+        in biostatistics, public policy and law. Along with the well
+        known tests for equality of means and variances, randomness,
+        measures of relative variability etc, the package contains new
+        robust tests of symmetry, omnibus and directional tests of
+        normality, and their graphical counterparts such as Robust QQ
+        plot; a robust trend tests for variances etc. All implemented
+        tests and methods are illustrated by simulations and real-life
+        examples from legal statistics, economics, and biostatistics.
+Packaged: 2012-10-29 08:59:05 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:05

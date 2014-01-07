@@ -1,0 +1,24 @@
+Package: rJython
+Version: 0.0-2
+Date: 2010-07-19
+Title: R interface to Python via Jython
+Author: G. Grothendieck and Carlos J. Gil Bellosta (authors of Jython
+        itself are Jim Hugunin, Barry Warsaw, Samuele Pedroni, Brian
+        Zimmer, Frank Wierzbicki and others; Bob Ippolito is the author
+        of the simplejson Python module)
+Maintainer: ORPHANED
+Description: R interface to Python via Jython allowing R to call python
+        code.
+SystemRequirements: Java
+Depends: rJava (>= 0.8-1), rjson (>= 0.1.9)
+License: GPL (>= 2)
+URL: https://r-forge.r-project.org/projects/rjython/
+Repository: CRAN
+Repository/R-Forge/Project: rjython
+Repository/R-Forge/Revision: 20
+Date/Publication: 2012-07-30 11:31:15
+Packaged: 2010-07-27 20:56:19 UTC; rforge
+X-CRAN-Original-Package: rJython
+X-CRAN-Original-Maintainer: Carlos J. Gil Bellosta
+        <cgb@datanalytics.com>
+X-CRAN-Comment: Orphaned on 2012-07-30 after 7 months of non-response.

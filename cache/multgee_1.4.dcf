@@ -1,0 +1,16 @@
+Package: multgee
+Type: Package
+Title: GEE Solver for Correlated Nominal or Ordinal Multinomial
+        Responses
+Version: 1.4
+Date: 2013-12-03
+Author: Anestis Touloumis <Anestis.Touloumis@cruk.cam.ac.uk>
+Maintainer: Anestis Touloumis <Anestis.Touloumis@cruk.cam.ac.uk>
+Depends: R (>= 2.15.0), gnm, VGAM
+Description: GEE solver for correlated nominal or ordinal multinomial responses using a local odds ratios parameterization.
+License: GPL-2 | GPL-3
+LazyLoad: yes
+Packaged: 2013-12-03 21:41:06 UTC; Anestis
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-04 00:26:54

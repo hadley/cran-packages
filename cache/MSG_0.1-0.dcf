@@ -1,0 +1,21 @@
+Package: MSG
+Type: Package
+Title: Data and functions for the book Modern Statistical Graphics
+Version: 0.1-0
+Date: 2011-03-31
+Author: Yihui Xie
+Maintainer: Yihui Xie <xie@yihui.name>
+Description: A companion to the Chinese book ``Modern Statistical
+        Graphics'' by Yihui Xie.
+License: GPL
+LazyLoad: yes
+Imports: RColorBrewer
+Suggests: animation, KernSmooth, rgl, plotrix, aplpack, ggplot2,
+        iplots, sna
+URL: http://yihui.name/cn/publication
+BugReports: https://github.com/yihui/MSG/issues
+Collate: 'andrews_curve.R' 'char_gen.R' 'color.R' 'cut_plot.R'
+        'heart_curve.R' 'MSG-package.R'
+Packaged: 2011-03-30 04:58:58 UTC; yihui
+Repository: CRAN
+Date/Publication: 2011-03-30 10:34:05

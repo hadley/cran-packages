@@ -1,0 +1,24 @@
+Package: pcrsim
+Type: Package
+Title: Simulation of the forensic DNA process
+Version: 0.1
+Date: 2013-04-06
+Author: Oskar Hansson
+Maintainer: Oskar Hansson <oskar.hansson@fhi.no>
+URL: https://github.com/OskarHansson/pcrsim
+BugReports: https://github.com/OskarHansson/pcrsim/issues
+Imports: ggplot2, data.table, gWidgets, RGtk2, strvalidator
+Suggests: ggplot2, data.table, gWidgets, RGtk2, strvalidator, testthat
+Description: pcrsim is a package for simulating the forensic DNA
+        process. pcrsim() opens up a graphical user interface which
+        allow the user to enter parameters required for the simulation.
+        Once calibrated the program can be used to: reduce the
+        laboratory work needed for validation of new STR kits, help
+        develop methods for interpretation of DNA evidence, etc.  This
+        is a first version which is still experimental and under
+        development.
+License: GPL-2
+Packaged: 2013-04-06 14:41:27 UTC; MadGecko
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-06 17:35:56

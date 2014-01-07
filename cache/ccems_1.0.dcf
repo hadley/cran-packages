@@ -1,0 +1,18 @@
+Package: ccems
+Type: Package
+Title: Combinatorially Complex Equilibrium Model Selection 
+Version: 1.0
+Date: 2008-12-29
+Author: Tom Radivoyevitch
+Maintainer: Tom Radivoyevitch <txr24@case.edu>
+Description: Dissociation constants of quasi-equilibriums of enzymes and protein-ligand binding equilibriums in general are systematically 
+  scanned though possibilities of being infinity and/or equal to others. The automatically generated space of models is then fitted to data.
+Depends: odesolve,snow
+Imports: 
+Suggests:  nws
+Enhances:
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+URL: http://epbi-radivot.cwru.edu/ccems
+Packaged: Thu Mar  5 17:49:48 2009; radivot

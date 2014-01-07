@@ -1,0 +1,28 @@
+Package: raster
+Type: Package
+Title: raster: Geographic data analysis and modeling
+Version: 2.2-5
+Date: 2013-12-31
+Depends: methods, sp (>= 1.0-13), R (>= 2.15.0)
+Suggests: rgdal (>= 0.8-12), rgeos (>= 0.3-1), ncdf, ncdf4, igraph,
+        snow, tcltk, rasterVis
+Author: Robert J. Hijmans
+Authors@R: c(
+	person("Robert J.", "Hijmans", role = c("cre", "aut"),  email = "r.hijmans@gmail.com"),
+	person("Jacob", "van Etten", role = "ctb"),
+	person("Matteo", "Mattiuzzi", role = "ctb"),
+	person("Michael", "Sumner", role = "ctb"),
+	person("Jonathan A.", "Greenberg", role = "ctb"),
+	person("Oscar", "Perpinan Lamigueiro", role = "ctb"),
+	person("Andrew", "Bevan", role = "ctb"),
+	person("Etienne B.", "Racine", role = "ctb"),
+	person("Ashton", "Shortridge", role = "ctb"))
+Maintainer: Robert J. Hijmans <r.hijmans@gmail.com>
+Description: Reading, writing, manipulating, analyzing and modeling of gridded spatial data. The package implements basic and high-level functions and processing of very large files is supported.
+License: GPL (>= 3)
+URL: http://cran.r-project.org/web/packages/raster/
+ByteCompile: TRUE
+Packaged: 2013-12-31 18:53:53 UTC; rhijmans
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-01 18:32:03

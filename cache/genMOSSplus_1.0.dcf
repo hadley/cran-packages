@@ -1,0 +1,16 @@
+Package: genMOSSplus
+Type: Package
+Title: Application of MOSS algorithm to genome-wide association study
+        (GWAS)
+Version: 1.0
+Date: 2013-04-12
+Author: Olga Vesselova, Matthew Friedlander, Laurent Briollais, Adrian Dobra, Helene Massam.
+Maintainer: Laurent Briollais <laurent@lunenfeld.ca>
+Description: This is a genMOSS package with additional datafile preprocessing functions. Performs genome-wide analysis of dense SNP array data using the mode oriented stochastic search (MOSS) algorithm in a case-control design. The MOSS algorithm is a Bayesian variable selection procedure that is applicable to GWAS data. It identifies combinations of the best predictive SNPs associated with the response. It also performs a hierarchical log-linear model search to identify the most relevant associations among the resulting subsets of SNPs. This package also includes preprocessing of the data from Plink format to the format required by the MOSS algorithm. 
+License: GPL-2
+OS_type: unix
+LazyLoad: yes
+Packaged: 2013-08-30 17:43:50 UTC; olga
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-30 20:05:41

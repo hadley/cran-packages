@@ -1,0 +1,12 @@
+Package: torus	
+Type: Package
+Title: Torus algorithm and linear congruential generators
+Version: 1.01
+Date: 2008-4-27
+Author: Christophe Dutang, Thibault Marchal
+Maintainer: Christophe Dutang <christophe.dutang@ensimag.fr>
+Description: Torus algorithm for quasi random number generation (for Van Der Corput low-discrepancy sequences, use Rmetrics - fOptions). Also implements a general linear congruential pseudo random generator (such as Park Miller) to make comparison with Mersenne Twister (default in R) and the Torus algorithm.
+Depends: R (>= 2.6.0)
+License: GPL (>= 2)
+Encoding: latin1
+Packaged: Sun Apr 27 13:08:27 2008; christophedutang

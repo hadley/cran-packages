@@ -1,0 +1,18 @@
+Package: equate
+Version: 0.1-1
+Date: 2009-11-4
+Title: Traditional Methods for Test Score Equating
+Author: Anthony Albano <tony.d.albano@gmail.com>
+Maintainer: Anthony Albano <tony.d.albano@gmail.com>
+Depends: R (>= 2.8.0)
+Description: The equate package contains functions for traditional
+        equating under both random groups and nonequivalent groups with
+        anchor test designs. Mean, linear, and equipercentile equating
+        are supported as are methods for univariate and bivariate
+        presmoothing of score distributions.
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2009-11-05 03:07:18 UTC; hp
+Repository: CRAN
+Date/Publication: 2009-11-05 12:34:41

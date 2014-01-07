@@ -1,0 +1,43 @@
+Package: BatchJobs
+Title: Batch computing with R.
+Description: Provides Map, Reduce and Filter variants to generate jobs
+        on batch computing systems like PBS/Torque, LSF and Sun Grid
+        Engine. Multicore and SSH systems are also supported. For
+        further details see the project web page.
+Author: Bernd Bischl <bernd_bischl@gmx.net>, Michel Lang
+        <michellang@gmail.com>, Olaf Mersmann <olafm@p-value.net>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+URL: http://batchjobs.googlecode.com
+BugReports: http://code.google.com/p/batchjobs/issues/list
+MailingList: batchjobs@googlegroups.com
+License: BSD
+Depends: R (>= 2.13.0), BBmisc (>= 1.1-166)
+Imports: utils, digest, DBI, RSQLite, sendmailR, brew, plyr
+Suggests: testthat
+LazyData: yes
+ByteCompile: yes
+Version: 1.0-966
+Collate: 'addJob.R' 'applyJobFunction.R' 'batchApply.R'
+        'batchExpandGrid.R' 'batchMapQuick.R' 'batchMap.R'
+        'batchMapResults.R' 'batchReduce.R' 'batchReduceResults.R'
+        'buffer.R' 'callFunctionOnSSHWorkers.R' 'checkIdValid.R'
+        'clusterFunctionsHelpers.R' 'clusterFunctionsInteractive.R'
+        'clusterFunctionsLocal.R' 'clusterFunctionsLSF.R'
+        'clusterFunctionsMulticore.R' 'clusterFunctions.R'
+        'clusterFunctionsSGE.R' 'clusterFunctionsSSH.R'
+        'clusterFunctionsTorque.R' 'clusterFunctionsUnitTests.R'
+        'conf.R' 'database.R' 'debugMulticore.R' 'debugSSH.R' 'doJob.R'
+        'filenames.R' 'filterResults.R' 'findJobs.R' 'findStatus.R'
+        'getErrors.R' 'getJobInfo.R' 'getJob.R' 'getLogFiles.R'
+        'getSSHWorkersInfo.R' 'grepLogs.R' 'helpers.R'
+        'installPackagesOnSSHWorkers.R' 'Job.R' 'killJobs.R'
+        'loadResult.R' 'loadResults.R' 'reduceResults.R' 'Registry.R'
+        'resetJobs.R' 'Resources.R' 'scheduleWorkerJobs.R' 'sendMail.R'
+        'setJobFunction.R' 'showClusterStatus.R' 'showLog.R'
+        'showStatus.R' 'submitJobs.R' 'sweepRegistry.R'
+        'syncRegistry.R' 'testJob.R' 'updateRegistry.R' 'waitForJobs.R'
+        'WorkerLinux.R' 'Worker.R' 'writeRscripts.R' 'zzz.R'
+Packaged: 2013-04-10 18:02:12 UTC; bischl
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-10 20:18:36

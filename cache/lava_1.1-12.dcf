@@ -1,0 +1,37 @@
+Package: lava
+Type: Package
+Title: Linear Latent Variable Models
+Version: 1.1-12
+Date: 2012-11-06
+Author: Klaus K. Holst
+Maintainer: Klaus K. Holst <kkho@biostat.ku.dk>
+Description: Estimation and simulation of latent variable models
+Keywords: latent variable model, structural equation model, likelihood
+        inference
+Depends: R (>= 2.14), mvtnorm, numDeriv
+Suggests: graph, Rgraphviz, igraph (>= 0.6), Matrix, gof (>= 0.8),
+        foreach, survival
+License: GPL-3
+LazyLoad: yes
+Collate: 'addattr.R' 'addvar.R' 'baptize.R' 'bootstrap.R' 'cancel.R'
+        'children.R' 'cluster.hook.R' 'coef.R' 'compare.R' 'confint.R'
+        'constrain.R' 'copy.R' 'correlation.R' 'covariance.R' 'deriv.R'
+        'distribution.R' 'effects.R' 'endogenous.R'
+        'estimate.multigroup.R' 'estimate.R' 'exogenous.R' 'finalize.R'
+        'fix.R' 'formula.R' 'functional.R' 'glmest.R' 'gof.R'
+        'graph2lvm.R' 'graph.R' 'heavytail.R' 'hooks.R' 'index.sem.R'
+        'information.R' 'iv.R' 'kill.R' 'labels.R' 'latent.R'
+        'lava-package.R' 'lisrel.R' 'logLik.R' 'logo.R' 'lvm.R'
+        'makemissing.R' 'manifest.R' 'matrices.R' 'measurement.R'
+        'merge.R' 'missingMLE.R' 'model.frame.R' 'modelPar.R' 'model.R'
+        'modelsearch.R' 'modelVar.R' 'moments.R' 'multigroup.R'
+        'nested.R' 'nodecolor.R' 'Objective.R' 'onload.R' 'optims.R'
+        'parameter.R' 'parpos.R' 'pars.R' 'partialcor.R' 'path.R'
+        'plot.R' 'predict.R' 'print.R' 'profile.R' 'randomslope.R'
+        'regression.R' 'reorder.R' 'residuals.R' 'score.R' 'sim.R'
+        'startvalues.R' 'subgraph.R' 'subset.R' 'summary.R'
+        'survival.R' 'utils.R' 'variances.R' 'vars.R' 'vcov.R'
+        'weight.R' 'equivalence.R' 'eventTime.R'
+Packaged: 2012-11-11 20:00:22 UTC; nqh369
+Repository: CRAN
+Date/Publication: 2012-11-12 06:40:17

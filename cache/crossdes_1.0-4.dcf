@@ -1,0 +1,10 @@
+Package: crossdes
+Date: 2005-03-31
+Title: Design and Randomization in Crossover Studies
+Version: 1.0-4
+Author: Martin Oliver Sailer <sailer@statistik.uni-dortmund.de>
+Depends: AlgDesign, gtools, MASS
+Description: Contains functions for the construction and randomization of balanced carryover balanced designs. Contains functions to check given designs for balance. Also contains functions for simulation studies on the validity of two randomization procedures.
+Maintainer: Martin Oliver Sailer <sailer@statistik.uni-dortmund.de>
+License: GPL 2
+Packaged: Fri Apr  1 11:55:53 2005; sailer

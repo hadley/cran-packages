@@ -1,0 +1,16 @@
+Package: compoisson
+Type: Package
+Title: Conway-Maxwell-Poisson Distribution
+Version: 0.3
+Date: 2008-05-07
+Author: Jeffrey Dunn
+Maintainer: Jeffrey Dunn <jsd115@gmail.com>
+Description: Provides routines for density and moments of the
+        Conway-Maxwell-Poisson distribution as well as functions for
+        fitting the COM-Poisson model for over/under-dispersed count
+        data.
+License: BSD
+Depends: stats, MASS
+Packaged: 2012-10-29 08:58:27 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:27

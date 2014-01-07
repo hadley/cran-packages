@@ -1,0 +1,21 @@
+Package: multxpert
+Title: Common Multiple Testing Procedures and Gatekeeping Procedures
+Version: 0.1
+Date: 2010-10-31
+Author: Alex Dmitrienko, Eric Nantz, and Gautier Paux, with
+        contributions by Thomas Brechenmacher
+Description: Implementation of commonly used p-value-based and
+        parametric multiple testing procedures (computation of adjusted
+        p-values and simultaneous confidence intervals) and parallel
+        gatekeeping procedures based on the methodology presented in
+        the book "Multiple Testing Problems in Pharmaceutical
+        Statistics" (edited by Alex Dmitrienko, Ajit C. Tamhane and
+        Frank Bretz) published by Chapman and Hall/CRC Press 2009.
+Maintainer: Eric Nantz <eric.nantz@gmail.com>
+Depends: R (>= 2.1.0), stats, mvtnorm (>= 0.9)
+URL: http://multxpert.com/wiki/MultXpert_package
+LazyLoad: yes
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2011-01-23 08:52:52
+Packaged: 2011-01-21 19:43:48 UTC; C084511

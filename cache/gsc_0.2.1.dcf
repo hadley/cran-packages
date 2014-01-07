@@ -1,0 +1,16 @@
+Package: gsc
+Title: Generalised Shape Constraints
+Version: 0.2.1
+Date: 2011-04-12
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: A package for smoothing with shape constraints. A smooth
+        function is regarded as a continuous function approximated by a
+        series of points. A shape constraint is regarded as a
+        piece-wise constraint on the sign of a smooth function's
+        zeroth, first, second or third derivative.
+License: GPL (>= 2)
+Depends: ofp (>= 0.6.0), quadprog
+Packaged: 2011-04-12 09:55:43 UTC; maia
+Repository: CRAN
+Date/Publication: 2011-04-13 09:25:34

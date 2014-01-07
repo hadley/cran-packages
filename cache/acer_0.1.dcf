@@ -1,0 +1,16 @@
+Package: acer
+Type: Package
+Title: The ACER Method for Extreme Value Estimation
+Version: 0.1
+Date: 2011-11-30
+Author@R: person ("Even", "Haug", email = "evhaug@gmail.com")
+Author: Even Haug <evhaug@gmail.com>
+Maintainer: Even Haug <evhaug@gmail.com>
+Description: Implementation of the ACER method for finding return levels of extreme values.
+License: GPL-3
+LazyLoad: yes
+Depends: Rcpp
+LinkingTo: Rcpp
+Packaged: 2011-12-15 19:37:35 UTC; even
+Repository: CRAN
+Date/Publication: 2011-12-16 17:47:57

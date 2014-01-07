@@ -1,0 +1,10 @@
+Package: VR
+Version: 6.1-5
+Depends: R-0.64 or later
+Author: S original by Venables & Ripley.
+  R port by Brian Ripley <ripley@stats.ox.ac.uk>, following earlier
+  work by Kurt Hornik and Albrecht Gebhardt.
+Description: Various functions from the libraries of Venables and
+  Ripley, `Modern Applied Statistics with S-PLUS' (3rd edition).
+  Contains MASS class nnet spatial
+License: GPL (version 2 or later)

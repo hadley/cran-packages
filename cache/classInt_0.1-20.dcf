@@ -1,0 +1,19 @@
+Package: classInt
+Version: 0.1-20
+Date: 2013-06-22
+Title: Choose univariate class intervals
+Authors@R: c(person("Roger", "Bivand", role=c("aut", "cre"),
+        email="Roger.Bivand@nhh.no"), person("Hisaji", "Ono",
+        role="ctb"), person("Richard", "Dunlap", role="ctb"),
+        person("Matthieu", "Stigler", role="ctb"))
+Depends: R (>= 2.2), grDevices, stats, class, e1071
+Description: A package for choosing univariate class intervals for
+        mapping or other graphics purposes
+License: GPL (>= 2)
+Packaged: 2013-06-22 14:40:45 UTC; rsb
+Author: Roger Bivand [aut, cre], Hisaji Ono [ctb], Richard Dunlap
+        [ctb], Matthieu Stigler [ctb]
+Maintainer: Roger Bivand <Roger.Bivand@nhh.no>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-22 18:43:49

@@ -1,0 +1,30 @@
+Package: TEQR
+Version: 1.0-0
+Date: 2010-10-16
+Title: Target Equavelence Range Design
+Author: M. Suzette Blanchard <sblanchard@coh.org>
+Depends:
+Maintainer: M. Suzette Blanchard <sblanchard@coh.org>
+Description: The target equivalence range (TEQR) design is a
+        frequentist implementation of the modified toxicity probability
+        interval (mTPI) design and a competitor to the standard 3+3
+        design (3+3).  The 3+3 is the work horse design in Phase I. It
+        is good at determining if a safe dose exits, but provides poor
+        accuracy and precision in estimating the level of toxicity at
+        the maximum tolerated dose (MTD).  The TEQR is better than the
+        3+3 when compared on: 1) the number of times the dose at or
+        nearest the target toxicity level was selected as the MTD, 2)
+        the number of subjects assigned to doses levels, at or nearest
+        the MTD, and 3) the overall trial DLT rate. TEQR more
+        accurately and more precisely estimates the rate of toxicity at
+        the MTD because a larger number of subjects are studied at the
+        MTD dose. The TEQR on average uses fewer subjects and provide
+        reasonably comparable results to the continual reassessment
+        method (CRM) in the number of times the dose at or nearest the
+        target toxicity level was selected as the MTD and the number of
+        subjects assigned doses, at, or nearest the target and in
+        overall DLT rate.
+License: GPL-2
+Packaged: 2010-11-09 17:26:43 UTC; root
+Repository: CRAN
+Date/Publication: 2010-11-10 11:16:57

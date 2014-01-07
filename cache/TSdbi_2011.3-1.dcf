@@ -1,0 +1,27 @@
+Package: TSdbi
+Version: 2011.3-1
+Date: 2011-03-14
+Title: Time Series Database Interface
+Description: TSdbi provides a common interface to time series
+        databases. The objective is to define a standard interface so
+        users can retrieve time series data from various sources with a
+        simple, common, set of commands, and so programs can be written
+        to be portable with respect to the data source. The SQL
+        implementations also provide a database table design, so users
+        needing to set up a time series database have a reasonably
+        complete way to do this easily. The interface provides for a
+        variety of options with respect to the representation of time
+        series in R. There is also a (not yet well tested) mechanism to
+        handle multilingual data documentation.
+Depends: R (>= 2.8.0), methods, tframe (>= 2008.5-1)
+Imports: methods, DBI
+Suggests: zoo, tseries, tis, tframePlus
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 233
+Date/Publication: 2011-03-23 09:29:26
+Packaged: 2011-03-15 21:42:16 UTC; rforge

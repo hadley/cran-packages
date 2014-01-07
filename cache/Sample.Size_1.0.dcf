@@ -1,0 +1,13 @@
+Package: Sample.Size
+Type: Package
+Title: Sample size calculation
+Version: 1.0
+Date: 2013-12-03
+Author: Wei Jiang, Jonathan Mahnken, Matthew Mayo
+Maintainer: Wei Jiang<wjiang@kumc.edu>
+Description: Computes the required sample size using the optimal designs with multiple constraints proposed in Mayo et al.(2010). This optimal method is designed for two-arm, randomized phase II clinical trials, and the required sample size can be optimized either using fixed or flexible randomization allocation ratios.
+License: GPL-2
+Packaged: 2013-12-04 17:18:13 UTC; rraghavan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-05 18:05:23

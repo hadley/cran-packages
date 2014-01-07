@@ -1,0 +1,18 @@
+Package: msSurv
+Version: 1.0-2
+Date: 2011-2-6
+Title: Nonparametric Estimation for Multistate Models
+Author: Nicole Ferguson <nicole.ferguson@louisville.edu>, Guy Brock
+        <guy.brock@louisville.edu>, Somnath Datta
+        <somnath.datta@louisville.edu>
+Maintainer: Nicole Ferguson <nicole.ferguson@louisville.edu>
+Depends: R (>= 2.0), methods, class, graph, lattice
+Suggests:
+Description: Nonparametric estimation for right censored, left
+        truncated time to event data in multistate models
+License: LGPL
+Collate: msSurv-Classes.R msSurv-Methods.R msSurv-internal.R
+        msSurv-user.R
+Packaged: 2011-02-08 20:56:25 UTC; g0broc01
+Repository: CRAN
+Date/Publication: 2011-02-09 10:11:50

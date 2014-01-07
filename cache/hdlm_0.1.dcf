@@ -1,0 +1,18 @@
+Package: hdlm
+Type: Package
+Title: Fits high dimensional linear models
+Version: 0.1
+Date: 2011-09-06
+Author: Taylor B. Arnold
+Maintainer: Taylor B. Arnold <taylor.arnold@yale.edu>
+Description: Mimics the lm function found in the recommended package
+        stats to fit high dimensional regression models with point
+        estimates, standard errors, and p-values. Methods for printing
+        and summarizing the results are given. Future work will
+        additionally include methods for plotting and predicting.
+License: GPL (>= 2.0)
+Depends: lars, boot
+LazyLoad: yes
+Packaged: 2011-09-06 15:11:00 UTC; tba3
+Repository: CRAN
+Date/Publication: 2011-09-06 18:36:55

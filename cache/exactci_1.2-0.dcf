@@ -1,0 +1,16 @@
+Package: exactci
+Type: Package
+Title: Exact P-values and Matching Confidence Intervals for simple
+        Discrete Parametric Cases
+Version: 1.2-0
+Date: 2012-09-23
+Author: M.P. Fay
+Maintainer: M.P. Fay <mfay@niaid.nih.gov>
+Depends: stats
+Description: Calculates exact tests and confidence intervals for
+        one-sample binomial and one- or two-sample Poisson cases.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-09-23 16:41:28 UTC; faym
+Repository: CRAN
+Date/Publication: 2012-09-23 17:16:36

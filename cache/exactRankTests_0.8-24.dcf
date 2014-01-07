@@ -1,0 +1,13 @@
+Package: exactRankTests
+Title: Exact Distributions for Rank and Permutation Tests
+Date: 2013-01-11
+Version: 0.8-24
+Author: Torsten Hothorn and Kurt Hornik
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Computes exact conditional p-values and quantiles using an
+        implementation of the Shift-Algorithm by Streitberg & Roehmel.
+Depends: R (>= 2.4.0), stats, utils, survival
+License: GPL (>= 2)
+Packaged: 2013-01-11 12:46:43 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2013-01-12 09:18:13

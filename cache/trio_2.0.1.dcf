@@ -1,0 +1,23 @@
+Package: trio
+Type: Package
+Title: Testing of SNPs and SNP Interactions in Case-Parent Trio Studies
+Version: 2.0.1
+Date: 2013-02-27
+Author: Holger Schwender, Qing Li, Christoph Neumann, Ingo Ruczinski
+Maintainer: Holger Schwender <holger.schw@gmx.de>
+Suggests: survival, haplo.stats, mcbiopi, siggenes, splines, LogicReg
+        (>= 1.5.3), logicFS (>= 1.28.1)
+Description: Testing SNPs and SNP interactions with a genotypic TDT.
+        This package furthermore contains functions for computing
+        pairwise values of LD measures and for identifying LD blocks,
+        as well as functions for setting up matched case pseudo-control
+        genotype data for case-parent trios in order to run trio logic
+        regression, for imputing missing genotypes in trios, for
+        simulating case-parent trios with disease risk dependent on SNP
+        interaction, and for power and sample size calculation in trio
+        data.
+License: LGPL-2
+Packaged: 2013-02-27 19:11:24 UTC; hschwend
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-27 21:15:39

@@ -1,0 +1,17 @@
+Package: clime
+Type: Package
+Title: Constrained L1-minimization for Inverse (covariance) Matrix
+        Estimation
+Version: 0.3
+Date: 2011-07-23
+Author: T. Tony Cai, Weidong Liu and Xi (Rossi) Luo
+Maintainer: Xi (Rossi) Luo <xi.rossi.luo@gmail.com>
+Depends: lpSolve
+Description: A robust constrained L1 minimization method for estimating
+        a large sparse inverse covariance matrix (aka precision
+        matrix), and recovering its support for building graphical
+        models.  The computation uses linear programming.
+License: GPL-2
+Packaged: 2011-07-23 17:24:53 UTC; xluo
+Repository: CRAN
+Date/Publication: 2011-07-23 20:15:37

@@ -1,0 +1,26 @@
+Package: ggmcmc
+Title: Graphical tools for analyzing Markov Chain Monte Carlo
+        simulations from Bayesian inference.
+Description: ggmcmc is a tool for assessing and diagnosing convergence of
+    Markov Chain Monte Carlo simulations, as well as for graphically display
+    results from full MCMC analysis. The package also facilitates the graphical
+    interpretation of models by providing flexible functions to plot the
+    results against observed variables.
+Version: 0.5.1
+Maintainer: Xavier Fernández i Marín <xavier.fim@gmail.com>
+Author: Xavier Fernández i Marín <xavier.fim@gmail.com>
+Depends: plyr, reshape2, ggplot2
+Suggests: foreach, rjags, coda, rstan
+License: GPL-2
+URL: http://xavier-fim.net/packages/ggmcmc
+Encoding: UTF-8
+Collate: 'ggmcmc.R' 'ggs.R' 'ggs_autocorrelation.R'
+        'ggs_compare_partial.R' 'ggs_crosscorrelation.R'
+        'ggs_density.R' 'ggs_histogram.R' 'ggs_running.R'
+        'ggs_traceplot.R' 'data.R' 'help.R' 'functions.R' 'ggs_Rhat.R'
+        'ggs_geweke.R' 'ggs_caterpillar.R' 'ggs_separation.R'
+        'globals.R' 'ggs_ppmean.R' 'ggs_ppsd.R' 'ggs_rocplot.R'
+Packaged: 2013-10-03 17:15:38 UTC; xavier
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-03 19:41:00

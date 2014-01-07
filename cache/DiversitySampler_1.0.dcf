@@ -1,0 +1,19 @@
+Package: DiversitySampler
+Type: Package
+Title: Functions for re-sampling a community matrix to compute
+        Shannon's Diversity index at different sampling levels.
+Version: 1.0
+Date: 2009-07-23
+Author: Matthew K. Lau
+Maintainer: <mkl48@nau.edu>
+Description: There are two functions in this package, which can be used
+        together to estimate the Shannon's Diversity index at different
+        levels of sample size. A Monte-Carlo procedure is used to
+        re-sample a given observation at each level of sampling. The
+        expectation being that the mean of the re-sampling will
+        approach Shannon's diversity index at that sample level.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: Thu Jul 23 18:25:33 2009; artemis
+Repository: CRAN
+Date/Publication: 2009-07-24 06:04:23

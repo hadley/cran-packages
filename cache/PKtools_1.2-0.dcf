@@ -1,0 +1,12 @@
+Package: PKtools
+Version: 1.2-0
+Date: 2007-03-23
+Title: unified computational interfaces for population PK 
+Author: M. Suzette Blanchard <sblanchard@coh.org>
+Depends: lattice, xtable, R2HTML
+Maintainer: M. Suzette Blanchard <sblanchard@coh.org>
+Description: computations for WinBUGS, NONMEM, NLME
+License: GPL2; incorporates by permission code of W. Bachman 
+         (wrtab 5.for, infnx5u.for), A. Gelman, (bugs.R) and 
+         J.Pinheiro (getPsi).     
+Packaged: Fri Mar 23 10:32:15 2007; root

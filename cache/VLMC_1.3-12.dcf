@@ -1,0 +1,17 @@
+Package: VLMC
+Version: 1.3-12
+Note: ====== vlmc.version in R/vlmc.R
+Date: 2009-12-12
+Author: Martin Maechler <maechler@stat.math.ethz.ch>
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Title: VLMC -- Variable Length Markov Chains
+Description: Functions, Classes & Methods for estimation, prediction,
+        and simulation (bootstrap) of VLMC -- Variable Length Markov
+        Chain -- Models
+Depends: stats, MASS
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2009-12-12 16:17:51 UTC; maechler
+Repository: CRAN
+Date/Publication: 2009-12-13 10:20:17

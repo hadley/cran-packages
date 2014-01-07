@@ -1,0 +1,24 @@
+Package: SAM
+Type: Package
+Title: Sparse Additive Machine
+Version: 1.0.2
+Date: 2012-08-19
+Author: Tuo Zhao, Xingguo Li, Han Liu, Lie Wang, Kathryn Roeder
+Maintainer: Tuo Zhao <tourzhao@gmail.com>
+Depends: R (>= 2.10), splines
+Description: The package SAM targets at high dimensional classification
+        problem for complex data analysis. SAM is short for sparse
+        additive machine, which is a explicit combination of high
+        dimensional sparse additive modeling and support vector
+        machine. Different from existing non-linear classification
+        methods, which usually use, SAM adopts the computationally
+        efficient basis spline technique. The optimization is solved by
+        the Linearized Alternative Direction Method of Multipliers
+        (L-ADMM). The computation is further accelerated by warm-start
+        and active-set tricks. For users who are interested in
+        large-scale problems, we also provide an implementation of L1
+        norm SVM for computational convenience.
+License: GPL-2
+Packaged: 2012-10-15 16:08:58 UTC; tourzhao
+Repository: CRAN
+Date/Publication: 2012-10-15 16:25:19

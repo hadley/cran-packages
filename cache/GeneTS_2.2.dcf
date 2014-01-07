@@ -1,0 +1,18 @@
+Package: GeneTS
+Version: 2.2
+Date: 2004-09-20
+Title: Genetic Time Series and Graphical Models
+Author: Konstantinos Fokianos <fokianos@ucy.ac.cy>,
+        Juliane Schaefer <schaefer@stat.uni-muenchen.de>, and
+        Korbinian Strimmer <korbinian.strimmer@lmu.de>.
+Maintainer: Korbinian Strimmer <korbinian.strimmer@lmu.de>
+Depends: R (>= 2.0.0), stats, MASS
+Suggests: graph (>= 1.4.22), Rgraphviz (>= 1.4.23)
+Description: GeneTS is a package for analysing multiple gene expression
+  time series data. Currently, GeneTS implements methods for cell cycle
+  analysis and for inferring large sparse graphical Gaussian models.
+  For plotting the inferred gene association networks GeneTS requires the
+  "graph" and "Rgraphviz" packages (available from www.bioconductor.org). 
+License: GPL version 2 or newer
+URL: http://www.stat.uni-muenchen.de/~strimmer/genets/
+Packaged: Mon Sep 20 20:44:04 2004; strimmer

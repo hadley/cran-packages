@@ -1,0 +1,19 @@
+Package: orQA
+Type: Package
+Title: Order Restricted Assessment Of Microarray Titration Experiments
+Version: 0.2.0
+Date: 2010-10-21
+Author: Florian Klinglmueller
+Maintainer: Florian Klinglmueller <float@lefant.net>
+Description: Assess repeatability, accuracy and corss-platform
+        agreement of titration microarray data based on order
+        restricted inference procedures
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: Rcpp (>= 0.7.3), gtools (>= 2.6.1), genefilter (>= 1.24.3),
+        nlme (>= 3.1-96)
+LinkingTo: Rcpp
+SystemRequirements: GNU make
+Packaged: 2010-12-02 14:04:12 UTC; float
+Repository: CRAN
+Date/Publication: 2010-12-03 08:32:45

@@ -1,0 +1,18 @@
+Package: ringscale
+Type: Package
+Title: Ringscale
+Version: 0.1.2
+Date: 2009-10-21
+Author: Daniel Haase <dh@haase-zm.de>
+Maintainer: Daniel Haase <dh@haase-zm.de>
+Depends: FITSio, tcltk
+Description: Implementation of the "Ringscale" method as proposed in
+        the student research project "DETECTION OF FAINT COMPANIONS
+        AROUND YOUNG STARS IN SPECKLE PATTERNS OF VLT/NACO CUBE MODE
+        IMAGES BY MEANS OF POST-PROCESSING" at the
+        Friedrich-Schiller-University of Jena.
+License: GPL (>= 2)
+URL: http://ringscale.haase-zm.de
+Packaged: 2012-10-29 08:59:36 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:36

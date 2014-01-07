@@ -1,0 +1,18 @@
+Package: PairTrading
+Type: Package
+Title: classical pair trading based on cointegration in finance
+Version: 1.1
+Date: 2012-03-24
+Author: Shinichi Takayanagi, Kohta Ishikawa
+Maintainer: Shinichi Takayanagi<shinichi.takayanagi@gmail.com>
+Description: This package gives classical trading strategy called "Pair
+        trading" to you. you can easily specify pairs for trading and
+        do back-test by this package. It's based on cointegration.
+        Cointegration is a statistical feature of time series proposed
+        by Engle and Granger.
+License: BSD
+LazyLoad: yes
+Depends: R(>= 2.13.1), xts, tseries
+Packaged: 2012-03-25 14:46:46 UTC; yana
+Repository: CRAN
+Date/Publication: 2012-03-25 15:04:29

@@ -1,0 +1,26 @@
+Package: MCMChybridGP
+Version: 3.1
+Title: Hybrid Markov chain Monte Carlo using Gaussian Processes
+Author: Mark J. Fielding <stafmj@nus.edu.sg>
+Maintainer: Mark J. Fielding <stafmj@nus.edu.sg>
+Depends: MASS
+Description: Hybrid Markov chain Monte Carlo (MCMC) to simulate from a
+        multimodal target distribution.  A Gaussian process
+        approximation makes this possible when derivatives are unknown.
+        The Package serves to minimize the number of function
+        evaluations in Bayesian calibration of computer models using
+        parallel tempering.  It allows replacement of the true target
+        distribution in high temperature chains, or complete
+        replacement of the target.  Methods used are described in,
+        "Efficient MCMC schemes for Bayesian calibration of computer
+        models", Fielding, Mark, Nott, David J. and Liong Shie-Yui,
+        Technometrics (2010). The authors gratefully acknowledge the
+        support & contributions of the Singapore-Delft Water Alliance
+        (SDWA).  The research presented in this work was carried out as
+        part of the SDWA's Multi-Objective Multi-Reservoir Management
+        research programme (R-264-001-272).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-09-30 07:18:50 UTC; markjamesfielding
+Repository: CRAN
+Date/Publication: 2010-09-30 07:41:36

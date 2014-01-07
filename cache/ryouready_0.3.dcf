@@ -1,0 +1,19 @@
+Package: ryouready
+Maintainer: Mark Heckmann <heckmann@uni-bremen.de>
+License: GPL (>= 2)
+Title: Companion to the 'R your ready?' book
+LazyData: yes
+Encoding: UTF-8
+Type: Package
+LazyLoad: yes
+Author: Mark Heckmann
+Description: Data, functions etc. from the 'R you ready?' book
+Version: 0.3
+Date: 2013-12-15
+Depends: stringr, car
+Collate: 'ryouready-package.r' 'association_measures.r' 'utils.r'
+        'collapse_response_set.R' 'data-doc.R'
+Packaged: 2013-12-15 12:22:25 UTC; mark
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-15 16:18:46

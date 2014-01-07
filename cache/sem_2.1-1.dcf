@@ -1,0 +1,21 @@
+Package: sem
+Version: 2.1-1
+Date: 2010/11/20
+Title: Structural Equation Models
+Author: John Fox <jfox@mcmaster.ca> and Jarrett Byrnes <byrnes@nceas.ucsb.edu>, with contributions from Michael Culbertson, Michael Friendly, Adam Kramer, and Georges Monette.
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: R (>= 2.14.0), stats, MASS, matrixcalc
+Suggests: boot, tcltk, polycor
+LazyLoad: yes
+LazyData: yes
+ByteCompile: yes
+Description: This package contains functions for fitting general linear structural
+    equation models (with observed and unobserved variables) using the RAM approach, 
+    and for fitting structural equations in observed-variable models by two-stage least squares.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+Repository: CRAN
+Repository/R-Forge/Project: sem
+Repository/R-Forge/Revision: 80
+Date/Publication: 2011-11-23 16:04:51
+Packaged: 2011-11-21 22:35:40 UTC; rforge

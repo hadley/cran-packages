@@ -1,0 +1,17 @@
+Package: marelacTeaching
+Version: 1.0
+Title: Datasets and tutorials for use in aquatic sciences
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>, Thomas Petzoldt
+        <thomas.petzoldt@tu-dresden.de>, Filip Meysman
+        <filip.meysman@vub.ac.be>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01), marelac, deSolve, rootSolve, scatterplot3d
+Description: Datasets and tutorials for use in the MArine, Riverine,
+        Estuarine, LAcustrine and Coastal sciences
+License: GPL (>= 2)
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: marelac
+Repository/R-Forge/Revision: 118
+Date/Publication: 2009-09-07 17:10:21
+Packaged: 2009-09-02 20:31:33 UTC; rforge

@@ -1,0 +1,21 @@
+Package: eigeninv
+Type: Package
+Title: Generates (dense) matrices that have a given set of eigenvalues
+Description: Solves the ``inverse eigenvalue problem'' which is to
+        generate a real-valued matrix that has the specified real
+        eigenvalue spectrum.  It can generate infinitely many dense
+        matrices, symmetric or asymmetric, with the given set of
+        eigenvalues.  Algorithm can also generate stochastic and doubly
+        stochastic matrices.
+Depends: R (>= 2.10.1)
+Version: 2011.8-1
+Date: 2011-08-23
+Author: Ravi Varadhan, Johns Hopkins University
+Maintainer: Ravi Varadhan <rvaradhan@jhmi.edu>
+URL:
+        http://www.jhsph.edu/agingandhealth/People/Faculty_personal_pages/Varadhan.html
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:37
+Packaged: 2012-10-29 08:58:37 UTC; ripley

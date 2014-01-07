@@ -1,0 +1,24 @@
+Package: compute.es
+Type: Package
+Title: Compute Effect Sizes
+Version: 0.1
+Date: 2010-03-24
+Author: AC Del Re
+Maintainer: AC Del Re <acdelre@gmail.com>
+Description: This package contains several functions that will convert
+        a variety of statistics, such as a t-test or p-value and sample
+        size, to effect sizes of d (mean difference), g (unbiased
+        estimate of d), r (correlation coefficient), z (Fisher's z),
+        and log odds ratio. The variances of these estimates are also
+        computed. These conversion functions are a particularly useful
+        resource during the preliminary stages of a meta-analytic
+        project, when coding for relevant effect size data (and the
+        appropriate statistic is not reported). This package uses
+        recommended coversion formulas as described in The Handbook of
+        Research Synthesis and Meta-Analysis (Cooper, Hedges, &
+        Valentine, 2009).
+Depends: R (>= 2.10.1)
+License: GPL-2
+Packaged: 2010-03-23 05:47:40 UTC; User
+Repository: CRAN
+Date/Publication: 2010-03-23 07:26:55

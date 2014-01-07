@@ -1,0 +1,14 @@
+Package: ISBF
+Type: Package
+Title: Iterative Selection of Blocks of Features - ISBF
+Version: 0.2
+Date: 2013/10/06
+Author: Pierre Alquier
+Maintainer: Pierre Alquier <pierre.alquier@ucd.ie>
+Description: Selection of features for sparse regression estimation (like the LASSO). Selection of blocks of features when the regression parameter is sparse and constant by blocks (like the Fused-LASSO). Application to cgh arrays. TEST VERSION, USE AT YOUR OWN RISK! Difference with 0.1 version: compatible with R 3.0.
+License: GPL
+LazyLoad: yes
+Packaged: 2013-11-06 15:01:02 UTC; alquier
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-06 19:08:08

@@ -1,0 +1,16 @@
+Package: finebalance
+Type: Package
+Title: Approximate fine balance when exact fine balance is not
+        achievable
+Version: 1.0
+Date: 2011-06-29
+Author: Dan Yang
+Maintainer: Dan Yang <danyang@wharton.upenn.edu>
+Description: Approximate fine balance when exact fine balance is not
+        achievable.
+License: GPL (>= 2)
+Depends: optmatch, MASS
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:45 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:45

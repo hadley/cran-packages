@@ -1,0 +1,23 @@
+Package: NMRS
+Type: Package
+Title: NMR Spectroscopy
+Version: 1.0
+Date: 2009-02-10
+Author: Jose L. Izquierdo <izquierdo@ieb.ucm.es> Instituto de Estudios
+        Biofuncionales(U.C.M.).
+Maintainer: ORPHANED
+Description: NMRS has been developed to load directly the spectra in
+        the Bruker spectroscopy format. This application displays the
+        spectrum reference and manages basic operations such as setting
+        the chemical shift of a certain compound (TSP or DSS) to 0
+        ppm,zero order and first order phase corrections, baseline
+        adjustment and spectral area selection
+License: GPL (>= 2)
+Depends: Rwave, FTICRMS, tcltk, tkrplot
+Packaged: 2012-10-29 08:57:20 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:20
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Jose L. Izquierdo <izquierdo@ieb.ucm.es>
+X-CRAN-Comment: Orphaned on 2013-12-21 as maintainer address
+        <izquierdo@ieb.ucm.es> bounced.

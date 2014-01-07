@@ -1,0 +1,13 @@
+Package: InfNet
+Version: 0.1
+Date: 2006-07-20
+Title: Functiont that simulates an epidemic in a network of contacts. 
+Author: Lilia Ramirez Ramirez and Mary Thompson
+Maintainer: Lilia Ramirez Ramirez <llramire@math.uwaterloo.ca>
+Depends: R (>= 1.9.0),stats
+Description: The simulations consider SIR epidemics with events in continuous time (exponential inter-event times).
+             It can consider a structure of local networks and has an option to visualize it with the animator called 
+             SoNIA (http://www.stanford.edu/group/sonia/)
+License: GPL version 2 or newer
+URL: http://math.uwaterloo.ca/~llramire/InfNet.html
+Packaged: Mon Oct  2 09:47:32 2006; llramire

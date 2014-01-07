@@ -1,0 +1,22 @@
+Package: ramps
+Title: Bayesian Geostatistical Modeling with RAMPS
+Version: 0.6-12
+Date: 2013-11-12
+Authors@R: c(person("Brian J", "Smith", role = c("aut", "cre"),
+                     email = "brian-j-smith@uiowa.edu"),
+              person("Jun", "Yan", role = "aut",
+                     email = "jun.yan@uconn.edu"),
+              person("Mary Kathryn", "Cowles", role = "aut",
+               email = "kate-cowles@uiowa.edu"))
+Maintainer: Brian J Smith <brian-j-smith@uiowa.edu>
+Depends: coda, maps, Matrix, nlme
+Imports: fields, methods
+Description: Bayesian geostatistical modeling of Gaussian processes using a reparameterized and marginalized posterior sampling (RAMPS) algorithm designed to lower autocorrelation in MCMC samples.  Package performance is tuned for large spatial datasets.
+License: GPL-2
+Packaged: 2013-11-12 16:46:14 UTC; bjsmith
+Author: Brian J Smith [aut, cre],
+  Jun Yan [aut],
+  Mary Kathryn Cowles [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-12 18:52:30

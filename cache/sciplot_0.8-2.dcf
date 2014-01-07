@@ -1,0 +1,12 @@
+Package: sciplot
+Version: 0.8-2
+Title: Scientific Graphing Functions for Factorial Designs
+Author: Manuel Morales <mmorales@williams.edu>, with code developed by
+        the R Development Core Team and with general advice from the R-help
+        listserv community, especially Duncan Murdoch.
+Maintainer: Manuel Morales <mmorales@williams.edu>
+Depends: stats
+Description: A collection of functions that create graphs with error bars
+             for data collected from one-way or higher factorial designs.
+License: GPL version 2.
+Packaged: Wed Nov 29 11:25:17 2006; mmorales

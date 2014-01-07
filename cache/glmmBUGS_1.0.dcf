@@ -1,0 +1,11 @@
+Package: glmmBUGS
+Type: Package
+Title: Generalised Linear Mixed Models with WinBUGS
+Version: 1.0
+Date: 2007-04-20
+Depends: MASS, R2WinBUGS, nlme, lattice, abind
+Author: Patrick Brown
+Maintainer: Patrick Brown <patrick.brown@utoronto.ca>
+Description: works with R2WinBUGS, writing model files and dealing with unbalanced data
+License: GPL
+Packaged: Mon Sep  8 12:34:04 2008; LuZhou

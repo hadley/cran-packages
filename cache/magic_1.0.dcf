@@ -1,0 +1,11 @@
+Package: magic
+Title: create and investigate magic squares
+Version: 1.0
+Author: Robin K. S. Hankin
+Depends: R (>= 1.8.0), abind
+Description: A variety of methods for creating magic squares of any
+ order greater than 2, and various magic hypercubes.  Includes sundry
+ magic square amusements and is intended as a rebuttal to the
+ often-heard comment "I thought R was just for statistics".
+Maintainer: Robin K. S. Hankin <initial.surname@soc.soton.ac.uk> 
+License: GPL

@@ -1,0 +1,18 @@
+Package: BAMD
+Type: Package
+Title: Bayesian Association Model for Genomic Data with Missing
+        Covariates
+Version: 3.4
+Date: 2011-02-18
+Author: Gopal, V. and Li, Z. and Casella, G.
+Maintainer: Gopal, V. <viknesh@stat.ufl.edu>
+Depends: coda
+Description: This package fits a linear mixed model where the
+        covariates for the random effects have missing values.
+SystemRequirements:
+License: GPL-2
+LazyLoad: yes
+URL: http://www.stat.ufl.edu/~viknesh/assoc_model/assoc.html
+Packaged: 2011-02-19 04:25:51 UTC; viknesh
+Repository: CRAN
+Date/Publication: 2011-02-19 09:06:30

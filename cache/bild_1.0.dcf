@@ -1,0 +1,23 @@
+Package: bild
+Type: Package
+Title: bild: a package for BInary Longitudinal Data
+Version: 1.0
+Date: 2010-06-6
+Author: M. Helena Gonçalves, M. Salomé Cabral and Adelchi Azzalini;
+        incorporates Fortran-77 code written by R. Piessens and E. de
+        Doncker in "Quadpack".
+Maintainer: M. Helena Gonçalves <mhgoncal@ualg.pt>
+Description: bild performs logistic regression for binary longitudinal
+        data, allowing for serial dependence among observations from a
+        given individual and a random intercept term. Estimation is via
+        maximization of the exact likelihood of a suitably defined
+        model. Missing values and unbalanced data are allowed, with
+        some restrictions.
+Encoding: latin1
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.11.0), methods, stats, graphics, utils
+Packaged: 2010-06-06 08:25:22 UTC; Helena
+Repository: CRAN
+Date/Publication: 2010-06-06 17:32:34

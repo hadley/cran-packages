@@ -1,0 +1,17 @@
+Package: TwoStepCLogit
+Type: Package
+Title: Conditional logistic regression: A two-step estimation method
+Version: 1.2.1
+Date: 2012-09-17
+Author: Radu V. Craiu, Thierry Duchesne, Daniel Fortin and Sophie
+        Baillargeon
+Maintainer: Thierry Duchesne <thierry.duchesne@mat.ulaval.ca>
+Description: Conditional logistic regression with longitudinal follow
+        up and individual-level random coefficients: A stable and
+        efficient two-step estimation method
+License: GPL-2
+Depends: survival
+Collate: 'Ts.estim.R' 'TwoStepCLogit.R' 'ddim.R' 'internal.R'
+Packaged: 2012-09-17 20:25:07 UTC; Sophie Baillargeon
+Repository: CRAN
+Date/Publication: 2012-09-18 18:41:57

@@ -1,0 +1,16 @@
+Package: SearchTrees
+Type: Package
+Title: Spatial Search Trees
+Version: 0.1
+Date: 2011-06-27
+Author: Gabriel Becker
+Maintainer: Gabriel Becker <gmbecker@ucdavis.edu>
+Description: This package provides an implementation of the QuadTree
+        data structure. It uses this to implement fast k-Nearest
+        Neighbor and Rectangular range lookups.
+Depends: methods
+License: LGPL
+LazyLoad: yes
+Packaged: 2011-07-25 13:20:15 UTC; gmbecker
+Repository: CRAN
+Date/Publication: 2011-07-25 19:47:02

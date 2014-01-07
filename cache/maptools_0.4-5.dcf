@@ -1,0 +1,10 @@
+Package: maptools
+Version: 0.4-5
+Date: 2004-06-28
+Title: tools for reading and handling shapefiles
+Author: Nicholas J. Lewin-Koh, modified by Roger Bivand <Roger.Bivand@nhh.no>; C code used from shapelib ()
+Maintainer: Roger Bivand <Roger.Bivand@nhh.no>
+Depends: R (>= 1.9)
+Description: Set of tools for manipulating and reading geographic data, in particular ESRI shapefiles. 
+License: GPL version 2 or later (R and interface code), MIT (shapelib code)
+Packaged: Mon Jun 28 10:44:21 2004; rsb

@@ -1,0 +1,23 @@
+Package: ParamHelpers
+Title: Helpers for parameters in black-optimization, tuning and maching
+        learning.
+Description: A small package containing useful functions for parameter
+        descriptions and operations in black-optimization, tuning and
+        machine learning.
+Author: Bernd Bischl <bernd_bischl@gmx.net> Patrick Koch
+        <patrick.koch@fh-koeln.de>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+License: BSD
+Depends: BBmisc
+Suggests: lhs, testthat
+LazyData: yes
+Version: 1.0-54
+Collate: 'aParam.R' 'convertDiscrete.R' 'dfRowToList.R'
+        'filterParams.R' 'generateDesign.R' 'getBounds.R'
+        'getParamIds.R' 'getParamLengths.R' 'isFeasible.R'
+        'LearnerParam.R' 'makeLearnerParamFuns.R' 'makeParamFuns.R'
+        'OptPathDF.R' 'OptPath.R' 'ParamSet.R' 'paramValueToString.R'
+        'sample.R' 'trafo.R' 'zzz.R'
+Packaged: 2012-05-31 18:50:50 UTC; bischl
+Repository: CRAN
+Date/Publication: 2012-06-01 05:03:02

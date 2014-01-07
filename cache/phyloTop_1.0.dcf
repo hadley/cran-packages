@@ -1,0 +1,15 @@
+Package: phyloTop
+Version: 1.0
+Type: Package
+Title: Phylogenetic Tree Topological Properties Evaluator
+Date: 2013-07-30
+Author: Michael Boyd
+Maintainer: Michael Boyd <mboyd855@gmail.com>
+Description: Calculates some topological properties of phylogenetic trees
+License: GPL-2
+Depends: grid, graphics, grDevices, stats, utils, ape, phylobase,
+        datasets, methods (>= 2.15.2)
+Packaged: 2013-07-30 18:12:57 UTC; Michael
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-30 21:36:48

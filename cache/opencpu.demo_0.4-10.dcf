@@ -1,0 +1,17 @@
+Package: opencpu.demo
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+License: AGPL
+Encoding: UTF-8
+Title: OpenCPU Demo apps.
+Type: Package
+Author: Jeroen Ooms and others as specified in the manual page.
+Description: Some demo R functions and apps for the OpenCPU framework.
+        See http://www.opencpu.org for more details.
+Version: 0.4-10
+Date: 2012-02-07
+URL: http://www.opencpu.org
+Suggests: lattice, ggplot2, quantmod, plyr, reshape2, lattice, ggplot2,
+        httpRequest, RCurl, RJSONIO, mgcv
+Packaged: 2012-05-05 23:03:53 UTC; jeroen
+Repository: CRAN
+Date/Publication: 2012-05-06 06:58:01

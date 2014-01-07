@@ -1,0 +1,11 @@
+Package: mscalib
+Version: 0.5.9
+Date: 2004-01-28
+Title: Calibration and filtering of MALDI-TOF Peptide Mass Fingerprint data.
+Author: Eryk Witold Wolski <wolski@molgen.mpg.de>
+Maintainer: Witold E. Wolski <wolski@molgen.mpg.de>
+Depends: modreg
+Description: Calibration and filtering methods for calibration of mass spectrometric peptide mass lists. Includes methods for internal, external calibration of mass lists. Provides methods for filtering chemical noise and peptide contaminants.
+License: GPL version 2 or newer
+URL: http://www.molgen.mpg.de/~wolski/mscalib/
+Packaged: Tue May 25 13:36:26 2004; wolski

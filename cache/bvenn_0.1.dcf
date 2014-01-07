@@ -1,0 +1,17 @@
+Package: bvenn
+Type: Package
+Title: A Simple alternative to proportional Venn diagrams
+Version: 0.1
+Date: 2012-08-08
+Author: Raivo Kolde <rkolde@gmail.com>
+Maintainer: Raivo Kolde <rkolde@gmail.com>
+Description: This package implements a simple alternative to the
+        traditional Venn diagram. It depicts each overlap as a separate
+        bubble with area proportional to the overlap size. Relation of
+        the bubbles to input sets is shown by their their arrangement.
+License: GPL (>= 2)
+Depends: grid
+Collate: 'bvenn-package.r' 'bvenn.r'
+Packaged: 2012-08-09 11:47:32 UTC; Kolde
+Repository: CRAN
+Date/Publication: 2012-08-09 12:57:55

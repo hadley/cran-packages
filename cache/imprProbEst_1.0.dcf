@@ -1,0 +1,16 @@
+Package: imprProbEst
+Type: Package
+Title: Minimum distance estimation in an imprecise probability model
+Version: 1.0
+Date: 2008-10-23
+Author: Robert Hable
+Maintainer: Robert Hable <Robert.Hable@uni-bayreuth.de>
+Description: A minimum distance estimator is calculated for an imprecise probability model.
+  The imprecise probability model consists of upper coherent previsions whose credal sets are given
+  by a finite number of constraints on the expectations. The parameter set is finite. The estimator chooses
+  that parameter such that the empirical measure lies next to the corresponding credal set with respect to
+  the total variation norm.
+Depends: R(>= 2.7.0), inline, lpSolve
+LazyLoad: yes
+License: LGPL-3
+Packaged: Fri Oct 24 12:38:19 2008; btm722

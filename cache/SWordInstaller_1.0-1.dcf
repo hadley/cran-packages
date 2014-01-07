@@ -1,0 +1,14 @@
+Package: SWordInstaller
+Version: 1.0-1
+Date: 2009-08-26
+Title: SWord: Use R in Microsoft Word (Installer)
+Author: Thomas Baier
+Maintainer: Thomas Baier <thomas@statconn.com>
+Description: Use R in Microsoft Word
+License: GPL-2
+Depends: R (>= 2.8.0), rscproxy, rcom
+SystemRequirements: Windows, statconnDCOM (>= 3.1-0B0)
+OS_type: windows
+Repository: CRAN
+Date/Publication: 2009-08-26 12:39:17
+Packaged: 2009-08-26 07:04:48 UTC; tb

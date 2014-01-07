@@ -1,0 +1,12 @@
+Package: penalizedSVM
+Type: Package
+Title: Feature Selection SVM using penalty functions
+Version: 1.0
+Date: 2008-12-15
+Depends: e1071, MASS, corpcor, statmod 
+Author: Natalia Becker, Wiebke Werft, Axel Benner
+Maintainer: Natalia Becker <natalia.becker@dkfz.de>
+Description: This package provides feature selection SVM using penalty functions. The smoothly clipped absolute deviation (SCAD) and 'L1-norm' penalties are availible up to now. Other functions will be implemented in the near feature.  
+License: GPL (>=2)
+LazyLoad: yes
+Packaged: Wed Jan 14 12:23:05 2009; becker

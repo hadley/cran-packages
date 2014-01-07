@@ -1,0 +1,27 @@
+Package: coloc
+Type: Package
+Depends: methods, MASS, BMA
+Suggests: ggplot2, snpStats
+Title: Colocalisation tests of two genetic traits
+Version: 2.3
+Date: 2013-05-22
+Authors@R: c(person("Chris", "Wallace", role=c("aut","cre"),
+    email = "chris.wallace@cimr.cam.ac.uk"),
+    person("Claudia","Giambartolomei", role="aut",
+    email="claudia.giambartolomei.10@ucl.ac.uk"),
+    person("Vincent","Plagnol", role="ctb",
+    email="v.plagnol@ucl.ac.uk"))
+Maintainer: Chris Wallace <chris.wallace@cimr.cam.ac.uk>
+Description: Performs the colocalisation tests described in Plagnol et al
+    (2009), Wallace et al (2013) and Giambartolomei et al (2013).
+License: GPL
+LazyLoad: yes
+Collate: 'AllClasses.R' 'bma.R' 'coloc-package.R' 'coloc.combine.R'
+        'coloc.test.R' 'pcs.R' 'private.R' 'claudia.R'
+Packaged: 2013-09-25 11:07:49 UTC; chrisw
+Author: Chris Wallace [aut, cre],
+  Claudia Giambartolomei [aut],
+  Vincent Plagnol [ctb]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-25 13:54:03

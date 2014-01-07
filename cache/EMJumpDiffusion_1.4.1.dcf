@@ -1,0 +1,15 @@
+Package: EMJumpDiffusion
+Type: Package
+Title: EM-Algorithm for Jump Diffusion processes
+Version: 1.4.1
+Date: 2009-05-05
+Author: Matthias Graser
+Maintainer: Matthias Graser, <matthias.graser@gmx.de>
+Depends: R (>= 2.5.0)
+Description: Calculates parameters for Jump Diffusion processes via
+        EM-Algorithm. The jumps-times are considered to be bernoulli
+        distributed with normally distributed jump-sizes.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:57:00 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:00

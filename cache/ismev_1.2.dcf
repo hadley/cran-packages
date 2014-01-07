@@ -1,0 +1,16 @@
+Package: ismev
+Version: 1.2
+Date: 2006-03-10
+Title: An Introduction to Statistical Modeling of Extreme Values  
+Author: Original S functions by Stuart Coles, R port and R 
+  documentation files by Alec Stephenson.
+Maintainer: Alec Stephenson <alec_stephenson@hotmail.com>
+Depends: R (>= 1.5.0)
+Description: Functions to support the computations carried out in
+  `An Introduction to Statistical Modeling of Extreme Values' by
+  Stuart Coles. The functions may be divided into the following 
+  groups; maxima/minima, order statistics, peaks over thresholds
+  and point processes.  
+License: GPL (Version 2 or above)
+URL: http://www.maths.lancs.ac.uk/~stephena/
+Packaged: Thu Mar  9 19:50:18 2006; stephena

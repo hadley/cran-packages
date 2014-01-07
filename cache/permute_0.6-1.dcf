@@ -1,0 +1,18 @@
+Package: permute
+Title: Functions for generating restricted permutations of data
+Version: 0.6-1
+Date: $Date: 2011-09-07 09:55:33 +0100 (Wed, 07 Sep 2011) $
+Author: Gavin L. Simpson
+Maintainer: Gavin L. Simpson <gavin.simpson@ucl.ac.uk>
+Suggests: vegan, testthat (>= 0.5)
+Description: The 'permute' package implements a set of restricted
+        permutation designsfor freely exchangeable, line transects
+        (time series), and spatial grid designs plus permutation of
+        blocks (groups of samples). 'permute' also allows split-plot
+        designs, in which the whole-plots or split-plots or both can be
+        freely-exchangeble or one of the restricted designs.
+License: GPL-2
+URL: http://vegan.r-forge.r-project.org/
+Packaged: 2011-09-07 19:47:10 UTC; gavin
+Repository: CRAN
+Date/Publication: 2011-09-08 04:11:16

@@ -1,0 +1,18 @@
+Package: polywog
+Title: Bootstrapped Basis Regression with Oracle Model Selection
+Version: 0.3-0
+Date: 2012-01-09
+Author: Brenton Kenkel and Curtis S. Signorino
+Maintainer: Brenton Kenkel <brenton.kenkel@gmail.com>
+Description: Routines for flexible functional form estimation via basis
+        regression, with model selection via the adaptive LASSO or SCAD
+        to prevent overfitting.
+License: GPL (>= 2)
+Depends: glmnet (>= 1.5.1), ncvreg, Formula, Matrix, miscTools
+Imports: stringr, games, car, matrixStats
+Suggests: foreach, lattice, rgl
+Collate: 'helpers.r' 'fn_pred.r' 'fn_plot.r' 'fn_poly.r' 'fitters.r'
+        'polywog.r' 'fn_cv.r' 'fn_marg.r'
+Packaged: 2013-01-09 16:59:07 UTC; brenton
+Repository: CRAN
+Date/Publication: 2013-01-09 19:39:29

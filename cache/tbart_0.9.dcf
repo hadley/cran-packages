@@ -1,0 +1,21 @@
+Package: tbart
+Type: Package
+Title: Teitz and Bart p-median algorithm
+Version: 0.9
+Date: 2013-06-10
+Author: Chris Brunsdon
+Maintainer: Chris Brunsdon <brunsdon@liverpool.ac.uk>
+Description: Solves Teitz and Bart's p-median problem - given a set of
+        points attempts to find subset of size p such that summed
+        distances of any point in the set to the nearest point in p is
+        minimised.  Although generally effective, this algorithm does
+        not guarantee that a globally optimal subset is found.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.10.3), sp
+Suggests: GISTools, RColorBrewer
+LinkingTo: Rcpp
+Collate: 'RcppExports.R' 'tbmain.R' 'tbart-describes.R'
+Packaged: 2013-06-19 07:02:59 UTC; chrisbrunsdon
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-19 09:15:27

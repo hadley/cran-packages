@@ -1,0 +1,22 @@
+Package: distrTeach
+Version: 2.5
+Date: 2013-09-12
+Title: Extensions of package distr for teaching Stochastics/Statistics
+        in secondary school
+Description: Extensions of package distr and some additional functionality
+Depends: R(>= 2.2.0), methods, distr(>= 2.2), distrEx(>= 2.2)
+Suggests: tcltk
+Author: Peter Ruckdeschel, Matthias Kohl, Anja Hueller, Eleonara Feist
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+ByteCompile: yes
+License: LGPL-3
+Encoding: latin1
+URL: http://distr.r-forge.r-project.org/
+Packaged: 2013-09-12 21:18:34 UTC; ruckdesc
+LastChangedDate: {$LastChangedDate: 2013-01-09 00:32:51 +0100 (Mi, 09
+        Jan 2013) $}
+LastChangedRevision: {$LastChangedRevision: 835 $}
+SVNRevision: 913
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-13 17:41:14

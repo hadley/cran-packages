@@ -1,0 +1,32 @@
+Package: aroma.cn
+Version: 1.5.0
+Depends: R (>= 2.15.0), R.utils (>= 1.27.1), aroma.core (>= 2.11.0)
+Imports: R.methodsS3 (>= 1.5.2), R.oo (>= 1.15.8), R.filesets (>=
+        2.3.0), R.cache (>= 0.8.1), matrixStats (>= 0.8.12), PSCBS (>=
+        0.38.4)
+Suggests: aroma.light (>= 1.28.0), DNAcopy (>= 1.30.0), GLAD (>=
+        1.12.0)
+Date: 2013-10-17
+Title: Copy-number analysis of large microarray data sets
+Authors@R: c(
+  person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                 email="henrikb@braju.com"),
+  person("Pierre", "Neuvial", role="aut"))
+Description: Methods for analyzing DNA copy-number data.  Specifically,
+  this package implements the multi-source copy-number normalization (MSCN)
+  method for normalizing copy-number data obtained on various platforms and
+  technologies.  It also implements the TumorBoost method for normalizing
+  paired tumor-normal SNP data.
+License: LGPL (>= 2.1)
+URL: http://www.aroma-project.org/
+LazyLoad: TRUE
+biocViews: ProprietaryPlatforms, aCGH, CopyNumberVariants, SNP,
+        Microarray, OneChannel, TwoChannel, DataImport,
+        DataRepresentation, Preprocessing, QualityControl
+Packaged: 2013-10-17 06:17:59 UTC; hb
+Author: Henrik Bengtsson [aut, cre, cph],
+  Pierre Neuvial [aut]
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-17 09:47:11

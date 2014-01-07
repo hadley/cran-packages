@@ -1,0 +1,15 @@
+Package: LTR
+Version: 1.0.0
+Type: Package
+Title: Perform LTR analysis on microarray data
+Date: 2010-06-25
+Author: Paul C. Boutros
+Maintainer: Paul C. Boutros <Paul.Boutros@oicr.on.ca>
+Depends: R (>= 2.9.1)
+Description: A set of functions to execute the linear-transformation of
+        replicate (LTR) algorithm for preprocessing of microarray data
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:13 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:13

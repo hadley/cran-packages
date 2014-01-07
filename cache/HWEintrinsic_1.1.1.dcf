@@ -1,0 +1,24 @@
+Package: HWEintrinsic
+Title: Objective Bayesian Testing for the Hardy-Weinberg Equilibrium
+        Problem
+Version: 1.1.1
+Date: 2010-08-16
+Description: This package implements the general (multiallelic)
+        Hardy-Weinberg equilibrium problem from an objective Bayesian
+        testing standpoint. This aim is achieved through the
+        identification of a class of priors specifically designed for
+        this testing problem. A class of intrinsic priors under the
+        full model is considered. This class is indexed by a tuning
+        quantity, the training sample size, as discussed in Consonni,
+        Moreno and Venturini (2010). These priors are objective,
+        satisfy Savage's continuity condition and have proved to behave
+        extremely well for many statistical testing problems.
+Author: Sergio Venturini
+Maintainer: Sergio Venturini <sergio.venturini@unibocconi.it>
+Depends: methods, utils
+License: GPL (>= 2)
+URL: http://economia.unipv.it/~gconsonni/www/papers/HardyWeinberg.pdf
+LazyLoad: yes
+Packaged: 2010-08-16 10:01:27 UTC; Sergio
+Repository: CRAN
+Date/Publication: 2010-08-16 13:04:10

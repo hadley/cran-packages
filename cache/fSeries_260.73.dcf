@@ -1,0 +1,16 @@
+Package: fSeries
+Version: 260.73
+Date: 1997 - 2007
+Title: Rmetrics - Financial Time Series Objects
+Author: Diethelm Wuertz and many others, see the SOURCE file
+Depends: R (>= 2.4.0), methods, robustbase, fCalendar
+Maintainer: Diethelm Wuertz and Rmetrics Core Team <Rmetrics-core@r-project.org>
+Description: Environment for teaching "Financial Engineering and Computational Finance"
+NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE FUTURE.
+      THIS TYPICALLY INCLUDES FUNCTION AND ARGUMENT NAMES,
+      AS WELL AS DEFAULTS FOR ARGUMENTS AND RETURN VALUES.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.rmetrics.org
+Packaged: Fri Jun 20 09:55:35 2008; yankee

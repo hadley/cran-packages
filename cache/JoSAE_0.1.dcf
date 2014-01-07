@@ -1,0 +1,19 @@
+Package: JoSAE
+Type: Package
+Title: Functions for unit-level small area estimators and their
+        variances
+Version: 0.1
+Date: 2011-07-14
+Author: Johannes Breidenbach
+Maintainer: Johannes Breidenbach <job@skogoglandskap.no>
+Description: This package currently implements the GREG and unit level
+        EBLUP estimators and the estimate of their variance to further
+        document the publication of Breidenbach and Astrup (2011). It
+        also contains an extensive example that explains the use of the
+        implemented functions.
+License: GPL-2
+LazyLoad: yes
+Depends: nlme
+Packaged: 2011-09-08 12:55:11 UTC; JOB
+Repository: CRAN
+Date/Publication: 2011-09-08 13:09:25

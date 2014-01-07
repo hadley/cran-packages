@@ -1,0 +1,20 @@
+Bundle: dse
+Version: 2006.4-1
+Contains: tframe dse1 dse2
+Depends: R (>= 2.0.0), setRNG (>= 2004.4-1)
+BundleDescription: Multivariate Time Series Library
+  For each package there is a section of the Users' Guide
+  is available in doc/*.pdf and these are combined in
+  dse1/doc/dse-guide.pdf.
+  The package dse1 is the base system, including multivariate
+  ARMA and State Space models. 
+  Package dse2 has extensions for evaluating estimation
+  techniques, forecasting, and for evaluating forecasting models.
+  Package tframe is a kernel of methods for programming with time series.
+  These packages require the package setRNG.
+  See also the related bundle dseplus (in the devel are of CRAN).
+License: Free. See the LICENCE file for details.
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Mon Apr 17 20:03:46 2006; paul

@@ -1,0 +1,10 @@
+Package: paleoTS
+Type: Package
+Title: Modeling evolution in paleontological time-series
+Version: 0.3-1
+Date: 2008-03-26
+Author: Gene Hunt <hunte@si.edu>
+Maintainer: Gene Hunt <hunte@si.edu>
+Description: This package facilitates analysis of paleontological sequences of trait values from an evolving lineage.  Functions are provided to fit, using maximum likelihood, evolutionary models including unbiased random walks, directional evolution, stasis, and Ornstein-Uhlenbeck models.  Newly added to this version (0.3-1) are functions to analyze punctuations and models in which evolutionary dynamics change over the course of a time-series of trait values.
+License: GPL (>= 2)
+Packaged: Sun May 25 21:16:19 2008; hornik

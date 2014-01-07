@@ -1,0 +1,14 @@
+Package: NISTnls
+Version: 0.9-9
+Date: 2004-10-04
+Title: Nonlinear least squares examples from NIST
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Author: original from National Institutes for Standards and Technology (NIST)
+  http://www.itl.nist.gov/div898/strd/nls/nls_main.shtml
+  R port by Douglas Bates <bates@stat.wisc.edu>
+Description: Datasets for testing nonlinear regression routines.
+Depends: stats
+LazyData: yes
+License: Original pages from NIST web site.  Modifications for R covered by
+         GPL (version 2 or later)
+Packaged: Mon Oct  4 06:50:42 2004; bates

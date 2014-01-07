@@ -1,0 +1,15 @@
+Package: RcmdrPlugin.IPSUR
+Version: 0.1-4
+Date: 2008-02-14
+Title: Introduction to Probability and Statistics Using R
+Author: G. Jay Kerns <gkerns@ysu.edu> with contributions by Theophilius Boye and Tyler Drombosky, adapted from the work of John Fox et al.
+Maintainer: G. Jay Kerns <gkerns@ysu.edu>
+Depends: Rcmdr (>= 1.3-0), rgl
+Suggests: abind, distr, distrEx, e1071, effects (>= 1.0-7), foreign, grid, lattice, lmtest, MASS, mgcv, multcomp (>= 0.991-2), nlme, nnet, qcc, relimp, rgl, RODBC
+LazyLoad: no
+Description:
+ This package accompanies G. Andy Chang and G. Jay Kerns, Introduction to Probability and Statistics Using R (in progress).
+  The package contributes functions unique to the book as well as specific configuration and selected functionality to the R Commander by John Fox.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://ipsur.r-forge.r-project.org/
+Packaged: Sat Feb 16 22:16:41 2008; gkerns

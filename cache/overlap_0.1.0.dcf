@@ -1,0 +1,17 @@
+Package: overlap
+Type: Package
+Title: Estimates of coefficient of overlapping for animal activity
+        patterns
+Version: 0.1.0
+Date: 2013-05-21
+Author: Mike Meredith and Martin Ridout
+Maintainer: Mike Meredith <mmeredith@wcs.org>
+Description: Provides functions to fit kernel density functions to data
+        on temporal activity patterns of animals; estimate coefficients
+        of overlapping of densities for two species; and calculate
+        bootstrap estimates of confidence intervals.
+License: GPL (>= 3)
+Packaged: 2013-05-21 04:06:09 UTC; MIKE
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-21 07:18:59

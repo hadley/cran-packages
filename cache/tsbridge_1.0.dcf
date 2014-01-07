@@ -1,0 +1,18 @@
+Package: tsbridge
+Type: Package
+Title: Calculate normalising constants for Bayesian time series models.
+Version: 1.0
+Date: 2013-10-07
+Author: Guy J. Abel and Jackie S. T. Wong
+Maintainer: Guy J. Abel <g.j.abel@gmail.com>
+Depends: R(>= 2.15.0), mvtnorm, tsbugs
+Suggests: R2OpenBUGS
+Description: The tsbridge package contains a collection of R functions that can be used to estimate the normalising constant using the bridge sampler of Meng and Wong (1996). The functions can be applied to calculate posterior model probabilities for a variety of time series Bayesian models, where parameters are estimated using BUGS, and models themselves are created using the tsbugs package.
+License: GPL-2
+URL: http://gjabel.wordpress.com/category/r/tsbridge/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-10-15 11:26:04 UTC; gabel
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-15 13:39:16

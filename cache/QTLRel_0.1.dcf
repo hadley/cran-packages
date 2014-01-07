@@ -1,0 +1,23 @@
+Package: QTLRel
+Version: 0.1
+Date: 2010-05-14
+Title: Tools for mapping of quantitative traits of genetically related
+        individuals
+Author: Riyan Cheng <rcheng@uchicago.edu>
+Maintainer: Riyan Cheng <rcheng@uchicago.edu>
+Description: This software provides tools for quantiative trait mapping
+        in populations such as advanced intercross lines where
+        relatedness among individuals should be accounted for. It can
+        estimate background genetic variances, impute missing
+        genotypes, simulate genotypes, perform a genome scan for
+        putative quantitative trait loci (QTL), and plot mapping
+        results.
+Depends:
+Imports: gdata
+Suggests: lattice
+LazyLoad: yes
+LazyData: no
+License: GPL (>= 2)
+Packaged: 2010-12-23 23:28:00 UTC; rcheng
+Repository: CRAN
+Date/Publication: 2010-12-24 15:28:03

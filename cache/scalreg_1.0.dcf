@@ -1,0 +1,14 @@
+Package: scalreg
+Type: Package
+Title: Scaled sparse linear regression
+Version: 1.0
+Date: 2013-12-16
+Author: Tingni Sun
+Maintainer: Tingni Sun <tingni@wharton.upenn.edu>
+Depends: R (>= 2.10), lars, MASS
+Description: Algorithms for fitting scaled sparse linear regression and estimating precision matrices
+License: GPL-2
+Packaged: 2013-12-17 23:37:47 UTC; Tingni
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-18 01:48:13

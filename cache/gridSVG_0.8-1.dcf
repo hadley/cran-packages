@@ -1,0 +1,12 @@
+Package: gridSVG
+Title: Export grid graphics as SVG
+Version: 0.8-1
+Author: Paul Murrell
+Description: Export grid graphics as SVG
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+Depends: R (>= 2.13.0), methods, grid
+Suggests: lattice, XML
+License: GPL
+Packaged: 2011-10-19 21:47:02 UTC; pmur002
+Repository: CRAN
+Date/Publication: 2011-12-14 07:34:23

@@ -1,0 +1,17 @@
+Package: ImageMetrics
+Type: Package
+Title: Facilitates image analysis for social scientists.
+Version: 0.3
+Date: 2011-03-14
+Author: Solomon Messing
+Depends: ReadImages, png, maps, tcltk, tkrplot, methods
+SystemRequirements: tcltk
+Maintainer: Solomon Messing <solomon.messing@gmail.com>
+Description: Facilitates object selection within an image (e.g., to
+        select a face for example), generates saturation and brightness
+        metrics.
+License: BSD
+LazyLoad: yes
+Packaged: 2011-03-31 19:16:55 UTC; user01
+Repository: CRAN
+Date/Publication: 2011-04-01 06:26:52

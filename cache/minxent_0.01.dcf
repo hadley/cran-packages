@@ -1,0 +1,15 @@
+Package: minxent
+Version: 0.01
+Date: 2008-11-21
+Title: Entropy Optimization Distributions
+Author: Senay Asma <senayyolacan@anadolu.edu.tr>
+Maintainer: Senay Asma <senayyolacan@anadolu.edu.tr>
+Depends: R (>= 1.6.0)
+Description: This package implements entropy optimization distribution
+        under specified constraints. It also offers an R interface to
+        the MinxEnt and MaxEnt distributions.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2012-10-29 08:59:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:11

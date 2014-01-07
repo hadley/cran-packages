@@ -1,0 +1,18 @@
+Package: msDilution
+Type: Package
+Title: Protein Mass Spectra Dataset from a Dilution Experiment
+Version: 1.0.1
+Date: Fri Apr 18 14:54:53 PDT 2008
+Author: Lixin Gong, William Constantine, and Yu Alex Chen
+Maintainer: Lixin Gong <lgong@insightful.com>
+Depends: R (>= 2.5.0), RSQLite
+DependsSplus:
+Suggests: msProcess
+Description: This package provides a dataset of 280 MALDI-TOF mass spectra
+  generated from a dilution experiment aimed at elucidating which features in 
+  MALDI-TOF mass spectrometry data are informative for quantifying peptide
+  content.
+License: GNU General Public License Version 2
+Copyright: 2007-2008 Insightful Corporation. All rights reserved.
+URL: http://www.insightful.com/services/research/proteome/default.asp
+Packaged: Thu May 29 14:43:07 2008; lgong

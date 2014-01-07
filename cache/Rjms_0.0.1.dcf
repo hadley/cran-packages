@@ -1,0 +1,18 @@
+Package: Rjms
+Type: Package
+Title: R messaging using ActiveMQ and jms
+Version: 0.0.1
+Date: 2011-07-07
+Author: SMS Chauhan <smschauhan@gmail.com>, Zubin Dowlaty
+        <zubin@dowlaty.com>
+Depends: R (>= 2.11.0), rJava (>= 0.6-0), Rjmsjars (>= 0.0.1)
+Imports: rJava (>= 0.6-0), Rjmsjars (>= 0.0.1)
+SystemRequirements: Java (>=5.0)
+Maintainer: SMS Chauhan <smschauhan@gmail.com>
+Description: This package uses rJava to publish messages to an activeMQ
+        queue or topic, implementing enterprise integration patterns.
+License: LGPL-3
+LazyLoad: yes
+Packaged: 2011-07-07 08:07:48 UTC; musigma
+Repository: CRAN
+Date/Publication: 2011-07-07 08:24:10

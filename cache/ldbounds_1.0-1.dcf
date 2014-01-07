@@ -1,0 +1,16 @@
+Package: ldbounds
+Type: Package
+Title: Lan-DeMets Method for Group Sequential Boundaries
+Version: 1.0-1
+Date: 2006-2-17
+Author: Charlie Casper and Oscar A. Perez.  Based on FORTRAN program
+        ld98.
+Maintainer: Charlie Casper <casper@stat.wisc.edu>
+Depends: lattice
+Description: Computations related to group sequential boundaries.
+        Includes calculation of bounds using the Lan-DeMets alpha
+        spending function approach.
+License: GPL (>= 2)
+Packaged: Mon Feb 20 10:14:21 2006; casper
+Repository: CRAN
+Date/Publication: 2006-05-23 07:20:53

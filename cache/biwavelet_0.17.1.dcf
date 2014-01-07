@@ -1,0 +1,20 @@
+Package: biwavelet
+Type: Package
+Title: Conduct univariate and bivariate wavelet analyses
+Version: 0.17.1
+Date: 2013-06-05
+Author: Tarik C. Gouhier, Aslak Grinsted
+Maintainer: Tarik C. Gouhier <tarik.gouhier@gmail.com>
+Imports: fields
+Description: This is a port of the WTC MATLAB package written by Aslak Grinsted and the wavelet program written by Christopher Torrence and Gibert P. Compo. This package can be used to perform univariate and bivariate (cross-wavelet, wavelet coherence, wavelet clustering) analyses.
+License: GPL (>= 2)
+URL: http://biwavelet.r-forge.r-project.org
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: biwavelet
+Repository/R-Forge/Revision: 76
+Repository/R-Forge/DateTimeStamp: 2013-07-15 04:51:22
+Date/Publication: 2013-07-16 07:41:47
+Packaged: 2013-07-15 06:20:08 UTC; rforge
+Depends: R (>= 2.10)
+NeedsCompilation: no

@@ -1,0 +1,21 @@
+Package: mcga
+Type: Package
+Title: Machine Coded Genetic Algorithms for the Real Value Optimization
+        Problems
+Version: 1.0
+Date: 2010-12-13
+Author: Mehmet Hakan Satman
+Maintainer: Mehmet Hakan Satman <mhsatman@istanbul.edu.tr>
+Description: Machine Coded Genetic Algorithms (mcga) builds genetic
+        algorithms with machine coded chromosomes for real value
+        optimizitation problems. Chromosomes are not encoded/decoded,
+        the byte representation of double values are used for the
+        genetic operations such as crossing-over and mutation.
+        Computers already decode and encode the variables using a
+        finite set of alphabet. This makes mcga extremely fast even the
+        number of parameters is high.
+License: GPL
+LazyLoad: yes
+Packaged: 2010-12-13 10:43:28 UTC; root
+Repository: CRAN
+Date/Publication: 2010-12-13 14:13:41

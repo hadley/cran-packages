@@ -1,0 +1,28 @@
+Package: seg
+Version: 0.2-4
+Date: 2013-01-21
+Title: A set of tools for residential segregation research
+Authors@R: c(person("Seong-Yun", "Hong", role = c("aut", "cre"), email
+        = "hong.seongyun@gmail.com"), person("David", "O'Sullivan",
+        role = "aut"))
+Author: Seong-Yun Hong, David O'Sullivan
+Maintainer: Seong-Yun Hong <hong.seongyun@gmail.com>
+Depends: R (>= 2.10.0), methods, sp, spatstat (>= 1.27.0), raster (>=
+        1.9.92)
+Suggests: spdep
+Description: A package that provides functions to measure the overall
+        degree of residential segregation. The methods implemented in
+        this package include Duncan and Duncan's index of dissimilarity
+        (1955), Morrill (1991) and Wong (1993)'s adjusted indices of
+        dissimilarity, White's spatial segregation measure (1983), and
+        Reardon and O'Sullivan's spatial segregation measures (2004).
+License: GPL (>= 2)
+URL: https://sites.google.com/site/hongseongyun/seg
+LazyLoad: Yes
+Collate: SegLocalEnv-class.R SegLocalEnv.R SegLocalEnv-methods.R
+        getSegLocalEnv.R SegSpatial-class.R SegSpatial-methods.R
+        SegSpatial.R SegSpatialExt-class.R SegSpatialExt-methods.R
+        spseg.R seg.R whiteseg.R
+Packaged: 2013-01-21 04:04:53 UTC; shon038
+Repository: CRAN
+Date/Publication: 2013-01-21 07:45:54

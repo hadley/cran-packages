@@ -1,0 +1,11 @@
+Package: regtest
+Type: Package
+Title: Regression testing
+Version: 0.01
+Date: 2007-08-19
+Author: Jens Oehlschlägel <Jens_Oehschlaegel@truecluster.com>
+Maintainer: Jens Oehlschlägel <Jens_Oehschlaegel@truecluster.com>
+Depends: R (>= 2.5.1)
+Description: Functions for unary and binary regression tests
+License: GPL2-QA (like GPL2 but requires users to participate in Quality Assurance aka Regression Testing, details to be defined)
+Packaged: Tue Aug 21 12:53:01 2007; Jens Oehlschlaegel

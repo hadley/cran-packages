@@ -1,0 +1,12 @@
+Package: NADA
+Title: Nondetects And Data Analysis for environmental data
+Version: 1.5-1
+Author: Lopaka Lee
+Description: Contains methods described by Dennis R. Helsel in 
+             his book "Nondetects And Data Analysis: Statistics 
+             for Censored Environmental Data"
+Maintainer: Lopaka Lee <rclee@usgs.gov>
+Depends: methods, survival
+License: GPL version 2 or newer
+Collate: All.R summary.R cen.R km.R reg.R mle.R ken.R ros.R icmle.R
+Packaged: Wed Sep 26 15:42:05 2007; rclee

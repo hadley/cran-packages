@@ -1,0 +1,12 @@
+Package: gRain
+Version: 0.1.0
+Title: Graphical Independence Networks
+Author: Søren Højsgaard <sorenh@agrsci.dk> 
+Maintainer: Søren Højsgaard <sorenh@agrsci.dk> 
+Description: A package for probability propagation in graphical independence networks.
+License: GPL (>= 2)
+Depends: R (>= 2.1.0),methods,gRbase,Rgraphviz,RBGL,doBy
+Imports: graph
+URL: http://gbi.agrsci.dk/~shd/Public/gRainweb/
+Encoding: latin1
+Packaged: Tue Jan 22 10:36:48 2008; shd

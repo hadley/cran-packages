@@ -1,0 +1,36 @@
+Package: evmix
+Title: Extreme Value Mixture Modelling, Threshold Estimation and
+        Boundary Corrected Kernel Density Estimation
+Version: 2.0
+Date: 2013-10-20
+Author: Yang Hu and Carl Scarrott, University of Canterbury
+Maintainer: Carl Scarrott <carl.scarrott@canterbury.ac.nz>
+Depends: stats, graphics, MASS, gsl
+Description: The usual distribution functions, maximum likelihood inference and
+    model diagnostics for univariate stationary extreme value mixture models
+    are provided. Kernel density estimation including various boundary
+    corrected kernel density estimation methods and a wide choice of kernels,
+    with cross-validation likelihood based bandwidth estimator.
+    Reasonable consistency with the base functions in the evd package is
+    provided, so that users can safely interchange most code.
+License: GPL-3
+URL: http://www.math.canterbury.ac.nz/~c.scarrott/evmix
+Repository: CRAN
+Collate: 'checking.r' 'dbckden.r' 'dbckdengpd.r' 'dbckdengpdcon.r'
+        'dbetagpd.r' 'dbetagpdcon.r' 'ddwm.r' 'dgammagpd.r'
+        'dgammagpdcon.r' 'dgkg.r' 'dgkgcon.r' 'dgng.r' 'dgngcon.r'
+        'dgpd.r' 'dhpd.r' 'dhpdcon.r' 'dkden.r' 'dkdengpd.r'
+        'dkdengpdcon.r' 'dlognormgpd.r' 'dlognormgpdcon.r'
+        'dmgammagpd.r' 'dmgammagpdcon.r' 'dnormgpd.r' 'dnormgpdcon.r'
+        'dweibullgpd.r' 'dweibullgpdcon.r' 'evmix-package.r'
+        'evmixdiag.r' 'fbckden.r' 'fbckdengpd.r' 'fbckdengpdcon.r'
+        'fbetagpd.r' 'fbetagpdcon.r' 'fdwm.r' 'fgammagpd.r'
+        'fgammagpdcon.r' 'fgkg.r' 'fgkgcon.r' 'fgng.r' 'fgngcon.r'
+        'fgpd.r' 'fhpd.r' 'fhpdcon.r' 'fkden.r' 'fkdengpd.r'
+        'fkdengpdcon.r' 'flognormgpd.r' 'flognormgpdcon.r'
+        'fmgammagpd.r' 'fmgammagpdcon.r' 'fnormgpd.r' 'fnormgpdcon.r'
+        'fweibullgpd.r' 'fweibullgpdcon.r' 'kernels.r' 'kfun.r'
+        'mrlplot.r' 'tcplot.r' 'undocumented.r' 'dmgamma.r' 'fmgamma.r'
+Packaged: 2013-11-01 07:59:49 UTC; csc51
+NeedsCompilation: no
+Date/Publication: 2013-11-01 09:29:11

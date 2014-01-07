@@ -1,0 +1,23 @@
+Package: openair
+Type: Package
+Title: Tools for the analysis of air pollution data
+Version: 0.5-2
+Date: 2011-08-24
+Author: David Carslaw and Karl Ropkins
+Depends: R (>= 2.13.0),
+Imports: proto, Matrix, utils, grid, plyr, reshape2, mgcv, zoo,
+        lattice, boot,RColorBrewer
+Suggests: latticeExtra, hexbin, RgoogleMaps,ellipse
+Maintainer: David Carslaw <david.carslaw@kcl.ac.uk>
+Description: Tools to analyse, interpret and understand air pollution
+        data. Data are typically hourly time series and both monitoring
+        data and dispersion model output can be analysed.  Many
+        functions can also be applied to other data, including
+        meteorological and traffic data.
+License: GPL (>= 2)
+URL: http://www.openair-project.org/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-08-24 09:52:47 UTC; david
+Repository: CRAN
+Date/Publication: 2011-08-24 19:14:16

@@ -1,0 +1,19 @@
+Package: intamapInteractive
+Version: 1.1-7
+Date: 2013-04-19
+Title: procedures for automated interpolation - methods only to be used
+        interactively, not included in intamap package
+Author: Edzer Pebesma <edzer.pebesma@uni-muenster.de>, Jon Skoien
+        <jon.skoien@gmail.com> with contributions from Olivier Baume,
+        A.Chorti, D.T. Hristopulos, S.J. Melles, G. Spiliopoulos
+Maintainer: Jon Skoien <jon.skoien@gmail.com>
+Depends: spcosa, spatstat, intamap
+Suggests: rgdal
+Description: A package that provides additional functionality for
+        spatial interpolation in the intamap package.
+License: GPL (>= 2)
+URL: http://www.intamap.org/
+Packaged: 2013-04-19 14:49:56 UTC; skoiejo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-19 17:18:32

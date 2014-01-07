@@ -1,0 +1,25 @@
+Package: pitchRx
+Title: Tools for Collecting and Visualizing Major League Baseball
+        PITCHfx Data
+Version: 0.6
+Author: Carson Sievert <sievert@iastate.edu>
+Maintainer: Carson Sievert <sievert@iastate.edu>
+Description: Tools for Collecting and Visualizing Major League Baseball
+    PITCHfx Data
+License: MIT
+Depends: R (>= 2.15.1), XML, ggplot2 (>= 0.9.3)
+Imports: MASS, rgl, mgcv, hexbin, lubridate, stringr, plyr, reshape
+Suggests: knitr, animation, shiny, ggsubplot
+Date: 2013-07-01
+LazyData: true
+Collate: 'animateFX.R' 'strikeFX.R' 'interactiveFX.R' 'getSnapshots.R'
+        'getStrikezones.R' 'getFacets.R' 'scrapeFX.R'
+        'urlsToDataFrame.R' 'pitches.R' 'fields.R' 'urls.R' 'players.R'
+        'help.R'
+VignetteBuilder: knitr
+URL: http://cpsievert.github.com/pitchRx/demo
+BugReports: http://github.com/cpsievert/pitchRx/issues
+Packaged: 2013-07-14 20:41:07 UTC; cpsievert
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-15 01:03:09

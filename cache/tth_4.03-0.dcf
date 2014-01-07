@@ -1,0 +1,22 @@
+Package: tth
+Version: 4.03-0
+Date: 2012-12-14
+Authors@R: c(person(c("Ian", "H."), "Hutchinson", role = "aut", comment
+        = "author of tth/ttm C sources"), person("Friedrich", "Leisch",
+        role = c("aut", "cre"), email =
+        "Friedrich.Leisch@R-project.org", comment = "author of R
+        wrappers to tth/ttm"), person("Achim", "Zeileis", role = "aut",
+        email = "Achim.Zeileis@R-project.org", comment = "author of R
+        wrappers to tth/ttm"))
+Title: TeX to HTML/MathML Translators tth/ttm
+Depends: R (>= 2.14.0)
+Description: C source code and R wrappers for the tth/ttm TeX to
+        HTML/MathML translators.
+License: GPL-2
+Packaged: 2012-12-14 10:22:36 UTC; leisch
+Author: Ian H. Hutchinson [aut] (author of tth/ttm C sources),
+        Friedrich Leisch [aut, cre] (author of R wrappers to tth/ttm),
+        Achim Zeileis [aut] (author of R wrappers to tth/ttm)
+Maintainer: Friedrich Leisch <Friedrich.Leisch@R-project.org>
+Repository: CRAN
+Date/Publication: 2012-12-14 12:27:25

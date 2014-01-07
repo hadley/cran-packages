@@ -1,0 +1,21 @@
+Package: pgnorm
+Type: Package
+Title: The p-generalized normal distribution
+Version: 1.1
+Date: 2012-05-10
+Author: Steve Kalke
+Maintainer: <steve.kalke@uni-rostock.de>
+Description: Evaluation of the pdf and the cdf of the univariate
+        p-generalized normal distribution. Sampling from the
+        p-generalized normal distribution using either the
+        p-generalized polar method, the p-generalized rejecting polar
+        method, the Monty Python method, the Ziggurat method or the
+        method of Nardon and Pianca. The package also includes routines
+        for the simulation of the bivariate, p-generalized uniform
+        distribution on the p-generalized unit circle and the
+        simulation of the corresponding angular distribution.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-05-14 07:14:44 UTC; skadmin
+Repository: CRAN
+Date/Publication: 2012-05-14 09:43:11

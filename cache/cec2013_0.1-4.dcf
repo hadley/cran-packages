@@ -1,0 +1,40 @@
+Package: cec2013
+Type: Package
+Title: Benchmark functions for the Special Session and Competition on
+        Real-Parameter Single Objective Optimization at CEC-2013
+Version: 0.1-4
+Date: 2013-03-05
+Author: Mauricio Zambrano-Bigiarini [aut, cre], Yasser Gonzalez
+        Fernandez [aut]
+Authors@R: c(person("Mauricio", "Zambrano-Bigiarini",
+        email="mzb.devel@gmail.com", role=c("aut","cre")),
+        person("Yasser", "Gonzalez Fernandez",
+        email="ygonzalezfernandez@gmail.com", role=c("aut")) )
+Maintainer: Mauricio Zambrano-Bigiarini <mzb.devel@gmail.com>
+Description: This package provides R wrappers for the C implementation
+        of 28 benchmark functions defined for the Special Session and
+        Competition on Real-Parameter Single Objective Optimization at
+        CEC-2013. The focus of this package is to provide an
+        open-source and multi-platform implementation of the CEC2013
+        benchmark functions, in order to make easier for researchers to
+        test the performance of new optimization algorithms in a
+        reproducible way. The original C code (Windows only) was
+        provided by Jane Jing Liang, while GNU/Linux comments were made
+        by Janez Brest. This package was gently authorised for
+        publication on CRAN by Ponnuthurai Nagaratnam Suganthan. The
+        official documentation is available at
+        http://www.ntu.edu.sg/home/EPNSugan/index_files/CEC2013/CEC2013.htm.
+        Bugs reports/comments/questions are very welcomed (in English,
+        Spanish or Italian).
+License: GPL (>= 3)
+Depends: R (>= 2.13.0)
+Imports:
+Suggests:
+URL: http://www.rforge.net/cec2013,
+        http://cran.r-project.org/web/packages/cec2013
+LazyLoad: yes
+ByteCompile: TRUE
+Packaged: 2013-03-05 09:04:38 UTC; zambrhe
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-05 18:04:00

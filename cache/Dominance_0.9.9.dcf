@@ -1,0 +1,21 @@
+Package: Dominance
+Version: 0.9.9
+Date: 2013-05-07
+Title: ADI (average dominance index) and social network graphs with
+        dual directions
+Authors@R: c(person("Knut Krueger", "Developer", role = c("aut",
+        "cre"), email = "Knut.Krueger@equine-science.de"))
+Author: Knut Krueger, with contributions from Konstanze Krueger
+Maintainer: Knut Krueger <Knut.Krueger@equine-science.de>
+Depends: R (>= 2.14.0),igraph,chron,gdata
+Suggests:
+Description: The package can calculate ADI (Average Dominance Index)
+        and can build social network graphs with dual directions, can
+        build a Music Notation Graph
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.Konstanze-Krueger.de/r
+BugReports: Knut.Krueger@equine-science.de
+Packaged: 2013-05-07 08:08:13 UTC; Knut
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-07 12:53:32

@@ -1,0 +1,12 @@
+Package: hdeco
+Type: Package
+Title: Hierarchical DECOmposition of Entropy for Categorical Map Comparisons
+Version: 0.4
+Date: 2007-05-02
+Author: Tarmo K. Remmel, Sandor Kabos, and Ferenc (Ferko) Csillag
+Maintainer: Tarmo K. Remmel <remmelt@yorku.ca>
+Description: A flexible and hierarchical framework for comparing categorical map composition and configuration (spatial pattern) along spatial, thematic, or external grouping variables.  Comparisons are based on measures of mutual information between thematic classes (colours) and location (spatial partitioning).  Results are returned in textual, tabular, and graphical forms.
+License: GPL (Version 2.0 or later)
+Depends: R(>= 2.0.1)
+Lazydata: yes
+Packaged: Tue May  1 17:32:09 2007; remmelt

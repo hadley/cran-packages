@@ -1,0 +1,19 @@
+Package: MSToolkit
+Type: Package
+Title: The MSToolkit library for clinical trial design
+Version: 3.2.0.1
+Date: 2012-09-22
+Author: Mike K Smith <mstoolkit@googlemail.com>
+Maintainer: ORPHANED
+Description: MSToolkit library for Clinical Trial Design
+Depends: R (>= 2.6.1), MASS, methods
+Suggests: RUnit, RNMImport, doParallel, foreach
+License: GPL
+Packaged: 2013-02-26 22:16:22 UTC; ripley
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Mike K Smith <mstoolkit@googlemail.com>
+X-CRAN-Comment: Orphaned on 2013-02-22 as the maintainer is
+        unresponsive and the package violated CRAN policy (and has been
+        repaired).
+Repository: CRAN
+Date/Publication: 2013-02-26 23:18:51

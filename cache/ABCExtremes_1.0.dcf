@@ -1,0 +1,22 @@
+Package: ABCExtremes
+Type: Package
+Title: ABC Extremes
+Version: 1.0
+Date: 2013-05-09
+Author: Rob Erhardt
+Maintainer: <erhardrj@wfu.edu>
+Description: This package contains code to 1.) construct the summary
+        statistic needed to facilitate approximate Bayesian computing
+        for spatial extremes, and then 2.) run the ABC-Rejection method
+        to produce a set of draws from the ABC posterior.  The
+        intention is for the user to directly modify the command
+        >abc.rej() to suit his or her purposes.  In general, ABC
+        fitting of max-stable processes is very computationally
+        expensive, and requires advanced programming skills with
+        research computing.
+Depends: SpatialExtremes, combinat
+License: GPL-2
+Packaged: 2013-05-14 19:47:55 UTC; erhardrj
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-15 10:45:53

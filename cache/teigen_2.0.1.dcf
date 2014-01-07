@@ -1,0 +1,16 @@
+Package: teigen
+Type: Package
+Title: Model-based clustering and classification with the multivariate
+        t-distribution
+Version: 2.0.1
+Date: 2013-10-03
+Author: Jeffrey L. Andrews, Paul D. McNicholas
+Maintainer: Jeffrey L. Andrews <jeffrey.andrews@macewan.ca>
+Description: Fits multivariate t-distribution mixture models (with eigen-decomposed covariance structure) via the multi-cycle ECM algorithm under a clustering or classification paradigm.
+License: GPL (>= 2)
+LazyLoad: yes
+Imports: parallel
+Packaged: 2013-10-03 17:29:07 UTC; jeff
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-03 19:41:12

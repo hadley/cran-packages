@@ -1,0 +1,19 @@
+Package: DnE
+Type: Package
+Title: DnE(Distribution and Equation)
+Version: 1.01
+Date: 2013-04-17
+Author: Junyao Chen, Cuiyi He, Yuanrui Wu, Mengqing Sun
+Maintainer: Junyao Chen <zhiningningmeng@126.com>
+Description: The package involves two kinds of functions. One is to
+        solve cubic and quartic equations. The other is to analyse the
+        distribution of a set of given data.  The function Cubic and
+        Quart are for solving equations. The function which has the
+        form as "is.xxdistribution" is for analysing whether the data
+        obeys the xxdistrbution. If you don not know which distribution
+        to judge, use function is.dt.
+License: GPL (>= 2)
+Packaged: 2013-04-17 09:52:34 UTC; BOXIANWEI
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-17 23:11:52

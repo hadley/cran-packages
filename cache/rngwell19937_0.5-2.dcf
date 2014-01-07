@@ -1,0 +1,19 @@
+Package: rngwell19937
+Title: WELL19937a random number generator implemented with 53 bit
+        output
+Version: 0.5-2
+Date: 2009-04-16
+Author: Petr Savicky <savicky@cs.cas.cz>
+Maintainer: Petr Savicky <savicky@cs.cas.cz>
+Description: Random number generator WELL19937a by F. Panneton, P.
+        L'Ecuyer and M. Matsumoto with initialization using MRG32k5a by
+        P. L'Ecuyer. WELL19937a is of similar type as Mersenne Twister
+        and has the same period. WELL19937a is slightly slower than
+        Mersenne Twister, but has better equidistribution and
+        "bit-mixing" properties and faster recovery from states with
+        prevailing zeros than Mersenne Twister. The output function may
+        be set to provide numbers with 53 or 32 random bits.
+License: file LICENSE
+Packaged: Thu Apr 16 09:09:28 2009; petr
+Repository: CRAN
+Date/Publication: 2009-04-16 08:42:15

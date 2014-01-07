@@ -1,0 +1,16 @@
+Package: adhoc
+Version: 1.0
+Type: Package
+Title: calculate ad hoc distance thresholds for DNA barcoding
+        identification
+Date: 2013-11-08
+Author: Gontran Sonet
+Maintainer: Gontran Sonet <gosonet@gmail.com>
+Description: An ad hoc distance threshold can be calculated for each particular reference library of DNA barcodes. Specimen identification at this ad hoc distance threshold (using the best close match method) will produce identifications with an estimated relative error probability that can be fixed by the user (e.g. 5%)
+URL: http://jemu.myspecies.info/computer-programs
+Depends: R (>= 2.15), spider, ape, polynom
+License: GPL (>= 2)
+Packaged: 2013-12-13 09:29:37 UTC; gsonet
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-13 12:42:11

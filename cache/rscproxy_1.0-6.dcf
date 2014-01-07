@@ -1,0 +1,10 @@
+Package: rscproxy
+Type: Package
+Title: provides portable C-style interface to R (StatConnector)
+Version: 1.0-6
+Date: 2008-08-12
+Author: Thomas Baier
+Maintainer: Thomas Baier <thomas.baier@univie.ac.at>
+Description: rscproxy library provides an interface to R used by third party applications, most notable, but not limited to, rcom/R Scilab (D)COM Server, ROOo and other systems.
+License: LGPL
+Packaged: Thu Aug 14 11:48:50 2008; tb

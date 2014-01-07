@@ -1,0 +1,20 @@
+Package: loop
+Type: Package
+Title: loop decomposition of weighted directed graphs for life cycle
+        analysis, providing flexbile network plotting methods, and
+        analyzing food chain properties in ecology
+Version: 1.1
+Date: 2012-09-30
+Author: Youhua Chen
+Maintainer: Youhua Chen <haydi@126.com>
+Description: The program can perform loop analysis and plot network
+        structure (especially for food webs),including minimum spanning
+        tree, loop decomposition of weighted directed graphs, and other
+        network properties which may be related to food chain
+        properties in ecology.
+License: GPL-2
+LazyLoad: yes
+Depends: grid,MASS
+Packaged: 2012-09-30 21:11:34 UTC; Owner
+Repository: CRAN
+Date/Publication: 2012-10-01 05:51:43

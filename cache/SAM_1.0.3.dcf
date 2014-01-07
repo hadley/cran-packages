@@ -1,0 +1,22 @@
+Package: SAM
+Type: Package
+Title: Sparse Additive Modelling
+Version: 1.0.3
+Date: 2013-03-25
+Author: Tuo Zhao, Xingguo Li, Han Liu, and Kathryn Roeder
+Maintainer: Tuo Zhao <tourzhao@gmail.com>
+Depends: R (>= 2.14), splines
+Description: The package SAM targets at high dimensional predictive
+        modeling (regression and classification) for complex data
+        analysis. SAM is short for sparse additive modeling, and adopts
+        the computationally efficient basis spline technique. We solve
+        the optimization problems by various computational algorithms
+        including the block coordinate descent algorithm, fast
+        iterative soft-thresholding algorithm, and newton method. The
+        computation is further accelerated by warm-start and active-set
+        tricks.
+License: GPL-2
+Packaged: 2013-04-01 21:21:01 UTC; tourzhao
+Repository: CRAN
+Date/Publication: 2013-04-02 00:46:15
+NeedsCompilation: yes

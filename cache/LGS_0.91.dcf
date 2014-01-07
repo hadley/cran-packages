@@ -1,0 +1,18 @@
+Package: LGS
+Type: Package
+Title: simulating Linkage Group Selection (LGS)
+Version: 0.91
+Date: 2008-12-12
+Author: Dario Beraldi
+Maintainer: Dario Beraldi <dario.beraldi@ed.ac.uk>
+Description: The LGS package simulates the biological steps of a
+        linkage group selection experiment in order to gain insights
+        into the underlying biology. See Martinelli et al. (Proc Natl
+        Acad Sci U S A, 2005) for the LGS experimental procedure and
+        Hunt et al. (BMC Genomics, 2010) for an application of the
+        simulations implemented in this package.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-06-16 07:52:22 UTC; dberaldi
+Repository: CRAN
+Date/Publication: 2011-06-17 06:44:30

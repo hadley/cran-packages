@@ -1,0 +1,24 @@
+Package: bentcableAR
+Type: Package
+Title: Bent-Cable Regression for Independent Data or Autoregressive Time Series
+Version: 0.1.1
+Date: 2008-05-03
+Author:
+	Grace Chiu <bentcable@hush.com>,
+	Assistant Professor,
+	Department of Statistics and Actuarial Science,
+	University of Waterloo,
+	Waterloo, ON, N2L 3G1,
+	Canada
+Maintainer: author <bentcable@hush.com>
+Description:
+	This package contains two main interfaces for fitting
+	and diagnosing bent-cable regressions for autoregressive
+	time-series data or independent data (time series or
+	otherwise). The interfaces are 'bentcable.ar()' and 
+	'bentcable.dev.plot()'. Some components in the package can 
+	also be used as stand-alone functions. The bent cable 
+	(linear-quadratic-linear) generalizes the broken stick 
+	(linear-linear), which is also handled by this package.
+License: GPL (>= 3)
+Packaged: Sat May  3 18:22:21 2008; gchiu

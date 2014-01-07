@@ -1,0 +1,21 @@
+Package: FD
+Type: Package
+Title: Measuring functional diversity (FD) from multiple traits, and
+        other tools for functional ecology
+Version: 1.0-11
+Date: 2011-03-21
+Author: Etienne Laliberté, Bill Shipley
+Maintainer: Etienne Laliberté <etiennelaliberte@gmail.com>
+Description: FD is a package to compute different multidimensional FD
+        indices. It implements a distance-based framework to measure FD
+        that allows any number and type of functional traits, and can
+        also consider species relative abundances. It also contains
+        other useful tools for functional ecology.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Depends: ade4, ape, geometry, vegan
+Encoding: latin1
+Packaged: 2011-03-21 05:30:54 UTC; etienne
+Repository: CRAN
+Date/Publication: 2011-03-21 06:46:25

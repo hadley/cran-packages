@@ -1,0 +1,13 @@
+Package: compHclust
+Version: 1.0-2
+Date: 2014-01-03
+Title: Complementary Hierarchical Clustering
+Authors@R: c(person("Gen", "Nowak", role = c("aut","cre"), email = "gen.nowak@gmail.com"), person("Robert", "Tibshirani", role = "aut"))
+Author: Gen Nowak and Robert Tibshirani
+Description: Performs the complementary hierarchical clustering procedure and returns X' (the expected residual matrix) and a vector of the relative gene importances.
+License: GPL (>= 2)
+Packaged: 2014-01-03 06:08:26 UTC; gennowak
+Maintainer: Gen Nowak <gen.nowak@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-03 07:53:41

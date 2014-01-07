@@ -1,0 +1,23 @@
+Package: onemap
+Type: Package
+Title: Software for constructing genetic maps in experimental crosses:
+        full-sib, RILs, F2 and backcrosses
+Version: 2.0-1
+Date: mar, 2011
+Author: Gabriel Rodrigues Alves Margarido <gramarga@esalq.usp.br> and
+        Marcelo Mollinari <mmollina@esalq.usp.br>, with contributions
+        from Antonio Augusto Franco Garcia <aafgarci@esalq.usp.br>.
+Maintainer: Gabriel Rodrigues Alves Margarido <gramarga@esalq.usp.br>
+Depends: tcltk, tkrplot, R (>= 2.12.0)
+Suggests: qtl
+Description: Analysis of molecular marker data from model (backcrosses,
+        F2 and recombinant inbred lines) and non-model systems (i. e.
+        outcrossing species). For the later, it allows statistical
+        analysis by simultaneously estimating linkage and linkage
+        phases (genetic map construction). All analysis are based on
+        multipoint approaches using hidden Markov models.
+License: GPL-3
+URL: http://brieger.esalq.usp.br/CRAN/web/packages/onemap/index.html
+Packaged: 2012-10-29 08:59:20 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:20

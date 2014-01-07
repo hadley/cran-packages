@@ -1,0 +1,15 @@
+Package: gems
+Type: Package
+Title: Generalized multistate simulation model
+Version: 0.9.3
+Date: 2012-01-25
+Author: Luisa Salazar Vizcaya, Nello Blaser, Thomas Gsponer
+Maintainer: Luisa Salazar Vizcaya <lsalazar@ispm.unibe.ch>
+Imports: MASS, methods, msm, mstate, plyr, graphics, stats, utils
+Depends: methods
+Description: This package allows to simulating and analyzing multistate models with general hazard functions. It provides functionality for the preparation of hazard functions and parameters, simulation from a general multistate model and predicting future events. The multistate model is not required to be a Markov model and may take the history of previous events into account. In the basic version, it allows to simulate from transition-specific hazard function, whose parameters are multivariable normally distributed.
+License: GPL-2
+Packaged: 2013-07-08 11:33:47 UTC; lsalazar
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-08 14:36:14

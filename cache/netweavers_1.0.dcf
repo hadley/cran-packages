@@ -1,0 +1,17 @@
+Package: netweavers
+Type: Package
+Title: NetWeAvers: Weighted Averages for Networks
+Version: 1.0
+Date: 2013-04-04
+Author: Elizabeth McClellan
+Maintainer: Elizabeth McClellan <e.mcclellan@erasmusmc.nl>
+Description: This package summarizes quantified peptide data, fits
+        linear models on and performs network analysis for proteomics
+        mass spectrometry data.
+Depends: R (>= 2.10), BiocGenerics, Biobase, igraph, limma
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-06-24 07:12:32 UTC; Elizabeth
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-24 10:20:41

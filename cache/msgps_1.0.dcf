@@ -1,0 +1,14 @@
+Package: msgps
+Type: Package
+Title: Calculates the degrees of freedom of elastic net, adaptive lasso
+        and generalized elastic net
+Version: 1.0
+Date: 2011-11-28
+Author: Kei Hirose
+Maintainer: Kei Hirose <mail@keihirose.com>
+Description: This package computes the degrees of freedom of the lasso, elastic net, generalized elastic net and adaptive lasso based on the generalized path seeking algorithm.  The optimal model can be selected by model selection criteria including Mallows' Cp, bias-corrected AIC (AICc), generalized cross validation (GCV) and BIC.
+License: GPL (>= 2)
+URL: http://www.keihirose.com/.
+Packaged: 2011-12-01 10:18:53 UTC; hirosekei
+Repository: CRAN
+Date/Publication: 2011-12-01 10:40:23

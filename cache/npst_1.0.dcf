@@ -1,0 +1,15 @@
+Package: npst
+Type: Package
+Title: A generalization of the nonparametric seasonality tests of
+        Hewitt et al. (1971) and Rogerson (1996)
+Version: 1.0
+Date: 2010-11-29
+Author: Roland Rau
+Maintainer: Roland Rau <roland.rau@gmail.com>
+Description: The core of package 'npst' estimates the distribution of
+        the test statistic via Monte-Carlo simulation.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-11-29 10:45:22 UTC; roland
+Repository: CRAN
+Date/Publication: 2010-11-29 11:37:02

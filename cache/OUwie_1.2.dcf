@@ -1,0 +1,18 @@
+Package: OUwie
+Version: 1.2
+Date: 2011-8-19
+Title: Analysis of evolutionary rates in an OU framework
+Author: Jeremy M. Beaulieu <jeremy.beaulieu@yale.edu>, Brian O'Meara
+        <bomeara@utk.edu>
+Maintainer: Jeremy M. Beaulieu <jeremy.beaulieu@yale.edu>
+Depends: ape, nloptr, numDeriv, SparseM, corpcor, lattice
+Description: Calculates and compares rate differences of continuous
+        character evolution under Brownian motion and a new set of
+        Ornstein-Uhlenbeck-based Hansen models that allow the strength
+        of selection and drift to vary across selective regimes.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: ouwie
+Repository/R-Forge/Revision: 30
+Date/Publication: 2011-09-17 05:12:45
+Packaged: 2011-09-14 20:40:40 UTC; rforge

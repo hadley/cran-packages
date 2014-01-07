@@ -1,0 +1,15 @@
+Package: reader
+Type: Package
+Title: A suite of functions to flexibly read data from files
+Version: 1.0
+Date: 2013-09-20
+Author: Nicholas Cooper
+Maintainer: Nicholas Cooper <nick.cooper@cimr.cam.ac.uk>
+Depends: R (>= 2.10), grDevices, graphics, stats, utils, NCmisc
+Description: A set of functions to simplify reading data from files. The main function, reader(), should read most common R datafile types without needing any parameters except the filename. Other functions provide simple ways of handling file paths and extensions, and automatically detecting file format and structure.
+License: GPL (>= 2)
+Collate: 'reader.R'
+Packaged: 2013-09-21 10:27:08 UTC; ncooper
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-21 15:09:15

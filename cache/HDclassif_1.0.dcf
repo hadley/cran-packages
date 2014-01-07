@@ -1,0 +1,20 @@
+Package: HDclassif
+Type: Package
+Title: High Dimensionnal Classification.
+Version: 1.0
+Depends: graphics, stats, MASS
+Date: 2010-07-01
+Author: R.Aidan L.Berge C.Bouveyron S.Girard
+Maintainer: L.Berge <laurent.berge@hotmail.fr>
+Description: New disciminant analysis and data clustering methods for
+        high dimensional data, based on the asumption that
+        high-dimensional data live in different subspaces with low
+        dimensionality proposing a new parametrization of the Gaussian
+        mixture model which combines the ideas of dimension reduction
+        and constraints on the model.
+License: GPL-2
+LazyLoad: yes
+ZipData: yes
+Packaged: 2010-07-26 13:21:51 UTC; Laurent
+Repository: CRAN
+Date/Publication: 2010-07-26 21:02:10

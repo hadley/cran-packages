@@ -1,0 +1,21 @@
+Package: HyPhy
+Type: Package
+Title: Macroevolutionary phylogentic analysis of species trees and gene
+        trees
+Version: 1.0
+Date: 2012-07-25
+Authors@R: person("Nathaniel", "Hallinan", role = c("aut", "cre"),
+        email = "nmhallinan@gmail.com")
+Author: Nathaniel Malachi Hallinan
+Maintainer: Nathaniel Malachi Hallinan <nmhallinan@gmail.com>
+Depends: ape, R.utils
+Description: A Bay Area high level phylogenetic analysis package mostly
+        using the birth-death process. Analysis of species tree
+        branching times and simulation of species trees under a number
+        of different time variable birth-death processes.  Analysis of
+        gene tree species tree reconciliations and simulations of gene
+        trees in species trees.
+License: GPL-2
+Packaged: 2012-07-29 23:15:47 UTC; Nat
+Repository: CRAN
+Date/Publication: 2012-07-30 04:09:01

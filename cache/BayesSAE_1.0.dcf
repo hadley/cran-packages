@@ -1,0 +1,17 @@
+Package: BayesSAE
+Type: Package
+Title: Bayesian Analysis of Area Level Models
+Version: 1.0
+Date: 2013-08-17
+Author: Chengchun Shi, with contributions from Peng Zhang
+Maintainer: Chengchun Shi <3100102177@zju.edu.cn>
+Description: This package provides a variety of functions to deal with several specific small area area-level 
+  models in Bayesian context. Models provided range from the basic Fay-Herriot model to its improvement such as 
+  You-Chapman models, unmatched models, spatial models and so on. Different types of priors for specific 
+  parameters could be chosen to obtain MCMC posterior draws. The main sampling function is written in C so as to 
+  facilitate the computation. Model internal checking and model comparison criteria are also involved.  
+License: GPL-2
+Packaged: 2013-10-14 16:02:17 UTC; spring
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-15 16:14:25

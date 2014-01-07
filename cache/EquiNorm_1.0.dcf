@@ -1,0 +1,21 @@
+Package: EquiNorm
+Type: Package
+Title: Normalize expression data using equivalently expressed genes
+Version: 1.0
+Date: 2010-06-04
+Author: Li-Xuan Qin <qinl@mskcc.org>, Jaya M. Satagopan
+        <satagopj@mskcc.org>
+Maintainer: Brian Denton <dentonb@mskcc.org>
+Description: Normalize oligonucleotide gene expression data using
+        equivalently expressed genes in experiments comparing two
+        groups of samples (for example, case-control samples), as
+        outlined in L-X Qin and JM Satagopan (2009).
+Depends: R (>= 2.8.0), lme4, mvtnorm, Matrix, lattice
+Suggests: tcltk
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+URL: http://www.mskcc.org/mskcc/html/91979.cfm
+Packaged: 2010-06-04 13:00:36 UTC; dentonb
+Repository: CRAN
+Date/Publication: 2010-06-04 13:47:34

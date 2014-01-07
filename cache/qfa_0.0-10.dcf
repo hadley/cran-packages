@@ -1,0 +1,44 @@
+Package: qfa
+Version: 0.0-10
+Date: 2013-06-13
+Title: Tools for modelling the growth dynamics of arrays of large
+        numbers of colonies and performing quantitative fitness
+        analysis (QFA).
+Author: Conor Lawless <conor.lawless@ncl.ac.uk>, with contributions
+        from Alexander Young <alextisyoung@gmail.com> and Darren
+        Wilkinson <d.j.wilkinson@ncl.ac.uk>
+Maintainer: Conor Lawless <conor.lawless@ncl.ac.uk>
+Depends: R (>= 2.10.1), sp, DEoptim
+Suggests:
+Description: Quantitative Fitness Analysis (QFA) is a complementary
+        series of experimental and computational methods for estimating
+        the fitness of thousands of microbial cultures in parallel.
+        QFA is suitable for focussed, high-quality studies of the
+        effect of genetic mutations or drug interventions on growth in
+        model microbial organisms such as brewer's yeast.  Culture
+        growth is observed by time-lapse photography of solid agar
+        plates inoculated with cultures in rectangular arrays.  Growth
+        curves are constructed by analysing image series using
+        Colonyzer image analysis software
+        (http://research.ncl.ac.uk/colonyzer) which converts images to
+        arrays of cell density estimates.  This R package is for a)
+        fitting the generalised logistic model to potentially thousands
+        of parallel growth curves, b) using inferred parameter values
+        to calculate fitnesses for each culture and c) comparing
+        fitnesses between QFA experiments with different genetic
+        backgrounds or treatments to deduce interaction strengths.
+        This package facilitates quantifying the fitness of thousands
+        of independent microbial strains and tracking them throughout
+        growth curve experiments.  With appropriately designed
+        experiments, qfa can also estimate genetic interaction
+        strengths and produce epistasis plots.
+License: Artistic-2.0
+URL: http://qfa.r-forge.r-project.org/
+BugReports: conor.lawless@ncl.ac.uk
+Repository: CRAN
+Repository/R-Forge/Project: qfa
+Repository/R-Forge/Revision: 399
+Repository/R-Forge/DateTimeStamp: 2013-06-20 11:39:56
+Date/Publication: 2013-06-21 14:28:37
+Packaged: 2013-06-20 14:36:31 UTC; rforge
+NeedsCompilation: no

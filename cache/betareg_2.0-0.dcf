@@ -1,0 +1,14 @@
+Package: betareg
+Version: 2.0-0
+Date: 2009-09-02
+Title: Beta Regression
+Author: Achim Zeileis
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+Description: Beta regression for modeling rates and proportions.
+Depends: R (>= 2.6.0), stats
+Imports: graphics, sandwich, lmtest
+Suggests: car, lmtest, sandwich
+License: GPL-2
+Packaged: 2009-09-02 19:42:13 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2009-09-03 08:41:04

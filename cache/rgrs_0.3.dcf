@@ -1,0 +1,31 @@
+Package: rgrs
+Type: Package
+Title: Functions to make R usage in social sciences easier (in french)
+Version: 0.3
+Date: 2013-09-10
+Author: Julien Barnier <julien.barnier@ens-lyon.fr>
+Maintainer: Julien Barnier <julien.barnier@ens-lyon.fr>
+Description: Deprecated package, please use the 'questionr' package instead.
+    This package provides functions for beginners and social sciences students
+    or researchers. Currently it includes functions for cross-tabulation,
+    weighting, results export, and maps plotting. The documentation and help
+    pages are written in french.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: questionr (>= 0.2)
+Suggests: tcltk, odfWeave, R2HTML, RColorBrewer, sp
+SystemRequirements: xclip (Linux)
+URL: https://github.com/juba/rgrs
+Collate: 'carte.eff.R' 'carte.eff.legende.R' 'carte.labels.R'
+        'carte.prop.R' 'carte.prop.legende.R' 'carte.qual.R'
+        'carte.qual.legende.R' 'copie.R' 'copie.default.R'
+        'copie.proptab.R' 'cprop.R' 'cramer.v.R' 'format.proptab.R'
+        'freq.R' 'genere.tableau.R' 'lprop.R' 'mls.eclate.multi.R'
+        'mls.eclate.ordo.R' 'mls.export.R' 'mls.import.R'
+        'mls.table.multi.R' 'print.proptab.R' 'prop.R' 'quant.cut.R'
+        'renomme.variable.R' 'residus.R' 'selectwd.R' 'theff.R'
+        'thprop.R' 'wtd.mean.R' 'wtd.table.R' 'wtd.var.R'
+Packaged: 2013-09-10 12:23:59 UTC; julien
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-10 15:49:27

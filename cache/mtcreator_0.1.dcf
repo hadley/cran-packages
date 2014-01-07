@@ -1,0 +1,21 @@
+Package: mtcreator
+Type: Package
+Title: Creating MAGE-TAB files using mtcreator
+Version: 0.1
+Date: 2011-03-14
+Author: Fabian Grandke
+Maintainer: Fabian Grandke <ben4571@ibe.med.uni-muenchen.de>
+Depends: affy
+Description: This package contains a program that supports users in
+        creating files to comply the MIAME-standart compliant format
+        MAGE-TAB. This format enables the user to upload his high
+        dimensional and related metadata to the public database Array
+        Express. The upload is required before you publish the data or
+        results that has been generated using the data.
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: mtcreator
+Repository/R-Forge/Revision: 13
+Date/Publication: 2012-10-29 08:59:14
+Packaged: 2012-10-29 08:59:14 UTC; ripley

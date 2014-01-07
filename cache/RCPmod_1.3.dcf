@@ -1,0 +1,14 @@
+Package: RCPmod
+Version: 1.3
+Date: 2013-11-01
+Title: Regions of common profiles modelling with mixtures-of-experts.
+Author: Scott D. Foster
+Maintainer: Scott Foster <scott.foster@csiro.au>
+Depends: numDeriv, gtools
+Suggests: MASS
+Description: Fits mixtures-of-experts models to identify regions of common profiles, and associated methods. These are based on binary data for many species.
+License: GPL (>= 2)
+Packaged: 2013-11-01 02:03:59 UTC; fos085
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-01 07:29:00

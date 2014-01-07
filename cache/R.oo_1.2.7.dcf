@@ -1,0 +1,15 @@
+Package: R.oo
+Version: 1.2.7
+Date: 2006-04-07
+Title: R object-oriented programming with or without references
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.0.0)
+Imports: methods
+Description: Methods and classes for object-oriented programming in R with or without references.  Large effort has been made on making definition of methods as simple as possible with a minimum of maintainance for package developers.  For example, generic functions are created automatically, if missing, and name conflict are automatically solved, if possible.  The method setMethodS3() is a good start for those who in the future want to migrate to S4.  The package has been developed since 2001 and is now considered very stable.
+Depends: utils
+License: LGPL version 2.1 or newer (the releases)
+URL: http://www.braju.com/R/
+DevelURL: http://www.maths.lth.se/help/R/
+LazyLoad: TRUE
+Packaged: Sat Apr  7 18:06:25 2007; hb

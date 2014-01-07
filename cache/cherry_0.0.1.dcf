@@ -1,0 +1,25 @@
+Package: cherry
+Version: 0.0.1
+Date: 2010-10-03
+Title: Multiple testing methods for exploratory research
+Author: Jelle Goeman <j.j.goeman@lumc.nl>
+Maintainer: Jelle Goeman <j.j.goeman@lumc.nl>
+Depends: methods, bitops
+Imports:
+Suggests: MASS
+Description: This package implements a class of multiple testing
+        methods that does not prescribe the user what hypotheses to
+        reject, but instead allows the user to select the set of
+        selected hypotheses freely. The multiple testing procedure aids
+        this selection by providing an upper confidence bound for the
+        number of false rejections among the selected set. Because the
+        confidence bounds are simultaneous for all possible rejected
+        sets, the validity is not compromised by post hoc selection.
+License: GPL (>= 2)
+Collate: closed.R shortcuts.R
+LazyLoad: yes
+ZipData: yes
+URL: http://www.msbi.nl/goeman
+Packaged: 2010-10-18 07:23:20 UTC; jjgoeman
+Repository: CRAN
+Date/Publication: 2010-10-18 08:31:32

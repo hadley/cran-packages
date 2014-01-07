@@ -1,0 +1,14 @@
+Package: glmpath
+Version: 0.96
+Date: 2013-01-31
+Title: L1 Regularization Path for Generalized Linear Models and Cox
+        Proportional Hazards Model
+Author: Mee Young Park, Trevor Hastie
+Maintainer: Mee Young Park <meeyoung@google.com>
+Depends: survival, R (>= 2.0)
+Description: A path-following algorithm for L1 regularized generalized
+        linear models and Cox proportional hazards model
+License: GPL (>= 2)
+Packaged: 2013-02-01 22:53:43 UTC; meeyoung
+Repository: CRAN
+Date/Publication: 2013-02-02 08:47:37

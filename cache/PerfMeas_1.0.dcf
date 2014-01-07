@@ -1,0 +1,16 @@
+Package: PerfMeas
+Type: Package
+Title: PerfMeas: Performance Measures for ranking and classification
+        tasks
+Version: 1.0
+Date: 2011-11-07
+Author: Giorgio Valentini, Matteo Re -- Universita' degli Studi di Milano
+Maintainer: Giorgio Valentini<valentini@dsi.unimi.it>
+Description: Package that implements different performance measures for classification and ranking tasks. AUC, precision at a given recall, F-score for single and multiple classes are available.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: limma, graph, RBGL
+URL: http://homes.dsi.unimi.it/~valenti/SW/PerfMeas
+Packaged: 2011-11-08 18:43:31 UTC; valenti
+Repository: CRAN
+Date/Publication: 2011-11-09 08:02:55

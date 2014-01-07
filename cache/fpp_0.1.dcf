@@ -1,0 +1,17 @@
+Package: fpp
+Title: Data sets for the "Forecasting: principles and practice"
+        workshop by Rob J Hyndman, June 2011
+Description: All data sets required for the workshop in Kandersteg,
+        Switzerland, 20-22 June 2011.
+Version: 0.1
+Date: 2011-06-04
+Depends: R (>= 2.0.0), graphics, stats, tseries, forecast, fma,
+        expsmooth
+LazyData: yes
+LazyLoad: yes
+Author: Rob J Hyndman <Rob.Hyndman@monash.edu>
+Maintainer: Rob J Hyndman <Rob.Hyndman@monash.edu>
+License: GPL (>= 2)
+Packaged: 2011-06-04 12:00:24 UTC; Rob
+Repository: CRAN
+Date/Publication: 2011-06-05 07:57:42

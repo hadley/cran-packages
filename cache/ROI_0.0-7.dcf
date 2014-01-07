@@ -1,0 +1,23 @@
+Package: ROI
+Imports: methods, registry, slam
+License: GPL-3
+Title: R Optimization Infrastructure
+Description: The R Optimization Infrastructure (ROI) package provides a
+    sophisticated framework for handling optimization problems in R.
+Authors@R: c(person("Kurt", "Hornik", role = "aut"), person("David",
+        "Meyer", role = "aut"), person("Stefan", "Theussl", role =
+        c("aut", "cre"), email = "Stefan.Theussl@wu.ac.at"))
+Version: 0.0-7
+URL: http://R-Forge.R-project.org/projects/roi
+Date: 2011-12-09
+Suggests: ROI.plugin.glpk, ROI.plugin.symphony, ROI.plugin.quadprog
+Collate: 'bounds.R' 'constraints.R' 'objective.R' 'OP.R' 'roi.R'
+        'sanitychecks.R' 'solution.R' 'solver.R' 'status_codes.R'
+        'types.R' 'utilities.R' 'zzz.R'
+Packaged: 2011-12-09 11:31:06 UTC; theussl
+Author: Kurt Hornik [aut],
+  David Meyer [aut],
+  Stefan Theussl [aut, cre]
+Maintainer: Stefan Theussl <Stefan.Theussl@wu.ac.at>
+Repository: CRAN
+Date/Publication: 2011-12-09 14:57:48

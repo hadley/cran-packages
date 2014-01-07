@@ -1,0 +1,20 @@
+Package: TimeProjection
+URL: https://github.com/jeffwong/TimeProjection
+Maintainer: Jeffrey Wong <jeff.ct.wong@gmail.com>
+Author: Jeffrey Wong
+Version: 0.2.0
+License: GPL-3
+Title: Time Projections
+Description: Extract useful time components of a date object, such as
+        day of week, weekend, holiday, day of month, etc, and put it in
+        a data frame.  This can be used to create many predictor
+        variables out of a single time variable, which can then be used
+        in a regression or decision tree.  Also includes function
+        plotCalendarHeatmap which draws a calendar and overlays a
+        heatmap based on values.
+Suggests: testthat, roxygen2, ggplot2, plyr
+Depends: lubridate, timeDate, Matrix
+Collate: 'TimeProjection-package.r' 'projection.R' 'calendarHeatmap.R'
+Packaged: 2013-02-02 23:53:59 UTC; jeffrey
+Repository: CRAN
+Date/Publication: 2013-02-03 08:07:12

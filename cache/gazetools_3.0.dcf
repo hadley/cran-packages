@@ -1,0 +1,28 @@
+Package: gazetools
+Type: Package
+Title: Gaze Tools
+Version: 3.0
+Date: 2013-05-21
+Author: Ryan M. Hope <rmh3093@gmail.com>
+Maintainer: Ryan M. Hope <rmh3093@gmail.com>
+URL: http://ryanhope.github.io/gazetools
+BugReports: https://github.com/RyanHope/gazetools/issues
+Description: A collection of tools for processing and classifying eye
+        gaze data.
+License: GPL-3
+LazyData: true
+Enhances: sp, ggplot2
+Depends: R (>= 2.14), Matrix, methods,
+Imports: rgeos, maptools, deldir, sp, modeest, signal, zoo, Rmisc,
+        reshape, plyr, spatstat, ggplot2
+Collate: 'event_ids.R' 'distance2point.R' 'subtendedAngle.R'
+        'angle2pixels.R' 'local_maxima.R' 'find_peak_ranges.R'
+        'find_peaks.R' 'pva.R' 'classify.R' 'classify.V.R'
+        'classify.VA.R' 'classify.VI.R' 'mould.R' 'mouldThreshold.R'
+        'voronoi.R' 'chull_area.R' 'nni.R' 'bcea.R' 'gridded_rois.R'
+        'roi_coverage.R' 'gazetools.R' 'extent.R' 'pva-methods.R'
+        'classify-methods.R' 'mould-methods.R'
+Packaged: 2013-05-21 14:11:59 UTC; ryanhope
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-21 16:53:01

@@ -1,0 +1,19 @@
+Package: BACprior
+Type: Package
+Title: Sensitivity of the Bayesian Adjustment for Confounding (BAC)
+        algorithm to the choice of hyperparameter omega.
+Version: 1.2
+Date: 2013-01-07
+Author: Denis jf Talbot, Geneviève Lefebvre, Juli Atherton
+Maintainer: Denis jf Talbot <talbot.denis@courrier.uqam.ca>
+Description: The BACprior package provides an approximate sensitivity
+        analysis of the Bayesian Adjustment for Confounding (BAC)
+        algorithm (Wang et al., 2012) with regards to hyperparameter
+        omega. The method is based on Lefebvre, Atherton and Talbot
+        (2012).
+License: GPL (>= 2)
+Depends: mvtnorm, leaps
+Encoding: latin1
+Packaged: 2013-01-07 19:50:07 UTC; Nilidas
+Repository: CRAN
+Date/Publication: 2013-01-07 20:52:10

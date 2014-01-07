@@ -1,0 +1,17 @@
+Package: rje
+Type: Package
+Title: Miscellaneous useful functions
+Version: 1.3
+Date: 2013-03-15
+Author: Robin Evans <rje42@cam.ac.uk>
+Maintainer: Robin Evans <rje42@cam.ac.uk>
+Description: A series of useful functions, some available in different
+        forms in other packages, but which have been extended or
+        modified in some way considered useful to the author.
+Depends: R (>= 2.0.0)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-03-15 15:16:44 UTC; rje42
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-15 18:26:28

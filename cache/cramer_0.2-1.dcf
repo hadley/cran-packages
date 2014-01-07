@@ -1,0 +1,10 @@
+Package: cramer
+Version: 0.2-1
+Date: 2001/04/09
+Title: Multivariate nonparametric Cramer-Test
+Author: Carsten Franz <franz@stochastik.uni-hannover.de>
+Maintainer: Carsten Franz <franz@stochastik.uni-hannover.de>
+Depends: R (>= 0.65), boot
+Description: Provides R routine for the multivariate 
+	nonparametric Cramer-Test
+License: GPL version 2 or newer

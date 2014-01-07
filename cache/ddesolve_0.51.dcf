@@ -1,0 +1,14 @@
+Package: ddesolve
+Version: 0.51
+Date: 2007-05-05
+Title: Solver for Delay Differential Equations
+Author: Alex Couture-Beil <alex@mofo.ca>, 
+  Jon T. Schnute <SchnuteJ@pac.dfo-mpo.gc.ca>, and
+  Rowan Haigh <HaighR@pac.dfo-mpo.gc.ca>
+Maintainer: Alex Couture-Beil <alex@mofo.ca>
+Depends: R (>= 2.4.1)
+Description: This package solves systems of delay differential equations. 
+  by interfacing numerical routines written by Simon N. Wood.
+  These numerical routines first appeared in Simon Wood's solv95 program.
+License: GPL2
+Packaged: Sun May  6 10:59:05 2007; Alex

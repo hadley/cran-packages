@@ -1,0 +1,15 @@
+Package: cancerTiming
+Title: Estimation of temporal ordering of cancer abnormalities
+Version: 1.0.0
+Date: 2012-08-28
+Author: Elizabeth Purdom
+Maintainer: Elizabeth Purdom <epurdom@stat.berkeley.edu>
+Description: This is a package with functions for timing copy number
+        changes using estimates of mutational allele frequency from
+        resequencing of tumor samples.
+Depends: R (>= 2.11.0), LearnBayes, GenomicRanges
+Suggests:
+License: GPL (>= 2)
+Packaged: 2012-08-29 00:11:04 UTC; epurdom
+Repository: CRAN
+Date/Publication: 2012-08-29 05:11:45

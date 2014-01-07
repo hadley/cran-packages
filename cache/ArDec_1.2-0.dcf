@@ -1,0 +1,11 @@
+Package: ArDec
+Type: Package
+Title: Time series autoregressive-based decomposition
+Version: 1.2-0
+Date: 2008-09-21
+Depends: stats, methods
+Author: S. M. Barbosa
+Maintainer: S. M. Barbosa <susana.barbosa@fc.up.pt>
+Description: Package ArDec implements autoregressive-based decomposition of a time series based on the constructive approach in West (1997). Particular cases include the extraction of trend and seasonal components. Uncertainty on the resulting components can be derived from sampling of the autoregressive model which is written as a linear regression model and handled on a Bayesian framework.
+License: GPL version 2 or newer
+Packaged: Sun Sep 21 15:36:00 2008; susana

@@ -1,0 +1,21 @@
+Package: ESG
+Type: Package
+Title: ESG - A package for asset projection
+Version: 0.1
+Date: 2013-01-13
+Author: Jean-Charles Croix, Thierry Moudiki, Frédéric Planchet, Wassim
+        Youssef
+Maintainer: Wassim Youssef <Wassim.G.Youssef@gmail.com>
+Description: The package presents a "Scenarios" class containing
+        general parameters, risk parameters and projection results.
+        Risk parameters are gathered together into a ParamsScenarios
+        sub-object. The general process for using this package is to
+        set all needed parameters in a Scenarios object, use the
+        customPathsGeneration method to proceed to the projection, then
+        use xxx_PriceDistribution() methods to get asset prices.
+License: GPL (>= 2)
+Depends: methods
+Encoding: latin1
+Packaged: 2013-01-13 12:20:21 UTC; wassim
+Repository: CRAN
+Date/Publication: 2013-01-14 10:53:20

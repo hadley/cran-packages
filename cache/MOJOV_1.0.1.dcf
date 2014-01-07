@@ -1,0 +1,16 @@
+Package: MOJOV
+Type: Package
+Title: Mojo Variants: Rare Variants analysis
+Version: 1.0.1
+Date: 2013-02-25
+Author: Ke-Hao Wu
+Maintainer: Ke-Hao Wu <kehao.wu@gmail.com>
+Description: A package for analysis between rare variants and
+        quantitative traits by CMC (the combined multivariate and
+        collapsing method).
+License: GPL (>= 2)
+Depends: methods,aod,survey,saws,lattice
+Packaged: 2013-02-28 14:04:33 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-28 16:37:22

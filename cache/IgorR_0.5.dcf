@@ -1,0 +1,23 @@
+Package: IgorR
+Type: Package
+Title: Read binary files saved by Igor Pro (including Neuromatic data)
+Version: 0.5
+Date: 2012-01-25
+Author: Greg Jefferis
+Maintainer: Greg Jefferis <jefferis@gmail.com>
+Description: This package provides function to read data from the Igor
+        Pro data analysis program by Wavemetrics. The data formats
+        supported are Igor packed experiment format (pxp) and Igor
+        binary wave (ibw). See: http://www.wavemetrics.com/ for
+        details. It also includes some functions to load special pxp
+        files produced by the Neuromatic/Nclamp packages for recording
+        and analysing neuronal data. See
+        http://www.neuromatic.thinkrandom.com/ for details.
+Depends: bitops, tools
+Suggests: testthat
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'ReadIgorBinary.R' 'ReadNclamp.R'
+Packaged: 2012-01-25 03:21:28 UTC; jefferis
+Repository: CRAN
+Date/Publication: 2012-01-25 06:55:26

@@ -1,0 +1,14 @@
+Package: HHG
+Type: Package
+Title: Heller-Heller-Gorfine Tests of Independence
+Version: 1.0
+Date: 2013-06-15
+Author: Shachar Kaufman, based in part on an earlier implementation by Ruth Heller and Yair Heller.
+Maintainer: Shachar Kaufman <shachar.kaufman@math.tau.ac.il>
+Suggests: MASS
+Description: Heller-Heller-Gorfine (HHG) tests are a set of statistical tests of independence between two random vectors of arbitrary dimensions. For the case of testing independence between random variables (rather than vectors), the package also offers implementations of the DDP and ADP tests which are consistent against all continuous alternatives but are distribution-free, and thus much faster to apply.
+License: GPL-2
+Packaged: 2013-08-08 06:44:42 UTC; Shachar
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-08 08:57:08

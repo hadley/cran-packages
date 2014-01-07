@@ -1,0 +1,18 @@
+Package: Bessel
+Version: 0.5-3
+Date: 2009-12-22
+Title: Bessel -- Bessel Functions Computations and Approximations
+Author: Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Depends: R (>= 2.10.1), Rmpfr
+Suggests: gsl
+LazyData: yes
+Description: Bessel Function Computations for complex and real numbers;
+        notably interfacing TOMS 644; approximations for large
+        arguments, experiments, etc.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: specfun
+Repository/R-Forge/Revision: 8
+Date/Publication: 2011-01-15 16:36:10
+Packaged: 2010-11-29 14:57:34 UTC; rforge

@@ -1,0 +1,25 @@
+Package: agrmt
+Type: Package
+Title: Calculate agreement
+Version: 1.31
+Date: 2013-06-26
+Author: Didier Ruedin
+Maintainer: Didier Ruedin <didier.ruedin@wolfson.oxon.org>
+Description: This package calculates agreement or consensus in ordered
+        rating scales. It implements van der Eijk's (2001) measure of
+        agreement A, which can be used to describe agreement,
+        consensus, or polarization among respondents. It also
+        implements measures of consensus (dispersion) by Leik, Tatsle
+        and Wierman, Blair and Lacy, Kvalseth, and Berry and Mielke.
+        Furthermore, an implementation of Galtungs AJUS-system is
+        provided to classify distributions, as well as a function to
+        identify the position of multiple modes.
+URL: http://agrmt.r-forge.r-project.org
+License: GPL-3
+Repository: CRAN
+Repository/R-Forge/Project: agrmt
+Repository/R-Forge/Revision: 63
+Repository/R-Forge/DateTimeStamp: 2013-06-26 19:44:51
+Date/Publication: 2013-06-28 23:35:30
+Packaged: 2013-06-26 22:15:27 UTC; rforge
+NeedsCompilation: no

@@ -1,0 +1,16 @@
+Package: mmm
+Type: Package
+Title: an R package for analyzing multivariate longitudinal data with
+        multivariate marginal models
+Version: 1.3
+Date: 2013-18-06
+Author: Ozgur Asar, Ozlem Ilk
+Depends: gee
+Maintainer: Ozgur Asar <o.asar@lancaster.ac.uk>
+Description: fits multivariate marginal models for multivariate
+        longitudinal data for both continuous and discrete responses
+License: GPL (>= 2)
+Packaged: 2013-06-18 14:47:05 UTC; asar
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-18 17:52:00

@@ -1,0 +1,14 @@
+Package: distrEx
+Version: 1.9
+Date: 2007-07-29
+Title: Extensions of package distr
+Description: Extensions of package distr and some additional functionality
+Depends: R(>= 2.2.0), methods, distr(>= 1.9), evd, startupmsg
+Suggests: tcltk
+Author: Matthias Kohl, Peter Ruckdeschel
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+SaveImage: no
+LazyLoad: yes
+License: GPL (version 2 or later)
+URL: http://www.uni-bayreuth.de/departments/math/org/mathe7/DISTR/
+Packaged: Mon Jul 30 00:41:24 2007; Peter

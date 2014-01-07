@@ -1,0 +1,17 @@
+Package: AnalyzeFMRI
+Version: 1.1-12
+Date: 2010-07-17
+Title: Functions for analysis of fMRI datasets stored in the ANALYZE or
+        NIFTI format.
+Author: J L Marchini <marchini@stats.ox.ac.uk>, P Lafaye de Micheaux
+        <Pierre.Lafaye-de-Micheaux@upmf-grenoble.fr>
+Maintainer: P Lafaye de Micheaux
+        <Pierre.Lafaye-de-Micheaux@upmf-grenoble.fr>
+Depends: tcltk, R.matlab, fastICA
+Description: Functions for I/O, visualisation and analysis of
+        functional Magnetic Resonance Imaging (fMRI) datasets stored in
+        the ANALYZE or NIFTI format.
+License: GPL (>= 2)
+Packaged: 2010-07-17 14:20:18 UTC; root
+Repository: CRAN
+Date/Publication: 2010-07-24 19:40:27

@@ -1,0 +1,23 @@
+Package: Lambda4
+Type: Package
+Title: Collection of Internal Consistency Reliability Coefficients.
+Version: 3.0
+Date: 2013-07-30
+Author: Tyler Hunt <tyler@psychoanalytix.com>
+Maintainer: Tyler Hunt <tyler@psychoanalytix.com>
+Description: Currently the package includes 14 methods for calculating internal
+    consistency reliability but is still growing.  The package allows users
+    access to whichever reliability estimator is deemed most appropriate for
+    their situation.
+LazyData: true
+License: GPL-2
+Suggests: mice, GPArotation, testthat
+BugReports: https://github.com/JackStat/Lambda4/issues
+Collate: 'angoff.R' 'bin.combs.R' 'cov.lambda4.R' 'impute.cov.R'
+        'kristof.R' 'lambda1.R' 'lambda2.R' 'lambda3.R' 'lambda5.R'
+        'lambda6.R' 'omega.tot.R' 'print.Lambda4.pkg.R'
+        'quant.lambda4.R' 'raju.R' 'user.lambda4.R' 'guttman.R'
+Packaged: 2013-07-30 16:57:13 UTC; thunt
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-30 21:12:51

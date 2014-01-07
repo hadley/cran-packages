@@ -1,0 +1,18 @@
+Package: rrcovNA
+Date: 2011-05-05
+Title: Scalable Robust Estimators with High Breakdown Point for
+        Incomplete Data
+Version: 0.4-02
+Author: Valentin Todorov <valentin.todorov@chello.at>
+Description: Robust Location and Scatter Estimation and Robust
+        Multivariate Analysis with High Breakdown Point for Incomplete
+        Data
+Maintainer: Valentin Todorov <valentin.todorov@chello.at>
+Depends: methods, rrcov, norm
+Imports: stats4, robustbase
+Suggests: grid, lattice, cluster
+LazyLoad: yes
+License: GPL (>= 2)
+Packaged: 2011-05-06 14:12:46 UTC; TodorovV
+Repository: CRAN
+Date/Publication: 2011-05-08 06:23:38

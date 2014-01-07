@@ -1,0 +1,17 @@
+Package: favir
+Type: Package
+Title: Formatted Actuarial Vignettes in R
+Version: 0.5-1
+Date: 2011-01-03
+Author: Benedict Escoto
+Maintainer: Benedict Escoto <favir@emerose.org>
+Depends: R (>= 2.7.0), ChainLadder, ggplot2, plyr, reshape, tools
+Description: FAViR lowers the learning curve of the R environment.  It
+        is a series of peer-revied Sweave papers that use a consistent
+        style.
+License: GPL (>= 2)
+LazyLoad: no
+URL: http://www.favir.net
+Packaged: 2011-01-04 02:53:18 UTC; ben
+Repository: CRAN
+Date/Publication: 2011-01-04 07:28:28

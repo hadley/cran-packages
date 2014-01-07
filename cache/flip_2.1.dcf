@@ -1,0 +1,24 @@
+Package: flip
+Type: Package
+Title: Multivariate Permutation Tests
+Version: 2.1
+Date: 2013-03-08
+Author: Livio Finos
+Maintainer: Livio Finos <livio@stat.unipd.it>
+Depends: methods, foreach, e1071, someMTP, cherry
+Description: It implements many univariate and multivariate permutation
+        (and rotation) tests. Allowed tests: the t one and two samples,
+        ANOVA, linear models, Chi Squared test, rank tests (i.e.
+        Wilcoxon, Mann-Whitney, Kruskal-Wallis), Sign test and McNemar.
+        Test on Linear Models are performed also in presence of
+        covariates (i.e. nuisance parameters). The permutation and the
+        rotation methods to get the null distribution of the test
+        statistic(s) are available. It also implements methods for
+        multiplicity control such as Westfall-Young min-p procedure and
+        Closed Testing (Marcus, 1976).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-05-07 12:42:34 UTC; livio
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-07 15:51:06

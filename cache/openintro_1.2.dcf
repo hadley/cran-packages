@@ -1,0 +1,20 @@
+Package: openintro
+Type: Package
+Title: OpenIntro data sets and supplement functions
+Version: 1.2
+Date: 2011-04-25
+Author: David M Diez, Christopher D Barr, and Mine Cetinkaya
+Maintainer: David M Diez <david.m.diez@gmail.com>
+Description: This package is a supplement to the OpenIntro open source
+        book project. The package contains data sets used in the book
+        along with plotting functions to reproduce the book's figures.
+        Note that many functions and examples include color
+        transparency, which may result in partially some plotting
+        elements not showing up properly in Windows (see Details
+        section of the openintro package help file for details).
+License: GPL-2
+LazyLoad: yes
+URL: http://www.openintro.org/
+Packaged: 2011-04-26 13:48:03 UTC; ddiez
+Repository: CRAN
+Date/Publication: 2011-04-26 16:09:19

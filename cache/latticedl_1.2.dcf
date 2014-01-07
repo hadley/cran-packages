@@ -1,0 +1,15 @@
+Package: latticedl
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>
+Author: Toby Dylan Hocking
+Version: 1.2
+License: GPL-3
+Title: Lattice direct labels
+Description: OBSOLETE, still on CRAN for historical purposes. Please
+        use the more modern directlabels package instead.
+Depends: plyr, lattice, grid
+Suggests: nlme, mlmRev, ggplot2
+Repository: CRAN
+Repository/R-Forge/Project: directlabels
+Repository/R-Forge/Revision: 429
+Date/Publication: 2012-10-29 08:59:05
+Packaged: 2012-10-29 08:59:05 UTC; ripley

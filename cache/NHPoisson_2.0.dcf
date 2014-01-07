@@ -1,0 +1,15 @@
+Package: NHPoisson
+Type: Package
+Title: Modelling and validation of non homogeneous Poisson processes
+Version: 2.0
+Date: 2013-03-12
+Author: Ana C. Cebrian
+Maintainer: Ana C. Cebrian <acebrian@unizar.es>
+Depends: R (>= 2.14.1), car, parallel
+Description: Tools for modelling, ML estimation, validation analysis
+        and simulation of non homogeneous Poisson processes in time.
+License: GPL (>= 2)
+Packaged: 2013-03-13 12:47:19 UTC; Ana Cebrian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-13 14:11:12

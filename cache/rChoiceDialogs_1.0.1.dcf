@@ -1,0 +1,17 @@
+Package: rChoiceDialogs
+Type: Package
+Title: rChoiceDialogs collection
+Version: 1.0.1
+Date: 2011-01-14
+Author: Alex Lisovich, Roger Day
+Maintainer: Alex Lisovich <all67@pitt.edu>, Roger Day <day01@pitt.edu>
+Description: Collection of portable choice dialog widgets
+License: GPL (>= 2.0)
+Depends: rJava, utils
+Imports: tcltk
+LazyLoad: yes
+Collate: 'rChoiceDialogs-package.R' 'rFileChooser.R' 'rListChooser.R'
+        'zzz.R' 'rMiscFunctions.R'
+Packaged: 2011-01-14 19:35:07 UTC; Alex
+Repository: CRAN
+Date/Publication: 2011-01-15 16:24:20

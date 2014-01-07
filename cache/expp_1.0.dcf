@@ -1,0 +1,16 @@
+Package: expp
+Type: Package
+Title: Spatial analysis of extra-pair paternity
+Version: 1.0
+Date: 2013-12-22
+Author: Mihai Valcu, Lotte Schlicht
+Maintainer: Mihai Valcu <valcu@orn.mpg.de>
+Depends: methods, sp, spdep, rgeos, deldir
+Suggests: knitr, spatstat, lme4
+VignetteBuilder: knitr
+Description: Tools and data to accompany Schlicht, Valcu and Kempenaers "Spatial patterns of extra-pair paternity: beyond paternity gain and loss"
+License: GPL-3
+Packaged: 2013-12-27 08:01:25 UTC; mihai
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-27 09:34:02

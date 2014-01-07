@@ -1,0 +1,16 @@
+Package: MAc
+Type: Package
+Title: Meta-Analysis for Correlations
+Version: 1.0
+Date: 2010-02-01
+Author: AC Del Re & William T. Hoyt
+Maintainer: AC Del Re <acdelre@gmail.com>
+Description: This is an integrated package for conducting all required
+        steps in a meta-analysis with correlations. It uses recommended
+        procedures as described in Cooper, Hedges, & Valentine's
+        Handbook of Research Synthesis and Meta-Analysis (2009).
+Depends: R (>= 2.10.1), plyr, ggplot2, psych
+License: GPL-2
+Packaged: 2010-02-04 04:06:28 UTC; User
+Repository: CRAN
+Date/Publication: 2010-02-04 08:46:28

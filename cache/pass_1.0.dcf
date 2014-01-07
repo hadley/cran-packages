@@ -1,0 +1,17 @@
+Package: pass
+Type: Package
+Title: Prediction and Stability Selection of Tuning Parameters
+Version: 1.0
+Date: 2012-12-21
+Author: Yixin Fang, Wei Sun, Junhui Wang
+Maintainer: Yixin Fang <yixin.fang@nyumc.org>
+Description: To implement two methods, Kappa and PASS, for selecting
+        tuning parameters in regularized procedures such as LASSO,
+        SCAD, adaptive LASSO, aiming for variable selection in
+        regularized regression
+License: GPL-2
+LazyLoad: yes
+Depends: R (>= 2.10.0), MASS, lars, ncvreg
+Packaged: 2013-01-09 22:46:13 UTC; fangy03
+Repository: CRAN
+Date/Publication: 2013-01-12 15:01:38

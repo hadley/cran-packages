@@ -1,0 +1,18 @@
+Package: freqMAP
+Type: Package
+Title: Frequency Moving Average Plots (MAP) of Multinomial Data by a
+        Continuous Covariate
+Version: 0.1
+Date: 2009-05-29
+Author: Colin McCulloch
+Maintainer: Colin McCulloch <colin.mcculloch@themccullochgroup.com>
+Description: A frequency moving average plot (MAP) is estimated from a
+        multinomial data and a continuous covariate. The frequency MAP
+        is a moving average estimate of category frequencies, where
+        frequency means and posterior bounds are estimated. Comparisons
+        of two frequency MAPs as well as odds ratios can be plotted.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: Tue Jun 2 20:39:21 2009; colin
+Repository: CRAN
+Date/Publication: 2009-06-03 17:31:30

@@ -1,0 +1,19 @@
+Package: RCircos
+Type: Package
+Title: Circos 2D Track Plot
+Version: 1.0
+Date: 2013-02-06
+Author: Hongen Zhang
+Maintainer: Hongen Zhang <hzhang@mail.nih.gov>
+Description: RCircos package provides a simple and flexible way to
+        generate Circos 2D track plot images for genomic data
+        visualization. The types of plots include: connector, text,
+        heatmap, histogram, line, scatter, link, and tiles. All
+        functions require only R graphics package that comes with R
+        base installation.
+License: GPL (>= 2)
+Packaged: 2013-02-16 21:22:35 UTC; hzhang
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-17 08:55:02

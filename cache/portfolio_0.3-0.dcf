@@ -1,0 +1,10 @@
+Package: portfolio
+Title: Analysing equity portfolios
+Version: 0.3-0
+Date: 2006-10-01
+Author: Jeff Enos <jeff@kanecap.com> and David Kane <dave@kanecap.com>, with contributions from Daniel Gerlanc <daniel@gerlanc.com> and Kyle Campbell <Kyle.W.Campbell@williams.edu>
+Description: Classes for analysing and implementing equity portfolios.
+Maintainer: Jeff Enos <jeff@kanecap.com>
+Depends: R (>= 2.0.0), methods, graphics, grid, lattice, nlme
+License: GPL version 2 or later.
+Packaged: Sun Oct  1 21:51:44 2006; enos

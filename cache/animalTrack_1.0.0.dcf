@@ -1,0 +1,16 @@
+Package: animalTrack
+Type: Package
+Title: Animal track reconstruction for high frequency 2-dimensional
+        (2D) or 3-dimensional (3D) movement data.
+Version: 1.0.0
+Date: 2013-09-19
+Author: Ed Farrell and Lee Fuiman
+Maintainer: Ed Farrell <edward.farrell27@gmail.com>
+Depends: R (>= 2.10.0), rgl
+Description: 2D and 3D animal tracking data can be used to reconstruct tracks through time/space with correction based on known positions. 3D visualization of animal position and attitude.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-09-20 19:04:58 UTC; Eddie
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-23 16:15:49

@@ -1,0 +1,19 @@
+Package: osDesign
+Type: Package
+Title: Design and analysis of observational studies
+Version: 1.4
+Date: 2011-07-25
+Author: Sebastien Haneuse, Takumi Saegusa, Nilanjan Chaterjee, Norman
+        Breslow
+Maintainer: Sebastien Haneuse <shaneuse@hsph.harvard.edu>
+Description: The osDesign serves for planning an observational study.
+        Currently, functionality is focused on the two-phase and
+        case-control designs. Functions in this packages provides Monte
+        Carlo based evaluation of operating characteristics such as
+        powers for estimators of the components of a logistic
+        regression model.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2011-07-25 17:21:45 UTC; sebastienhaneuse
+Repository: CRAN
+Date/Publication: 2011-07-25 20:18:51

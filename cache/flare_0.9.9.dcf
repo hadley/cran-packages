@@ -1,0 +1,29 @@
+Package: flare
+Type: Package
+Title: Family of Lasso Regression
+Version: 0.9.9
+Date: 2013-03-31
+Author: Xingguo Li, Tuo Zhao, Lie Wang, Xiaoming Yuan and Han Liu
+Maintainer: Xingguo Li <xingguo.leo@gmail.com>
+Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
+Description: The package "flare" provides the implementation of a
+        family of Lasso variants including Dantzig Selector, LAD Lasso,
+        SQRT Lasso, Lq Lasso for estimating high dimensional sparse
+        linear model. For Dantzig selector and Lq Lasso, we adopt the
+        alternating direction method of multipliers (ADMM) and convert
+        the original optimization problem into a sequential L1
+        penalized least square minimization problem, which can be
+        efficiently solved by combining the linearization and the
+        efficient coordinate descent algorithm. For LAD and SQRT Lasso,
+        we adopt the combination of the dual smoothing and monotone
+        fast iterative soft-thresholding algorithm (MFISTA). The
+        computation is memory-optimized using the sparse matrix output.
+        Besides the sparse linear model estimation, we also provide the
+        extension of these Lasso variants to sparse Gaussian graphical
+        model estimation including TIGER and CLIME (ADMM) using either
+        L1 or adaptive L1 penalty.
+License: GPL-2
+Repository: CRAN
+Packaged: 2013-04-01 13:12:11 UTC; admin-118
+NeedsCompilation: yes
+Date/Publication: 2013-04-01 15:52:29

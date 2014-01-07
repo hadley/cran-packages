@@ -1,0 +1,19 @@
+Package: rtv
+Title: Random Time Variables
+Version: 0.4.1
+Date: 2010-08-25
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: A package for conveniently representing, manipulating and
+        visualising time data. Here, time is regarded as a random
+        variable, and objects are used to represent realisations of
+        that random variable. This is particularly useful for change
+        points, irregular timeseries and failure events. There's a
+        strong emphasis on continuous representations of time, with
+        user-specified origins and units.
+License: GPL (>= 2)
+Depends: ofp
+Suggests: mecdf
+Packaged: 2010-08-25 00:48:25 UTC; maia
+Repository: CRAN
+Date/Publication: 2010-09-16 06:37:30

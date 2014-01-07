@@ -1,0 +1,23 @@
+Package: phcfM
+Version: 1.2
+Type: Package
+Date: 2012-06-13
+Title: Modelling anthropogenic deforestation
+Depends: coda
+Author: Ghislain Vieilledent <ghislain.vieilledent@cirad.fr>
+Maintainer: Ghislain Vieilledent <ghislain.vieilledent@cirad.fr>
+Description: phcfM is an R package for modelling anthropogenic
+        deforestation. It was initially developed to obtain REDD+
+        baseline scenarios of deforestation for the "programme
+        holistique de conservation des forets a Madagascar" (from which
+        the package is named after). Parameter inference is done in a
+        hierarchical Bayesian framework. Markov chains Monte Carlo
+        (MCMC) are coded in C++ using the Scythe statistical library to
+        maximize computation efficiency.
+License: GPL-3 | file LICENSE
+URL: http://phcfM.sf.net
+LazyLoad: yes
+Packaged: 2013-04-09 09:38:23 UTC; ghislain
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-09 11:46:55

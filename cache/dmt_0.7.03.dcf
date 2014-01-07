@@ -1,0 +1,19 @@
+Package: dmt
+Type: Package
+Title: Dependency modelling toolbox
+Version: 0.7.03
+Date: 2011-02-13
+Author: Leo Lahti, Olli-Pekka Huovilainen, and Abhishek Tripathi
+Maintainer: Leo Lahti <leo.lahti@iki.fi>
+Description: Probabilistic dependency modeling toolkit.
+License: FreeBSD
+Collate: AllClasses.R AllGenerics.R DependencyModel-accessors.R
+        dependency.score.R fit.dependency.model.R toydata.R internals.R
+        show-methods.R utilities.R set.M.R set.beta.R get.W.R
+        firstlib.R drcca-functions.R optimize.parameters.R update.phi.R
+        update.W.R z.expectation.R
+LazyLoad: yes
+Depends: mvtnorm, methods, graphics, MASS, Matrix, ellipse
+Packaged: 2011-02-14 15:30:00 UTC; lmlahti
+Repository: CRAN
+Date/Publication: 2011-02-17 13:07:48

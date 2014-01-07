@@ -1,0 +1,24 @@
+Package: Metadata
+Type: Package
+Title: Collates Metadata for Climate Surface Stations
+Version: 1.1
+Date: 2011-09-04
+Author: Steven Mosher
+Maintainer: <moshersteven@gmail.com>
+Depends: R (>= 2.11.0), raster (>= 1.9.9), sp,ncdf,rgdal,RCurl
+Imports: R.utils
+Description: This package collects and downloads a variety of open GIS
+        datasets that can be used to characterize the surface
+        properties of Latitude/Longitude points. In addition, some
+        restricted ( registration required to download) datasets are
+        processed. Dataset include: distance from coast, distance from
+        airport, land cover, land use, population density, historical
+        populations, nightlights, impermable surfaces,urban extent,
+        irrigation, and blue water use.
+License: GPL (>= 2)
+URL: http://stevemosher.wordpress.com/
+LazyLoad: yes
+LazyData: FALSE
+Packaged: 2012-08-01 23:03:28 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-08-02 04:39:26

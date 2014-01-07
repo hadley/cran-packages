@@ -1,0 +1,17 @@
+Package: ensembleMOS
+Type: Package
+Title: Ensemble Model Output Statistics
+Version: 0.7
+Date: 2013-03-17
+Author: RA Yuen, Tilmann Gneiting, Thordis Thorarinsdottir, Chris
+        Fraley
+Maintainer: RA Yuen <bobyuen@umich.edu>
+Depends: R (>= 2.10.0), ensembleBMA, chron
+Suggests: fields, maps
+Description: Ensemble Model Output Statistics to create probabilistic
+        forecasts from ensemble forecasts and weather observations.
+License: GPL (>= 2)
+Packaged: 2013-03-17 18:23:43 UTC; bobyuen
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-17 20:01:24

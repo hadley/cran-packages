@@ -1,0 +1,11 @@
+Package: WINRPACK
+Type: Package
+Title: Read in WIN format data
+Version: 1.0-4
+Date: 2008-03-24
+Depends: RSEIS
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
+Description: Read WIN (Japanese Seismic data)  pickfile and waveform files and prepare data for RSEIS
+License: GPL
+Packaged: Mon Apr 14 08:12:37 2008; lees

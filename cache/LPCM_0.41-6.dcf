@@ -1,0 +1,17 @@
+Package: LPCM
+Type: Package
+Title: Local principal curve methods
+Version: 0.41-6
+Date: 2010-11-23
+Author: Jochen Einbeck and Ludger Evers
+Maintainer: <jochen.einbeck@durham.ac.uk>
+Suggests: scatterplot3d, lattice, dr
+Description: Fitting multivariate data patterns with local principal
+        curves; including simple tools for data compression
+        (projection), bandwidth selection, and measuring
+        goodness-of-fit.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-11-23 10:59:06 UTC; dma0je
+Repository: CRAN
+Date/Publication: 2010-11-23 16:28:06

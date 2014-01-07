@@ -1,0 +1,16 @@
+Package: ENmisc
+Type: Package
+Title: Neuwirth miscellaenous
+Version: 1.0
+Date: 2010-12-29
+Author: Erich Neuwirth
+Maintainer: Erich Neuwirth <erich.neuwirth@univie.ac.at>
+Description: The ENmisc library contains functions useful for data
+        analyses like mtapply (a multivariate version of tapply) and
+        wtd.boxplot (a boxplot with weights)
+License: GPL-2
+Depends: Hmisc
+LazyLoad: yes
+Packaged: 2010-12-29 16:51:39 UTC; neuwirth
+Repository: CRAN
+Date/Publication: 2011-01-03 12:27:43

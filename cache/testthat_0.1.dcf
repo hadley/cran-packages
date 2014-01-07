@@ -1,0 +1,19 @@
+Package: testthat
+Type: Package
+Title: Tools for splitting, applying and combining data
+Version: 0.1
+Author: Hadley Wickham <h.wickham@gmail.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: Test_that code.  Tools to make testing fun :)
+URL: http://had.co.nz/
+Depends: R (>= 2.8), mutatr, digest
+License: GPL
+LazyData: true
+Collate: 'aaa-classes.r' 'auto-test.r' 'colour-text.r' 'context.r'
+        'expect-that.r' 'expectation.r' 'expectations.r' 'library.r'
+        'reporter-minimal.r' 'reporter-stop.r' 'reporter-summary.r'
+        'reporter-zzz.r' 'reporter.r' 'test-files.r' 'test-that.r'
+        'watcher.r'
+Packaged: 2009-11-17 19:18:05 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-11-17 19:18:56

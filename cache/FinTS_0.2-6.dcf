@@ -1,0 +1,20 @@
+Package: FinTS
+Type: Package
+Title: Companion to Tsay (2005) Analysis of Financial 
+       Time Series 
+Version: 0.2-6
+Date: 2008-01-02
+Author: Spencer Graves  
+Maintainer: Spencer Graves <spencer.graves@prodsyse.com> 
+Description: R companion to Tsay (2005) 
+ Analysis of Financial Time Series, 2nd ed. (Wiley).  
+ Includes data sets, functions and script files 
+ required to work some of the examples.  Version 0.2-x 
+ includes R objects for all data files used in the text 
+ and script files to recreate most of the analyses in 
+ chapters 1 and 2 plus parts of chapters 3 and 11.  
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Depends:  zoo, fUtilities, chron, polynom, fUnitRoots
+Suggests:  fCalendar, moments, distrEx, tseries, urca, uroot, lmtest, sandwich
+Packaged: Tue Feb  5 20:39:48 2008; spencerg

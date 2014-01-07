@@ -1,0 +1,16 @@
+Package: maxLik
+Version: 1.0-2
+Date: 2010/10/15
+Title: Maximum Likelihood Estimation
+Author: Ott Toomet <otoomet@ut.ee>, Arne Henningsen
+        <arne.henningsen@googlemail.com>, with contributions from
+        Spencer Graves and Yves Croissant
+Maintainer: Arne Henningsen <arne.henningsen@googlemail.com>
+Depends: R (>= 2.4.0), miscTools (>= 0.6-8)
+Imports: sandwich
+Description: Tools for Maximum Likelihood Estimation
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org, http://www.maxLik.org
+Packaged: 2011-10-16 16:27:20 UTC; siim
+Repository: CRAN
+Date/Publication: 2011-10-17 05:55:20

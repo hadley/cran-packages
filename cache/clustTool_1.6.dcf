@@ -1,0 +1,11 @@
+Package: clustTool
+Type: Package
+Title: GUI for clustering data with spatial information
+Version: 1.6
+Date: 2008-01-22
+Author: Matthias Templ
+Maintainer: Matthias Templ <templ@statistik.tuwien.ac.at>
+Depends: R (>= 2.2.0), mvoutlier, cluster, randomForest, tcltk, e1071, rpart, class, grid, mclust02, fpc, flexclust, vegan, clue, mvpart, lattice, kernlab, compositions
+Description: This package can be used for clustering data with spatial information. Try function GUIspatClust() to run the clustTool GUI.
+License: GPL (>= 2)
+Packaged: Tue Jan 22 16:10:34 2008; root

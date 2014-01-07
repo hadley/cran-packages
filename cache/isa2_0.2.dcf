@@ -1,0 +1,15 @@
+Package: isa2
+Version: 0.2
+Date: Oct 5, 2009
+Title: The Iterative Signature Algorithm
+Author: Gabor Csardi <Gabor.Csardi@unil.ch>
+Maintainer: Gabor Csardi <Gabor.Csardi@unil.ch>
+Description: The ISA is a biclustering algorithm that finds modules in
+        an input matrix. A module or bicluster is a block of the
+        reordered input matrix.
+Depends: methods
+Suggests: igraph (>= 0.5.2), biclust, lattice
+License: file LICENCE
+Packaged: 2009-10-05 20:46:15 UTC; gabor
+Repository: CRAN
+Date/Publication: 2009-10-06 06:56:47

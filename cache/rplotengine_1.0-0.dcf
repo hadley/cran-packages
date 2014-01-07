@@ -1,0 +1,22 @@
+Package: rplotengine
+Version: 1.0-0
+Date: 2011-11-01
+Title: R as a plotting engine
+Author@R: c(person("P. Pablo Garrido", "Developer", email =
+        "pgarrido@umh.es"),
+Author: P. Pablo Garrido <pgarrido@umh.es>
+Maintainer: P. Pablo Garrido <pgarrido@umh.es>
+Depends: R (>= 1.8.0), xtable (>= 1.5-2)
+Suggests:
+Description: This package is intended for using R as a plotting engine by custom applications, from 
+	a small script launched from the system console, or even within the R console.
+	The graph parameters are written in an ASCII text file, which name is passed to the function.
+	The user can choose the titles, type of the graph, the output formats, proportion of the X-axis
+	and Y-axis, position of the legend, wether to show or not a grid at the background, etc.
+	On the other hand, the necessary data must be written in one or more text files column separated.
+	Optionally, the data files could include data columns for showing confidence intervals.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://atc.umh.es/pgarrido/
+Packaged: 2011-11-22 11:50:09 UTC; pgarrido
+Repository: CRAN
+Date/Publication: 2011-11-22 11:54:34

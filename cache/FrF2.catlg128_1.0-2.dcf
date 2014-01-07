@@ -1,0 +1,20 @@
+Package: FrF2.catlg128
+Title: Complete catalogues of resolution IV 128 run 2-level fractional
+        factorials up to 24 factors
+Version: 1.0-2
+Depends: R(>= 2.10.0), FrF2(>= 1.1-1)
+Date: 2011-02-04
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@bht-berlin.de>
+Description: This package provides the complete catalogues of
+        resolution IV regular fractional factorial designs in 128 runs
+        for up to 24 2-level factors.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: no
+Encoding: latin1
+URL: http://prof.beuth-hochschule.de/groemping/DoE/,
+        http://prof.beuth-hochschule.de/groemping/
+Packaged: 2011-02-04 22:35:54 UTC; Grömping
+Repository: CRAN
+Date/Publication: 2011-02-05 17:07:51

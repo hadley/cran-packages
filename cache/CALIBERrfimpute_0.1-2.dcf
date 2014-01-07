@@ -1,0 +1,18 @@
+Package: CALIBERrfimpute
+Type: Package
+Title: Multiple imputation using MICE and Random Forest
+Version: 0.1-2
+Date: 2013-10-30
+Author: Anoop Shah
+Maintainer: Anoop Shah <anoop@doctors.org.uk>
+Description: Functions to impute using Random Forest under Full Conditional Specifications (Multivariate Imputation by Chained Equations). The CALIBER programme is funded by the Wellcome Trust (086091/Z/08/Z) and the National Institute for Health Research (NIHR) under its Programme Grants for Applied Research programme (RP-PG-0407-10314). The author is supported by a Wellcome Trust Clinical Research Training Fellowship (0938/30/Z/10/Z).
+License: GPL-3
+Depends: mice
+Imports: mvtnorm, randomForest
+Repository: CRAN
+Repository/R-Forge/Project: caliberanalysis
+Repository/R-Forge/Revision: 27
+Repository/R-Forge/DateTimeStamp: 2013-11-01 13:18:07
+Date/Publication: 2013-11-11 13:48:02
+Packaged: 2013-11-01 15:15:45 UTC; rforge
+NeedsCompilation: no

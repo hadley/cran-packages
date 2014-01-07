@@ -1,0 +1,19 @@
+Package: tabplotd3
+Maintainer: Edwin de Jonge<edwindjonge@gmail.com>
+License: GPL-3
+Title: Tabplotd3, interactive inspection of large data
+Type: Package
+LazyLoad: yes
+Author: Edwin de Jonge and Martijn Tennekes
+Description: A tableplot is a visualisation of a (large) dataset with a
+        dozen of variables, both numeric and categorical. This package
+        contains an interactive version of tableplot working in your
+        browser.
+Version: 0.2
+URL: http://code.google.com/p/tabplotd3/
+Date: 2012-08-01
+Collate: 'itabplot.R' 'pkg.R' 'adjust.R' 'tpjson.R'
+Depends: Rook, RJSONIO, tabplot (>= 1.0-0)
+Packaged: 2012-12-19 10:02:05 UTC; ejne
+Repository: CRAN
+Date/Publication: 2012-12-19 19:02:35

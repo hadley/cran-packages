@@ -1,0 +1,17 @@
+Package: HybridMC
+Type: Package
+Title: Implementation of the Hybrid Monte Carlo and Multipoint Hybrid
+        Monte Carlo sampling techniques
+Version: 0.2
+Date: 2009-05-27
+Author: Richard D. Morey
+Maintainer: Richard D. Morey <richarddmorey@gmail.com>
+Depends: utils, coda
+Description: This package is an R implementation of the Hybrid Monte
+        Carlo and Multipoint Hybrid Monte Carlo sampling techniques
+        described in Liu (2001): "Monte Carlo Strategies in Computing".
+License: GPL (>= 2)
+URL: http://www.r-project.org
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2009-06-08 16:50:01

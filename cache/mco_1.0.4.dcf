@@ -1,0 +1,16 @@
+Package: mco
+Version: 1.0.4
+Date: 2008-10-14
+Title: Multi criteria optimization algorithms and related functions
+Description: Functions for multi criteria optimization using genetic algorithms and related test problems
+Author:
+  Heike Trautmann <trautmann@statistik.uni-dortmund.de>
+  and Detlef Steuer <detlef.steuer@hsu-hamburg.de>
+  and Olaf Mersmann <olafm@statistik.uni-dortmund.de>
+Maintainer: Olaf Mersmann <olafm@statistik.uni-dortmund.de>
+Depends: R (>= 2.7.0)
+Suggests: scatterplot3d
+License: GPL-2
+URL: http://r-forge.r-project.org/projects/desire
+LazyData: yes
+Packaged: Tue Oct 14 23:27:25 2008; olafm

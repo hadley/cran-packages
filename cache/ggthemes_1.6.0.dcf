@@ -1,0 +1,19 @@
+Package: ggthemes
+Version: 1.6.0
+Date: 2013-12-14
+Title: Extra themes, scales and geoms for ggplot
+Authors@R: c(person("Jeffrey B.", "Arnold", role = c("aut", "cre"),
+    email = "jeffrey.arnold@gmail.com"))
+Depends: R (>= 2.14), ggplot2 (>= 0.9.2)
+Imports: colorspace, grid, proto, scales,
+Suggests: plyr, reshape2, extrafont
+Description: Some extra themes, geoms, and scales for ggplot2.
+License: GPL-2
+URL: http://github.com/jrnold/ggthemes
+BugReports: http://github.com/jrnold/ggthemes
+Packaged: 2013-12-14 17:31:02 UTC; jrnold
+Author: Jeffrey B. Arnold [aut, cre]
+Maintainer: Jeffrey B. Arnold <jeffrey.arnold@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-14 19:48:41

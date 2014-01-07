@@ -1,0 +1,23 @@
+Package: multiPIM
+Version: 1.3-1
+Date: 2012-12-07
+Title: Variable Importance Analysis with Population Intervention Models
+Author: Stephan Ritter <sritter@berkeley.edu>, Alan Hubbard
+        <hubbard@berkeley.edu>, Nicholas Jewell <jewell@berkeley.edu>
+Maintainer: Stephan Ritter <sritter@berkeley.edu>
+Depends: lars (>= 0.9-8), penalized, polspline, rpart
+Suggests: parallel
+LazyLoad: yes
+Description: Performs variable importance analysis using a causal
+        inference approach. This is done by fitting Population
+        Intervention Models. The default is to use a Targeted Maximum
+        Likelihood Estimator (TMLE). The other available estimators are
+        Inverse Probability of Censoring Weighted (IPCW), Double-Robust
+        IPCW (DR-IPCW), and Graphical Computation (G-COMP) estimators.
+        Inference can be obtained from the influence curve (plug-in) or
+        by bootstrapping.
+License: GPL (>= 3)
+URL: http://www.stat.berkeley.edu/users/sritter/multiPIM/
+Packaged: 2012-12-14 01:54:55 UTC; sritter
+Repository: CRAN
+Date/Publication: 2013-01-18 06:36:14

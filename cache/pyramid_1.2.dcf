@@ -1,0 +1,15 @@
+Package: pyramid
+Version: 1.2
+Date: 2010/3/11
+Title: Functions to draw population pyramid
+Author: Minato Nakazawa <minato-nakazawa@umin.net>
+Maintainer: Minato Nakazawa <minato-nakazawa@umin.net>
+Depends: R (>= 2.2.0)
+Description: Drawing population pyramid using (1) data.frame or (2)
+        vectors. The former is named as pyramid() and the latter
+        pyramids(), as lapper function of pyramid().
+License: GPL (>= 2)
+URL: http://phi.med.gunma-u.ac.jp/swtips/R.html#PYRAMID
+Packaged: 2010-03-10 23:58:06 UTC; nminato
+Repository: CRAN
+Date/Publication: 2010-03-11 07:05:02

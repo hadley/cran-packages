@@ -1,0 +1,17 @@
+Package: MetabolAnalyze
+Type: Package
+Title: Probabilistic latent variable models for metabolomic data.
+Version: 1.0
+Date: 2010-05-12
+Author: Nyamundanda Gift, Isobel Claire Gormley and Lorraine Brennan.
+Maintainer: Claire Gormley <claire.gormley@ucd.ie>
+Description: Fits probabilistic principal components analysis,
+        probabilistic principal components and covariates analysis and
+        mixtures of probabilistic principal components models to
+        metabolomic spectral data.
+Depends: mclust, mvtnorm, gtools, gplots, hacks, grDevices
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-06-17 10:09:00 UTC; clairegormley
+Repository: CRAN
+Date/Publication: 2010-06-18 15:29:12

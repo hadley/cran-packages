@@ -1,0 +1,14 @@
+Package: ModelGood
+Title: Validation of risk prediction models
+Version: 1.0.4
+Author: Thomas A. Gerds
+Description: Bootstrap cross-validation for ROC, AUC and Brier score to
+        assess and compare predictions of binary status responses.
+Imports: rms, prodlim, foreach, Hmisc
+Suggests: party
+Maintainer: Thomas A. Gerds <tag@biostat.ku.dk>
+License: GPL (>= 2)
+Packaged: 2013-04-22 10:31:12 UTC; grb615
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-22 16:50:36

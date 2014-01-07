@@ -1,0 +1,19 @@
+Package: ppstat
+Type: Package
+Title: Point Process Statistics
+Version: 0.8
+Date: 2012-03-01
+Author: Niels Richard Hansen <Niels.R.Hansen@math.ku.dk>.
+Maintainer: Niels Richard Hansen <Niels.R.Hansen@math.ku.dk>
+Depends: R (>= 2.14.1), processdata (>= 0.8), reshape2, ggplot2 (>=
+        0.9.0), methods, igraph
+Imports: stats, splines, Matrix, parallel
+Suggests: RUnit, glmnet, MatrixModels
+Description: This package implements statistical methods for
+        one-dimensional marked point process models.
+License: GPL (>= 2)
+URL: http://www.math.ku.dk/~richard/ppstat
+LazyLoad: yes
+Packaged: 2012-03-08 23:13:59 UTC; nielsrichardhansen
+Repository: CRAN
+Date/Publication: 2012-03-09 14:09:33

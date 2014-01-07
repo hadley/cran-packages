@@ -1,0 +1,19 @@
+Package: threg
+Type: Package
+Title: Threshold Regression
+Version: 1.0.2
+Date: 2012-11-26
+Author: Tao Xiao
+Maintainer: Tao Xiao <taoxiao1@gmail.com>
+Depends: survival, Formula
+Description: Fit a threshold regression model based on the
+        first-hitting-time of a boundary by the sample path of a Wiener
+        diffusion process. The threshold regression methodology is well
+        suited to applications involving survival and time-to-event
+        data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-04-18 03:38:03 UTC; Tao
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-18 07:29:52

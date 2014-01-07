@@ -1,0 +1,18 @@
+Package: multiDimBio
+Type: Package
+Title: Multivariate Analysis and Visualization for Biological Data
+Version: 0.3.2
+Date: 2013-12-230
+Author: Samuel V. Scarpino
+Maintainer: Samuel V. Scarpino <scarpino@utexas.edu>
+Description: multiDimBio is a package designed to support a systems biology research program from inception through publication.  It focuses on dimension reduction approaches to detect patterns in complex, multivariate experimental data and places an emphasis on informative visualizations.  The goal for this project is to create a package that will evolve over time, thereby remaining relevant and reflective of current methods and techniques.  As a result, we encourage suggested additions to the package, both methodological and graphical.
+License: GPL (>= 3.0)
+LazyLoad: yes
+Imports: ggplot2 (>= 0.9.3.1), lme4 (>= 1.0-5), pcaMethods (>= 1.48.0),
+        misc3d (>= 0.8-4), MASS (>= 7.3-29), foreach (>= 1.4.1),
+        RColorBrewer(>= 1.0-5)
+Enhances: doMC(>= 1.3.2)
+Packaged: 2013-12-30 15:20:24 UTC; veritas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-30 17:54:36

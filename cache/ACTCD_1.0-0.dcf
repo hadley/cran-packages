@@ -1,0 +1,21 @@
+Package: ACTCD
+Type: Package
+Title: Asymptotic Classification Theory for Cognitive Diagnosis
+Version: 1.0-0
+Date: 2013-10-21
+Author: Chia-Yi Chiu (Rutgers, the State University of New Jersey) and Wenchao Ma (Rutgers, the State University of New Jersey)
+Maintainer: Wenchao Ma <wenchao.ma@rutgers.edu>
+Depends: R (>= 2.15.1), R.methodsS3
+LazyLoad: yes
+LazyData: no
+Description: This package includes functions used to perform cluster analysis for cognitive 
+  diagnosis based on the Asymptotic Classification Theory (Chiu, Douglas & Li, 2009). Given the 
+  sample statistic of sum-scores and the item-by-attribute association matrix (Q-matrix; Tatsuoka, 1985), 
+  cluster analysis techniques can be used to classify examinees into latent 
+  classes based on their attribute patterns. In addition to the algorithms used to classify data, three 
+  labeling approaches are proposed to label clusters so that examinees' attribute profiles can be obtained. 
+License: GPL (>= 2)
+Packaged: 2013-10-21 19:19:43 UTC; Wenchao
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-22 00:50:45

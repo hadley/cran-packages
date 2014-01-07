@@ -1,0 +1,37 @@
+Package: multitable
+Type: Package
+Title: Simultaneous manipulation of multiple arrays of data, with
+        data.list objects
+Version: 1.0
+Date: 2011-07-17
+Author: Steve C Walker
+Maintainer: Steve C Walker <steve.walker@utoronto.ca>
+Description: Data frames are integral to R.  They provide a standard
+        format for passing data to model-fitting and plotting
+        functions.  This standard makes it easier for experienced useRs
+        to learn new functions, because most developments in R continue
+        to accept a single data frame as input.  Still, many data sets
+        do not easily fit into a single data frame, and my field of
+        community ecology provides many examples of such inherently
+        multiple-table data (e.g. fourth-corner problem and other
+        trait-based data sets).  Storing such data in a single data
+        frame results in either large numbers of meaningless missing
+        values or storage of redundant information.  These storage
+        problems have led ecologists to model summaries of their data
+        (e.g. community-weighted trait matrices), rather then their
+        data itself.  Perhaps more importantly, my experience with
+        manipulating such data using data frames has resulted in
+        difficult-to-read workflows with many lines.  The multitable
+        package introduces new data storage objects called data.lists,
+        which are extensions of data.frames.  As data.lists can be
+        coerced to data.frames, they can be used with all R functions
+        that accept an object that is coercible to a data.frame (e.g.
+        lm; plot; lme; and many more).  The multitable package also
+        provides several mechanisms for simplifying the manipulation of
+        data.list objects.
+Suggests: MASS, lattice
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-09-29 12:27:52 UTC; stevenwalker
+Repository: CRAN
+Date/Publication: 2011-09-29 15:19:11

@@ -1,0 +1,18 @@
+Package: ldDesign
+Version: 1.2-0
+Title: Design of experiments for detection of linkage disequilibrium
+Author: Rod Ball <rod.ball@scionresearch.com>
+Maintainer: Rod Ball <rod.ball@scionresearch.com>
+Description: R package for design of experiments for association
+        studies for detection of linkage disequilibrium. Uses an
+        existing deterministic power calculation for detection of
+        linkage disequilibrium between a bi-allelic QTL and a
+        bi-allelic marker, together with the Spiegelhalter and Smith
+        Bayes factor to generate designs with power to detect effects
+        with a given Bayes factor.
+Depends:
+License: GPL (>= 2)
+URL: mailto:rod.ball@scionresearch.com www.scionresearch.com/
+Packaged: Thu Apr 15 09:39:23 2010; rod
+Repository: CRAN
+Date/Publication: 2010-04-15 13:49:38

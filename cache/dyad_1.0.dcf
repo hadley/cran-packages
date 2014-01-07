@@ -1,0 +1,16 @@
+Package: dyad
+Title: Analysis of dyadic observational data
+Version: 1.0
+Date: 2008-12-23
+Author: Tara Madhyastha <tara.madhyastha@gmail.com>, Ellen Hamaker
+Maintainer: Tara Madhyastha <tara.madhyastha@gmail.com>
+Depends: R (>= 2.6.2)
+Description: Contains original implementation of the Gottman-Murray
+        marriage model and revisions using threshold autoregressive
+        models. These programs allow modeling of dyadic observational
+        data, such as interaction between husband and wife. Intended
+        for researchers interested in modeling social behavior.
+License: GPL-2
+Packaged: Mon Mar 23 13:29:58 2009; Tmadhyastha
+Repository: CRAN
+Date/Publication: 2009-03-24 07:58:37

@@ -1,0 +1,13 @@
+Package: BRugs
+Title: OpenBUGS and its R interface BRugs
+Version: 0.2-2
+Date: 2005-05-16
+Author: The Chief Software Bug is Andrew Thomas, with web assistance from Real Bug Bob O'Hara. Other members of the BUGS team are statisticians David Spiegelhalter, Nicky Best, Dave Lunn and Ken Rice. Dave Lunn has also made major contributions to the software development. R Code modified, extended and packaged for R by Uwe Ligges and Sibylle Sturtz. Some ideas taken from the R2WinBUGS package based on code by Andrew Gelman.
+Description: An R package containing OpenBUGS and its R interface BRugs.
+Maintainer: Uwe Ligges <ligges@statistik.uni-dortmund.de>
+Depends: R (>= 2.0.0)
+Suggests: coda
+SystemRequirements: currently the only supported OS is Windows, we expect to support Linux in future releases
+License: GPL version 2 or newer
+URL: http://mathstat.helsinki.fi/openbugs/
+Packaged: Thu May 19 14:59:57 2005; ligges

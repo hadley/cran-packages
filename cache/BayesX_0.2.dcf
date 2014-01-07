@@ -1,0 +1,22 @@
+Package: BayesX
+Type: Package
+Title: R Utilities Accompanying the Software Package BayesX
+Version: 0.2
+Date: 2009-03-10
+Author: Thomas Kneib, Felix Heinzl, Andreas Brezger, Daniel Sabanes
+        Bove
+Maintainer: Thomas Kneib <thomas.kneib@stat.uni-muenchen.de>
+Description: This package provides functionality for exploring and
+        visualising estimation results obtained with the software
+        package BayesX for structured additive regression. It also
+        provides functions that allow to read, write and manipulate map
+        objects that are required in spatial analyses performed with
+        BayesX.
+Depends: akima, shapefiles
+Imports: sp, colorspace, coda, splines
+Suggests: spdep
+LazyLoad: yes
+License: GPL-2
+Packaged: Wed Mar 11 11:11:33 2009; tkneib
+Repository: CRAN
+Date/Publication: 2009-03-11 17:02:02

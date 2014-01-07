@@ -1,0 +1,13 @@
+Package: pscl
+Version: 0.60
+Type: Package
+Date: 2006-07-28
+Title: Political Science Computational Laboratory, Stanford University
+Author: Simon Jackman <jackman@stanford.edu>, with contributions from Alex Tahk, Christina Maimone and Jim Fearon
+Maintainer: Simon Jackman <jackman@stanford.edu>
+Depends: R (>= 2.3.0), MASS, stats, mvtnorm, coda
+Description: Bayesian analysis of item-response theory (IRT) models, roll call analysis; computing highest density regions; maximum likelihood estimation of zero-inflated and hurdle models for count data; data sets used in writing and teaching at PSCL
+SaveImage: yes
+License: GPL version 2 or newer
+URL: http://pscl.stanford.edu
+Packaged: Thu Aug  3 12:46:37 2006; hornik

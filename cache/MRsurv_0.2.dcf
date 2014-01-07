@@ -1,0 +1,16 @@
+Package: MRsurv
+Type: Package
+Title: A multiplicative-regression model for relative survival.
+Version: 0.2
+Date: 2013-10-31
+Author: Y. Foucher <Yohann.Foucher@univ-nantes.fr>, K. Trebern-Launay <katygre@yahoo.fr>
+Maintainer: Y. Foucher <Yohann.Foucher@univ-nantes.fr>
+Description: This package contains functions, data and examples to compute a multiplicative-regression model for relative survival.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: survival, mvtnorm
+URL: www.r-project.org, www.divat.fr
+Packaged: 2013-10-31 10:30:33 UTC; Yohann
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-31 16:41:13

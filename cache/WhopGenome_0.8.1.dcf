@@ -1,0 +1,33 @@
+Package: WhopGenome
+Type: Package
+Title: High-speed processing of whole-genome VCF-format variation data,
+        FASTA-format sequence data and several alignments formats.
+Version: 0.8.1
+Date: 2013-11-13
+Author: Ulrich Wittelsbuerger
+Maintainer: Ulrich Wittelsbuerger
+        <ulrich.wittelsbuerger@uni-duesseldorf.de>
+Depends: R (>= 1.8.0)
+Suggests: RMySQL, DBI, AnnotationDbi
+Description: WhopGenome's provides very fast access to whole genome, population scale variation data
+	from VCF files and sequence data from FASTA-formatted files.
+	It also reads in alignments from FASTA, Phylip, MAF and other file formats.
+	Provides easy-to-use interfaces to genome annotation from UCSC and Bioconductor and gene ontology data
+	from AmiGO and is capable to read, modify and write PLINK .PED-format pedigree files.
+License: GPL (>= 2)
+LazyLoad: yes
+Copyright: This package uses zlib, Tabix, bgzf and faidx. Zlib by
+        Jean-loup Gally <jloup@gzip.org> and Mark Adler
+        <madler@alumni.caltech.edu>, uses the Zlib licence. Tabix and
+        FaIdx by Heng Li <lh3@live.co.uk> use the MIT licence. BGZF as
+        by Bob Handsaker and modified by Heng Li uses the MIT licence.
+        Anything else was written entirely by Ulrich Wittelsbuerger.
+        All third-party code has been slightly modified to conform to R
+        package development requirements such as removal or replacement
+        of printf, fprintf on stderr and functions that would terminate
+        a running R session by R-supplied equivalents as well as
+        modifications that eliminate most compiler warnings.
+Packaged: 2013-11-18 11:56:18 UTC; wittelsbuerger
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-19 16:51:50

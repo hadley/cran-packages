@@ -1,0 +1,21 @@
+Package: mboost
+Title: Model-Based Boosting
+Date: 2010-02-01
+Version: 2.0-0
+Author: Torsten Hothorn, Peter Buehlmann, Thomas Kneib, Matthias Schmid
+        and Benjamin Hofner
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Functional gradient descent algorithm (boosting) for
+        optimizing general risk functions utilizing component-wise
+        (penalised) least squares estimates or regression trees as
+        base-learners for fitting generalized linear, additive and
+        interaction models to potentially high-dimensional data.
+Depends: R (>= 2.9.0), methods, stats
+Imports: Matrix, survival, splines, lattice
+Suggests: multicore, party, ipred, MASS
+LazyLoad: yes
+LazyData: yes
+License: GPL-2
+Packaged: 2010-02-01 11:43:22 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2010-02-01 19:26:50

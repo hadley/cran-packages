@@ -1,0 +1,21 @@
+Package: lrmest
+Type: Package
+Title: Different types of estimators to deal with multicollinearity.
+Version: 1.0
+Date: 2013-08-31
+Authors@R: c(person("Ajith", "Dissanayake", role = c("aut", "cre"),
+        email = "sudeera333@gmail.com"), person("P.", "Wijekoon", role
+        = ("aut"),email="pushpaw@pdn.ac.lk"), person("R-core",role =
+        "cph", email = "R-core@R-project.org"))
+Maintainer: Ajith Dissanayake <sudeera333@gmail.com>
+Depends: MASS
+Description: When multicollinearity exists among predictor variables of the linear model, least square estimators does not provide a better solution for estimating parameters. To deal with multicollinearity several estimators are proposed in the literature. Some of these estimators are Ordinary Least Square Estimator (OLSE), Ordinary Ridge Regression Estimator (ORRE), Restricted Least Square Estimator (RLSE), Ordinary Mixed Regression Estimator (OMRE), Liu Estimator (LE), Restricted Liu Estimator (RLE), Stochastic Restricted Liu Estimator (SRLE), Type (1) Liu Estimator (Type-1 LTE), Type (2) Liu Estimator (Type-2 LTE), Type (3) Liu Estimator (Type-3 LTE), Type (1) Adjusted Liu Estimator (Type-1 ALTE), Type (2) Adjusted Liu Estimator (Type-2 ALTE), Type (3) Adjusted Liu Estimator (Type-3 ALTE), Almost Unbiased Ridge Estimator (AURE), Almost Unbiased Liu Estimator (AULE), Stochastic Restricted Ridge Estimator (SRRE) and Restricted Ridge Regression Estimator (RRRE). To select the best estimator in a practical situation the Mean Square Error (MSE) is used. Using this package scalar MSE value of all the above estimators and Prediction Sum of Square (PRESS) values of some of the estimators can be obtained, and the variation of the MSE and PRESS values for the relevant estimators can be shown graphically. 
+LazyData: yes
+License: GPL-2 | GPL-3
+Packaged: 2013-08-31 15:15:28 UTC; user
+Author: Ajith Dissanayake [aut, cre],
+  P. Wijekoon [aut],
+  R-core [cph]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-31 18:42:26

@@ -1,0 +1,75 @@
+Package: Zelig
+Maintainer: Matt Owen <mowen@iq.harvard.edu>
+License: GPL (>= 2)
+Title: Everyone's Statistical Software
+Author: Matt Owen <mowen@iq.harvard.edu>, Kosuke Imai
+        <kimai@Princeton.Edu>, Gary King <king@harvard.edu>, Olivia Lau
+        <olau@fas.harvard.edu>
+Description: Zelig is an easy-to-use program that can estimate, and
+        help interpret the results of, an enormous range of statistical
+        models. It literally is ``everyone's statistical software''
+        because Zelig's simple unified framework incorporates everyone
+        else's (R) code. We also hope it will become ``everyone's
+        statistical software'' for applications and teaching, and so
+        have designed Zelig so that anyone can easily use it or add
+        their programs to it.  Zelig also comes with infrastructure
+        that facilitates the use of any existing method, such as by
+        allowing multiply imputed data for any model, and mimicking the
+        program Clarify (for Stata) that takes the raw output of
+        existing statistical procedures and translates them into
+        quantities of direct interest.
+Version: 4.0-11
+Packaged: 2012-09-27 20:19:30 UTC; matt
+URL: http://gking.harvard.edu/zelig
+Date: 2012-08-31
+Depends: R (>= 2.14), boot, MASS, methods, sandwich, survival
+Suggests: mvtnorm, Formula
+Collate: 'as.dataframe.setx.R' 'as.matrix.setx.R' 'as.parameters.R'
+        'as.qi.R' 'as.summarized.list.R' 'as.summarized.R' 'cmvglm.R'
+        'describe.default.R' 'describe.gamma.R' 'describe.logit.R'
+        'describe.ls.R' 'describe.negbinom.R' 'describe.normal.R'
+        'describe.poisson.R' 'describe.probit.R' 'describe.R'
+        'describe.zelig.R' 'description.R' 'GetObject.R'
+        'getPredictorTerms.R' 'getResponseTerms.formula.R'
+        'getResponseTerms.list.R' 'getResponseTerms.R' 'GetSlot.R'
+        'GetSlot.zelig.R' 'help.zelig.R' 'ignore.R' 'is.formula.R'
+        'labels.mi.R' 'list.depth.R' 'make.parameters.R'
+        'makeModelMatrix.R' 'mi.R' 'MLutils.R' 'model.frame.multiple.R'
+        'model.matrix.multiple.R' 'model.matrix.parseFormula.R'
+        'multipleUtil.R' 'param.gamma.R' 'param.logit.R' 'param.ls.R'
+        'param.negbinom.R' 'param.normal.R' 'param.poisson.R'
+        'param.probit.R' 'param.R' 'parameters.R' 'parse.formula.R'
+        'parseFormula.R' 'plot.MI.sim.R' 'plot.sim.R' 'print.setx.MI.R'
+        'print.setx.R' 'print.sim.R' 'print.summary.sim.R'
+        'print.summarySim.MI.R' 'print.zelig.R' 'qi.gamma.R'
+        'qi.logit.R' 'qi.ls.R' 'qi.negbinom.R' 'qi.normal.R'
+        'qi.poisson.R' 'qi.probit.R' 'qi.R' 'qi.summarized.R'
+        'register.default.R' 'register.R' 'repl.default.R' 'repl.R'
+        'repl.sim.R' 'setx.default.R' 'setx.MI.R' 'setx.R'
+        'sim.default.R' 'sim.MI.R' 'sim.R' 'summarize.default.R'
+        'summarize.R' 'summary.MI.R' 'summary.MI.sim.R' 'summary.sim.R'
+        'summary.zelig.R' 't.setx.R' 'terms.multiple.R' 'terms.vglm.R'
+        'terms.zelig.R' 'termsFromFormula.R' 'toString.call.R'
+        'user.prompt.R' 'Zelig-package.R' 'zelig.R' 'zelig.skeleton.R'
+        'zelig2.R' 'zelig2gamma.R' 'zelig2logit.R' 'zelig2ls.R'
+        'zelig2negbinom.R' 'zelig2normal.R' 'zelig2poisson.R'
+        'zelig2probit.R' 'zzz_citation.R' 'zzz_environment_hacks.R'
+        'zzz_generics.R' 'zzz_numerical.R' 'zzz_operators.R'
+        'zzz_plots.R' 'zzz_run.R' 'zzz_S4_generics.R' 'zzz_skeleton.R'
+        'zzz_stats.R' 'zzz_utils.R' 'zzz.R' 'get.package.R'
+        'model.warnings.R' 'bootfn.default.R' 'zelig2relogit.R'
+        'relogit.R' 'qi.relogit.R' 'names.relogit.R'
+        'plot.zelig.relogit.R' 'summary.relogit2.R' 'vcov.relogit.R'
+        'summary.relogit.R' 'print.summary.relogit.R'
+        'print.summary.relogit2.R' 'print.summary.glm.robust.R'
+        'summary.glm.robust.R' 'vcov.glm.robust.R' 'robust.glm.hook.R'
+        'param.relogit.R' 'sim.relogit.R' 'bootstrap.gamma.R'
+        'bootstrap.R' 'attach.env.R' 'bootstrap.negbinom.R'
+        'bootstrap.normal.R' 'z.R' 'summary.pooled.sim.R'
+        'print.summary.pooled.sim.R' 'simulations.plot.R'
+        'plot.pooled.sim.R' 'simulation.matrix.R'
+        'as.matrix.pooled.setx.R' 'describe.exp.R' 'describe.tobit.R'
+        'param.exp.R' 'param.tobit.R' 'qi.exp.R' 'qi.tobit.R'
+        'zelig2exp.R' 'zelig2tobit.R' 'cluster.formula.R'
+Repository: CRAN
+Date/Publication: 2012-09-29 08:49:36

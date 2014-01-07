@@ -1,0 +1,11 @@
+Package: relimp
+Version: 0.9-1
+Title: Relative Contribution of Effects in a Regression Model
+Author: David Firth
+Maintainer: David Firth <d.firth@warwick.ac.uk>
+URL: http://www.warwick.ac.uk/go/relimp, http://www.warwick.ac.uk/go/dfirth
+Description: Functions to facilitate inference on the relative importance of predictors in a linear or generalized linear model, and a couple of useful Tcl/Tk widgets
+Depends: R (>= 1.8.0)
+Suggests: nnet, tcltk
+License: GPL (version 2 or later)
+Packaged: Wed Mar 30 13:17:37 2005; david

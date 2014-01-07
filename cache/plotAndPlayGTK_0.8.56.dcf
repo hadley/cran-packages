@@ -1,0 +1,29 @@
+Package: plotAndPlayGTK
+Type: Package
+Title: A GUI for interactive plots using GTK+
+Version: 0.8.56
+Date: 2007-08-14
+Author: Felix Andrews <felix@nfrac.org>, with contributions from Deepayan Sarkar
+  and Graham Williams.
+Maintainer: Felix Andrews <felix@nfrac.org>
+Depends: R (>= 2.5.0), RGtk2, cairoDevice
+Imports: lattice (>= 0.16), grid, grDevices, graphics
+Description: A graphical user interface for R plots. Wrap it around your plot calls,
+  like playwith(plot(mydata)). A window pops up with the plot and a toolbar to 
+  interact with it. The default toolbar buttons allow you 
+  to add persistent labels to data points, zoom in and out and around, save the 
+  plot to a file, and so on. You can also annotate the plot or edit the call itself.
+  There are buttons to work with multiple panels and pages of a Lattice plot. 
+  For multi-variate scatterplots 
+  ('splom' only) there is a "brush" function, and for 3D plots ('wireframe' / 
+  'cloud' only) there is a simple zoom and rotate. New buttons can also be defined; 
+  actually any GTK+ widget can be added to the toolbar. 
+  Note: code to generate the plot will need to be wrapped up into a single call 
+  with some standard arguments, and the interaction features do not work 
+  with multiple-plot layouts. As yet it does not work with grid-based plots other 
+  than Lattice (such as ggplot2), but button handlers could be written. This 
+  package is based on RGtk2, and so requires the GTK+ libraries.
+  Also included in this package are several utilities for RGtk2 applications.
+License: GPL version 2 or newer
+URL: http://code.google.com/p/plotandplay-gtk/
+Packaged: Tue Aug 14 01:21:33 2007; Felix

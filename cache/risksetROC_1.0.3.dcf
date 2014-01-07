@@ -1,0 +1,17 @@
+Package: risksetROC
+Version: 1.0.3
+Date: 2011-01-21
+Title: Riskset ROC curve estimation from censored survival data
+Author: Patrick J. Heagerty <heagerty@u.washington.edu>, packaging by
+        Paramita Saha <psaha@u.washignton.edu>
+Maintainer: Patrick J. Heagerty <heagerty@u.washington.edu>, Paramita
+        Saha <psaha@u.washignton.edu>
+Depends: R (>= 1.6.1), survival
+Description: Compute time-dependent Incident/dynamic accuracy measures
+        (ROC curve, AUC, integrated AUC )from censored survival data
+        under proportional or non-proportional hazard assumption of
+        Heagerty & Zheng (Biometrics, Vol 61 No 1, 2005, PP 92-105).
+License: GPL (>= 2)
+Packaged: 2011-01-21 14:37:50 UTC; sahap
+Repository: CRAN
+Date/Publication: 2011-01-21 18:35:29

@@ -1,0 +1,24 @@
+Package: opm
+Version: 0.2-1
+Date: 2012-03-09
+Title: Tools for analysing OmniLog(R) Phenotype Microarray data
+Author: Markus Goeker, with contributions by Lea Vaas, Johannes
+        Sikorski, Nora Buddruhs and Anne Fiebig
+Maintainer: Markus Goeker <markus.goeker@dsmz.de>
+Depends: R (>= 2.10.0), grofit
+Imports: methods, lattice, boot
+Suggests: testthat, yaml (>= 2.1.3), multicore, optparse, gplots
+Description: Tools for analysing OmniLog(R) Phenotype Microarray (PM)
+        data as produced by the device distributed by BiOLOG Inc.,
+        including plotting, aggregating (estimating curve parameters)
+        and comparing PM data, integrating metadata, using the YAML
+        format for the storage of data and metadata, and batch
+        conversion of large numbers of files.
+License: GPL (>= 2)
+URL: http://www.dsmz.de
+Collate: 'well-map.R' 'constants.R' 'helpers.R' 'numeric.R' 'phylo.R'
+        'wmd.R' 'opm.R' 'opma.R' 'opms.R' 'opmx.R' 'matrix.R' 'list.R'
+        'yaml.R' 'io.R' 'data.R' 'testing.R'
+Packaged: 2012-03-09 02:49:01 UTC; goeker
+Repository: CRAN
+Date/Publication: 2012-03-09 10:12:29

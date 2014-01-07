@@ -1,0 +1,15 @@
+Package: gaussquad
+Version: 1.0-2
+Date: 2013-02-05
+Title: Collection of functions for Gaussian quadrature
+Author: Frederick Novomestky <fnovomes@poly.edu>
+Maintainer: Frederick Novomestky <fnovomes@poly.edu>
+Depends: R (>= 2.0.1), polynom, orthopolynom
+Description: A collection of functions to perform Gaussian quadrature
+        with different weight functions corresponding to the orthogonal
+        polynomials in package orthopolynom.  Examples verify the
+        orthogonality and inner products of the polynomials.
+License: GPL (>= 2)
+Packaged: 2013-02-05 19:02:14 UTC; fred
+Repository: CRAN
+Date/Publication: 2013-02-05 21:43:18

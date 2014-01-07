@@ -1,0 +1,15 @@
+Package: MRwarping
+Type: Package
+Title: Multiresolution time warping for functional data.
+Version: 1.0
+Date: 2013-08-16
+Author: L. Slaets, G. Claeskens, B.W. Silverman
+Maintainer: Gerda Claeskens <Gerda.Claeskens@kuleuven.be>
+Description: The Bayesian procedure starts with one warplet in the model and uses the posterior distributions as priors for a more extended model with one more warplet. The model is built with adding one warplet at a time and allows for amplitude variations.
+Depends: boa, SemiPar
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-10-11 06:44:26 UTC; ndbaf45
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-11 12:54:06

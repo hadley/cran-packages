@@ -1,0 +1,14 @@
+Package: MSVAR
+Version: 0.0
+Date: 2008-29-08
+Title: Markov Switching VAR
+Author: James Eustace <james.eustace@omam.co.uk>. 
+Maintainer: James Eustace <james.eustace@omam.co.uk>
+Depends: R (>= 2.0.1)
+Description: MSVAR estimates a 2 state Markov Switching VAR. The likelihood
+  function is solved via numerical optimizaton using R's 'nlminb' optimization
+  routine. Further packages will include models with more than 2 states, switching
+  exogenous variables and the use of simulated annealing in the optimization process
+  to avoid finding local solutions.
+License: GPL (>= 2)
+Packaged: Sun Aug 31 09:30:13 2008; Jamie

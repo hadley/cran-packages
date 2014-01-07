@@ -1,0 +1,15 @@
+Package: ada
+Version: 2.0-1
+Date: 2006-09-26
+Title: Performs boosting algorithms for a binary response
+Author: Mark Culp, Kjell Johnson, and George Michailidis
+Depends:  R(>= 2.0.1),rpart
+Description: Performs discrete, real, and gentle boost under both exponential and 
+             logistic loss on a given data set.  The package ada provides a straightforward, 
+             well-documented, and broad boosting routine for classification, ideally suited 
+             for small to moderate-sized data sets.  Please refer to the Url below for more 
+             information. 
+Maintainer: Mark Culp <culpm@umich.edu>
+License: GPL
+Url:  http://www.stat.lsa.umich.edu/~culpm/math/ada/img.html
+Packaged: Fri Sep 29 11:20:24 2006; culpm

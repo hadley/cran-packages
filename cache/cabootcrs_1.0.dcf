@@ -1,0 +1,20 @@
+Package: cabootcrs
+Type: Package
+Title: Bootstrap Confidence Regions for Correspondence Analysis.
+Version: 1.0
+Date: 2013-04-23
+Author: T.J. Ringrose
+Maintainer: T.J. Ringrose <t.j.ringrose@cranfield.ac.uk>
+Description: Performs correspondence analysis on a two-way contingency
+        table and produces bootstrap-based elliptical confidence
+        regions around the projected coordinates for the category
+        points. Includes routines to plot the results in a variety of
+        styles. Also reports the standard numerical output for
+        correspondence analysis.
+License: GPL-2
+Imports: methods, utils
+LazyData: TRUE
+Packaged: 2013-06-10 13:00:57 UTC; ringroset
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-10 18:23:46

@@ -1,0 +1,13 @@
+Package: LPmerge
+Title: Merging linkage maps by linear programming
+Version: 1.5
+Author: Jeffrey Endelman
+Maintainer: Jeffrey Endelman <endelman@wisc.edu>
+Description: LPmerge creates a consensus genetic map by merging linkage maps from different populations.  The software uses linear programming (LP) to efficiently minimize the mean absolute error between the consensus map and the linkage maps.  This minimization is performed subject to linear inequality constraints that ensure the ordering of the markers in the linkage maps is preserved.  When marker order is inconsistent between linkage maps, a minimum set of ordinal constraints is deleted to resolve the conflicts.
+Depends: Rglpk, Matrix
+License: GPL-3
+URL: http://potatobreeding.cals.wisc.edu/software
+Packaged: 2014-01-05 22:38:28 UTC; endelman
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-06 07:12:10

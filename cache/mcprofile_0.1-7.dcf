@@ -1,0 +1,17 @@
+Package: mcprofile
+Title: Multiple Contrast Profiles
+Date: 2013-09-10
+Version: 0.1-7
+Author: Daniel Gerhard
+Maintainer: Daniel Gerhard <gerhard@biostat.uni-hannover.de>
+Description: Calculation of signed root deviance profiles for linear combinations of parameters in a generalized linear model. Multiple tests and simultaneous confidence intervals are provided.
+Depends: quadprog, ggplot2, splines, mvtnorm
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+VignetteBuilder: knitr
+Suggests: knitr, multcomp, MASS
+Packaged: 2013-09-10 13:55:56 UTC; daniel
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-10 17:25:09

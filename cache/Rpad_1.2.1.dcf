@@ -1,0 +1,15 @@
+Package: Rpad
+Title: Workbook-style, web-based interface to R
+Version: 1.2.1
+Author: Tom Short (EPRI), Philippe Grosjean (UMH EcoNum)
+Description: A workbook-style user interface to R through a web browser. 
+        Provides convenient plotting, HTML GUI generation, and HTML
+        output routines. Can be used with R in standalone mode or with
+        a webserver to serve Rpad pages to other users.
+Depends: graphics, utils, grDevices
+Suggests: tcltk, R2HTML
+LazyLoad: no
+Maintainer: Tom Short <tshort@epri.com>
+License: GPL version 2 or newer
+URL: http://www.rpad.org/Rpad
+Packaged: Fri Dec 15 15:23:49 2006; ptsh003

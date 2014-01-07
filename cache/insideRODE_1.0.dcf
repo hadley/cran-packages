@@ -1,0 +1,18 @@
+Package: insideRODE
+Type: Package
+Title: insideRODE build in function with ODE solver and C/FORTRAN
+        interface to nlme
+Version: 1.0
+Date: 2011-03-22
+Author: YUZHUO PAN, XIAOYU YAN
+Maintainer: YUZHUO PAN <yuzhuo.pan@gmail.com>
+Depends: R (>= 2.12.0), deSolve, nlme, lattice
+Description: insideRODE build in function with ODE solver and C/FORTRAN
+        interface to nlme, including nlmLSODA, nlmODE, nlmVODE,nlmLSODE
+        for general ODE; cfLSODA,cfLSODE, cfODE, cfVODE solver for
+        C/FORTRAN based ODE.V1.2 CAN READ DLLNAME BY DLL loaded.
+License: LGPL (> 2.0)
+LazyLoad: yes
+Packaged: 2011-03-24 02:56:56 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2011-03-24 16:56:31

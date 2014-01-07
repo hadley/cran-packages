@@ -1,0 +1,16 @@
+Package: CINID
+Type: Package
+Title: Curculionidae INstar IDentification
+Version: 1.0
+Date: 2013-10-11
+Author: Aurelie Siberchicot, Adrien Merville, Marie-Claude Bel-Venner and Samuel Venner
+Maintainer: Aurelie Siberchicot <aurelie.siberchicot@univ-lyon1.fr>
+Description: This package provides functions to compute a method for identifying the instar of Curculionid larvae from the observed distribution of the headcapsule size of mature larvae.
+License: GPL (>= 2.0)
+LazyLoad: yes
+Depends: graphics, utils, stats
+Repository: CRAN
+Collate: cinid.table.R cinid.plot.R
+Packaged: 2013-10-11 17:43:48 UTC; aurelie
+NeedsCompilation: no
+Date/Publication: 2013-10-12 00:09:50

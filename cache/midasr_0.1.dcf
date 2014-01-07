@@ -1,0 +1,19 @@
+Package: midasr
+Title: Mixed Data Sampling Regression
+Description: Econometric methods for mixed frequency time series data analysis
+URL: https://github.com/mpiktas/midasr
+Version: 0.1
+Maintainer: Vaidotas Zemlys <zemlys@gmail.com>
+Author: Virmantas Kvedaras <virmantas.kvedaras@mif.vu.lt>, Vaidotas Zemlys
+    <vaidotas.zemlys@mif.vu.lt>
+Depends: R (>= 2.11.0), sandwich
+Imports: MASS, numDeriv
+License: MIT + file LICENCE
+BugReports: https://github.com/mpiktas/midasr/issues
+Collate: 'simulate.R' 'midasr-package.R' 'midasreg.R' 'deriv.R'
+        'midas_r_methods.R' 'lagspec.R' 'imidasreg.R' 'midaslag.R'
+        'tests.R' 'modsel.R'
+Packaged: 2013-10-10 07:25:57 UTC; mpiktas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-10 09:50:26

@@ -1,0 +1,16 @@
+Package: factorQR
+Version: 0.1-4
+Date: 2010-09-28
+Title: Bayesian quantile regression factor models
+Author: Lane Burgette <lb131@stat.duke.edu>,
+Maintainer: Lane Burgette <lb131@stat.duke.edu>
+Depends: R (>= 2.1), lattice
+Description: Package to fit Bayesian quantile regression models that
+        assume a factor structure for at least part of the design
+        matrix.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2010-09-28 22:08:14 UTC; lburgette
+Repository: CRAN
+Date/Publication: 2010-09-29 08:00:41

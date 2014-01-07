@@ -1,0 +1,22 @@
+Package: textir
+Title: Inverse Regression for Text Analysis
+Version: 1.4
+Date: 2011-3-21
+Author: Matt Taddy <taddy@chicagobooth.edu>
+Depends: R (>= 2.4), slam
+Suggests: tm
+Description: A suite of tools for inference about text documents and
+        associated sentiment.  This includes the `mnlm' function, for
+        sparse multinomial inverse regression analysis of sentiment in
+        text, `pls', a concise partial least squares routine, and the
+        `topics' function (beta version), for efficient estimation and
+        model selection in latent topic representations of text.
+Maintainer: Matt Taddy <taddy@chicagobooth.edu>
+License: LGPL
+URL: http://faculty.chicagobooth.edu/matt.taddy/index.html
+References: Taddy (2011) "Inverse Regression for Analysis of Sentiment
+        in Text" (http://arxiv.org/abs/1012.2098) and "Estimation of
+        Topic Models" (in prep).
+Packaged: 2011-03-21 23:33:06 UTC; mtaddy
+Repository: CRAN
+Date/Publication: 2011-03-22 06:48:13

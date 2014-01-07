@@ -1,0 +1,17 @@
+Package: Mcomp
+Title: Data from the M-competitions
+Description: The 1001 time series from the M-competition (Makridakis et
+        al. 1982) and the 3003 time series from the IJF-M3 competition
+        (Makridakis and Hibon, 2000).
+Version: 2.00
+Date: 2009-09-07
+Depends: R (>= 2.0.0), graphics, stats, tseries, forecast
+LazyData: yes
+LazyLoad: yes
+Author: Rob J Hyndman <Rob.Hyndman@buseco.monash.edu.au>
+Maintainer: Rob J Hyndman <Rob.Hyndman@buseco.monash.edu.au>
+License: GPL (>= 2)
+URL: http://www.robjhyndman.com/software/mcomp/
+Packaged: 2009-09-07 04:20:52 UTC; hyndman
+Repository: CRAN
+Date/Publication: 2009-09-07 09:37:33

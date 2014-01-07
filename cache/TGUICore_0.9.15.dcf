@@ -1,0 +1,18 @@
+Package: TGUICore
+Type: Package
+Title: Teaching GUI - Core functionality
+Version: 0.9.15
+Date: 2011-02-28
+Author: Matthias Templ, Gerlinde Dinges, Alexander Kowarik, Bernhard
+        Meindl
+Maintainer: Alexander Kowarik <alexander.kowarik@statistik.gv.at>
+Description: Teaching GUI (A Graphical User Interface to enhance and
+        support modern teaching methods in an interactive way.) - basic
+        framework. Providing a student and a trainer interface,
+        containing all facilities needed to create interactive
+        examples, checks or ask for student feedback.
+Depends: tcltk, tkrplot, utils
+License: GPL
+Packaged: 2011-02-28 07:00:02 UTC; meindl$
+Repository: CRAN
+Date/Publication: 2011-02-28 18:36:00

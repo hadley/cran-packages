@@ -1,0 +1,11 @@
+Package: WINRPACK
+Type: Package
+Title: Read in WIN format data
+Version: 1.0-8
+Date: 2008-04-25
+Depends: RSEIS
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
+Description: Reads in WIN pickfile and waveform file, prepares data for RSEIS
+License: GPL
+Packaged: Mon Jan 26 11:23:52 2009; lees

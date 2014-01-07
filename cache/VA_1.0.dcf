@@ -1,0 +1,15 @@
+Package: VA
+Version: 1.0
+Date: 2004-01-01
+Title: Estimation of bayesian additive structured (quantile) regression
+Author: Elisabeth Waldmann <ewaldma@uni-goettingen.de>, with
+  contributions from Udo Schroeder <udo.schroeder@uni-oldenburg.de>.
+Maintainer: Elisabeth Waldmann <ewaldma@uni-goettingen.de>
+Depends: R (>= 1.8.0), BayesX, splines, Runuran, formula.tools
+Description: This package provides a fast way of estimating Bayesian geoadditive (quantile) regression, using the idea of variational approximations.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2013-12-12 19:38:09 UTC; x
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-13 10:26:26

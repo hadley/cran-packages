@@ -1,0 +1,19 @@
+Package: commandr
+Title: Command pattern in R
+Version: 0.9.5
+Author: Michael Lawrence
+Depends: R (>= 2.15.0), methods
+Imports: methods, utils
+Description: An S4 representation of the Command design pattern. The
+        Operation class is a simple implementation using closures and
+        supports forward and reverse (undo) evaluation. The more
+        complicated Protocol framework represents each type of command
+        (or analytical protocol) by a formal S4 class. Commands may be
+        grouped and consecutively executed using the Pipeline class.
+        Example use cases include logging, do/undo, analysis pipelines,
+        GUI actions, parallel processing, etc.
+Maintainer: Tengfei Yin <yintengfei@gmail.com>
+License: Artistic-2.0
+Packaged: 2012-09-03 02:58:20 UTC; tengfei
+Repository: CRAN
+Date/Publication: 2012-09-04 05:53:59

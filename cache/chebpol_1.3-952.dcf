@@ -1,0 +1,20 @@
+Package: chebpol
+Version: 1.3-952
+Date: 2013-04-09
+Title: Multivariate Chebyshev interpolation
+Author: Simen Gaure, Ragnar Frisch Centre for Economic Research, Oslo,
+        Norway
+Maintainer: Simen Gaure <Simen.Gaure@frisch.uio.no>
+Copyright: 2013, Simen Gaure
+Depends: compiler
+Suggests:
+Description: The package contains methods for creating multivariate
+        Chebyshev approximation of functions on a hypercube. Some
+        methods for non-Chebyshev grids are also provided.
+License: Artistic-2.0
+Classification/MSC: 41A05, 41A10, 41A50, 41A63, 65D05, 65T40
+Classification/ACM: G.1.2
+Packaged: 2013-04-09 20:11:59 UTC; sgaure
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-10 07:54:04

@@ -1,0 +1,20 @@
+Package: abn
+Version: 0.3-1
+Date: 2011-07-26
+Title: Multidimensional Bayesian Regression
+Author: Fraser Lewis <fraseriain.lewis@uzh.ch>
+SystemRequirements: Gnu Scientific Library version >= 1.12
+Maintainer: Fraser Lewis <fraseriain.lewis@uzh.ch>
+Description: Uses a graphical modeling formulation to construct
+        multidimensional Bayesian regression models. Currently
+        implemented is a multidimensional analogue of logistic
+        regression - a binomial generalized linear model with logit
+        link - with a greedy search heuristic using Laplace
+        approximations to estimate marginal likelihoods and marginal
+        posterior densities.
+License: GPL (>= 2)
+LazyData: true
+URL: http://www.vetepi.uzh.ch
+Packaged: 2011-07-26 07:29:17 UTC; fraser
+Repository: CRAN
+Date/Publication: 2011-07-26 10:14:20

@@ -1,0 +1,19 @@
+Package: BerkeleyEarth
+Type: Package
+Title: R Emulation of Berkeley Earth Surface Temperature
+Version: 1.1
+Date: 2012-02-08
+Author: Steven Mosher
+Maintainer: Steven Mosher <moshersteven@gmail.com>
+Depends: R (>= 2.11.0), bigmemory, biganalytics, RghcnV3
+Suggests: RghcnV3
+Description: A selection of functioned designed to emulate the Berkeley
+        Earth Surface Temperature Project. Version 1 includes only
+        those function to import data.
+License: GPL (>= 2)
+URL: http://stevemosher.wordpress.com/
+LazyLoad: yes
+LazyData: FALSE
+Packaged: 2012-02-17 06:11:53 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-02-18 07:05:01

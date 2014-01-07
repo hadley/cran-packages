@@ -1,0 +1,15 @@
+Package: PEIP
+Type: Package
+Title: Functions for Aster Book on Inverse Theory
+Version: 1.6
+Date: 2012-05-08
+Depends: R (>= 2.12)
+Imports: bvls, Matrix, RSEIS, pracma
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
+Description: Several Functions for Aster Book on Inverse Theory. These functions are translations of MATLAB code developed by the authors to illustrate the concepts of Inverse theory as applied to geophysics. There is one function, rlsqr, written by Keehoon Kim, that is a wrapper for the FORTRAN based Paige and Saunders LSQR routine.
+License: GPL (>= 2)
+Packaged: 2014-01-05 15:06:57 UTC; lees
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-05 17:14:47

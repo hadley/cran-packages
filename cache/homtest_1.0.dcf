@@ -1,0 +1,13 @@
+Package: homtest
+Version: 1.0
+Date: 2007-03-26
+Title: Homogeneity tests for Regional Frequency Analysis
+Author: Alberto Viglione
+Maintainer: Alberto Viglione <alviglio@tiscali.it>
+Description: A collection of homogeneity tests described in:
+ Viglione A., Laio F., Claps P. (2007) ``A comparison of homogeneity tests for regional frequency analysis'', Water Resources Research, 43, W03428, doi:10.1029/2006WR005095. More on Regional Frequency Analysis can be found in package \code{nsRFA}.
+Depends: R 
+%Suggests: 
+License: GPL version 2 or later.
+URL: http://www.idrologia.polito.it/
+Packaged: Mon Mar 26 15:32:07 2007; alviglio

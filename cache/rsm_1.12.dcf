@@ -1,0 +1,16 @@
+Package: rsm
+Version: 1.12
+Date: 2009-05-05
+Title: Response-surface analysis
+Author: Russell V. Lenth
+Maintainer: Russell V Lenth <russell-lenth@uiowa.edu>
+Description: Provides functions to generate response-surface designs,
+        fit first- and second-order response-surface models, make
+        contour plots, obtain the path of steepest ascent, and do
+        canonical analysis.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: Tue May 5 15:49:25 2009; rlenth
+Repository: CRAN
+Date/Publication: 2009-05-06 12:01:06

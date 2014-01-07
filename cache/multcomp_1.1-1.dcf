@@ -1,0 +1,19 @@
+Package: multcomp
+Title: Simultaneous Inference in General Parametric Models
+Version: 1.1-1
+Date: 2009-06-08
+Author: Torsten Hothorn, Frank Bretz and Peter Westfall with
+        contributions by Richard M. Heiberger and Andre
+        Schuetzenmeister
+Description: Simultaneous tests and confidence intervals for general
+        linear hypotheses in parametric models, including linear,
+        generalized linear, linear mixed effects, and survival models.
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Depends: stats, graphics, mvtnorm (>= 0.8-0), survival
+Suggests: lme4 (>= 0.999375-16), nlme, robustbase, mboost, coin, MASS,
+        car, foreign, xtable
+LazyData: yes
+License: GPL-2
+Packaged: 2009-07-15 15:57:21 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2009-07-18 16:13:00

@@ -1,0 +1,14 @@
+Package: obs.agree
+Type: Package
+Title: An R package to assess agreement between observers.
+Version: 1.0
+Date: 2012-09-25
+Author: Teresa Henriques, Luis Antunes and Cristina Costa-Santos
+Maintainer: Teresa Henriques <pdicss10010@med.up.pt>
+Description: The package includes two functions for measuring agreement. Raw Agreement Indices (RAI) to categorical data and Information-Based Measure of Disagreement (IBMD) to continuous data. It can be used for multiple raters and multiple readings cases.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://disagreement.med.up.pt/
+Packaged: 2013-12-04 15:13:40 UTC; teresahenriques
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-04 16:28:27

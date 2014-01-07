@@ -1,0 +1,21 @@
+Package: mtsdi
+Version: 0.3.3
+Date: 2012-11-08
+Author: Washington Junger <wjunger@ims.uerj.br> and Antonio Ponce de
+        Leon <ponce@ims.uerj.br>
+Maintainer: Washington Junger <wjunger@ims.uerj.br>
+Depends: R (>= 2.15.0),utils,stats,gam,splines
+Title: Multivariate time series data imputation
+Description: This is an EM algorithm based method for imputation of
+        missing values in multivariate normal time series. The
+        imputation algorithm accounts for both spatial and temporal
+        correlation structures. Temporal patterns can be modelled using
+        an ARIMA(p,d,q), optionally with seasonal components, a
+        non-parametric cubic spline or generalised additive models with
+        exogenous covariates. This algorithm is specially tailored for
+        climate data with missing measurements from several monitors
+        along a given region.
+License: GPL (>= 2)
+Packaged: 2012-11-08 15:29:19 UTC; wjunger
+Repository: CRAN
+Date/Publication: 2012-11-08 16:53:37

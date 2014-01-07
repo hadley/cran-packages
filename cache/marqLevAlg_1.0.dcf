@@ -1,0 +1,23 @@
+Package: marqLevAlg
+Type: Package
+Title: An algorithm for least-squares curve fitting
+Version: 1.0
+Date: 2011-09-29
+Author: D. Commenges <Daniel.Commenges@isped.u-bordeaux2.fr>, M. Prague
+        <Melanie.Prague@isped.u-bordeaux2.fr> and Amadou Diakite
+Maintainer: Melanie Prague <Melanie.Prague@isped.u-bordeaux2.fr>
+Depends: R (>= 2.0.0)
+LazyLoad: yes
+Description: This algorithm provides a numerical solution to the
+        problem of minimizing a function. This is more efficient than
+        the Gauss-Newton-like algorithm when starting from points vey
+        far from the final minimum. A new convergence test is
+        implemented (RDM) in addition to the usual stopping criterion :
+        stopping rule is when the gradients are small enough in the
+        parameters metric (GH-1G).
+License: GPL (>= 2.0)
+URL: http://www.r-project.org
+Encoding: latin1
+Repository: CRAN
+Packaged: 2012-05-09 10:10:12 UTC; ad6
+Date/Publication: 2012-05-10 04:31:21

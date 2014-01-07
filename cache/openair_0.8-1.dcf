@@ -1,0 +1,43 @@
+Package: openair
+Type: Package
+Title: Tools for the analysis of air pollution data
+Version: 0.8-1
+Date: 2013-02-13
+Authors@R: c(person("David", "Carslaw", role = c("aut", "cre"), email =
+        "david.carslaw@kcl.ac.uk"), person("Karl", "Ropkins", role =
+        "aut", email = "K.Ropkins@its.leeds.ac.uk"))
+ByteCompile: true
+Author: David Carslaw and Karl Ropkins
+Depends: R (>= 2.15.1),
+Imports: Matrix, utils, grid, plyr, reshape2, mgcv, lattice, cluster,
+        Rcpp, RColorBrewer
+Suggests: latticeExtra, hexbin, RgoogleMaps, png, mapdata
+LinkingTo: Rcpp
+Maintainer: David Carslaw <david.carslaw@kcl.ac.uk>
+Description: Tools to analyse, interpret and understand air pollution
+        data. Data are typically hourly time series and both monitoring
+        data and dispersion model output can be analysed.  Many
+        functions can also be applied to other data, including
+        meteorological and traffic data.
+License: GPL (>= 2)
+URL: http://www.openair-project.org/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-02-23 19:14:59 UTC; david
+Collate: 'aqStats.R' 'calcFno2.R' 'calcPercentile.R' 'calendarPlot.R'
+        'checkPrep.R' 'conditionalQuantile.R' 'corPlot.R' 'cutData.R'
+        'date.breaks.R' 'drawOpenKey.R' 'GoogleMapsPlot.R' 'import.2.R'
+        'import.R' 'importADMS.R' 'importAURN.R' 'importAURNCsv.R'
+        'importKCL.R' 'importSAQN.R' 'kernelExceed.R'
+        'linearRelation.R' 'modStats.R' 'openair.generics.R'
+        'openColours.R' 'percentileRose.R' 'polarAnnulus.R'
+        'polarFreq.R' 'polarPlot.R' 'quickText.R' 'samp.boot.block.R'
+        'scatterPlot.R' 'selectRunning.R' 'smoothTrend.R'
+        'summaryPlot.R' 'TaylorDiagram.R' 'timeAverage.R' 'timePlot.R'
+        'timeVariation.R' 'trendLevel.R' 'utilities.R' 'windRose.R'
+        'trajPlot.R' 'importTraj.R' 'getMeta.R' 'senTheil.R'
+        'TheilSen.R' 'polarCluster.R' 'zzz.R' 'mydata.R'
+        'trajCluster.R' 'conditionalEval.R' 'timeProp.R'
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-24 09:15:00

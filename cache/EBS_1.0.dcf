@@ -1,0 +1,16 @@
+Package: EBS
+Version: 1.0
+Date: 2012-05-15
+Title: Exact Bayesian Segmentation
+Author: Alice Cleynen
+Maintainer: Alice Cleynen <alice.cleynen@agroparistech.fr>
+Depends: MASS
+Description: This package performs an exact bayesian segmentation on
+        data and returns the probabilities of breakpoints, an ICL
+        criteria, etc
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: ebs
+Repository/R-Forge/Revision: 28
+Packaged: 2012-07-08 18:22:05 UTC; rforge
+Date/Publication: 2012-07-09 05:45:47

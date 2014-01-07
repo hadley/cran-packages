@@ -1,0 +1,22 @@
+Package: hydrosanity
+Type: Package
+Title: Graphical user interface for exploring hydrological time series
+Version: 0.8.64
+Date: 2007-09-06
+Author: Felix Andrews <felix@nfrac.org>
+Maintainer: Felix Andrews <felix@nfrac.org>
+Depends: R (>= 2.5.0), RGtk2, plotAndPlayGTK (>= 0.8.63), lattice (>= 0.16)
+Imports: reshape, grid, grDevices, stats, utils
+Suggests: sp, rgdal, maptools, tripack, gpclib, akima, maps, oz, mapdata
+Description: Hydrosanity provides a graphical user interface for exploring hydrological
+  time series. It is designed to work with catchment surface hydrology data 
+  (rainfall and streamflow); but it could also be used with other time series 
+  data. Hydrological time series typically have many missing values, and varying 
+  accuracy of measurement (indicated by data quality codes). Furthermore, the 
+  spatial coverage of data varies over time. Much of the functionality of this 
+  package attempts to understand these complex data-sets, detect errors and 
+  characterise sources of uncertainty. The emphasis is on graphical methods.
+  Hydrosanity's Graphical User Interface was based on Rattle by Graham Williams.
+License: GPL version 2 or newer
+URL: http://hydrosanity.googlecode.com/
+Packaged: Thu Sep  6 12:24:41 2007; Felix

@@ -1,0 +1,23 @@
+Package: longitudinalData
+Type: Package
+Title: Longitudinal Data
+Version: 2.1.2
+Date: 2012-12-01
+Authors@R:
+        c(person("Christophe","Genolini",role=c("cre","aut"),email="christophe.genolini@u-paris10.fr"))
+Description: Tools for longitudinal data and joint longitudinal data
+        (used by packages KmL and KmL3D).
+License: GPL (>= 2)
+LazyData: yes
+Depends: methods,clv,class,rgl,misc3d,utils
+URL: http:www.r-project.org
+Collate: global.r function.r partition.r listPartition.r parWindows.r
+        parLongData.r longData.r longData3d.r longDataPlot.r
+        imputCross.R imputTraj.R imputLinearInterpol.R imputCopyMean.R
+        imputation.r distanceFrechet.r
+Encoding: latin1
+Packaged: 2012-11-19 07:10:55 UTC; GENOLLINI
+Author: Christophe Genolini [cre, aut]
+Maintainer: Christophe Genolini <christophe.genolini@u-paris10.fr>
+Repository: CRAN
+Date/Publication: 2012-11-19 07:53:49

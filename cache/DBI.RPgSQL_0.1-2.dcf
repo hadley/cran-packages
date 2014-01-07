@@ -1,0 +1,13 @@
+Package: DBI.RPgSQL
+Version: 0.1-2
+Date: 2001-12-05
+Title: DBI front-end to RPgSQL
+Author: R Special Interest Group on Databases (R-SIG-DB)
+Maintainer: David A. James <dj@bell-labs.com>
+Depends: R (>= 1.4), methods, RPgSQL
+Description: A simple DBI front-end to the RPgSQL package.
+    This package uses version 4 style classes and methods
+    to create a front-end to the existing RPgSQL (version 1.0-0)
+    package.  
+License: GPL (version 2 or later)
+URL: http://developer.r-project.org/db

@@ -1,0 +1,11 @@
+Package: BootPR
+Type: Package
+Title: Bootstrap Prediction Intervals and Bias-Corrected Forecasting 
+Version: 0.55
+Date: 2008-04-18
+Author: Jae. H. Kim
+Maintainer: Jae H. Kim <Jae.Kim@BusEco.monash.edu.au>
+Depends: zoo, combinat
+Description: Bias-Corrected Forecasting and Bootstrap Prediction Intervals for Autoregressive Time Series
+License: GPL version 2 or newer
+Packaged: Sun Apr 20 12:37:17 2008; jaekim

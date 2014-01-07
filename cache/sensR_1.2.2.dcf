@@ -1,0 +1,19 @@
+Package: sensR
+Type: Package
+Title: Thurstonian models for sensory discrimination
+Version: 1.2.2
+Date: 2010-10-18
+Author: Rune Haubo B Christensen and Per Bruun Brockhoff
+Maintainer: Rune Haubo B Christensen <rhbc@imm.dtu.dk>
+Depends: numDeriv
+Suggests: MASS
+Description: Provides methods for sensory discrimination methods;
+        duotrio, triangle, 2-AFC, 3-AFC, A-not A, same-different and
+        2-AC. This enables the calculation of d-primes, standard errors
+        of d-primes and comparisons of different d-primes. Methods for
+        profile likelihood confidence intervals and plotting are
+        included.
+License: GPL-2 | GPL-3
+Packaged: 2010-10-18 06:50:19 UTC; rhbc
+Repository: CRAN
+Date/Publication: 2010-10-18 08:31:37

@@ -1,0 +1,23 @@
+Package: seqCBS
+Type: Package
+Title: CN Profiling using Sequencing and CBS
+Version: 1.2
+Date: 2010-05-18
+Author: Jeremy J. Shen, Nancy R. Zhang
+Maintainer: Jeremy J. Shen <jeremyjshen@gmail.com>
+Description: This is a method for DNA Copy Number Profiling using
+        Next-Generation Sequencing. It has new model and test
+        statistics based on non-homogeneous Poisson Processes with
+        change point models. It uses an adaptation of Circular Binary
+        Segmentation. Also included are methods for point-wise Bayesian
+        Confidence Interval and model selection method for the
+        change-point model. A case and a control sample reads (normal
+        and tumor) are required.
+License: GPL-2
+LazyLoad: yes
+Depends: R (>= 2.10), clue
+Repository: CRAN
+Repository/R-Forge/Project: seqcnv
+Repository/R-Forge/Revision: 10
+Date/Publication: 2012-10-29 08:59:40
+Packaged: 2012-10-29 08:59:40 UTC; ripley

@@ -1,0 +1,18 @@
+Package: margie
+Type: Package
+Title: Log Marginal Likelihood of Gaussian Mixture
+Version: 1.0
+Date: 2013-03-13
+Authors@R: c(person("Elisa",
+        "Loza",role=c("aut","cre"),email="elisa.loza@rothamsted.ac.uk"),
+        person("David", "Phillips",
+        role=c("aut","com"),email="david.phillips@rothamsted.ac.uk"))
+Maintainer: Elisa Loza <elisa.loza@rothamsted.ac.uk>
+Description: Calculates the Log Marginal Likelihood for a Normal
+        Mixture model for given data.
+License: GPL-3
+Packaged: 2013-03-22 12:10:03 UTC; lozae
+Author: Elisa Loza [aut, cre], David Phillips [aut, com]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-22 14:34:50

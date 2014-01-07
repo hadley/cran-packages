@@ -1,0 +1,15 @@
+Package: ror
+Version: 1.0
+Date: 2013-01-29
+Title: Robust Ordinal Regression MCDA library
+Author: Tommi Tervonen
+Maintainer: Tommi Tervonen <tommi@smaa.fi>
+Description: An R package for computing both exact- and stochastic
+        robust ordinal regression and maximal vectors.
+Depends: R (>= 2.7.0), rJava (>= 0.8-0), ROI (>= 0.0.7),
+        ROI.plugin.glpk (>= 0.0-1)
+SystemRequirements: Java (>= 1.5)
+License: GPL-3
+Packaged: 2013-01-29 14:58:59 UTC; tommi
+Repository: CRAN
+Date/Publication: 2013-01-29 16:35:40

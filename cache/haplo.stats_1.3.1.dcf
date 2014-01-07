@@ -1,0 +1,12 @@
+Package: haplo.stats
+Version: 1.3.1
+Date: 2007-6
+Title: Statistical Analysis of Haplotypes with Traits and Covariates when Linkage Phase is Ambiguous
+Author: Sinnwell JP, Schaid DJ, and  Yu, Z
+Maintainer: Jason P. Sinnwell <sinnwell.jason@mayo.edu>
+Description: A suite of S-PLUS/R routines for the analysis of indirectly measured haplotypes. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous (due to unknown linkage phase of the genetic markers). The main functions are:  haplo.em, haplo.glm and haplo.score.
+License: Copyright 2003 Mayo Foundation for Medical Education and Research. This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA. For other licensing arrangements, please contact Daniel J. Schaid, Ph.D., Division of Biostatistics, Harwick Building  Room 775, Mayo Clinic, 200 First St., SW, Rochester, MN 55905. Phone: 507-284-0639, fax: 507-284-9542 email: schaid@mayo.edu
+Depends: R (>= 2.4.1)
+Suggests: Design, Hmisc
+URL: http://mayoresearch.mayo.edu/mayo/research/schaid_lab/software.cfm
+Packaged: Thu Jun 14 08:44:38 2007; sinnwell

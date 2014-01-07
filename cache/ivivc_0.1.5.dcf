@@ -1,0 +1,14 @@
+Package: ivivc
+Version: 0.1.5
+Date: 2009-10-10
+Title: A data analysis tool for in vitro-in vivo correlation (IVIVC)
+Author: Hsin-ya Lee, Yung-jin Lee
+Maintainer: Yung-Jin Lee <mobilePK@gmail.com>
+Depends: R (>= 2.9.2), stats4, rgenoud, odesolve, reshape, sciplot
+Description: a menu-driven package for IVIVC model buidling and model
+        validation
+License: GPL (>= 2)
+URL: http://pkpd.kmu.edu.tw/ivivc
+Packaged: 2012-10-29 08:59:03 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:03

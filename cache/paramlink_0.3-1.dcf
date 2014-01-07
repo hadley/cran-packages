@@ -1,0 +1,17 @@
+Package: paramlink
+Type: Package
+Title: Parametric linkage analysis
+Version: 0.3-1
+Date: 2011-10-08
+Author: Magnus Dehli Vigeland
+Maintainer: Magnus Dehli Vigeland <magnusdv@medisin.uio.no>
+Description: Parametric pedigree analysis based on the Elston-Stewart
+        algorithm. Singlepoint LOD scores and power analysis for
+        diallelic markers. Also includes functions for manipulating and
+        plotting pedigrees and linkage results.
+Depends: R (>= 2.12), kinship
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-10-14 15:54:36 UTC; magnusdv
+Repository: CRAN
+Date/Publication: 2011-10-15 19:53:17

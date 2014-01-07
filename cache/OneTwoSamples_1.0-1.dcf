@@ -1,0 +1,24 @@
+Package: OneTwoSamples
+Type: Package
+Title: Deal with one and two (normal) samples
+Version: 1.0-1
+Date: 2013-04-27
+Author: Ying-Ying Zhang (Robert)
+Maintainer: Ying-Ying Zhang (Robert) <robertzhangyying@qq.com>
+Description: In this package, we introduce an R function
+        one_two_sample() which can deal with one and two (normal)
+        samples. For one normal sample x, the function reports
+        descriptive statistics, plot, interval estimation and test of
+        hypothesis of x. For two normal samples x and y, the function
+        reports descriptive statistics, plot, interval estimation and
+        test of hypothesis of x and y, respectively. It also reports
+        interval estimation and test of hypothesis of mu1-mu2 (the
+        difference of the means of x and y) and sigma1^2 / sigma2^2
+        (the ratio of the variances of x and y), tests whether x and y
+        are from the same population, finds the correlation coefficient
+        of x and y if x and y have the same length.
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2013-04-27 15:20:45 UTC; Administrator
+NeedsCompilation: no
+Date/Publication: 2013-04-28 07:58:32

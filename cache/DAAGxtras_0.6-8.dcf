@@ -1,0 +1,24 @@
+Package: DAAGxtras
+Version: 0.6-8
+Date: 2007-09-22
+Title: Data Sets and Functions, supplementary to DAAG
+Author: John Maindonald
+Maintainer: John Maindonald <john.maindonald@anu.edu.au>
+Description: various data sets used in additonal exercises for
+        the book Maindonald, J.H. and Braun, W.J. (2nd edn 2007)  
+        "Data Analysis and Graphics Using R", and for a 
+        'Data Mining' course.  Note especially the datasets 
+        nassCDS (airbag and other influences on US vehicle 
+        accident outcomes: 1997-2002), nswdemo and related datasets 
+        (US Labor Training Evaluation Data) rockArt (multivariate 
+        binary data on Pacific rock art) and hotspots (ages and 
+        distance from Kilauea of larval hotspots; c.f. also 
+        hotspots2006).
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.4.0)
+Suggests: DAAG
+ZipData: no
+License: Unlimited use and distribution.
+URL: http://www.maths.anu.edu.au/~johnm
+Packaged: Sat Sep 29 15:27:16 2007; johnm

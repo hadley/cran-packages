@@ -1,0 +1,14 @@
+Package: untb
+Type: Package
+Title: ecological drift under the UNTB
+Version: 1.2-5
+Date: 2005-10-26
+Author: Robin K. S. Hankin
+Depends: partitions
+Maintainer: Robin K. S. Hankin <r.hankin@noc.soton.ac.uk>
+Description: A collection of utilities for biodiversity data.
+  Includes the simulation of ecological drift under Hubbell's Unified
+  Neutral Theory of Biodiversity, and the calculation of various
+  diagnostics such as Preston curves.
+License: GPL
+Packaged: Thu Aug 31 21:37:24 2006; rksh

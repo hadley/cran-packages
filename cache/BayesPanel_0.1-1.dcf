@@ -1,0 +1,19 @@
+Package: BayesPanel
+Version: 0.1-1
+Date: 2010-01-10
+Title: Bayesian Methods for Panel Data Modeling and Inference
+Author: Chunhua Wu <chunhuawu@wustl.edu>, Siddhartha Chib
+        <chib@wustl.edu>
+Maintainer: Chunhua Wu <chunhuawu@wustl.edu>
+Depends: R (>= 2.5.0), MASS, coda, Formula
+SystemRequirements: Gnu Scientific Library version >= 1.12
+Description: This package contains functions for panel data modeling
+        and inference using Bayesian methods. It is a realization of
+        models described in Chib(2008): Panel Data Modeling and
+        Inference: A Bayesian Primer. Most functions utilized the GNU
+        Scientific Library (GSL).
+License: GPL-2
+URL: http://bayespanel.wustl.edu
+Packaged: 2010-03-18 08:28:14 UTC; hornik
+Repository: CRAN
+Date/Publication: 2010-03-18 08:30:17

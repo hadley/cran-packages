@@ -1,0 +1,13 @@
+Package: profileModel
+Type: Package
+Title: Tools for profiling inference functions for various model classes
+Version: 0.5-3
+Date: 2008-03-14
+Author: Ioannis Kosmidis <I.Kosmidis@warwick.ac.uk>
+Maintainer: Ioannis Kosmidis <I.Kosmidis@warwick.ac.uk>
+URL: http://go.warwick.ac.uk/kosmidis
+Description: profileModel provides tools that can be used to calculate, evaluate, plot and use for inference the profiles of *arbitrary* inference functions for *arbitrary* 'glm'-like fitted models with linear predictors.
+License: GPL (>= 2)
+Depends: R (>= 2.6.0)
+Suggests: MASS, gnm
+Packaged: Fri Mar 14 22:08:06 2008; yiannis

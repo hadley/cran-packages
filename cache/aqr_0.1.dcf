@@ -1,0 +1,19 @@
+Package: aqr
+Version: 0.1
+Date: 2012-11-01
+Title: Interface methods to access use an ActiveQuant Master Server
+Author: Ulrich Staudinger, ActiveQuant GmbH
+Maintainer: Ulrich Staudinger <ustaudinger@activequant.com>
+Depends: R (>= 2.1), xts, RCurl
+Suggests: RCurl
+Description: The ActiveQuant Master Server is a standalone application,
+        this R extension provides methods to use the server from within
+        R.
+License: GPL (>= 2)
+URL: http://www.activequant.org
+Repository: CRAN
+Repository/R-Forge/Project: aqr
+Repository/R-Forge/Revision: 9
+Repository/R-Forge/DateTimeStamp: 2012-11-08 18:08:05
+Date/Publication: 2012-11-09 03:14:22
+Packaged: 2012-11-08 19:21:41 UTC; rforge

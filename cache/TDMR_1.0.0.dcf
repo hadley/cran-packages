@@ -1,0 +1,28 @@
+Package: TDMR
+Type: Package
+Title: Tuned Data Mining in R
+Version: 1.0.0
+Date: 08.04.2013
+Author: Wolfgang Konen <wolfgang.konen@fh-koeln.de>, Patrick Koch
+        <patrick.koch@fh-koeln.de>
+Maintainer: Wolfgang Konen <wolfgang.konen@fh-koeln.de>
+Description: Tuned Data Mining in R (TDMR) performs a complete tuning
+        of a data mining task.
+License: GPL (>= 2)
+Depends: R (>= 2.14.0), SPOT, cmaes, e1071, powell, randomForest, rSFA,
+        rCMA, ROCR, adabag, parallel, twiddler
+Collate: 'makeTdmRandomSeed.r' 'printTDMclassifier.r'
+        'printTDMregressor.r' 'tdmBigLoop.r' 'tdmClassify.r'
+        'tdmClassifyLoop.r' 'tdmCompleteEval.r' 'tdmDefaultsFill.r'
+        'tdmDispatchTuner.r' 'tdmEmbedDataFrame.r' 'tdmEnvTMakeNew.r'
+        'tdmGeneralUtils.r' 'tdmGetObj.r' 'tdmGraphicUtils.r'
+        'tdmMapDesign.r' 'tdmMetacostRf.r' 'tdmModelingUtils.r'
+        'tdmOptsDefaults.r' 'tdmParaBootstrap.r' 'tdmPlotResMeta.r'
+        'tdmPreprocUtils.r' 'tdmReadData.r' 'tdmROCR.r' 'tdmRegress.r'
+        'tdmRegressLoop.r' 'tdmSplitTestData.r' 'tdmStartSpot.r'
+        'tdmStartOther.r' 'unbiasedBestRun_O.r' 'unbiasedRun.r'
+        'tdmExecSpotStep.r'
+Packaged: 2013-04-05 15:07:56 UTC; wolfgang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-05 17:38:33

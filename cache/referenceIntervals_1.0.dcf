@@ -1,0 +1,17 @@
+Package: referenceIntervals
+Type: Package
+Title: Reference Intervals
+Version: 1.0
+Date: 2013-08-10
+Author: Daniel Finnegan
+Maintainer: Daniel Finnegan <dan.finnegan@gmail.com>
+Depends: boot, extremevalues
+LazyData: true
+Description: This is a collection of tools to allow the medical professional to
+ calculate appropriate reference ranges (intervals) with confidence intervals around
+ the limits for diagnostic purposes.
+License: GPL-3
+Packaged: 2013-08-14 11:04:45 UTC; finny
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-15 07:08:58

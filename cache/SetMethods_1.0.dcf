@@ -1,0 +1,20 @@
+Package: SetMethods
+Type: Package
+Title: SetMethods: A Package Companion to "Set-Theoretic Methods for
+        the Social Sciences".
+Version: 1.0
+Date: 2013-05-17
+Author: Mario Quaranta
+Maintainer: Mario Quaranta <mquaranta@luiss.it>
+Description: SetMethods is a package companion to the book by C. Q.
+        Schneider and C. Wagemann "Set-Theoretic Methods for the Social
+        Sciences", Cambridge University Press. It contains some
+        additional functions not present in other packages and data to
+        replicate the examples in the book and in the online appendix.
+Depends: lattice, betareg, R (>= 2.14.0)
+Imports: lattice, betareg
+License: GPL-2
+Packaged: 2013-05-21 09:50:30 UTC; mario
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-21 14:52:42

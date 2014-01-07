@@ -1,0 +1,36 @@
+Package: rpf
+Type: Package
+Title: Response Probability Functions
+Version: 0.17
+Date: 2013-11-02
+Authors@R: c(person("Joshua",family="Pritikin", email="jpritikin@pobox.com",
+    role=c('cre','aut')), person("Jonathan",family="Weeks",
+    email="weeksjp@gmail.com", role=c('ctb')),
+    person("Li", family="Cai", role=c('ctb')), person("Carrie",
+    family="Houts", role=c('ctb')), person("Phil", "Chalmers", email =
+    "rphilip.chalmers@gmail.com", role = c("ctb")))
+Maintainer: Joshua Pritikin <jpritikin@pobox.com>
+Description: The purpose of this package is to factor out logic and math common
+    to Item Factor Analysis fitting, diagnostics, and analysis. It is
+    envisioned as core support code suitable for more specialized IRT packages
+    to build upon. Complete access to optimized C functions are made available
+    with R_RegisterCCallable.
+LazyData: yes
+LazyDataCompression: bzip2
+License: GPL (>= 3)
+Suggests: plink, testthat, roxygen2, ggplot2, reshape2, gridExtra,
+        numDeriv, knitr, mirt
+Depends: methods, mvtnorm, R (>= 2.14.0)
+VignetteBuilder: knitr
+Collate: 'classes.R' 'drm.R' 'nrm.R' 'mcm.R' 'grm.R' 'sample.R'
+        'diagnose.R' 'science.R' 'kct.R' 'flexmirt.R'
+URL: https://gitorious.org/rpf
+Packaged: 2013-11-02 16:06:05 UTC; joshua
+Author: Joshua Pritikin [cre, aut],
+  Jonathan Weeks [ctb],
+  Li Cai [ctb],
+  Carrie Houts [ctb],
+  Phil Chalmers [ctb]
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-02 18:07:29

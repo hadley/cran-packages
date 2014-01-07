@@ -1,0 +1,19 @@
+Package: cshapes
+Version: 0.1-1
+Date: 2009-08-07
+Title: CShapes Dataset and Utilities
+Author: Nils B. Weidmann <nils.weidmann@gmail.com>, Doreen Kuse
+        <doreen.kuse@gmail.com>, Kristian Skrede Gleditsch
+        <ksg@essex.ac.uk>
+Maintainer: Nils B. Weidmann <nils.weidmann@gmail.com>, Kristian Skrede
+        Gleditsch <ksg@essex.ac.uk>
+Depends: R (>= 2.8.0), sp, maptools, rJava
+SystemRequirements: Java (>= 1.5.0)
+LazyLoad: yes
+Description: Package for CShapes, a GIS dataset of country boundaries
+        (1946-2008). Includes functions for data extraction and the
+        computation of weights matrices.
+License: GPL (>= 2)
+Packaged: 2009-08-10 15:53:01 UTC; nilsw
+Repository: CRAN
+Date/Publication: 2009-08-13 08:58:16

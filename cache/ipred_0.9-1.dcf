@@ -1,0 +1,16 @@
+Package: ipred
+Title: Improved Predictors
+Version: 0.9-1
+Date: 2012-11-14
+Author: Andrea Peters and Torsten Hothorn
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Improved predictive models by indirect classification and
+        bagging for classification, regression and survival problems as
+        well as resampling based estimators of prediction error.
+Depends: R (>= 2.10), rpart (>= 3.1-8), MASS, survival, nnet, class,
+        prodlim
+Suggests: mvtnorm, mlbench
+License: GPL (>= 2)
+Packaged: 2012-11-14 11:21:46 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2012-11-14 11:45:04

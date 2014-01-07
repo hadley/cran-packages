@@ -1,0 +1,11 @@
+Package: elasticnet
+Version: 1.02
+Date: 2004-12-12
+Title: Elastic Net Regularization and Variable Selection
+Author: Hui Zou <hzou@stanford.edu> and Trevor Hastie <hastie@stanford.edu> 
+Maintainer: Hui Zou <hzou@stanford.edu>
+Depends: R, lars
+Description: Efficient procedures for fitting an entire elastic net sequence. The elastic net methodology is described in the paper below. The package also implements the sparse PCA algorithm based on the elastic net/lasso. 
+License: GPL version 2 or newer
+URL: http://www-stat.stanford.edu/~hzou/PAPERS/enet.pdf and http://www-stat.stanford.edu/~hzou/PAPERS/sparsepc.pdf
+Packaged: Wed Dec 15 01:05:28 2004; hzou

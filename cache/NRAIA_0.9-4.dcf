@@ -1,0 +1,12 @@
+Package: NRAIA
+Version: 0.9-4
+Date: 2007-02-26
+Title: Data sets from "Nonlinear Regression Analysis and Its Applications"
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Author:  R port by Douglas Bates <bates@stat.wisc.edu>
+Description: Datasets from Bates and Watts (1988) "Nonlinear Regression
+         Analysis and Its Applications" with sample code.
+Depends: lattice, stats, grid
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Mon Feb 26 21:19:40 2007; bates

@@ -1,0 +1,17 @@
+Package: IFP
+Version: 0.0.3
+Date: 2010-2-18
+Title: Identifying functional polymorphisms in genetic association
+        studies
+Author: Leeyoung Park
+Maintainer: Leeyoung Park <lypark@yonsei.edu>
+Depends: R (>= 2.7.0), haplo.stats
+Suggests:
+Description: A suite for identifying causal polymorphisms in
+        case-control genetic association data, especially with large
+        controls re-sequenced data.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2012-10-29 08:57:09 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:09

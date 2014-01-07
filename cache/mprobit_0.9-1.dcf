@@ -1,0 +1,15 @@
+Package:	mprobit
+Version:	0.9-1
+Date:		2006-05-30
+Title:		Multivariate probit model for binary/ordinal response
+Author:		Harry Joe <harry@stat.ubc.ca>, Laing Wei Chou and Hongbin Zhang
+Maintainer:	Hongbin Zhang <hongbinzhang711@yahoo.com>
+Depends:	R (>= 1.8.0) 
+Description:	Multivariate normal rectangle probabilities (positive
+		exchangeable, general, approximations);
+		MLE of regression and correlation
+		parameters in the multivariate binary/ordinal probit models:
+		exchangeable, AR(1), and unstructured correlation matrix. 
+LazyLoad:	yes
+License:	GPL version 2 or newer 
+Packaged: Tue May 30 08:43:11 2006; Hongbin

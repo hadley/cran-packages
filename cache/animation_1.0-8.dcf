@@ -1,0 +1,22 @@
+Package: animation
+Type: Package
+Title: Demonstrate Animations in Statistics
+Version: 1.0-8
+Date: 2009-11-15
+Author: Yihui Xie
+Maintainer: Yihui Xie <xie@yihui.name>
+Description: This package consists of various functions for animations
+        in statistics, covering many areas such as probability theory,
+        mathematical statistics, multivariate statistics, nonparametric
+        statistics, sampling survey, linear models, time series,
+        computational statistics, data mining and machine learning.
+        These functions might be of help in teaching statistics and
+        data analysis.
+Depends: MASS
+License: GPL-2 | GPL-3
+URL: http://animation.yihui.name
+Repository: CRAN
+Repository/R-Forge/Project: animation
+Repository/R-Forge/Revision: 92
+Date/Publication: 2009-11-06 17:09:40
+Packaged: 2009-11-05 21:05:57 UTC; rforge

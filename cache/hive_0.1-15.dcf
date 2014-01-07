@@ -1,0 +1,24 @@
+Package: hive
+Version: 0.1-15
+Date: 2012-06-22
+Title: Hadoop InteractiVE
+Description: Hadoop InteractiVE, is an R extension facilitating
+        distributed computing via the MapReduce paradigm. It provides
+        an easy to use interface to Hadoop, the Hadoop Distributed File
+        System (HDFS), and Hadoop Streaming.
+Authors@R: c(person("Ingo", "Feinerer", role = "aut"), person("Stefan",
+        "Theussl", role = c("aut", "cre"), email =
+        "Stefan.Theussl@R-project.org"))
+License: GPL-3
+Imports: rJava (>= 0.9-3), tools, XML
+Depends: R (>= 2.9.0)
+Suggests: rJava (>= 0.9-3)
+Enhances: HadoopStreaming
+SystemRequirements: Hadoop core >= 0.19.1 and <= 1.0.3
+        (http://hadoop.apache.org/core/) or CDH3
+        (http://www.cloudera.com); standard unix tools (e.g., chmod)
+Packaged: 2012-06-22 12:59:47 UTC; theussl
+Author: Ingo Feinerer [aut], Stefan Theussl [aut, cre]
+Maintainer: Stefan Theussl <Stefan.Theussl@R-project.org>
+Repository: CRAN
+Date/Publication: 2012-06-22 13:26:00

@@ -1,0 +1,21 @@
+Package: UScensus2000
+Type: Package
+Title: US Census 2000 Suite of R Packages
+Version: 0.04
+Date: 2009-11-11
+Author: Zack W. Almquist <almquist@uci.edu>
+Maintainer: Zack W. Almquist <almquist@uci.edu>
+Description: US 2000 Census shape files and additional demographic data
+        from the SF1 100 percent files. This package contains a number
+        of helper functions for the UScensus2000blk,
+        UScensus2000blkgrp, UScensus2000tract, UScensus2000cdp
+        packages.
+License: GPL (>= 2)
+Depends: R (>= 2.10), maptools, sp, foreign, methods, grDevices, base,
+        stats, utils, UScensus2000tract, UScensus2000cdp, gpclib
+Suggests: rgdal
+LazyLoad: yes
+URL: http://disasternets.calit2.uci.edu/census2000/
+Packaged: 2010-01-28 15:15:59 UTC; zack
+Repository: CRAN
+Date/Publication: 2010-01-28 16:22:15

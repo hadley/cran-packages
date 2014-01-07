@@ -1,0 +1,21 @@
+Package: tuneR
+Version: 0.4-0
+Date: 2010-06-29
+Title: Analysis of music and speech
+Author: Uwe Ligges <ligges@statistik.tu-dortmund.de> with contributions
+        from Sebastian Krey, Olaf Mersmann, Andrea Preusser, and Claus
+        Weihs, as well as code fragments and ideas from the former
+        package 'sound' by Matthias Heymann and functions from
+        'rastamat' by Daniel P. W. Ellis.
+Maintainer: Uwe Ligges <ligges@statistik.tu-dortmund.de>
+Depends: R (>= 2.10.0), methods
+Suggests: pastecs
+Imports: signal
+Description: Collection of tools to analyze music, extract features
+        like MFCCs, handling wave files, read mp3, transcription, ...
+        Also contains functions ported from the rastamat Matlab
+        package.
+License: GPL-2
+Packaged: 2011-06-29 10:02:19 UTC; ligges
+Repository: CRAN
+Date/Publication: 2011-06-29 12:04:27

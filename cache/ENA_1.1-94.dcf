@@ -1,0 +1,23 @@
+Package: ENA
+Type: Package
+Title: Ensemble Network Aggregation
+Version: 1.1-94
+Date: 2012-07-17
+Author: Jeffrey D. Allen <Jeffrey.Allen@UTSouthwestern.edu>
+Maintainer: Jeffrey D. Allen <Jeffrey.Allen@UTSouthwestern.edu>
+Depends: R (>= 2.13.0)
+Suggests: parmigene (>= 1.0), snow (>= 0.3), space (>= 0.1), WGCNA (>=
+        1.20), GeneNet(>= 1.2.5)
+Description: Ensemble network aggregation is an approach which
+        leverages the inverse-rank-product (IRP) method to combine
+        networks. This package provides the capabilities to use IRP to
+        bootstrap a dataset using a single method, to aggregate the
+        networks produced by multiple methods, or to aggregate the
+        networks produced on different datasets.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'bootstrap.R' 'buildAracne.R' 'buildGenenet.R' 'buildSpace.R'
+        'buildWgcna.R' 'ena.R' 'symmetricize.R' 'getTableAddressing.R'
+Packaged: 2012-07-17 19:12:39 UTC; jalle6
+Repository: CRAN
+Date/Publication: 2012-07-18 08:21:23

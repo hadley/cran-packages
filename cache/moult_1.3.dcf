@@ -1,0 +1,19 @@
+Package: moult
+Version: 1.3
+Date: 2013-08-08
+Title: Models for Analysing Moult in Birds
+Author: Birgit Erni <birgit.erni@uct.ac.za>. Based on models 
+	developed by Underhill and Zucchini (1988, 1990).
+Maintainer: Birgit Erni <birgit.erni@uct.ac.za>
+Imports: Formula
+Description: Functions to estimate start and duration of moult from moult 
+             data (of types 1 to 5), based on models developed in Underhill 
+             and Zucchini (1988, 1990). Allows modelling parameters as 
+             functions of covariates. 
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-08-08 08:55:07 UTC; birgit
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-08 12:02:02

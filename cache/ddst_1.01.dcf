@@ -1,0 +1,11 @@
+Package: ddst
+Type: Package
+Title: Data driven smooth test
+Version: 1.01
+Date: 2008-08-08
+Author: Przemyslaw Biecek (R code), Teresa Ledwina (support, descriptions)
+Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
+Description: Support for data driven testing
+License: GPL-2
+Depends: R (>= 2.1.0), orthopolynom, evd
+Packaged: Sun Sep 28 02:33:02 2008; przemek

@@ -1,0 +1,19 @@
+Package: PCICt
+Version: 0.5-3
+Date: 2013-02-06
+Title: Implementation of POSIXct work-alike for 365 and 360 day
+        calendars.
+Author: David Bronaugh <bronaugh@uvic.ca> for the Pacific Climate
+        Impacts Consortium (PCIC); portions based on code written by
+        the R-Core team and Ulrich Drepper.
+Maintainer: David Bronaugh <bronaugh@uvic.ca>
+Depends: R (>= 2.12.0), methods, graphics, RUnit
+Suggests:
+Description: This package implements a work-alike to R's POSIXct class
+        which implements 360- and 365-day calendars in addition to the
+        gregorian calendar.
+License: GPL-2
+URL: http://www.r-project.org
+Packaged: 2013-02-07 08:27:40 UTC; bronaugh
+Repository: CRAN
+Date/Publication: 2013-02-07 13:11:03

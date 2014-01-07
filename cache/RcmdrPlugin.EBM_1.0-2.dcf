@@ -1,0 +1,18 @@
+Package: RcmdrPlugin.EBM
+Type: Package
+Title: Rcmdr Evidence Based Medicine Plug-In package
+Version: 1.0-2
+Date: 2012-04-22
+Author: Daniel-Corneliu Leucuta <danny.ldc@gmail.com>
+Maintainer: Daniel-Corneliu Leucuta <danny.ldc@gmail.com>
+Depends: R (>= 2.10), Rcmdr (>= 1.7.0), epiR, abind
+Description: This package provides an Rcmdr plug-in GUI extension for
+        Evidence Based Medicine medical indicators calculations
+        (Sensitivity, specificity, absolute risk reduction, relative
+        risk, ...).
+License: GPL (>= 2)
+Log-Exceptions:
+Models:
+Packaged: 2012-06-03 09:58:01 UTC; danny
+Repository: CRAN
+Date/Publication: 2012-06-03 10:25:37

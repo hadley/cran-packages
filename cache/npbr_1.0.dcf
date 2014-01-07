@@ -1,0 +1,14 @@
+Package: npbr
+Type: Package
+Title: Nonparametric boundary regression
+Version: 1.0
+Date: 2013-11-26
+Author: Abdelaati Daouia <Abdelaati.Daouia@tse-fr.eu>, Thibault Laurent <thibault.laurent@univ-tlse1.fr>, Hohsuk Noh <word5810@gmail.com>
+Maintainer: Thibault Laurent <thibault.laurent@univ-tlse1.fr>
+Depends: R (>= 2.9.1), splines, graphics, Rglpk, Benchmarking
+Description: This package provides functions for the best known approaches to nonparametric boundary estimation.  The selected methods are concerned with empirical, smooth, unconstrained as well as restricted estimates under  both separate and multiple shape constraints.  The package also allows for Monte Carlo comparisons among these different estimation procedures, illustrating the simulation experiments by Daouia, Noh and Park (2013),  Data envelope fitting with constrained polynomial splines, TSE Working Paper, http://www.tse-fr.eu/images/doc/wp/etrie/wp_tse_449.pdf
+License: GPL (>= 2)
+Packaged: 2013-12-11 18:26:26 UTC; laurent
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-12 01:35:35

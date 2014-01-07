@@ -1,0 +1,11 @@
+Package:     npmc
+Title:       Nonparametric Multiple Comparisons
+Description: Provides simultaneous rank test procedures for the one-way layout 
+             without presuming a certain distribution.
+Version: 1.0-2
+Depends: mvtnorm, stats, R (>= 2.0.0)
+Date: 2005-10-25
+Author: Joerg Helms, Ullrich Munzel
+Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+License: GPL  version 2 or later
+Packaged: Mon Oct 24 08:44:55 2005; halvorsen

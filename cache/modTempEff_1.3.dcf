@@ -1,0 +1,15 @@
+Package: modTempEff
+Type: Package
+Title: Modelling temperature effects using time series data
+Version: 1.3
+Date: 2009-11-18
+Author: Vito M. R. Muggeo
+Maintainer: Vito M.R. Muggeo <vito.muggeo@unipa.it>
+Description: Fits a Constrained Segmented Distributed Lag regression
+        model to epidemiological time series of mortality, temperature,
+        and other confounders.
+Depends: mgcv, splines
+License: GPL
+Packaged: 2009-11-21 00:41:36 UTC; PcVito
+Repository: CRAN
+Date/Publication: 2009-11-22 16:20:57

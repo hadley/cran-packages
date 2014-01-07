@@ -1,0 +1,16 @@
+Package: treemap
+Type: Package
+Title: Treemap visualization
+Version: 0.10
+Date: 2010-11-22
+Author: Martijn Tennekes
+Maintainer: Martijn Tennekes <mtennekes@gmail.com>
+Description: With this package, different kind of treemaps can be
+        generated such as comparison treemaps and density treemaps.
+        Further, it is possible to show small multiples.
+License: GPL-3
+LazyLoad: yes
+Depends: grid,RColorBrewer,plyr
+Packaged: 2010-11-22 11:56:47 UTC; Vontijn
+Repository: CRAN
+Date/Publication: 2010-11-22 14:31:50

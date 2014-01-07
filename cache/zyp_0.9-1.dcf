@@ -1,0 +1,18 @@
+Package: zyp
+Version: 0.9-1
+Date: 2009-01-07
+Title: Zhang + Yue-Pilon trends package
+Author: David Bronaugh <bronaugh@uvic.ca>, Arelia Werner
+        <wernera@uvic.ca> for the Pacific Climate Impacts Consortium
+Maintainer: David Bronaugh <bronaugh@uvic.ca>
+Depends: R (>= 2.4.0), Kendall
+Suggests:
+Description: The zyp package contains an efficient implementation of
+        Sen's slope method plus implementation of Xuebin Zhang's
+        (Zhang, 1999) and Yue-Pilon's (Yue, 2002) prewhitening
+        approaches to determining trends in climate data.
+License: LGPL-2.1
+URL: http://www.r-project.org
+Packaged: 2012-10-29 09:00:03 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 09:00:03

@@ -1,0 +1,17 @@
+Package: ScottKnott
+Type: Package
+Title: The ScottKnott Clustering Algoritm
+Version: 1.1-3
+Date: 2012-04-02
+Author: Enio Jelihovschi <eniojelihovs@gmail.com>, Jose Claudio Faria
+        <joseclaudio.faria@gmail.com> and Sergio Oliveira
+        <solive@uesc.br>
+Maintainer: Enio Jelihovschi <eniojelihovs@gmail.com>
+Depends: R (>= 2.6.0), stats, base
+Description: Division of an ANOVA experiment treatment means into
+        homogeneous distinct groups using the clustering method of
+        Scott & Knott
+License: GPL (>= 2)
+Packaged: 2012-04-02 20:54:42 UTC; jcfaria
+Repository: CRAN
+Date/Publication: 2012-04-03 07:09:36

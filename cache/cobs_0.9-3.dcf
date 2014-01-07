@@ -1,0 +1,11 @@
+Package: cobs
+Version: 0.9-3
+Title: COBS -- Constrained B-splines
+Author: Pin T. Ng <Pin.Ng@nau.edu> and Xuming He, U. Illinois;
+	R port by Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Qualitatively Constrained (Regression) Smoothing via Linear
+	     Programming
+URL: http://www.cba.nau.edu/pin-ng/cobs.html
+Depends: R (>= 1.5.0)
+License: GPL version 2 or later

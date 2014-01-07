@@ -1,0 +1,23 @@
+Package: DoE.wrapper
+Title: Wrapper package for design of experiments functionality
+Version: 0.8-5
+Depends: R(>= 2.10.0), FrF2(>= 1.2-3), DoE.base(>= 0.21-2), rsm, lhs,
+        DiceDesign, AlgDesign(>= 1.1)
+Date: 2011-11-07
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@bht-berlin.de>
+Description: This package creates various kinds of designs for
+        (industrial) experiments. It uses, and sometimes enhances,
+        design generation routines from other packages. 
+        So far, response surface designs from package rsm, latin hypercube
+        samples from packages lhs and DiceDesign, and 
+        D-optimal designs from package AlgDesign have been implemented.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: latin1
+URL: http://prof.beuth-hochschule.de/groemping/DoE/,
+        http://prof.beuth-hochschule.de/groemping/
+Packaged: 2011-11-07 15:20:26 UTC; Grömping
+Repository: CRAN
+Date/Publication: 2011-11-07 16:23:41

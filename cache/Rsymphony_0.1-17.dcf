@@ -1,0 +1,28 @@
+Package: Rsymphony
+Version: 0.1-17
+Title: Symphony in R
+Description: An R interface to the SYMPHONY MILP solver. The package code links to the local SYMPHONY installation. 
+	     If no installation is found by the configure script, version 5.4.7 will be installed from the included SYMPHONY sources.
+Authors@R: c(person("Reinhard", "Harter", role = "aut"),
+             person("Kurt", "Hornik", role = c("aut", "cre"),
+                    email = "Kurt.Hornik@R-project.org"),
+             person("Stefan", "Theussl", role = "aut"),
+             person("Cyrille", "Szymanski", role = "ctb",
+                    email = "cnszym@gmail.com"))
+License: EPL
+Depends: R (>= 2.6.0)
+Enhances: slam
+SystemRequirements: SYMPHONY for Windows (sources included for other
+        OSes)
+URL: http://R-Forge.R-project.org/projects/rsymphony,
+        https://projects.coin-or.org/SYMPHONY,
+        http://www.coin-or.org/download/source/SYMPHONY/
+Packaged: 2013-11-13 17:16:04 UTC; hornik
+Author: Reinhard Harter [aut],
+  Kurt Hornik [aut, cre],
+  Stefan Theussl [aut],
+  Cyrille Szymanski [ctb]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-13 21:09:27

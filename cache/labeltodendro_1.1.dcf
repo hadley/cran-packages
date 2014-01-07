@@ -1,0 +1,19 @@
+Package: labeltodendro
+Version: 1.1
+Date: 2009-02-20
+Title: Convert labels or tables to a dendrogram
+Author: Vahid PARTOVI NIA, Anthony Davison, and Arpit Chaudhary
+Maintainer: Vahid PARTOVI NIA <labeltodendro@probstat.ch>
+Depends: R (>= 2.8.1)
+Description: The package offers a dendrogram representation of series
+        of labels, this is specially needed in Markov chain Monte Carlo
+        clustering. If you have a dendrogram in your mind you can
+        easily put series of meaningful labels in a matrix and heights
+        in a vector, then convert them to a dendrogram abject.
+License: GPL (>= 2)
+URL: http://labeltodendro.probstat.ch
+Repository: CRAN
+Repository/R-Forge/Project: labeltodendro
+Repository/R-Forge/Revision: 11
+Date/Publication: 2012-10-29 08:59:04
+Packaged: 2012-10-29 08:59:04 UTC; ripley

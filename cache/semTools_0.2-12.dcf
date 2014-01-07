@@ -1,0 +1,41 @@
+Package: semTools
+Type: Package
+Title: Useful tools for structural equation modeling.
+Version: 0.2-12
+Date: 2013-01-01
+Authors@R: c(person("Sunthud", "Pornprasertmanit", role = c("aut",
+        "cre"), email = "psunthud@ku.edu"), person("Patrick", "Miller",
+        role = "aut", email="patr1ckm@ku.edu"), person("Alexander",
+        "Schoemann", role = "aut", email="schoemann@ku.edu"),
+        person("Yves", "Rosseel", role = "aut",
+        email="Yves.Rosseel@UGent.be"), person("Corbin", "Quick", role
+        = "ctb", email="corbinq@ku.edu"), person("Mauricio",
+        "Villarreal", role = "ctb", email="mgv@ku.edu"),
+        person("James", "Selig", role = "ctb", email="selig@unm.edu"),
+        person("Aaron", "Boulton", role = "ctb",
+        email="aboulton@ku.edu"), person("Kristopher", "Preacher", role
+        = "ctb", email="kris.preacher@vanderbilt.edu"), person("Donna",
+        "Coffman", role = "ctb", email="dlc30@psu.edu"),
+        person("Mijke", "Rhemtulla", role = "ctb",
+        email="mijke@ku.edu"), person("Alexander", "Robitzsch", role =
+        "ctb", email="a.robitzsch@bifie.at"), person("Craig", "Enders",
+        role = "ctb", email="Craig.Enders@asu.edu"), person("Ruber",
+        "Arslan", role = "ctb", email="rubenarslan@gmail.com") )
+Author: Sunthud Pornprasertmanit [aut, cre], Patrick Miller [aut], Alex
+        Schoemann [aut], Yves Rosseel [aut], Corbin Quick [ctb],
+        Mauricio Garnier-Villarreal [ctb], James Selig [ctb], Aaron
+        Boulton [ctb], Kristopher Preacher [ctb], Donna Coffman [ctb],
+        Mijke Rhemtulla [ctb], Alexander Robitzsch [ctb], Craig Enders
+        [ctb], Ruber Arslan [ctb]
+Maintainer: Sunthud Pornprasertmanit <psunthud@ku.edu>
+Depends: R(>= 2.15), MASS, lavaan, methods
+Suggests: parallel, Amelia, mice, foreign
+Description: This package provide useful tools for structural equation
+        modeling analysis.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+URL: https://github.com/simsem/semTools/wiki
+Packaged: 2013-01-01 20:14:08 UTC; sunthud
+Repository: CRAN
+Date/Publication: 2013-01-02 07:54:53

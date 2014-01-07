@@ -1,0 +1,15 @@
+Package: kmconfband
+Type: Package
+Title: Kaplan-Meier Simultaneous Confidence Band for the Survivor
+        Function
+Version: 0.1
+Date: 2013-10-23
+Author: David E. Matthews <dematthews@uwaterloo.ca>
+Maintainer: David E. Matthews <dematthews@uwaterloo.ca>
+Description: Computes and plots an exact nonparametric band for any user-specified level of confidence from a single-sample survfit object
+License: GPL (>= 2)
+Depends: R (>= 2.14.0), graphics, survival
+Packaged: 2013-10-25 13:24:36 UTC; Operating
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-25 17:49:25

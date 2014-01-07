@@ -1,0 +1,33 @@
+Package: rngSetSeed
+Type: Package
+Title: Initialization of the R base random number generator
+        Mersenne-Twister with a vector of an arbitrary length.
+Version: 0.2-3
+Date: 2012-03-08
+Author: Petr Savicky
+Maintainer: Petr Savicky <savicky@cs.cas.cz>
+Description: The package provides a function setVectorSeed(vseed). Its
+        argument is a vector of arbitrary nonzero length, including
+        length 1, whose components have integer values from [0, 2^32-1]
+        and which is used to initialize the R base Mersenne-Twister
+        random number generator.  In order to guarantee that different
+        input vectors yield unrelated streams of random numbers, a
+        random number generator based on AES (Advanced Encryption
+        Standard) is used for the transformation of vseed into the
+        initial state of Mersenne-Twister.  Due to the use of AES, the
+        function provides a better alternative to R base function
+        set.seed() even if vseed is a single integer.  Initializing
+        random number stream with a vector including a reproducible
+        index of an R process allows to use reproducible and unrelated
+        streams of random numbers in several independent R processes.
+        The package contains test scripts, which verify its
+        installation by comparing the output with a stored precomputed
+        one and by comparing the encryption provided by C-level AES
+        with an implementation of AES at the R-level, which is included
+        for test purposes. See CRAN package "randaes" for a random
+        number generator based purely on AES.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-03-08 09:26:36 UTC; savicky
+Repository: CRAN
+Date/Publication: 2012-03-08 14:22:01

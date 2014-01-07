@@ -1,0 +1,21 @@
+Package: dbConnect
+Type: Package
+Title: Provides a graphical user interface to connect with databases
+        that use MySQL.
+Version: 1.0
+Date: 2011-01-02
+Author: Dason Kurkiewicz, Heike Hofmann, Ulrike Genschel
+Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
+Description: Using widgets provided by gWidgets this creates a nice
+        usable interface to help facilitate the learning of SQL.  It
+        also just gives a nice interface for more advanced users.  Not
+        all features are provided in the GUI but it is possible for
+        more advanced users to achieve these goals inside the GUI.
+License: GPL
+Depends: RMySQL, gWidgets
+Suggests: gWidgetsRGtk2
+LazyLoad: yes
+Collate: 'DatabaseConnector9.R'
+Packaged: 2012-10-29 08:58:32 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:32

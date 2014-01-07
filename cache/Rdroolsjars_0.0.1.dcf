@@ -1,0 +1,15 @@
+Package: Rdroolsjars
+Version: 0.0.1
+Date: 2011-11-24
+Title: Rdrools jars
+Author: SMS Chauhan
+Maintainer: SMS Chauhan <smschauhan@gmail.com>
+Description: External jars required for package Rdrools.
+Imports: rJava (>= 0.6-0)
+Depends: R (>= 2.11.0), rJava (>= 0.6-0)
+SystemRequirements: Java (>= 5.0)
+License: LGPL-3
+LazyLoad: yes
+Packaged: 2011-11-25 15:53:16 UTC; Sms.Chauhan
+Repository: CRAN
+Date/Publication: 2011-11-26 07:41:52

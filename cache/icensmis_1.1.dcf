@@ -1,0 +1,14 @@
+Package: icensmis
+Type: Package
+Title: Study Design and Data Analysis in the presence of error-prone
+        diagnostic tests and self-reported outcomes
+Version: 1.1
+Date: 2013-10-31
+Author: Xiangdong Gu and Raji Balasubramanian
+Maintainer: Xiangdong Gu <xdgu@schoolph.umass.edu>
+Description: We consider studies in which information from error-prone diagnostic tests or self-reports are gathered sequentially to determine the occurrence of a silent event. Using a likelihood-based approach incorporating the proportional hazards assumption, we provide functions to estimate the survival distribution and covariate effects. We also provide functions for power and sample size calculations for this setting. 
+License: GPL (>= 2)
+Packaged: 2013-11-02 04:15:40 UTC; Xiangdong
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-02 08:12:32

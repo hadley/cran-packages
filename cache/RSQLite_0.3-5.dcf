@@ -1,0 +1,15 @@
+Package: RSQLite
+Version: 0.3-5
+Date: 2005-01-30
+Title: SQLite interface for R
+Author: David A. James <dj@bell-labs.com>
+Maintainer: David A. James <dj@bell-labs.com>
+Description: Database Interface R driver for SQLite
+   This package embeds the SQLite database engine in R and
+   provides an interface compliant with the DBI version 0.1-7.
+   The source for the SQLite engine (version 2.8.6) is included here.
+Depends: R (>= 1.7.1), methods, DBI (>= 0.1-7)
+License: LGPL version 2 or newer
+URL: http://stat.bell-labs.com/RS-DBI 
+     http://www.sqlite.org
+Packaged: Sun Jan 30 22:18:51 2005; dj

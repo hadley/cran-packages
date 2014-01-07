@@ -1,0 +1,11 @@
+Package: qlspack
+Version: 1.0-1
+Date: 2007-07-13
+Title: Quasi Least Square Package
+Author: Jichun Xie <jichun@mail.med.upenn.edu>, Justine Shults <jshults@mail.med.upenn.edu>
+Maintainer: Jichun Xie <jichun@mail.med.upenn.edu>
+Depends: R (>= 2.4.1), geepack (>= 1.0-12)
+Description: QLS is a two-stage computational approach for estimation of the correlation parameters within the framework of GEE. It helps solving parameters in mean, scale, and correlation structures for longitudinal data.
+License: GPL (>= 2)
+URL: http://www.cceb.upenn.edu/~sratclif/QLSproject.html
+Packaged: Fri Jun 20 23:32:36 2008; jxie

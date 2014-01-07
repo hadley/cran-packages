@@ -1,0 +1,12 @@
+Package: caMassClass
+Version: 1.6
+Date: Feb 01 2007
+Title: Processing & Classification of Protein Mass Spectra (SELDI) Data
+Author: Jarek Tuszynski <jaroslaw.w.tuszynski@saic.com>
+Maintainer: Jarek Tuszynski <jaroslaw.w.tuszynski@saic.com>
+Depends: R (>= 2.0.0), PROcess, e1071, nnet, rpart, caTools, XML, digest, MASS
+Description: Functions for processing and classification of protein mass 
+  spectra (SELDI) data. Also includes support for mzXML Files.
+License: The caMassClass Software License, Version 1.0 (See COPYING file or 
+  "http://ncicb.nci.nih.gov/download/camassclasslicense.jsp")
+Packaged: Thu Feb  1 13:14:21 2007; tuszynskij

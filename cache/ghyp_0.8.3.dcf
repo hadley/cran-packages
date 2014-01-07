@@ -1,0 +1,14 @@
+Package: ghyp
+Type: Package
+Title: A package on generalized hyperbolic distributions
+Version: 0.8.3
+Date: 2007-02-28
+Author: Wolfgang Breymann, David Lüthi
+Maintainer: David Lüthi <david.luethi@zhwin.ch>
+LazyLoad: yes
+LazyData: no
+SaveImage: no
+Depends:  R(>= 2.4), methods, numDeriv, graphics, gplots
+Description: This package provides all about univariate and multivariate generalized hyperbolic distributions. Especially fitting procedures, computation of the density, quantile, probability, random variates, expected shortfall and some portfolio optimization and plotting routines. In addition the generalized inverse gaussian distribution is contained in this package.
+License: GPL (GNU Public Licence), Version 2 or later
+Packaged: Wed Feb 28 09:05:55 2007; lud

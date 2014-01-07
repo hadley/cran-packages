@@ -1,0 +1,14 @@
+Package: CDNmoney
+Version: 2012.4-1
+Title: Components of Canadian Monetary and Credit Aggregates
+Description: Components of Canadian Credit Aggregates and Monetary
+        Aggregates with continuity adjustments.
+Depends: R (>= 2.10)
+Suggests: tframe (>= 2006.1-1), tfplot
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Packaged: 2012-04-09 22:56:25 UTC; paul
+Repository: CRAN
+Date/Publication: 2012-05-03 05:52:25

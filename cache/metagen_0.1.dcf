@@ -1,0 +1,19 @@
+Package: metagen
+Title: Generalised Inference in the Random Effects Meta Regression
+        Model
+Description: Provides methods for making inference in the random
+        effects meta regression model, such as point estimates and
+        confidence intervals for the heterogeneity parameter and the
+        regression coefficients vector.
+Author: Thomas Friedrich <friedrich@statistik.tu-dortmund.de>
+Maintainer: Thomas Friedrich <friedrich@statistik.tu-dortmund.de>
+License: BSD
+Imports: MASS, plyr, BBmisc
+Suggests: metafor
+LazyData: yes
+ByteCompile: yes
+Version: 0.1
+Collate: 'helpers.R' 'metagen.R' 'zzz.R'
+Packaged: 2012-11-29 11:13:24 UTC; friedrich
+Repository: CRAN
+Date/Publication: 2012-11-29 11:50:51

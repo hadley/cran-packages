@@ -1,0 +1,24 @@
+Package: aqp
+Version: 1.5-2
+Date: 2013-04-08
+Packaged: 2013-04-12 02:15:52 UTC; rforge
+Title: Algorithms for Quantitative Pedology
+Author: Dylan Beaudette <debeaudette@ucdavis.edu>, Pierre Roudier
+        <roudierp@landcareresearch.co.nz>
+Maintainer: Dylan Beaudette <debeaudette@ucdavis.edu>
+Depends: R (>= 2.14.0)
+Imports: methods, plyr, reshape, grid, lattice, cluster, sp, Hmisc,
+        stringr, scales, plotrix
+Suggests: RColorBrewer, colorspace, maptools, foreign, MASS, ape,
+        rgeos, soilDB, latticeExtra, digest, lattice, maps
+Description: A collection of algorithms related to modeling of soil
+        resources, soil classification, soil profile aggregation, and
+        visualization.
+License: GPL (>= 2)
+Repository: CRAN
+URL: http://aqp.r-forge.r-project.org/
+Repository/R-Forge/Project: aqp
+Repository/R-Forge/Revision: 701
+Repository/R-Forge/DateTimeStamp: 2013-04-12 00:49:40
+Date/Publication: 2013-04-18 21:19:08
+NeedsCompilation: no

@@ -1,0 +1,18 @@
+Package: datautils
+Version: 0.1.3
+Date: 2013-03-06
+Author: Pierrick Bruneau
+Maintainer: Pierrick Bruneau <pbruneau@gmail.com>
+Title: Support functions for packages VBmix, semisupKernelPCA, and
+        patchPlot.
+Description: Support functions for packages VBmix, semisupKernelPCA,
+        and patchPlot.
+Depends: R (>= 2.10.0), gplots, deldir
+Imports:
+LazyLoad: yes
+LazyData: yes
+License: LGPL-3
+Packaged: 2013-03-11 10:14:26 UTC; bruneau
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-11 11:55:32

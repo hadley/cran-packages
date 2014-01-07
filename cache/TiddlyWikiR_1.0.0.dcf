@@ -1,0 +1,19 @@
+Package: TiddlyWikiR
+Type: Package
+Title: Create dynamic reports using a TiddlyWiki template.
+Version: 1.0.0
+Date: 2013-10-28
+Author: David Montaner <dmontaner@cipf.es>
+Maintainer: David Montaner <dmontaner@cipf.es>
+Description: Utilities to generate wiki reports in TiddlyWiki format.
+URL: https://github.com/dmontaner/TiddlyWikiR
+License: GPL-2
+LazyData: TRUE
+VignetteBuilder: knitr
+Depends: R (>= 2.14),
+Imports: methods
+Suggests: knitr
+Packaged: 2013-10-28 10:41:27 UTC; dmontaner
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-28 15:00:54

@@ -1,0 +1,16 @@
+Package: Rvelslant
+Description: R scripts for interactively analyzing downhole seismic
+        data and interpreting layered velocity models of constant
+        velocity layers accounting for refractions across layer
+        boundaries.
+Title: Downhole Seismic Analysis in R
+Version: 0.2-3
+Date: 2007-9-3
+Depends: MASS
+Author: Original method by Dave Boore <boore@usgs.gov>, R port and some
+        additions by Eric M. Thompson.
+Maintainer: Eric M. Thompson <eric.thompson@tufts.edu>
+License: GPL-2
+Packaged: 2012-10-29 08:57:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:39

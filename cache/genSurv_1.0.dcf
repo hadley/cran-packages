@@ -1,0 +1,21 @@
+Encoding: UTF-8
+Package: genSurv
+Type: Package
+Depends: R (>= 2.12.0)
+Suggests: survival
+Title: Generating multi-state survival data
+Version: 1.0
+Date: 2012-07-24
+Author: Artur Agostinho Araújo, Luís Meira-Machado
+        <lmachado@math.uminho.pt> and Susana Faria
+        <sfaria@math.uminho.pt>
+Maintainer: Artur Agostinho Araújo <b5498@math.uminho.pt>
+Description: Generation of survival data with one (binary)
+        time-dependent covariate.  Generation of survival data arising
+        from a progressive illness-death model.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-07-26 12:26:33 UTC; Owner
+Repository: CRAN
+Date/Publication: 2012-07-27 05:04:04

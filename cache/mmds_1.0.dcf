@@ -1,0 +1,14 @@
+Package: mmds
+Version: 1.0
+Date: 2011-07-10
+Title: Mixture Model Distance Sampling (mmds)
+Author: David Lawrence Miller <dave@ninepointeightone.net>
+Maintainer: David Lawrence Miller <dave@ninepointeightone.net>
+Description: This library implements mixture model distance sampling
+        methods. See Miller and Thomas (in prep.).
+Depends: R (>= 2.8.0)
+LazyLoad: yes
+License: GPL-2
+Packaged: 2012-01-12 20:47:37 UTC; dill
+Repository: CRAN
+Date/Publication: 2012-01-13 08:05:58

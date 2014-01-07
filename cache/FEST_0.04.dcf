@@ -1,0 +1,16 @@
+Package: FEST
+Version: 0.04
+Date: 15 July 2009 version of FEST, R version 2.9.1
+Author: Øivind Skare <oivind.skare@medisin.uio.no>
+Maintainer: Øivind Skare <oivind.skare@medisin.uio.no>
+Description: Identification of Family Relations using linked markers.
+Title: Identification of Family Relations using linked markers
+Depends: R (>= 2.4.0), methods, kinship, MASS
+SystemRequirements: merlin, perl
+License: GPL-2 | file LICENCE
+LazyLoad: yes
+Encoding: UTF-8
+URL: http://folk.uio.no/thoree/FEST
+Packaged: 2009-07-15 12:18:37 UTC; skare
+Repository: CRAN
+Date/Publication: 2009-07-18 15:22:02

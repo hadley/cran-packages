@@ -1,0 +1,21 @@
+Package: visualFields
+Type: Package
+Title: Statistical methods for visual fields
+Description: A collection of tools for analyzing the field of vision.
+        It provides a framework for development and use of innovative
+        methods for visualization, statistical analysis, and clinical
+        interpretation of visual-field loss and its change over time.
+        It is intended to be a tool for collaborative research.
+Version: 0.3-3
+Date: 2013-06-07
+Author: The visualFields Development Team
+Maintainer: Ivan Marin-Franch <imarinfr@indiana.edu>
+URL: http://people.eng.unimelb.edu.au/aturpin/opi/index.html
+Depends: R (>= 2.14.0), stats, utils, gridBase, flip (>= 2.1),
+        matrixStats, Hmisc
+LazyData: yes
+License: GPL (>= 2.0)
+Packaged: 2013-06-16 09:20:50 UTC; ivanmarin-franch
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-16 15:28:00

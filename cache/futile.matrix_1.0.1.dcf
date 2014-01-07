@@ -1,0 +1,14 @@
+Package: futile.matrix
+Type: Package
+Title: Futile matrix utilities
+Version: 1.0.1
+Date: 2010-04-19
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Depends: R (>= 2.8.0), futile.logger, futile.any
+Description: A collection of matrix manipulation functions
+License: LGPL-3
+LazyLoad: yes
+Packaged: 2010-04-20 00:51:12 UTC; brian
+Repository: CRAN
+Date/Publication: 2010-04-20 05:01:33

@@ -1,0 +1,16 @@
+Package: VarEff
+Type: Package
+Title: Variation of effective population size
+Version: 1.0
+Date: 2012-03-11
+Author: Natacha Nikolic and Claude Chevalet
+Maintainer: Natacha Nikolic <documents_57@hotmail.com>
+Description: Functions for estimate the changes of effective population
+        size with coalescent approach.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: mcmc, graphics, grDevices
+URL: https://qgp.jouy.inra.fr
+Packaged: 2012-04-16 12:21:40 UTC; root
+Repository: CRAN
+Date/Publication: 2012-04-18 09:20:49

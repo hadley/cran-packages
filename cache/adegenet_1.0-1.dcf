@@ -1,0 +1,11 @@
+Package: adegenet
+Version: 1.0-1
+Date: 2007/03/22
+Title: Genetic data handling for multivariate analysis using ade4
+Author: Thibaut Jombart <jombart@biomserv.univ-lyon1.fr>
+Maintainer: Thibaut Jombart <jombart@biomserv.univ-lyon1.fr>
+Suggests: ade4, genetics, hierfstat, spdep, tripack
+Description: Classes and functions for genetic data analysis within the multivariate framework.
+License: GPL version 2 or newer
+URL: http://pbil.univ-lyon1.fr/software/adegenet/
+Packaged: Sun Aug 19 15:20:34 2007; master

@@ -1,0 +1,24 @@
+Package: markerSearchPower
+Type: Package
+Title: Power calculation for marker detection strategies in Genome-wide
+        Association Studies
+Version: 1.0
+Date: 2009-02-11
+Author: Zheyang Wu and Hongyu Zhao
+Maintainer: Zheyang Wu <zheyang.wu@yale.edu>
+Depends: mvtnorm, adapt, corpcor
+Description: This package calcuates statistical power of detecting
+        associated markers based on one of the model selection
+        strategies: marginal selection, exhaustive search, or forward
+        selection. With assumed genetic effects (including interaction
+        effect), allele frequencies, noise level, sample size, number
+        of genotyped markers, and control level (i.e. number of
+        markers/models intended to select), this package provides fast
+        and accurate consultation on power of different model selection
+        strategies. It helps researchers to decide a more efficient way
+        for marker detection in genome-wide association studies.
+License: GPL-2
+URL: http://bioinformatics.med.yale.edu/group/
+Packaged: 2009-04-15 20:35:33 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-04-15 20:41:55

@@ -1,0 +1,18 @@
+Package: mosaic
+Type: Package
+Title: Data sets and utilities from Project MOSAIC (mosaic-web.org)
+Version: 0.1-23
+Date: 2011-04-27
+Depends: lattice, grid
+Suggests: MASS
+Author: Randall Pruim <rpruim@calvin.edu>, Daniel Kaplan
+        <kaplan@macalester.edu>, Nicholas Horton <nhorton@smith.edu>
+Maintainer: Randall Pruim <rpruim@calvin.edu>
+Description: Data sets and utilities from Project MOSAIC
+        (mosaic-web.org)
+License: GPL
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-04-27 17:42:52 UTC; rpruim
+Repository: CRAN
+Date/Publication: 2011-04-27 19:05:50

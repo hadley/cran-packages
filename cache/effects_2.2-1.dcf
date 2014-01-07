@@ -1,0 +1,30 @@
+Package: effects
+Version: 2.2-1
+Date: 2012/08/31
+Title: Effect Displays for Linear, Generalized Linear,
+        Multinomial-Logit, Proportional-Odds Logit Models and
+        Mixed-Effects Models
+Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email =
+        "jfox@mcmaster.ca"), person("Sanford", "Weisberg", role =
+        "aut", email = "sandy@umn.edu"), person("Jangman", "Hong", role
+        = "aut"), person("Robert", "Andersen", role = "ctb"),
+        person("David", "Firth", role = "ctb"), person("Michael",
+        "Friendly", role = "ctb"))
+Depends: R (>= 2.10), lattice, grid, MASS, nnet, colorspace
+Suggests: nlme, lme4
+LazyLoad: yes
+LazyData: yes
+Description: Graphical and tabular effect displays, e.g., of
+        interactions, for linear generalized linear, multinomial-logit,
+        and proportional-odds logit models.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+Author: John Fox [aut, cre], Sanford Weisberg [aut], Jangman Hong
+        [aut], Robert Andersen [ctb], David Firth [ctb], Michael
+        Friendly [ctb]
+Maintainer: John Fox <jfox@mcmaster.ca>
+Repository: CRAN
+Repository/R-Forge/Project: effects
+Repository/R-Forge/Revision: 84
+Packaged: 2012-08-31 18:19:33 UTC; rforge
+Date/Publication: 2012-09-01 12:56:29

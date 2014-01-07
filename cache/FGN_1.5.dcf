@@ -1,0 +1,20 @@
+Package: FGN
+Version: 1.5
+Date: 2011-02-11
+Title: Fractional Gaussian Noise, estimation and simulaton
+Author: A.I. McLeod
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0), ltsa
+Description: MLE for H parameter in FGN; MLE for regression with FGN
+        error; simulation of FGN; print, summary, plot, coef,
+        residuals, Boot methods.
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+Imports: ltsa
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2011-02-11 21:28:00 UTC; aim
+Repository: CRAN
+Date/Publication: 2011-02-12 13:30:09

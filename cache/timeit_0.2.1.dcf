@@ -1,0 +1,17 @@
+Package: timeit
+Type: Package
+Title: Easy profiling of R functions
+Version: 0.2.1
+Date: 2013-02-04
+Author: Kevin Ushey
+Maintainer: Kevin Ushey <kevinushey@gmail.com>
+Description: Provides an easy-to-use wrapper to Rprof() and
+        summaryRprof() in the profiling of both function calls and
+        whole blocks of code.
+Depends: microbenchmark
+Suggests: ggplot2
+License: GPL (>= 2)
+Collate: 'timeit.R'
+Packaged: 2013-02-04 18:39:48 UTC; kevinushey
+Repository: CRAN
+Date/Publication: 2013-02-04 20:18:47

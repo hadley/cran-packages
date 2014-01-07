@@ -1,0 +1,23 @@
+Package: rockchalk
+Type: Package
+Title: Regression Estimation and Presentation
+Version: 1.4
+Date: 2012-01-23
+Author: Paul E. Johnson <pauljohn@ku.edu>
+Maintainer: Paul E. Johnson <pauljohn@ku.edu>
+Description: A collection of functions for ease of presentation and
+        interpretation of regression analysis.  See the outreg function
+        for a way to generate LaTeX tables of regression models and
+        mcGraph for creating 3-dimensional regression plots. The
+        package title "rockchalk" refers to the expression, "Rock Chalk
+        Jayhawk, Go K.U.".
+License: GPL (>= 3.0)
+LazyLoad: yes
+Depends: MASS, car
+Collate: 'magRange.R' 'mcGraph.R' 'outreg.R' 'perspEmpty.R' 'plotSeq.R'
+        'rockchalk-package.R' 'genCorrelatedData.R' 'centralValues.R'
+        'plotSlopes.R' 'lmrc.R' 'plotPlane.R' 'mcDiagnose.R'
+        'meanCenter.R'
+Packaged: 2012-01-23 21:00:09 UTC; pauljohn
+Repository: CRAN
+Date/Publication: 2012-01-24 06:50:20

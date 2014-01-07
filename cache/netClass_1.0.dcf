@@ -1,0 +1,23 @@
+Package: netClass
+Version: 1.0
+Date: 2013-05-27
+Title: netClass: An R Package for Network-Based Microarray
+        Classification
+Author: Yupeng Cun
+Maintainer: Yupeng Cun <yupeng.cun@gmail.com>
+Description: netClass is an R packages for feature (gene) selection,
+        which employ the biological network information to microarray
+        classification. We implemented average gene expression of
+        pathway (aep), pathway activities classification (PAC), Hub
+        network Classification, filter via top ranked genes(FrSVM),
+        smoothed t-statistic(stSVM) for two classes microarray
+        classification which employed the prior information.
+Depends: R (>= 2.12), AnnotationDbi, pathClass, Matrix,graph, igraph,
+        samr
+Suggests: multicore, Biobase, KEGG.db
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-05-30 11:00:24 UTC; cun
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-30 15:01:38

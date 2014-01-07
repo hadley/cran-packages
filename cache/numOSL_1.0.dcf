@@ -1,0 +1,14 @@
+Package: numOSL
+Type: Package
+Title: Numeric routines for optically stimulated luminescence dating
+Version: 1.0
+Date: 2013-12-22
+Author: Peng Jun
+Maintainer: Peng Jun <pengjun10@mails.ucas.ac.cn>
+Description: Package for optimizing regular numeric problems in optically stimulated luminescence dating, such as: equivalent dose calculation; decay curve decomposition, statistical age models analysis.
+License: GPL-3
+Depends: R (>= 2.15.3)
+Packaged: 2013-12-22 05:12:20 UTC; pengjun
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-22 09:13:35

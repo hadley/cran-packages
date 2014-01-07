@@ -1,0 +1,13 @@
+Package: cggd
+Version: 0.8
+Date: 2007-04-16
+Title: Continuous Generalized Gradient Descent
+Author: Cun-Hui Zhang and Ofer Melnik
+Maintainer: Cun-Hui Zhang <czhang@stat.rutgers.edu>
+Depends: R (>= 2.10), grDevices, graphics, stats, utils
+Description: Efficient procedures for fitting an entire regression
+        sequences with different model types.
+License: GPL (>= 2)
+Packaged: 2012-07-23 09:51:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:32

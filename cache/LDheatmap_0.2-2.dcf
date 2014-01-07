@@ -1,0 +1,11 @@
+Package: LDheatmap
+Title: Graphical display of pairwise linkage disequilibria between SNPs
+Version: 0.2-2
+Author: Ji-Hyung Shin <shin@sfu.ca>, Sigal Blay <sblay@sfu.ca>, Nicholas Lewin-Koh <nikko@hailmail.net>, Brad McNeney <mcneney@stat.sfu.ca>, Jinko Graham <jgraham@stat.sfu.ca> 
+Description: Produces a graphical display, as a heat map, of measures of pairwise linkage disequilibria between SNPs. Users may optionally include the physical locations or genetic map distances of each SNP on the plot.
+Maintainer: Ji-Hyung Shin <shin@sfu.ca>
+Depends: R (>= 2.0.0), grid
+Imports: genetics
+License: GPL version 2
+URL: http://stat-db.stat.sfu.ca:8080/statgen/research/LDheatmap/
+Packaged: Thu Oct 12 13:27:46 2006; jshin

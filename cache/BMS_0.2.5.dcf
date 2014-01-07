@@ -1,0 +1,22 @@
+Package: BMS
+Type: Package
+Title: Bayesian Model Averaging Library
+Version: 0.2.5
+Date: 2010-07-30
+Author: Martin Feldkircher and Stefan Zeugner
+Maintainer: Stefan Zeugner <bms@zeugner.eu>
+Depends: R (>= 2.5), methods
+Description: Bayesian Model Averaging for univariate linear models
+        under Zellner's g prior. Options include: fixed (BRIC, UIP,
+        ...) and flexible g priors (Empirical Bayes, hyper-g), 5 kinds
+        of model prior concepts, and model sampling via model
+        enumeration or MCMC samplers (Metropolis-Hastings plain or
+        reversible jump). Post-processing allows for inference
+        according to different concepts (likelihood vs MCMC-based) and
+        for plotting (posterior model size and coefficient densities,
+        best models, model convergence, BMA comparison).
+License: Artistic-2.0
+URL: http://bms.zeugner.eu
+Packaged: 2010-07-30 17:17:26 UTC; zeugner
+Repository: CRAN
+Date/Publication: 2010-07-30 20:06:42

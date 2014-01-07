@@ -1,0 +1,26 @@
+Package: geneListPie
+Type: Package
+Title: Profiling a gene list into GOslim or KEGG function pie
+Version: 1.0
+Date: 2009-10-06
+Author: Xutao Deng
+Maintainer: Xutao Deng <xutaodeng@gmail.com>
+Description: "geneListPie" package is for mapping a gene list to
+        function categories defined in GOSlim or Kegg. The results can
+        be plotted as a pie chart to provide a quick view of the genes
+        distribution of the gene list among the function categories.
+        The gene list must contain a list of gene symbols. The package
+        contains a set of pre-processed gene sets obtained from Gene
+        Ontology and MSigDB including human, mouse, rat and yeast. To
+        provide a high level concise view, only GO slim and kegg are
+        provided. The gene sets are regulared updated. User can also
+        use customized gene sets. User can use the R Pie() or Pie3D()
+        function for plotting the pie chart. Users can also choose to
+        output the gene function mapping results and use external
+        software such as Excel(R) for ploting.
+Suggests: plotrix
+License: GPL-3
+Packaged: 2012-07-23 09:53:29 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:32
+Depends: R (>= 2.10)

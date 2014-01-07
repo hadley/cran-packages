@@ -1,0 +1,18 @@
+Package: sendplot
+Version: 3.8.7
+Date: Feb 7, 2011
+Title: Tool for sending interactive plots with tool-tip content.
+Author: Daniel P Gaile <dpgaile@buffalo.edu>, Lori A. Shepherd
+        <las65@buffalo.edu>, Lara Sucheston <lsuchest@buffalo.edu>,
+        Andrew Bruno <aebruno2@ccr.buffalo.edu>, Kenneth F. Manly
+        <manly@buffalo.edu>
+Maintainer: Lori A. Shepherd <las65@buffalo.edu>
+Depends: R (>= 2.7.0), rtiff
+SystemRequirements: libtiff
+Description: A tool for visualizing data
+License: GPL (>= 2)
+URL:
+        http://sphhp.buffalo.edu/biostat/research/software/sendplot/index.php
+Packaged: 2011-02-07 11:56:21 UTC; las65
+Repository: CRAN
+Date/Publication: 2011-02-08 15:51:21

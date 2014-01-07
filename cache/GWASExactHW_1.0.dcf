@@ -1,0 +1,16 @@
+Package: GWASExactHW
+Type: Package
+Title: Exact Hardy-Weinburg testing for Genome Wide Association Studies
+Version: 1.0
+Date: 2009-08-24
+Author: Ian Painter, GENEVA project, University of Washington
+Maintainer: Ian Painter <ipainter@u.washington.edu>
+Description: This package contains a function to do exact
+        Hardy-Weinburg testing (using Fisher's test) for SNP genotypes
+        as typically obtained in a Genome Wide Association Study
+        (GWAS).
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:07 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:07

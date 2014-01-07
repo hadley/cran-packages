@@ -1,0 +1,18 @@
+Package: logistiX
+Type: Package
+Title: Exact logistic regression including Firth correction
+Version: 1.0-1
+Date: 2013-04-05
+Author: Georg Heinze and Tobias Ladner
+Maintainer: Georg Heinze <georg.heinze@meduniwien.ac.at>
+Depends: R (>= 2.15.1)
+Description: Exact logistic regression including Firth correction for
+        binary covariates
+License: GPL
+URL:
+        http://cemsiis.meduniwien.ac.at/kb/wf/software/statistische-software/logistiX/
+LazyLoad:
+Packaged: 2013-04-07 07:23:48 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-07 09:25:41

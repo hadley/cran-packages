@@ -1,0 +1,13 @@
+Package: randomLCA
+Type: Package
+Title: Random Effects Latent Class Analysis
+Version: 0.6-2
+Date: 2008-12-02
+Author: Ken Beath <ken@kjbeath.com.au>
+Maintainer: Ken Beath <ken@kjbeath.com.au>
+Description: Fits random effects latent class models, as well as standard latent class models.
+Depends: R(>= 2.6.0), lattice, nlme
+LazyLoad: yes
+LazyData: yes
+License: GPL (>=2)
+Packaged: Sun Mar  8 19:39:38 2009; kjbeath

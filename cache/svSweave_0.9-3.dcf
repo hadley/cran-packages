@@ -1,0 +1,20 @@
+Package: svSweave
+Type: Package
+Version: 0.9-3
+Date: 2011-11-27
+Title: SciViews GUI API - Sweave functions
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"))
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 2.6.0)
+Imports: utils
+Description: Supporting functions for the GUI API (Sweave functions)
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Repository: CRAN
+Repository/R-Forge/Project: sciviews
+Repository/R-Forge/Revision: 460
+Packaged: 2012-03-31 14:16:03 UTC; rforge
+Date/Publication: 2012-04-01 13:13:39

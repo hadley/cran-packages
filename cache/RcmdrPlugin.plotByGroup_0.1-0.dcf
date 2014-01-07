@@ -1,0 +1,14 @@
+Package: RcmdrPlugin.plotByGroup
+Type: Package
+Title: Rcmdr plots by group using lattice
+Version: 0.1-0
+Date: 2013-01-28
+Author: Poul Svante Eriksen with contributions by Ege Rubak
+Maintainer: Ege Rubak <rubak@math.aau.dk>
+Depends: R (>= 2.13.0), Rcmdr (>= 1.4-6),lattice,grid,grDevices
+Description: Rcmdr menu support for some of the graphics by group in
+        the lattice package
+License: GPL (>= 2)
+Packaged: 2013-01-28 12:54:22 UTC; rubak
+Repository: CRAN
+Date/Publication: 2013-01-28 17:47:25

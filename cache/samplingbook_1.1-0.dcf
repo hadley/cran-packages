@@ -1,0 +1,22 @@
+Package: samplingbook
+Type: Package
+Title: Survey Sampling Procedures
+Version: 1.1-0
+Date: 2012-01-04
+Author: Juliane Manitz <manitzj@gmx.de>,
+  contributions by 
+  Mark Hempelmann <mark.hempelmann@o2online.de>, 
+  Goeran Kauermann <gkauermann@wiwi.uni-bielefeld.de>, 
+  Helmut Kuechenhoff <kuechenhoff@stat.uni-muenchen.de>,
+  Shuai Shao <shuai.shao@campus.lmu.de>,  
+  Cornelia Oberhauser <conny.oberhauser@gmx.de>,
+  Nina Westerheide <nwesterheide@wiwi.uni-bielefeld.de>, 
+  Manuel Wiesenfarth <m.wiesenfarth@uni-goettingen.de>
+Maintainer: Juliane Manitz <manitzj@gmx.de>
+Depends: pps, sampling, sampfling, survey
+Description: Sampling procedures from the book 'Stichproben. Methoden und praktische Umsetzung mit R' by Goeran Kauermann and Helmut Kuechenhoff (2010)  
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-01-04 13:47:10 UTC; jmanitz
+Repository: CRAN
+Date/Publication: 2012-01-04 14:07:07

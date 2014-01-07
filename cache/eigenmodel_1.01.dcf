@@ -1,0 +1,20 @@
+Package: eigenmodel
+Title: Semiparametric factor and regression models for symmetric
+        relational data
+Version: 1.01
+Date: 2012-03-23
+Author: Peter Hoff
+Maintainer: Peter Hoff <hoff@stat.washington.edu>
+Description: This package estimates the parameters of a model for
+        symmetric relational data (e.g., the above-diagonal part of a
+        square matrix), using a model-based eigenvalue decomposition
+        and regression. Missing data is accomodated, and a posterior
+        mean for missing data is calculated under the assumption that
+        the data are missing at random. The marginal distribution of
+        the relational data can be arbitrary, and is fit with an
+        ordered probit specification.
+License: GPL-2
+URL: http://www.stat.washington.edu/hoff
+Packaged: 2012-03-23 21:25:02 UTC; root
+Repository: CRAN
+Date/Publication: 2012-03-23 21:45:14

@@ -1,0 +1,17 @@
+Package: mirf
+Version: 1.0
+Date: 2008-09-03
+Title: MULTIPLE IMPUTATION AND RANDOM FORESTS FOR UNOBSERVABLE PHASE, HIGH-DIMENSIONAL DATA
+Author: Yimin Wu, B. Aletta S. Nonyane and Andrea S. Foulkes
+Maintainer: Yimin Wu <yiminwu@cs.umass.edu>
+Depends: R (>= 2.5.1), haplo.stats, randomForest
+Description: This package applies a combination of missing haplotype imputation via the EM algorithm of Excoffier and 
+	     Slatkin(1995) and modelling trait-haplotype associations via the Random Forest algorithm. The EM algorithm 
+	     is implemented by the function haplo.em (of the haplo.stats package) and the Random Forest algorithm is 
+             implemented by the randomForest function (of the randomForest package). This method is described in the 
+             published manuscript: B.A.S. Nonyane and A.S. Foulkes (2007) Multiple imputation and random forests (MIRF) for 
+             unobservable high-dimensional data. The International Journal of Biostatistics 3(1): Article 12. 
+License: BSD
+Citation:Support for developing this R package was provided by the National Institute of Allergy and Infectious Diseases (NIAID) research award (PI:Foulkes, R01 AI056983).
+URL:http://www-unix.oit.umass.edu/~foulkes/
+Packaged: Tue Sep  9 14:51:00 2008; Yimin

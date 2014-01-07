@@ -1,0 +1,16 @@
+Title: The giRaph package for graph representation in R
+Package: giRaph
+Namespace: giRaph
+Description: Supply classes and methods to represent and manipulate
+        graphs
+Version: 0.1-1
+Date: 2008/02/15
+Author: Jens Henrik Badsberg, Claus Dethlefsen, Luca La Rocca
+Maintainer: Claus Dethlefsen <cld@rn.dk>
+Depends: R (>= 2.4.0), graphics, methods
+Suggests: mathgraph, dynamicGraph
+License: GPL (>= 2)
+URL: http://www.math.aau.dk/~dethlef/giRaph
+Packaged: Sun Feb 17 19:40:42 2008; hornik
+Repository: CRAN
+Date/Publication: 2008-02-17 18:44:13

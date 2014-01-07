@@ -1,0 +1,19 @@
+Package: excel.link
+Type: Package
+Title: Convenient way to work with data in Microsoft Excel
+Version: 0.5.2
+Date: 2012-03-23
+Author: Gregory Demin <excel.link.feedback@gmail.com>
+Maintainer: Gregory Demin <excel.link.feedback@gmail.com>
+Depends: RDCOMClient
+Description: Allow dynamic access to data in Microsoft Excel. (e. g.
+        xl[a1]=xl[b2]*3 and so on). Also class provided which allows
+        treat data on Excel sheet similar to data.frame (indexing,
+        subsetting). Microsoft Excel is required for this package.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'excel.link.R'
+Packaged: 2012-03-23 08:29:12 UTC; grisha
+OS_type: windows
+Repository: CRAN
+Date/Publication: 2012-03-23 09:54:35

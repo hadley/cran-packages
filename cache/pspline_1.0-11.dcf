@@ -1,0 +1,11 @@
+Package: pspline
+Version: 1.0-11
+Date: 2007-06-20
+Title: Penalized Smoothing Splines
+Author: S original by Jim Ramsey <ramsay@psych.mcgill.ca>. 
+        R port by  Brian Ripley <ripley@stats.ox.ac.uk>.
+Maintainer: Brian Ripley <ripley@stats.ox.ac.uk>
+Depends: stats, graphics
+Description: Smoothing splines with penalties on order m derivatives.
+License: Unlimited distribution.
+Packaged: Tue Jun 19 09:09:39 2007; ripley

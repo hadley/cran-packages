@@ -1,0 +1,26 @@
+Package: kobe
+Type: Package
+Title: Tools for providing advice for the Tuna Regional Fisheries
+        Management Organisations
+Version: 1.2
+Date: 2012-06-22
+Author: Laurence Kell
+Maintainer: Laurence Kell <laurie.kell@iccat.int>
+Description: The package reads in results from a variety of fish stock
+        assessment packages and summarise them in the Kobe Scientific
+        advice format used within the tuna Regional Fisheries
+        Management Organisations (tRFMOs)..  Advice summarises the
+        probabilities of biomass being greater than and fishing
+        mortality less than the levels that can support maximum
+        sustainable yield (MSY) for a range of management options.
+License: GPL-2
+Depends: R(>= 2.15.1), methods, ggplot2, reshape, plyr, grid, MASS,
+        coda, emdbook, tables, akima, LaF, RCurl, ellipse
+Collate: ggplotFL-multiplot.R ggplotFL-theme.R kobeInterp.R
+        kobe-generics.R kobePhase.R kobeSmry.R kobe-aspic.R kobe-MFCL.R
+        kobeP.R kobe-ss3.R kobe-2box.R kobe-funcs.R kobePhaseMar.R
+        kobeTrks.R kobe-read-methods.R kobe-SAM.R kobeShade.R
+BuildResaveData: xz
+Packaged: 2012-12-10 11:39:58 UTC; root
+Repository: CRAN
+Date/Publication: 2012-12-10 12:55:46

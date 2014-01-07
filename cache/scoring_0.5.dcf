@@ -1,0 +1,17 @@
+Package: scoring
+Title: Proper scoring rules
+Version: 0.5
+Date: 2013-10-25
+Author: Ed Merkle
+Maintainer: Ed Merkle <merklee@missouri.edu>
+Description: Evaluating probabilistic forecasts via proper scoring rules.  scoring implements the beta, power, and pseudospherical families of proper scoring rules, along with ordered versions of the latter two families.  Included among these families are popular rules like the Brier (quadratic) score, logarithmic score, and spherical score.  For two-alternative forecasts, also includes functionality for plotting scores that one would obtain under specific scoring rules.
+Suggests: testthat
+License: GPL-2
+Repository: CRAN
+Repository/R-Forge/Project: scoring
+Repository/R-Forge/Revision: 23
+Repository/R-Forge/DateTimeStamp: 2013-11-19 03:45:19
+Date/Publication: 2013-11-27 07:12:06
+Packaged: 2013-11-19 07:15:29 UTC; rforge
+Depends: R (>= 2.10)
+NeedsCompilation: no

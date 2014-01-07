@@ -1,0 +1,16 @@
+Package: mlbench
+Version: 1.1-1
+Title: Machine Learning Benchmark Problems
+Date: 2006-05-23
+Author: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at>
+        and Evgenia Dimitriadou <E.Dimitriadou@ci.tuwien.ac.at>.
+	Original data sets from various sources.
+Maintainer: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at>
+Description: A collection of artificial and real-world machine learning
+        benchmark problems, including, e.g., several
+        data sets from the UCI repository.
+License: Free for non-commercial purposes. See the file README and the
+	help pages of the data sets for details.
+Suggests: e1071, scatterplot3d	
+ZipData: No
+Packaged: Tue May 23 09:08:26 2006; hornik

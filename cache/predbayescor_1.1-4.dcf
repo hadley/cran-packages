@@ -1,0 +1,23 @@
+Package: predbayescor
+Version: 1.1-4
+Title: Classification rule based on Bayesian naive Bayes models with
+        feature selection bias corrected
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 2.5.1)
+Description: This software is used to predict the binary response based
+        on high dimensional features, for example gene expression data.
+        The data are modelled with Bayesian naive Bayes models. When a
+        large number of features are available, one may like to select
+        only a subset of features to use, typically those features
+        strongly correlated with the response in training cases. Such a
+        feature selection procedure is however invalid since the
+        relationship between the response and the features will appear
+        stronger. This package provides a way to avoid this bias and
+        yields well-calibrated prediction for the test cases.
+License: GPL (>= 2)
+URL: \url{http://www.r-project.org},
+        \url{http://math.usask.ca/~longhai}
+Packaged: 2012-10-29 08:59:30 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:31

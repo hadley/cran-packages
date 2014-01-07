@@ -1,0 +1,10 @@
+Package: GDD
+Version: 0.1-6
+Title: GD device for creating bitmap graphics as jpeg, png or gif files using gd library
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: R (>= 1.9.0)
+Description:  Platform and X11 independent device for creating bitmaps (png, gif and jpeg).
+License: GPL version 2 or newer
+SystemRequirements: libgd (freetype2, fontconfig and msttcorefonts recommended)
+URL: http://www.rosuda.org/R/GDD/

@@ -1,0 +1,10 @@
+Package: TwoWaySurvival
+Title: Additiv Two-Way Hazards Modelling of Right Censored Survival Data 
+Version: 1.1
+Author: Pavel Khomski <pkhomski@wiwi.uni-bielefeld.de>
+Description: The package offers a fitting of smooth varying coefficients 
+             in an additiv two-way hazard model. Nonparametric penalized spline (p-spline) 
+             fitting is proposed. As a spline basis truncated polynomial functions are chosen.
+Maintainer: Pavel Khomski <pkhomski@wiwi.uni-bielefeld.de>
+License: GPL version 2 or newer
+Packaged: Tue Jul 25 12:27:22 2006; pkhomski

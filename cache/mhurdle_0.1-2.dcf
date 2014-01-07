@@ -1,0 +1,20 @@
+Package: mhurdle
+Version: 0.1-2
+Date: 2012-05-11
+Title: Estimation of models with limited dependent variables
+Author: Fabrizio Carlevaro <fabrizio.carlevaro@unige.ch>, Yves
+        Croissant <yves.croissant@univ-reunion.fr>, Stephane Hoareau
+        <sjlhoaro@univ-reunion.fr>
+Maintainer: Yves Croissant <yves.croissant@univ-reunion.fr>
+Depends: R (>= 2.10), Formula, truncreg, maxLik, pbivnorm
+Suggests:
+Description: Estimation of models with zero left-censored variables.
+        Null values may be caused by a selection process, insufficient
+        ressource or infrequency of purchase.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Repository: CRAN
+Repository/R-Forge/Project: mhurdle
+Repository/R-Forge/Revision: 26
+Packaged: 2012-05-29 14:16:20 UTC; rforge
+Date/Publication: 2012-05-31 08:44:49

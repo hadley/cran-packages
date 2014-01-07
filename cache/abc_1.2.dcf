@@ -1,0 +1,21 @@
+Package: abc
+Version: 1.2
+Date: 2011-01-10
+Title: Functions to perform Approximate Bayesian Computation (ABC)
+        using simulated data
+Author: Katalin Csillery, Michael Blum and Olivier Francois
+Maintainer: Katalin Csillery <kati.csillery@gmail.com> and Michael Blum
+        <michael.blum@imag.fr>
+Depends: R (>= 1.8.0), nnet, quantreg, locfit
+Description: The 'abc' package provides various functions for parameter
+        estimation and model selection in an ABC framework. Three main
+        functions are available: (i) 'abc' implements several ABC
+        inference algorithms, (ii) 'cv4abc' is a cross-validation tool
+        to evaluate the quality of the estimation and help the choice
+        of tolerance rate, and (iii) 'postpr' implements model
+        selection in an ABC setting. All these functions are
+        accompanied by appropriate summary and plotting functions.
+Repository: CRAN
+License: GPL (>= 2)
+Packaged: 2011-01-14 16:27:58 UTC; katalinc
+Date/Publication: 2011-01-15 16:23:31

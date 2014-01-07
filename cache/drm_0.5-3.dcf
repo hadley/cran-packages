@@ -1,0 +1,12 @@
+Package: drm
+Version: 0.5-3
+Date: 2007/02/12
+Title: Regression and association models for clustered categorical responses
+Author: Jukka Jokinen <jukka.jokinen@helsinki.fi>
+Maintainer:  Jukka Jokinen <jukka.jokinen@helsinki.fi>
+Description: Fit regression and association models for clustered categorical
+  responses using dependence ratio as a measure of association
+Depends: R(>= 1.0)
+License: GPL version 2 or later
+URL: http:/www/helsinki.fi/~jtjokine/drm
+Packaged: Mon Feb 12 13:53:50 2007; jjoj

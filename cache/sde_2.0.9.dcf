@@ -1,0 +1,17 @@
+Package: sde
+Type: Package
+Title: Simulation and Inference for Stochastic Differential Equations
+Version: 2.0.9
+Date: 2009-07-29
+Author: Stefano Maria Iacus
+Depends: MASS, stats4, fda, zoo
+Maintainer: Stefano Maria Iacus <stefano.iacus@unimi.it>
+Description: Companion package to the book Simulation and Inference for
+        Stochastic Differential Equations With R Examples, ISBN
+        978-0-387-75838-1, Springer, NY.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: sde
+Repository/R-Forge/Revision: 4
+Date/Publication: 2009-07-31 18:17:38
+Packaged: 2009-07-30 09:55:43 UTC; rforge

@@ -1,0 +1,20 @@
+Package: betategarch
+Type: Package
+Title: Estimation and simulation of the first-order Beta-t-EGARCH model
+Depends: R (>= 2.15.0)
+Version: 1.2
+Date: 2012-06-03
+Author: Genaro Sucarrat
+Maintainer: Genaro Sucarrat <genaro.sucarrat@bi.no>
+URL: http://www.sucarrat.net/
+Description: Estimation and simulation of the first-order Beta-t-EGARCH
+        model of Andrew Harvey. The two main functions are tegarch.sim
+        and tegarch.est. The former simulates a first order
+        Beta-t-EGARCH model whereas the latter estimates one. The other
+        functions are auxiliary functions called by tegarch.est, and
+        are not intended for the average user. However, for
+        completeness they are documented as well.
+License: GPL-2
+Packaged: 2012-06-04 11:08:05 UTC; admin
+Repository: CRAN
+Date/Publication: 2012-06-04 13:56:57

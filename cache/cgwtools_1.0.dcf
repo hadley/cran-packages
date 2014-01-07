@@ -1,0 +1,19 @@
+Package: cgwtools
+Type: Package
+Title: My collection of useful tools
+Version: 1.0
+Date: 2013-07-23
+Author: Carl Witthoft
+Maintainer: Carl Witthoft <carl@witthoft.com>
+Description: mostly Q&D tools.
+ ls{size,type,class,data} ,Q&D tools to get info about various collections of objects
+ askrm , an interactive tool to apply a function to each selected object  
+ seqle, reverse.seqle , extension of rle to find linear sequences   
+ resave , add objects to an existing .Rdata file   short , combine Unix 'head' and 'tail', with options
+ mystat , get basic statistics of a vector or array
+ splatnd , a tutorial bit of code on how to create your own zero-argument operators
+License: LGPL-3
+Packaged: 2013-08-11 15:50:33 UTC; cgw
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-11 19:00:55

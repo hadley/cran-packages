@@ -1,0 +1,16 @@
+Package: wordnet
+Title: WordNet Interface
+Version: 0.1-3
+Date: 2008-05-01
+Author: Ingo Feinerer
+Maintainer: Ingo Feinerer <h0125130@wu-wien.ac.at>
+Depends: rJava (>= 0.5-0)
+SystemRequirements: Java (>= 5.0), WNdb-3.0.tar.gz from wordnet.princeton.edu
+Description: An interface to WordNet using the Jawbone Java API to WordNet.
+  WordNet is an on-line lexical reference system developed by the Cognitive
+  Science Laboratory at Princeton University. Its design is inspired by current
+  psycholinguistic theories of human lexical memory. English nouns, verbs,
+  adjectives and adverbs are organized into synonym sets, each representing one
+  underlying lexical concept. Different relations link the synonym sets.
+License: MIT
+Packaged: Fri May  2 11:17:34 2008; hornik

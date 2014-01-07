@@ -1,0 +1,20 @@
+Package: ncdf
+Title: Interface to Unidata netCDF data files
+Maintainer:  David Pierce <dpierce@ucsd.edu>
+Version: 1.5
+Author: David Pierce
+Description: This package provides a high-level R interface to Unidata's
+ netCDF data files, which are portable across platforms and include
+ metadata information in addition to the data sets.  
+ Using this package netCDF files can be opened and data sets read in easily.
+ It is also easy to create new netCDF dimensions, variables, and files,
+ or manipulate existing netCDF files.
+ This interface provides considerably more functionality than the old "netCDF"
+ package for R, and is not compatible with the old "netCDF" package for R.
+ Release 1.2 adds better support for character variables, and miscellaneous
+ bug fixes.  Release 1.3 is for miscellaneous bug fixes, and improves the
+ documentation.  Release 1.4 improves the efficiency, and adds small bug
+ fixes.  Release 1.5 adds support for byte variables, plus small bug fixes.
+License: GPL version 2 or newer
+URL: http://cirrus.ucsd.edu/~pierce/ncdf
+Packaged: Mon Feb 27 11:50:13 2006; root

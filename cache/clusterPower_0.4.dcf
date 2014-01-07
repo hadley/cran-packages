@@ -1,0 +1,19 @@
+Package: clusterPower
+Version: 0.4
+Date: 2012-11-28
+Title: Power calculations for cluster-randomized and cluster-randomized
+        crossover trials
+Author: Nicholas G. Reich <nick.reich@gmail.com>, Daniel Obeng
+        <dobeng@gmail.com>
+Maintainer: Nicholas G. Reich <nick@schoolph.umass.edu>
+License: GPL (>= 2)
+Depends: lme4
+Description: This package enables researchers to calculate power for
+        cluster-randomized crossover trials by employing a
+        simulation-based approach.  A particular study design is
+        specified, with fixed sample sizes for all clusters and an
+        assumed treatment effect, and the empirical power for that
+        study design is calculated by simulating hypothetical datasets.
+Packaged: 2012-11-29 15:02:26 UTC; nick
+Repository: CRAN
+Date/Publication: 2012-11-29 15:33:13

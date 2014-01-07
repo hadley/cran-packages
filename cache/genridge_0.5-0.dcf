@@ -1,0 +1,24 @@
+Package: genridge
+Type: Package
+Title: Generalized ridge trace plots for ridge regression
+Version: 0.5-0
+Date: 2011-08-22
+Author: Michael Friendly
+Author@R: c(person(given = "Michael", family = "Friendly",
+        role=c("aut", "cre"), email="friendly@yorku.ca"))
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Depends: R (>= 2.11.1)
+Suggests: MASS, ElemStatLearn
+Description: The genridge package introduces generalizations of the
+        standard univariate ridge trace plot used in ridge regression
+        and related methods.  These graphical methods show both bias
+        and precision, by plotting the covariance ellipsoids of the
+        estimated coefficients, rather than just the estimates
+        themselves.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: genridge
+Repository/R-Forge/Revision: 3
+Date/Publication: 2011-08-26 21:19:13
+Packaged: 2011-08-25 21:04:28 UTC; rforge

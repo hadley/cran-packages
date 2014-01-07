@@ -1,0 +1,24 @@
+Package: FFD
+Version: 1.0-1
+Date: 2011-08-03
+Author: Ian Kopacka
+Maintainer: Ian Kopacka <ian.kopacka@ages.at>
+Title: Freedom From Disease
+Depends: R (>= 2.10), methods, graphics, tcltk, tkrplot, R2HTML
+Suggests: methods
+Description: Functions, S4 classes/methods and a graphical user
+        interface (GUI) to design surveys to substantiate freedom from
+        disease using a modified hypergeometric function (see Cameron
+        and Baldock, 1997). Herd sensitivities are computed according
+        to sampling strategies "individual sampling" or "limited
+        sampling" (see M. Ziller, T. Selhorst, J. Teuffert, M. Kramer
+        and H. Schlueter, 2002). Methods to compute the a-posteriori
+        alpha-error are implemented. Risk-based targeted sampling is
+        supported.
+License: GPL (>= 2)
+URL: http://ffd.r-forge.r-project.org, http://www.ages.at
+Repository: CRAN
+Repository/R-Forge/Project: ffd
+Repository/R-Forge/Revision: 20
+Date/Publication: 2011-08-26 21:18:56
+Packaged: 2011-08-09 20:39:27 UTC; rforge

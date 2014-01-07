@@ -1,0 +1,28 @@
+Package: MAVTgsa
+Type: Package
+Title: Ordinary least square test and Multivariate Analysis Of Variance
+        test with n contrasts
+Version: 1.2
+Date: 2012-10-04
+Author: Chih-Yi Chien, Chen-An Tsai, Ching-Wei Chang, and James J. Chen
+Maintainer: Chih-Yi Chien <chihyi.chien@fda.hhs.gov>
+Depends: R (>= 2.13.2), MASS, corpcor(>= 1.6.0), multcomp(>= 1.2-7)
+Description: A gene set analysis function for one-sided test (OLS) and
+        two-sided test (multivariate analysis of variance).  If the
+        experimental conditions are equal to 2, the p-value for
+        Hotelling's t^2 test is calculated.  If the experimental
+        conditions are great than 2, the p-value for Wilks' Lambda is
+        deterimined and post-hoc test is reported too.  Three multiple
+        comparison procedures, Dunnett, Tukey, and sequential pairwise
+        comparison, are implemented.  The program computes the p-values
+        and FDR (false discovery rate) q-values for all gene sets.  The
+        p-values for individual genes in a significant gene set are
+        also listed.  MAVTgsa generates two visualization output: a
+        p-value plot of gene sets (GSA plot) and a GST-plot of the
+        empirical distribution function of the ranked test statistics
+        of a given gene set.
+License: GPL-2
+LazyData: Yes
+Repository: CRAN
+Packaged: 2012-10-11 00:45:42 UTC; pelly
+Date/Publication: 2012-10-11 16:02:43

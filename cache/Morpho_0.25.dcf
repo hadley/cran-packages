@@ -1,0 +1,22 @@
+Package: Morpho
+Type: Package
+Title: Calculations and visualizations related to Geometric
+        Morphometrics
+Version: 0.25
+Date: 2013-07-24
+Author: Stefan Schlager
+Maintainer: Stefan Schlager <stefan.schlager@uniklinik-freiburg.de>
+Description: A toolset for Geometric Morphometrics and mesh processing.
+SystemRequirements: trimesh_project, rayproject, ply2ascii
+        (http://sourceforge.net/projects/morpho-rpackage/files/Auxiliaries/)
+Suggests: car, lattice, ffmanova, pls, shapes
+Depends: R (>= 2.14.0), rgl, parallel, foreach, Matrix, doParallel
+Imports: MASS, yaImpute, colorRamps
+Copyright: see COPYRIGHT for details
+License: GPL-2
+LazyLoad: yes
+URL: http://sourceforge.net/projects/morpho-rpackage/
+Packaged: 2013-07-24 08:22:02 UTC; schlager
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-24 11:31:40

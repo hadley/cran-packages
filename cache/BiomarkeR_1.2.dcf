@@ -1,0 +1,17 @@
+Package: BiomarkeR
+Type: Package
+Title: Paired (pBI) and Unpaired Biomarker Identifier (uBI) including a
+        method to infer networks.
+Version: 1.2
+Date: 2011-06-03
+Author: Michael Netzer
+Maintainer: Michael Netzer <michael.netzer@umit.at>
+Description: This package allows to rank features and infer networks
+        based on the Paired (pBI) and Unpaired Biomarker Identifier
+        (uBI).
+License: LGPL
+LazyLoad: yes
+Depends: graph, Rgraphviz, Hmisc
+Packaged: 2011-06-16 09:31:11 UTC; netzermi
+Repository: CRAN
+Date/Publication: 2011-06-17 06:44:17

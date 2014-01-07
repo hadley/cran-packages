@@ -1,0 +1,15 @@
+Package: gwrr
+Type: Package
+Title: Geographically weighted regression with penalties and diagnostic
+        tools
+Version: 0.1-2
+Date: 2011-11-28
+Author: David Wheeler
+Maintainer: David Wheeler <dcwheels@gmail.com>
+Depends: fields
+Description: Fits geographically weighted regression (GWR) models and uses tools to diagnose collinearity in the GWR models.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-11-28 22:55:26 UTC; dcwheeler
+Repository: CRAN
+Date/Publication: 2011-11-29 06:57:36

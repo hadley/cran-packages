@@ -1,0 +1,15 @@
+Package: gstat
+Version: 0.9-22
+Date: 2005/03/29
+Title: uni- and multivariable geostatistical modelling, prediction and simulation
+Author: Edzer J. Pebesma <e.pebesma@geog.uu.nl> and others
+Maintainer: Edzer J. Pebesma <e.pebesma@geog.uu.nl>
+Description: variogram modelling; simple, ordinary and universal point 
+	or block (co)kriging, sequential Gaussian or indicator (co)simulation; 
+	variogram and (variogram) map plotting utility functions.
+Depends: R (>= 2.0.0)
+Suggests: sp (>= 0.8)
+Imports: lattice
+License: GPL
+URL: http://www.gstat.org/
+Packaged: Mon Sep  5 15:21:32 2005; edzer

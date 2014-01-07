@@ -1,0 +1,18 @@
+Package: nadiv
+Type: Package
+Title: Functions to construct non-additive genetic relatedness matrices
+Version: 2.8
+Date: 2012-1-20
+Author: Matthew Wolak
+Maintainer: Matthew Wolak <matthewwolak@gmail.com>
+Depends: Matrix, MCMCglmm, pedigreemm
+Suggests: asreml
+Description: Constructs non-additive genetic relationship matrices from
+        a pedigree.  These and their inverses can be passed to a linear
+        mixed effect model, known as the 'animal model'.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-02-06 23:02:17 UTC; matthew
+Repository: CRAN
+Date/Publication: 2012-02-07 08:57:51

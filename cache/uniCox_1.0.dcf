@@ -1,0 +1,16 @@
+Package: uniCox
+Title: Univarate shrinkage prediction in the Cox model
+Version: 1.0
+Author: Rob Tibshirani
+Description: Univarate shrinkage prediction for survival analysis using
+        in the Cox model.. Especially useful for high-dimensional data,
+        including microarray data.
+Maintainer: Rob Tibshirani <tibs@stanford.edu>
+Depends: survival
+LazyLoad: false
+LazyData: false
+License: GPL-2
+URL: http://www-stat.stanford.edu/~tibs/uniCox
+Packaged: Wed Apr 15 08:18:22 2009; tibs
+Repository: CRAN
+Date/Publication: 2009-04-15 18:13:53

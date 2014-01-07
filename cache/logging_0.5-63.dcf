@@ -1,0 +1,15 @@
+Package: logging
+Version: 0.5-63
+Date: 2010-06-17
+Title: a tentative logging package
+Author: Mario Frasca <mariotomo@gmail.com>
+Maintainer: Mario Frasca <mario.frasca@nelen-schuurmans.nl>
+Description: a logging package emulating the python logging package.
+License: GPL (>= 2)
+Depends: R (>= 2.9.2), methods
+Suggests: svUnit
+Repository: CRAN
+Repository/R-Forge/Project: logging
+Repository/R-Forge/Revision: 63
+Date/Publication: 2011-02-25 10:12:25
+Packaged: 2011-02-24 22:00:40 UTC; rforge

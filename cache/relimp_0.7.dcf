@@ -1,0 +1,8 @@
+Package: relimp
+Version: 0.7
+Title: Relative Contribution of Effects in a Regression Model
+Author: David Firth
+Maintainer: David Firth <david.firth@nuffield.ox.ac.uk>
+Description: Functions to facilitate inference on the relative importance of predictors in a linear or generalized linear model
+Depends: R (>= 1.5.0), tcltk, MASS
+License: GPL (version 2 or later)

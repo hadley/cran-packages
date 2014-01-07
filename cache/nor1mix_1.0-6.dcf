@@ -1,0 +1,12 @@
+Package: nor1mix
+Title: Normal (1-d) Mixture Models (S3 Classes and Methods)
+Version: 1.0-6
+Date: 2006-08-02
+Author: Martin Mächler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Onedimensional Normal Mixture Models Classes, for, e.g.,
+   density estimation or clustering algorithms research and teaching;
+   providing the widely used Marron-Wand densities, see ?MarronWand.
+License: GPL 2
+NOTE: Use the 'mclust' package for estimation!
+Packaged: Wed Aug  2 18:36:38 2006; maechler

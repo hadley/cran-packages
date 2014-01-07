@@ -1,0 +1,18 @@
+Package: IMIS
+Type: Package
+Title: Increamental Mixture Importance Sampling
+Version: 0.0
+Date: 2010-08-30
+Author: Adrian Raftery, Le Bao
+URL: http://www.stat.washington.edu/research/reports/2009/tr560.pdf
+Maintainer: Le Bao <lebao@uw.edu>
+Depends: mvtnorm
+License: GPL (>= 2)
+Description: IMIS algorithm draws samples from the posterior
+        distribution. The user has to define the following R functions
+        in advance: prior(x) calculates prior density of x,
+        likelihood(x) calculates the likelihood of x, and
+        sample.prior(n) draws n samples from the prior distribution.
+Packaged: Tue Sep 7 14:18:47 2010; Le Bao
+Repository: CRAN
+Date/Publication: 2010-09-08 07:59:16

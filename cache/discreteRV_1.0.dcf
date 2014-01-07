@@ -1,0 +1,14 @@
+Package: discreteRV
+Maintainer: Eric Hare <erichare@iastate.edu>
+Author: Andreas Buja
+Version: 1.0
+License: GPL-3
+Title: discreteRV
+Description: Functions to create and manipulate discrete random
+        variables
+Suggests: testthat, roxygen2
+Collate: 'discreteRV-Probabilities.r' 'discreteRV-Simulations.r'
+Packaged: 2013-04-17 17:14:22 UTC; ericr_000
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-17 23:07:58

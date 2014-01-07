@@ -1,0 +1,13 @@
+Package: bayescount
+Type: Package
+Title: Bayesian analysis of count distributions using MCMC
+Version: 0.9.0-7
+Date: 2009-08-01
+Author: Matthew Denwood <m.denwood@vet.gla.ac.uk> (funded as part of the DEFRA VTRI project 0101).
+Maintainer: Matthew Denwood <m.denwood@vet.gla.ac.uk>
+Depends: R (>= 2.6), runjags (>= 0.9.2), coda, lattice, stats, utils
+SystemRequirements: jags
+Description: A set of functions to allow analysis of count data (such as faecal egg count data) using Bayesian MCMC methods.  Data is analysed using any of the (zero-inflated) gamma Poisson (equivalent to a negative binomial), (zero-inflated) simple or independant Poisson, (zero-inflated) lognormal Poisson or (zero-inflated) Weibull Poisson models.  Returns information on the possible values for mean count, coefficient of variation and zero inflation (true prevalence) present in the data.  A complete faecal egg count reduction test (FECRT) model is also implemented, which returns inference on the true efficacy of the drug from the pre and post treatment data provided, using non-parametric bootstrapping as well as using Bayesian MCMC.  Requires Just Another Gibbs Sampler (JAGS) for most functions, see:  http://www-fis.iarc.fr/~martyn/software/jags/.  *THIS SOFTWARE IS INTENDED FOR EDUCATIONAL PURPOSES ONLY AND SHOULD NOT BE RELIED UPON FOR REAL WORLD APPLICATIONS*
+License: GPL
+URL: http://cran.r-project.org/web/packages/bayescount/
+Packaged: Thu Jan  8 15:38:18 2009; matthewdenwood

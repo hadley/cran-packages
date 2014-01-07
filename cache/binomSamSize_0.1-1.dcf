@@ -1,0 +1,25 @@
+Package: binomSamSize
+Type: Package
+Title: Confidence intervals and sample size determination for a
+        binomial proportion under simple random sampling and pooled
+        sampling
+Version: 0.1-1
+Date: 2009-05-17
+Author: Michael Hoehle with contributions by Wei Liu
+Maintainer: Michael Hoehle <hoehle@stat.uni-muenchen.de>
+Depends: binom
+Description: A suite of functions to compute confidence intervals and
+        necessary sample sizes for the parameter p of the Bernoulli
+        B(p) distribution under simple random sampling or under pooled
+        sampling. Such computations are e.g. of interest when
+        investigating the incidence or prevalence in populations. The
+        package contains functions to compute coverage probabilities
+        and coverage coefficients of the provided confidence intervals
+        procedures. Sample size calculations are based on expected
+        length.
+License: GPL-3
+LazyLoad: yes
+Encoding: latin1
+Packaged: 2009-05-17 18:23:54 UTC; hoehle
+Repository: CRAN
+Date/Publication: 2009-05-18 10:17:02

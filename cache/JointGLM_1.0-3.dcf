@@ -1,0 +1,13 @@
+Package: JointGLM
+Version: 1.0-3
+Date: 2006-11-02
+Title: Joint Modelling of Mean and Dispersion (outdated, see package JointModeling)
+Author: Mathieu Ribatet <ribatet@lyon.cemagref.fr> and Bertrand Iooss
+Maintainer: Bertrand Iooss <bertrand.iooss@cea.fr>
+Depends: R (>= 1.8.0), mgcv
+Description: Some functions usefull to perform joint modelling of
+	     Mean and Dispersion through two interlinked GLM's. This
+             package is outdated. We recommend the use of the
+             JointModeling package which generalizes this one.  
+License: GPL version 2 or newer
+Packaged: Thu Nov  2 11:29:46 2006; ribatema

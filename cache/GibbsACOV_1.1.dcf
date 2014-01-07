@@ -1,0 +1,18 @@
+Package: GibbsACOV
+Type: Package
+Title: Gibbs Sampler for One-Way Mixed-Effects ANOVA and ANCOVA Models
+Version: 1.1
+Date: 2013-05-05
+Author: Emily Goren and Quan Zhang
+Maintainer: Emily Goren <emily.goren@gmail.com>
+Description: Gibbs sampler for one-way linear mixed-effects models
+        (ANOVA, ANCOVA) with homoscedasticity of errors and uniform
+        priors.
+License: GPL (>= 2)
+Depends: MASS
+Collate: 'acovamcmc.R' 'plot.acovamcmc.R' 'print.acovamcmc.R'
+        'summary.acovamcmc.R'
+Packaged: 2013-05-06 04:29:46 UTC; emilygoren
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-06 07:24:07

@@ -1,0 +1,41 @@
+Package: DEMEtics
+Type: Package
+Title: Calculation of Gst and D values characterizing the genetic
+        differentiation between populations.
+Version: 0.8.0
+Date: 2010-02-11
+Author: Alexander Jueterbock, Philipp Kraemer, Gabriele Gerlach and
+        Jana Deppermann
+Maintainer: Alexander Jueterbock, <Alexander-Jueterbock@web.de>
+Depends: R (>= 2.8.0)
+Description: Out of a table comprising allelic data of at least one
+        locus for several individuals and from at least two
+        populations, measurements of genetic differentiation (i.e. D,
+        Dest, Dest.Chao, Gst and Gst.est (Jost, 2008)) can be
+        calculated. P-values and 95% confidence intervals are
+        calculated according to Manly (1997) using a bootstrap method.
+        Thereby, for each locus, alleles are reallocated over
+        populations if they are all in Hardy Weinberg Equilibrium
+        (HWE). If not, the genotypes are reallocated, since alleles can
+        not be assumed to be inherited independently from each other
+        (Goudet, 1996). The p-values state how much the empirical found
+        allocation of alleles over populations differs from an
+        allocation that could arise by chance alone. In the case that
+        more than two populations are compared pairwise, the p-values
+        are adjusted besides using bonferroni correction in several
+        other ways due to the multiple comparison from one data set.
+License: GPL (>= 2)
+Literature: Goudet, J., M. Raymond, et al. (1996). Testing
+        differentiation in diploid populations. Genetics 144(4):
+        1933-1940. Jost, L. (2008). Gst and its relatives do not
+        measure differentiation. Molecular Ecology 17(18): 4015-4026.
+        Manly, B. F. J. Randomization, bootstrap and Monte Carlo
+        methods in biology. Chapman & Hall, 1997. Nei M., Chesser R.
+        Estimation of fixation indices and gene diversities. Annals of
+        Human Genetics, 1983, 47, 253-259. Wright, S. P. Adjusted
+        P-Values for simultaneous inference. Biometrics, 1992, 48,
+        1005-1013.
+LazyLoad: yes
+Packaged: Thu Feb 11 12:56:05 2010; alexj
+Repository: CRAN
+Date/Publication: 2010-02-11 12:18:50

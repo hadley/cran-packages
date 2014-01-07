@@ -1,0 +1,20 @@
+Package: compactr
+Type: Package
+Title: Creates empty plots with compact axis notation
+Version: 0.1
+Date: 2013-07-18
+Author: Carlisle Rainey
+Maintainer: Carlisle Rainey <carlislerainey@gmail.com>
+Description: Creates empty plots with compact axis notation to which users can
+    add whatever they like (points, lines, text, etc.) The notation is more
+    compact in the sense that the axis-labels and tick-labels are closer to the
+    axis and the tick-marks are shorter. Also, if the plot appears as part of a
+    matrix, the x-axis notation is suppressed unless the plot appears along the
+    bottom row and the y-axis notation is suppress unless the plot appears
+    along the left column.
+License: GPL-2
+Collate: 'eplot.R' 'addxaxis.R' 'compactr-package.R' 'mm.R' 'aplot.R'
+Packaged: 2013-07-31 20:27:27 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-01 08:15:50

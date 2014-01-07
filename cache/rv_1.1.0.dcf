@@ -1,0 +1,13 @@
+Package: rv
+Title: Simulation-based random variable object class in R
+Version: 1.1.0
+Date: 2011/01/28
+Author: Jouni Kerman <jouni@kerman.com>
+Maintainer: Jouni Kerman <jouni@kerman.com>
+Description: Simulation-based random variable object class
+Namespace: rv
+Depends: R(>= 2.8.1), stats, utils, grDevices, graphics
+License: GPL-2
+Packaged: 2011-01-31 20:39:06 UTC; jk
+Repository: CRAN
+Date/Publication: 2011-02-01 07:48:44

@@ -1,0 +1,18 @@
+Package: exsic
+Type: Package
+Title: Convenience functions for botanist to create exsiccatae indices
+Version: 1.0
+Date: 2013-02-12
+Author: Reinhard Simon (CIP), David M. Spooner (USDA)
+Maintainer: Reinhard Simon <R.SIMON@CGIAR.ORG>
+Description: The package provides some tools for botanists, plant
+        taxonomists, curators of plant genebanks and perhaps other
+        biological collections.
+License: GPL (>= 3)
+LazyData: yes
+Depends: R (>= 2.15.1), stringr, markdown
+Collate: 'utils.R' 'exsic-new.R'
+Packaged: 2013-03-26 11:34:05 UTC; rsimon
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-26 17:37:57

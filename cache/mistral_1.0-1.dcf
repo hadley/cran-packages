@@ -1,0 +1,16 @@
+Package: mistral
+Type: Package
+Title: Methods in Structural Reliability
+Version: 1.0-1
+Date: 2013-04-08
+Author: Vincent Moutoussamy, Nicolas Bousquet and Bertrand Iooss
+Maintainer: Bertrand Iooss <biooss@yahoo.fr>
+Description: Various reliability analysis methods for: 1) computing
+        failure probability (probability that the output of a numerical
+        model exceeds a threshold); 2) computing the size of a sample
+        to estimate a quantile with a confidence level.
+License: CeCILL
+Packaged: 2013-04-12 14:48:33 UTC; C23072
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-13 06:51:18

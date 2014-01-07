@@ -1,0 +1,16 @@
+Package: PKmodelFinder
+Type: Package
+Title: Software for Pharmacokinetic model
+Version: 1.1
+Date: 2010-04-28
+Author: Eun-Kyung Lee, Gyujeong Noh, Hyeong-Seok Lim
+Maintainer: Eun-Kyung Lee <lee.eunk@ewha.ac.kr>
+Depends: gWidgets, tcltk, tkrplot, RGtk2,
+        gWidgetsRGtk2,cairoDevice,numDeriv
+Description: PKmodelFinder is the software for the exploratory analysis
+        for pharmacometrics.
+License: LGPL-2.1
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:25 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:25

@@ -1,0 +1,17 @@
+Package: leiv
+Type: Package
+Title: Bivariate linear errors-in-variables estimation
+Version: 1.0
+Date: 2010-05-05
+Author: David Leonard
+Maintainer: David Leonard <david.leonard@utsouthwestern.edu>
+Description: Estimate the slope and intercept of a bivariate linear
+        relationship by calculating a posterior density that is
+        invariant to interchange and scaling of the coordinates.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+LazyLoad: yes
+Depends: R (>= 2.9.0), methods, stats
+Packaged: 2010-05-05 10:44:01 UTC; macuser
+Repository: CRAN
+Date/Publication: 2010-05-06 09:27:10

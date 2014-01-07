@@ -1,0 +1,14 @@
+Package: scape
+Version: 1.0-2
+Date: 2005-08-28
+Title: Statistical catch-at-age plotting environment
+Author: Arni Magnusson <arnima@u.washington.edu>
+Maintainer: Arni Magnusson <arnima@u.washington.edu>
+Depends: R (>= 2.1.1), grid, Hmisc, lattice
+Suggests: gdata
+LazyData: yes
+Description: A collection of functions to import and plot results from
+  statistical catch-at-age models, used in fisheries stock assessments.
+License: GPL version 2 or newer
+URL: http://students.washington.edu/arnima/s/
+Packaged: Mon Aug 29 22:52:13 2005; hornik

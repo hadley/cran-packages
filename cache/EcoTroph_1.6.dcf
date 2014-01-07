@@ -1,0 +1,16 @@
+Package: EcoTroph
+Type: Package
+Title: EcoTroph R package
+Version: 1.6
+Date: 2013-08-31
+Author: J. Guitton, M. Colleter, P. Gatti, and D. Gascuel
+Maintainer: Jerome Guitton <jerome.guitton@agrocampus-ouest.fr>
+URL: http://sirs.agrocampus-ouest.fr/EcoTroph/
+Description: EcoTroph is an approach and software for modelling marine and freshwater ecosystems. It is articulated entirely around trophic levels. EcoTroph's key displays are bivariate plots, with trophic levels as the abscissa, and biomass flows or related quantities as ordinates. Thus, trophic ecosystem functioning can be modelled as a continuous flow of biomass surging up the food web, from lower to higher trophic levels, due to predation and ontogenic processes. Such an approach, wherein species as such disappear, may be viewed as the ultimate stage in the use of the trophic level metric for ecosystem modelling, providing a simplified but potentially useful caricature of ecosystem functioning and impacts of fishing. This version contains catch trophic spectrum analysis (CTSA) function and corrected versions of the mf.diagnosis and create.ETmain functions.
+License: GPL
+LazyLoad: yes
+Depends: XML
+Packaged: 2013-09-13 12:22:22 UTC; jerome
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-13 15:44:12

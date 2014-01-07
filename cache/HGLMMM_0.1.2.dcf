@@ -1,0 +1,15 @@
+Package: HGLMMM
+Type: Package
+Title: Hierarchical Generalized Linear Models
+Version: 0.1.2
+Date: 2011-03-07
+Author: Marek Molas
+Maintainer: Marek Molas <m.molas@erasmusmc.nl>
+Description: Hierarchical Generalized Linear Models
+Depends: R (>= 2.9.0),Matrix,numDeriv,methods,lattice
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-03-07 16:16:24 UTC; 576790
+Repository: CRAN
+Date/Publication: 2011-03-08 13:23:47

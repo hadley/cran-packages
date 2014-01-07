@@ -1,0 +1,17 @@
+Package: fcros
+Type: Package
+Title: FCROS for detecting differentially expressed genes
+Version: 1.0
+Date: 2013-07-29
+Author: Doulaye Dembele
+Maintainer: Doulaye Dembele <doulaye@igbmc.fr>
+Description: A fold change ranks ordering statistics based method 
+             for detecting differentially expressed genes. The
+             variation in levels of fold change calculated using
+             several combinations on pairs from biological conditions
+             is used to associate statistics to genes.
+License: GPL (>= 2.0)
+Packaged: 2013-07-29 08:08:38 UTC; doulaye
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-29 10:32:26

@@ -1,0 +1,15 @@
+Package: futile.any
+Type: Package
+Title: Futile library to provide some polymorphism
+Version: 1.0.1
+Date: 2010-10-20
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Depends: R (>= 2.8.0), futile.paradigm (>= 1.2.0)
+Description: A collection of utility functions that provide
+        polymorphism over certain data types
+License: LGPL-3
+LazyLoad: yes
+Packaged: Wed Oct 20 20:40:04 2010; root
+Repository: CRAN
+Date/Publication: 2010-10-21 10:48:53

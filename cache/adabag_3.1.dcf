@@ -1,0 +1,32 @@
+Package: adabag
+Type: Package
+Title: Applies multiclass AdaBoost.M1, AdaBoost-SAMME and Bagging
+Version: 3.1
+Date: 2012-06-04
+Author: Alfaro-Cortes, Esteban; Gamez-Martinez, Matias and
+        Garcia-Rubio, Noelia
+Maintainer: Esteban Alfaro-Cortes <Esteban.Alfaro@uclm.es>
+Depends: rpart, mlbench, caret
+Description: This package implements Freund and Schapire's Adaboost.M1
+        algorithm and Breiman's Bagging algorithm using classification
+        trees as individual classifiers. Once these classifiers have
+        been trained, they can be used to predict on new data. Also,
+        cross validation predictions can be done.  Since version 2.0
+        the function "margins" is available to calculate the margins
+        for these classifiers.  Also a higher flexibility is achieved
+        giving access to the "rpart.control" argument of "rpart".  Four
+        important new features were introduced on version 3.0,
+        AdaBoost-SAMME (Zhu et al., 2009) is implemented and a new
+        function "errorevol" shows the error of the ensembles as a
+        function of the number of iterations.  In addition, the
+        ensembles can be pruned using the option "newmfinal" in the
+        predict.bagging and predict.boosting functions and the
+        posterior probability of each class for observations can be
+        obtained. Version 3.1 modifies the relative importance measure
+        to take into account the gain of the Gini index given by a
+        variable in each tree and the weights of these trees.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-04 20:22:15 UTC; Esteban.Alfaro
+Repository: CRAN
+Date/Publication: 2012-07-05 17:18:10

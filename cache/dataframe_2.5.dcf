@@ -1,0 +1,19 @@
+Package: dataframe
+Type: Package
+Title: Fast data frames
+Version: 2.5
+Date: 2012-05-20
+Author: Tim Hesterberg
+Maintainer: Tim Hesterberg <rocket@google.com>
+Depends: R (>= 2.15.0)
+Suggests: splus2R
+Enhances: chron
+Description: This contains versions of standard data frame functions in
+        R, modified to avoid making extra copies of inputs.  This is
+        faster, particularly for large data.
+License: GPL-2
+LazyLoad: no
+ByteCompile: yes
+Packaged: 2012-05-21 20:28:04 UTC; rocket
+Repository: CRAN
+Date/Publication: 2012-05-22 05:54:50

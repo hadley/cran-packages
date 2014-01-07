@@ -1,0 +1,27 @@
+Package: BayesXsrc
+Version: 2.1-1
+Date: 2012-05-18
+Title: R Package Distribution of the BayesX C++ Sources
+Authors@R: c(person(given = "Daniel", family = "Adler", role = c("aut",
+        "cre"), email = "dadler@uni-goettingen.de"), person(given =
+        "Thomas", family = "Kneib", role = "aut", email =
+        "tkneib@uni-goettingen.de"), person(given = "Stefan", family =
+        "Lang", role = "aut", email = "Stefan.Lang@uibk.ac.at"),
+        person(given = "Nikolaus", family = "Umlauf", role = "aut",
+        email = "Nikolaus.Umlauf@uibk.ac.at"), person(given = "Achim",
+        family = "Zeileis", role = "aut", email =
+        "Achim.Zeileis@R-project.org"))
+Description: BayesX performs Bayesian inference in structured additive
+        regression (STAR) models.  The R package BayesXsrc provides the
+        BayesX command line tool for easy installation.  A convenient R
+        interface is provided in package R2BayesX.
+Depends: R (>= 2.7.0)
+Suggests: R2BayesX
+License: GPL-2 | GPL-3
+URL: http://www.BayesX.org/
+Packaged: 2012-05-18 10:03:20 UTC; c403131
+Author: Daniel Adler [aut, cre], Thomas Kneib [aut], Stefan Lang [aut],
+        Nikolaus Umlauf [aut], Achim Zeileis [aut]
+Maintainer: Daniel Adler <dadler@uni-goettingen.de>
+Repository: CRAN
+Date/Publication: 2012-05-20 12:12:34

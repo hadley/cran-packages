@@ -1,0 +1,15 @@
+Package: multicon
+Type: Package
+Title: Multivariate Constructs
+Version: 1.0
+Date: 2013-11-07
+Author: Ryne A. Sherman
+Maintainer: Ryne A. Sherman <rsherm13@fau.edu>
+Description: This packages includes functions designed to examine relationships among multivariate constructs.
+License: GPL-2
+Depends: R (>= 3.0.0), psych, abind, foreach
+Imports: mvtnorm, sciplot,
+Packaged: 2013-12-14 17:11:22 UTC; davidserfass
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-14 19:48:44

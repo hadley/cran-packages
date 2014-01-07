@@ -1,0 +1,16 @@
+Package: evt0
+Type: Package
+Title: Mean of order p (MOP) and peaks over random threshold (PORT)
+        Hill estimates for the extreme value index (EVI)
+Version: 1.1-0
+Date: 2013-11-16
+Author: B G Manjunath
+Maintainer: B G Manjunath <bgmanjunath@gmail.com>
+Depends: R (>= 1.9.0), evd, stats
+Description: Compute EVI estimate using MOP and PORT methodology.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Repository: CRAN
+Packaged: 2013-11-23 23:32:24 UTC; ci
+NeedsCompilation: no
+Date/Publication: 2013-11-24 01:02:19

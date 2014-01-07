@@ -1,0 +1,11 @@
+Package: fork
+Title: R functions for handling multiple processes.
+Version: 1.0.2
+Author: Gregory R Warnes <Gregory.R.Warnes@Pfizer.com>
+Description: These functions  provides simple wrappers around the Unix process 
+    management API calls: fork, wait, waitpid, kill, and _exit.  This
+    enables construction of programs that utilize multiple concurrent
+    processes.
+Maintainer: Gregory R Warnes <Gregory.R.Warnes@Pfizer.com>
+License: GPL
+Packaged: Thu Mar 31 13:07:47 2005; warneg

@@ -1,0 +1,20 @@
+Package: UScensus2010
+Type: Package
+Title: US Census 2010 Suite of R Packages: Installers and
+        helperfunctions for UScensus2010blk, UScensus2010blkgrp,
+        UScensus2010tract, UScensus2010county, UScensus2010cdp
+        packages.
+Version: 0.10
+Date: 2011-11-18
+Author: Zack W. Almquist <almquist@uci.edu> 
+Maintainer: Zack W. Almquist <almquist@uci.edu>
+Description: US Census 2010 shape files and additional demographic data from the SF1 100 percent files. This package contains a number of helper functions for the UScensus2010blk, UScensus2010blkgrp, UScensus2010tract, UScensus2010county, UScensus2010cdp packages.
+License: GPL (>= 2)
+Depends: R (>= 2.10), maptools, sp, foreign, methods, grDevices, base,
+        stats, utils
+Suggests: rgdal
+LazyLoad: yes
+URL: http://www.ncasd.org/census2000/
+Packaged: 2011-11-23 15:27:13 UTC; zack
+Repository: CRAN
+Date/Publication: 2011-11-23 16:04:46

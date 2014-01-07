@@ -1,0 +1,25 @@
+Package: CBPS
+Version: 0.1
+Date: 2012-7-19
+Title: R Package for Covariate Balancing Propensity Score
+Author: Marc Ratkovic <ratkovic@princeton.edu>, Kosuke Imai
+        <kimai@princeton.edu>, Christian Fong <cjfong@princeton.edu>
+Maintainer: Marc Ratkovic <ratkovic@princeton.edu>
+Depends: R (>= 2.14), MASS, arm, MatchIt
+Imports: arm
+Description: CBPS is an R package that implements the covariate
+        balancing propensity score proposed by Imai and Ratkovic
+        (2012).  The propensity score is estimated such that it
+        maximizes the resulting covariate balance as well as the
+        prediction of treatment assignment.  The method, therefore,
+        avoids an iteration between model fitting and balance checking.
+        Currently, the package can only deal with binary treatment in
+        the cross section setting but in the future it will be extended
+        to other settings including non-binary treatments and causal
+        inference with longitudinal data.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2012-07-19 14:57:31 UTC; kimai
+Repository: CRAN
+Date/Publication: 2012-07-19 17:16:10

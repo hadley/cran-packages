@@ -1,0 +1,19 @@
+Package: RXKCD
+Type: Package
+Title: Get XKCD comic from R
+Version: 1.2
+Date: 2011-06-19
+Author: Paolo Sonego <paolo.sonego@gmail.com>
+Maintainer: Paolo Sonego <paolo.sonego@gmail.com>
+Description: This package allows the visualization of your favorite
+        XKCD comic strip directly from R. XKCD web comic content is
+        provided under the Creative Commons Attribution-NonCommercial
+        2.5 License.
+Depends: R (>= 2.11.0), RJSONIO, png, ReadImages
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: rxkcd
+Repository/R-Forge/Revision: 13
+Date/Publication: 2011-07-26 10:13:58
+Packaged: 2011-07-25 20:48:00 UTC; rforge

@@ -1,0 +1,17 @@
+Package: Brobdingnag
+Type: Package
+Title: Very large numbers in R
+Version: 1.1-7
+Date: 2009-15-01
+Author: Robin K. S. Hankin
+Depends: R (>= 2.6.0), methods,graphics
+Maintainer: <hankin.robin@gmail.com>
+Description: Handles very large numbers in R.  Real numbers are held
+        using their natural logarithms, plus a logical flag indicating
+        sign.  The package includes a vignette that gives a
+        step-by-step introduction to using S4 methods.
+LazyLoad: yes
+License: GPL
+Packaged: 2009-09-08 13:13:38 UTC; rksh
+Repository: CRAN
+Date/Publication: 2009-09-08 18:13:06

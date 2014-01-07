@@ -1,0 +1,17 @@
+Package: BCA
+Version: 0.1-1
+Date: 2011/05/04
+Title: Business and Customer Analytics
+Author: Dan Putler <putler@yahoo.com>
+Maintainer: Dan Putler <putler@yahoo.com>
+Depends: R (>= 2.6.0), car, clv, cluster, class, rpart, nnet, rgl,
+        Rcmdr
+LazyLoad: yes
+Description: Underlying support functions for RcmdrPlugin.BCA and a
+        companion to the book Customer and Business Analytics: A
+        Hands-on Approach
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.customeranalyticsbook.com
+Packaged: 2011-05-04 22:30:51 UTC; dputler
+Repository: CRAN
+Date/Publication: 2011-05-05 08:56:34

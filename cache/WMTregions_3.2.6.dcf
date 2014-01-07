@@ -1,0 +1,17 @@
+Package: WMTregions
+Type: Package
+Title: Exact Calculation of WMTR
+Version: 3.2.6
+Date: 2013-01-10
+Author: Pavel Bazovkin
+Maintainer: Pavel Bazovkin <econometrics@russia.ru>
+Depends: rgl
+Suggests: RGtk2, rggobi
+Description: R realization of an exact algorithm for calculating the
+        weighted-mean trimmed regions
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-11-29 11:54:54 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-29 12:59:17

@@ -1,0 +1,13 @@
+Package: NormalGamma
+Type: Package
+Title: Normal-gamma convolution model
+Version: 0.1.0
+Date: 2011-12-20
+Author: S. Plancade and Y. Rozenholc
+Maintainer: Sandra Plancade <sandra.c.plancade@uit.no>
+Description: The functions proposed in this package compute the density of the sum of a gaussian and a gamma random variables, estimate the parameters and correct the noise effect in a gamma-signal and gaussian-noise model. This package has been used to implement the background correction method for Illumina microarray data presented in Plancade S., Rozenholc Y. and Lund E. (http://arxiv.org/abs/1112.4180).
+License: GPL-2
+Depends: optimx , histogram
+Packaged: 2011-12-28 23:17:26 UTC; sandra
+Repository: CRAN
+Date/Publication: 2011-12-30 11:22:36

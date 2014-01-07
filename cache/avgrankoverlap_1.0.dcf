@@ -1,0 +1,15 @@
+Package: avgrankoverlap
+Type: Package
+Title: Average Rank Overlap
+Version: 1.0
+Date: 2013-10-10
+Authors@R: c(person("Fatih Sunor", role = c("aut", "cre"),
+                     email = "sunor@stanford.edu"))
+Description: Rank overlap is a metric to measure the relation between two sets of ranked items. This package is a convenience to calculate average rank overlap across different settings.
+License: GPL (>= 2)
+Packaged: 2013-11-15 00:53:39 UTC; fsunor
+Author: Fatih Sunor [aut, cre]
+Maintainer: Fatih Sunor <sunor@stanford.edu>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-15 07:23:27

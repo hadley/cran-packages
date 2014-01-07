@@ -1,0 +1,20 @@
+Package: VisCov
+Version: 1.3
+Date: 2012-07-27
+Title: Visualizing of distributions of covariance matrices
+Author: Tomoki Tokuda <tomoki.tokuda@psy.kuleuven.be>; Ben Goodrich
+        <bg2382@columbia.edu>; Iven Van Mechelen
+        <iven.vanmechelen@psy.kuleuven.be>; Andrew Gelman
+        <gelman@stat.columbia.edu>; Francis Tuerlinckx
+        <francis.tuerlinckx@psy.kuleuven.be>
+Maintainer: Tomoki Tokuda <tomoki.tokuda@psy.kuleuven.be>
+Depends: R (>= 2.12.0), bayesm, MASS, clusterGeneration, TeachingDemos,
+        scatterplot3d, KernSmooth
+Description: Visualizing of distributions of covariance matrices
+License: file LICENSE
+URL: http://ppw.kuleuven.be/okp/software/VisCov/
+Packaged: 2012-07-27 14:40:53 UTC; u0057158
+Repository: CRAN
+Date/Publication: 2012-07-27 17:08:03
+NeedsCompilation: no
+License_restricts_use: yes

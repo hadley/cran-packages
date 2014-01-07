@@ -1,0 +1,21 @@
+Package: uroot
+Version: 1.4
+Date: 2005/10/10
+Title: Unit Root Tests and Graphics for Seasonal Time Series
+Author: Javier López-de-Lacalle <javlacalle@yahoo.es> and
+        Ignacio Díaz-Emparanza <Ignacio.Diaz-Emparanza@ehu.es>
+Maintainer: Javier López-de-Lacalle <javlacalle@yahoo.es>
+Depends: R (>= 2.0.0), methods
+Imports: graphics
+Suggests: tcltk, xtable
+Collate: adf.R ch.R graphics.R hegy.R kpss.R makegui.R misc.R rec-test.R stepdate.R
+         urootgui.R urt-cvtables.R xtable.R
+Description: This package contains several functions for analysing quarterly and monthly time series.
+      Unit root test: ADF, KPSS, HEGY, and CH, as well as graphics: Buys-Ballot and
+      seasonal cycles, among others, have been implemented to accomplish either an analytical or a
+      graphical analysis. Combined use of both enables the user to characterize the seasonality as
+      deterministic, stochastic or a mixture of them. An easy to use graphical user interface is also
+      provided to run some of the implemented functions.
+License: GPL version 2 or newer. The terms of this license are in a file called COPYING which is
+      provided with R.
+Packaged: Tue Oct 18 12:56:27 2005; root

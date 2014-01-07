@@ -1,0 +1,27 @@
+Encoding: UTF-8
+Package: RSA
+Type: Package
+Title: Response surface analyses
+Version: 0.6.1
+Date: 2013-03-28
+Author: Felix Schönbrodt
+Maintainer: Felix Schönbrodt <felix@nicebread.de>
+Description: Advanced response surface analyses. The main function RSA
+        compares several nested models (full polynomial, shifted and
+        rotated squared differences, shifted squared differences, basic
+        squared differences) and provides plotting functions for
+        wireframe surfaces, interactive 3d plots, and contour plots.
+        Calculates many surface parameters and provides standard,
+        robust, or bootstrapped standard errors and confidence
+        intervals for them.
+Suggests: fields, SDMTools
+Depends: R (>= 2.15.0), lavaan (>= 0.5.11), plyr, ggplot2, lattice,
+        gridExtra, tkrplot, RColorBrewer, rgl
+License: GPL (>= 2)
+Collate: 'RSA.R' 'RSA.ST.R' 'demoRSA.R' 'helpers.R' 'plot.RSA.R'
+        'compare.R' 'print.RSA.R' 'getPar.R' 'bootRSA.R'
+        'motcon-data.R' 'CI.boot.R'
+Packaged: 2013-03-28 09:50:25 UTC; Felix
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-28 12:36:34

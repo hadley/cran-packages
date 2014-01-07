@@ -1,0 +1,21 @@
+Package: mcmcse
+Version: 1.0-1
+Date: 2012
+Title: Monte Carlo Standard Errors for MCMC
+Author: James M. Flegal <jflegal@ucr.edu> and John Hughes
+        <hughesj@umn.edu>
+Maintainer: James M. Flegal <jflegal@ucr.edu>
+Depends: utils
+Description: mcmcse provides tools for computing Monte Carlo standard
+        errors (MCSE) in Markov chain Monte Carlo (MCMC) settings. MCSE
+        computation for expectation and quantile estimators is
+        supported. The package also provides functions for computing
+        effective sample size and for plotting Monte Carlo estimates
+        versus sample size.
+License: GPL (>= 2)
+URL: http://faculty.ucr.edu/~jflegal ,
+        http://www.biostat.umn.edu/~johnh
+Collate: 'mcmcse.R' 'zzz.R'
+Packaged: 2012-08-06 15:47:22 UTC; jphughesjr
+Repository: CRAN
+Date/Publication: 2012-08-06 18:23:15

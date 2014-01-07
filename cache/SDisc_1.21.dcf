@@ -1,0 +1,23 @@
+Package: SDisc
+Type: Package
+Title: Integrated methodology for the identification of homogeneous
+        profiles in data distribution
+Version: 1.21
+Date: 2011-02-24
+Author: Fabrice Colas
+Maintainer: Fabrice Colas <sdisc@grano-salis.fr>
+Description: Integrated set of tools and methods to identify
+        homogeneous profiles/subtypes in data distribution by cluster
+        analysis. It includes methods for data treatment and
+        pre-processing, repeated cluster analysis, model selection,
+        model reliability and reproducibility assessment, profiles
+        characterization and validation by visual and table summaries.
+        It applies particularly to the search for more homogeneous
+        profiles in cohort studies.
+Depends: R (>= 2.5.1), mclust, stats, utils, RColorBrewer, abind,
+        xtable, digest, e1071, snow, SparseM
+License: BSD
+URL: http://grano-salis.fr/sdisc/
+Packaged: 2011-02-24 18:50:18 UTC; fcolas
+Repository: CRAN
+Date/Publication: 2011-02-25 07:39:51

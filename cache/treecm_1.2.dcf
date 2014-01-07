@@ -1,0 +1,26 @@
+Type: Package
+Package: treecm
+LazyLoad: yes
+License: GPL-2
+Title: Centre of mass assessment and consolidation of trees.
+Author: Marco Bascietto <marco.bascietto@ibaf.cnr.it>
+Maintainer: Marco Bascietto <marco.bascietto@ibaf.cnr.it>
+Description: The centre of mass is a crucial data for arborists in
+        order to consolidate a tree using steel or dynamic cables.
+        Given field-recorded data on branchiness of a tree, the
+        package: (i) computes and plots the centre of mass of the tree
+        itself, (ii) computes branches slenderness coefficient in order
+        to aid the arborist identify potentially dangerous branches,
+        and (iii) computes the force acting on a ground plinth and its
+        best position relating to the tree centre of mass, should the
+        tree need to be stabilized by a steel cable
+Collate: 'biomass.R' 'CM.R' 'math.R' 'moment.R' 'SC.R' 'treecm.R'
+        'vectors.R' 'stabilization.R'
+Version: 1.2
+URL: https://github.com/mbask/treecm
+Date: 2013-01-10
+Imports: plyr
+Suggests: ggplot2, reshape2
+Packaged: 2013-01-10 16:49:56 UTC; bask
+Repository: CRAN
+Date/Publication: 2013-01-10 18:16:42

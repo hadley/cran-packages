@@ -1,0 +1,22 @@
+Package: bigmatrix
+Type: Package
+Title: Tuning Insensitive Graph Estimation and Regression
+Version: 0.9.3
+Date: 2012-08-07
+Author: Xingguo Li, Tuo Zhao, Lie Wang and Han Liu
+Maintainer: Xingguo LI <xingguo.leo@gmail.com>
+Depends: R (>= 2.14), glmnet, lattice, igraph, MASS, Matrix
+Description: The package "bigmatrix" solves for the precision matrix
+        estimations with two different methods. The first is the tuning
+        insensitive graph estimation and regression implemented with
+        scaled Lasso. Another method is by estimating at a grid of
+        values for the constrained lambda and the augmented Lagrangian
+        multiplier rho based on constrained L1 minimization for sparse
+        precision matrix estimation, which guarantees positive definite
+        output by projected augmented Lagrangian method and further
+        accelerates the algorithm via coordinate descent and active set
+        methods.
+License: GPL-2
+Repository: CRAN
+Packaged: 2012-08-08 03:45:52 UTC; leo
+Date/Publication: 2012-08-13 07:48:18

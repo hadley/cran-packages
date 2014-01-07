@@ -1,0 +1,14 @@
+Package: bams
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>
+Author: Toby Dylan Hocking
+Version: 1.1
+License: GPL-3
+Title: Breakpoint annotation model smoothing
+Description: Data and code to allow reproduction of "Learning smoothing
+        models with breakpoint annotations."
+Suggests: GLAD, DNAcopy, xtable, cghFLasso, flsa, cghseg, grid, plyr,
+        ggplot2 (>= 0.9.0), RColorBrewer, reshape2, lattice, proto
+Depends: R (>= 2.10)
+Packaged: 2012-04-06 12:22:52 UTC; hocking
+Repository: CRAN
+Date/Publication: 2012-04-06 12:45:12

@@ -1,0 +1,18 @@
+Package: rimage
+Version: 0.5-8
+Date: 2005-1-12
+Title: Image Processing Module for R
+Author: Nikon Systems Inc.
+Maintainer: ORPHANED
+Depends: R (>= 1.6)
+Description: This package provides functions for image processing,
+        including sobel filter, rank filters, fft, histogram
+        equalization, and reading JPEG file. This package requires
+        fftw-2 <http://www.fftw.org/> and libjpeg <http://www.ijg.org>.
+        This version doesn't require pixmap package, which the older
+        version of rimage (private only) required. This package can be
+        used on Unixes / MacOS X / Windows.
+License: BSD
+Packaged: 2009-06-04 21:49:16 UTC; jeff
+Repository: CRAN
+Date/Publication: 2009-06-05 07:20:02

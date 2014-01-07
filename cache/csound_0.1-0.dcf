@@ -1,0 +1,31 @@
+Package: csound
+Type: Package
+Title: Accessing Csound functionality through R
+Version: 0.1-0
+Date: 2011-12-18
+Author: Ethan Brown
+Maintainer: Ethan Brown <ethancbrown@gmail.com>
+Depends: R (>= 2.12.0), rdyncall
+Description: Provides basic access in an R session to
+    Csound (http://www.csounds.com), a powerful free and
+    open-source software sound synthesizer. The package
+    functionality is largely geared towards supporting the
+    needs of the playitbyr package for sonification and is 
+    not particularly mature on its own. But it certainly
+    can be used without knowing anything about playitbyr.
+SystemRequirements: A valid copy of the Csound library must be present.
+        Csound can be downloaded from http://www.csounds.com. The
+        library is included in the default Windows and Mac OS X
+        distributions; binary Linux distributions often package the
+        library separately from the executible file, so for instance on
+        Debian and Ubuntu you would need the "libcsound64-dev" package.
+        See the web site below for more guidance on setup.
+URL: http://statisfactions.com/csound/
+License: GPL (>= 2)
+LazyLoad: Yes
+Collate: 'aaa.R' 'setCsoundLibrary.R' 'getCsoundError.R'
+        'getHeaderInfo.R' 'PerformanceAPI.R' 'createPerformance.R'
+        'writeCsoundScore.R' 'scoreMatrices.R'
+Packaged: 2011-12-18 20:22:17 UTC; fortis
+Repository: CRAN
+Date/Publication: 2011-12-19 11:17:14

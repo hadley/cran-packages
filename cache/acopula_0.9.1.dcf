@@ -1,0 +1,16 @@
+Package: acopula
+Type: Package
+Title: Modelling dependence with multivariate Archimax (or any
+        user-defined continuous) copulas.
+Version: 0.9.1
+Date: 2013-07-06
+Author: Tomas Bacigal
+Maintainer: Tomas Bacigal <bacigal@math.sk>
+Suggests: mvtnorm
+Description: Archimax copulas are mixture of Archimedean and EV copulas. The package provides definitions of several parametric families of generator and dependence function, computes CDF and PDF, estimates parameters, tests for goodness of fit, generates random sample and checks copula properties for custom constructs. In 2-dimensional case explicit formulas for density are used, in the contrary to higher dimensions when all derivatives are linearly approximated. Several non-archimax families (normal, FGM, Plackett) are provided as well. 
+License: GPL-2
+Encoding: UTF-8
+Packaged: 2013-07-19 11:56:53 UTC; tomas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-19 16:26:15

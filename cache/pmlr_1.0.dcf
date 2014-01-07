@@ -1,0 +1,20 @@
+Package: pmlr
+Title: Penalized Multinomial Logistic Regression
+Version: 1.0
+Date: 2010-03-28
+Author: Sarah Colby <colby@lunenfeld.ca>, Sophia Lee, Juan Pablo
+        Lewinger, Shelley Bull <bull@lunenfeld.ca>
+Maintainer: Sarah Colby <colby@lunenfeld.ca>
+Description: Extends the approach proposed by Firth (1993) for bias
+        reduction of MLEs in exponential family models to the
+        multinomial logistic regression model with general covariate
+        types.  Modification of the logistic regression score function
+        to remove first-order bias is equivalent to penalizing the
+        likelihood by the Jeffreys prior, and yields penalized maximum
+        likelihood estimates (PLEs) that always exist.  Hypothesis
+        testing is conducted via likelihood ratio statistics.  Profile
+        confidence intervals (CI) are constructed for the PLEs.
+License: GPL (>= 2)
+Packaged: 2010-03-29 02:29:55 UTC; Dao & Sarah
+Repository: CRAN
+Date/Publication: 2010-04-02 17:08:39

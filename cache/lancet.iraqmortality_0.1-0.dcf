@@ -1,0 +1,11 @@
+Package: lancet.iraqmortality
+Type: Package
+Title: Surveys of Iraq Mortality Published in The Lancet
+Version: 0.1-0
+Date: 2007-05-29
+Author: David Kane <dave@kanecap.com>, with contributions from Arjun Navi Narayan <contact@arjunnarayan.com> and Jeff Enos <jeff@kanecap.com>.
+Maintainer: David Kane <dave@kanecap.com>
+Description: The Lancet has published two surveys (Roberts et al (2004) and Burnham et al (2006)) on Iraq mortality before and after the US-led invasion. This package serves three purposes. First, it includes a portion of the summary data related to the first study, both the raw .xls file distributed by the authors and a cleaned up R dataframe. Second, it provides simple functions for working with data from the second study. The authors have distributed this data only to selected researchers. Those researchers can use this package to work with that data more easily. Third, for researchers without such access, we provide a vignette which serves as a guided tour of some of the more interesting aspects of the data. 
+Depends: foreign
+License: GPL version 2 or later.
+Packaged: Sun Jun  3 18:31:08 2007; enos

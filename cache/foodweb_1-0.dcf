@@ -1,0 +1,22 @@
+Package: foodweb
+Version: 1-0
+Title: visualisation and analysis of food web networks
+Author: Giselle Perdomo
+Maintainer: Giselle Perdomo <gisselle_p@yahoo.com>
+Depends: rgl
+Description: Calculates twelve commonly-used, basic measures of food
+        web network structure from binary, predator-prey matrices:
+        species richness, connectance, total number of links, link
+        density, number of trophic positions, predator:prey ratio, and
+        fraction of carnivores, herbivores, top species and
+        intermediate species.  Employs food web language in the code
+        and output, translates between a couple of common food web
+        formats, can handle food webs consisting of multiple levels,
+        and can automate the analysis for a large number of webs. The
+        program produces 3-dimensional graphs of high quality that can
+        be customized by the user.
+License: GPL (>= 2)
+Collate: 'functions.R' 'Asym2Sym.R' 'Calculations.R' 'Network.plot.R'
+Packaged: 2012-05-30 12:56:30 UTC; perdomo
+Repository: CRAN
+Date/Publication: 2012-05-30 13:22:16

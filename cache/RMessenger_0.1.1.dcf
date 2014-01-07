@@ -1,0 +1,18 @@
+Package: RMessenger
+Type: Package
+Title: IM Client for R
+Version: 0.1.1
+Date: 2013-01-20
+Author: Wush Wu
+Maintainer: Wush Wu <wush978@gmail.com>
+Description: IM Client which implements XMPP protocols based on
+        libstrophe(http://strophe.im/libstrophe/) For any suggestion or
+        bug report, please visit https://github.com/wush978/RMessenger
+License: GPL
+Depends: methods, Rcpp (>= 0.9.9)
+LinkingTo: Rcpp
+Collate: 'zzz.R' 'facebookMessage.function.R'
+        'sendXMPPMessage.function.R'
+Packaged: 2013-02-05 20:43:36 UTC; wush
+Repository: CRAN
+Date/Publication: 2013-02-06 11:16:01

@@ -1,0 +1,15 @@
+Package: degreenet
+Version: 1.2
+Date: 2013-01-01
+Title: Models for Skewed Count Distributions Relevant to Networks
+Author: Mark S. Handcock <handcock@stat.ucla.edu>
+Maintainer: Mark S. Handcock <handcock@stat.ucla.edu>
+Suggests: network (>= 1.7-1)
+Description: Likelihood-based inference for skewed count distributions
+        used in network modeling. "degreenet" is a part of the
+        "statnet" suite of packages for network analysis.
+License: GPL-3 + file LICENSE
+URL: http://statnet.org
+Packaged: 2013-02-01 03:57:40 UTC; handcock
+Repository: CRAN
+Date/Publication: 2013-02-03 08:11:38

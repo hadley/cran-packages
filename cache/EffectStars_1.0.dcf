@@ -1,0 +1,18 @@
+Package: EffectStars
+Type: Package
+Title: Visualization of Categorical Response Models
+Version: 1.0
+Date: 2012-01-19
+Encoding: UTF-8
+Depends: R (>= 2.10), VGAM
+Author: Gunther Schauberger
+Maintainer: <gunther.schauberger@stat.uni-muenchen.de>
+Description: The package provides functions to visualize regression
+        models with categorical response. The effects of the covariates
+        are plotted with star plots in order to allow for an optical
+        impression of the fitted model.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-03-06 09:21:16 UTC; schaubergerg
+Repository: CRAN
+Date/Publication: 2012-03-06 15:32:48

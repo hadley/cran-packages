@@ -1,0 +1,16 @@
+Package: BSquare
+Type: Package
+Title: Bayesian Simultaneous Quantile Regression
+Version: 1.0
+Date: 2013-05-04
+Author: Luke Smith & Brian Reich
+Maintainer: Luke Smith <lukebrawleysmith@gmail.com>
+Depends: quadprog, quantreg, VGAM
+Suggests: survival
+Description: This package models the quantile process as a function of
+        predictors.
+License: GPL (>= 2)
+Packaged: 2013-05-23 15:53:32 UTC; smithinger
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-22 17:07:20

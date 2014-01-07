@@ -1,0 +1,16 @@
+Package: gcdnet
+Title: A generalized coordinate descent (GCD) algorithm for computing
+        the solution path of the hybrid Huberized support vector
+        machine (HHSVM) and its generalization.
+Version: 1.0.3
+Date: 2012-2-21
+Author: Yi Yang <yiyang@umn.edu>, Hui Zou <hzou@stat.umn.edu>
+Maintainer: Yi Yang <yiyang@umn.edu>
+Depends: Matrix
+Description: This package implements a generalized coordinate descent (GCD) algorithm for computing the solution path of the hybrid Huberized support vector machine (HHSVM) and its generalization, including the elastic net penalized least squares, the elastic net penalized SVM with the squared hinge loss and the elastic net penalized logistic regression.
+License: GPL-2
+URL: http://code.google.com/p/gcdnet/
+Packaged: 2013-07-26 08:55:13 UTC; emeryyi
+Repository: CRAN
+Date/Publication: 2013-07-26 11:05:25
+NeedsCompilation: yes

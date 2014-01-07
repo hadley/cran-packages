@@ -1,0 +1,25 @@
+Package: cvAUC
+Type: Package
+Title: Cross-Validated Area Under the ROC Curve Confidence Intervals
+Version: 1.0-0
+Date: 2012-12-06
+Author: Erin LeDell, Maya Petersen, Mark van der Laan
+Maintainer: Erin LeDell <ledell@berkeley.edu>
+Description: This package contains various tools for working with and
+        evaluating cross-validated area under the ROC curve (AUC)
+        estimators.  The primary functions of the package are ci.cvAUC
+        and ci.pooled.cvAUC, which report cross-validated AUC and
+        compute confidence intervals for cross-validated AUC estimates
+        based on influence curves for i.i.d. and pooled repeated
+        measures data, respectively.  One benefit to using influence
+        curve based confidence intervals is that they require much less
+        computation time than bootstrapping methods.  The utility
+        function, cvAUC, which computes cross-validated AUC, is a
+        wrapper for functions from the ROCR package.
+License: GPL (>= 2)
+Depends: ROCR
+Suggests: MASS, parallel
+LazyLoad: yes
+Packaged: 2013-01-15 00:53:04 UTC; maru
+Repository: CRAN
+Date/Publication: 2013-01-15 07:39:19

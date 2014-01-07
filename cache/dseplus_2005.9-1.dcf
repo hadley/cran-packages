@@ -1,0 +1,11 @@
+Bundle: dseplus
+Version: 2005.9-1
+Contains: syskern padi dsepadi monitor juice curve 
+Depends: R (>= 2.0.0), setRNG (>= 2004.4-1), tframe (>= 2005.9-1), dse1 (>= 2005.9-1), dse2 (>= 2005.9-1)
+BundleDescription: Multivariate Time Series Library - Extensions
+  See also the related bundle dse.
+License: Free. See the LICENCE file for details.
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Sun Sep 11 16:47:08 2005; paul

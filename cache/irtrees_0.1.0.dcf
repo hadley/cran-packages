@@ -1,0 +1,18 @@
+Package: irtrees
+Title: Estimation of Tree-Based Item Response Models
+Version: 0.1.0
+Date: 2012-05-14
+Author: Ivailo Partchev and Paul De Boeck
+Maintainer: Ivailo Partchev <partchev@gmail.com>
+Description: Helper functions and example data sets accompanying De
+        Boeck, P. and Partchev, I. (2012) IRTrees: Tree-Based Item
+        Response Models of the GLMM Family, Journal of Statistical
+        Software - Code Snippets, 48(1), 1-28.
+Depends: R(>= 2.10)
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Suggests: lme4
+Packaged: 2012-05-14 12:57:16 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2012-05-19 11:53:03

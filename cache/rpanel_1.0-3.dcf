@@ -1,0 +1,15 @@
+Package: rpanel
+Type: Package
+Title: Simple interactive controls for R using the tcltk library.
+Version: 1.0-3
+Date: 2006-08-15
+Author: Bowman, Bowman and Crawford
+Maintainer: Ewan Crawford <ewan@stats.gla.ac.uk>
+Depends: R (>= 2.0), tcltk
+Suggests: tkrplot, rgl
+Description: rpanel provides a set of functions to build simple 
+        GUI controls for R functions.  These are built on the tcltk package. 
+        Uses could include changing a parameter on a graph by animating it 
+        with a slider or a "doublebutton", up to more sophisticated control panels.
+License: GNU GPL Version 2
+Packaged: Mon Aug 21 15:42:53 2006; ltsnadmin

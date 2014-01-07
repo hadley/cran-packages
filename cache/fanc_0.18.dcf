@@ -1,0 +1,17 @@
+Package: fanc
+Type: Package
+Title: Penalized likelihood factor analysis via non-concave penalty
+Version: 0.18
+Date: 2012-05-18
+Author: Kei Hirose, Michio Yamamoto
+Maintainer: Kei Hirose <mail@keihirose.com>
+Suggests: RGtk2
+Description: This package computes the penalized maximum likelihood
+        estimates of factor loadings and unique variances for various
+        tuning parameters.  The pathwise coordinate descent along with
+        EM algorithm is used.
+License: GPL (>= 2)
+URL: http://www.keihirose.com/.
+Packaged: 2012-05-18 10:02:46 UTC; hirosekei
+Repository: CRAN
+Date/Publication: 2012-05-18 10:22:14

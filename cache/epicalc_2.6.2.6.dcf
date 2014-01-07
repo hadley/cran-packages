@@ -1,0 +1,12 @@
+Package: epicalc
+Version: 2.6.2.6
+Date: 2008-03-12
+Title: Epidemiological calculator
+Author: Virasakdi Chongsuvivatwong <cvirasak@medicine.psu.ac.th>
+Maintainer: Virasakdi Chongsuvivatwong <cvirasak@medicine.psu.ac.th>
+Depends: R (>= 2.5.1), foreign, survival
+Suggests: 
+Description: Functions making R easy for epidemiological calculation.
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org/
+Packaged: Wed Mar 12 21:06:26 2008; com

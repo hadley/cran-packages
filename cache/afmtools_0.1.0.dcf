@@ -1,0 +1,14 @@
+Package: afmtools
+Version: 0.1.0
+Date: 2011-03-21
+Title: Diagnostic and Forecasting Functions for ARFIMA models
+Author: Javier Contreras-Reyes, George M. Goerg, Wilfredo Palma
+Maintainer: Javier Contreras-Reyes <jcontr@mat.puc.cl>
+Depends: R (>= 2.12.2), polynom, fracdiff, hypergeo, sandwich, longmemo
+Description: A collection of estimation, forecasting and diagnostic
+        tools for autoregressive fractionally integrated moving-average
+        process (ARFIMA).
+License: GPL-2
+Packaged: 2011-03-21 17:16:46 UTC; Javier
+Repository: CRAN
+Date/Publication: 2011-03-21 17:32:26

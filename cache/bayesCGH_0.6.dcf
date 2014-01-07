@@ -1,0 +1,11 @@
+Package: bayesCGH
+Type: Package
+Title: Bayesian analysis of array CGH data
+Version: 0.6
+Date: 2008-08-04
+Depends: snapCGH, methods
+Author: Thomas Hardcastle
+Maintainer: Thomas Hardcastle <tjh48@cam.ac.uk>
+Description: A set of methods for Bayesian analysis of proportions of chromosomal changes within clinical sets.
+License: GPL-3
+Packaged: Mon Dec 22 16:12:42 2008; tjh48

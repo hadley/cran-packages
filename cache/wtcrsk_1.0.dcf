@@ -1,0 +1,15 @@
+Package: wtcrsk
+Type: Package
+Title: A proportional hazards regression model for the subdistribution
+        with covariates adjusted censoring weight for competing risks
+        data
+Version: 1.0
+Date: 2013-12-16
+Author: Peng He
+Maintainer: Peng He <saturnhp@gmail.com>
+Description: Estimation and regression modeling of subdistribution functions for competing risks data with adjustment for covariate-dependent censoring, as described in He et al..
+License: GPL (>= 2)
+Packaged: 2013-12-17 06:39:27 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-17 07:39:36

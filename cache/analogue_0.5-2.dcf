@@ -1,0 +1,13 @@
+Package: analogue
+Type: Package
+Title: Analogue and weighted averaging methods for palaeoecology
+Version: 0.5-2
+Date: $Date: 2008-04-24 09:52:42 +0200 (Thu, 24 Apr 2008) $
+Depends: R (>= 2.5.0), stats, graphics, vegan
+Author: Gavin L. Simpson, Jari Oksanen
+Maintainer: Gavin L. Simpson <gavin.simpson@ucl.ac.uk>
+Description: Fits Modern Analogue Technique and Weighted Averaging transfer 
+  	     function models for prediction of environmental data from species 
+	     data, and related methods used in palaeoecology.
+License: GPL-2
+Packaged: Sat May 10 04:42:21 2008; theussl

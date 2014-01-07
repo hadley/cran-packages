@@ -1,0 +1,16 @@
+Package: MetaSKAT
+Type: Package
+Title: Meta analysis for SNP-set (Sequence) Kernel Association Test
+Version: 0.27
+Date: 2013-04-25
+Author: Seunggeun Lee
+Maintainer: Seunggeun (Shawn) Lee <phila78@gmail.com>
+Description: Meta analysis for SNP-set (Sequence) Kernel Association
+        Test.
+License: GPL (>= 2)
+SystemRequirements: Little Endian
+Depends: R (>= 2.13.0), SKAT (>= 0.82)
+Packaged: 2013-05-09 14:24:26 UTC; sglee
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-09 16:58:14

@@ -1,0 +1,16 @@
+Package: CCM
+Type: Package
+Title: Correlation classification method (CCM)
+Version: 1.0
+Date: 2011-04-13
+Author: Garrett M. Dancik and Yuanbin Ru
+Maintainer: Garrett M. Dancik <garrett.dancik@ucdenver.edu>
+Description: Classification method that classifies a sample according
+        to the class with the maximimum mean (or any other function of)
+        correlation between the test and training samples with known
+        classes.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 13:13:08 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:37

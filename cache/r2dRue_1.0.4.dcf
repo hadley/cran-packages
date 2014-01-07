@@ -1,0 +1,21 @@
+Package: r2dRue
+Type: Package
+Title: 2d Rain Use Efficience model
+Version: 1.0.4
+Date: 2013-04-21
+Author: Gabriel del Barrio, Juan Puigdefabregas, Maria E. Sanjuan &
+        Alberto Ruiz
+Maintainer: Alberto Ruiz Moreno <aruiz@eeza.csic.es>
+Description: 2dRUE is a methodology to make a diagnostic of land
+        condition in a large territory during a given time period. The
+        following projects have funded this package: DeSurvey IP (EC
+        FP6 Integrated Project contract No. 003950), DesertWatch (ESA
+        DUE contract No. 18487/04/I-LG) and MesoTopos (Junta de
+        Andalucia PE ref. RNM-4023).
+License: GPL
+LazyLoad: yes
+Depends: rgdal,sp,matrixStats
+Packaged: 2013-06-28 09:24:30 UTC; aruiz
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-28 12:22:19

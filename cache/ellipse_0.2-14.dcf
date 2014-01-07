@@ -1,0 +1,17 @@
+Package: ellipse
+Version: 0.2-14
+Date: 2004-08-06
+Title: Functions for drawing ellipses and ellipse-like confidence regions
+Author:  Duncan Murdoch <murdoch@stats.uwo.ca> and E. D. Chow 
+    (porting to R by Jesus M. Frias Celayeta <iosu@bureau.ucc.ie>)
+Maintainer: Duncan Murdoch <murdoch@stats.uwo.ca>
+Description: This package contains various routines for drawing
+    ellipses and ellipse-like confidence regions, implementing the plots
+    described in Murdoch and Chow (1996), A graphical display of large
+    correlation matrices, The American Statistician 50, 178-180. There are
+    also routines implementing the profile plots described in Bates and
+    Watts (1988), Nonlinear Regression Analysis and its Applications.
+License: This library was written by D. J. Murdoch and
+    E. D. Chow. This software is licensed under the GPL terms. It
+    is free software and comes with ABSOLUTELY NO WARRANTY.
+Packaged: Fri Aug  6 08:52:42 2004; murdoch

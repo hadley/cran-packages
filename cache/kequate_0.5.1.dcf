@@ -1,0 +1,15 @@
+Package: kequate
+Type: Package
+Title: The kernel method of test equating
+Version: 0.5.1
+Date: 2012-03-02
+Author: Bjorn Andersson, Kenny Branberg and Marie Wiberg
+Maintainer: <bjorn.andersson@statistik.uu.se>
+Description: Implements the kernel method of test equating using the
+        CB, EG, SG, NEAT CE/PSE and NEC designs.
+License: GPL-3
+LazyLoad: yes
+Depends: R(>= 2.11.0), methods, stats, graphics
+Packaged: 2012-03-02 10:13:12 UTC; bjorna
+Repository: CRAN
+Date/Publication: 2012-03-02 14:13:11

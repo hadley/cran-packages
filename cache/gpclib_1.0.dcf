@@ -1,0 +1,10 @@
+Package:  gpclib
+Version:  1.0
+Date:  1/6/2003
+Depends:  R (>= 1.6.1)
+Title:  General Polygon Clipping Library for R
+Author:  R interface by Roger D. Peng <rpeng@stat.ucla.edu>; GPC library by Alan Murta
+Maintainer:  Roger D. Peng <rpeng@stat.ucla.edu>
+Description:  General polygon clipping routines for R based on Alan Murta's C library
+License:  Code written by R. D. Peng is available under the LGPL; the C code for the GPC library is free for non-commercial use (see the files `gpc.c' and `gpc.h' for details)
+URL:  http://department.stat.ucla.edu/~rpeng/R/gpclib; http://www.cs.man.ac.uk/aig/staff/alan/software

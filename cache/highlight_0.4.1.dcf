@@ -1,0 +1,17 @@
+Package: highlight
+Type: Package
+Title: Syntax highlighter
+Version: 0.4.1
+Date: 2013-04-09
+Author: Romain Francois
+Maintainer: Romain Francois <romain@r-enthusiasts.com>
+Description: Syntax highlighter for R code based on the results of the
+        R parser. Rendering in HTML and latex markup. Custom Sweave
+        driver performing syntax highlighting of R code chunks
+License: GPL (>= 2)
+Depends: R (>= 3.0.0), tools, codetools, utils
+URL: http://highligh.r-enthusiasts.com
+Packaged: 2013-04-09 11:45:25 UTC; romain
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-09 13:58:41

@@ -1,0 +1,18 @@
+Package: RSAP
+Version: 0.9
+Date: 2013-02-10
+Author: Piers Harding <piers@ompka.net>
+Maintainer: Piers Harding <piers@ompka.net>
+Title: SAP Netweaver RFC connector for R
+Description: The SAP Netweaver RFC connector for R
+SystemRequirements: NW RFC SDK downloaded from http://service.sap.com
+Depends: R (>= 2.12.0), utils, yaml, reshape
+LazyLoad: yes
+License: GPL-3
+URL: http://github.com/piersharding/RSAP
+BugReports: http://github.com/piersharding/RSAP/issues
+BuildVignettes: no
+Repository: CRAN
+Date/Publication: 2013-02-21 17:41:36
+Packaged: 2013-02-21 16:07:39 UTC; piers
+NeedsCompilation: yes

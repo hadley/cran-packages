@@ -1,0 +1,21 @@
+Package: cpk
+Version: 1.2
+Date: 2013-07-20
+Title: Clinical Pharmacokinetics
+Authors@R: c(person(given =c("Oscar", "A."), family = "Linares", role =
+        c("aut", "cre"), email = "OALinaresMD@gmail.com"),
+        person(given =c( "David", "T."), family = "Daly", role = "aut",
+        email = "daviddalysr@att.net"))
+Description: The package cpk provides simplified clinical pharmacokinetic functions for dose regimen design and modification at the point-of-care. Currently, the following functions are available: (1) ttc for target therapeutic concentration, (2) dr for dose rate, (3) di for dosing interval, (4) dm for maintenance dose, (5) bc.ttc for back calculation, (6) ar for accumulation ratio, (7) dpo for orally administered dose, (8) cmax for peak concentration, (9) css for steady-state concentration, and (10) cmin for trough. Reference: Linares O, Linares A. Computational opioid prescribing: A novel application of clinical pharmacokinetics. J Pain Palliat Care Pharmacother 2011;25:125-135.
+Depends: R (>= 2.10.0)
+License: GPL-2
+Disclaimer: The authors take no responsibility for the outcome of
+        therapy in any patient in which the techniques described in
+        this package have been utilized.
+Packaged: 2013-07-20 11:12:24 UTC; RSAAM
+Maintainer: Oscar A. Linares, MD <OALinaresMD@gmail.com>
+Repository: CRAN
+Date/Publication: 2013-07-20 15:33:28
+Author: Oscar A. Linares [aut, cre],
+  David T. Daly [aut]
+NeedsCompilation: no

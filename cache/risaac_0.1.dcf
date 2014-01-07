@@ -1,0 +1,15 @@
+Package: risaac
+Type: Package
+Title: A fast cryptographic random number generator using ISAAC by
+        Robert Jenkins.
+Version: 0.1
+Date: 2012-04-25
+Author: David L Gibbs
+Maintainer: David L Gibbs <gibbsdavidl@gmail.com>
+Description: Uses the ISAAC algorithm:
+        http://burtleburtle.net/bob/rand/isaacafa.html
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-04-27 19:21:39 UTC; dailyoperation
+Repository: CRAN
+Date/Publication: 2012-04-28 06:21:10

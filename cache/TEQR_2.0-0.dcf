@@ -1,0 +1,13 @@
+Package: TEQR
+Version: 2.0-0
+Date: 2013-07-09
+Title: Target Equivalence Range Design
+Author: M. Suzette Blanchard
+Depends:
+Maintainer: M. Suzette Blanchard <sblanchard@coh.org>
+Description: The target equivalence range (TEQR) design, previously named the toxicity equivalence range design is an up-down design patterned after the modified toxicity probability interval design.The TEQR design extends the well known 3+3 design to allow for: an explicit target range for the dose limiting toxicity (DLT) rate, more subjects at the maximum tolerated dose (MTD), and specification of a too-toxic rate, which closes a dose level, In addition, the TEQR design can be implemented to target a dose based either on toxicity rate or activity rate constrained for toxicity. 
+License: GPL-2
+Packaged: 2013-07-09 16:17:21 UTC; SBlanchard
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-09 21:10:28

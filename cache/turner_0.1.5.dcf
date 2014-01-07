@@ -1,0 +1,21 @@
+Package: turner
+Title: Turn vectors and lists of vectors into indexed structures
+Version: 0.1.5
+Date: 2013-07-15
+Author: Gaston Sanchez
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: Package designed for working with vectors and lists of vectors,
+    mainly for turning them into other indexed data structures.
+URL: http://www.gastonsanchez.com
+Depends: R (>= 3.0), tester
+Suggests: testthat, knitr
+VignetteBuilder: knitr
+License: GPL-3
+Collate: 'df_to_blocks.r' 'dummy_to_list.r' 'factor_to_dummy.r'
+        'from_to.r' 'funlist.r' 'indexify.r' 'lengths.r' 'list_ones.r'
+        'list_to_dummy.r' 'list_to_matrix.r' 'listify.r' 'listsize.r'
+        'matrix_to_blocks.r' 'vector_to_dummy.r'
+Packaged: 2013-07-15 18:09:20 UTC; Gaston
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-15 21:18:28

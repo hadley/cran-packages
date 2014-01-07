@@ -1,0 +1,15 @@
+Package: nanop
+Type: Package
+Title: tools for nanoparticle simulation and PDF calculation
+Version: 1.0
+Author: Katharine Mullen
+Maintainer: Katharine Mullen <katharine.mullen@nist.gov>
+Description: This software package implements functions to simulate
+        spherical monoatomic nanoparticles with face-centered cubic
+        structure and calculate the associated pair distribution and
+        total scattering structure functions.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2009-12-06 00:52:56 UTC; kmullen
+Repository: CRAN
+Date/Publication: 2009-12-06 10:08:39

@@ -1,0 +1,11 @@
+Package: inetwork
+Type: Package
+Title: Network Analysis and Plotting
+Version: 1.0
+Date: 2007-06-22
+Author: Sun-Chong Wang 
+Maintainer: Sun-Chong Wang <sun-chong_wang@camh.net>
+Description: implements a network partitioning algorithm to identify communities (or modules) in a network. A network plotting function utilizes the identified community structure to position the vertices for plotting. The package also contains functions to calculate the assortativity and transitivity of a vertex.
+License: LGPL
+URL: http://www.r-project.org
+Packaged: Fri Jul 13 15:34:45 2007; scwang

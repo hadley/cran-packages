@@ -1,0 +1,19 @@
+Package: rocplus
+Version: 1.0-0
+Date: 2011/3/13
+Title: ROC, Precision-Recall, Convex Hull and other plots.
+Author: Bob Wheeler <bwheelerg@gmail.com>
+Depends: SuppDists
+Maintainer: Bob Wheeler <bwheelerg@gmail.com>
+Description: Creates single and multiple ROC plots, precision-recall,
+        Bayes plots and others. The plots may be either rough or smooth
+        with confidence limits. Threshold values, optimum points and
+        other interesting points may be marked on the plots. The convex
+        hull for multiple curves with blending fractions for
+        interesting points may be obtained. The axes may have normal or
+        lognormal scaling.
+License: GPL (>= 2)
+URL: http://www.bobwheeler.com/stat
+Packaged: 2011-03-13 18:16:50 UTC; Bob Wheeler
+Repository: CRAN
+Date/Publication: 2011-03-14 08:32:06

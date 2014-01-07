@@ -1,0 +1,16 @@
+Package: mbbefd
+Type: Package
+Title: MBBEFD distribution and exposure curve
+Version: 0.1
+Date: 2013-10-28
+Author: Giorgio Spedicato
+Maintainer: Giorgio Spedicato <spedicato_giorgio@yahoo.it>
+Description: This package contains probability functions to work with MBBEFD and its exposure curve
+License: GPL-2
+Depends: R (>= 2.14)
+ByteCompile: yes
+BugReports: Giorgio Spedicato <spedicato_giorgio@yahoo.it>
+Packaged: 2013-10-30 15:38:42 UTC; Giorgio Copia
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-30 17:22:33

@@ -1,0 +1,19 @@
+Package: jointDiag
+Version: 0.2
+Date: 2009-04-29
+Title: Joint Approximate Diagonalization of a set of square matrices
+Author: Cedric Gouy-Pailler <cedric.gouypailler@gmail.com>
+Maintainer: Cedric Gouy-Pailler <cedric.gouypailler@gmail.com>
+Depends:
+Suggests:
+Description: Different algorithms to perform approximate joint
+        diagonalization of a finite set of square matrices. Depending
+        on the algorithm, orthogonal or non-orthogonal diagonalizer is
+        found. These algorithms are particularly useful in the context
+        of blind source separation.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+        http://www.lis.inpg.fr/pages_perso/gouypailler/
+Packaged: 2009-12-16 22:45:52 UTC; cedric
+Repository: CRAN
+Date/Publication: 2009-12-17 17:17:36

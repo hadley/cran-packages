@@ -1,0 +1,13 @@
+Package: anacor
+Type: Package
+Title: Simple and Canonical Correspondence Analysis.
+Version: 0.9-4
+Date: 2008-10-10
+Author: Jan de Leeuw, Patrick Mair 
+Maintainer: Jan de Leeuw <deleeuw@stat.ucla.edu>
+Description: This package performs simple correspondence analysis (CA) on a two-way frequency table (with missings) by means of SVD. Different scaling methods (standard, centroid, Benzecri, Goodman) as well as various plots including confidence ellipsoids are provided. 
+Imports: graphics, stats
+Depends: rgl, scatterplot3d, fda, colorspace, car
+URL: http://r-forge.r-project.org/projects/psychor/
+License: GPL
+Packaged: Sat Oct 11 04:44:37 2008; theussl

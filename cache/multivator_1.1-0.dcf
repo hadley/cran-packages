@@ -1,0 +1,15 @@
+Package: multivator
+Type: Package
+Title: A multivariate emulator
+Version: 1.1-0
+Depends: R(>= 2.10.0), emulator (>= 1.2-8), methods, utils, abind
+Date: 2011-07-28
+Author: Robin K. S. Hankin
+Maintainer: <hankin.robin@gmail.com>
+Description: A multivariate generalization of the emulator package
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-02-06 03:21:34 UTC; rksh
+Repository: CRAN
+Date/Publication: 2012-02-06 09:36:51

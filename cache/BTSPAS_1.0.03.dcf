@@ -1,0 +1,24 @@
+Package: BTSPAS
+Version: 1.0.03
+Date: 2010-03-31
+Title: Bayesian Time-Strat. Population Analysis
+Author: Carl J Schwarz <cschwarz@stat.sfu.ca> and Simon J Bonner
+        <s.bonner@stat.ubc.ca>
+Maintainer: Simon J Bonner <s.bonner@stat.ubc.ca>
+Depends: R2WinBUGS, coda, splines, actuar, BRugs
+OS_type: windows
+Description: BTSPAS provides advanced Bayesian methods to estimate
+        abundance and run-timing from temporally-stratified Petersen
+        mark-recapture experiments. Methods include hierarchical
+        modelling of the capture probabilities and spline smoothing of
+        the daily run size.
+URL: http://www.stat.sfu.ca/~cschwarz/Consulting/Trinity/Phase2
+SystemRequirements: Currently only MS-Windows is supported (neither
+        R2WinBUGS or BRugs support other platforms/OS types at this
+        moment.)
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: btspas
+Repository/R-Forge/Revision: 47
+Date/Publication: 2010-04-10 06:32:42
+Packaged: 2010-04-09 20:38:34 UTC; rforge

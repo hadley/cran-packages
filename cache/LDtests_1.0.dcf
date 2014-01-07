@@ -1,0 +1,10 @@
+Package: LDtests
+Type: Package
+Title: Exact tests for Linkage Disequilibrium and Hardy-Weinberg Equilibrium
+Version: 1.0
+Date: 2008-06-07
+Author: Alex Lewin
+Maintainer: Alex Lewin <a.m.lewin@imperial.ac.uk>
+Description: Exact tests for Linkage Disequilibrium (LD) and Hardy-Weinberg Equilibrium (HWE). - 2-sided LD tests based on different measures of LD (Kulinskaya and Lewin 2008) - 1-sided Fisher's exact test for LD - 2-sided Haldane test for HWE (Wiggington 2005) - 1-sided test for inbreeding - conditional p-values proposed in Kulinskaya (2008) to overcome the problems of asymetric distributions (for both LD and HWE)
+License: GPL
+Packaged: Mon Jun  9 10:25:16 2008; alewin

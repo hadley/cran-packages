@@ -1,0 +1,22 @@
+Package: MRCV
+Version: 0.1-0
+Date: 2013-06-22
+Title: Methods for Analyzing Multiple Response Categorical Variables
+        (MRCVs)
+Author: Natalie Koziol and Chris Bilder
+Maintainer: Natalie Koziol <nak371@gmail.com>
+Depends: tables, R (>= 3.0.0)
+LazyData: TRUE
+Description: This package provides functions for analyzing the
+        association between two or three MRCVs.  A modified Pearson
+        chi-square statistic can be used to test for marginal
+        independence, or a more general loglinear modeling approach can
+        be used to compare various other structures of association.
+        Bootstrap- and asymptotic-based standardized residuals and
+        model-predicted odds ratios are available, in addition to other
+        descriptive information.
+License: GPL (>= 3)
+Packaged: 2013-06-22 23:23:26 UTC; nkoziol
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-23 09:22:25

@@ -1,0 +1,14 @@
+Package: paltran
+Type: Package
+Title: WA, WA-PLS, MW and POM for paleolimnology
+Version: 1.0-0 
+Date: 2008-04-29
+Author: Sven Adler
+Maintainer: Sven Adler <sven.adler2@uni-rostock.de>
+Depends: vegan, MASS, mgcv 
+Description: This package contains functions for paleolimnology - wa-regrssion 
+	(see also package analogue!), wa-pls and MW regression. The function palplot allows a f
+	irst plot of the data including a trend analysis. The pom function is just a first test version.
+License: GPL (>= 2)
+URL: http://www.biologie.uni-rostock.de/abt/botanik/AG-Phykologie/index-engl.htm
+Packaged: Mon May  5 08:52:10 2008; botanikschule-B

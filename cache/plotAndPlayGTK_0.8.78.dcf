@@ -1,0 +1,17 @@
+Package: plotAndPlayGTK
+Type: Package
+Title: A GUI for interactive plots using GTK+
+Version: 0.8.78
+Date: 2007-11-21
+Author: Felix Andrews <felix@nfrac.org>
+Maintainer: Felix Andrews <felix@nfrac.org>
+Depends: R (>= 2.5.0), RGtk2, cairoDevice
+Imports: lattice (>= 0.16), grid, grDevices, graphics
+Suggests: lattice
+Description: A graphical user interface for R plots. Wrap it around your plot calls,
+  like playwith(plot(mydata)). 
+  NOTE: This package has been superseded by package "playwith"
+  and will eventually be removed.
+License: GPL version 2 or newer
+URL: http://playwith.googlecode.com/
+Packaged: Wed Nov 21 14:57:25 2007; Felix

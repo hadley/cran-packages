@@ -1,0 +1,21 @@
+Package: Mobilize
+Type: Package
+Title: Mobilize plots and functions
+Version: 2.11-1
+Date: 2012-05-29
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Description: Some canned plots and functions designed for the mobilize
+        project.  Designed to be called remotely.
+License: GPL
+Depends: R (>= 2.14), stats, methods, Ohmage
+Imports: ggplot2, wordcloud, Ohmage, reshape2
+Suggests: XML, maps
+Collate: 'bin.by.date.R' 'biplot.R' 'campaigndata.R'
+        'distributionplot.R' 'getpicture.R' 'geturl.R' 'gmapdata.R'
+        'keepalive.R' 'mapmobility.R' 'responseplot.R' 'scatterplot.R'
+        'sharedplot.R' 'sharedtimeplot.R' 'test.mobilze.R' 'timeplot.R'
+        'userplot.R'
+Packaged: 2012-05-29 19:37:56 UTC; jeroen
+Repository: CRAN
+Date/Publication: 2012-05-30 06:58:07

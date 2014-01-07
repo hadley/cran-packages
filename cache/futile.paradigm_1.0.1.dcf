@@ -1,0 +1,19 @@
+Package: futile.paradigm
+Type: Package
+Title: A framework for working in a functional programming paradigm in
+        R
+Version: 1.0.1
+Date: 2010-08-17
+Depends: futile.options
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Description: Provides dispatching implementations suitable for
+        functional programming paradigms. The framework provides a
+        mechanism for attaching guards to functions similar to Erlang,
+        while also providing the safety of assertions reminiscent of
+        Eiffel.
+License: LGPL-3
+LazyLoad: yes
+Packaged: Tue Aug 17 20:46:38 2010; brian
+Repository: CRAN
+Date/Publication: 2010-08-18 04:55:17

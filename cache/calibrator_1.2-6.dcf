@@ -1,0 +1,20 @@
+Package: calibrator
+Type: Package
+Title: Bayesian calibration of complex computer codes
+Version: 1.2-6
+Date: 28 June 2009
+Author: Robin K. S. Hankin
+Depends: R (>= 2.0.0), emulator (>= 1.2-11)
+Imports: cubature
+Maintainer: Robin K. S. Hankin <hankin.robin@gmail.com>
+Description: Performs Bayesian calibration of computer models as per
+ Kennedy and O'Hagan 2001.  The package includes routines to find the
+ hyperparameters and parameters; see the help page for stage1() for a
+ worked example using the toy dataset.  A tutorial is provided in the
+ calex.Rnw vignette; and a suite of especially simple one dimensional
+ examples appears in inst/doc/one.dim/.
+License: GPL
+Packaged: 2013-12-08 23:00:11 UTC; rhankin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-09 08:22:43

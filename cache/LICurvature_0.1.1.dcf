@@ -1,0 +1,16 @@
+Package: LICurvature
+Version: 0.1.1
+Date: 2013-06-23
+Title: Sensitivity Analysis for Case Weight in Normal Linear Regression
+Author: Ehsan Bahrami Samani and Parisa ParsaMaram
+Maintainer: Ehsan Bahrami Samani <ehsan_bahrami_samani@yahoo.com>
+Description: This package presents a general method for assessing the
+        local influence of minor perturbations of case weight for the
+        linear regression models.
+Depends: R (>= 2.14.0), MASS,stats
+License: GPL (>= 2)
+Contact: +982129902910
+Packaged: 2013-06-25 05:18:15 UTC; User
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-25 08:31:28

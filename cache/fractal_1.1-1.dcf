@@ -1,0 +1,21 @@
+Package: fractal
+Type: Package
+Title: Fractal Time Series Modeling and Analysis
+Version: 1.1-1
+Date: 2011-10-16
+Author: William Constantine and Donald Percival (Applied Physics
+        Laboratory, University of Washington)
+Maintainer: ORPHANED
+Depends: R (>= 2.5.1), splus2R (>= 1.1-0), ifultools (>= 1.1-1), sapa
+        (>= 1.1-0), wmtsa (>= 1.1-1), akima, MASS, scatterplot3d
+Description: Stochastic fractal and deterministic chaotic time series
+        analysis.
+License: GPL-2
+Collate: fra_chaos.R fra_class.R fra_detm.R fra_dim.R fra_fdp.R
+        fra_filt.R fra_hurst.R fra_kde.R fra_model.R fra_neig.R
+        fra_stny.R fra_surr.R fra_pkg.R
+Packaged: 2012-09-24 08:56:16 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-09-24 08:57:46
+X-CRAN-Comment: Orphaned on 2012-09-24, as former maintainer (William
+        Constantine <wlbconstan@gmail.com>) is unresponsive.

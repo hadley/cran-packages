@@ -1,0 +1,16 @@
+Package: LEAPFrOG
+Title: Likelihood Estimation of Admixture in Parents From Offspring
+        Genotypes
+Version: 1.0.1
+Date: 2011-06-07
+Author: Daniel JM Crouch & Michael E Weale
+Maintainer: Daniel JM Crouch <daniel.crouch@kcl.ac.uk>
+Description: Contains LEAPFrOG Gradient Optimisation and Expectation
+        Maximisation functions for inferring parental admixture
+        proportions from an offspring with SNP genotypes.
+URL: http://sites.google.com/site/mikeweale
+Depends: alabama, MASS
+Packaged: 2012-01-02 15:51:45 UTC; Daniel
+License: GPL
+Repository: CRAN
+Date/Publication: 2012-01-15 12:02:07

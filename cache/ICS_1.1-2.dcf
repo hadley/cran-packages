@@ -1,0 +1,16 @@
+Package: ICS 
+Type: Package 
+Title: Tools for Exploring Multivariate Data via ICS/ICA
+Version: 1.1-2 
+Date: 2008-04-03
+Author: Klaus Nordhausen, Hannu Oja, David E. Tyler 
+Maintainer: Klaus Nordhausen <klaus.nordhausen@uta.fi> 
+Depends: R (>= 2.5.0), methods, mvtnorm, survey 
+Suggests: pixmap, robustbase
+Description: The package implements Tyler et al.'s and Oja et al.'s method of two different scatter
+	matrices to obtain an invariant coordinate system or independent
+	components, depending on the underlying assumptions. 
+License: GPL (>= 2)
+LazyLoad: yes
+Encoding: latin1 
+Packaged: Thu Apr  3 12:03:35 2008; kn66583

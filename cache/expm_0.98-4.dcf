@@ -1,0 +1,17 @@
+Package: expm
+Type: Package
+Title: Matrix exponential
+Version: 0.98-4
+Date: 2011-03-30
+Author: Vincent Goulet, Christophe Dutang, Martin Maechler, David
+        Firth, Marina Shapira, Michael Stadelmann,
+        expm-developers@lists.R-forge.R-project.org
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Computation of the matrix exponential and related
+        quantities.
+Depends: R (>= 2.9.2), Matrix
+Suggests: RColorBrewer, sfsmisc
+License: GPL (>= 2)
+Packaged: 2011-03-30 21:35:00 UTC; maechler
+Repository: CRAN
+Date/Publication: 2011-03-31 18:41:30

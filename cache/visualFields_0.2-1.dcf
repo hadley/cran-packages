@@ -1,0 +1,39 @@
+Package: visualFields
+Type: Package
+Title: Statistical methods for visual fields
+Version: 0.2-1
+Date: 2012-05-04
+Author: Ivan Marin-Franch <imarinfr@indiana.edu>, Paul H Artes
+        <paul@dal.ca>
+Maintainer: Ivan Marin-Franch <imarinfr@indiana.edu>
+Authors@R: c( person( given = "Ivan", family = "Marin-Franch", role =
+        c( "aut", "cre" ), email = "imarinfr@indiana.edu", comment =
+        NULL ), person( given = "Paul H", family = "Artes", role = c(
+        "aut", "cre" ), email = "paul@dal.ca", comment = NULL ),
+        person( given = "Chaitanya", family = "Khadilkar", role = c(
+        "ctb" ), email = "chaikhad@indiana.edu", comment = "developer"
+        ), person( given = "Neil", family = "O'Leary", role = c( "ctb"
+        ), email = "oleary.neil@gmail.com", comment = "PoPLR" ),
+        person( given = "Richard", family = "Russell", role = c( "ctb"
+        ), email = "Richard.Russell.1@city.ac.uk", comment = "xml2csv"
+        ), person( given = "William H", family = "Swanson", role = c(
+        "ctb" ), email = "wilswans@indiana.edu", comment = "normative
+        values" ), person( given = "Mitchell", family = "Dul", role =
+        c( "ctb" ), email = "mdul@sunyopt.edu", comment = "normative
+        values" ), person( given = "Victor E", family = "Malinovsky",
+        role = c( "ctb" ), email = "malinovs@indiana.edu", comment =
+        "normative values" ) )
+Depends: R (>= 2.10.0), stats, utils, gridBase, flip, matrixStats,
+        Hmisc
+LazyData: yes
+Description: A collection of tools for analyzing the field of vision.
+        It provides a framework for development and use of innovative
+        methods for visualization, statistical analysis, and clinical
+        interpretation of visual-field loss and its change over time.
+        It is intended to be a tool for collaborative research.
+License: GPL (>= 2.0)
+Repository: CRAN
+Repository/R-Forge/Project: visualfields
+Repository/R-Forge/Revision: 6
+Packaged: 2012-05-05 06:15:12 UTC; rforge
+Date/Publication: 2012-05-06 14:01:45

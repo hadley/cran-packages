@@ -1,0 +1,48 @@
+Package: texmex
+Type: Package
+Title: Statistical modelling of extreme values
+Version: 2.1
+Date: 2013-12-10
+Author: Harry Southworth, Janet E. Heffernan
+Maintainer: Harry Southworth <harry.southworth@gmail.com>
+Description: Statistical extreme value modelling of threshold excesses,
+  maxima and multivariate extremes.  Univariate models for threshold
+  excesses and maxima are the Generalised Pareto, and Generalised
+  Extreme Value model respectively.  These models may be fitted by
+  using maximum (optionally penalised-)likelihood, or Bayesian
+  estimation, and both classes of models may be fitted with covariates
+  in any/all model parameters.  Model diagnostics support the fitting
+  process. Graphical output for visualising fitted models and return
+  level estimates is provided.  For serially dependent sequences, the
+  intervals declustering algorithm of Ferro and Segers is provided,
+  with diagnostic support to aid selection of threshold and declustering
+  horizon.  Multivariate modelling is performed via the conditional
+  approach of Heffernan and Tawn, with graphical tools for threshold
+  selection and to diagnose estimation convergence. 
+License: GPL (>= 2)
+Depends: mvtnorm
+Suggests: MASS, lattice, knitr
+LazyLoad: yes
+LazyData: yes
+URL: http://code.google.com/p/texmex/
+Collate: globalVariables.R texmexFamily.R AIC.evm.R plot.evm.R
+        evm.simSetSeed.R plot.mexPrediction.R evmBoot.R plot.mex.R
+        bootmex.R plot.migpd.R chi.R plot.predict.link.evm.R
+        coef.evmSim.R plotrl.evm.R coefficients.evm.R ppevm.R
+        coefficients.migpd.R predict.evm.R constructObject.R
+        predict.mex.R copulas.R predictWorkers.R dgpd.R print.evmSim.R
+        efficient.closures.R print.bootmex.R endPoint.R print.evm.R
+        evmFit.R print.mexDependence.R evmSim.R evm.R
+        print.mexPrediction.R extremalIndex.R print.migpd.R gpd.info.R
+        qgpd2.R rgpd.R pgpd.R qgpd.R rgev.R pgev.R qgev.R dgev.R gev.R
+        gpd.R gpdRangeFit.R qqevm.R hist.evm.R revTransform.R
+        mexDependenceLowLevelFunctions.R mexDependence.R rMaxAR.R mex.R
+        summary.evmSim.R mexRangeFit.R summary.evm.R mexTransform.R
+        summary.migpd.R migpdCoefs.R summary.predict.mex.R migpd.R
+        mrl.R mspearman.R texmexWorkers.R multivariate.cauchy.R
+        thinAndBurn.evm.sim.R u2gpd.R plot.evmSim.R plot.bootmex.R
+        special.functions.R
+Packaged: 2013-12-31 09:51:19 UTC; harry
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-31 11:51:30

@@ -1,0 +1,30 @@
+Package: Luminescence
+Type: Package
+Title: Package for Luminescence Dating data analysis
+Version: 0.1.7
+Date: 2012-05-24
+Authors@R: c(person("Sebastian", "Kreutzer", role = c("aut", "cre"),
+        email = "sebastian.kreutzer@geogr.uni-giessen.de"),
+        person("Christoph", "Schmidt", role = c("aut","ctb")),
+        person("Margret C.", "Fuchs", role = c("aut","ctb")),
+        person("Michael", "Dietze", role = c("aut","ctb")),
+        person("Manfred", "Fischer", role = c("aut","ctb")),
+        person("Markus", "Fuchs", role = "ths"))
+Description: Package provides a collection of various R functions for
+        Luminescence Dating data analysis.
+License: GPL-3
+Depends: R (>= 2.15.0),methods
+Import: methods
+Collate: Analyse_SAR.OSLdata.R CW2pLM.R Calc_FadingCorr.R
+        Calc_FuchsLang2001.R Calc_OSLLxTxRatio.R Second2Gray.R
+        fit_LMCurve.R plot_BINfileData.R plot_DeDistribution.R
+        plot_GrowthCurve.R plot_Histogram.R plot_RadialPlot.R
+        readBIN2R.R RisoeBINfileData-class.R
+Packaged: 2012-05-24 11:45:26 UTC; sebastiankreutzer
+Author: Sebastian Kreutzer [aut, cre], Christoph Schmidt [aut, ctb],
+        Margret C. Fuchs [aut, ctb], Michael Dietze [aut, ctb], Manfred
+        Fischer [aut, ctb], Markus Fuchs [ths]
+Maintainer: Sebastian Kreutzer
+        <sebastian.kreutzer@geogr.uni-giessen.de>
+Repository: CRAN
+Date/Publication: 2012-05-25 12:19:05

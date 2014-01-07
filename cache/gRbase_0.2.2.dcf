@@ -1,0 +1,12 @@
+Package: gRbase
+Version: 0.2.2
+Title: A package for graphical modelling in R
+Author: Søren Højsgaard <sorenh@agrsci.dk>, Claus Dethlefsen <cld@rn.dk> 
+Maintainer: Claus Dethlefsen <cld@rn.dk> 
+Description: This package defines S3-classes gmData (graphical meta data), gModel (graphical model). Several other graphical modelling packages rely on these fundamental constructs. gRbase illustrates how hierarchical log-linear models (hllm) may be implemented. 
+License: GPL version 2 or newer
+URL: http://www.r-project.org/gR
+ZipData: no
+Depends: R (>= 2.1.0), MASS
+Encoding: latin1
+Packaged: Wed Nov  7 11:04:49 2007; shd

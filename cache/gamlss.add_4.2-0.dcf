@@ -1,0 +1,16 @@
+Package: gamlss.add
+Description: Extra additive terms for GAMLSS models.
+Title: GAMLSS Additive.
+LazyLoad: yes
+Version: 4.2-0
+Date: 2012-09-29
+Depends: R (>= 2.4.0), gamlss (>= 2.4.0), mgcv, nnet, gamlss.nl,
+        lattice
+Author: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>, Bob
+        Rigby <r.rigby@londonmet.ac.uk>
+Maintainer: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>
+License: GPL-2 | GPL-3
+URL: http://www.gamlss.org/
+Packaged: 2012-09-29 20:37:23 UTC; stasinom
+Repository: CRAN
+Date/Publication: 2012-09-29 21:01:59

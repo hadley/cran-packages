@@ -1,0 +1,11 @@
+Package: compHclust
+Type: Package
+Title: Complementary hierarchical clustering
+Version: 1.0
+Date: 2008-02-12
+Author: Gen Nowak and Robert Tibshirani
+Maintainer: Gen Nowak <gnowak@stanford.edu>
+Description: Performs the complementary hierarchical clustering procedure and returns X' (the expected residual matrix), and a vector of the relative gene importance.
+License: GPL (>= 2)
+URL: http://www-stat.stanford.edu/~gnowak
+Packaged: Wed Feb 13 13:34:26 2008; Gen

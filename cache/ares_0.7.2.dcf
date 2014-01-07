@@ -1,0 +1,17 @@
+Package: ares
+Version: 0.7.2
+Date: 2011-05-19
+Author: Washington Junger <wjunger@ims.uerj.br> and Antonio Ponce de
+        Leon <ponce@ims.uerj.br>
+Maintainer: Washington Junger <wjunger@ims.uerj.br>
+Depends: R (>= 2.11.0),utils,stats,foreign,gam,gplots,splines
+Title: Environment air pollution epidemiology: a library for time
+        series analysis
+Description: A toolbox for time series analyses using generalized
+        additive models. This library includes routines for model
+        estimation and diagnostics. Polynomial distributed lag models
+        are also implemented.
+License: GPL (>= 2)
+Packaged: 2011-05-20 00:30:33 UTC; wjunger
+Repository: CRAN
+Date/Publication: 2011-05-20 12:05:08

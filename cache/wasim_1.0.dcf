@@ -1,0 +1,11 @@
+Package: wasim
+Type: Package
+Title: Helpful tools for WaSiM-ETH.
+Version: 1.0
+Date: 2008-12-16
+Author: Dominik Reusser, Till Francke
+Maintainer: Dominik Reusser <dreusser@uni-potsdam.de>
+Description: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
+Depends: R (>= 1.8.0), MASS, qualV
+License: GPL2 
+Packaged: Tue Dec 16 22:37:09 2008; dreusser

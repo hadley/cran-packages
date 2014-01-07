@@ -1,0 +1,18 @@
+Package: moult
+Version: 1.2
+Date: 2013-01-16
+Title: Models for Analysing Moult Data
+Author: Birgit Erni <birgit.erni@uct.ac.za>. Based on models developed
+        by Underhill and Zucchini (1988, 1990).
+Maintainer: Birgit Erni <birgit.erni@uct.ac.za>
+Imports: Formula
+Description: Functions to estimate start and duration of moult from
+        moult data (of types 1 to 5), based on models developed in
+        Underhill and Zucchini (1988, 1990). Allows modelling
+        parameters as functions of covariates.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-01-16 08:57:29 UTC; birgit
+Repository: CRAN
+Date/Publication: 2013-01-16 11:43:15

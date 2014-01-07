@@ -1,0 +1,14 @@
+Package: mmlcr
+Version: 1.3.5
+Date: 2006-04-10
+Title: Mixed-Mode Latent Class Regression
+Author: Steve Buyske <buyske@stat.rutgers.edu>
+Maintainer: Steve Buyske <buyske@stat.rutgers.edu>
+Depends: MASS, nnet, nlme, survival
+Description: Mixed-mode latent class regression (also known as mixed-mode
+	mixture model regression or mixed-mode mixture regression models) which
+	can handle both longitudinal and one-time responses, although it is created
+        with longitudinal data in mind. 
+License: GPL Version 2 or later.
+URL: http://www.stat.rutgers.edu/~buyske/software.html
+Packaged: Tue Apr 18 21:20:12 2006; hornik

@@ -1,0 +1,33 @@
+Package: rbefdata
+Title: BEFdata R package
+Version: 0.3.2
+Author: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>,
+        Karin Nadrowski <nadrowski@uni-leipzig.de>, Xingxing Man
+        <manxingxing@gmail.com>
+Maintainer: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>
+Authors@R: c(person("Claas-Thido", "Pfaff",
+        email="claas-thido.pfaff@idiv-biodiversity.de",
+        role=c("cre","aut")), person("Karin", "Nadrowski",
+        email="nadrowski@uni-leipzig.de", role="aut"),
+        person("Xingxing", "Man", email="manxingxing@gmail.com",
+        role="aut"))
+Description: Basic R package to access the data structures offered by
+        the BEFdata portal.
+Suggests: ggplot2, plyr
+Imports: XML, RCurl, rjson, testthat
+Date: 2013-04-17
+License: MIT
+URL: https://github.com/befdata/rbefdata
+Collate: 'bef.options.R' 'zzz.R' 'rbefdata-package.R'
+        'bef.portal.get.R' 'bef.portal.get.dataset.R'
+        'bef.portal.get.proposal.R' 'bef.portal.get.metadata.R'
+        'bef.portal.get.keywords.R' 'bef.tematres.search.R'
+        'bef.tematres.search.keywords.R'
+        'bef.tematres.search.narrower_keywords.R'
+        'bef.tematres.search.broader_keywords.R' 'helper.R'
+        'bef.portal.get.attachment.R' 'bef.portal.get.dataset_list.R'
+        'rbefdata-deprecated.R'
+Packaged: 2013-06-19 18:28:37 UTC; sabsirro
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-20 07:44:10

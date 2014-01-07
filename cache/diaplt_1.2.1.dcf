@@ -1,0 +1,18 @@
+Package: diaplt
+Type: Package
+Title: Beads Summary Plot of Ranges
+Version: 1.2.1
+Date: 2013-11-12
+Author: Shinichiro Tomizono
+Maintainer: Shinichiro Tomizono <cowares@gmail.com>
+Description: Visualize one-factor data frame. 
+  Beads plot consists of diamonds of each factor of each data series. 
+  A diamond indicates average and range. 
+  Look over a data frame with many numeric columns and a factor column. 
+License: MIT + file LICENSE
+License_is_FOSS: yes
+License_restricts_use: no
+Packaged: 2013-11-13 04:23:07 UTC; macomini
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-13 07:46:29

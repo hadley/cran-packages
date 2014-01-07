@@ -1,0 +1,18 @@
+Package: pacbpred
+Type: Package
+Title: PAC-Bayesian Estimation and Prediction in Sparse Additive
+        Models.
+Version: 0.92
+Date: 2012-12-17
+Author: Benjamin Guedj
+Maintainer: Benjamin Guedj <benjamin.guedj@upmc.fr>
+Description: This package is intended to perform estimation and
+        prediction in high-dimensional additive models, using a sparse
+        PAC-Bayesian point of view and a MCMC algorithm. The method is
+        fully described in Guedj and Alquier (2012), 'PAC-Bayesian
+        Estimation and Prediction in Sparse Additive Models'.
+License: GPL (>= 2)
+URL: http://www.lsta.upmc.fr/doct/guedj/index.html
+Packaged: 2012-12-17 09:39:32 UTC; benjamin
+Repository: CRAN
+Date/Publication: 2012-12-17 10:57:36

@@ -1,0 +1,17 @@
+Package: LCA
+Version: 0.1
+Date: 2013-09-30
+Title: Localised Co-Dependency Analysis
+Authors@R: person("Ed", "Curry", role = c("aut", "cre"),email =
+        "e.curry@imperial.ac.uk")
+Author: Ed Curry
+Maintainer: Ed Curry <e.curry@imperial.ac.uk>
+Depends: R (>= 2.15.0)
+Description: Performs model fitting and significance estimation for Localised Co-Dependency between pairs of features of a numeric dataset.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://www1.imperial.ac.uk/medicine/people/e.curry/
+Packaged: 2013-09-30 20:29:09 UTC; ecurry
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-30 22:50:18

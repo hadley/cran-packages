@@ -1,0 +1,23 @@
+Package: mvSLOUCH
+Type: Package
+Title: MultiVariate Stochastic Linear Ornstein-Uhlenbeck models for
+        phylogenetic Comparative hypotHeses
+Version: 1.1
+Date: 2013-12-26
+Author: Krzysztof Bartoszek <bartoszekkj@gmail.com>
+Maintainer: Krzysztof Bartoszek <bartoszekkj@gmail.com>
+Description: Fits multivariate Ornstein-Uhlenbeck types of models to continues trait data from species related by a common evolutionary history. 
+Depends: R(>= 2.9.1), ouch, ape, numDeriv, mvtnorm, corpcor
+License: GPL (>= 2) | file LICENCE
+LazyLoad: yes
+Collate: regimes.R treeDists.R grid.R matrixexps.R
+        matrixparametrizations.R modelparamstransform.R precalcs.R
+        sdemoments.R sdemomentsphyl.R loglik.R ci.R phylgls.R
+        modelparamssummary.R modelparams.R estimBM.R estimGLSGC.R
+        estimMAXLIK.R simulVasicekproc.R simulVasicekprocphyl.R
+        PhyloSDEestim.R MVslouchSimulStudy.R wrappers.R fitch.mvsl.R
+        ouch2slouch.mvsl.R make.states.mvsl.R
+Packaged: 2013-12-26 14:56:18 UTC; bart
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-27 13:28:23

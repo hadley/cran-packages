@@ -1,0 +1,16 @@
+Package: MEMSS
+Version: 0.9-1
+Date: 2013-09-21
+Title: Data sets from Mixed-effects Models in S
+Author: Douglas Bates <bates@stat.wisc.edu>, Martin Maechler
+        <maechler@R-project.org> and Ben Bolker <bbolker@gmail.com>
+Maintainer: Ben Bolker <bbolker+lme4@gmail.com>
+Description: Data sets and sample analyses from Pinheiro and Bates,
+        "Mixed-effects Models in S and S-PLUS" (Springer, 2000).
+Depends: R (>= 2.12.0), lme4 (>= 0.999375-36)
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2013-09-21 07:41:51 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-21 10:01:44

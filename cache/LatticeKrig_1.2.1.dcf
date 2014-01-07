@@ -1,0 +1,17 @@
+Package: LatticeKrig
+Version: 1.2.1
+Date: September 8, 2011
+Title: Multiresolution Kriging based on Markov random fields
+Author: Douglas Nychka, Dorit Hammerling, Stephen Sain, and Tia Lerud
+Maintainer: Doug Nychka <nychka@ucar.edu>
+Description: Fixed rank Kriging for large data sets that supports a
+        large number of basis functions and provides spatial estimates
+        that are comparable to standard families of covariance
+        functions and estimates that are close to interpolating the
+        observations (a small nugget variance.)
+License: GPL (>= 2)
+URL: http://www.image.ucar.edu/Software/MRKriging
+Depends: R (>= 2.10), methods, spam, fields
+Packaged: 2011-09-09 03:21:06 UTC; nychka
+Repository: CRAN
+Date/Publication: 2011-09-09 07:10:14

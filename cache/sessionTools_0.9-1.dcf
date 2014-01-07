@@ -1,0 +1,18 @@
+Package: sessionTools
+Type: Package
+Title: Tools for saving, restoring and teleporting R sessions.
+Version: 0.9-1
+Date: 2012-02-29
+Author: Matthew D. Furia <matt.furia@sagebase.org>
+Maintainer: Matthew D. Furia <matt.furia@sagebase.org>
+Description: This package builds on the save.session function by making
+        installed packages, options and search paths savable and
+        restorable.
+Depends: R (>= 2.14.0)
+Suggests: RUnit, devtools
+Enhances: BiocInstaller
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-03-05 04:39:01 UTC; furia
+Repository: CRAN
+Date/Publication: 2012-03-05 07:20:20

@@ -1,0 +1,24 @@
+Package: muma
+Type: Package
+Title: Metabolomics Univariate and Multivariate Analysis
+Version: 1.4
+Date: 2012-12-2
+Author: Edoardo Gaude, Francesca Chignola, Dimitrios Spiliotopoulos,
+        Silvia Mari, Andrea Spitaleri and Michela Ghitti
+Maintainer: Edoardo gaude <egaude541@gmail.com>
+Depends: car, pdist, pls, gplots, mvtnorm, robustbase, gtools, bitops,
+        caTools, pcaPP, rrcov
+Description: Preprocessing of high-throughput data (normalization and
+        scalings); Principal Component Analysis with help tool for
+        choosing best-separating principal components and automatic
+        testing for outliers; automatic univariate analysis for
+        parametric and non-parametric data, with generation of specific
+        reports (volcano and box plots); partial least square
+        discriminant analysis (PLS-DA); orthogonal partial least square
+        discriminant analysis (OPLS-DA); Statistical Total Correlation
+        Spectroscopy (STOCSY); Ratio Analysis Nuclear Magnetic
+        Resonance (NMR) Spectroscopy (RANSY).
+License: GPL-2
+Packaged: 2012-12-02 22:58:13 UTC; egaude
+Repository: CRAN
+Date/Publication: 2012-12-03 18:20:37

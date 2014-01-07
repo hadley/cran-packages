@@ -1,0 +1,19 @@
+Package: glpkAPI
+Type: Package
+Title: R Interface to C API of GLPK
+Version: 1.2.7
+Date: 2013-05-23
+Authors@R: c(person("Gabriel", "Gelius-Dietrich", role = c("aut",
+        "cre"), email = "geliudie@uni-duesseldorf.de"))
+Depends: R (>= 2.6.0), methods
+Description: R Interface to C API of GLPK, needs GLPK Version >= 4.42
+SystemRequirements: GLPK (>= 4.42)
+License: GPL-3
+LazyLoad: yes
+Collate: generics.R glpk_ptrClass.R glpk.R glpkAPI.R zzz.R
+Packaged: 2013-05-23 11:47:00 UTC; gabriel
+Author: Gabriel Gelius-Dietrich [aut, cre]
+Maintainer: Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-23 14:45:40

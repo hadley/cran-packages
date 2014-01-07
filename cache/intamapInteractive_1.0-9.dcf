@@ -1,0 +1,16 @@
+Package: intamapInteractive
+Version: 1.0-9
+Date: 2010-07-07
+Title: procedures for automated interpolation - methods only to be used
+        interactively, not included in intamap package
+Author: Edzer Pebesma <edzer.pebesma@uni-muenster.de>, Jon Skoien
+        <j.skoien@geo.uu.nl> and others
+Maintainer: Edzer J. Pebesma <edzer.pebesma@uni-muenster.de>
+Depends: spcosa, spatstat, intamap
+Description: A package that provides additional functionality for
+        interpolation spatial interpolation.
+License: GPL (>= 2)
+URL: http://www.intamap.org/
+Packaged: 2010-07-07 21:55:46 UTC; edzer
+Repository: CRAN
+Date/Publication: 2010-07-08 18:31:25

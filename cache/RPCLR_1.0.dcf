@@ -1,0 +1,18 @@
+Package: RPCLR
+Type: Package
+Title: RPCLR (Random-Penalized Conditional Logistic Regression)
+Version: 1.0
+Date: 2012-08-19
+Author: Raji Balasubramanian
+Maintainer: Raji Balasubramanian <rbalasub@schoolph.umass.edu>
+Depends: MASS, survival
+Description: This package implements the R-PCLR (Random-Penalized
+        Conditional Logistic Regression) algorithm for obtaining
+        variable importance. The algorithm is applicable for the
+        analysis of high dimensional data from matched case-control
+        studies.
+License: GPL-2
+LazyLoad: yes
+Packaged: Sun Aug 19 12:19:52 2012; Raji
+Repository: CRAN
+Date/Publication: 2012-08-19 16:38:48

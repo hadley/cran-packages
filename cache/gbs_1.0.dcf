@@ -1,0 +1,19 @@
+Package: gbs
+Type: Package
+Title: Package for Generalized Birnbaum-Saunders Distributions
+Version: 1.0
+Date: 2008-05-05
+Encoding: latin1
+Author: Michelli Barros <michelli.karinne@gmail.com>, Victor Leiva
+        <victor.leiva@uv.cl, victor.leiva@yahoo.com> and Gilberto A.
+        Paula <giapaula@ime.usp.br>
+Maintainer: Victor Leiva <victor.leiva@uv.cl>
+Depends: R (>= 1.8.0), nlme
+Description: A collection of utilities for analyzing censored and
+        uncensored data from generalized Birnbaum-Saunders
+        distributions
+License: GPL
+URL: http://www.r-project.org, http://www.deuv.cl/leiva/
+Packaged: 2012-10-29 08:58:48 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:48

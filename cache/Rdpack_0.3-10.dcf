@@ -1,0 +1,18 @@
+Package: Rdpack
+Type: Package
+Title: Update and manipulate Rd documentation objects
+Version: 0.3-10
+Date: 2012-11-03
+Author: Georgi N. Boshnakov
+Maintainer: Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>
+Description: Functions for manipulation of Rd objects, including
+        function reprompt for updating existing Rd documentation for
+        functions, methods and classes. If a documentation object
+        describes more than one function, reprompt updates all
+        descriptions.
+Depends: R (>= 2.15.0), tools, gbRd
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-03 16:57:15 UTC; Georgi
+Repository: CRAN
+Date/Publication: 2012-11-03 20:06:41

@@ -1,0 +1,28 @@
+Package: CNVassoc
+Type: Package
+Title: Association analysis of CNV data
+Version: 2.0.1
+Date: 2013-09-18
+Depends: R (>= 2.15.0), CNVassocData, mixdist, mclust, survival
+Suggests: CGHcall, CGHregions, CNVtools, xtable, MASS
+Author: Juan R González, Isaac Subirana
+Maintainer: Isaac Subirana <isubirana@imim.es>
+Description: This package carries out association analysis of common
+        copy number variants in population-based studies. This package
+        includes functions for analysing association under a series of
+        study designs (case-control, cohort, etc), using several
+        dependent variables (class status, censored data, counts) as
+        response, adjusting for covariates and considering various
+        inheritance models. It also includes functions for inferring
+        copy number (CNV genotype calling).  Various classes and
+        methods for generic functions (print, summary, plot, anova, ...
+        ) have been created to facilitate the analysis.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://www.creal.cat/jrgonzalez/software.htm
+Encoding: latin1
+BuildVignettes: True
+Packaged: 2013-09-18 13:54:04 UTC; isubirana
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-19 09:10:27

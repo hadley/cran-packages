@@ -1,0 +1,13 @@
+Package: geiger
+Type: Package
+Title: Analysis of evolutionary diversification
+Version: 0.2-5
+Date: 2007-04-24
+Author: Luke Harmon <harmon@zoology.ubc.ca>, Jason Weir, Chad Brock, Rich Glor, Wendell Challenger
+Maintainer: Luke Harmon <harmon@zoology.ubc.ca>
+Depends: R, ape (>= 1.9-4), MASS, gtools, mvtnorm, msm
+Suggests: ouch
+Description: Running macroevolutionary simulation, and estimating parameters related to diversification from comparative phylogenetic data.
+License: GPL version 2 or greater
+URL: http://www.zoology.ubc.ca/~harmon
+Packaged: Thu Apr 26 19:44:59 2007; hornik

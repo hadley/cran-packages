@@ -1,0 +1,19 @@
+Package: MPV
+Title: Data Sets from Montgomery, Peck and Vining's Book
+Version: 1.29
+Author: W.J. Braun
+Description: Most of this package consists of data sets from the 
+             textbook Introduction
+             to Linear Regression Analysis (3rd ed), by Montgomery et al.
+             Some additional data sets and functions useful in an
+             undergraduate regression course.
+Maintainer: W.J. Braun <braun@stats.uwo.ca>
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.0.1)
+ZipData: no
+License: Unlimited
+Packaged: 2013-09-22 19:40:18 UTC; braun
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-22 22:46:54

@@ -1,0 +1,17 @@
+Package: AtmRay
+Type: Package
+Title: Acoustic Traveltime Calculations for 1-D Atmospheric Models
+Version: 1.0
+Date: 2012-07-30
+Author: Jake Anderson
+Maintainer: Jake Anderson <ajakef@gmail.com>
+Description: Calculates acoustic traveltimes and ray paths in 1-D,
+        linear atmospheres.  Later versions will support arbitrary 1-D
+        atmospheric models, such as radiosonde measurements and
+        standard reference atmospheres.
+Suggests: RSEIS
+License: GPL
+LazyLoad: yes
+Packaged: 2012-07-31 05:05:17 UTC; jfanders
+Repository: CRAN
+Date/Publication: 2012-07-31 06:25:09

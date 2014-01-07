@@ -1,0 +1,21 @@
+Package: haplo.stats
+Version: 1.5.6
+Date: 2012-9
+Title: Statistical Analysis of Haplotypes with Traits and Covariates
+        when Linkage Phase is Ambiguous
+Author: Sinnwell JP, Schaid DJ
+Maintainer: Jason P. Sinnwell <sinnwell.jason@mayo.edu>
+Description: A suite of R routines for the analysis of indirectly
+        measured haplotypes. The statistical methods assume that all
+        subjects are unrelated and that haplotypes are ambiguous (due
+        to unknown linkage phase of the genetic markers). The main
+        functions are: haplo.em, haplo.glm, haplo.score, haplo.power,
+        and seqhap. Copyright: 2003 Mayo Foundation for Medical
+        Education and Research.
+License: GPL-2 | file LICENSE
+Depends: R (>= 2.15.0)
+Suggests: rms
+URL: http://mayoresearch.mayo.edu/mayo/research/schaid_lab/software.cfm
+Packaged: 2012-09-27 21:05:21 UTC; sinnwell
+Repository: CRAN
+Date/Publication: 2012-09-28 05:41:31

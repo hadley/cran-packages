@@ -1,0 +1,19 @@
+Package: rgam
+Type: Package
+Title: Robust Generalized Additive Model
+Version: 0.5.1
+Date: 2011-02-17
+Author: Matias Salibian-Barrera, Davor Cubranic, and Azadeh Alimadad
+Maintainer: Davor Cubranic <cubranic@stat.ubc.ca>
+Description: Robust Generalized Additive Model
+URL: http://www.stat.ubc.ca/~matias/rgam/
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: yes
+Depends: Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.1), stats
+LinkingTo: Rcpp, RcppArmadillo, stats
+SystemRequirements: GNU make
+Collate: 'rgam.R'
+Packaged: 2011-02-23 23:07:43 UTC; cubranic
+Repository: CRAN
+Date/Publication: 2011-02-24 09:00:29

@@ -1,0 +1,14 @@
+Package: fontcm
+Title: Computer Modern font for use with extrafont package
+Version: 1.0
+Author: Winston Chang, Alexej Kryukov, Paul Murrell
+Maintainer: Winston Chang <winston@stdout.org>
+Description: Computer Modern font for use with extrafont package
+Depends: R (>= 2.14)
+Imports: extrafont
+License: GPL-2
+URL: https://github.com/wch/fontscm
+Collate: 'fontcm.r'
+Packaged: 2012-06-11 19:14:23 UTC; winston
+Repository: CRAN
+Date/Publication: 2012-06-12 06:36:56

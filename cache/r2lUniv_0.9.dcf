@@ -1,0 +1,18 @@
+Package: r2lUniv
+Type: Package
+Version: 0.9
+Date: 2008-01-01
+Title: R to LaTeX Univariate
+Author: Christophe Genolini<christophe.genolini@free.fr>
+Maintainer: Christophe Genolini<christophe.genolini@free.fr>
+Depends: R (>= 2.5)
+Description: r2lUniv perform some basic analysis and generate the corresponding LaTeX code. 
+  The basic analysis depends of the variable type. 
+  Four types are considered:
+    - Nominal: modaliy, size, barplot
+    - Ordinal: modaliy, size, quartile, barplot
+    - Discrete: modaliy, size, mean, var, quartile, boxplot, barplot
+    - Continuous: mean, var, quartile, boxplot, barplot
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://christophe.genolini.free.fr/r2lUniv
+Packaged: Mon Jan 21 08:58:00 2008; Christophe

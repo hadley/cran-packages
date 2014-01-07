@@ -1,0 +1,22 @@
+Package: SamplerCompare
+Type: Package
+Title: A framework for comparing the performance of MCMC samplers
+Version: 1.2.1
+Date: 2011-08-22
+Author: Madeleine Thompson
+Maintainer: Madeleine Thompson <mthompson@utstat.toronto.edu>
+Description: This package consists of two components: a framework for
+        running sets of MCMC samplers on sets of distributions with a
+        variety of tuning parameters and plotting functions to
+        visualize the results of those simulations.  See sc-intro.pdf
+        for an introduction.  Version 1.2 adds a mechanism for loading
+        external simulations.
+License: GPL-2
+Copyright: (c) 2010-2011 Madeleine Thompson, except dch?d.f and the JSS
+        style files.
+LazyLoad: yes
+Depends: R (>= 2.10.0), mvtnorm
+Suggests: mcmc, ggplot2, multicore, synchronicity
+Packaged: 2011-08-24 01:21:20 UTC; madeleine
+Repository: CRAN
+Date/Publication: 2011-08-24 09:55:28

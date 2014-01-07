@@ -1,0 +1,28 @@
+Package: rinat
+Type: Package
+Title: Access iNaturalist data through their API
+Description: Download and plot data from the iNaturalist citizen science
+    project.  Get information about projects, search for species, and gather
+    data about inaturalist users.
+Version: 0.1.0
+URL: https://ropensci.github.com/rinat
+BugReports: https://github.com/ropensci/rinat/issues
+Date: 2013-12-12
+Authors@R: c(person("Edmund", "Hart", role = c("aut", "cre"),
+    email = "edmund.m.hart@gmail.com"),
+    person("Vijay", "Barve", role = "aut",
+    email = "vijay.barve@gmail.com"))
+Maintainer: Edmund Hart <edmund.m.hart@gmail.com>
+License: GPL (>= 3)
+Suggests: knitr, roxygen2, rjson
+VignetteBuilder: knitr
+Imports: httr, plyr, ggplot2, maps
+Collate: 'get_inat_obs_id.R' 'inat_map.R' 'get_inat_taxon_stats.R'
+        'get_inat_user_stats.R' 'get_inat_obs_project.R'
+        'get_inat_obs_user.R' 'get_inat_obs.R' 'globals.R'
+Packaged: 2013-12-13 16:00:52 UTC; thart
+Author: Edmund Hart [aut, cre],
+  Vijay Barve [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-13 18:01:19

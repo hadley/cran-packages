@@ -1,0 +1,10 @@
+Package: Read.isi
+Type: Package
+Title: Access old data saved in fixed-width format based on ISI-formatted codebooks.
+Version: 0.4
+Date: 2008-06-27
+Author: Rense Nieuwenhuis
+Maintainer: <contact@rensenieuwenhuis.nl>
+Description: Old statistical data was often stored in formats that are difficult to gain access to by modern statistical software. An example of this are the data-files of the `World Fertility Survey', which are stored in fixed-width format and accompanied by codebooks in a format developed by the International Statistical Institute. The read.isi package allows to gain access to these statistical data automatically, or to convert to codebook to SPSS-syntax.
+License: Copyright (C) 2008 Rense Nieuwenhuis (email: contact@rensenieuwenhuis.nl). 
+Packaged: Sun Aug  3 16:34:26 2008; Rense

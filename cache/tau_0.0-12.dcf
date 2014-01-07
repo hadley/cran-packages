@@ -1,0 +1,18 @@
+Package: tau
+Version: 0.0-12
+Date: 2011-10-13
+Title: Text Analysis Utilities
+Description: Utilities for text analysis
+Authors@R: c(person("Christian", "Buchta", role = "aut"),
+        person("Kurt", "Hornik", role = c("aut", "cre"), email =
+        "Kurt.Hornik@R-project.org"), person("Ingo", "Feinerer", role =
+        "aut"), person("David", "Meyer", role = "aut"))
+Suggests: tm
+License: GPL-2
+Encoding: UTF-8
+Packaged: 2011-10-13 18:57:39 UTC; hornik
+Author: Christian Buchta [aut], Kurt Hornik [aut, cre], Ingo Feinerer
+        [aut], David Meyer [aut]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2011-10-13 18:58:40

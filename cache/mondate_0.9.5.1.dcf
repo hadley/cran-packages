@@ -1,0 +1,17 @@
+Package: mondate
+Type: Package
+Title: Keep track of dates in terms of months
+Version: 0.9.5.1
+Date: 2010-07-07
+Author: Dan Murphy
+Maintainer: Dan Murphy <chiefmurphy@gmail.com>
+Description: Keep track of dates in month units. Perform date
+        arithmetic in "months" (default), "years", and "days". Enable
+        dates to have "shape" (non NULL dim).
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://code.google.com/p/mondate/
+LazyLoad: yes
+Depends: utils, methods
+Packaged: 2010-07-07 08:17:39 UTC; Owner
+Repository: CRAN
+Date/Publication: 2010-07-07 11:25:53

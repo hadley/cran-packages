@@ -1,0 +1,13 @@
+Package: Metabonomic
+Type: Package
+Title: GUI for Metabonomic Analysis
+Version: 2.1
+Date: 2008-11-24
+Author: Jose L. Izquierdo <izquierdo@ieb.ucm.es> Instituto de Estudios Biofuncionales(U.C.M.).
+Maintainer: Jose L. Izquierdo <izquierdo@ieb.ucm.es>
+Description: Graphical User Interface for the Metabonomic Analysis (Baseline, Normalization, Peak Detection,
+  PCA, PLS, Nearest Neigbourgt, Neural Network) developed to make easy this data analysis.
+License: GPL version 2 or newer
+Depends: tcltk, tcltk2, tkrplot, robustbase, PROcess, MASS, gpls, pls, splines, class, nnet, AMORE,
+  neural, caMassClass, clusterSim, hddplot, scatterplot3d, relimp, Icens, FTICRMS
+Packaged: Mon Nov 24 18:13:30 2008; Jose

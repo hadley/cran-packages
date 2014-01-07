@@ -1,0 +1,18 @@
+Package: gammSlice
+Type: Package
+Title: Generalized additive mixed model analysis via slice sampling
+Version: 1.2-6
+Date: 2012-05-08
+Author: Tung Pham and Matt Wand
+Maintainer: Tung Pham <tung.pham@epfl.ch>
+Description: Uses a slice sampling-based Markov chain Monte Carlo to
+        conduct Bayesian fitting and inference for generalized additive
+        mixed models (GAMM).  Generalized linear mixed models and
+        generalized additive models are also handled as special cases
+        of GAMM.
+Depends: R(>= 2.13), KernSmooth, lattice, mgcv
+License: GPL (>= 2)
+Lazyload: Yes
+Packaged: 2012-05-09 12:55:27 UTC; pham
+Repository: CRAN
+Date/Publication: 2012-05-09 13:19:32

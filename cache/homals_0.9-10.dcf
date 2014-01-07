@@ -1,0 +1,13 @@
+Package: homals
+Type: Package
+Title: Homogeneity Analysis
+Version: 0.9-10
+Date: 2009-02-22
+Author: Jan de Leeuw, Patrick Mair
+Maintainer: Jan de Leeuw <deleeuw@ucla.edu>
+Description: This package performs a homogeneity analysis and various extensions. Rank restrictions on the category quantifications can be imposed (nonlinear PCA). The categories are transformed by means of optimal scaling with options for nominal, ordinal, and numerical scale levels (for rank-1 restrictions). Variables can be grouped into sets, in order to emulate regression analysis and canonical correlation analysis. 
+License: GPL
+URL: http://r-forge.r-project.org/projects/psychor/
+Imports: graphics, stats
+Depends: rgl, ape, scatterplot3d
+Packaged: Mon Feb 23 07:03:25 2009; admin

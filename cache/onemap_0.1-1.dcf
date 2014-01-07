@@ -1,0 +1,14 @@
+Package: onemap
+Type: Package
+Title: Software for constructing genetic maps in outcrossing species
+Version: 0.1-1
+Date: 2008-06-09
+Author: Gabriel Rodrigues Alves Margarido <gramarga@esalq.usp.br>, with
+  contributions from Antonio Augusto Franco Garcia <aafgarci@esalq.usp.br>.
+Maintainer: Gabriel Rodrigues Alves Margarido <gramarga@esalq.usp.br>
+Depends: R (>= 2.5.0)
+Description: Analysis of molecular marker data from non-model systems to 
+  simultaneously estimate linkage and linkage phases (genetic map construction)
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.ciagri.usp.br/~aafgarci/OneMap/
+Packaged: Mon Jun  9 11:28:05 2008; gramarga

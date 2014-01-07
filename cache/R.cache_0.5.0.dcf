@@ -1,0 +1,20 @@
+Package: R.cache
+Version: 0.5.0
+Date: 2011-08-16
+Title: Fast and light-weight caching (memoization) of objects
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.5.0), R.methodsS3 (>= 1.2.1), R.oo (>= 1.8.1), R.utils
+        (>= 1.7.8)
+Suggests: digest (>= 0.4.2)
+Description: Methods for memoization, that is, caching arbitrary R
+        objects in persistent memory.  Objects can be loaded and saved
+        stratified on a set of hashing objects.
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/
+LazyLoad: TRUE
+Repository: CRAN
+Repository/R-Forge/Project: r-dots
+Repository/R-Forge/Revision: 600
+Date/Publication: 2011-08-31 04:11:04
+Packaged: 2011-08-17 20:42:54 UTC; rforge

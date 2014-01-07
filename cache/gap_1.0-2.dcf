@@ -1,0 +1,18 @@
+Bundle: gap
+Contains: gap pointer pathmix
+Version: 1.0-2
+Date: 2005-4-14
+Depends:  MASS, genetics, R (>= 2.0.0)
+LazyData: Yes
+LazyLoad: Yes
+Author: Jing hua Zhao in collaboration with other colleagues, and with
+        help from Kurt Hornik and Brian Ripley of the R core development team
+Maintainer: Jing hua Zhao <j.zhao@ucl.ac.uk>
+BundleDescription: This is an experimental package bundle based on the 
+         original R package for genetic data analysis (R/gap), it currently  
+         consists of R/gap, pathmix and pointer.
+License: Programs included in this package by Jing hua Zhao will be
+        under GPL. Specific requirement may be possible for programs
+        written by other authors.
+URL: http://www.hgmp.mrc.ac.uk/~jzhao, http://www.ucl.ac.uk/~rmjdjhz,
+Packaged: Thu Apr 14 13:09:15 2005; jzhao

@@ -1,0 +1,11 @@
+Package: nlmeODE
+Version: 0.3-1
+Date: 2007/07/1
+Title: Non-linear mixed-effects modelling in nlme using differential equations
+Author: Christoffer W. Tornoe <ctornoe@gmail.com>
+Maintainer: Christoffer W. Tornoe <ctornoe@gmail.com>
+Depends: R (>= 1.7.1), odesolve, nlme, lattice
+Description: This package combines the odesolve and nlme packages for mixed-effects modelling using differential equations.
+License: LGPL version 2.1 or later
+URL: http://www.cran.r-project.org
+Packaged: Sun Jul  1 14:30:38 2007; tornoec

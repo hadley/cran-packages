@@ -1,0 +1,14 @@
+Package: TSEN
+Type: Package
+Title: Two-dimensional peak sentinel tool for GC x GC-HRTOFMS
+Version: 1.0
+Date: 2012-08-6
+Author: Yasuyuki ZUSHI
+Maintainer: Yasuyuki ZUSHI <yasuyuki.zushi@gmail.com>
+Depends: R (>= 2.10.1), ncdf
+Description: This function assign and integrate target peaks in
+        two-dimentional chromatogram.
+License: BSD
+Packaged: 2012-08-11 05:22:20 UTC; calculate
+Repository: CRAN
+Date/Publication: 2012-08-11 07:33:40

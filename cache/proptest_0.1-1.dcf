@@ -1,0 +1,14 @@
+Package: proptest
+Type: Package
+Title: Tests of the Proportional Hazards Assumption
+Version: 0.1-1
+Date: 2006-09-25
+Author: David Kraus <kraus@karlin.mff.cuni.cz>
+Maintainer: David Kraus <kraus@karlin.mff.cuni.cz>
+Depends: survival
+Description: Tests of the proportional hazards assumption in the Cox
+   model: data-driven Neyman type smooth tests and score process based
+   tests for identifying nonproportional covariates.
+License: GPL
+URL: http://www.davidkraus.net/proptest/
+Packaged: Mon Sep 25 23:28:52 2006; david

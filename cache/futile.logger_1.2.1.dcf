@@ -1,0 +1,14 @@
+Package: futile.logger
+Type: Package
+Title: Futile logger subsystem
+Version: 1.2.1
+Date: 2012-02-05
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Depends: R (>= 2.8.0), futile.paradigm (>= 2.0.0), futile.options
+Description: A logging library for R
+License: LGPL-3
+LazyLoad: yes
+Packaged: 2012-02-06 02:04:20 UTC; root
+Repository: CRAN
+Date/Publication: 2012-02-06 21:06:46

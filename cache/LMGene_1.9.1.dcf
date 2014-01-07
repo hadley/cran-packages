@@ -1,0 +1,14 @@
+Package: LMGene
+Version: 1.9.1
+Date: 2005-7-6
+Title: LMGene Software for Date Transformation and Identification of
+        Differentially Expressed Genes in Gene Expression Arrays
+Author: David Rocke, Geun Cheol Lee and John Tillinghast.
+Depends: R (>= 2.0.0), Biobase, multtest, survival
+Maintainer: David Rocke <dmrocke@ucdavis.edu>
+Description: LMGene package for analysis of microarray data using a
+        linear model and glog data transformation in the R statistical
+        package.
+License: LGPL
+URL: http://dmrocke.ucdavi.edu/software.html
+Packaged: Fri Dec 14 13:49:14 2007; szjdai

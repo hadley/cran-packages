@@ -1,0 +1,17 @@
+Package: TANOVA
+Version: 1.0.0
+Date: 2010-05-05
+Title: Time Course Analysis of Variance for Microarray
+Depends: R (>= 2.3.0), MASS, splines
+Author: Baiyu Zhou <zhouby98@stanford.edu> and Weihong Xu
+        <weihongx@stanford.edu>
+Maintainer: Weihong Xu <weihongx@stanford.edu>
+Description: Functions for performing analysis of variance on time
+        course microarray data
+License: LGPL
+URL: Wing Wong's lab (http://www.stanford.edu/group/wonglab/) &
+        Stanford Genome Technology Center
+        (http://gluegrant1.stanford.edu/~DIC/)
+Packaged: 2012-10-29 08:57:44 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:44

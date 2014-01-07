@@ -1,0 +1,13 @@
+Package: HDtweedie
+Title: The Lasso for the Tweedie's Compound Poisson Model Using an
+        IRLS-BMD Algorithm
+Version: 1.1
+Date: 2013-9-25
+Author: Wei Qian <weiqian@stat.umn.edu>, Yi Yang <yiyang@umn.edu>, Hui Zou <hzou@stat.umn.edu>
+Maintainer: Wei Qian <weiqian@stat.umn.edu>
+Description: This package implements a iteratively reweighed least square (IRLS) strategy that incorporates a blockwise majorization decent (BMD) method, for efficiently computing the solution paths of the (grouped) lasso and the (grouped) elastic net for the Tweedie model.
+License: GPL-2
+Packaged: 2013-10-22 00:55:04 UTC; weiqian
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-22 08:15:32

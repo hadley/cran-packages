@@ -1,0 +1,12 @@
+Package: fracdiff
+Version: 1.1-1
+Title: Fractionally differenced ARIMA (p,d,q) models
+Date: 2004-01-12
+Author: S original by Chris Fraley <fraley@stat.washington.edu>.
+   R port by Fritz Leisch <leisch@ci.tu-wien.ac.at>;
+   since 2003-12: Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Maximum likelihood estimation of the parameters of a fractionally
+   differenced ARIMA(p,d,q) model (Haslett and Raftery, Appl.Statistics, 1989).
+License: GPL version 2 or later
+Packaged: Mon Jan 12 11:22:27 2004; maechler

@@ -1,0 +1,15 @@
+Package: evaluate
+Type: Package
+Title: Parsing and evaluation tools that provide more details than the
+        default.
+Version: 0.1
+Author: Hadley Wickham <h.wickham@gmail.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: Parsing and evaluation tools that make it easy to recreate
+        the command line behaviour of R.
+License: GPL
+Collate: 'eval.r' 'graphics.r' 'output.r' 'parse.r' 'replay.r'
+        'src-region.r' 'watcher.r'
+Packaged: 2010-07-19 12:56:17 UTC; hadley
+Repository: CRAN
+Date/Publication: 2010-07-24 20:15:43

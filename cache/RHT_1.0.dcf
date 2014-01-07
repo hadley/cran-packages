@@ -1,0 +1,18 @@
+Package: RHT
+Type: Package
+Title: Regularized Hotelling's T-square Test for Pathway (Gene Set)
+        Analysis
+Version: 1.0
+Date: 2011-11-14
+Author: Lin S. Chen and Pei Wang
+Maintainer: Lin S. Chen <lchen11@uchicago.edu>
+Description: This package offers functions to perform regularized
+        Hotelling's T-square test for pathway or gene set analysis. The
+        package is tailored for but not limited to proteomics data, in
+        which sample sizes are often small, a large proportion of the
+        data are missing and/or correlations may be present.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:31 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:31

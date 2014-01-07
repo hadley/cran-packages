@@ -1,0 +1,28 @@
+Package: agop
+Version: 0.1-1
+Date: 2013-06-26
+Title: Aggregation Operators and Preordered Sets
+Description: Tools supporting multi-criteria decision making, including
+        variable number of criteria, by means of aggregation operators
+        and preordered sets. Possible applications include, but are not
+        limited to, scientometrics and bibliometrics.
+URL: http://www.rexamine.com/resources/agop/
+BugReports: http://github.com/Rexamine/agop/issues
+ByteCompile: TRUE
+Type: Package
+Depends: R (>= 2.12.0), base, stats, grDevices, graphics, Matrix,
+        igraph
+License: LGPL (>= 3)
+Suggests: testthat
+Authors@R: c( person("Marek", "Gagolewski", role = c("aut", "cre"),
+        email = "gagolews@rexamine.com"), person("Anna", "Cena", role =
+        "ctb", email = "cena@rexamine.com") )
+Collate: 'agop-package.R' 'visualization.R' 'preorders.R'
+        'agops-impact.R' 'agops-classical.R' 'distrib-pareto2.R'
+        'distrib-pareto2-estimators.R' 'distrib-pareto2-ftest.R'
+Packaged: 2013-06-26 21:12:17 UTC; gagolews
+Author: Marek Gagolewski [aut, cre], Anna Cena [ctb]
+Maintainer: Marek Gagolewski <gagolews@rexamine.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-27 07:02:09

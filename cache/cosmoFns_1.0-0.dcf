@@ -1,0 +1,16 @@
+Package: cosmoFns
+Type: Package
+Title: Functions for cosmological distances, times, luminosities, etc.
+Version: 1.0-0
+Date: 2012-07-05
+Author: Andrew Harris
+Maintainer: <harris@astro.umd.edu>
+Description: Package encapsulates standard expressions for distances,
+        times, luminosities, and other quantities useful in
+        observational cosmology, including molecular line observations.
+        Currently coded for a flat universe only.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-06 15:40:48 UTC; harris
+Repository: CRAN
+Date/Publication: 2012-07-06 16:00:58

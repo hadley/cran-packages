@@ -1,0 +1,12 @@
+Package: ltm
+Title: Latent Trait Models under IRT
+Version: 0.1-0
+Date: 2005-03-14
+Author: Dimitris Rizopoulos <dimitris.rizopoulos@med.kuleuven.ac.be>
+Maintainer: Dimitris Rizopoulos <dimitris.rizopoulos@med.kuleuven.ac.be>
+Description: Analysis of multivariate Bernoulli data using latent trait models (including the Rasch model) under the Item Response Theory approach.
+Depends: R(>= 2.0.0), MASS
+LazyLoad: yes
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Mon Mar 14 09:56:00 2005; dimitris

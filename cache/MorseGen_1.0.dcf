@@ -1,0 +1,21 @@
+Package: MorseGen
+Type: Package
+Title: Simple raw data generator based on user-supplied summary
+        statistics (n, mean, & standard deviation)
+Version: 1.0
+Date: 2012-02-17
+Author: Brendan J. Morse
+Maintainer: Brendan Morse <bmorse@bridgew.edu>
+Description: MorseGen is a program for generating raw data scores based
+        on user-supplied summary statistics (n, mean, & standard
+        deviation). Samples based on the supplied statistics are drawn
+        from a normal distribution until a sample of raw scores (with
+        size = n) is found that recreates the specified mean and
+        standard deviation (within a tolerance of .01). Intended uses
+        include recreating a set of raw data for students to analyze
+        that will replicate a published study.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-02-21 13:34:47 UTC; brendanmorse
+Repository: CRAN
+Date/Publication: 2012-02-21 15:23:44

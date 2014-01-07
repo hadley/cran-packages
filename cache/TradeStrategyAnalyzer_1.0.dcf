@@ -1,0 +1,15 @@
+Package: TradeStrategyAnalyzer
+Type: Package
+Title: Trade Strategy Analyzer
+Version: 1.0
+Date: 2011-06-10
+Author: Winnie Cheng, Tirto Adji
+Maintainer: Winnie Cheng <wwcheng@alum.mit.edu>
+Description: Simulates and visualizes different trading strategies on
+        market data
+License: GPL (>= 2)
+Depends: DBI, RSQLite, stats, googleVis, RJSONIO, ggplot2, digest
+LazyLoad: yes
+Packaged: 2011-03-14 20:57:50 UTC; wwcheng, tirto
+Repository: CRAN
+Date/Publication: 2011-06-19 06:49:46

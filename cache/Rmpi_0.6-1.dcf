@@ -1,0 +1,15 @@
+Package: Rmpi
+Version: 0.6-1
+Date: 2012-08-19
+Title: Interface (Wrapper) to MPI (Message-Passing Interface)
+Author: Hao Yu
+Maintainer: Hao Yu <hyu@stats.uwo.ca>
+Depends: R (>= 2.14.0)
+Suggests: rlecuyer
+Description: Rmpi provides an interface (wrapper) to MPI APIs. It also
+        provides interactive R slave environment.
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/yu/Rmpi
+Packaged: 2012-08-19 06:10:57 UTC; hyu
+Repository: CRAN
+Date/Publication: 2012-08-20 04:36:54

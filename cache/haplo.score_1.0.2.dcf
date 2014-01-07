@@ -1,0 +1,44 @@
+Package: haplo.score
+Version: 1.0.2
+Date: 2002-09-13
+Title: Score Tests for Association of Traits with Haplotypes when
+  Linkage Phase is Ambiguous.
+Author: Charles M. Rowland, David E. Tines, and Daniel J. Schaid
+  <schaid@mayo.edu>.  R version translation by Gregory R. Warnes 
+  <gregory_r_warnes@groton.pfizer.com>
+Maintainer: Gregory R. Warnes <gregory_r_warnes@groton.pfizer.com>
+Description: A suite of routines that can be used to compute score
+  statistics to test associations between haplotypes and a wide
+  variety of traits, including binary, ordinal, quantitative, and
+  Poisson. These methods assume that all subjects are unrelated and
+  that haplotypes are ambiguous (due to unknown linkage phase of the
+  genetic markers). The methods provide several different global and
+  haplotype-specific tests for association, as well as provide
+  adjustment for non-genetic covariates and computation of simulation
+  p-values (which may be needed for sparse data). Details on the
+  background and theory of the score statistics can be found in the
+  following reference:
+  .
+      Schaid DJ, Rowland CM, Tines DE, Jacobson RM, Poland GA. 
+      Score tests for association of traits with haplotypes when
+      linkage phase is ambiguous. American J Human Genetics, February,
+       2002.
+License: Copyright 2001 Mayo Foundation for Medical Education 
+  and Research. 
+  .
+  This program is free software; you can redistribute it and/or
+  modify it under the terms of the GNU General Public License
+  as published by the Free Software Foundation; either version 2
+  of the License, or (at your option) any later version.
+  .
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  .
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  
+  02111-1307, USA.
+  .
+URL:  http://www.mayo.edu/statgen/

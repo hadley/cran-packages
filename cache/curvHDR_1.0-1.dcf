@@ -1,0 +1,13 @@
+Package: curvHDR
+Version: 1.0-1
+Title: curvHDR filtering
+Author: George Luta <gl77@georgetown.edu>, Ulrike Naumann
+        <u-naumann@web.de> and Matt Wand <mwand@uow.edu.au>
+Maintainer: Matt Wand <mwand@uow.edu.au>
+Depends: feature, flowCore, geometry, hdrcde, ks, misc3d, ptinpoly, rgl
+Description: For facilitating filtering, also known as gating, of flow
+        cytometric samples using the curvHDR method.
+License: GPL (>= 2)
+Packaged: 2010-11-17 12:09:36 UTC; mwand
+Repository: CRAN
+Date/Publication: 2010-11-17 16:04:28

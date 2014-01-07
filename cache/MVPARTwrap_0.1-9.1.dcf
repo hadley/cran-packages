@@ -1,0 +1,15 @@
+Package: MVPARTwrap
+Version: 0.1-9.1
+Date: 2011-11-14
+Title: MVPARTwrap: Additional features for package mvpart.
+Author: Marie-Helene Ouellette <marieheleneo@gmail.com>, with contributions from Pierre Legendre <pierre.legendre@umontreal.ca>.
+Maintainer: Marie-Helene Ouellette <marieheleneo@gmail.com>
+Depends: mvpart
+Imports: Hmisc, labdsv, vegan, fBasics, ade4
+Description: The main function of this package, MRT, provides to the following information : the proper cluster membership allocation in the tree, the discriminant species for each cluster, the tree nodes at the proper level of R2 (1-relative error), the total species variance partitioned by species, by the tree, and by the splits of the tree, plus a different graphic representation of the final model in the form of a tree. Moreover, the CascadeMRT function allows a cascade MRT analysis and the CasMRTR2 function allows to illustrate the (unadjusted) variation explained by each wave/drops. Last but not least, the R2aGDF function permits the calculation of an adjusted R^2 for an MRT model.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2013-09-08 21:31:33 UTC; maryh2002
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-08 23:37:20

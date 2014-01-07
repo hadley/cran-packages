@@ -1,0 +1,16 @@
+Package: qPCR.CT
+Type: Package
+Title: qPCR data analysis and plot package
+Version: 1.0
+Date: 2011-09-09
+Author: Yuzhuo Pan, Xiaoyu Yan, Junxin Li
+Maintainer: Yuzhuo Pan <yuzhuo.pan@gmail.com>
+Description: use 2^ddCT methods calculate the relative gene expression,
+        data file can be export from bio-rad qpcr machine, the results
+        can be plot with errorbar.
+License: GPL-2
+LazyLoad: yes
+Depends: RColorBrewer
+Packaged: 2011-09-11 02:45:24 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2011-09-11 06:19:02

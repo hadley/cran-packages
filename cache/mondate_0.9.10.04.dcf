@@ -1,0 +1,19 @@
+Package: mondate
+Type: Package
+Title: Keep track of dates in terms of months
+Version: 0.9.10.04
+Date: 2013-02-09
+Author: Dan Murphy
+Maintainer: Dan Murphy <chiefmurphy@gmail.com>
+Description: Keep track of dates in terms of months.  Model dates as at
+        close of business.  Perform date arithmetic in "months" and
+        "years" (multiples of months).  Allow "infinite" dates to model
+        "ultimate" time spans.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://code.google.com/p/mondate/
+LazyLoad: yes
+Depends: utils, methods
+Suggests: zoo
+Packaged: 2013-02-09 21:17:09 UTC; Dan
+Repository: CRAN
+Date/Publication: 2013-02-10 08:16:50

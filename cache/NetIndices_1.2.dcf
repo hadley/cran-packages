@@ -1,0 +1,12 @@
+Package: NetIndices
+Version: 1.2
+Title: Estimating network indices, including trophic structure of foodwebs in R
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>,
+  Julius Kipyegon Kones <jkones@uonbi.ac.ke>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01), MASS
+Suggests: LIM
+Description: Given a network (e.g. a food web), estimates several network indices. These include: Ascendency network indices, Direct and indirect dependencies, Effective measures, Environ network indices, General network indices, Pathway analysis, Network uncertainty indices and constraint efficiencies and the trophic level and omnivory indices of food webs.
+License: GPL
+LazyData: yes
+Packaged: Fri Jan 16 14:39:59 2009; karlines

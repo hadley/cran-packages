@@ -1,0 +1,17 @@
+Package: MARSS
+Type: Package
+Title: Multivariate Autoregressive State-Space Modeling
+Version: 1.0
+Date: 2010-6-14
+Depends: MASS, mvtnorm, nlme, time
+Author: Eli Holmes, Eric Ward, and Kellie Wills, NOAA, Seattle, USA
+Maintainer: eli.holmes@noaa.gov <eli.holmes@noaa.gov>
+Description: The MARSS package fits constrained and unconstrained
+        linear multivariate autoregressive state-space (MARSS) models
+        to multivariate time series data.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2010-06-21 17:28:15 UTC; Kellie
+Repository: CRAN
+Date/Publication: 2010-06-22 08:29:05

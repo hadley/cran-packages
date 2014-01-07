@@ -1,0 +1,15 @@
+Package: pairwiseCI
+Type: Package
+Title: Confidence intervals for two sample comparisons
+Version: 0.1-6
+Date: 2007-09-07
+Author: Frank Schaarschmidt
+Maintainer: Frank Schaarschmidt <schaarschmidt@biostat.uni-hannover.de>
+Depends: R (>= 2.2.0), stats, exactRankTests, Hmisc, boot, mratios, binMto
+Description: Calculation of the parametric, nonparametric confidence intervals
+ for the difference or ratio of location parameters and for the difference, ratio 
+ and odds-ratio of binomial proportion for comparison of independent samples.
+ CI are not adjusted for multiplicity. A by statement allows calculation of CI
+ separately for the levels of further factors.
+License: GPL
+Packaged: Mon Sep 10 16:39:58 2007; schaa164

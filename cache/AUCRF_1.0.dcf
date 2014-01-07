@@ -1,0 +1,16 @@
+Package: AUCRF
+Type: Package
+Title: Variable Selection with Random Forest and the Area Under the
+        Curve
+Version: 1.0
+Date: 2010-09-29
+Author: Victor Urrea, M.Luz Calle
+Maintainer: Victor Urrea <victor.urrea@uvic.cat>
+Depends: R (>= 2.11.0), randomForest
+Description: Variable selection using Random Forest based on optimizing
+        the area-under-the ROC curve (AUC) of the Random Forest.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-07-25 15:09:08 UTC; victor
+Repository: CRAN
+Date/Publication: 2011-07-27 09:04:29

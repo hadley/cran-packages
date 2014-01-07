@@ -1,0 +1,22 @@
+Package: Runiversal
+Type: Package
+Title: Runiversal - Package for converting R objects to Java variables
+        and XML.
+Version: 1.0.2
+Date: 2010-07-31
+Author: Mehmet Hakan Satman
+Maintainer: Mehmet Hakan Satman <mhsatman@istanbul.edu.tr>
+Url: http://www.mhsatman.com
+Description: This package contains some functions for converting R
+        objects to Java style variables and XML. Generated Java code is
+        interpretable by dynamic Java libraries such as Beanshell.
+        Calling R externally and handling the Java or XML output is an
+        other way to call R from other languages without native
+        interfaces. For a Java implementation of this approach visit
+        http://www.mhsatman.com/rcaller.php and
+        http://stdioe.blogspot.com/search/label/rcaller
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2012-07-31 16:08:41 UTC; hako
+Date/Publication: 2012-08-01 05:55:46

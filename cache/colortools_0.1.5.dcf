@@ -1,0 +1,19 @@
+Package: colortools
+Type: Package
+Title: Tools for colors in a Hue-Saturation-Value (HSV) color model
+Version: 0.1.5
+Date: 2013-12-19
+Author: Gaston Sanchez
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: R package with handy functions to help users select and play with
+    color schemes in an HSV color model
+License: GPL-3
+URL: http://www.gastonsanchez.com
+Collate: 'adjacent.R' 'anagrams.R' 'analogous.R' 'col2HSV.R'
+        'complementary.R' 'opposite.R' 'pals.R' 'pizza.R'
+        'sequential.R' 'setColors.R' 'splitComp.R' 'square.R'
+        'tetradic.R' 'triadic.R' 'wheel.R'
+Packaged: 2013-12-18 21:44:12 UTC; Gaston
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-19 00:09:25

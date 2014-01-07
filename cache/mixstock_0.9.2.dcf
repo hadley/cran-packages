@@ -1,0 +1,15 @@
+Package: mixstock
+Version: 0.9.2
+Date: 2008/10/02
+Title: functions for mixed stock analysis
+Author: Ben Bolker <bolker@zoo.ufl.edu>
+Maintainer: Ben Bolker <bolker@zoo.ufl.edu>
+Depends: coda, plotrix, abind, lattice
+Suggests: R2WinBUGS, R2jags
+Description: mixed stock analysis functions
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: mixstock
+Repository/R-Forge/Revision: 17
+Date/Publication: 2009-10-14 09:33:58
+Packaged: 2009-08-03 21:11:01 UTC; rforge

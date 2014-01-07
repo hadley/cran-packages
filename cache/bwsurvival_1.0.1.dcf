@@ -1,0 +1,18 @@
+Package: bwsurvival
+Type: Package
+Title: Nonparametric conditional survival function for successive
+        survival times
+Version: 1.0.1
+Date: 2012-12-01
+Author: C. Serrat, G. Gómez, M.V. Moneta
+Maintainer: Maria Victoria Moneta <mvictoria.moneta@pssjd.org>
+Description: This R package implements the conditional survival
+        function described at 'Nonparametric bivariate estimation for
+        successive survival times' (C. Serrat and G. Gómez, 2007).
+Depends: survival, Hmisc
+License: GPL (>= 2)
+LazyLoad: yes
+Encoding: latin1
+Packaged: 2012-12-01 12:27:03 UTC; vic toria
+Repository: CRAN
+Date/Publication: 2012-12-01 15:26:18

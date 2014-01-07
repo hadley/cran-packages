@@ -1,0 +1,19 @@
+Package: eHOF
+Version: 1.0
+Date: 03.2013
+Title: Extended and enhanced Hierarchical Logistic Regression models
+        (so called Huisman-Olff-Fresco models).
+LazyLoad: yes
+LazyData: yes
+Author: Florian Jansen, Jari Oksanen
+Maintainer: Florian Jansen <jansen@uni-greifswald.de>
+Depends: R (>= 2.0.0), mgcv, lattice
+Suggests: vegdata, vegan
+Description: Hierarchical logistic species response curves along
+        one-dimensional gradients including no response, monotone,
+        plateau, unimodal and bimodal models.
+License: GPL (>= 2)
+Packaged: 2013-03-02 20:22:33 UTC; jansen
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-03 12:25:42

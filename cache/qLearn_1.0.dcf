@@ -1,0 +1,16 @@
+Package: qLearn
+Type: Package
+Title: Estimation and inference for Q-learning
+Version: 1.0
+Date: 2012-03-01
+Author: Jingyi Xin, Bibhas Chakraborty, and Eric B. Laber
+Maintainer: Bibhas Chakraborty <bc2425@columbia.edu>
+Description: Functions to implement Q-learning for estimating optimal
+        dynamic treatment regimes from two stage sequentially
+        randomized trials, and to perform inference via m-out-of-n
+        bootstrap for parameters indexing the optimal regime.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-03-07 21:09:27 UTC; xinjingyi
+Repository: CRAN
+Date/Publication: 2012-03-09 10:12:37

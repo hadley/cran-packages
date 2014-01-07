@@ -1,0 +1,17 @@
+Package: deTestSet
+Version: 1.0
+Title: Testset for differential equations
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>,
+        Jeff Cash <j.cash@imperial.ac.uk>,
+        Francesca Mazzia <mazzia@dm.uniba.it>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01), ReacTran
+Description: Solvers and testset for stiff and nonstiff differential equations, and 
+  differential algebraic equations
+License: GPL
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: bvpsolve
+Repository/R-Forge/Revision: 115
+Date/Publication: 2011-12-20 07:32:08
+Packaged: 2011-12-16 22:13:40 UTC; rforge

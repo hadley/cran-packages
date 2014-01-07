@@ -1,0 +1,14 @@
+Package: safeBinaryRegression
+Version: 0.1-2
+Date: 2009-07-21
+Title: Safe Binary Regression
+Author: Kjell Konis <kjell.konis@epfl.ch>
+Maintainer: Kjell Konis <kjell.konis@epfl.ch>
+Depends: R (>= 2.9.1), lpSolveAPI (>= 5.5.0.14)
+Description: Overloads the glm function in the stats package so that a
+        test for the existence of the maximum likelihood estimate is
+        included in the fitting procedure for binary regression models.
+License: GPL-2
+Packaged: 2009-07-22 09:44:25 UTC; konis
+Repository: CRAN
+Date/Publication: 2009-07-22 12:45:56

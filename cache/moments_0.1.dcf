@@ -1,0 +1,13 @@
+Package: moments
+Type: Package
+Title: Moments, skewness, kurtosis and related tests
+Version: 0.1
+Date: 2005-08-11
+Author: Lukasz Komsta <luke@novum.am.lublin.pl>
+Maintainer: Lukasz Komsta <luke@novum.am.lublin.pl>
+Description: Functions to calculate: moments, Pearson's kurtosis,
+ Geary's kurtosis and skewness; tests related to them (Anscombe-Glynn,
+ D'Agostino, Bonett-Seier).
+License: GPL version 2 or newer. http://www.gnu.org/copyleft/gpl.html
+URL: http://www.r-project.org, http://www.komsta.net/
+Packaged: Thu Aug 11 19:45:23 2005; Lukke

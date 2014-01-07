@@ -1,0 +1,17 @@
+Package: ringbuffer
+Type: Package
+Title: Ring buffer (circular buffer) data structure
+Version: 1.1
+Date: 2013-03-02
+Author: Allen Day, PhD
+Maintainer: Allen Day, PhD <oss@allenday.com>
+Description: A circular buffer, cyclic buffer or ring buffer is a data
+        structure that uses a single, fixed-size buffer as if it were
+        connected end-to-end. This structure lends itself easily to
+        buffering data streams.  See
+        http://en.wikipedia.org/wiki/Ring_buffer for more information.
+License: GPL
+Packaged: 2013-03-03 02:40:01 UTC; aday
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-03 08:41:31

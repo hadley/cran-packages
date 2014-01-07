@@ -1,0 +1,17 @@
+Package: MALDIquant
+Version: 0.5
+Date: 2012-01-18
+Title: Quantitative analysis of MALDI-TOF MS data
+Author: Sebastian Gibb
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+Depends: R (>= 2.10.0), methods
+Description: Quantitative analysis of MALDI-TOF MS data This package
+        provide an easy framework for quantitative analysis of
+        MALDI-TOF mass spectrometry data.  MALDIquant supports baseline
+        correction, peak detection and plotting of mass spectra.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/maldiquant/
+LazyLoad: yes
+Packaged: 2012-01-18 16:36:46 UTC; sgibb
+Repository: CRAN
+Date/Publication: 2012-01-18 17:14:53

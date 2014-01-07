@@ -1,0 +1,19 @@
+Package: latticeDensity
+Type: Package
+Title: Density estimation and nonparametric regression on irregular
+        regions
+Version: 1.0.5
+Date: 2011-06-07
+Author: Ronald Barry <rpbarry@alaska.edu>
+Maintainer: Ronald Barry <rpbarry@alaska.edu>
+Depends: splancs, spdep, spatstat, spam
+Description: This package contains functions that compute the
+        lattice-based density estimator of Barry and McIntyre, which
+        accounts for point processes in two-dimensional regions with
+        irregular boundaries and holes.  The package also implements
+        two-dimensional non-parametric regression for similar regions.
+License: GPL-2
+URL: www.r-project.org
+Packaged: 2011-06-08 08:36:52 UTC; Ronald Barry
+Repository: CRAN
+Date/Publication: 2011-06-08 09:59:32

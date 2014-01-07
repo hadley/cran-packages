@@ -1,0 +1,20 @@
+Package: CARBayes
+Type: Package
+Title: Spatial areal unit modelling
+Version: 1.0
+Date: 2012-20-06
+Author: Duncan Lee
+Maintainer: Duncan Lee <Duncan.Lee@glasgow.ac.uk>
+Description: This package implements Bayesian hierarchical spatial
+        areal unit models. In such models the spatial correlation is
+        modelled by a set of random effects, which are assigned a
+        conditional autoregressive (CAR) prior distribution. Examples
+        of the models included are the BYM model as well as recently
+        developed localised spatial smoothing models. In addition, a
+        Moran's permutation test can be implemented.
+License: GPL (>= 2)
+Depends: MASS, coda, MCMCpack
+LazyLoad: yes
+Packaged: 2012-03-27 14:05:27 UTC; duncan
+Repository: CRAN
+Date/Publication: 2012-03-27 14:22:24

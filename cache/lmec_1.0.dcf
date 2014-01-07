@@ -1,0 +1,17 @@
+Package: lmec
+Type: Package
+Title: Linear Mixed-Effects Models with Censored Responses
+Version: 1.0
+Date: 2009-01-28
+Author: Florin Vaida and Lin Liu
+Maintainer: Lin Liu <linliu@ucsd.edu>
+Description: This package includes a function to fit a linear
+        mixed-effects model in the formulation described in Laird and
+        Ware (1982) but allowing for censored normal responses. In this
+        version, the with-in group errors are assumed independent and
+        identically distributed.
+License: GPL-2
+Depends: mvtnorm
+Packaged: 2012-10-29 08:59:06 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:06

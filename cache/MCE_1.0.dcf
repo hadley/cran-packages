@@ -1,0 +1,9 @@
+Package: MCE
+Title: Tools for evaluating Monte Carlo Error
+Version: 1.0
+Date: 2008-12-04
+Author: Elizabeth Koehler <e.koehler@vanderbilt.edu> and Sebastien Haneuse
+Maintainer: Elizabeth Koehler <e.koehler@vanderbilt.edu>
+Description: This package has functions to estimate Monte Carlo error in simulation studies.  It also has functions that help with planning the number of replications required in a simulation study to reach a specified level of certainty.
+License: BSD
+Packaged: Fri Dec  5 09:39:04 2008; koehleea

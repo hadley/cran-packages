@@ -1,0 +1,20 @@
+Package: klin
+Type: Package
+Title: Linear equations with Kronecker structure
+Version: 2007-02-05
+Date: 2007-02-05
+Author: Tamas K Papp <tpapp@princeton.edu>
+Maintainer: ORPHANED
+Depends: R (>= 2.0.0), Matrix (>= 0.9975-8)
+Description: The package implements efficient ways to evaluate and
+        solve equations of the form Ax=b, where A is a kronecker
+        product of matrices.  Functions to solve least squares problems
+        of this type are also included.
+License: GPL (>= 2)
+Packaged: 2013-12-22 09:08:39 UTC; ripley
+X-CRAN-Comment: Orphaned on 2011-08-11 as requested by the original
+        maintainer, Tamas K Papp <tpapp@princeton.edu>.
+Repository: CRAN
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Tamas K Papp <tpapp@princeton.edu>
+Date/Publication: 2012-10-29 08:59:03

@@ -1,0 +1,17 @@
+Package: krm
+Version: 13.10-31
+Date: 2013-10-31
+Title: Kernel-based Regression Models
+Imports:
+Author: Youyi Fong <youyifong@gmail.com>, Saheli Datta, Krisztian Sebestyen
+Maintainer: Youyi Fong <youyifong@gmail.com>
+Depends: R (>= 3.0.0)
+Suggests: RUnit, xtable, MASS
+Description: Testing methods for kernel-based regression models.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Date/Publication: 2013-11-03 18:14:08
+Packaged: 2013-11-03 16:58:36 UTC; yfong
+NeedsCompilation: yes
+Repository: CRAN

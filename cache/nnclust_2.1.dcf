@@ -1,0 +1,15 @@
+Package: nnclust
+Type: Package
+Title: Nearest-neighbour tools for clustering
+Version: 2.1
+Author: Thomas Lumley
+Maintainer: Thomas Lumley <tlumley@u.washington.edu>
+Description: Finds nearest neighours and the minimum spanning tree for
+        large data sets, does clustering using the minimum spanning
+        tree.
+Suggests: hexbin
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-09-22 19:18:33 UTC; tlumley
+Repository: CRAN
+Date/Publication: 2009-09-22 20:24:11

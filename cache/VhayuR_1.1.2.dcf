@@ -1,0 +1,16 @@
+Package: VhayuR
+Version: 1.1.2
+Date: 2008-08-02
+Title: Vhayu R Interface
+Author: The Brookhaven Group
+Maintainer: The Brookhaven Group <info@thebrookhavengroup.com>
+Description: Vhayu R Interface
+SystemRequirements: Vhayu
+Depends: chron, zoo
+Imports: utils, stats
+LazyLoad: no
+License: GPL-2
+Packaged: Sat Aug 2 23:10:49 2008; Louis
+OS_type: windows
+Repository: CRAN
+Date/Publication: 2010-05-08 10:04:41

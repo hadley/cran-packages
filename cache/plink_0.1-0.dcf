@@ -1,0 +1,16 @@
+Package: plink
+Version: 0.1-0
+Date: 2008-09-26
+Title: IRT Separate Calibration Linking Methods
+Depends: R (>= 2.7.2), methods, statmod, lattice
+Author: Jonathan Weeks <weeksjp@gmail.com>
+Maintainer: Jonathan Weeks <weeksjp@gmail.com>
+Description: This package uses item response theory methods to compute linking constants and conduct
+	chain linking of tests for multiple groups under a nonequivalent groups common item design. 
+	It allows for mean/mean, mean/sigma, Haebara, and Stocking-Lord calibrations of dichotomous 
+	(1PL, 2PL, and 3PL) and/or polytomous (graded response, partial credit/generalized partial
+	credit, nominal, and multiple-choice model) common items. 
+LazyLoad: Yes
+LazyData: Yes
+License: GPL (>= 2)
+Packaged: Fri Sep 26 09:02:17 2008; Jonathan Weeks

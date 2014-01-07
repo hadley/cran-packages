@@ -1,0 +1,19 @@
+Package: fastR
+Type: Package
+Title: Data sets and utilities for Foundations and Applications of
+        Statistics by R Pruim
+Version: 0.2-2
+Date: 2010-11-26
+Author: Randall Pruim
+Maintainer: Randall Pruim <rpruim@calvin.edu>
+Description: Data sets and utilities for Foundations and Applications
+        of Statistics:an Introduction using R by R Pruim
+License: GPL (>= 2)
+Depends: lattice, grid
+Suggests: MASS, faraway, Hmisc, DAAG, multcomp, vcd, car, alr3,
+        corrgram, BradleyTerry, cubature, Devore6
+LazyLoad: yes
+LazyData: yes
+Packaged: 2010-11-26 19:04:28 UTC; rpruim
+Repository: CRAN
+Date/Publication: 2010-11-27 07:19:27

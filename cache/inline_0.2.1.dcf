@@ -1,0 +1,13 @@
+Package: inline
+Version: 0.2.1
+Date: 23 May 2007
+Title: Inline C/C++ function calls from R
+Author: Oleg Sklyar
+Maintainer: Oleg Sklyar <osklyar@ebi.ac.uk>
+Depends: R, methods
+Description: The package provides functions to dynamically define R functions with inline C/C++ code
+License: LGPL
+URL: http://www.ebi.ac.uk/~osklyar/inline/
+Copyright: Oleg Sklyar, 2005-2007
+LazyLoad: yes
+Packaged: Thu May 24 17:01:39 2007; osklyar

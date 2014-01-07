@@ -1,0 +1,12 @@
+Package: COZIGAM
+Type: Package
+Title: Constrained and Unconstrained Zero-Inflated Generalized Additive Models with Model Selection Criterion
+Version: 2.0-1
+Date: 2009-2-19
+Author: Hai Liu <hai-liu@uiowa.edu>,
+        Kung-Sik Chan <kung-sik-chan@uiowa.edu>
+Maintainer: Hai Liu <hai-liu@uiowa.edu>
+Depends: R (>= 2.7.1), mgcv
+Description: Constrained and Unconstrained Zero-Inflated Generalized Additive Models (ZIGAM) fitting with associated model plotting, prediction and selection.
+License: GPL (>= 2)
+Packaged: Thu Feb 19 22:16:19 2009; hliu3

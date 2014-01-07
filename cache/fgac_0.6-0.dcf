@@ -1,0 +1,9 @@
+Package: fgac 
+Version: 0.6-0 
+Date: 2005-01-01 
+Title: Generalized Archimedean Copula
+Author: Veronica Andrea Gonzalez-Lopez <veronica@ime.unicamp.br>
+Maintainer: Veronica Andrea Gonzalez-Lopez <veronica@ime.unicamp.br> 
+Description: Bi-variate data fitting is done by two ingredients: the margins and the dependency structure. The dependency structure is modeled through a copula. An algorithm was implemented considering seven families of copulas  (Generalized Archimedean Copulas), the best fitting can be obtained looking all copula's options. Different dependence's kind was considered (totally positive of order 2 and stochastically increasing). 
+License: 'GPL'  
+Packaged: Wed Feb  8 12:58:31 2006; hornik

@@ -1,0 +1,26 @@
+Package: demi
+Type: Package
+Title: Differential Expression from Multiple Indicators
+Description: DEMI method implementation as an R package
+URL: http://biit.cs.ut.ee/demi
+Version: 1.0
+Date: 2013-02-14
+Authors@R: c( person( "Sten Ilmjarv", "Developer", role = c( "aut",
+        "cre" ), email = "sten.ilmjarv@gmail.com"), person( "Hendrik
+        Luuk", "Developer", role = "aut", email =
+        "hendrik.luuk@gmail.com" ) )
+Author: Sten Ilmjarv and Hendrik Luuk
+Maintainer: Sten Ilmjarv <sten.ilmjarv@gmail.com>
+Depends: R (>= 2.15), methods, affy, affxparser, R.utils, ggplot2,
+        reshape, utils
+License: GPL (>= 2)
+Collate: 'AllClasses.R' 'AllGenerics.R' 'cluster-methods.R'
+        'Constructors.R' 'custom-methods.R' 'cytoband-methods.R'
+        'DEMICel-methods.R' 'DEMIClust-methods.R' 'DEMIDiff-methods.R'
+        'DEMIExperiment-methods.R' 'DEMIGroup-methods.R'
+        'DEMIResult-methods.R' 'diffexp-methods.R' 'messages.R'
+        'normalization-methods.R' 'other-methods.R' 'zzz.R'
+Packaged: 2013-03-26 08:45:48 UTC; ilmjarv
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-27 12:08:28

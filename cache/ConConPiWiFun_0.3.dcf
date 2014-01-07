@@ -1,0 +1,25 @@
+Package: ConConPiWiFun
+Type: Package
+Title: This package contains an implementation of continuous convex
+        piecewise (linear) functions (quadratic coming soon
+Version: 0.3
+Date: 2013-01-15
+Author: Robin Girard
+Maintainer: Robin Girard <robin.girard@mines-paristech.fr>
+Description: Continuous convex piecewise linear (ccpl) resp. quadratic
+        (ccpq) functions can be implemented with sorted breakpoints and
+        slopes. This includes functions that are ccpl (resp. ccpq) on a
+        convex set (i.e. an interval or a point) and infinite out of
+        the domain. These functions can be very useful for a large
+        class of optimisation problems. Efficient manipulation (such as
+        log(N) insertion) of such data structure is obtained with map
+        standard template library of C++ (that hides balanced trees).
+        This package is a wrapper on such a class based on Rcpp
+        modules.
+License: GPL (>= 2)
+Depends: methods, graphics, Rcpp (>= 0.10.2)
+LinkingTo: Rcpp
+RcppModules: mod_cplfunction
+Packaged: 2013-02-12 20:28:53 UTC; robin
+Repository: CRAN
+Date/Publication: 2013-02-13 06:14:16

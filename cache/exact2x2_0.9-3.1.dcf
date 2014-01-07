@@ -1,0 +1,15 @@
+Package: exact2x2
+Type: Package
+Title: Exact Conditional Tests and Confidence Intervals for 2x2 tables
+Version: 0.9-3.1
+Date: 2009-08-13
+Author: M.P. Fay
+Maintainer: M.P. Fay <mfay@niaid.nih.gov>
+Depends: stats
+Description: Calculates Fisher's exact and Blaker's exact tests with
+        appropriate matching confidence intervals.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-08-13 19:14:06 UTC; faym
+Repository: CRAN
+Date/Publication: 2009-08-14 20:24:11

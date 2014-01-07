@@ -1,0 +1,12 @@
+Package: rtiff
+Type: Package
+Title: A tiff reader for R.
+Version: 1.0
+Date: 2005-12-20
+Depends: pixmap
+Author: Eric Kort
+Maintainer: Eric Kort <eric.kort@vai.org>
+SystemRequirements: libtiff
+Description: This package will read TIFF format images and return them as a pixmap object. Because the resulting object can be very large for even modestly sized TIFF images, images can be reduced as they are read for improved performance.  This package is a wrapper around libtiff (www.libtiff.org), on which it depends (i.e. the libtiff shared library must be on your PATH for the binary to work, and tiffio.h must be on your system to build the package from source).  By using libtiff's highlevel TIFFReadRGBAImage function, this package inherently support a wide range of image formats and compression schemes.  This package also provides an implementation of the Ridler Autothresholding algorithm for easy generation of binary masks.  NOTE TO SOURCE COMPILERS: Due to what appears to be a bug in GCC optimization, this package uses a simple custom Makefile in the src directory to ensure that compiler optimization is skipped.  The Makefile is not sophisticated, and assumes you are using gcc as your compiler.  Please contact the author if this is problematic.
+License: GPL
+Packaged: Tue Dec 27 13:43:32 2005; erikor

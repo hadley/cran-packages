@@ -1,0 +1,17 @@
+Package: mcmcplots
+Type: Package
+Title: Create Plots from MCMC Output
+Version: 0.3
+Date: 2010-01-12
+Author: S. McKay Curtis <s.mckay.curtis@gmail.com>
+Maintainer: S. McKay Curtis <s.mckay.curtis@gmail.com>
+Depends: coda
+Imports: sfsmisc, R2HTML, colorspace, denstrip
+Suggests: R2WinBUGS
+Description: MCMC plots
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-11-07 01:19:11 UTC; McKay
+Repository: CRAN
+Date/Publication: 2011-11-07 14:05:26

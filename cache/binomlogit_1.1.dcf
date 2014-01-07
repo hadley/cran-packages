@@ -1,0 +1,13 @@
+Package: binomlogit
+Type: Package
+Title: Efficient MCMC for Binomial Logit Models
+Version: 1.1
+Date: 2013-08-13
+Author: Agnes Fussl
+Maintainer: Agnes Fussl <agnes.fussl@jku.at>
+Description: The R package contains different MCMC schemes to estimate the regression coefficients of a binomial (or binary) logit model within a Bayesian framework: a data-augmented independence MH-sampler, an auxiliary mixture sampler and a hybrid auxiliary mixture (HAM) sampler. All sampling procedures are based on algorithms using data augmentation, where the regression coefficients are estimated by rewriting the logit model as a latent variable model called difference random utility model (dRUM).
+License: GPL-3
+Packaged: 2013-08-14 09:09:32 UTC; AK110836
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-14 12:01:43

@@ -1,0 +1,17 @@
+Package: lme4
+Version: 0.9975-11
+Date: 2007-01-25
+Title: Linear mixed-effects models using S4 classes
+Author: Douglas Bates <bates@stat.wisc.edu> and
+	Deepayan Sarkar <deepayan@stat.wisc.edu>
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Description: Fit linear and generalized linear mixed-effects models.
+Depends: methods, R(>= 2.4.1), Matrix(>= 0.9975-7), lattice
+LinkingTo: Matrix
+Imports: graphics, stats
+Suggests: mlmRev, coda
+SaveImage: no
+LazyLoad: yes
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Fri Jan 26 08:46:33 2007; bates

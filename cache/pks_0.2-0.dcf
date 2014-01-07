@@ -1,0 +1,17 @@
+Package: pks
+Version: 0.2-0
+Date: 2012-03-06
+Title: Probabilistic Knowledge Structures
+Author: Florian Wickelmaier [cre, aut], Juergen Heller [aut], Pasquale
+        Anselmi [ctb]
+Maintainer: Florian Wickelmaier <wickelmaier@web.de>
+Depends: R (>= 2.14.0), stats
+Description: Fitting and testing probabilistic knowledge structures,
+        especially the basic local independence model (BLIM, Doignon &
+        Flamagne, 1999), using the minimum discrepancy maximum
+        likelihood (MDML) method.
+License: GPL (>= 2)
+URL: http://homepages.uni-tuebingen.de/florian.wickelmaier
+Packaged: 2012-03-06 15:37:15 UTC; siifw01
+Repository: CRAN
+Date/Publication: 2012-03-07 17:49:14

@@ -1,0 +1,18 @@
+Package: minqa
+Type: Package
+Title: Derivative-free optimization algorithms by quadratic
+        approximation
+Version: 1.2.0
+Date: 2012-03-14
+Author: Douglas Bates, Katharine M. Mullen, John C. Nash, Ravi Varadhan
+Maintainer: Katharine M. Mullen <katharine.mullen@nist.gov>
+Description: Derivative-free optimization by quadratic approximation
+        based on an interface to Fortran implementations by M. J. D.
+        Powell.
+License: GPL-2
+Depends: Rcpp (>= 0.9.10)
+LinkingTo: Rcpp
+SystemRequirements: GNU make
+Packaged: 2012-03-14 19:09:11 UTC; kmullen
+Repository: CRAN
+Date/Publication: 2012-03-14 19:42:52

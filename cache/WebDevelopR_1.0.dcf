@@ -1,0 +1,26 @@
+Package: WebDevelopR
+Type: Package
+Title: Website development package for R
+Version: 1.0
+Date: 2013-03-25
+Author: Evan Ray, Peter Krafft, John Staudenmayer
+Maintainer: Evan Ray <ray@math.umass.edu>
+Description: Two versions of the package are available.  One provides
+        only the basic script required to facilitate communication
+        between a site user's web browser and an R script.  The other
+        consists of a basic web application with a form for the site
+        user to choose options for the analysis and a results page
+        showing the results of the analysis.  The package can be viewed
+        as an extension of CGIwithR, fixing a few technical problems
+        associated with large data files and long computations,
+        addressing some security issues, allowing the web programmer to
+        choose the data interchange format to be used in communications
+        between the server and the browser, and providing a template
+        website to reduce the programming burden on the user.
+Depends: utils
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-04-08 18:52:57 UTC; Evan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-09 17:29:49

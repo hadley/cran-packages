@@ -1,0 +1,23 @@
+Package: DSpat
+Type: Package
+Title: Spatial modelling for distance sampling data
+Version: 0.1.5
+Date: 2012-11-07
+Author: Devin Johnson, Jeff Laake, Jay VerHoef
+Maintainer: Jeff Laake <Jeff.Laake@noaa.gov>
+Description: Provides functions for fitting spatial models to line
+        transect sampling data and to estimate abundance within a
+        region.
+Depends: R (>= 2.0.0), spatstat (>= 1.22-0), RandomFields, mgcv
+Imports: rgeos
+License: GPL (>= 2)
+Collate: 'create.covariate.images.R' 'create.lines.r'
+        'create.points.by.offset.R' 'dist2line.R' 'dspat.R'
+        'integrate.intensity.R' 'internal.R' 'lgcp.correction.R'
+        'lines.to.strips.R' 'LTDataFrame.R' 'offset.points.R'
+        'project2line.R' 'quadscheme.lt.R' 'sample.points.R'
+        'simCovariates.r' 'simDSpat.r' 'simPts.r'
+        'transect.intensity.r' 'zzz.R'
+Packaged: 2012-11-07 18:54:03 UTC; JLaake
+Repository: CRAN
+Date/Publication: 2012-11-07 20:41:38

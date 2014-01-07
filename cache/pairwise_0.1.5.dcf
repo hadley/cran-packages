@@ -1,0 +1,26 @@
+Package: pairwise
+Type: Package
+Maintainer: Joerg-Henrik Heine <jhheine@googlemail.com>
+Date: 2013-13-11
+Author: Joerg-Henrik Heine <jhheine@googlemail.com>
+Version: 0.1.5
+License: GPL-3
+Depends: R (>= 2.10.1)
+Title: Rasch Model Parameters by Pairwise Algorithm
+Description: The package pairwise offers functions for the explicit
+    calculation, not estimation!, of the rasch item parameters for dichotomous
+    and polytomous item responses, using a pairwise comparison approach.
+Suggests: PP
+Collate: 'grmSE.dicho.R' 'grmSE.poly.R' 'ipSE.dicho.R' 'ipSE.poly.R'
+        'itempar.dicho.R' 'itempar.poly.R' 'pairwise-package.r'
+        'plot.grmSE.R' 'plot.grmSEpo.R' 'plot.ippw.R' 'plot.ippwpo.R'
+        'plot.ippwpoSE.R' 'plot.ipSE.R' 'thetaML.dicho.R'
+        'ppML.dicho.R' 'thetaWL.dicho.R' 'ppWL.dicho.R'
+        'summary.ippw.R' 'summary.ippwpo.R' 'summary.ippwpoSE.R'
+        'summary.ipSE.R' 'summary.grmSE.R' 'summary.grmSEpo.R'
+        'summary.ppMLdicho.R' 'summary.ppWLdicho.R' 'make.incidenz.R'
+        'ptbis.dicho.R'
+Packaged: 2013-11-18 12:16:04 UTC; jh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-18 13:51:00

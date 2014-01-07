@@ -1,0 +1,18 @@
+Package: insol
+Type: Package
+Title: Solar Radiation
+Version: 1.1
+Date: 2013-04-10
+Author: Javier G. Corripio
+Maintainer: Javier G. Corripio <jgc@meteoexploration.com>
+Depends: methods
+Imports: raster
+Suggests: datasets,graphics,raster,rgl,stats
+Description: Functions to compute insolation on complex terrain.
+License: GPL-2
+URL: http://www.meteoexploration.com/R/insol/index.html
+LazyLoad: yes
+Packaged: 2013-04-10 13:24:07 UTC; jgc
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-10 16:14:37

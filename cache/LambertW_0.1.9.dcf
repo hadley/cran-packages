@@ -1,0 +1,21 @@
+Package: LambertW
+Type: Package
+Title: Analysis of skewed data by Lambert W random variables.
+Version: 0.1.9
+Date: 2010-01-07
+Author: Georg M. Goerg <gmg@stat.cmu.edu>
+Maintainer: Georg M. Goerg <gmg@stat.cmu.edu>
+Description: Lambert W random variables (RV) offer a new way of dealing
+        with slightly skewed data. It is based on an input/ouput
+        framework - for details see References. This package contains
+        the most important functions to perform an adequate analysis.
+        Lambert W data can be simulated, parameters estimated, and
+        results plotted in a "nice" way.Quantile functions allow a more
+        realistic analysis and inference of skewed data (see
+        References).
+Depends: moments, gsl, MASS, nortest
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-01-10 07:59:40 UTC; hornik
+Repository: CRAN
+Date/Publication: 2010-01-10 08:02:20

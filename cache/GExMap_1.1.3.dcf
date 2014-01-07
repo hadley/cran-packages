@@ -1,0 +1,18 @@
+Package: GExMap
+Type: Package
+Title: A visual, intuitive, easy to use software giving access to a new
+        type of information buried into your microarray data.
+Version: 1.1.3
+Depends: R (>= 2.10), Biobase, multtest
+Date: 2011-11-19
+Author: Nicolas Cagnard
+Maintainer: Nicolas Cagnard <nicolas.cagnard@gmail.com>
+Description: Perform statistical tests to unveil genomic clusters,
+        produces garphical interpretations of the statistical results
+        in pdf files, perform a Gene Ontology analysis and produces
+        graphic results in pdf files
+License: GPL
+LazyLoad: yes
+Packaged: 2012-07-23 09:26:00 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:30

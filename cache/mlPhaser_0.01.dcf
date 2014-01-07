@@ -1,0 +1,15 @@
+Package: mlPhaser
+Type: Package
+Title: Multi-Locus Haplotype Phasing
+Version: 0.01
+Date: 2012-09-03
+Author: Dave T. Gerrard
+Maintainer: Dave T. Gerrard <david.gerrard@manchester.ac.uk>
+Description: Phase haplotypes from genotypes based on a list of known
+        haplotypes. Suited to highly diverse loci such as HLA.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: https://github.com/davetgerrard/mlPhaser
+Packaged: 2012-09-04 10:40:43 UTC; Dave
+Repository: CRAN
+Date/Publication: 2012-09-04 13:38:46

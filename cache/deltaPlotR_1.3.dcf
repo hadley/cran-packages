@@ -1,0 +1,16 @@
+Package: deltaPlotR
+Type: Package
+Title: Identification of dichotomous differential item functioning
+        (DIF) using Angoff's Delta Plot method
+Version: 1.3
+Date: 2013-07-22
+Author: David Magis (U Liege), Bruno Facon (Univ Lille-Nord de France)
+Maintainer: David Magis <david.magis@ulg.ac.be>
+Depends: R (>= 2.10.0), MASS
+Description: The deltaPlotR package proposes an implementation of Angoff's Delta Plot method to detect dichotomous DIF. Several detection thresholds are included, either from multivariate normality assumption or by prior determination. Item purification is supported.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-07-22 09:04:22 UTC; David
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-22 11:23:23

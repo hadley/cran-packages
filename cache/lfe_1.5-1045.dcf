@@ -1,0 +1,19 @@
+Package: lfe
+Version: 1.5-1045
+Date: 2013-08-05
+Title: Linear Group Fixed Effects
+Author: Simen Gaure, Ragnar Frisch Centre for Economic Research
+Maintainer: Simen Gaure <Simen.Gaure@frisch.uio.no>
+Copyright: 2011, Simen Gaure
+Depends: Matrix, R (>= 2.10.1), Rcgmin
+Suggests: compiler
+Description: Transforms away factors with many levels prior to doing an OLS. 
+  Useful for estimating linear models with multiple group fixed effects, and for
+  estimating linear models which uses factors as pure control variables.
+License: Artistic-2.0
+Classification/JEL: C13, C33, C60
+Classification/MSC: 62J05, 65F10, 65F50
+Packaged: 2013-08-05 06:18:17 UTC; sgaure
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-05 08:51:39

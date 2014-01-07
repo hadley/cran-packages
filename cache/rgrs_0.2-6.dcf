@@ -1,0 +1,14 @@
+Package: rgrs
+Type: Package
+Title: Functions to make R usage in social sciences easier (package documentation in french)
+Version: 0.2-6
+Date: 2009-02-25
+Author: Julien Barnier
+Maintainer: Julien Barnier <julien.barnier@ens-lsh.fr>
+Description: Fonctions pour faciliter l'usage de R en sciences sociales. Documentation et pages d'aide en français.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: 
+Suggests: tcltk, odfWeave, R2HTML, RColorBrewer, sp
+SystemRequirements: xclip (Linux)
+Packaged: Wed Feb 25 16:38:48 2009; julien

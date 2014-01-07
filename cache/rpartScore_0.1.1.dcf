@@ -1,0 +1,21 @@
+Package: rpartScore
+Type: Package
+Title: Classification trees for ordinal responses
+Version: 0.1.1
+Date: 2012-03-31
+Author: Giuliano Galimberti, Gabriele Soffritti, Matteo Di Maso
+Maintainer: Giuliano Galimberti <giuliano.galimberti@unibo.it>
+Depends: R (>= 2.14.2), rpart
+Suggests: rpartOrdinal
+Description: This package contains functions that allow to build
+        classification trees for ordinal responses within the CART
+        framework. The trees are grown using the Generalized Gini
+        impurity function, where the misclassification costs are given
+        by the absolute or squared differences in scores assigned to
+        the categories of the response. Pruning is based on the total
+        misclassification rate or on the total misclassification cost.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-03-31 12:41:05 UTC; giuliano.galimberti2
+Repository: CRAN
+Date/Publication: 2012-03-31 13:13:44

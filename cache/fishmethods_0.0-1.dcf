@@ -1,0 +1,10 @@
+Package: fishmethods
+Version: 0.0-1
+Date: 2008-12-30
+Title: Fisheries Methods and Models in R
+Author: Gary A. Nelson <gary.nelson@state.ma.us>
+Maintainer: Gary A. Nelson <gary.nelson@state.ma.us>
+Depends:  R (>= 2.8.0), boot, stats, foreign
+Description:   Fishery methods and models from Quinn and Deriso (1999), Haddon(2001) , and literature.
+License: GPL(>=2)
+Packaged: Wed Jan 14 16:50:39 2009; gnelson

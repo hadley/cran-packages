@@ -1,0 +1,19 @@
+Package: treelet
+Type: Package
+Title: Treelets - an adaptive multi-scale basis for high-dimensional,
+        sparse and unordered data
+Version: 1.0
+Date: 2012-08-14
+Author: Di Liu and Trent Gaugler
+Maintainer: Trent Gaugler <tgaugler@andrew.cmu.edu>
+Description: Treelets provides a novel construction of multi-scale
+        bases that extends wavelets to non-smooth signals. It returns a
+        multi-scale orthonormal basis, where the final computed basis
+        functions are supported on nested clusters in a hierarchical
+        tree.  Both the tree and the basis, which are constructed
+        simultaneously, reflect the internal structure of the data.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-15 18:09:52 UTC; trent
+Repository: CRAN
+Date/Publication: 2012-08-15 18:54:25

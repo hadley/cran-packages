@@ -1,0 +1,30 @@
+Package: phenology
+Type: Package
+Title: Tools to manage a parametric function that describes phenology
+Version: 3.31
+Date: 2012-05-11
+Author: Marc Girondot
+Maintainer: Marc Girondot <marc.girondot@u-psud.fr>
+Depends: fields
+Description: Functions to fit and test the phenology of species based
+        on counts.
+License: GPL-2
+LazyData: yes
+LazyLoad: yes
+URL:
+        http://max2.ese.u-psud.fr/epc/conservation/Girondot/Publications/Marine_Turtles_Nesting_Season.html
+Collate: 'BE_to_LBLE.R' 'LBLE_to_BE.R' 'Likelihood_phenology.R'
+        'Lnegbin.R' 'daily_count.R' 'add_SD.R' 'add_format.R'
+        'extract_result.R' 'fit_phenology.R' 'format_par.R'
+        'growlnotify.R' 'map_phenology.R' 'par_init.R' 'phenology.R'
+        'plot.phenology.R' 'plot.phenologymap.R' 'plot_delta.R'
+        'plot_map.R' 'plot_phenology.R' 'plot_phi.R'
+        'print.phenology.R' 'print.phenologymap.R' 'remove_site.R'
+        'shift_sinusoid.R' 'summary.phenology.R'
+        'summary.phenologymap.R' 'phenology-package.R' 'moon_phase.R'
+        'Gratiot.R' 'map_Gratiot.R' 'result_Gratiot.R'
+        'result_Gratiot_Flat.R' 'result_Gratiot1.R' 'result_Gratiot2.R'
+        'compare_AIC.R' 'read_folder.R'
+Packaged: 2012-05-15 06:12:48 UTC; marcgirondot
+Repository: CRAN
+Date/Publication: 2012-05-15 06:44:07

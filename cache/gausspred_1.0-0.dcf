@@ -1,0 +1,22 @@
+Package: gausspred
+Version: 1.0-0
+Title: Bayesian Classification with High-dimensional Gaussian Profiles
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 2.8.1)
+Description: This software is used to predict the discrete response
+        based on selected high dimensional features, such as gene
+        expression data. The data are modeled with Bayesian Gaussian
+        models. When a large number of features are available, one may
+        like to select only a subset of features to use, typically
+        those features strongly correlated with the response in
+        training cases. Such a feature selection procedure is however
+        invalid since the relationship between the response and the
+        features will appear stronger. This package provides a way to
+        avoid this bias and yields well-calibrated prediction for the
+        test cases when one uses F-statistic to select features.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://math.usask.ca/~longhai
+Packaged: Tue Aug 25 09:32:29 2009; longhai
+Repository: CRAN
+Date/Publication: 2009-08-25 15:35:34

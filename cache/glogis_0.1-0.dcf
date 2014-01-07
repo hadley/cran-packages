@@ -1,0 +1,18 @@
+Package: glogis
+Version: 0.1-0
+Date: 2011-06-12
+Title: Fitting and Testing Generalized Logistic Distributions
+Author: Achim Zeileis, Thomas Windberger
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+Description: Tools for the generalized logistic distribution (Type I,
+        also known as skew-logistic distribution), encompassing basic
+        distribution functions (p, q, d, r, score), maximum likelihood
+        estimation, and structural change methods.
+LazyLoad: yes
+Depends: R (>= 2.10.0), stats, zoo
+Suggests: strucchange, fxregime, lattice
+Imports: graphics, stats, sandwich, zoo
+License: GPL-2
+Packaged: 2011-06-12 20:02:26 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2011-06-12 20:09:04

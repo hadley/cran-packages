@@ -1,0 +1,11 @@
+Package: sdcMicro
+Type: Package
+Title: Statistical Disclosure Control methods for the generation of public- and scientific-use files.
+Version: 1.0
+Date: 2007-05-20
+Author: Matthias Templ (Copyright: Statistics Austria)
+Maintainer: Matthias Templ <Matthias.Templ@statistik.gv.at>
+Description: Data from statistical agencies and other institutions are mostly confidential. This package can be used for the generation of save (micro)data, i.e. of public- and scientific-use files.
+Depends: car, mclust02
+License: GPL 2.0
+Packaged: Tue May 29 14:58:04 2007; TEMPL$

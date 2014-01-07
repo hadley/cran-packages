@@ -1,0 +1,15 @@
+Package: peplib
+Version: 1.5.1
+Title: Peptide Library Analysis Methods
+Author: Andrew White <white.d.andrew@gmail.com>
+Maintainer: Andrew White <white.d.andrew@gmail.com>
+Depends: R (>= 2.2.0), methods, utils, graphics, stats
+License: GPL (>= 2)
+Description: This package provides a variety of methods for dealing
+        with analysis of peptide library data, including clustering,
+        motif finding, and QSAR model fitting.
+LazyLoad: yes
+Packaged: 2013-04-12 04:59:36 UTC; whitead
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-15 10:20:32

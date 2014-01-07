@@ -1,0 +1,18 @@
+Package: pwt8
+Version: 8.0-0
+Date: 2013-07-28
+Title: Penn World Table (Version 8.0)
+Authors@R: person(given = "Achim", family = "Zeileis", role = c("aut", "cre"), email = "Achim.Zeileis@R-project.org")
+Description: The Penn World Table 8.0 provides information on relative levels of
+	income, output, inputs, and productivity for 167 countries
+	between 1950 and 2011.
+LazyData: yes
+LazyDataCompression: xz
+Depends: R (>= 2.10.0)
+License: GPL-2
+Packaged: 2013-07-27 22:58:28 UTC; zeileis
+Author: Achim Zeileis [aut, cre]
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-28 08:20:14

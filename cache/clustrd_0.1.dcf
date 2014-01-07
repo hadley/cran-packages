@@ -1,0 +1,20 @@
+Package: clustrd
+Title: Methods for joint dimension reduction and clustering
+Description: A collection of methods for joint dimension reduction and
+    clustering
+Version: 0.1
+Authors@R: c(person("Angelos", "Markos", email = "amarkos@gmail.com", role =
+    c("aut", "cre")), person("Alfonso", "Iodice D' Enza", role = "aut"),
+    person("Michel", "Van de Velden", role = "aut"))
+Maintainer: Angelos Markos <amarkos@gmail.com>
+License: GPL
+Depends: corpcor, e1071, ggplot2, randtoolbox, irlba
+Collate: 'MCAk.r' 'disjMake.r' 'fuzzyMCAk.r' 'groupals.r' 'iFCB.r'
+        'FactorialKM.R' 'ReducedKM.R' 'plotrd.r'
+Packaged: 2013-09-17 15:21:51 UTC; Owner
+Author: Angelos Markos [aut, cre],
+  Alfonso Iodice D' Enza [aut],
+  Michel Van de Velden [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-17 18:02:42

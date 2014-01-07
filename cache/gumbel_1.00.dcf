@@ -1,0 +1,13 @@
+Package: gumbel	
+Type: Package
+Title: Gumbel copula
+Version: 1.00
+Date: 2008-8-10
+Author: Anne-Lise Caillat, Christophe Dutang, Véronique Larrieu and Triet Nguyen
+Maintainer: Christophe Dutang <christophe.dutang@ensimag.fr>
+Description: stand alone package providing R functions for the Gumbel-Hougaard copula. We provide probality functions (cumulative distribution and density functions), simulation function (Gumbel copula multivariate simulation) and estimation functions (Maximum Likelihood Estimation, Inference For Margins, Moment Based Estimation and Canonical Maximum Likelihood).
+Depends: R (>= 2.6.0)
+License: GPL (>= 2)
+Encoding: latin1
+LazyLoad: yes
+Packaged: Tue Aug 12 20:56:57 2008; christophedutang

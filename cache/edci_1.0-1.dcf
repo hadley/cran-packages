@@ -1,0 +1,13 @@
+Package: edci
+Version: 1.0-1
+Date: 2004-09-27
+Title: Edge Detection and Clustering in Images
+Author: Tim Garlipp <garlipp@mathematik.uni-oldenburg.de>
+Depends: R
+Description: Detection of edgepoints in images based on the difference 
+   of two assymetric M kernel estimators. Linear and circular regression 
+   clustering based on redescending M estimators. Detection of linear
+   edges in images.
+Maintainer: Tim Garlipp <garlipp@mathematik.uni-oldenburg.de>
+License: GPL2
+URL: 

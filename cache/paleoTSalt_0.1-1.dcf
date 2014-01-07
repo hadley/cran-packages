@@ -1,0 +1,11 @@
+Package: paleoTSalt
+Type: Package
+Title:  Modeling evolution in paleontological time-series (alternate paramaterization)
+Version: 0.1-1
+Date: 2007-10-22
+Author: Gene Hunt <hunte@si.edu>
+Maintainer: Gene Hunt <hunte@si.edu>
+Depends: paleoTS
+Description: This package facilitates analysis of paleontological sequences of trait values from an evolving lineage.  Functions are provided to fit, using maximum likelihood, evolutionary models including unbiased random walks, directional evolution, stasis and Orstein-Uhlenbeck (OU) models.  This package performs many of the same functions as the package paleoTS, but does so using a different parameterization of the evolutionary models.
+License: GPL version 2 or newer
+Packaged: Tue Oct 23 13:04:02 2007; hornik

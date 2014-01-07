@@ -1,0 +1,23 @@
+Package: RghcnV3
+Type: Package
+Title: Global Historical Climate Network Version 3
+Version: 2.9
+Date: 2012-06-02
+Author: Steven Mosher
+Maintainer: Steven Mosher <moshersteven@gmail.com>
+Depends: R (>= 2.14.0),R.utils,R.oo,R.methodsS3, zoo, raster,
+        sp,ncdf,corpcor,bigmemory,biganalytics
+Description: The Rghcn package provides the core functions required to
+        download and format the GHCN V3 data and process it into
+        temperature series and temperature anomaly series. The data is
+        reformated so that integration with objects in the system is
+        straightforward.  In addition, there are core functions
+        required to download and create land masks and functions to
+        download and import Sea Surface Temperature (SST) data.
+License: GPL (>= 2)
+URL: http://stevemosher.wordpress.com/
+LazyLoad: yes
+LazyData: FALSE
+Packaged: 2012-06-04 03:54:51 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-06-04 05:35:39

@@ -1,0 +1,17 @@
+Package: corrplot
+Type: Package
+Title: visualization of a correlation matrix
+Version: 0.40
+Date: 2011-10-15
+Author: Taiyun Wei
+Suggests: seriation, Cairo
+Maintainer: Taiyun Wei <weitaiyun@gmail.com>
+Description: The corrplot package is a graphical display of a
+        correlation matrix, confidence interval. It also contains some
+        algorithms to do matrix reordering.
+License: GPL-2 | GPL-3
+LazyLoad: yes
+URL: http://corrplot.r-forge.r-project.org
+Packaged: 2011-10-15 10:24:55 UTC; cloud
+Repository: CRAN
+Date/Publication: 2011-10-15 19:55:16

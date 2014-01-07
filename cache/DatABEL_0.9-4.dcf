@@ -1,0 +1,21 @@
+Package: DatABEL
+Type: Package
+Title: file-based access to large matrices stored on HDD in binary
+        format
+Version: 0.9-4
+Date: 2013-03-12
+Author: Yurii Aulchenko, Stepan Yakovenko, Erik Roos, Marcel Kempenaar
+Maintainer: Yurii Aulchenko <yurii@bionet.nsc.ru>
+Depends: R (>= 2.4.0), methods
+Suggests: GenABEL, RUnit
+Description: a package providing an interface to the C++ FILEVECTOR
+        library facilitating analysis of large (giga- to tera-bytes)
+        matrices; matrix storage is organized in a way that either
+        columns or rows are quickly accessible; primarily aimed to
+        support genome-wide association analyses e.g. using GenABEL,
+        MixABEL and ProbABEL
+License: GPL (>= 2)
+Packaged: 2013-11-16 08:08:43 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-16 09:10:24

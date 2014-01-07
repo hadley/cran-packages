@@ -1,0 +1,10 @@
+Package: nnls
+Type: Package
+Title: The Lawson-Hanson NNLS algorithm for non-negative least squares 
+Version: 1.0
+Date: 2007-10-13
+Author: Katharine M. Mullen 
+Maintainer: Katharine M. Mullen <kate@nat.vu.nl>
+Description: An R interface to the Lawson-Hanson NNLS algorithm for non-negative least squares that solves the least squares problem A x = b with the constraint x >= 0.
+License: GPL version 2 or newer
+Packaged: Sun Oct 14 20:32:59 2007; root

@@ -1,0 +1,14 @@
+Package: rcompgen
+Version: 0.1-13
+Date: 2007/05/29
+Priority: recommended
+Title: Completion generator for R
+Author: Deepayan Sarkar <deepayan.sarkar@r-project.org>
+Maintainer: Deepayan Sarkar <deepayan.sarkar@r-project.org>
+Description: Generates potential completions for a given command
+    snippet based on circumstantial evidence
+Depends: R (>= 2.5.0)
+Imports: utils, methods
+LazyLoad: yes
+License: GPL version 2 or later
+Packaged: Tue May 29 11:17:18 2007; dsarkar

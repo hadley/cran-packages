@@ -1,0 +1,17 @@
+Package: rrcovHD
+Date: 2013-08-19
+Title: Robust multivariate Methods for High Dimensional Data
+Version: 0.2-2
+Author: Valentin Todorov <valentin.todorov@chello.at>
+Description: Robust multivariate methods for high dimensional data:
+        outlier detection, PCA, PLS, classification
+Maintainer: Valentin Todorov <valentin.todorov@chello.at>
+Depends: methods, rrcov, robustbase, pcaPP
+Imports: pls, spls
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2013-08-27 23:10:51 UTC; Share
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-29 01:23:14

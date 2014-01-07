@@ -1,0 +1,21 @@
+Package: bc3net
+Version: 1.0.0
+Title: BC3NET
+Date: 2012-01-12
+Authors@R: c(person("Ricardo", "de Matos Simoes", role=c("aut","cre"),
+        email="r.dematossimoes@qub.ac.uk"), person("Frank",
+        "Emmert-Streib", role=c("aut","cre"),
+        email="f.emmert-streib@qub.ac.uk"))
+Author: Ricardo de Matos Simoes and Frank Emmert-Streib
+Maintainer: Ricardo de Matos Simoes <r.dematossimoes@qub.ac.uk>
+Depends: R (>= 2.10.0), minet, c3net, infotheo, igraph, Matrix, lattice
+Suggests: minet, c3net
+Description: This package implements the BC3NET algorithm for gene
+        regulatory network inference (de Matos Simoes and Frank
+        Emmert-Streib, Bagging Statistical Network Inference from
+        Large-Scale Gene Expression Data, PLoS ONE 7(3): e33624)
+License: GPL (>= 2)
+URL: http://www.bio-complexity.com
+Packaged: 2012-08-29 13:57:32 UTC; ricardo
+Repository: CRAN
+Date/Publication: 2012-08-29 14:27:22

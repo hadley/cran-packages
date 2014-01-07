@@ -1,0 +1,18 @@
+Package: VisCov
+Version: 1.0
+Date: 2011-06-23
+Title: Plots of covariance matrices
+Author: Tomoki Tokuda and Francis
+        Tuerlinckx<tomoki.tokuda@psy.kuleuven.be>
+        <francis.tuerlinckx@psy.kuleuven.be>
+Maintainer: Tomoki Tokuda and Francis
+        Tuerlinckx<tomoki.tokuda@psy.kuleuven.be>
+        <francis.tuerlinckx@psy.kuleuven.be>
+Depends: R (>= 2.12.0), bayesm, MASS, clusterGeneration, TeachingDemos,
+        scatterplot3d, KernSmooth
+Description: Visualization of distributions of covariance matrices
+License: file LICENSE
+URL: http://ppw.kuleuven.be/okp/software/VisCov/
+Packaged: 2011-07-04 11:23:05 UTC; u0057158
+Repository: CRAN
+Date/Publication: 2011-07-05 08:43:49

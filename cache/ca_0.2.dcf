@@ -1,0 +1,11 @@
+Package: ca
+Version: 0.2
+Date: 2007-07-25
+Title: Simple, Multiple and Joint Correspondence Analysis
+Author: Michael Greenacre <michael.greenacre@upf.edu>, Oleg Nenadic <onenadi@uni-goettingen.de>
+Maintainer: Oleg Nenadic, <onenadi@uni-goettingen.de>
+Depends: R (>= 2.0.0), rgl (>= 0.64-10)
+Description: A package for computation and visualization of simple, multiple and joint correspondence analysis.
+License: GPL
+URL: http://www.carme-n.org/
+Packaged: Wed Jul 25 19:13:11 2007; onenadi

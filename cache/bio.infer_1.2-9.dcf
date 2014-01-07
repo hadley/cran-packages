@@ -1,0 +1,16 @@
+Package: bio.infer
+Type: Package
+Title: Predict environmental conditions from biological observations
+Version: 1.2-9
+Date: 2010-11-22
+Author: Lester L. Yuan
+Maintainer: Lester L. Yuan <yuan.lester@epa.gov>
+Description: Imports benthic count data, reformats this data, and
+        computes environmental inferences from this data.
+Depends: R (>= 2.7.0), tcltk
+LazyLoad: FALSE
+LazyData: FALSE
+License: GPL (>= 2)
+Packaged: 2010-11-23 02:02:28 UTC; Lester
+Repository: CRAN
+Date/Publication: 2010-11-23 07:36:51

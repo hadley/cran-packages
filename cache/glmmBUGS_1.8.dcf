@@ -1,0 +1,19 @@
+Package: glmmBUGS
+Type: Package
+Title: Generalised Linear Mixed Models and Spatial Models with WinBUGS,
+        BRugs, or OpenBUGS
+Version: 1.8
+Date: 2010-10-15
+Depends: MASS, abind, spdep
+Enhances: R2WinBUGS, BRugs
+Author: Patrick Brown
+Maintainer: Patrick Brown <patrick.brown@utoronto.ca>
+Description: Write bugs model files for hierarchical and spatial
+        models, arranges unbalanced data in ragged arrays, and creates
+        starting values.
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: glmmbugs
+Repository/R-Forge/Revision: 210
+Date/Publication: 2010-10-19 16:10:57
+Packaged: 2010-10-15 20:44:13 UTC; rforge

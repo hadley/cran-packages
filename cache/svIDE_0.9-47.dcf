@@ -1,0 +1,19 @@
+Package: svIDE
+Type: Package
+Title: SciViews GUI API - IDE and code editor functions
+Depends: R (>= 2.6.0)
+Imports: utils, tcltk, svMisc
+Description: Function for the GUI API to interact with external
+        IDE/code editors
+Version: 0.9-47
+Date: 2009-10-26
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://www.sciviews.org/SciViews-R
+Repository: CRAN
+Repository/R-Forge/Project: sciviews
+Repository/R-Forge/Revision: 214
+Date/Publication: 2009-10-29 16:35:29
+Packaged: 2009-10-26 21:18:34 UTC; rforge

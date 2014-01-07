@@ -1,0 +1,22 @@
+Package: portes
+Type: Package
+Title: Portmanteau Tests for Time Series Models
+Version: 1.08
+Date: 2013-04-10
+Author: Esam Mahdi and A. Ian McLeod
+Maintainer: A. Ian McLeod <aim@stats.uwo.ca>
+URL: http://www.stats.uwo.ca/faculty/aim
+Description: This package contains a set of portmanteau diagnostic
+        checks for univariate and multivariate time series.
+Depends: R (>= 2.0.0), FitAR, akima
+Suggests: FGN, forecast, vars, snow
+Recommends: rlecuyer
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+License: CC BY-NC-SA 3.0
+Packaged: 2013-04-10 21:53:36 UTC; Aim
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-11 07:00:26

@@ -1,0 +1,16 @@
+Package: TauP.R
+Type: Package
+Title: Earthquake Traveltime Calculations for 1-D Earth Models
+Version: 1.0
+Date: 2011-01-06
+Author: Jake Anderson, Jonathan Lees
+Maintainer: Jake Anderson <ajakef@gmail.com>
+Description: Evaluates traveltimes and ray paths using predefined Earth
+        (or other planet) models.  Includes phase plotting routines.
+        The IASP91 and AK135 Earth models are included, and most
+        important arrival phases can be evaluated.
+License: GPL
+LazyLoad: yes
+Packaged: 2011-05-23 17:39:29 UTC; jfanders
+Repository: CRAN
+Date/Publication: 2011-05-23 18:10:04

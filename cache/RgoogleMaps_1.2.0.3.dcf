@@ -1,0 +1,20 @@
+Package: RgoogleMaps
+Type: Package
+Title: Overlays on Google map tiles in R
+Version: 1.2.0.3
+Date: 2013-03-15
+Depends: R (>= 2.10), graphics, stats, utils, png
+Suggests: PBSmapping, maptools, RColorBrewer, sp
+Author: "Markus Loecher, Berlin School of Economics and Law (BSEL)"
+        <markus.loecher@gmail.com>
+Maintainer: "Markus Loecher" <markus.loecher@gmail.com>
+Description: This package serves two purposes: (i) Provide a
+        comfortable R interface to query the Google server for static
+        maps, and (ii) Use the map as a background image to overlay
+        plots within R. This requires proper coordinate scaling.
+License: GPL
+LazyLoad: yes
+Packaged: 2013-03-30 06:58:02 UTC; user
+Repository: CRAN
+Date/Publication: 2013-03-30 15:56:38
+NeedsCompilation: no

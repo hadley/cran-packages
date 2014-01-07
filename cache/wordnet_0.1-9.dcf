@@ -1,0 +1,26 @@
+Package: wordnet
+Title: WordNet Interface
+Version: 0.1-9
+Authors@R: c(person("Ingo", "Feinerer", role = "aut"),
+             person("Kurt", "Hornik", role = c("aut", "cre"),
+                    email = "Kurt.Hornik@R-project.org"),
+             person("Mike", "Wallace", role = c("ctb", "cph"),
+                    comment = "Jawbone Java WordNet API library"))
+Description: An interface to WordNet using the Jawbone Java API to WordNet.
+  WordNet is an on-line lexical reference system developed by the Cognitive
+  Science Laboratory at Princeton University. Its design is inspired by current
+  psycholinguistic theories of human lexical memory. English nouns, verbs,
+  adjectives and adverbs are organized into synonym sets, each representing one
+  underlying lexical concept. Different relations link the synonym sets.
+Imports: rJava (>= 0.6-3)
+SystemRequirements: Java (>= 5.0), WNdb-3.0.tar.gz from
+        wordnet.princeton.edu
+License: MIT + file LICENSE
+Packaged: 2013-09-05 16:37:46 UTC; hornik
+Author: Ingo Feinerer [aut],
+  Kurt Hornik [aut, cre],
+  Mike Wallace [ctb, cph] (Jawbone Java WordNet API library)
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-05 19:11:21

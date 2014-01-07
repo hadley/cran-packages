@@ -1,0 +1,13 @@
+Package: rpvm
+Version: 0.3
+Date: $Date: 2001/09/12 19:40:34 $
+Title: R interface to PVM (Parallel Virtual Machine) 
+Author: Na (Michael) Li <lina@u.washington.edu> and 
+  A. J. Rossini <rossini@u.washington.edu>.
+Maintainer: Na (Michael) Li <lina@u.washington.edu>
+Depends: R (>= 1.2.0)
+Description: Provides interface to PVM APIs, and examples and
+  documentation for its use.  
+License: GPL version 2 or newer
+URL: http://www.r-project.org/, 
+     http://software.biostat.washington.edu/statsoft/snake/

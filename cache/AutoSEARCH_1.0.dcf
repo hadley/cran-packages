@@ -1,0 +1,15 @@
+Package: AutoSEARCH
+Type: Package
+Title: Automated Financial Modelling
+Version: 1.0
+Date: 2011-11-07
+Author: Genaro Sucarrat
+Maintainer: Genaro Sucarrat <genaro.sucarrat@bi.no>
+Depends: R (>= 2.4.1), zoo
+Description: Automated multi-path General-to-Specific (GETS) model selection of the mean and volatility specification of a power log-ARCH model
+License: GPL-2
+LazyLoad: yes
+URL: http://www.eco.uc3m.es/sucarrat/
+Packaged: 2011-11-07 00:56:06 UTC; admin
+Repository: CRAN
+Date/Publication: 2011-11-07 14:05:11

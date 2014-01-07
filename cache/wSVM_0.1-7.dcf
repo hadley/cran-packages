@@ -1,0 +1,19 @@
+Package: wSVM
+Title: Weighted SVM with boosting algorithm for improving accuracy
+Version: 0.1-7
+Date: 2010-10-03
+Author: SungHwan Kim and Soo-Heang Eo
+Maintainer: SungHwan Kim <swiss747@korea.ac.kr>
+Description: We propose weighted SVM methods with penalization form. By
+        adding weights to loss term, we can build up weighted SVM
+        easily and examine classification algorithm properties under
+        weighted SVM. Through comparing each of test error rates, we
+        conclude that our Weighted SVM with boosting has predominant
+        properties than the standard SVM have, as a whole.
+License: GPL-2
+Depends: R (>= 2.10.1), MASS, quadprog
+LazyData: yes
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:59 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:59

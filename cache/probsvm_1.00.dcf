@@ -1,0 +1,19 @@
+Package: probsvm
+Type: Package
+Title: probsvm: Class probability estimation for Support Vector
+        Machines
+Date: 2013-5-16
+Version: 1.00
+Author: Chong Zhang, Seung Jun Shin, Junhui Wang, Yichao Wu, Hao Helen
+        Zhang, and Yufeng Liu
+Maintainer: Chong Zhang <chongz@live.unc.edu>
+Depends: kernlab
+Description: This package provides multiclass conditional probability
+        estimation for the SVM, which is distributional assumption
+        free.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-05-18 23:48:46 UTC; NC
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-19 08:15:01

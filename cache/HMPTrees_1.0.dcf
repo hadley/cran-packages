@@ -1,0 +1,17 @@
+Package: HMPTrees
+Type: Package
+Title: Statistical Object Oriented Data Analysis of RDP-based Taxonomic
+        trees from Human Microbiome Data: Modeling, Visualization, and
+        Two-Group Comparison
+Version: 1.0
+Date: 2011-11-16
+Author: Patricio S. La Rosa, Elena Deych, Berkley Shands, William D. Shannon
+Maintainer: Berkley Shands <bshands@dom.wustl.edu>
+Depends: R (>= 2.10.0), ape
+Suggests: doSMP, foreach, multicore, doMC
+Description: In this package, we introduce Object Oriented Data Analysis (OODA) methods to analyze Human Microbiome taxonomic trees directly. We provide tools to model, compare, and visualize populations of taxonomic tree objects. In particular, using a unimodal probability measure in the set of trees, we provide procedures to compute the MLE of the central tree and the LRT statistics for comparing the distributions of two metagenomic populations. Our procedures have been developed to support parallel computations for comparing two groups.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-11-18 21:02:56 UTC; bshands
+Repository: CRAN
+Date/Publication: 2011-11-19 06:46:16

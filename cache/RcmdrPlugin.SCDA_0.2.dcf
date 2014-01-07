@@ -1,0 +1,15 @@
+Package: RcmdrPlugin.SCDA
+Type: Package
+Title: Rcmdr plugin for designing and analyzing single-case experiments
+Version: 0.2
+Date: 2013-02-09
+Author: Isis Bulte and Patrick Onghena
+Maintainer: Isis Bulte <isis.bulte@ppw.kuleuven.be>
+Depends: SCVA, SCRT, SCMA
+Imports: Rcmdr
+Description: This package provides a GUI for the SCVA, SCRT and SCMA
+        packages. It is written as an Rcmdr plugin.
+License: GPL (>= 2)
+Packaged: 2013-02-09 19:49:22 UTC; u0053535
+Repository: CRAN
+Date/Publication: 2013-02-09 21:09:42

@@ -1,0 +1,14 @@
+Package: rSymPy
+Version: 0.2-1.1
+Date: 2010-07-31
+Title: R interface to SymPy computer algebra system
+Author: G Grothendieck (SymPy itself is by Ondrej Certik and others),
+        Contributors: Carlos J. Gil Bellosta
+Maintainer: G Grothendieck <ggrothendieck@gmail.com>
+Description: Access SymPy computer algebra system from R via Jython
+Depends: rJython
+License: GPL
+URL: http://rsympy.googlecode.com
+Packaged: 2012-10-29 08:59:33 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:33

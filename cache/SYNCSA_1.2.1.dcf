@@ -1,0 +1,21 @@
+Package: SYNCSA
+Type: Package
+Title: SYNCSA - Analysis of functional and phylogenetic patterns in
+        metacommunities.
+Version: 1.2.1
+Date: May 28, 2012
+Publication: April 05, 2011 (Version 1.0)
+Author: Vanderlei Julio Debastiani
+Maintainer: Vanderlei Julio Debastiani
+        <vanderleidebastiani@yahoo.com.br>
+Depends: vegan, mice
+Description: Analysis of metacommunities based on functional traits and
+        phylogeny of the community components. The functions that are
+        offered here implement for the R environment methods that have
+        been available in the SYNCSA application written in C++ (by
+        Valerio Pillar, available at
+        http://ecoqua.ecologia.ufrgs.br/ecoqua/SYNCSA.html).
+License: GPL-2
+Packaged: 2012-05-28 17:48:53 UTC; vanderleidebastiani
+Repository: CRAN
+Date/Publication: 2012-05-28 18:21:22

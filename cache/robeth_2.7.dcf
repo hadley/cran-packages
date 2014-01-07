@@ -1,0 +1,22 @@
+Package: robeth
+Type: Package
+Title: R functions for robust statistics
+LazyLoad: yes
+Version: 2.7
+Date: 2013-07-12
+Depends: R (>= 2.9.2)
+Author: Alfio Marazzi <Alfio.Marazzi@chuv.ch>
+Maintainer: A. Randriamiharisoa <Alex.Randriamiharisoa@chuv.ch>
+Description: Locations problems, M-estimates of coefficients and scale
+        in linear regression, Weights for bounded influence regression,
+        Covariance matrix of the coefficient estimates, Asymptotic
+        relative efficiency of regression M-estimates, Robust testing
+        in linear models, High breakdown point regression, M-estimates
+        of covariance matrices, M-estimates for discrete generalized
+        linear models.
+License: GPL (>= 2)
+URL: http://www.iumsp.ch/
+Packaged: 2013-07-12 16:55:59 UTC; arandria
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-29 14:38:42

@@ -1,0 +1,11 @@
+Package: FTICRMS
+Type: Package
+Title: Programs for Analyzing Fourier Transform-Ion Cyclotron Resonance Mass Spectrometry Data
+Version: 0.6
+Date: 2008-09-12
+Author: Don Barkauskas
+Maintainer: Don Barkauskas <barkda@wald.ucdavis.edu>
+Depends: Matrix,lattice,splines
+Description: This package was developed partially with funding from the NIH Training Program in Biomolecular Technology (2-T32-GM08799).
+License: GPL-2
+Packaged: Tue Oct  7 10:46:19 2008; DBarkauskas

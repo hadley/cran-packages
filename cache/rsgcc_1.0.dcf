@@ -1,0 +1,25 @@
+Package: rsgcc
+Type: Package
+Title: Gini methodology-based correlation and clustering analysis of
+        both microarray and RNA-Seq gene expression data
+Version: 1.0
+Author: Chuang Ma, Xiangfeng Wang
+Maintainer: Chuang Ma <chuangma2006@gmail.com>
+Depends: R (>= 2.14.2), biwt, ctc, fBasics, snowfall, grDevices,
+        gplots, gWidgets, gWidgetsRGtk2, stringr
+Description: This package provides functions for calcluating Gini
+        correlation coefficient (GCC) and performing GCC-based
+        clustering analysis of gene expression data generated from both
+        microarray and next-generation sequencing (RNA-Seq)
+        technologies. Gini correlation outperforms Pearson correlation
+        and Spearman correlation to identify regulatory relationships
+        from both microarray and RNA-Seq data. In addtion, GCC has the
+        capability of more robustness on non-distribution, less
+        sensitivity to outlier data points and higher comatibility to
+        RNA-Seq data.
+LazyLoad: yes
+License: GPL (>= 2)
+Date: 2012-03-13
+Packaged: 2012-03-13 18:13:10 UTC; wanglab
+Repository: CRAN
+Date/Publication: 2012-03-13 19:49:30

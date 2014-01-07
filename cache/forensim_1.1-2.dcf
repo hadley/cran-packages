@@ -1,0 +1,23 @@
+Package: forensim
+Type: Package
+Title: Statistical tools for the interpretation of forensic DNA
+        mixtures
+Version: 1.1-2
+Date: 2009-11-10
+Author: Hinda Haned <haned@biomserv.univ-lyon1.fr>
+Maintainer: Hinda Haned <haned@biomserv.univ-lyon1.fr>
+Suggests: gdata,gtools,MASS,mvtnorm,genetics,tcltk
+Depends: methods
+Description: Statistical methods and simulation tools for the
+        interpretation of forensic DNA mixtures
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: classes_definitions.R classes_constructors.R accessors.R
+        simufreqD.R simupopD.R zzz.R AuxFunc.R changepop.R PE.R
+        likelihood.R likestim.R mincontri.R Pevid2.R LR.R RMP.R
+        A2.simu.R A3.simu.R A4.simu.R mastermix.R
+Repository: CRAN
+Repository/R-Forge/Project: forensim
+Repository/R-Forge/Revision: 173
+Date/Publication: 2009-11-11 13:10:20
+Packaged: 2009-11-10 21:10:26 UTC; rforge

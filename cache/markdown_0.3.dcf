@@ -1,0 +1,15 @@
+Package: markdown
+Type: Package
+Title: Markdown rendering for R
+Version: 0.3
+Date: 2012-04-04
+Author: JJ Allaire, Jeffrey Horner, Vicent Marti, and Natacha Porte
+Maintainer: JJ Allaire <jj@rstudio.org>
+Description: Markdown is a plain-text formatting syntax that can be
+        converted to XHTML or other formats. This package provides R
+        bindings to the Sundown markdown rendering library.
+Depends: R (>= 2.11.1)
+License: GPL-3
+Packaged: 2012-04-04 20:33:56 UTC; jjallaire
+Repository: CRAN
+Date/Publication: 2012-04-05 06:09:59

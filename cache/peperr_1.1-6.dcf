@@ -1,0 +1,17 @@
+Package: peperr
+Type: Package
+Title: Parallelised Estimation of Prediction Error
+Date: 2011
+Version: 1.1-6
+Depends: snowfall, survival
+Suggests: CoxBoost, locfit, penalized, codetools, randomSurvivalForest
+Author: Christine Porzelius, Harald Binder
+Maintainer: Christine Porzelius <cp@fdm.uni-freiburg.de>
+Description: Package peperr is designed for prediction error estimation
+        through resampling techniques, possibly accelerated by parallel
+        execution on a compute cluster. Newly developed model fitting
+        routines can be easily incorporated.
+License: GPL (>= 2)
+Packaged: 2011-03-16 08:57:02 UTC; cp
+Repository: CRAN
+Date/Publication: 2011-03-16 20:03:30

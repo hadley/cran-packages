@@ -1,0 +1,12 @@
+Package: NORMT3
+Title: Evaluates complex erf, erfc and density of sum of Gaussian and Student's t
+Version: 1.0
+Date: 2005-01-07
+Author: Guy Nason <g.p.nason@bristol.ac.uk>
+Maintainer: Guy Nason <g.p.nason@bristol.ac.uk>
+Description: Evaluates the probability density function of the sum of the
+	Gaussian and Student's t density on 3 degrees of freedom.
+	Evaluates the p.d.f. of the sphered Student's t density function. 
+	Also evaluates the erf and erfc functions on complex-valued arguments.
+License: GPL version 2 or newer
+Packaged: Mon Jan 10 09:49:09 2005; magpn

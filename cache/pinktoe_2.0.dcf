@@ -1,0 +1,16 @@
+Package: pinktoe
+Title: Graphically traverse a tree via GUI widgets or web based system 
+Version: 2.0
+Date: 2004-09-08
+Author: G P Nason
+Description: Package can either (i) graphically traverse trees (rpart)
+    objects. If a new case needs to be classified then the PT function
+    uses a GUI to ask questions to determine how a new case satisfies
+    the decisions in a classification tree and comes up with its classified
+    value (also for regression trees) (ii) alternatively, the pinktoe function
+    can produce HTML/PERL code which can be used with a CGI-enabled web
+    server so that a tree can be traversed on a web site.
+Maintainer: <g.p.nason@bristol.ac.uk>
+License: GPL version 2 or newer
+URL: http://www.stats.bris.ac.uk/~magpn/Research/Pinktoe/pinktoe.htm
+Packaged: Wed Feb  8 12:58:46 2006; hornik

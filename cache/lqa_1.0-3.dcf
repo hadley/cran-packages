@@ -1,0 +1,17 @@
+Package: lqa
+Type: Package
+Title: Penalized Likelihood Inference for GLMs
+Version: 1.0-3
+Date: 2010-07-12
+Author: Jan Ulbricht
+Maintainer: Jan Ulbricht <jan.ulbricht@stat.uni-muenchen.de>
+Description: This package provides some basic infrastructure and tools
+        to fit Generalized Linear Models (GLMs) via penalized
+        likelihood inference. Estimating procedures already implemented
+        are the LQA algorithm (that is where its name come from),
+        P-IRLS, RidgeBoost, GBlockBoost and ForwardBoost.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:07 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:07

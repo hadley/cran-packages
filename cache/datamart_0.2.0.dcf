@@ -1,0 +1,22 @@
+Package: datamart
+Type: Package
+Title: Unified access to various data sources
+Version: 0.2.0
+Date: 2012-07-15
+Author: Karsten Weinert
+Maintainer: Karsten Weinert <k.weinert@gmx.net>
+Description: Provides several S4 classes for querying web based data
+        sources like mediawiki, dbpedia and twitter.
+License: GPL (>= 3)
+Depends: RJSONIO, XML, RCurl, methods, RSQLite, xts
+LazyLoad: yes
+Collate: '000_datamart-doc.r' '001_DataStore.R' '003_Xdata.R'
+        '005_Res.R' '010_Twttr.R' '020_Xsparql.R' '030_Dbpedia.R'
+        '040_InternalData.R' '045_Evs.R' '060_UrlData.R' '070_mauna.R'
+        '080_iwv.R' '090_Mashup.R' '100_GScholar.R' '101_statsoftpop.R'
+        '110_SourceForge.R' '120_Gapminder.R' '140_TourDeFrance.R'
+        '150_be_badestellen.R' '200_Eurostat.R' 'mem.info.R'
+        'strexts.R' 'wikisites.R'
+Packaged: 2012-07-15 22:05:57 UTC; TravelMate
+Repository: CRAN
+Date/Publication: 2012-07-16 06:13:08

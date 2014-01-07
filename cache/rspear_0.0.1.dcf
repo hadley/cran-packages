@@ -1,0 +1,17 @@
+Package: rspear
+Type: Package
+Title: Calculate SPEARpesticide in R
+        (http://www.systemecology.eu/SPEAR/index.php)
+Version: 0.0.1
+Date: 2012-11-06
+Author: Eduard Szoecs
+Maintainer: Eduard Szoecs <szoe8822@uni-landau.de>
+Description: Calculate SPEARpesticide in R
+        (http://www.systemecology.eu/SPEAR/index.php)
+License: MIT
+Collate: 'match_traits.R' 'get_traits.R' 'spear.R' 'rspear-package.R'
+Imports: plyr (>= 1.0)
+Suggests: testthat, reshape2
+Packaged: 2012-12-26 02:22:38 UTC; edisz
+Repository: CRAN
+Date/Publication: 2012-12-26 09:19:16

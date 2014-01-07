@@ -1,0 +1,10 @@
+Package: geoRglm
+Version: 0.7-10
+Date: 2004-01-28
+Title: geoRglm - a package for generalised linear spatial models
+Author: Ole F. Christensen <olefc@birc.dk> and  Paulo J. Ribeiro Jr <Paulo.Ribeiro@est.ufpr.br>
+Maintainer: Ole Christensen <olefc@birc.dk>
+Depends: R (>= 1.7.0), geoR (>= 1.4-3)
+Description: Functions for inference in generalised linear spatial models. The posterior and predictive inference is based on Markov chain Monte Carlo methods. Package geoRglm is an extension to the package geoR, which must be installed first.
+License: GPL Version 2 or later.
+URL: http://www.daimi.au.dk/~olefc/geoRglm

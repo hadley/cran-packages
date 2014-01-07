@@ -1,0 +1,15 @@
+Package: RhpcBLASctl
+Version: 0.13-331.21
+Date: 2013-11-27
+Title: Control the number of threads on BLAS for R
+Author: Junji Nakano <nakanoj@ism.ac.jp> and Ei-ji Nakama<nakama@com-one.com>
+Maintainer: Ei-ji Nakama <nakama@com-one.com>
+Description: Control the number of threads on BLAS(Aka GotoBLAS, ACML and MKL)
+License: AGPL-3
+URL: http://prs.ism.ac.jp/~nakama/Rhpc/
+BugReports: e-mail:nakama@com-one.com
+ByteCompile: true
+Packaged: 2013-11-27 12:09:10 UTC; nakama
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-27 16:06:18

@@ -1,0 +1,32 @@
+Package: hierarchicalDS
+Maintainer: Paul B Conn <paul.conn@noaa.gov>
+License: Unlimited
+Title: Functions for performing hierarchical analysis of distance
+        sampling data
+Type: Package
+LazyLoad: yes
+Author: P.B. Conn \email{paul.conn@@noaa.gov}
+Description: Functions for performing hierarchical analysis of distance
+        sampling data, with ability to use an areal spatial ICAR model
+        on top of user supplied covariates to get at variation in
+        abundance intensity.  The detection model can be specified as a
+        function of observer and individual covariates, where a
+        parametric model is supposed for the population level
+        distribution of covariate values.  The model uses data
+        augmentation and a reversible jump MCMC algorithm to sample
+        animals that were never observed.  Also included is the ability
+        to include point independence (increasing correlation multiple
+        observer's observations as a function of distance, with
+        independence assumed for distance=0 or first distance bin).
+        New in version 2.0 is the ability to model species
+        misclassification rates using a multinomial logit formulation
+        on data from double observers.
+Version: 2.01
+Depends: truncnorm, MASS, mvtnorm, Matrix, coda, spsurvey, MCMCpack,
+        xtable, mc2d
+Date: 2012-9-28
+Collate: 'hierarchical_DS.R' 'mcmc_ds.R' 'simulate_data.R'
+        'spat_funcs.R'
+Packaged: 2012-09-28 15:22:09 UTC; paul.conn
+Repository: CRAN
+Date/Publication: 2012-09-28 16:48:44

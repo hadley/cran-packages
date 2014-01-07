@@ -1,0 +1,12 @@
+Package: gmaps
+Type: Package
+Title: Wrapper and auxilliary functions for maps package to work with grid graphics system.
+Version: 0.1
+Date: 2007-10-02
+Author: Andrew Redd	
+Maintainer: Andrew Redd <aredd@stat.tamu.edu>
+Depends: maps, grid
+Suggests: mapdata
+Description: The gmaps package extends the functionality of the maps package for the grid graphics system.  This enables more advanced plots and more functionality.  It also makes use of the grid structure to fix problems encountered with the traditional graphics system, such as resizing of graphs.
+License: GPL (>= 2)
+Packaged: Thu Mar  6 09:06:19 2008; aredd

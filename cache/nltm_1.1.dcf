@@ -1,0 +1,25 @@
+Package: nltm
+Version: 1.1
+Date: 2006-03-24
+Title: Nonlinear Transformation Models
+Author: Gilda Garibotti, Alexander Tsodikov 
+Maintainer: Gilda Garibotti <garibott@math.utah.edu>
+Depends: survival, R (>= 2.0.0)
+Suggets:
+Description: Survival analysis: Implements nonlinear transformation models
+	(proportional odds, Gamma frailty, proportional hazards, ), see 
+	Tsodikov (2003) "Semiparametricmodels: a generalized self-consistency 
+	approach". J.R. Statistical Society B, 65, Part 3, 759-774.
+License: This program is free software; you can redistribute
+	it and/or modify it under the terms of the GNU General Public 
+	License as published by the Free Software Foundation; either
+	version 2 of the License, or (at your option) any later
+	version. This program is distributed in the hope that it will
+	be useful, but WITHOUT ANY WARRANTY; without even the implied
+	warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+	PURPOSE. See the GNU General Public License for more details.
+URL: http://www.r-project.org
+LazyLoad: No
+LazyData: No
+SaveImage: No
+Packaged: Fri Mar 24 12:24:09 2006; lena

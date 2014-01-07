@@ -1,0 +1,18 @@
+Package: Giza
+Type: Package
+Title: Constructing panels of population pyramid plots based on lattice
+Version: 1.0
+Date: 2011-11-08
+Author: Erich Striessnig
+Maintainer: Erich Striessnig <erich.striessnig@wu.ac.at>
+Description: `Giza' offers a simple way of creating multiple pyramid
+        plots in one graphics window, exploiting the power of the
+        lattice package. It is a handy way of visualizing longitudinal
+        grouped (i.e.: age- and education-structured) data.
+Depends: R (>= 2.10.0), reshape, lattice
+Imports: lattice
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-09-17 11:28:23 UTC; admin
+Repository: CRAN
+Date/Publication: 2012-09-17 14:00:01

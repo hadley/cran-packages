@@ -1,0 +1,16 @@
+Package: futile
+Type: Package
+Title: Futile function utilities
+Version: 1.1.1
+Date: 2009-07-16
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Depends: R (>= 2.8.0)
+Suggests: zoo, xts, quantmod
+Description: A collection of utility functions to expedite software
+        development
+License: GPL-2
+LazyLoad: yes
+Packaged: Thu Jul 16 07:12:22 2009; brian
+Repository: CRAN
+Date/Publication: 2009-07-18 15:41:43

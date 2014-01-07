@@ -1,0 +1,26 @@
+Package: relations
+Version: 0.6-1
+Encoding: UTF-8
+Title: Data Structures and Algorithms for Relations
+Description: Data structures and algorithms for k-ary relations with
+        arbitrary domains, featuring relational algebra, predicate
+        functions, and fitters for consensus relations.
+Authors@R: c(person(given = "David", family = "Meyer", role =
+        c("aut")), person(given = "Kurt", family = "Hornik", role =
+        c("aut", "cre"), email = "Kurt.Hornik@R-project.org"),
+        person(given = "Christian", family = "Buchta", role = "ctb"))
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.10), sets
+Imports: cluster, stats, slam, sets (>= 1.0-4)
+Suggests: Rgraphviz, clue (>= 0.3-28), Rglpk (>= 0.3-1), lpSolve (>=
+        5.6.3), Rsymphony (>= 0.1-9)
+Enhances: seriation, Rcplex
+License: GPL-2
+Packaged: 2013-03-19 14:27:15 UTC; hornik
+Author: David Meyer [aut], Kurt Hornik [aut, cre], Christian Buchta
+        [ctb]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-19 15:58:56

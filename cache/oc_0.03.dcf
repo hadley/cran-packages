@@ -1,0 +1,10 @@
+Package: oc
+Version: 0.03
+Date: 2007-08-15
+Title: OC Roll Call Analysis Software.
+Author: Keith Poole <kpoole@ucsd.edu>, Jeffrey Lewis <jblewis@ucla.edu>, James Lo <jameslo@ucla.edu> and Royce Carroll <rcarroll@ucsd.edu>
+Maintainer: James Lo <jameslo@ucla.edu>
+Depends: R (>= 2.3.1), pscl (>= 0.59)
+Description: Estimates Optimal Classification scores from roll call votes supplied though a 'rollcall' object from package 'pscl'. 
+License: GPL version 2
+Packaged: Wed Aug 15 19:35:21 2007; jameslo

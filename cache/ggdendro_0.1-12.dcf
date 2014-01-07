@@ -1,0 +1,29 @@
+Package: ggdendro
+Author: Andrie de Vries, Brian Ripley
+Authors@R: c(person("Andrie", "de Vries", role=c("aut", "cre"),
+        email="apdevries@gmail.com"), person(c("Brian", "D."),
+        "Ripley", role = c("aut"), comment = "author of package tree"))
+License: GPL-2 | GPL-3
+Title: Tools for extracting dendrogram and tree diagram plot data for
+        use with ggplot.
+LazyData: true
+LazyLoad: true
+Description: This is a set of tools for dendrograms and tree plots
+        using ggplot.  The ggplot philosophy is to clearly separate
+        data from the presentation.  Unfortunately the plot method for
+        dendrograms plots directly to a plot device without exposing
+        the data.  The ggdendro package resolves this by making
+        available functions that extract the dendrogram plot data.
+Version: 0.1-12
+URL: https://github.com/andrie/ggdendro
+Date: 2013-01-27
+Imports: MASS, tree, ggplot2(>= 0.9.2)
+Collate: 'dendro_data.R' 'dendrogram.R' 'ggdendro-package.R'
+        'ggdendrogram.R' 'dendro_tree.R'
+Packaged: 2013-01-27 12:28:53 UTC; Andrie.deVries
+Maintainer: Andrie de Vries <apdevries@gmail.com>
+X-CRAN-Comment: Earlier versions of this package have been removed: it
+        contained copies of code from other packages used contrary to
+        their licenses.
+Repository: CRAN
+Date/Publication: 2013-01-28 19:45:59

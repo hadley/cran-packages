@@ -1,0 +1,16 @@
+Package: homals
+Type: Package
+Title: Homogeneity Analysis
+Version: 0.9-3
+Date: 2007-11-05
+Author: Jan de Leeuw, Patrick Mair
+Maintainer: Jan de Leeuw <deleeuw@ucla.edu>
+Description: This package performs a homogeneity analysis, aka a multiple correspondence
+  analysis, but with many additional options. Variables can be grouped into
+  sets, in order to emulate regression analysis and canonical analysis. For
+  each variable rank constraints on the category and quantifications (or transformations) and level constraints (which allows one to treat a variable as nominal, ordinal, or numerical) can be imposed.
+License: GPL
+URL: http://r-forge.r-project.org/projects/psychor/
+Imports: graphics, stats
+Depends: rgl, ape, scatterplot3d
+Packaged: Mon Nov  5 22:24:36 2007; admin

@@ -1,0 +1,26 @@
+Package: OSACC
+Type: Package
+Title: Ordered Subset Analysis for Case-Control Studies
+Version: 1.0
+Date: 2010-03-08
+Author: Xuejun Qin, Elizabeth R. Hauser, Silke Schmidt,(Center for
+        Human Genetics, Duke University)
+Maintainer: Xuejun Qin<xjq@chg.duhs.duke.edu>
+Description: Genetic heterogeneity can reduce the power for complex
+        disease gene mapping since only a fraction of the cases in the
+        collected dataset may carry a specific disease susceptibility
+        allele. The Ordered Subset Analysis for Case-Control data
+        (OSACC) program was designed to evaluate evidence for
+        association in the presence of genetic heterogeneity. For a
+        more detailed description of the method and results of an
+        extensive simulation study based on different models of genetic
+        heterogeneity. Please see Qin et. al.(2010), Ordered Subset
+        Analysis for Case-Control Studies, Genetic Epidemiology 34(5),
+        407-417.
+Depends: R (>= 1.8.0)
+License: LGPL (>= 2.0)
+LazyLoad: yes
+URL: http://wwwchg.duhs.duke.edu/research/osacc.html
+Packaged: 2010-09-16 16:33:48 UTC; xjq
+Repository: CRAN
+Date/Publication: 2010-09-16 18:40:04

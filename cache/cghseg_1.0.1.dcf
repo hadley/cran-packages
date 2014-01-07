@@ -1,0 +1,19 @@
+Package: cghseg
+Type: Package
+Title: Segmentation methods for array CGH analysis
+Version: 1.0.1
+Depends: methods, parallel
+SystemRequirements: GNU GSL
+Date: 2012-12-06
+Author: Franck Picard, Mark Hoebeke, Emilie Lebarbier, Vincent Miele,
+        Guillem Rigaill, Stephane Robin
+Maintainer: Franck Picard <franck.picard@univ-lyon1.fr>
+Description: cghseg is an R package dedicated to the analysis of CGH
+        profiles using segmentation models.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: cghseg
+Repository/R-Forge/Revision: 76
+Repository/R-Forge/DateTimeStamp: 2012-12-19 15:03:40
+Date/Publication: 2012-12-20 10:02:08
+Packaged: 2012-12-19 15:15:13 UTC; rforge

@@ -1,0 +1,13 @@
+Package: distr
+Version: 2.0
+Date: 2008-05-30
+Title: Object orientated implementation of distributions
+Description: Object orientated implementation of distributions
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas Stabla
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+Depends: R(>= 2.2.0), methods, graphics, startupmsg, sfsmisc
+Imports: stats
+LazyLoad: yes
+License: GPL (version 2 or later)
+URL: http://distr.r-forge.r-project.org/
+Packaged: Fri Sep 12 04:53:30 2008; theussl

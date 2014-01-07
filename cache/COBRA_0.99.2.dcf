@@ -1,0 +1,23 @@
+Package: COBRA
+Type: Package
+Title: Nonlinear Aggregation of Predictors
+Version: 0.99.2
+Date: 2013-07-03
+Author: Benjamin Guedj
+Maintainer: Benjamin Guedj <benjamin.guedj@upmc.fr>
+Description: This package performs prediction for regression-oriented
+        problems, aggregating in a nonlinear scheme any basic
+        regression machines suggested by the context and provided by
+        the user. If the user has no valuable knowledge on the data,
+        five defaults machines wrappers are implemented so as to cover
+        a minimal spectrum of prediction methods. If necessary, the
+        computations may be parallelized. The method is described in
+        Biau, Fischer, Guedj and Malley (2013), "COBRA: A Nonlinear
+        Aggregation Strategy".
+License: GPL (>= 2)
+URL: http://www.lsta.upmc.fr/doct/guedj/index.html
+Suggests: snowfall, lars, ridge, FNN, tree, randomForest
+Packaged: 2013-07-03 17:28:08 UTC; benjamin
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-03 21:09:44

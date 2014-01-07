@@ -1,0 +1,22 @@
+Package: GMD
+Version: 0.3.1
+Date: 2012-02-06
+Title: Generalized Minimum Distance of distributions
+Author: Xiaobei Zhao <xiaobei@binf.ku.dk>, Albin Sandelin
+        <albin@binf.ku.dk>
+Published:
+Maintainer: Xiaobei Zhao <xiaobei@binf.ku.dk>
+Description: GMD is a package for non-parametric distance measurement
+        between two discrete frequency distributions.
+Depends: R (>= 2.9.0), stats, grDevices, gplots
+Suggests: datasets, MASS, cluster
+Enhances: stats, cluster, gplots
+License: GPL (>= 2)
+URL:
+Repository: CRAN
+Packaged: 2012-02-06 09:12:29 UTC; xiaobei
+Type: Package
+LazyLoad: yes
+Collate: 'zzz.R' 'GMD-package.R' 'GMD-internal.R' 'GMD-data.R'
+        'ghist.R' 'gdist.R' 'css.R' 'heatmap3.R' 'gmdp.R' 'gmdm.R'
+Date/Publication: 2012-02-06 09:38:55

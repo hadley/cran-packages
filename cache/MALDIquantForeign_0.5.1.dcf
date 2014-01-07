@@ -1,0 +1,37 @@
+Package: MALDIquantForeign
+Version: 0.5.1
+Date: 2013-09-18
+Title: Import/Export routines for MALDIquant
+Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"),
+    email="mail@sebastiangibb.de"))
+Depends: R (>= 3.0.0), methods, MALDIquant (>= 1.8)
+Imports: base64enc, digest, downloader, readBrukerFlexData (>= 1.7),
+        readMzXmlData (>= 2.7), XML
+Suggests: testthat
+Description: This package allows to read (tab, csv, Bruker fid, Ciphergen XML,
+    mzXML, mzML, imzML, Analyze 7.5) and write (tab, csv, msd, mzML) different
+    file formats of mass spectrometry data into/from MALDIquant objects.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/maldiquant/
+        https://github.com/sgibb/MALDIquantForeign/
+BugReports: https://github.com/sgibb/MALDIquantForeign/issues/
+LazyLoad: yes
+Collate: 'package.R' 'AllGenerics.R' 'base64encode-functions.R'
+        'export-methods.R' 'exportMsd-methods.R' 'exportTab-methods.R'
+        'fileFormats.R' 'filename-functions.R' 'filename-methods.R'
+        'importAuto-functions.R' 'importBrukerFlex-functions.R'
+        'import-functions.R' 'importMzMl-functions.R'
+        'importMzXml-functions.R' 'importTab-functions.R'
+        'list.files-functions.R' 'msd-functions.R' 'parseMzMl.R'
+        'sanitize-functions.R' 'xml-functions.R' 'mzMl-functions.R'
+        'export-functions.R' 'exportMzMl-methods.R'
+        'importCiphergenXml-functions.R' 'parseCiphergenXml.R'
+        'compression-functions.R' 'download-function.R'
+        'importImzMl-functions.R' 'analyze-functions.R'
+        'importAnalyze-functions.R'
+Packaged: 2013-09-18 16:50:16 UTC; sebastian
+Author: Sebastian Gibb [aut, cre]
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-18 19:55:07

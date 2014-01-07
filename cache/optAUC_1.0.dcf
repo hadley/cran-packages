@@ -1,0 +1,18 @@
+Package: optAUC
+Type: Package
+Title: Optimal Combinations of Diagnostic Tests Based on AUC
+Version: 1.0
+Date: 2013-03-31
+Author: Xin Huang, Gengsheng Qin, Yixin Fang
+Maintainer: Xin Huang <xhuang.fhcrc@gmail.com>
+Depends: R (>= 2.15.2), MASS
+Description: Searches for optimal linear combination of multiple
+        diagnostic tests (markers) that maximizes the area under the
+        receiver operating characteristic curve (AUC); performs an
+        approximated cross-validation for estimating the AUC associated
+        with the estimated coefficients.
+License: GPL-2
+Packaged: 2013-04-01 04:33:20 UTC; xinhuang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-01 07:50:08

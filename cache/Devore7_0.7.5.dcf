@@ -1,0 +1,16 @@
+Package: Devore7
+Version: 0.7.5
+Title: Data sets from Devore's "Prob and Stat for Eng (7th ed)"
+Maintainer: John Verzani <jverzani@gmail.com>
+Author: Original by Jay L. Devore, modifications by Douglas Bates
+        <bates@stat.wisc.edu>, modifications for 7th edition by John
+        Verzani.
+Description: Data sets and sample analyses from Jay L. Devore (2008),
+        "Probability and Statistics for Engineering and the Sciences
+        (7th ed)", Thomson.
+Depends: R(>= 2.4.0), MASS, lattice
+LazyData: TRUE
+License: GPL (>= 2)
+Packaged: 2013-01-31 14:54:43 UTC; verzani
+Repository: CRAN
+Date/Publication: 2013-01-31 16:59:54

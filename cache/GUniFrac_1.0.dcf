@@ -1,0 +1,17 @@
+Package: GUniFrac
+Type: Package
+Title: Generalized UniFrac distances
+Version: 1.0
+Date: 2012-04-27
+Author: Jun Chen
+Maintainer: Jun Chen <chenjun@mail.med.upenn.edu>
+Description: Generalized UniFrac distance for comparing microbial
+        communities. Permutational multivariate analysis of variance
+        using multiple distance matrices.
+License: GPL-2
+Depends: vegan, ape
+Suggests: ade4
+LazyLoad: yes
+Packaged: 2012-04-28 15:38:21 UTC; chenjun
+Repository: CRAN
+Date/Publication: 2012-04-28 16:47:08

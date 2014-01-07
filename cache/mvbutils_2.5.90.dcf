@@ -1,0 +1,17 @@
+Package: mvbutils
+Version: 2.5.90
+Author: Mark V. Bravington <mark.bravington@csiro.au>
+Maintainer: Mark V. Bravington <mark.bravington@csiro.au>
+Depends: R (>= 2.10), utils, tools, stats
+Date: 13/1/2011
+Title: Workspace organization, code and documentation editing, package
+        prep and editing, etc.
+Description: Hierarchical workspace tree, code editing and backup, easy
+        package prep, editing of packages while loaded, per-object
+        lazy-loading, easy documentation, macro functions, and
+        miscellaneous utilities. Needed by debug package.
+License: GPL (>= 2)
+ChangeLog: inst/changes.txt
+Packaged: 2011-10-27 09:01:15 UTC; bra381
+Repository: CRAN
+Date/Publication: 2011-10-27 09:35:25

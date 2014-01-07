@@ -1,0 +1,13 @@
+Package: robfilter
+Version: 2.4
+Date: 2008-12-12
+Title: Robust Time Series Filters
+Author: Roland Fried <fried@statistik.tu-dortmund.de>
+  and Karen Schettlinger <schettlinger@statistik.tu-dortmund.de>.
+Maintainer: Karen Schettlinger <schettlinger@statistik.tu-dortmund.de>
+Depends: R (>= 2.5.0), robustbase, MASS
+Description: A set of functions to filter time series based on concepts from robust statistics.
+License: GPL (>=2)
+URL: http://www.statistik.tu-dortmund.de/de/content/einrichtungen/lehrstuehle/personen/fried.html
+LazyData: yes
+Packaged: Fri Dec 12 12:46:17 2008; schettli

@@ -1,0 +1,14 @@
+Package: pbatR
+Version: 2.1.1
+Date: 2008-04-17
+Title: P2BAT
+Author: PBAT: Christoph Lange, pbatR: Thomas Hoffmann
+Maintainer: Thomas Hoffmann <thoffman@hsph.harvard.edu>
+Depends: R (>= 2.0.0), survival
+Imports: tcltk
+Suggests: kinship, tcltk
+Description: This package provides data analysis via the pbat program, and an alternative internal implementation of the power calculations via simulation only.  For analysis, this package provides a frontend to the PBAT software, automatically reading in the output from the pbat program and displaying the corresponding figure when appropriate (i.e. PBAT-logrank). It includes support for multiple processes and clusters. For analysis, users must download PBAT and accept it's license, available on the PBAT webpage. Both the data analysis and power calculations have command line and graphical interfaces using tcltk.
+License: The license of this R package is GPL. The license of PBAT is available on the PBAT webpage, and must be downloaded separately from the link below.
+URL: http://www.r-project.org, http://www.biostat.harvard.edu/~clange/default.htm, http://www.people.fas.harvard.edu/~tjhoffm/pbatR.html
+LazyLoad: true
+Packaged: Thu May  8 13:22:52 2008; merlin

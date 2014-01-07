@@ -1,0 +1,16 @@
+Package: CoxBoost
+Version: 1.4
+Title: Cox models by likelihood based boosting for a single survival
+        endpoint or competing risks
+Author: Harald Binder <binderh@uni-mainz.de>
+Maintainer: Harald Binder <binderh@uni-mainz.de>
+Depends: R (>= 2.14.0), survival, Matrix, prodlim
+Suggests: parallel, snowfall
+Description: This package provides routines for fitting Cox models by
+        likelihood based boosting for a single endpoint or in presence
+        of competing risks
+License: GPL (>= 2)
+Packaged: 2013-05-09 21:07:32 UTC; harald
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-10 10:18:16

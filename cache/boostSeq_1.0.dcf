@@ -1,0 +1,24 @@
+Package: boostSeq
+Version: 1.0
+Date: 2012-08-10
+Title: Optimized GWAS cohort subset selection for resequencing studies
+Author: c(person("Milan Hiersche", "Developer", email =
+        "mihi@uni-muenster.de")
+Maintainer: Milan Hiersche <mihi@uni-muenster.de>
+Depends: R (>= 2.11.0), genetics, lpSolveAPI
+Description: This package contains functionality to select a subsample
+        of a genotyped cohort e.g. from a GWAS that is preferential for
+        resequencing under the assumtion that causal variants share a
+        haplotype with the risk allele of associated variants. The
+        subsample is selected such that is contains risk alleles at
+        maximum frequency for all SNPs specified. Phentoypes can also
+        be included as additional variables to obtain a higher fraction
+        of extreme phenotypes. An arbitrary number of SNPs and/or
+        phentoypes can be specified for enrichment in a single
+        subsample.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+BugReports: mihi@uni-muenster.de
+Packaged: 2012-08-10 12:37:31 UTC; milan
+Repository: CRAN
+Date/Publication: 2012-08-11 15:09:33

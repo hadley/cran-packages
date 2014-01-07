@@ -1,0 +1,18 @@
+Package: dae
+Version: 1.0-1
+Date: 2010-02-05
+Title: Functions useful in the design and ANOVA of experiments
+Author: Chris Brien <Chris.Brien@unisa.edu.au>.
+Maintainer: Chris Brien <Chris.Brien@unisa.edu.au>
+Depends: R (>= 2.10.0), lattice, methods
+Description: This package includes a number of functions that aid in
+        generating experimental designs and in examining their
+        canonical efficiency factors. It also includes functions that
+        facilitate diagnostic checking after an aov, especially when
+        the Error function has been used in the call to aov.
+License: GPL (>= 2)
+Lazyload: yes
+URL: http://chris.brien.name
+Packaged: 2010-02-05 10:40:46 UTC; briencj
+Repository: CRAN
+Date/Publication: 2010-02-05 11:52:39

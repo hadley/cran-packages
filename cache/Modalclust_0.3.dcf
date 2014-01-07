@@ -1,0 +1,22 @@
+Package: Modalclust
+Type: Package
+Title: Hierarchical Modal Clustering
+Version: 0.3
+Date: 2010-11-15
+Author: Surajit Ray and Yansong Cheng
+Maintainer: Surajit Ray <sray@math.bu.edu>
+Description: Perfroms Modal Clustering (MAC) including Hierarchical
+        Modal Clustering (HMAC) along with their parallel
+        implementation (PHMAC) over several processors.  These
+        model-based non-parametric clustering techniques can extract
+        clusters in very high dimensions with arbitrary density shapes.
+        By default clustering is performed over several resolutions and
+        the results are summarized as a hierarchical tree. Associated
+        plot functions are also provided. There is a package vignette
+        that provides many examples.
+Depends: R (>= 1.8.0), mvtnorm, zoo, class
+Suggests: MASS, multicore
+License: GPL-2
+Packaged: 2012-05-01 18:00:44 UTC; sray
+Repository: CRAN
+Date/Publication: 2012-05-02 06:19:37

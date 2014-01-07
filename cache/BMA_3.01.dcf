@@ -1,0 +1,13 @@
+Package: BMA
+Version: 3.01
+Date: 2005-05-09
+Title: Bayesian Model Averaging
+Author: Adrian Raftery <raftery@stat.washington.edu>, Jennifer Hoeting, Chris Volinsky, Ian Painter
+Maintainer: Ian Painter <ian.painter@gmail.com>
+Description: Bayesian Model Averaging functions
+Depends: survival, leaps
+Suggests: MASS, rrcov, forward
+Description: Package for Bayesian model averaging for linear models, generalizable linear models and survival models (cox regression).
+License: GPL version 2 or later
+URL: http://www.r-project.org, http://www.research.att.com/~volinsky/bma.html
+Packaged: Mon May 30 12:48:05 2005; hornik

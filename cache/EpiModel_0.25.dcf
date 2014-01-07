@@ -1,0 +1,17 @@
+Package: EpiModel
+Maintainer: Samuel M. Jenness <sjenness@uw.edu>
+Authors@R: c( person("Samuel", "Jenness", role=c("cre","aut"),
+        email="sjenness@uw.edu"))
+Version: 0.25
+License: GPL-2
+URL: http://www.statnet.org/
+Title: Mathematical Modeling of Infectious Disease
+Description: Tools for building, solving, and plotting mathematical
+        models of infectious disease.
+Depends: R (>= 2.15), deSolve, RColorBrewer
+Suggests: sandwich, reshape
+Packaged: 2013-04-08 08:19:03 UTC; SMJ
+Author: Samuel Jenness [cre, aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-08 17:43:58

@@ -1,0 +1,24 @@
+Package: GeneralizedHyperbolic
+Version: 0.2-0
+Date: 2010-02-24
+Title: The generalized hyperbolic distribution
+Author: David Scott <d.scott@auckland.ac.nz>
+Maintainer: David Scott <d.scott@auckland.ac.nz>
+Depends: R (>= 2.3.0), DistributionUtils
+Suggests: VarianceGamma, actuar, SkewHyperbolic
+Encoding: latin1
+Description: This package provides functions for the hyperbolic and
+        related distributions. Density, distribution and quantile
+        functions and random number generation are provided for the
+        hyperbolic distribution, the generalized hyperbolic
+        distribution, the generalized inverse Gaussian distribution and
+        the skew-Laplace distribution. Additional functionality is
+        provided for the hyperbolic distribution, including fitting of
+        the hyperbolic to data.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Repository: CRAN
+Repository/R-Forge/Project: rmetrics
+Repository/R-Forge/Revision: 4411
+Date/Publication: 2010-03-01 06:57:37
+Packaged: 2010-03-01 02:33:13 UTC; dsco036

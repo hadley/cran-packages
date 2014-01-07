@@ -1,0 +1,15 @@
+Package: ecodist
+Version: 1.2.7
+Date: 2012-03-22
+Title: Dissimilarity-based functions for ecological analysis
+Author: Sarah Goslee and Dean Urban
+Maintainer: Sarah Goslee <Sarah.Goslee@ars.usda.gov>
+Depends: R (>= 2.10.0)
+Imports: stats
+Description: Dissimilarity-based analysis functions including
+        ordination and Mantel test functions, intended for use with
+        spatial and community data.
+License: GPL (>= 2)
+Packaged: 2012-03-22 13:47:51 UTC; sarahg
+Repository: CRAN
+Date/Publication: 2012-03-22 14:19:36

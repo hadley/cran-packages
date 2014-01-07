@@ -1,0 +1,18 @@
+Package: dtw
+Type: Package
+Title: Dynamic Time Warping algorithms
+Version: 1.0-2
+Date: 2007-11-30
+Author: Toni Giorgino <toni.giorgino@unipv.it>,
+	Paolo Tormene <paolo.tormene@gmail.com>
+Maintainer: Toni Giorgino <toni.giorgino@unipv.it>
+Description: Implementation of Dynamic Time Warp (DTW) and its
+	     generalizations. DTW finds the optimal mapping (local
+	     time stretch) between a given query into a given template
+	     time series. Implements symmetric, asymmetric, and custom
+	     step patterns with weights. Supports windowing (none,
+	     itakura, sakoe-chiba, custom).  Package provides minimum
+	     cumulative distance, warping paths, plots, etc.
+License: GPL (>=2)
+URL: http://dtw.r-forge.r-project.org/
+Packaged: Tue Dec 11 19:25:08 2007; toni

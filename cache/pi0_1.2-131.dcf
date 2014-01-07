@@ -1,0 +1,25 @@
+Package: pi0
+Type: Package
+Title: Estimating the proportion of true null hypotheses for FDR
+Version: 1.2-131
+Date: 2010-09-19
+Author: Long Qu <longor@iastate.edu>, Dan Nettleton
+        <dnett@iastate.edu>, Jack Dekkers <jdekkers@iastate.edu>
+Maintainer: Long Qu <longor@iastate.edu>
+Depends: R (>= 2.10.0)
+Suggests: multtest, numDeriv, limSolve (>= 1.5.2), Matrix (>=
+        0.999375-43), rgl, scatterplot3d, qvalue, Iso(>= 0.0-5),
+        quadprog (>= 1.5-3), kernlab, LowRankQP
+Enhances: stats
+Description: This package implements method(s) to (approximately
+        unbiasedly) estimate the proportion of true null hypotheses,
+        i.e., the pi0, when a very large number of hypotheses are
+        simultaneously tested, especially for the purpose of (local)
+        false discovery rate control for microarray data. It also
+        contains functions to estimate the distribution of
+        noncentrality parameters from a large number of parametric
+        tests.
+License: GPL (>= 2)
+Packaged: 2010-09-20 06:35:06 UTC; longor
+Repository: CRAN
+Date/Publication: 2010-09-20 07:41:13

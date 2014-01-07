@@ -1,0 +1,22 @@
+Package: distrEllipse
+Version: 2.4
+Date: 2013-02-05
+Title: S4 classes for elliptically contoured distributions
+Depends: R(>= 2.8.0), methods, graphics, mvtnorm, setRNG(>= 2006.2-1),
+        distr(>= 2.2), distrEx(>= 2.2), distrSim(>= 2.2), startupmsg
+Suggests: distrMod(>= 2.2), distrTEst(>= 2.2)
+Author: Peter Ruckdeschel
+Description: Distribution (S4-)classes for elliptically contoured
+        distributions (based on package distr)
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+ByteCompile: yes
+License: LGPL-3
+URL: http://distr.r-forge.r-project.org/
+Encoding: latin1
+LastChangedDate: {$LastChangedDate: 2009-03-31 15:31:30 +0200 (Di, 31
+        Mrz 2009) $}
+LastChangedRevision: {$LastChangedRevision: 447 $}
+SVNRevision: 834
+Packaged: 2013-02-05 18:33:56 UTC; ruckdesc
+Repository: CRAN
+Date/Publication: 2013-02-07 19:32:16

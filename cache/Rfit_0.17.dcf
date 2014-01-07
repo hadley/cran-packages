@@ -1,0 +1,18 @@
+Package: Rfit
+Type: Package
+Title: Rank Estimation for Linear Models
+Version: 0.17
+Date: 2013-06-21
+Author: John Kloke, Joseph McKean
+Maintainer: John Kloke <kloke@biostat.wisc.edu>
+Description: R estimation and inference for linear models.  Estimation
+        is for general scores and a library of commonly used score
+        functions is included.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: methods, quantreg
+Packaged: 2013-06-25 21:04:31 UTC; kloke
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-30 15:40:45

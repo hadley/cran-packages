@@ -1,0 +1,17 @@
+Package: probemapper
+Type: Package
+Title: Connects to QBRC's ProbeMapper platform
+Version: 1.0.0
+Date: 2011-02-17
+Author: Jeffrey D. Allen <Jeffrey.Allen@UTSouthwestern.edu>
+Maintainer: Jeffrey D. Allen <Jeffrey.Allen@UTSouthwestern.edu>
+Depends: R (>= 2.11.0), rjson
+Description: Connects to QBRC's EntrezToProbe engine system to handle
+        mappings between probes and genes and provide access to
+        information about probes and genes.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'PM.R'
+Packaged: 2011-06-19 14:54:22 UTC; jeffreya
+Repository: CRAN
+Date/Publication: 2011-06-19 19:37:52

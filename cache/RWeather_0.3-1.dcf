@@ -1,0 +1,17 @@
+Package: RWeather
+Type: Package
+Title: R wrapper around the Yahoo! Weather, Google Weather and NOAA
+        APIs
+Version: 0.3-1
+Date: 2011-11-11
+Author: Paolo Sonego <paolo.sonego@gmail.com>
+Maintainer: Paolo Sonego <paolo.sonego@gmail.com>
+Description: This package provides programmatic access to Google
+        Weather, Yahoo! Weather and NOAA APIs
+Depends: R (>= 2.11.0), XML
+License: GPL-2
+LazyLoad: yes
+Collate: 'rweather.r'
+Packaged: 2012-09-13 08:20:49 UTC; paolo
+Repository: CRAN
+Date/Publication: 2012-09-13 08:57:33

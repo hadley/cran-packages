@@ -1,0 +1,18 @@
+Package: OjaNP
+Type: Package
+Title: Multivariate Methods Based on the Oja Median and Related
+        Concepts
+Version: 0.9-6
+Date: 2013-03-20
+Author: Daniel Fischer, Jyrki Möttönen, Klaus Nordhausen, Daniel Vogel
+Maintainer: Klaus Nordhausen <klaus.nordhausen@uta.fi>
+Depends: R (>= 2.9.0), ICS, ICSNP
+Description: The package provides functions for the Oja median, Oja
+        signs and ranks and methods based upon them.
+License: GPL (>= 2)
+Encoding: latin1
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2013-03-20 10:04:23 UTC; ripley
+NeedsCompilation: yes
+Date/Publication: 2013-03-20 11:08:12

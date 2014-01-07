@@ -1,0 +1,16 @@
+Package: debug
+Version: 1.2.4
+Author: Mark V. Bravington <mark.bravington@csiro.au>
+Maintainer: Mark V. Bravington <mark.bravington@csiro.au>
+Depends: R (>= 2.10), mvbutils (>= 2.5.1), tcltk
+Date: 5/1/2011
+Title: MVB's debugger for R
+Description: Debugger for R functions, with code display, graceful
+        error recovery, line-numbered conditional breakpoints, access
+        to exit code, flow control, and full keyboard input.
+LazyLoad: no
+License: GPL (>= 2)
+ChangeLog: inst/changes.txt
+Packaged: 2011-01-04 22:41:07 UTC; bra381
+Repository: CRAN
+Date/Publication: 2011-01-05 06:45:23

@@ -1,0 +1,14 @@
+Package: doMC
+Type: Package
+Title: Foreach parallel adaptor for the multicore package
+Version: 1.1.0
+Author: REvolution Computing
+Maintainer: REvolution Computing <support@REvolution-computing.com>
+Description: Provides a parallel backend for the %dopar% function using
+        Simon Urbanek's multicore package.
+Depends: R (>= 2.5.0), foreach(>= 1.2.0), iterators(>= 1.0.0),
+        multicore(>= 0.1), utils
+License: Apache License (== 2.0)
+Packaged: 2009-06-26 18:22:06 UTC; weston
+Repository: CRAN
+Date/Publication: 2009-06-27 08:16:07

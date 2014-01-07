@@ -1,0 +1,16 @@
+Package: sybilDynFBA
+Type: Package
+Title: Dynamic FBA : dynamic flux balance analysis
+Version: 0.0.1
+Date: 2011-04-25
+Author: Abdelmoneim Amer Desouki
+Maintainer: Abdelmoneim Amer Desouki <desouki@hhu.de>
+Depends: R (>= 2.10.0), sybil, methods
+Suggests: sybil
+Description: In this package the dynamic FBA technique proposed by
+        Varma was implemented.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-04-13 07:24:37 UTC; Abdelmonem
+Repository: CRAN
+Date/Publication: 2012-04-13 20:16:53

@@ -1,0 +1,19 @@
+Package: gPdtest
+Type: Package
+Title: Bootstrap goodness-of-fit test for the generalized Pareto
+        distribution
+Version: 0.4
+Date: 2011-08-12
+Author: Elizabeth Gonzalez Estrada, Jose A. Villasenor Alva
+Maintainer: Elizabeth Gonzalez Estrada <egonzalez@colpos.mx>
+Description: This package computes the bootstrap goodness-of-fit test
+        for the generalized Pareto distribution by Villasenor-Alva and
+        Gonzalez-Estrada (2009). The null hypothesis includes heavy and
+        non-heavy tailed gPd's. A function for fitting the gPd to data
+        using the parameter estimation methods proposed in the same
+        article is also provided.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:48 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:48

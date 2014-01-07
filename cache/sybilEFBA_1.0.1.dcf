@@ -1,0 +1,19 @@
+Package: sybilEFBA
+Type: Package
+Title: Using gene expression data to improve flux balance analysis
+        predictions
+Version: 1.0.1
+Date: 2013-10-23
+Authors@R: c(person("Abdelmoneim", "Amer Desouki", role = c("aut","cre"), email = "abdelmoneim.amer@uni-duesseldorf.de"))
+Depends: R (>= 2.10.0), sybil, Matrix
+Suggests: cplexAPI (>= 1.2.6), glpkAPI (>= 1.2.1)
+Description: three different approaches to use gene expression data (or protein measurements) for improving FBA predictions.
+LazyLoad: yes
+License: GPL-3
+Packaged: 2013-10-24 08:50:47 UTC; Abdelmonem
+Author: Abdelmoneim Amer Desouki [aut, cre]
+Maintainer: Abdelmoneim Amer Desouki
+        <abdelmoneim.amer@uni-duesseldorf.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-24 10:12:20

@@ -1,0 +1,22 @@
+Package: ebal
+Type: Package
+Title: Entropy reweighting to create balanced samples
+Version: 0.1-3
+Date: 2013-02-08
+Author: Jens Hainmueller
+Maintainer: Jens Hainmueller <jhainm@mit.edu>
+Description: Package implements entropy balancing, a data preprocessing
+        procedure that allows users to reweight a dataset such that the
+        covariate distributions in the reweighted data satisfy a set of
+        user specified moment conditions. This can be useful to create
+        balanced samples in observational studies with a binary
+        treatment where the control group data can be reweighted to
+        match the covariate moments in the treatment group. Entropy
+        balancing can also be used to reweight a survey sample to known
+        characteristics from a target population. This package is
+        currently in alpha phase (feedback is appreciated).
+License: GPL (>= 3)
+URL: http://www.mit.edu/~jhainm/
+Packaged: 2013-02-08 21:26:21 UTC; jhainmueller
+Repository: CRAN
+Date/Publication: 2013-02-09 07:39:47

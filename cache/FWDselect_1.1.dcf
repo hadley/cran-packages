@@ -1,0 +1,18 @@
+Package: FWDselect
+Type: Package
+Title: Selecting variables in regression models
+Version: 1.1
+Date: 2013-02-01
+Author: Marta Sestelo, Nora M. Villanueva, Javier Roca-Pardinas
+Maintainer: Marta Sestelo <sestelo@uvigo.es>
+Depends: R (>= 2.15.1), mgcv
+Description: FWDselect package introduces a simple method to select the
+        best model or best subset of variables using different types of
+        data (continuous, binary or poisson) and applying it in
+        different contexts (parametric or nonparametric).
+License: GPL
+LazyData: yes
+Packaged: 2013-04-16 12:44:50 UTC; Nora
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-16 15:10:54

@@ -1,0 +1,13 @@
+Package: MBESS
+Title: Methods for the Behavioral, Educational, and Social Sciences
+Version: 0.0.1
+Date: 2006-5-05
+Author: Ken Kelley
+Maintainer: Ken Kelley <KKIII@Indiana.Edu>
+Depends:  R (>= 2.3.0)
+Imports: MASS, gsl
+Suggests: nlme
+Description: MBES implements methods that are especially applicable to researchers working within the behavioral, educational, and social sciences, with applications applicable to many related fields. 
+License: General Public License 2.0 or more recent. See LICENSE for more information.
+URL: \url{http://www.indiana.edu/~kenkel}, \url{http://www.indiana.edu/~kenkel/mbess}, \url{http://www.r-project.org}
+Packaged: Sat May  6 00:00:31 2006; kkiii

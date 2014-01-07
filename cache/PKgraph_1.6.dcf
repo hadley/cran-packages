@@ -1,0 +1,25 @@
+Package: PKgraph
+Title: Model diagnostics for population pharmacokinetic models
+Version: 1.6
+Date: 2011-12-18
+Depends: R (>= 2.10.0), RGtk2, gWidgetsRGtk2, cairoDevice, lattice,
+        rggobi, ggplot2
+Imports: RGtk2, gWidgetsRGtk2
+Author: Xiaoyong Sun
+Maintainer: Xiaoyong Sun <johnsunx1@gmail.com>
+Description: PKgraph provides a graphical user interface for population
+        pharmacokinetic model diagnosis. It also provides an integrated
+        and comprehensive platform for the analysis of pharmacokinetic
+        data including exploratory data analysis, goodness of model
+        fit, model validation and model comparison. Results from a
+        variety of modeling fitting software, including NONMEM,
+        Monolix, SAS and R, can be used. PKgraph is programmed in R,
+        and uses the R packages lattice, ggplot2 for static graphics,
+        and rggobi for interactive graphics.
+License: GPL (>= 2)
+LazyData: true
+Collate: global.r psnCdd.r psnBootstrap.r functionOK.r proto.r ggobi.r
+        function.r handler.r PKgraphlayout.r PKgraph.r
+Repository: CRAN
+Date/Publication: 2011-12-19 11:17:08
+Packaged: 2011-12-19 01:41:26 UTC; sunx1

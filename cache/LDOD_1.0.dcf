@@ -1,0 +1,24 @@
+Package: LDOD
+Type: Package
+Title: Finding Locally D-optimal optimal designs for some nonlinear and
+        generalized linear models.
+Version: 1.0
+Date: 2013-02-25
+Depends: R (>= 2.10.0), Rsolnp, Rmpfr
+Author: Ehsan Masoudi, Majid Sarmad and Hooshang Talebi
+Maintainer: Ehsan Masoudi <esn_mud@yahoo.com>
+Description: this package provides functions for Finding Locally
+        D-optimal designs for Logistic, Negative Binomial, Poisson,
+        Michaelis-Menten, Exponential, Log-Linear, Emax, Richards,
+        Weibull and Inverse Quadratic regression models and also
+        functions for auto-constructing Fisher information matrix and
+        Frechet derivative based on some input variables and without
+        user-interfere.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: ldod
+Repository/R-Forge/Revision: 26
+Repository/R-Forge/DateTimeStamp: 2013-03-07 08:12:45
+Date/Publication: 2013-03-07 16:11:33
+Packaged: 2013-03-07 11:15:34 UTC; rforge
+NeedsCompilation: no

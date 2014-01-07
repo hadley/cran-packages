@@ -1,0 +1,17 @@
+Package: awsMethods
+Version: 1.0-0
+Date: 2012-05-18
+Title: Class and Methods definitions for packages aws, adimpro, fmri,
+        dwi
+Author: Joerg Polzehl <polzehl@wias-berlin.de>
+Maintainer: Joerg Polzehl <polzehl@wias-berlin.de>
+Depends: R (>= 2.14.0), methods
+Description: The package defines method extract that in needed in
+        several packages
+License: GPL (>= 2)
+Copyright: This package is Copyright (C) 2012 Weierstrass Institute for
+        Applied Analysis and Stochastics.
+URL: http://www.wias-berlin.de/projects/matheon_a3/
+Packaged: 2012-05-18 11:04:48 UTC; polzehl
+Repository: CRAN
+Date/Publication: 2012-05-23 19:03:32

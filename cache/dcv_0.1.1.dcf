@@ -1,0 +1,21 @@
+Package: dcv
+Type: Package
+Title: Conventional Cross-validation statistics for climate-growth
+        model
+Version: 0.1.1
+Date: 2010-12-05
+Author: Zongshan Li with contributions from Jinlong Zhang
+Maintainer: Zongshan Li <zsli_st@rcees.ac.cn>
+Description: This package performs several conventional
+        Cross-validation statistical methods for climate-growth model
+        in the climate reconstruction from tree rings, including Sign
+        Test statistic, Reduction of Error statistic, Product Mean
+        Test, Durbin-Watson statistic etc. This package is at its
+        primary stage, the functions have not been tested exhaustively
+        and more functions would be added in the comming days.
+Depends: lmtest
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-12-06 06:37:08 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-12-06 07:48:50

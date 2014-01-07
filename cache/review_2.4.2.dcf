@@ -1,0 +1,16 @@
+Package: review
+Type: Package
+Title: Manage Review Logs
+Version: 2.4.2
+Date: 2012-10-29
+Author: Tim Bergsma
+Maintainer: Tim Bergsma <timb@metrumrg.com>
+Depends: XML, Hmisc
+Suggests:
+Description: Functions for managing logs of reviews of subversioned
+        files.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 22:17:41 UTC; timb
+Repository: CRAN
+Date/Publication: 2012-10-30 06:25:20

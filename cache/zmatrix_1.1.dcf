@@ -1,0 +1,9 @@
+Package: zmatrix
+Version: 1.1
+Title: Zero-offset matrices
+Author: Jonathan Rougier <J.C.Rougier@durham.ac.uk>
+Description: Matrices with numeric indices starting at zero
+	rather than one.
+Depends: R (>= 0.99)
+License: GPL version 2 or newer
+Maintainer: Jonathan Rougier <J.C.Rougier@durham.ac.uk>

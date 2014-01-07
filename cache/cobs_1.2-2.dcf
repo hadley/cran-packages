@@ -1,0 +1,16 @@
+Package: cobs
+Version: 1.2-2
+Date: 2011-04-25
+Title: COBS -- Constrained B-splines (Sparse matrix based)
+Author: Pin T. Ng <Pin.Ng@nau.edu> and Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Depends: SparseM, quantreg (>= 4.65),
+        splines,grDevices,graphics,stats,utils
+LazyData: yes
+Description: Qualitatively Constrained (Regression) Smoothing via
+        Linear Programming and Sparse Matrices.
+URL: http://wiki.r-project.org/rwiki/doku.php?id=packages:cran:cobs
+License: GPL (>= 2)
+Packaged: 2011-04-25 21:03:31 UTC; maechler
+Repository: CRAN
+Date/Publication: 2011-04-26 17:14:37

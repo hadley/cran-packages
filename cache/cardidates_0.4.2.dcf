@@ -1,0 +1,20 @@
+Package: cardidates
+Type: Package
+Title: Identification of cardinal dates in ecological time series
+Version: 0.4.2
+Date: 2011-09-17
+Depends: R (>= 2.10.0), boot, pastecs
+Suggests: lattice
+LazyLoad: yes
+Author: Susanne Rolinski, Rene Sachse, Thomas Petzoldt
+Maintainer: Thomas Petzoldt <thomas.petzoldt@tu-dresden.de>
+Description: The package helps to identify cardinal dates (begin, time
+        of maximum, end of mass developments) in ecological time series
+        using fitted Weibull functions.
+License: GPL (>= 2)
+URL: http://cardidates.r-forge.r-project.org
+Repository: CRAN
+Repository/R-Forge/Project: cardidates
+Repository/R-Forge/Revision: 20
+Packaged: 2012-08-30 14:20:09 UTC; rforge
+Date/Publication: 2012-12-01 17:01:22

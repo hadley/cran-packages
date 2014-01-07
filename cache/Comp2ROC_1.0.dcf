@@ -1,0 +1,15 @@
+Package: Comp2ROC
+Type: Package
+Title: Compare two ROC curves that intersect
+Version: 1.0
+Date: 2012-06-26
+Author: Ana C. Braga, with contributions from Hugo Frade
+Maintainer: Ana C. Braga <acb@dps.uminho.pt>
+Description: Package that allow you to compare two ROC curves
+        throughout the methodology propose by Ana C. Braga
+License: GPL-2
+Depends: R (>= 2.15.1), ROCR, boot
+Packaged: 2013-05-19 22:04:20 UTC; hugofrade
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-20 10:36:23

@@ -1,0 +1,20 @@
+Package: RSurvey
+Version: 0.7-0
+Date: 2012-04-01
+Title: Analysis of Spatially Distributed Data
+Author: Jason C. Fisher
+Maintainer: Jason C. Fisher <jfisher@usgs.gov>
+Depends: R (>= 2.15.0), tcltk, sp, gpclib, rgl, MBA, tripack,
+        colorspace
+Suggests: rgdal, dichromat
+SystemRequirements: Tcl/Tk (>= 8.5), Tktable (>= 2.9, optional)
+Description: This package is a processing program for spatially
+        distributed data. It features graphing tools, query building,
+        and polygon clipping. A graphical user interface is provided.
+License: Unlimited
+URL: https://github.com/jfisher-usgs/RSurvey
+BugReports: https://github.com/jfisher-usgs/RSurvey/issues
+ByteCompile: yes
+Packaged: 2012-04-02 01:11:27 UTC; Fisher
+Repository: CRAN
+Date/Publication: 2012-04-02 06:49:04

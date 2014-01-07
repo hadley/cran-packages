@@ -1,0 +1,9 @@
+Version: R2000.6-1
+License: Free. See the LICENCE file for details.
+Author: 'Paul Gilbert <pgilbert@bank-banque-canada.ca>'.
+URL: http://www.bank-banque-canada.ca/pgilbert
+Package: syskern
+Title: coding kernel for S/R and OS compatability
+Description: Functions for writing code that 
+ is OS and R/S independent.
+Depends:  R (>= 1.0.1)

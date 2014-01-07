@@ -1,0 +1,33 @@
+Package: lubridate
+Imports: plyr, stringr
+Maintainer: Garrett Grolemund <grolemund@rice.edu>
+License: GPL
+Title: Make dealing with dates a little easier
+LazyData: true
+Type: Package
+Author: Garrett Grolemund <grolemund@rice.edu>, Hadley Wickham
+        <h.wickham@gmail.com>
+Description: Lubridate makes it easier to work with dates and times by
+        providing functions to identify and parse date-time data,
+        extract and modify components of a date-time (years, months,
+        days, hours, minutes, and seconds), perform accurate math on
+        date-times, handle time zones and Daylight Savings Time.
+        Lubridate has a consistent, memorable syntax, that makes
+        working with dates fun instead of frustrating.
+Enhances: chron, timeDate, zoo, xts, its, tis, timeSeries, fts, tseries
+Version: 1.1.0
+Depends: methods, R (>= 2.14)
+Suggests: testthat
+Collate: 'time-zones.r' 'POSIXt.r' 'timespans.r' 'numeric.r' 'util.r'
+        'durations.r' 'periods.r' 'intervals.r' 'difftimes.r' 'Dates.r'
+        'coercion.r' 'ops-addition.r' 'ops-division.r'
+        'ops-integer-division.r' 'ops-modulo.r' 'ops-multiplication.r'
+        'ops-subtraction.r' 'accessors-day.r' 'accessors-dst.r'
+        'accessors-hour.r' 'accessors-minute.r' 'accessors-month.r'
+        'accessors-second.r' 'accessors-tz.r' 'accessors-week.r'
+        'accessors-year.r' 'am-pm.r' 'decimal-dates.r' 'epochs.r'
+        'help.r' 'instants.r' 'leap-years.r' 'parse.r' 'pretty.r'
+        'round.r' 'update.r' 'data.r'
+Packaged: 2012-03-05 16:41:00 UTC; GarrettsiMac
+Repository: CRAN
+Date/Publication: 2012-03-05 19:06:04

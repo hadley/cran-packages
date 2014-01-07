@@ -1,0 +1,12 @@
+Package: kerfdr
+Type: Package
+Title: semi-parametric kernel-based approach to local fdr estimations
+Version: 1.0.0
+Date: 2007-10-23
+Author: M Guedj <mickael.guedj@gmail.com> and G Nuel <Gregory.Nuel@math-info.univ-paris5.fr>, with contributions from S Robin and A CelisseA.
+Maintainer: M Guedj <mickael.guedj@gmail.com>
+Description: semi-parametric kernel-based approaches to local fdr estimations useful for the testing of multiple hypothesis (in large-scale genetic, genomic and post-genomic studies for instance).
+License: GPL
+Depends: R (>= 2.6.0)
+URL: http://stat.genopole.cnrs.fr/sg/software/kerfdr
+Packaged: Tue Dec 11 15:57:42 2007; GuedjM

@@ -1,0 +1,28 @@
+Package: gstudio
+Maintainer: Rodney J. Dyer <rjdyer@vcu.edu>
+License: GPL (>= 2)
+Title: GeneticStudio packages for R.
+Type: Package
+LazyLoad: yes
+Author: Rodney J. Dyer <rjdyer@vcu.edu>
+Description: This package was created to support population genetics
+        and landscape genetic courses I teach at Virginia Commonwealth
+        University.  This package contains classes and functions for
+        the analysis of marker data to include structure statistics,
+        analyses based upon allele frequencies, and the Population
+        Graphs network analysis of spatial conditional genetic
+        covariance.
+Version: 0.2
+Date: 2011-08-10
+Depends: methods, MASS, igraph
+Suggests: RUnit, HardyWeinberg, ecodist
+Collate: 'Locus-class.R' 'Population-class.R' 'Frequencies-class.R'
+        'read.population.R' 'gstudio-package.R' 'genetic.distance.R'
+        'genetic.structure.R' 'print.summary.dyerlab.R'
+        'population.graph.R' 'validate_gstudio_package.R'
+        'google.pie.chart.R' 'pies.on.map.R' 'popgraph.on.map.R'
+        'genetic.diversity.R' 'great.circle.distance.R'
+        'stratum.distance.R'
+Packaged: 2011-08-24 18:50:50 UTC; rodney
+Repository: CRAN
+Date/Publication: 2011-08-24 19:14:09

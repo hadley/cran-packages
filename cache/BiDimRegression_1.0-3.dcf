@@ -1,0 +1,24 @@
+Package: BiDimRegression
+Type: Package
+Title: Calculates the bidimensional regression between two 2D
+        configurations
+Version: 1.0-3
+Date: 2013-01-11
+Authors@R: c(person("Claus-Christian Carbon", "Developer", role =
+        c("aut", "cre"), email = "ccc@experimental-psychology.com"),
+        person("Claus-Christian Carbon", "Developer", role = "aut"),
+        person("Claus-Christian Carbon", "User", role = "ctb", email =
+        "ccc@experimental-psychology.com"))
+Author: Claus-Christian Carbon
+Maintainer: Claus-Christian Carbon <ccc@experimental-psychology.com>
+Depends: R (>= 1.8.0), nlme
+Suggests: MASS
+Description: An S3 class with a method for calculates the bidimensional
+        regression between two 2D configurations following the approach
+        by Tobler (1965).
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.experimental-psychology.de
+BugReports: http://pkgname.bugtracker.url
+Packaged: 2013-01-11 18:49:18 UTC; CCC
+Repository: CRAN
+Date/Publication: 2013-01-12 07:49:16

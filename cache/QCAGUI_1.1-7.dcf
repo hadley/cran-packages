@@ -1,0 +1,13 @@
+Package: QCAGUI
+Version: 1.1-7
+Date: 2006/5/31
+Title: QCA Graphical User Interface
+Author: This package is 99% based on the Rcmdr package written by John Fox <jfox@mcmaster.ca>. Only two additional menus were adapted for the QCA package by Adrian Dusa <adi@roda.ro>
+Maintainer: Adrian Dusa <adi@roda.ro>
+Depends: R (>= 2.1.0), tcltk
+Suggests: abind, car (>= 1.0-15), effects (>= 1.0-7), foreign, grid, lattice, lmtest, MASS, mgcv, multcomp, nlme, nnet, QCA, relimp
+LazyLoad: no
+Description: QCAGUI is a graphical user interface (GUI) for the QCA package, derived from R Commander. Because QCA has little to do with statistics, the menus from Rcmdr were stripped down to the very basics. Because data in crisp sets QCA is binary, it is fairly decent to treat it as categorical. In order to ease the primary analysis (e.g. tables of frequencies) and the creation of basic graphs, this package activates some menus that are available in Rcmdr only for factors. Users should be aware, however, that QCAGUI is _not_ a package for statistics; R Commander is a better tool for this purpose
+License: GPL version 2 or newer
+URL: http://www.r-project.org
+Packaged: Wed May 31 16:43:13 2006; adi

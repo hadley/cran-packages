@@ -1,0 +1,15 @@
+Package: ivbma
+Type: Package
+Title: Bayesian Instrumental Variable Estimation and Model
+        Determination via Conditional Bayes Factors
+Version: 1.02
+Date: 2011-10-28
+Author: Alex Lenkoski, Anna Karl, Andreas Neudecker
+Maintainer: Alex Lenkoski <alex.lenkoski@uni-heidelberg.de>
+Description: This package allows one incorporate instrument and
+        covariate uncertainty into instrumental variable regression.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-04-26 08:07:22 UTC; alex
+Repository: CRAN
+Date/Publication: 2012-04-26 09:19:53

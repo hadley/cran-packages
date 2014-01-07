@@ -1,0 +1,10 @@
+Package: XML
+Version: 0.2
+Date: 2000/06/22
+Author:  Duncan Temple Lang
+Title: XML Parsers using user-level function  
+Depends: Daniel Veillard's libxml 
+            (ftp://ftp.gnome.org/pub/GNOME/sources/libxml/)
+     and/or
+          Jim Clark's expat (http://www.jclark.com/xml)
+License: GPL. http://www.gnu.org/copyleft/gpl.html

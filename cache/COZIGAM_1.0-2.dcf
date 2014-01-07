@@ -1,0 +1,12 @@
+Package: COZIGAM
+Type: Package
+Title: Constrained Zero-Inflated Generalized Additive Model
+Version: 1.0-2
+Date: 2008-6-24
+Author: Hai Liu <hai-liu@uiowa.edu>,
+        Kung-Sik Chan <kung-sik-chan@uiowa.edu>
+Maintainer: Hai Liu <hai-liu@uiowa.edu>
+Depends: R (>= 2.6.1), mgcv
+Description: COnstrained Zero-Inflated Generalized Additive Model (COZIGAM) fitting with associated model plotting and prediction 
+License: GPL (>= 2)
+Packaged: Tue Jun 24 18:03:14 2008; hliu3

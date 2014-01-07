@@ -1,0 +1,11 @@
+Package: DEA
+Type: Package
+Title: Data Envelopment Analysis.
+Version: 0.1-1
+Date: 2008-01-29
+Author: Zuleyka D{\'i}az-Mart{\'i}nez, Jos{\'e} Fern{\'a}ndez-Men{\'e}ndez.
+Maintainer: Zuleyka D{\'i}az-Mart{\'i}nez <zuleyka@ccee.ucm.es>
+Description: Performs some basic models of Data Envelopment Analysis, both in multiplier and envelopment form.
+License: GPL (>=2).
+Notes:  This work has been partially supported by \emph{Ministerio de Educaci{\'o}n y Ciencia} of Spain through "Jos{\'e} Castillejo" scholarship obtained by Zuleyka D{\'i}az-Mart{\'i}nez.\newline C code that performs the Simplex algorithm comes from the GNU Linear Programming Kit v. 4.8, available at \url{http://www.gnu.org/software/glpk/}. Many thanks to its author Andrew Makhorin \email{mao@gnu.org}. \newline According to the usual practice in statistics, in this package each row in the data matrices containing the inputs and outputs corresponds to an observation and each column to a variable. They are the transposed of X and Y matrices used in Cooper, W. W., Seiford, L. M. and Tone, K.  (2007): \emph{Data envelopment analysis: a comprehensive text with models, applications, references and DEA-solver software.} Second edition. Springer. New York.\newline This is a preliminar package. Any comments and suggestions are welcome.
+Packaged: Tue Jan 29 16:15:04 2008; teresita

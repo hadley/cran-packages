@@ -1,0 +1,21 @@
+Package: ber
+Type: Package
+Title: Batch Effects Removal
+Version: 2.0
+Date: 2011-01-10
+Author: Marco Giordan
+Maintainer: <giordan@stat.unipd.it>
+Suggests: MASS, golubEsets, vsn
+Description: The functions in this package remove batch effects from
+        microarrary normalized data. The expression levels of the genes
+        are represented in a matrix where rows correspond to
+        independent samples and columns to genes (variables). The
+        batches are represented by categorical variables (objects of
+        class factor). When further covariates of interest are
+        available they can be used to remove efficiently the batch
+        effects and adjust the data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-01-10 20:28:50 UTC; marco
+Repository: CRAN
+Date/Publication: 2011-01-11 06:49:19

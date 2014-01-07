@@ -1,0 +1,25 @@
+Package: mirt
+Version: 0.1-15
+Date: 2011-07-13
+Type: Package
+Title: Multidimensional Item Response Theory
+Author: Phil Chalmers <rphilip.chalmers@gmail.com>
+Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
+Description: Analysis of dichotomous and polychotomous response data
+        using latent trait models under the Item Response Theory
+        paradigm. Includes the multivariate two- and three-parameter
+        logistic models, confirmatory bifactor analysis, polytomous
+        confirmatory and exploratory item response models, and
+        paritally compensatory item response modeling in conjunction
+        with other IRT models.
+Depends: R (>= 2.10), methods, lattice, psych, GPArotation, mvtnorm
+Imports: SparseM, sem
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+License: GPL (>= 2)
+URL:
+Repository/R-Forge/Project: mirt
+Repository/R-Forge/Revision: 95
+Date/Publication: 2011-08-08 17:47:03
+Packaged: 2011-08-03 21:10:56 UTC; rforge

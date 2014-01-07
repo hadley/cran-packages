@@ -1,0 +1,19 @@
+Package: DTR
+Version: 1.1-1
+Date: 2013-06-11
+Title: Estimation and comparison of dynamic treatment regimes
+Authors@R: c(person("Xinyu", "Tang", role = c("aut", "cre"), email =
+        "xtang@uams.edu"), person("Maria", "Melguizo", role = "aut"))
+Author: Xinyu Tang and Maria Melguizo
+Maintainer: Xinyu Tang <xtang@uams.edu>
+Depends: survival, R (>= 2.13.0)
+Description: Estimation and comparison of survival distributions of
+        dynamic treatment regimes (DTRs) from sequentially randomized
+        clinical trials
+License: GPL (>= 2)
+URL:
+        http://www.arpediatrics.org/index.php?option=com_uams&view=faculty&sap=00035081
+Packaged: 2013-06-12 13:28:53 UTC; TangXinyu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-12 17:36:37

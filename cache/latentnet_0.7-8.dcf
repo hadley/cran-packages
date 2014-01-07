@@ -1,0 +1,17 @@
+Package: latentnet
+Version: 0.7-8
+Date: October 15, 2006
+Title:  Latent position and cluster models for statistical networks
+Author: Mark S. Handcock <handcock@stat.washington.edu>, 
+        based on original code from
+	Jeremy Tantrum <tantrum@stat.washington.edu>,
+        Susan Shortreed <susanms@stat.washington.edu>, and
+        Peter Hoff <hoff@stat.washington.edu>.
+Maintainer: Mark S. Handcock <handcock@stat.washington.edu>
+Description: Latent position and cluster models for statistical networks. 
+  These models are fit within the "ergm" framework of the "statnet" package.
+Depends: network, locfit, mvtnorm, mclust, shapes, KernSmooth
+Suggests: coda
+License: GPL version 2 (June, 1991)
+URL: http://csde.washington.edu/statnet
+Packaged: Mon Nov  6 21:54:05 2006; handcock

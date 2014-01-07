@@ -1,0 +1,9 @@
+Package: fame
+Title: Interface for FAME time series database
+Version: 1.05
+Author: Jeff Hallman <jhallman@frb.gov>
+Depends: R (>= 2.3)
+Description: Includes FAME storage and retrieval function, as well as functions and S3 classes for time indexes and time indexed series, which are compatible with FAME frequencies. 
+Maintainer: Jeff Hallman <jhallman@frb.gov>
+License: Public domain
+Packaged: Fri Feb 16 15:32:57 2007; m1jjh00

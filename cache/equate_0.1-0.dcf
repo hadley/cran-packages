@@ -1,0 +1,22 @@
+Package: equate
+Version: 0.1-0
+Date: 2009-10-30
+Title: Traditional Methods for Test Score Equating
+Author: Anthony Albano <tony.d.albano@umn.edu>
+Maintainer: Anthony Albano <tony.d.albano@umn.edu>
+Depends: R (>= 2.8.0)
+Description: In educational and psychological measurement multiple
+        forms of a test are often created, where forms are intended to
+        be identical in difficulty and statistical characteristics. In
+        the likely case that forms differ in difficulty, statistical
+        methods of equating and linking allow for the conversion of
+        scores on one form to the scale of another, essentially
+        creating parallel forms. The equate package contains functions
+        for traditional equating, including mean, linear, and
+        equipercentile equating and methods for pre- and post-smoothing
+        of score distributions.
+License: GPL (>= 2)
+URL: http://www.r-project.org, albanofile.com
+Packaged: 2009-10-31 19:23:34 UTC; hp
+Repository: CRAN
+Date/Publication: 2009-11-01 17:33:43

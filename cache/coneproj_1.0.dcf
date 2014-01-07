@@ -1,0 +1,17 @@
+Package: coneproj
+Type: Package
+Title: Primal or Dual Cone Projections with Routines for
+        Shape-restricted Regression
+Version: 1.0
+Date: 2013-07-15
+Author: Mary C. Meyer and Xiyue Liao 
+Maintainer: Xiyue Liao<xiyue@rams.colostate.edu>
+Description: This package contains routines for cone projection and quadratic programming, as well as routines to do estimation and inference for constrained parametric regression and shape-restricted regression problems.
+License: GPL (>= 2)
+Depends: RcppArmadillo(>= 0.3.800.1), Rcpp(>= 0.10.3), R(>= 2.15.2)
+LinkingTo: RcppArmadillo, Rcpp
+NeedsCompilation: yes
+Suggests: stats, graphics, grDevices, utils
+Packaged: 2013-07-15 16:34:01 UTC; xiyue
+Repository: CRAN
+Date/Publication: 2013-07-15 18:54:35

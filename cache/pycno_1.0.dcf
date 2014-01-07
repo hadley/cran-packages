@@ -1,0 +1,17 @@
+Package: pycno
+Type: Package
+Title: Pycnophylactic Interpolation
+Version: 1.0
+Date: 2011-04-15
+Author: Chris Brunsdon
+Maintainer: Chris Briunsdon <cb179@le.ac.uk>
+Depends: stats, sp, maptools
+Description: Given a SpatialPolygonsDataFrame and a set of populations
+        for each polygon, compute a population density estimate based
+        on Tobler's pycnophylactic interpolation algorithm. The result
+        is a SpatialGridDataFrame.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-04-15 15:34:06 UTC; chrisbrunsdon
+Repository: CRAN
+Date/Publication: 2011-04-24 06:57:58

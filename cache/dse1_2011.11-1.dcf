@@ -1,0 +1,16 @@
+Package: dse1
+Title: DSE (unbundled transition package).
+Description: This package is only to aid transition to the unbundled dse 
+	package. It has no functions, but simply requires package EvalEst.
+Depends: dse
+Version: 2011.11-1
+LazyLoad: yes
+License: GPL-2
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsanalysis.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsanalysis
+Repository/R-Forge/Revision: 67
+Date/Publication: 2011-11-03 12:48:20
+Packaged: 2011-10-25 14:29:24 UTC; rforge

@@ -1,0 +1,26 @@
+Package: rootSolve
+Version: 1.5
+Title: Nonlinear root finding, equilibrium and steady-state analysis of
+        ordinary differential equations
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01)
+Description: Routines to find the root of nonlinear functions, and to
+        perform steady-state and equilibrium analysis of ordinary
+        differential equations (ODE). Includes routines that: (1)
+        generate gradient and Jacobian matrices (full and banded), (2)
+        find roots of non-linear equations by the Newton-Raphson
+        method, (3) estimate steady-state conditions of a system of
+        (differential) equations in full, banded or sparse form, using
+        the Newton-Raphson method, or by dynamically running, (4) solve
+        the steady-state conditions for uni-and multicomponent 1-D,
+        2-D, and 3-D partial differential equations, that have been
+        converted to ODEs by numerical differencing (using the
+        method-of-lines approach). Includes fortran code.
+License: GPL (>= 2)
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: rootsolve
+Repository/R-Forge/Revision: 52
+Date/Publication: 2009-12-17 17:17:45
+Packaged: 2009-12-05 21:13:20 UTC; rforge

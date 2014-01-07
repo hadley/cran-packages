@@ -1,0 +1,25 @@
+Package: cosso
+Version: 1.0-1
+Date: 2010-12-10
+Title: COSSO, adaptive COSSO, variable selection for nonparametric
+        smoothing spline models.
+Author: Hao Helen Zhang <hzhang@stat.ncsu.edu>
+Maintainer: Hao Helen Zhang <hzhang@stat.ncsu.edu> and Chen-Yen Lin
+        <clin5@ncsu.edu>
+Description: COSSO is the short term for Component Selection and
+        Smoothing Operator. It is a new regularization method for
+        multivariate function estimation and component. The COSSO
+        imposes a soft-thresholding penalty operator on function
+        components in the framework of reproducing kernel Hilbert space
+        (RKHS) to achieve sparsity. In a sense, the COSSO generalizes
+        the LASSO (Tibshirani 1996) for variable selection in linear
+        models to nonparametric regression models. Details about the
+        procedures are given in the papers by Lin and Zhang (2006) and
+        Zhang and Lin (2006).
+License: GPL (>= 2)
+Depends: quadprog, gss
+URL: http://www4.stat.ncsu.edu/~hzhang/cosso.html
+LazyLoad: no
+Packaged: 2010-12-12 14:46:24 UTC; ChenYen
+Repository: CRAN
+Date/Publication: 2010-12-13 06:51:17

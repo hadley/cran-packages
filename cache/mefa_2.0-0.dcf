@@ -1,0 +1,12 @@
+Package: mefa
+Type: Package
+Title: Multivariate Count Data Handling in Ecology and Biogeography
+Version: 2.0-0
+Date: 2008-09-29
+Author: Peter Solymos
+Maintainer: Peter Solymos <solymos@ualberta.ca>
+Description: Object classes for long (database style, object class 'stcs') and wide (crosstabulated, object class 'mefa') representations of count data coded by sample, taxon and segment (i.e. sub populations, repeated measures) names. Supports easy processing of the count data along with relational data tables for samples and taxa. An object of class 'mefa' is a project specific compendium of the data and can be easily used in further analyses. Methods are provided for extraction, aggregation, conversion, plotting, summary and reporting of 'mefa' objects. Reports can be generated in plain text or LaTeX format.
+License: GPL-2
+URL: http://mefa.r-forge.r-project.org/
+LazyLoad: yes
+Packaged: Mon Sep 29 20:16:34 2008; psolymos

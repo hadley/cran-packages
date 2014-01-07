@@ -1,0 +1,30 @@
+Package: rankhazard
+Type: Package
+Title: Rank-hazard plots
+Version: 0.8
+Date: 2009-06-29
+Author: Juha Karvanen
+Maintainer: Juha Karvanen <juha.karvanen@iki.fi>
+Requires: Design, survival
+Description: Rank-hazard plots (Karvanen and Harrell, Statistics in
+        Medicine 2009) visualize the relative importance of covariates
+        in a proportional hazards model. The key idea is to rank the
+        covariate values and plot the relative hazard as a function of
+        ranks scaled to interval [0,1]. The relative hazard is plotted
+        with respect to the reference hazard, which can be e.g. the
+        hazard related to the median of the covariate. Transformation
+        to scaled ranks allows plotting of covariates measured in
+        different units in the same graph, which helps in the
+        interpretation of the epidemiological relevance of the
+        covariates. Rank-hazard plots show the difference of hazards
+        between the extremes of the covariate values present in the
+        data and can be used as a tool to check if the proportional
+        hazards assumption leads to reasonable estimates for
+        individuals with extreme covariate values. Alternative
+        covariate definitions or different transformations applied to
+        covariates can be also compared using rank-hazard plots.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-06-29 07:58:47 UTC; jkau
+Repository: CRAN
+Date/Publication: 2009-06-29 09:40:07

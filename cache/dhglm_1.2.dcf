@@ -1,0 +1,19 @@
+Package: dhglm
+Type: Package
+Title: Double Hierarchical Generalized Linear Models
+Version: 1.2
+Date: 2011-09-27
+Author: Maengseok Noh, Youngjo Lee
+Maintainer: Maengseok Noh <msnoh@pknu.ac.kr>
+Description: The dhglm package fits double hierarchical generalized
+        linear models in which the mean, dispersion parameters for
+        variance of random effects, and residual variance
+        (overdispersion) can be further modeled as random-effect
+        models.
+Depends: R (>= 2.10.0), Matrix, numDeriv, boot
+License: Unlimited
+LazyLoad: yes
+Respository: CRAN
+Date/Publication: 2011-09-30 05:51:38
+Packaged: 2011-09-29 21:20:43 UTC; Administrator
+Repository: CRAN

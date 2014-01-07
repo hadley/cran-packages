@@ -1,0 +1,16 @@
+Package: edcc
+Version: 0.1-0
+Title: Economic Design of Control Charts
+Author: Weicheng Zhu, Changsoon Park
+Maintainer: Weicheng Zhu <weicheng@dreamhunter.me>, Changsoon Park
+        <cspark@cau.ac.kr>
+Depends: spc
+Description: This package provide a unified approach for
+    Economic Design of Control Charts. The main purpose of
+    this package is to find out the optimal parameters to
+    minimize the cost per unit time.
+License: GPL
+Collate: 'ecoDesign.R' 'internal.R'
+Packaged: 2011-11-14 10:25:48 UTC; dreamhunter
+Repository: CRAN
+Date/Publication: 2011-11-14 11:04:24

@@ -1,0 +1,16 @@
+Package: colcor
+Type: Package
+Title: Tests for column correlation in the presence of row correlation
+Version: 1.0
+Date: 2010-11-12
+Author: Omkar Muralidharan
+Maintainer: Omkar Muralidharan <omkar@stanford.edu>
+Description: Given a matrix X with possibly correlated rows, tests if
+        the columns of X are correlated. Also estimates the
+        mean-squared row correlation (see paper at
+        http://stat.stanford.edu/~omkar for details)
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:25 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:25

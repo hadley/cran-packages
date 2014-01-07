@@ -1,0 +1,17 @@
+Package: drawExpression
+Type: Package
+Title: Visualising R syntax through graphics
+Version: 1.0
+Date: 2009-12-22
+Author: Sylvain Loiseau
+Maintainer: Sylvain Loiseau <sloiseau@u-paris10.fr>
+Description: Graphical display of R expression, showing the
+        interpretation of an expression by R and the various kind of R
+        data structure. The steps of the interpretation of an
+        expression are obtained through the parsed tree.
+Depends: R (>= 2.9.0), grid
+License: BSD
+LazyLoad: yes
+Packaged: 2012-07-23 07:47:40 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 07:52:30

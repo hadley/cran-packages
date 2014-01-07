@@ -1,0 +1,11 @@
+Package: marginalmodelplots
+Type: Package
+Title: Marginal Model Plots
+Version: 0.3.0
+Date: 2007-07-25
+Author: Andrew Redd	
+Maintainer: Andrew Redd <aredd@stat.tamu.edu>
+Depends: R (>= 2.0.1), locfit (>= 1.5-4), grid
+Description: Marginal model plots for linear (lm) and generalized linear models (glm).  Including tools for bandwidth exploration.  Built on the work from the alr3 and locfit packages.
+License: GPL (>= 2)
+Packaged: Mon Jul 14 10:54:29 2008; aredd

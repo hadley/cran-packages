@@ -1,0 +1,17 @@
+Package: ReadImages
+Version: 0.1.3.3
+Date: 2011-12-16
+Title: Image Reading Module for R
+Author: Markus Loecher, Nikon Systems Inc, Nikon Digital Technologies
+        Co., Ltd.
+Maintainer: ORPHANED
+Depends: R (>= 1.6)
+Description: This package provides functions for reading JPEG files,
+        extracted from the archived 'rimage' package.
+License: BSD
+Packaged: 2012-12-23 07:44:22 UTC; ripley
+X-CRAN-Original-Maintainer: Markus Loecher <markus.loecher@gmail.com>
+X-CRAN-Comment: Orphaned on 2012-12-21 as the maintainer failed to
+        respond to requests to update it for R >= 2.14.0
+Repository: CRAN
+Date/Publication: 2012-12-23 08:45:12

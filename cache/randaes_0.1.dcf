@@ -1,0 +1,10 @@
+Package: randaes
+Title: Random number generator based on AES cipher
+Description: The deterministic part of the Fortuna cryptographic pseudorandom number generator, described by Scheier & Ferguson "Practical  Cryptography"
+Version: 0.1
+Author: Thomas Lumley
+Maintainer: Thomas Lumley <tlumley@u.washington.edu>
+License: GPL 2 
+Depends: 
+Suggests: 
+Packaged: Fri Sep  9 18:42:52 2005; tlumley

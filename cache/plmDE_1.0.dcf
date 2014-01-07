@@ -1,0 +1,22 @@
+Package: plmDE
+Type: Package
+Title: Additive partially linear models for differential gene
+        expression analysis
+Version: 1.0
+Date: 2012-05-01
+Author: Jonas Mueller
+Maintainer: Jonas <jonasmueller303@hotmail.com>
+Depends: R (>= 2.14.2), MASS, splines, limma, R.oo
+Suggests: Biobase, edgeR, DESeq
+Description: A set of tools for identifying genes whose differential
+        expression is associated with measurements of other covariates
+        on a continuous scale.  These methods rely on generalized
+        additive partially linear models which can be fitted
+        efficiently using a B-spline basis approximation.  Still under
+        development: methods for interfacing with objects extending the
+        eSet class and a function to pass linear models in edgeR and
+        DEseq format.
+License: GPL (>= 2)
+Packaged: 2012-05-09 00:37:12 UTC; jonasmueller
+Repository: CRAN
+Date/Publication: 2012-05-09 04:06:58

@@ -1,0 +1,29 @@
+Package: prevalence
+Type: Package
+Title: The prevalence package
+Version: 0.1.0
+Date: 2013-07-05
+Authors@R: c(person("Brecht", "Devleesschauwer",
+             role = c("aut", "cre"), email = "Brecht.Devleesschauwer@UGent.be"),
+			 person("Paul", "Torgerson", role = "aut"),
+			 person("Johannes", "Charlier", role = "aut"),
+			 person("Bruno", "Levecke", role = "aut"),
+			 person("Nicolas", "Praet", role = "aut"),
+			 person("Pierre", "Dorny", role = "aut"),
+			 person("Dirk", "Berkvens", role = "aut"),
+			 person("Niko", "Speybroeck", role = "aut"))
+Author: Brecht Devleesschauwer [aut, cre], Paul Torgerson [aut],
+        Johannes Charlier [aut], Bruno Levecke [aut], Nicolas Praet [aut],
+		Pierre Dorny [aut], Dirk Berkvens [aut], Niko Speybroeck [aut]
+Maintainer: Brecht Devleesschauwer <Brecht.Devleesschauwer@UGent.be>
+BugReports: https://github.com/brechtdv/prevalence/issues
+Description: Tools for prevalence assessment studies. IMPORTANT: the truePrev functions in the prevalence package call on JAGS (Just Another Gibbs Sampler), which therefore has to be available on the user's system. JAGS can be downloaded from http://mcmc-jags.sourceforge.net/
+Depends: R (>= 3.0.0), rjags, coda, methods
+SystemRequirements: jags (>= 3.2.0)
+License: GPL (>= 2)
+URL: http://cran.r-project.org/package=prevalence
+LazyLoad: yes
+Packaged: 2013-07-05 20:45:59 UTC; UGent
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-06 07:12:40

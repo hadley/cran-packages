@@ -1,0 +1,19 @@
+Package: PracTools
+Type: Package
+Title: Tools for Designing and Weighting Survey Samples
+Version: 0.0-1
+Date: 2013-02-01
+Author: Richard Valliant, Jill A. Dever, Frauke Kreuter
+Maintainer: Richard Valliant <rvalliant@survey.umd.edu>
+Description: PracTools contains functions for sample size calculation
+        for survey samples using stratified or clustered one-, two-,
+        and three-stage sample designs. Other functions compute
+        variance components for multistage designs and sample sizes in
+        two-phase designs. A number of example datasets are included.
+Suggests: doBy, foreign, pps, reshape, sampling, samplingbook, survey
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-02-04 16:27:08 UTC; rvalliant
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2013-02-04 18:10:36

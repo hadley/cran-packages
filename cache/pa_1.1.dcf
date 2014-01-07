@@ -1,0 +1,20 @@
+Package: pa
+Type: Package
+Title: Performance Attribution for Equity Portfolios
+Version: 1.1
+Date: 2012-09-11
+Authors@R: c(person("Yang", "Lu", role = c("aut", "cre"), email =
+        "yang.lu@williams.edu"), person("David", "Kane", role =
+        c("aut", "cre"), email = "dave.kane@gmail.com"))
+Author: Yang Lu and David Kane
+Maintainer: Yang Lu <yang.lu@williams.edu>
+Depends: R (>= 2.10.0), methods, grid, ggplot2
+Description: A package that performs equity portfolio attribution.
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: pa1
+Repository/R-Forge/Revision: 190
+Repository/R-Forge/DateTimeStamp: 2012-10-27 16:30:17
+Date/Publication: 2012-11-06 17:22:28
+Packaged: 2012-10-27 18:22:25 UTC; rforge

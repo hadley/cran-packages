@@ -1,0 +1,15 @@
+Package: metabolomics
+Type: Package
+Title: A collection of functions for analysing metabolomics data
+Version: 0.1.2
+Date: 2013-07-25
+Author: Alysha M De Livera and Jairus B Bowne
+Maintainer: Alysha M De Livera <alyshad@unimelb.edu.au>
+Description: A collection of functions to aid in the statistical analysis of metabolomic data
+License: GPL-2 | GPL-3
+LazyLoad: yes
+Depends: crmn, limma, R (>= 2.14)
+Packaged: 2013-07-25 01:00:09 UTC; alyshad
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-25 07:47:59

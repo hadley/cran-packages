@@ -1,0 +1,34 @@
+Package: multiplex
+Type: Package
+Title: Analysis of Multiple Social Networks with Algebra
+Version: 1.0
+Depends: R (>= 3.0.1)
+Date: 2013-08-28
+Author: J. Antonio Rivero Ostoic
+Maintainer: Antonio Rivero Ostoic <multiplex@post.com>
+Description: multiplex - Analysis of Multiple Social Networks with Algebra is a
+    package for the study of social systems made of different types of
+    relationships. It is possible to create and manipulate multivariate network
+    data with different formats, and there are effective ways available to
+    treat multiple networks with routines that combine algebraic systems like
+    the partially ordered semigroup or the semiring structure together with the
+    relational bundles occurring in different types of multivariate network
+    data sets.
+License: GPL-3
+Suggests: Rgraphviz
+Encoding: latin1
+Collate: 'as.semigroup.R' 'as.strings.R' 'bundle.census.R' 'bundles.R'
+        'cngr.R' 'convert.R' 'cph.R' 'decomp.R' 'dhc.R' 'diagram.R'
+        'dichot.R' 'edgeT.R' 'expos.R' 'hierar.R' 'iinc.R' 'is.mc.R'
+        'isom.R' 'jnt.R' 'ltlw.R' 'men.R' 'ngbs.R' 'orden.R' 'pacnet.R'
+        'partial.order.R' 'perm.R' 'pi.rels.R' 'prev.R' 'rbox.R'
+        'read.gml.R' 'read.srt.R' 'reduc.R' 'reducs.R' 'rel.sys.R'
+        'relabel.R' 'rm.isol.R' 'semigroup.R' 'semiring.R' 'signed.R'
+        'slc.R' 'sprt.R' 'strings.R' 'summaryBundles.R' 'swp.R'
+        'symclos.R' 'tclos.R' 'transf.R' 'transl.R' 'wordT.R'
+        'write.dat.R' 'write.dl.R' 'write.gml.R' 'write.srt.R'
+        'zbind.R' 'zbnd.R'
+Packaged: 2013-08-28 11:15:03 UTC; Tonio
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-28 13:53:11

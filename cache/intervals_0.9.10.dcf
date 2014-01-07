@@ -1,0 +1,15 @@
+Package: intervals
+Version: 0.9.10
+Date: 2008-12-23
+Type: Package
+Title: Tools for working with points and intervals
+Author: Richard Bourgon <bourgon@ebi.ac.uk>
+Maintainer: Richard Bourgon <bourgon@ebi.ac.uk>
+Depends: R (>= 2.8.0), methods
+Suggests: 
+Description:
+  Tools for working with and comparing sets of points and intervals.
+License: Artistic-2.0
+LazyLoad: yes
+Revision: 226
+Packaged: Mon Jan 12 05:11:13 2009; rforge

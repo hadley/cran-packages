@@ -1,0 +1,17 @@
+Package: cxxfunplus
+Type: Package
+Title: extend cxxfunction by saving the dynamic shared objects
+Version: 1.0
+Date: 2012-08-16
+Depends: inline
+Imports: methods
+Suggests: Rcpp (>= 0.8.0)
+Author: Jiqiang Guo <guojq28@gmail.com>
+Maintainer: Jiqiang Guo <guojq28@gmail.com>
+Description: extend cxxfunction by saving the dynamic shared objects
+        for reusing across R sessions
+License: GPL-3
+URL: https://github.com/maverickg/cxxfunplus
+Packaged: 2012-08-19 01:57:39 UTC; jq
+Repository: CRAN
+Date/Publication: 2012-08-19 05:26:34

@@ -1,0 +1,17 @@
+Package: ProgGUIinR
+Version: 0.0-1
+Title: support package for "Programming Graphical User Interfaces in R"
+Author: Michael Lawrence and John Verzani
+Maintainer: John Verzani <verzani@math.csi.cuny.edu>
+Depends: methods, utils, RGtk2, cairoDevice, qtbase, ggplot2, svMisc,
+        gWidgets, gWidgetsRGtk2, ggplot2, MASS
+Description: sample code, appendices and functions for the text
+        Programming GUIs in R
+License: GPL (>= 2)
+URL: NA
+LazyLoad: yes
+Collate: 'misc.R' 'browsegWidgetsFiles.R' 'browseQtFiles.R'
+        'browseRGtk2Files.R' 'browseTclTkFiles.R' 'showGtkWidgetInfo.R'
+Packaged: 2012-06-11 14:43:33 UTC; verzani
+Repository: CRAN
+Date/Publication: 2012-06-12 06:41:35

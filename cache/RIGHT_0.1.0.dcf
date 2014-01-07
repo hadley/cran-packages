@@ -1,0 +1,26 @@
+Package: RIGHT
+Type: Package
+Title: R Interactive Graphics via HTml
+Version: 0.1.0
+Date: 2013-09-04
+Author: ChungHa Sung, TaeJoon Song, Jae W. Lee, and Junghoon Lee
+Maintainer: Junghoon Lee <flammy@gmail.com>
+Description: RIGHT enables interactive data visualization and analysis using
+    HTML5 canvas and JavaScript technology to help users easily explore data
+    and gain valuable insight. Its R API is designed to create a seamless
+    analysis-visualization workflow for interactive graphics. Since HTML5
+    canvas and JavaScript is supported in virtually all modern web browsers,
+    the visualizations can be delivered to almost any device/platform for
+    presentation purposes.
+License: GPL-3
+Imports: shiny, stringr
+Suggests: testthat, ggplot2
+URL: https://code.google.com/p/r-interactive-graphics-via-html/
+BugReports:
+        https://code.google.com/p/r-interactive-graphics-via-html/issues/list
+Collate: 'RIGHT.R' 'body.R' 'common.R' 'head.R' 'plot_RIGHT.R'
+        'points_RIGHT.R' 'lines_RIGHT.R' 'pie_RIGHT.R' 'hist_RIGHT.R'
+Packaged: 2013-09-21 05:49:29 UTC; seha
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-21 08:09:01

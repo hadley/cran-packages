@@ -1,0 +1,15 @@
+Package: BB
+Title: Barzilai-Borwein Spectral Methods
+Description: Barzilai-Borwein Spectral Methods for solving nonlinear system of 
+ equations, and for optimizing nonlinear objective functions subject to simple 
+ constraints.
+Depends: R (>= 2.6.1)
+Suggests: numDeriv, setRNG
+Version: 2008.4-1
+Date: 2008-4-19
+LazyLoad: yes
+License: GPL-3
+Author: Ravi Varadhan
+Maintainer: Ravi Varadhan and Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.jhsph.edu/agingandhealth/People/Faculty/Varadhan.html
+Packaged: Mon Apr 21 09:52:52 2008; paul

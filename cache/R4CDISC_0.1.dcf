@@ -1,0 +1,14 @@
+Package: R4CDISC
+Type: Package
+Title: Read CDISC data files
+Version: 0.1
+Date: 2013-12-07
+Depends: R (>= 3.0.2), XML
+Author: Ippei Akiya
+Maintainer: Ippei Akiya <ippei.aki@datadriven.jp>
+Description: R4CDISC package includes functions for reading SDS-XML and Define.xml files.
+License: LGPL-3
+Packaged: 2014-01-05 09:01:07 UTC; ippei
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-05 10:53:48

@@ -1,0 +1,12 @@
+Package: tripEstimation
+Type: Package
+Title: Metropolis sampler and supporting functions for estimating animal movement from archival tags and satellite fixes
+Version: 0.0-23
+Depends: zoo, mgcv, lattice
+Suggests: rgdal
+Author: Michael Sumner and Simon Wotherspoon
+Maintainer: Michael Sumner <mdsumner@utas.edu.au>
+Description: Data handling and estimation functions for animal movement estimation by light level and satellite data. 
+License: GPL2
+URL: http://staff.acecrc.org.au/~mdsumner/Rutas/
+Packaged: Mon Apr 30 16:05:46 2007; mdsumner

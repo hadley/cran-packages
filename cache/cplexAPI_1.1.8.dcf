@@ -1,0 +1,16 @@
+Package: cplexAPI
+Type: Package
+Title: R Interface to C API of IBM ILOG CPLEX
+Version: 1.1.8
+Date: 2011-08-24
+Author: Gabriel Gelius-Dietrich
+Maintainer: Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
+Depends: R (>= 2.6.0), methods
+Description: R Interface to C API of IBM ILOG CPLEX, depends on ILOG
+        CPLEX (>= 12.1)
+SystemRequirements: IBM ILOG CPLEX (>= 12.1)
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-08-24 15:39:44 UTC; gabriel
+Repository: CRAN
+Date/Publication: 2011-08-24 19:13:41

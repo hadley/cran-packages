@@ -1,0 +1,17 @@
+Package: bmrm
+Type: Package
+Title: Bundle Methods for Regularized Risk Minimization Package
+Version: 1.6
+Date: 2013-09-04
+Depends: clpAPI, kernlab
+Author: Julien Prados
+Maintainer: Julien Prados <julien.prados@unige.ch>
+Copyright: 2013, University of Geneva
+Description: An implementation of "Bundle Methods for Regularized Risk Minimization" (BMRM) inspired by work of Teo et al., JMLR 2010. This universal data mining framework is particularly useful for structured prediction, classification and regression on big data. The package implements L1 and L2 regularization for: linear SVM, multiclass SVM, f-beta optimization, ordinal regression, quantile regression, epsilon insensitive regression, least mean square, logistic regression, least absolute deviation (see package examples). Other extensions are possible by implementing custom loss functions.
+License: GPL-3
+Collate: 'bmrm.R' 'scalarClassificationLosses.R'
+        'scalarRegressionLosses.R' 'cost.R' 'vectorialLoss.R'
+Packaged: 2013-09-04 14:29:45 UTC; prados
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-04 16:47:32

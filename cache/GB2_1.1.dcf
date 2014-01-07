@@ -1,0 +1,35 @@
+Package: GB2
+Version: 1.1
+Date: 2012-08-31
+Title: Generalized Beta Distribution of the Second Kind: properties,
+        likelihood, estimation.
+Author: Monique Graf <monique.p.n.graf@bluewin.ch>, Desislava
+        Nedyalkova <desislava.nedyalkova@unine.ch>.
+Maintainer: Desislava Nedyalkova <desislava.nedyalkova@unine.ch>
+Depends: R (>= 2.14.0)
+Imports: cubature, hypergeo, laeken, numDeriv, stats
+Suggests: simFrame, survey
+Description: GB2 is a simple package that explores the Generalized Beta
+        distribution of the second kind. Density, cumulative
+        distribution function, quantiles and moments of the
+        distributions are given. Functions for the full log-likelihood,
+        the profile log-likelihood and the scores are provided.
+        Formulae for various indicators of inequality and poverty under
+        the GB2 are implemented. The GB2 is fitted using the methods of
+        maximum pseudo-likelihood estimation using the full and profile
+        log-likelihood, and non-linear least squares estimation of the
+        model parameters. Various plots for the vizualization and
+        analysis of the results are provided. Variance estimation of
+        the parameters is provided for the method of maximum
+        pseudo-likelihood estimation. A compound distribution based on
+        the GB2 is presented. This compound distribution can be
+        calculated by a left or right tail decomposition. Density,
+        cumulative distribution function, moments and quantiles for the
+        compound distribution can be calculated. The compound
+        distribution is fitted using the method of maximum likelihood
+        estimation. The fit can be also adapted for the use of
+        auxiliary information.
+License: GPL (>= 2)
+Packaged: 2012-08-31 13:15:11 UTC; nedyalkd
+Repository: CRAN
+Date/Publication: 2012-08-31 13:39:31

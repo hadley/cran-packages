@@ -1,0 +1,26 @@
+Package: rysgran
+Type: Package
+Title: Grain size analysis, textural classifications and distribuition
+        of uncosolidated sediments.
+Version: 1.0
+Date: 2011-03-06
+Author: Mauricio Garcia de Camargo, Eliandro Ronael Gilbert, Leonardo
+        Sandrini-Neto
+Maintainer: Mauricio G. Camargo <camargo.ufpr@gmail.com>
+Depends: R (>= 2.7.0) , soiltexture , lattice
+Suggests: plotrix
+Description: This package is a port to R of the SysGran program,
+        written in Delphi by Camargo (2006). It contains functions for
+        the analysis of grain size samples (only in phi scale in this
+        version) based on various methods, like Folk & Ward (1957) and
+        Methods of Moments (Tanner, 1995), among others; textural
+        classifications and distribuition of uncosolidated sediments
+        are shown in histograms, bivariated plots and ternary diagrams
+        of Shepard (1954) and Pejrup (1988). English and portuguese
+        languages are supported in outputs.
+License: GPL (>= 2.0)
+Encoding: latin1
+LazyLoad: yes
+Packaged: 2011-03-15 12:37:23 UTC; Mauricio
+Repository: CRAN
+Date/Publication: 2011-03-15 16:41:32

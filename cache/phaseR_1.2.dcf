@@ -1,0 +1,21 @@
+Package: phaseR
+Type: Package
+Title: Phase Plane Analysis of One and Two Dimensional ODE Systems
+Version: 1.2
+Date: 2013-10-09
+Author: Michael J. Grayling
+Maintainer: Michael J. Grayling <mjg211@cam.ac.uk>
+Depends: deSolve
+Description: phaseR is an R package for the qualitative analysis of one
+  and two dimensional autonomous ODE systems, using phase plane methods.
+  Programs are available to identify and classify equilibrium points, plot
+  the direction field, and plot trajectories for multiple initial
+  conditions. In the one dimensional case, a program is also available to
+  plot the phase portrait. Whilst in the two dimensional case,
+  additionally a program is available to plot nullclines. Many example
+  systems are provided for the user.
+License: GPL-3
+Packaged: 2013-10-09 18:53:29 UTC; Mikey
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-09 21:18:47

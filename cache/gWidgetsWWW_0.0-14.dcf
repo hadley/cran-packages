@@ -1,0 +1,19 @@
+Package: gWidgetsWWW
+Version: 0.0-14
+Title: Toolkit implementation of the gWidgets API for use with web
+        pages
+Author: John Verzani
+Maintainer: John Verzani <jverzani@gmail.com>
+Depends: methods, proto, filehash, digest, rjson, tcltk
+Suggests:
+Extends: canvas, RSVGTipsDevice, SVGAnnotation
+Description: Port of the gWidgets API to www using a local server or
+        RApache (http://biostat.mc.vanderbilt.edu/rapache/index.html)
+        to link R with a web page, The Ext JavaScript libararies are
+        used to create and manipulate widgets.  (www.extjs.com)
+License: GPL (>= 3)
+URL: http://www.math.csi.cuny.edu/gWidgetsWWW
+LazyLoad: FALSE
+Packaged: 2009-12-10 01:43:38 UTC; verzani
+Repository: CRAN
+Date/Publication: 2009-12-10 20:06:43

@@ -1,0 +1,23 @@
+Package: modiscloud
+Type: Package
+Title: R tools for processing Level 2 Cloud Mask products from MODIS
+Version: 0.13
+Date: 2013-01-30
+Author: Nicholas J. Matzke, Dept. of Integrative Biology, U.C. Berkeley
+Maintainer: Nicholas J. Matzke <matzke@berkeley.edu>
+Depends: date, sp, sfsmisc, raster, rgdal
+Description: Package for processing downloaded MODIS cloud product HDF
+        files and derived files. Specifically, MOD35_L2 cloud product
+        files, and the associated MOD03 geolocation files (for
+        MODIS-TERRA); and MYD35_L2 cloud product files, and the
+        associated MYD03 geolocation files (for MODIS-AQUA).  The
+        package will be most effective if the user installs MRTSwath
+        (MODIS Reprojection Tool for swath products;
+        https://lpdaac.usgs.gov/tools/modis_reprojection_tool_swath),
+        and adds the directory with the MRTSwath executable to the
+        default R PATH by editing ~/.Rprofile.
+License: GPL
+ByteCompile: true
+Packaged: 2013-01-30 22:45:25 UTC; nickm
+Repository: CRAN
+Date/Publication: 2013-01-31 08:11:52

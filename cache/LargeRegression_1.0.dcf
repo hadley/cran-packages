@@ -1,0 +1,22 @@
+Package: LargeRegression
+Type: Package
+Title: Large Regressions
+Version: 1.0
+Date: 2011-08-05
+Author: Jeffrey Wong
+Maintainer: <jeff.ct.wong@stanford.edu>
+Description: Uses gradient descent to minimize the sum of squared
+        residuals for the regression problem.  Can include an L2
+        penalty on the coefficient matrix. This function is very useful
+        when there is an initial guess of what B should be in Y = XB.
+        In general, this function performs faster than R's lm function.
+        GPU acceleration can be used to make this function extremely
+        fast.  This package suggests cudaMatrixOps, which is not on
+        CRAN but can be downloaded at stanford.edu/~jeffwong.
+License: GPL
+LazyLoad: yes
+Depends: Matrix
+Suggests: cudaMatrixOps
+Packaged: 2011-08-05 22:52:56 UTC; jeffrey
+Repository: CRAN
+Date/Publication: 2011-08-06 07:43:43

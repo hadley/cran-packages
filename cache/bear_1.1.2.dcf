@@ -1,0 +1,11 @@
+Package: bear
+Version: 1.1.2 
+Date: 2008-07-25 
+Title: Bioequivalence and Bioavability data analysis with crossover design (ABE)
+Author: Hsin-ya Lee <hsinyalee@gmail.com>, Yung-jin Lee <pkpd.taiwan@gmail.com>
+Maintainer: Hsin-ya Lee <hsinyalee@gmail.com>
+Depends: R (>= 2.5.0), reshape, nlme, sciplot 
+Description: A bioequivalence and bioavability data analysis tool including sample size estimation, noncompartmental analysis (NCA) and generalized linear model (GLM)
+License: GPL version 2 or newer
+URL: http://pkpd.kmu.edu.tw/bear
+Packaged: Sat Jul 26 10:08:32 2008; user

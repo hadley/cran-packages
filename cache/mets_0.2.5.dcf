@@ -1,0 +1,36 @@
+Package: mets
+Type: Package
+Title: Analysis of Multivariate Event Times
+Version: 0.2.5
+Date: 2013-11-01
+Author: Klaus K. Holst and Thomas Scheike
+Maintainer: Klaus K. Holst <kkho@biostat.ku.dk>
+Description: Implementation of various statistical models for multivariate
+    event history data. Including multivariate cumulative incidence models, and
+    bivariate random effects probit models (Liability models)
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://lava.r-forge.r-project.org/
+Depends: R (>= 2.15), timereg (>= 1.8.1)
+Imports: lava (>= 1.2.3), numDeriv, compiler, splines, prodlim, Rcpp
+        (>= 0.9.2), RcppArmadillo (>= 0.3.6)
+Suggests: lava.tobit (>= 0.4-7), testthat, ucminf
+Enhances: alr
+LinkingTo: Rcpp, RcppArmadillo
+Collate: 'biprobit.R' 'biprobit.strata.R' 'pmvn.R' 'claytonakes.R'
+        'coef.biprobit.R' 'cumh.R' 'Dbvn.R' 'fastapprox.R' 'ipw.R'
+        'logLik.biprobit.R' 'npc.R' 'onload.R' 'plot.bptwin.R'
+        'plotcr.R' 'print.biprobit.R' 'print.summary.biprobit.R'
+        'score.biprobit.R' 'sim.bptwin.R' 'sim.clayton.oakes.R'
+        'summary.biprobit.R' 'summary.bptwin.R' 'uniprobit.R' 'utils.R'
+        'vcov.biprobit.R' 'bicomprisk.R' 'event.R' 'procformula.R'
+        'twinlm.R' 'twinlm2.R' 'twinsim.R' 'methodstwinlm.R'
+        'sim-nordic-twin.R' 'twostage.R' 'aalenfrailty.R'
+        'surv.boxarea.R' 'casewise.R' 'cor.R' 'fastpattern.R'
+        'fastreshape.R' 'binomial.twostage.R' 'clusterindex-reshape.R'
+        'bptwin.R' 'prop-odds.R' 'phreg.R' 'lifetable.R'
+        'mets-package.R'
+Packaged: 2013-12-16 07:11:19 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-16 08:14:57

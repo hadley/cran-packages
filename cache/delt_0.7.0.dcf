@@ -1,0 +1,16 @@
+Package: delt
+Version: 0.7.0
+Date: 2008-02-28
+Title: Estimation of multivariate densities with adaptive histograms
+Author: Jussi Klemela <klemela@oulu.fi>
+Maintainer: Jussi Klemela <klemela@oulu.fi>
+Depends: denpro (>= 0.8.2)
+Description: 
+  The package implements
+  methods for estimating multivariate densities:
+  adaptive histograms (greedy histograms and CART-histograms), 
+  stagewise minimization, and
+  bootstrap aggregation are included in the package.
+License: GPL (>=2)
+URL: http://www.rni.helsinki.fi/~jsk/delt
+Packaged: Fri Feb 29 14:49:38 2008; jsk

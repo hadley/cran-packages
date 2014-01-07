@@ -1,0 +1,30 @@
+Package: PSCBS
+Version: 0.35.6
+Depends: R.utils (>= 1.26.2)
+Imports: utils, R.methodsS3 (>= 1.4.4), R.oo (>= 1.13.9), R.utils (>=
+        1.26.2), DNAcopy (>= 1.27.2), R.rsp (>= 0.9.17)
+Suggests: DNAcopy (>= 1.27.2), aroma.light (>= 1.28.0), matrixStats (>=
+        0.8.5), R.cache (>= 0.7.1), Hmisc (>= 3.12-2), ggplot2 (>=
+        0.9.3.1), R.devices (>= 2.5.0), R.rsp (>= 0.9.17)
+VignetteBuilder: R.rsp
+Date: 2013-08-01
+Title: Analysis of Parent-Specific DNA Copy Numbers
+Authors@R: c(
+  person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                 email="henrikb@braju.com"),
+  person("Pierre", "Neuvial", role="aut"),
+  person("Venkatraman E.", "Seshan", role="aut"),
+  person("Adam B.", "Olshen", role="aut"),
+  person("Paul T.", "Spellman", role="aut"),
+  person("Richard A.", "Olshen", role="aut"))
+Author: A.B. Olshen, H. Bengtsson, P. Neuvial, P.T. Spellman, R.A. Olshen, V.E. Seshan
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Description: Segmentation of allele-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome.  Both tumor-normal paired and tumor-only analyses are supported.
+License: GPL (>= 2)
+LazyLoad: yes
+biocViews: aCGH, CopyNumberVariants, SNP, Microarray, OneChannel,
+        TwoChannel, Genetics
+Packaged: 2013-08-01 23:53:27 UTC; hb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-02 07:22:27

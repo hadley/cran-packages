@@ -1,0 +1,21 @@
+Package: popReconstruct
+Type: Package
+Title: Reconstruct population counts, fertility, mortality and
+        migration rates of human populations of the recent past.
+Version: 1.0-2
+Date: 2012-08-30
+Author: Mark C. Wheldon
+Maintainer: Hana Sevcikova <hanas@uw.edu>
+Description: Implements the Bayesian hierarchical model described by
+        Wheldon, Raftery Clark and Gerland (see:
+        http://www.csss.washington.edu/Papers/wp108.pdf) for
+        simultaneously estimating age-specific population counts,
+        fertility rates, mortality rates and net international
+        migration flows, at the national level.
+License: GPL-3
+LazyLoad: yes
+Depends: coda
+Suggests: ggplot2, reshape, gdata
+Packaged: 2012-08-30 18:36:13 UTC; hana
+Repository: CRAN
+Date/Publication: 2012-08-30 18:46:28

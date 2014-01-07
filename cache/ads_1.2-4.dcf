@@ -1,0 +1,13 @@
+Package: ads
+Type: Package
+Title: Spatial point patterns analysis
+Version: 1.2-4
+Date: 2007-03-27
+Author: R. Pelissier and F. Goreaud
+Maintainer: Raphael Pelissier <Raphael.Pelissier@mpl.ird.fr>
+Suggest: spatstat
+Description: Perform first- and second-order multi-scale analyses derived from Ripley's K-function, for univariate,
+ multivariate and marked mapped data in rectangular, circular or irregular shaped sampling windows, with test of 
+ statitical significance based on Monte Carlo simulations.
+License: GPL2
+Packaged: Fri Mar 30 11:57:13 2007; root

@@ -1,0 +1,15 @@
+Package: VaRES
+Type: Package
+Title: Computes value at risk and expected shortfall for over 100
+        parametric distributions
+Version: 1.0
+Date: 2013-8-25
+Author: Saralees Nadarajah, Stephen Chan and Emmanuel Afuecheta
+Maintainer: Saralees Nadarajah <Saralees.Nadarajah@manchester.ac.uk>
+Depends: R (>= 2.15.0)
+Description: Computes Value at risk and expected shortfall, two most popular measures of financial risk, for over one hundred parametric distributions,  including all commonly known distributions.  Also computed are the corresponding probability density function and cumulative distribution function.
+License: GPL (>= 2)
+Packaged: 2013-08-26 20:36:10 UTC; mbbsssn2
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-27 08:07:57

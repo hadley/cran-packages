@@ -1,0 +1,15 @@
+Package: LMest
+Type: Package
+Title: Fit Latent Markov models in basic versions
+Version: 1.0
+Date: 2012-11-27
+Author: Francesco Bartolucci, University of Perugia (IT),
+        http://www.stat.unipg.it/bartolucci
+Maintainer: Francesco Bartolucci <bart@stat.unipg.it>
+Description: Fit certain versions of the Latent Markov model for
+        longitudinal categorical data.
+License: GPL (>= 2)
+Depends: MASS, Matrix
+Packaged: 2012-11-27 21:41:11 UTC; francescobartolucci
+Repository: CRAN
+Date/Publication: 2012-11-28 07:17:00

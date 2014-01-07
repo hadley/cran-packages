@@ -1,0 +1,16 @@
+Package: TAHMMAnnot
+Version: 1.0
+Date: 2011-02-11
+Title: Mixture model approach to compare two samples of Tiling Array
+        data
+Depends: R (>= 2.0.0), mnormt
+Author: Caroline Berard
+Maintainer: Caroline Berard, <caroline.berard@agroparistech.fr>
+Description: 2 samples comparison of Tiling Array data using mixture
+        model approach and taking into account the dependence between
+        probes and the structural annotation
+License: GPL
+URL: http://test.test.fr
+Packaged: 2012-10-29 08:57:43 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:43

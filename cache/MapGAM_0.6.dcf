@@ -1,0 +1,20 @@
+Package: MapGAM
+Type: Package
+Title: Mapping Smoothed Odds Ratios from Individual-Level Data
+Version: 0.6
+Date: 2012-12-18
+Author: Veronica Vieira, Scott Bartell, and Robin Bliss
+Maintainer: Scott Bartell <sbartell@uci.edu>
+Description: Contains functions for mapping risk surfaces using
+        individual-level data such as case-control study data, using
+        generalized additive models (GAMs) to smooth over
+        two-dimensional location while adjusting for any confounding
+        variables.  Includes convenient functions for mapping and
+        permutation tests for the null hypothesis that spatial location
+        is not associated with risk (adjusting for confounders).
+License: GPL-3
+Depends: R (>= 2.10.0), gam, maptools, PBSmapping
+Suggests: maps, mapproj
+Packaged: 2012-12-18 08:41:59 UTC; sbartell
+Repository: CRAN
+Date/Publication: 2012-12-18 14:46:25

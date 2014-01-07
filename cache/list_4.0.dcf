@@ -1,0 +1,29 @@
+Package: list
+Version: 4.0
+Date: 2011-5-4
+Title: Statistical Methods for the Item Count Technique and List
+        Experiment
+Author: Graeme Blair <gblair@Princeton.edu>, Kosuke Imai
+        <kimai@Princeton.edu>
+Maintainer: Graeme Blair <gblair@Princeton.edu>
+Depends: R (>= 2.11.0), utils, VGAM (>= 0.8-1), magic (>= 1.4-6),
+        gamlss.dist (>= 4.0-0), MASS (>= 7.3-4), quadprog (>= 1.5-3),
+        arm (>= 1.4-6), corpcor (>= 1.5.6), mvtnorm (>= 0.9-9),
+        sandwich (>= 2.2-6), coda (>= 0.14-2)
+Description: list is a publicly available R package that allows
+        researchers to conduct multivariate statistical analyses of
+        survey data with list experiments. In addition, the package
+        implements the statistical test that is designed to detect
+        certain failures of list experiments. This survey methodology
+        is also known as the item count technique or the unmatched
+        count technique and is an alternative to the commonly used
+        randomized response method. The package implements the methods
+        developed by Imai (2010) and Blair and Imai (2010), and a
+        Bayesian MCMC implementation of regression for the standard
+        list experiment design.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2011-05-04 14:26:18 UTC; gblair
+Repository: CRAN
+Date/Publication: 2011-05-04 15:24:20

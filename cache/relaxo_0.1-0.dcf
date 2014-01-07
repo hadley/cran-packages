@@ -1,0 +1,13 @@
+Package: relaxo
+Type: Package
+Title: Relaxed Lasso
+Version: 0.1-0
+Date: 2006-12-13
+Author: Nicolai Meinshausen
+Maintainer: Nicolai Meinshausen <nicolai@stat.berkeley.edu>
+Depends: lars
+Imports: graphics, utils, stats
+Description: Relaxed Lasso is a generalisation of the Lasso shrinkage technique for linear regression. Both variable selection and parameter estimation is achieved by regular Lasso, yet both steps do not necessarily use the same penalty parameter. The results include all standard Lasso solutions but allow often for sparser models while having similar or even slightly better predictive performance if many predictor variables are present. The package depends on the LARS package.
+License: GPL
+URL: http://www.stat.berkeley.edu/~nicolai
+Packaged: Mon Dec 18 12:55:05 2006; nicolai

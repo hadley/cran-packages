@@ -1,0 +1,21 @@
+Package: batch
+Version: 1.1-2
+Date: 2010-04-13
+Title: Batching Routines in Parallel and Passing Command-Line Arguments
+        to R
+Author: Thomas Hoffmann <tjhoffm@gmail.com>
+Maintainer: Thomas Hoffmann <tjhoffm@gmail.com>
+Description: Functions to allow you to easily pass command-line
+        arguments into R, and functions to aid in submitting your R
+        code in parallel on a cluster and joining the results afterward
+        (e.g. multiple parameter values for simulations running in
+        parallel, splitting up a permutation test in parallel, etc.).
+        See `parseCommandArgs(...)' for the main example of how to use
+        this package.
+Suggests: multicore
+License: GPL
+URL: http://sites.google.com/site/thomashoffmannproject/
+LazyLoad: true
+Packaged: 2011-02-28 01:27:39 UTC; tom
+Repository: CRAN
+Date/Publication: 2011-02-28 18:26:23

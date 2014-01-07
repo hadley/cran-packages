@@ -1,0 +1,14 @@
+Package: dynlm
+Version: 0.2-1
+Date: 2008-10-19
+Title: Dynamic Linear Regression
+Author: Achim Zeileis
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+Description: Dynamic linear models and time series regression.
+Depends: R (>= 2.0.0), stats, zoo, lmtest, car
+Suggests: sandwich, strucchange
+Imports: stats, strucchange
+LazyLoad: yes
+LazyData: yes
+License: GPL-2
+Packaged: Sun Oct 19 12:53:27 2008; zeileis

@@ -1,0 +1,15 @@
+Package: SeqKnn
+Version: 1.0.1
+Date: 2008-5-7
+Title: Sequential KNN imputation method
+Author: Ki-Yeol Kim and Gwan-Su Yi, CSBio lab., Information and
+        Communications University
+Maintainer: Taeho Hwang <fanteo@icu.ac.kr>
+Depends: R (>= 2.0.0)
+Description: This function estimates missing values sequentially from
+        the gene that had least missing rate in microarray data
+License: GPL (>= 2)
+URL: http://csbio.icu.ac.kr
+Packaged: Thu May 8 22:13:46 2008; fanteo
+Repository: CRAN
+Date/Publication: 2008-05-09 07:40:39

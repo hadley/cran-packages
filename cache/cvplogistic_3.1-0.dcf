@@ -1,0 +1,28 @@
+Package: cvplogistic
+Version: 3.1-0
+Date: 2013-03-17
+Title: Penalized Logistic Regression Model using Majorization
+        Minimization by Coordinate Descent (MMCD) Algorithm
+Author: Dingfeng Jiang <dingfengjiang@gmail.com>
+Maintainer: Dingfeng Jiang <dingfengjiang@gmail.com>
+Depends: R (>= 2.9.0)
+Description: The package uses majorization minimization by coordinate
+        descent (MMCD) algorithm to compute the solution surface for
+        concave penalized logistic regression model.  The SCAD and MCP
+        (default) are two concave penalties considered in this
+        implementation.  For the MCP penalty, the package also provides
+        the local linear approximation by coordinate descant (LLA-CD)
+        and adaptive rescaling algorithms for computing the solutions.
+        The package also provides a Lasso-concave hybrid penalty for
+        fast variable selection. The hybrid penalty applies the concave
+        penalty only to the variables selected by the Lasso.  For all
+        the implemented methods, the solution surface is computed along
+        kappa, which is a more smooth fit for the logistic model.
+        Tuning parameter selection method by k-fold cross-validated
+        area under ROC curve (CV-AUC) is implemented as well.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2013-03-18 02:04:48 UTC; luwenjing
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-18 10:29:02

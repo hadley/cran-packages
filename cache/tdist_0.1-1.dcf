@@ -1,0 +1,11 @@
+Package: tdist
+Version: 0.1-1
+Date: 2005-02-28
+Title: Distribution of a linear combination of independent Student's t-variables
+Author: Viktor Witkovsky <wiktovsky@savba.sk> and Alexander Savin <savin@savba.sk>
+Maintainer: Alexander Savin <savin@savba.sk>
+Depends: R (>= 1.8.0)
+Description: Computes the distribution of a linear combination of independent Student's t-variables (with small degrees of freedom, dff <= 100) and/or standard Normal Z random variables.
+License: GPL version 2 or newer
+URL: http://aiolos.um.savba.sk/~viktor/
+Packaged: Mon Feb 28 13:17:00 2005; Sasa

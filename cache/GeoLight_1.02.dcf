@@ -1,0 +1,19 @@
+Package: GeoLight
+Type: Package
+Title: Analysis of light based geolocator data
+Version: 1.02
+Date: 2012-08-19
+Author: Simeon Lisovski, Silke Bauer, Tamara Emmenegger
+Maintainer: Simeon Lisovski <migration@vogelwarte.ch>
+Description: The package provides basic functions for global
+        positioning based on light intensity measurements over time.
+        Positioning process includes the determination of sun events, a
+        discrimination of residency and movement periods, the
+        calibration of period-specific data and, finally, the
+        calculation of positions.
+License: GPL (>= 2)
+Depends: R (>= 2.10), maps, changepoint
+LazyLoad: yes
+Packaged: 2012-09-20 10:00:01 UTC; simeon
+Repository: CRAN
+Date/Publication: 2012-09-20 11:51:17

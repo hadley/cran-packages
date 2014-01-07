@@ -1,0 +1,11 @@
+Package: mixnet
+Type: Package
+Title: random graph clustering
+Version: 0.1
+Date: 2008-06-30
+Author: Christophe Ambroise
+Maintainer: Mark Hoebeke <Mark.Hoebeke@jouy.inra.fr>
+Description:  performs the estimation of Erdos Reni Mixture for Graphs
+License: GPL version 2 or later
+Depends: R (>= 2.5.0), methods
+Packaged: Mon Sep  8 13:46:38 2008; mhoebeke

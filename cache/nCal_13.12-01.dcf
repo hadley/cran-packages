@@ -1,0 +1,18 @@
+Package: nCal
+LazyLoad: yes
+LazyData: yes
+Version: 13.12-01
+Date: 2013-12-01
+Title: Nonlinear Calibration
+Author: Youyi Fong <yfong@fhcrc.org>, Krisztian Sebestyen <ksebestyen@gmail.com>
+Maintainer: Youyi Fong <yfong@fhcrc.org>
+Depends: R (>= 3.0.0), drc, gdata, gWidgets
+Suggests: knitr, RUnit, rjags, gWidgetstcltk
+Imports: xtable
+VignetteBuilder: knitr
+Description: nCal is a package that performs nonlinear calibration and curve fitting for data from Luminex, RT-PCR, ELISA, RPPA etc. Its precursor is Ruminex.
+License: GPL (>= 2)
+Packaged: 2013-12-01 17:46:04 UTC; yfong
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-01 18:55:22

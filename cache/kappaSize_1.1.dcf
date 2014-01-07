@@ -1,0 +1,19 @@
+Package: kappaSize
+Version: 1.1
+Date: 2013-03-09
+Title: Sample Size Estimation Functions for Studies of Interobserver
+        Agreement
+Author: Michael A Rotondi <mrotondi@yorku.ca>
+Maintainer: Michael A Rotondi <mrotondi@yorku.ca>
+Depends: R (>= 2.10)
+Description: This package contains basic tools for the purpose of
+        sample size estimation in studies of interobserver/interrater
+        agreement (reliability).  This package contains sample size
+        estimation functions for both the power-based and confidence
+        interval-based methods, with binary or multinomial outcomes and
+        two through six raters.
+License: GPL (>= 2)
+Packaged: 2013-03-11 18:41:27 UTC; mrotondi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-12 07:40:25

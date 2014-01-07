@@ -1,0 +1,23 @@
+Package: DetSel
+Version: 1.0
+Date: 2012-03-12
+Title: A computer program to detect markers responding to selection
+Author: Renaud Vitalis <vitalis@supagro.inra.fr>.
+Maintainer: Renaud Vitalis <vitalis@supagro.inra.fr>
+Depends: R (>= 2.15), ash
+Description: In the new era of population genomics, surveys of genetic
+        polymorphism ("genome scans") offer the opportunity to
+        distinguish locus-specific from genome wide effects at many
+        loci. Identifying presumably neutral regions of the genome that
+        are assumed to be influenced by genome-wide effects only, and
+        excluding presumably selected regions, is therefore critical to
+        infer population demography and phylogenetic history reliably.
+        Conversely, detecting locus-specific effects may help identify
+        those genes that have been, or still are, targeted by natural
+        selection. The software package DetSel has been developed to
+        identify markers that show deviation from neutral expectation
+        in pairwise comparisons of diverging populations.
+License: GPL (>= 2)
+Packaged: 2012-03-12 15:16:34 UTC; Renaud
+Repository: CRAN
+Date/Publication: 2012-03-30 10:14:50

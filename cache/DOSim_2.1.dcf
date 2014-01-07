@@ -1,0 +1,26 @@
+Package: DOSim
+Type: Package
+Title: Disease Analysis toolkit for gene set; Computation of
+        similarities between DO terms and disease similarity between
+        gene products; Module detection among the gene set and
+        multilayer annotation for each module.
+Version: 2.1
+Date: 2011-8-1
+Author: Jiang Li <riverlee2008@gmail.com>
+Maintainer: Jiang Li <riverlee2008@gmail.com>
+Depends: R (>= 2.10), GOSim, SubpathwayMiner, dynamicTreeCut,
+        moduleColor, RBGL, graph, Rgraphviz
+Description: This package implements multiple similarity measures for
+        DO terms and gene products. It is aiming at disease analyis for
+        gene sets. Modules of a gene set could be detected and further
+        multilayer annoated on DO, GO and KEGG. We also provides users
+        to conduct DO enrichment analysis and basic information
+        fetching for DO.DOSim: An R package for similarity between
+        diseases based on Disease
+        Ontology(http://www.biomedcentral.com/1471-2105/12/266)
+License: GPL (>= 2)
+URL: http://bioinfo.hrbmu.edu.cn/dosim/
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-08-10 05:48:00
+Packaged: 2011-08-10 02:30:14 UTC; lij17

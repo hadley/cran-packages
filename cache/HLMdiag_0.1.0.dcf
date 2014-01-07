@@ -1,0 +1,26 @@
+Package: HLMdiag
+Type: Package
+Title: Diagnostic tools for two-level normal hierarchical linear models
+Version: 0.1.0
+Date: 2011-02-01
+Author: Adam Loy <aloy@iastate.edu>
+Maintainer: Adam Loy <aloy@iastate.edu>
+Description: A suite of diagnostic tools for two-level normal
+        hierarchical linear models. The package offers not only
+        traditional case-deletion diagnostics (Cook's distance,
+        covratio, covtrace, and MDFFITS) but also provides graphics for
+        residual analysis. Currently, case deletion is performed by
+        iteratively refitting the model using lmer in the lme4 package,
+        so for data sets with many groups, computation is currently
+        slow.
+Depends: lme4, MASS, ggplot2
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Collate: 'case_level_residual_functions.R' 'case.delete_function.R'
+        'diagnostic_functions.R' 'group_estimates.R'
+        'group_level_residual_functions.R' 'identification.R'
+        'plot_functions.R' 'quantile_functions.R'
+Packaged: 2011-03-22 18:16:13 UTC; adam
+Repository: CRAN
+Date/Publication: 2011-03-22 20:16:54

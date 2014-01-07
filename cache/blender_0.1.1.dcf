@@ -1,0 +1,17 @@
+Package: blender
+Version: 0.1.1
+Date: March 19, 2012
+Title: Analyze biotic homogenization of landscapes
+Author: David J. Harris <DavHarris@UCDavis.edu>
+Maintainer: David J. Harris <DavHarris@UCDavis.edu>
+Depends: R (>= 2.10), vegan
+Description: Tools for assessing exotic species' contributions to
+        landscape homogeneity using average pairwise Jaccard similarity
+        and an analytical approximation derived in Harris et al. (2011,
+        "Occupancy is nine-tenths of the law," The American
+        Naturalist). Also includes a randomization method for assessing
+        sources of model error.
+License: GPL-2
+Packaged: 2012-03-19 21:24:35 UTC; Dave
+Repository: CRAN
+Date/Publication: 2012-03-20 05:52:49

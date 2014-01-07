@@ -1,0 +1,26 @@
+Package: rpf
+Type: Package
+Title: Response Probability Functions
+Version: 0.2
+Date: 2012-08-06
+Authors@R: c(person("Joshua",family="Pritikin",
+        email="jpritikin@pobox.com", role=c('cre','aut')),
+        person("Jonathan",family="Weeks", email="weeksjp@gmail.com",
+        role=c('ctb')))
+Description: The purpose of this package is to factor out logic and
+        math common to Item Response Theory fitting, diagnostics, and
+        analysis. It is envisioned as core support code suitable for
+        more specialized IRT packages to build upon. A version 1.0 will
+        offer optimized, low-level functions to map parameters to
+        response probabilities for a wide variety of dichotomous and
+        polytomous item models.
+License: GPL (>= 3)
+Suggests: plink, RUnit, roxygen2
+Depends: methods
+Collate: 'classes.R' 'drm.R' 'gpcm.R'
+URL: https://gitorious.org/rpf
+Packaged: 2012-08-06 09:34:21 UTC; joshua
+Author: Joshua Pritikin [cre, aut], Jonathan Weeks [ctb]
+Maintainer: Joshua Pritikin <jpritikin@pobox.com>
+Repository: CRAN
+Date/Publication: 2012-08-06 09:46:37

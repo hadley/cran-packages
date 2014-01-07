@@ -1,0 +1,11 @@
+Package: minpack.lm
+Version: 1.0-2
+Date: Thu Sep 30 15:31:00 MSD 2004
+Title: R interface for MINPACK least squares optimization library
+Author: Timur V. Elzhov
+Maintainer: Timur V. Elzhov <Timur.Elzhov@jinr.ru>
+Description: Provides R interface for two functions from MINPACK library,
+        solving nonlinear least squares problem by modification of the
+        Levenberg-Marquardt algorithm.
+License: GPL (version 2 or higher)
+Packaged: Fri Oct  1 17:21:47 2004; etv

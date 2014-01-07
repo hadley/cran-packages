@@ -1,0 +1,19 @@
+Package: ptinpoly
+Title: Point-In-Polyhedron Test (3D)
+Version: 1.4
+Date: 2010-04-22
+Author: Jose M. Maisog, Yuan Wang, George Luta, Jianfei Liu
+Maintainer: Jose M. Maisog <bravas02@gmail.com>
+Description: This library provides a function 'pip3d', which tests
+        whether a point in 3D space is within, exactly on, or outside
+        an enclosed surface defined by a triangular mesh.
+License: GPL-2
+LazyLoad: yes
+Depends: misc3d
+Suggests: rgl, geometry
+URL: http://ptinpoly.pbworks.com
+Repository: CRAN
+Repository/R-Forge/Project: ptinpoly
+Repository/R-Forge/Revision: 7
+Date/Publication: 2010-06-15 12:45:51
+Packaged: 2010-05-05 08:44:36 UTC; rforge

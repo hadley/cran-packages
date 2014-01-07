@@ -1,0 +1,18 @@
+Package: sculpt3d
+Type: Package
+Title: A simple toolbar GUI for brushing RGL plots
+Version: 0.2-2
+Date: 2009-12-20
+Author: Justin Donaldson
+Maintainer: Justin Donaldson <jdonaldson@gmail.com>
+Description: sculpt3d is a GTK+ toolbar that allows for more
+        interactive control of a dataset inside the RGL plot window.
+        Controls for simple brushing, highlighting, labeling, and
+        mouseMode changes are provided by point-and-click rather than
+        through the R terminal interface.
+License: GPL
+Depends: R (>= 2.2.0), rgl (>= 0.66), RGtk2
+LazyLoad: yes
+Packaged: 2009-12-20 19:16:04 UTC; jjdonald
+Repository: CRAN
+Date/Publication: 2009-12-21 07:41:46

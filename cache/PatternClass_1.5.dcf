@@ -1,0 +1,16 @@
+Package: PatternClass
+Type: Package
+Title: Class-focused pattern metric comparisons using simulation
+Version: 1.5
+Date: 2013-07-23
+Author: Tarmo K. Remmel, (Marie-Josee Fortin, Ferenc Csillag, Sandor Kabos)
+Maintainer: Tarmo K. Remmel <remmelt@yorku.ca>
+Description: This library provides tools for estimating composition and configuration parameters from a categorical (binary) landscape map (grid) and then simulates a selected number of statistically similar landscapes.  Class-focused pattern metrics are computed for each simulated map to produce empirical distributions against which statistical comparisons can be made.  The code permits the analysis of single maps or pairs of maps.
+License: GPL (>= 3)
+LazyData: yes
+LazyDataCompression: xz
+Depends: R (>= 2.14), SDMTools
+Packaged: 2013-07-23 14:41:18 UTC; Tarmo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-23 17:40:52

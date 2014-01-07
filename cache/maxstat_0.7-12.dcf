@@ -1,0 +1,11 @@
+Package: maxstat
+Version: 0.7-12
+Title: Maximally Selected Rank Statistics
+Date: $Date: 2007-10-08 18:17:38 +0200 (Mon, 08 Oct 2007) $
+Author: Torsten Hothorn
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Maximally selected rank statistics with
+ several p-value approximations.
+Depends: R (>= 1.7.0), exactRankTests(>= 0.8-0), mvtnorm(>= 0.5-10), survival
+License: GPL
+Packaged: Fri Aug 29 10:36:05 2008; hothorn

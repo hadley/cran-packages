@@ -1,0 +1,27 @@
+Type: Package
+Encoding: UTF-8
+Package: copulaedas
+Title: Estimation of Distribution Algorithms Based on Copula Theory
+Version: 1.0.1
+Date: 2011-05-23
+Author: Yasser González-Fernández <ygf@icmf.inf.cu> and Marta Soto
+        <mrosa@icmf.inf.cu>
+Maintainer: Yasser González-Fernández <ygf@icmf.inf.cu>
+Description: This package contains implementations of various classes
+        of Estimation of Distribution Algorithms (EDAs) based on copula
+        theory: Copula EDAs and Vine EDAs. In this package, EDAs are
+        implemented using S4 classes with generic functions for its
+        main parts: seeding, selection, learning, sampling,
+        replacement, local optimization, termination, and reporting.
+        The package also includes the implementation of a group of
+        well-known optimization test problems and utility functions to
+        study the behavior of EDAs.
+License: GPL (>= 3)
+LazyLoad: yes
+Depends: methods, copula, vines
+Collate: EDA.R seed.R select.R optimize.R report.R replace.R
+        terminate.R run.R margins.R functions.R indepRuns.R
+        criticalPopSize.R misc.R CEDA.R VEDA.R
+Packaged: 2011-05-23 17:37:51 UTC; ygonzalezfernandez
+Repository: CRAN
+Date/Publication: 2011-05-24 05:04:43

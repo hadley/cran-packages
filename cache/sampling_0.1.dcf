@@ -1,0 +1,12 @@
+Package: sampling
+Version: 0.1
+Date: 2005-05-19
+Title: Sampling survey
+Author: Yves Tillé <yves.tille@unine.ch>, Alina Matei <alina.matei@unine.ch>
+Maintainer: Yves Tillé <yves.tille@unine.ch>
+Description: The sampling package contains a set of tools to select and to calibrate samples.
+Depends: MASS, lpSolve
+License: GPL version 2 or later.
+LazyLoad: no
+Encoding: latin1
+Packaged: Fri May 20 14:39:27 2005; sematei

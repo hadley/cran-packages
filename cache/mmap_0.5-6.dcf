@@ -1,0 +1,13 @@
+Package: mmap
+Type: Package
+Title: Map Pages of Memory
+Version: 0.5-6
+Date: 2010-10-25
+Author: Jeffrey A. Ryan
+LazyLoad: yes
+Maintainer: Jeffrey A. Ryan <jeff.a.ryan@gmail.com>
+Description: R interface to POSIX mmap and Window's MapViewOfFile
+License: GPL-3
+Repository: CRAN
+Date/Publication: 2010-10-27 07:12:37
+Packaged: 2010-10-27 07:12:31 UTC; hornik

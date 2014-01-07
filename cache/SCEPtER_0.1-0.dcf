@@ -1,0 +1,22 @@
+Package: SCEPtER
+Title: Stellar CharactEristics Pisa Estimation gRid
+Version: 0.1-0
+Date: 2013-06-02
+Authors@R: c(person("Matteo", "Dell'Omodarme", role = c("aut", "cre"),
+        email = "mattdell@fastmail.fm"), person("Giada", "Valle", role
+        = "aut"))
+Description: A package to estimate stellar mass and radius given
+        observational data of effective temperature, [Fe/H], and
+        astroseismic parameters. The results are obtained adopting a
+        maximum likelihood technique over a grid of computed stellar
+        models.
+Suggests: lattice
+Depends: R (>= 2.10), MASS
+LazyData: yes
+License: GPL (>= 2)
+Maintainer: Matteo Dell'Omodarme <mattdell@fastmail.fm>
+Packaged: 2013-06-04 13:28:04 UTC; matt
+Author: Matteo Dell'Omodarme [aut, cre], Giada Valle [aut]
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-04 16:09:42

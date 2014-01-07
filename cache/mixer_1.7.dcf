@@ -1,0 +1,19 @@
+Package: mixer
+Type: Package
+Title: Random graph clustering
+Version: 1.7
+Date: 2013-07-24
+Authors@R: c(person("Christophe", "Ambroise", role="aut"), person("Gilles", "Grasseau", role="aut"), person("Mark", "Hoebeke", role="aut"), person("Pierre", "Latouche", role=c("aut", "cre"), email="pierre.latouche@univ-paris1.fr"), person("Vincent", "Miele", role="aut"), person("Franck", "Picard", role="aut"), person("LAPACK authors", role = "aut", comment = "copyrights apply to src/*.f"))
+Author: Christophe Ambroise [aut], Gilles Grasseau [aut], Mark Hoebeke [aut], Pierre Latouche [aut,cre],  Vicent Miele [aut], Franck Picard [aut], LAPACK authors [aut] (copyrights apply to src/*.f)
+Maintainer: Pierre Latouche <pierre.latouche@univ-paris1.fr>
+Description: Routines for the analysis (unsupervised clustering) of
+        networks using MIXtures of Erdos-Renyi random graphs
+URL: http://ssbgroup.fr/mixnet/mixer.html, http://ssbgroup.fr
+License: GPL (>= 2)
+Copyright: file inst/COPYRIGHTS for src/*.f obtained from LAPACK
+Depends: R (>= 2.5.0), methods
+Encoding: UTF-8
+Packaged: 2013-11-22 11:09:38 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-11-22 12:11:58
+NeedsCompilation: yes

@@ -1,0 +1,15 @@
+Package: pedantics
+Type: Package
+Title: Functions to facilitate power and sensitivity analyses for
+        genetic studies of natrual popualtions
+Version: 1.0
+Date: 2009-07-16
+Depends: R (>= 2.4.0), MCMCglmm, kinship, grid, MasterBayes
+Author: Michael Morrissey
+Maintainer: Michael Morrissey <michael.morrissey@ed.ac.uk>
+Description: More to come
+License: GPL-2 | GPL-3
+LazyLoad: yes
+Packaged: Thu Oct 29 10:16:59 2009; michael
+Repository: CRAN
+Date/Publication: 2009-10-29 16:35:13

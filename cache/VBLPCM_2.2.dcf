@@ -1,0 +1,17 @@
+Package: VBLPCM
+Type: Package
+Title: Variational Bayes Latent Position Cluster Model for networks.
+Version: 2.2
+Date: 2012-08-17
+Author: Michael Salter-Townshend
+Maintainer: Michael Salter-Townshend <michael.salter-townshend@ucd.ie>
+Description: A package to fit and simulate latent position and cluster
+        models for statistical networks using a Variational Bayes
+        approximation.
+Depends: MASS, boot, mclust, network, ergm, sna
+SystemRequirements: Gnu Scientific Library version >= 1.12
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-20 10:55:25 UTC; mst
+Repository: CRAN
+Date/Publication: 2012-08-20 12:46:13

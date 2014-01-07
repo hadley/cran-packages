@@ -1,0 +1,15 @@
+Package: paloma
+Version: 1.2.2
+Date: 2011/11/16
+Title: Poisson Approximation for LOcal Motif Assessment
+Author: Etienne Birmele, Gilles Grasseau
+Maintainer: <mixer@genopole.cnrs.fr>
+Description: Search over-represented motifs in a network under a statistical model 
+Depends: R (>= 2.5.0), mixer
+Suggests: igraph
+License: GPL (>= 2)
+URLs: http://www.r-project.org, http://stat.genopole.cnrs.fr
+Encoding: UTF-8
+Packaged: 2011-11-16 16:25:36 UTC; ggrasseau
+Repository: CRAN
+Date/Publication: 2011-11-17 11:26:00

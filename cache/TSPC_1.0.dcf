@@ -1,0 +1,18 @@
+Package: TSPC
+Type: Package
+Title: Prediction using time-course gene expression
+Version: 1.0
+Date: 2010-11-25
+Author: Yuping Zhang
+Maintainer: Yuping Zhang <yupingz@stanford.edu>
+Description: Performs survival and quantitative outcome using
+        time-course gene expression, described in the following
+        paper:Zhang Y, Tibshirani RJ, Davis RW. Predicting patient
+        survival from longitudinal gene expression. Stat Appl Genet Mol
+        Biol. 2010;9(1):Article41. Epub 2010 Nov 22.
+License: GPL (>= 2)
+LazyLoad: TRUE
+Depends: superpc, survival
+Packaged: 2012-10-29 08:57:45 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:45

@@ -1,0 +1,22 @@
+Package: BayesFactor
+Type: Package
+Title: Computation of Bayes factors for simple designs
+Version: 0.8.8
+Date: 2012-11-28
+Author: Richard D. Morey, Jeffrey N. Rouder
+Maintainer: Richard D. Morey <richarddmorey@gmail.com>
+Description: The BayesFactor package is a suite of functions for
+        computing various Bayes factors for simple designs, including
+        the one- and two-sample designs, one-way designs, general ANOVA
+        designs, and linear regression.
+License: GPL-2
+Depends: coda, reshape, Rook, RJSONIO, pbapply, mvtnorm, Rserve
+Imports: reshape, Rook, RJSONIO, pbapply, mvtnorm, Rserve
+Suggests: doMC
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: bayesfactorpcl
+Repository/R-Forge/Revision: 203
+Repository/R-Forge/DateTimeStamp: 2012-11-28 17:25:52
+Date/Publication: 2012-11-29 05:47:55
+Packaged: 2012-11-28 19:15:36 UTC; rforge

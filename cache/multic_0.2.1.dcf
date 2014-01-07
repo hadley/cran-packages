@@ -1,0 +1,31 @@
+Package: multic
+Type: Package
+Title: Quantitative linkage analysis tools using the variance
+       components approach 
+Version: 0.2.1
+Depends: R (>= 2.2.0)
+Suggests: kinship (>= 1.1.0-9)
+Date: 2006-06-09
+Author: Eric Lunde, Mariza de Andrade, Beth Atkinson
+Maintainer: Eric Lunde <lunde.eric@mayo.edu>
+Description:
+  Calculate the polygenic and major gene models for quantitative trait
+  linkage analysis using variance components approach.  
+License:
+  Copyright 2006 Mayo Foundation for Medical Education and Research
+  This program is free software; you can redistribute it and/or modify it
+  under the terms of the GNU General Public License as published by the
+  Free Software Foundation; either version 2 of the License, or (at your
+  option) any later version.
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+  Public License for more details.
+  For other licensing arrangements, please contact Mariza de Andrade
+  Mariza de Andrade, Ph.D.
+  Division of Biostatistics
+  Mayo Clinic
+  200 First St., SW
+  Rochester, MN 55905
+  email: mandrade@mayo.edu
+Packaged: Tue Jun 13 15:15:22 2006; lunde

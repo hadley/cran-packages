@@ -1,0 +1,18 @@
+Package: SenSrivastava
+Version: 0.1-14
+Date: 2010-12-03
+Title: Datasets from Sen & Srivastava
+Author: Kjetil Halvorsen <kjetil1001@gmail.com>
+Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+Depends: R (>= 2.5.0), stats
+Suggests: leaps, car
+LazyData: TRUE
+Description: Collection of datasets from Sen & Srivastava: Regression
+        Analysis, Theory, Methods and Applications, Springer.  Sources
+        for individual data files are more fully documented in the
+        book.
+License: GPL (>= 2)
+Encoding: latin1
+Packaged: 2010-12-03 17:40:42 UTC; kjetil
+Repository: CRAN
+Date/Publication: 2010-12-04 10:32:06

@@ -1,0 +1,10 @@
+Package: cir 
+Type: Package 
+Title: Nonparametric estimation of monotone functions via isotonic regression and centered isotonic regression
+Version: 1.0 
+Date: 2008-01-31 
+Author: Assaf P. Oron 
+Maintainer: Assaf P. Oron <aoron@fhcrc.org> 
+Description: The 'cir' package provides a documented version of the well-known isotonic regression (IR) algorithm (function 'pava'), and an improvement to IR in case the true function is known to be smooth and strictly monotone. This improvement called Centered Isotonic Regression (CIR) is available via the function 'cir.pava'. Additionally, the function 'cir.upndown' provides percentile estimation for dose-response experiments (e.g., ED50 estimation of a medication) using CIR.
+License: GPL (version 2 or later)
+Packaged: Wed Jan 30 15:54:07 2008; aoron

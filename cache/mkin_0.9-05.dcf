@@ -1,0 +1,28 @@
+Package: mkin
+Type: Package
+Title: Routines for fitting kinetic models with one or more state
+        variables to chemical degradation data
+Version: 0.9-05
+Date: 2012-06-28
+Author: Johannes Ranke, Katrin Lindenberger, René Lehmann
+Maintainer: Johannes Ranke <jranke@uni-bremen.de>
+Description: Calculation routines based on the FOCUS Kinetics Report
+        (2006).  Includes a function for conveniently defining
+        differential equation models, model solution based on
+        eigenvalues if possible or using numerical solvers and a choice
+        of the optimisation methods made available by the FME package
+        (default is a Levenberg-Marquardt variant).  Please note that
+        no warranty is implied for correctness of results or fitness
+        for a particular purpose.
+Depends: FME, deSolve
+Suggests: RUnit
+License: GPL
+LazyLoad: yes
+LazyData: yes
+Encoding: UTF-8
+URL: http://cran.r-project.org, http://kinfit.r-forge.r-project.org
+Repository: CRAN
+Repository/R-Forge/Project: kinfit
+Repository/R-Forge/Revision: 47
+Packaged: 2012-06-28 06:18:09 UTC; rforge
+Date/Publication: 2012-06-29 07:57:18

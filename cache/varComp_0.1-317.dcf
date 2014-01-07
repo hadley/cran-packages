@@ -1,0 +1,18 @@
+Package: varComp
+Type: Package
+Title: Variance component models
+Version: 0.1-317
+Date: 2013-08-30
+Author: Long Qu (long.qu@wright.edu)
+Maintainer: Long Qu <long.qu@wright.edu>
+Description: Variance component models: REML estimation, testing fixed effect contrasts through Satterthwaite or Kenward-Roger methods, testing the nullity of variance components through (linear or quadratic) score tests or likelihood ratio tests.
+Depends: R (>= 3.0.0)
+Imports: quadprog, Matrix, MASS, CompQuadForm, RLRsim, SPA3G, mvtnorm,
+        nlme, stats
+LazyData: no
+ByteCompile: yes
+License: GPL-3
+Packaged: 2013-08-30 19:51:54 UTC; Longor
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-31 14:46:25

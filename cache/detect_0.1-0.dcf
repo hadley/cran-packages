@@ -1,0 +1,19 @@
+Package: detect
+Type: Package
+Title: Analyzing Wildlife Data with Detection Error
+Version: 0.1-0
+Date: 2011-09-27
+Author: Peter Solymos, Monica Moreno, Subhash R Lele
+Maintainer: Peter Solymos <solymos@ualberta.ca>
+Depends: R (>= 1.7.0)
+Suggests: dclone, pbapply
+Description: The package implements models to analyze site occupancy
+        and count data models with detection error.  Development was
+        funded by the Alberta Biodiversity Monitoring Institute.
+License: GPL-2
+URL: http://dcr.r-forge.r-project.org/, http://www.abmi.ca/
+LazyLoad: yes
+LazyData: true
+Packaged: 2011-09-28 15:25:09 UTC; localadmin
+Repository: CRAN
+Date/Publication: 2011-09-29 11:27:59

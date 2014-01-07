@@ -1,0 +1,17 @@
+Package: FNN
+Version: 0.6-4
+Date: 2012-10-15
+Title: Fast Nearest Neighbor Search Algorithms and Applications
+Author: Shengqiao Li <shli@stat.wvu.edu>
+Maintainer: Shengqiao Li <shli@stat.wvu.edu>
+Depends: R (>= 2.8.0)
+Suggests: chemometrics, mvtnorm
+Description: A collection of fast k-nearest neighbor search algorithms
+        and applications including a cover-tree, kd-tree and the
+        nearest neighbor algorithm in package class. In addition, KNN
+        classification, regression and information measures are also
+        implemented.
+License: GPL (>= 2)
+Packaged: 2012-10-17 03:36:52 UTC; Tiger
+Repository: CRAN
+Date/Publication: 2012-10-17 07:03:54

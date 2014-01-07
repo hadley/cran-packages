@@ -1,0 +1,31 @@
+Package: pxR
+Type: Package
+Title: PC-Axis with R
+Version: 0.28
+Date: 2011-12-20
+Encoding: UTF-8
+Authors@R: c(person("Francisco J.", "Viciana", email=
+        "franciscoj.viciana@juntadeandalucia.es", role='aut'),
+        person("Carlos J.", "Gil Bellosta",
+        email="cgb@datanalytics.com", role=c('cre', 'aut')),
+        person("Oscar", "Perpinan Lamigueiro",
+        email="oscar.perpinan@upm.es", role='aut'), person("Emilio",
+        "Torres Manzanera", email="torres@uniovi.es", role='ctb'),
+        person("Vicente David", "Canto Casasola", email=
+        "vicented.canto.sspa@juntadeandalucia.es", role='ctb'),
+        person("Jorge Ivan", "Velez", email="jorgeivanvelez@gmail.com",
+        role='ctb'))
+Description: The pxR package provides a set of functions for reading
+        and writing PC-Axis files, used by different statistical
+        organizations around the globe for data dissemination.
+URL: http://pxr.r-forge.r-project.org/
+License: GPL-3
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-12-19 23:59:11 UTC; carlos
+Author: Francisco J. Viciana [aut], Carlos J. Gil Bellosta [cre, aut],
+        Oscar Perpinan Lamigueiro [aut], Emilio Torres Manzanera [ctb],
+        Vicente David Canto Casasola [ctb], Jorge Ivan Velez [ctb]
+Maintainer: Carlos J. Gil Bellosta <cgb@datanalytics.com>
+Repository: CRAN
+Date/Publication: 2012-12-20 09:22:02

@@ -1,0 +1,14 @@
+Package: aylmer
+Type: Package
+Title: A generalization of Fisher's exact test
+Version: 1.0-7
+Date: 2008-10-11
+Author: Robin K. S. Hankin (R) and Luke J. West (C++)
+Depends: methods, Brobdingnag, partitions
+Maintainer: <hankin.robin@gmail.com>
+Description: A generalization of Fisher's exact test that allows for
+        structural zeros.
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2011-03-27 08:28:24
+Packaged: 2011-03-26 02:34:26 UTC; rksh

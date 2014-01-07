@@ -1,0 +1,16 @@
+Package: Rcapture
+Type: Package
+Title: Loglinear Models for Capture-Recapture Experiments
+Version: 1.3-1
+Date: 2012-05-30
+Author: Sophie Baillargeon <Sophie.Baillargeon@mat.ulaval.ca> and
+        Louis-Paul Rivest <Louis-Paul.Rivest@mat.ulaval.ca>
+Maintainer: Sophie Baillargeon <Sophie.Baillargeon@mat.ulaval.ca>
+Description: Estimation of abundance and other demographic parameters
+        for closed populations, open populations and the robust design
+        in capture-recapture experiments using loglinear models.
+Imports: stats, graphics
+License: GPL-2
+Packaged: 2012-05-30 19:15:25 UTC; Sophie Baillargeon
+Repository: CRAN
+Date/Publication: 2012-05-31 09:53:18

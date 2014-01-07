@@ -1,0 +1,16 @@
+Package: vegclust
+Type: Package
+Title: Fuzzy clustering of vegetation data
+Version: 1.6.0
+Date: 2013-01-31
+Author: Miquel De Caceres
+Maintainer: Miquel De Caceres <miquelcaceres@gmail.com>
+Description: This package contains functions used to perform fuzzy
+        clustering of vegetation data under different models.
+Depends: vegan, sp
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-03-06 15:28:50 UTC; miquelcaceres
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-06 18:47:44

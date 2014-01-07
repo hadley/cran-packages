@@ -1,0 +1,15 @@
+Package: cwm
+Type: Package
+Title: Cluster Weighted Models by EM algorithm
+Version: 0.0.2
+Date: 2013-03-26
+Author: Giorgio A. Spedicato, Simona C. Minotti
+Depends: matlab, MASS, vegan, cluster
+Maintainer: <spedicato_giorgio@yahoo.it>
+Description: This package estimates gaussian cluster weighted linear
+        regressions by EM algorithm.
+License: GPL (>= 2)
+Packaged: 2013-03-28 07:07:20 UTC; Giorgio Copia
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-28 08:47:48

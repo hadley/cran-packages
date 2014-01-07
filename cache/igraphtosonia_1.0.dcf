@@ -1,0 +1,15 @@
+Package: igraphtosonia
+Type: Package
+Version: 1.0
+Date: 2010-08-05
+Title: Convert iGraph graps to SoNIA .son files
+Author: Sean J Westwood <seanjw@stanford.edu>
+Maintainer: Sean J Westwood <seanjw@stanford.edu>
+Depends: igraph
+Description: This program facilitates exporting igraph graphs to the
+        SoNIA file format
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:00 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:00

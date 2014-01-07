@@ -1,0 +1,19 @@
+Package: ordBTL
+Type: Package
+Title: Modelling comparison data with ordinal response
+Version: 0.7
+Date: 2013-10-20
+Author: Giuseppe Casalicchio
+Maintainer: Giuseppe Casalicchio <giuseppe.casalicchio@campus.lmu.de>
+Description: This package extends the Bradley-Terry-Luce model for fitting pair
+    comparison models with an ordinal response. It is also possible to
+    incorporate an order effect, or, equivalently, an effect for the home
+    advantage.
+License: GPL-3
+Depends: caret, VGAM, wikibooks
+Suggests: BradleyTerry2, prefmod, psychotree, psychotools, psychomix
+Collate: 'ordBTL.R' 'design.R' 'wide2long.R' 'getConstr.R' 'getRank.R'
+Packaged: 2013-10-20 13:21:00 UTC; admin2
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-20 17:20:18

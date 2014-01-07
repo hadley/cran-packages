@@ -1,0 +1,36 @@
+Package: aoristic
+Type: Package
+Title: aoristic analysis with spatial output (kml)
+Version: 0.3
+Date: 2013-09-11
+Author: George Kikuchi
+Maintainer: George Kikuchi <gkikuchi@csufresno.edu>
+Description: 'Aoristic' is one of the past tenses in Greek and represents an
+    uncertain occurrence time.  Aoristic analysis suggested by Ratcliffe (2002)
+    is a method to analyze events that do not have exact times of occurrence
+    but have starting times and ending times.  For example, a property crime
+    database (e.g., burglary) typically has a starting time and ending time of
+    the crime that could have occurred.  Aoristic analysis allocates the
+    probability of a crime incident occurring at every hour over a 24-hour
+    period. The probability is aggregated over a study area to create an
+    aoristic graph.
+    Using crime incident data with lat/lon, DateTimeFrom, and
+    DateTimeTo, functions in this package creates a total of three (3) kml
+    files and corresponding aoristic graphs: 1) density and contour; 2) grid
+    count; and 3) shapefile boundary. (see also:
+    https://sites.google.com/site/georgekick/software)
+License: GPL (>= 2)
+Collate: 'aoristic.all.graph.R' 'aoristic.df.R' 'aoristic.grid.R'
+        'aoristic.spdf.R' 'aoristic.density.R' 'aoristic.shp.R'
+Depends: ggplot2, spatstat, GISTools
+Imports: lubridate, classInt, reshape2
+References: Ratcliffe, J. H. (2002). Aoristic Signatures and the
+        Spatio-Temporal Analysis of High Volume Crime Patterns. Journal
+        of Quantitative Criminology, 18(1), 23-43. Arlington PD (n.d.).
+        Statistical Information. Retrieved from
+        http://www.arlingtonpd.org/index.asp?nextpg=stats/index.asp.
+        Accessed in June, 2013.
+Packaged: 2013-09-13 15:38:41 UTC; gkikuchi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-13 18:08:49

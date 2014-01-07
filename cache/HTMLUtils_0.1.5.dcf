@@ -1,0 +1,18 @@
+Package: HTMLUtils
+Type: Package
+Title: Facilitates automated HTML report creation
+Version: 0.1.5
+Date: 2012-04-29
+Depends: R2HTML
+Suggests:
+Author: "Markus Loecher, Berlin School of Economics and Law (BSEL)"
+        <markus.loecher@gmail.com>
+Maintainer: "Markus Loecher, Berlin School of Economics and Law (BSEL)"
+        <markus.loecher@gmail.com>
+Description: Facilitates automated HTML report creation, in particular
+        framed HTML pages and dynamically sortable tables.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-05-17 21:56:35 UTC; mloecher
+Repository: CRAN
+Date/Publication: 2012-05-18 05:59:13

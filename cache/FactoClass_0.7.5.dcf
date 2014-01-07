@@ -1,0 +1,13 @@
+Package: FactoClass
+Type: Package
+Title: Combination of Factorial Methods and Cluster Analysis
+Version: 0.7.5
+Date: 2008-11-05
+Author: Pedro Cesar del Campo <pcdelcampon@unal.edu.co>,Campo Elias Pardo <cepardot@unal.edu.co>
+Author: Ivan Diaz <ildiazm@unal.edu.co>,Mauricio Sadinle <msadinleg@unal.edu.co>
+Maintainer: Campo Elias Pardo <cepardot@unal.edu.co>
+Depends: R (>= 2.7.0), ade4, xtable
+Description: This package performs a multivariate exploration of a data table with factorial analysis and cluster methods.
+License: GPL (>= 2)
+URL: http://www.docentes.unal.edu.co/cepardot
+Packaged: Wed Nov  5 15:09:50 2008; RevColEs

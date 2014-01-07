@@ -1,0 +1,21 @@
+Package: nlreg
+Version: 1.1-3
+Date: 2009-09-14
+Title: Higher Order Inference for Nonlinear Heteroscedastic Models
+Author: S original by Alessandra R. Brazzale
+        <alessandra.brazzale@unimore.it> and Ruggero Bellio
+        <ruggero.bellio@dss.uniud.it>.  R port by Alessandra R.
+        Brazzale <alessandra.brazzale@unimore.it>, following earlier
+        work by Douglas Bates.
+Maintainer: Alessandra R. Brazzale <alessandra.brazzale@unimore.it>
+URL: http://www.r-project.org, http://statwww.epfl.ch/AA/
+Description: Likelihood inference based on higher order approximations
+        for nonlinear models with possibly non constant variance
+Depends: R (>= 2.6.0), statmod, survival
+Suggests: boot, cond, csampling, marg
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2009-09-24 12:12:43 UTC; brazzale
+Repository: CRAN
+Date/Publication: 2009-09-24 20:13:41

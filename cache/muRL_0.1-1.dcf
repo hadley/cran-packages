@@ -1,0 +1,21 @@
+Package: muRL
+Type: Package
+Title: Mailmerge using R, LaTeX, and the Web
+Version: 0.1-1
+Date: 2009-07-17
+Author: Ryan T. Moore <rtm@wustl.edu> and Andrew Reeves
+        <areeves@bu.edu>
+Maintainer: Ryan T. Moore <rtm@wustl.edu>
+Depends: maps
+Description: Provides mailmerge methods for reading spreadsheets of
+        addresses and other relevant information, creating standardized
+        but customizable letters, and mapping the locations of
+        recipients.  Provides a method for parsing and processing html
+        code from online job postings of the American Political Science
+        Association.
+License: GPL (>= 2)
+URL: http://rtm.wustl.edu/software.muRL.htm
+LazyLoad: yes
+Packaged: 2009-07-17 20:24:26 UTC; rtm
+Repository: CRAN
+Date/Publication: 2009-07-18 16:12:57

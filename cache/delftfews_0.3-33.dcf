@@ -1,0 +1,18 @@
+Package: delftfews
+Version: 0.3-33
+SVN-Revision: $Rev: 33 $
+Date: 2010-07-08
+Title: delftfews R extensions
+Author: Mario Frasca <mario.frasca@nelen-schuurmans.nl>, Mich{\` e}l
+        van Leeuwen <michel.vanleeuwen@nelen-schuurmans.nl>
+Maintainer: Mario Frasca <mario.frasca@nelen-schuurmans.nl>
+Description: a collection of timeseries sets handling functions used
+        here at work (Nelen en Schuurmans), initially for the Lizard
+        Scripter.
+License: GPL (>= 2)
+Depends: R (>= 2.9.2), XML, logging (>= 0.4), zoo (>= 1.6)
+Repository: CRAN
+Repository/R-Forge/Project: delftfews
+Repository/R-Forge/Revision: 33
+Date/Publication: 2010-08-13 18:30:53
+Packaged: 2010-08-12 20:50:05 UTC; rforge

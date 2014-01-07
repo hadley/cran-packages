@@ -1,0 +1,27 @@
+Package: rbison
+Title: R interface to the USGS BISON API
+Description: This package is an R interface to the USGS BISON API, a database
+    for species occurrence data on the web. Data comes from species in the
+    United States, from participating data providers. This package focuses on
+    getting the data from BISON - but does provide a function to help visualize
+    data quickly.
+Version: 0.2.4
+Date: 2013-12-02
+License: CC0
+URL: https://ropensci.github.com/rbison
+BugReports: https://github.com/ropensci/rbison/issues
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"))
+LazyLoad: yes
+LazyData: yes
+Imports: plyr, httr, mapproj, ggplot2, grid, gridExtra, maptools, sp,
+        data.table
+Suggests: knitr, testthat
+Collate: 'bison_data.r' 'bison.r' 'bisonmap.r' 'zzz.r'
+        'rbison-package.r' 'bison_solr.r' 'bison_tax.r'
+Packaged: 2013-12-02 19:25:08 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-02 21:29:11

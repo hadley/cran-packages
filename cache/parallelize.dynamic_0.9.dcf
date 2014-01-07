@@ -1,0 +1,19 @@
+Package: parallelize.dynamic
+Type: Package
+Title: Automate parallelization of function calls by means of dynamic
+        code analysis
+Version: 0.9
+Date: 2013-01-24
+Author: Stefan Boehringer <r-packages@s-boehringer.org>
+Maintainer: Stefan Boehringer <r-packages@s-boehringer.org>
+Description: Passing a given function name or a call to the
+        parallelize/parallelize_call functions analyses and executes
+        the code, if possible in parallel. Parallel code execution can
+        be performed locally or on remote batch queuing systems.
+License: LGPL
+Depends: methods, tools, parallel
+Encoding: UTF-8
+Packaged: 2013-04-29 16:25:44 UTC; pingu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-08 07:29:50

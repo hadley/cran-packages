@@ -1,0 +1,12 @@
+Package: YaleToolkit
+Type: Package
+Title: Data exploration tools from Yale University.
+Version: 3.0 
+Date: 2007-07-24
+Author: John W. Emerson and Walton Green
+Maintainer: John W. Emerson <john.emerson@yale.edu>
+Depends: grid, lattice, vcd, MASS, colorspace
+Description: This collection of data exploration tools was developed at Yale University for the graphical exploration of complex multivariate data. Functions provided include \code{barcode()}, \code{gpairs()}, \code{corrgram()}, \code{whatis()}, \code{sparkline()}, \code{sparklines()}, and \code{sparkmat()}.
+License: GPL version 2 or newer
+URL: http://www.stat.yale.edu/~jay/R/YaleToolkit
+Packaged: Tue Jul 24 12:56:06 2007; jay

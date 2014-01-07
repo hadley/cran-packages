@@ -1,0 +1,18 @@
+Package: ebdbNet
+Type: Package
+Title: Empirical Bayes Estimation of Dynamic Bayesian Networks
+Version: 1.2.1
+Date: 2012-02-28
+Author: Andrea Rau <andrea.rau@jouy.inra.fr>
+Maintainer: Andrea Rau <andrea.rau@jouy.inra.fr>
+Depends: R (>= 2.8.1), igraph
+Suggests: GeneNet
+Description: This package is used to infer the adjacency matrix of a
+        network from time course data using an empirical Bayes
+        estimation procedure based on Dynamic Bayesian Networks.
+License: GPL (>= 3)
+URL: http://www.r-project.org
+LazyLoad: yes
+Packaged: 2012-02-28 14:00:49 UTC; Andrea
+Repository: CRAN
+Date/Publication: 2012-02-28 15:22:47

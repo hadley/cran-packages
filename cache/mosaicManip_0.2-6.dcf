@@ -1,0 +1,17 @@
+Package: mosaicManip
+Type: Package
+Title: Project MOSAIC (mosaic-web.org) manipulate examples.
+Version: 0.2-6
+Date: 2011-12-29
+Depends: grid, lattice, Hmisc, methods, mosaic
+Suggests: MASS, manipulate
+Author: Andrew Rich <andrew.joseph.rich@gmail.com>, Daniel Kaplan <kaplan@macalester.edu>, Randall Pruim <rpruim@calvin.edu>
+Maintainer: Daniel Kaplan <kaplan@macalester.edu>, Randall Pruim
+        <rpruim@calvin.edu>
+Description: These applets allow the user to change displays with sliders, checkboxes and other GUI elements.  There are applets for calculus, statistics, and epidemiology.
+License: GPL
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-12-31 15:29:07 UTC; rpruim
+Repository: CRAN
+Date/Publication: 2012-01-08 16:04:57

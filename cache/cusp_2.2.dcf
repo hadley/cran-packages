@@ -1,0 +1,16 @@
+Package: cusp
+Type: Package
+Title: Cusp Catastrophe Model Fitting Using Maximum Likelihood
+Version: 2.2
+Date: 2009-11-05
+Author: Raoul P. P. P. Grasman
+Maintainer: Raoul Grasman <rgrasman@uva.nl>
+Suggests: onion
+Description: Package for cusp catastrophe modeling using Cobb's maximum
+        likelihood method. Contains several utility functions for
+        plotting, and for comparing the model to linear regression and
+        logistic curve models.
+License: GPL-2
+Packaged: 2009-11-05 20:24:35 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2009-11-06 10:17:58

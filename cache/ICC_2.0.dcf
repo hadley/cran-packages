@@ -1,0 +1,20 @@
+Package: ICC
+Type: Package
+Title: Functions facilitating the estimation of the Intraclass
+        Correlation Coefficient
+Version: 2.0
+Date: 2011-01-31
+Author: Matthew Wolak
+Maintainer: <matthewwolak@gmail.com>
+Description: The package allows for the estimation of the Intraclass
+        Correlation Coefficient (ICC) as well as its confidence
+        interval.  Also, it estimates the number of individuals or
+        groups necessary to obtain an ICC estimate with a desired
+        confidence interval width.
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: icc
+Repository/R-Forge/Revision: 10
+Date/Publication: 2011-04-12 06:22:04
+Packaged: 2011-03-15 21:35:14 UTC; rforge

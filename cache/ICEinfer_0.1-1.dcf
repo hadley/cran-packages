@@ -1,0 +1,20 @@
+Package: ICEinfer
+Title: Incremental Cost-Effectiveness (ICE) Statistical Inference (from Two Unbiased Samples)
+Version: 0.1-1
+Date: 2007-07-13
+Author: Bob Obenchain <softrx@iquest.net> 
+Maintainer: Bob Obenchain <softrx@iquest.net>
+Depends: R (>= 2.5.0)
+Description: Given two unbiased samples of patient level data on cost and effectiveness
+  for a pair of treatments, make head-to-head treatment comparisons by (i) generating the
+  bivariate bootstrap resampling distribution of ICE uncertainty for a specified value of
+  the shadow price of health, lambda, (ii) form the wedge-shaped ICE confidence region with
+  specified confidence fraction within [0.50, 0.99] that is equivariant with respect to
+  changes in lambda, (iii) color the bootstrap outcomes within the above confidence wedge
+  with economic preferences from an ICE map with specified values of lambda, beta and gamma
+  parameters, (iv) display VAGR and ALICE acceptability curves, and (v) display indifference
+  (iso-preference) curves from an ICE map with specified values of lambda, beta and gamma or
+  eta parameters. 
+License: GPL version 2 or later; softrx@iquest.net
+URL: http://www.r-project.org, http://www.math.iupui.edu/~indyasa/bobodown.htm
+Packaged: Tue Jul 17 19:15:57 2007; BobO

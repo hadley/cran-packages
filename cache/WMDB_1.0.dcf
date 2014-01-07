@@ -1,0 +1,27 @@
+Package: WMDB
+Type: Package
+Title: Discriminant Analysis Methods by Weight Mahalanobis Distance and
+        bayes
+Version: 1.0
+Date: 2012-06-28
+Author: Bingpei Wu
+Maintainer: Bingpei Wu<jianpeizhon@126.com>
+Description: Distance discriminant analysis method is one of
+        classification methods according to multiindex performance
+        parameters.However,the traditional Mahalanobis distance
+        discriminant method treats with the importance of all
+        parameters equally,and exaggerates the role of parameters which
+        changes a little.The weighted Mahalanobis distance is used in
+        discriminant analysis method to distinguish the importance of
+        each parameter.In the concrete application,firstly based on the
+        principal component analysis scheme,a new group of parameters
+        and their corresponding percent contributions of the parameters
+        are calculated ,and the weighted matrix is regarded as the
+        diagonal matrix of the contributions rates.Setting data to
+        standardization,then the weighted Mahalanobis distance can be
+        calculated.Besides the methods metioned above,bayes method is
+        also given.
+License: GPL (>= 2)
+Packaged: 2012-07-06 14:04:03 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-07-06 15:58:00

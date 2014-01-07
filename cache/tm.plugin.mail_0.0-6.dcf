@@ -1,0 +1,15 @@
+Package: tm.plugin.mail
+Title: Text Mining E-Mail Plug-In
+Version: 0.0-6
+Date: 2013-03-19
+Author: Ingo Feinerer
+Maintainer: Ingo Feinerer <feinerer@logic.at>
+Enhances: tm (>= 0.5)
+Imports: tm (>= 0.5)
+Description: A plug-in for the tm text mining framework providing mail
+        handling functionality.
+License: GPL (>= 2)
+Packaged: 2013-03-19 15:02:45 UTC; hornik
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-19 16:04:09

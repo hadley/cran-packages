@@ -1,0 +1,15 @@
+Package: ProfileLikelihood
+Type: Package
+Title: Profile Likelihood for a Parameter in Commonly Used Statistical
+        Models
+Version: 1.1
+Date: 2011-11-18
+Author: Leena Choi
+Maintainer: Leena Choi <leena.choi@Vanderbilt.Edu>
+Depends: nlme, MASS
+Description: This package provides profile likelihoods for a parameter of interest in commonly used statistical models. The models include linear models, generalized linear models, proportional odds models, linear mixed-effects models, and linear models for longitudinal responses fitted by generalized least squares. The package also provides plots for normalized profile likelihoods as well as the maximum profile likelihood estimates and the kth likelihood support intervals.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2011-11-18 16:26:33 UTC; leenachoi
+Repository: CRAN
+Date/Publication: 2011-11-19 06:46:18

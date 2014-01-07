@@ -1,0 +1,12 @@
+Package: uncompress
+Version: 1.31
+Date: 2008-11-16
+Title: Uncompress
+Author: Nicholas Vinen
+Maintainer: Nicholas Vinen <hb@rp.x256.org>
+Description: This R Add-On provides the function uncompress(raw) for
+  decompressing .Z files.  It returns the decompressed data as a raw
+  (binary) string.  The compressed data is passed in in the same format.  It
+  returns NULL if the input data is invalid.
+License: Unlimited
+Packaged: Sun Nov 16 17:41:04 2008; hb

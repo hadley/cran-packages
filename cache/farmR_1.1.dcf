@@ -1,0 +1,18 @@
+Package: farmR
+Type: Package
+Title: Mixed Integer model of Arable Farms
+Version: 1.1
+Date: 2010-02-16
+Author: Ira R. Cooke
+Maintainer: Ira R. Cooke <iracooke@gmail.com>
+Description: A mixed integer description of an arable farm. Finds
+        optimal farming plans given economic and social preference
+        information.
+License: GPL-3
+Suggests: sp
+LazyLoad: yes
+Depends: rJava,methods
+URL: http://code.google.com/p/javawfm/
+Packaged: 2010-02-16 10:30:27 UTC; iracooke
+Repository: CRAN
+Date/Publication: 2010-02-16 12:04:28

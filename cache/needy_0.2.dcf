@@ -1,0 +1,23 @@
+Package: needy
+Type: Package
+Title: needy
+Description: needy is a small utility library designed to make testing function
+    inputs less difficult. R is a dynamically typed language, but larger
+    projects need input checking for scalabity. needy offers a single
+    function, require_a( ), which lets you specify the traits an input object
+    should have, such as class, size, numerical properties or number of
+    parameters, while reducing boilerplate code and aiding debugging.
+Version: 0.2
+Depends: R (>= 2.14.0)
+Date: 2013-06-05
+Author: Ryan Grannell
+Maintainer: Ryan Grannell <r.grannell2@gmail.com>
+Contact: Ryan Grannell <r.grannell2@gmail.com>
+BugReports: <r.grannell2@gmail.com>
+Suggests: testthat, combinat
+License: MIT + file LICENSE
+Collate: 'report.R' 'require_a.R' 'tools.R' 'trait_tests.R'
+Packaged: 2013-07-31 18:59:17 UTC; rgrannell1
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-31 21:17:45

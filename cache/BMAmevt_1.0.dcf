@@ -1,0 +1,17 @@
+Package: BMAmevt
+Type: Package
+Title: Multivariate Extremes: Bayesian estimation of the spectral
+        measure.
+Version: 1.0
+Date: 2012-03-01
+Author: Anne Sabourin
+Maintainer: Anne Sabourin <annesab@melix.net>
+Depends: stats, utils, coda
+Description: Toolkit  for Bayesian estimation of the dependence structure
+    in Multivariate Extreme Value parametric models.
+License: GPL (>= 2)
+LazyData: no
+Packaged: 2013-09-02 13:35:10 UTC; anne
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-02 17:00:43

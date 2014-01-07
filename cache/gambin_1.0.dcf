@@ -1,0 +1,18 @@
+Package: gambin
+Type: Package
+Title: Fit the GamBin model to species abundance distributions
+Version: 1.0
+Date: 2013-09-11
+Author: Michael Krabbe Borregaard, Thomas Matthews & Karl Ugland
+Maintainer: Michael Krabbe Borregaard <mkborregaard@snm.ku.dk>
+Description: This package provides functions for fitting the gambin distribution to 
+	species-abundance distributions from ecological data. The main function is fitGambin, which
+	estimates the 'alpha' parameter of the gambin distribution using maximum likelihood. Functions
+	are also provided to generate the gambin distribution and for calculating likelihood
+	statistics.
+Depends: stats
+License: GPL-2
+Packaged: 2013-09-27 19:07:34 UTC; michael
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-28 07:28:14

@@ -1,0 +1,15 @@
+Package: GetR
+Type: Package
+Title: GetR: Calculate Guttman error trees in R
+Version: 0.1
+Date: 2013-02-16
+Author: Johannes Beller, Soeren Kliem
+Maintainer: Johannes Beller <johannesbeller@gmail.com>
+Description: The GetR package calculates Guttman error trees, which can
+        be used to find homogeneous subgroups regarding Guttman errors.
+Depends: party
+License: GPL-3
+Packaged: 2013-02-16 20:49:35 UTC; jb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-17 08:49:12

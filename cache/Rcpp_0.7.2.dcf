@@ -1,0 +1,29 @@
+Package: Rcpp
+Title: Rcpp R/C++ interface package
+Version: 0.7.2
+Date: $Date: 2010-01-12 21:42:29 -0600 (Tue, 12 Jan 2010) $
+Author: Dirk Eddelbuettel and Romain Francois, with contributions by
+        Simon Urbanek and David Reiss; based on code written during
+        2005 and 2006 by Dominick Samperi
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: R/C++ interface classes and examples The Rcpp library maps
+        data types betweeen R and C++, and includes support for R types
+        real, integer, character, vector, matrix, Date, datetime (i.e.
+        POSIXct) at microsecond resolution, data frame, and function.
+        Transer to and from simple SEXP objects is particular easy.
+        Calling R functions from C++ is also supported.
+ .
+ C++ code can be 'inlined' by using the 'inline' package which will
+        create a C++ function and compile, link and load it given the
+        'inlined' character argument which makes C++ integration very
+        easy.
+ .
+ Several examples are included.
+Depends: R (>= 2.0.0)
+Suggests: inline (>= 0.3.4), RUnit
+SystemRequirements: None
+URL: http://dirk.eddelbuettel.com/code/rcpp.html
+License: GPL (>= 2)
+Packaged: 2010-01-13 03:51:41 UTC; edd
+Repository: CRAN
+Date/Publication: 2010-01-13 07:45:49

@@ -1,0 +1,17 @@
+Package: editrules
+Type: Package
+Title: Edit rules
+Version: 0.1-1
+Date: 2010-12-23
+Author: Edwin de Jonge
+Maintainer: Edwin de Jonge <edwindjonge@gmail.com>
+Description: Facilitates reading of lineair (in)equalities and
+        converting them to a matrix format (and vice versa)
+License: GPL-3
+LazyLoad: yes
+Depends:
+URL: http://code.google.com/p/editrules/
+Collate: 'check.R' 'editmatrix.R' 'pkg.R'
+Packaged: 2011-01-31 16:18:40 UTC; Edwin
+Repository: CRAN
+Date/Publication: 2011-01-31 17:19:46

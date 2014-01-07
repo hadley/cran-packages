@@ -1,0 +1,15 @@
+Package: aqp
+Version: 0.88
+Date: 2010-07-06
+Title: Algorithms for Quantitative Pedology
+Author: Dylan Beaudette <debeaudette@ucdavis.edu>
+Maintainer: Dylan Beaudette <debeaudette@ucdavis.edu>
+Depends: R (>= 2.8.0), plyr, reshape, lattice, cluster, sp
+Suggests: RColorBrewer, maptools, foreign
+Description: R package for working with and plotting soil profile data.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: aqp
+Repository/R-Forge/Revision: 78
+Date/Publication: 2010-07-08 20:00:56
+Packaged: 2010-07-07 20:39:22 UTC; rforge

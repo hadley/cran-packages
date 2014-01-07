@@ -1,0 +1,17 @@
+Package: cldr
+Type: Package
+Title: Language Identifier based on CLD library
+Version: 1.0.0
+Date: 2013-01-25
+Author: The Chromium Authors, Mike McCandless, Matt Sanford
+        <matt@mzsanford.com>, Aykut FIRAT <aykut@crimsonhexagon.com>
+Maintainer: Aykut FIRAT <aykut@mit.edu>
+Description: This is an R wrapper for the C++ based Compact language
+        Detection library based on Chromium project developed by by the
+        Chromium Authors and further cleaned out by Mike McCandless and
+        by Matt Sanford. It is used for language identification.
+License: file LICENCE
+LazyLoad: yes
+Packaged: 2013-01-27 21:30:00 UTC; aykut
+Repository: CRAN
+Date/Publication: 2013-01-28 07:29:16

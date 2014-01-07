@@ -1,0 +1,19 @@
+Package: GAMens
+Title: Applies GAMbag, GAMrsm and GAMens ensemble classifiers for
+        binary classification
+Version: 1.0
+Author: Koen W. De Bock, Kristof Coussement and Dirk Van den Poel
+Maintainer: Koen W. De Bock <Koen.DeBock@UGent.be>
+Depends: R (>= 2.4.0), splines, akima, gam
+Description: This package implements the GAMbag, GAMrsm and GAMens
+        ensemble classifiers for binary classification (De Bock et al.,
+        2010). The ensembles implement Bagging (Breiman, 1996), the
+        Random Subspace Method (Ho, 1998), or both, and use Hastie and
+        Tibshirani's (1990) generalized additive models (GAMs) as base
+        classifiers. Once an ensemble classifier has been trained, it
+        can be used for predictions on new data. A function for cross
+        validation is also included.
+License: GPL (>= 2)
+Packaged: Mon Jan 11 11:20:11 2010; kwdebock
+Repository: CRAN
+Date/Publication: 2010-01-11 11:11:08

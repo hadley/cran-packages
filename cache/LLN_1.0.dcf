@@ -1,0 +1,10 @@
+Package: LLN
+Type: Package
+Title: Learning with latent networks
+Version: 1.0
+Date: 2007-07-04
+Author: Charles Bouveyron & Hugh Chipman
+Maintainer: Charles Bouveyron <charles.bouveyron@acadiau.ca>
+Description: This is a new framework in which graph-structured data are used to train a classifier in a latent space, and then classify new nodes. During the learning phase, a latent representation of the network is first learned and a supervised classifier is then built in the learned latent space. In order to classify new nodes, the positions of these nodes in the learned latent space are estimated using the existing links between the new nodes and the learning set nodes.  It is then possible to apply the supervised classifier to assign each new node to one of the classes.
+License: GPL2.0
+Packaged: Mon Aug 27 12:23:32 2007; charles

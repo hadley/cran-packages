@@ -1,0 +1,20 @@
+Package: maxlike
+Type: Package
+Title: Model species distributions by estimating the probability of
+        occurrence using presence-only data.
+Version: 0.1-4
+Date: 2013-07-05
+Depends: R (>= 2.10.0), raster
+Author: Richard Chandler and Andy Royle
+Maintainer: Richard Chandler <rchandler@usgs.gov>
+Description: Provides a likelihood-based approach to modeling species
+        distributions using presence-only data. In contrast to the
+        popular software program MAXENT, this approach yields estimates
+        of the probability of occurrence, which is a natural descriptor
+        of a species' distribution.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2013-07-05 14:32:39 UTC; rchandler
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-05 16:54:13

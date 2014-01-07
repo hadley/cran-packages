@@ -1,0 +1,33 @@
+Package: tabplot
+Maintainer: Martijn Tennekes <mtennekes@gmail.com>
+License: GPL-3
+Title: Tableplot, a visualization of large datasets
+Type: Package
+LazyLoad: yes
+Author: Martijn Tennekes and Edwin de Jonge
+Description: A tableplot is a visualisation of a (large)
+    dataset with a dozen of variables, both numeric and
+    categorical. Each column represents a variable and each
+    row bin is an aggregate of a certain number of records.
+    Numeric variables are visualized as bar charts, and
+    categorical variables as stacked bar charts. Missing
+    values are taken into account. Also supports large ffdf
+    datasets from the ff package.
+Version: 0.11-1
+URL: http://code.google.com/p/tableplot/
+Date: 2011-11-30
+Depends: data.table (>= 1.5.3), grid
+Suggests: ff (>= 2.2-0), classInt, ggplot2
+Collate: 'brokenX.R' 'cellplot.R' 'datetime2fac.R' 'getBinSizes.R'
+        'getFreqTable.R' 'getFreqTable_DT.R' 'num2fac.R' 'onLoad.R'
+        'pkg.R' 'plot_tabplot.r' 'plotCatCol.R' 'plotNumCol.R'
+        'preprocess.data.table.R' 'preprocess.ffdf.R' 'preprocess.R'
+        'print_tabplot.R' 'subset.R' 'summary_tabplot.R'
+        'tableChange.R' 'tablePalettes.R' 'tableplot.R'
+        'tableplot_checkBins.R' 'tableplot_checkDecreasing.R'
+        'tableplot_checkFromTo.R' 'tableplot_checkPals.R'
+        'tableplot_checkScales.R' 'tableplot_checktCols.R'
+        'tableSave.R' 'tableViewport.R' 'tabplot_object.R'
+Packaged: 2011-11-30 10:09:01 UTC; mtes
+Repository: CRAN
+Date/Publication: 2011-11-30 12:28:25

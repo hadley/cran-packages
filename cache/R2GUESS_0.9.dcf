@@ -1,0 +1,19 @@
+Package: R2GUESS
+Type: Package
+Title: Wrapper functions for GUESS: a GPU-enabled Sparse Bayesian
+        variable selection method for linear regression based analysis
+        of possibly multivariate/correlated outcomes.
+Version: 0.9
+Date: 2012-07-16
+Author: Benoit Liquet, Marc Chadeau-Hyam , Leonardo Bottolo, Gianluca Campanella, and
+    Sylvia Richardson
+Maintainer: Benoit Liquet <b.liquet@uq.edu.au>
+Depends: snowfall, mixOmics, MCMCpack, mvtnorm, fields
+Description: Wrapper functions for GUESS: a GPU-enabled Sparse Bayesian variable selection method for linear regression
+  based analysis of possibly multivariate/correlated outcomes.
+License: GPL (>= 2.0)
+SystemRequirements: GNU Scientific Library (>= 1.12)
+Packaged: 2013-11-27 02:21:54 UTC; liquet
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-27 07:07:36

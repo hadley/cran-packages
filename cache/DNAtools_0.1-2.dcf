@@ -1,0 +1,16 @@
+Package: DNAtools
+Title: Tools for analysing forensic genetic DNA data
+Version: 0.1-2
+Date: 2011-06-23
+Author: Torben Tvedebrink and James Curran
+Maintainer: Torben Tvedebrink <tvede@math.aau.dk>
+Description: Functions for making a database comparison exercise where
+        each DNA profile is compared to any other in the database. Also
+        has functions for optimising parameters of the population
+        genetic model and for simulating DNA databases.
+Depends: R (>= 2.10.0), Rsolnp
+SystemRequirements: None
+License: GPL (>= 2)
+Packaged: 2011-06-24 09:07:01 UTC; tvede
+Repository: CRAN
+Date/Publication: 2011-06-25 05:53:46

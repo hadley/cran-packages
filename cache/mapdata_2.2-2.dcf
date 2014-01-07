@@ -1,0 +1,16 @@
+Package: mapdata
+Title: Extra Map Databases
+Version: 2.2-2
+Date: 2013-03-01
+Author: Original S code by Richard A. Becker and Allan R. Wilks.  R
+        version by Ray Brownrigg <Ray.Brownrigg@ecs.vuw.ac.nz>.
+Description: Supplement to maps package, providing the larger and/or
+        higher-resolution databases.
+Depends: R (>= 2.10.0), maps (>= 2.0-7)
+LazyLoad: yes
+License: GPL-2
+Maintainer: Ray Brownrigg <Ray.Brownrigg@ecs.vuw.ac.nz>
+Packaged: 2013-02-28 19:54:08 UTC; ray
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-01 07:59:28

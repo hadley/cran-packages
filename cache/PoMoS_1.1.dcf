@@ -1,0 +1,27 @@
+Package: PoMoS
+Type: Package
+Title: Polynomial (ordinary differential equation) Model Search
+Version: 1.1
+Date: 2010-10-10
+Author: Mangiarotti S., Coudret R., Drapeau L.
+Depends: R (>= 2.10), RGtk2 (>= 2.12.18), cairoDevice (>= 2.0), igraph
+        (>= 0.5.4)
+Maintainer: Drapeau L. <laurent.drapeau@ird.fr>
+Description: PoMoS-package aims to determine from a set of N time
+        series the optimal polynomial structure of a model built on
+        first-order ordinary differential equations. The core of the
+        package is based on the poMoS function: an evolutionary
+        algorithm combined with a least square fitting. Optimality is
+        estimated with AIC (Akaike, 1974) or AIC-like criterions.
+        Although efficient in its selection, the identification of the
+        optimal structure cannot be guaranteed. Therefore, both
+        selected and rejected models are reconsidered after optimal
+        solutions are obtained from the evolutionary algorithm for
+        another analysis. This analysis is based on a statistical
+        evaluation of the regressors' quality.
+SystemRequirements: Gtk+ (>= 2.16.0)
+Lazyload: no
+License: CeCILL-2
+Packaged: 2010-10-22 16:00:11 UTC; laurent
+Repository: CRAN
+Date/Publication: 2010-10-23 07:42:54

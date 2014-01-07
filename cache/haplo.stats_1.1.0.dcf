@@ -1,0 +1,39 @@
+Package: haplo.stats
+Version: 1.1.0
+Date: 2004-03
+Title: Statistical Analysis of Haplotypes with Traits and 
+       Covariates when Linkage Phase is Ambiguous.
+Author: Jason P. Sinnwell and Daniel J. Schaid
+Maintainer: Jason P. Sinnwell <sinnwell@mayo.edu>
+Description: Haplo Stats is a suite of S-PLUS/R routines for the
+	     analysis of indirectly measured haplotypes. The statistical methods
+	     assume that all subjects are unrelated and that haplotypes are
+	     ambiguous (due to unknown linkage phase of the genetic markers).  
+	     The genetic markers are assumed to be codominant (i.e., one-to-one 
+	     correspondence between their genotypes and their phenotypes), and so 
+	     we refer to the measurements of genetic markers as genotypes. The main
+	     functions in Haplo Stats are:  haplo.em, haplo.glm and haplo.score
+License: Copyright 2003 Mayo Foundation for Medical Education and Research. 
+         This program is free software; you can redistribute it and/or modify it under the terms of 
+	 the GNU General Public License as published by the Free Software Foundation; either 
+	 version 2 of the License, or (at your option) any later version.
+	 This program is distributed in the hope that it will be useful, but WITHOUT ANY 
+	 WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+	 FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for 
+	 more details.
+	 You should have received a copy of the GNU General Public License along with this 
+	 program; if not, write to the Free Software Foundation, Inc.,
+	 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+	 For other licensing arrangements, please contact Daniel J. Schaid.
+	 Daniel J. Schaid, Ph.D.
+	 Division of Biostatistics
+	 Harwick Building  Room 775
+	 Mayo Clinic
+	 200 First St., SW
+	 Rochester, MN 55905
+	 phone: 507-284-0639
+	 fax:   507-284-9542
+	 email: schaid@mayo.edu
+Depends: R (>= 1.7.1)
+URL: http://www.mayo.edu/hsr/people/schaid.html
+Packaged: Fri Mar 19 08:24:21 2004; hornik

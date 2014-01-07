@@ -1,0 +1,21 @@
+Package: PopGenome
+Type: Package
+Title: A swiss army knife for population genetic & genomic analysis
+Version: 2.0
+Date: 2013-03-17
+Author: Bastian Pfeifer, Ulrich Wittelsbuerger
+Maintainer: Bastian Pfeifer <Bastian.Pfeifer@uni-duesseldorf.de>
+Depends: R (>= 2.14.2), methods, ff
+Suggests: parallel, bigmemory, BASIX, WhopGenome
+Description: PopGenome is an R-package for Population Genetic & Genomic Analysis
+License: GPL-3
+LazyLoad: yes
+Copyright: This package uses zlib, Tabix and BGZF. Zlib by Jean-loup
+        Gally <jloup@gzip> and Mark Adler <madler@alumni.caltech.edu>,
+        uses the Zlib licence. Tabix by Heng Li <lh3@live.co.uk> use
+        the MIT licence. BGZF by Bob Handsaker and modified by Heng Li
+        uses the MIT licence.
+Packaged: 2013-12-14 14:09:02 UTC; user
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-14 16:24:35

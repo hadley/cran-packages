@@ -1,0 +1,17 @@
+Encoding: latin1
+Package: NPCirc
+Type: Package
+Title: Nonparametric Circular Methods
+Version: 1.0.0
+Date: 2012-12-24
+Author: María Oliveira, Rosa M. Crujeiras and Alberto Rodríguez-Casal
+Maintainer: María Oliveira <maria.oliveira@usc.es>
+Depends: R(>= 2.11.0), circular, movMF, plotrix, shape, sn
+Description: This package implements nonparametric smoothing methods
+        for circular data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-03-14 13:19:01 UTC; moliveira
+Repository: CRAN
+Date/Publication: 2013-03-14 17:33:46
+NeedsCompilation: no

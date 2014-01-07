@@ -1,0 +1,18 @@
+Package: lordif
+Type: Package
+Title: Logistic Regression Differential Item Functioning using IRT
+Version: 0.2-2
+Date: 2012-4-4
+Author: Seung W. Choi, with contributions from Laura E. Gibbons and
+        Paul K. Crane
+Maintainer: Seung W. Choi <s-choi@northwestern.edu>
+Description: Analysis of Differential Item Functioning (DIF) for
+        dichotomous and polytomous items using an iterative hybrid of
+        (ordinal) logistic regression and item response theory (IRT)
+Depends: R (>= 2.7.0), MASS, msm, mvtnorm, polycor, sfsmisc, ltm,
+        Hmisc, rms
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-04-04 22:55:21 UTC; swc807
+Repository: CRAN
+Date/Publication: 2012-04-05 05:46:25

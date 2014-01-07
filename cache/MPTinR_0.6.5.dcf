@@ -1,0 +1,19 @@
+Package: MPTinR
+Type: Package
+Title: Analyze Multinomial Processing Tree Models
+Version: 0.6.5
+Date: 2011-06-28
+Author: Henrik Singmann and David Kellen
+Maintainer: Henrik Singmann
+        <henrik.singmann@psychologie.uni-freiburg.de>
+Description: The package provides a user-friendly way for analysis of multinomial processing tree (MPT) models (e.g.,  Riefer, D. M., and Batchelder, W. H. [1988]. Multinomial modeling and the measurement of cognitive processes. Psychological Review, 95, 318-339) for individual and multi-individual data. The main functions perform model fitting and model selection. Model selection can be done using e.g. the minimum description length measure based on the Fischer information approximation (FIA). The FIA can be obtained for any MPT model using the algorithm provided by Wu, Myung, & Batchelder (2010, JMP) ported to R. The model and restrictions can easily be specified in external files. The 'classical' .EQN file format for model files is also supported. Furthermore, MPTinR supports multicore fitting using the snowfall package.
+URL: http://www.psychologie.uni-freiburg.de/Members/singmann/R/mptinr
+License: GPL (>= 2)
+Depends: R (>= 2.11.0)
+Suggests: snowfall (>= 1.84)
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: mptinr
+Repository/R-Forge/Revision: 14
+Date/Publication: 2011-11-22 12:19:07
+Packaged: 2011-11-09 11:29:48 UTC; rforge

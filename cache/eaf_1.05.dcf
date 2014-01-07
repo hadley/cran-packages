@@ -1,0 +1,22 @@
+Package: eaf
+Type: Package
+Title: Plots of the Empirical Attainment Function
+Version: 1.05
+Date: 2013-02-20
+Maintainer: Manuel López-Ibáñez <manuel.lopez-ibanez@ulb.ac.be>
+Author: Carlos Fonseca, Luis Paquete, Thomas Stützle, Manuel
+        López-Ibáñez and Marco Chiarandini.
+Description: Plots of the empirical attainment function for two
+        objectives.
+Depends: R (>= 2.10.0)
+Imports: modeltools
+Suggests:
+License: GPL (>= 2)
+URL: http://iridia.ulb.ac.be/~manuel/eaftools
+LazyLoad: true
+LazyData: true
+Encoding: UTF-8
+Packaged: 2013-02-20 13:04:20 UTC; manu
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-20 15:26:50

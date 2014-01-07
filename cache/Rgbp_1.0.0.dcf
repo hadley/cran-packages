@@ -1,0 +1,17 @@
+Package: Rgbp
+Version: 1.0.0
+Date: 2013-03-16
+Title: Bayesian Hierarchical Modeling and Frequentist Method Check
+Author: Joseph Kelly, Carl Morris, and Hyungsuk Tak
+Maintainer: Joseph Kelly <kelly2@fas.harvard.edu>
+Depends: sn
+Suggests: mnormt
+Description: Bayesian-frequentist reconciliation via Bayesian
+        hierarchical modeling for Gaussian, Binomial, and Poisson data
+        and frequentist method check for good coverage probability.
+License: GPL-2
+BugReports: https://github.com/jyklly/gbp/issues
+Packaged: 2013-04-23 16:27:59 UTC; joey
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-23 21:19:22

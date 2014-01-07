@@ -1,0 +1,16 @@
+Package: plsgenomics
+Version: 1.0
+Date: 2005-04-11
+Title: PLS analyses for genomics
+Author: Anne-Laure Boulesteix <boulesteix@stat.uni-muenchen.de>, and
+        Korbinian Strimmer <korbinian.strimmer@lmu.de>.
+Maintainer: Anne-Laure Boulesteix <boulesteix@stat.uni-muenchen.de>
+Depends: R (>= 2.0.0), MASS
+Suggests: 
+Description: This package provides routines for PLS-based genomic analyses.
+  Currently, it implements PLS methods for classification with microarray
+  data and for predicting transcription factor activities from combined 
+  ChIP-chip analysis.
+License: GPL version 2 or newer
+URL: http://cran.r-project.org/src/contrib/Descriptions/plsgenomics.html
+Packaged: Mon Apr 11 15:08:26 2005; socher

@@ -1,0 +1,12 @@
+Package: wavethresh
+Version: 2.2-10
+Note:    ----- Version also in wvrelease() in ./R/release.R
+Date: 2008-09-19
+Author: Guy Nason <G.P.Nason@Bristol.ac.uk>
+  of R-port: Arne Kovac (1997) and Martin Maechler (1999)
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Title: Software to perform wavelet statistics and transforms.
+Description: Software to perform 1-d and 2-d wavelet statistics and transforms
+Depends: R (>= 2.1.0)
+License: GPL (>= 2)
+Packaged: Fri Sep 19 11:24:32 2008; maechler

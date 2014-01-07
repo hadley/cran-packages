@@ -1,0 +1,16 @@
+Package: sca
+Title: Simple Component Analysis
+Version: 0.8-8
+Date: 2012-03-18
+Description: Simple Component Analysis often provides much more
+        interpretable components than Principal Components (PCA)
+        without losing too much.
+Author: Valentin Rousson <rousson@ifspm.unizh.ch> and Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Depends: stats
+Suggests: MASS
+BuildResaveData: no
+License: GPL (>= 2)
+Packaged: 2012-03-18 21:06:34 UTC; maechler
+Repository: CRAN
+Date/Publication: 2012-03-19 06:52:33

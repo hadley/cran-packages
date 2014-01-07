@@ -1,0 +1,15 @@
+Package: lestat
+Type: Package
+Title: A package for LEarning STATistics
+Version: 1.7
+Date: 2011-12-15
+Author: Petter Mostad <mostad@chalmers.se>
+Maintainer: Petter Mostad <mostad@chalmers.se>
+Depends: R (>= 1.8.0), stats, MASS
+Description: This package contains some simple objects and functions to
+        do statistics using linear models and a Bayesian framework.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-01-27 15:28:20 UTC; mostad
+Repository: CRAN
+Date/Publication: 2012-01-28 17:04:22

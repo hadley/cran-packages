@@ -1,0 +1,18 @@
+Package: bursts
+Type: Package
+Title: Markov model for bursty behavior in streams
+Version: 1.0
+Date: 2012-09-08
+Author: Jeff Binder
+Authors@R: person("Jeff", "Binder", role = c("aut", "cre"), email =
+        "extruded@gmail.com")
+Maintainer: Jeff Binder <extruded@gmail.com>
+Description: An implementation of Jon Kleinberg's burst detection
+        algorithm.  Uses an infinite Markov model to detect periods of
+        increased activity in a series of discrete events with known
+        times, and provides a simple visualization of the results.
+License: MIT
+Copyright: (c) 2012 NYU School of Medicine; (c) 2012 Jeff Binder
+Packaged: 2012-10-23 14:55:24 UTC; jmb783
+Repository: CRAN
+Date/Publication: 2012-10-24 06:41:06

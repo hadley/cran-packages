@@ -1,0 +1,18 @@
+Package: attfad
+Type: Package
+Title: Evaluation and comparison of expression data and GRNs
+Version: 1.0
+Date: 2012-09-12
+Author: Robert Maier
+Maintainer: Robert Maier <r.maier@campus.lmu.de>
+Description: This packagage facilitates evaluation of expression data
+        sets compendia.  They can either be based on real data or be
+        the result of a simulation.  Some statics make use of a gene
+        regulatory network, on which the expression data is based, and
+        some require the presence of replicates of microarray
+        experiments.
+Depends: MethComp
+License: GPL-2
+Packaged: 2012-11-05 12:20:27 UTC; maierr
+Repository: CRAN
+Date/Publication: 2012-11-05 15:05:47

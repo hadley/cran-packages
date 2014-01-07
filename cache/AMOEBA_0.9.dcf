@@ -1,0 +1,15 @@
+Package: AMOEBA
+Version: 0.9
+Date: 2013-09-18
+Title: A Multidirectional Optimum Ecotope-Based Algorithm
+Author: Guillermo Valles
+Maintainer: Guillermo Valles <amoeba_spatial_cluster@yahoo.com>
+Description: A function to calculate spatial clusters using the Getis-Ord local statistic. It searches
+   irregular clusters (ecotopes) on a map.
+Depends: snowfall, rlecuyer, spdep
+Suggests: maptools, plotrix,
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2013-12-02 21:27:31 UTC; Guillermo
+NeedsCompilation: no
+Date/Publication: 2013-12-02 23:03:10

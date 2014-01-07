@@ -1,0 +1,19 @@
+Package: marg
+Version: 1.2-1
+Date: 2011-11-23
+Title: Approximate marginal inference for regression-scale models
+Author: S original by Alessandra R. Brazzale <alessandra.brazzale@unipd.it>.
+  R port by Alessandra R. Brazzale <alessandra.brazzale@unipd.it>, following 
+  earlier work by Douglas Bates.
+Maintainer: Alessandra R. Brazzale <alessandra.brazzale@unipd.it>
+Depends: R (>= 2.14.0), statmod, survival
+Suggests: boot, cond, csampling, nlreg
+Description: Likelihood inference based on higher order approximations 
+  for linear nonnormal regression models
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://statwww.epfl.ch/AA/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-11-23 14:46:39 UTC; brazzale
+Repository: CRAN
+Date/Publication: 2011-11-25 15:55:53

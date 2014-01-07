@@ -1,0 +1,17 @@
+Package: conics
+Type: Package
+Title: Plot Conics
+Version: 0.1
+Date: 2012-10-16
+Author: Bernard Desgraupes, University of Paris Ouest, Lab Modal'X
+Maintainer: Bernard Desgraupes <bernard.desgraupes@u-paris10.fr>
+Description: plot conics (ellipses, hyperbolas, parabolas)
+License: GPL (>= 2)
+Lazyload: yes
+Collate: main.R
+Encoding: latin1
+Depends: graphics
+Imports: graphics
+Packaged: 2012-10-23 10:07:17 UTC; bernardo
+Repository: CRAN
+Date/Publication: 2012-10-23 11:07:25

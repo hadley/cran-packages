@@ -1,0 +1,16 @@
+Package: coin
+Title: Conditional Inference Procedures in a Permutation Test Framework
+Date: $Date: 2007-06-28 17:48:57 +0200 (Thu, 28 Jun 2007) $
+Version: 0.6-4
+Author: Torsten Hothorn, Kurt Hornik, Mark van de Wiel and Achim Zeileis
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Conditional inference procedures for the general independence
+  problem including two-sample, K-sample, correlation, censored, ordered and
+  multivariate problems.
+Depends: R (>= 2.2.0), methods, survival, mvtnorm, modeltools (>= 0.2-9)
+Suggests: multcomp, xtable
+Enhances: Biobase
+LazyLoad: yes
+LazyData: yes
+License: GPL
+Packaged: Thu Jun 28 17:49:59 2007; hothorn

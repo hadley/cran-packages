@@ -1,0 +1,12 @@
+Package: anm
+Version: 1.0-8
+Date: February 24 2009
+Title: Analog model for downscaling
+Author: Alexandra Imbert & Rasmus E. Benestad
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: R (>= 1.4), clim.pact, xtable
+Description: The package contains an analog model for statistical/empirical downscaling.
+License: GPL version 2 or newer
+URL: http://www.r-project.org http://cran.r-project.org, http://www.stats.bris.ac.uk/~masgc/, http://www.met.rdg.ac.uk/cag/
+ZipData: no 
+Packaged: Tue Feb 24 07:55:37 2009; rasmusb

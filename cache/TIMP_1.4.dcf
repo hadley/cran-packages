@@ -1,0 +1,10 @@
+Package: TIMP
+Type: Package
+Title: a problem solving environment for fitting superposition models
+Version: 1.4
+Author: Katharine M. Mullen, Ivo H. M. van Stokkum 
+Maintainer: Katharine M. Mullen <kate@nat.vu.nl>
+Depends: R (>= 2.6.0), methods, tcltk, vcd, fields, gplots, splines, gclus
+Description: Measurements often represent a superposition of the contributions of distinct sub-systems resolved with respect to many experimental variables (time, temperature, wavelength, pH, polarization, etc).  TIMP allows parametric models for such superpositions to be fit and validated.  The package has been extensively applied to modeling data arising in spectroscopy and FLIM-FRET experiments.
+License: GPL version 2 or newer
+Packaged: Thu Oct  4 20:56:34 2007; root

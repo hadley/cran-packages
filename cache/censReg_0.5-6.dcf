@@ -1,0 +1,16 @@
+Package: censReg
+Version: 0.5-6
+Date: 2011/09/06
+Title: Censored Regression (Tobit) Models
+Author: Arne Henningsen <arne.henningsen@googlemail.com>
+Maintainer: Arne Henningsen <arne.henningsen@googlemail.com>
+Depends: R (>= 2.4.0), maxLik (>= 0.7-3)
+Imports: glmmML (>= 0.81-6), sandwich (>= 2.2-6)
+Suggests: plm, AER, lmtest (>= 0.9-27), sandwich (>= 2.2-6)
+Description: Estimation of censored regression (Tobit) models with
+        cross-section and panel data
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org, http://www.sampleSelection.org
+Packaged: 2011-09-06 09:06:00 UTC; suapm095
+Repository: CRAN
+Date/Publication: 2011-09-06 13:32:35

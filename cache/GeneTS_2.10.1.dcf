@@ -1,0 +1,24 @@
+Package: GeneTS
+Version: 2.10.1
+Date: 2006-05-15
+Title: Microarray Time Series and Network Analysis
+Author: Miika Ahdesmaki, Konstantinos Fokianos,
+	Rainer Opgen-Rhein, Juliane Schaefer, and
+        Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <korbinian.strimmer@lmu.de>
+Depends: R (>= 2.0.0), corpcor (>= 1.2.0), longitudinal (>= 1.0.0),
+  locfdr (>= 1.0-2)
+Suggests: graph (>= 1.4.0), Rgraphviz (>= 1.4.0)
+Description: GeneTS is a package for analyzing gene expression
+  (time series) data. Currently, two kinds of analyzes are supported:
+  the idenfication of periodic genes, and the inference of
+  large-scale gene association networks.  In order to recover
+  networks GeneTS implements a strategy for fast model selection 
+  of graphical Gaussian models (GGMs) via local fdr multiple testing.
+  For plotting the gene networks
+  GeneTS uses the "graph" and "Rgraphviz" packages, available from
+  http://www.bioconductor.org.
+License: GPL version 2 or newer
+URL: http://www.statistik.lmu.de/~strimmer/software/genets/
+biocViews: TimeCourse, GraphsAndNetworks, MultipleComparisons, Visualization
+Packaged: Mon May 15 16:37:20 2006; strimmer

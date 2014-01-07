@@ -1,0 +1,24 @@
+Package: fda
+Version: 2.0.3
+Date: 2008-10-03
+Title: Functional Data Analysis
+Author: J. O. Ramsay <ramsay@psych.mcgill.ca>,
+	Hadley Wickham <h.wickham@gmail.com>,
+	Spencer Graves <spencer.graves@pdf.com>,
+        Giles Hooker <gjh27@cornell.edu>
+Maintainer: J. O. Ramsay <ramsay@psych.mcgill.ca>
+Depends: R (>= 2.4.0), splines, zoo
+Suggests: graphics, odesolve, R.matlab, quadprog, DierckxSpline, nlme
+Description: These functions were developed to support
+   functional data analysis as described in Ramsay, J. O.
+   and Silverman, B. W. (2005) Functional Data Analysis.
+   New York: Springer.  They were ported from earlier
+   versions in Matlab and S-PLUS.  A manual that describes
+   the use of these functions is available in this
+   library. The library also contains a number of the
+   data sets used in the book along with R code for the
+   analyses that produced many of the figures in the book.
+License: GPL (>= 2)
+URL: http://www.functionaldata.org
+LazyData: true
+Packaged: Wed Nov  5 10:59:29 2008; spencerg

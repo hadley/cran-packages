@@ -1,0 +1,15 @@
+Package: mblm
+Type: Package
+Title: Median-Based Linear Models
+Version: 0.1
+Date: 2005-08-10
+Author: Lukasz Komsta <luke@novum.am.lublin.pl>
+Maintainer: Lukasz Komsta <luke@novum.am.lublin.pl>
+Description: This package provides linear models based 
+ on Theil-Sen single median and Siegel repeated 
+ medians. They are very robust (29 or 50 percent breakdown
+ point, respectively), and if no outliers are present,
+ the estimators are very similar to OLS.
+License: GPL version 2 or newer. http://www.gnu.org/copyleft/gpl.html
+URL: http://www.r-project.org, http://www.komsta.net/
+Packaged: Thu Aug 11 20:34:46 2005; Lukke

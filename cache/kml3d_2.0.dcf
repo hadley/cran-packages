@@ -1,0 +1,22 @@
+Package: kml3d
+Type: Package
+Title: K-means for joint Longitudinal data
+Version: 2.0
+Date: 2012-04-01
+Author: Christophe Genolini
+Maintainer: Christophe Genolini <genolini@u-paris10.fr>
+Description: KmL3D is an implementation of k-means specificaly design
+        to deal with joint trajectories (longitudinal data on several
+        variable-trajectories).  It provide facilities to deal with
+        missing value, compute several quality criterion (Calinski and
+        Harabatz, Ray and Turie, Davies and Bouldin) and propose a
+        graphical interphace for chosing the 'best' number of clusters.
+License: GPL (>= 2)
+Lazyload: yes
+URL: http:www.r-project.org
+Collate: global.r distance3d.r clusterLongData3d.r kml3d.r
+Depends: methods,clv,rgl,misc3d,longitudinalData,kml
+Encoding: latin1
+Packaged: 2012-03-28 08:42:06 UTC; GENOLLINI
+Repository: CRAN
+Date/Publication: 2012-03-28 11:09:17

@@ -1,0 +1,18 @@
+Package: CvM2SL2Test
+Version: 0.0-2
+Date:    2009-02-13
+Title:   Cramer-von Mises Two Sample Tests
+Author:  Yuanhui Xiao <matyxx@langate.gsu.edu> and Ye Cui
+Maintainer: Yuanhui Xiao <matyxx@langate.gsu.edu>
+Depends:    
+Suggests:  
+Description: The package contains two functions: one computes the Cramer-von Mises
+  two sample test scores, the other cmoputes the exact p-value(s) for given 
+  Cramer-von Mises two-sample test score(s) under the assumption that
+  the populations under comparison have the same probability distribution.
+  Like Kolmogorov-Smirnov two-sample test, Cramer-von Mises test
+  is also distribution free. In certain cases, the Cramer-von Mises test 
+  is more powerful than the Kolmogorov-Smirnov test, but it is less widely
+  used than the latter. 
+License: GPL (Version 2 or later)
+Packaged: Mon Mar  9 17:37:05 2009; YuanhuiXiao

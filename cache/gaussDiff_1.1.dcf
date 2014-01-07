@@ -1,0 +1,18 @@
+Package: gaussDiff
+Version: 1.1
+Date: 2012-08-21
+Title: Difference measures for multivariate Gaussian probability
+        density functions
+Author: Henning Rust <henning.rust@met.fu-berlin.de>
+Maintainer: Henning Rust <henning.rust@met.fu-berlin.de>
+Depends: R (>= 1.8.0)
+Description: A collection difference measures for multivariate Gaussian
+        probability density functions, such as the Euclidea mean, the
+        Mahalanobis distance, the Kullback-Leibler divergence, the
+        J-Coefficient, the Minkowski L2-distance, the Chi-square
+        divergence and the Hellinger Coefficient.
+License: GPL (>= 2)
+URL: www.geo.fu-berlin.de/met/ag/clidia/Mitarbeiter/HenningRust/
+Packaged: 2012-08-21 14:07:18 UTC; hrust
+Repository: CRAN
+Date/Publication: 2012-08-23 06:19:32

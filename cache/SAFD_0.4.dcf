@@ -1,0 +1,27 @@
+Package: SAFD
+Type: Package
+Title: Statistical Analysis of Fuzzy Data
+Version: 0.4
+Date: 2012-08-10
+Author: Wolfgang Trutschnig <wolfgang@trutschnig.net>, Asun Lubiano
+        <lubiano@uniovi.es>
+Maintainer: Wolfgang Trutschnig <wolfgang@trutschnig.net>
+Depends: R (>= 2.10.0)
+Description: The aim of the package is to provide some basic functions
+        for doing statistics with one dimensional Fuzzy Data (in the
+        form of polygonal fuzzy numbers). In particular, the package
+        contains functions for the basic operations on the class of
+        fuzzy numbers (sum, scalar product, mean, Hukuhara difference,
+        quantiles) as well as for calculating (Bertoluzza) distance,
+        sample variance, sample covariance, sample correlation, and the
+        Dempster-Shafer (levelwise) histogram. Moreover a function to
+        simulate fuzzy random variables, bootstrap tests for the
+        equality of means, and a function to do linear regression given
+        trapezoidal fuzzy data is included. Version 0.4 fixes some bugs
+        of version 0.3 and includes an additional function to calculate
+        quantiles of samples of polygonal fuzzy numbers.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-10 12:06:29 UTC; trutschnig
+Repository: CRAN
+Date/Publication: 2012-08-10 13:46:59

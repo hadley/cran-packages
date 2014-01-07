@@ -1,0 +1,18 @@
+Package: QCA
+Version: 1.1-1
+Date: 2013-12-11
+Title: A Package for Qualitative Comparative Analysis
+Authors@R: c(person("Adrian", "Dusa", role = c("aut", "cre"),
+                      email = "dusa.adrian@unibuc.ro"),
+             person("Alrik", "Thiem", role = "aut",
+                    email = "thiem@sipo.gess.ethz.ch"))
+Depends: R (>= 2.1.10), lpSolve
+Suggests: VennDiagram
+Description: This package provides functions for performing Qualitative Comparative Analysis (csQCA, tQCA, mvQCA and fsQCA).
+License: GPL (>= 2)
+Author: Adrian Dusa [aut, cre], Alrik Thiem [aut]
+Maintainer: Adrian Dusa <dusa.adrian@unibuc.ro>
+Packaged: 2013-12-11 08:34:28 UTC; dusadrian
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-11 09:50:26

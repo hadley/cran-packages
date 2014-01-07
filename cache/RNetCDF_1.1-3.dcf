@@ -1,0 +1,17 @@
+Package: RNetCDF
+Version: 1.1-3
+Date: 2005-03-20
+Title: R Interface to NetCDF Datasets
+Author: Pavel Michna
+Maintainer: Pavel Michna <michna@giub.unibe.ch>
+Depends: R (>= 1.7.0)
+SystemRequirements: netcdf (>= 3.5.0), udunits (>= 1.11.7)
+Description: This package provides an interface to Unidata's NetCDF library
+  functions (version 3) and furthermore access to Unidata's udunits calendar
+  conversions. The routines and the documentation follow the NetCDF and udunits
+  C interface, so the corresponding manuals can be consulted for more
+  detailed information.
+License: GPL version 2 or newer 
+URL: http://www.unidata.ucar.edu/packages/netcdf/
+     http://www.unidata.ucar.edu/packages/udunits/
+Packaged: Sun Mar 20 17:11:31 2005; michna

@@ -1,0 +1,29 @@
+Package: eco
+Version: 3.1-4
+Date: 2009-07-12
+Title: R Package for Ecological Inference in 2x2 Tables
+Author: Kosuke Imai <kimai@princeton.edu>, Ying Lu <yl46@nyu.edu>,
+        Aaron Strauss <abstraus@Princeton.EDU>.
+Maintainer: Ying Lu <yl46@nyu.edu>
+Depends: R (>= 2.0), MASS
+Description: eco is a publicly available R package that implements the
+        Bayesian and likelihood methods proposed in Imai, Lu, and
+        Strauss (2008) for ecological inference in $2 \times 2$ tables
+        as well as the method of bounds introduced by Duncan and Davis
+        (1953). The package fits both parametric and nonparametric
+        models using either the Expectation-Maximization algorithms
+        (for likelihood models) or the Markov chain Monte Carlo
+        algorithms (for Bayesian models).  For all models, the
+        individual-level data can be directly incorporated into the
+        estimation whenever such data are available. Along with
+        in-sample and out-of-sample predictions, the package also
+        provides a functionality which allows one to quantify the
+        effect of data aggregation on parameter estimation and
+        hypothesis testing under the parametric likelihood models.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://imai.princeton.edu/software/eco.html
+Packaged: 2009-07-13 01:26:09 UTC; ying
+Repository: CRAN
+Date/Publication: 2009-07-18 15:41:13

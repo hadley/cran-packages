@@ -1,0 +1,9 @@
+Package: ProbForecastGOP
+Title: Probabilistic Weather Field Forecast using the GOP method
+Version: 1.0
+Author: Yulia Gel, Adrian E. Raftery, Tilmann Gneiting, Veronica J. Berrocal
+Description: It produces probabilistic weather field forecasts using the Geostatistical Output Perturbation method introduced by Y. Gel, A. E. Raftery and T. Gneiting (JASA 99, 2004)
+Maintainer: Veronica J. Berrocal <veronica@stat.washington.edu> 
+Depends: R (>= 1.8.0), fields, RandomFields
+License: GPL version 2 or newer
+Packaged: Tue Feb  8 08:58:20 2005; veronica

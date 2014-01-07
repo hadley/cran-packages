@@ -1,0 +1,42 @@
+Package: opm
+Version: 1.0.6
+Date: 2013-11-18
+Title: Tools for analysing OmniLog(R) Phenotype Microarray data
+Author: Markus Goeker, with contributions by Benjamin Hofner, Lea A.I.
+    Vaas, Johannes Sikorski, Nora Buddruhs and Anne Fiebig
+Maintainer: Markus Goeker <markus.goeker@dsmz.de>
+Depends: R (>= 2.15.0)
+Imports: methods, lattice, parallel, boot, hwriter, plotrix,
+        Ckmeans.1d.dp, pkgutils (>= 0.5-0), yaml (>= 2.1.7), splines,
+        mgcv, grofit (>= 1.1), rjson (>= 0.2.12), nlme
+Suggests: optparse, gplots, opmdata (>= 0.4-0), testthat, multcomp,
+        KEGGREST, pathview, randomForest
+Description: Tools for analysing OmniLog(R) and MicroStation(TM)
+    phenotype microarray (PM) data as produced by the devices
+    distributed by BIOLOG Inc., including plotting, aggregating
+    (estimating curve parameters), comparing and discretising PM
+    data, creating phylogenetic formats and reports for taxonomic
+    journals, drawing the PM analysis results in biochemical
+    pathway graphs optionally including genome annotations, running
+    multiple comparisons of means, integrating metadata, using the
+    YAML format for the storage of data and metadata, and batch
+    conversion of large numbers of files.
+License: GPL (>= 2)
+URL: http://opm.dsmz.de/
+MailingList:
+        http://lists.r-forge.r-project.org/mailman/listinfo/opm-support
+Collate: 'substrate-info.R' 'well-map.R' 'plate-map.R' 'imports.R'
+        'package.R' 'constants.R' 'classes.R' 'auxiliary.R' 'kmeans.R'
+        'naming.R' 'metadata.R' 'getter.R' 'conversion.R'
+        'combination.R' 'aggregation.R' 'discretization.R' 'plotting.R'
+        'io.R' 'phylogeny.R' 'data.R' 'testing.R' 'multcomp.R'
+        'splinefit.R'
+LazyData: yes
+LazyDataCompression: bzip2
+Repository: CRAN
+Repository/R-Forge/Project: opm
+Repository/R-Forge/Revision: 396
+Repository/R-Forge/DateTimeStamp: 2013-11-18 12:33:56
+Date/Publication: 2013-12-12 09:56:40
+Packaged: 2013-12-12 08:28:49 UTC; ripley
+NeedsCompilation: no

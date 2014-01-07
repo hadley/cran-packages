@@ -1,0 +1,20 @@
+Package: phmm
+Version: 0.7-5
+Date: 2013-07-29
+Title: Proportional Hazards Mixed-effects Model (PHMM)
+Authors@R: c(person("Michael", "Donohue", role = c("aut", "cre"),
+    email = "mdonohue@ucsd.edu"),
+    person("Ronghui", "Xu", role = "aut"))
+Author: Michael Donohue and Ronghui Xu
+Maintainer: Michael Donohue <mdonohue@ucsd.edu>
+Depends: survival, lattice, Matrix
+Suggests: lme4 (>= 1.0)
+Description: Fits proportional hazards model incorporating random effects using
+    an EM algorithm using Markov Chain Monte Carlo at E-step.
+License: GPL-3
+Collate: 'formula.R' 'linear.predictors.R' 'phmm.R' 'pseudoPoisPHMM.R'
+        'traceHat.R'
+Packaged: 2013-09-14 19:23:47 UTC; mdonohue
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-21 10:00:49

@@ -1,0 +1,11 @@
+Package: evdbayes
+Version: 1.0-7
+Date: 2008-07-05
+Title: Bayesian Analysis in Extreme Value Theory
+Author: Alec Stephenson and Mathieu Ribatet.
+Maintainer: Mathieu Ribatet <mathieu.ribatet@epfl.ch>
+Depends: R (>= 1.8.0)
+Description: Provides functions for the bayesian analysis of 
+    extreme value models, using MCMC methods.
+License: GPL (Version 2 or above)
+Packaged: Sat Jul  5 19:51:46 2008; hornik

@@ -1,0 +1,17 @@
+Package: plotSEMM
+Type: Package
+Title: Graphing nonlinear latent variable interactions in SEMM
+Version: 1.0
+Date: 2008-03-11
+Author: Bethany E. Kok, Jolynn Pek, Sonya Sterba and Dan Bauer
+Maintainer: Bethany E. Kok <bethanyk@unc.edu>
+Description: Contains functions plotSEMM_setup, plotSEMM_contour,
+        plotSEMM_probability and plotSEMM_legend, which generate the
+        diagnostic plots proposed by Bauer(2005) to investigate
+        nonlinear latent variable interactions in SEMM using LISREL
+        output.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.bethanykok.com/plotSEMM.html
+Packaged: 2012-10-29 08:59:27 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:27

@@ -1,0 +1,21 @@
+Package: CPHshape
+Type: Package
+Title: Find the maximum likelihood estimator of the shape constrained
+        hazard baseline and the effect parameters in the Cox
+        proportional hazards model
+Version: 1.0
+Date: 2012-02-27
+Author: Rihong Hui and Hanna Jankowski <hkj@mathstat.yorku.ca>
+Maintainer: Hanna Jankowski <hkj@mathstat.yorku.ca>
+Description: This package computes the maximum likelihood estimator
+        (MLE) of the shape-constrained hazard baseline and the effect
+        parameters in the Cox proportional hazards model under IID
+        sampling.  We assume that the data are continuous and allow for
+        right censoring.  The function 'find.shapeMLE' allows for four
+        different shape constraints: increasing, decreasing, unimodal,
+        and u-shaped.
+License: GPL (>= 2)
+URL: http://www.math.yorku.ca/~hkj
+Packaged: 2012-03-13 17:00:49 UTC; hanna
+Repository: CRAN
+Date/Publication: 2012-03-13 18:18:00

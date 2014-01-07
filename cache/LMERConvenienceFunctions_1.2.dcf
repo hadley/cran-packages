@@ -1,0 +1,21 @@
+Package: LMERConvenienceFunctions
+Type: Package
+Title: An assortment of functions to facilitate modeling with linear
+        mixed-effects regression (LMER).
+Version: 1.2
+Date: 2010-12-15
+Author: Antoine Tremblay
+Maintainer: Antoine Tremblay, IWK Health Center <trea26@gmail.com>
+Description: The main functions are fixed effect back-fitting functions
+        (on F or t values and log-likelihood ratio testing) and a
+        random effect forward-fitting function (log-likelihood ratio
+        testing). Other functions include a function to compute ANOVAs
+        with upper-bound p-values (anti-conservative), a function to
+        graph model criticism plots, and another to trim data on model
+        residuals.
+Depends: languageR, Design
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-12-15 15:41:51 UTC; antoine
+Repository: CRAN
+Date/Publication: 2010-12-16 09:30:40

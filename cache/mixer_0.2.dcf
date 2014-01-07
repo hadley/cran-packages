@@ -1,0 +1,12 @@
+Package: mixer
+Type: Package
+Title: random graph clustering
+Version: 0.2
+Date: 2008-10-13
+Author: Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre Latouche
+Maintainer: Gilles Grasseau, Mark Hoebeke <mixer@genopole.cnrs.fr>
+Description:  performs the estimation of Erdös Rényi Mixture for Graphs
+License: GPL (>= 2)
+Depends: R (>= 2.5.0), methods
+Encoding: UTF-8
+Packaged: Wed Oct 15 14:12:49 2008; mhoebeke

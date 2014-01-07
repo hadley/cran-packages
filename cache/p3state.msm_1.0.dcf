@@ -1,0 +1,14 @@
+Package: p3state.msm
+Type: Package
+Depends: R (>= 2.8.1),survival,base
+Title: Analyzing survival data
+Version: 1.0
+Date: 2009-06-07
+Author: Luis Meira-Machado and Javier Roca-Pardinas <roca@uvigo.es>
+Maintainer: Luis Felipe Meira-Machado <lmachado@mct.uminho.pt>
+Description: Analyzing survival data from illness-death model
+License: GPL
+LazyLoad: yes
+Packaged: Mon Jul 13 10:59:28 2009; Administrador
+Repository: CRAN
+Date/Publication: 2009-07-18 16:13:05

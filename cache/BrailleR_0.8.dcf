@@ -1,0 +1,15 @@
+Package: BrailleR
+Type: Package
+Title: Improved access for blind useRs
+Version: 0.8
+Date: 2013-08-27
+Authors@R: person(c("A.", "Jonathan", "R."), "Godfrey", role=c("aut", "cre"), email="a.j.godfrey@massey.ac.nz")
+Author: Jonathan Godfrey
+Maintainer: Jonathan Godfrey <a.j.godfrey@massey.ac.nz>
+Description: Blind useRs do not have access to the graphical output from R without printing the content of graph windows to an embosser of some kind. This is not as immediate as is required for efficient access to statistical output. The functions here are created so that blind people can make even better use of R.
+License: GPL-2
+Depends: xtable,moments,nortest
+Packaged: 2013-08-26 00:55:22 UTC; ajgodfre
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-26 07:44:31

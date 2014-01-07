@@ -1,0 +1,23 @@
+Package: adaptsmoFMRI
+Type: Package
+Title: Adaptive Smoothing of FMRI Data
+Version: 1.1
+Date: 2013-01-16
+Author: Max Hughes
+Maintainer: Max Hughes <hughesgm@me.com>
+Description: This package contains R functions for estimating the blood
+        oxygenation level dependent (BOLD) effect by using functional
+        Magnetic Resonance Imaging (fMRI) data, based on adaptive Gauss
+        Markov random fields, for real as well as simulated data. The
+        implemented simulations make use of efficient Markov Chain
+        Monte Carlo methods.
+License: GPL-2
+Depends: R(>= 2.15.2), Matrix, coda, mvtnorm, MCMCpack, spatstat,
+        parallel
+Collate: 'adaptive-gmrf-2covar.R' 'adaptive-gmrf.R'
+        'plot-weights-real.R' 'plot-weights-sim.R'
+        'sim-adaptive-gmrf-2covar.R' 'sim-adaptive-gmrf.R'
+        'sim-fmri-2covar.R' 'sim-fmri.R'
+Packaged: 2013-01-19 13:12:15 UTC; gordonmax
+Repository: CRAN
+Date/Publication: 2013-01-19 16:27:49

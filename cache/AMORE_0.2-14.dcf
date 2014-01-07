@@ -1,0 +1,21 @@
+Encoding: UTF-8
+Package: AMORE
+Version: 0.2-14
+Date: 2013-12-13
+Title: A MORE flexible neural network package
+Author: Manuel Castejon Limas, Joaquin B. Ordieres Mere, Ana Gonzalez
+        Marcos, Francisco Javier Martinez de Pison Ascacibar, Alpha V.
+        Pernia Espinoza, Fernando Alba Elias, Jose Maria Perez Ramos
+Maintainer: Manuel Castejón Limas <manuel.castejon@gmail.com>
+Description: This package was born to release the TAO robust neural
+        network algorithm to the R users. It has grown and I think it
+        can be of interest for the users wanting to implement their own
+        training algorithms as well as for those others whose needs lye
+        only in the "user space".
+License: GPL (>= 2)
+URL: http://rwiki.sciviews.org/doku.php?id=packages:cran:amore
+LazyLoad: yes
+Packaged: 2013-12-16 17:03:52 UTC; mcasl
+Repository: CRAN
+Date/Publication: 2013-12-17 07:52:51
+NeedsCompilation: yes

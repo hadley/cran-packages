@@ -1,0 +1,17 @@
+Package: BioPhysConnectoR
+Version: 1.6-10
+Date: 2013-01-09
+Title: BioPhysConnectoR
+Author: Franziska Hoffgaard <hoffgaard@bio.tu-darmstadt.de>, with
+        contributions from Philipp Weil <weil@bio.tu-darmstadt.de> and
+        Kay Hamacher <hamacher@bio.tu-darmstadt.de>
+Maintainer: Frank Keul <keul@bio.tu-darmstadt.de>
+Depends: R (>= 2.11.0), snow, matrixcalc
+Description: Utilities and functions to investigate the relation
+        between biomolecular structures, their interactions, and the
+        evolutionary information revealed in sequence alignments of
+        these molecules.
+License: GPL-2
+Packaged: 2013-01-09 13:25:47 UTC; keul
+Repository: CRAN
+Date/Publication: 2013-01-09 17:22:13

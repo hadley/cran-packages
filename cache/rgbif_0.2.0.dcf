@@ -1,0 +1,30 @@
+Package: rgbif
+Description: A programmatic interface to the Web Service methods
+        provided by the Global Biodiversity Information Facility.
+Title: Interface to the Global Biodiversity Information Facility API
+        methods
+Version: 0.2.0
+License: CC0
+Date: 2013-03-01
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+        email = "myrmecocystus@gmail.com"), person("Carl", "Boettiger",
+        role = "aut", email = "cboettig@gmail.com"), person("Karthik",
+        "Ram", role = "aut", email = "karthik.ram@gmail.com"),
+        person("Vijay", "Barve", role = "aut", email =
+        "vijay.barve@gmail.com"))
+URL: https://github.com/ropensci/rgbif
+BugReports: https://github.com/ropensci/rgbif/issues
+Imports: XML, RCurl (>= 1.6), plyr, ggplot2, maps
+Suggests: roxygen2
+Collate: 'gbifmap.r' 'networks.r' 'occurrencecount.R'
+        'occurrencedensity.r' 'occurrenceget.R' 'occurrencelist.R'
+        'providers.r' 'resources.r' 'taxoncount.R' 'taxonsearch.R'
+        'taxrank.r' 'zzz.r' 'taxonget.r' 'densitylist.r'
+        'density_spplist.r'
+Packaged: 2013-03-01 18:48:39 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre], Carl Boettiger [aut], Karthik Ram
+        [aut], Vijay Barve [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 20:08:48

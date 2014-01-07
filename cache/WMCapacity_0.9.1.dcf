@@ -1,0 +1,17 @@
+Package: WMCapacity
+Type: Package
+Title: GUI implementing Bayesian working memory models
+Version: 0.9.1
+Date: 2009-06-20
+Depends: gtools, coda, tcltk, methods
+Author: Richard D. Morey
+Maintainer: Richard D. Morey <richarddmorey@gmail.com>
+Description: A GUI R implementation of hierarchical Bayesian models of
+        working memory, used for analyzing change detection data.
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: wmcapacity
+Repository/R-Forge/Revision: 14
+Date/Publication: 2009-11-19 13:00:37
+Packaged: 2009-11-18 21:12:20 UTC; rforge

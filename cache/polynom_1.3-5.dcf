@@ -1,0 +1,14 @@
+Package: polynom
+Version: 1.3-5
+Date: 2009-02-05
+Title: A collection of functions to implement a class for univariate
+ polynomial manipulations
+Description: A collection of functions to implement a class for univariate
+  polynomial manipulations.
+Author: S original by Bill Venables <Bill.Venables@adelaide.edu.au>.
+  Packaged for R by Kurt Hornik <Kurt.Hornik@R-project.org> and
+  Martin Maechler <maechler@stat.math.ethz.ch>.
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Imports: stats, graphics
+License: GPL-2
+Packaged: Thu Feb  5 14:10:35 2009; hornik

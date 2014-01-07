@@ -1,0 +1,22 @@
+Package: binGroup
+Title: Evaluation and experimental design for binomial group testing
+Version: 1.0-6
+Date: 2010-07-19
+Author: Boan Zhang, Christopher Bilder, Brad Biggerstaff, Frank
+        Schaarschmidt
+Description: This package provides methods for estimation and
+        hypothesis testing of proportions in group testing designs. It
+        involves methods for estimating a proportion in a single
+        population (assuming sensitivity and specificty 1 in designs
+        with equal group sizes), as well as hypothesis tests and
+        functions for experimental design for this situation. For
+        estimating one proportion or the difference of proportions, a
+        number of confidence interval methods are included, which can
+        deal with various different pool sizes. Further, regression
+        methods are implemented for simple pooling and matrix pooling
+        designs.
+Maintainer: Frank Schaarschmidt <schaarschmidt@biostat.uni-hannover.de>
+License: GPL
+Packaged: 2010-07-19 08:34:44 UTC; manager
+Repository: CRAN
+Date/Publication: 2010-07-24 20:09:20

@@ -1,0 +1,26 @@
+Package: crawl
+Type: Package
+Title: Fit continuous-time correlated random walk models to animal
+        movement data
+Version: 1.4-1
+Date: 2013-7-13
+Author: Devin S. Johnson
+Maintainer: Devin S. Johnson <devin.johnson@noaa.gov>
+Depends: mvtnorm, sp, raster
+Description: The (C)orrelated (RA)ndom (W)alk (L)ibrary of
+    R functions was designed for fitting continuous-time
+    correlated random walk (CTCRW) models with time indexed
+    covariates. The model is fit using the Kalman-Filter on
+    a state space version of the continuous-time stochastic
+    movement process.
+License: Unlimited
+LazyLoad: yes
+Collate: 'AllMethod.R' 'crawl-internal.R' 'crawl-package.R' 'crwMLE.R'
+        'crwN2ll.R' 'crwPostIS.R' 'crwPredict.R' 'crwPredictPlot.R'
+        'crwSamplePar.R' 'crwSimulator.R' 'crwUseGrid.R' 'expandPred.R'
+        'fillCols.R' 'getQ.R' 'intToPOSIX.R' 'logSpeed.R'
+        'mergeTrackStop.R' 'aic.crw.R' 'displayPar.R'
+Packaged: 2013-07-24 18:12:08 UTC; devin.johnson
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-26 18:30:03

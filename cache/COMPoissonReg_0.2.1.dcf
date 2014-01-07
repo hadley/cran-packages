@@ -1,0 +1,16 @@
+Package: COMPoissonReg
+Type: Package
+Title: Conway-Maxwell Poisson (COM-Poisson) Regression
+Version: 0.2.1
+Date: 2010-01-20
+Author: Kimberly Sellers <kfs7@georgetown.edu>, Thomas Lotze
+        <thomas.lotze@thomaslotze.com>
+Maintainer: Thomas Lotze <thomas.lotze@thomaslotze.com>
+Description: Fit a CMP regression model to count data. The code
+        provides functions for model estimation, dispersion testing,
+        and diagnostics.
+License: GPL-2 | GPL-3
+LazyLoad: yes
+Packaged: 2011-01-28 04:24:32 UTC; lotze
+Repository: CRAN
+Date/Publication: 2011-01-28 07:21:14

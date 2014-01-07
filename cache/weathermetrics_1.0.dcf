@@ -1,0 +1,16 @@
+Package: weathermetrics
+Type: Package
+Title: Functions to convert between weather metrics
+Version: 1.0
+Date: 2012-07-30
+Author: Brooke Anderson and Roger Peng
+Maintainer: Brooke Anderson <geanders@jhsph.edu>
+Description: weathermetrics includes functions to calculate dew point
+        temperature, relative humidity, and heat index and to convert
+        between Celsius and Fahrenheit. All functions are based on
+        equations and algorithms used by the United States National
+        Weather Service.
+License: MIT
+Packaged: 2012-08-07 15:57:33 UTC; brookeanderson
+Repository: CRAN
+Date/Publication: 2012-08-07 17:40:41

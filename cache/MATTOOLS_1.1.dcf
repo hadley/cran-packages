@@ -1,0 +1,20 @@
+Package: MATTOOLS
+Type: Package
+Title: Modern Calibration Functions for the Modern Analog Technique
+        (MAT)
+Version: 1.1
+Date: 2012-07-23
+Author: Dr. M. Sawada.
+Maintainer: steven mosher <moshersteven@gmail.com>
+Depends: R (>= 2.15.0)
+Description: This package in includes functions for receiver operating
+        characteristic (ROC) analyses as well as Monte Carlo
+        simulation.  It includes specific graphical functions for
+        interpreting the output of these techniques.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: TRUE
+LazyDataCompression: bzip2
+Packaged: 2012-08-17 20:31:03 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-08-19 05:21:39

@@ -1,0 +1,11 @@
+Package: MFDA
+Version: 1.1-0
+Date: 2006-7-27
+Title: Model Based Functional Data Analysis
+Author: Wenxuan Zhong <wenxuan@stat.harvard.edu>, Ping Ma <pingma@uiuc.edu>
+Maintainer: Wenxuan Zhong <wenxuan@stat.harvard.edu>
+Depends: R (>= 2.1.0), gss, mvtnorm
+Description: This is the package for doing model based fucntional clustering.
+License: GPL version 2 or newer
+URL: http://www.r-project.org
+Packaged: Mon Aug  7 14:05:00 2006; wenxuan

@@ -1,0 +1,14 @@
+Package: lmbc
+Type: Package
+Title: Linear Model Bias Correction for RNA-Seq Data
+Version: 0.9
+Date: 2011-12-12
+Author: David Dalpiaz
+Maintainer: David Dalpiaz <dalpiaz2@illinois.edu>
+Depends: mseq, lars
+Description: This is the package for implementing the method in "Bias Correction in RNA-Seq Short-read Counts using Penalized Regression." It first using a penalized regression to determine an appropriate surrounding sequence, then refits the model using the dinucleotide expansion.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2011-12-14 20:40:53 UTC; dalpiaz2
+Repository: CRAN
+Date/Publication: 2011-12-15 10:07:52

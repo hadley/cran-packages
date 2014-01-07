@@ -1,0 +1,29 @@
+Package: Rgnuplot
+Type: Package
+Title: Rgnuplot, R interface for gnuplot
+Version: 1.0.0
+Encoding: UTF-8
+Authors@R: c(person(given = "Göran", family = "Högnäs", role = "ths"),
+        person(given = "Nicolas", family = "Devillard", role = "aut"),
+        person(given = "Mauricio", family = "Galo", role = "ctb"),
+        person(given = "Patrick", family = "J. Bartlein", role =
+        "ctb"), person(given = "Oscar", family = "Perpiñán Lamigueiro",
+        role = "ctb"), person(given = "José", family = "Gama", role =
+        c("aut","cre"),email = "jgama@abo.fi"))
+SystemRequirements: gnuplot
+Description: Rgnuplot, R interface for gnuplot Based on gnuplot_i
+        version 1.11, the GPL code from Nicolas Devillard.
+License: GPL (>= 3)
+Depends: R (>= 2.7.0)
+Enhances: colorspace, png, rgdal, sp
+Author: Göran Högnäs [ths], Nicolas Devillard [aut], Mauricio Galo
+        [ctb], Patrick J. Bartlein [ctb], Oscar Perpiñán Lamigueiro
+        [ctb], José Gama [aut, cre]
+Maintainer: José Gama <jgama@abo.fi>
+Repository: CRAN
+Repository/R-Forge/Project: rgnuplot
+Repository/R-Forge/Revision: 20
+Repository/R-Forge/DateTimeStamp: 2013-03-19 21:42:38
+Date/Publication: 2013-03-20 13:25:10
+Packaged: 2013-03-19 23:17:33 UTC; rforge
+NeedsCompilation: yes

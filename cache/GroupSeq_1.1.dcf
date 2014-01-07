@@ -1,0 +1,15 @@
+Package: GroupSeq
+Title: Performing computations related to groupseqential boundaries.
+Version: 1.1
+Author: Roman Pahl
+Description: The computations are done via the alpha spending approach i.e. interim 
+        analyses need not to be equally spaced, and their number need not to be specified in advance. 
+	It is appropriate for any trial based on normally distributed test statistics with independent 
+        increments, survival studies, and certain longitudinal designs.
+	Among other things it computes critical boundaries for various spending functions and for prespecified
+        power and drift. Confidence intervals are also obtained.
+	The package provides this in a GUI and users have option of graphical output of the results
+	and/or saving desings into .html-file tables allowing further processing.
+Maintainer: Roman Pahl <projects.pahl@web.de>
+License: GPL Version 2 or later.
+Packaged: Wed Apr 19 21:10:43 2006; soLidas

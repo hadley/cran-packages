@@ -1,0 +1,18 @@
+Package: distillery
+Version: 1.0-1
+Date: 30 May 2013
+Title: Method Functions for Confidence Intervals and to Distill
+        Information from an Object
+Author: Eric Gilleland
+Maintainer: Eric Gilleland <ericg@ucar.edu>
+Depends: R (>= 2.10.0)
+Description: Some very simple method functions for confidence interval
+        calculation and to distill pertinent information from a
+        potentially complex object; primarily used in common with
+        packages extRemes and SpatialVx.
+License: GPL (>= 2)
+URL: http://www.ral.ucar.edu/staff/ericg
+Packaged: 2013-06-26 13:51:24 UTC; ericg
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-26 18:32:58

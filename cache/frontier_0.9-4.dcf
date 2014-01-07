@@ -1,0 +1,19 @@
+Package: frontier
+Version: 0.9-4
+Date: 2008-10-16
+Title: Stochastic Frontier Analysis
+Author: Tim Coelli <t.coelli@uq.edu.au>,
+   Arne Henningsen <arne.henningsen@googlemail.com>
+Maintainer: Arne Henningsen <arne.henningsen@googlemail.com>
+Depends: R (>= 2.0.0)
+Suggests: micEcon (>= 0.5-0)
+Description: Maximum Likelihood Estimation of
+   Stochastic Frontier Production and Cost Functions.
+   Two specifications are available:
+   the error components specification with time-varying efficiencies
+   (Battese and Coelli, 1992)
+   and a model specification in which the firm effects are directly 
+   influenced by a number of variables (Battese and Coelli, 1995).
+License: GPL (>= 2)
+URL: http://www.uq.edu.au/economics/cepa/, http://www.uni-kiel.de/agrarpol/ahenningsen/frontier/
+Packaged: Thu Oct 16 12:45:45 2008; suapm095

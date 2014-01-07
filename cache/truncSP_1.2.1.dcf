@@ -1,0 +1,15 @@
+Package: truncSP
+Type: Package
+Title: Semi-parametric estimators of truncated regression models
+Version: 1.2.1
+Date: 2013-11-15
+Author: Anita Lindmark and Maria Karlsson, Department of Statistics, Umea University
+Maintainer: Anita Lindmark <anita.lindmark@stat.umu.se>
+Description: Semi-parametric estimation of truncated linear regression models
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R(>= 2.10), stats, methods, truncreg, boot
+Packaged: 2013-11-20 12:22:50 UTC; anli0053
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-20 13:43:04

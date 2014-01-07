@@ -1,0 +1,24 @@
+Package: endorse
+Version: 1.3.1
+Date: 2012-03-28
+Title: R Package for Analyzing Endorsement Experiments
+Author: Yuki Shiraito <shiraito@princeton.edu>, Kosuke Imai
+        <kimai@princeton.edu>
+Maintainer: Yuki Shiraito <shiraito@princeton.edu>
+Depends: coda, utils
+Description: This R package implements the statistical model proposed
+        by Bullock, Imai, and Shapiro (2011; Political Analysis) to
+        analyze endorsement experiments.  Endorsement experiments are a
+        survey methodology for eliciting truthful responses to
+        sensitive questions.  This methodology is helpful when
+        measuring support for socially sensitive political actors such
+        as militant groups.  The model is fitted with the Markov chain
+        Monte Carlo algorithm and produces the output containing draws
+        from the posterior distribution.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://imai.princeton.edu/software/endorse.html
+Packaged: 2013-02-05 23:29:17 UTC; Yuki
+Repository: CRAN
+Date/Publication: 2013-02-06 08:20:36

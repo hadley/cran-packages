@@ -1,0 +1,16 @@
+Package: microbenchmark
+Imports: graphics
+Maintainer: Olaf Mersmann <olafm@datensplitter.net>
+License: FreeBSD + file LICENSE
+Title: Sub microsecond accurate timing functions.
+LazyData: yes
+Author: Olaf Mersmann <olafm@datensplitter.net>
+Description: Provides infrastructure to accurately measure and compare
+        the execution time of R expressions.
+Version: 1.1-3
+Suggests: ggplot2
+Collate: 'microbenchmark.R'
+Date:
+Packaged: 2011-10-19 05:55:12 UTC; olafm
+Repository: CRAN
+Date/Publication: 2011-10-19 09:34:10

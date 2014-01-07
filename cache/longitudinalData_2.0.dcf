@@ -1,0 +1,21 @@
+Package: longitudinalData
+Type: Package
+Title: Longitudinal Data
+Version: 2.0
+Date: 2011-04-01
+Author: Christophe Genolini
+Maintainer: Christophe Genolini <genolini@u-paris10.fr>
+Description: Tools for Longitudinal Data and Longitudinal Data 3D
+License: GPL (>= 2)
+Lazyload: yes
+LazyData: yes
+Depends: methods,clv,rgl,misc3d
+URL: http:www.r-project.org
+Collate: global.r function.r partition.r listPartition.r parWindows.r
+        parLongData.r longData.r longData3d.r longDataPlot.r
+        imputCross.R imputTraj.R imputLinearInterpol.R imputCopyMean.R
+        imputation.r distanceFrechet.r clean.r
+Encoding: latin1
+Packaged: 2012-03-28 08:42:16 UTC; GENOLLINI
+Repository: CRAN
+Date/Publication: 2012-03-28 11:09:21

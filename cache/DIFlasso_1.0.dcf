@@ -1,0 +1,17 @@
+Package: DIFlasso
+Type: Package
+Title: A penalty approach to Differential Item Functioning in Rasch
+        Models
+Version: 1.0
+Date: 2013-08-21
+Depends: grplasso, penalized, micEcon
+Author: Gunther Schauberger
+Maintainer: Gunther Schauberger
+        <gunther.schauberger@stat.uni-muenchen.de>
+Description: A package to perform DIFlasso, a method to detect DIF (Differential Item Functioning) in Rasch Models. It can handle settings with many covariates and also metric covariates. 
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-08-23 14:30:11 UTC; schaubergerg
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-23 17:18:50

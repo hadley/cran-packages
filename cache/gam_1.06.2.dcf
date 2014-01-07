@@ -1,0 +1,17 @@
+Package: gam
+Type: Package
+Title: Generalized Additive Models
+Date: 2011-12-05
+Version: 1.06.2
+Author: Trevor Hastie
+Description: Functions for fitting and working with generalized
+		additive models, as described in chapter 7 of "Statistical Models in
+		S" (Chambers and Hastie (eds), 1991), and "Generalized Additive
+		Models" (Hastie and Tibshirani, 1990).
+Maintainer: Trevor Hastie <hastie@stanford.edu>
+Depends: stats, splines
+Suggests: akima
+License: GPL-2
+Packaged: 2011-12-06 01:44:56 UTC; hastie
+Repository: CRAN
+Date/Publication: 2011-12-06 07:00:29

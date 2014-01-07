@@ -1,0 +1,18 @@
+Package: synchronicity
+Version: 1.1.0
+Date: 2012-09-12
+Title: Boost mutex functionality for R.
+Author: Michael J. Kane <kaneplusplus@gmail.com>
+Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
+Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
+Depends: methods, bigmemory.sri
+Description: This package provides Boost mutex functionality in R.
+OS_type: unix
+License: LGPL-3
+Copyright: Michael J. Kane
+URL: http://www.bigmemory.org
+LazyLoad: yes
+Packaged: 2012-09-17 12:23:46 UTC; jay
+X-CRAN-Original-OS_type: unix
+Repository: CRAN
+Date/Publication: 2012-09-17 14:57:23

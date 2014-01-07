@@ -1,0 +1,22 @@
+Package: RScaLAPACK
+Version: 0.6.1
+Date: 2009-07-18
+Title: A seamless interface to perform parallel computation on linear
+        algebra problems using the ScaLAPACK library.
+Author: Nagiza F. Samatova <samatovan@ornl.gov>, Srikanth Yoginath
+        <yoginathsb@ornl.gov>, David Bauer <bauerda@ornl.gov> and
+        Guruprasad Kora <koragh@ornl.gov>
+Maintainer: Nagiza F. Samatova <samatovan@ornl.gov> Guruprasad Kora
+        <koragh@ornl.gov>
+Depends: R (>= 1.6.1)
+SystemRequirements: LamMPI(>= 6.5.9) or MPICH2(>= 1.0.2) or OpenMPI (),
+        BLAS, BLACS, ScaLAPACK
+Description: An R add-on package capable of carrying out parallel
+        computation through a single function call from the R
+        environment. It uses the high-performance ScaLAPACK library for
+        the linear algebra computations.
+License: GPL (>= 2)
+URL: http://www.aspect-sdm.org/Parallel-R/
+Packaged: 2009-11-30 15:19:17 UTC; dummy
+Repository: CRAN
+Date/Publication: 2009-11-30 15:58:22

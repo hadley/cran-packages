@@ -1,0 +1,17 @@
+Package: RXshrink
+Title: Maximum Likelihood Shrinkage via Generalized Ridge or Least
+        Angle Regression
+Version: 1.0-6
+Date: 2010-09-24
+Author: Bob Obenchain <wizbob@att.net>
+Maintainer: Bob Obenchain <wizbob@att.net>
+Depends: R (>= 1.8.0), lars
+Description: Identify and display TRACEs for a specified shrinkage path
+        and determine the extent of shrinkage most likely, under normal
+        distribution theory, to produce an optimal reduction in MSE
+        Risk in estimates of regression (beta) coefficients.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://members.iquest.net/~softrx
+Packaged: 2010-09-29 23:32:47 UTC; Bob
+Repository: CRAN
+Date/Publication: 2010-10-01 08:22:57

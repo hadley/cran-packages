@@ -1,0 +1,18 @@
+Package: DIME
+Type: Package
+Title: DIME (Differential Identification using Mixture Ensemble)
+Version: 1.1
+Date: 2010-12-11
+Author: Cenny Taslim <taslim.2@osu.edu>, with contributions from Dustin
+        Potter, Abbasali Khalili and Shili Lin <shili@stat.osu.edu>.
+Maintainer: Cenny Taslim <taslim.2@osu.edu>
+License: GPL (>= 2)
+Description: A robust differential identification method that considers
+        an ensemble of finite mixture models combined with a local
+        false discovery rate (fdr) to analyze ChIP-seq (high-throughput
+        genomic)data comparing two samples allowing for flexible
+        modeling of data.
+LazyLoad: yes
+Packaged: 2012-12-11 17:31:23 UTC; tasl01
+Repository: CRAN
+Date/Publication: 2012-12-11 19:00:28

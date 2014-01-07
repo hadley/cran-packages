@@ -1,0 +1,17 @@
+Package: C50
+Type: Package
+Title: C5.0 Decision Trees and Rule-Based Models
+Version: 0.1.0-15
+Date: 2013-05-26
+Author: Max Kuhn, Steve Weston, Nathan Coulter. C code for C5.0 by R.
+        Quinlan
+Maintainer: Max Kuhn <mxkuhn@gmail.com>
+Description: C5.0 decision trees and rule-based models for pattern
+        recognition
+Depends: R (>= 2.10.0)
+License: GPL-3
+LazyLoad: yes
+Packaged: 2013-05-27 13:42:24 UTC; kuhna03
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-27 16:56:00

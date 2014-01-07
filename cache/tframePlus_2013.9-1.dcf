@@ -1,0 +1,20 @@
+Package: tframePlus
+Version: 2013.9-1
+Title: Time Frame coding kernel extensions
+Description: Extensions and additional tframe utilities.
+Depends: R (>= 2.5.0), tframe
+Imports: methods, timeSeries
+Suggests: tfplot, zoo, xts, its, tis, WriteXLS(>= 1.7.0)
+LazyLoad: yes
+License: GPL-2
+Copyright: 1993-1996,1998-2011 Bank of Canada. 1997,2012 Paul Gilbert
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsanalysis.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsanalysis
+Repository/R-Forge/Revision: 136
+Repository/R-Forge/DateTimeStamp: 2013-09-17 17:39:55
+Date/Publication: 2013-09-24 23:09:13
+Packaged: 2013-09-17 18:18:36 UTC; rforge
+NeedsCompilation: no

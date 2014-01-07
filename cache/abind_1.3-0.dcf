@@ -1,0 +1,18 @@
+Package: abind
+Version: 1.3-0
+Date: 2010-09-26
+Title: Combine multi-dimensional arrays
+Author: Tony Plate <tplate@acm.org> and Richard Heiberger
+Maintainer: Tony Plate <tplate@acm.org>
+Description: Combine multi-dimensional arrays into a single array. This
+        is a generalization of cbind and rbind.  Works with vectors,
+        matrices, and higher-dimensional arrays.  Also provides
+        functions adrop, asub, and afill for manipulating, extracting
+        and replacing data in arrays.
+Depends: R (>= 1.5.0)
+License: LGPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: abind
+Repository/R-Forge/Revision: 11
+Date/Publication: 2011-02-27 16:29:03
+Packaged: 2010-11-29 15:41:18 UTC; rforge

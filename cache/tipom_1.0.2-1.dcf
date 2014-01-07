@@ -1,0 +1,23 @@
+Package: tipom
+Type: Package
+Title: Automated measure-based classification for flint tools
+Version: 1.0.2-1
+Date: 2013-08-03
+Authors@R: c(person("Stefano", "Costa", role = c("aut", "cre"), email = "steko@iosa.it"),
+             person("Luca", "Bianconi", role = "aut", email = "luca@iosa.it"),
+             person("Elisabetta", "Starnini", role = "ctb"))
+Maintainer: Stefano Costa <steko@iosa.it>
+Depends: R (>= 2.14.0)
+Description: TIPOM is based on a methodology that was developed in the
+  1960s by Bernardino Bagolini. The basic idea is to use
+  the three simple dimensions of length, width and thickness
+  of each lithic artefact to classify them in discrete
+  groups and infer their function.
+License: GPL (>= 3)
+Packaged: 2013-08-03 08:17:13 UTC; steko
+Author: Stefano Costa [aut, cre],
+  Luca Bianconi [aut],
+  Elisabetta Starnini [ctb]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-03 12:59:24

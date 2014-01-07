@@ -1,0 +1,15 @@
+Package: PL.popN
+Type: Package
+Title: Population Size Estimation
+Version: 1.2
+Date: 2011-10-04
+Author: Jakub Stoklosa
+Maintainer: Jakub Stoklosa <jhs@ms.unimelb.edu.au>
+Description: Estimates closed population size when using a partial
+        likelihood from capture-recapture data.
+Suggests: mgcv,simex,MASS,sm
+Depends: mgcv,simex,MASS,sm
+License: GPL-2
+Packaged: 2012-10-29 08:57:25 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:25

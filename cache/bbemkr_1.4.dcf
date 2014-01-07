@@ -1,0 +1,17 @@
+Package: bbemkr
+Type: Package
+Title: Bayesian bandwidth estimation for multivariate kernel regression
+        with Gaussian error
+Version: 1.4
+Date: 2011-08-10
+Depends: R (>= 2.6.0)
+Author: Han Lin Shang and Xibin Zhang
+Maintainer: Han Lin Shang <HanLin.Shang@monash.edu>
+Description: Bayesian bandwidth estimation for Nadaraya-Watson type
+        multivariate kernel regression with Gaussian error density
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-08-10 10:29:06 UTC; hanshang
+Repository: CRAN
+Date/Publication: 2011-08-10 10:30:45

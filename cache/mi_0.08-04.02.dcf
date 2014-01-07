@@ -1,0 +1,18 @@
+Package: mi
+Version: 0.08-04.02
+Date: 2009-9-17
+Title: Missing Data Imputation and Model Checking
+Author: Andrew Gelman <gelman@stat.columbia.edu>, Jennifer Hill
+        <jh1030@columbia.edu>, Masanao Yajima <my2167@columbia.edu>,
+        Yu-Sung Su <ys463@columbia.edu>, Maria Grazia Pittau
+        <grazia@stat.columbia.edu>
+Maintainer: Yu-Sung Su <ys463@columbia.edu>
+Depends: methods, MASS, nnet, car, arm, lme4, R2WinBUGS, abind
+Description: Missing-data imputation and model checking
+URL: http://www.stat.columbia.edu/~gelman/
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: mi-dev
+Repository/R-Forge/Revision: 344
+Date/Publication: 2009-10-01 19:54:36
+Packaged: 2009-09-17 20:16:11 UTC; rforge

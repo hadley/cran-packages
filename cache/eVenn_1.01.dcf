@@ -1,0 +1,18 @@
+Package: eVenn
+Type: Package
+Title: eVenn: A powerful tool made to compare huge lists almost
+        instantaneously a plot Venn diagrams.
+Version: 1.01
+Depends: plotrix
+Date: 2010-06-17
+Author: Nicolas Cagnard
+Maintainer: Nicolas Cagnard <nicolas.cagnard@gmail.com>
+Description: Compute a matrix combination of lists (from 2 to infinite)
+        and plot the results in a Venn diagram if (N<=4). It is
+        possible to produce a complete annotated file, merging the
+        annotations of the compared lists.
+License: GPL
+LazyLoad: yes
+Packaged: 2010-06-17 22:00:34 UTC; nico
+Repository: CRAN
+Date/Publication: 2010-06-25 12:02:59

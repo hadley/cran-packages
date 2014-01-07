@@ -1,0 +1,17 @@
+Package: JM
+Title: Joint Modelling of Longitudinal and Survival Data
+Version: 0.8-4
+Date: 2011-07-01
+Author: Dimitris Rizopoulos <d.rizopoulos@erasmusmc.nl>
+Maintainer: Dimitris Rizopoulos <d.rizopoulos@erasmusmc.nl>
+Description: Shared parameter models for the joint modelling of
+        longitudinal and time-to-event data.
+Depends: R (>= 2.11.0), MASS, nlme, splines, survival
+Enhances: xtable
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://rwiki.sciviews.org/doku.php?id=packages:cran:jm
+Packaged: 2011-07-01 05:42:21 UTC; D. Rizopoulos
+Repository: CRAN
+Date/Publication: 2011-07-02 14:18:46

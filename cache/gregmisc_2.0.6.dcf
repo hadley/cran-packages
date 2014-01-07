@@ -1,0 +1,36 @@
+Bundle: gregmisc
+Contains: gtools gdata gmodels gplots gregmisc
+Title: Greg's Miscellaneous Functions
+BundleDescription: The gregmisc bundle is a repository for a variety of
+             useful functions.  See the individual packages for more
+             details.
+Version: 2.0.6
+Date: 2005-04-04
+Author: Gregory R. Warnes.  Includes R source code and documentation
+        contributed by
+	   - Ben Bolker,
+	   - Lodewijk Bonebakker,
+	   - Bendix Carstensen,
+	   - R. Gentleman,
+	   - Kjetil Halvorsen,
+	   - W. Huber
+           - Nitin Jain,
+	   - Andy Liaw,
+	   - Don MacQueen,
+	   - M. Maechler,
+	   - Arni Magnusson,
+	   - Jim Rogers,
+	   - Marc Schwartz,
+	   - William Venables,
+	   - Ian Wilson,
+	and others (let me know if I missed you!), as well as the Perl
+        modules
+	   - "IO-stringy" (copyright 1996 by Eryq, and 1999,2001 by
+  	     ZeeGee Software Inc),
+	   - OLE::Storage_Lite (copyright 2000,2001 by Kawai Takanori),
+	   - Spreadsheet::ParseExcel (copyright 2000-2002 by Kawai
+ 	     Takanori )
+	under the terms of the GNU General Public Licence (GPL).
+Maintainer: Gregory R. Warnes <Gregory.R.Warnes@Pfizer.com>
+License: GPL (version 2 or later)
+Packaged: Mon Apr  4 11:03:03 2005; warneg

@@ -1,0 +1,31 @@
+Package: kSamples
+Type: Package
+Title: K-Sample Rank Tests and their Combinations
+Version: 1.0
+Date: 2012-08-31
+Authors@R: c(person("Fritz", "Scholz",role=c("aut","cre"),email =
+        "fscholz@uw.edu"), person("Angie", "Zhu", role=c("aut","cre"),
+        email= "angiezh@u.washington.edu"))
+Author: Fritz Scholz and Angie Zhu
+Maintainer: Fritz Scholz <fscholz@u.washington.edu>
+Depends: SuppDists
+Description: Compares k samples using the Anderson-Darling test,
+        Kruskal-Wallis type tests with different rank score criteria,
+        and Steel's multiple comparison test.  It computes asymptotic,
+        simulated or (limited) exact P-values, all valid under
+        randomization, with or without ties, or conditionally under
+        random sampling from populations, given the observed tie
+        pattern.  Except for Steel's test it also combines these tests
+        across several blocks of samples.  Also analyzed are 2 x t
+        contingency tables and their blocked combinations using the
+        Kruskal-Wallis criterion.  Steel's test is inverted to provide
+        simultaneous confidence bounds for shift parameters.  A
+        plotting function shows that asymptotic approximations for
+        small sample sizes provide only very limited utility when
+        comparing tail probabilities with those obtained via simulation
+        or exact calculations.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-31 14:00:06 UTC; fritz
+Repository: CRAN
+Date/Publication: 2012-08-31 17:01:45

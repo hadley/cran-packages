@@ -1,0 +1,20 @@
+Package: qualityTools
+Type: Package
+Title: Statistical Methods for Quality Science
+Version: 1.2
+Date: 2010-02-01
+Author: Thomas Roth
+Maintainer: Thomas Roth <thomas.roth@tu-berlin.de>
+Description: This is a package for teaching statistical methods in the
+        field of Quality Science. It covers distribution fitting,
+        process capability, Gage R&R, factorial, fractional factorial
+        design as well as response surface methods including the use of
+        desirability functions.
+License: GPL-2
+LazyLoad: yes
+Depends: R(>= 2.9.0), graphics, methods
+Imports: graphics
+Suggests: MASS, methods
+Packaged: 2010-09-21 09:15:23 UTC; kaliwe
+Repository: CRAN
+Date/Publication: 2010-09-22 14:59:49

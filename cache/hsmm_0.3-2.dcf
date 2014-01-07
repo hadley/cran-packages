@@ -1,0 +1,10 @@
+Package: hsmm
+Version: 0.3-2
+Date: 2008-04-07
+Title: Hidden Semi Markov Models
+Author: Jan Bulla <Jan.Bulla@mcs.vuw.ac.nz>, Ingo Bulla <ingobulla@gmx.de>, Oleg Nenadic <onenadi@uni-goettingen.de>
+Maintainer: Ingo Bulla <ingobulla@gmx.de>
+Depends: R (>= 2.0.0), CircStats (>= 0.2-3)
+Description: A package for computation of hidden semi markov models
+License: GPL
+Packaged: Fri Apr 11 16:28:38 2008; onenadi

@@ -1,0 +1,18 @@
+Package: SDisc
+Type: Package
+Title: Integrated methodology for the identification of homogeneous
+        subtypes in data
+Version: 1.24
+Date: 2011-10-27
+Author: Fabrice Colas
+Maintainer: Fabrice Colas <sdisc@grano-salis.fr>
+Description: Tools and methods to identify homogeneous subtypes in data by cluster analysis; includes methods for
+   data pre-processing, repeated cluster analysis, model selection, model reliability and reproducibility
+   assessment, subtype characterization and validation.
+Depends: R (>= 2.12.1), mclust, stats, utils, RColorBrewer, abind,
+        xtable, digest, e1071, snow, SparseM
+License: BSD
+URL: http://grano-salis.fr/sdisc/
+Repository: CRAN
+Packaged: 2011-10-28 11:02:10 UTC; fcolas
+Date/Publication: 2011-11-02 17:17:14

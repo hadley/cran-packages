@@ -1,0 +1,14 @@
+Package: ScottKnott
+Type: Package
+Title: The ScottKnott Clustering Algoritm
+Version: 1.0.0
+Date: 2009-01-21
+Author: Enio Jelihovschi <eniojelihovs@gmail.com>
+        Jose Claudio Faria <joseclaudio.faria@gmail.com>
+        Sergio Oliveira <solive@uesc.br>
+Maintainer: Enio Jelihovschi <eniojelihovs@gmail.com>
+Depends: R (>= 2.6.0), stats, base
+Description: Multiple comparison test of means using the clustering method
+             of Scott & Knott
+License: GPL (>= 2)
+Packaged: Fri Jan 23 09:16:24 2009; hornik

@@ -1,0 +1,21 @@
+Package: profileR
+Title: Profile Analysis and Its Applications
+Type: Package
+Description: This package provides a set of tools that implement the profile
+    analysis and cross-validation techniques described in Davison & Davenport
+    (2002) and Bulut (2013).
+Version: 0.1
+Date: 11-15-2013
+Author: Okan Bulut <okanbulut84@gmail.com>, Christopher David Desjardins
+    <cddesjardins@gmail.com>
+Maintainer: Christopher David Desjardins <cddesjardins@gmail.com>
+Depends: ggplot2, MASS, reshape, methods, plyr, R (>= 3.0.2)
+License: GPL (>= 2)
+LazyData: true
+Collate: 'profileplot.R' 'subscore.reliability.R' 'print.prof.R'
+        'plot.prof.R' 'profileR-package.R' 'criterion.pattern.R'
+        'profilecv.R' 'summary.critpat.R'
+Packaged: 2013-11-28 17:00:42 UTC; chris
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-28 22:07:05

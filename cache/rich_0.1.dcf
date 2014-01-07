@@ -1,0 +1,16 @@
+Package: rich
+Type: Package
+Title: Species richness estimation and comparison
+Version: 0.1
+Date: 2010-10-21
+Author: Jean-Pierre Rossi
+Maintainer: Jean-Pierre Rossi <jean-pierre.rossi@supagro.inra.fr>
+Depends: vegan, boot
+Description: Computes rarefaction curves, cumulated and mean species
+        richness. Compares these estimates by means of randomization
+        tests.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-01-19 07:07:32 UTC; rossi
+Repository: CRAN
+Date/Publication: 2011-01-19 08:21:30

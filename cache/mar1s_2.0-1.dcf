@@ -1,0 +1,17 @@
+Package: mar1s
+Type: Package
+Title: Multiplicative AR(1) with Seasonal Processes
+Version: 2.0-1
+Date: 2009-06-12
+Author: Andrey Paramonov
+Maintainer: Andrey Paramonov <cmr.Pent@gmail.com>
+Depends: R (>= 2.8.1), cmrutils (>= 1.1-1), fda
+Description: Multiplicative AR(1) with Seasonal is a stochastic process
+        model built on top of AR(1). The package provides the following
+        procedures for MAR(1)S processes: fit, compose, decompose,
+        advanced simulate and predict.
+License: GPL (>= 3)
+URL: http://aparamon.msk.ru/svn/study/R-packages/mar1s/
+Packaged: 2009-06-12 15:27:09 UTC; pent
+Repository: CRAN
+Date/Publication: 2009-06-16 06:40:23

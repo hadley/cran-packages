@@ -1,0 +1,19 @@
+Package: GRRGI
+Type: Package
+Title: Gauge R and R Confidence Intervals
+Version: 1.1
+Date: 2009-04-13
+Author: Walter Resch with information from 'Measurement System
+        Assessment Via Generalized Inference' by Michael Hamada and Sam
+        Weerandi
+Maintainer: Walter Resch <walt55128@msn.com>
+Depends: nlme, lme4, arm, car
+Description: Generates confidence intervals for the variance components
+        for Gauge R and R data using ANOVA with the Satterthwaite
+        approximation as well as the method of Generalized Inference.
+License: GPL-2
+LazyLoad: yes
+ZipData: no
+Packaged: 2012-10-29 08:57:06 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:06

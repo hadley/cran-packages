@@ -1,0 +1,16 @@
+Package: cumSeg
+Type: Package
+Title: Change point detection in genomic sequences
+Version: 1.0
+Date: 2010-08-03
+Author: Vito M.R. Muggeo
+Maintainer: Vito M.R. Muggeo <vito.muggeo@unipa.it>
+Description: Estimation of number and location of change points in
+        mean-shift (piecewise constant) models. Particularly useful to
+        model genomic sequences of continuous measurements.
+Depends: lars
+License: GPL
+LazyLoad: no
+Packaged: 2010-08-05 09:48:48 UTC; PcVito
+Repository: CRAN
+Date/Publication: 2010-08-05 10:45:47

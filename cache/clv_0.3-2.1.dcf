@@ -1,0 +1,18 @@
+Package: clv
+Title: Cluster Validation Techniques
+Version: 0.3-2.1
+Author: Lukasz Nieweglowski <wookashn@gmail.com>
+Maintainer: Lukasz Nieweglowski <wookashn@gmail.com>
+Description: Package contains most of the popular internal and external
+        cluster validation methods ready to use for the most of the
+        outputs produced by functions coming from package "cluster".
+        Package contains also functions and examples of usage for
+        cluster stability approach that might be applied to algorithms
+        implemented in "cluster" package as well as user defined
+        clustering algorithms.
+Depends: cluster, class
+License: GPL (>= 2)
+Packaged: 2013-11-11 12:42:55 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-11-11 13:44:41
+NeedsCompilation: yes

@@ -1,0 +1,11 @@
+Package: feature
+Version: 1.1-13
+Date: 2008/04/24
+Title: Feature significance for multivariate kernel density estimation
+Author: Tarn Duong <tduong@pasteur.fr> & Matt Wand <wand@uow.edu.au>
+Maintainer: Tarn Duong <tduong@pasteur.fr>
+Depends: R (>= 1.4.0), KernSmooth
+Suggests: misc3d(>= 0.4-0), rgl(>= 0.66)
+Description: Feature significance for multivariate kernel density estimation
+License: GPL-2
+Packaged: Thu Apr 24 12:33:44 2008; tduong

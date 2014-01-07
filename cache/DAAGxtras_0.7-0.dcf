@@ -1,0 +1,31 @@
+Package: DAAGxtras
+Version: 0.7-0
+Date: 2008-11-07
+Title: Data Sets and Functions, supplementary to DAAG
+Author: John Maindonald
+Maintainer: John Maindonald <john.maindonald@anu.edu.au>
+Description: various data sets used in additonal exercises for
+        the book Maindonald, J.H. and Braun, W.J. (2nd edn 2007)  
+        "Data Analysis and Graphics Using R", and for a 
+        'Data Mining' course.  Note especially the datasets 
+        nassCDS (airbag and other influences on US vehicle 
+        accident outcomes: 1997-2002), nswdemo and related datasets 
+        (US Labor Training Evaluation Data), rockArt (multivariate 
+        binary data on Pacific rock art), hotspots (ages and 
+        distance from Kilauea of larval hotspots; c.f. also 
+        hotspots2006), nihills (record times for Northern
+        Ireland mountain races), worldRecords (record times for
+        track and road races), progression (progression of
+        record times for track races), edcT and edcCO2 (temperature
+        and CO2 estimates from the EPICA Dome C ice core,
+        covering 0 to 800 kyr BP), grog (changes in Australian
+        and NZ liquor consumption pattern, 1998-2006), 
+        and bomregions (historical Australian climate data).
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.4.0)
+Suggests: DAAG
+ZipData: no
+License: Unlimited
+URL: http://www.maths.anu.edu.au/~johnm
+Packaged: Fri Nov  7 15:26:12 2008; johnm

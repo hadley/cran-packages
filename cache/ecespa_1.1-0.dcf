@@ -1,0 +1,11 @@
+Package: ecespa
+Type: Package
+Title: Functions for spatial point pattern analysis
+Version: 1.1-0
+Date: 2007-07-31
+Author: Marcelino de la Cruz Rot, with contributions of Philip M. Dixon
+Maintainer: Marcelino de la Cruz Rot <marcelino.delacruz@upm.es>
+Depends: splancs, spatstat (>= 1.4.0), fields, akima
+Description: Some wrappers, functions and data sets for for spatial point pattern analysis (mainly based on spatstat), used in the book "Introduccion al Analisis Espacial de Datos en Ecologia y Ciencias Ambientales: Metodos y Aplicaciones".
+License: GPL (>=2)
+Packaged: Thu Jul 31 20:04:07 2008; MCR

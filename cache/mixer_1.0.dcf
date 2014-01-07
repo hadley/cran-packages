@@ -1,0 +1,17 @@
+Package: mixer
+Type: Package
+Title: Random graph clustering
+Version: 1.0
+Date: 2009-10-15
+Author: Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre
+        Latouche, Vincent Miele, Franck Picard
+Maintainer: Gilles Grasseau <mixer@genopole.cnrs.fr>
+Description: Routines for the analysis (unsupervised clustering) of
+        networks using MIXtures of Erdos-Renyi random graphs
+URL: http://ssbgroup.fr/mixnet/mixer.html, http://ssbgroup.fr
+License: GPL (>= 2)
+Depends: R (>= 2.5.0), methods
+Encoding: UTF-8
+Packaged: Thu Nov 19 17:25:17 2009; ggrasseau
+Repository: CRAN
+Date/Publication: 2009-11-19 18:33:11

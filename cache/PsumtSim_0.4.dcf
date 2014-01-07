@@ -1,0 +1,15 @@
+Package: PsumtSim
+Version: 0.4
+Date: 2012-08-26
+Title: Simulations of grouped responses relative to baseline.
+Author: Peter N. Steinmetz <PeterNSteinmetz@steinmetz.org>
+Maintainer: Peter N. Steinmetz <PeterNSteinmetz@steinmetz.org>
+Description: Functions to simulate Poisson or Normally distributed responses relative to 
+  a baseline and compute achieved significance level and powers for tests on the
+  simulated responses.
+License: GPL (>= 3)
+Depends: EffectsRelBaseline, boot
+Packaged: 2013-09-30 22:09:21 UTC; cthorp
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-01 07:42:26

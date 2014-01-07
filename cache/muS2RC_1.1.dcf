@@ -1,0 +1,14 @@
+Package: muS2RC
+Type: Package
+Title: Splus to R Compatibility for package muStat
+Version: 1.1
+Date: 2007-01-01
+Author: Knut M. Wittkowski <kmw@rockefeller.edu> and
+    Tingting Song <ttsong@gmail.com>
+Maintainer: Tingting Song <ttsong@gmail.com>
+Depends: R (>= 2.0.1), stats
+Description: muR2SC contains functions that are needed by package muStat
+    and either have different definitions in R and Splus,
+    or defined in Splus while not in R.
+License: GPL version 2 or newer
+Packaged: Tue Jan  2 19:27:02 2007; Tingting

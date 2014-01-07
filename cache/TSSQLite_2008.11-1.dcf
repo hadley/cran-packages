@@ -1,0 +1,14 @@
+Package: TSSQLite
+Version: 2008.11-1
+Date:2008-11-1
+Title: Time Series Database Interface extentions for SQLite
+Description: TSSQLite provides a SQLite interface for TSdbi.
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, RSQLite
+Imports: methods, DBI, TSdbi, RSQLite 
+Suggests: zoo, tseries
+Enhances: TSdbi
+License: GPL-2
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Sat Nov  1 13:43:13 2008; paul

@@ -1,0 +1,18 @@
+Package: RKEA
+Version: 0.0-2
+Date: 2009-06-25
+Title: R/KEA interface
+Author: Ingo Feinerer, Kurt Hornik
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Description: An R interface to KEA (Version 5.0). KEA (for Keyphrase
+        Extraction Algorithm) allows for extracting keyphrases from
+        text documents. It can be either used for free indexing or for
+        indexing with a controlled vocabulary. For more information see
+        http://www.nzdl.org/Kea/.
+Depends: RWeka, Snowball
+Imports: rJava (>= 0.6-3), tm
+SystemRequirements: Java (>= 5.0)
+License: GPL-2
+Packaged: 2009-06-25 20:04:24 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-06-25 20:06:17

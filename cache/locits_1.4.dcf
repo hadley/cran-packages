@@ -1,0 +1,19 @@
+Package: locits
+Type: Package
+Title: Test of stationarity and localized autocovariance
+Version: 1.4
+Date: 2013-10-18
+Authors@R: c(person("Guy", "Nason", role=c("aut", "cre"),
+	email="g.p.nason@bristol.ac.uk"))
+Depends: R (>= 2.0), wavethresh, igraph
+Description: Provides test of second-order stationarity for time
+	series. Provides localized autocovariance, with confidence
+	intervals, for locally stationary (nonstationary) time series.
+License: GPL-2
+URL: http://www.stats.bris.ac.uk/~guy
+Packaged: 2013-10-18 10:40:39 UTC; magpn
+Author: Guy Nason [aut, cre]
+Maintainer: Guy Nason <g.p.nason@bristol.ac.uk>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-18 17:09:58

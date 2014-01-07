@@ -1,0 +1,12 @@
+Package: normwn.test
+Title: Normality and White Noise Testing
+Version: 1.2
+Date: 2008-08-31
+Author: Peter Wickham <peterwickham@mac.com>
+Maintainer: Peter Wickham <peterwickham@mac.com>
+Description: Includes Omnibus Univariate and Multivariate Normality
+        Tests (See Doornik and Hansen (1994)). One variation allows for the 	possiblity of weak dependence rather than independence in the 		variable(s). Also  included is an univariate white noise test where 	the null hypothesis is for "white noise" rather than "strict white
+        noise". The package deals with similar approaches to testing as
+        the "nortest","moments",and "mvnormtest" packages in R.                      
+License: GPL-3
+Packaged: Sun Aug 31 18:53:06 2008; peter

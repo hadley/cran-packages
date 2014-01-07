@@ -1,0 +1,24 @@
+Package: care
+Version: 1.1.2
+Date: 2012-01-21
+Title: High-Dimensional Regression and CAR Score Variable Selection
+Author: Verena Zuber and Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.10.0), corpcor (>= 1.6.2)
+Suggests:
+Description: The "care" package implements the regression approach of
+        Zuber and Strimmer (2011) "High-dimensional regression and
+        variable selection using CAR scores" SAGMB 10: 34.  CAR scores
+        measure the correlation between the response and the
+        Mahalanobis-decorrelated predictors.  The squared CAR score is
+        a natural measure of variable importance and provides a
+        canonical ordering of variables. This package provides
+        functions for estimating CAR scores, for variable selection
+        using CAR scores, and for estimating corresponding regression
+        coefficients. Both shrinkage as well as empirical estimators
+        are available.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/care/
+Packaged: 2012-01-21 22:38:11 UTC; strimmer
+Repository: CRAN
+Date/Publication: 2012-01-22 08:05:43

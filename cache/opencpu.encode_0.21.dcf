@@ -1,0 +1,14 @@
+Package: opencpu.encode
+Imports: RJSONIO, base64
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+License: BSD
+Title: opencpu object encoder/decoder
+Type: Package
+Author: Jeroen Ooms
+Description: Encodes R objects to a standardized JSON format
+Version: 0.21
+Date: 2011-08-05
+Depends: methods
+Packaged: 2011-10-18 19:06:44 UTC; jeroen
+Repository: CRAN
+Date/Publication: 2011-10-19 07:40:07

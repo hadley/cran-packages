@@ -1,0 +1,14 @@
+Package: AnthropMMD
+Type: Package
+Title: A GUI for Mean Measures of Divergence
+Version: 0.9.4
+Date: 2013-02-05
+Author: Frederic Santos
+Maintainer: Frederic Santos <frederic.santos@u-bordeaux1.fr>
+Depends: R (>= 2.4.1), tcltk
+Description: Offers a complete and interactive GUI to work out a matrix
+        of MMD from a binary dataset, especially for anthropologists.
+License: GPL (>= 2)
+Packaged: 2013-02-05 10:25:49 UTC; Pingouinche
+Repository: CRAN
+Date/Publication: 2013-02-05 12:45:18

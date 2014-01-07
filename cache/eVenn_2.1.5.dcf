@@ -1,0 +1,20 @@
+Package: eVenn
+Type: Package
+Title: eVenn: A powerful tool to compare lists and draw Venn diagrams.
+Version: 2.1.5
+Depends: tcltk
+Date: 2012-03-02
+Author: Nicolas Cagnard
+Maintainer: Nicolas Cagnard <nicolas.cagnard@gmail.com>
+Description: Compute a matrix comparison of lists (from 2 to infinite)
+        and plot the results in a Venn diagram if (N<=4) with
+        regulation details. It allows to produce a complete annotated
+        file, merging the annotations of the compared lists. It is also
+        possible to compute an overlaps table to show the overlaps
+        proportions of all the couples of lists and draw proportional
+        Venn diagrams.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-03-13 15:14:45 UTC; Nico
+Repository: CRAN
+Date/Publication: 2012-03-13 16:58:49

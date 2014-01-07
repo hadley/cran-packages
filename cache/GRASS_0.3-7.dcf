@@ -1,0 +1,17 @@
+Package: GRASS
+Version: 0.3-7
+Date: 2008-03-10
+Title: Interface between GRASS 5.0 geographical information system and R
+Author: Roger Bivand
+Maintainer: Roger Bivand <Roger.Bivand@nhh.no>
+Description: Interface between GRASS 5.0 geographical information system and R,
+	based on starting R from within the GRASS environment using values
+	of environment variables set in the GISRC file. Interface examples 
+	should be run outside GRASS, others may be run within. Wrapper and 
+	helper functions are provided for a range of R functions to match the 
+	interface metadata structures. 
+Depends: R (>= 2.2.0)
+Suggests: akima, sgeostat, spatial
+License: GPL (>= 2)
+URL: http://grass.itc.it/statsgrass/index.html
+Packaged: Mon Mar 10 21:54:13 2008; rsb

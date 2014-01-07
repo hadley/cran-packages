@@ -1,0 +1,27 @@
+Package: ggmap
+Type: Package
+Title: A package for spatial visualization with Google Maps and
+        OpenStreetMap
+Version: 2.2
+Date: 2012-09-06
+Author: David Kahle <david.kahle@gmail.com>, Hadley Wickham
+        <h.wickham@gmail.com>
+Maintainer: David Kahle <david.kahle@gmail.com>
+Description: ggmap allows for the easy visualization of spatial data
+        and models on top of Google Maps, OpenStreetMaps, Stamen Maps,
+        or CloudMade Maps using ggplot2.
+Depends: R (>= 2.14.0), ggplot2 (>= 0.9.2)
+Imports: proto, scales, RgoogleMaps, png, plyr, reshape2, grid, rjson
+Suggests: MASS, stringr
+License: MIT
+LazyData: true
+Collate: 'crime.R' 'geocode.R' 'ggimage.R' 'ggmap.R' 'hadley.R'
+        'qmap.R' 'theme_nothing.R' 'zips.R' 'theme_inset.R'
+        'OSM_scale_lookup.R' 'gglocator.R' 'mapdist.R' 'revgeocode.R'
+        'route.R' 'help.R' 'get_googlemap.R' 'get_openstreetmap.R'
+        'get_stamenmap.R' 'LonLat2XY.R' 'XY2LonLat.R'
+        'get_cloudmademap.R' 'get_map.R' 'qmplot.R' 'make_bbox.R'
+        'wind.R' 'inset_raster.R' 'inset.R'
+Packaged: 2012-09-06 15:23:06 UTC; david_kahle
+Repository: CRAN
+Date/Publication: 2012-09-06 17:18:35

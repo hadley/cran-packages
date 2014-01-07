@@ -1,0 +1,19 @@
+Package: binomialcftp
+Type: Package
+Title: Generates binomial random numbers via the coupling from the past
+        algorithm
+Version: 1.0
+Date: 2012-09-14
+Author: Francisco Juretig
+Maintainer: Francisco Jureitg <fjuretig@yahoo.com>
+Description: Binomial random numbers are generated via the perfect
+        sampling algorithm. At each iteration dual markov chains are
+        generated and coalescence is checked. In case coalescence
+        occurs, the resulting number is outputted. In case not, then
+        the algorithm is restarted from T(t)=2*T(t) until coalescence
+        occurs.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-09-19 14:18:46 UTC; Fran
+Repository: CRAN
+Date/Publication: 2012-09-20 06:42:30

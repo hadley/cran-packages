@@ -1,0 +1,21 @@
+Package: HTSDiff
+Type: Package
+Title: Differential analysis of RNA-seq data with Poisson mixture
+        models
+Version: 1.0.1
+Date: 2013-10-31
+Author: Andrea Rau, Marie-Laure Martin-Magniette, Cathy Maugis-Rabusseau
+Maintainer: Andrea Rau <andrea.rau@jouy.inra.fr>
+Depends: R (>= 2.10.0), plotrix, HTSCluster (>= 1.99.0)
+Imports: edgeR
+Description: This package implements a Poisson mixture model to identify differentially expressed genes from RNA-seq data.
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: true
+Repository: CRAN
+Repository/R-Forge/Project: htsfilter
+Repository/R-Forge/Revision: 65
+Repository/R-Forge/DateTimeStamp: 2013-10-31 12:56:04
+Date/Publication: 2013-12-10 14:53:46
+Packaged: 2013-10-31 15:15:52 UTC; rforge
+NeedsCompilation: no

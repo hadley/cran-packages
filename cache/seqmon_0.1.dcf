@@ -1,0 +1,11 @@
+Package: seqmon
+Version: 0.1
+Date: 2004-05-30
+Title: Sequential Monitoring of Clinical Trials
+Author: David A. Schoenfeld <dschoenfeld@partners.org>
+Maintainer: David A. Schoenfeld <dschoenfeld@partners.org>
+Description: A program that computes the probability of crossing sequential boundaries in a
+ clinical trial. It implements the Armitage-McPherson and Rowe Algorithm using the method
+ described in Schoenfeld D. (2001)" A simple Algorithm for Designing Group Sequential Clinical
+ Trials" Biometrics 27: pp, 972-974
+License: GPL

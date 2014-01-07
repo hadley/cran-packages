@@ -1,0 +1,16 @@
+Package: selectiongain
+Type: Package
+Title: Expected gain from multi-stage selection and its optimization
+Version: 2.0.6
+Date: 2013-04-29
+Author: Xuefei Mi, H. Friedrich Utz, Albrecht E. Melchinger (Project
+        contact person: Melchinger at uni-hohenheim.de )
+Maintainer: Xuefei Mi <xuefeimi@uni-hohenheim.de>
+Depends: R (>= 3.0.0), mvtnorm
+Description: A tool for efficient calculation and optimization of the
+        expected gain from multi-stage selection
+License: GPL-2
+Packaged: 2013-05-01 20:37:59 UTC; xuefeimi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-02 08:01:21

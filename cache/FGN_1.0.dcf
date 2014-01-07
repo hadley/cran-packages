@@ -1,0 +1,11 @@
+Package: FGN
+Version: 1.0
+Date: 2007-09-17
+Title:  Fractional Gaussian Noise Model Fitting
+Author: A.I. McLeod 
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0), ltsa
+Description: MLE for H parameter in FGN; MLE for regression with FGN error; simulation of FGN
+License: GPL (version 2 or later)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: Thu Oct 18 17:04:07 2007; aim

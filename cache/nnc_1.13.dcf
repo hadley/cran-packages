@@ -1,0 +1,15 @@
+Package: nnc
+Type: Package
+Title: Nearest Neighbor Autocovariates
+Version: 1.13
+Date: 2010-08-29
+Author: A. I. McLeod and M. S. Islam
+Maintainer: <aim@stats.uwo.ca>
+Depends: R (>= 2.0.0), class, nnet, MASS
+Description: Computes nearest neighbor autocovariates
+Classification/ACM: G.4, I.5
+Classification/MSC: 62H30
+License: GPL (>= 2)
+Packaged: 2010-08-30 04:23:46 UTC; aim
+Repository: CRAN
+Date/Publication: 2010-08-30 09:48:35

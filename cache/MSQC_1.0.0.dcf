@@ -1,0 +1,20 @@
+Package: MSQC
+Type: Package
+Title: Multivariate Statistical Quality Control
+Version: 1.0.0
+Date: 2012-06-22
+Author: Edgar Santos-Fernandez
+Maintainer: Edgar Santos-Fernandez <edgar.santos@etecsa.cu>
+Depends: rgl
+Description: This package is a toolkit for multivariate process
+        monitoring. It contains the main alternatives of multivariate
+        control chart such as: Hotelling, Chi squared, MEWMA, MCUSUM
+        and Generelized Variance control chart. Also, it includes some
+        tools for assessing multivariate normality like: Mardia,
+        Royston and Henze Zirkler test and the univariate D'Agostino
+        test. Moreover, it possess ten didactic datasets.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-06-27 19:54:37 UTC; edgars
+Repository: CRAN
+Date/Publication: 2012-06-28 12:55:14

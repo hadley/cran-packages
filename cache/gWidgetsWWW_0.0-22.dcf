@@ -1,0 +1,26 @@
+Package: gWidgetsWWW
+Version: 0.0-22
+Title: Toolkit implementation of the gWidgets API for use with web
+        pages
+Author: John Verzani
+Maintainer: John Verzani <jverzani@gmail.com>
+Depends: R (>= 2.11.0), methods, proto, filehash, digest, rjson
+Suggests:
+Extends: canvas, RSVGTipsDevice, SVGAnnotation, webvis
+Description: Port of the gWidgets API to program dynamic websites. Can
+        be used with R's dynamic help web server to serve local files.
+        This provides a convenient means to make local GUIs for users
+        without concern for external GUI toolkits. Also, in combination
+        with RApache,
+        http://biostat.mc.vanderbilt.edu/rapache/index.html, this
+        framework can be used to make public websites powered by R. The
+        Ext JavaScript libararies (www.extjs.com) are used to create
+        and manipulate the widgets dynamically.
+License: GPL (>= 3)
+URL: http://gwidgets.r-forge.r-project.org/
+LazyLoad: FALSE
+Repository: CRAN
+Repository/R-Forge/Project: gwidgets
+Repository/R-Forge/Revision: 251
+Date/Publication: 2011-01-12 07:55:49
+Packaged: 2010-12-19 21:55:45 UTC; rforge

@@ -1,0 +1,16 @@
+Package: goric
+Type: Package
+Title: Generalized Order-Restricted Information Criterion
+Version: 0.0-1
+Date: 2011-10-25
+Author: Daniel Gerhard and Rebecca M. Kuiper
+Maintainer: Maintainer <R.M.Kuiper@uu.nl>
+Description: Generalized Order-Restricted Information Criterion (GORIC)
+        value for a set of hypotheses in multivariate regression models
+Depends: mvtnorm, quadprog
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+Packaged: 2011-10-25 13:31:09 UTC; daniel
+Repository: CRAN
+Date/Publication: 2011-10-26 17:59:59

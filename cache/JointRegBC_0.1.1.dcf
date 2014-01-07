@@ -1,0 +1,20 @@
+Package: JointRegBC
+Version: 0.1.1
+Date: 2013-06-13
+Title: Joint Modelling of Mixed Correlated Binary and Continuous
+        Responses : A Latent Variable Approach
+Author: Ehsan Bahrami Samani and Zhale Tahmasebinejad
+Maintainer: Ehsan Bahrami Samani <ehsan_bahrami_samani@yahoo.com>
+Description: A joint regression model for mixed correlated binary and
+        continuous responses is presented. In this model binary
+        response can be dependent on the continuous response. With this
+        model, the dependence between responses can be taken into
+        account by the correlation between errors in the models for
+        binary and continuous responses.
+Depends: R (>= 2.14.0),nlme,MASS,survival
+License: GPL (>= 2)
+Contact: +982129902910
+Packaged: 2013-06-16 03:32:10 UTC; User
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-16 08:27:19

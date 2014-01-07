@@ -1,0 +1,25 @@
+Package: RGraphics
+Title: Data and Functions from the book R Graphics, Second Edition
+Version: 2.0-6
+Author: Paul Murrell
+Description: Data and Functions from the book R Graphics, Second Edition. There is a function to produce each figure in the book, plus several functions, classes, and methods defined in Chapter 8.  
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+Depends: R (>= 2.13.0), datasets, stats, grDevices, graphics, methods,
+        grid, lattice, ggplot2
+Suggests: agricolae, animation, CircStats, circular, cluster,
+        colorspace, compositions, diagram, dichromat, gplots, graph,
+        gridBase, gridExtra, gridSVG, grImport, gWidgetsRGtk2, hexbin,
+        Hmisc, hyperdraw, igraph, iplots, ipred, latticeExtra,
+        latticist, mapdata, maps, maptools, MASS, misc3d, munsell,
+        network, openair, oz, party, pixmap, playwith, plotrix, pmg,
+        png, quantmod, raster, Rcmdr, RColorBrewer, rgdal, rggobi, rgl,
+        RGraphics, Rgraphviz, scatterplot3d, soiltexture, sp,
+        SVGAnnotation, symbols, TeachingDemos, tools, vcd, vcdExtra,
+        venneuler, vrmlgen
+License: GPL
+LazyData: yes
+URL: http://www.stat.auckland.ac.nz/~paul/RG2e/index.html
+Packaged: 2013-08-21 19:35:54 UTC; EC\pmur002
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-21 21:50:14

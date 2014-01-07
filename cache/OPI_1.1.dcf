@@ -1,0 +1,28 @@
+Package: OPI
+Type: Package
+Title: Open Perimetry Interface
+Version: 1.1
+Date: 2012-06-19
+Author: Andrew Turpin
+Maintainer: Andrew Turpin <aturpin@unimelb.edu.au>
+Description: This package contains the current version of the Open
+        Perimetry Interface (OPI), for controlling visual field
+        machines using R. The OPI is a standard for interfacing with
+        visual field testing machines (perimeters). It specifies basic
+        functions that allow many visual field tests to be constructed.
+        As of June 2012 it is partially implemented on the Octopus 900
+        and the Heidelberg Edge Perimeter. Note to use these two
+        machines you will need either the Rhep or OPIOctopus900
+        packages which require permission from the respective companies
+        to obtain: see the OPI www site. It also has a cousin: the R
+        package visualFields, which has tools for analysing and
+        manipulating visual field data.
+License: GPL-3
+URL: http://perimetry.org/OPI
+Suggests: OPIOctopus900
+Depends: methods, rJava
+Repository: CRAN
+Repository/R-Forge/Project: opi
+Repository/R-Forge/Revision: 18
+Packaged: 2012-07-25 10:21:00 UTC; rforge
+Date/Publication: 2012-07-26 05:41:04

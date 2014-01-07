@@ -1,0 +1,19 @@
+Package: HTSCluster
+Type: Package
+Title: Clustering high throughput sequencing (HTS) data
+Version: 2.0.1
+Date: 2013-10-18
+Author: Andrea Rau, Gilles Celeux, Marie-Laure Martin-Magniette, Cathy Maugis-Rabusseau
+Maintainer: Andrea Rau <andrea.rau@jouy.inra.fr>
+Depends: R (>= 2.10.0), plotrix, ggplot2, RColorBrewer
+Imports: edgeR
+Description: This package implements a Poisson mixture model to cluster observations (e.g., genes) in high throughput sequencing data. Parameter estimation is performed using either the EM or CEM algorithm, and the ICL criterion is used for model selection (i.e., to choose the number of clusters).
+License: GPL (>= 3)
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: htsfilter
+Repository/R-Forge/Revision: 63
+Repository/R-Forge/DateTimeStamp: 2013-10-18 09:39:24
+Date/Publication: 2013-12-10 14:53:44
+Packaged: 2013-10-18 10:16:06 UTC; rforge
+NeedsCompilation: no

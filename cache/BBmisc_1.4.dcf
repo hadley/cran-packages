@@ -1,0 +1,38 @@
+Package: BBmisc
+Title: Miscellaneous helper functions for B. Bischl.
+Description: Miscellaneous helper functions for and from B. Bischl and
+    some other guys at TU Dortmund, mainly for package development.
+Author: Bernd Bischl <bernd_bischl@gmx.net>, Michel Lang
+    <lang@statistik.tu-dortmund.de>, Olaf Mersmann
+    <olafm@p-value.net>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+URL: https://github.com/berndbischl/BBmisc
+BugReports: https://github.com/berndbischl/BBmisc/issues
+License: BSD_3_clause + file LICENSE
+Encoding: UTF-8
+Depends: methods
+Suggests: testthat
+LazyData: yes
+ByteCompile: yes
+Version: 1.4
+Collate: 'addClasses.R' 'argsAsNamedList.R' 'catf.R'
+        'checkListElementClass.R' 'chunk.R' 'clipString.R' 'coalesce.R'
+        'collapse.R' 'computeMode.R' 'convertDataFrameCols.R'
+        'convertInteger.R' 'directory.R' 'extractSubList.R' 'factor.R'
+        'getMaxColIndex.R' 'getMaxIndex.R' 'getOperatingSystem.R'
+        'insert.R' 'is_error.R' 'isExpensiveExampleOk.R' 'isFALSE.R'
+        'isProperlyNamed.R' 'isScalarNA.R' 'isScalarValue.R' 'lib.R'
+        'listToShortString.R' 'load2.R' 'lsort.R' 'makeDataFrame.R'
+        'makeProgressBar.R' 'makeS3Obj.R' 'makeSimpleFileLogger.R'
+        'messagef.R' 'namedList.R' 'names2.R' 'notin.R' 'pause.R'
+        'printStrToChar.R' 'printToChar.R' 'requirePackages.R'
+        'rowLapply.R' 'save2.R' 'seq.R' 'setAttribute.R' 'setClasses.R'
+        'setRowColNames.R' 'splitTime.R' 'stopf.R' 'strrepeat.R'
+        'suppressAll.R' 'system3.R' 'toRangeStr.R' 'warningf.R' 'zzz.R'
+        'matchDataFrameSubset.R' 'dropColumns.R'
+        'convertToShortString.R' 'checkArg.R' 'convertRowsToList.R'
+        'getUnixTime.R' 'stringsAsFactors.R'
+Packaged: 2013-11-06 02:56:30 UTC; bischl
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-06 07:10:58

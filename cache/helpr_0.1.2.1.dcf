@@ -1,0 +1,20 @@
+Package: helpr
+Type: Package
+Title: Help for R.
+Version: 0.1.2.1
+Author: Hadley Wickham <h.wickham@gmail.com> and Barret Schloerke
+        <schloerke@gmail.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: Better html documentation for R
+Depends: highlight, sinartra, digest, parser, rjson, tools, stringr (>=
+        0.4), evaluate, RCurl, memoise
+Imports: brew
+License: GPL-2
+LazyData: true
+Collate: 'changelog.r' 'demo.r' 'evaluate.r' 'functions.r' 'history.r'
+        'package.r' 'packages.r' 'parse-rd.r' 'pictures.r' 'render.r'
+        'route.r' 'solr-com.r' 'solr-query.r' 'solr-save.r' 'solr.r'
+        'topic.r'
+Packaged: 2010-10-27 16:38:56 UTC; barret
+Repository: CRAN
+Date/Publication: 2010-10-27 19:18:48

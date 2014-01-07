@@ -1,0 +1,27 @@
+Package: multitable
+Type: Package
+Title: Simultaneous manipulation of multiple arrays of data, with
+        data.list objects
+Version: 1.1
+Date: 2011-10-20
+Author: Steve C Walker
+Maintainer: Steve C Walker <steve.walker@utoronto.ca>
+Description: Many data sets do not easily fit into a single data frame.
+        Storing such data in a single data frame often results in
+        either large numbers of meaningless missing values or storage
+        of redundant information; yet storing them in multiple data
+        frames often results in long difficult-to-read workflows.  The
+        multitable package introduces a new data object called a
+        data.list, which organises several data tables as a single R
+        object.  The primary goal of multitable is to provide a more
+        intuitive syntax for manipulating multiple-table data in R.  As
+        data.lists can be coerced to data.frames, they can be used with
+        all R functions that accept an object that is coercible to a
+        data.frame (e.g. lm; plot; lme; and many more).
+Suggests: MASS, lattice, testthat
+License: GPL-2
+URL: http://multitable.r-forge.r-project.org/
+LazyLoad: yes
+Packaged: 2011-10-20 16:30:32 UTC; stevenwalker
+Repository: CRAN
+Date/Publication: 2011-10-20 20:26:13

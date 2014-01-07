@@ -1,0 +1,18 @@
+Package: EstCRM
+Version: 1.3
+Date: 2012-07-29
+Title: Calibrating Parameters for the Samejima's Continuous IRT Model
+Author: Cengiz Zopluoglu
+Maintainer: Cengiz Zopluoglu <zoplu001@umn.edu>
+Depends: Hmisc, lattice
+Description: The EstCRM package estimates item and person parameters
+        for the Samejima's Continuous Response Model (CRM), computes
+        item fit residual statistics, draws empirical 3D item category
+        response curves, draws theoretical 3D item category response
+        curves, and generates data under the CRM for simulation
+        studies.
+License: GPL (>= 2)
+URL: http://www.tc.umn.edu/~zoplu001
+Packaged: 2012-07-29 22:57:52 UTC; CZ
+Repository: CRAN
+Date/Publication: 2012-07-30 04:05:58

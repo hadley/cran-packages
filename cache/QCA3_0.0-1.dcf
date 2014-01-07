@@ -1,0 +1,20 @@
+Package: QCA3
+Type: Package
+Title: Qualitative Comparative Analaysis with R
+Version: 0.0-1
+Date: 2009-09-28
+Author: Ronggui HUANG
+Maintainer: Ronggui HUANG<ronggui.huang@gmail.com>
+Imports: lpSolve
+Suggests: QCA
+Description: A set of functions is for Qulitative Comparative Analysis
+        (QCA). It can be used for all three types of QCA.
+License: BSD
+LazyLoad: yes
+LazyData: yes
+URL: http://asrr.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: asrr
+Repository/R-Forge/Revision: 39
+Date/Publication: 2009-09-28 13:36:30
+Packaged: 2009-09-26 20:11:29 UTC; rforge

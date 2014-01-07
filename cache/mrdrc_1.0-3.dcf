@@ -1,0 +1,16 @@
+Package: mrdrc
+Title: Model-robust concentration-response analysis
+LazyLoad: yes
+LazyData: yes
+Version: 1.0-3
+Author: Christian Ritz <ritz@life.ku.dk>, Mads Jeppe Tarp-Johansen,
+Maintainer: Christian Ritz <ritz@life.ku.dk>
+Description: Model-robust, semi-parametric modelling of continuous and
+        quantal concentration/dose-response data.
+License: EUPL
+Depends: R (>= 2.6.0), drc, locfit, EffectiveDose
+Date: 2010-05-03
+URL: http://www.r-project.org
+Packaged: 2010-05-03 20:07:21 UTC; ritz
+Repository: CRAN
+Date/Publication: 2010-05-04 06:55:44

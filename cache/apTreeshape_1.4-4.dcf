@@ -1,0 +1,29 @@
+Package: apTreeshape
+Date: 2009-03-13
+Version: 1.4-4
+Title: Analyses of Phylogenetic Treeshape
+Author: Nicolas Bortolussi <nicolas.bortolussi@imag.fr>, Eric Durand
+        <eric.durand@berkeley.edu>, Michael Blum
+        <michael.blum@imag.fr>, Olivier Francois
+        <olivier.francois@imag.fr>
+Maintainer: ORPHANED
+Depends: R (>= 2.0.0)
+Imports: ape, quantreg
+Suggests: ape, quantreg
+Description: apTreeshape is mainly dedicated to simulation and analysis
+        of phylogenetic tree topologies using statistical indices. It
+        is a companion library of the 'ape' package. It provides
+        additional functions for reading, plotting, manipulating
+        phylogenetic trees. It also offers convenient web-access to
+        public databases, and enables testing null models of
+        macroevolution using corrected test statistics.  Trees of class
+        "phylo" (from 'ape' package) can be converted easily.
+License: GPL (>= 2)
+Encoding: latin1
+Repository: CRAN
+Date/Publication: 2012-10-29 06:58:14
+Packaged: 2012-10-29 08:58:14 UTC; ripley
+X-CRAN-Original-Maintainer: Eric Durand <eric.durand@berkeley.edu>
+X-CRAN-Comment: Orphaned on 2012-11-05 as the original maintainer, Eric
+        Durand, is not contactable and the address given is defunct (as
+        is that for the first-named author).

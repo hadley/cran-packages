@@ -1,0 +1,13 @@
+Package: ifultools
+Type: Package
+Title: Insightful Research Tools
+Version: 1.1-1
+Date: 2011-10-16
+Author: William Constantine
+Maintainer: William Constantine <wlbconstan@gmail.com>
+Depends: R (>= 2.5.1), splus2R (>= 1.1-0), MASS
+Description: Insightful Research Tools.
+License: GPL-2
+Collate: it_mutils.R it_plot.R it_util.R it_pkg.R
+Repository: CRAN
+Date/Publication: 2011-10-17 19:01:46

@@ -1,0 +1,20 @@
+Package: PKreport
+Title: A reporting pipeline for checking population pharmacokinetic
+        model assumption
+Version: 1.2
+Date: 2010-09-26
+Depends: R (>= 2.7.0), methods, lattice, ggplot2
+Author: Xiaoyong Sun
+Maintainer: Xiaoyong Sun <johnsunx1@gmail.com>
+Description: PKreport aims to 1) provide automatic pipeline for users
+        to visualize data and models. It creates a flexible R framework
+        with automatically generated R scripts to save time and cost
+        for later usage; 2) implement an archive-oriented management
+        tool for users to store, retrieve and modify figures. 3) offer
+        powerful and convenient service to generate high-quality graphs
+        based on two R packages: lattice and ggplot2.
+License: GPL (>= 2)
+LazyData: true
+Repository: CRAN
+Date/Publication: 2010-10-17 16:41:22
+Packaged: 2010-10-17 12:09:12 UTC; sunx1

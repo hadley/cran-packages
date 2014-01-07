@@ -1,0 +1,20 @@
+Package: svTools
+Type: Package
+Title: SciViews GUI API - Tools (wrapper for packages tools and
+        codetools)
+Version: 0.0-10
+Date: 2009-08-07
+Author: Romain Francois <francoisromain@free.fr>
+Maintainer: Romain Francois <francoisromain@free.fr>
+Description: Set of tools aimed at wrapping some of the functionalities
+        of the packages tools, utils and codetools into a nicer format
+        so that an IDE can use them
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: operators, codetools, svMisc, tools, utils
+Repository: CRAN
+Repository/R-Forge/Project: sciviews
+Repository/R-Forge/Revision: 171
+Date/Publication: 2009-08-10 13:05:02
+Packaged: 2009-08-07 20:29:31 UTC; rforge

@@ -1,0 +1,16 @@
+Package: RcmdrPlugin.PT
+Type: Package
+Title: Some discrete exponential dispersion models: Poisson-Tweedie
+Version: 1.0
+ate: 2010-03-19
+Author: David Pechel Cactcha, Laure Pauline Fotso and Celestin C
+        Kokonendji
+Maintainer: David Pechel Cactcha <davidpechel@uy1.uninet.cm>
+Depends: Rcmdr (>= 1.3-0),rgl,tkrplot, poistweedie,gWidgets, tcltk
+Description: This package provides a GUI for the poistweedie package,
+        it is developed as an Rcmdr plug-in.
+License: GPL (>= 2)
+Models:
+Packaged: 2012-10-29 08:57:34 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:34

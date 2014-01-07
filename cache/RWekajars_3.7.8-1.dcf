@@ -1,0 +1,14 @@
+Package: RWekajars
+Version: 3.7.8-1
+Title: R/Weka interface jars
+Authors@R: person("Kurt", "Hornik", role = c("aut", "cre"), email =
+        "Kurt.Hornik@R-project.org")
+Description: External jars required for package RWeka.
+Imports: rJava (>= 0.6-3)
+SystemRequirements: Java (>= 5.0)
+License: GPL-2
+Packaged: 2013-01-26 21:00:28 UTC; hornik
+Author: Kurt Hornik [aut, cre]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2013-01-26 22:07:20

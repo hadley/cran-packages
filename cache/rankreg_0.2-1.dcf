@@ -1,0 +1,12 @@
+Package: rankreg
+Maintainer: Mai Zhou <mai@ms.uky.edu>
+Version: 0.2-1
+Depends: R (>= 2.0.1), quantreg
+Author: Mai Zhou, Splus original of aft.fun by Jin Zhezhen.
+Description: Obtain rank regression estimator for the AFT model 
+             with right censored data. Testing a given value of 
+             the regression coefficient and Re-sampling variance 
+             estimator can also be computed.
+Title: Rank regression for censored data AFT model.
+License: Free for nonprofit use.  
+Packaged: Tue Dec  6 16:26:47 2005; mai

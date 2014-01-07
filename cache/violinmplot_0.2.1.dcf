@@ -1,0 +1,15 @@
+Package: violinmplot
+Type: Package
+Depends: lattice
+Title: Combination of violin plot with mean and standard deviation.
+Version: 0.2.1
+Date: 2010-09-17
+Author: Raphael W. Majeed
+Maintainer: Raphael W. Majeed <raphael.majeed@chiru.med.uni-giessen.de>
+Description: A lattice violin-plot is overlayed with the arithmetic
+        mean and standard deviation.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:58 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:59

@@ -1,0 +1,22 @@
+Package: epibasix
+Version: 1.3
+Date: 2012-11-15
+Title: Elementary Epidemiological Functions for Epidemiology and
+        Biostatistics
+Author: Michael A Rotondi <mrotondi@yorku.ca>
+Maintainer: Michael A Rotondi <mrotondi@yorku.ca>
+Depends: R (>= 2.01)
+Description: This package contains elementary tools for analysis of
+        common epidemiological problems, ranging from sample size
+        estimation, through 2x2 contingency table analysis and basic
+        measures of agreement (kappa, sensitivity/specificity).
+        Appropriate print and summary statements are also written to
+        facilitate interpretation wherever possible.  Source code is
+        commented throughout to facilitate modification.  The target
+        audience includes advanced undergraduate and graduate students
+        in epidemiology or biostatistics courses, and clinical
+        researchers.
+License: GPL (>= 2)
+Packaged: 2012-11-15 21:31:52 UTC; mrotondi
+Repository: CRAN
+Date/Publication: 2012-11-15 21:51:56

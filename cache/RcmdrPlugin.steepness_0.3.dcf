@@ -1,0 +1,16 @@
+Package: RcmdrPlugin.steepness
+Type: Package
+Title: Steepness Rcmdr Plug-in
+Version: 0.3
+Date: 2011-14-06
+Author: David Leiva <dleivaur@ub.edu> & Han de Vries
+        <J.deVries@bio.uu.nl>
+Maintainer: David Leiva <dleivaur@ub.edu>
+Depends: tcltk, steepness
+Imports: Rcmdr (>= 1.9-3)
+Description: This package provides a GUI for the steepness package, it
+        is written as an Rcmdr plug-in.
+License: GPL (>= 2)
+Packaged: 2013-01-22 13:06:36 UTC; dleivaur
+Repository: CRAN
+Date/Publication: 2013-01-24 09:58:49

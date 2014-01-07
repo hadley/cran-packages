@@ -1,0 +1,19 @@
+Package: Rbitcoin
+Type: Package
+Title: Bitcoin to R interface
+Version: 0.5.1
+Date: 2013-11-15
+Author: Jan Gorecki
+Maintainer: Jan Gorecki <j.gorecki@wit.edu.pl>
+Description: Utilities related to Bitcoin: markets API interface (mtgox,
+    bitstamp, btce, kraken). Both public and private API calls: ticker, recent
+    trades, order book, place order and more. Supports HTTP over SSL. Debug
+    messages of Rbitcoin, debug messages of RCurl, error handling. Please read
+    Rbitcoin documentation (command ?btc) for more information.
+License: MIT + file LICENSE
+Imports: RJSONIO, RCurl, digest
+Collate: 'Rbitcoin.R'
+Packaged: 2013-11-16 21:08:03 UTC; Janek
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-17 08:50:46

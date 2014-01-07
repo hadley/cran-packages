@@ -1,0 +1,25 @@
+Package: bclust
+Type: Package
+Title: Bayesian clustering using spike-and-slab hierarchical model,
+        suitable for clustering high-dimensional data.
+Version: 1.3
+Date: 2012-04-12
+Author: Vahid PARTOVI NIA and Anthony C. DAVISON
+Maintainer: Vahid PARTOVI NIA <vpartovinia@gmail.com>
+Depends: R (>= 2.15.0)
+Description: The package builds a dendrogram with log posterior as a
+        natural distance defined by the model. It is also capable to
+        computing Bayesian discrimination probabilities equivalent to
+        the implemented Bayesian clustering. Spike-and-Slab models are
+        adopted in a way to be able to produce an importance measure
+        for clustering and discriminant variables. The method works
+        properly for data with small sample size and high dimensions.
+        The model parameter estimation maybe difficult, depending on
+        data structure and the chosen distribution family.
+License: GPL (>= 2)
+URL: http://bclust.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: bclust
+Repository/R-Forge/Revision: 35
+Packaged: 2012-04-16 06:18:10 UTC; rforge
+Date/Publication: 2012-04-17 17:48:34

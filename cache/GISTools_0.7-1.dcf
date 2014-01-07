@@ -1,0 +1,14 @@
+Package: GISTools
+Title: Some further GIS capabilities for R
+Version: 0.7-1
+Date: 2012-07-03
+Author: Chris Brunsdon and Hongyan Chen
+Maintainer: Chris Brunsdon <christopher.brunsdon@liverpool.ac.uk>
+Description: Some mapping and spatial data manipulation tools - in
+        particular drawing choropleth maps with nice looking legends,
+        and aggregation of point data to polygons.
+Depends: R (>= 2.15.0), maptools, RColorBrewer, MASS, rgeos
+License: GPL (>= 2)
+Packaged: 2012-07-03 16:19:49 UTC; root
+Repository: CRAN
+Date/Publication: 2012-07-03 16:55:53

@@ -1,0 +1,15 @@
+Package: jmec
+Version: 1.0-3
+Date: 2012-06-02
+Title: Fit joint model for event and censoring with cluster-level
+        frailties
+Author: Willem M. van der Wal <w.m.vd.wal@umcutrecht.nl>
+Maintainer: Willem M. van der Wal <w.m.vd.wal@umcutrecht.nl>
+Depends: R (>= 2.0.0), nlme, survival
+Description: Fit joint model for event and censoring, with
+        cluster-level frailties, according to Huang & Wolfe (2002).
+Encoding: latin1
+License: GPL (>= 2)
+Packaged: 2012-06-02 13:48:28 UTC; wwal
+Repository: CRAN
+Date/Publication: 2012-06-02 15:25:01

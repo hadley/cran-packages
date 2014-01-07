@@ -1,0 +1,16 @@
+Package: JOP
+Type: Package
+Title: Joint Optimization Plot
+Version: 3.3
+Date: 2012-11-13
+Author: Sonja Kuhnt and Nikolaus Rudak
+Maintainer: Nikolaus Rudak <rudak@statistik.tu-dortmund.de>
+Depends: Rsolnp, dglm
+Description: JOP is a tool for simultaneous optimization of multiple
+        responses and visualization of the results. The visualization
+        is done by the joint optimization plot introduced by Kuhnt and
+        Erdbruegge (2004).
+License: GPL (>= 2)
+Packaged: 2012-11-13 15:44:13 UTC; rudak
+Repository: CRAN
+Date/Publication: 2012-11-15 18:38:23

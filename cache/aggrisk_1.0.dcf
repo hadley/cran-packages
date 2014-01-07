@@ -1,0 +1,23 @@
+Package: aggrisk
+Type: Package
+Title: Estimate individual level risk using individual case data and
+        spatially aggregated control data
+Version: 1.0
+Date: 2011-09-18
+Author: Michelle Stanton, Yongtao Guan
+Maintainer: Michelle Stanton <m.stanton@lancaster.ac.uk>
+Depends: R (>= 2.10)
+Description: This package uses weighted estimating equations to
+        estimate regression parameters in the intensity function of an
+        inhomogeneous spatial Poisson process, when information on
+        risk-factors is available at the individual level for cases,
+        but only at a spatially aggregated level for the population at
+        risk. Data-driven methods are used to select the weights used
+        in the estimating equations. A formal test is available to
+        detect non-Poisson behaviour in the underlying point process.
+License: GPL (>= 2)
+LazyLoad: yes
+ZipData: no
+Packaged: 2012-10-29 08:58:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:11

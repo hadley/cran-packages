@@ -1,0 +1,15 @@
+Package: LambertW
+Type: Package
+Title: Lambert W parameter estimation
+Version: 0.1.0
+Date: 2009-03-21
+Author: Georg M. Goerg
+Maintainer: Georg M. Goerg <ggoerg@mat.puc.cl>
+Description: Estimation, plotting, testing of Lambert W random
+        variables
+Depends: moments, gsl, MASS, maxLik, nortest
+License: GPL-2
+LazyLoad: yes
+Packaged: Mon Mar 23 18:52:40 2009; hornik
+Repository: CRAN
+Date/Publication: 2009-03-23 18:07:08

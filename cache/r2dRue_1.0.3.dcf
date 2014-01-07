@@ -1,0 +1,17 @@
+Package: r2dRue
+Type: Package
+Title: 2d Rain Use Efficience model
+Version: 1.0.3
+Date: 2011-03-31
+Author: Gabriel del Barrio, Juan Puigdefabregas, Maria E. Sanjuan &
+        Alberto Ruiz
+Maintainer: Alberto Ruiz Moreno <aruiz@eeza.csic.es>
+Description: 2dRUE is a methodology to make a diagnostic of land
+        condition in a large territory during a given time period. Was
+        developed under the DeSurvey IP.
+License: GPL
+LazyLoad: yes
+Depends: rgdal,sp,matrixStats
+Packaged: 2011-03-31 10:06:52 UTC; aruiz
+Repository: CRAN
+Date/Publication: 2011-04-26 15:30:12

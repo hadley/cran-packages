@@ -1,0 +1,19 @@
+Package: BioMark
+Type: Package
+Title: Find biomarkers in two-class discrimination problems
+Version: 0.2.6
+Date: 2011-02-1
+Author: Ron Wehrens, Pietro Franceschi
+Maintainer: Ron Wehrens <ron.wehrens@iasma.it>
+Description: The package implements PCLDA, PLSDA, and several t-tests
+        to find those variables that allow for adequate discrimination
+        between two classes. Apart from the usual approaches based on
+        the size of model coefficients, a set of functions is provided
+        that assess the stability of the potential biomarkers under
+        crossvalidation.
+License: GPL (>= 2)
+Depends: MASS, pls, st
+LazyLoad: yes
+Packaged: 2011-02-08 12:47:44 UTC; ron
+Repository: CRAN
+Date/Publication: 2011-02-08 15:49:50

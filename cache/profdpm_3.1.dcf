@@ -1,0 +1,18 @@
+Package: profdpm
+Type: Package
+Title: Profile Dirichlet Process Mixtures
+Version: 3.1
+Date: 2012-09-07
+Author: Matt Shotwell
+Maintainer: Matt Shotwell <matt.shotwell@vanderbilt.edu>
+Description: This package facilitates profile inference (inference at
+        the posterior mode) for a class of product partition models
+        (PPM). The Dirichlet process mixture is currently the only
+        available member of this class. These methods search for the
+        maximum posterior (MAP) estimate for the data partition in a
+        PPM.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-09-07 17:19:23 UTC; matt
+Repository: CRAN
+Date/Publication: 2012-09-07 19:34:18

@@ -1,0 +1,11 @@
+Package: tcltk2
+Title: SciViews GUI API - More tcltk
+Version: 0.9-5
+Date: 2006-02-10
+Depends: R (>= 2.1.0), tcltk
+Author: Philippe Grosjean <phgrosjean@sciviews.org>
+Description: A series of widgets (themed controls, tktable, combobox, multi-column list, etc...) and various functions (under Windows: DDE exchange, access to the registry and icon manipulation) to supplement tcltk.
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: GPL 2 or above, and respective individual licenses for the Tk widgets
+URL: http://www.sciviews.org/SciViews-R
+Packaged: Fri Feb 10 14:14:51 2006; hornik

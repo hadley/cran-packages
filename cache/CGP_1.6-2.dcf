@@ -1,0 +1,17 @@
+Package: CGP
+Type: Package
+Title: Composite Gaussian process models
+Version: 1.6-2
+Date: 2012-08-08
+Author: Shan Ba and V. Roshan Joseph
+Maintainer: Shan Ba <sba3@isye.gatech.edu>
+Description: Fit composite Gaussian process (CGP) models as described
+        in Ba and Joseph (2012) "Composite Gaussian Process Models for
+        Emulating Expensive Functions", Annals of Applied Statistics.
+        The CGP model is capable of approximating complex surfaces that
+        are not second-order stationary.  Important functions in this
+        package are CGP, summary.CGP, predict.CGP and plotCGP.
+License: LGPL-2.1
+Packaged: 2012-08-08 17:57:56 UTC; Shan
+Repository: CRAN
+Date/Publication: 2012-08-08 18:54:53

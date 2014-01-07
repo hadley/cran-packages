@@ -1,0 +1,30 @@
+Package: MultinomialCI
+License: LGPL (>= 3)
+Maintainer: Pablo J. Villacorta <pjvi@decsai.ugr.es>
+BugReports: http://decsai.ugr.es/~pjvi
+LazyData: false
+Title: Simultaneous confidence intervals for multinomial proportions
+        according to the method by Sison and Glaz
+Type: Package
+Author: Pablo J. Villacorta <pjvi@decsai.ugr.es>
+Description: An implementation of a method for building simultaneous
+        confidence intervals for the probabilities of a multinomial
+        distribution given a set of observations, proposed by Sison and
+        Glaz in their paper Sison, C.P and J. Glaz. Simultaneous
+        confidence intervals and sample size determination for
+        multinomial proportions. Journal of the American Statistical
+        Association, 90:366-369 (1995).  The method is an R translation
+        of the SAS code implemented by May and Johnson in their paper:
+        May, W.L. and W.D. Johnson. Constructing two-sided simultaneous
+        confidence intervals for multinomial proportions for small
+        counts in a large number of cells. Journal of Statistical
+        Software 5(6) (2000). Paper and code available at
+        http://www.jstatsoft.org/v05/i06
+Version: 1.0
+URL: http://decsai.ugr.es/~pjvi
+Date: 2012-12-10
+Depends: R (>= 2.15.0)
+Collate: 'aux-fn.R' 'sison.R'
+Packaged: 2012-12-07 12:06:07 UTC; Pablo
+Repository: CRAN
+Date/Publication: 2012-12-07 14:15:48

@@ -1,0 +1,21 @@
+Package: sda
+Version: 1.2.2
+Date: 2012-08-19
+Title: Shrinkage Discriminant Analysis and CAT Score Variable Selection
+Author: Miika Ahdesmaki, Verena Zuber, and Korbinian Strimmer
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.10.0), lattice, entropy (>= 1.1.7), corpcor (>=
+        1.6.3), fdrtool (>= 1.2.10)
+Suggests:
+Description: This package provides an efficient framework for
+        high-dimensional linear and diagonal discriminant analysis with
+        variable selection.  The classifier is trained using
+        James-Stein-type shrinkage estimators and predictor variables
+        are ranked using CAT scores (correlation-adjusted t-scores).
+        Variable selection error is controlled using false
+        non-discovery rates or higher criticism scores.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/sda/
+Packaged: 2012-08-19 17:58:29 UTC; strimmer
+Repository: CRAN
+Date/Publication: 2012-08-20 04:37:00

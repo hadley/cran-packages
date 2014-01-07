@@ -1,0 +1,33 @@
+Package: devtools
+Title: Tools to make developing R code easier
+Version: 0.8
+Authors@R: c( person("Hadley", "Wickham", email =
+        "h.wickham@gmail.com", role = c("aut", "cre")),
+        person("Winston", "Chang", role = "aut"), person("R Core team",
+        role = "ctb", comment = "Namespace related code extracted out
+        of base R"))
+Description: Collection of package development tools
+Depends: R (>= 2.15)
+Imports: httr, RCurl, utils, tools, memoise, whisker, evaluate
+Suggests: testthat, roxygen2, BiocInstaller
+License: GPL (>= 2)
+Collate: 'bash.r' 'build.r' 'check.r' 'check-cran.r'
+        'common-mistakes.r' 'devel-mode.r' 'document.r' 'file-cache.r'
+        'has-devel.r' 'install.r' 'load-code.r' 'load-data.r' 'load.r'
+        'news.r' 'package-deps.r' 'package-env.r' 'package.r'
+        'release.r' 'reload.r' 'run-examples.r' 'system.r' 'test.r'
+        'vignettes.r' 'zzz.r' 'wd.r' 'source.r' 'decompress.r'
+        'install-github.r' 'install-url.r' 'install-version.r'
+        'install-gitorious.r' 'missing-s3.r' 'run-source.r'
+        'dependencies.r' 'with.r' 'install-bitbucket.r' 'path.r'
+        'run-loadhooks.r' 'env-utils.r' 'inst.r' 'metadata.r'
+        'create.r' 'session-info.r' 'parent-envs.r' 'compile.r'
+        'load-dll.r' 'utils.r' 'imports-env.r' 'namespace-env.r'
+        'topic-index.r' 'dev-example.r' 'run-example.r' 'dev-help.r'
+        'check_devtools.r'
+Packaged: 2012-09-14 17:41:20 UTC; hadley
+Author: Hadley Wickham [aut, cre], Winston Chang [aut], R Core team
+        [ctb] (Namespace related code extracted out of base R)
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Repository: CRAN
+Date/Publication: 2012-09-14 19:34:20

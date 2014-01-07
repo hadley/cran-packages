@@ -1,0 +1,13 @@
+Package: ROptEst
+Version: 0.5.0
+Date: 2007-08-06
+Title: Optimally robust estimation
+Description: Optimally robust estimation using S4 classes and methods
+Depends: R(>= 2.4.0), methods, distr(>= 1.9), distrEx(>= 1.9), RandVar(>= 0.6)
+Author: Matthias Kohl
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+SaveImage: no
+LazyLoad: yes
+License: GPL version 2 or later
+URL: http://www.stamats.de/RobASt.htm
+Packaged: Mon Aug  6 08:05:26 2007; kohl

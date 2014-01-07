@@ -1,0 +1,23 @@
+Package: Demerelate
+Version: 0.8-0
+Date: 2012-05-24
+Title: Functions to calculate relatedness on diploid genetic data
+Authors@R: c(person("Philipp","Kraemer",role=c("aut",
+        "cre"),email="Philipp.Kraemer@uni-oldenburg.de"),person("Gabriele","Gerlach",role="aut",email="Gabriele.Gerlach@uni-oldenburg.de"))
+Author: Philipp Kraemer and Gabriele Gerlach
+Maintainer: Philipp Kraemer <Philipp.Kraemer@uni-oldenburg.de>
+Depends: R (>= 2.15.0), fts, mlogit, sfsmisc
+Suggests: MASS
+Description: Functions to calculate pairwise relatedness on diploid
+        genetic datasets. Different estimators for relatedness can be
+        combined with information on geographical distances.
+        Information on heterozygosity, allele- and genotype diversity
+        as well as genetic F-statistics are provided for each
+        population.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+BugReports: http://Demerelate.bugtracker.url
+Packaged: 2013-05-24 08:10:41 UTC; philipp
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-24 10:29:00

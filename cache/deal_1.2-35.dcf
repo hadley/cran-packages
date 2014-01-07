@@ -1,0 +1,20 @@
+Package: deal
+Version: 1.2-35
+Date: 2011-04-01
+Title: Learning Bayesian Networks with Mixed Variables
+Author: Susanne Gammelgaard Bottcher <alma@math.aau.dk>, Claus
+        Dethlefsen <cld@rn.dk>.
+Maintainer: Claus Dethlefsen <cld@rn.dk>
+Depends: R (>= 2.0.0)
+Description: Bayesian networks with continuous and/or discrete
+        variables can be learned and compared from data.
+License: GPL (>= 2)
+Collate: addarrows.R autosearch.R conditional.R cycletest.R
+        drawnetwork.R findex.R generic.R genlatex.R heuristic.R
+        inspectprob.R jointcont.R jointdisc.R jointprior.R learning.R
+        makesimprob.R fullsimprob.R maketrylist.R master.R network.R
+        networkfamily.R node.R numbermixed.R perturb.R postc.R postc0.R
+        postdist.R readnet.R rnetwork.R savenet.R unique.R
+Packaged: 2012-08-14 13:32:56 UTC; 86c9
+Repository: CRAN
+Date/Publication: 2012-08-14 13:59:43

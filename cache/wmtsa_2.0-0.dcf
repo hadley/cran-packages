@@ -1,0 +1,21 @@
+Package: wmtsa
+Type: Package
+Title: Wavelet Methods for Time Series Analysis
+Version: 2.0-0
+Author: William Constantine and Donald Percival (Applied Physics
+        Laboratory, University of Washington)
+Maintainer: Don Percival <dbp@apl.washington.edu>
+Depends: R (>= 3.0.2), splus2R (>= 1.2-0), ifultools (>= 2.0-0), MASS,
+        graphics, stats
+Description: Software to book Wavelet Methods for Time Series Analysis,
+        Donald B. Percival and Andrew T. Walden, Cambridge University
+        Press, 2000.
+License: GPL-2
+ZipData: no
+Collate: wav_boot.R wav_coef.R wav_dict.R wav_fdp.R wav_filt.R
+        wav_gnrc.R wav_mrd.R wav_plot.R wav_shrk.R wav_sig.R wav_util.R
+        wav_var.R wav_wtmm.R wav_xform.R wav_pkg.R
+Repository: CRAN
+Packaged: 2013-12-21 01:30:54 UTC; billc
+NeedsCompilation: no
+Date/Publication: 2013-12-30 19:22:08

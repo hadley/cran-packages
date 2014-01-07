@@ -1,0 +1,23 @@
+Package: protiq
+Type: Package
+Title: Protein (identification and) quantification based on peptide
+        evidence
+Version: 1.0
+Date: 2012-10-01
+Author: Sarah Gerster and Peter Buehlmann
+Maintainer: Sarah Gerster <sarah.gerster@isb-sib.ch>
+Description: Method for protein quantification based on identified and
+        quantified peptides. protiq can be used for absolute and
+        relative protein quantification. Input peptide abundance scores
+        can come from various sources, including SRM transition areas
+        and intentisites or spectral counts derived from shotgun
+        experiments. The package is still being extended to also
+        include the model for protein identification, MIPGEM, presented
+        in Gerster et al. in PNAS in 2010.
+License: GPL (>= 2)
+Depends: methods
+Imports: graph, RBGL, mvtnorm
+Suggests: gplots
+Packaged: 2012-10-02 18:29:56 UTC; sarah
+Repository: CRAN
+Date/Publication: 2012-10-02 20:36:52

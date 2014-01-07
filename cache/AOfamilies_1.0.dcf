@@ -1,0 +1,18 @@
+Package: AOfamilies
+Type: Package
+Title: Aranda-Ordaz (AO) transformation families
+Version: 1.0
+Date: 2012-10-18
+Author: Hakim-Moulay Dehbi (with contributions from Mario Cortina-Borja
+        and Marco Geraci)
+Maintainer: Dehbi, Hakim-Moulay <hakim-moulay.dehbi12@imperial.ac.uk>
+Description: This package implements AO transformations for binary
+        response variables in Generalized Linear Models (GLMs) and
+        bounded response variables in Quantile Regression (QR) models.
+        The Maximum Likelihood Estimate (MLE) of the transformation
+        parameter is obtained using the profile log likelihood method
+Depends: lqmm, quantreg
+License: GPL (>= 2)
+Packaged: 2012-10-18 11:08:01 UTC; Hakim
+Repository: CRAN
+Date/Publication: 2012-10-18 13:22:39

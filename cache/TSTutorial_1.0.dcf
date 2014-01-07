@@ -1,0 +1,15 @@
+Package: TSTutorial
+Type: Package
+Title: Fitting and Predict Time Series Interactive Laboratory
+Version: 1.0
+Date: 2012-04-12
+Author: Alberto Lopez Moreno
+Co-author: Josep Anton Sanchez Espigares
+Maintainer: Alberto Lopez Moreno <bertolomo@gmail.com>
+Description: Interactive laboratory of Time Series based in Box-Jenkins
+        metodology.
+License: GPL (>= 2.0)
+Depends: methods, grDevices, graphics, stats, snowfall, MASS
+Packaged: 2012-04-14 20:49:33 UTC; Alberto
+Repository: CRAN
+Date/Publication: 2012-04-15 07:13:38

@@ -1,0 +1,17 @@
+Package: phom
+Type: Package
+Title: Persistent Homology in R
+Version: 1.0.1
+Date: 2011-11-02
+Author: Andrew Tausz
+Maintainer: Andrew Tausz <atausz@stanford.edu>
+Description: This package computes persistent homology of filtered
+        simplicial complexes, and provides facilities for constructing
+        complexes from geometric data.
+License: BSD
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.7)
+LinkingTo: Rcpp
+Packaged: 2012-03-13 19:27:25 UTC; icme
+Repository: CRAN
+Date/Publication: 2012-03-13 19:29:19

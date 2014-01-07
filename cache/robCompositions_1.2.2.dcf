@@ -1,0 +1,19 @@
+Package: robCompositions
+Type: Package
+Title: Robust Estimation for Compositional Data.
+Version: 1.2.2
+Date: 2009-04-29
+Depends: utils, robustbase, car, e1071, MASS, compositions
+Author: Matthias Templ, Karel Hron, Peter Filzmoser
+Maintainer: Matthias Templ <templ@tuwien.ac.at>
+Description: The package includes methods for imputation of
+        compositional data including robust methods, (robust) outlier
+        detection for compositional data, (robust) principal component
+        analysis for compositional data, (robust) factor analysis for
+        compositional data and (robust) Anderson-Darling normality
+        tests for compositional data.
+License: GPL-2
+LazyLoad: yes
+Packaged: Fri May 8 09:18:25 2009; templ$
+Repository: CRAN
+Date/Publication: 2009-05-08 11:22:02

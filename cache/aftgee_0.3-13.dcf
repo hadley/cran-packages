@@ -1,0 +1,23 @@
+Package: aftgee
+Type: Package
+Title: Accelerated Failure Time Model with Generalized Estimating
+        Equations
+Version: 0.3-13
+Date: 2012-11-15
+Author: Sy Han (Steven) Chiou, Sangwook Kang, Jun Yan
+Maintainer: Sy Han (Steven) Chiou <steven.chiou@huskymail.uconn.edu>
+Description: This package features both rank-based estimates and least
+        square estimates to the Accelerated Failure Time (AFT) model.
+        For rank-based estimation, it provides approaches that include
+        the computationally efficient Gehan's weight and the general's
+        weight such as the logrank weight. For the least square
+        estimation, the estimating equation is solved with Generalized
+        Estimating Equations (GEE). Moreover, in multivariate cases,
+        the dependence working correlation structure can be specified
+        in GEE's setting.
+License: GPL (>= 3)
+Imports: MASS, BB, survival, geepack
+LazyLoad: yes
+Packaged: 2012-11-15 16:29:04 UTC; schiou
+Repository: CRAN
+Date/Publication: 2012-11-15 17:27:48

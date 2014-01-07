@@ -1,0 +1,18 @@
+Package: PMA
+Type: Package
+Title: Penalized Multivariate Analysis
+Version: 1.0.2
+Date: 2009-02-07
+Author: Daniela Witten and Rob Tibshirani
+Maintainer: Daniela Witten <dwitten@stanford.edu>
+Description: Performs Penalized Multivariate Analysis: a penalized
+        matrix decomposition, sparse principal components analysis, and
+        sparse canonical correlation analysis, described in the
+        following paper: Witten, Tibshirani and Hastie (2009) A
+        penalized matrix decomposition, with applications to sparse
+        principal components and canonical correlation analysis.
+License: GPL (>= 2)
+Depends: R (>= 1.9.0)
+Packaged: Sun Apr 12 12:42:44 2009; dwitten
+Repository: CRAN
+Date/Publication: 2009-04-15 07:32:59

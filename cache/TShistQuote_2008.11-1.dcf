@@ -1,0 +1,14 @@
+Package: TShistQuote
+Version: 2008.11-1
+Date:2008-11-1
+Title:  TSdbi Interface to get.hist.quote
+Description: Provides methods for generics in the TSdbi package to 
+	retrieve data from historical quote URLs.
+Depends: R (>= 2.8.0), methods, DBI, TSdbi, tseries, tframe, tframePlus, zoo
+Imports: DBI, methods
+Enhances: TSdbi
+License: GPL-2
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Sat Nov  1 13:21:03 2008; paul

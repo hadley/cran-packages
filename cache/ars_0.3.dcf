@@ -1,0 +1,10 @@
+Package: ars
+Title: Adaptive Rejection Sampling
+Version: 0.3
+Date: 2009-01-25
+Author: Paulino Perez Rodriguez <perpdgo@colpos.mx> original C++ code from Arnost Komarek based on ars.f written by P. Wild and W. R. Gilks
+Maintainer: Paulino Perez Rodriguez <perpdgo@colpos.mx>
+Depends: R (>= 2.4.0)
+Description: Adaptive Rejection Sampling, Original version
+License: GPL version 2 or newer 
+Packaged: Mon Jan 26 05:35:57 2009; paulino

@@ -1,0 +1,19 @@
+Package: BADER
+Type: Package
+Title: Bayesian Analysis of Differential Expression in RNA Sequencing
+        Data
+Version: 0.1.1
+Date: 2012-11-21
+Author: Andreas Neudecker, Matthias Katzfuss
+Maintainer: Andreas Neudecker <a.neudecker@arcor.de>
+Description: For RNA sequencing count data, BADER fits a Bayesian
+        hierarchical model. The algorithm returns the posterior
+        probability of differential expression for each gene between
+        two groups A and B. The joint posterior distribution of the
+        variables in the model can be returned in the form of posterior
+        samples, which can be used for further down-stream analyses
+        such as gene set enrichment.
+License: GPL-2
+Packaged: 2012-11-21 19:42:05 UTC; andreas
+Repository: CRAN
+Date/Publication: 2012-11-21 19:51:34

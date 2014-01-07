@@ -1,0 +1,16 @@
+Package: fractaldim
+Version: 0.8-1
+Date: 2011-02-25
+Title: Estimation of fractal dimensions
+Author: Hana Sevcikova <hanas@uw.edu>, Tilmann Gneiting
+        <tilmann@stat.washington.edu>, Don Percival
+        <dbp@apl.washington.edu>
+Maintainer: Hana Sevcikova <hanas@uw.edu>
+Depends: R (>= 2.11.0), abind
+Suggests: wavelets, pcaPP, RandomFields, snowFT
+Description: Implements various methods for estimating fractal
+        dimension of time series and 2-dimensional data.
+License: GPL (>= 2)
+Packaged: 2011-02-25 18:28:55 UTC; hana
+Repository: CRAN
+Date/Publication: 2011-02-26 08:22:08

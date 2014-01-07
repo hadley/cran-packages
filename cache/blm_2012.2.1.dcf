@@ -1,0 +1,17 @@
+Package: blm
+Type: Package
+Title: Binomial linear and linear-expit regression
+Version: 2012.2.1
+Date: 2012-5-10
+Depends: R (>= 2.10.1), stats, methods, MASS
+Author: S. Kovalchik
+Maintainer: S.Kovalchik <s.a.kovalchik@gmail.com>
+Description: Implements regression models for binary data on the
+        absolute risk scale. These models are applicable to cohort and
+        populaiton-based case-control data.
+License: GPL (>= 2)
+LazyLoad: yes
+BuildVignettes: no
+Packaged: 2012-05-19 04:34:15 UTC; kovalchiksa
+Repository: CRAN
+Date/Publication: 2012-05-19 06:38:03

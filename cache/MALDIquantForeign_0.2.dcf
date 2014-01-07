@@ -1,0 +1,30 @@
+Package: MALDIquantForeign
+Version: 0.2
+Date: 2013-01-14
+Title: Import/Export routines for MALDIquant
+Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"),
+        email="mail@sebastiangibb.de"))
+Imports: MALDIquant
+Depends: R (>= 2.14.0), methods, MALDIquant (>= 1.5), digest, XML,
+        base64enc, readBrukerFlexData (>= 1.5), readMzXmlData (>= 2.5)
+Suggests: testthat
+Description: This package allows to read (tab, csv, fid, mzXML, mzML)
+        and write (tab, csv, msd) different file formats of mass
+        spectrometry data into/from MALDIquant objects.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/maldiquant/
+        https://github.com/sgibb/MALDIquantForeign/
+LazyLoad: yes
+Collate: 'package.R' 'AllGenerics.R' 'base64encode-functions.R'
+        'export-methods.R' 'exportMsd-methods.R' 'exportTab-methods.R'
+        'fileFormats.R' 'filename-functions.R' 'filename-methods.R'
+        'importAuto-functions.R' 'importBrukerFlex-functions.R'
+        'import-functions.R' 'importMzMl-functions.R'
+        'importMzXml-functions.R' 'importTab-functions.R'
+        'list.files-functions.R' 'msd-functions.R' 'parseMzMl.R'
+        'sanitize-functions.R' 'xml-functions.R'
+Packaged: 2013-01-14 14:27:32 UTC; sebastian
+Author: Sebastian Gibb [aut, cre]
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+Repository: CRAN
+Date/Publication: 2013-01-14 16:14:35

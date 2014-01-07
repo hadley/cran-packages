@@ -1,0 +1,18 @@
+Package: GeneTS
+Version: 2.12.0
+Date: 2006-08-09
+Title: Microarray Time Series and Network Analysis
+Author: Miika Ahdesmaki, Konstantinos Fokianos,
+	Rainer Opgen-Rhein, Juliane Schaefer, and
+        Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <korbinian.strimmer@lmu.de>
+Depends: R (>= 2.0.0), GeneCycle (>= 1.0.0), GeneNet (>= 1.0.0)
+Suggests: 
+Description: With the present version, GeneTS has become a meta-package that
+       exists mainly for reasons of backward compatibility. Its only purpose 
+       is to load the GeneCycle and GeneNet packages.You may load 
+       either of these packages directly.
+License: GPL version 2 or newer
+URL: http://www.strimmerlab.org/software/genets/
+biocViews: TimeCourse, GraphsAndNetworks, MultipleComparisons, Visualization
+Packaged: Thu Aug 10 12:59:08 2006; strimmer

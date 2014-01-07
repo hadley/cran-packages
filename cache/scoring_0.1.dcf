@@ -1,0 +1,19 @@
+Package: scoring
+Title: Proper scoring rules
+Version: 0.1
+Date: 2013-06-13
+Author: Ed Merkle
+Maintainer: Ed Merkle <merklee@missouri.edu>
+Description: Evaluating probabilistic forecasts via proper scoring
+        rules.  scoring implements the beta, power, and pseudospherical
+        families of proper scoring rules.  Included among these
+        families are popular rules like the Brier (quadratic) score,
+        logarithmic score, and spherical score.  Also includes
+        functionality for plotting scores that one would obtain under
+        specific scoring rules.  Functionality is currently limited to
+        forecasts associated with two-alternative events.
+License: GPL-2
+Packaged: 2013-07-02 21:10:01 UTC; merkle
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-03 01:11:38

@@ -1,0 +1,19 @@
+Package: bcv
+Version: 1.0
+Date: 2009-10-14
+Title: Cross-Validation for the SVD (Bi-Cross-Validation)
+Author: Patrick O. Perry
+Maintainer: Patrick O. Perry <patperry@gmail.com>
+Description: This package implements methods for choosing the rank of
+        an SVD approximation via cross validation.  It provides both
+        Gabriel-style "block" holdouts and Wold-style "speckled"
+        holdouts.  Also included is an implementation of the SVDImpute
+        algorithm.  For more information about Bi-cross-validation, see
+        Owen & Perry's 2009 AOAS article (at
+        http://arxiv.org/abs/0908.2062) and Perry's 2009 PhD thesis (at
+        http://arxiv.org/abs/0909.3052).
+License: BSD
+Encoding: UTF-8
+Packaged: 2009-10-14 15:32:32 UTC; patperry
+Repository: CRAN
+Date/Publication: 2009-10-15 10:29:50

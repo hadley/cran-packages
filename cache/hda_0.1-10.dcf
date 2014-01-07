@@ -1,0 +1,15 @@
+Package: hda
+Version: 0.1-10
+Date: 2010-07-29
+Title: Heteroscedastic Discriminant Analysis
+Author: Gero Szepannek
+Maintainer: Gero Szepannek <gero.szepannek@web.de>
+Suggests: mvtnorm,klaR,e1071
+Description: Functions to perform dimensionality reduction for
+        classification if the covariance matrices of the classes are
+        unequal.
+License: GPL (>= 2)
+URL: http://www.statistik.uni-dortmund.de
+Packaged: 2010-07-29 18:16:54 UTC; Gero
+Repository: CRAN
+Date/Publication: 2010-07-30 05:02:14

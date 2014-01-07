@@ -1,0 +1,17 @@
+Package: RiboSort
+Title: Classification and Analysis Package for Microbial Community Profiles
+Version: 1.0
+Date: 2007-03-14
+Author: Úna Scallan & Ann-Kathrin Liliensiek
+Maintainer: Úna Scallan<una.scallan@ucd.ie>
+License: GPL
+Depends: MASS
+Description: RiboSort is an R package for rapid classification of (TRFLP &
+	ARISA) microbial community profiles. Its function is to eliminate the
+	laborious task of manually classifying community fingerprints in
+	microbial studies. 
+	By automatically assigning detected fragments and their respective 
+	relative abundances to appropriate ribotypes, RiboSort saves time and 
+	greatly simplifies the preparation of DNA fingerprint datasets for 
+	statistical analysis.
+Packaged: Mon Apr  9 16:24:38 2007; Una Scallan

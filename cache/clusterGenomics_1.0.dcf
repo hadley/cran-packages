@@ -1,0 +1,18 @@
+Package: clusterGenomics
+Type: Package
+Title: Identifying clusters in genomics data by recursive partitioning
+Version: 1.0
+Date: 2013-07-01
+Author: Gro Nilsen and Ole Christian Lingjaerde
+Maintainer: Gro Nilsen <gronilse@ifi.uio.no>
+Description: The Partitioning Algorithm based on Recursive Thresholding
+        (PART) is used to recursively uncover clusters and subclusters
+        in the data. Functionality is also available for visualization
+        of the clustering.
+Depends:
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2013-07-02 15:15:56 UTC; Gro
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-02 19:51:19

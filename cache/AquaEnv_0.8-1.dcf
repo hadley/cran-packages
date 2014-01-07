@@ -1,0 +1,28 @@
+Package: AquaEnv
+Version: 0.8-1
+Date: 2009-11-24
+Title: AquaEnv - an integrated development toolbox for aquatic chemical
+        model generation
+Author: Andreas F. Hofmann, Karline Soetaert, Filip J.R. Meysman
+Maintainer: Andreas F. Hofmann <a.hofmann@nioo.knaw.nl>
+Depends: minpack.lm, deSolve
+Description: AquaEnv is an integrated development toolbox for aquatic
+        chemical model generation focused on (ocean) acidification and
+        CO2 air-water exchange. It contains all elements necessary to
+        model the pH, the related CO2 air-water exchange, as well as
+        aquatic acid-base chemistry in general for an arbitrary marine,
+        estuarine or freshwater system. Also chemical batches can be
+        modelled. Next to the routines necessary to calculate desired
+        information, AquaEnv also contains a suite of tools to
+        visualize this information. Furthermore, AquaEnv can not only
+        be used to build dynamic models of aquatic systems, but it can
+        also serve as a simple desktop tool for the experimental
+        aquatic chemist to generate and visualize all possible derived
+        information from a set of measurements with one single easy to
+        use R function. Additionally, the sensitivity of the system to
+        variations in the input variables can be visualized.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2009-11-24 15:45:29 UTC; andreasH
+Repository: CRAN
+Date/Publication: 2009-11-25 10:39:06

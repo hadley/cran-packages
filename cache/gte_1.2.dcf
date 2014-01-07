@@ -1,0 +1,17 @@
+Package: gte
+Type: Package
+Title: Generalized Turnbull's estimator
+Version: 1.2
+Date: 2013-01-23
+Author: Mohammad Hossein Dehghan, Thierry Duchesne and Sophie
+        Baillargeon
+Maintainer: Thierry Duchesne <thierry.duchesne@mat.ulaval.ca>
+Description: Generalized Turnbull's estimator proposed by Dehghan and
+        Duchesne (2011).
+License: GPL-2
+Depends: survival
+Suggests: interval
+Collate: 'gte.R' 'gte-package.R' 'internal.R'
+Packaged: 2013-01-23 16:38:43 UTC; Sophie Baillargeon
+Repository: CRAN
+Date/Publication: 2013-01-24 08:11:53

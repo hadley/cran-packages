@@ -1,0 +1,22 @@
+Package: formatR
+Type: Package
+Title: Format R Code Automatically
+Version: 0.10
+Date: 2013-10-26
+Author: Yihui Xie
+Maintainer: Yihui Xie <xie@yihui.name>
+Description: This package provides a function tidy.source() and optionally a
+    GUI (by gWidgets and preferably gWidgetsRGtk2) to format R source code.
+    Spaces and indent will be added to the code automatically, and comments
+    will be preserved under certain conditions, so that R code will be more
+    human-readable and tidy.
+Suggests: codetools, gWidgetsRGtk2, testit, knitr
+License: GPL
+URL: http://yihui.name/formatR
+BugReports: https://github.com/yihui/formatR/issues
+VignetteBuilder: knitr
+Collate: 'tidy.R' 'GUI.R' 'usage.R' 'zzz.R' 'eval.R' 'utils.R'
+Packaged: 2013-10-26 06:29:00 UTC; yihui
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-26 09:48:56

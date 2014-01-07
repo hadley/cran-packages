@@ -1,0 +1,21 @@
+Package: hdlm
+Type: Package
+Title: Fitting High Dimensional Linear Models
+Version: 0.2
+Date: 2011-09-21
+Author: Taylor B. Arnold
+Maintainer: Taylor B. Arnold <taylor.arnold@yale.edu>
+Description: Mimics the lm function found in the recommended package
+        stats to fit high dimensional regression models with point
+        estimates, standard errors, and p-values. Methods for printing
+        and summarizing the results are given. Supports lasso
+        estimator, Dantzig selector, mc+, root-lasso, and scad. Methods
+        are provided for the resulting class hdlm corresponding to
+        methods for the class lm.
+License: GPL (>= 2.0)
+Depends: lars, boot, plus
+Imports: quantreg
+LazyLoad: yes
+Packaged: 2011-09-22 19:43:50 UTC; tba3
+Repository: CRAN
+Date/Publication: 2011-09-23 11:45:47

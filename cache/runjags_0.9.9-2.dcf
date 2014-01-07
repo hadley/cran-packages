@@ -1,0 +1,24 @@
+Package: runjags
+Version: 0.9.9-2
+Date: 2011-19-08
+Title: Interface utilities for JAGS (using BUGS syntax) and Apple Xgrid
+        distributed computing clusters
+Author: Matthew Denwood <matthew.denwood@glasgow.ac.uk>
+Maintainer: Matthew Denwood <matthew.denwood@glasgow.ac.uk>
+Depends: R (>= 2.13), coda, lattice, stats, utils
+Suggests: rjags
+SystemRequirements: jags (see http://mcmc-jags.sourceforge.net)
+Description: A set of utility functions to run BUGS models using JAGS
+        from within R, and for JAGS or arbitrary R code submission to
+        Xgrid clusters (requires Mac OS X).  Automatic control of model
+        run length, calculation of autocorrealtion and Gelman Rubin
+        statistic diagnostics, generation of trace and density plots,
+        calculation of DIC, and automatic retrieval of R objects as
+        data are supported.  Utilities to run user-supplied R functions
+        on Xgrid (using xapply as a replacement for lapply) are also
+        included, and do not require JAGS.
+License: GPL
+URL: http://cran.r-project.org/web/packages/runjags/
+Packaged: 2011-08-19 16:10:50 UTC; matthewdenwood
+Repository: CRAN
+Date/Publication: 2011-08-19 17:21:41

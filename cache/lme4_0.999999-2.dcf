@@ -1,0 +1,21 @@
+Package: lme4
+Version: 0.999999-2
+Date: 2013-04-09
+Title: Linear mixed-effects models using S4 classes
+Description: Fit linear and generalized linear mixed-effects models.
+        This is the implementation of lme4 available on CRAN and
+        developed up to 2011.
+Author: Douglas Bates <bates@stat.wisc.edu>, Martin Maechler
+        <maechler@R-project.org> and Ben Bolker <bolker@mcmaster.ca>
+Maintainer: Ben Bolker <bbolker+lme4-authors@gmail.com>
+Depends: methods, R(>= 2.11.1), Matrix(>= 1.0-1), lattice
+LinkingTo: Matrix, stats
+Imports: graphics, nlme, stats4, stats
+Suggests: mlmRev, MEMSS, coda, MASS, sfsmisc, MatrixModels
+LazyData: yes
+License: GPL (>= 2)
+URL: http://lme4.r-forge.r-project.org/
+Packaged: 2013-04-09 23:12:01 UTC; bolker
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-15 16:53:45

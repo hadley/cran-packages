@@ -1,0 +1,30 @@
+Package: denpro
+Version: 0.8.0
+Date: 2005-11-16
+Title: Visualization of multivariate density functions and estimates with level set trees and shape trees, and visualization of multivariate data with tail trees
+Author: Jussi Klemelä <klemela@rumms.uni-mannheim.de>
+Maintainer: Jussi Klemelä <klemela@rumms.uni-mannheim.de> 
+Depends: R
+Description: 
+  The package provides functions to construct level set trees 
+  of some multivariate density estimates and density functions.
+  With level set trees we may visualize
+  the number and location of modes,
+  the relative importance of the modes,
+  the barycenters of the separated regions of level sets,
+  and skewness and kurtosis of the density.
+  The visualization methods may be applied in exploratory data analysis,
+  to make graphical inference on the existence of the modes,
+  and to apply graphical methods to choose the smoothing parameter.
+  The package provides also functions to construct shape trees of connected level sets.  
+  Visualization with level set trees and shape trees is in many cases more
+  effective and easy to use than the method of looking at slices and
+  projections of a density function.
+  The package implements the kernel estimator
+  but the package may be applied for visualizing
+  other density estimates, which have to be setwise constant. 
+  The package provides also tools to visualize multivariate data;
+  it provides parallel tail tree plots and cumulative tail frequency plots.
+License: GPL version 2 or newer
+URL: http://www.rni.helsinki.fi/~jsk/denpro
+Packaged: Thu Nov 17 15:32:24 2005; jsk

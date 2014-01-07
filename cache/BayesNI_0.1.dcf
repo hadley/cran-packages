@@ -1,0 +1,19 @@
+Package: BayesNI
+Type: Package
+Title: BayesNI: Bayesian Testing Procedure for Noninferiority with
+        Binary Endpoints
+Version: 0.1
+Date: 2011-11-11
+Author: Sujit K Ghosh, Muhtarjan Osman
+Maintainer: Muhtarjan Osman <mjosman@gmail.com>
+Description: A Bayesian testing procedure for noninferiority trials
+        with binary endpoints. The prior is constructed based on
+        Bernstein polynomials with options for both informative and
+        non-informative prior. The critical value of the test statistic
+        (Bayes factor) is determined by minimizing total weighted error
+        (TWE) criteria
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-09-11 01:31:57 UTC; muhtar
+Repository: CRAN
+Date/Publication: 2012-09-11 06:13:20

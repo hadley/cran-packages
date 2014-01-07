@@ -1,0 +1,14 @@
+Package: etm
+Title: Empirical Transition Matrix
+Version: 0.4-6
+Author: Arthur Allignol
+Description: Matrix of transition probabilities for any
+        time-inhomogeneous multistate model with finite state space
+Maintainer: Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+License: GPL (>= 2)
+Depends: lattice
+Suggests: changeLOS
+date: 2009/9/3
+Packaged: 2009-09-03 14:17:23 UTC; arthur
+Repository: CRAN
+Date/Publication: 2009-09-03 15:43:45

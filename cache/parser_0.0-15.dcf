@@ -1,0 +1,19 @@
+Package: parser
+Type: Package
+Title: Detailed R source code parser
+Version: 0.0-15
+Date: 2012-06-23
+Author: Romain Francois <romain@r-enthusiasts.com>
+Maintainer: ORPHANED
+Description: detailed source code parser, based on the standard R
+        parser but organizing the information differently
+License: GPL (>= 2.0)
+Depends: R (>= 2.12.0), Rcpp (>= 0.9.7)
+LinkingTo: Rcpp
+LazyData: yes
+RcppModules: parser_module
+Packaged: 2012-06-22 11:53:13 UTC; ripley
+X-CRAN-Comment: Orphaned on 2012-06-18 as the orginal maintainer,
+        Romain Francois <romain@r-enthusiasts.com>, is unrespsonsive.
+Repository: CRAN
+Date/Publication: 2012-06-22 12:46:35

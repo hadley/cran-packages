@@ -1,0 +1,31 @@
+Package: editrules
+Maintainer: Edwin de Jonge <edwindjonge@gmail.com>
+License: GPL-3
+Title: R package for parsing and manipulating edit rules
+LazyData: no
+Type: Package
+LazyLoad: yes
+Author: Edwin de Jonge, Mark van der Loo
+Description: Facilitates reading and manipulating (multivariate) data
+        restrictions (edit rules) on numerical and categorical data.
+        Rules can be defined with common R syntax and parsed to an
+        internal (matrix-like format). Rules can be manipulated with
+        variable elimination and value substitution methods, allowing
+        for feasibility checks and more. Data can be tested against the
+        rules and erroneous fields can be found based on Fellegi and
+        Holt's generalized principle.
+Version: 1.5-2
+URL: http://code.google.com/p/editrules/
+Date: 2011-09-25
+Suggests: lpSolveAPI,iterators
+Collate: 'backtracker.R' 'blocks.R' 'checkRows.R' 'duplicated.R'
+        'echelon.R' 'editarrayAttr.R' 'editarray.R' 'editmatrixAttr.R'
+        'editmatrix.R' 'editrules-data.R' 'eliminate.R'
+        'errorLocalizer.R' 'getVars.R' 'isFeasible.R'
+        'isObviouslyInfeasible.R' 'isObviouslyRedundant.R' 'is.R'
+        'isSubset.R' 'localizeError_mip.R' 'localizeErrors.R'
+        'parseEdits.R' 'pkg.R' 'print.R' 'removeEmpty.R' 'subsetting.R'
+        'substValue.R' 'violatedEdits.R'
+Packaged: 2011-09-26 11:20:45 UTC; mark
+Repository: CRAN
+Date/Publication: 2011-09-26 13:14:56

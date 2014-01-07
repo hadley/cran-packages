@@ -1,0 +1,25 @@
+Package: knitcitations
+Type: Package
+Title: Citations for knitr markdown files
+Authors: Carl Boettiger <cboettig@gmail.com>
+Authors@R: person("Carl", "Boettiger", role=c("aut", "cre"),
+        email="cboettig@gmail.com")
+Version: 0.1-0
+Date: 2012-03-24
+Description: While traditional Sweave documents can take advantage of
+        LaTeX citation tools, knitr also allows users to combine the
+        much simpler markdown with R code.  This package offers
+        citation tools to make up for this.  This package will also
+        take advantage of the web-based nature of markdown documents to
+        allow dynamic citations pulled from the web.
+URL: https://github.com/cboettig/knitcitations
+Depends: knitr, bibtex
+Imports: xtable, RCurl, XML, pkgmaker
+License: CC0
+Collate: 'citations.R' 'functiontable.R' 'bibliography.R' 'bibtex_io.R'
+        'formatref.R' 'ref.R' 'cite.R' 'create_bibkey.R'
+Packaged: 2012-07-27 04:33:32 UTC; cboettig
+Author: Carl Boettiger [aut, cre]
+Maintainer: Carl Boettiger <cboettig@gmail.com>
+Repository: CRAN
+Date/Publication: 2012-07-27 05:04:05

@@ -1,0 +1,17 @@
+Package: PropScrRand
+Type: Package
+Title: Propensity score methods for assigning treatment in randomized
+        trials
+Version: 1.0
+Date: 2013-02-18
+Author: Travis M. Loux
+Maintainer: Travis M. Loux <loux@pstat.ucsb.edu>
+Description: This package contains functions to run propensity-biased
+        allocation to balance covariate distributions in sequential
+        trials.  Currently this package only supports trials comparing
+        two groups.
+License: GPL-3
+Packaged: 2013-02-26 22:51:24 UTC; loux
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-03 08:50:29

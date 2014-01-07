@@ -1,0 +1,19 @@
+Package: RSAGA
+Type: Package
+Title: SAGA Geoprocessing and Terrain Analysis in R
+Version: 0.9-3
+Date: 2008-07-04
+Author: Alexander Brenning
+Maintainer: Alexander Brenning <brenning@uwaterloo.ca>
+Description: RSAGA provides access to geocomputing and terrain analysis
+        functions of SAGA from within R by running the command line
+        version of SAGA. In addition, several R functions for handling
+        and manipulating ASCII grids are provided, including a flexible
+        framework for applying local functions (including predict
+        methods of fitted models) or focal functions to multiple grids.
+        SAGA is available under GPL via http://www.saga-gis.org/.
+License: GPL-2
+SystemRequirements: Windows, SAGA (>=2.0.2)
+Suggests: gstat, shapefiles
+Packaged: Fri Jul 4 22:41:08 2008; brenning
+OS_type: windows

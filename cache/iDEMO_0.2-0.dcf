@@ -1,0 +1,22 @@
+Package: iDEMO
+Version: 0.2-0
+Date: 2012-04-29
+Title: integrated degradation models
+Authors@R: c(person("Ya-Shan", "Cheng", role = c("aut", "cre"),email =
+        "acidnoodle@hotmail.com"), person("Chien-Yu", "Peng", role =
+        c("aut", "cre"),email = "chienyu@stat.sinica.edu.tw"))
+Author: Ya-Shan Cheng, Chien-Yu Peng
+Maintainer: Ya-Shan Cheng <acidnoodle@hotmail.com>
+Depends: R (>= 2.14.0),tcltk,tcltk2,gsl,ADGofTest
+Description: The package iDEMO written in R and R GUI is a tool to
+        build a linear degradation model which can simultaneously
+        consider the unit-to-unit variation, time-dependent structure
+        and measurement error in the degradation paths. Moreover, we
+        provide the maximum likelihood estimates (MLEs) of the unknown
+        parameters, mean-time-to-failure (MTTF) and qth quantile, and
+        their corresponding confidence intervals.
+License: GPL-2
+URL: http://www.r-project.org, http://www.idemo.tw
+Repository: CRAN
+Packaged: 2012-04-29 14:19:38 UTC; LH530
+Date/Publication: 2012-04-29 18:49:47

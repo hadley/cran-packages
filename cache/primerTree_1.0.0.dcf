@@ -1,0 +1,19 @@
+Package: primerTree
+Version: 1.0.0
+Date: 2013-8-13
+Maintainer: Jim Hester <james.f.hester@gmail.com>
+Author: Jim Hester
+Title: primerTree
+Description: Visually Assessing the Specificity and Informativeness of Primer
+    Pairs.
+Depends: R (>= 3.0.0), directlabels, gridExtra
+Imports: ggplot2, grid, XML, ape, httr, lubridate, plyr, scales,
+        stringr, foreach
+LazyData: true
+License: GPL-2
+VignetteBuilder: knitr
+Packaged: 2013-10-03 12:46:21 UTC; hesterj
+Collate: 'plot.R' 'sequence.R' 'taxonomy.R' 'primerTree.R' 'search.R'
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-04 16:16:52

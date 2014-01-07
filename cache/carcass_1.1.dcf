@@ -1,0 +1,17 @@
+Package: carcass
+Type: Package
+Title: Estimation of the number of fatalities from carcass searches
+Version: 1.1
+Date: 2011-06-26
+Author: Fraenzi Korner-Nievergelt, Ivo Niermann, Oliver Behr, Robert Brinkmann, Pius Korner, Barbara Hellriegel, Tobias Roth
+Maintainer: Fraenzi Korner-Nievergelt <fraenzi.korner@oikostat.ch>
+Depends: R (>= 2.12.0), stats, arm, survival
+Description: The number of bird or bat fatalities from collisions with buildings, towers or wind energy turbines can be estimated based on carcass searches and experimentally assessed carcass persistence times and searcher efficiency. This package provides diverse functions for estimating the probability that a bird or bat that died is found by a searcher. It further provides a function to obtain a posterior distribution of the number of fatalities based on the number of carcasses found and the estimated detection probability.
+Acknowledgements: The authors thank Manuela Huso for commenting parts
+        of the code.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-09-05 05:50:30 UTC; Fraenzi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-05 08:37:30

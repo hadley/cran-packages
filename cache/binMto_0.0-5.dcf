@@ -1,0 +1,21 @@
+Package: binMto
+Type: Package
+Title: Asymptotic simultaneous confidence intervals for many-to-one
+        comparisons of proportions
+Version: 0.0-5
+Date: 2012-12-18
+Author: Frank Schaarschmidt
+Maintainer: Frank Schaarschmidt <schaarschmidt@biostat.uni-hannover.de>
+Depends: mvtnorm
+Description: Asymptotic simultaneous confidence intervals for
+        comparison of many treatments with one control, for the
+        difference of binomial proportions, allows for
+        Dunnett-like-adjustment, Bonferroni or unadjusted intervals.
+        Simulation of power of the above interval methods, approximate
+        calculation of any-pair-power, and sample size iteration based
+        on approximate any-pair power.  Exact conditional maximum test
+        for many-to-one comparisons to a control.
+License: GPL
+Packaged: 2012-12-18 11:47:03 UTC; Schaarschmidt
+Repository: CRAN
+Date/Publication: 2012-12-18 14:46:27

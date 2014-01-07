@@ -1,0 +1,13 @@
+Package: KRLS
+Type: Package
+Title: Kernel-based Regularized Least Squares (KRLS)
+Version: 0.2
+Date: 2011-12-26
+Author: Jens Hainmueller (MIT) Chad Hazlett (MIT)
+Maintainer: Jens Hainmueller <jhainm@mit.edu>
+Description: Package implements Kernel-based Regularized Least Squares (KRLS), a machine learning method that can be used to fit multidimensional functions for regression and classification problems without relying on linearity or additivity assumptions. This package is currently in alpha phase (feedback is appreciated).  
+License: GPL (>= 3)
+URL: http://www.mit.edu/~jhainm/
+Packaged: 2011-12-26 21:48:32 UTC; jhainmueller
+Repository: CRAN
+Date/Publication: 2011-12-27 10:05:50

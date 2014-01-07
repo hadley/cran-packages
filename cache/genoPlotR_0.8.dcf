@@ -1,0 +1,20 @@
+Package: genoPlotR
+Type: Package
+Title: Plot publication-grade gene and genome maps
+Version: 0.8
+Date: 2012-06-21
+Author: Lionel Guy <lionel.guy@icm.uu.se>
+URL: http://genoplotr.r-forge.r-project.org/
+Depends: R (>= 2.10.0), methods, grid, ade4
+Maintainer: Lionel Guy <lionel.guy@icm.uu.se>
+Description: genoPlotR draws gene or genome maps and comparisons
+        between these, in a publication-grade manner. Starting from
+        simple, common files, it will draw postscript or pdf files that
+        can be sent as such to journals
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: genoplotr
+Repository/R-Forge/Revision: 51
+Packaged: 2012-06-21 14:15:37 UTC; rforge
+Date/Publication: 2012-06-25 08:41:38

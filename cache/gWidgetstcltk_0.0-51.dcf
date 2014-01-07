@@ -1,0 +1,25 @@
+Package: gWidgetstcltk
+Version: 0.0-51
+Title: Toolkit implementation of gWidgets for tcltk package
+Author: John Verzani
+Maintainer: John Verzani <gwidgetsrgtk@gmail.com>
+Depends: R (>= 2.14.0), methods, gWidgets(>= 0.0.50), tcltk(>= 2.7.0),
+        digest
+Suggests:
+Description: Port of the gWidgets API to the tcltk package. Requires TK
+        8.5 or greater for the tile (ttk)widgets
+        http://www.tcl.tk/software/tcltk/8.5.tml. This is the default
+        on Windows. Under linux, Tk must be installed. Under Mac OS X
+        (10.5) there are two options: native Tk or X11. For the native
+        one, Tk must be upgraded. See www.tcl.tk to download source.
+        Under the Mac it compiles and installs cleanly. For X11, tcltk
+        libraries can be downloaded to augment the R binary package.
+        See http://cran.r-project.org/bin/macosx/tools/. The gdf
+        function requires the add on Tk package TkTable
+        (http://tktable.sourceforge.net/).
+License: GPL (>= 2)
+URL: http://gwidgets.r-forge.r-project.org/
+LazyLoad: yes
+Packaged: 2012-06-08 21:10:00 UTC; verzani
+Repository: CRAN
+Date/Publication: 2012-06-09 06:06:57

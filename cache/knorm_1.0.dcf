@@ -1,0 +1,21 @@
+Package: knorm
+Type: Package
+Title: Microarray Data From Multiple Biologically Interrelated
+        Experiments
+Version: 1.0
+Date: 2008-04-07
+Author: Siew-Leng Teng
+Maintainer: Siew Leng Teng <slteng@stat.berkeley.edu>
+Depends: R (>= 2.4.0), MASS
+Description: This package provides Knorm correlations between genes (or
+        probes) from microarray data obtained across multiple
+        biologically interrelated experiments.  The Knorm correlation
+        adjusts for experiment dependencies (correlations) and reduces
+        to the Pearson coefficient when experiment dependencies are
+        absent.  The Knorm estimation approach can be generally
+        applicable to obtain between-row correlations from data
+        matrices with two-way dependencies.
+License: GPL (>= 2)
+Packaged: Mon Apr 7 20:27:33 2008; Dan Nguyen
+Repository: CRAN
+Date/Publication: 2008-04-08 06:43:47

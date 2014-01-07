@@ -1,0 +1,24 @@
+Package: glmc
+Version: 0.2-4
+Date: December 3, 2012
+Title: Fitting Generalized Linear Models Subject to Constraints
+Authors@R: c(person("Sanjay
+        Chaudhuri","Developer",role=c("aut","cre"),email="sanjay@stat.nus.edu.sg"),
+        person("Mark S.
+        Handcock","Developer",email="handcock@stat.ucla.edu"),
+        person("Michael S.
+        Rendall","Developer",email="mrendall@rand.org"))
+Author: Sanjay Chaudhuri <sanjay@stat.nus.edu.sg>, Mark S. Handcock
+        <handcock@stat.ucla.edu>, Michael S. Rendall
+        <mrendall@rand.org>.
+Maintainer: Sanjay Chaudhuri <sanjay@stat.nus.edu.sg>
+Description: Fits generalized linear models where the parameters are
+        subject to linear constraints. The model is specified by giving
+        a symbolic description of the linear predictor, a description
+        of the error distribution, and a matrix of constraints on the
+        parameters.
+Depends: emplik
+License: GPL-2
+Packaged: 2012-12-04 06:54:19 UTC; sanjay
+Repository: CRAN
+Date/Publication: 2012-12-04 07:25:44

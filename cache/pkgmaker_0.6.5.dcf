@@ -1,0 +1,30 @@
+Package: pkgmaker
+Type: Package
+Title: Package development utilities
+Version: 0.6.5
+Date: 2012-05-23
+Author: Renaud Gaujoux
+Maintainer: Renaud Gaujoux <renaud@cbio.uct.ac.za>
+Description: This package provides some low-level utilities to use for
+        package development. It currently provides managers for
+        multiple package specific options and registries, vignette,
+        unit test and bibtex related utilities.  It serves as a base
+        package for packages like NMF, RcppOctave, doRNG, and as an
+        incubator package for other general purposes utilities, that
+        will eventually be packaged separately.  It is still under
+        heavy development and changes in the interface(s) are more than
+        likely to happen.
+License: GPL (>= 2)
+URL: http://pkgmaker.r-forge.r-project.org, http://cran.r-project.org
+LazyLoad: yes
+Depends: R (>= 2.15), methods, stats, digest, stringr, codetools
+Imports: methods, xtable
+Suggests: registry, devtools, bibtex, RUnit, testthat, knitr
+Collate: 'utils.R' 'logging.R' 'unitTests.R' 'data.R' 'namespace.R'
+        'devutils.R' 'options.R' 'registry.R' 'bibtex.R' 'is.R'
+        'vignette.R' 'files.R'
+Repository: CRAN
+Repository/R-Forge/Project: pkgmaker
+Repository/R-Forge/Revision: 40
+Packaged: 2012-06-19 18:17:24 UTC; rforge
+Date/Publication: 2012-06-20 10:09:02

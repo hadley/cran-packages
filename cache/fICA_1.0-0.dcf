@@ -1,0 +1,15 @@
+Package: fICA
+Type: Package
+Title: Classic, reloaded and adaptive FastICA algorithms
+Version: 1.0-0
+Date: 2013-11-24
+Author: Jari Miettinen, Klaus Nordhausen, Hannu Oja, Sara Taskinen
+Maintainer: Jari Miettinen <jari.p.miettinen@jyu.fi>
+Imports: JADE
+Suggests: BSSasymp
+Description: The package includes classic symmetric and deflation-based FastICA algorithms, reloaded deflation-based FastICA and an algorithm for adaptive deflation-based FastICA using multiple contrast functions.
+License: GPL (>= 2)
+Packaged: 2013-11-24 09:10:49 UTC; japemiet
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-24 15:56:50

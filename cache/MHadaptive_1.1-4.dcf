@@ -1,0 +1,15 @@
+Package: MHadaptive
+Type: Package
+Title: General Markov Chain Monte Carlo for Bayesian Inference using
+        adaptive Metropolis-Hastings sampling
+Version: 1.1-4
+Date: 2011-10-05
+Author: Corey Chivers
+Maintainer: Corey Chivers <corey.chivers@mail.mcgill.ca>
+Depends: MASS, fUtilities, compiler, R (>= 2.13.0)
+Description: Performs general Metropolis-Hastings Markov Chain Monte Carlo sampling of a user defined function which returns the un-normalized value (likelihood times prior) of a Bayesian model.  The proposal variance-covariance structure is updated adaptively for efficient mixing when the structure of the target distribution is unknown.  The package also provides some functions for Bayesian inference including Bayesian Credible Intervals (BCI) and Deviance Information Criterion (DIC) calculation. 
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2011-11-05 14:20:36 UTC; cchivers
+Repository: CRAN
+Date/Publication: 2011-11-05 18:07:25

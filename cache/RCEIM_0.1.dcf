@@ -1,0 +1,14 @@
+Package: RCEIM
+Type: Package
+Title: RCEIM - R Cross Entropy Inspired Method for Optimization
+Version: 0.1
+Date: 2013-11-22
+Author: Alberto Krone-Martins
+Maintainer: Alberto Krone-Martins <algol@sim.ul.pt>
+Description: RCEIM is a package implementing a stochastic heuristic method for performing multidimensional function optimization. The method is inspired in the Cross-Entropy Method. It does not relies on derivatives, neither imposes particularly strong requirements into the function to be optimized. Additionally, it takes profit from multicore processing to enable optimization of time-consuming functions.
+License: GPL (>= 2)
+Suggests: multicore
+Packaged: 2013-11-24 14:22:15 UTC; brain
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-25 05:09:54

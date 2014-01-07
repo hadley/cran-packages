@@ -1,0 +1,16 @@
+Package: FField
+Type: Package
+Title: Force field simulation for a set of points
+Version: 0.1.0
+Date: 2013-06-26
+Author: Grigori Kapoustin
+Maintainer: Grigori Kapoustin <gregk@alphabetaworks.com>
+Description: Force field simulation of interaction of set of points.
+        Very useful for placing text labels on graphs, such as
+        scatterplots.
+Suggests: ggplot2, gridExtra
+License: GPL-3
+Packaged: 2013-06-28 05:07:46 UTC; gregk
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-28 08:01:21

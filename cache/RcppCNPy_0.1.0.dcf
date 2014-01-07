@@ -1,0 +1,22 @@
+Package: RcppCNPy
+Type: Package
+Title: Rcpp bindings for NumPy files
+Version: 0.1.0
+Date: $Date: 2012-07-07 12:02:45 -0500 (Sat, 07 Jul 2012) $
+Author: Dirk Eddelbuettel
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: This package provides access to the cnpy library by Carl
+        Rogers which provides read and write facilities for files
+        created with (or for) the NumPY extension for Python.  Vectors
+        and matrices of numeric types can be read or written;
+        compressed files can be read as well. Support for integer files
+        is available if the package (and Rcpp) are compiled with
+        -std=c++11.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods, Rcpp (>= 0.9.13)
+LinkingTo: Rcpp
+RcppModules: cnpy
+Packaged: 2012-07-07 17:06:52.781494 UTC; edd
+Repository: CRAN
+Date/Publication: 2012-07-08 07:21:00

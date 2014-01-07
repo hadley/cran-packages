@@ -1,0 +1,13 @@
+Package: noverlap
+Version: 1.0-0
+Date: 2003/MAY/21
+Title: ncomplete
+Author: Peter J. Rousseeuw, Andreas Christmann <christmann@statistik.uni-dortmund.de>
+Maintainer: Andreas Christmann <christmann@statistik.uni-dortmund.de>   
+Description: The library contains R-functions to perform the 
+ regression depth method (RDM) to binary regression to approximate
+ the amount of overlap, i.e. the minimal number of observations
+ that need to be removed such that the reduced data set has no longer overlap.
+License: GPL version 2 or newer
+URL: http://www.r-project.org
+

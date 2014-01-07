@@ -1,0 +1,19 @@
+Package: NSM3
+Type: Package
+Title: An R package to accompany Hollander, Wolfe, and Chicken -
+        Nonparametric Statistical Methods, Third Edition
+Version: 1.0
+Date: 2013-10-19
+Author: Grant Schneider
+Maintainer: Grant Schneider <schneider.393@osu.edu>
+Description: This package was designed to replace the tables which were in the back of the first two editions of Hollander and Wolfe - Nonparametric Statistical Methods.  Exact procedures are performed when computationally possible.  Monte Carlo and Asymptotic procedures are performed otherwise.  For those procedures included in the base packages, our code simply provides a wrapper to standardize the output with the other procedures in the package.
+License: GPL-2
+LazyLoad: yes
+Depends: R (>= 2.10), combinat, MASS, partitions, stats, survival
+Imports: agricolae, ash, binom, BSDA, coin, epitools, fANCOVA, gtools,
+        Hmisc, km.ci, metafor, nortest, np, quantreg, Rfit, SemiPar,
+        SuppDists, waveslim
+Packaged: 2013-10-19 21:42:52 UTC; Grant
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-20 00:39:41

@@ -1,0 +1,19 @@
+Package: GPseq
+Type: Package
+Title: gpseq: Using the generalized Poisson distribution to model
+        sequence read counts from high throughput sequencing
+        experiments
+Version: 0.3
+Date: 2010-07-21
+Author: Sudeep Srivastava, Liang Chen
+Maintainer: Sudeep Srivastava <sudeepsr@usc.edu>
+Description: Some functions for modeling sequence read counts as a
+        generalized poisson model and to use this model for detecting
+        differentially expressed genes in different conditions and
+        differentially spliced exons.
+Depends: R (>= 2.10.1)
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-09-08 22:25:41 UTC; sudeepsr
+Repository: CRAN
+Date/Publication: 2010-09-11 09:11:15

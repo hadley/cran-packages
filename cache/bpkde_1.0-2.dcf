@@ -1,0 +1,14 @@
+Package: bpkde
+Version: 1.0-2
+Date: 2012-12-20
+Title: Back-Projected Kernel Density Estimation
+Author: Kjell Konis <kjell.konis@me.com>, Victor M. Panaretos
+        <victor.panaretos@epfl.ch>.
+Maintainer: Kjell Konis <kjell.konis@me.com>
+Depends: R (>= 2.15.0), mvtnorm, KernSmooth
+Description: Nonparametric multivariate kernel density \ estimation
+        using a back-projected kernel.
+License: GPL-2
+Packaged: 2012-12-20 18:47:54 UTC; kjell
+Repository: CRAN
+Date/Publication: 2012-12-21 08:15:26

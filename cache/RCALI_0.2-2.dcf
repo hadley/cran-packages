@@ -1,0 +1,16 @@
+Package: RCALI
+Title: Calculation of the Integrated Flow of Particles between Polygons
+Version: 0.2-2
+Date: 2012-01-31
+Encoding: latin1
+Author: Annie Bouvier, Kiên Kiêu, Kasia Adamczyk, and Hervé Monod
+Maintainer: Annie Bouvier <Annie.Bouvier@jouy.inra.fr>
+Depends: splancs
+Description: Calculate the flow of particles between polygons by two
+        integration methods: integration by a cubature method and
+        integration on a grid of points.
+License: GPL (>= 3)
+URL: http://www.inra.fr/miaj/public/logiciels/RCALI/
+Packaged: 2012-02-01 16:04:14 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-02-01 16:07:24

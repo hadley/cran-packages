@@ -1,0 +1,12 @@
+Package: bbmle
+Title: Tools for general maximum likelihood estimation
+Version: 0.9.0
+Date: 2008/08/26
+Author: Ben Bolker <bolker@zoo.ufl.edu>; based on stats4 by the R Development Core Team
+Maintainer: Ben Bolker <bolker@zoo.ufl.edu>
+Depends: R (>= 2.0.0), methods, stats, graphics
+Suggests: aod, emdbook, Hmisc, nlme
+Description: Methods and functions for fitting maximum likelihood models in R.  This package modifies and extends the mle classes in the stats4 package.
+License: GPL
+Revision: 19
+Packaged: Wed Feb  4 05:14:44 2009; rforge

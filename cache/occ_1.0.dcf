@@ -1,0 +1,19 @@
+Package: occ
+Type: Package
+Title: Estimates PET neuroreceptor occupancies
+Version: 1.0
+Date: 2012-01-24
+Author: Joaquim Radua
+Maintainer: Joaquim Radua <joaquim.radua@kcl.ac.uk>
+Description: This package provides a generic function for estimating
+        positron emission tomography (PET) neuroreceptor occupancies
+        from the total volumes of distribution of a set of regions of
+        interest. Fittings methods include the simple 'reference
+        region' and 'ordinary least squares' (sometimes known as
+        occupancy plot) methods, as well as the more efficient
+        'restricted maximum likelihood estimation'.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-01-24 15:58:16 UTC; quim
+Repository: CRAN
+Date/Publication: 2012-01-24 16:52:50

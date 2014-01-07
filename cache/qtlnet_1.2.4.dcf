@@ -1,0 +1,17 @@
+Package: qtlnet
+Version: 1.2.4
+Date: 2012-06-08
+Author: Elias Chaibub Neto <echaibub@hotmail.com> and Brian S. yandell
+        <yandell@stat.wisc.edu>
+Title: Causal Inference of QTL Networks
+Description: Functions to Simultaneously Infer Causal Graphs and
+        Genetic Architecture
+Maintainer: Brian S. Yandell <yandell@stat.wisc.edu>
+Depends: R (>= 2.10), qtl, igraph, sem, graph, pcalg
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.stat.wisc.edu/~yandell/sysgen
+Packaged: 2012-06-08 13:43:47 UTC; yandell
+Repository: CRAN
+Date/Publication: 2012-06-08 14:26:38

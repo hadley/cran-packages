@@ -1,0 +1,19 @@
+Package: heatex
+Type: Package
+Title: Heat exchange calculations during physical activity.
+Version: 1.0
+Date: 2013-01-28
+Author: Kerry Atkins
+Maintainer: Kerry Atkins <atkins.kerry04@gmail.com>
+Description: The heatex package calculates heat storage in the body and
+        the components of heat exchange (conductive, convective,
+        radiative, and evaporative) between the body and the
+        environment during physical activity based on the principles of
+        partitional calorimetry. The program enables heat exchange
+        calculations for a range of environmental conditions when
+        wearing various clothing ensembles.
+License: GPL-3
+Packaged: 2013-02-27 11:10:31 UTC; kerry
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-28 16:43:34

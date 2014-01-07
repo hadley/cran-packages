@@ -1,0 +1,14 @@
+Package: ggm
+Version: 1.99-5
+Date: 2012-6-18
+Title: A package for Graphical Markov Models
+Author: Giovanni M. Marchetti, Mathias Drton, Kayvan Sadeghi
+Maintainer: Giovanni M. Marchetti <giovanni.marchetti@ds.unifi.it>
+Depends: gRbase
+Imports: gRbase, igraph0, RBGL
+Description: Functions for analyzing and fitting Graphical Markov
+        models
+License: GPL (>= 2)
+Packaged: 2012-06-19 12:18:41 UTC; giovanni
+Repository: CRAN
+Date/Publication: 2012-06-19 12:50:40

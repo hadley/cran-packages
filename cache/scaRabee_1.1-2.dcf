@@ -1,0 +1,20 @@
+Package: scaRabee
+Type: Package
+Title: Optimization Toolkit for Pharmacokinetic-Pharmacodynamic Models
+Version: 1.1-2
+Date: 2011-12-10
+Author: Sebastien Bihorel
+Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
+Description: scaRabee is a port of the Scarabee toolkit originally
+        written as a Matlab-based application. It provides a framework
+        for simulation and optimization of pharmacokinetic-pharmacodynamic 
+        models at the individual and population level. It is built on top of the
+        neldermead package, which provides the direct search algorithm proposed 
+        by Nelder and Mead for model optimization.
+Depends: neldermead, optimsimplex, optimbase, lattice, grid, deSolve,
+        utils
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-12-10 23:17:18 UTC; sebastien
+Repository: CRAN
+Date/Publication: 2011-12-11 10:41:35

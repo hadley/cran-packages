@@ -1,0 +1,28 @@
+Package: HAC
+Type: Package
+Title: Estimation, simulation and visualization of Hierarchical
+        Archimedean Copulae (HAC)
+Version: 0.1-0
+Date: 2011-04-20
+Author: Ostap Okhrin <ostap.okhrin@wiwi.hu-berlin.de> and Alexander
+        Ristig <ristigal@cms.hu-berlin.de>
+Maintainer: Ostap Okhrin <ostap.okhrin@wiwi.hu-berlin.de>
+Lazyload: yes
+Depends: R (>= 2.9.1), copula
+Imports: fBasics
+Description: The estimation of the structure, simulation methods and
+        structural plots of Hierarchical Archimedean Copulae (HAC) are
+        the major applications which are covered by this package. In
+        combination with this package the class "hac" is implemented.
+        Estimation methods for empirical copulae are also included.
+        There is, however, still room for improvement: 1. Probability
+        density functions are only available up to the third dimension.
+        2. Although the copula models which are estimated or
+        constructed provide a wide range of models, some complex models
+        have to be approximated.
+License: GPL (>= 3)
+URL:
+        http://lehre.wiwi.hu-berlin.de/Professuren/quantitativ/statistik/members/personalpages/o2
+Packaged: 2011-07-23 16:36:31 UTC; Alex
+Repository: CRAN
+Date/Publication: 2011-07-23 17:15:56

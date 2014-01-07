@@ -1,0 +1,11 @@
+Package: runjags
+Version: 0.9.0-4
+Date: 2009-01-09
+Title: Run Bayesian MCMC Models in the BUGS syntax from Within R
+Author: Matthew Denwood <m.denwood@vet.gla.ac.uk> (funded as part of the DEFRA VTRI project 0101).
+Maintainer: Matthew Denwood <m.denwood@vet.gla.ac.uk>
+Depends: R (>= 2.6), coda, lattice 
+Description: A set of functions to allow any user specified model to be run in JAGS from within R, returning the MCMC output as R objects.  Includes functions to read external WinBUGS type textfiles, and allows several ways of automatically specifying model data from existing R objects or R functions.  Also includes functions to automatically calculate model run length, autocorrealtion and Gelman Rubin statistic diagnostics for all models to simplify the process of checking chain convergence.  Designed for maximum compatibility with WinBUGS syntax, although minor modification to existing .bug files will be required.  Requires Just Another Gibbs Sampler (JAGS) for UNIX, LINUX, Mac or Windows to be installed, see:  http://www-fis.iarc.fr/~martyn/software/jags/.
+License: GPL
+URL: http://cran.r-project.org/web/packages/runjags/
+Packaged: Mon Sep  1 18:03:12 2008; matthewdenwood

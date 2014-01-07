@@ -1,0 +1,16 @@
+Package: wnominate
+Version: 0.98
+Date: 2012-01-16
+Title: WNOMINATE Roll Call Analysis Software.
+Author: Keith Poole <ktpoole@uga.edu>, Jeffrey Lewis
+        <jblewis@ucla.edu>, James Lo <lo@uni-mannheim.de> and Royce
+        Carroll <rcarroll@rice.edu>
+Maintainer: Jeffrey Lewis <jblewis@ucla.edu>
+Depends: R (>= 2.3.1), pscl (>= 0.59)
+Description: Estimates Poole and Rosenthal W-NOMINATE scores from roll
+        call votes supplied though a 'rollcall' object from package
+        'pscl'.
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2012-01-17 07:59:47
+Packaged: 2012-01-16 23:50:40 UTC; jalo

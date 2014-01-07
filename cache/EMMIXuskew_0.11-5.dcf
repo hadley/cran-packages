@@ -1,0 +1,16 @@
+Package: EMMIXuskew
+Type: Package
+Title: Fitting Unrestricted Multivariate Skew t Mixture Models
+Version: 0.11-5
+Date: 2013-11-11
+Author: S.X. Lee and G.J. McLachlan
+Maintainer: Sharon X. Lee <s.lee11@uq.edu.au>
+Description: Functions to fit finite mixture of unrestricted multivariate skew t (FM-uMST) model, random sample generation, discriminant analysis, 2D and 3D contour plots 
+License: GPL
+LazyLoad: yes
+Suggests: rgl, stats, grDevices, KernSmooth
+Depends: MASS, graphics
+Packaged: 2013-11-11 01:26:34 UTC; s4225458
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-11 08:28:53

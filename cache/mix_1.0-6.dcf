@@ -1,0 +1,16 @@
+Package: mix
+Version: 1.0-6
+Date: 2007-06-15
+Title:  Estimation/multiple Imputation for Mixed Categorical and Continuous Data
+Author: Original by Joseph L. Schafer <jls@stat.psu.edu>. 
+Maintainer: Brian Ripley <ripley@stats.ox.ac.uk>
+Depends: stats
+Description:  Estimation/multiple imputation programs for mixed categorical
+    and continuous data
+License: The software may be distributed free of charge and
+ 	used by anyone if credit is given. It has been tested 
+	fairly well, but it comes with no guarantees and the 
+	authors assume no liability for its use or misuse. 
+LazyData: yes
+URL: http://www.stat.psu.edu/~jls/misoftwa.html
+Packaged: Fri Jun 15 17:02:37 2007; ripley

@@ -1,0 +1,16 @@
+Package: Mangrove
+Type: Package
+Title: Risk prediction on trees
+Version: 1.0
+Date: 2011-10-24
+Author: Luke Jostins
+Maintainer: Luke Jostins <lj4@sanger.ac.uk>
+Description: Mangrove is an R package for performing genetic risk
+        prediction from genotype data.  You can use it to perform risk
+        prediction for individuals, or for families with missing data.
+License: GPL (>= 2)
+Suggests: kinship
+LazyLoad: yes
+Packaged: 2011-10-25 16:13:48 UTC; lj4
+Repository: CRAN
+Date/Publication: 2011-10-26 17:57:46

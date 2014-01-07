@@ -1,0 +1,18 @@
+Package: IUPS
+Type: Package
+Title: Incorporating Uncertainties in Propensity Scores
+Version: 1.0
+Date: 2013-6-5
+Author: Weihua An, Huizi Xu, and Zhida Zheng, Indiana University
+        Bloomington
+Maintainer: Weihua An <weihuaan@indiana.edu>
+Depends: R (>= 2.14), R2jags, Matching, boot
+SystemRequirements: JAGS (>= 3.3.0)
+Description: This package includes functions to incorporate
+        uncertainties in estimated propensity scores and provide
+        adjusted standard errors for making valid causal inference.
+License: GPL-3
+Packaged: 2013-06-06 05:10:06 UTC; weihuaan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-06 07:56:42

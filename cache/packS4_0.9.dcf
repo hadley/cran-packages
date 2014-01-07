@@ -1,0 +1,17 @@
+Package: packS4
+Type: Package
+Title: Toy example of S4 package
+Version: 0.9
+Date: 2011-10-10
+Author: Christophe Genolini
+Maintainer: Christophe Genolini <genolini@u-paris10.fr>
+Description: This package comes to illustrate the book "Petit Manuel de Programmation Orientee Objet sous R"
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods, graphics
+Collate: global.R ClassU.R ClassV.R ClassW.R ClassV-ClassW.R
+        classCreator.R
+URL: www.r-project.org,christophe.genolini.free.fr/webTutorial
+Packaged: 2011-10-31 12:09:16 UTC; Christophe
+Repository: CRAN
+Date/Publication: 2011-11-02 17:26:11

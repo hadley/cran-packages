@@ -1,0 +1,25 @@
+Package: rsgcc
+Type: Package
+Title: Gini methodology-based correlation and clustering analysis of
+        microarray and RNA-Seq gene expression data
+Version: 1.0.2
+Author: Chuang Ma, Xiangfeng Wang
+Maintainer: Chuang Ma <chuangma2006@gmail.com>
+Depends: R (>= 2.15.0), biwt, cairoDevice, fBasics, snowfall,
+        grDevices, gplots, gWidgets, gWidgetsRGtk2, stringr
+Suggests: ctc
+Description: This package provides functions for calcluating the Gini
+        correlation coefficient (GCC), the Pearson's product moment
+        correlation coefficient (PCC), the Kendall tau rank correlation
+        coefficient (KCC), the Spearman's rank correlation coefficient
+        (SCC) and the Tukey's biweight correlation coefficient (BiWt).
+        It can also been implemented to perform correlation and
+        clustering analysises on the microarray and RNA-Seq gene
+        expression data. Additionally, this package can be applied for
+        further constructing gene co-expression networks (GCNs).
+LazyLoad: yes
+License: GPL (>= 2)
+Date: 2012-06-15
+Packaged: 2012-06-15 15:46:27 UTC; wanglab
+Repository: CRAN
+Date/Publication: 2012-06-15 19:43:46

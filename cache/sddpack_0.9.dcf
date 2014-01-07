@@ -1,0 +1,15 @@
+Package: sddpack
+Type: Package
+Title: Semidiscrete Decomposition
+Version: 0.9
+Date: 2009-06-12
+Author: Tamara G. Kolda, Dianne P. O'Leary
+Maintainer: Eric Sun <esun@cs.stanford.edu>
+Description: The semidiscrete decomposition (SDD) approximates a matrix
+        as a weighted sum of outer products formed by vectors with
+        entries constrained to be in the set {-1, 0, 1}.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:39

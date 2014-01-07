@@ -1,0 +1,19 @@
+Package: DIRECT
+Type: Package
+Title: Bayesian Clustering of Multivariate Data Under the
+        Dirichlet-Process Prior
+Version: 1.0
+Date: 2011-10-19
+Author: Audrey Qiuyan Fu, Steven Russell, Sarah J. Bray and Simon
+        Tavare
+Maintainer: Audrey Q. Fu <audreyqyfu@gmail.com>
+Description: Implements the clustering method in Fu, Russell, Bray and
+        Tavare: Bayesian clustering with the Dirichlet-process prior.
+        Estimates the number of clusters from the data.  Data are
+        replicated time series or replicated measurements from multiple
+        experimental conditions.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-03-26 18:37:47 UTC; audreyfu
+Repository: CRAN
+Date/Publication: 2012-03-26 21:07:02

@@ -1,0 +1,15 @@
+Package: BBRecapture
+Type: Package
+Title: Bayesian Behavioural Capture-Recapture Models
+Version: 0.1
+Date: 2013-12-18
+Author: Luca Tardella and Danilo Alunni Fegatelli
+Maintainer: Danilo Alunni Fegatelli
+        <danilo.alunnifegatelli@uniroma1.it>
+Depends: R (>= 3.0.2), HI, locfit, lme4, secr
+Description: Model fitting of flexible behavioural recapture models based on conditional probability reparameterization and meaningful partial capture history quantification also referred to as meaningful behavioural covariate
+License: GPL-2
+Packaged: 2013-12-18 15:39:12 UTC; luca
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-19 12:22:14

@@ -1,0 +1,15 @@
+Package: int64
+Type: Package
+Title: 64 bit integer types
+Version: 1.1.1
+Date: 2011-11-27
+Author: Romain Francois, sponsored by the Google Open Source Programs Office
+Maintainer: Romain Francois <romain@r-enthusiasts.com>
+Description: 64 bit integer types
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods
+Suggests: RUnit
+Packaged: 2011-11-27 21:57:04 UTC; romain
+Repository: CRAN
+Date/Publication: 2011-11-28 12:00:05

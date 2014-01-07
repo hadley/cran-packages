@@ -1,0 +1,16 @@
+Package: MixSim
+Version: 0.1-04
+Date: 2009-06-10
+Title: Simulating Data to Study Performance of Clustering Algorithms.
+Author: Volodymyr Melnykov <volmeln@iastate.edu>, Wei-Chen Chen
+        <snoweye@iastate.edu>, Ranjan Maitra <maitra@iastate.edu>
+Maintainer: Volodymyr Melnykov <volmeln@iastate.edu>
+Depends: R (>= 2.4.0), MASS
+Suggests:
+LazyLoad: no
+LazyData: yes
+Description: MixSim
+License: GPL (>= 2)
+Packaged: Wed Jun 10 13:08:20 2009; volmeln
+Repository: CRAN
+Date/Publication: 2009-06-14 18:50:27

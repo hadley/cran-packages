@@ -1,0 +1,12 @@
+Package: moduleColor
+Version: 1.05-2
+Date: 2008-04-03
+Title: Basic module functions
+Author: Peter Langfelder <Peter.Langfelder@gmail.com> and Steve Horvath <SHorvath@mednet.ucla.edu>
+Maintainer: Peter Langfelder <Peter.Langfelder@gmail.com>
+Depends: R (>= 2.3.0), stats, impute, grDevices, dynamicTreeCut
+ZipData: no
+License: GPL (>= 2)
+Description: Methods for color labeling, calculation of eigengenes, merging of closely related modules.
+URL: http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/BranchCutting/
+Packaged: Thu Apr  3 15:46:39 2008; plangfelder

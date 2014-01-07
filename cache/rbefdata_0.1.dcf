@@ -1,0 +1,15 @@
+Package: rbefdata
+Maintainer: Claas-Thido Pfaff <ctpfaff@arcor.de>
+Author: BEFdata development team
+Version: 0.1
+License: MIT
+Title: BEFdata R package
+Description: Basic R package to access the data structures offered by
+        the BEFdata portal.
+Suggests: ggplot2, plyr
+Imports: XML, RCurl
+Collate: 'bef.options.R' 'zzz.R' 'rbefdata-package.R' 'bef.getdata.R'
+        'bef.getMetaData.R'
+Packaged: 2013-01-23 20:04:37 UTC; sabsirro
+Repository: CRAN
+Date/Publication: 2013-01-24 15:44:38

@@ -1,0 +1,28 @@
+Package: SAVE
+Type: Package
+Title: This package implements the SAVE approach for Computer Models
+Version: 0.9.3.3
+Date: 2013-02-23
+Author: Rui Paulo, Gonzalo Garcia-Donato, and Jesus Palomo, with
+        contributions from J. Berger, S. Bayarri and J. Sacks.
+Authors@R: c(person("Jesus","Palomo", role=c("aut",
+        "cre"),email="jesus.palomo@urjc.es"),
+        person("Gonzalo","Garcia-Donato",
+        role="aut",email="gonzalo.garciadonato@uclm.es"),
+        person("Rui","Paulo", role="aut",email="rui@iseg.utl.pt"))
+Maintainer: Jesus Palomo <jesus.palomo@urjc.es>
+Depends: R (>= 1.0), coda, DiceKriging, methods
+Packaged: 2013-04-09 12:21:01 UTC; rlda
+LazyLoad: no
+Suggests: MASS
+Description: The SAVE package implements statistical methodology for
+        the analysis of complex computer models. Namely, it allows for
+        the emulation, calibration, and validation of computer models,
+        following methodology described in Bayarri et al 2007,
+        Technometrics.
+License: GPL (>= 2)
+URL: http://vangogh.fcjs.urjc.es/~jesus/SAVE
+BugReports:
+Repository: CRAN
+Date/Publication: 2013-04-09 15:05:24
+NeedsCompilation: yes

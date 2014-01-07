@@ -1,0 +1,24 @@
+Package: datacheck
+Type: Package
+Title: Tools for checking data consistency
+Version: 0.9.6
+Date: 2013-04-16
+Author: Reinhard Simon
+Maintainer: "Simon, Reinhard (CIP)" <R.SIMON@CGIAR.ORG>
+Description: The package provides functionality to check variables
+        against a set of basic rules. A rule file can be accompanied by
+        lookup tables. In addition, the package provides some
+        convenience testing functions that may serve also as an example
+        for defining clearer 'data rules' or tests. An html based user
+        interface facilitates initial exploration of the functionality.
+License: GPL (>= 3)
+LazyData: yes
+Suggests: knitr
+VignetteBuilder: knitr
+Depends: R (>= 2.15.1), grDevices, Hmisc, stringr, shiny, testthat,
+        xtable
+Collate: 'datacheck.R'
+Packaged: 2013-04-16 21:05:15 UTC; rsimon
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-16 23:37:27

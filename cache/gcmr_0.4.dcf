@@ -1,0 +1,13 @@
+Package: gcmr
+Version: 0.4
+Priority: optional
+Title: Gaussian Copula Marginal Regression
+Author: Guido Masarotto and Cristiano Varin
+Maintainer: Cristiano Varin <sammy@unive.it>
+Depends: R (>= 2.10), nlme, sandwich, geoR
+Description: likelihood inference in Gaussian copula marginal
+        regression models
+License: GPL (>= 2)
+Packaged: 2012-08-08 07:21:23 UTC; sammy
+Repository: CRAN
+Date/Publication: 2012-08-08 07:45:18

@@ -1,0 +1,15 @@
+Package: DTComPair
+Type: Package
+Title: Comparison of Binary Diagnostic Tests in a Paired Study Design
+Version: 0.92
+Date: 2013-01-28
+Author: Christian Stock, Thomas Hielscher
+Maintainer: Christian Stock <c.stock@Dkfz-Heidelberg.de>
+Depends: gee, geepack
+Description: This package contains functions to compare the accuracy of
+        two binary diagnostic tests in a "paired" study design, i.e.
+        when each test is applied to each subject in the study.
+License: GPL
+Packaged: 2013-01-28 16:08:26 UTC; christianstock
+Repository: CRAN
+Date/Publication: 2013-01-28 19:40:36

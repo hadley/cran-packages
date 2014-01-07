@@ -1,0 +1,18 @@
+Package: flexmix
+Version: 1.0-0
+Date: 2004-10-19
+Author: Friedrich Leisch
+Maintainer: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at>
+Title: Flexible Mixture Modeling
+Depends: R (>= 1.9.0), graphics, methods, stats, stats4
+Suggests: MASS, ellipse, mvtnorm
+Description: FlexMix implements a general framework for finite
+  mixtures of regression models using the EM algorithm. 
+  FlexMix provides the E-step and all data handling, while the M-step can be
+  supplied by the user to easily define new models. Existing drivers
+  implement mixtures of standard linear models, generalized linear
+  models and model-based clustering. 
+License: GPL version 2.
+URL: http://www.ci.tuwien.ac.at/~leisch/FlexMix
+SaveImage: yes
+Packaged: Tue Oct 19 20:18:59 2004; leisch

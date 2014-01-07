@@ -1,0 +1,20 @@
+Package: FisherEM
+Type: Package
+Title: The Fisher-EM algorithm
+Version: 1.4
+Date: 2013-06-21
+Author: Charles Bouveyron and Camille Brunet
+Maintainer: Camille Brunet <camille.brunet@gmail.com>
+Depends: MASS,elasticnet
+Description: The FisherEM package provides an efficient algorithm for
+        the unsupervised classification of high-dimensional data. This
+        FisherEM algorithm models and clusters the data in a
+        discriminative and low-dimensional latent subspace. It also
+        provides a low-dimensional representation of the clustered
+        data. A sparse version of Fisher-EM algorithm is also provided.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-06-28 08:20:50 UTC; charles
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-28 18:44:30

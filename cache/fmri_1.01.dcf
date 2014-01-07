@@ -1,0 +1,18 @@
+Package: fmri
+Version: 1.01
+Date: 2006-8-30
+Title: Analysis of fMRI experiments
+Author: Karsten Tabelow <tabelow@wias-berlin.de>
+        Joerg Polzehl <polzehl@wias-berlin.de>
+Maintainer: Karsten Tabelow <tabelow@wias-berlin.de>
+Suggests: tkrplot
+Description: The library contains R-functions to perform an fmri analysis
+             as described in Tabelow, Polzehl, Spokoiny, 
+             WIAS-preprint No. 1079, 2005.
+License: GPL version 2 or newer
+         This library is Copyright (C) 2005 Weierstrass Institute for 
+                                   Applied Analysis and Stochastics.
+URL: http://www.wias-berlin.de/project-areas/stat/a3/
+Note: This software comes with NO warranty! It is NOT intended to be used 
+      in clinical applications!
+Packaged: Thu Aug 31 14:34:02 2006; tabelow

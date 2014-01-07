@@ -1,0 +1,17 @@
+Package: diseasemapping
+Type: Package
+Title: Calculate observed and expected disease incidence counts from a
+        case file and population data.
+Version: 0.7.5
+Date: 2013-07-17
+Depends: sp, R (>= 2.10)
+Imports: mgcv
+Enhances: glmmBUGS, spdep
+Author: Patrick Brown <patrick.brown@utoronto.ca>
+Maintainer: Patrick Brown <patrick.brown@utoronto.ca>
+Description: Tools for calculating rates and Standardized Incidence Ratios from case and population data.
+License: GPL
+Packaged: 2013-07-17 14:32:29 UTC; patrick
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-17 17:16:52

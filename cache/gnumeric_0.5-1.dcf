@@ -1,0 +1,17 @@
+Package: gnumeric
+Version: 0.5-1
+Date: 2009-08-20
+Title: read data from files readable by gnumeric
+Author: Karoly Antal <antalk@chello.hu>.
+Maintainer: Karoly Antal <antalk@chello.hu>
+Depends: R (>= 2.8.1)
+Description: Read data files readable into R. Can read whole sheet or a
+        range, from several file formats, including the native format
+        of gnumeric. Reading is done by using ssconvert (a file
+        converter utility included in the gnumeric distribution) to
+        convert the requested part to CSV.
+License: GPL (>= 2)
+URL: http://www.ektf.hu/~antalk
+Packaged: Thu Aug 20 15:00:55 2009; antalk
+Repository: CRAN
+Date/Publication: 2009-08-20 15:04:38

@@ -1,0 +1,18 @@
+Package: integrativeMEdata
+Type: Package
+Title: Matched Clinical factors and microarray data (part of
+        integrativeME package)
+Version: 1.0
+Date: 2009-09-29
+Author: Kim-Anh Le Cao
+Maintainer: Kim-Anh Le Cao <k.lecao@uq.edu.au>
+Description: This package contains data sets with matched categorical
+        clinical factors and microarray data for three cancer studies.
+        This is part of the integrativeME package that combines these
+        two types of variables in a binary classification framework by
+        selecting a hybrid signature of clinical factors and gene
+        markers.
+License: GPL (>= 2)
+Packaged: 2009-10-12 06:45:21 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-10-12 06:46:33

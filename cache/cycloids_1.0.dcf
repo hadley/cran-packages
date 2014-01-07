@@ -1,0 +1,18 @@
+Package: cycloids
+Type: Package
+Title: cycloids
+Version: 1.0
+Date: 2013-10-24
+Author: Peter Biber
+Maintainer: Peter Biber <castor.fiber@gmx.de>
+Description: Tools for calculating coordinate representations of
+    hypocycloids, epicyloids, hypotrochoids, and epitrochoids
+    (altogether called 'cycloids' here) with different scaling
+    and positioning options. The cycloids can be visualised with
+    any appropriate graphics function in R.
+License: GPL-3
+Collate: 'ZFunktionen.r'
+Packaged: 2013-11-28 21:36:46 UTC; Peter
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-29 07:31:51

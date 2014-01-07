@@ -1,0 +1,15 @@
+Package: hint
+Type: Package
+Title: Tools for hypothesis testing based on Hypergeometric
+        Intersection distributions
+Version: 0.1-1
+Date: 2013-05-16
+Author: Alex T. Kalinka
+Maintainer: Alex T. Kalinka <alex.t.kalinka@gmail.com>
+Description: Hypergeometric Intersection distributions are a broad group of distributions that describe the probability of picking intersections when drawing independently from two (or more) urns containing variable numbers of balls belonging to the same n categories.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-07-23 20:44:37 UTC; alexk
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-24 11:31:45

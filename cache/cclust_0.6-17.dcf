@@ -1,0 +1,18 @@
+Package: cclust
+Title: Convex Clustering Methods and Clustering Indexes
+Version: 0.6-17
+Authors@R: c(person("Evgenia", "Dimitriadou", role = "aut"),
+        person("Kurt", "Hornik", role = c("ctb", "cre"), email =
+        "Kurt.Hornik@R-project.org"))
+Description: Convex Clustering methods, including K-means algorithm,
+        On-line Update algorithm (Hard Competitive Learning) and Neural
+        Gas algorithm (Soft Competitive Learning), and calculation of
+        several indexes for finding the number of clusters in a data
+        set.
+Imports: stats
+License: GPL-2
+Packaged: 2012-12-22 13:19:42 UTC; hornik
+Author: Evgenia Dimitriadou [aut], Kurt Hornik [ctb, cre]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2012-12-22 14:23:25

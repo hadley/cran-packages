@@ -1,0 +1,16 @@
+Package: fastSOM
+Type: Package
+Version: 0.9
+Date: 2012-10-04
+Title: Fast Calculation of Spillover Measures
+Author: Stefan Kloessner <S.Kloessner@mx.uni-saarland.de>, Sven Wagner
+        <sven.wagner@mx.uni-saarland.de>
+Maintainer: Stefan Kloessner <S.Kloessner@mx.uni-saarland.de>
+Suggests: parallel
+Description: Functions for computing spillover measures, especially
+        spillover tables and spillover indices, as well as their
+        average, minimal, and maximal values.
+License: GPL (>= 2)
+Packaged: 2012-10-04 11:14:54 UTC; ww17vssk
+Repository: CRAN
+Date/Publication: 2012-10-04 11:35:52

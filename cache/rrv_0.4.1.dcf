@@ -1,0 +1,16 @@
+Package: rrv
+Title: Random Return Variables
+Version: 0.4.1
+Date: 2011-10-26
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: This package is partly based on Markowitz (1952), however
+        considers empirical distributions. There's a strong emphasis on
+        modelling conditional portfolio returns as functions of weight.
+        Various "conditional parameters" are considered, including
+        expected returns and quantile returns.
+Depends: s3x (>= 0.3.0), mecdf (>= 0.6.0)
+License: GPL (>= 2)
+Packaged: 2011-10-26 05:17:31 UTC; maia
+Repository: CRAN
+Date/Publication: 2011-10-27 06:54:31

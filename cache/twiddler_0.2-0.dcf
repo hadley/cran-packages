@@ -1,0 +1,17 @@
+Package: twiddler
+Version: 0.2-0
+Title: Interactive manipulation of R expressions
+Description: Twiddler is an interactive tool that automatically creates
+        a Tcl/Tk GUI for manipulating variables in any R expression.
+        See the documentation of the function twiddle to get started.
+Author: Oliver Flasch, Olaf Mersmann
+Maintainer: Oliver Flasch <oliver.flasch@fh-koeln.de>
+Depends: R (>= 2.10.0), tcltk
+License: GPL-2
+URL: https://rsymbolic.org/projects/show/twiddler
+LazyData: yes
+Collate: 'twiddler.r'
+Date:
+Packaged: 2010-05-22 08:48:30 UTC; oflasch
+Repository: CRAN
+Date/Publication: 2010-05-22 10:16:07

@@ -1,0 +1,29 @@
+Package: compositionsGUI
+Type: Package
+Title: Graphical User Environment for Compositional Data Analysis
+Version: 1.0
+Date: 2013-05-14
+Author: Jiri Eichler, Karel Hron, Raimon Tolosana-Delgado, Gerald van
+        den Boogaart, Matthias Templ, Peter Filzmoser
+Maintainer: Jiri Eichler <eichler@subreg.cz>
+Depends: robCompositions, compositions, mvoutlier, robustbase, RGtk2,
+        MASS, nnet, boot
+Description: The package provides graphical user interface and teaching
+        tool for compositional data analysis using R. It contains data
+        loading from various sources (external sources, installed R
+        packages), preprocessing (imputation of missing values and
+        rounded zeros), basic summary statistics as well as log-ratio
+        transformations, necessary for a reasonable statistical
+        treatment of compositional data (isometric, centred, additive
+        log-ratio transformations). Further, also statistical methods
+        like outlier detection and principal component analysis,
+        together with the corresponding graphical tools, are provided.
+        Finally, the package contains plotting functions, suitable for
+        compositional data analysis, like ternary and quaternary
+        diagrams, scatterplots of log-ratio transformed data, and
+        diagrams with categorical/continuous covariates.
+License: GPL (>= 2)
+Packaged: 2013-05-16 20:20:57 UTC; templ
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-24 12:34:41

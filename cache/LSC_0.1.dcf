@@ -1,0 +1,21 @@
+Package: LSC
+Type: Package
+Title: Local Statistical Complexity - Automatic Pattern Discovery in
+        Spatio-Temporal Data
+Version: 0.1
+Date: 2012-11-05
+Author: Georg M. Goerg <gmg@stat.cmu.edu>
+Maintainer: Georg M. Goerg <gmg@stat.cmu.edu>
+Description: Estimators and visualization for local statistical
+        complexity of (N+1)D fields. In particular for 1 and 2
+        dimensional space this package provides useful visualization.
+License: GPL-2
+Depends: R (>= 2.12.1), LICORS, RColorBrewer, gam, fields
+Imports: LICORS
+URL: http://www.stat.cmu.edu/~gmg
+Collate: 'LICORS2LSC.R' 'LSC-utils.R' 'plot_LSC_1plus1D.R'
+        'plot_LSC_2plus1D.R' 'states2LSC.R' 'states2probs.R'
+        'LSC-package.R' 'make_legend.R'
+Packaged: 2012-11-14 23:42:39 UTC; GMG
+Repository: CRAN
+Date/Publication: 2012-11-15 07:24:05

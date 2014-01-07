@@ -1,0 +1,13 @@
+Package: relaimpo
+Title: Relative importance of regressors in linear models
+Version: 1.2-1
+Date: 2007-09-28
+Author: Ulrike Groemping
+Description: relaimpo provides several metrics for assessing relative importance in linear models. These can be printed, plotted and bootstrapped. The recommended metrics are lmg or pmvd, which provide a decomposition of the model explained variance into non-negative contributions. This version of relaimpo is licensed outside the US only. If you are a US-user, you can download a global version (without pmvd) from CRAN.
+Depends: R (>= 2.2.1), MASS, boot, methods
+Maintainer: Ulrike Groemping <groemping@tfh-berlin.de>
+License: GPL (>=2)
+Encoding: latin1
+URL: http://www.tfh-berlin.de/~groemp/rpack.html, http://www.tfh-berlin.de/~groemp
+Vignette: paper in J. Statistical Software Vol. 17, issue 1 (linked from URL)
+Packaged: Fri Sep 28 23:35:21 2007; Grömping

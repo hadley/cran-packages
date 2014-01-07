@@ -1,0 +1,25 @@
+Package: longpower
+Type: Package
+Title: Sample size calculations for longitudinal data
+Version: 1.0-2
+Date: 2010-08-23
+Author: Michael C. Donohue, Anthony C. Gamst, Steven D. Edland
+Maintainer: Michael C. Donohue <mdonohue@ucsd.edu>
+Description: The longpower package contains functions for computing
+        power and sample size for linear models of longitudinal data
+        based on the formula due to Liu and Liang (1997) and Diggle et
+        al (2002). Either formula is expressed in terms of marginal
+        model or Generalized Estimating Equations (GEE) parameters.
+        This package contains functions which translate pilot mixed
+        effect model parameters (e.g. random intercept and/or slope)
+        into marginal model parameters so that the formulas of Diggle
+        et al or Liu and Liang formula can be applied to produce sample
+        size calculations for two sample longitudinal designs assuming
+        known variance.
+License: GPL (>= 2)
+Depends: Matrix, lme4, methods
+LazyLoad: yes
+URL: http://math.ucsd.edu/~mdonohue
+Packaged: 2012-05-31 17:13:04 UTC; mdonohue
+Repository: CRAN
+Date/Publication: 2012-05-31 17:32:04

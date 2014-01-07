@@ -1,0 +1,25 @@
+Package: plumbr
+Version: 0.6.3
+Title: Mutable and dynamic data models
+Author: Michael Lawrence, Hadley Wickham
+Depends: R (>= 2.10.0)
+Imports: utils, methods, objectSignals
+Suggests: plyr, testthat
+URL: https://github.com/ggobi/plumbr/wiki
+Maintainer: Michael Lawrence <michafla@gene.com>
+Description: The base R data.frame, like any vector, is copied upon
+        modification. This behavior is at odds with that of GUIs and
+        interactive graphics. To rectify this, plumbr provides a
+        mutable, dynamic tabular data model.  Models may be chained
+        together to form the complex plumbing necessary for
+        sophisticated graphical interfaces. Also included is a general
+        framework for linking datasets; an typical use case would be a
+        linked brush.
+License: GPL (>= 2)
+Collate: 'accessors.r' 'bindings.r' 'coercion.r' 'constructor.r'
+        'dimensions.r' 'events.r' 'linking.r' 'mutalist.R' 'names.r'
+        'print.r' 'proxy-filter.r' 'selection.r' 'utils.r' 's4.r'
+        'import.r'
+Packaged: 2011-10-26 13:22:02 UTC; larman
+Repository: CRAN
+Date/Publication: 2011-10-26 18:00:34

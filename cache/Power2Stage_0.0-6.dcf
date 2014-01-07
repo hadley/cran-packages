@@ -1,0 +1,30 @@
+Package: Power2Stage
+Type: Package
+Title: Power and Sample size distribution of 2-stage BE studies via
+        simulations
+Version: 0.0-6
+Date: 2014-01-02
+Authors@R: c(person("Detlew", "Labes", role = c("aut","cre"), email =
+                    "DetlewLabes@gmx.de"),
+             person("Helmut", "Schuetz", role = c("ctb"), email =
+                    "helmut.schuetz@bebac.at"))
+Description: Contains functions to calculate power and sample size distribution
+             of 2-stage BE studies according to Potvin et.al. / Montague et. al. 
+             modified to include a futility Nmax 
+             and modified to do the sample size estimation step with PE and mse  
+             of stage 1 as well as the power calculation steps according to
+             Karalis & Macheras.
+             The third function calculates power and sample size distribution
+             of 2-stage BE studies with a futility criterion for the point
+             estimator of T/R from stage 1.
+Depends: PowerTOST
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2014-01-02 08:15:28 UTC; dlabes
+Author: Detlew Labes [aut, cre],
+  Helmut Schuetz [ctb]
+Maintainer: Detlew Labes <DetlewLabes@gmx.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-02 09:53:28

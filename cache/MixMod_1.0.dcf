@@ -1,0 +1,13 @@
+Package: MixMod
+Type: Package
+Title: Analysis of Mixed Models
+Version: 1.0
+Date: 2012-01-09
+Author: Alexandra Kuznetsova, Per Bruun Brockhoff
+Maintainer: Alexandra Kuznetsova <alku@imm.dtu.dk>
+Imports: numDeriv, Matrix, nlme, lme4, MASS, Hmisc
+Description: Performs complete analysis of linear mixed effects models
+License: GPL
+Packaged: 2012-02-28 20:52:33 UTC; alku
+Repository: CRAN
+Date/Publication: 2012-02-29 08:24:23

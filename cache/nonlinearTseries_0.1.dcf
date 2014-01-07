@@ -1,0 +1,18 @@
+Package: nonlinearTseries
+Type: Package
+Title: R package for nonlinear time series analysis
+Version: 0.1
+Date: 2013-02-01
+Author: Constantino A. Garcia
+Maintainer: Constantino A. Garcia <constantinoantonio.garcia@usc.es>
+Description: R package for nonlinear time series analysis
+License: GPL-2
+Depends: Matrix, rgl, tseries, TSA
+Suggests: RUnit
+Repository: CRAN
+Repository/R-Forge/Project: nonlinear
+Repository/R-Forge/Revision: 12
+Repository/R-Forge/DateTimeStamp: 2013-08-28 11:36:36
+Date/Publication: 2013-08-29 12:05:22
+Packaged: 2013-08-28 14:15:40 UTC; rforge
+NeedsCompilation: yes

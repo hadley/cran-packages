@@ -1,0 +1,15 @@
+Package: ris
+Type: Package
+Title: RIS package for bibliographic analysis
+Version: 1.0
+Date: 2010-01-24
+Author: Stephanie Kovalchik <skoval@ucla.edu>
+Maintainer: Stephanie Kovalchik <skoval@ucla.edu>
+Description: Importing RIS-formatted file into a list of Bibtex-like
+        references; checking for duplications; converting references to
+        citEntry objects
+License: GPL
+LazyLoad: yes
+Packaged: Sat Feb 20 19:25:55 2010; skoval
+Repository: CRAN
+Date/Publication: 2010-02-21 18:43:39

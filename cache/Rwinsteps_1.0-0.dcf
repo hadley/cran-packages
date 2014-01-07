@@ -1,0 +1,20 @@
+Package: Rwinsteps
+Version: 1.0-0
+Date: 2011-8-31
+Title: Running Winsteps in R
+Author: Anthony Albano <tony.d.albano@gmail.com>, Ben Babcock
+        <ben.babcock@arrt.org>
+Maintainer: Anthony Albano <tony.d.albano@gmail.com>
+Depends: R (>= 2.12.0)
+Description: The Rwinsteps package facilitates communication between R
+        and the Rasch modeling software Winsteps. The package currently
+        includes functions for reading and writing command files,
+        sending them to Winsteps, reading and writing data according to
+        command file specifications, reading output into R, and
+        plotting various results.
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2011-09-01 23:15:44 UTC; Tony
+Repository: CRAN
+Date/Publication: 2011-09-02 04:53:43

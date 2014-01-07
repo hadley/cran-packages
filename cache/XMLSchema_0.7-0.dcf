@@ -1,0 +1,26 @@
+Package: XMLSchema
+Version: 0.7-0
+Title: R facilities to read XML schema
+Author: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+Depends: R (>= 1.5.0), methods, XML
+Suggests: RCurl
+Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+Description: A package that reads XML schema into an R representation
+        and can perform some operations on the resulting information to
+        generate class definitions and code to read documents using
+        this schema.  This is code that was originally in the SSOAP
+        package for reading WSDL files that describe Web Services and
+        use XML schema.
+LazyLoad: yes
+Imports: RCurl, codetools
+License: GPL-2
+Collate: ClassDefs.S processSchemaTypes.R SOAPTypes.S resolve.R
+        genCode.R parseSchema.R createConverters.R schema.R array.S
+        basicTypes.R utils.R selfRefs.R enums.R restriction.R
+        makeSchemaCollection.R gatherNamespaceDefs.R targetNamespace.R
+        fixTypeNames.R serialize.R toXML.R dependencies.R validity.R
+URL: http://www.omegahat.org/XMLSchema, http://www.omegahat.org
+        http://www.omegahat.org/bugs
+Packaged: 2012-01-20 19:32:30 UTC; duncan
+Repository: CRAN
+Date/Publication: 2012-01-21 10:13:36

@@ -1,0 +1,24 @@
+Package: BCBCSF
+Version: 0.0-1
+Title: Bias-corrected Bayesian Classification with Selected Features
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 2.12.1), abind
+Description: This software is used to predict the discrete class labels
+        based on a selected subset of high-dimensional features, such
+        as expression levels of genes. The data are modeled with a
+        hierarchical Bayesian models using heavy-tailed t distributions
+        as priors. When a large number of features are available, one
+        may like to select only a subset of features to use, typically
+        those features strongly correlated with the response in
+        training cases. Such a feature selection procedure is however
+        invalid since the relationship between the response and the
+        features has be exaggerated by feature selection. This package
+        provides a way to avoid this bias and yield better-calibrated
+        predictions for future cases when one uses F-statistic to
+        select features.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://math.usask.ca/~longhai
+Packaged: 2011-09-13 20:45:09 UTC; longhai
+Repository: CRAN
+Date/Publication: 2011-09-14 06:20:04

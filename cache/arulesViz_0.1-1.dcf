@@ -1,0 +1,16 @@
+Package: arulesViz
+Version: 0.1-1
+Date: 2011-01-06
+Title: arulesViz - Visualizing Association Rules
+Author: Michael Hahsler and Sudheer Chelluboina
+Maintainer: Michael Hahsler <michael@hahsler.net>
+Depends: R (>= 1.8.0), arules, MASS, Rgraphviz, scatterplot3d, vcd,
+        seriation
+Suggests: iplots
+Description: Various visualization techniques for sets of association
+        rules based on package arules.
+License: GPL (>= 2)
+URL: http://r-forge.r-project.org/projects/arulesviz/
+Packaged: 2011-01-07 00:13:44 UTC; hahsler
+Repository: CRAN
+Date/Publication: 2011-01-08 08:47:41

@@ -1,0 +1,17 @@
+Package: GRaF
+Type: Package
+Title: Species distribution modelling using latent Gaussian random
+        fields
+Version: 0.1-1
+Date: 2013-05-15
+Author: Nick Golding
+Maintainer: Nick Golding <nick.golding@linacre.ox.ac.uk>
+Description: Functions to fit, visualise and compare Gaussian random
+        field species distribution models.
+License: GPL (>= 2)
+Depends: dismo
+LinkingTo: dismo
+Packaged: 2013-05-15 17:23:54 UTC; Nick
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-16 00:18:44

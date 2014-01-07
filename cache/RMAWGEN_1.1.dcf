@@ -1,0 +1,40 @@
+Package: RMAWGEN
+Maintainer: Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: RMAWGEN (R Multi-site Auto-regressive Weather GENeretor): a
+        package to generate daily time series from monthly mean values
+Type: Package
+Author: Emanuele Cordano, Emanuele Eccel
+Description: This package contains S3 functions for spatial multi-site
+        stochastic generation of daily timeseries of temperature and
+        precipitation. The implemented tools make use of Vectorial
+        AutoRegressive models (VARs). The VAR is calibrated by daily
+        instrumental timeseries given and then works with monthly
+        timeseries as input. Bugs/comments/questions/collaboration of
+        any kind are warmly welcomed.
+Version: 1.1
+Repository: CRAN
+Date/Publication: 2011-09-28 07:01:39
+Date: 2011-09-27
+Depends: R (>= 2.10), chron, date, vars, MASS, strucchange, urca (>=
+        1.1-6), lmtest (>= 0.9-26), sandwich (>= 2.2-4)
+Collate: 'acvWGEN.R' 'adddate.R' 'addsuffixes.R'
+        'ComprehensivePrecipitationGenerator.R'
+        'ComprehensiveTemperatureGenerator.R' 'continuity_ratio.R'
+        'countNAs.R' 'covariance.R' 'ElevationOf.R' 'extractdays.R'
+        'extractmonths.R' 'extractTnFromAnomalies.R'
+        'extractTxFromAnomalies.R' 'extractyears.R' 'findDate.R'
+        'forecastEV.R' 'forecastResidual.R'
+        'generateTemperatureTimeseries.R' 'getDailyMean.R'
+        'getMonthlyMean.R' 'getVARmodel.R' 'is.monthly.climate.R'
+        'NewVAReventRealization.R' 'newVARmultieventRealization.R'
+        'normalizeGaussian.R' 'normalizeGaussian_sevaralstations.R'
+        'plotDailyClimate.R' 'PrecipitationEndDay.R'
+        'PrecipitationStartDay.R' 'qqplotprecWGEN.R'
+        'qqplotprecWGEN_seasonal.R' 'qqplotTnTxWGEN.R'
+        'qqplotTnTxWGEN_seasonal.R' 'qqplotWGEN.R' 'removeNAs.R'
+        'RMAWGEN-package.R' 'setWholeTemperatureGeneratorParameters.R'
+        'splineInterpolateMonthlytoDailyforSeveralYears.R'
+        'splineInterpolateMonthlytoDaily.R' 'TemperatureEndDay.R'
+        'TemperatureStartDay.R' 'WhereIs.R'
+Packaged: 2011-09-27 14:37:13 UTC; ecor

@@ -1,0 +1,18 @@
+Package: fastclime
+Type: Package
+Title: A fast solver for constrained l1 minimization approach to sparse
+        precision matrix estimation
+Version: 0.8
+Date: 2013-03-08
+Author: Haotian Pang, Han Liu and Robert Vanderbei
+Maintainer: Haotian Pang <hpang@princeton.edu>
+Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
+Description: The package "fastclime" provides a method of recover the
+        precision matrix efficiently by applying parametric simplex
+        method.  The computation is based on a linear optimization
+        solver.
+License: GPL-2
+Repository: CRAN
+Packaged: 2013-03-12 17:03:34 UTC; haotian
+NeedsCompilation: yes
+Date/Publication: 2013-03-12 18:04:55

@@ -1,0 +1,17 @@
+Package: lisrelToR
+Type: Package
+Title: Import output from LISREL into R
+Version: 0.1.2
+Date: 2013-01-29
+Suggests: semPlot
+Depends: R (>= 2.15.0)
+Author: Sacha Epskamp
+Maintainer: Sacha Epskamp <mail@sachaepskamp.com>
+Description: This is an unofficial package aimed at automating the
+        import of LISREL output in R.  This package or its maintainer
+        is not in any way affiliated with the creators of LISREL and
+        SSI, Inc.
+License: GPL-2
+Packaged: 2013-01-29 15:32:45 UTC; sacha
+Repository: CRAN
+Date/Publication: 2013-01-29 16:46:29

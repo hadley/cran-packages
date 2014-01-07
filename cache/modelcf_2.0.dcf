@@ -1,0 +1,18 @@
+Package: modelcf
+Type: Package
+Version: 2.0
+Date: 2010-09-29
+Title: Modeling physical computer codes with functional outputs using
+        clustering and dimensionality reduction
+Author: Benjamin Auder
+Maintainer: Benjamin Auder <Benjamin.Auder@gmail.com>
+Depends: R (>= 2.10.1), class
+Suggests: rpart, e1071, randomForest, gbm, klaR, wmtsa, mlegp
+Description: Statistical learning with vectorial inputs and smooth 1D
+        curves as outputs. The main function build a model from n
+        samples (x_i,y_i).
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2010-09-30 10:59:25 UTC; ulath
+Repository: CRAN
+Date/Publication: 2010-09-30 18:58:17

@@ -1,0 +1,23 @@
+Package: cmprskContin
+Type: Package
+Title: Continuous mark-specific relative risks for two groups
+Version: 1.6
+Date: 2010-05-21
+Author: Peter Gilbert, Ian McKeague, and Yanqing Sun
+SystemRequirements: Linux/64bit
+Maintainer: Valerie Obenchain <vobencha@fhcrc.org>
+Description: Estimation and testing of continuous mark-specific
+        relative risks in two groups as described in Gilbert, P.,
+        McKeague, I. and Sun, Y. (2008) The 2-sample problem for
+        failure rates depending on a continuous mark: an application to
+        vaccine efficacy. Biostatistics 9, 2, 263-276. This package
+        implements the methods presented in the paper for testing
+        mark-specific hazards ratios and for estimation of
+        mark-specific incidence ratios that are cumulative in time or
+        cumulative in both time and the continuous mark.
+License: GPL-2
+Repository: CRAN
+LazyLoad: yes
+Packaged: Fri May 21 16:47:22 2010; vobencha
+OS_type: unix
+Date/Publication: 2010-05-22 06:35:57

@@ -1,0 +1,13 @@
+Package: gb
+Version: 1.0.11-24
+Date: 2011-11-11
+Title: Generalize Lambda Distribution and Generalized Bootstrapping
+Author: Bin Wang
+        <bwang@jaguar1.usouthal.edu>.
+Maintainer: Bin Wang <bwang@jaguar1.usouthal.edu>
+Depends: R (>= 2.5.0), boot
+Description: This package collects algorithms and functions for fitting data to a generalized lambda distribution via moment matching methods, and generalized bootstrapping.
+License: Unlimited
+Packaged: 2011-11-28 03:00:32 UTC; bwang
+Repository: CRAN
+Date/Publication: 2011-11-28 12:00:04

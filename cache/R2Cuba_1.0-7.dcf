@@ -1,0 +1,17 @@
+Package: R2Cuba
+Title: Multidimensional Numerical Integration
+Version: 1.0-7
+Date: 2012-06-06
+Author: The Cuba library has been written by Thomas Hahn
+        (http://wwwth.mppmu.mpg.de/members/hahn); Interface to R was
+        written by Annie Bouvier and Kiên Kiêu
+Maintainer: Annie Bouvier <Annie.Bouvier@jouy.inra.fr>
+Depends: methods
+Suggests: deldir
+Description: R2Cuba implements four general-purpose multidimensional
+        integration algorithms: Vegas, Suave, Divonne and Cuhre
+License: GPL (>= 3)
+Encoding: latin1
+Packaged: 2012-06-06 15:23:49 UTC; abouvier
+Repository: CRAN
+Date/Publication: 2012-06-06 16:39:08

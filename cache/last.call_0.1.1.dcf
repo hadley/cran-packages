@@ -1,0 +1,17 @@
+Package: last.call
+Type: Package
+Title: Utility for returning previous commands as unevaluated calls and
+        the full context of function calls.
+Version: 0.1.1
+Date: 2011-08-21
+Author: Christopher Brown
+Maintainer: Christopher Brown <chris.brown@decisionpatterns.com>
+Description: This packages returns one or more calls from the command
+        history, allowing introspection of the present and previous
+        commands including a function's full calling context.
+Suggests: pragma
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-08-21 14:46:51 UTC; cbrown
+Repository: CRAN
+Date/Publication: 2011-08-21 15:17:55

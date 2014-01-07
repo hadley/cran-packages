@@ -1,0 +1,16 @@
+Package: mpm
+Version: 1.0-16
+Date: 2009-08-26
+Title: Multivariate Projection Methods
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.be>
+Author: Luc Wouters <wouters_luc@telenet.be>
+Depends: R (>= 1.5), MASS, KernSmooth
+Description: Exploratory graphical analysis of multivariate data,
+        specifically gene expression data with different projection
+        methods: principal component analysis, correspondence analysis,
+        spectral map analysis.
+License: GPL (>= 2)
+URL: http://mpm.r-forge.r-project.org
+Packaged: 2009-08-27 21:05:15 UTC; tobias
+Repository: CRAN
+Date/Publication: 2009-08-28 20:18:39

@@ -1,0 +1,21 @@
+Package: tcltk2
+Type: Package
+Title: Tcl/Tk Additions
+Depends: R (>= 2.8.0)
+Imports: tcltk
+Suggests: utils
+SystemRequirements: Tcl/Tk (>= 8.5), Tktable (>= 2.9, optional)
+Description: A series of additional Tcl commands and Tk widgets with
+        style and various functions (under Windows: DDE exchange,
+        access to the registry and icon manipulation) to supplement the
+        tcltk package
+Version: 1.1-2
+Date: 2010-02-10
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: file LICENSE
+LazyLoad: yes
+URL: http://www.sciviews.org/SciViews-R
+Packaged: 2010-02-10 14:30:58 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2010-02-10 15:31:19

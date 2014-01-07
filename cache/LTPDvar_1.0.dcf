@@ -1,0 +1,17 @@
+Package: LTPDvar
+Type: Package
+Title: LTPD plans for sampling inspection by variables
+Version: 1.0
+Date: 2011-06-27
+Author: Nikola Kasprikova
+Maintainer: Nikola Kasprikova <data@tulipany.cz>
+Description: Calculation and evaluation of LTPD plans for sampling
+        inspection by variables
+Depends: methods
+Imports: graphics
+License: GPL-2
+URL: http://samplingplans.tulipany.cz
+LazyLoad: yes
+Packaged: 2011-06-26 21:26:10 UTC; nikola
+Repository: CRAN
+Date/Publication: 2011-06-27 07:00:07

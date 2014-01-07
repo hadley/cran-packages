@@ -1,0 +1,16 @@
+Package: labdsv
+Version: 1.2-0
+Date: 2005-10-11
+Title: Laboratory for Dynamic Synthetic Vegephenomenology 
+Author: David W. Roberts <droberts@montana.edu>, with extraordinary 
+   help from Jari Oksanen
+Maintainer: David W. Roberts <droberts@montana.edu>
+Depends: mgcv, MASS, akima
+Description: A variety of ordination and vegetation analyses
+   useful in analysis of datasets in community ecology.  Includes
+   many of the common ordination methods, with graphical 
+   routines to facilitate their interpretation, as well as
+   several novel analyses.
+License: GPL version 2 or newer
+URL: http://ecology.msu.montana.edu/labdsv/labdsv
+Packaged: Mon Oct 17 17:10:09 2005; root

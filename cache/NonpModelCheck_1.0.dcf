@@ -1,0 +1,20 @@
+Package: NonpModelCheck
+Type: Package
+Title: Model Checking and Variable Selection in Nonparametric
+        Regression
+Version: 1.0
+Date: 2012-08-03
+Author: Adriano Zanin Zambom
+Maintainer: Adriano Zanin Zambom <adriano.zambom@gmail.com>
+Depends: R (>= 2.15.0), dr, MASS, graphics
+Description: This package provides tests of significance for covariates
+        (or groups of covariates) in a fully nonparametric regression
+        model and a variable (or group) selection procedure based on
+        False Discovery Rate. In addition, it provides a function for
+        local polynomial regression for any number of dimensions, using
+        a bandwidth specified by the user or automatically chosen by
+        cross validation or an adaptive procedure.
+License: GPL (>= 2)
+Packaged: 2012-09-21 17:36:56 UTC; adrianozambom
+Repository: CRAN
+Date/Publication: 2012-09-22 04:33:51

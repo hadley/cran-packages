@@ -1,0 +1,13 @@
+Package: PoweR
+Version: 1.0
+Date: 2013-09-06
+Title: Computation of power and level tables for hypothesis tests.
+Author: Pierre Lafaye de Micheaux <lafaye@dms.umontreal.ca>, Viet Anh Tran <vietanhtran184@yahoo.com>
+Maintainer: P. Lafaye de Micheaux <lafaye@dms.umontreal.ca>
+Depends: R (>= 3.0), parallel
+Description: Functions for the computation of power and level tables for hypothesis tests, in LaTeX format, functions to build explanatory graphs for studying power of test statistics.
+License: GPL (>= 2)
+Packaged: 2013-10-24 10:55:02 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-24 12:55:54

@@ -1,0 +1,20 @@
+Package: TShistQuote
+Version: 2012.4-1
+Title: Time Series Database Interface extensions for get.hist.quote
+Description: Provides methods for generics in the TSdbi package to
+        retrieve data from historical quote URLs.
+Depends: R (>= 2.8.0), methods, DBI, TSdbi (>= 2011.11-1), tseries,
+        tframe, tframePlus, zoo
+Suggests: tfplot
+Enhances: TSdbi
+BuildVignettes: false
+License: GPL-2
+Copyright: 2007-2011 Bank of Canada.  2012 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 335
+Packaged: 2012-04-12 16:30:37 UTC; rforge
+Date/Publication: 2012-05-03 06:06:35

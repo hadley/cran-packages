@@ -1,0 +1,29 @@
+Package: biOps
+Type: Package
+Title: Image processing and analysis
+Version: 0.2.2
+Date: 2013-03-29
+Author: Matias Bordese, Walter Alini
+Maintainer: ORPHANED
+Encoding: UTF-8
+Description: This package includes several methods for image processing
+        and analysis. It provides geometric, arithmetic, logic,
+        morphologic (supported on one channel images only), look-up
+        tables, edge detection (including Roberts, Sobel, Kirsch,
+        Marr-Hildreth and Canny, among others) and convolution masks
+        operations (predefined commons masks already defined and user
+        defined applications). Isodata and k-means classification
+        methods are also provided (standard, kd-tree and brute force
+        methods implemented). Fast Fourier Transform methods and
+        filters also available if fftw3 installed. Supports jpeg and
+        tiff images so far (more image support in future versions).
+        libtiff and libjpeg libraries installed required.
+SystemRequirements: libjpeg; optionally libtiff and fftw3
+License: GPL (>= 2)
+Packaged: 2013-03-29 14:04:34 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-03-29 15:53:52
+NeedsCompilation: yes
+X-CRAN-Original-Maintainer: Matias Bordese <mbordese@gmail.com>
+X-CRAN-Comment: Orphaned on 2013-03-29 at the request of the
+        maintainer.

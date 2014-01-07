@@ -1,0 +1,18 @@
+Package: plspm
+Type: Package
+Title: Partial Least Squares Data Analysis Methods
+Version: 0.1-8
+Date: 2010-26-07
+Author: Gaston Sanchez <plspmr@gmail.com>, and Laura Trinchera
+        <laura.trinchera@supelec.fr>
+Maintainer: Gaston Sanchez <plspmr@gmail.com>
+Depends: amap, diagram
+Suggests: FactoMineR
+Description: Partial Least Squares (PLS) methods with emphasis on
+        structural equation models with latent variables.
+License: GPL (>= 2)
+URL: http://www.scribd.com/plspm
+LazyLoad: yes
+Packaged: 2010-07-26 17:23:00 UTC; Gaston
+Repository: CRAN
+Date/Publication: 2010-07-26 21:02:25

@@ -1,0 +1,13 @@
+Package: gplots
+Title: Various R programming tools for plotting data
+Description: Various R programming tools for plotting data
+Depends: R (>= 1.9.0), gtools, gdata, stats
+Recommends: datasets
+Suggests: gtools, gdata
+Version: 2.3.0
+Date: 2006-03-07
+Author: Gregory R. Warnes. Includes R source code and/or documentation
+        contributed by Ben Bolker and Thomas Lumley
+Maintainer: Nitin Jain <nitin.jain@pfizer.com>
+License: GPL (version 2 or later)
+Packaged: Fri Mar 10 09:24:55 2006; hornik

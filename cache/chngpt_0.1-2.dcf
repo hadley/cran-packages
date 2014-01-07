@@ -1,0 +1,17 @@
+Package: chngpt
+LazyLoad: yes
+LazyData: yes
+Version: 0.1-2
+Date: 2013-10-11
+Title: Change Point Logistic Regression
+Author: Youyi Fong <yfong@fhcrc.org>
+Maintainer: Youyi Fong <yfong@fhcrc.org>
+Depends: R (>= 3.0.0), MASS
+Suggests: RUnit, xtable, mvtnorm
+Imports:
+Description: chngpt is a package for change point logistic regression
+License: GPL (>= 2)
+Packaged: 2013-10-18 16:50:35 UTC; yfong
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-18 19:54:02

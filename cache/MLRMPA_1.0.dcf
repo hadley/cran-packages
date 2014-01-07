@@ -1,0 +1,19 @@
+Package: MLRMPA
+Type: Package
+Title: A package for Multilinear Regression Model Population Analysis
+Version: 1.0
+Date: 2013-08-21
+Author: Meihong Xie and Xiaoyun Zhang
+Maintainer: Xiaoyun Zhang <xyzhang@lzu.edu.cn>
+Description: This package provides Multilinear Regression Model Population 
+             Analysis to build a pool of models between quantitative activity and chemical 
+			 descriptors. Also some useful model validation functions. Contains all 
+			 molecular descriptors of 101 organic compounds and acticity dataset.		 
+LazyData: yes
+LazyDataCompression: xz
+Depends: R(>= 3.0.1),ClustOfVar
+License: GPL-2
+Packaged: 2013-09-11 08:10:40 UTC; chem701
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-12 08:05:20

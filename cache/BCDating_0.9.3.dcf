@@ -1,0 +1,16 @@
+Package: BCDating
+Type: Package
+Title: Business Cycle Dating and Plotting Tools - BCDating
+Version: 0.9.3
+Date: 2013-09-02
+Authors@R: c(person("Majid", "Einian", role = c("aut", "cre"),
+                          email = "einian85@gmail.com"))
+Author: Majid Einian
+Maintainer: Majid Einian <einian85@gmail.com>
+Description: Tools for Dating Business Cycles using Harding-Pagan (Quarterly Bry-Boschan) method and various plotting features.
+License: GPL-2
+Depends: methods
+Packaged: 2013-09-03 03:21:34 UTC; m.einian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-03 06:40:55

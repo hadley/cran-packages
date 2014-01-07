@@ -1,0 +1,28 @@
+Package: ppiPre
+Type: Package
+Title: Predict protein-protein interactions based on functional and
+        topological similarities.
+Version: 1.2
+Date: 2011-10-16
+Author: Yue Deng
+Maintainer: Yue Deng <anfdeng@163.com>
+Description: This package implements several functions useful for
+        computing similarities between proteins based on their GO
+        annotation, KEGG annotation and PPI network topology. It
+        integrates these similarities to predict PPIs using an SVM
+        classifier. Nineteen species are supported, including
+        Anopheles, Arabidopsis, Bovine, Canine, Chicken, Chimp, E coli
+        strain K12 and strain Sakai, Fly, Human, Malaria, Mouse, Pig,
+        Rhesus, Rat, Worm, Xenopus, Yeast, and Zebrafish.
+License: GPL-2
+LazyLoad: yes
+Depends: AnnotationDbi, GO.db, KEGG.db, org.Sc.sgd.db, igraph, e1071,
+        org.Hs.eg.db
+Suggests: org.Ag.eg.db, org.At.tair.db, org.Bt.eg.db, org.Ce.eg.db,
+        org.Cf.eg.db, org.Dm.eg.db, org.Dr.eg.db, org.EcK12.eg.db,
+        org.EcSakai.eg.db, org.Gg.eg.db, org.Mm.eg.db, org.Mmu.eg.db,
+        org.Pf.plasmo.db, org.Pt.eg.db, org.Rn.eg.db, org.Ss.eg.db,
+        org.Xl.eg.db
+Packaged: 2011-10-19 06:26:30 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2011-10-19 10:07:57

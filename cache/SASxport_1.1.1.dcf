@@ -1,0 +1,40 @@
+Package: SASxport
+Type: Package
+Title: Read and Write SAS XPORT Files
+Version: 1.1.1
+Date: 2007-09-25
+Description: This package provides functions for reading, listing
+  the contents of, and writing SAS xport format files. 
+  The functions support reading and writing of either
+  individual data frames or sets of data frames.  Further,
+  a mechanism has been provided for customizing how
+  variables of different data types are stored. 
+Author: 
+  Unless otherwise noted, the contents of this package were written by
+  Gregory R. Warnes <greg@random-technologies-llc.com>, are
+  Copyright (c) 2007 by Random Technologies LLC
+  <http://random-technologies-llc.com>, and are provided under the
+  terms of the GNU General Public License, version 2.0 or later. 
+  --
+  The files 'ieee2ibm.c' and 'ibm2ieee.c' were extracted from BRL-CAD, 
+  file /brlcad/src/libbu/htond.c written by Michael John Muuss, 
+  Copyright (c) 2004-2007 United States Government as represented by
+  the U.S. Army Research Laboratory, and is utilized and redistributed
+  under the terms of the  GNU Lesser General Public License, version 2.1.
+  --
+  The files 'AFirst.lib.s', 'all.is.numeric.R',
+  'importConvertDateTime.R', 'in.opererator.R', 'makeNames.R', 
+  'read.xport.R', and 'testDateTime.R' are copied or adapted from the
+  'Hmisc' package created by Frank E. Harrell, Jr. 
+  <f.harrell@vanderbilt.edu>, and are utilized and redistributed under
+  the terms of the GNU General Public License, version 2.0 or later. 
+  --     
+  The creation of this package was partially funded by Metrum Institute
+  <http://metruminstitute.org>.  
+Maintainer: Gregory R. Warnes <greg@random-technologies-llc.com>
+License: GPL 2.0 or later
+Depends: R (>= 2.4.0)
+Imports: foreign (>= 0.8-20), chron
+Enhances: foreign
+URL: http://random-technologies-llc.com, http://metruminstitute.org
+Packaged: Wed Oct  3 01:40:27 2007; warnes

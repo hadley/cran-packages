@@ -1,0 +1,15 @@
+Package: hlr
+Type: Package
+Title: Hidden Logistic Regression
+Version: 0.0-4
+Date: 2008-09-02
+Author: Original S-PLUS code by Peter J. Rousseeuw and Andreas Christmann,
+  R port by Tobias Verbeke
+Maintainer: Tobias Verbeke, <tobias.verbeke@gmail.com>
+Description: Package implementing the methods described in 
+  Rousseeuw and Christman (2003) to cope with separation issues
+  and outliers in logistic regression
+Depends: MASS
+License: GPL-3
+LazyData: yes
+Packaged: Tue Sep  2 20:08:55 2008; tobias

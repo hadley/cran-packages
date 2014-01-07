@@ -1,0 +1,15 @@
+Package: Rlsf
+Title: Interface to the LSF Queuing System
+Date: 2007-04-09
+Version: 1.1.0
+Author: Chris Smith <csmith@platform.com>,
+        Gregory Warnes <warnes@bst.rochester.edu>,
+        Max Kuhn <max.kuhn@pfizer.com> and
+        Nathan Coulter <nathan.coulter@pfizer.com> 
+Description: This package provides functions for using R with the
+             LSF cluster/grid queuing system.  
+Depends: snow, gdata, chron
+SystemRequirements: Platform LSF development libraries
+Maintainer: Max Kuhn <max.kuhn@pfizer.com>
+License: LGPL (see <http://www.opensource.org/licenses/lgpl-license.php>).
+Packaged: Wed Apr 11 12:35:53 2007; kuhna03

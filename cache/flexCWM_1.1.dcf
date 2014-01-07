@@ -1,0 +1,16 @@
+Package: flexCWM
+Type: Package
+Title: Flexible Cluster-Weighted Modeling
+Version: 1.1
+Date: 2013-11-03
+Author: Mazza A., Punzo A., Ingrassia S.
+Maintainer: Angelo Mazza <a.mazza@unict.it>
+Description: Flexible Cluster Weighted Models.
+License: GPL-2
+LazyLoad: yes
+Depends: R (>= 2.15.0)
+Imports: numDeriv,mnormt,mclust,ellipse,mixture,Flury
+Packaged: 2013-11-08 16:54:40 UTC; Angelo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-09 11:34:26

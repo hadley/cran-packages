@@ -1,0 +1,13 @@
+Package: time
+Title: Time tracking for developers
+Version: 1.1
+Author: Toby Dylan Hocking <toby.hocking@inria.fr>
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>
+Description: Provides a function for drawing a progress bar using
+        standard text output, and additional time-tracking routines
+        that allow developers to track how long their
+        processor-intensive calculations take.
+License: GPL (>= 2)
+Packaged: 2010-04-12 12:46:23 UTC; hocking
+Repository: CRAN
+Date/Publication: 2010-04-12 13:10:38

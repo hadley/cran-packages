@@ -1,0 +1,39 @@
+Package: iSubpathwayMiner
+Version: 2.0
+Title: The package can implement the graph-based reconstruction,
+        analyses, and visualization of the KEGG pathways.
+Author: Chunquan Li
+Maintainer: Chunquan Li <lcqbio@yahoo.com.cn>
+Description: The package can implement the graph-based reconstruction,
+        analyses, and visualization of the KEGG pathways. (1) Our
+        system provides many strategies of converting pathways to graph
+        models. Ten functions related to conversion from pathways to
+        graphs are developed. Furthermore, the combinations of these
+        functions can get many combined conversion strategies of
+        pathway graphs (> 20). (2) The iSubpathwayMiner can support the
+        annotation and identification of pathways based on gene sets,
+        compound sets, and even the combined sets of genes and
+        compounds. The entire pathway and subpathway identification
+        methods are available for these sets. (3) The system can also
+        support topology-based pathway analysis of these sets. (4) We
+        develop KEGG layout style of pathway graphs in R to simulate
+        the layout of the pathway picture in KEGG website. In addition,
+        our system has also provided many types of automatic layout
+        styles. Pathway graphs can also be exported to the GML format
+        supported by Cytoscape. (5) The iSubpathwayMiner can provide
+        the most up-to-date pathway analysis results for users.
+        Multiple species (about 139 Eukaryotes, 1141 Bacteria and 93
+        Archaea) and different gene identifiers (KEGG compound, Entrez
+        Gene IDs, gene official symbol, NCBI-gi IDs, UniProt IDs, PDB
+        IDs, etc.) can also be supported by the system.
+Depends: R (>= 2.10.0),graph,RBGL,igraph,XML,utils
+Collate: initialize.R visualize.R go2go.R pathway.R metabolic.R
+        non-metabolic.R metabolic_non-metabolic.R annotation.R
+        subpathway-method.R topologicalanalysis.R combindedNetwork.R
+        sample.R
+LazyData: Yes
+License: GPL (>= 2)
+biocViews: Statistics, Annotation, Pathways, Graphs, Networks
+Packaged: 2012-02-20 16:18:22 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-02-20 20:06:23

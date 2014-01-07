@@ -1,0 +1,18 @@
+Package: MiST
+Type: Package
+Title: Mixed effects Score Test for continuous outcomes
+Version: 1.0
+Date: 2013-03-18
+Author: Jianping Sun, Yingye Zheng, and Li Hsu
+Maintainer: Jianping Sun <jsun@fhcrc.org>
+Depends: CompQuadForm
+Description: Test for association between a set of SNPS/genes and
+        continuous or binary outcomes by including variant
+        characteristic information and using (weighted) score
+        statistics.
+License: LGPL (>= 2.0)
+LazyLoad: yes
+Packaged: 2013-12-14 15:53:38 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-14 17:01:19

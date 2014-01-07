@@ -1,0 +1,19 @@
+Package: nsRFA
+Version: 0.7-0
+Date: 2010-04-07
+Title: Non-supervised Regional Frequency Analysis
+Author: Alberto Viglione
+Maintainer: Alberto Viglione <viglione@hydro.tuwien.ac.at>
+Depends: stats, graphics
+Description: A collection of statistical tools for objective
+        (non-supervised) applications of the Regional Frequency
+        Analysis methods in hydrology. The package refers to the
+        index-value method and, more precisely, helps the hydrologist
+        to: (1) regionalize the index-value; (2) form homogeneous
+        regions with similar growth curves; (3) fit distribution
+        functions to the empirical regional growth curves.
+License: GPL (>= 2)
+URL: http://www.idrologia.polito.it/~alviglio/index_en.htm
+Packaged: 2010-05-31 12:00:03 UTC; alviglio
+Repository: CRAN
+Date/Publication: 2010-06-01 06:51:51

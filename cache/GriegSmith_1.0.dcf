@@ -1,0 +1,18 @@
+Package: GriegSmith
+Type: Package
+Title: Uses Grieg-Smith method on 2 dimentional spatial data
+Version: 1.0
+Date: 2011-03-18
+Author: Brian McGuire
+Maintainer: Brian McGuire <mcguirbc@gmail.com>
+Description: The function GriegSmith accepts either quadrat count data,
+        a point process object(ppp) or a matrix of x and y coordinates.
+        The function calculates a nested analysis of variance and
+        simulation envelopes.
+Depends: spatstat
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-03-14 07:09:33 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-03-14 08:23:34
+NeedsCompilation: no

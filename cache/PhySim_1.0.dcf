@@ -1,0 +1,11 @@
+Package: PhySim
+Version: 1.0
+Date: 2007-01-01
+Title: Phylogenetic Tree Simulation Package
+Author: Jason T. Weir <weir@zoology.ubc.ca>, Dolph Schluter <schluter@zoology.ubc.ca>
+Maintainer: Jason T. Weir <weir@zoology.ubc.ca>
+Depends: R (>= 2.0.0)
+ZipData: no
+Description: PhySim contains functions to simulate phylogenetic trees under a virth death model. Functions are provided to model a lag-time to speciation and extract sister species ages.
+License: GPL version 2 or newer
+Packaged: Sun Jan 28 20:12:06 2007; hornik

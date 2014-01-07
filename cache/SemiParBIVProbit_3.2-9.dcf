@@ -1,0 +1,17 @@
+Package: SemiParBIVProbit
+Version: 3.2-9
+Author: Giampiero Marra <giampiero.marra@ucl.ac.uk> and Rosalba Radice <r.radice@bbk.ac.uk> with contributions from Georgios Papageorgiou <gpapageo@gmail.com>
+Maintainer: Giampiero Marra <giampiero.marra@ucl.ac.uk>
+Title: Semiparametric Bivariate Probit Modelling
+Description: Routine for fitting bivariate probit models with semiparametric predictors (including linear, nonlinear and random effects) in the presence of correlated error equations, endogeneity or sample selection. Bivariate copula models are also supported.
+Depends: R (>= 2.14.0), CDVine (>= 1.1-13), VGAM (>= 0.9-2), mgcv (>=
+        1.7-26), mvtnorm (>= 0.9-9996)
+Imports: MASS, magic, statmod, polycor, VineCopula, survey, trust,
+        matrixStats
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.ucl.ac.uk/statistics/people/giampieromarra
+Repository: CRAN
+Date/Publication: 2013-11-29 11:18:27
+Packaged: 2013-11-29 09:31:19 UTC; G&R
+NeedsCompilation: no

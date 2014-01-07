@@ -1,0 +1,16 @@
+Package: inflection
+Type: Package
+Title: Finds the inflection point of a curve
+Version: 1.1
+Date: 2013-04-04
+Author: Demetris T. Christopoulos
+Maintainer: Demetris T. Christopoulos <dchristop@econ.uoa.gr>
+Description: Implementation of methods Extremum Surface Estimator and
+        Extremum Distance Estimator for identifying the inflection
+        point of a convex/concave curve.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-04-04 13:03:08 UTC; demetris
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-04 15:43:10

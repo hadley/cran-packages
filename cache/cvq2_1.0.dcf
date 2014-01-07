@@ -1,0 +1,16 @@
+Package: cvq2
+Type: Package
+Title: Calculate the predictive squared correlation coefficient.
+Version: 1.0
+Date: 2012-09-26
+Author: Torsten Thalheim
+Maintainer: Torsten Thalheim <torstenthalheim@gmx.de>
+Description: For small data sets, the calculation of the predictive
+        squared correlation coefficient, q^2, is more accurate than the
+        calculation of the conventional squared correlation
+        coefficient, r^2.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-09-26 08:13:57 UTC; TT
+Repository: CRAN
+Date/Publication: 2012-09-26 09:01:31

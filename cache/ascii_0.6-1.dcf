@@ -1,0 +1,19 @@
+Package: ascii
+Type: Package
+Title: Export R objects to several markup languages
+Version: 0.6-1
+Date: 2009-07-20
+Author: David Hajage
+Maintainer: David Hajage <dhajage@gmail.com>
+Description: Coerce R object to asciidoc, txt2tags, restructuredText,
+        org or textile syntax. Package comes with a set of drivers for
+        Sweave.
+License: GPL (>= 2)
+URL: http://eusebe.github.com/ascii/, http://github.com/eusebe/ascii/
+Depends: R (>= 2.7), proto
+Imports: proto
+Suggests: survival, Hmisc, xtable, R2HTML
+LazyLoad: false
+Packaged: 2010-05-06 15:54:01 UTC; david
+Repository: CRAN
+Date/Publication: 2010-05-06 18:16:21

@@ -1,0 +1,11 @@
+Package: qgen
+Type: Package
+Title: Quantitative Genetics using R
+Version: 0.01-17
+Date: 1. Nov 2006
+Author: Thomas Fabbro <thomas.fabbro@unibas.ch>
+Maintainer: Thomas Fabbro <thomas.fabbro@unibas.ch>
+Depends: MASS, lme4, Matrix, methods
+Description: Functions to estimate parameters and compute statistics and their corresponding confidence intervals (e.g. heritability, genetic correlations...). All functions are written for sib analysis with up to 2 levels of nesting. Parametric simulations allow the calculation of bootstrap confidence intervals and the evaluation of dependence on different assumptions.
+License: GPL version 2 or newer
+Packaged: Tue Dec 19 21:38:42 2006; thomasfabbro

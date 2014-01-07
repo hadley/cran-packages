@@ -1,0 +1,24 @@
+Package: raincpc
+Title: Obtain and Analyze Rainfall data from the Climate Prediction
+        Center (CPC)
+Description: The Climate Prediction Center's (CPC, www.cpc.ncep.noaa.gov) daily
+    rainfall data for the entire world, from 1979 to the present, at a
+    resolution of 50 km (0.5 degrees lat-lon), is one of the few high quality
+    and long-term observation-based rainfall products available for free. Data
+    is available at CPC's ftp site
+    (ftp.cpc.ncep.noaa.gov/precip/CPC_UNI_PRCP/GAUGE_GLB/). However, obtaining
+    and processing the data is not straightforward - there are too many files
+    and file formats and file extensions have changed over time. This package
+    provides functionality to download and process the raw data from CPC.
+URL: https://github.com/RationShop/raincpc
+Version: 0.1
+Author: Gopi Goteti <my.ration.shop@gmail.com>
+Maintainer: Gopi Goteti <my.ration.shop@gmail.com>
+Depends: R (>= 3.0.2)
+License: GPL (>= 2)
+LazyData: true
+Collate: 'cpc_get_rawdata.r' 'cpc_read_rawdata.r'
+Packaged: 2013-11-26 21:17:23 UTC; ggoteti
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-26 22:38:30

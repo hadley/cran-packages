@@ -1,0 +1,17 @@
+Package: bscr
+Type: Package
+Title: Bayesian parametric and semi-parametric analyses for
+        semi-competing risks data
+Version: 1.0
+Date: 2013-01-02
+Author: Kyu Ha Lee, Sebastein Haneuse, Deborah Schrag, and Francesca
+        Dominici
+Maintainer: Kyu Ha Lee <klee@hsph.harvard.edu>
+Description: Algorithms for Bayesian analysis of semi-competing risks
+        data.
+License: GPL (>= 2)
+Depends: bayesm, mvtnorm, msm, R (>= 2.12.2)
+LazyLoad: yes
+Packaged: 2013-01-15 11:57:39 UTC; kyuhalee
+Repository: CRAN
+Date/Publication: 2013-01-15 13:44:55

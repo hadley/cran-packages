@@ -1,0 +1,15 @@
+Package: trust
+Version: 0.1-4
+Date: 2013-03-30
+Title: Trust Region Optimization
+Author: Charles J. Geyer <charlie@stat.umn.edu>.
+Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
+Depends: R (>= 2.6.0)
+ByteCompile: TRUE
+Description: local optimization using two derivatives and trust regions
+License: MIT + file LICENSE
+URL: http://www.stat.umn.edu/geyer/trust/
+Packaged: 2013-03-30 13:02:48 UTC; charlie
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-30 15:29:27

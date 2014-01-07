@@ -1,0 +1,18 @@
+Package: inline
+Version: 0.3.10
+Date: $Date: 2012-10-03 07:20:44 -0500 (Wed, 03 Oct 2012) $
+Title: Inline C, C++, Fortran function calls from R
+Author: Oleg Sklyar, Duncan Murdoch, Mike Smith, Dirk Eddelbuettel,
+        Romain Francois
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Depends: R (>= 2.4.0), methods
+Suggests: Rcpp (>= 0.8.0)
+Description: Functionality to dynamically define R functions and S4
+        methods with in-lined C, C++ or Fortran code supporting .C and
+        .Call calling conventions.
+License: LGPL
+Copyright: Oleg Sklyar, 2005-2010
+LazyLoad: yes
+Packaged: 2012-10-03 12:20:52.943252 UTC; edd
+Repository: CRAN
+Date/Publication: 2012-10-03 17:15:04

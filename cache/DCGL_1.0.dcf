@@ -1,0 +1,20 @@
+Package: DCGL
+Type: Package
+Title: Differential Coexpression Analysis of Gene Expression Microarray
+        Data
+Version: 1.0
+Date: 2010-08-18
+Author: Bao-Hong Liu, Hui Yu
+Maintainer: Bao-Hong Liu <bhliu@scbit.org>
+Description: Functions for basic differential coexpression analyses:
+        gene filtering, link filtering, DCG (Differentially-Coexpressed
+        Gene) identification and DCL (Differentially-Coexpressed Links)
+        identification.Two algorithms,named DCP and DCe, are provided
+        for DCG-identification or DCG and DCL-identification.
+Depends: R (>= 2.8.1), igraph
+Imports: igraph
+License: GPL (> 2)
+LazyLoad: yes
+Packaged: 2010-08-19 02:35:42 UTC; Bao-Hong Liu
+Repository: CRAN
+Date/Publication: 2010-08-19 05:39:47

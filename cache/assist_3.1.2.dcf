@@ -1,0 +1,14 @@
+Package: assist
+Version: 3.1.2
+Title: A Suite of S-Plus Functions Implementing Smoothing Splines
+Author: Yuedong Wang <yuedong@pstat.ucsb.edu>, and Chunlei Ke
+        <chunlei_ke@yahoo.com>.
+Maintainer: Chunlei Ke <chunlei_ke@yahoo.com>
+Depends: R (>= 1.7.0), nlme
+Description: ASSIST, see manual
+License: GPL (>= 2)
+URL: http://www.pstat.ucsb.edu/faculty/yuedong/software.html
+Packaged: 2013-03-12 15:29:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-03-12 16:30:20
+NeedsCompilation: yes

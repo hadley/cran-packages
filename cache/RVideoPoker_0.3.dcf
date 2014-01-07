@@ -1,0 +1,21 @@
+Package: RVideoPoker
+Type: Package
+Title: Play Video Poker with R
+Version: 0.3
+Date: 2012-06-20
+Author: Roland Rau Cards were created by Byron Knoll and released into
+        the public domain.  They were downloaded from
+        http://code.google.com/p/vector-playing-cards/downloads/detail?name=PNG-cards-1.2.zip
+        on 2012-06-08.  Byron Knoll stated in his blog that the cards
+        were released by him into the public domain:
+        http://byronknoll.blogspot.de/2011/03/vector-playing-cards.html
+        The backside of the cards were created by Roland Rau using the
+        R-Logo.
+Maintainer: Roland Rau <roland.rau@gmail.com>
+Depends: pixmap, tkrplot, rpanel
+Description: Play Video Poker with R, complete with a graphical user
+        interface. So far, only "Jacks or Better" is implemented.
+License: GPL-2
+Packaged: 2012-06-20 13:02:40 UTC; roland
+Repository: CRAN
+Date/Publication: 2012-06-20 14:53:39

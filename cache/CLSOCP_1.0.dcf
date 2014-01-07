@@ -1,0 +1,17 @@
+Package: CLSOCP
+Type: Package
+Title: A smoothing Newton method SOCP solver
+Version: 1.0
+Date: 2010-11-05
+Author: Jason Rudy
+Maintainer: Jason Rudy <jcrudy@gmail.com>
+Description: This package provides and implementation of a one step
+        smoothing newton method for the solution of second order cone
+        programming problems, originally described by Xiaoni Chi and
+        Sanyang Liu.
+Depends: Matrix
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-07-17 22:05:03 UTC; jasonrudy
+Repository: CRAN
+Date/Publication: 2011-07-23 13:01:34

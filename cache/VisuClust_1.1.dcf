@@ -1,0 +1,22 @@
+Package: VisuClust
+Type: Package
+Title: VisuClust
+Version: 1.1
+Date: 2012-2-15
+Authors@R: c(person("Michael", "Sieger", role=c("cre","aut"),
+        email="michael.sieger@student.hswt.de"), person("Georg",
+        "Ohmayer", role=c("aut", "ths"),
+        email="georg.ohmayer@hswt.de"), person("Hochschule
+        Weihenstephan-Triesdorf", role=("cph")))
+Author: Michael Sieger and Dr. Georg Ohmayer
+Suggests: MASS, cluster
+Depends: aplpack
+Maintainer: Michael Sieger <michael.sieger@student.hswt.de>
+Description: The VisuClust package provides functions to display
+        multivariate data, based on Sammon's nonlinear mapping.
+URL: http://www.hswt.de/fh/fakultaet/gl/dozenten/ohmayer.html
+License: LGPL (>= 3)
+Packaged: 2013-03-10 15:18:28 UTC; Tamaran
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-10 16:58:52

@@ -1,0 +1,16 @@
+Package: futile.matrix
+Type: Package
+Title: Futile matrix utilities
+Version: 1.1.2
+Date: 2012-02-06
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Depends: R (>= 2.8.0), futile.paradigm (>= 2.0.0), futile.logger (>=
+        1.2.0), futile.any (>= 1.2.0), RMTstat, RUnit
+Description: A collection of matrix manipulation functions including
+        generation of matrix ensembles
+License: LGPL-3
+LazyLoad: yes
+Packaged: 2012-02-06 15:55:00 UTC; root
+Repository: CRAN
+Date/Publication: 2012-02-07 08:44:02

@@ -1,0 +1,15 @@
+Package: GeneNT
+Title: Relevance or Dependency network and signaling pathway discovery
+Version: 1.4
+Author: Dongxiao Zhu (http://www-personal.umich.edu/~zhud/genent.htm)
+Description: The package implements a two-stage algorithm to screen co-expressed
+	gene pairs with controlled False Discovery Rate (FDR) and Minimum Acceptable Strength 
+	(MAS). The packages also constructs relevance networks and clusters co-expressed 
+	genes (both similarly co-expressed and transitively co-expressed). In addtion, it 
+	includes new correlation estimators and non-parametric statistical inference procedure 
+        for replicated gene microarray data.     
+Maintainer: Dongxiao Zhu <zhud@umich.edu>
+Depends: R (>= 1.9.0), e1071, graph, RBGL
+License: GPL version 2 or newer
+URL: http://www-personal.umich.edu/~zhud/genent.htm
+Packaged: Mon Apr  2 16:25:37 2007; doz

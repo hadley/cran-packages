@@ -1,0 +1,16 @@
+Package: OpasnetUtils
+Type: Package
+Title: Utility functions for dealing with data in Opasnet
+        (www.opasnet.org) environment.
+Version: 1.0.0
+Author: Teemu Rintala, Einari Happonen, Jouni Tuomisto
+Maintainer: Einari Happonen <einari.happonen@thl.fi>
+Description: This package is primarily developed for executing open assessments and modeling in Opasnet environment. See http://www.opasnet.org for more. 
+Imports: methods, rjson, RCurl, reshape2, triangle, httpRequest,
+        digest, xtable
+License: GPL-3
+LazyLoad: yes
+Packaged: 2013-07-17 11:19:01 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-17 13:56:17

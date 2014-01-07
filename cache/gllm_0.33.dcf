@@ -1,0 +1,15 @@
+Package: gllm
+Version: 0.33
+Date: 2010-08-18
+Title: Generalised log-linear model
+Author: David Duffy <David.Duffy@qimr.edu.au>.  C code in emgllmfitter
+        by Andreas Borg <borg@imbei.uni-mainz.de>
+Maintainer: David Duffy <David.Duffy@qimr.edu.au>
+Depends: R (>= 0.99)
+Description: Routines for log-linear models of incomplete contingency
+        tables, including some latent class models, via EM and Fisher
+        scoring approaches.  Allows bootstrapping.
+License: GPL-2 | GPL-3
+Packaged: 2010-08-18 13:35:38 UTC; davidD
+Repository: CRAN
+Date/Publication: 2010-08-18 18:20:52

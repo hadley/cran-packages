@@ -1,0 +1,11 @@
+Package: EMC
+Type: Package
+Title: Evolutionary Monte Carlo (EMC) algorithm
+Version: 1.1
+Date: 2008-02-04
+Author: Gopi Goswami <goswami@stat.harvard.edu>
+Maintainer: Gopi Goswami <grgoswami@gmail.com>
+Depends: R (>= 1.9.0), mvtnorm
+Description: Random walk Metropolis, Metropolis Hasting, parallel tempering, evolutionary Monte Carlo, temperature ladder construction and placement.
+License: GPL (>= 2)
+Packaged: Mon Feb  4 17:35:12 2008; gopi

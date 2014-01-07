@@ -1,0 +1,18 @@
+Package: nncRda
+Type: Package
+Title: Improved RDA Using nnc
+Version: 1.87
+Date: 2010-10-04
+Author: M. S. Islam and A. I. McLeod
+Maintainer: <aimcleod@uwo.ca>
+Depends: R (>= 2.0.0),nnc,rda,MASS
+Description: Improved RDA (Regularized discriminant analysis) for class
+        prediction in microarrays using nearest neighbour covariates.
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.4, I.5
+Classification/MSC: 62H30
+License: GPL (>= 2)
+Packaged: 2010-10-04 18:51:16 UTC; aim
+Repository: CRAN
+Date/Publication: 2010-10-05 08:24:25

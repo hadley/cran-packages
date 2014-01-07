@@ -1,0 +1,12 @@
+Package: networksis
+Version: 1.0
+Date: January 1, 2008
+Title: Simulate bipartite graphs with fixed marginals through sequential importance sampling
+Author: Ryan Admiraal <ryan@stat.washington.edu> and Mark S. Handcock <handcock@stat.washington.edu>
+Maintainer: Ryan Admiraal <ryan@stat.washington.edu>
+Description: Tools to simulate bipartite networks/graphs with the degrees of the nodes fixed and specified. Part of the "statnet" suite of packages for network analysis.
+Depends: ergm, network
+Suggests: snow, Hmisc, rpvm
+License: file LICENSE
+URL: http://statnetproject.org
+Packaged: Wed Apr 16 10:40:14 2008; handcock

@@ -1,0 +1,30 @@
+Package: LMERConvenienceFunctions
+Type: Package
+Title: A suite of functions to back-fit fixed effects and forward-fit
+        random effects, as well as other miscellaneous functions.
+Version: 1.6.8.2
+Date: 12-04-2012
+Author: Antoine Tremblay
+Maintainer: Antoine Tremblay, Dalhousie University <trea26@gmail.com>
+Description: Functions to back-fit fixed effects (on F or t values and,
+        potentially, log-likelihood ratio testing) and to forward-fit
+        random effects (using log-likelihood ratio testing). Note that
+        the back- and forward-fitting of generalized linear
+        mixed-effects regression (\code{glmer}s) models is not yet
+        supported. The package also includes a function to compute
+        ANOVAs with upper- and lower-bound p-values (anti-conservative
+        and conservative, respectively), a function to graph model
+        criticism plots, functions to trim data on model residuals or
+        on a response variable (per subject), a function to perform
+        posthoc analyses (with or without MCMC p-values), a function to
+        generate (dynamic) 3d plots of (i) predicted values of an LMER
+        model for interactions between two numeric variables,(ii) the
+        raw data as a function of two numeric variable, and (iii)
+        kernel density estimates (densities) of two numeric variables.
+Depends: Matrix, lme4
+Suggests: LCFdata, rgl, mgcv, multicore, languageR
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-04-12 13:43:54 UTC; antoine
+Repository: CRAN
+Date/Publication: 2012-04-12 15:42:18

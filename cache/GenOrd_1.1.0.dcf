@@ -1,0 +1,18 @@
+Package: GenOrd
+Type: Package
+Title: Simulation of ordinal and discrete variables with given
+        correlation matrix and marginal distributions
+Version: 1.1.0
+Date: 2013-05-16
+Author: Alessandro Barbiero, Pier Alda Ferrari
+Maintainer: Alessandro Barbiero <alessandro.barbiero@unimi.it>
+Description: The package implements a procedure for generating samples
+        from ordinal/discrete random variables with pre-specified
+        correlation matrix and marginal distributions.
+License: GPL
+LazyLoad: yes
+Depends: mvtnorm, Matrix, MASS
+Packaged: 2013-05-16 20:41:42 UTC; Alessandro
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-17 13:14:16

@@ -1,0 +1,11 @@
+Package: contrast
+Version: 0.5
+Date: 2007-04-26
+Title: A collection of contrast methods
+Author: Steve Weston, Jed Wing, Max Kuhn
+Maintainer: Max Kuhn <max.kuhn@pfizer.com>
+Depends: R (>= 2.2.1), Design, lattice, nlme, Hmisc, geepack, MASS
+Description: Contrast methods, in the style of the Design package,
+  for fit objects produced by the lm, glm, gls, and geese functions.
+License: GPL version 2 or newer
+Packaged: Thu Apr 26 16:59:46 2007; kuhna03

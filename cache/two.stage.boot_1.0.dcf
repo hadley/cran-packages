@@ -1,0 +1,15 @@
+Package: two.stage.boot
+Type: Package
+Title: Two-stage cluster sample bootstrap algorithm
+Version: 1.0
+Date: 2011-04-01
+Author: Patrick Zimmerman
+Maintainer: Patrick Zimmerman <patzimm@gmail.com>
+Description: This package contains a function that implements a
+        bootstrap algorithm for a two-stage cluster sample due to Rao &
+        Wu (1988).
+License: X11
+LazyLoad: yes
+Packaged: 2012-07-23 07:47:40 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 07:52:30

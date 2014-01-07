@@ -1,0 +1,19 @@
+Package: svWidgets
+Type: Package
+Version: 0.9-43
+Date: 2013-01-27
+Title: SciViews GUI API - Widgets & Windows
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"))
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 2.7.0)
+Imports: tcltk, utils, svMisc (>= 0.9-68)
+Description: High level management of widgets, windows and other
+        graphical resources.
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2013-01-27 21:45:54 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-28 07:41:45

@@ -1,0 +1,24 @@
+Package: betareg
+Version: 2.2-1
+Date: 2010-04-04
+Title: Beta Regression
+Author@R: c(person(given = "Achim", family = "Zeileis", role = c("aut",
+        "cre"), email = "Achim.Zeileis@R-project.org"), person(given =
+        "Francisco", family = "Cribari-Neto", role = "aut"),
+        person(given = c("Alexandre", "B."), family = "Simas", role =
+        "ctb", comment = "earlier version by"), person(given =
+        c("Andrea", "V."), family = "Rocha", role = "ctb", comment =
+        "earlier version by"))
+Author: Achim Zeileis [aut, cre], Francisco Cribari-Neto [aut],
+        Alexandre B. Simas [ctb] (earlier version by), Andrea V. Rocha
+        [ctb] (earlier version by)
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+Description: Beta regression for modeling beta-distributed dependent
+        variables, e.g., rates and proportions.
+Depends: R (>= 2.6.0), stats, Formula
+Imports: graphics, sandwich, lmtest
+Suggests: car, lmtest, sandwich, strucchange
+License: GPL-2
+Packaged: 2010-04-04 09:35:02 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2010-04-04 10:12:12

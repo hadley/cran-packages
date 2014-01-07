@@ -1,0 +1,23 @@
+Package: recluster
+Type: Package
+Title: Solving biasing produced by tied values in cluster analysis.
+Version: 1.9
+Date: 2013-02-16
+Depends: ape, vegan, picante, cluster
+Author: Leonardo Dapporto, Matteo Ramazzotti, Simone Fattorini, Roger
+        Vila, Gerard Talavera, Roger H.L. Dennis
+Maintainer: Leonardo Dapporto <leondap@gmail.com>
+Description: A high frequency of ties and zero values produces
+        hierarchical cluster dendrograms whose topology and bootstrap
+        supports are affected by the order of rows in the original
+        matrix. The recluster package evaluates the magnitude of this
+        bias and computes consensus trees after re-sampling the
+        original row order also applying this algorithm to a multiscale
+        bootstrap procedure.
+License: GPL (>= 2.0)
+LazyLoad: yes
+URL: http://www.unifi.it/scibio/bioinfo/recluster.html
+Packaged: 2013-03-29 13:46:41 UTC; matteo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-29 14:56:49

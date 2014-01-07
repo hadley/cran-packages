@@ -1,0 +1,28 @@
+Package: rrBlupMethod6
+Type: Package
+Title: Re-parametrization of RR-BLUP to allow for a fixed residual
+        variance
+Version: 1.3
+Date: 2012-10-04
+Authors@R: c(person(given = "Torben", family = "Schulz-Streeck", email
+        = "torben.schulz-streeck@uni-hohenheim.de", role = "aut"),
+        person(given = "Boubacar", family = "Estaghvirou", email =
+        "S.Ould@uni-hohenheim.de", role = "aut"), person(given =
+        "Frank",family = "Technow", email =
+        "Frank.Technow@uni-hohenheim.de", comment = "University of
+        Hohenheim, Institute of Plant Breeding, Seed Science and
+        Population Genetics, Stuttgart, Germany", role =
+        c("aut","cre")))
+Author: Torben Schulz-Streeck, Boubacar Estaghvirou, Frank Technow
+Maintainer: Frank Technow <Frank.Technow@uni-hohenheim.de>
+Depends: R (>= 2.11.0)
+Description: rrBlupMethod6 -- Re-parametrization of mixed model
+        formulation to allow for a fixed residual variance when using
+        RR-BLUP for genomwide estimation of marker effects and linear
+        transformation of the adjusted means proposed by Piepho et
+        al.(2011)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-04 08:56:01 UTC; frank
+Repository: CRAN
+Date/Publication: 2012-10-04 09:24:05

@@ -1,0 +1,15 @@
+Package: mvProbit
+Version: 0.1-0
+Date: 2011/11/12
+Title: Multivariate Probit Models
+Author: Arne Henningsen <arne.henningsen@gmail.com>
+Maintainer: Arne Henningsen <arne.henningsen@gmail.com>
+Depends: R (>= 2.4.0), mvtnorm (>= 0.9-999), maxLik (>= 1.0-0), abind
+        (>= 1.3-0)
+Imports: bayesm (>= 2.2-4), miscTools (>= 0.6-11)
+Description: Tools for multivariate probit models
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org, http://www.sampleSelection.org
+Packaged: 2011-11-12 23:07:07 UTC; suapm095
+Repository: CRAN
+Date/Publication: 2011-11-13 09:12:30

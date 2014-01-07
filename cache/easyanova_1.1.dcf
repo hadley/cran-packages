@@ -1,0 +1,15 @@
+Package: easyanova
+Type: Package
+Title: Analysis of variance and other important complementary analyzes
+Version: 1.1
+Date: 2012-07-02
+Author: Emmanuel Arnhold
+Maintainer: Emmanuel Arnhold <emmanuelarnhold@yahoo.com.br>
+Description: Perform analysis of variance and other important
+        complementary analyzes. The functions are easy to use. Performs
+        analysis in various designs, with balanced and unbalanced data.
+Depends: R (>= 2.13), multcomp, car, nlme
+License: GPL-2
+Packaged: 2012-08-09 13:00:03 UTC; emmanuel
+Repository: CRAN
+Date/Publication: 2012-08-09 13:47:12

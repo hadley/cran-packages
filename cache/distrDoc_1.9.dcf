@@ -1,0 +1,14 @@
+Package: distrDoc
+Version: 1.9
+Date: 2007-07-27
+Title: Documentation for packages distr, distrEx, distrSim, distrTEst
+Description: provides documentation in form of a common vignette to packages distr, distrEx, distrSim, distrTEst
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas Stabla
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@uni-bayreuth.de>
+Depends: R(>= 2.2.0), tools, distr(>= 1.9.0), startupmsg
+Suggests: distrEx(>= 0.4-4), distrSim(>= 1.9.0), distrTEst(>= 1.9.0), Biobase
+SaveImage: no
+LazyLoad: yes
+License: GPL (version 2 or later)
+URL: http://www.uni-bayreuth.de/departments/math/org/mathe7/DISTR/
+Packaged: Fri Jul 27 14:35:15 2007; Peter

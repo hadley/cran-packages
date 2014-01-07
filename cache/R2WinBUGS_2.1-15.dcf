@@ -1,0 +1,26 @@
+Package: R2WinBUGS
+Title: Running WinBUGS and OpenBUGS from R / S-PLUS
+Date: 2009-11-04
+Version: 2.1-15
+Author: originally written by Andrew Gelman <gelman@stat.columbia.edu>;
+        changes and packaged by Sibylle Sturtz
+        <sturtz@statistik.tu-dortmund.de> and Uwe Ligges
+        <ligges@statistik.tu-dortmund.de>. With considerable
+        contributions by Gregor Gorjanc <gregor.gorjanc@bfro.uni-lj.si>
+        and Jouni Kerman <kerman@stat.columbia.edu>. Ported to S-PLUS
+        by Insightful Corp.
+Description: Using this package, it is possible to call a BUGS model,
+        summarize inferences and convergence in a table and graph, and
+        save the simulations in arrays for easy access in R / S-PLUS.
+        In S-PLUS, the openbugs functionality and the windows emulation
+        functionality is not yet available.
+Depends: R (>= 2.5.0), coda (>= 0.11-0)
+Suggests: BRugs (>= 0.3-2)
+SystemRequirements: WinBUGS 1.4
+URL: http://www.stat.columbia.edu/~gelman/bugsR/
+Maintainer: Uwe Ligges <ligges@statistik.tu-dortmund.de>
+License: GPL-2
+Dialect: R, S-PLUS
+Packaged: 2009-11-05 19:07:07 UTC; ligges
+Repository: CRAN
+Date/Publication: 2009-11-05 20:05:14

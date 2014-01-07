@@ -1,0 +1,20 @@
+Package: mlearning
+Type: Package
+Title: Machine learning algorithms with unified interface and confusion
+        matrices
+Version: 1.0-0
+Date: 2012-08-04
+Author: Ph. Grosjean & K. Denis
+Maintainer: Ph. Grosjean <Philippe.Grosjean@umons.ac.be>
+Depends: R (>= 2.14.0)
+Imports: stats, grDevices, class, nnet, MASS, e1071, randomForest,
+        ipred
+Suggests: mlbench, datasets, RColorBrewer
+Description: This package provides a unified interface to various
+        machine learning algorithms. Confusion matrices are provided
+        too.
+License: GPL (>= 2)
+URL: http://www.sciviews.org/zooimage
+Packaged: 2013-01-30 17:43:21 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-30 22:31:50

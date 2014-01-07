@@ -1,0 +1,16 @@
+Package: cmaes
+Version: 1.0-8
+Title: Covariance Matrix Adapting Evolutionary Strategy
+Description: Single objective optimization using a CMA-ES.
+Author: Heike Trautmann <trautmann@statistik.tu-dortmund.de> and Olaf
+        Mersmann <olafm@statistik.tu-dortmund.de> and David Arnu
+        <david.arnu@statistik.tu-dortmund.de>
+Maintainer: Olaf Mersmann <olafm@statistik.tu-dortmund.de>
+Depends: R (>= 2.9.0)
+License: GPL-2
+LazyData: yes
+Collate: 'cmaes.R' 'functions.R'
+Date:
+Packaged: 2010-06-11 21:15:54 UTC; olafm
+Repository: CRAN
+Date/Publication: 2010-06-12 08:00:01

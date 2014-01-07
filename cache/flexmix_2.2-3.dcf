@@ -1,0 +1,21 @@
+Package: flexmix
+Version: 2.2-3
+Date: 2009-05-28
+Author: Friedrich Leisch and Bettina Gruen
+Maintainer: Bettina Gruen <Bettina.Gruen@wu.ac.at>
+Title: Flexible Mixture Modeling
+Depends: lattice, modeltools (>= 0.2-16), multcomp
+Imports: methods, stats, stats4
+Suggests: MASS, ellipse, grid, mvtnorm, nnet
+Description: FlexMix implements a general framework for finite mixtures
+        of regression models using the EM algorithm. FlexMix provides
+        the E-step and all data handling, while the M-step can be
+        supplied by the user to easily define new models. Existing
+        drivers implement mixtures of standard linear models,
+        generalized linear models and model-based clustering.
+License: GPL-2
+URL: http://www.aasc.or.at/mixtures
+LazyLoad: yes
+Packaged: 2009-05-29 07:04:32 UTC; gruen
+Repository: CRAN
+Date/Publication: 2009-05-29 11:43:31

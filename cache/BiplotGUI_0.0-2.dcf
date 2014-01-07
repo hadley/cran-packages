@@ -1,0 +1,18 @@
+Package: BiplotGUI
+Type: Package
+Title: Interactive Biplots in R
+Version: 0.0-2
+Date: 2008-08-12
+Author: Anthony la Grange
+Maintainer: Anthony la Grange <amlg@sun.ac.za>
+Depends: R (>= 2.7.0), MASS, tcltk, tcltk2 (>= 1.0-7), tkrplot (>=
+        0.0-18)
+Suggests: KernSmooth, rgl (>= 0.79), vcd, xlsReadWrite
+Description: Provides a GUI with which users can construct and interact
+        with biplots.
+License: GPL (>=3)
+LazyLoad: yes
+OS_ype: windows
+URL: http://biplotgui.r-forge.r-project.org/
+Packaged: Tue Aug 12 04:33:13 2008; theussl
+OS_type: windows

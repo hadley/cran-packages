@@ -1,0 +1,22 @@
+Package: PBImisc
+Version: 0.999
+Type: Package
+Title: A set of datasets used in my classes or in the book ,,Modele
+        liniowe i mieszane w R, wraz z przykladami w analizie danych''
+Authors@R: c(person("Przemyslaw", "Biecek", role = c("aut", "cre"),
+	email = "przemyslaw.biecek@gmail.com"))
+Author: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
+Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
+Description: A set of datasets prepared as a support for my classes or
+        the book ,,Modele liniowe i mieszane w R, wraz z przykladami w
+        analizie danych''
+Repository: CRAN
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+URL: http://www.biecek.pl/R/
+Depends: R (>= 2.8.0), MASS, lme4, Matrix
+Suggests: ggplot2, ca, lattice
+Packaged: 2014-01-02 17:52:17 UTC; ripley
+NeedsCompilation: no
+Date/Publication: 2014-01-02 19:18:17

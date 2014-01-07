@@ -1,0 +1,19 @@
+Package: RLRsim
+Type: Package
+Title: Exact (Restricted) Likelihood Ratio tests for mixed and additive
+        models.
+Version: 2.0-10
+Date: 2011-08-02
+Author: Fabian Scheipl
+Maintainer: Fabian Scheipl <fabian.scheipl@stat.uni-muenchen.de>
+Description: Rapid, simulation-based exact (restricted) likelihood
+        ratio tests for testing the presence of variance
+        components/nonparametric terms for models fit with
+        nlme::lme(),lme4::lmer(), mgcv::gamm() and SemiPar:spm()
+License: GPL
+Depends: mgcv
+Suggests: nlme, lme4
+Enhances: SemiPar, amer
+Packaged: 2011-08-15 14:58:07 UTC; fabians
+Repository: CRAN
+Date/Publication: 2011-08-15 15:24:15

@@ -1,0 +1,13 @@
+Package: GeneNT
+Title: Relevance or Dependency network and signaling pathway discovery
+Version: 1.2
+Author: Dongxiao Zhu (http://www-personal.umich.edu/~zhud/genent.htm)
+Description: The package implements a two-stage algorithm to screen co-expressed
+	gene paris with controlled FDR and MAS. The packages also constructs relevance 
+	networks and clusters co-expressed genes (both similarly co-expressed and transitively
+	co-expressed)  
+Maintainer: Dongxiao Zhu <zhud@umich.edu>
+Depends: R (>= 1.9.0), e1071, GeneTS
+License: GPL version 2 or newer
+URL: http://www-personal.umich.edu/~zhud/genent.htm
+Packaged: Fri Feb  4 11:58:24 2005; hornik

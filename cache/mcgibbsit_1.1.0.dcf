@@ -1,0 +1,19 @@
+Package: mcgibbsit
+Title: Warnes and Raftery's MCGibbsit MCMC diagnostic
+Version: 1.1.0
+Date: 2012-10-23
+Author: Gregory R. Warnes <greg@warnes.net>, Robert Burrows
+Depends: coda
+Description: 
+  'mcgibbsit' provides an implementation of Warnes & Raftery's
+  MCGibbsit run-length diagnostic for a set of (not-necessarily
+  independent) MCMC samplers.  It combines the estimate error-bounding
+  approach of the Raftery and Lewis MCMC run length diagnostic with
+  the between verses within chain approach of the Gelman and
+  Rubin MCMC convergence diagnostic.
+Maintainer: Gregory R. Warnes <greg@warnes.net>
+License: GPL
+Packaged: 2013-10-23 23:56:39 UTC; warnes
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-24 08:40:58

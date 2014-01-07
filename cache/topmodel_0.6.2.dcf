@@ -1,0 +1,16 @@
+Package: topmodel
+Type: Package
+Title: Implementation of the hydrological model TOPMODEL in R
+Version: 0.6.2
+Date: 2009-05-17
+Author: Wouter Buytaert
+Maintainer: Wouter Buytaert <w.buytaert@imperial.ac.uk>
+Description: An R implementation of the hydrological model TOPMODEL,
+        based on the 1995 FORTRAN version by Keith Beven. This version
+        is adapted from the C translation by Huidae Cho in implemented
+        in GRASS GIS.
+License: GPL (>= 2)
+URL: http://source.ggy.bris.ac.uk/wiki/Hydrology_in_R
+Packaged: 2009-05-17 15:23:10 UTC; wouter
+Repository: CRAN
+Date/Publication: 2009-05-17 16:22:22

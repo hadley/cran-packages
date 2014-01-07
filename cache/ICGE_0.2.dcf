@@ -1,0 +1,19 @@
+Package: ICGE
+Version: 0.2
+Date: 2011-12-21
+Title: Estimation of number of clusters and identification of atypical
+        units
+Authors@R: c(person("Itziar", "Irigoien", role = c("aut", "cre"),
+                     email = "itziar.irigoien@ehu.es"),
+              person("Concepcion", "Arenas", role = "aut",
+                     email="carenas@ub.edu"))
+Author: Itziar Irigoien and  Conchita Arenas
+Maintainer: Itziar Irigoien <itziar.irigoien@ehu.es>
+Depends: R (>= 2.0.1), MASS, utils, stats, cluster
+Description: ICGE is a package that helps to estimate the number of real clusters in data as well as to identify atypical units. The underlying methods are based on distances rather than on unit x variables.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2013-12-10 10:58:01 UTC; itziar
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-10 12:34:50

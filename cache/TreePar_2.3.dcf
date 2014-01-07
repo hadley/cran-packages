@@ -1,0 +1,36 @@
+Package: TreePar
+Type: Package
+Title: Estimating birth and death rates based on phylogenies
+Version: 2.3
+Date: 2012-08-05
+Author: Tanja Stadler
+Maintainer: Tanja Stadler <tanja.stadler@env.ethz.ch>
+Depends: ape, Matrix, subplex, TreeSim (>= 1.6), odesolve
+Description: (i) For a given species phylogeny on present day data
+        which is calibrated to calendar-time, a method for estimating
+        maximum likelihood speciation and extinction processes is
+        provided. The method allows for non-constant rates. Rates may
+        change (1) as a function of time, i.e. rate shifts at specified
+        times or mass extinction events (implemented as bd.shifts.optim
+        and visualized as bd.shifts.plot) or (2) as a function of the
+        number of species, i.e. density-dependence (implemented as
+        bd.densdep.optim). Note that the method takes into account the
+        whole phylogeny, in particular it accounts for the "pull of the
+        present" effect. Both models can take into account incomplete
+        species sampling, as long as each species has the same
+        probability of being sampled. For a given phylogeny on higher
+        taxa (i.e. all but one species per taxa are mission), but where
+        the number of species is known within each higher taxa,
+        speciation and extinction rates can be estimated under model
+        (1) (implemented as bd.shifts.optim with groups !=0). (ii) For
+        a given phylogeny with sequentially sampled tips, e.g. a virus
+        phylogeny, rates can be estimated under a model where rates
+        vary across time using bdsky.stt.optim (extending
+        bd.shifts.optim). Furthermore rates may vary as a function of
+        host types using bdtypes.stt.lik (multitype branching process
+        extending functions in R package diversitree).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-08-05 18:09:54 UTC; tanja
+Repository: CRAN
+Date/Publication: 2012-08-05 18:21:40

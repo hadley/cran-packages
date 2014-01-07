@@ -1,0 +1,10 @@
+Package: predbayescor
+Version: 1.1-2
+Title: Classification rule based on Bayesian naive Bayes models with feature selection bias corrected
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 1.5.0)
+Description: "predict.bayes" predicts the binary response from high dimensional  binary features
+License: GPL (>=2) 
+URL: http://www.r-project.org, http://math.usask.ca/~longhai
+Packaged: Sun Nov 11 11:57:05 2007; longhai

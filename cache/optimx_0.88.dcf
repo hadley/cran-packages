@@ -1,0 +1,19 @@
+Package: optimx
+Version: 0.88
+Date: 2010-10-18
+Title: A replacement and extension of the optim() function
+Author: John C Nash <nashjc@uottawa.ca> and Ravi Varadhan
+        <RVaradhan@jhmi.edu>
+Maintainer: John C Nash <nashjc@uottawa.ca>
+Description: Provides a replacement and extension of the optim()
+        function to unify and streamline optimization capabilities in R
+        for smooth, possibly box constrained functions of several or
+        many parameters
+License: GPL-2
+Lazyload: Yes
+Depends: numDeriv, BB, ucminf, Rcgmin, Rvmmin, minqa, setRNG
+Repository: CRAN
+Repository/R-Forge/Project: optimizer
+Repository/R-Forge/Revision: 379
+Date/Publication: 2010-10-23 07:44:40
+Packaged: 2010-10-20 20:52:12 UTC; rforge

@@ -1,0 +1,25 @@
+Package: WideLM
+Type: Package
+Title: Fitting many skinny linear models to a single data set
+Version: 0.1-1
+Date: 2012-02-16
+Author: Mark Seligman, with contributions from Chris Fraley.
+Maintainer: Mark Seligman <Mark.Seligman@insilicos.com>
+SystemRequirements: Nvidia's CUDA toolkit (release >= 4.1); Linux
+        operationg system; gcc (release <= 4.5).
+Description: WideLM fits large numbers of linear models to a fixed
+        design matrix and response.  An Nvidia GPU is used to
+        accelerate model fitting, with the CUDA API enabling parallel
+        execution of multiple individual fits.  The individual models
+        must have modest size.  The package implements a chunking
+        interface to the GPU kernel, allowing the caller to stream
+        model specifications.  Hence the number of fits to be performed
+        is essentially unlimited.
+URL: http://insilicos.com/products/widelm
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: Rcpp
+LinkingTo: Rcpp
+Repository: CRAN
+Packaged: 2012-02-16 19:28:05 UTC; seligman
+Date/Publication: 2012-02-17 07:38:39

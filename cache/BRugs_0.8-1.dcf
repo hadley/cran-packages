@@ -1,0 +1,24 @@
+Package: BRugs
+Title: R interface to the OpenBUGS MCMC software
+Version: 0.8-1
+Date: 2013-05-26
+Author: OpenBUGS was developed by Andrew Thomas, Dave Lunn, David
+        Spiegelhalter and Nicky Best.  R interface developed by Uwe
+        Ligges, Sibylle Sturtz, Andrew Gelman, Gregor Gorjanc and Chris
+        Jackson.  Linux port and most recent developments by Chris
+        Jackson.
+Description: Fully-interactive R interface to the OpenBUGS software for
+        Bayesian analysis using MCMC sampling.  Runs natively and
+        stably in 32-bit R under Windows.  Versions running on Linux
+        and on 64-bit R under Windows are in "beta" status and less
+        efficient.
+Maintainer: Uwe Ligges <ligges@statistik.tu-dortmund.de>
+Depends: R (>= 2.11.0), coda
+Imports: utils, coda
+SystemRequirements: OpenBUGS (>= 3.2.2), hence Windows or Linux
+License: GPL-2
+URL: http://www.openbugs.info/
+Packaged: 2013-05-27 05:38:52 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-27 07:40:25

@@ -1,0 +1,13 @@
+Package: RFreak
+Version: 0.2-5
+Date: 2009-01-26
+Title: R/FrEAK interface
+Author: Robin Nunkesser <Robin.Nunkesser@tu-dortmund.de>
+Maintainer: Robin Nunkesser <Robin.Nunkesser@tu-dortmund.de>
+Depends: R (>= 2.6.0), rJava (>= 0.5.0)
+Imports: methods
+Description: An R interface to a modified version of the Free Evolutionary Algorithm Kit FrEAK. FrEAK is a toolkit written in Java to design and analyze evolutionary algorithms. Both the R interface and an extended version of FrEAK are contained in the RFreak package. For more information on FrEAK see http://sourceforge.net/projects/freak427/.
+LazyLoad: yes
+License: GPL (>= 2)
+SystemRequirements: Java (>= 5.0)
+Packaged: Tue Jan 27 15:40:44 2009; hornik

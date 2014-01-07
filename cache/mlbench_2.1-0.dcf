@@ -1,0 +1,16 @@
+Package: mlbench
+Version: 2.1-0
+Title: Machine Learning Benchmark Problems
+Date: 2010-10-08
+Author: Friedrich Leisch and Evgenia Dimitriadou.
+Maintainer: Friedrich Leisch <Friedrich.Leisch@R-project.org>
+Description: A collection of artificial and real-world machine learning
+        benchmark problems, including, e.g., several data sets from the
+        UCI repository.
+Depends: R (>= 2.10.0)
+License: GPL-2
+Suggests: lattice
+ZipData: No
+Packaged: 2010-10-08 09:56:24 UTC; leisch
+Repository: CRAN
+Date/Publication: 2010-10-08 09:53:31

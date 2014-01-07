@@ -1,0 +1,16 @@
+Package: bayesQR
+Version: 1.0
+Date: 2011-03-30
+Title: Bayesian quantile regression
+Author: Dries F. Benoit, Keming Yu, Dirk Van den Poel
+Maintainer: Dries F. Benoit <Dries.Benoit@UGent.be>
+Depends: R (>= 2.12.1)
+Description: Bayesian quantile regression using the asymmetric Laplace
+        distribution, both continuous as well as binary dependent
+        variables are supported. The package consists of
+        implementations of the methods of Yu & Moyeed (2001) and Benoit
+        & Van den Poel (2011).
+License: GPL (>= 2)
+Packaged: 2011-03-30 12:25:52 UTC; -3s-
+Repository: CRAN
+Date/Publication: 2011-04-01 21:06:48

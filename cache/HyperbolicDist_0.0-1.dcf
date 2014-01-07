@@ -1,0 +1,14 @@
+Package: HyperbolicDist
+Version: 0.0-1
+Date: 2003-01-06
+Title: The hyperbolic distribution
+Author: David Scott <d.scott@auckland.ac.nz>
+Maintainer: David Scott <d.scott@auckland.ac.nz>
+Depends: R (>= 1.0.1)
+Description: This package includes the basic functions for the hyperbolic
+    distribution: probability density function, distribution function,
+    quantile function, a routine for generating observations from the
+    hyperbolic, and a function for fitting the hyperbolic distribution to
+    data.
+License: GPL Version 2 or newer
+URL: 

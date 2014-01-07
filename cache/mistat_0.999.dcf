@@ -1,0 +1,18 @@
+Package: mistat
+Type: Package
+Title: Data sets, functions and examples from the book:"Modern
+        Industrial Statistics" by Kenett, Zacks and Amberti
+Version: 0.999
+Date: 2012-08-22
+Author: Daniele Amberti
+Depends: R (>= 2.14), graphics, grDevices, methods, stats, utils
+Suggests: e1071, mvtnorm, AcceptanceSampling, boot, car, Dodge,
+        tseries, qcc, DoE.base, FrF2, rsm, LearnBayes, ggplot2, grid,
+        DiceEval, DiceKriging, DiceDesign, DiceView, lhs, survival
+Maintainer: Daniele Amberti <daniele.amberti@i4CAnalytics.com>
+Description: This R package is providing all the data sets and statistical analysis applications used in Modern Industrial Statistics, with applications using R, MINITAB and JMP by R.S. Kenett and S. Zacks with contributions by D. Amberti, John Wiley and Sons, 2013, which is a second revised and expanded revision of Modern Industrial Statistics: Design and Control of Quality and Reliability, R. Kenett and S. Zacks, Duxbury/Wadsworth Publishing, 1998.
+License: GPL (>= 2)
+Packaged: 2013-08-27 07:32:29 UTC; daniele.amberti
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-27 09:47:25

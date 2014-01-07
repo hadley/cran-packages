@@ -1,0 +1,18 @@
+Package: Familias
+Type: Package
+Title: Probabilities for Pedigrees given DNA data
+Version: 1.0
+Date: 2012-02-04
+Author: Petter Mostad <mostad@chalmers.se>
+Maintainer: Petter Mostad <mostad@chalmers.se>
+Description: This package represents a bare-bones implementation of an
+        interface to the core Familias functions (www.familias.name),
+        which are programmed in C++.  The package itself functions as a
+        kind of database, where information about persons, pedigrees,
+        allele systems and observations for persons are entered
+        stepwise. In the end, probability calculations are made.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-03-08 15:19:57 UTC; mostad
+Repository: CRAN
+Date/Publication: 2012-03-08 20:40:42

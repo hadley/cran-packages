@@ -1,0 +1,18 @@
+Package: miscFuncs
+Maintainer: Benjamin M. Taylor <b.taylor1@lancaster.ac.uk>
+License: GPL-3
+Title: Miscellaneous Useful Functions
+Type: Package
+LazyLoad: yes
+Author: Benjamin M. Taylor
+Description: LaTeX tables, Kalman filter, web scraping, development
+    tools
+Version: 1.0
+Date: 2011-12-19
+Depends: mvtnorm, roxygen
+Collate: 'bin.R' 'generic.R' 'getstrbetween.R' 'getwikicoords.R'
+        'KFadvanceAR2.R' 'KFadvance.R' 'latextable.R' 'method.R'
+        'roxbc.R' 'roxtext.R' 'timeop.R' 'vdc.R'
+Packaged: 2011-12-19 20:16:41 UTC; taylorb1
+Repository: CRAN
+Date/Publication: 2011-12-20 07:24:14

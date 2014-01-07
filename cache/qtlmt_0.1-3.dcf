@@ -1,0 +1,22 @@
+Package: qtlmt
+Version: 0.1-3
+Date: 2013-03-12
+Title: Tools for mapping multiple complex traits
+Author: Riyan Cheng <riyan.cheng@anu.edu.au>
+Maintainer: Riyan Cheng <riyan.cheng@anu.edu.au>
+Description: This software provides tools for joint analysis of
+        multiple traits in a backcross (BC) or recombinant inbred lines
+        (RIL) population. It can be used to select an optimal subset of
+        traits for multiple-trait mapping, analyze multiple traits via
+        the SURE model, which can associate different QTL with
+        different traits, and perform multiple-trait composite
+        multiple-interval mapping.
+Depends: R (>= 2.10)
+Imports:
+LazyLoad: yes
+LazyData: no
+License: GPL (>= 2)
+Packaged: 2013-03-12 10:56:53 UTC; rcheng
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-12 13:56:43

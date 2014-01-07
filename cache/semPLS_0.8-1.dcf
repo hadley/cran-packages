@@ -1,0 +1,20 @@
+Package: semPLS
+Type: Package
+Title: Structural Equation Modeling Using Partial Least Squares
+Version: 0.8-1
+Date: 2010-27-05
+Author: Armin Monecke
+Maintainer: Armin Monecke <armin.monecke@stat.uni-muenchen.de>
+Description: Fits structural equation models using partial least
+        squares (PLS). The PLS approach is referred to as
+        'soft-modeling' technique requiring no distributional
+        assumptions on the observed data.
+License: GPL-2
+Depends: lattice
+Suggests: XML, boot, sem
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: sempls
+Repository/R-Forge/Revision: 18
+Date/Publication: 2010-06-01 13:35:35
+Packaged: 2010-05-28 20:51:06 UTC; rforge

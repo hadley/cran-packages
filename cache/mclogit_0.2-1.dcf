@@ -1,0 +1,18 @@
+Package: mclogit
+Type: Package
+Title: Mixed Conditinal Logit
+Version: 0.2-1
+Date: 2010-04-07
+Author: Martin Elff
+Maintainer: Martin Elff <melff@essex.ac.uk>
+Description: This packages provides a function to estimate parameters
+        for the mixed conditional logit model, or conditional logit
+        with random effects. The current implementation is limited to
+        random intercepts and to the PQL technique, mainly appropriate
+        for large clusters.
+License: GPL-2
+Depends: stats, MASS, memisc, Matrix
+LazyLoad: Yes
+Packaged: 2010-04-07 20:13:25 UTC; elff
+Repository: CRAN
+Date/Publication: 2010-04-08 15:52:13

@@ -1,0 +1,30 @@
+Package: RcppOctave
+Type: Package
+Title: Seamless Interface to Octave -- and Matlab
+Version: 0.8.5
+Date: 2011-06-07
+Author: Renaud Gaujoux
+Maintainer: Renaud Gaujoux <renaud@cbio.uct.ac.za>
+Description: Direct interface to Octave. The primary goal is to
+        facilitate the port of Matlab/Octave scripts to R. The package
+        enables to call any Octave functions from R and as well as
+        browsing their documentation, passing variables between R and
+        Octave, using R core RNGs in Octave, which ensure stochastic
+        computations are also reproducible.
+License: GPL (>= 2)
+URL: http://r-forge.r-project.org/projects/rcppoctave/
+LazyLoad: yes
+SystemRequirements: Octave (>= 3.2.4) and its development files
+OS_type: unix
+Depends: methods, digest, stringr, Rcpp (>= 0.9.4), pkgmaker (>= 0.6.4)
+Imports: utils
+Suggests: RUnit, devtools, knitr, bibtex
+LinkingTo: Rcpp
+Collate: 'devutils.R' 'utils.R' 'package.R' 'interface.R'
+        'Octave-class.R' 'OctaveFunction-class.R' 'base-functions.R'
+        'eval.R' 'random.R'
+Repository: CRAN
+Repository/R-Forge/Project: rcppoctave
+Repository/R-Forge/Revision: 50
+Packaged: 2012-06-25 18:19:36 UTC; rforge
+Date/Publication: 2012-06-26 13:53:23

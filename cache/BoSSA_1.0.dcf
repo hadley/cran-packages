@@ -1,0 +1,18 @@
+Package: BoSSA
+Type: Package
+Title: a Bunch of Structure and Sequence Analysis
+Version: 1.0
+Date: 2009-12-03
+Author: Pierre Lefeuvre
+Maintainer: Pierre Lefeuvre <bossa.package@gmail.com>
+Imports: ape, SoDA
+Description: Sort sequence from genbank. Retrieve sequence information
+        from genbank (designed for viruses sequences and retrieve
+        information such as isolation dates and host). Detect group of
+        sequences presenting phylogeography signal. Read PDB file
+        (protein 3D structure file).
+License: GPL
+LazyLoad: yes
+Packaged: Fri Dec 11 08:31:02 2009; pierre
+Repository: CRAN
+Date/Publication: 2009-12-11 07:03:40

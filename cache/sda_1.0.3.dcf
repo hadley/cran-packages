@@ -1,0 +1,14 @@
+Package: sda
+Version: 1.0.3
+Date: 2008-12-07
+Title: Shrinkage Discriminant Analysis
+Author: Miika Ahdesmaki and Korbinian Strimmer
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.7.0), entropy (>= 1.1.2), corpcor (>= 1.5.0), fdrtool (>= 1.2.5)
+Suggests: 
+Description: This package performs linear and diagonal discriminant analysis
+  where the classifier is trained using Stein-type shrinkage estimators.
+  This approach is particularly suited for high-dimensional classification.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/sda/
+Packaged: Sun Dec  7 23:39:05 2008; strimmer

@@ -1,0 +1,17 @@
+Package: pencopula
+Type: Package
+Title: Flexible Copula Density Estimation with Penalized Hierarchical
+        B-Splines
+Version: 0.3.4
+Date: 2012-08-15
+Depends: R (>= 2.11.0), lattice, fda, quadprog, spam, latticeExtra,
+        MASS
+Author: Christian Schellhase <cschellhase@wiwi.uni-bielefeld.de>
+Maintainer: Christian Schellhase <cschellhase@wiwi.uni-bielefeld.de>
+Description: Flexible copula density estimation with penalized
+        hierarchical B-Splines.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-17 09:03:55 UTC; cschellhase
+Repository: CRAN
+Date/Publication: 2012-08-17 17:41:59

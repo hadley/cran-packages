@@ -1,0 +1,42 @@
+Package: ritis
+Description: An interface to the Integrated Taxonomic Information
+        System (ITIS).
+Title: Taxonomic search of ITIS data.
+Version: 0.0.1
+License: CC0
+Date: 2012-10-13
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+        email = "myrmecocystus@gmail.com"))
+Imports: RCurl, XML, plyr
+Suggests: testthat
+Collate: 'getcommentdetailfromtsn.R' 'getitistermsfromcommonname.R'
+        'getitistermsfromscientificname.R'
+        'gettsnbyvernacularlanguage.R' 'getacceptednamesfromtsn.R'
+        'getanymatchcount.R' 'searchbycommonname.R'
+        'searchbycommonnamebeginswith.R' 'searchbycommonnameendswith.R'
+        'searchbyscientificname.R' 'searchforanymatch.R'
+        'searchforanymatchpaged.R' 'getcommonnamesfromtsn.R'
+        'getcoremetadatafromtsn.R' 'getcoveragefromtsn.R'
+        'getcredibilityratingfromtsn.R' 'getcurrencyfromtsn.R'
+        'getdatedatafromtsn.R' 'getexpertsfromtsn.R'
+        'getfullrecordfromtsn.R' 'getgeographicdivisionsfromtsn.R'
+        'getglobalspeciescompletenessfromtsn.R'
+        'getjurisdictionaloriginfromtsn.R' 'getkingdomnamefromtsn.R'
+        'getothersourcesfromtsn.R' 'getparenttsnfromtsn.R'
+        'getpublicationsfromtsn.R' 'getreviewyearfromtsn.R'
+        'getscientificnamefromtsn.R' 'getsynonymnamesfromtsn.R'
+        'gettaxonauthorshipfromtsn.R' 'gettaxonomicranknamefromtsn.R'
+        'getfullhierarchyfromtsn.R' 'gettaxonomicusagefromtsn.R'
+        'getunacceptabilityreasonfromtsn.R' 'getfullrecordfromlsid.R'
+        'gethierarchydownfromtsn.R' 'gethierarchyupfromtsn.R'
+        'getlsidfromtsn.R' 'getrecordfromlsid.R' 'gettsnfromlsid.R'
+        'getcredibilityratings.R' 'getdescription.R'
+        'getgeographicvalues.R' 'getjurisdictionoriginvalues.R'
+        'getjurisdictionvalues.R' 'getkingdomnames.R'
+        'getlastchangedate.R' 'getranknames.R'
+        'getvernacularlanguages.R'
+Packaged: 2012-10-17 04:02:06 UTC; ScottMac
+Author: Scott Chamberlain [aut, cre]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+Repository: CRAN
+Date/Publication: 2012-10-17 08:43:53

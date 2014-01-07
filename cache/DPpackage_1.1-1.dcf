@@ -1,0 +1,36 @@
+Package: DPpackage
+Version: 1.1-1
+Depends: MASS, nlme
+Date: 2010-07-21
+Title: Bayesian Nonparametric and Semiparametric Analysis
+Author: Alejandro Jara <atjara@uc.cl> with contributions from Timothy
+        Hanson <hanson@biostat.umn.edu>, Fernando A. Quintana
+        <quintana@mat.puc.cl>, Peter Mueller <pmueller@mdanderson.org>,
+        and Gary L. Rosner <grosner@jhmi.edu>.
+Maintainer: Alejandro Jara <atjara@uc.cl>
+Description: This package contains functions to perform inference via
+        simulation from the posterior distributions for Bayesian
+        nonparametric and semiparametric models. Although the name of
+        the package was motivated by the Dirichlet Process prior, the
+        package considers and will consider other priors on functional
+        spaces. So far, DPpackage includes models considering Dirichlet
+        Processes, Dependent Dirichlet Processes, Dependent Poisson-
+        Dirichlet Processes, Hierarchical Dirichlet Processes, Polya
+        Trees, Mixtures of Triangular distributions, and Random
+        Bernstein polynomials priors. The package also includes models
+        considering Penalized B-Splines. Currently the package includes
+        semiparametric models for marginal and conditional density
+        estimation, ROC curve analysis, interval censored data, binary
+        regression models, generalized linear mixed models, IRT type
+        models, and generalized additive models. The package also
+        contains functions to compute Pseudo-Bayes factors for model
+        comparison, and to elicitate the precision parameter of the
+        Dirichlet Process. To maximize computational efficiency, the
+        actual sampling for each model is done in compiled FORTRAN. The
+        functions return objects which can be subsequently analyzed
+        with functions provided in the coda package.
+License: GPL (>= 2)
+URL: http://www.mat.puc.cl/~ajara
+Packaged: 2010-07-26 07:28:26 UTC; root
+Repository: CRAN
+Date/Publication: 2010-07-26 09:31:10

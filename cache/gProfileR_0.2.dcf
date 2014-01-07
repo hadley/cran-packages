@@ -1,0 +1,15 @@
+Package: gProfileR
+Version: 0.2
+License: GPL (>= 2)
+Description: A package for functional enrichment analysis via the
+        g:Profiler toolkit (http://biit.cs.ut.ee/gprofiler/).
+Title: g:ProfileR
+Author: Juri Reimand <juri.reimand@ut.ee>, Raivo Kolde
+        <rkolde@gmail.com>, Tambet Arak <tambet.arak@gmail.com>
+Maintainer: Tambet Arak <tambet.arak@gmail.com>
+Depends: R (>= 2.10)
+Imports: RCurl, plyr
+Collate: 'gProfileR.R'
+Packaged: 2012-11-22 13:38:39 UTC; arak
+Repository: CRAN
+Date/Publication: 2012-11-22 18:35:04

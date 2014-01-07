@@ -1,0 +1,14 @@
+Package: tsDyn
+Type: Package
+Title: Time series analysis based on dynamical systems theory
+Version: 0.5-7
+Date: $Date: 2006-09-21 12:52:11 +0200 (gio, 21 set 2006) $
+Depends: mgcv
+Imports: nnet, tseriesChaos, tseries, utils
+Suggests: tcltk, sm, scatterplot3d, rgl
+Author: Antonio, Fabio Di Narzo, Jose Luis Aznarte M.
+Maintainer: Antonio Fabio Di Narzo <dinarzo@unibo.it>
+Description: Time series analysis based on dynamical systems theory
+License: GPL-2
+URL: http://code.google.com/p/tsdyn, http://tsnonlinear.uniud.it
+Packaged: Tue Oct  9 17:27:39 2007; antonio

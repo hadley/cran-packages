@@ -1,0 +1,14 @@
+Package: CompLognormal
+Type: Package
+Title: Functions for actuarial scientists
+Version: 3.0
+Date: 2013-8-4
+Author: Saralees Nadarajah
+Maintainer: Saralees Nadarajah <Saralees.Nadarajah@manchester.ac.uk>
+Depends: R (>= 2.15.0), numDeriv
+Description: Computes the probability density function, cumulative distribution function, quantile function, random numbers of any composite model based on the lognormal distribution.
+License: GPL (>= 2)
+Packaged: 2013-08-04 08:11:55 UTC; mbbsssn2
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-04 10:31:46

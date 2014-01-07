@@ -1,0 +1,54 @@
+Package: RMAWGEN
+Maintainer: Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: RMAWGEN (R Multi-site Auto-regressive Weather GENerator): a
+        package to generate daily time series from monthly mean values
+Type: Package
+Author: Emanuele Cordano, Emanuele Eccel
+Description: This package contains S3 and S4 functions for spatial
+        multi-site stochastic generation of daily timeseries of
+        temperature and precipitation. The implemented tools make use
+        of Vectorial AutoRegressive models (VARs). The VAR is
+        calibrated by daily instrumental "Gaussinized" time series and
+        then works with monthly timeseries as input.
+        Bugs/comments/questions/collaboration of any kind are warmly
+        welcomed.
+Version: 1.2.4
+In views: Environmetrics,TimeSeries
+Repository: CRAN
+Date/Publication: 2012-04-05 14:06:25
+Packaged: 2012-04-05 11:47:43 UTC; ecor
+Date: 2012-04-05
+Depends: R (>= 2.10), chron, date, vars, MASS, strucchange, urca,
+        methods,lmtest (>= 0.9-26), sandwich (>= 2.2-4)
+Imports: chron, date, vars, MASS, strucchange, urca, methods,lmtest (>=
+        0.9-26), sandwich (>= 2.2-4)
+URL:
+        http://cri.gmpf.eu/Research/Sustainable-Agro-Ecosystems-and-Bioresources/Dynamics-in-the-agro-ecosystems
+Collate: 'acvWGEN.R' 'adddate.R' 'addsuffixes.R' 'arch_test.varest2.R'
+        'ComprehensivePrecipitationGenerator.R'
+        'ComprehensiveTemperatureGenerator.R' 'continuity_ratio.R'
+        'countNAs.R' 'covariance.R' 'ElevationOf.R' 'extractdays.R'
+        'extractmonths.R' 'extractTnFromAnomalies.R'
+        'extractTxFromAnomalies.R' 'extractyears.R' 'findDate.R'
+        'forecastEV.R' 'forecastResidual.R'
+        'generateTemperatureTimeseries.R' 'getDailyMean.R'
+        'getMonthlyMean.R' 'getVARmodel.R' 'GPCA_iteration.R' 'GPCA.R'
+        'inv_GPCA_iteration.R' 'inv_GPCA.R' 'is.monthly.climate.R'
+        'NewVAReventRealization.R' 'newVARmultieventRealization.R'
+        'normality_test.varest2.R' 'normalizeGaussian_prec.R'
+        'normalizeGaussian.R'
+        'normalizeGaussian_sevaralstations_prec.R'
+        'normalizeGaussian_sevaralstations.R' 'plotDailyClimate.R'
+        'plot.sample.R' 'PrecipitationEndDay.R'
+        'PrecipitationStartDay.R' 'print.GPCAiteration.R'
+        'print.GPCA.R' 'qqplotprecWGEN.R' 'qqplotprecWGEN_seasonal.R'
+        'qqplotTnTxWGEN.R' 'qqplotTnTxWGEN_seasonal.R' 'qqplotWGEN.R'
+        'removeNAs.R' 'rescaling_monthly.R' 'residuals.varest2.R'
+        'RMAWGEN-package.R' 'serial_test.varest2.R'
+        'setWholeTemperatureGeneratorParameters.R'
+        'splineInterpolateMonthlytoDailyforSeveralYears.R'
+        'splineInterpolateMonthlytoDaily.R' 'TemperatureEndDay.R'
+        'TemperatureStartDay.R' 'VAR_mod.R' 'WhereIs.R'
+        'zc0_GPCAiteration.R' 'zc0_GPCA.R' 'zc0_varest.R'
+        'zc1_varest2.R' 'zc2_GPCAvarest2.R'

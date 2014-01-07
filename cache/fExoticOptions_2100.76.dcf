@@ -1,0 +1,21 @@
+Package: fExoticOptions
+Version: 2100.76
+Revision: 4057
+Date: 2009-09-28
+Title: Exotic Option Valuation
+Author: Diethelm Wuertz and many others, see the SOURCE file
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics, fOptions
+Suggests: RUnit
+Maintainer: Rmetrics Core Team <Rmetrics-core@r-project.org>
+Description: Environment for teaching "Financial Engineering and
+        Computational Finance"
+NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE
+        FUTURE. THIS TYPICALLY INCLUDES FUNCTION AND ARGUMENT NAMES, AS
+        WELL AS DEFAULTS FOR ARGUMENTS AND RETURN VALUES.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.rmetrics.org
+Packaged: 2009-09-28 15:21:32 UTC; yankee
+Repository: CRAN
+Date/Publication: 2009-09-29 18:44:09

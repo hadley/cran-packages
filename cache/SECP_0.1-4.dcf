@@ -1,0 +1,19 @@
+Package: SECP
+Type: Package
+Version: 0.1-4
+Date: 2012-07-09
+Title: Statistical Estimation of Cluster Parameters (SECP)
+Author: Pavel V. Moskalev
+Maintainer: Pavel V. Moskalev <moskalefff@gmail.com>
+Description: SECP package provides functionality for estimating
+        parameters of site clusters on 2D & 3D square lattice with
+        various lattice sizes, relative fractions of accessible sites
+        (occupation probability), iso- & anisotropy, von Neumann &
+        Moore (1,d)-neighborhoods
+Depends: R (>= 2.14.0), SPSL (>= 0.1-6)
+License: GPL-3
+LazyLoad: yes
+URL: http://www.r-project.org
+Packaged: 2012-07-09 07:30:31 UTC; paule
+Repository: CRAN
+Date/Publication: 2012-07-09 08:53:02

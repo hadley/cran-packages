@@ -1,0 +1,35 @@
+Package: PSCBS
+Version: 0.38.0
+Depends: R (>= 2.14.0), utils
+Imports: R.methodsS3 (>= 1.5.1), R.oo (>= 1.15.1), R.utils (>= 1.27.1),
+        R.cache (>= 0.8.1), matrixStats (>= 0.8.12), DNAcopy (>=
+        1.27.2)
+Suggests: aroma.light (>= 1.28.0), Hmisc (>= 3.12-2), R.rsp (>=
+        0.9.24), R.devices (>= 2.6.1), ggplot2 (>= 0.9.3.1)
+VignetteBuilder: R.rsp
+Date: 2013-09-27
+Title: Analysis of Parent-Specific DNA Copy Numbers
+Authors@R: c(
+  person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                 email="henrikb@braju.com"),
+  person("Pierre", "Neuvial", role="aut"),
+  person("Venkatraman E.", "Seshan", role="aut"),
+  person("Adam B.", "Olshen", role="aut"),
+  person("Paul T.", "Spellman", role="aut"),
+  person("Richard A.", "Olshen", role="aut"))
+Description: Segmentation of allele-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome.  Both tumor-normal paired and tumor-only analyses are supported.
+License: GPL (>= 2)
+LazyLoad: yes
+biocViews: aCGH, CopyNumberVariants, SNP, Microarray, OneChannel,
+        TwoChannel, Genetics
+Packaged: 2013-09-28 06:59:01 UTC; hb
+Author: Henrik Bengtsson [aut, cre, cph],
+  Pierre Neuvial [aut],
+  Venkatraman E. Seshan [aut],
+  Adam B. Olshen [aut],
+  Paul T. Spellman [aut],
+  Richard A. Olshen [aut]
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-28 14:03:35

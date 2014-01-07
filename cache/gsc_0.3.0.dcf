@@ -1,0 +1,16 @@
+Package: gsc
+Title: Generalised Shape Constraints
+Version: 0.3.0
+Date: 2011-10-16
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: An experimental package for representing shape constraints
+        (for sets of smooth functions) and transforming regularly
+        spaced series to satisfy those constraints. Shape constraints
+        include constraints on the signs of the zeroth, first, second
+        and third derivatives.
+License: GPL (>= 2)
+Depends: quadprog
+Packaged: 2011-10-16 01:02:46 UTC; maia
+Repository: CRAN
+Date/Publication: 2011-10-27 06:53:52

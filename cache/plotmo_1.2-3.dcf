@@ -1,0 +1,15 @@
+Package: plotmo
+Version: 1.2-3
+Title: Plot a model's response while varying the values of the
+        predictors.
+Author: Stephen Milborrow
+Maintainer: Stephen Milborrow <milbo@sonic.net>
+Description: Plot a model's response when varying one or two predictors
+        while holding the other predictors constant.  A poor man's
+        partial dependence plot.
+Imports: rpart
+License: GPL-3
+URL: http://www.milbo.users.sonic.net
+Packaged: 2011-04-17 10:11:43 UTC; milbo
+Repository: CRAN
+Date/Publication: 2011-04-24 06:57:24

@@ -1,0 +1,35 @@
+Package: rplos
+Version: 0.3.0
+Date: 2013-09-17
+Description: A programmatic interface to the
+    Web Service methods provided by the Public Library
+    of Science journals for search.
+Title: Interface to PLoS Journals search API.
+License: CC0
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"),
+    person("Carl", "Boettiger", role = "aut",
+    email = "cboettig@gmail.com"),
+    person("Karthik", "Ram", role = "aut",
+    email = "karthik.ram@gmail.com"))
+URL: https://github.com/ropensci/rplos
+BugReports: http://www.github.com/ropensci/rplos/issues
+LazyLoad: yes
+LazyData: yes
+Depends: ggplot2
+Imports: RCurl, RJSONIO, XML, plyr, stringr, googleVis, httr,
+        lubridate, reshape2
+Suggests: roxygen2, testthat
+Collate: 'crossref.R' 'formatarticleurl.R' 'help.R' 'journalnamekey.R'
+        'plosabstract.R' 'plosauthor.R' 'plosfields.R'
+        'plosfigtabcaps.R' 'plossubject.R' 'plostitle.R' 'plosviews.R'
+        'plosword.R' 'plot_throughtime.R' 'searchplos.R' 'crossref_r.R'
+        'zzz.R' 'startup.R'
+Packaged: 2013-09-17 20:35:37 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre],
+  Carl Boettiger [aut],
+  Karthik Ram [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-18 08:42:03

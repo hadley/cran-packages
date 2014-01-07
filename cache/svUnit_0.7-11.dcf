@@ -1,0 +1,19 @@
+Package: svUnit
+Type: Package
+Version: 0.7-11
+Date: 2013-01-27
+Title: SciViews GUI API - Unit testing
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"))
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 1.9.0)
+Suggests: svGUI, datasets, utils, XML
+Description: A complete unit test system and functions to implement its
+        GUI part
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2013-01-27 21:34:29 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-28 07:41:43

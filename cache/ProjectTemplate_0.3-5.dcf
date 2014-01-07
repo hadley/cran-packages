@@ -1,0 +1,30 @@
+Package: ProjectTemplate
+Type: Package
+Title: Automates the creation of new statistical analysis projects.
+Version: 0.3-5
+Date: 2011-07-08
+Author: John Myles White
+Maintainer: John Myles White <jmw@johnmyleswhite.com>
+Description: ProjectTemplate provides functions to automatically build
+        a directory structure for a new R project. Using this
+        structure, ProjectTemplate automates data loading,
+        preprocessing, library importing and unit testing.
+License: Artistic-2.0
+LazyLoad: yes
+Depends: R (>= 2.7), testthat
+Suggests: foreign, reshape, plyr, stringr, ggplot2, lubridate, log4r,
+        RMySQL, RSQLite, xlsx, gdata, RODBC, tuneR, pixmap, data.table
+URL: http://projecttemplate.net
+Collate: 'arff.reader.R' 'cache.name.R' 'cache.project.R' 'cache.R'
+        'clean.variable.name.R' 'create.project.R' 'csv.reader.R'
+        'db.reader.R' 'dbf.reader.R' 'epiinfo.reader.R' 'file.reader.R'
+        'help.R' 'load.project.R' 'mp3.reader.R' 'mtp.reader.R'
+        'octave.reader.R' 'ppm.reader.R' 'r.reader.R' 'rdata.reader.R'
+        'reload.project.R' 'run.project.R' 'show.project.R'
+        'spss.reader.R' 'sql.reader.R' 'stata.reader.R' 'stub.tests.R'
+        'systat.reader.R' 'test.project.R' 'translate.dcf.R'
+        'tsv.reader.R' 'url.reader.R' 'wsv.reader.R' 'xls.reader.R'
+        'xlsx.reader.R' 'xport.reader.R' 'extensions.dispatch.table.R'
+Packaged: 2011-07-08 20:41:22 UTC; johnmyleswhite
+Repository: CRAN
+Date/Publication: 2011-07-23 13:03:10

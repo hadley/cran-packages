@@ -1,0 +1,20 @@
+Package: pseudo
+Title: Pseudo - observations
+Version: 1.1
+Authors@R: 
+        c(person(c("Maja","Pohar","Perme"),role="aut",email="maja.pohar@mf.uni-lj.si"),person("Mette",
+        "Gerster", role =
+        c("aut","cre"),email="mgerster@health.sdu.dk"))
+Description: Various functions for computing pseudo-observations for
+        censored data regression
+Depends: KMsurv, geepack
+License: GPL-2
+Repository: CRAN
+Packaged: 2012-03-21 07:03:59 UTC; majap
+Author: Maja Pohar Perme [aut], Mette Gerster [aut, cre]
+Maintainer: ORPHANED
+Date/Publication: 2012-03-21 08:59:41
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Mette Gerster <mgerster@health.sdu.dk>
+X-CRAN-Comment: Orphaned on 2013-12-21 as maintainer address
+        <mgerster@health.sdu.dk> bounced.

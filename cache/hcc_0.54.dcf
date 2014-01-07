@@ -1,0 +1,16 @@
+Package: hcc
+Version: 0.54
+Date: 2013-03-23
+Title: Hidden correlation check
+Author: Yun Shi and A. I. McLeod
+Maintainer: A. I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0)
+Description: A new diagnostic check for model adequacy in regression
+        and generalized linear models is implemented.
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2013-03-23 15:28:32 UTC; Aim
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-23 17:01:19

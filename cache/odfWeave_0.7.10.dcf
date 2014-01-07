@@ -1,0 +1,11 @@
+Package: odfWeave
+Type: Package
+Title: Sweave processing of Open Document Format (ODF) files
+Version: 0.7.10
+Date: 2009-01-25
+Author: Max Kuhn, Steve Weaston
+Maintainer: Max Kuhn <max.kuhn@pfizer.com>
+Description: Sweave processing of Open Document Format (ODF) files
+Depends: R (>= 2.3.1), lattice, XML
+License: GPL 2
+Packaged: Sun Jan 25 20:26:09 2009; kuhna03

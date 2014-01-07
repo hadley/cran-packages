@@ -1,0 +1,20 @@
+Package: fingerprint
+Version: 2.3
+Date: 2007-06-24
+Title: Functions to operate on binary fingerprint data
+Author: Rajarshi Guha <rguha@indiana.edu>
+Maintainer: Rajarshi Guha <rguha@indiana.edu>
+Description: This package contains functions to manipulate binary fingerprints
+ of arbitrary length. A fingerprint is represented by an object of S4 class 'fingerprint'
+ which is internally represented a vector of integers, such
+ that each element represents the position in the fingerprint that is set to 1.
+ The bitwise logical functions in R are overridden so that they can be used directly
+ with 'fingerprint' objects. A number of distance metrics are also
+ available (many contributed by Michael Fadock). Fingerprints 
+ can be converted to Euclidean vectors (i.e., points on the unit hypersphere)i and
+ can also be folded using XOR.  Arbitrary fingerprint formats can be handled via line
+ handlers. Currently handlers are provided for CDK, MOE and BCI fingerprint data.
+License: GPL
+Depends: methods
+LazyLoad: yes
+Packaged: Sun Jun 24 14:11:46 2007; rguha

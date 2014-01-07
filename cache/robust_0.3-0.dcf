@@ -1,0 +1,19 @@
+Package: robust
+Version: 0.3-0
+Date: 2007-03-09
+Title: Insightful Robust Library
+Author: Jeff Wang <jwang@statsci.com>,
+        Ruben Zamar <ruben@stat.ubc.ca>,
+        Alfio Marazzi <Alfio.Marazzi@inst.hospvd.ch>,
+        Victor Yohai <vyohai@dm.uba.ar>,
+        Matias Salibian-Barrera <matias@stat.ubc.ca>,
+        Ricardo Maronna <maron@mate.unlp.edu.ar>,
+        Eric Zivot <ezivot@u.washington.edu>,
+        David Rocke <dmrocke@ucdavis.edu>,
+        Doug Martin <doug@statsci.com>,
+        Kjell Konis <konis@stats.ox.ac.uk>.
+Maintainer: Kjell Konis <konis@stats.ox.ac.uk>
+Depends: R (>= 2.4.1), MASS, lattice
+Description: A package of robust methods.
+License: GPL
+Packaged: Fri Mar  9 14:42:54 2007; konis

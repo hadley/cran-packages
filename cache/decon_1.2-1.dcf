@@ -1,0 +1,27 @@
+Package: decon
+Type: Package
+Title: Deconvolution Estimation in Measurement Error Models
+Version: 1.2-1
+Date: 2010-10-20
+Author: Xiao-Feng Wang, Bin Wang
+Maintainer: Xiao-Feng Wang <wangx6@ccf.org>
+Description: This package contains a collection of functions to deal
+        with nonparametric measurement error problems using
+        deconvolution kernel methods. We focus two measurement error
+        models in the package: (1) an additive measurement error model,
+        where the goal is to estimate the density or distribution
+        function from contaminated data; (2) nonparametric regression
+        model with errors-in-variables. The R functions allow the
+        measurement errors to be either homoscedastic or
+        heteroscedastic. To make the deconvolution estimators
+        computationally more efficient in R, we adapt the "Fast Fourier
+        Transform" (FFT) algorithm for density estimation with
+        error-free data to the deconvolution kernel estimation. Several
+        methods for the selection of the data-driven smoothing
+        parameter are also provided in the package.  See "Deconvolution
+        Estimation in Measurement Error Models: The R Package decon" by
+        Wang, X.F. and Wang, B. for details.
+License: GPL (>= 3)
+Packaged: 2010-10-20 18:16:25 UTC; xfwang
+Repository: CRAN
+Date/Publication: 2010-10-21 10:48:47

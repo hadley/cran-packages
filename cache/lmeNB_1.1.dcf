@@ -1,0 +1,15 @@
+Package: lmeNB
+Type: Package
+Title: Fit negative binomial mixed-effect regression model.
+Version: 1.1
+Date: 2013-05-1
+Author: Zhao, Y. and Kondo, Y.
+Maintainer: Yumi Kondo <y.kondo@stat.ubc.ca>
+Description: Fit negative binomial mixed-effect regression model. For the distribution of subject-specific random intercept, a gamma or log-normal distributions or semi-parametric procedure are allowed. For the safety monitoring, subject-specific conditional probability index can be computed. For details, see  Zhao, Y., Li, D.K.B., Petkau, J.A., Riddehough, A. & Traboulsee, A.  Detection of unusual increases in MRI lesion counts in multiple sclerosis patients.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Depends: numDeriv,statmod,lmeNBBayes
+Packaged: 2013-12-03 07:56:59 UTC; yumik091186
+NeedsCompilation: no
+Date/Publication: 2013-12-03 09:18:54

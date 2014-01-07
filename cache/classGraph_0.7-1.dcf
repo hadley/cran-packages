@@ -1,0 +1,15 @@
+Package: classGraph
+Type: Package
+Title: Construct Graphs of S4 Class Hierarchies
+Version: 0.7-1
+Date: 2008-05-06
+Author: Martin Maechler partly based on code from Robert Gentleman
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Depends: methods, graph, Rgraphviz
+Imports: methods, graph, Rgraphviz
+Suggests: Matrix
+Description: Construct directed graphs of S4 class hierarchies and
+  visualize them.  In general, these graphs typically are DAGs (directed acyclic
+  graphs), often simple trees in practice.
+License: GPL
+Packaged: Tue May  6 10:32:00 2008; maechler

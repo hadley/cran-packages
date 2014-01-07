@@ -1,0 +1,20 @@
+Package: utility
+Type: Package
+Title: Construct, Evaluate and Plot Value and Utility Functions
+Version: 1.1
+Date: 2013-03-03
+Author: Peter Reichert <peter.reichert@eawag.ch> with contributions by
+        Nele Schuwirth <nele.schuwirth@eawag.ch>
+Maintainer: Peter Reichert <peter.reichert@eawag.ch>
+Description: Construct and plot objective hierarchies and associated
+        value and utility functions.  Evaluate the values and utilities
+        and visualize the results as colored objective hierarchies or
+        tables.  Visualize uncertainty by plotting median and quantile
+        intervals within the nodes of objective hierarchies.  Get
+        numerical results of the evaluations in standard R data types
+        for further processing.
+License: GPL (>= 2)
+Packaged: 2013-03-03 06:50:08 UTC; Peter
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-03 08:41:25

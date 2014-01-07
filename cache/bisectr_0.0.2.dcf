@@ -1,0 +1,13 @@
+Package: bisectr
+Title: Tools to find bad commits with git bisect
+Version: 0.0.2
+Author: Winston Chang <winston@stdout.org>
+Maintainer: Winston Chang <winston@stdout.org>
+Description: Tools to find bad commits with git bisect
+Depends: R (>= 2.14)
+Imports: devtools
+License: GPL-2
+Collate: 'bisect.r'
+Packaged: 2012-05-16 19:06:34 UTC; winston
+Repository: CRAN
+Date/Publication: 2012-05-17 06:18:53

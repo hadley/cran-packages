@@ -1,0 +1,17 @@
+Package: plsdof
+Type: Package
+Title: Degrees of Freedom for Partial Least Squares Regression
+Version: 0.1
+Date: 2009-11-16
+Author: Nicole Kraemer, Mikio L. Braun
+Maintainer: Nicole Kraemer <nkraemer@cs.tu-berlin.de>
+Description: The \code{psldof} package provides Degrees of Freedom
+        estimates for Kernel Partial Least Squares Regression and its
+        kernel extension. The package also provides model selection
+        based on various information criteria (aic, bic, gmdl) and
+        based on cross-validation.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2009-11-16 10:58:31 UTC; kranic
+Repository: CRAN
+Date/Publication: 2009-11-16 13:19:30

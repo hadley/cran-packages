@@ -1,0 +1,21 @@
+Package: OLScurve
+Type: Package
+Title: OLS growth curve trajectories
+Version: 0.1.3
+Date: 2012-02-07
+Author: Phil Chalmers <rphilip.chalmers@gmail.com> and Carrie Smith
+        <carrie.elizabeth@gmail.com> and Matthew Sigal
+        <matthewsigal@gmail.com>
+Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
+Description: Provides tools for more easily organizing and plotting
+        individual ordinary least square (OLS) growth curve
+        trajectories.
+Depends: lattice
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+License: GPL (>= 2)
+URL: https://github.com/philchalmers/OLScurve
+Collate: 'OLScurve.R' 'parplot.R' 'subjplot.R' 'OLScurve-package.R'
+Packaged: 2012-03-16 06:43:40 UTC; Phil
+Date/Publication: 2012-03-16 06:49:46

@@ -1,0 +1,20 @@
+Package: clere
+Type: Package
+Title: CLERE methodology for simultaneous variables clustering and
+        regression.
+Version: 1.0
+Date: 2013-11-21
+Authors@R: c(person("Loic", "Yengo", role = c("aut", "cre"), email = "loic.yengo@gmail.com"), person("Mickael", "Canouil", role = "ctb", email = "mickael.canouil@good.ibl.fr"))
+Description: This package implements the CLERE methodology for simultaneous variables clustering and regression.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.10.3), methods
+Suggests: grid, ggplot2
+LinkingTo: Rcpp
+Collate: 'fit.clere.R' 'Clere.R' 'sClere-Class.R'
+Packaged: 2013-12-03 18:20:18 UTC; root
+Author: Loic Yengo [aut, cre],
+  Mickael Canouil [ctb]
+Maintainer: Loic Yengo <loic.yengo@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-03 20:12:20

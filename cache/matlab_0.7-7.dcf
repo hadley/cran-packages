@@ -1,0 +1,11 @@
+Package: matlab
+Version: 0.7-7
+Date: 2005-06-22
+Title: MATLAB emulation package
+Author: P. Roebuck <roebuck@mdanderson.org>
+Maintainer: P. Roebuck <roebuck@mdanderson.org>
+Description: Emulate MATLAB code using R
+Depends: R (>= 1.9), methods
+License: See COPYING for license information
+URL: http://odin.mdacc.tmc.edu/~roebuck/R/index.html#matlab
+Packaged: Thu Jun 23 16:03:06 2005; paulr

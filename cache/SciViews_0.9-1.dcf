@@ -1,0 +1,19 @@
+Package: SciViews
+Type: Package
+Title: SciViews GUI API - Main package
+Imports: ellipse
+Depends: R (>= 2.6.0), stats, grDevices, graphics, MASS
+Description: Functions to install SciViews additions to R, and more
+        (various) tools
+Version: 0.9-1
+Date: 2010-02-15
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://www.sciviews.org/SciViews-R
+Repository: CRAN
+Repository/R-Forge/Project: sciviews
+Repository/R-Forge/Revision: 251
+Date/Publication: 2010-04-02 17:05:48
+Packaged: 2010-03-18 21:41:45 UTC; rforge

@@ -1,0 +1,15 @@
+Package: graphicsQC
+Type: Package
+Title: Quality Control for Graphics in R
+Version: 1.0-4
+Author: Stephen Gardiner and Paul Murrell
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+Depends: XML
+Suggests: Sxslt
+Description: The package provides functions to generate graphics files,
+        compare them with ``model'' files, and report the results.
+License: GPL-2
+URL: http://graphicsqc.r-forge.r-project.org
+Packaged: 2009-04-26 22:04:30 UTC; paul
+Repository: CRAN
+Date/Publication: 2009-04-27 06:48:13

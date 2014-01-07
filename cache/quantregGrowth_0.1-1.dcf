@@ -1,0 +1,15 @@
+Package: quantregGrowth
+Type: Package
+Title: Growth charts via regression quantiles
+Version: 0.1-1
+Date: 2013-01-10
+Author: Vito M. R. Muggeo
+Maintainer: Vito M.R. Muggeo <vito.muggeo@unipa.it>
+Description: Fits noncrossing regression quantiles as a function of
+        linear covariates and a smooth term via B-spline with quadratic
+        penalty.
+Depends: quantreg, splines
+License: GPL
+Packaged: 2013-01-10 15:53:49 UTC; user
+Repository: CRAN
+Date/Publication: 2013-01-10 17:40:03

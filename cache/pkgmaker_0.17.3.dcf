@@ -1,0 +1,32 @@
+Package: pkgmaker
+Type: Package
+Title: Package development utilities
+Version: 0.17.3
+Date: 2013-09-17
+Author: Renaud Gaujoux
+Maintainer: Renaud Gaujoux <renaud@mancala.cbio.uct.ac.za>
+Description: This package provides some low-level utilities to use for package
+    development. It currently provides managers for multiple package specific
+    options and registries, vignette, unit test and bibtex related utilities.
+    It serves as a base package for packages like NMF, RcppOctave, doRNG, and
+    as an incubator package for other general purposes utilities, that will
+    eventually be packaged separately.
+    It is still under heavy development and changes in the interface(s) are
+    more than likely to happen.
+License: GPL (>= 2)
+URL: http://pkgmaker.r-forge.r-project.org/pkgmaker,
+        http://r-forge.r-project.org/projects/pkgmaker
+LazyLoad: yes
+Depends: R (>= 2.15), methods, stats, registry
+Imports: tools, codetools, digest, stringr, xtable, grDevices
+Suggests: devtools (>= 0.8), bibtex, RUnit, testthat, knitr, argparse
+Collate: 'utils.R' 'logging.R' 'unitTests.R' 'data.R' 'namespace.R'
+        'devutils.R' 'package.R' 'options.R' 'is.R' 'registry.R'
+        'bibtex.R' 'packages.R' 'vignette.R' 'files.R'
+        'package-extra.R' 'colors.R' 'graphics.R' 'rd.R' 'project.R'
+        'CLI.R'
+VignetteBuilder: knitr
+Packaged: 2013-09-19 09:23:58 UTC; renaud
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-19 12:04:48

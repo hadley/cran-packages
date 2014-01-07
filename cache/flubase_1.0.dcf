@@ -1,0 +1,16 @@
+Package: flubase
+Type: Package
+Title: Baseline of mortality free of influenza epidemics
+Version: 1.0
+Date: 2009-02-23
+Author: Nunes B, Natario I and Carvalho L
+Maintainer: Baltazar Nunes <balta.nunes@gmail.com>
+Depends: R (>= 2.7), forecast, FinTS
+Description: This function estimates the baseline of mortality free of
+        influenza epidemics, and the respective excess deaths, for more
+        than one time series (age groups, gender, regions, etc)using
+        one of the four methods available.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:58:46 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:46

@@ -1,0 +1,15 @@
+Package: DiceKriging
+Title: Kriging methods for computer experiments
+Version: 1.3.3
+Date: 2012-06-01
+Author: Olivier Roustant, David Ginsbourger, Yves Deville
+Maintainer: Olivier Roustant <roustant@emse.fr>
+Description: Estimation, validation and prediction of kriging models.
+        Important functions : km, print.km, plot.km, predict.km.
+Depends: methods
+Suggests: rgenoud
+License: GPL-3
+URL: http://dice.emse.fr/
+Packaged: 2012-06-01 11:39:54 UTC; roustant
+Repository: CRAN
+Date/Publication: 2012-06-01 11:53:03

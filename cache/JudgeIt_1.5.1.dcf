@@ -1,0 +1,17 @@
+Package: JudgeIt
+Type: Package
+Title: JudgeIt: A Program for Evaluating Electoral Systems and
+        Redistricting Plans
+Depends: R (>= 2.10), utils
+Version: 1.5.1
+Date: 2013-06-26
+Author: Andrew Gelman, Gary King and Andrew C. Thomas
+Maintainer: Andrew C. Thomas <act@acthomas.ca>
+Description: Examines two-party electoral systems and calculates
+        quantities of interest based on the behaviour of their
+        districts.
+License: GPL (>= 3)
+Packaged: 2013-06-26 14:46:51 UTC; acthomas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-26 18:34:56

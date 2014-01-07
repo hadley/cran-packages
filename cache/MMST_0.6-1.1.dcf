@@ -1,0 +1,20 @@
+Package: MMST
+Type: Package
+Title: DATASETS FROM MMST
+Version: 0.6-1.1
+Date: 2010-07-04
+Author: Keith Halbert <keith.a.halbert@temple.edu>
+Maintainer: Keith Halbert <keith.a.halbert@temple.edu>
+Description: The datasets from Modern Multivariate Statistical
+        Techniques by Alan Julian Izenman are contained in this
+        package.  The documentation descriptions show the page numbers
+        of references to the data set within the text.  See the text
+        for detailed descriptions of the datasets.  Also included in
+        this package is a function for exporting these datasets en
+        masse.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-02-11 16:58:30
+Depends: R (>= 2.10)
+Packaged: 2011-02-11 16:36:16 UTC; ripley

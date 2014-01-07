@@ -1,0 +1,14 @@
+Package: heplots
+Type: Package
+Title: Visualizing Tests in Multivariate Linear Models
+Version: 0.8-1
+Date: 2007-5-23
+Author: John Fox, Michael Friendly, and Georges Monette
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: car, graphics, stats
+Suggests: rgl
+LazyLoad: yes
+LazyData: yes
+Description: Represents sums-of-squares-and-products matrices for linear hypotheses and for error using ellipses (in two dimensions) and ellipsoids (in three dimensions).
+License: GPL version 2 or newer
+Packaged: Mon Nov  3 05:01:55 2008; theussl

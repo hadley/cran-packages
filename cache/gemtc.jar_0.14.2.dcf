@@ -1,0 +1,13 @@
+Package: gemtc.jar
+Version: 0.14.2
+Date: 2012-10-30
+Title: GeMTC Java binary
+Author: Gert van Valkenhoef, Joel Kuiper
+Maintainer: Gert van Valkenhoef <g.h.m.van.valkenhoef@rug.nl>
+Description: An R package providing the Java JAR for the gemtc package
+Depends: R (>= 2.7.0), rJava (>= 0.8-0)
+SystemRequirements: Java (>= 1.5)
+License: GPL-3
+Packaged: 2012-10-30 11:42:51 UTC; gert
+Repository: CRAN
+Date/Publication: 2012-10-30 12:29:04

@@ -1,0 +1,17 @@
+Package: DeducerExtras
+Type: Package
+Title: Additional dialogs and functions for Deducer
+Version: 1.3
+Date: 2011-02-21
+Author: Ian Fellows
+Maintainer: Ian Fellows <thefell@gmail.com>
+Description: Added functionality for Deducer. This package includes
+        additional dialogs for calculating distribution function
+        values, cluster analysis, paired t-tests and more.
+Depends: Deducer (>= 0.4-4)
+Suggests: pwr
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-02-21 23:47:12 UTC; ianfellows
+Repository: CRAN
+Date/Publication: 2011-02-22 08:08:06

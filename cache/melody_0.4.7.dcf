@@ -1,0 +1,23 @@
+Package: melody
+Version: 0.4.7
+Date: 2013-03-07
+Title: Statistical Methods for the Quantitative Analysis of Song
+        Spectrograms
+Author: Dave Schruth
+Maintainer: Dave Schruth <melody@hominine.net>
+Depends: R (>= 1.8.0), caroline, network, sna, methods
+Suggests: abind
+Description: The melody package is a suite of computer vision tools for
+        processing vocal spectrograms.  In addition to temporal
+        partitioning, unit filtering, harmonic splitting, and
+        background noise removal functionality, the package provides a
+        collection of methods for assessing the higher order melodic
+        content of vocalization spectrograms. Both unit level (tone and
+        interval) as well as inter-unit measures (syllabic variation
+        and repetition clustering) are also currently available.
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2013-03-08 22:57:38 UTC; dave
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-09 17:40:00

@@ -1,0 +1,19 @@
+Package: LDdiag
+Title: Link Function and Distribution Diagnostic Test for Social
+        Science Researchers
+Version: 0.1
+Date: 2010-05-11
+Depends: MASS
+Author: Yongmei Ni
+Maintainer: Yongmei Ni <yongmei.ni@utah.edu>
+Description: Social science researchers sometimes have difficulties in
+        deciding appropriate regression methods and/or link functions
+        for their studies. This package provides some model diagonistic
+        approaches for link function and distribution, such as Pregibon
+        linearity test, Hosmer-Lemeshow test, Copas test, Park test,
+        etc.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:13 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:13

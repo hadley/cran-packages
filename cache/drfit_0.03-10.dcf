@@ -1,0 +1,23 @@
+Package: drfit
+Version: 0.03-10
+Date: 2004-09-16
+Title: Dose-response data evaluation
+Author: Johannes Ranke <jranke@uni-bremen.de>
+Maintainer: Johannes Ranke <jranke@uni-bremen.de>
+Depends: R,stats,RODBC
+Description: drfit provides basic functions for accessing the
+	dose-response data of the UFT Bremen, Department of Bioorganic Chemistry,
+	fitting dose-response curves to this and similar data, calculating some
+	(eco)toxicological parameters and plotting the results. Functions that are
+	fitted are the cumulative densitiy function of the lognormal distribution,
+	of the logistic distribution and a linear-logistic model, derived from the
+	latter, which is used to describe data showing stimulation at low doses
+	(hormesis). The author would be delighted if anyone would join in this 
+	effort of creating useful and useable tools for dealing with dose-response
+	data from biological testing.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, 
+	http://www.uft.uni-bremen.de/chemie/ranke,
+	http://kriemhild.uft.uni-bremen.de/svn/drfit,
+	http://kriemhild.uft.uni-bremen.de/viewcvs/?root=drfit
+Packaged: Fri Nov 19 10:02:19 2004; ranke

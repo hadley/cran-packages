@@ -1,0 +1,16 @@
+Package: indicspecies
+Type: Package
+Title: Studying the statistical relationship between species and groups
+        of sites
+Version: 1.7.1
+Date: 2013-12-02
+Author: Miquel De Caceres, Florian Jansen
+Maintainer: Miquel De Caceres <miquelcaceres@gmail.com>
+Description: This package provides a set of functions to assess the strength and statistical significance of the relationship between species occurrence/abundance and groups of sites. It is also possible to check the statistical significance of such associations.
+Depends: permute
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-12-29 10:41:59 UTC; miquelcaceres
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-29 12:40:29

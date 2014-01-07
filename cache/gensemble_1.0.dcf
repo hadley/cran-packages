@@ -1,0 +1,14 @@
+Package: gensemble
+Type: Package
+Title: generalized ensemble methods
+Version: 1.0
+Date: 2013-01-25
+Author: Peter Werner, Eugene Dubossarsky
+Maintainer: Peter Werner <gensemble.r@gmail.com>
+Description: Generalized ensemble methods allowing arbitrary underlying
+        models to be used. Currently only bagging is supported.
+License: GPL-2
+Depends: methods
+Packaged: 2013-02-11 02:54:23 UTC; peterw
+Repository: CRAN
+Date/Publication: 2013-02-11 06:57:24

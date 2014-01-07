@@ -1,0 +1,20 @@
+Package: formula.tools
+Type: Package
+Title: Tools for working with formulas, expressions, calls and other R
+        objects
+Version: 0.20.0
+Date: 2010-02-23
+Author: Christopher Brown
+Maintainer: Christopher Brown <cbrown@opendatagroup.com>
+Description: This package provides a number of useful utilities for
+        working with formulas, expressions, calls, names, symbols and
+        other R objects.  This package was designed to greatly
+        facilitate symbolic manupulation using native R objects.
+Depends: R (>= 2.9.0), hash (>= 2.0.0), utils, methods
+License: LGPL (>= 2)
+URL: http://www.opendatagroup.com, http://blog.opendatagroup.com
+LazyLoad: yes
+LazyData: yes
+Packaged: 2010-05-03 07:20:09 UTC; cbrown
+Repository: CRAN
+Date/Publication: 2010-05-03 10:19:11

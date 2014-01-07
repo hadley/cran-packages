@@ -1,0 +1,17 @@
+Package: pbkrtest
+Version: 0.3-1
+Title: Parametric bootstrap and Kenward Roger based methods for mixed
+        model comparison
+Author: Ulrich Halekoh <ulrich.halekoh@agrsci.dk> Søren Højsgaard
+        <sorenh@mail.dk>
+Maintainer: Søren Højsgaard <sorenh@mail.dk>
+Description: Test in linear mixed effects models based on parametric
+        bootstrap approaches and Kenward-Roger modification of F-tests
+URL: http://people.math.aau.dk/~sorenh/software/pbkrtest/
+Depends: MASS,lme4,Matrix,gplots,parallel
+Encoding: latin1
+ZipData: no
+License: GPL (>= 2)
+Packaged: 2012-04-24 09:42:29 UTC; sorenh
+Repository: CRAN
+Date/Publication: 2012-04-24 11:10:11

@@ -1,0 +1,16 @@
+Package: iCluster
+Title: Integrative clustering of multiple genomic data types
+Version: 2.1.0
+Date: 2012-05-01
+Depends: R (>= 2.15.0), lattice, caTools, gdata, gtools, gplots,
+        parallel
+Author: Ronglai Shen
+Maintainer: Ronglai Shen <shenr@mskcc.org>
+Description: Integrative clustering of multiple genomic data types
+        using a joint latent variable model.
+LazyData: yes
+License: GPL (>= 2)
+biocViews: Integrated omic data, Bioinformatics
+Packaged: 2012-05-07 14:57:40 UTC; shenr
+Repository: CRAN
+Date/Publication: 2012-05-08 04:07:00

@@ -1,0 +1,9 @@
+Package: pgam
+Version: 0.3.2
+Date: 2004-02-17
+Author: Washington Junger <wjunger@ims.uerj.br>
+Maintainer: Washington Junger <wjunger@ims.uerj.br>
+Depends: modreg, R (>= 1.8.0)
+Title: Poisson-Gamma Additive Models.
+Description: This work is aimed at extending the Poisson-Gamma models towards a more general specification, where the linear predictor of covariates is replaced by an additive predictor of generic functions of these covariates. Just like the generalized additive models (GAM), the linear functions of covariates are a particular case of additive models and the natural cubic splines are used as smoothing functions. The semiparametric specification allows to enlarge the possibilities of application of these models. The semiparametric models are fitted by an iterative process that combines maximization of likelihood and backfitting algorithm.
+License: GPL version 2 or later

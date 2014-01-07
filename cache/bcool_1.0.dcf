@@ -1,0 +1,19 @@
+Package: bcool
+Type: Package
+Title: Bringing to light significant Columns correlated with Organism
+        Labels
+Version: 1.0
+Date: 2011-05-30
+Author: Hugo Naya, Lucia Spangenberg
+Maintainer: Hugo Naya <naya@pasteur.edu.uy>
+Description: This package provides a set of analytical tools that helps
+        searching for sites in an alignment, which might be associated
+        with the label of the organism (e.g. changes in columns that
+        can be associated with the pathogenicity character of an
+        organism)
+License: GPL
+LazyLoad: yes
+Depends: ape, seqinr, MCMCglmm, methods, doMPI
+Packaged: 2011-08-15 17:11:27 UTC; root
+Repository: CRAN
+Date/Publication: 2011-08-15 19:45:55

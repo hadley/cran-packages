@@ -1,0 +1,26 @@
+Encoding: UTF-8
+Package: TripleR
+Type: Package
+Title: Social Relation Model (SRM) analyses for single or multiple
+        round-robin groups
+Version: 1.2.1
+Date: 2013-10-02
+Author: F. D. Schönbrodt, M. D. Back, S. C. Schmukle
+Maintainer: Felix Schönbrodt <felix.schoenbrodt@psy.lmu.de>
+Depends: reshape, plyr
+Suggests: lme4, ggplot2 (>= 0.9.3)
+Description: Social Relation Model (SRM) analyses for single or multiple
+    round-robin groups are performed. These analyses are either based on one
+    manifest variable, one latent construct measured by two manifest variables,
+    two manifest variables and their bivariate relations, or two latent
+    constructs each measured by two manifest variables. Within-group t-tests
+    for variance components and covariances are provided for single groups,
+    between-groups t-tests for multiple groups. Handling for missing values is
+    provided.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'RR.r' 'parCor.r' 'selfCor.r'
+Packaged: 2013-10-02 11:09:51 UTC; Felix
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-02 13:22:25

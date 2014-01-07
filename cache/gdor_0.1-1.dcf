@@ -1,0 +1,15 @@
+Package: gdor
+Version: 0.1-1
+Date: 2012-08-08
+Title: Generic Directions of Recession
+Author: Daniel J. Eck <eckxx049@umn.edu>, Charles J. Geyer
+        <charlie@stat.umn.edu>
+Maintainer: Daniel J. Eck <eckxx049@umn.edu>
+Depends: R (>= 2.6.0), rcdd
+Description: Provides anova and summary tables for poisson and logistic
+        regression when the MLE does not exist in the usual sense.
+License: X11
+Packaged: 2012-12-05 18:29:56 UTC; eckxx049
+URL: http://www.stat.umn.edu/geyer/gdor/, http://www.r-project.org
+Repository: CRAN
+Date/Publication: 2012-12-05 20:31:04

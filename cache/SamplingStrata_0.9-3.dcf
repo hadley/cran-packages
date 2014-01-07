@@ -1,0 +1,41 @@
+Package: SamplingStrata
+Type: Package
+Title: Optimal stratification of sampling frames for multipurpose
+        sampling surveys
+Version: 0.9-3
+Date: 2012-1-31
+Author: Giulio Barcaroli
+Maintainer: Giulio Barcaroli <barcarol@istat.it>
+Description: In the field of sampling design (in particular for
+        stratified sampling), this package offers an approach for the
+        determination of the best stratification of a sampling frame,
+        the one that ensures the minimum sample size under the
+        condition to satisfy precision constraints in a multivariate
+        and multidomain case.  This approach is based on the use of the
+        genetic algorithm: each solution (i.e. a particular partition
+        in strata of the sampling frame) is considered as an individual
+        in a population; the fitness of all individuals is evaluated by
+        calculating (using the Bethel-Chromy algorithm) the sampling
+        size satisfying accuracy constraints on the target estimates.
+        Functions in the package allows to: (a) analyse the obtained
+        results of the optimisation step; (b) assign the new strata
+        labels to the sampling frame; (c) select a sample from the new
+        frame accordingly to the best allocation.  There is also a
+        function that allows to build the most important input to the
+        optimisation step, i.e. the "strata" dataframe, containing
+        information (means and standard errors) regarding the
+        distributions of the target variables in the different strata,
+        using the sampling frame or using data from previous rounds of
+        the same survey.  As auxiliary variables that concur to the
+        stratification can be only of the categorical type, the package
+        offers a function ("var.bin") that allows to transform
+        continuous variables into categorical ordinal ones by applying
+        a k-means univariate clustering method.  Functions for the
+        execution of the genetic algorithm are a modified version of
+        the functions in the "genalg" package.
+License: GPL
+LazyLoad: yes
+Depends: R (>= 2.10.0)
+Packaged: 2012-05-23 09:32:30 UTC; barcarol
+Repository: CRAN
+Date/Publication: 2012-05-23 16:21:03

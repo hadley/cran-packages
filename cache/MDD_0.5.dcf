@@ -1,0 +1,11 @@
+Package: MDD
+Type: Package
+Title: Minimum Detectable Difference Calculations
+Version: 0.5
+Date: 2008-06-20
+Author: Don Barkauskas
+Maintainer: Don Barkauskas <barkda@wald.ucdavis.edu>
+Depends: partitions,tcltk
+Description: Calculates minimum detectable difference for several continuous and binary endpoints.  Also contains programs to compare the MDD to the clinically significant difference for most of the same tests.
+License: GPL-2 
+Packaged: Fri Jun 20 22:03:59 2008; Don

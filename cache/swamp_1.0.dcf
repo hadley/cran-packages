@@ -1,0 +1,21 @@
+Package: swamp
+Type: Package
+Title: Analysis and visualization of high-dimensional data in respect
+        to sample annotations.
+Version: 1.0
+Depends: impute, amap, gplots
+Author: Martin Lauss
+Maintainer: Martin Lauss <martin.lauss@med.lu.se>
+Description: The package contains functions to connect the structure of
+        the data with the information on the samples. Three types of
+        associations are covered: 1. linear model of principal
+        components. 2. hierarchical clustering analysis. 3.
+        distribution of features-sample annotation associations.
+        Additionally, the inter-relation between sample annotations can
+        be analyzed. Simple methods are provided for the correction of
+        batch effects and removal of principal components.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-01-26 10:22:21 UTC; Martin
+Repository: CRAN
+Date/Publication: 2011-01-28 12:10:16

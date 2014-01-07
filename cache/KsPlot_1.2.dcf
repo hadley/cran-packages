@@ -1,0 +1,16 @@
+Package: KsPlot
+Type: Package
+Title: Check the power of seveal statistical models.
+Version: 1.2
+Date: 2011-09-19
+Author: Issei Kurahashi
+Maintainer: Issei Kurahashi <i.kurahashi@gmail.com>
+Depends: e1071, caret, nnet, MASS, caTools, mda, glmnet, randomForest,
+        mvpart
+Description: Check the power of a statistical model moving sample size
+        k.
+License: GNU General Public License Version 2
+LazyLoad: yes
+Packaged: 2011-09-20 23:25:04 UTC; isseing333
+Repository: CRAN
+Date/Publication: 2011-09-20 08:39:25

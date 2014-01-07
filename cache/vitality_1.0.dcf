@@ -1,0 +1,19 @@
+Package: vitality
+Type: Package
+Title: vitality: Fitting routines for the Vitality family of mortality
+        models
+Version: 1.0
+Date: 2013-02-11
+Author: Gregor Passolt, James J. Anderson, Ting Li, David H. Salinger
+Maintainer: Gregor Passolt <gregor.passolt@gmail.com>
+Depends: stats
+Imports: IMIS
+Description: Provides fitting routines for several models in the
+        Vitality family of mortality models.
+License: GPL (>= 2)
+Collate: 'dataPrep.R' 'vitality.2ps.R' 'vitality.utils.R'
+        'data_documentation.R' 'density.R' 'mortality_rate.R'
+        'package_documentation.R'
+Packaged: 2013-02-11 10:12:44 UTC; grego_000
+Repository: CRAN
+Date/Publication: 2013-02-11 11:22:01

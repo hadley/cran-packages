@@ -1,0 +1,24 @@
+Package: PBSmodelling
+Version: 1.50
+Date: 2007-06-26
+Title: PBS Modelling
+Author: Jon T. Schnute <SchnuteJ@pac.dfo-mpo.gc.ca>,
+  Alex Couture-Beil <alex@mofo.ca>, and
+  Rowan Haigh <HaighR@pac.dfo-mpo.gc.ca>
+Maintainer: Jon Schnute <SchnuteJ@pac.dfo-mpo.gc.ca>
+Depends: R (>= 2.3.0)
+Suggests: PBSmapping, odesolve, BRugs
+Description: PBS Modelling provides software to facilitate the design,
+  testing, and operation of computer models. It focuses particularly on
+  tools that make it easy to construct and edit a customized graphical
+  user interface (GUI). Although it depends heavily on the R interface
+  to the Tcl/Tk package, a user does not need to know Tcl/Tk. The
+  package contains examples that illustrate models built with other R
+  packages, including PBS Mapping, odesolve, ddesolvem, and BRugs. 
+  It also serves as a convenient prototype for building new R packages, 
+  along with instructions and batch files to facilitate that process. 
+  The root library directory of PBSmodelling includes a complete user guide
+  PBSmodelling-UG.pdf. To use this package effectively, please consult
+  the guide.
+License: GPL version 2 or newer
+Packaged: Tue Jun 26 12:32:59 2007; haighr

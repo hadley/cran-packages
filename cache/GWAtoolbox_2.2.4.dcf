@@ -1,0 +1,18 @@
+Package: GWAtoolbox
+Version: 2.2.4
+Date: 2013-12-05
+Title: GWAS Quality Control
+Author: Daniel Taliun <Daniel.Taliun@eurac.edu>, Christian Fuchsberger
+        <cfuchsb@umich.edu>, Cristian Pattaro
+        <Cristian.Pattaro@eurac.edu>
+Maintainer: Daniel Taliun <Daniel.Taliun@eurac.edu>
+Description: Controls for duplicated IDs, distribution of betas, SEs,
+        etc.
+Depends: R (>= 2.15.0)
+Suggests: parallel
+SystemRequirements: GNU make
+License: GPL (>= 3)
+Packaged: 2013-12-05 09:00:09 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-05 10:00:50

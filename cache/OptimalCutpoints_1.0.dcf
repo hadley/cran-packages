@@ -1,0 +1,19 @@
+Package: OptimalCutpoints
+Type: Package
+Title: Computing optimal cutpoints in diagnostic tests
+Version: 1.0
+Date: 2012-02-03
+Author: Monica Lopez-Raton, Maria Xose Rodriguez-Alvarez
+Maintainer: Monica Lopez Raton <monica.lopez.raton@usc.es>
+Description: This package enables users to compute one or more optimal
+        cutpoints for diagnostic tests or continuous markers. Various
+        approaches for selecting optimal cutoffs have been implemented,
+        including methods based on cost-benefit analysis and diagnostic
+        test accuracy measures (Sensitivity/Specificity, Predictive
+        Values and Diagnostic Likelihood Ratios). Numerical and
+        graphical output for all methods is easily obtained.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-05-24 08:51:24 UTC; Admin
+Repository: CRAN
+Date/Publication: 2012-05-25 11:01:11

@@ -1,0 +1,17 @@
+Package: ttime
+Type: Package
+Title: Translate Neurodevelopmental Event Timing Across Species
+Version: 1.0
+Date: 2010-01-18
+Author: Radhakrishnan Nagarajan
+Maintainer: Radhakrishnan Nagarajan <rngarajan@uams.edu>
+Description: Translate neurodevelopmental event timing across species.
+        Predict unknown event timings and investigate phylogenetic
+        proximity by hiearchical clustering of the known and predicted
+        event timings.
+License: GPL-2
+Depends: R (>= 2.10.1), pvclust
+LazyLoad: yes
+Packaged: 2010-02-18 16:48:34 UTC; NagarajanRadhakrish
+Repository: CRAN
+Date/Publication: 2010-02-18 19:35:54

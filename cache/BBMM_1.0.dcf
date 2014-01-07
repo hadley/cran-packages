@@ -1,0 +1,17 @@
+Package: BBMM
+Type: Package
+Title: This package fits a Brownian bridge movement model to observed
+        locations in space and time.
+Version: 1.0
+Date: 2010-05-01
+Author: Ryan Nielson, Hall Sawyer, and Trent McDonald
+        (www.west-inc.com)
+Maintainer: Ryan Nielson <rnielson@west-inc.com>
+Description: The model provides an empirical estimate of the movement
+        path of an animal using discrete location data obtained at
+        relatively short time intervals.
+License: GNU General Public License
+LazyLoad: yes
+Packaged: 2010-05-07 14:06:35 UTC; rnielson
+Repository: CRAN
+Date/Publication: 2010-05-07 14:15:54

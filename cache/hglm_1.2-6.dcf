@@ -1,0 +1,21 @@
+Package: hglm
+Type: Package
+Title: Hierarchical Generalized Linear Models
+Version: 1.2-6
+Date: 2013-03-08
+Author: Moudud Alam, Xia Shen, Lars Ronnegard
+Maintainer: Lars Ronnegard <lrn@du.se>
+Description: The hglm package is used to fit hierarchical generalized
+        linear models. It can be used for linear mixed models and
+        generalized linear mixed models with random effects for a
+        variety of links and a variety of distributions for both the
+        outcomes and the random effects. Fixed effects can also be
+        fitted in the dispersion part of the mean model.
+BugReports: https://r-forge.r-project.org/tracker/?group_id=558
+License: GPL
+LazyLoad: yes
+Depends: Matrix, MASS, dglm
+Packaged: 2013-03-11 14:14:17 UTC; xia
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-11 16:56:00

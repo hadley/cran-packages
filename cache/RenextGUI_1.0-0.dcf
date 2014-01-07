@@ -1,0 +1,16 @@
+Package: RenextGUI
+Type: Package
+Title: GUI for Renext
+Version: 1.0-0
+Date: 2012-03-22
+Author: Yves Deville <deville.yves@alpestat.com> and IRSN
+        <renext@irsn.fr>
+Maintainer: IRSN <renext@irsn.fr>
+Description: Graphical User Interface for Renext.
+Depends: gWidgets, gWidgetstcltk(>= 0.0-44), Renext(>= 1.5-0)
+Suggests: R2HTML
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-03-22 12:55:04 UTC; yves
+Repository: CRAN
+Date/Publication: 2012-03-23 09:42:23

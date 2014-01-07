@@ -1,0 +1,13 @@
+Package: pcurve
+Version: 0.6-1
+Date: 2004/11/01
+Title: Principal Curve analysis
+Author: S original by Trevor Hastie <hastie@stat.stanford.edu>
+  S+ library by Glenn De'ath <g.death@aims.gov.au>
+  R port by Chris Walsh <Chris.Walsh@sci.monash.edu.au>
+Depends: R(>= 1.9.0), mgcv, vegan, MASS, stats
+Description: Fits a principal curve to a numeric multivariate 
+  dataset in arbitrary dimensions. Produces diagnostic plots.
+Maintainer: Chris Walsh <Chris.Walsh@sci.monash.edu.au>
+License: GPL
+Packaged: Mon Nov  1 21:35:53 2004; root

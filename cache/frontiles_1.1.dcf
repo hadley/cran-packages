@@ -1,0 +1,19 @@
+Package: frontiles
+Type: Package
+Title: Partial frontier efficiency analysis
+Encoding: latin1
+Version: 1.1
+Date: 2012-07-16
+Author: Abdelaati Daouia, Thibault Laurent
+Maintainer: <thibault.laurent@univ-tlse1.fr>
+Depends: R (>= 2.8.1), classInt, colorspace, methods, rgl, sp
+Suggests: ggplot2
+Description: It calculates the alpha-quantile and order-m efficiency
+        score in multi-dimension and computes several summaries and
+        representation of the associated frontiers in 2d and 3d.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: alphascore.r ordermscore.r ROCscore.r alphafrontier.2d.r
+Packaged: 2012-07-16 17:43:45 UTC; laurent
+Repository: CRAN
+Date/Publication: 2012-07-17 08:26:00

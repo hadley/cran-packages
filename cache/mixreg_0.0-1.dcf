@@ -1,0 +1,12 @@
+Package: mixreg
+Version: 0.0-1
+Date: 2004-03-17
+Title: Functions to fit mixtures of regressions.
+Author: Rolf Turner <rolf@math.unb.ca>
+Maintainer: Rolf Turner <rolf@math.unb.ca>
+Depends: R (>= 0.99)
+Description: Fits mixtures of one-variable regressions (which has
+	been described as doing ANCOVA when you don't know the levels).
+License: GPL version 2 or newer
+URL: http://www.math.unb.ca/~rolf/
+Packaged: Sat May 22 10:55:52 2004; rolf

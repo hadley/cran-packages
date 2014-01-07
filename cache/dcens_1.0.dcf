@@ -1,0 +1,18 @@
+Package: dcens
+Type: Package
+Title: Doubly censoring estimation
+Version: 1.0
+Date: 2011-07-31
+Author: O. Julià, G. Gómez, C. Serrat and J. Cortés
+Maintainer: Carles Serrat <carles.serrat@upc.edu> and Jorge Cortés
+        <jcortes@iconcologia.net>
+Description: This R package implements the doubly censoring estimation
+        methodology described at 'Simultaneous marginal survival
+        estimators when doubly censored data is present' (O. Julià and
+        G. Gómez, 2011).
+License: GPL (>= 2)
+Repository: CRAN
+LazyLoad: yes
+Encoding: latin1
+Packaged: 2011-08-16 17:10:22 UTC; Usuario
+Date/Publication: 2011-08-17 05:30:16

@@ -1,0 +1,36 @@
+Package: bigGP
+Version: 0.1-2
+Date: 2013-05-31
+Title: Distributed Gaussian process calculations
+Authors@R: c(person("Christopher", "Paciorek", email =
+        "paciorek@stat.berkeley.edu", role = c("aut", "cre")),
+        person("Benjamin", "Lipshitz", role = c("aut")), person(family
+        = "Prabhat", role = c("ctb")), person("Cari", "Kaufman", role =
+        c("ctb")), person("Tina", "Zhuo", role = c("ctb")),
+        person("Rollin", "Thomas", role = c("ctb")))
+Depends: R (>= 3.0.0), Rmpi (>= 0.6-2), methods
+Suggests: rlecuyer, rsprng, fields
+LazyData: Yes
+Description: bigGP distributes Gaussian process calculations across
+        nodes in a distributed memory setting, using Rmpi. The class
+        provides high-level methods for maximum likelihood with normal
+        data, prediction, calculation of uncertainty (i.e., posterior
+        covariance calculations), and simulation of realizations. In
+        addition, bigGP provides an API for basic matrix calculations
+        with distributed covariance matrices, including Cholesky
+        decomposition, back/forwardsolve, crossproduct, and matrix
+        multiplication.
+SystemRequirements: OpenMPI or MPICH2
+OS_type: unix
+License: GPL (>= 2)
+URL: http://www.stat.berkeley.edu/~paciorek/code/bigGP
+Collate: 'auxil.R' 'bigGP.R' 'collectDistribute.R'
+        'distributedComputation.R' 'krigeProblem.R'
+Packaged: 2013-06-02 19:15:34 UTC; paciorek
+Author: Christopher Paciorek [aut, cre], Benjamin Lipshitz [aut],
+        Prabhat [ctb], Cari Kaufman [ctb], Tina Zhuo [ctb], Rollin
+        Thomas [ctb]
+Maintainer: Christopher Paciorek <paciorek@stat.berkeley.edu>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-04 16:01:13

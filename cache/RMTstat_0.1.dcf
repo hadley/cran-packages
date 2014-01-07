@@ -1,0 +1,25 @@
+Package: RMTstat
+Version: 0.1
+Date: 2009-04-15
+Title: Distributions and Statistics from Random Matrix Theory
+Author: Patrick O. Perry <patperry@gmail.com>, with contributions from
+        Iain M. Johnstone, Zongming Ma, and Morteza Shahram.
+Maintainer: Patrick O. Perry <patperry@gmail.com>
+Description: Functions for working with the Tracy-Widom laws and other
+        distributions related to the eigenvalues of large Wishart
+        matrices.
+ .
+ The tables for computing the Tracy-Widom densities and distribution
+        functions were computed by Momar Dieng's MATLAB package
+        "RMLab", which is available on his homepage at
+        http://math.arizona.edu/~momar/research.htm
+ .
+ This package is part of a collaboration between Iain Johnstone,
+        Zongming Ma, Patrick Perry, and Morteza Shahram.  It will soon
+        be replaced by a package with more accuracy and built-in
+        support for relevant statistical tests.
+License: BSD
+Encoding: UTF-8
+Packaged: 2009-04-17 07:24:42 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-04-17 07:29:24

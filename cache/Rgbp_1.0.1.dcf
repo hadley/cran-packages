@@ -1,0 +1,15 @@
+Package: Rgbp
+Version: 1.0.1
+Date: 2013-08-19
+Title: Gaussian, Poisson, and Binomial Hierarchical Modeling
+Author: Joseph Kelly, Hyungsuk Tak, and Carl Morris
+Maintainer: Joseph Kelly <kelly2@fas.harvard.edu>
+Depends: R (>= 2.2.0), sn (>= 0.4-18)
+Suggests: mnormt
+Description: Rgbp is an R package that utilizes approximate Bayesian machinery to provide a method of estimating two-level hierarchical models for Gaussian, Poisson, and Binomial data in a fast and computationally efficient manner. The main products of this package are point and interval estimates for the true parameters, whose good frequency properties can be validated via its repeated sampling procedure called frequency method checking. It is found that such Bayesian-frequentist reconciliation allows Rgbp to have attributes desirable both sides of the aisle, working well in small samples and yielding good coverage probabilities for its interval estimates.
+License: GPL-2
+BugReports: https://github.com/jyklly/Rgbp/issues
+Packaged: 2013-09-11 18:35:32 UTC; joey
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-11 20:46:38

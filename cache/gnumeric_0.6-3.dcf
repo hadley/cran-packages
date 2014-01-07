@@ -1,0 +1,19 @@
+Package: gnumeric
+Version: 0.6-3
+Date: 2011-03-21
+Title: Read data from files readable by gnumeric
+Author: Karoly Antal <antalk2@gmail.com>.
+Maintainer: Karoly Antal <antalk2@gmail.com>
+Depends: R (>= 2.8.1), XML
+Description: Read data files readable by gnumeric into R. Can read
+        whole sheet or a range, from several file formats, including
+        the native format of gnumeric. Reading is done by using
+        ssconvert (a file converter utility included in the gnumeric
+        distribution http://projects.gnome.org/gnumeric/) to convert
+        the requested part to CSV. From gnumeric files (but not other
+        formats) can list sheet names and sheet sizes or read all
+        sheets.
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2011-03-21 14:00:52
+Packaged: 2011-03-21 08:46:18 UTC; antalk

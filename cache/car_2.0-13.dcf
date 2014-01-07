@@ -1,0 +1,40 @@
+Package: car
+Version: 2.0-13
+Date: 2012/08/20
+Title: Companion to Applied Regression
+Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email =
+        "jfox@mcmaster.ca"), person("Sanford", "Weisberg", role =
+        "aut", email = "sandy@umn.edu"), person("Douglas", "Bates",
+        role = "ctb"), person("David", "Firth", role = "ctb"),
+        person("Michael", "Friendly", role = "ctb"), person("Gregor",
+        "Gorjanc", role = "ctb"), person("Spencer", "Graves", role =
+        "ctb"), person("Richard", "Heiberger", role = "ctb"),
+        person("Rafael", "Laboissiere", role = "ctb"),
+        person("Georges", "Monette", role = "ctb"), person("Henric",
+        "Nilsson", role = "ctb"), person("Derek", "Ogle", role =
+        "ctb"), person("Brian", "Ripley", role = "ctb"),
+        person("Achim", "Zeileis", role = "ctb"))
+Depends: R (>= 2.14.0), stats, graphics, MASS, nnet
+Suggests: alr3, leaps, lme4, lmtest, nlme, sandwich, mgcv, pbkrtest,
+        rgl, survival, survey, boot
+ByteCompile: yes
+LazyLoad: yes
+LazyData: yes
+Description: This package accompanies J. Fox and S. Weisberg, An R
+        Companion to Applied Regression, Second Edition, Sage, 2011.
+License: GPL (>= 2)
+URL: https://r-forge.r-project.org/projects/car/,
+        http://CRAN.R-project.org/package=car,
+        http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html
+Author: John Fox [aut, cre], Sanford Weisberg [aut], Douglas Bates
+        [ctb], David Firth [ctb], Michael Friendly [ctb], Gregor
+        Gorjanc [ctb], Spencer Graves [ctb], Richard Heiberger [ctb],
+        Rafael Laboissiere [ctb], Georges Monette [ctb], Henric Nilsson
+        [ctb], Derek Ogle [ctb], Brian Ripley [ctb], Achim Zeileis
+        [ctb]
+Maintainer: John Fox <jfox@mcmaster.ca>
+Repository: CRAN
+Repository/R-Forge/Project: car
+Repository/R-Forge/Revision: 274
+Packaged: 2012-08-28 06:19:27 UTC; rforge
+Date/Publication: 2012-08-28 16:13:23

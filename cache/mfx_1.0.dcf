@@ -1,0 +1,14 @@
+Package: mfx
+Type: Package
+Title: Marginal Effects for GLMs
+Version: 1.0
+Date: 2013-12-12
+Author: Alan Fernihough
+Maintainer: Alan Fernihough <alan.fernihough@gmail.com>
+Description: Estimates probit, logit, Poisson, and negative binomial regression models, returning their marginal effects as an output.
+License: GPL-2 | GPL-3
+Depends: stats, sandwich, lmtest, MASS
+Packaged: 2013-12-13 09:18:51 UTC; Alan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-13 10:44:07

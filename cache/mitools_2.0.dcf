@@ -1,0 +1,9 @@
+Package: mitools
+Title: Tools for multiple imputation of missing data
+Version: 2.0
+Author: Thomas Lumley
+Description: Tools to perform analyses and combine results from multiple-imputation datasets.
+Maintainer: Thomas Lumley <tlumley@u.washington.edu>
+Suggests: RODBC, DBI
+License: GPL 2
+Packaged: Tue Oct 28 14:26:49 2008; tlumley

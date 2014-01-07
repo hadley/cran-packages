@@ -1,0 +1,12 @@
+Package: dlmap
+Type: Package
+Title: Detection Localization Mapping for QTL 
+Version: 1.0
+Date: 2008-11-11
+Author: Emma Huang and Andrew George
+Maintainer: Emma Huang <Emma.Huang@csiro.au>
+Description: 
+License: GPL 2
+Depends: qtl, ibdreg
+Suggests: nlme, asreml
+Packaged: Fri Nov 14 20:15:01 2008; hua032

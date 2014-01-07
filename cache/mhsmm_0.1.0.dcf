@@ -1,0 +1,12 @@
+Package: mhsmm
+Type: Package
+Title: Parameter estimation and prediction for multiple hidden Markov and semi-Markov models
+Version: 0.1.0
+Date: 2009-01-21
+Author: Jared O'Connell <jared@graduate.uwa.edu.au> with minor contributions from Soren Hojsgaard <sorenh@agrsci.dk> 
+Maintainer: Soren Hojsgaard <sorenh@agrsci.dk> 
+Description: Parameter estimation and prediction for multiple hidden Markov and semi-Markov models. The times must be equidistant but missing values of the observables are allowed. The observables are allowed to be multivariate. It is possible to have multiple sequences of data. Estimation of the parameters of the models are made using EM--algorithms. Crucial parts of the code is written in C which makes estimation fast. Finally, the package is made so that the user is allow to specify own components of the model.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: mvtnorm
+Packaged: Mon Mar  2 09:23:09 2009; SHD

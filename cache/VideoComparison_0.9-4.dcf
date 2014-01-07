@@ -1,0 +1,23 @@
+Package: VideoComparison
+Version: 0.9-4
+Date: 2013-12-09
+Title: Video comparison tool
+Author: Silvia Espinosa, Joaquin Ordieres, Antonio Bello, Jose Maria Perez
+Maintainer: Joaquin Ordieres <j.ordieres@upm.es>
+Depends: R (>= 2.15.2), RJSONIO, RCurl, zoo, stats, pracma, Rcpp (>=
+        0.10.3)
+LinkingTo: Rcpp
+Suggests: MASS
+Description: It will take the vectors of motion for two videos
+	(coming from a variant of shotdetect code allowing to store
+	detailed motion vectors in json format, for instance) and it
+	will look for comparing taking out the common chunk.
+	Then, provided you have some image's hashes it will compare
+	their signature in order to make up the decision about
+	chunk similarity of two video files.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2013-12-09 08:58:34 UTC; jmperez
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-10 13:41:44

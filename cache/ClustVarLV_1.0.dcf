@@ -1,0 +1,18 @@
+Package: ClustVarLV
+Type: Package
+Title: Clustering of variables around Latent Variables
+Version: 1.0
+Date: 2013-10-29
+Author: Evelyne Vigneau, Mingkun Chen
+Maintainer: Evelyne Vigneau <evelyne.vigneau@oniris-nantes.fr>
+Description: This package provides a set of function that allows us to cluster a set of variables
+ around Latent Variables. Each group is associated with a latent variable.
+ External variables measured on the same observations or/and additional information on the
+ variables can be taken into account.
+License: GPL (>= 2.0)
+Depends: Rcpp (>= 0.9.13)
+LinkingTo: Rcpp
+Packaged: 2013-10-31 14:57:55 UTC; mingkun.chen
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-31 16:31:41

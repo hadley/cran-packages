@@ -1,0 +1,28 @@
+Package: NPCD
+Type: Package
+Version: 1.0-0
+Date: 2012-12-21
+Title: Nonparametric Methods for Cognitive Diagnostic Models
+Authors@R: c(person("Yi", "Zheng", role = c("aut", "cre"), email =
+        "yizheng1@illinois.edu"), person("Chia-Yi", "Chiu", role =
+        "aut"))
+Author: Yi Zheng (U of Illinois at Urbana-Champaign) and Chia-Yi Chiu
+        (Rutgers, the State U of New Jersey), with contributions from
+        Jeffrey A. Douglas (U of Illinois at Urbana-Champaign)
+Maintainer: Yi Zheng <yizheng1@illinois.edu>
+Description: This package performs an array of nonparametric estimation
+        methods for cognitive diagnostic models, including
+        nonparametric estimation of examinee attribute profiles, joint
+        maximum likelihood estimation of examinee attribute profiles
+        and item parameters, and nonparametric refinement of the
+        Q-matrix, as well as parametric algorithms such as maximum
+        likelihood estimation of examinee attribute profiles given item
+        parameters and maximum likelihood estimation of item parameters
+        given examinee attribute profiles.
+Depends: R (>= 2.14.2), BB, R.oo
+LazyLoad: yes
+LazyData: yes
+License: LGPL (>= 2.1)
+Repository: CRAN
+Packaged: 2012-12-22 00:59:09 UTC; Isabelle
+Date/Publication: 2012-12-22 07:39:43

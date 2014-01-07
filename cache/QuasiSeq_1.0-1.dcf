@@ -1,0 +1,19 @@
+Package: QuasiSeq
+Version: 1.0-1
+Date: 2012-04-14
+Title: QuasiSeq
+Author: Steve Lund <lunds@iastate.edu>
+Maintainer: Steve Lund <lunds@iastate.edu>
+Depends: R (>= 2.14.1), fields
+Imports: edgeR
+Suggests: MASS
+Description: This package is used to apply the QL, QLShrink and
+        QLSpline methods (Lund, Nettleton, McCarthy, and Smyth, 2012)
+        to quasi-Poisson or quasi-negative binomial models for
+        identifying differentially expressed genes in RNA-seq data.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+BugReports: http://abc.bugtracker.url
+Packaged: 2012-04-14 21:47:49 UTC; spl
+Repository: CRAN
+Date/Publication: 2012-04-15 17:23:23

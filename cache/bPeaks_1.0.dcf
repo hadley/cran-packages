@@ -1,0 +1,20 @@
+Package: bPeaks
+Type: Package
+Title: bPeaks: a simple and intuitive approach for detection of basic
+        peaks (bPeaks) from ChIP-seq data
+Version: 1.0
+Date: 2013-04-02
+Author: Jawad MERHEJ and Gaelle LELANDAIS
+Maintainer: Gaelle LELANDAIS <gaelle.lelandais@univ-paris-diderot.fr>
+Description: bPeaks is a simple approach to identify transcription
+        factor binding sites from ChIP-seq data. Our general philosophy
+        is to provide an easy-to-use tool. Instead of complex
+        statistical models, bPeaks uses a combination of 4 cutoffs to
+        mimic "good peak" properties as described by biologists who
+        visually inspect the ChIP-seq data on a genome browser.
+License: GPL
+Packaged: 2013-04-02 09:47:15 UTC; lelandais
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-02 15:04:13

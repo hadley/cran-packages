@@ -1,0 +1,16 @@
+Package: gamlss.nl
+Type: Package
+Title: A GAMLSS add on package for fitting non linear parametric models
+Version: 1.2-0
+Date: 2005-05-31
+Author: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>, Bob Rigby <r.rigby@londonmet.ac.uk> with
+        contributions from Philippe Lambert.
+Maintainer: Mikis Stasinopoulos <d.stasinopoulos@londonmet.ac.uk>
+LazyLoad: yes
+Depends: R (>= 2.2.1), gamlss
+Description: The main purpose of this package is to allow one extra method for fitting
+             GAMLSS models. The main function nlgamlss() can fit any parametric
+            (up to four parameter) GAMLSS distribution.
+License: GPL (version 2 or later) See file LICENCE
+URL: http://www.londonmet.ac.uk/gamlss/
+Packaged: Fri Jun  2 08:17:57 2006; Mikis

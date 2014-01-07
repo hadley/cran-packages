@@ -1,0 +1,16 @@
+Package: RiDMC
+Type: Package
+Title: R interface to the idmclib library
+Version: 0.10-12
+Date: 2011-03-28
+Author: Antonio, Fabio Di Narzo
+Maintainer: Antonio Fabio Di Narzo <antonio.fabio@gmail.com>
+Depends: grid
+Suggests: tcltk
+Description: R interface to the idmclib library
+License: GPL-2
+SystemRequirements: Gnu Scientific Library version >= 1.12, lua version
+        >= 5.1.4
+Packaged: 2011-03-28 08:58:30 UTC; ubuntu
+Repository: CRAN
+Date/Publication: 2011-03-28 14:28:13

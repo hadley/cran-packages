@@ -1,0 +1,15 @@
+Package: Interact
+Type: Package
+Title: Tests for marginal interactions in a 2 class response model
+Version: 1.0
+Date: 2012-06-29
+Author: Noah Simon and Robert Tibshirani
+Maintainer: Noah Simon <nsimon@stanford.edu>
+Description: This package searches for marginal interactions in a
+        binary response model. Interact uses permutation methods to
+        estimate false discovery rates for these marginal interactions
+        and has some, limited visualization capabilities
+License: GPL-3
+Packaged: 2012-08-13 23:17:29 UTC; nsimon
+Repository: CRAN
+Date/Publication: 2012-08-14 07:46:53

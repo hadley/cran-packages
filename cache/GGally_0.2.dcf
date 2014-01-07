@@ -1,0 +1,18 @@
+Package: GGally
+Type: Package
+Title: Extension to ggplot2.
+Version: 0.2
+Date: 2010-6-1
+Author: Barret Schloerke <bigbear@iastate.edu>, Di Cook
+        <dicook@iastate.edu>, Heike Hofmann <hofmann@iastate.edu>, and
+        Hadley Wickham <h.wickham@iastate.edu>
+Maintainer: Barret Schloerke <bigbear@iastate.edu>
+Description: Package contains templates for different plots to be
+        combined into a plot matrix.
+Depends: ggplot2
+License: GPL (>= 2.0)
+LazyLoad: yes
+Collate: 'find-combo.r' 'gg-plots.r' 'ggpairs.r'
+Packaged: 2010-06-01 20:21:10 UTC; barret
+Repository: CRAN
+Date/Publication: 2010-06-02 08:01:16

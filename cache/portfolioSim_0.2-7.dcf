@@ -1,0 +1,17 @@
+Package: portfolioSim
+Title: Framework for simulating equity portfolio strategies
+Version: 0.2-7
+Date: 2013-07-08
+Author: Jeff Enos <jeff@kanecap.com> and David Kane <dave@kanecap.com>,
+        with contributions from Kyle Campbell
+        <Kyle.W.Campbell@williams.edu>
+Description: Classes that serve as a framework for designing equity
+        portfolio simulations.
+Maintainer: Daniel Gerlanc <dgerlanc@enplusadvisors.com>
+Depends: R (>= 2.10), methods, lattice, portfolio (>= 0.4.0)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-07-08 17:41:50 UTC; daniel
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-09 08:14:47

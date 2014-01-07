@@ -1,0 +1,20 @@
+Package: TSxls
+Version: 2011.11-1
+Title: Time Series Database Interface extension to connect to
+        spreadsheets
+Description: Provides TSdbi package methods to retrieve time series data from
+	spreadsheets, pretending the spreadsheet is a database.
+Depends: R (>= 2.8.0), methods, DBI, TSdbi (>= 2011.11-1), tframe,
+        tframePlus, gdata, zoo
+Imports: methods, DBI, TSdbi (>= 2011.6-1)
+Enhances: TSdbi
+BuildVignettes: false
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 282
+Date/Publication: 2011-11-02 17:17:22
+Packaged: 2011-10-29 20:55:16 UTC; rforge

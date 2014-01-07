@@ -1,0 +1,17 @@
+Package: popPK
+Version: 1.02
+Date: 2011/01/17
+Title: Summary of Population Pharmacokinetic Analysis
+Author: Christoffer W. Tornoe <ctornoe@gmail.com> & Fang Li
+        <Fang.Li@fda.hhs.gov>
+Maintainer: FDA Pharmacometrics <pharmacometrics@fda.hhs.gov>
+Depends: R (>= 2.10.0), Hmisc, lattice, grid, xpose4
+Suggests: R2wd
+Description: This package uses xpose4 to create standard graphs and
+        tables for NONMEM runs.
+License: GPL (>= 2)
+LazyLoad: Yes
+URL: http://www.cran.r-project.org
+Packaged: 2011-01-18 06:39:10 UTC; Owner
+Repository: CRAN
+Date/Publication: 2011-02-11 08:49:12

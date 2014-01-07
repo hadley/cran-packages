@@ -1,0 +1,16 @@
+Package: epade
+Type: Package
+Title: Easy Plots
+Version: 0.2.2
+Date: 2011-08-15
+Depends: plotrix, R (>= 2.13)
+Suggests: survival
+Author: ADES
+Maintainer: ADES <ades-s@web.de>
+Description: A collection of nice plotting functions directly from a
+        data.frame with limited customisation possibilities.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-08-15 13:39:13 UTC; scu9a
+Repository: CRAN
+Date/Publication: 2011-08-15 15:24:19

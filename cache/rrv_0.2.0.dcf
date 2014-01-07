@@ -1,0 +1,17 @@
+Package: rrv
+Title: Random Return Variables
+Version: 0.2.0
+Date: 2010-11-08
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: A package for modelling portfolio returns as random
+        variables, partly based on the work of Markowitz (1952, 1959),
+        with an emphasis on: modelling portfolios as functions of
+        weight; modelling returns with empirical cumulative
+        distribution functions; and considering quantile returns. This
+        package is incomplete, experimental and poorly tested.
+Depends: ofp (>= 0.5.0), mecdf
+License: GPL (>= 2)
+Packaged: 2010-11-08 04:22:00 UTC; maia
+Repository: CRAN
+Date/Publication: 2010-11-08 07:33:24

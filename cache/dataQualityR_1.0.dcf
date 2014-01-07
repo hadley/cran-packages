@@ -1,0 +1,18 @@
+Package: dataQualityR
+Type: Package
+Title: Performs variable level data quality checks and generates
+        summary statistics
+Version: 1.0
+Date: 2013-09-15
+Author: Madhav Kumar <madhavkumar2005@gmail.com> and Shreyes Upadhyay
+    <shreyes.upadhyay@gmail.com>
+Maintainer: Madhav Kumar <madhavkumar2005@gmail.com>
+Description: The package performs variable level data quality checks including
+    missing values, unique values, frequency tables, and generates summary
+    statistics
+License: MIT | file LICENSE
+Collate: 'checkDataQuality.R'
+Packaged: 2013-09-21 19:28:18 UTC; madhav.kumar
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-21 23:03:18

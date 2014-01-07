@@ -1,0 +1,11 @@
+Package: bim
+Version: 1.01-5
+Date: 10/9/2006
+Author: Brian S. Yandell <yandell@stat.wisc.edu>, Hao Wu <hao@jax.org>
+Title: Bayesian Interval Mapping Diagnostics
+Description: Functions to sample and interpret Bayesian QTL using MCMC.
+Maintainer: Brian S. Yandell <yandell@stat.wisc.edu>
+Depends: stats,qtl
+License: GPL version 2 or newer
+URL: http://www.stat.wisc.edu/~yandell/qtl/software/qtlbim
+Packaged: Thu Nov  9 10:13:21 2006; yandell

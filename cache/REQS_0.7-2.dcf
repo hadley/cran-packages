@@ -1,0 +1,13 @@
+Package: REQS
+Type: Package
+Title: R/EQS Interface
+Version: 0.7-2
+Date: 2008-11-02
+Author: Patrick Mair, Eric Wu
+Maintainer: Eric Wu <ericwu@mvsoft.com>
+Description: This package contains the function run.eqs() which calls an EQS script file, executes the EQS estimation, and, finally, imports the results as R objects. These two steps can be performed separately: call.eqs() calls and executes EQS, whereas read.eqs() imports existing EQS outputs as objects into R.
+License: GPL
+URL: http://www.mvsoft.com
+LazyLoad: yes
+Depends: gtools
+Packaged: Sun Nov  2 15:40:19 2008; admin

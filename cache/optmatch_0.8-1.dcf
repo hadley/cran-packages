@@ -1,0 +1,29 @@
+Package: optmatch
+Version: 0.8-1
+Date: 2013-01-02
+Title: Functions for optimal matching
+Author: Ben B. Hansen <ben.hansen@umich.edu> and Mark Fredrickson
+        <mark.m.fredrickson@gmail.com>, with embedded Fortran code due
+        to Dimitri P. Bertsekas <dimitrib@mit.edu> and Paul Tseng
+Maintainer: Mark M. Fredrickson <mark.m.fredrickson@gmail.com>
+Depends: R (>= 2.15.1), stats, methods
+Suggests: boot, RItools, biglm, testthat
+Description: Functions for optimal matching, including full matching
+License: file LICENSE
+URL: http://www.r-project.org,
+        http://www.stat.lsa.umich.edu/~bbh/optmatch.html
+Collate: 'abs.optmatch.dlist.R' 'DenseMatrix.R'
+        'InfinitySparseMatrix.R' 'caliper.R' 'exactMatch.R'
+        'feasible.R' 'fill.NAs.R' 'fmatch.R' 'fullmatch.R' 'makedist.R'
+        'match_on.R' 'matched.distances.R' 'matched.R' 'matchfailed.R'
+        'max.controls.cap.R' 'mdist.R' 'min.controls.cap.R'
+        'Ops.optmatch.dlist.R' 'Optmatch.R' 'pairmatch.R'
+        'print.optmatch.dlist.R' 'print.optmatch.R' 'pscore.dist.R'
+        'relaxinfo.R' 'stratumStructure.R' 'SubDivStrat2007-06.R'
+        'summary.optmatch.R' 'utilities.R' 'zzz.R'
+        'zzzDistanceSpecification.R'
+Packaged: 2013-01-02 20:00:20 UTC; mark
+Repository: CRAN
+Date/Publication: 2013-01-03 08:25:53
+NeedsCompilation: yes
+License_restricts_use: yes

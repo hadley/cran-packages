@@ -1,0 +1,16 @@
+Package: fdth
+Type: Package
+Title: Frequency Distribution Tables, Histograms and Poligons
+Version: 1.1-3
+Date: 2011-04-12
+Author: Jose Claudio Faria & Enio Jelihovschi
+Maintainer: Jose Claudio Faria <joseclaudio.faria@gmail.com>
+Depends: R (>= 2.6.0), base, grDevices, graphics
+Description: Perform frequency distribution tables, associated
+        histograms and poligons from vector, data.frame and matrix
+        objects.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-04-13 00:34:18 UTC; jcfaria
+Repository: CRAN
+Date/Publication: 2011-04-13 09:25:31

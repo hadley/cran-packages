@@ -1,0 +1,15 @@
+Package: dynBiplotGUI
+Type: Package
+Title: dynBiplotGUI: Full Interactive GUI for Dynamic Biplot in R
+Version: 1.0.0
+Date: 2013-04-27
+Author: Jaime Egido
+Maintainer: Jaime Egido <jegido@usal.es>
+Depends: R (>= 2.15.0), tcltk, tcltk2 (>= 1.2-3), tkrplot (>= 0.0-23),
+        RODBC (>= 1.3-6)
+Description: A GUI to solve Biplots Dynamic, Biplot classic and HJ-biplot. Try matrices of 2-way and 3-way. Multilanguage.
+License: GPL (>= 2)
+Packaged: 2013-11-04 09:30:20 UTC; Jaime
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-04 11:55:02

@@ -1,0 +1,15 @@
+Package: akmeans
+Type: Package
+Title: Adaptive Kmeans algorithm based on threshold
+Version: 1.0
+Date: 2012-12-18
+Author: Jungsuk Kwac
+Maintainer: Jungsuk Kwac <kwjusu1@stanford.edu>
+Description: Adaptive K-means algorithm with various threshold
+        settings.  It support two distance metric at the first version:
+        Euclidean distance, Cosine distance (1 - cosine similarity)
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-01-03 19:52:54 UTC; kwjusu1
+Repository: CRAN
+Date/Publication: 2013-01-04 09:00:48

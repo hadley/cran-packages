@@ -1,0 +1,22 @@
+Encoding: latin1
+Package: baseline
+Type: Package
+Title: Baseline Correction of Spectra
+Version: 1.1-2
+Date: 2013-05-02
+Author: Kristian Hovde Liland and Bjørn-Helge Mevik
+Maintainer: Kristian Hovde Liland <kristian.liland@umb.no>
+Description: Collection of baseline correction algorithms, along with a
+        framework and a GUI for optimising baseline algorithm
+        parameters.
+License: GPL-2
+Depends: R (>= 2.10), methods
+Imports: graphics, SparseM
+Suggests: gWidgets, IDPmisc, lattice, pls, MASS
+LazyLoad: true
+LazyData: true
+ZipData: true
+Packaged: 2013-05-02 20:03:42 UTC; kristl
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-02 22:45:29

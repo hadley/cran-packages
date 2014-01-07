@@ -1,0 +1,20 @@
+Package: HDclassif
+Type: Package
+Title: High Dimensionnal Supervised Classification and Clustering
+Version: 1.2
+Depends: graphics, stats, MASS
+Date: 2011-07-31
+Author: L.Berge C.Bouveyron S.Girard
+Maintainer: L.Berge <laurent.berge@hotmail.fr>
+Description: New disciminant analysis and data clustering methods for
+        high dimensional data, based on the asumption that
+        high-dimensional data live in different subspaces with low
+        dimensionality proposing a new parametrization of the Gaussian
+        mixture model which combines the ideas of dimension reduction
+        and constraints on the model.
+License: GPL-2
+LazyLoad: yes
+ZipData: no
+Packaged: 2011-08-03 17:00:00 UTC; samm
+Repository: CRAN
+Date/Publication: 2011-08-04 11:28:15

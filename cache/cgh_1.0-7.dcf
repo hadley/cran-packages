@@ -1,0 +1,15 @@
+Package: cgh
+Version: 1.0-7
+Date: 2009-11-20
+Title: Microarray CGH analysis using the Smith-Waterman algorithm
+Author: Tom Price <t0mpr1c3@gmail.com>
+Maintainer: Tom Price <t0mpr1c3@gmail.com>
+Depends: R (>= 2.6.0)
+Description: Functions to analyze microarray comparative genome
+        hybridization data using the Smith-Waterman algorithm
+LazyLoad: Yes
+License: GPL (>= 2)
+URL: http://sgdp.iop.kcl.ac.uk/tprice/software.html
+Packaged: 2009-11-20 11:25:11 UTC; spjgtsp
+Repository: CRAN
+Date/Publication: 2009-11-20 11:31:56

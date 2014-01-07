@@ -1,0 +1,25 @@
+Package: IQMNMR
+Type: Package
+Title: Identification and Quantification of Metabolites by Using 1D 1H
+        NMR FID
+Version: 1.0
+Date: 2011-03-30
+Author: XuSong
+Maintainer: Xu Song <songxu@zzu.edu.cn>
+Depends: R (>= 2.10.0), ff, neldermead, Rmpi, papply, signal, outliers
+Description: Critical to metabolomics is the unambiguous identification
+        and absolute quantification of metabolites. One-dimensional
+        (1D) proton (1H) NMR has formed the bedrock of metabolomics
+        studies to date. Automated and high throughput identification
+        and quantification of metabolites is a big challenge for
+        One-dimensional (1D) proton (1H) NMR. This package present a
+        new automated technique based on Message Passing Interface
+        (MPI), relaxation algorithm, pattern identification, Madison
+        Metabolomics Consortium Database (MMCD), and 1D 1H NMR free
+        induction decay (FID), for the unambiguous identification and
+        absolute quantification of targeted metabolites.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-04-01 08:44:23 UTC; caleb
+Repository: CRAN
+Date/Publication: 2011-04-01 10:17:48

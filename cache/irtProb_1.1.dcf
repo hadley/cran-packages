@@ -1,0 +1,16 @@
+Package: irtProb
+Type: Package
+Title: Utilities and Probability Distributions Related to
+        Multidimensional Person Item Response Models (IRT)
+Version: 1.1
+Date: 2009-02-08
+Encoding: latin1
+Author: Gilles Raiche
+Maintainer: Gilles Raiche <Raiche.Gillest@uqam.ca>
+Description: The irtProb package was mainly developped to compute IRT probability distributions.
+Depends: R (>= 2.0.0), lattice, methods, stats, moments
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-12-21 01:23:38 UTC; HP_Propriétaire
+Repository: CRAN
+Date/Publication: 2011-12-21 12:23:10

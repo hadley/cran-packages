@@ -1,0 +1,15 @@
+Package: AnDE
+Title: An extended Bayesian Learning Technique developed by Dr. Geoff
+        Webb
+Description: AODE achieves highly accurate classification by averaging over all
+    of a small space.
+Version: 1.0
+Author: Sai Teja Ranuva & Nayyar Zaidi
+Maintainer: Sai Teja Ranuva <ranuva.teja@gmail.com>
+Depends: R (>= 2.14.0),discretization, functional,foreign,stringr
+License: GPL-3
+Collate: 'aode.R'
+Packaged: 2013-07-25 07:14:31 UTC; ranuva.teja
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-25 12:43:59

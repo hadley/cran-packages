@@ -1,0 +1,11 @@
+Package: DTK
+Type: Package
+Title: Dunnett-Tukey-Kramer: Pairwise Multiple Comparison Test Adjusted for Unequal Variances and Unequal Sample Sizes
+Version: 1.0
+Date: 2009-02-25
+Author: Matthew K. Lau
+Maintainer: Matthew K. Lau <mkl48@nau.edu>
+Description: Functions for conducting and plotting Dunnett's modified Tukey-Kramer pairwise multiple comparison test accounting for unequal variance and unequal sample sizes.
+License:  GPL version 2 or newer
+LazyLoad: yes
+Packaged: Thu Feb 26 16:33:51 2009; artemis

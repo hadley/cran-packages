@@ -1,0 +1,24 @@
+Package: mombf
+Version: 1.1.1
+Date: 2011-01-24
+Title: Moment and Inverse Moment Bayes factors
+Author: David Rossell <rosselldavid@gmail.com>.
+Maintainer: David Rossell <rosselldavid@gmail.com>
+Depends: R (>= 2.11.0), methods, mvtnorm, ncvreg, actuar
+Description: This package performs model selection based on non-local
+        priors, including MOM, eMOM and iMOM priors. Routines are
+        provided to compute Bayes factors, marginal densities and to
+        perform variable selection in regression setups. Routines to
+        evaluate prior densities, distribution functions, quantiles and
+        modes are included.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: ClassDefinitions.r imombf.r mode2g.r pimom.r
+        zellnerbf.knownsig.r imomknown.r modelSelection.r pmom.r
+        zellnerbf.lm.r dimom.r imomunknown.r priorp2g.r zellnerbf.r
+        margpimom.r mombf.lm.r qimom.r zellnerbf.unknownsig.r dmom.r
+        mombf.r qmom.r g2mode.r margpmom.r momknown.r zbfknown.r
+        imombf.lm.r momunknown.r zbfunknown.r
+Packaged: 2011-01-24 08:15:08 UTC; drossell
+Repository: CRAN
+Date/Publication: 2011-01-24 18:31:52

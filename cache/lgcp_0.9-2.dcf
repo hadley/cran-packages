@@ -1,0 +1,28 @@
+Package: lgcp
+Maintainer: Benjamin M. Taylor <b.taylor1@lancaster.ac.uk>
+License: GPL-3
+Title: Log-Gaussian Cox Process
+Type: Package
+LazyLoad: yes
+Author: B. M. Taylor, T. M. Davies, B. S. Rowlingson, P. J. Diggle
+Description: Spatial and spatio-temporal modelling of point patterns
+        using the log-Gaussian Cox process
+Version: 0.9-2
+Date: 2011-30-09
+Depends: R (>= 2.2.0), spatstat, sp, RandomFields, iterators, ncdf,
+        methods, tcltk, rgl, rpanel, fields, rgdal, maptools, Matrix,
+        gpclib
+Suggests: sparr
+Collate: 'adaptiveSchemes.R' 'arealMethods.R' 'computeGradtrunc.R'
+        'fftgrid.R' 'getCounts.R' 'gridAverageMethods.R'
+        'gridFunctionMethods.R' 'lgcpForecast.R' 'lgcp-INLA.R'
+        'lgcpInternals.R' 'lgcpMethods.R' 'lgcppars.R'
+        'lgcpPredictSpatial.R' 'lgcpPredictSpatioTemporal.R' 'lgcp.R'
+        'lgcpSimSpatioTemporal.R' 'mcmcIterator.R' 'mcmcpars.R'
+        'mcmcProgress.R' 'parameterEstimation.R' 'selectObsWindow.R'
+        'setoutput.R' 'spatialAtRiskClassDef.R' 'spatialOnly.R'
+        'stpppClassDef.R' 'temporalAtRiskClassDef.R'
+        'txtProgressBar2.R' 'zzz.R'
+Packaged: 2012-03-12 14:49:54 UTC; taylorb1
+Repository: CRAN
+Date/Publication: 2012-03-12 15:36:14

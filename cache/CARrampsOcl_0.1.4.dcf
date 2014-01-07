@@ -1,0 +1,19 @@
+Package: CARrampsOcl
+Type: Package
+Title: Reparameterized and marginalized posterior sampling for
+        conditional autoregressive models, OpenCL implementation
+Version: 0.1.4
+Date: 2013-08-18
+Author: Kate Cowles and Michael Seedorff and Alex Sawyer
+Maintainer: Kate Cowles <kate-cowles@uiowa.edu>
+SystemRequirements: OpenCL library; double-precision AMD or Nvidia GPU;
+        GNU make
+Imports: OpenCL, fields
+Suggests: coda
+Description: This package fits Bayesian conditional autoregressive models for spatial and spatiotemporal data on a lattice.  It uses OpenCL kernels running on GPUs to perform rejection sampling to obtain independent samples from the joint posterior distribution of model parameters.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2013-08-18 13:25:22 UTC; kcowles
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-25 18:55:12

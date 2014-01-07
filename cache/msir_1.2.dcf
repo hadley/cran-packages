@@ -1,0 +1,16 @@
+Package: msir
+Type: Package
+Version: 1.2
+Date: 2012-08-10
+Title: Model-based Sliced Inverse Regression
+Author: Luca Scrucca <luca@stat.unipg.it>
+Maintainer: Luca Scrucca <luca@stat.unipg.it>
+Description: An R package for dimension reduction based on finite
+        Gaussian mixture modeling of inverse regression.
+Depends: R (>= 2.14), mclust, rgl, MASS
+License: GPL (>= 2)
+Repository: CRAN
+ByteCompile: true
+LazyLoad: yes
+Packaged: 2012-08-10 16:17:27 UTC; luca
+Date/Publication: 2012-08-10 16:50:52

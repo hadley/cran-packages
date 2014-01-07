@@ -1,0 +1,20 @@
+Package: eggCounts
+Imports: actuar, boot
+Depends: coda
+Title: Hierarchical modelling of faecal egg counts
+Version: 0.2
+Date: 2013-10-30
+Author: Michaela Paul <michaela.paul@uzh.ch>
+Maintainer: Reinhard Furrer <reinhard.furrer@math.uzh.ch>
+Description: This package implements hierarchical models
+    for faecal egg count data to assess anthelmintic
+    efficacy. Bayesian inference is done via MCMC sampling.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'MHsteps.R' 'simData.R' 'updates.R' 'FEC_PoGa.R'
+        'eggCounts-package.R' 'FECR_PoGa.R' 'printSummary.R'
+        'waavpMethods.R'
+Packaged: 2013-10-31 18:24:43 UTC; furrer
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-05 07:51:44

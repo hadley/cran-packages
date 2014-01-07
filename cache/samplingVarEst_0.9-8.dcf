@@ -1,0 +1,17 @@
+Package: samplingVarEst
+Version: 0.9-8
+Date: 2012-09-20
+Title: Sampling Variance Estimation
+Author: Emilio Lopez Escobar [aut, cre], Ernesto Barrios Zamudio [ctb] <ebarrios@itam.mx>
+Maintainer: Emilio Lopez Escobar <emilio.lopez@itam.mx>
+Description: Functions to calculate some point estimators and estimating their variance under unequal probability sampling. Single and two stage sampling designs are considered. Some approximations for the second order inclusion probabilities are also available (sample and population based).
+Classification/MSC: 62D05, 62F40, 62G09, 62H12
+Classification/JEL: C13, C15, C42, C83
+Classification/ACM: G.3
+Depends: R (>= 3.0.0)
+License: GPL (>= 2)
+URL: http://www.info-emilio.net
+Packaged: 2013-12-31 19:05:55 UTC; Maley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-31 22:04:31

@@ -1,0 +1,11 @@
+Package: gmm
+Version: 1.0-1
+Date: 2009-02-03
+Title: Generalized Method of Moments and Generalized Empirical Likelihood
+Author: Pierre Chausse <pierre.chausse@uqam.ca>
+Maintainer: Pierre Chausse <pierre.chausse@uqam.ca>
+Description: It is a complete suite to estimate models based on moment conditions. It includes the  two step Generalized method of moments (GMM) of Hansen(1982), the iterated GMM and continuous updated estimator (CUE) of Hansen-Eaton-Yaron(1996) and several methods that belong to the Generalized Empirical Likelihood (GEL) family of estimators, as presented by Smith(1997), Kitamura(1997), Newey-Smith(2004) and Anatolyev(2005). 
+Depends: R (>= 2.0.0), sandwich, tseries
+Imports: stats
+License: GPL (>= 2)
+Packaged: Tue Feb  3 21:35:33 2009; pierre

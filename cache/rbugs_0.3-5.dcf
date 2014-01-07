@@ -1,0 +1,14 @@
+Package: rbugs
+Title: Fusing R and OpenBugs
+Date: 2006-10-10
+Version: 0.3-5
+Author: Jun Yan <jyan@stat.uiowa.edu> 
+ (with part of the code modified from bugs.R,
+  http://www.stat.columbia.edu/~gelman/bugsR/,
+  by Andrew Gelman <gelman@stat.columbia.edu>)
+Description: Functions to prepare files needed for running BUGS 
+ in batch-mode, and running BUGS from R. Support for Linux systems
+ with OpenBugs is emphasized. 
+Maintainer: Jun Yan <jyan@stat.uiowa.edu>
+License: GPL 2.0 or later
+Packaged: Mon Oct  9 22:38:08 2006; jyan

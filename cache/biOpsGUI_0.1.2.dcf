@@ -1,0 +1,22 @@
+Package: biOpsGUI
+Type: Package
+Title: GUI for Basic image operations
+Version: 0.1.2
+Depends: R (>= 2.4.0), RGtk2, biOps
+Date: 2007-06-28
+Author: Matias Bordese, Walter Alini
+Maintainer: ORPHANED
+Encoding: UTF-8
+Description: GUI (using GTK+) for the basic image operations package.
+        At the moment, just provides a function that displays imagedata
+        from biOps package in a new window, keeping original size and
+        with information on the coords and values of the pixels in the
+        image. It requires RGtk2.
+License: GPL
+Packaged: 2013-03-29 14:09:04 UTC; ripley
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Matias Bordese <mbordese@gmail.com>
+X-CRAN-Comment: Orphaned on 2013-03-29 at the request of the
+        maintainer.
+Repository: CRAN
+Date/Publication: 2013-03-29 15:09:04

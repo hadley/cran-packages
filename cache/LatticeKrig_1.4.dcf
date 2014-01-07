@@ -1,0 +1,23 @@
+Package: LatticeKrig
+Version: 1.4
+Date: February 6, 2012
+Title: Multiresolution Kriging based on Markov random fields
+Author: Douglas Nychka, Dorit Hammerling, Stephen Sain, and Tia Lerud
+Maintainer: Doug Nychka <nychka@ucar.edu>
+Description: Functions for the interpolation of large spatial datasets.
+        This pacakge uses a "fixed rank Kriging" approach using a large
+        number of basis functions and provides spatial estimates that
+        are comparable to standard families of covariance functions and
+        estimates that are close to interpolating the observations (a
+        small nugget variance.) The covariance model for this method
+        approximates the Matern but also allows for a multi-resolution
+        model and supports efficient computation of the profile
+        likelihood for estimating covariance parameters. Also included
+        are generic methods for prediction and plotting of the
+        estimated surface.
+License: GPL (>= 2)
+URL: http://www.image.ucar.edu/Software/MRKriging
+Depends: R (>= 2.13), methods, spam, fields
+Packaged: 2012-02-10 14:50:23 UTC; nychka
+Repository: CRAN
+Date/Publication: 2012-02-10 16:36:17

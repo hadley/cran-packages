@@ -1,0 +1,13 @@
+Package: rv
+Title: Simulation-based random variable objects
+Version: 2.3.1
+Date: 2013-05-18
+Author: Jouni Kerman <jouni@kerman.com>
+Maintainer: Jouni Kerman <jouni@kerman.com>
+Description: Simulation-based random variable objects
+Depends: R(>= 2.15.1), stats, utils, grDevices, graphics, parallel
+License: GPL-2
+Packaged: 2013-06-25 20:29:07 UTC; jk
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-26 07:52:35

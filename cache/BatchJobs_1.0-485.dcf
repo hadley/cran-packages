@@ -1,0 +1,35 @@
+Package: BatchJobs
+Title: Batch computing with R.
+Description: Provides Map, Reduce and Filter variants to generate jobs
+        on batch computing systems like PBS/Torque, LSF and Sun Grid
+        Engine. Multicore and SSH systems are also supported. For
+        further details see the project web page.
+Author: Bernd Bischl <bernd_bischl@gmx.net>, Michel Lang
+        <michellang@gmail.com>, Olaf Mersmann <olafm@p-value.net>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+URL: http://batchjobs.googlecode.com
+License: BSD
+Depends: utils, BBmisc (>= 1.1), digest, RSQLite, sendmailR, brew
+Suggests: testthat
+LazyData: yes
+ByteCompile: yes
+Version: 1.0-485
+Collate: 'addJob.R' 'applyJobFunction.R' 'batchExpandGrid.R'
+        'batchMapQuick.R' 'batchMap.R' 'batchMapResults.R'
+        'batchReduce.R' 'batchReduceResults.R' 'buffer.R'
+        'checkIdValid.R' 'clusterFunctionsInteractive.R'
+        'clusterFunctionsLocal.R' 'clusterFunctionsLSF.R'
+        'clusterFunctionsMulticore.R' 'clusterFunctions.R'
+        'clusterFunctionsSGE.R' 'clusterFunctionsSSH.R'
+        'clusterFunctionsTorque.R' 'clusterFunctionsUnitTests.R'
+        'conf.R' 'database.R' 'debugMulticore.R' 'debugSSH.R' 'doJob.R'
+        'filenames.R' 'filterResults.R' 'findJobs.R' 'findStatus.R'
+        'getJob.R' 'getJobTimes.R' 'getLogFiles.R' 'helpers.R' 'Job.R'
+        'killJobs.R' 'loadResult.R' 'loadResults.R' 'reduceResults.R'
+        'Registry.R' 'resetJobs.R' 'scheduleWorkerJobs.R' 'sendMail.R'
+        'setJobFunction.R' 'showClusterStatus.R' 'showLog.R'
+        'showStatus.R' 'submitJobs.R' 'testJob.R' 'WorkerLinux.R'
+        'Worker.R' 'writeRscripts.R' 'zzz.R'
+Packaged: 2012-05-25 16:22:04 UTC; bischl
+Repository: CRAN
+Date/Publication: 2012-05-25 17:08:25

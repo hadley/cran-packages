@@ -1,0 +1,20 @@
+Package: flux
+Type: Package
+Title: Flux rate calculation from dynamic closed chamber measurements
+Version: 0.2-2
+Date: 2013-10-01
+Author: Gerald Jurasinski, Franziska Koebsch, Ulrike Hagemann, Anke Guenther
+Maintainer: Gerald Jurasinski <gerald.jurasinski@uni-rostock.de>
+Depends: R (>= 2.12.0), caTools
+Description: Functions for the calculation of greenhouse gas flux rates 
+	from closed chamber concentration measurements. The package follows 
+	a modular concept: Fluxes can be calculated in just two simple steps 
+	or in several steps if more control in details is wanted. Additionally 
+	plot and preparation functions as well as functions for modelling
+	gpp and reco are provided.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-10-02 21:09:21 UTC; juri
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-03 00:19:46

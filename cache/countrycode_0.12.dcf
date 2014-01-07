@@ -1,0 +1,20 @@
+Package: countrycode
+Maintainer: Vincent Arel-Bundock <varel@umich.edu>
+License: GPL-3
+Title: Convert country names and country codes
+LazyData: yes
+Type: Package
+LazyLoad: yes
+Author: Vincent Arel-Bundock <varel@umich.edu>
+Description: Standardize country names, convert them into one of seven
+        coding schemes, convert between coding schemes, and assign
+        region descriptors.
+Version: 0.12
+URL: http://www.umich.edu/~varel,
+        https://github.com/vincentarelbundock/countrycode
+Date: 2013-03-08
+Collate: 'countrycode.R' 'countrycode-package.R' 'countrycode_data.R'
+Packaged: 2013-03-08 16:18:50 UTC; ubuntu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-08 18:05:44

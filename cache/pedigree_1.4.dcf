@@ -1,0 +1,16 @@
+Package: pedigree
+Type: Package
+Title: Pedigree functions
+Version: 1.4
+Date: 2012-11-27
+Authors@R: c(person("Albart", "Coster", role = c("aut", "cre"), email =
+        "albart@dairyconsult.nl"))
+Depends: Matrix, HaploSim (>= 1.8.4), reshape
+Description: Pedigree related functions
+License: GPL (>= 2)
+Packaged: 2013-11-03 17:30:41 UTC; hornik
+Author: Albart Coster [aut, cre]
+Maintainer: Albart Coster <albart@dairyconsult.nl>
+Repository: CRAN
+Date/Publication: 2013-11-03 18:33:22
+NeedsCompilation: yes

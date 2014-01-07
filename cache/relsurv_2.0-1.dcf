@@ -1,0 +1,15 @@
+Package: relsurv
+Title: Relative survival
+Date: 2012-02-17
+Version: 2.0-1
+Authors@R:
+        c(person(c("Maja","Pohar","Perme"),role=c("aut","cre"),email="maja.pohar@mf.uni-lj.si"))
+Description: Various functions for relative survival analysis.
+Depends: survival, splines, date
+Imports: MASS
+License: GPL
+Packaged: 2012-03-21 11:33:48 UTC; majap
+Author: Maja Pohar Perme [aut, cre]
+Maintainer: Maja Pohar Perme <maja.pohar@mf.uni-lj.si>
+Repository: CRAN
+Date/Publication: 2012-03-21 12:53:01

@@ -1,0 +1,19 @@
+Package: BerkeleyEarth
+Type: Package
+Title: Data Input for Berkeley Earth Surface Temperature
+Version: 1.7
+Date: 2012-04-27
+Author: Steven Mosher
+Maintainer: Steven Mosher <moshersteven@gmail.com>
+Depends: R (>= 2.11.0), bigmemory, biganalytics, RghcnV3
+Description: A selection of functioned designed to import the Berkeley
+        Earth Surface Temperature Project. Version 1.5 includes only
+        those function to import data.Additional packages for analysis
+        are forthcoming.
+License: GPL (>= 2)
+URL: http://stevemosher.wordpress.com/
+LazyLoad: yes
+LazyData: FALSE
+Packaged: 2012-04-28 06:40:25 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-04-28 07:44:41

@@ -1,0 +1,12 @@
+Package: celsius
+Type: Package
+Title: Retrieve Affymetrix microarray measurements and metadata from Celsius
+Version: 1.0.7
+Date: 2007-04-25
+Author: Allen Day, Marc Carlson
+Maintainer: Allen Day <allenday@ucla.edu>
+Description: Retrieve Affymetrix microarray measurements and metadata from Celsius web services, see http://genome.ucla.edu/projects/celsius
+License: Artistic License
+Depends: Biobase, methods
+URL: http://genome.ucla.edu/projects/celsius/
+Packaged: Wed Jun  6 10:57:19 2007; mcarlson

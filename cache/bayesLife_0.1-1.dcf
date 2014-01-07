@@ -1,0 +1,19 @@
+Package: bayesLife
+Type: Package
+Title: Bayesian Projection of Life Expectancy
+Version: 0.1-1
+Date: 2011-03-11
+Author: Hana Sevcikova, Adrian Raftery; original code written by
+        Jennifer Chunn
+Maintainer: Hana Sevcikova <hanas@uw.edu>
+Description: Making probabilistic projections of life expectancy for
+        all countries of the world, using a Bayesian hierarchical
+        model.
+Depends: bayesTFR (>= 1.2-0)
+Suggests: rworldmap, fields, snowFT
+License: GPL (>= 2)
+URL: http://bayespop.csss.washington.edu
+LazyLoad: yes
+Packaged: 2011-03-15 23:36:37 UTC; hana
+Repository: CRAN
+Date/Publication: 2011-03-16 16:20:07

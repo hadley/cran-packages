@@ -1,0 +1,24 @@
+Package: polysat
+Version: 0.1
+Date: 2010-06-01
+Title: Tools for Polyploid Microsatellite Analysis
+Author: Lindsay V. Clark <lvclark@ucdavis.edu>
+Maintainer: Lindsay V. Clark <lvclark@ucdavis.edu>
+Depends: combinat
+Suggests: ade4, adegenet
+Description: polysat is a collection of tools to handle microsatellite
+        data of any ploidy (and samples of mixed ploidy) where allele
+        copy number is not known in partially heterozygous genotypes.
+        It can import and export data in ABI GeneMapper, Structure,
+        ATetra, Tetrasat/Tetra, GenoDive, SPAGeDi, and binary
+        presence/absence formats.  It can calculate pairwise
+        differences between individuals using a stepwise mutation model
+        or infinite alleles model. It can assist the user in estimating
+        the ploidy of samples, and lastly it can estimate allele
+        frequencies in populations and calculate pairwise Fst values
+        based on those frequencies.
+License: GPL (>= 2)
+URL: http://openwetware.org/wiki/Polysat
+Packaged: 2010-06-24 05:52:58 UTC; lvclark
+Repository: CRAN
+Date/Publication: 2010-06-24 07:50:13

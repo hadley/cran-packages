@@ -1,0 +1,15 @@
+Package: PurBayes
+Type: Package
+Title: Bayesian Estimation of Tumor Purity and Clonality
+Version: 1.0
+Date: 2013-02-12
+Author: Nicholas B. Larson
+Maintainer: Nicholas B. Larson <larson.nicholas@mayo.edu>
+Depends: rjags
+Description: PurBayes is an MCMC-based algorithm that uses
+        next-generation sequencing data to estimate tumor purity and
+        clonality for paired tumor-normal data.
+License: GPL-2
+Packaged: 2013-02-13 19:30:38 UTC; m097340
+Repository: CRAN
+Date/Publication: 2013-02-14 15:17:15

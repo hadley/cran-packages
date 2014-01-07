@@ -1,0 +1,9 @@
+Package: pga
+Version: 0.1-1
+Date: 2007-8-15
+Title: An ensemble method for variable selection by carrying out Darwinian evolution in parallel universes
+Author: Dandi Qiao, Mu Zhu
+Maintainer: Mu Zhu <m3zhu@math.uwaterloo.ca>
+Description: PGA is an ensemble algorithm similar in spirit to AdaBoost and random forest. It can ``boost up'' the performance of ``bad'' selection criteria such as AIC and GCV. (Technometrics 48, 491-502; The American Statistician 62, 97-109, Sec 4.3)
+License: GPL (>=2)
+Packaged: Tue Apr 22 18:26:48 2008; m3zhu

@@ -1,0 +1,17 @@
+Package: lhs
+Version: 0.10
+Date: 2012-07-12
+Title: Latin Hypercube Samples
+Authors@R: c(person("Rob", "Carnell", role=c("aut","cre"),
+        email="carnellr@battelle.org"))
+Depends: R (>= 2.14.2)
+Description: This package provides a number of methods for creating and
+        augmenting Latin Hypercube Samples
+License: GPL (>= 2)
+Author: Rob Carnell [aut, cre]
+Maintainer: Rob Carnell <carnellr@battelle.org>
+Repository: CRAN
+Repository/R-Forge/Project: lhs
+Repository/R-Forge/Revision: 45
+Packaged: 2012-07-13 06:21:04 UTC; rforge
+Date/Publication: 2012-07-13 16:24:19

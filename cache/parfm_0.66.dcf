@@ -1,0 +1,19 @@
+Package: parfm
+Type: Package
+Title: Parametric Frailty Models
+Version: 0.66
+Date: 2012-02-15
+Author: Federico Rotolo <federico.rotolo@stat.unipd.it> and Marco Munda
+        <marco.munda@uclouvain.be>
+Maintainer: Federico Rotolo <federico.rotolo@stat.unipd.it>
+Description: Parametric Frailty Models, fitted by maximum marginal
+        likelihood method.  Possible baseline hazards: Weibull,
+        Exponential, Gompertz, logNormal and loglogistic Possible
+        Frailty distributions: Gamma, Inverse Gaussian and Positive
+        Stable
+License: GPL-2
+LazyLoad: yes
+Depends: survival, eha, msm, graphics, boot
+Packaged: 2012-02-16 18:00:13 UTC; federico
+Repository: CRAN
+Date/Publication: 2012-02-16 19:18:31

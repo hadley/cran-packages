@@ -1,0 +1,23 @@
+Package: paramlink
+Type: Package
+Title: Parametric linkage analysis in R
+Version: 0.7-0
+Date: 2012-08-10
+Author: Magnus Dehli Vigeland
+Maintainer: Magnus Dehli Vigeland <magnusdv@medisin.uio.no>
+Description: Parametric linkage analysis and other likelihood-based
+        pedigree analyses based on the Elston-Stewart algorithm,
+        including singlepoint LOD scores, power analysis and
+        computation of marker genotype distributions. Multipoint
+        analysis is provided through a convenient MERLIN wrapper.
+        Includes many utility functions for creating, manipulating and
+        plotting pedigrees, markers and linkage results.
+Depends: R (>= 2.15), kinship2
+SystemRequirements: For the MERLIN wrapper, MERLIN
+        (www.sph.umich.edu/csg/abecasis/merlin) must be installed and
+        pointed to in the PATH environment variable.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-10 08:13:56 UTC; magnusdv
+Repository: CRAN
+Date/Publication: 2012-08-10 11:54:17

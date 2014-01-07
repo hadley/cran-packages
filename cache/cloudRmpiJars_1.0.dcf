@@ -1,0 +1,17 @@
+Package: cloudRmpiJars
+Type: Package
+Title: Third-party jars for cloudRmpi
+Version: 1.0
+Date: 2012-03-24
+Author: Barnet Wagman
+Maintainer: Barnet Wagman <bw@norbl.com>
+Description: This package contains third-party Java class jars used by
+        cloudRmpi.  cloudRmpi is a means for doing parallel processing
+        in R, using MPI on a cloud-based network.
+License: GPL-3
+SystemRequirements: Java (>=1.6); see the cloudRmpi manual (vignette)
+        for details.
+URL: http://norbl.com/cloudrmpi/cloudRmpi.html
+Packaged: 2012-03-21 14:43:37 UTC; moi
+Repository: CRAN
+Date/Publication: 2012-03-22 06:58:52

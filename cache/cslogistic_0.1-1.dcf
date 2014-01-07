@@ -1,0 +1,14 @@
+Package: cslogistic
+Version: 0.1-1
+Date: 2005-06-03
+Title: Conditionally Specified Logistic Regression
+Author: Alejandro Jara Vallejos <Alejandro.JaraVallejos@med.kuleuven.be>  and 
+        Maria Jose Garcia-Zattera <MariaJose.GarciaZattera@med.kuleuven.be>
+Maintainer: Alejandro Jara Vallejos <Alejandro.JaraVallejos@med.kuleuven.be> 
+Description: 
+  This package contains functions for likelihood and posterior
+  analysis of conditionally specified logistic regression models. 
+  All calculus and simulation is done in compiled FORTRAN.  
+License: GPL version 2 or newer
+URL: http://www.student.kuleuven.ac.be/%7Es0166452/software.html
+Packaged: Wed Jun 22 13:49:24 2005; hornik

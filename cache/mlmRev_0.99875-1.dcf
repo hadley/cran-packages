@@ -1,0 +1,14 @@
+Package: mlmRev
+Version: 0.99875-1
+Date: 2008-06-25
+Title: Examples from Multilevel Modelling Software Review
+Author: Douglas Bates <bates@stat.wisc.edu>
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Description: Data and examples from a multilevel modelling software review
+  as well as other well-known data sets from the multilevel modelling
+  literature.
+Depends: lme4(>= 0.999375-19), Matrix(>= 0.999375-9), R(>= 2.6.0)
+Suggests: MASS, lattice
+LazyData: yes
+License: GPL (>= 2)
+Packaged: Wed Jun 25 12:29:46 2008; bates

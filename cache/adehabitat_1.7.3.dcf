@@ -1,0 +1,11 @@
+Package: adehabitat
+Version: 1.7.3
+Date: 2008/10/07
+Title: Analysis of habitat selection by animals
+Author: Clement Calenge, contributions from Mathieu Basille, Stephane Dray and Scott Fortmann-Roe
+Maintainer: Clement Calenge <calenge@biomserv.univ-lyon1.fr>
+Depends: R (>= 2.7.0), ade4
+Suggests: gpclib, sp, spatstat, MASS, tkrplot, shapefiles, CircStats
+Description: A collection of tools for the analysis of habitat selection by animals
+License: GPL (>= 2)
+Packaged: Tue Oct  7 12:13:38 2008; calenge

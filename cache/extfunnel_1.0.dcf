@@ -1,0 +1,17 @@
+Package: extfunnel
+Type: Package
+Title: Additional Funnel Plot Augmentations
+Version: 1.0
+Date: 2010-12-07
+Author: Dean Langan, Alex Sutton, Julian Higgins, Walter Gregory
+Maintainer: Dean Langan <D.P.Langan@leeds.ac.uk>
+Description: This is a package containing the function extfunnel()
+        which produces a funnel plot including additional augmentations
+        such as the statistical significance contours and the
+        heterogeneity contours.
+Depends: rmeta
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-01-31 15:47:52 UTC; meddpl
+Repository: CRAN
+Date/Publication: 2011-01-31 17:19:48

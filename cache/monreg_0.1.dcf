@@ -1,0 +1,10 @@
+Package: monreg
+Version: 0.1
+Date: 2005-10-18
+Title: Nonparametric monotone regression
+Author: This version Kay Pilz and Steffanie Titoff. Earlier developements by Holger Dette and Kay Pilz.
+Maintainer: Kay Pilz <KayFrederik.Pilz@oppenheim.de>
+Depends: R (>= 2.0.0)
+Description: Estimates monotone regression and varinace functions in a nonparametric model.
+License: GPL (version 2 or later)
+Packaged: Mon Jan 30 20:36:27 2006; hornik

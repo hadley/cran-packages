@@ -1,0 +1,11 @@
+Package: ktspair
+Title: k-Top Scoring Pairs for Microarray Classification
+Version: 1.0
+Author: Julien Damond <julien.damond@gmail.com> 
+Description: These functions compute the k best pairs of genes used to classify samples based on the relative rank of the genes expression within each profile. A score based on the sensitivity and the specificity is calculated for every possible pair. The k pairs with the highest score will be selected with the restriction that a gene can appear in at most one pair. The value of k is either set as a parameter chosen by the user or computed through crossvalidation. Other functions related to the k-TSP are also available, for example the functions prediction, summary, plot, etc. can be found in the package.
+Maintainer: Julien Damond <julien.damond@gmail.com>
+Depends: R (>= 2.2.1), Biobase (>= 2.4.0)
+License: GPL-2
+Packaged: 2011-12-23 09:39:01 UTC; Julien
+Repository: CRAN
+Date/Publication: 2011-12-23 10:06:13

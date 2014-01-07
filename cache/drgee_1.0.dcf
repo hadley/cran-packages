@@ -1,0 +1,24 @@
+Package: drgee
+Type: Package
+Title: Doubly Robust Generalized Estimating Equations
+Version: 1.0
+Date: 2013-12-18
+Author: Johan Zetterqvist <johan.zetterqvist@ki.se> , Arvid Sjölander <arvid.sjolander@ki.se> with contributions from Alexander Ploner.
+Maintainer: Johan Zetterqvist <johan.zetterqvist@ki.se>
+Description: The package provides functions to estimate parameters quantifying
+  an association between an exposure and an outcome in a generalized
+  estimating equations model in the presence of nuisance variables. Three methods are implemented:
+  outcome nuisance model based estimation where a model for the association
+  between the nuisance factors and the outcome is assumed, exposure nuisance model
+  based estimation where a model for the association between the nuisance factors
+  and the exposure is assumed and doubly robust estimation where both models are
+  used. In doubly robust estimation, the estimates will be consistent when
+  at least one of the models are correctly specified, not necessarily both.
+Depends: R (>= 3.0.0)
+Imports: stats, nleqslv
+License: GPL-2 | GPL-3
+NeedsCompilation: no
+Encoding: UTF-8
+Packaged: 2013-12-19 04:59:10 UTC; johan
+Repository: CRAN
+Date/Publication: 2013-12-19 06:57:18

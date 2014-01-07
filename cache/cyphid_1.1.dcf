@@ -1,0 +1,18 @@
+Package: cyphid
+Type: Package
+Title: Cycle and Phase Identification for mastication data
+Version: 1.1
+Date: 2013-04-04
+Author: Elizabeth Crane
+Maintainer: Elizabeth Crane <bcrane@umich.edu>
+Depends: fda
+Description: This library contains a primary function that divides
+        chewing sequences in cycles and cycles into phases.  See
+        get.all.breaks for an example.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-05-22 02:56:31 UTC; bcrane
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-22 07:52:43

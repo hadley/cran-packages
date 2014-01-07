@@ -1,0 +1,30 @@
+Package: qualityTools
+Type: Package
+Title: Statistical Methods for Quality Science
+Version: 1.42
+Date: 03-21-2011
+Author: Thomas Roth
+Maintainer: Thomas Roth <thomas.roth@tu-berlin.de>
+Description: This is a package for teaching statistical methods in the
+        field of Quality Science. It covers distribution fitting,
+        process capability, Gage R&R, factorial, fractional factorial
+        design as well as response surface methods including the use of
+        desirability functions. Define - Pareto Chart; Measure -
+        Probability and Quantile-Quantile Plots, Process Capability
+        Ratios for various distributions and Gage RR Analyze i.e.
+        Pareto Chart, Multi-Vari Chart, Dot Plot; Improve - Full and
+        fractional factorial, response surface and mixture designs as
+        well as the desirability approach for simultaneous optimization
+        of more than one response variable. Normal, Pareto and Lenth
+        Plot of effects as well as Interaction Plots; Control - Quality
+        Control Charts can be found in the qcc package. The focus is on
+        teaching the statistical methodology used in the Quality
+        Sciences.
+License: GPL-2
+LazyLoad: yes
+Depends: R(>= 2.9.0), graphics, methods
+Imports: graphics
+Suggests: MASS, methods
+Packaged: 2011-03-30 09:25:12 UTC; roth
+Repository: CRAN
+Date/Publication: 2011-03-31 16:33:58

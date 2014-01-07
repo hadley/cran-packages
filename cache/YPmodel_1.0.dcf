@@ -1,0 +1,15 @@
+Package: YPmodel
+Type: Package
+Title: The Short-term and Long-term Hazard Ratio Model for Survival
+        Data
+Version: 1.0
+Date: 2013-01-30
+Author: Junlong Sun and Song Yang 
+Maintainer: Junlong Sun <junlong.sun@gmail.com>
+Description: This package contains various inference procedures associated with a two-sample semi-parametric model that can accommodate a flexible range of hazard ratio patterns. This model contains the proportional hazards model and the proportional odds model as sub-models, and accommodates non-proportional hazards situations to the extreme of having crossing hazards and crossing survivor functions. Overall, this package has four major functions: 1) the parameter estimation, namely short-term and long-term hazard ratio parameters; 2) 95 percent and 90 percent point-wise confidence intervals and simultaneous confidence bands for the hazard ratio function; 3) p-value of the adaptive weighted log-rank test; 4) p-values of two lack-of-fit tests for the model. See the included "read_me_first.pdf" for brief instructions.
+License: GPL (>= 3)
+Depends: R (>= 2.10.0)
+Packaged: 2013-07-11 05:10:33 UTC; Saner
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-11 07:35:31

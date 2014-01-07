@@ -1,0 +1,13 @@
+Package: orientlib
+Title: Support for orientation data
+Version: 0.8.3
+Author: Duncan Murdoch
+Description: Representations, conversions and display of orientation SO(3) data.
+ See the orientlib help topic for details.
+Maintainer: Duncan Murdoch <dmurdoch@pair.com>
+License: GPL
+Depends: R (>= 2.2.0), methods, scatterplot3d
+LazyLoad: yes 
+SystemRequirements: Will use djmrgl or rgl packages for rendering if present
+URL: http://www.stats.uwo.ca/faculty/murdoch/software
+Packaged: Thu Feb  2 09:42:54 2006; murdoch

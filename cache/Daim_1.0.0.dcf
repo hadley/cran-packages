@@ -1,0 +1,19 @@
+Package: Daim
+Version: 1.0.0
+Title: Diagnostic accuracy of classification models.
+Author: Sergej Potapov, Werner Adler and Berthold Lausen.
+Description: Several functions for evaluating the accuracy of
+        classification models. The package provide the following
+        performance measures: "cv", "0.632" and "0.632+" estimation of
+        the misclassification rate, sensitivity, specifity and auc. If
+        an application is computationally intensive, parallel execution
+        can be used to reduce the time taken.
+Maintainer: Sergej Potapov <sergej.potapov@googlemail.com>
+Depends: R (>= 2.6.0)
+Suggests: snow, multicore, MASS, rpart, ipred, e1071, randomForest,
+        mboost
+Date: 24.06.2009
+License: GPL-2
+Packaged: 2009-06-24 12:56:09 UTC; sergejpotapov
+Repository: CRAN
+Date/Publication: 2009-06-24 14:04:34

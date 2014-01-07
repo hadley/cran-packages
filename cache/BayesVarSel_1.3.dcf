@@ -1,0 +1,14 @@
+Package: BayesVarSel
+Type: Package
+Title: Bayesian Variable selection in Linear Models
+Version: 1.3
+Date: 2013-05-06
+Author: Gonzalo Garcia-Donato and Anabel Forte
+Maintainer: Anabel Forte <forte@uji.es>
+Description: Within the context of the linear regression model, this package provides tools for the analysis of the variable selection problem from a Bayesian perspective. The default implementation takes advantage of a closed-form expression for the posterior probabilities that the prior proposed in Bayarri, Berger, Forte and Garcia-Donato (2012) produces. Alternatively, other priors, like Zellner (1986) g-prior, Zellner-Siow (1980,1984) or Liang, Paulo, Molina, Clyde and Berger (2008) can be used. BayesVarSel allows the calculations to be performed either exactly (sequential or parallel computation) or heuristically, using a Gibbs sampling algorithm studied in Garcia-Donato and Martinez-Beneito (2013). 
+Depends: R (>= 2.15.0), parallel, MASS
+License: GPL-2
+Packaged: 2013-07-31 10:49:39 UTC; root
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-31 12:56:06

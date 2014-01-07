@@ -1,0 +1,20 @@
+Package: gputools
+Version: 0.1-0
+Date: 2009-04-07
+Title: A Few Gpu-Enabled Data-Mining Functions
+Author: Josh Buckner <bucknerj@umich.edu>, with contributions from
+        Justin Wilson <jrw972@gmail.com>
+Maintainer: Josh Buckner <bucknerj@umich.edu>
+Depends: R (>= 2.8.0)
+SystemRequirements: nvcc (>= release 2.1)
+Description: This package provides R interfaces to a handful of common
+        data-mining algorithms.  These algorithms are implemented in
+        parallel using a mixture of nVidia's CUDA langauge and cublas
+        library.  On a computer equiped with an nVidia GPU these
+        functions may be substantially more efficient than native R
+        routines.
+License: GPL-3
+URL: http://www.r-project.org
+Packaged: Fri Apr 17 16:48:21 2009; josh
+Repository: CRAN
+Date/Publication: 2009-04-19 18:07:31

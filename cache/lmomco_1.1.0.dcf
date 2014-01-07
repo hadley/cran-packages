@@ -1,0 +1,45 @@
+Package: lmomco
+Title: L-moments, Trimmed L-moments, L-comoments, and Many
+        Distributions
+Version: 1.1.0
+Depends: R (>= 2.7.0), utils
+Date: 2010-10-31
+Author: William H. Asquith
+Description: The package implements the statistical theory of L-moments
+        including L-moment estimation, probability-weighted moment
+        estimation, parameter estimation for numerous familiar and
+        not-so-familiar distributions, and L-moment estimation for the
+        same distributions from the parameters. L-moments are derived
+        from the expectations of order statistics and are linear with
+        respect to the probability-weighted moments. L-moments are
+        directly analogous to the well-known product moments; however,
+        L-moments have many advantages including unbiasedness,
+        robustness, and consistency with respect to the product
+        moments. This package is oriented around the FORTRAN algorithms
+        of J.R.M. Hosking, and the nomenclature for many of the
+        functions parallels that of the Hosking library. However,
+        numerous extensions are made to aid in expand of the breadth
+        and ease of L-moment application. Much theoretical extension of
+        L-moment theory has occurred in recent years, including
+        extension of L-moments into right-tail censoring conditions by
+        censoring threshold and by indicator variable. Extension to
+        left-tail censoring is readily made by variable flipping,
+        treatment as right-tail censored, and back-flipping
+        (re-transformation). E.A.H. Elamir and A.H. Seheult have
+        developed the trimmed L-moments, which are implemented in this
+        package. Further, developments by Robert Serfling and Peng Xiao
+        have extended L-moments into multivariate space; the so-called
+        sample L-comoments are implemented here. The supported
+        distributions with moment type shown as L (L-moments) or TL
+        (trimmed L-moments) and additional support for right-tail
+        censoring ([RC]) include: Cauchy(TL), Exponential(L), Gamma(L),
+        Generalized Extreme Value(L), Generalized Lambda(L & TL),
+        Generalized Logistic (L), Generalized Normal(L), Generalized
+        Pareto(L[RC] & TL), Gumbel(L), Kappa(L), Kumaraswamy(L),
+        Normal(L), 3-parameter log-Normal(L), Pearson Type III(L),
+        Rayleigh(L), Reverse Gumbel(L[RC]), Wakeby(L), and Weibull(L).
+Maintainer: William H. Asquith <william.asquith@ttu.edu>
+License: GPL
+Packaged: 2010-11-01 13:10:40 UTC; wasquith
+Repository: CRAN
+Date/Publication: 2010-11-03 07:41:14

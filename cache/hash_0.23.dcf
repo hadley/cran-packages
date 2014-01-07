@@ -1,0 +1,18 @@
+Package: hash
+Type: Package
+Title: Implements hash/associated arrays/dictionaries
+Version: 0.23
+Date: 2009-04-12
+Author: Christopher Brown
+Maintainer: Christopher Brown <cbrown@opendatagroup.com>
+Description: This package implements a data structure using R
+        environments similar to hashes in Perl and dictionaries in
+        Python but with a purposefully R flavor.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods
+Collate: hash.R show.R validate-key.R clear.R del.R has-key.R keys.R
+        length.R set.R values.R get.R
+Packaged: Sun Apr 12 17:17:19 2009; cbrown
+Repository: CRAN
+Date/Publication: 2009-04-15 07:34:25

@@ -1,0 +1,32 @@
+Package: blockcluster
+Type: Package
+Title: Co-Clustering package for Binary, Contingency and Continuous
+        data-sets.
+Version: 2.0.2
+Encoding: UTF-8
+Date: 2012-02-22
+Author: Parmeet Bhatia & Serge Iovleff & Gerard Goavert, with
+        contributions from Christophe Biernacki and Gilles Celeux.
+Maintainer: Parmeet Bhatia <parmeet.bhatia@inria.fr>
+Description: Simultaneous clustering of rows and columns, usually
+        designated by biclustering, co-clustering or block clustering,
+        is an important technique in two way data analysis. It consists
+        of estimating a mixture model which takes into account the
+        block clustering problem on both the individual and variables
+        sets. The blockcluster package provides a bridge between the
+        C++ core library and the R statistical computing environment.
+        This package allows to co-cluster Binary, contingency and
+        continuous data-sets. It also provides utility functions to
+        visualize the results. This package may be useful for various
+        applications in fields of Data mining,Information retrieval,
+        Biology, computer vision and many more.
+License: GPL (>= 3)
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.9), R (>= 2.14), methods
+LinkingTo: Rcpp
+Collate: 'Strategy.R' 'optionclasses.R' 'summary.R' 'plot.R'
+        'Rcoclust.R' 'onattach.R' 'cocluster.R'
+Packaged: 2013-04-12 11:30:49 UTC; modal-laptop
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-12 17:45:55

@@ -1,0 +1,18 @@
+Package: pso
+Version: 1.0.2
+Date: 2012-08-23
+Title: Particle Swarm Optimization
+Author: Claus Bendtsen <papyrus.bendtsen@gmail.com>.
+Maintainer: Claus Bendtsen <papyrus.bendtsen@gmail.com>
+Depends: R (>= 2.10.0), methods
+Suggests: numDeriv
+Description: The package provides an implementation of PSO consistent
+        with the standard PSO 2007 by Maurice Clerc et al. Additionally
+        a number of ancillary routines are provided for easy testing
+        and graphics.
+License: LGPL-3
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-08-23 14:16:28 UTC; bendtsen
+Repository: CRAN
+Date/Publication: 2012-08-24 09:08:12

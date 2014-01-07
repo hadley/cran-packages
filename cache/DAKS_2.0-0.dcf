@@ -1,0 +1,23 @@
+Package: DAKS
+Type: Package
+Title: Data Analysis and Knowledge Spaces
+Version: 2.0-0
+Date: 2009-02-26
+Author: Anatol Sargin <anatol.sargin@math.uni-augsburg.de>, Ali Uenlue
+        <ali.uenlue@math.uni-augsburg.de>
+Maintainer: Anatol Sargin <anatol.sargin@math.uni-augsburg.de>, Ali
+        Uenlue <ali.uenlue@math.uni-augsburg.de>
+Description: Functions and example datasets for the psychometric theory
+        of knowledge spaces.  This package implements data analysis
+        methods and procedures for simulating data and transforming
+        different formulations in knowledge space theory.
+Depends: R (>= 2.9.1), relations, sets
+Suggests: Rgraphviz
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://stats.math.uni-augsburg.de/mitarbeiter/sargin/,
+        http://www.math.uni-augsburg.de/~uenlueal/
+Packaged: 2009-09-02 09:43:57 UTC; anatolsargin
+Repository: CRAN
+Date/Publication: 2009-09-03 09:23:28

@@ -1,0 +1,15 @@
+Package: rrules
+Version: 0.1-0
+Title: Generic rule engine for R
+Description: Apply a set of transformation rules to any R function,
+        call or expression.
+Author: Oliver Flasch, Olaf Mersmann, Thomas Bartz-Beielstein
+Maintainer: Oliver Flasch <oliver.flasch@fh-koeln.de>
+License: GPL-2
+URL: https://rsymbolic.org/projects/show/rrules
+LazyData: yes
+Collate: 'patmatch.r' 'rules.r' 'simplify.r' 'utils.r'
+Date:
+Packaged: 2010-05-22 08:44:18 UTC; oflasch
+Repository: CRAN
+Date/Publication: 2010-05-22 10:16:05

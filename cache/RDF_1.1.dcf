@@ -1,0 +1,15 @@
+Package: RDF
+Type: Package
+Title: RDF reading and writing
+Version: 1.1
+Date: 2011-10-27
+Author: Willem Robert van Hage <W.R.van.Hage@vu.nl>
+Maintainer: Willem Robert van Hage <W.R.van.Hage@vu.nl>
+Description: Load triples from RDF files into a data.frame. Save
+        triples in a data.frame into RDF files.
+License: GPL-3
+SystemRequirements: libraptor2 (>= 2.0.0 http://librdf.org/raptor/)
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:30 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:30

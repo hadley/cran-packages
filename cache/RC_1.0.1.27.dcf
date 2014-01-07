@@ -1,0 +1,17 @@
+Package: RC
+Type: Package
+Title: Reproducible Computing
+Version: 1.0.1.27
+Date: 2009-10-02
+Author: Patrick Wessa
+Maintainer: Send complaints to <patrick@wessa.net>
+Depends: igraph
+Description: The RC package allows the user to create and use
+        reproducible computations for the purpose of research and
+        education. The meta data about the computations are stored in a
+        remote repository which is hosted at www.freestatistics.org
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-10-02 07:08:16 UTC; root
+Repository: CRAN
+Date/Publication: 2009-10-02 13:33:29

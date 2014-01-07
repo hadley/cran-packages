@@ -1,0 +1,22 @@
+Package: RAMpath
+Type: Package
+Title: RAMpath
+Version: 0.2
+Date: 2012-05-29
+Author: Zhiyong Zhang, Jack McArdle, Aki Hamagami, & Kevin Grimm
+Maintainer: Zhiyong Zhang <zzhang4@nd.edu>
+Description: RAMpath is a rewrite of RAMpath software developed by John
+        McArdle and Steven Boker. However, it does more than the
+        original software by providing flexible fit of growth curve
+        models, univariate and bivariate latent change score models. It
+        can also generate the vector field plot for the bivariate
+        latent change score models.
+Depends: R (>= 2.7), lavaan
+License: GPL-2
+URL: http://rpackages.psychstat.org
+Repository: CRAN
+Repository/R-Forge/Project: semdiag
+Repository/R-Forge/Revision: 36
+Repository/R-Forge/DateTimeStamp: 2012-10-22 14:28:01
+Date/Publication: 2012-10-24 06:33:17
+Packaged: 2012-10-23 06:27:42 UTC; rforge

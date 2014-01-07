@@ -1,0 +1,16 @@
+Package: symbolicDA
+Title: Analysis of symbolic data
+Version: 0.4-1
+Date: 2013-10-11
+Author: Andrzej Dudek, Marcin Pelka <marcin.pelka@ue.wroc.pl>, Justyna Wilk<justyna.wilk@ue.wroc.pl>
+Maintainer: Andrzej Dudek <andrzej.dudek@ue.wroc.pl>
+Depends: clusterSim,XML
+Imports: rgl,shapes,e1071,ade4
+Description: Symbolic Data Analysis Methods: importing/ exporting data from ASSO XML Files, distance calculation for symbolic data (Ichino-Yaguchi, de Carvalho measure), zoom star plot, 3d interval plot, multidimensional scaling for symbolic interval data, dynamic clustering based on distance matrix, HINoV method for symbolic data, Ichino's feature selection method, principal component analysis for symbolic interval data, decision trees for symbolic data based on optimal split with bagging, boosting and random forest approach (+visualization), kernel discriminant analysis for symbolic data, Kohonen's self-organizing maps for symbolic, replication and profiling, artificial symbolic data generation.
+License: GPL (>= 2)
+URL: http://keii.ue.wroc.pl/symbolicDA
+Encoding: UTF-8
+Packaged: 2013-10-12 10:16:38 UTC; andrzej
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-12 19:10:50

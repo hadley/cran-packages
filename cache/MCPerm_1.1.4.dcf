@@ -1,0 +1,16 @@
+Package: MCPerm
+Type: Package
+Title: A Monte Carlo permutation method for multiple test correlation
+Version: 1.1.4
+Date: 2013-06-17
+Author: Lanying Zhang and Yongshuai Jiang
+Maintainer: Yongshuai Jiang <jiangyongshuai@gmail.com>
+Description: A Monte Carlo permutation method for multiple test
+        correlation.
+License: GPL-2
+Suggests: stats
+Depends: metafor, graphics
+Packaged: 2013-06-17 11:49:16 UTC; Zhang Lanying
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-17 16:58:49

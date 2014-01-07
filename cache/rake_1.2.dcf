@@ -1,0 +1,19 @@
+Package: rake
+Type: Package
+Title: Normalize sample weights using marginal total population
+        weights.
+Version: 1.2
+Date: 2011-03-03
+Author: Toby Dylan Hocking <toby.hocking@inria.fr>
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>
+Description: Raking a survey dataset entails re-weighting a sample by
+        making the sample marginal totals agree with the population
+        marginal totals for two survey response variables. Raking is a
+        robust technique that is often useful for dealing with
+        nonresponse. The 'rake' package streamlines the process of
+        Raking by creating the special 'rake' class, which is
+        essentially a summary of the sample weights.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:59:34 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:34

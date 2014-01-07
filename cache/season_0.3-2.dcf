@@ -1,0 +1,17 @@
+Package: season
+Type: Package
+Title: Seasonal analysis of health data
+Version: 0.3-2
+Date: 2012-08-03
+Author: Adrian Barnett <a.barnett@qut.edu.au>, Peter Baker
+        <p.baker1@uq.edu.au>
+Maintainer: Adrian Barnett <a.barnett@qut.edu.au>
+Description: Routines for the seasonal analysis of health data,
+        including regression models, time-stratified case-crossover,
+        plotting functions and residual checks. Thanks to Yuming Guo
+        for checking the case-crossover code.
+Depends: R (>= 2.13.0), lattice, MASS, mgcv, survival, coda
+License: GPL (>= 3)
+Packaged: 2012-08-03 06:52:47 UTC; pete
+Repository: CRAN
+Date/Publication: 2012-08-05 06:02:42

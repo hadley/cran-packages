@@ -1,0 +1,10 @@
+Package: rrcov
+Date: 2005-10-17
+Title: Scalable Robust Estimators with High Breakdown Point
+Version: 0.2-9
+Author: Originally written for S-PLUS (fastlts and fastmcd) by Peter Rousseeuw <rousse@uia.ua.ac.be> & Katrien van Driessen <katrien.vandriessen@ua.ac.be>, ported to R, adapted and packaged by Valentin Todorov <valentin.todorov@chello.at>
+Description: Functions for Robust Location and Scatter Estimation and Robust Regression with High Breakdown Point - covMcd(), ltsReg().
+Maintainer: Valentin Todorov <valentin.todorov@chello.at>
+Depends: R (>= 1.8) 
+License: GPL version 2 or later 
+Packaged: Fri Oct 21 01:01:21 2005; Share

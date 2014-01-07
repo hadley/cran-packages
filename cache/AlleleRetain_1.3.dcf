@@ -1,0 +1,18 @@
+Package: AlleleRetain
+Type: Package
+Title: Allele Retention, Inbreeding, and Demography
+Version: 1.3
+Depends: R (>= 2.11.0)
+Suggests: pedigree
+Date: 2013-01-02
+Author: Emily Weiser
+Maintainer: Emily Weiser <emily.l.weiser@gmail.com>
+Description: Simulate the effect of management or demography on allele
+        retention and inbreeding accumulation in bottlenecked
+        populations of animals with overlapping generations.
+License: GPL (>= 2)
+ZipData: yes
+URL: https://sites.google.com/site/alleleretain/
+Packaged: 2013-01-02 07:10:57 UTC; Emily
+Repository: CRAN
+Date/Publication: 2013-01-02 08:27:24

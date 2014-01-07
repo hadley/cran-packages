@@ -1,0 +1,42 @@
+Package: Rttf2pt1
+Title: Package for ttf2pt1 program
+Version: 1.0
+Authors@R: c(person("Winston", "Chang", email="winston@stdout.org",
+        role=c("ctb", "cre")), person("Andrew", "Weeks",
+        email="ccsaw@bath.ac.uk", role="ctb"), person("Frank M.",
+        "Siegert", email="fms@this.net", role="ctb"), person("Mark",
+        "Heath", email="mheath@netspace.net.au", role="ctb"),
+        person("Thomas", "Henlich",
+        email="thenlich@rcs.urz.tu-dresden.de", role="ctb"),
+        person("Sergey", "Babkin",
+        email="babkin@users.sourceforge.net", role="ctb"),
+        person("Turgut", "Uyar", email="uyar@cs.itu.edu.tr",
+        role="ctb"), person("Rihardas", "Hepas",
+        email="rch@WriteMe.Com", role="ctb"), person("Szalay", "Tamas",
+        email="tomek@elender.hu", role="ctb"), person("Johan",
+        "Vromans", email="jvromans@squirrel.nl", role="ctb"),
+        person("Petr", "Titera", email="P.Titera@sh.cvut.cz",
+        role="ctb"), person("Lei", "Wang",
+        email="lwang@amath8.amt.ac.cn", role="ctb"), person("Chen",
+        "Xiangyang", email="chenxy@sun.ihep.ac.cn", role="ctb"),
+        person("Zvezdan", "Petkovic", email="z.petkovic@computer.org",
+        role="ctb"), person("Rigel", email="rigel863@yahoo.com",
+        role="ctb"), person("I. Lee", "Hetherington",
+        email="ilh@lcs.mit.edu", role="ctb"))
+Maintainer: Winston Chang <winston@stdout.org>
+Description: This package contains the program ttf2pt1, for use with
+        the extrafont package. This product includes software developed
+        by the TTF2PT1 Project and its contributors.
+Depends: R (>= 2.14)
+License: X11 + file LICENSE
+URL: https://github.com/wch/ttf2pt1
+Collate: 'Rttf2pt1.r'
+Packaged: 2012-06-11 15:20:28 UTC; winston
+Author: Winston Chang [ctb, cre], Andrew Weeks [ctb], Frank M. Siegert
+        [ctb], Mark Heath [ctb], Thomas Henlich [ctb], Sergey Babkin
+        [ctb], Turgut Uyar [ctb], Rihardas Hepas [ctb], Szalay Tamas
+        [ctb], Johan Vromans [ctb], Petr Titera [ctb], Lei Wang [ctb],
+        Chen Xiangyang [ctb], Zvezdan Petkovic [ctb], Rigel [ctb], I.
+        Lee Hetherington [ctb]
+Repository: CRAN
+Date/Publication: 2012-06-11 15:40:10

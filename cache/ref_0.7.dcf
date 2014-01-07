@@ -1,0 +1,10 @@
+Package: ref
+Version: 0.7
+Date: 2003-12-03
+Title: References for R
+Author: Jens Oehlschlägel (for spam prevention: please email to <joehl@web.de> without cc-ing to lists like r-help)
+Maintainer: Jens Oehlschlägel <joehl@web.de>
+Depends: R (>= 1.5.1)
+Description: small package with functions for creating references, reading from and writing ro references and a memory efficient refdata type that transparently encapsulates matrixes and data.frames
+License: GPL
+URL:

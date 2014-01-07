@@ -1,0 +1,34 @@
+Package: R.filesets
+Version: 0.9.7
+Date: 2011-03-11
+Title: Easy handling of and access to files organized in structured
+        directories
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.6.0), R.methodsS3 (>= 1.2.1), R.oo (>= 1.7.5), R.utils
+        (>= 1.7.0), digest (>= 0.4.2)
+Suggests: gtools (>= 2.6.2)
+Description: A file set refers to a set of files located in one or more
+        directories on the file system.  This package provides classes
+        and methods to locate, setup, subset, navigate and iterate
+        suchs sets.  The API is designed such that these classes can be
+        subsetted to provide a richer API for special file formats.
+        Moreover, a specific name format is defined such that filenames
+        and directories can be considered to have fullnames which
+        consists of a name followed by comma-separated tags.  This adds
+        additional flexibility to identify file sets and individual
+        files.  NOTE: This package's API should be considered to be in
+        an beta stage.  Its main purpose is currently to support the
+        aroma.* packages, where it is one of the main core components;
+        if you decide to build on top of this package, please contact
+        the author first.
+License: LGPL (>= 2.1)
+URL: http://www.aroma-project.org/
+PatchURL: http://www.braju.com/R/
+LazyLoad: TRUE
+biocViews: Infrastructure, DataImport, DataRepresentation
+Repository: CRAN
+Repository/R-Forge/Project: r-dots
+Repository/R-Forge/Revision: 497
+Date/Publication: 2011-03-14 08:31:45
+Packaged: 2011-03-11 21:38:17 UTC; rforge

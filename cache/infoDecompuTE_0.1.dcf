@@ -1,0 +1,23 @@
+Package: infoDecompuTE
+Type: Package
+Title: Computation of the Coefficients of the Variance Components for
+        the Expected Mean Squares
+Version: 0.1
+Date: 2011-02-28
+Author: Kevin Chang and Katya Ruggiero
+Maintainer: Kevin Chang <kcha193@aucklanduni.ac.nz>
+Description: infoDecompuTE is a package designed specifically for
+        studying the analysis of variance (ANOVA) table of the
+        two-phase experiments. By inputting the design and the
+        relationships of the random and fixed factors using the
+        Wilkinson-Rogers syntax, EMSVarComp can generate the structure
+        of the ANOVA table with the coefficients of the variance
+        components for the expected mean squares. This package can also
+        study the balance incomplete block design and provides the
+        efficiency factors with the ANOVA table.
+Depends: R (>= 2.10.0), MASS
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-03-17 00:32:33 UTC; kcha193
+Repository: CRAN
+Date/Publication: 2011-03-17 05:45:59

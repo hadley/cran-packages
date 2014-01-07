@@ -1,0 +1,14 @@
+Package: RFGLS
+Version: 1.1
+Date: 2013-8-29
+Title: Rapid Feasible Generalized Least Squares
+Author: Robert M. Kirkpatrick <rkirkpatrick2@vcu.edu>, Xiang Li <lixxx554@umn.edu>, and Saonli Basu <saonli@umn.edu>.
+Maintainer: Saonli Basu <saonli@umn.edu>
+Description: RFGLS  uses a generalized least-squares method to perform single-marker association analysis, 
+  in datasets of nuclear families containing parents, twins, and/or adoptees
+Depends: stats, bdsmatrix, Matrix, R (>= 2.15.0)
+License: GPL (>= 2)
+Packaged: 2013-08-29 23:02:18 UTC; kirk0191
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-03 19:29:45

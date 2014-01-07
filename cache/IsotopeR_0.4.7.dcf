@@ -1,0 +1,19 @@
+Package: IsotopeR
+Type: Package
+Title: Stable isotope analysis
+Version: 0.4.7
+Date: 2013-09-30
+Author: Jake Ferguson and Jack Hopkins
+Maintainer: Jake Ferguson <troutinthemilk@gmail.com>
+Description: Estimates diet contributions from isotopic sources using JAGS.
+    Includes estimation of concentration dependence and measurement error.
+Depends: coda, fgui, runjags
+Suggests: colorspace, ellipse, plotrix
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'IsotopeRModelsGroups.R' 'IsotopeRModelsNoGroups.R'
+        'IsotopeRgui.R' 'Plot_jags.r'
+Packaged: 2013-10-01 16:58:20 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-01 19:29:17

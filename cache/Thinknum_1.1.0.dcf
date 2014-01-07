@@ -1,0 +1,15 @@
+Package: Thinknum
+Title: Thinknum Data Connection
+Version: 1.1.0
+Date: 2013-09-02
+Author: Gregory Ugwi
+Maintainer: Gregory Ugwi <gregory.ugwi@thinknum.com>
+Description: This package interacts directly with the Thinknum API to offer data
+    in a number of formats usable in R
+Imports: RCurl, RJSONIO
+License: GPL-2
+Collate: 'Thinknum.R'
+Packaged: 2013-09-02 12:56:04 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-02 21:47:40

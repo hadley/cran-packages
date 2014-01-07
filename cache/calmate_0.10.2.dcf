@@ -1,0 +1,28 @@
+Package: calmate
+Version: 0.10.2
+Depends: R (>= 2.15.0), R.utils (>= 1.26.2), aroma.core (>= 2.10.0)
+Imports: utils, MASS, matrixStats (>= 0.8.5), R.methodsS3 (>= 1.4.4),
+        R.oo (>= 1.13.9), R.utils (>= 1.26.2), R.filesets (>= 2.1.0),
+        aroma.core (>= 2.10.0)
+Date: 2013-08-03
+Title: CalMaTe - Improved allele-specific copy number of SNP arrays for
+        downstream segmentation
+Description: A multi-array post-processing method of allele-specific copy-number estimates (ASCNs)
+Authors@R: c(
+  person("Maria", "Ortiz", role=c("aut", "ctb")),
+  person("Ander", "Aramburu", role=c("ctb")),
+  person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                 email="henrikb@braju.com"),
+  person("Pierre", "Neuvial", role=c("aut", "ctb")),
+  person("Angel", "Rubio", role=c("aut", "ctb")))
+Author: Maria Ortiz, Ander Aramburu, Henrik Bengtsson, Pierre Neuvial, Angel Rubio
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+License: LGPL (>= 2.1)
+URL: http://r-forge.r-project.org/projects/snpsprocessing/
+LazyLoad: TRUE
+biocViews: Infrastructure, Microarray, DNACopyNumber, Preprocessing,
+        aCGH, SNP, CopyNumberVariants
+Packaged: 2013-08-04 07:37:31 UTC; hb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-04 17:19:04

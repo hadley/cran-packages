@@ -1,0 +1,17 @@
+Package: auteur
+Type: Package
+Title: Bayesian sampler of the trait-evolutionary process
+Version: 0.12.0118
+Date: 2012-01-18
+Author: JM Eastman, ME Alfaro, AL Hipp, P Joyce, Matthew Pennell, and
+        LJ Harmon
+Maintainer: Jonathan Eastman <jonathan.eastman@gmail.com>
+Depends: ape, geiger, colorspace, Rcpp
+LinkingTo: Rcpp
+Description: Identifies shifts in process of continuous-trait evolution
+        on phylogenetic trees
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-01-19 16:39:34 UTC; jeastman
+Repository: CRAN
+Date/Publication: 2012-01-19 20:42:17

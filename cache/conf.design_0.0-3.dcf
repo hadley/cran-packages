@@ -1,0 +1,15 @@
+Package: conf.design
+Version: 0.0-3
+Date: 2001-12-29
+Title: Construction of factorial designs
+Author: Bill Venables <Bill.Venables@CMIS.CSIRO.AU>
+Maintainer: Bill Venables <Bill.Venables@CMIS.CSIRO.AU>
+Description: This small library contains a series of simple tools for
+	constructing and manipulating confounded and fractional
+	factorial designs. To some extent these complement those
+	already available in S-PLUS 3.1 and 3.2, (but they 
+	may well be rendered obsolete by S+DOX, to which the author
+	does not yet have access).
+License: This software may be re-distributed freely and used for
+	any non-commercial purpose.
+

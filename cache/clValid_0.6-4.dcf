@@ -1,0 +1,21 @@
+Package: clValid
+Version: 0.6-4
+Date: 2011-10-17
+Title: Validation of Clustering Results
+Author: Guy Brock <guy.brock@louisville.edu>, Vasyl Pihur
+        <vasyl.pihur@louisville.edu>, Susmita Datta
+        <susmita.datta@louisville.edu>, and Somnath Datta
+        <somnath.datta@louisville.edu>
+Maintainer: Guy Brock <guy.brock@louisville.edu>
+Depends: R (>= 2.0), methods, cluster, class
+Suggests: Biobase, annotate, GO.db, moe430a.db, RankAggreg, kohonen,
+        mclust
+Description: Statistical and biological validation of clustering
+        results.
+License: LGPL-3
+URL: http://guybrock.gpbrock.net/research
+Collate: clValid-Classes.R clValid-Methods.R clValid-internal.R
+        clValid-functions.R
+Packaged: 2011-10-17 20:35:47 UTC; g0broc01
+Repository: CRAN
+Date/Publication: 2011-10-18 05:59:56

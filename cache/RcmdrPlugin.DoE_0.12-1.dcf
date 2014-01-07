@@ -1,0 +1,24 @@
+Package: RcmdrPlugin.DoE
+Version: 0.12-1
+Date: 2013-07-05
+Title: R Commander Plugin for (industrial) Design of Experiments
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@beuth-hochschule.de>
+Depends: R (>= 2.10.0), DoE.base (>= 0.22-8), FrF2 (>= 1.2-10),
+        DoE.wrapper (>= 0.8-6), tcltk, relimp
+Imports: Rcmdr
+Suggests: FrF2.catlg128
+RcmdrModels: rsm
+Description: The package provides a platform-independent GUI for design
+        of experiments.  It is implemented as a plugin to the
+        R-Commander, which is a more general graphical user interface
+        for statistics in R based on tcl/tk.  DoE functionality can be
+        accessed through the menu Design that is added to the
+        R-Commander menus.
+License: GPL (>= 2)
+Encoding: latin1
+URL: http://prof.beuth-hochschule.de/groemping/DoE
+Packaged: 2013-07-05 05:41:36 UTC; Grömping
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-05 09:30:28

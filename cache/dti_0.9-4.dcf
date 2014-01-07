@@ -1,0 +1,29 @@
+Package: dti
+Version: 0.9-4
+Date: 2011-03-03
+Title: Analysis of diffusion weighted imaging (DWI) data
+Author: Karsten Tabelow <tabelow@wias-berlin.de> Joerg Polzehl
+        <polzehl@wias-berlin.de>
+Maintainer: Karsten Tabelow <tabelow@wias-berlin.de>
+Depends: R (>= 2.5.0), methods, adimpro, fmri, rgl
+Suggests: gsl
+Description: Diffusion Weighted Imaging (DWI) is a Magnetic Resonance
+        Imaging modality, that measures diffusion of water in tissues
+        like the human brain. The package contains R-functions to
+        process diffusion-weighted data. The functionality includes
+        diffusion tensor imaging (DTI), structural adaptive smoothing
+        in in case of (DTI) (K. Tabelow, J. Polzehl, V. Spokoiny, and
+        H.U. Voss, Diffusion Tensor Imaging: Structural Adaptive
+        Smoothing, Neuroimage 39(4), 1763-1773 (2008)), modeling for
+        high angular resolution diffusion weighted imaging (HARDI)
+        using Q-ball-reconstruction and tensor mixture models and a
+        stremaline fiber tracking for tensor and tensor mixture models.
+        The package provides functionality to manipulate and visualize
+        results in 2D and 3D.
+License: GPL (>= 2)
+Copyright: This package is Copyright (C) 2005-2011 Weierstrass
+        Institute for Applied Analysis and Stochastics.
+URL: http://www.wias-berlin.de/projects/matheon_a3
+Packaged: 2011-03-03 17:33:00 UTC; polzehl
+Repository: CRAN
+Date/Publication: 2011-03-08 12:51:32

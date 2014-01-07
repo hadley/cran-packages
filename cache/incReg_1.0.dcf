@@ -1,0 +1,17 @@
+Package: incReg
+Type: Package
+Title: Incremental Multivariate Regression
+Version: 1.0
+Date: 2013-05-04
+Authors@R: c(person("Alexander", "Entzian", role=c("cre","aut","cph"),
+        email="a.entzian@alexander-entzian.de"))
+Maintainer: Alexander Entzian <a.entzian@alexander-entzian.de>
+Description: The incReg package calculate the incremental multivariate Regression based on a given dataset or a .csv file, based on the multiple linear regression
+License: LGPL (>= 3)
+Depends: R (>= 2.14.0), car, methods
+LazyLoad: yes
+Packaged: 2013-10-10 06:43:24 UTC; alex
+Author: Alexander Entzian [cre, aut, cph]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-10 09:50:24

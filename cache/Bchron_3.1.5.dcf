@@ -1,0 +1,26 @@
+Package: Bchron
+Type: Package
+Title: Bayesian chronologies via compound Poisson-Gamma processes.
+Version: 3.1.5
+Date: 2012-5-1
+Depends: hdrcde, coda, svDialogs
+Author: Andrew Parnell
+Maintainer: Andrew Parnell <Andrew.Parnell@ucd.ie>
+Description: This package takes dating information to produce joint
+        chronological reconstructions for age-depth data. The package
+        allows for: radiocarbon and non-radiocarbon depths, thickness
+        errors, outlying dates, multiple calibration curves, and event
+        prediction. It also produces some pretty pictures, and writes
+        all output to files to allow for further analysis (eg
+        palaeoclimate reconstruction). There is a menu system for
+        users, as well as a command line interface for advanced and/or
+        batch processing. This version contains an update to produce
+        better plots of proxy data via the function Bchronproxyplot.
+        ***IMPORTANT NOTE*** This version fixes a serious bug which was
+        present in versions 3.1.1 and 3.1.2. You should have noticed
+        this bug anyway when you ran the Bchronconvergecheck function.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-06-11 09:45:46 UTC; andrewparnell
+Repository: CRAN
+Date/Publication: 2012-06-11 14:56:30

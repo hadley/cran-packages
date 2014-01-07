@@ -1,0 +1,29 @@
+Package: psychomix
+Version: 0.1-1
+Date: 2011-10-05
+Title: Psychometric Mixture Models
+Authors@R: c(person(given = "Hannah", family = "Frick", role = c("aut",
+        "cre"), email = "Hannah.Frick@uibk.ac.at"), person(given =
+        "Carolin", family = "Strobl", role = "aut", email =
+        "Carolin.Strobl@psychologie.uzh.ch"), person(given =
+        "Friedrich", family = "Leisch", role = "aut", email =
+        "Friedrich.Leisch@R-project.org"), person(given = "Achim",
+        family = "Zeileis", role = "aut", email =
+        "Achim.Zeileis@R-project.org"))
+Author: Hannah Frick [aut, cre], Carolin Strobl [aut], Friedrich Leisch
+        [aut], Achim Zeileis [aut]
+Maintainer: Hannah Frick <Hannah.Frick@uibk.ac.at>
+Description: Psychometric mixture models based on flexmix
+        infrastructure. At the moment only Rasch mixture models are
+        implemented in various flavors: with/without concomitant
+        variables, different parametrizations of the score distribution
+        (saturated vs. mean/variance specification). See
+        vignette("raschmix", package = "psychomix") for details.
+Depends: R (>= 2.10.0), graphics, stats, methods, Formula, flexmix,
+        psychotools
+Imports: graphics, stats, lattice
+Suggests: mRm
+License: GPL-2
+Packaged: 2011-10-05 11:17:15 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2011-10-05 12:18:10

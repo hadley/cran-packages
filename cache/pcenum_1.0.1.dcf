@@ -1,0 +1,16 @@
+Package: pcenum
+Type: Package
+Version: 1.0.1
+Date: 2012-12-10
+Title: Permutations and Combinations Enumeration
+Author: Benjamin Auder
+Maintainer: Benjamin Auder <Benjamin.Auder@gmail.com>
+Depends: R (>= 2.10.1), methods
+Description: Provide methods to iterate through all
+        permutations/combinations without retrieving all (avoid RAM
+        overflow)
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2012-12-10 13:02:50 UTC; auder
+Repository: CRAN
+Date/Publication: 2012-12-10 14:21:18

@@ -1,0 +1,15 @@
+Package: expert
+Type: Package
+Title: Modeling of data using expert opinion
+Version: 0.1-1
+Date: 2008-07-16
+Author: Mathieu Pigeon, Michel Jacques, Vincent Goulet
+Maintainer: Mathieu Pigeon <mathieu.pigeon.3@ulaval.ca>
+Description:
+Depends: R (>= 2.6.0), stats
+License: GPL (>= 2)
+Encoding: latin1
+LazyLoad: yes
+LazyData: yes
+ZipData: yes
+Packaged: Thu Jul 17 11:43:02 2008; MaTT

@@ -1,0 +1,25 @@
+Package: bentcableAR
+Type: Package
+Title: Bent-Cable Regression for Independent Data or Autoregressive
+        Time Series
+Version: 0.2.3
+Date: 2010-09-20
+Author: Grace Chiu <bentcable@gmail.com>, CSIRO Mathematics,
+        Informatics and Statistics, GPO Box 664, Canberra, ACT 2601,
+        Australia
+Maintainer: author <bentcable@gmail.com>
+Description: This package contains two main interfaces for fitting and
+        diagnosing bent-cable regressions for autoregressive
+        time-series data or independent data (time series or
+        otherwise). The interfaces are 'bentcable.ar()' and
+        'bentcable.dev.plot()'. Some components in the package can also
+        be used as stand-alone functions. The bent cable
+        (linear-quadratic-linear) generalizes the broken stick
+        (linear-linear), which is also handled by this package. Version
+        0.2 corrects a glitch in the computation of confidence
+        intervals for the CTP. References updated from Versions 0.2.1
+        and 0.2.2 appear in Version 0.2.3.
+License: GPL (>= 3)
+Packaged: 2012-10-29 08:58:16 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:16

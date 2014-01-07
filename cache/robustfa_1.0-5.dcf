@@ -1,0 +1,16 @@
+Package: robustfa
+Type: Package
+Title: An Object Oriented Solution for Robust Factor Analysis
+Version: 1.0-5
+Date: 2013-11-09
+Author: Ying-Ying Zhang (Robert)
+Maintainer: Ying-Ying Zhang (Robert) <robertzhangyying@qq.com>
+Description: An object oriented solution for robust factor analysis. In the solution, new S4 classes "Fa", "FaClassic", "FaRobust", "FaCov", "SummaryFa" are created.
+License: GPL (>= 2)
+Depends: rrcov, R (>= 2.15.0)
+Imports: methods, stats4, stats
+Suggests: grid, lattice, cluster, mclust, MASS, ellipse
+Repository: CRAN
+Packaged: 2013-11-12 13:10:24 UTC; Administrator
+NeedsCompilation: no
+Date/Publication: 2013-11-12 15:02:31

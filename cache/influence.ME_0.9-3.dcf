@@ -1,0 +1,28 @@
+Package: influence.ME
+Type: Package
+Title: Tools for detecting influential data in mixed effects models
+Version: 0.9-3
+Date: 2013-09-23
+Author: Rense Nieuwenhuis, Ben Pelzer, Manfred te Grotenhuis
+Maintainer: Rense Nieuwenhuis <rense.nieuwenhuis@sofi.su.se>
+Description: influence.ME provides a collection of tools for
+        detecting influential cases in generalized mixed effects
+        models. It analyses models that were estimated using lme4. The
+        basic rationale behind identifying influential data is that
+        when iteratively single units are omitted from the data, models
+        based on these data should not produce substantially different
+        estimates. To standardize the assessment of how influential a
+        (single group of) observation(s) is, several measures of
+        influence are common practice, such as DFBETAS and Cook's Distance. 
+        In addition, we provide a measure of percentage change of the fixed point 
+        estimates and a simple procedure to detect changing levels of significance.
+License: GPL-3
+URL: http://www.rensenieuwenhuis.nl/r-project/influenceme/
+Depends: R(>= 2.15.0), lme4(>= 1.0)
+Imports: Matrix(>= 1.0), lattice
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-09-25 18:15:26 UTC; Rense
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-25 20:48:13

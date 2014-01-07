@@ -1,0 +1,14 @@
+Package: bayesmix
+Version: 0.7-2
+Date: 2011-10-16
+Author: Bettina Gruen
+Maintainer: Bettina Gruen <Bettina.Gruen@jku.at>
+Title: Bayesian Mixture Models with JAGS
+Depends: R (>= 2.10), rjags (>= 2.1.0), coda (>= 0.13)
+Description: Bayesian mixture models of univariate Gaussian
+        distributions using JAGS
+URL: http://ifas.jku.at/gruen/BayesMix
+License: GPL (>= 2)
+Packaged: 2011-10-16 18:23:06 UTC; gruen
+Repository: CRAN
+Date/Publication: 2011-10-17 05:54:35

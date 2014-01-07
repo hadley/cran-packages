@@ -1,0 +1,17 @@
+Package: bayess
+Title: Bayesian Essentials with R
+Version: 1.4
+Date: 2013-02-02
+Depends: stats, MASS, mnormt, gplots, combinat
+Author: Christian P. Robert, Universite Paris Dauphine, and Jean-Michel
+        Marin, Universite Montpellier 2
+Maintainer: Christian P. Robert <xian@ceremade.dauphine.fr>
+Description: bayess contains a collection of functions that allows the
+        reenactment of the R programs used in the book "Bayesian
+        Essentials with R" (revision of "Bayesian Core") without
+        further programming. R code being available as well, they can
+        be modified by the user to conduct one's own simulations.
+License: GPL-2
+Packaged: 2013-02-09 21:07:30 UTC; xian
+Repository: CRAN
+Date/Publication: 2013-02-09 22:07:40

@@ -1,0 +1,23 @@
+Package: EasyABC
+Type: Package
+Title: EasyABC: performing efficient approximate Bayesian computation
+        sampling schemes
+Version: 1.0
+Date: 2012-11-20
+Author: Franck Jabot, Thierry Faure, Nicolas Dumoullin
+Maintainer: Nicolas Dumoulin <nicolas.dumoulin@irstea.fr>
+URL: http://easyabc.r-forge.r-project.org/
+Depends: R (>= 2.14.0), lhs, pls, mnormt, MASS, parallel
+Description: The package EasyABC enables to launch a series of
+        simulations of a computer code from the R platform, and to
+        retrieve the simulation outputs in an appropriate format for
+        post-processing treatments. Four sequential sampling schemes
+        and three coupled-to-MCMC schemes are implemented.
+License: GPL-3
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: easyabc
+Repository/R-Forge/Revision: 228
+Repository/R-Forge/DateTimeStamp: 2012-11-20 10:49:25
+Date/Publication: 2012-11-20 13:13:44
+Packaged: 2012-11-20 11:19:32 UTC; rforge

@@ -1,0 +1,15 @@
+Package: pairheatmap
+Title: A tool for comparing heatmaps
+Version: 1.0.1
+Date: 2012-02-05
+Depends: R (>= 2.10.0), grid
+Author: Xiaoyong Sun
+Maintainer: Xiaoyong Sun <johnsunx1@gmail.com>
+Description: A tool to compare two heatmaps and discover patterns
+        within and across groups. In the context of biology, group can
+        be defined based on gene ontology.
+License: GPL (>= 2)
+LazyData: true
+Repository: CRAN
+Date/Publication: 2012-02-10 05:54:40
+Packaged: 2012-02-10 01:15:18 UTC; sunx1

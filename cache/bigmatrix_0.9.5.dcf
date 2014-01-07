@@ -1,0 +1,22 @@
+Package: bigmatrix
+Type: Package
+Title: Tuning Insensitive Graph Estimation and Regression
+Version: 0.9.5
+Date: 2012-09-22
+Author: Xingguo Li, Tuo Zhao, Lie Wang and Han Liu
+Maintainer: Xingguo Li <xingguo.leo@gmail.com>
+Depends: R (>= 2.14), glmnet, lattice, igraph, MASS, Matrix
+Description: The package "bigmatrix" estimates high dimensional
+        precision matrices for Gaussian graphical models. We adopt two
+        estimation procedures based column by column regression: (1)
+        Tuning-Insensitive Graph Estimation and Regression (TIGER). (2)
+        The Constrained L1 Minimization for Sparse Precision Matrix
+        Estimation (CLIME). (3) Adaptive Lasso for Sparse Precision
+        Matrix Estimation (ADP). The optimization algorithm for CLIME
+        and ADP are based on alternative direction method combined with
+        coordinate decent. The computation is memory-optimized using
+        the sparse matrix output.
+License: GPL-2
+Repository: CRAN
+Packaged: 2012-09-22 22:12:09 UTC; admin-118
+Date/Publication: 2012-09-23 06:12:32

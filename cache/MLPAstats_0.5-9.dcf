@@ -1,0 +1,21 @@
+Package: MLPAstats
+Type: Package
+Title: MLPA analysis to detect gains and loses in genes
+Version: 0.5-9
+Date: 2011-February-11
+Depends: nlme, boot, tcltk, tkrplot, pixmap
+Author: Alejandro Cáceres and Juan R González
+Maintainer: Juan R González <jrgonzalez@creal.cat>
+Description: MLPAstats is a software designed to test copy number
+        differences between case and control samples, identified with
+        multiplex-dependent probe amplification (MLPA) data. The
+        package incorporates several methods for data normalization and
+        copy number alterations such as REX-regression, threshold
+        approach and mixed-models.
+License: GPL (>= 2)
+URL: http://www.r-project.org and
+        http://www.creal.cat/jrgonzalez/software.htm
+Encoding: latin1
+Packaged: 2011-02-11 13:21:51 UTC; jrgonzalez
+Repository: CRAN
+Date/Publication: 2011-02-11 16:14:30

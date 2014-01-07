@@ -1,0 +1,16 @@
+Package: evd
+Version: 2.1-0
+Date: 2004-05-01
+Title: Functions for extreme value distributions
+Author: Alec Stephenson <alec_stephenson@hotmail.com>.
+Maintainer: Alec Stephenson <alec_stephenson@hotmail.com>
+Depends: R (>= 1.5.0)
+Description: Extends simulation, distribution, quantile and 
+  density functions to univariate and multivariate parametric 
+  extreme value distributions, and provides fitting functions 
+  which calculate maximum likelihood estimates for univariate 
+  and bivariate maxima models, and for univariate threshold
+  models.
+License: GPL (Version 2 or above)
+URL: http://www.maths.lancs.ac.uk/~stephena/
+Packaged: Mon Apr 19 16:26:57 2004; stephena

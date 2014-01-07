@@ -1,0 +1,40 @@
+Package: bit
+Type: Package
+Title: A class for vectors of 1-bit booleans
+Version: 1.1-2
+Date: 2009-07-07
+Author: Jens Oehlschl\xE4gel <Jens.Oehlschlaegel@truecluster.com>
+Maintainer: Jens Oehlschl\xE4gel <Jens.Oehlschlaegel@truecluster.com>
+Depends: R (>= 2.9.2)
+Description: bitmapped vectors of booleans (no NAs), coercion from and
+        to logicals, integers and integer subscripts; fast boolean
+        operators and fast summary statistics. With 'bit' vectors you
+        can store true binary booleans {FALSE,TRUE} at the expense of 1
+        bit only, on a 32 bit architecture this means factor 32 less
+        RAM and factor 32 more speed on boolean operations. With this
+        speed gain it even pays-off to convert to bit in order to avoid
+        a single boolean operation on logicals or a single set
+        operation on (longer) integer subscripts, the pay-off is
+        dramatic when such components are used more than once. Reading
+        from and writing to bit is approximately as fast as accessing
+        standard logicals - mostly due to R's time for memory
+        allocation. The package allows to work with pre-allocated
+        memory for return values by calling .Call() directly: when
+        evaluating the speed of C-access with pre-allocated vector
+        memory, coping from bit to logical requires only 70% of the
+        time for copying from logical to logical; and copying from
+        logical to bit comes at a performance penalty of 150%. the
+        package now contains further classes for representing logical
+        selections: 'bitwhich' for very skewed selections and 'ri' for
+        selecting ranges of values for chunked processing. All three
+        index classes can be used for subsetting 'ff' objects (ff-2.1-0
+        and higher).
+License: GPL-2
+LazyLoad: yes
+URL: http://ff.r-forge.r-project.org/
+Encoding: latin1
+Repository: CRAN
+Repository/R-Forge/Project: ff
+Repository/R-Forge/Revision: 16
+Date/Publication: 2009-10-26 19:26:39
+Packaged: 2009-10-25 21:08:26 UTC; rforge

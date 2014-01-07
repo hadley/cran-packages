@@ -1,0 +1,13 @@
+Package: sealasso
+Version: 0.1-2
+Date: 2010-01-10
+Title: Standard Error Adjusted Adaptive Lasso
+Author: Wei Qian <weiqian@stat.umn.edu>
+Maintainer: Wei Qian <weiqian@stat.umn.edu>
+Depends: R (>= 2.9.1), lars
+Description: Standard error adjusted adaptive lasso (SEA-lasso) is a version of the adaptive lasso, which incorporates OLS standard error to the L1 penalty weight. This method is intended for variable selection under linear regression settings (n > p). This new weight assignment strategy is especially useful when the collinearity of the design matrix is a concern. 
+License: GPL (>= 2)
+Packaged: 2013-12-12 00:03:39 UTC; weiqian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-12 02:14:25

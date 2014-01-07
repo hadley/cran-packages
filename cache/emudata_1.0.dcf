@@ -1,0 +1,19 @@
+Package: emudata
+Type: Package
+Title: emudata - datasets for the emu package
+Version: 1.0
+Date: 2012-07-03
+Author: Jonathan Harrington, Tina John (package build) and others, IPS
+        LMU Muenchen & IPDS CAU Kiel
+Maintainer: Jonathan Harrington <jmh@phonetik.uni-muenchen.de>
+Description: Some datasets for the emu package
+License: GPL (>= 2)
+Depends: R (>= 2.10)
+Suggests: emu
+LazyLoad: yes
+LazyData: yes
+ZipData: no
+URL: http://emu.sourceforge.net/
+Packaged: 2012-07-03 17:14:59 UTC; Natty
+Repository: CRAN
+Date/Publication: 2012-07-09 16:55:55

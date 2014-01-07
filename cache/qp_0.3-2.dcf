@@ -1,0 +1,22 @@
+Package: qp
+Type: Package
+Title: q-order partial correlation graph search algorithm
+Version: 0.3-2
+Date: 2008-12-18
+Author: Robert Castelo <robert.castelo@upf.edu>, Alberto Roverato
+        <alberto.roverato@unibo.it>
+Maintainer: Robert Castelo <robert.castelo@upf.edu>
+Depends: R (>= 2.10)
+Description: This package is deprecated and it is now only a stub for
+        the newer version called qpgraph available through the
+        Bioconductor project. The q-order partial correlation graph
+        search algorithm, q-partial, or qp, algorithm for short, is a
+        robust procedure for structure learning of undirected Gaussian
+        graphical Markov models from "small n, large p" data, that is,
+        multivariate normal data coming from a number of random
+        variables p larger than the number of multidimensional data
+        points n as in the case of, e.g., microarray data.
+License: GPL (>= 2)
+Packaged: 2012-03-19 08:14:16 UTC; rcastelo
+Repository: CRAN
+Date/Publication: 2012-03-19 11:12:40

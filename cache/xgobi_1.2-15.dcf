@@ -1,0 +1,23 @@
+Package: xgobi
+Version: 1.2-15
+Date: 2012-11-01
+Title: Interface to the XGobi and XGvis programs for graphical data
+        analysis
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Author: Martin Maechler, originally packaged for R by Kurt Hornik
+        <Kurt.Hornik@R-project.org>, based on the S code in the XGobi
+        distribution.  Windows port based on this and earlier work by
+        Brian Ripley <ripley@stats.ox.ac.uk>.
+Description: Interface to the XGobi and XGvis programs for graphical
+        data analysis.
+SystemRequirements: The standalone program xgobi must be installed
+        additionally, see file README, or INSTALL.windows under Windows
+NOTE: XGobi and XGVis have been superseded by ggobi and ggvis,
+        available from www.ggobi.org.  The R package Rggobi can also be
+        obtained there.
+License: file LICENSE
+Packaged: 2012-11-01 10:44:12 UTC; maechler
+Repository: CRAN
+Date/Publication: 2012-11-01 12:14:25
+NeedsCompilation: no
+License_restricts_use: no

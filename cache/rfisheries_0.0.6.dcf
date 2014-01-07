@@ -1,0 +1,23 @@
+Package: rfisheries
+Title: R interface for fisheries data
+Version: 0.0.6
+Date: 2013-12-09
+Authors@R: c(person("Karthik", "Ram", role = c("aut", "cre"), email =
+    "karthik.ram@gmail.com"), person("Carl", "Boettiger", role = "aut"),
+    person("Andrew", "Dyck", role = "aut"))
+Maintainer: Karthik Ram <karthik.ram@gmail.com>
+Description: A programmatic interface to openfisheries.org. This package is
+    part of the rOpenSci suite (http://ropensci.org)
+Depends: R (>= 2.15)
+Imports: httr, data.table, assertthat, ggplot2
+LazyData: yes
+URL: http://www.github.com/ropensci/rfisheries
+BugReports: http://www.github.com/ropensci/rfisheries/issues/new
+License: CC0
+Packaged: 2013-12-10 18:11:38 UTC; karthik
+Author: Karthik Ram [aut, cre],
+  Carl Boettiger [aut],
+  Andrew Dyck [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-10 20:19:39

@@ -1,0 +1,19 @@
+Package: qtbase
+Version: 1.0.4
+Title: Interface between R and Qt
+Author: Michael Lawrence, Deepayan Sarkar
+Depends: R (>= 2.10.0), methods, utils
+URL: http://qtinterfaces.r-forge.r-project.org
+Maintainer: Michael Lawrence <michafla@gene.com>
+Description: Dynamic bindings to the Qt library for calling Qt methods
+        and extending Qt clases from R. Other packages build upon
+        qtbase to provide special-purpose high-level interfaces to
+        specific parts of Qt.
+License: GPL (>= 2)
+SystemRequirements: Qt4 libraries and headers (http://qt.nokia.com),
+        cmake (http://www.cmake.org)
+Acknowledgements: QtRuby and Qyoto projects for head-start on the
+        Smoke-based interface
+Packaged: 2012-03-02 18:57:47 UTC; larman
+Repository: CRAN
+Date/Publication: 2012-03-03 19:03:13

@@ -1,0 +1,18 @@
+Package: graphComp
+Type: Package
+Title: Visual graph comparison
+Version: 1.0
+Date: 2011-01-07
+Author: Khadija El Amrani <Khadija.Amrani@campus.lmu.de>, Ulrich
+        Mansmann <mansmann@ibe.med.uni-muenchen.de>
+Maintainer: ORPHANED
+Description: The package contains functions to support the visual
+        comparison of undirected graphs on the same node set.
+Depends: Rgraphviz, rpanel
+Suggests: pcalg, GeneNet, glasso, ALL, genefilter, hgu95av2.db
+License: GPL-3
+Packaged: 2012-01-12 21:13:21 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-01-12 21:15:23
+X-CRAN-Comment: Orphaned on 2012-01-12 as maintainer address bounces,
+        maintainer is untraceable and co-author failed to reply.

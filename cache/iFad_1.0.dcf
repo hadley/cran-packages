@@ -1,0 +1,21 @@
+Package: iFad
+Type: Package
+Title: An integrative factor analysis model for drug-pathway
+        association inference
+Version: 1.0
+Date: 2011-10-10
+Author: Haisu Ma <haisu.ma@yale.edu>
+Maintainer: Haisu Ma <haisu.ma@yale.edu>
+Depends: R (>= 2.12.1),Rlab,MASS,coda,ROCR
+Description: This package implements a bayesian sparse factor model for
+        the joint analysis of paired datasets, one is the gene
+        expression dataset and the other is the drug sensitivity
+        profiles, measured across the same panel of samples, e.g., cell
+        lines. Prior knowledge about gene-pathway associations can be
+        easily incorporated in the model to aid the inference of
+        drug-pathway associations.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-10-16 23:09:26 UTC; Evelyn
+Repository: CRAN
+Date/Publication: 2011-10-17 05:55:12

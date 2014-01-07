@@ -1,0 +1,18 @@
+Package: Rsymphony
+Version: 0.1-11
+Date: 2010-07-06
+Title: Symphony in R
+Author: Reinhard Harter, Kurt Hornik and Stefan Theussl
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Description: An R interface to the SYMPHONY MILP solver (version
+        5.2.0).
+License: CPL
+Depends: R (>= 2.6.0)
+Enhances: slam
+SystemRequirements: SYMPHONY for Windows (sources included for other
+        OSes)
+URL: http://R-Forge.R-project.org/projects/rsymphony,
+        http://www.coin-or.org/SYMPHONY/
+Packaged: 2010-07-06 10:31:20 UTC; theussl
+Repository: CRAN
+Date/Publication: 2010-07-06 12:24:11

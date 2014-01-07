@@ -1,0 +1,18 @@
+Package: XLConnectJars
+Type: Package
+Title: JAR dependencies for the XLConnect package
+Version: 0.2-0
+Date: 2012-07-18
+Author: Mirai Solutions GmbH
+Maintainer: Martin Studer <martin.studer@mirai-solutions.com>
+URL: http://www.mirai-solutions.com ,
+        http://miraisolutions.wordpress.com
+SystemRequirements: java (>= 1.6)
+Depends: rJava
+Description: This package provides external JAR dependencies for the
+        XLConnect package
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-07-19 18:49:55 UTC; mstuder
+Repository: CRAN
+Date/Publication: 2012-07-20 05:47:22

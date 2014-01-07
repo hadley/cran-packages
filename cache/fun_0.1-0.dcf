@@ -1,0 +1,20 @@
+Package: fun
+Type: Package
+Title: Use R for Fun
+Version: 0.1-0
+Date: 2011-08-12
+Author: Yihui Xie, Taiyun Wei and Yixuan Qiu
+Maintainer: Yihui Xie <xie@yihui.name>
+Description: This is a collection of R games and other funny stuff,
+        such as the classical Mine sweeper and sliding puzzles.
+License: GPL
+LazyLoad: yes
+URL: https://github.com/yihui/fun
+BugReports: https://github.com/yihui/fun/issues
+Collate: 'fun-package.R' 'htmlspecialchars.R' 'shutdown.R'
+        'alzheimer_test.R' 'lights_out.R' 'mine_sweeper.R'
+        'random_password.R' 'sliding_puzzle.R' 'tag_cloud.R'
+        'tower_of_hanoi.R' 'gomoku.R'
+Packaged: 2011-08-12 03:47:04 UTC; yihui
+Repository: CRAN
+Date/Publication: 2011-08-12 05:10:17

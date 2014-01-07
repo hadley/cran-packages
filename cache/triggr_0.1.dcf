@@ -1,0 +1,19 @@
+Package: triggr
+Type: Package
+Title: Fast, simple RPC controller for R
+Version: 0.1
+Date: 2010-05-21
+Depends: R (>= 2.0.0)
+Author: Miron B. Kursa
+Maintainer: Miron B. Kursa <M.Kursa@icm.edu.pl>
+Description: Triggr launches a server that gathers RNRN-terminated text
+        messages, executes arbitrary R function on them and sends back
+        the results in the same format. Communication is event-based
+        and delegated to a septate thread making triggr an efficient
+        solution for high-load tasks.
+URL: https://github.com/mbq/Triggr
+License: file LICENCE | GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-04-05 16:03:14 UTC; mbkursa
+Repository: CRAN
+Date/Publication: 2011-04-05 17:24:57

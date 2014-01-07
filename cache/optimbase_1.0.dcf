@@ -1,0 +1,19 @@
+Package: optimbase
+Type: Package
+Title: R port of the Scilab optimbase module
+Version: 1.0
+Date: 2010-05-01
+Author: Sebastien Bihorel
+Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
+Description: Provides a set of commands to manage an abstract
+        optimization method. The goal is to provide a building block
+        for a large class of specialized optimization methods. This
+        package manages: the number of variables, the minimum and
+        maximum bounds, the number of non linear inequality
+        constraints, the cost function, the logging system, various
+        termination criteria, etc...
+License: CeCILL-2
+LazyLoad: yes
+Packaged: 2010-05-05 04:43:28 UTC; sebastien
+Repository: CRAN
+Date/Publication: 2010-05-05 08:08:58

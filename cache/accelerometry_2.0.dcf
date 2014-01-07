@@ -1,0 +1,16 @@
+Package: accelerometry
+Type: Package
+Title: Functions for processing uniaxial minute-to-minute accelerometer
+        data
+Version: 2.0
+Date: 2013-08-31
+Author: Dane R. Van Domelen
+Maintainer: Dane R. Van Domelen <vandomed@gmail.com>
+Description: This package contains a collection of functions that perform operations on time-series accelerometer data, such as identify non-wear time, flag minutes that are part of an activity bout, and find the maximum 10-minute average count value. The functions are generally very flexible, allowing for a variety of algorithms to be implemented. Most of the functions are written in C++ and therefore execute very quickly.
+License: GPL-2
+Depends: R (>= 2.14.1), Rcpp (>= 0.10.4)
+LinkingTo: Rcpp
+Packaged: 2013-08-31 23:23:34 UTC; xfer
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-01 06:51:28

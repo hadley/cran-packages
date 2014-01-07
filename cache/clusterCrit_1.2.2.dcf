@@ -1,0 +1,17 @@
+Package: clusterCrit
+Type: Package
+Title: Clustering Indices
+Version: 1.2.2
+Date: 2013-06-14
+Author: Bernard Desgraupes (University of Paris Ouest - Lab Modal'X)
+Maintainer: Bernard Desgraupes <bernard.desgraupes@u-paris10.fr>
+Description: compute clustering validation indices
+License: GPL (>= 2)
+URL: http:www.r-project.org
+Collate: main.R zzz.R
+Encoding: latin1
+Suggests: RUnit, rbenchmark
+Packaged: 2013-06-14 11:46:36 UTC; bernardo
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-15 15:37:27

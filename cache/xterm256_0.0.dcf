@@ -1,0 +1,17 @@
+Package: xterm256
+Type: Package
+Title: Support for xterm256 escape sequences
+Version: 0.0
+Date: 2009-04-18
+Author: Romain Francois
+Maintainer: Romain Francois <francoisromain@free.fr>
+Description: Support for xterm256 escape sequences, enabling R
+        functions to take advantage of foreground color, background
+        color, in capable terminals
+License: GPL-3
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: highlight
+Repository/R-Forge/Revision: 68
+Date/Publication: 2009-04-20 07:32:06
+Packaged: 2009-04-19 03:56:31 UTC; rforge

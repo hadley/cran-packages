@@ -1,0 +1,14 @@
+Package: erboost
+Title: Nonparametric Multiple Expectile Regression via ER-Boost.
+Version: 1.2
+Date: 2013-10-11
+Author: Yi Yang <yiyang@umn.edu>, Hui Zou <hzou@stat.umn.edu>
+Maintainer: Yi Yang <yiyang@umn.edu>
+Depends: R (>= 2.12.0), lattice, splines
+Description: Expectile regression is a nice tool for estimating the conditional expectiles of a response variable given a set of covariates. This package implements a regression tree based gradient boosting estimator for nonparametric multiple expectile regression. 
+License: GPL (>= 2)
+URL: http://code.google.com/p/erboost/
+Packaged: 2013-10-28 06:09:44 UTC; emeryyi
+Date/Publication: 2013-10-28 18:41:54
+NeedsCompilation: yes
+Repository: CRAN

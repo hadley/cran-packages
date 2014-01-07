@@ -1,0 +1,24 @@
+Package: rdryad
+Type: Package
+Title: Dryad API interface.
+Version: 0.1
+License: CC0
+Date: 2012-2-23
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+        email = "myrmecocystus@gmail.com"), person("Carl", "Boettiger",
+        role = "aut", email = "cboettig@gmail.com"), person("Karthik",
+        "Ram", role = "aut", email = "karthik.ram@gmail.com"))
+Description: Interface to the API for Dryad
+URL: http://www.github.com/ropensci/rdryad
+Imports: XML, RCurl, OAIHarvester, ape, gdata, plyr, stringr,
+        ReadImages, RJSONIO
+Collate: 'identify.r' 'listidentifiers.r' 'listmetadataformats.r'
+        'download_dryadmetadata.r' 'download_url.r' 'dryad_getfile.r'
+        'getalldryad_metadata.r' 'search_dryad.r' 'totimp.r'
+        'totimp_dryad.r'
+Packaged: 2012-02-23 14:59:18 UTC; ScottMac
+Author: Scott Chamberlain [aut, cre], Carl Boettiger [aut], Karthik Ram
+        [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+Repository: CRAN
+Date/Publication: 2012-02-23 17:23:58

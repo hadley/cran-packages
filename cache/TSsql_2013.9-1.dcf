@@ -1,0 +1,26 @@
+Package: TSsql
+Version: 2013.9-1
+Title: Generic SQL helper functions for TSdbi SQL plugins
+Description: This package provides standard SQL query functions used by 
+	SQL plugins packages for the TSdbi interface to time series databases. 
+	It will mainly be used by other packages rather than directly by end
+	users. The one exception is the function TSquery which can be used to
+	construct a time series from a database containing observations over
+	time (e.g. balance statements for muliple years), but where the database
+	is not specifically designed to store time series (as with other 
+	TSdbi SQL plugin packages).
+	Comprehensive examples of all the TS* packages is provided in the
+	vignette Guide.pdf with the TSdata package.
+Depends: R (>= 2.8.0)
+Imports: methods, DBI, tframe (>= 2008.5-1), TSdbi (>= 2013.9-1)
+Suggests: zoo, tseries, tis, tfplot, tframePlus, RMySQL, RSQLite
+BuildVignettes: true
+License: GPL-2
+Copyright: 2007-2011 Bank of Canada.  2012-2013 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Packaged: 2013-09-25 14:19:42 UTC; paul
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-29 18:08:48

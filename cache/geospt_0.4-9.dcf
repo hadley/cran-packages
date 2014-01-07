@@ -1,0 +1,24 @@
+Package: geospt
+Type: Package
+Title: Spatial geostatistics; some geostatistical and radial basis
+        functions, prediction and cross validation; design of optimal
+        spatial sampling networks based on geostatistical modelling
+Version: 0.4-9
+Date: 2012-04-18
+Author: Carlos Melo <cmelo@udistrital.edu.co>, Alí Santacruz, Oscar
+        Melo <oomelom@unal.edu.co> and others
+Maintainer: Alí Santacruz <amsantac@unal.edu.co>
+Depends: R (>= 2.15.0), geoR, gstat, genalg, limSolve, MASS
+Suggests: sgeostat
+Description: This package contains functions for: estimation of the
+        variogram through trimmed mean, radial basis functions
+        (optimization, prediction and cross-validation), summary
+        statistics from cross-validation, pocket plot, and design of
+        optimal sampling networks through sequential and simultaneous
+        points methods
+License: GPL (>= 2)
+Encoding: latin1
+LazyLoad: yes
+Packaged: 2012-04-18 17:01:37 UTC; Alí
+Repository: CRAN
+Date/Publication: 2012-04-19 07:42:20

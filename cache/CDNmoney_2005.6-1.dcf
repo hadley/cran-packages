@@ -1,0 +1,12 @@
+Package: CDNmoney
+Title: Components of Canadian Monetary Aggregates
+Description: Components of Canadian Monetary Aggregates with continuity adjustments.
+Depends: R (>= 2.0.0)
+Suggests: tframe (>= 2005.6-1)
+Version: 2005.6-1
+LazyLoad: yes
+License: Free. See the LICENCE file for details.
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Thu Jun 23 13:42:55 2005; paul

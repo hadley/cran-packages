@@ -1,0 +1,18 @@
+Package: confReg
+Type: Package
+Title: Confidence Estimators for Individual Regression Predictions
+Version: 0.1.3
+Date: 2011-06-10
+Author: Sebastian Briesemeister
+Maintainer: Sebastian Briesemeister
+        <briese@informatik.uni-tuebingen.de>
+Description: This package contains various functions to estimate the
+        confidences of individual predictions made with regression
+        prediction. In addtion, regression algorithms and a simple
+        feature selection routine is included.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods, e1071
+Imports: graphics, stats
+Repository: CRAN
+Date/Publication: 2011-07-05 13:11:01

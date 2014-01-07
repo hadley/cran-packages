@@ -1,0 +1,14 @@
+Package: MBESS
+Title: MBESS
+Version: 2.0.0
+Date: 2008-11-2
+Author: Ken Kelley
+Maintainer: Keke Lai <Lai.15@ND.Edu>
+Depends:  R (>= 2.6.0)
+Imports: MASS, gsl
+Suggests: MASS, nlme, gsl, sem, boot
+Description: MBESS implements methods that are especially useful to researchers working within the behavioral, educational, and social sciences (both substantive researchers and methodologists). Many of the methods contained within MBESS are applicable to quantitative research in general.
+License: GPL(>=2)
+URL: http://www.nd.edu/~kkelley,
+http://wiki.r-project.org/rwiki/doku.php?id=packages:cran:mbess
+Packaged: Sun Nov 23 14:14:12 2008; laik

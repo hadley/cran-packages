@@ -1,0 +1,28 @@
+Package: ddepn
+Type: Package
+Title: Dynamic Deterministic Effects Propagation Networks: Infer
+        signalling networks for timecourse RPPA data.
+Version: 2.1
+Date: 2011-06-27
+Author: Christian Bender
+Maintainer: Christian Bender <christian.bender@tron-mainz.de>
+Depends: R (>= 2.10.0), genefilter, gam, lattice, coda, gplots, graph,
+        igraph, RBGL
+Suggests: multicore, Rgraphviz
+Description: DDEPN (Dynamic Deterministic Effects Propagation
+        Networks): Infer signalling networks for timecourse data. Given
+        a matrix of high-throughput genomic or proteomic timecourse
+        data, generated after external perturbation of the biological
+        system, DDEPN models the time-dependent propagation of active
+        and passive states depending on a network structure. Optimal
+        network structures given the experimental data are
+        reconstructed. Two network inference algorithms can be used:
+        inhibMCMC, a Markov Chain Monte Carlo sampling approach and GA,
+        a Genetic Algorithm network optimisation. Inclusion of prior
+        biological knowledge can be done using different network prior
+        models.
+License: GPL (>= 2)
+LazyLoad: TRUE
+Packaged: 2012-04-16 06:41:35 UTC; benderc
+Repository: CRAN
+Date/Publication: 2012-04-16 07:19:56

@@ -1,0 +1,12 @@
+Package: laser
+Version: 2.2
+Date: 2008-9-21
+Title: Likelihood Analysis of Speciation/Extinction Rates from Phylogenies
+Author: Dan Rabosky
+Maintainer: Dan Rabosky <DLR32@cornell.edu>
+Depends: R(>= 2.6), ape, geiger
+Suggests: 
+Description: laser implements maximum likelihood methods based on the birth-death
+	process to test whether diversification rates have changed over time and whether rates vary among lineages.
+License: GPL 2 or later
+Packaged: Sun Sep 21 09:47:21 2008; danrabosky

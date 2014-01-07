@@ -1,0 +1,19 @@
+Package: Agreement
+Type: Package
+Title: Statistical Tools for Measuring Agreement
+Version: 0.8-1
+Date: 2011-03-05
+Author: Yue Yu AND Lawrence Lin
+Maintainer: Yue Yu <yyu@imyy.net>
+Description: This package computes several statistics for measuring
+        agreement, for example, mean square deviation (MSD), total
+        deviation index (TDI) or concordance correlation coefficient
+        (CCC). It can be used for both continuous data and categorical
+        data for multiple raters and multiple readings cases.
+Depends: R (>= 2.1.0), R2HTML
+License: GPL-2
+URL: http://imyy.net
+LazyLoad: yes
+Packaged: 2012-10-29 13:13:01 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:35

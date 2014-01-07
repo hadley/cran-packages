@@ -1,0 +1,14 @@
+Package: rrdf
+Type: Package
+Title: rrdf - support for the Resource Description Framework
+Version: 1.1.0
+Date: 2011-03-30
+Author: Egon Willighagen <egon.willighagen@gmail.com>
+Maintainer: Egon Willighagen <egon.willighagen@gmail.com>
+Depends: R (>= 2.0.0), rJava, rrdflibs (== 1.1.0)
+Description: Work with RDF data.
+License: AGPL-3
+LazyLoad: yes
+Packaged: 2011-03-30 16:23:35 UTC; egonw
+Repository: CRAN
+Date/Publication: 2011-03-31 08:56:26

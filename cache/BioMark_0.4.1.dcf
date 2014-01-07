@@ -1,0 +1,18 @@
+Package: BioMark
+Type: Package
+Title: Find biomarkers in two-class discrimination problems
+Version: 0.4.1
+Author: Ron Wehrens, Pietro Franceschi
+Maintainer: Ron Wehrens <ron.wehrens@fmach.it>
+Description: The package provides biomarker selection for several
+        classification methods: the lasso/elastic net, PCLDA, PLSDA,
+        and several t-tests. Two approaches are provided, one based on
+        the stability of model coefficients under perturbation, and the
+        other on higher criticism.
+License: GPL (>= 2)
+Depends: pls, glmnet, st (>= 1.1.6)
+Suggests: MASS
+LazyLoad: yes
+Packaged: 2012-11-06 11:07:54 UTC; ron
+Repository: CRAN
+Date/Publication: 2012-11-06 11:44:26

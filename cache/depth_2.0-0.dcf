@@ -1,0 +1,20 @@
+Package: depth
+Type: Package
+Title: Depth functions tools for multivariate analysis
+Version: 2.0-0
+Date: 2012-08-12
+Author: Maxime Genest <maxime.genest@clevislauzon.qc.ca>, Jean-Claude
+        Masse <jcmasse@mat.ulaval.ca>, Jean-Francois Plante
+        <jfplante@hec.ca>.
+Maintainer: Jean-Francois Plante <jfplante@hec.ca>
+Description: Depth functions methodology applied to multivariate
+        analysis. Besides allowing calculation of depth values and
+        depth-based location estimators, the package includes functions
+        for drawing contour plots and perspective plots of depth
+        functions. Euclidian and spherical depths are supported.
+Depends: R (>= 2.5.0), abind, grDevices, rgl, circular
+Suggests: robustbase, MASS
+License: GPL-2
+Packaged: 2012-08-12 06:27:07 UTC; jfplante
+Repository: CRAN
+Date/Publication: 2012-08-13 16:48:42

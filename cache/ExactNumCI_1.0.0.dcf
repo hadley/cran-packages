@@ -1,0 +1,29 @@
+Package: ExactNumCI
+Type: Package
+Title: Exact Confidence Interval for binomial proportions
+Version: 1.0.0
+Date: 2012-12-14
+Author: Deqiang Sun, Hyun Jung Park
+Maintainer: Deqiang Sun <deqiangs@bcm.edu>
+Description: This package calculates the Confidence Interval (CI) for
+        single binomial proportion, CI for difference of two binomial
+        proportions, and CI for difference of difference.  There are 4
+        major functions available: singleCI(k,n) gives the CI for
+        binomial proportion given (k,n), pdiff(k1,n1,k2,n2, d) gives
+        the probability that the difference of p1 from p2 is greater
+        than d, and pdiffCI(k1,n1, k2,n2) gives the CI for difference
+        of two binomial proportions given (k1,n1, k2, n2).
+        numCI(k1,n1, k2,n2, K1, N1,K2,N2) gives the CI for difference
+        of difference (p1-p2) - (P1-P2).  At default, a uniform priori
+        distribution of p is assumed.  You may also specify the priori
+        distribution parameter a0, b0 by assuming p follows a
+        nonuniform beta distribution beta(a0, b0).  Note that boost
+        header files are needed to build the package.
+License: GPL
+Depends: Rcpp
+Imports: Rcpp
+LinkingTo: Rcpp
+SystemRequirements: Boost
+Packaged: 2013-02-08 06:13:55 UTC; deqiangs
+Repository: CRAN
+Date/Publication: 2013-02-09 15:27:12

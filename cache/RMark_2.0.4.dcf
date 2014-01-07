@@ -1,0 +1,18 @@
+Package: RMark
+Version: 2.0.4
+Date: 2011-06-01
+Title: R Code for MARK Analysis
+Author: Jeff Laake <jeff.laake@noaa.gov>
+Description: This package provides an interface to the software package
+        MARK developed by Gary White. MARK is freely available at
+        (http://www.phidot.org/software/mark/download/) but is not open
+        source.
+SystemRequirements: notepad.exe, mark.exe and rel_32.exe (see
+        README.txt)
+Depends: R (>= 2.13.0), msm, nlme, plotrix
+LazyLoad: yes
+License: GPL (>= 2)
+Maintainer: Jeff Laake <Jeff.Laake@noaa.gov>
+Packaged: 2011-06-01 18:23:35 UTC; Jeff Laake
+Repository: CRAN
+Date/Publication: 2011-06-02 05:33:51

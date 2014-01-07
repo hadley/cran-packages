@@ -1,0 +1,13 @@
+Package: gafit
+Version: 0.4
+Date: 2002/08/05
+Title: Genetic Algorithm for Curve Fitting
+Author: Telford Tendys <telford@progsoc.uts.edu.au>
+Maintainer: Telford Tendys <telford@progsoc.uts.edu.au>
+Depends: R (>= 1.2.0)
+Description: A group of sample points are evaluted against a user-defined expression,
+   the sample points are lists of parameters with values that may be substituted into
+   that expression. The genetic algorithm attmepts to make the result of the expression
+   as low as possible (usually this would be the sum of residuals squared).
+License: GPL version 2
+URL: http://www.progsoc.uts.edu.au/~telford/

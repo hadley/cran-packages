@@ -1,0 +1,18 @@
+Package: fwsim
+Version: 0.2-3
+Date: 2012-04-01
+Title: Fisher-Wright Population Simulation
+Author: Mikkel Meyer Andersen and Poul Svante Eriksen
+Maintainer: Mikkel Meyer Andersen <mikl@math.aau.dk>
+Depends: R (>= 1.8.0)
+Description: Simulates a population under the Fisher-Wright model with
+        a stepwise neutral mutation process. The population sizes are
+        random Poisson distributed and different kinds of population
+        growth are supported. It is possible to specify locus and
+        direction (in terms of upwards and downwards mutation rate)
+        specific mutation rate.
+License: BSD
+URL: http://www.r-project.org
+Packaged: 2012-04-01 11:25:19 UTC; mikl
+Repository: CRAN
+Date/Publication: 2012-04-01 13:13:27

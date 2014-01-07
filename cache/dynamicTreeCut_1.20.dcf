@@ -1,0 +1,14 @@
+Package: dynamicTreeCut
+Version: 1.20
+Date: 2009-01-29
+Title: Dynamic Tree Cut
+Author: Peter Langfelder <Peter.Langfelder@gmail.com> and Bin Zhang <binzhang.ucla@gmail.com>, 
+        with contributions from Steve Horvath <SHorvath@mednet.ucla.edu>
+Maintainer: Peter Langfelder <Peter.Langfelder@gmail.com>
+Depends: R (>= 2.3.0), stats
+ZipData: no
+License: GPL (>= 2)
+Description: Contains methods for detection of clusters in hierarchical clustering dendrograms.
+Title: Methods for detection of clusters in hierarchical clustering dendrograms.
+URL: http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/BranchCutting/
+Packaged: Fri Jan 30 14:03:45 2009; plangfelder

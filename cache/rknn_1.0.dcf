@@ -1,0 +1,15 @@
+Package: rknn
+Type: Package
+Title: Random KNN Classification and Regression
+Version: 1.0
+Date: 2012-04-22
+Author: Shengqiao Li <shli@stat.wvu.edu>
+Maintainer: Shengqiao Li <shli@stat.wvu.edu>
+Depends: R (>= 2.4.0), FNN (>= 0.6-3), gmp
+Suggests: Hmisc, Biobase, genefilter, golubEsets, chemometrics
+Description: Random KNN Classification and Regression
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-04-22 05:18:20 UTC; Tiger
+Repository: CRAN
+Date/Publication: 2012-04-23 05:04:08

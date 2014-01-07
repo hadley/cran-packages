@@ -1,0 +1,17 @@
+Package: ndl
+Type: Package
+Title: Naive Discriminative Learning
+Version: 0.1.1
+Date: 2011-06-23
+Author: Antti Arppe, Petar Milin and R. Harald Baayen, with
+        contributions from Peter Hendrix
+Maintainer: <antti.arppe@helsinki.fi>
+Description: Naive discriminative learning implements learning and
+        classification models based on the Rescorla-Wagner equations
+        and their equilibrium equations.
+License: GPL (>= 2)
+Depends: R(>= 2.10.1), MASS, Hmisc
+LazyLoad: yes
+Packaged: 2011-06-24 18:18:35 UTC; aarppe
+Repository: CRAN
+Date/Publication: 2011-06-25 05:54:57

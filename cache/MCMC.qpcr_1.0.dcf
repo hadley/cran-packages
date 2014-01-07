@@ -1,0 +1,15 @@
+Package: MCMC.qpcr
+Type: Package
+Title: Bayesian analysis of qRT-PCR data
+Version: 1.0
+Date: 2013-07-04
+Author: Mikhail V. Matz
+Maintainer: Mikhail V. Matz <matz@utexas.edu>
+Description: This package implements generalized linear mixed model analysis of qRT-PCR data based on lognormal-Poisson model fitted using MCMC. Also implemented are the lognormal model for higher-abundance data and a "classic" model involving multi-gene normalization. Several plotting functions are included to extract and visualize results.
+License: GPL-3
+Depends: MCMCglmm
+BuildVignettes: FALSE
+Packaged: 2013-07-23 03:27:50 UTC; c-monster
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-23 08:29:25

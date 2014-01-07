@@ -1,0 +1,18 @@
+Package: TestScorer
+Type: Package
+Title: Scores tests, shows and saves the results
+Version: 1.1-0
+Date: 2013-04-15
+Depends: tcltk
+Author: Manel Salamero
+Maintainer: Manel Salamero <manelsalamero@gmail.com>
+Description: GUI for entering tests items and obtaining raw and
+        transformed scores. The results are shown in the console and
+        can be saved to a text file for further statistical analysis.
+        The GUI also generates scripts for scoring other tests defined
+        by the user.
+License: GPL-2
+Packaged: 2013-04-19 13:12:47 UTC; ms
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-19 17:27:04

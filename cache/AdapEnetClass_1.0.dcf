@@ -1,0 +1,14 @@
+Package: AdapEnetClass
+Type: Package
+Title: A class of adaptive elastic net methods for censored data
+Version: 1.0
+Date: 2013-11-09
+Author: Hasinur Rahaman Khan and Ewart Shaw
+Maintainer: Hasinur Rahaman Khan <hasinurkhan@gmail.com>
+Depends: imputeYn, glmnet, lars, R (>= 2.14.2)
+Description: The package provides new approaches to variable selection for censored data, based on AFT models optimized using regularized weighted least squares. Namely, a weighted elastic net, an adaptive elastic net, and two of their extensions by adding censoring observations as constraints into their model optimization frameworks.
+License: GPL-2
+Packaged: 2013-11-10 05:18:22 UTC; hasinur
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-10 08:31:27

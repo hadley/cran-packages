@@ -1,0 +1,23 @@
+Package: TTAinterfaceTrendAnalysis
+Type: Package
+Title: Graphical interface to proceed temporel trend analysis
+Version: 1.0
+Date: 2012-01-09
+Authors@R: c(person("David", "Devreker", role = c("aut", "cre"), email
+        = "david_devreker@yahoo.fr" ))
+Description: This interface was created to develop a standard procedure
+        of temporal trend analysis in the framework of the OSPAR
+        convention.  It is based on 5 successive steps : chossing and
+        simply manipulate your database, select the parameters you want
+        to analyse, build your regulated time series, perform analysis
+        and read the results all in one easy to use interface.
+        Statistical analysis call other package function such as
+        Kendall tests (wq package) or cusum function (Pastec package).
+License: GPL (>= 2)
+Depends: R (>= 2.14.0), Hmisc, pastecs, reshape, Kendall, wq, stats,
+        e1071 , nlme, timeSeries, fBasics, relimp, tcltk
+Packaged: 2012-03-07 14:13:29 UTC; ddevreke
+Author: David Devreker [aut, cre]
+Maintainer: David Devreker <david_devreker@yahoo.fr>
+Repository: CRAN
+Date/Publication: 2012-03-07 17:49:10

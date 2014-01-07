@@ -1,0 +1,19 @@
+Package: paleoTS
+Type: Package
+Title: Analyze paleontological time-series
+Version: 0.4-1
+Date: 2011-03-113
+Author: Gene Hunt
+Maintainer: Gene Hunt <huntet@si.edut>
+Depends: mvtnorm
+Description: This package facilitates analysis of paleontological
+        sequences of trait values from an evolving lineage.  Functions
+        are provided to fit, using maximum likelihood, evolutionary
+        models including unbiased random walks, directional evolution,
+        stasis, Ornstein-Uhlenbeck, punctuated change, and evolutionary
+        models in which traits track some measured covariate.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-03-14 19:23:07 UTC; eghunt
+Repository: CRAN
+Date/Publication: 2011-03-15 08:14:40

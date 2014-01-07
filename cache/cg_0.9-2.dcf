@@ -1,0 +1,23 @@
+Package: cg
+Type: Package
+Title: Comparison of groups
+Version: 0.9-2
+Date: 2011-11-27
+Author: Bill Pikounis and John Oleynick <cg@billpikounis.net>
+Maintainer: Bill Pikounis and John Oleynick <cg@billpikounis.net>
+Description: cg is comprehensive data analysis software, and stands for
+ "compare groups." Its genesis and evolution are driven by common needs to
+ compare administrations, conditions, etc. in medicine research &
+ development. The current version provides comparisons of unpaired
+ samples, i.e. a linear model with one factor of at least two levels.
+ Good data graphs, modern statistical methods, and useful displays of
+ results are emphasized.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.12.0), Hmisc, base, utils, methods, stats, graphics,
+        grid, lattice, MASS, survival, multcomp, nlme
+Imports: VGAM (>= 0.8-3)
+Packaged: 2011-11-27 19:01:36 UTC; BPikouni
+Repository: CRAN
+Date/Publication: 2011-11-28 11:59:54

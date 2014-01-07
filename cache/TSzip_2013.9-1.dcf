@@ -1,0 +1,20 @@
+Package: TSzip
+Version: 2013.9-1
+Title: TSdbi extension to connect to zip files
+Description: Provides TSdbi package methods to retrieve time series data from
+	zipped, as if the files form a database.
+	Comprehensive examples of all the TS* packages is provided in the
+	vignette Guide.pdf with the TSdata package.
+Depends: R (>= 2.8.0), TSdbi (>= 2011.11-1)
+Imports: methods, DBI, tframe, tframePlus, gdata
+Suggests: zoo, timeSeries, xts, tis, tfplot
+BuildVignettes: true
+License: GPL-2
+Copyright: 2007-2011 Bank of Canada.  2012-2013 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Packaged: 2013-09-26 16:14:41 UTC; paul
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-29 18:08:51

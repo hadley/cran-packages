@@ -1,0 +1,18 @@
+Package: bpcp
+Type: Package
+Title: Beta Product Confidence Procedure for Right Censored Data
+Version: 0.5.0
+Date: 2012-06-28
+Author: Michael Fay
+Maintainer: Michael Fay <mfay@niaid.nih.gov>
+Depends: stats
+Suggests: survival
+Description: Calculates nonparametric pointwise confidence intervals
+        for the survival distribution for right censored data.
+        Especially important for small sample sizes or heavily censored
+        data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-06-28 18:59:43 UTC; faym
+Repository: CRAN
+Date/Publication: 2012-06-29 12:53:15

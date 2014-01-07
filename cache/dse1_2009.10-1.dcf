@@ -1,0 +1,16 @@
+Package: dse1
+Title: DSE (unbundled transition package).
+Description: This package is only to aid transition to the unbundled
+        dse package. It has no functions, but simply requires package
+        EvalEst.
+Depends: dse
+Version: 2009.10-1
+Date: 2009-10-2
+LazyLoad: yes
+License: GPL-2
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: 2009-10-09 00:21:31 UTC; paul
+Repository: CRAN
+Date/Publication: 2009-10-13 08:20:21

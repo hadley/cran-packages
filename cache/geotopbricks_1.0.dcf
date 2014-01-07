@@ -1,0 +1,34 @@
+Package: geotopbricks
+Maintainer: Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: geotopbricks: Analyzes raster maps as input/output files from
+        the Hydrological Distributed Model GEOtop
+Type: Package
+Author: Emanuele Cordano, Daniele Andreis, Fabio Zottele
+Description: geotopbricks: Analyzes raster maps and other information
+        as input/output files from the Hydrological Distributed Model
+        GEOtop. It contains functions and methods to import maps and
+        other keywords from geotop.inpts file. Any information about
+        the GEOtop Distributed Hydrological Model is available on
+        www.geotop.org. The examples are tested on two simulation cases
+        run with GEOtop built 1.225-9 mostly developed by Stefano
+        Endrizzi. Bugs/comments/questions/collaboration of any kind are
+        warmly welcomed.
+Version: 1.0
+In views: Environmetrics
+Repository: CRAN
+Date: 2012-11-13
+Depends: zoo,rgdal,methods,stringr,raster,soilwater
+Imports: zoo,rgdal,methods,stringr,raster,soilwater
+URL:
+        www.geotop.org,http://meteogis.fmach.it/wiki/index.php/Pagina_principale,http://meteogis.fmach.it/wiki/index.php/Ecor,http://cri.fmach.eu/Research/Sustainable-Agro-Ecosystems-and-Bioresources/Dynamics-in-the-agro-ecosystems/people/Emanuele-Cordano
+Collate: 'AAAClasses.R' 'aggregate.brick.at.depth.R' 'bar.color.R'
+        'bar.color.raster.R' 'brick.GeotopRasterBrick.R'
+        'declared.geotop.inpts.keywords.R' 'geotopbrick_S3.R'
+        'geotopbricks-package.R' 'get.keyword.value.R'
+        'getvalues.brick.at.depth.R' 'KML.GeotopRasterBrick.R'
+        'max_value.R' 'min_value.R' 'ops.GeotopRasterBrick.R'
+        'plot.GeotopRasterBrick.R' 'pointer.to.2Dmaps.R'
+        'read.raster.from.asc.url.R' 'writeRasterxgeotop.R'
+Packaged: 2012-11-15 20:47:22 UTC; ecor
+Date/Publication: 2012-11-15 21:55:30

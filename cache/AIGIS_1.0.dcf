@@ -1,0 +1,11 @@
+Package: AIGIS
+Type: Package
+Title: Areal Interpolation for GIS data
+Version: 1.0
+Date: 2009-03-06
+Author: Benjamin P. Bryant and Anthony Westerling
+Maintainer: Bryant <bryant@prgs.edu>
+Depends: R (>= 2.5.1), gpclib (>= 1.4)
+Description:  AIGIS can be used to interpolate spatially associated data onto arbitrary target polygons which lack such data.  Version 1.0 of the package is oriented toward convenient interpolation of specific US census data for California, but the tools provided should work for any combination of GIS data source and target polygon, provided appropriate care is taken.  Future versions will be aimed at facilitating more general applications.       
+License: GPL-3
+Packaged: Mon Mar  9 10:24:13 2009; bryant

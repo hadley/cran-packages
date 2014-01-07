@@ -1,0 +1,24 @@
+Package: CompRandFld
+Version: 0.5
+Date: 2010-11-04
+Title: Composite-likelihood based Analysis of Random Fields
+Author: Simone Padoan <simone.padoan@epfl.ch>, Moreno Bevilacqua
+        <moreno.bevilacqua@unive.it>
+Maintainer: Simone Padoan <simone.padoan@epfl.ch>
+Depends: R (>= 2.9.0)
+Description: The aim of this package is to collect a set of procedures
+        for the analysis of Random Fields by Composite Likelihood
+        methods. Spatial analysis often involves dealing with large
+        dataset. Therefore even simple studies may be too
+        computationally demanding. Composite likelihood based methods
+        are emerging as useful tools for mitigating such computational
+        problems and show satisfactory results when compared with other
+        techniques such as, for example the tapering method. Moreover,
+        composite likelihood (and related quantities) have some good
+        properties similar to those of the standard likelihood.
+Suggests: RandomFields
+License: GPL (>= 2)
+URL: http://people.epfl.ch/simone.padoan
+Packaged: 2010-11-07 11:23:57 UTC; simonepadoan
+Repository: CRAN
+Date/Publication: 2010-11-07 16:47:58

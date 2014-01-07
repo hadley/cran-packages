@@ -1,0 +1,28 @@
+Package: clusterSim
+Title: Searching for optimal clustering procedure for a data set 
+Version: 0.32-3
+Date: 2007-08-20
+Author: Marek Walesiak <Marek.Walesiak@ae.jgora.pl> Andrzej Dudek <Andrzej.Dudek@ae.jgora.pl>
+Maintainer: Andrzej Dudek <Andrzej.Dudek@ae.jgora.pl>
+Depends: ade4, cluster, R2HTML, e1071, rgl, MASS
+Description: GDM Distance,
+	Sokal-Michener Distance,
+	Bray-Curtis Distance,
+	Calinski-Harabasz Index,
+	G2 Index,
+	G3 Index,
+	Silhouette Index,
+	Krzanowski-Lai Index,
+	Hartigan Index,
+	Gap Index,
+	Data Normalization,
+	HINoV method,
+	Replication analysis for cluster validation,
+    Clustering with several algorithms, distances, normalizations and icq indices,
+    Symbolic interval distances,
+    Plot functions,
+    Random cluster generation
+License: GPL version 2 or later
+URL: http://www.ae.jgora.pl/keii/clusterSim
+Encoding: UTF-8
+Packaged: Tue Sep 25 09:48:37 2007; Andrzej

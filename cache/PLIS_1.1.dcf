@@ -1,0 +1,20 @@
+Package: PLIS
+Type: Package
+Title: Multiplicity control using Pooled LIS statistic
+Version: 1.1
+Date: 2012-08-08
+Author: Zhi Wei & Wenguang Sun
+Maintainer: Zhi Wei <zhiwei04@gmail.com>
+Description: PLIS is a multiple testing procedure for testing several
+        groups of hypotheses. Linear dependency is expected from the
+        hypotheses within the same group and is modeled by hidden
+        Markov Models. It is noted that, for PLIS, a smaller p value
+        does not necessarily imply more significance because of
+        dependency among the hypotheses. A typical application of PLIS
+        is to analyze genome wide association studies datasets, where
+        SNPs from the same chromosome are treated as a group and
+        exhibit strong linear genomic dependency.
+License: GPL-3
+Packaged: 2012-08-11 03:34:15 UTC; Zhi
+Repository: CRAN
+Date/Publication: 2012-08-11 04:40:46

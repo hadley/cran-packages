@@ -1,0 +1,9 @@
+Package: hexView
+Version: 0.1
+Title: Viewing Binary Files
+Author: Paul Murrell <paul@stat.auckland.ac.nz>
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+Depends: R (>= 1.8.0)
+Description: Functions to view files in raw binary form like in a hex editor.  Additional functions to specify and read arbitrary binary formats.
+License: GPL version 2
+Packaged: Tue Dec  5 08:49:37 2006; paul

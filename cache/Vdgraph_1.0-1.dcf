@@ -1,0 +1,21 @@
+Package: Vdgraph
+Type: Package
+Title: This package creates variance dispersion graphs for response
+        surface designs
+Version: 1.0-1
+Date: 2011-03-22
+Author: John Lawson <lawson@byu.edu>
+Maintainer: John Lawson <lawson@byu.edu>
+Description: This package calls a modification of the published FORTRAN
+        code for producing variance dispersion graphs. For more details
+        on variance dispersion graphs see "A Computer Program for
+        Generating Variance Dispersion Graphs" by G. Vining, Journal of
+        Quality Technology, Vol. 25 No. 1 January 1993.
+License: GPL-2
+Depends: rsm
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: daewr
+Repository/R-Forge/Revision: 9
+Date/Publication: 2011-06-03 06:06:22
+Packaged: 2011-05-27 20:45:18 UTC; rforge

@@ -1,0 +1,16 @@
+Package: SEMModComp
+Type: Package
+Title: Model Comparisons for SEM
+Version: 1.0
+Date: 2009-02-23
+Author: Roy Levy
+Maintainer: Roy Levy <Roy.Levy@asu.edu>
+Description: Conduct tests of difference in fit for mean and covariance
+        structure models as in structural equation modeling (SEM)
+URL: http://www.public.asu.edu/~rlevy2/papers&software.html
+Depends: mvtnorm
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: Mon May 4 12:30:18 2009; Roy Levy
+Repository: CRAN
+Date/Publication: 2009-05-05 07:28:48

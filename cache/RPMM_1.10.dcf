@@ -1,0 +1,16 @@
+Package: RPMM
+Type: Package
+Title: Recursively Partitioned Mixture Model
+Version: 1.10
+Date: 2012-03-15
+Author: E. Andres Houseman, Sc.D.
+Maintainer: E. Andres Houseman <andres.houseman@oregonstate.edu>
+Depends: R (>= 2.3.12), cluster
+Description: Recursively Partitioned Mixture Model for Beta and
+        Gaussian Mixtures.  This is a model-based clustering algorithm
+        that returns a hierarchy of classes, similar to hierarchical
+        clustering, but also similar to finite mixture models.
+License: GPL (>= 2)
+Packaged: 2012-03-16 07:31:36 UTC; housemae
+Repository: CRAN
+Date/Publication: 2012-03-16 07:47:36

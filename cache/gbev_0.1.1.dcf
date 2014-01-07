@@ -1,0 +1,16 @@
+Package: gbev
+Version: 0.1.1
+Date: 2009-02-24
+Title: Gradient Boosted Regression Trees with Errors-in-Variables
+Author: Joe Sexton <j.a.sexton@medisin.uio.no>
+Maintainer: Joe Sexton <j.a.sexton@medisin.uio.no>
+Depends: mvtnorm
+Description: This package performs non-parametric regression when
+        covariates are measured with error. The models are estimated
+        using gradient boosted regression trees.  Regression is
+        performed using squared error loss, while binary response
+        regression can be performed using negative log-likelihood loss.
+License: GPL (>= 2)
+Packaged: Tue Feb 24 09:28:04 2009; hornik
+Repository: CRAN
+Date/Publication: 2009-02-24 08:55:24

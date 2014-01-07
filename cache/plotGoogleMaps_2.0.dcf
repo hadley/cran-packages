@@ -1,0 +1,19 @@
+Package: plotGoogleMaps
+Type: Package
+Title: Plot SP or SPT(STDIF,STFDF) data as HTML map mashup over Google
+        Maps
+Version: 2.0
+Date: 2012-04-02
+Author: Milan Kilibarda
+Maintainer: Milan Kilibarda <kili@grf.bg.ac.rs>
+Description: This package provides a interactive plot device for
+        handling the geographic data for web browsers. It is optimised
+        for Google Chrome browser. It is designed for the automatic
+        creation of web maps as a combination of users' data and Google
+        Maps layers.
+Depends: R (>= 2.10.0), sp, rgdal, maptools,lattice
+License: GPL
+Packaged: 2013-04-04 08:31:55 UTC; kili
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-04 11:44:58

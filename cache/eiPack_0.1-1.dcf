@@ -1,0 +1,11 @@
+Package: eiPack
+Version: 0.1-1
+Date: 2006-05-04
+Title: eiPack: Ecological Inference and Higher-Dimension Data Management
+Author: Olivia Lau <olau@fas.harvard.edu>, Ryan T. Moore <rtmoore@fas.harvard.edu>, Michael Kellermann <kellerm@fas.harvard.edu>
+Maintainer: Olivia Lau <olau@fas.harvard.edu>
+Depends: R (>= 2.0.0), MASS, coda, msm
+Description: Provides methods for analyzing RxC ecological contingency tables using the extreme case analysis, ecological regression, and Multinomial-Dirichlet ecological inference models.  Also provides tools for manipulating higher-dimension data objects. 
+License: GPL version 2 or newer
+URL: http://www.people.fas.harvard.edu/~olau/software
+Packaged: Tue Jun  6 13:01:01 2006; olau

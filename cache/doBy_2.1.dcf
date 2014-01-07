@@ -1,0 +1,11 @@
+Package: doBy
+Version: 2.1
+Title:   Groupwise computations of summary statistics
+Author:  Søren Højsgaard <sorenh@agrsci.dk>
+Maintainer: Søren Højsgaard <sorenh@agrsci.dk>
+Description: Facilities for groupwise computations of summary statistics and other facilities for working with grouped data (similar to what can be achieved by proc means or proc summary of the sas system).  
+Encoding: latin1
+ZipData: no
+License: GPL
+Imports: Hmisc
+Packaged: Sat Dec  8 14:16:25 2007; shd

@@ -1,0 +1,16 @@
+Package: BGPhazard
+Type: Package
+Title: Estimates hazard and survival functions from a Bayesian
+        nonparametric view.
+Version: 0.9.0
+Date: 2013-10-01
+Depends: R(>= 3.0.0), survival
+Suggests: MASS, KMsurv
+Author: Jose Antonio Garcia Bueno & Luis Enrique Nieto Barajas
+Maintainer: Jose Antonio Garcia Bueno <joseagbueno@gmail.com>
+Description: Computes the hazard rate estimate as described by Nieto-Barajas, L.E. and Walker, S.G. (2002) and Nieto (2003).
+License: GPL-2
+Packaged: 2013-10-07 22:23:28 UTC; Jose Antonio
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-08 08:04:52

@@ -1,0 +1,17 @@
+Package: remix
+Type: Package
+Title: Remix you data
+Version: 0.3-2
+Date: 2010-03-26
+Author: David Hajage
+Maintainer: David Hajage <dhajage@gmail.com>
+Description: remix provides remix, a quick and easy function for
+        describing datasets. It can be view as a mix of cast (in
+        package reshape) and summary.formula (in package Hmisc).
+Depends: plyr, ascii
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'factor.r' 'numeric.r' 'parse.r' 'rbind.r' 'remix.r'
+Packaged: 2010-05-06 18:47:12 UTC; david
+Repository: CRAN
+Date/Publication: 2010-05-06 19:02:01

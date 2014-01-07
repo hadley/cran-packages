@@ -1,0 +1,28 @@
+Package: aroma.apd
+Version: 0.2.0
+Date: 2011-07-23
+Title: A probe-level data file format used by aroma.affymetrix
+        [DEPRECATED]
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.2.0), R.methodsS3 (>= 1.2.1), R.utils (>= 1.7.5),
+        R.huge (>= 0.3.0)
+Suggests: affxparser
+Description: THIS PACKAGE HAS BEEN DEPRECATED. (The (in-house) APD file
+        format was initially developed to store Affymetrix probe-level
+        data, e.g. normalized CEL intensites.  Chip types can be added
+        to APD file and similar to methods in the affxparser package,
+        this package provides methods to read APDs organized by units
+        (probesets).  In addition, the probe elements can be arranged
+        optimally such that the elements are guaranteed to be read in
+        order when, for instance, data is read unit by unit.  This
+        speed up the read substantially.  This package is supporting
+        the aroma.affymetrix package and not intended to be used
+        elsewhere.)
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/
+LazyLoad: TRUE
+biocViews: Microarray, DataImport
+Packaged: 2011-07-24 02:25:20 UTC; hb
+Repository: CRAN
+Date/Publication: 2011-07-24 05:15:38

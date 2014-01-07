@@ -1,0 +1,11 @@
+Package: ofw
+Title: Optimal Feature Weighting algorithm
+Version: 0.1-1
+Date: 2007-08-06
+Depends:R (>= 1.8.1), e1071
+Author: Kim-Anh Le Cao and Patrick Chabrier
+Description: This package implements the stochastic meta algorithm called Optimal Feature Weighting for two multiclass classifiers, CART and SVM
+Maintainer: Kim-Anh Le Cao <Kim-Anh.Le-Cao@toulouse.inra.fr>
+License: GPL (>= 2)
+URL:
+Packaged: Mon Jan 28 15:14:25 2008; kim-anh

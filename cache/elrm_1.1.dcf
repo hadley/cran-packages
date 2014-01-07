@@ -1,0 +1,11 @@
+Package: elrm
+Type: Package
+Title: Exact Logistic Regression via MCMC
+Version: 1.1
+Date: 2006-11-17
+Depends: R(>= 2.3.0), coda, graphics, stats
+Author: David Zamar, Jinko Graham, Brad McNeney
+Maintainer: <dzamar@sfu.ca>
+Description: elrm implements a Markov Chain Monte Carlo algorithm to approximate exact conditional inference for logistic regression models. Exact conditional inference is based on the distribution of the sufficient statistics for the parameters of interest given the sufficient statistics for the remaining nuisance parameters. Using model formula notation, users specify a logistic model and model terms of interest for exact inference.
+License: GPL 2.0
+Packaged: Sun Feb 11 11:21:50 2007; hornik

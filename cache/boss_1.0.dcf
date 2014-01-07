@@ -1,0 +1,18 @@
+Package: boss
+Type: Package
+Title: Boosted One-Step Statistics: Fast and accurate approximations
+        for GLM, GEE and Mixed models for use in GWAS
+Version: 1.0
+Date: 2012-01-16
+Author: Arend Voorman
+Maintainer: Arend Voorman <voorma@u.washington.edu>
+Depends: lme4, geepack, Matrix, ncdf
+Description: BOSS uses parameter estimates obtained without genotype to
+        boost standard one-step approximations, and precomputes as much
+        as possible without genotype (using boss.set) to minimize
+        effort required.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-04-03 14:51:22 UTC; arie
+Repository: CRAN
+Date/Publication: 2012-04-03 21:02:00

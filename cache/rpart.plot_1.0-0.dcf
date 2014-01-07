@@ -1,0 +1,17 @@
+Package: rpart.plot
+Version: 1.0-0
+Title: Plot rpart models.  An enhanced version of plot.rpart.
+Date: 2011-01-25
+Author@R: person("Stephen", "Milborrow")
+Author: Stephen Milborrow, borrowing heavily from the rpart package by
+        Terry M. Therneau and Beth Atkinson, and the R port of that
+        package by Brian Ripley.
+Maintainer: Stephen Milborrow <milbo@sonic.net>
+Depends: rpart
+Description: Plot rpart models. Extends plot.rpart and text.rpart in
+        the rpart package.
+License: GPL-3
+URL: http://www.milbo.users.sonic.net
+Packaged: 2011-02-25 10:23:29 UTC; milbo
+Repository: CRAN
+Date/Publication: 2011-02-25 10:48:02

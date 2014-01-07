@@ -1,0 +1,25 @@
+Package: ZeligChoice
+Maintainer: Matthew Owen <mowen@iq.harvard.edu>
+License: GPL (>= 2)
+Title: Zelig Choice Models
+Type: Package
+LazyLoad: yes
+Author: Matt Owen \email{mowen@@iq.harvard.edu}, Kosuke Imai, Olivia
+        Lau and Gary King
+Description: Add-on package for Zelig. Enables the use of a variety of
+        logit and probit regressions.
+Version: 0.7-0
+Date: 2012-10-03
+Depends: Zelig (>= 4.0-11), VGAM (>= 0.8-4), R (>= 2.10)
+Collate: 'blogit.R' 'bprobit.R' 'param.blogit.R' 'param.bprobit.R'
+        'plot.sim.blogit.R' 'plot.sim.bprobit.R' 'qi.blogit.R'
+        'qi.bprobit.R' 'zelig2blogit.R' 'zelig2bprobit.R'
+        'common-methods.R' 'param.ologit.R' 'param.oprobit.R'
+        'plot.sim.ologit.R' 'plot.sim.oprobit.R' 'qi.ologit.R'
+        'qi.oprobit.R' 'summarize.ologit.R' 'summarize.oprobit.R'
+        'zelig2ologit.R' 'zelig2oprobit.R' 'param.mlogit.R'
+        'qi.mlogit.R' 'zelig2mlogit.R' 'describe.R'
+        'ZeligChoice-package.R'
+Packaged: 2012-10-12 20:39:13 UTC; matt
+Repository: CRAN
+Date/Publication: 2012-10-12 21:07:26

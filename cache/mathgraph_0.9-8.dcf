@@ -1,0 +1,13 @@
+Package: mathgraph
+Version: 0.9-8
+Date: 2007-04-19
+Title: Directed and undirected graphs
+Author: Original S code by Patrick J. Burns. Ported to R by Nick Efthymiou. Adapted to new R releases by Claus Dethlefsen.
+Description: Simple tools for constructing and manipulating objects 
+	of class mathgraph from the book "S Poetry", available at
+	http://www.burns-stat.com/pages/spoetry.html
+License: This software may be re-distributed freely and used for
+	any non-commercial purpose.
+Maintainer: Claus Dethlefsen <cld@rn.dk>
+Depends: R (>= 2.1.1)
+Packaged: Thu Apr 19 14:18:10 2007; 86c9

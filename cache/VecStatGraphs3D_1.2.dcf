@@ -1,0 +1,25 @@
+Package: VecStatGraphs3D
+Type: Package
+Title: Vector analysis using graphical and analytical methods in 3D.
+Version: 1.2
+Date: 2011-06-20
+Author: Juan Carlos Ruiz Cuetos, Maria Eugenia Polo Garcia, Pablo
+        Garcia Rodriguez
+Maintainer: Juan Carlos Ruiz Cuetos <bilba_t@hotmail.com>, Pablo Garcia
+        Rodriguez <pablogr@unex.es>
+Depends: R (>= 2.10.1), rgl, misc3d, tcltk, MASS
+Description: This package performs a 3D statistical analysis, both
+        numerical and graphic, of a set of vectors. Since a vector has
+        three components (a module and two angles) vector analysis is
+        performed in two stages: modules are analyzed by means of
+        linear statistics and orientations are analyzed by spherical
+        statistics. Tests and spherical statistic parameters are
+        accompanied by a full range of graphing: vector maps, density
+        maps, distribution modules and angles. The tests, spherical
+        statistic parameters and graphs allow us detecting another
+        distribution properties (I.e. anisotropy) and outliers.
+License: GPL-3
+URL: http://gim.unex.es/VecStatGraphs3D/
+Repository: CRAN
+Date/Publication: 2011-06-27 18:11:31
+Packaged: 2011-06-27 14:32:29 UTC; juancarlos

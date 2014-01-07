@@ -1,0 +1,17 @@
+Package: SemiParSampleSel
+Version: 0.1
+Author: Giampiero Marra <giampiero@stats.ucl.ac.uk> and Rosalba Radice
+        <rosalba.radice@lshtm.ac.uk>
+Maintainer: Giampiero Marra <giampiero@stats.ucl.ac.uk>
+Title: Semiparametric Sample Selection Modelling with Continuous
+        Response
+Description: Routine for fitting continuous response sample selection
+        models with semiparametric predictors, including linear and
+        nonlinear effects.
+Depends: R (>= 2.14.0), magic, mgcv, trust, mvtnorm
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.ucl.ac.uk/statistics/people/giampieromarra
+Repository: CRAN
+Date/Publication: 2012-04-30 10:05:54
+Packaged: 2012-04-25 08:41:56 UTC; giampiero

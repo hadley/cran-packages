@@ -1,0 +1,25 @@
+Package: tester
+Type: Package
+Title: Tests and checks characteristics of R objects
+Version: 0.1
+Date: 2013-06-30
+Author: Gaston Sanchez
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: tester allows you to test characteristics of common R
+        objects.
+License: GPL-3
+URL: http://www.gastonsanchez.com/tester,
+        https://github.com/gastonstat/tester
+Depends: R (>= 3.0)
+Suggests: testthat, knitr
+VignetteBuilder: knitr
+Collate: 'has-dimension.r' 'has_factors.r' 'has-missing.r' 'is-class.r'
+        'is-dataframe.r' 'is-decimal.r' 'is-integer.r' 'is-matrix.r'
+        'is-multiple.r' 'is-natural.r' 'is-positive-negative.r'
+        'is-string.r' 'is-tabular.r' 'is-triangular.r' 'is-vector.r'
+        'is_square_matrix.r' 'list-of-vectors.r' 'list-with-vectors.r'
+        'odd-even.r' 'true-false.r'
+Packaged: 2013-06-30 20:28:50 UTC; Gaston
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-01 07:15:57

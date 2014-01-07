@@ -1,0 +1,23 @@
+Package: gvcm.cat
+Type: Package
+Title: Regularized Categorial Effects/Categorial Effect Modifiers in
+        GLMs
+Version: 1.1
+Date: 2012-03-27
+Author: Margret-Ruth Oelker
+Maintainer: Margret-Ruth Oelker <margret.oelker@stat.uni-muenchen.de>
+Description: The function fits generalized linear models with
+        categorial effects and categorial effect modifiers. The model
+        is specified by giving a symbolic description of the linear
+        predictor and a description of the error distribution.
+        Estimation employs regularization and model selection
+        strategies to fuse and/or select a covariate's categories.
+        These strategies are either a penalty combining the fused and
+        the pure Lasso or a forward selection strategy employing
+        AIC/BIC.
+Depends: R (>= 2.10.0), Matrix, MASS
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-03-27 08:49:00 UTC; oelker
+Repository: CRAN
+Date/Publication: 2012-03-27 08:55:11

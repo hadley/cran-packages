@@ -1,0 +1,12 @@
+Package: paran
+Version: 1.3.5
+Date: 2008-4-8
+Title: Horn's Test of Principal Components/Factors
+Author: Alexis Dinno <adinno@post.harvard.edu>
+Maintainer: Alexis Dinno <adinno@post.harvard.edu>
+Depends: R (>= 1.8.0)
+Description: paran is an implementation of Horn's technique for numerically and graphically evaluating the components or factors retained in a principle components analysis (PCA) or factor analysis (FA). Horn's method contrasts eigenvalues produced through a PCA or FA on a number of random data sets of uncorrelated variables with the same number of variables and observations as the experimental or observational data set to produce eigenvalues for components or factors that are adjusted for the sample error-induced inflation. Components with adjusted eigenvalues greater than one are retained. paran may also be used to conduct parallel analysis following Glorfeld's (1995) suggestions to reduce the likelihood of over-retention.
+License: GPL-2
+LazyLoad: true
+Encoding: latin1
+Packaged: Wed Apr  9 09:09:09 2008; hornik

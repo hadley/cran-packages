@@ -1,0 +1,16 @@
+Package: FinCal
+Title: Time Value of Money Calculation and Computational Finance
+Description: Package for time value of money calculation and computational
+    finance
+Version: 0.3
+Date: 2013-09-01
+Author: Felix Yanhui Fan <nolanfyh@gmail.com>
+Depends: ggplot2, reshape2, scales, RCurl
+Maintainer: Felix Yanhui Fan <nolanfyh@gmail.com>
+License: GPL (>= 2)
+URL: http://rpubs.com/Felix/7120
+Collate: 'FinCal.R'
+Packaged: 2013-08-13 07:58:55 UTC; alice
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-13 12:11:37

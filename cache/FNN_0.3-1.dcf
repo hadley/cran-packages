@@ -1,0 +1,19 @@
+Package: FNN
+Version: 0.3-1
+Date: 2010-3-16
+Title: Fast Nearest Neighbor Search Algorighms and Applications
+Author: Shengqiao Li <shli@stat.wvu.edu>
+Maintainer: Shengqiao Li <shli@stat.wvu.edu>
+Depends: R (>= 2.9.0)
+Description: A collection of fast k-nearest neighbor search algorighms
+        and applications including a cover-tree, kd-tree and the
+        nearest neighbor algorithm in package class. Cover-tree
+        templated code is taken from
+        http://hunch.net/~jl/projects/cover_tree/cover_tree.html. The
+        ANN C++ library for kd-tree is taken from
+        http://www.cs.umd.edu/~mount/ANN/. In addtion, KNN
+        classification and regression are implemented.
+License: GPL (>= 2)
+Packaged: 2010-03-17 01:48:24 UTC; Tiger
+Repository: CRAN
+Date/Publication: 2010-03-17 08:35:02

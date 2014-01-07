@@ -1,0 +1,13 @@
+Bundle: CoCo
+Contains: CoCoGraph CoCoObjects CoCoCore CoCoOldData CoCoRaw CoCo CoCoCg
+Version: 0.1.7.2
+Date: 09.10.2007
+Title: Graphical modelling by CoCo
+Author: Jens Henrik Badsberg <coco@badsberg.eu>
+Maintainer: Jens Henrik Badsberg <coco@badsberg.eu>
+Depends: R (>= 2.0.0), dynamicGraph (>= 0.2.0)
+BundleDescription: Interface to CoCo from R
+License: Copyright (C) by Jens Henrik Badsberg, non-profit use and redistribution permitted (see COPYING for details)
+URL: http://www.badsberg.eu
+Address: Andreas Bjorns Gade 21, 2. tv, 1428 Kobenhavn K, Denmark
+Packaged: Tue Oct  9 23:06:17 2007; CoCo

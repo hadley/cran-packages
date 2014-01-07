@@ -1,0 +1,17 @@
+Package: LowRankQP
+Version: 1.0.2
+Date: 2009-02-24
+Title: Low Rank Quadratic Programming
+Author: John T. Ormerod <jormerod@sydney.edu.au>, M. P. Wand
+        <matt@maths.unsw.edua.au>
+Maintainer: ORPHANED
+Description: This package contains routines and documentation for
+        solving quadratic programming problems where the hessian is
+        represented as the product of two matrices.
+License: GPL (>= 2)
+Packaged: 2012-12-06 12:01:44 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-12-06 13:04:58
+X-CRAN-Original-Maintainer: John T. Ormerod <jormerod@sydney.edu.au>
+X-CRAN-Comment: Previous maintainer address bounced in Oct 2012,
+        maintainer is unresponsive so orphaned 2012-12-06.

@@ -1,0 +1,27 @@
+Package: planar
+Maintainer: baptiste Auguie <baptiste.auguie@gmail.com>
+License: GPL (>= 2)
+Title: Multilayer optics
+LinkingTo: Rcpp, RcppArmadillo
+Type: Package
+LazyLoad: yes
+Author: baptiste Auguie
+Description: Solves the electromagnetic problem of reflection and
+        transmission at a multilayer planar interface. Also computes
+        the decay rates for a dipolar emitter near a multilayer
+        structure.
+SystemRequirements: GNU make
+Version: 1.1
+BuildVignettes: true
+Date: 2011-07-30
+Depends: methods, Rcpp (>= 0.9.5), RcppArmadillo (>= 0.2.3), statmod,
+        cubature
+Suggests: ggplot2, Hmisc, dielectric, gridExtra, lattice
+RcppModules: planar
+Collate: 'dipole-GL.r' 'dipole-integrand.r' 'dipole.r' 'epsilon.r'
+        'multilayer.r' 'planar-package.r' 'radiationGrob.r' 'raman.r'
+        'recursive.fresnel.r' 'themes.r' 'transmission.fresnel.r'
+        'utils.r' 'zzz.r' 'field-profile.r'
+Packaged: 2011-07-30 07:30:08 UTC; baptiste
+Repository: CRAN
+Date/Publication: 2011-07-30 08:52:01

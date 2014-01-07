@@ -1,0 +1,16 @@
+Package: ltsbase
+Type: Package
+Title: Ridge and Liu Estimates based on LTS (Least Trimmed Squares)
+        Method
+Version: 1.0.1
+Date: 2013-08-02
+Author: Betul Kan Kilinc [aut, cre], Ozlem Alpu [aut, cre]
+Maintainer: Betul Kan Kilinc <bkan@anadolu.edu.tr>
+Description: This is a new tool to estimate Ridge and Liu estimators based on LTS method in multiple linear regression analysis. 
+Repository: CRAN
+License: GPL-3
+Depends: MASS, robustbase
+LazyLoad: yes
+Packaged: 2013-08-02 06:46:02 UTC; mac
+NeedsCompilation: no
+Date/Publication: 2013-08-02 11:07:58

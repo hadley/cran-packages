@@ -1,0 +1,48 @@
+Package: BayesQTLBIC
+Version: 1.0-0
+Date: 2008-10-15
+Title: Bayesian multi-locus QTL analysis based on the BIC criterion
+Author: Rod Ball <rod.ball@ATscionresearch.com>
+Maintainer: Rod Ball <rod.ball@ATscionresearch.com>
+Description: R package for a non-MCMC approximate multilocus Bayesian
+        model selection approach to the analysis of quantitative trait
+        loci (QTL).  The method and models are described in (Ball, R.
+        D. Genetics 159: 1351--1364, 2001;
+        http://www.genetics.org/cgi/content/abstract/159/3/1351).  Data
+        is assumed to be from a QTL mapping family with DNA markers
+        genotyped along the genome. The QTL mapping problem is
+        represented as a model selection problem, where each model is a
+        linear regression of the trait on a selected set of marker
+        values. The main function bicreg.qtl() is based on the S
+        function bicreg()--- posterior probabilities for models are
+        approximated from the BIC criterion, calculated for each model
+        in a search of model space using leaps or regsubsets.
+        Additionally, we allow for prior probabilities based on
+        expected numbers of QTL per genome and options to control the
+        size of models considered, and to allow for selectivly
+        genotyping from the tails of the phenotypic distribution.
+        Missing values are estimated by multiple imputation, and
+        estimates of marker effects can be obtained conditional on
+        selection or unconditional and free of selection bias.  The
+        method relies on 3 approximations: (1.) QTL configuration is
+        represented approximately by configurations with QTL located at
+        marker positions; (2.) Posterior probabilities are given
+        approximately in terms of the BIC criterion; and (3.) The
+        distribution of missing marker values is approximated by
+        multiple imputation, sampling from the distribution of missing
+        values conditional on non-missing values. We have found these
+        are good approximations provided (1.) the marker spacing is
+        reasonable (less than 30cM); (2.) the sample size is 100 or
+        more for fully genotyped populations; and (3.) around 10
+        imputations are used and the effect of any given QTL on the
+        trait is not large. Due to limits on the number of markers that
+        can be considered simultaneously the method is generally
+        applied separately to each chromosome or could be iteratively
+        applied to sets of chromosomes using fixed sets of predictors
+        from other chromsomes when analysing a given chromosome.
+Depends: leaps
+License: GPL (>= 2)
+URL: mailto:rod.ball@scionresearch.com www.scionresearch.com/
+Packaged: Fri Oct 30 13:38:09 2009; rod
+Repository: CRAN
+Date/Publication: 2009-10-30 07:56:55

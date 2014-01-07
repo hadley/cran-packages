@@ -1,0 +1,34 @@
+Package: pvsR
+Type: Package
+Title: An R package to interact with the Project Vote Smart API for
+        scientific research
+Depends: R (>= 2.14.2), XML, nnet
+Version: 0.1
+Date: 2013-05-27
+Author: Ulrich Matter
+Maintainer: Ulrich Matter <ulrich.matter@unibas.ch>
+Description: The pvsR package facilitates data retrieval from Project
+        Vote Smart's rich online data base on US politics via the
+        Project Vote Smart application programming interface (PVS API).
+        The functions in this package cover most PVS API classes and
+        methods and return the requested data in a data frame.
+License: GPL-2
+Note: In order to use this package you need your personal Project Vote
+        Smart API key. To get an API-key you need to sign up for access
+        to PVS' API (see http://votesmart.org/share/api for details).
+        Whenever you are using pvsR make sure that your personal PVS
+        API key is saved as a character string in the variable pvs.key
+        (pvs.key <- "yourkey"). If there is no valid PVS API key saved
+        in the variable pvs.key the functions in this package won't
+        work. This program is free software; you can redistribute it
+        and/or modify it under the terms of the GNU General Public
+        License as published by the Free Software Foundation; either
+        version 2 of the License, or (at your option) any later
+        version. This program is distributed in the hope that it will
+        be useful, but WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+        PURPOSE. See the GNU General Public License for more details.
+NeedsCompilation: no
+Packaged: 2013-05-29 00:13:14 UTC; ueli
+Repository: CRAN
+Date/Publication: 2013-05-29 07:44:16

@@ -1,0 +1,63 @@
+Package: taxize
+Description: Taxonomic information from around the web. This package
+    interacts with a suite of web APIs for taxonomic tasks, such
+    as verifying species names, getting taxonomic hierarchies,
+    and verifying name spelling.
+Title: Taxonomic information from around the web.
+Version: 0.1.5
+Date: 2013-11-18
+License: CC0
+URL: https://ropensci.github.com/taxize_
+BugReports: https://github.com/ropensci/taxize_/issues
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"),
+    person("Eduard", "Szoecs", role = "aut",
+    email = "szoe8822@uni-landau.de"),
+    person("Carl", "Boettiger", role = "aut",
+    email = "cboettig@gmail.com"),
+    person("Karthik", "Ram", role = "aut",
+    email = "karthik@ropensci.org"),
+    person("Ignasi", "Bartomeus", role = "aut",
+    email = "nacho.bartomeus@gmail.com"),
+    person("John", "Baumgartner", role = "aut",
+    email = "johnbb@student.unimelb.edu.au"))
+LazyLoad: yes
+LazyData: yes
+VignetteBuilder: knitr
+Depends: R (>= 3.0.1)
+Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), RJSONIO,
+        foreach, ape, Taxonstand, reshape2, data.table, reshape
+Suggests: testthat, roxygen2, rjson, vegan, knitr
+Collate: 'classification.R' 'get_tsn.R' 'gnr_datasources.R'
+        'gni_search.R' 'gni_details.R' 'iucn_summary.R' 'get_uid.R'
+        'plantminer.R' 'eol_hierarchy.R' 'eol_ping.R' 'eol_search.R'
+        'gnr_resolve.R' 'get_seqs.R' 'taxize-package.R'
+        'itis_acceptname.R' 'itis_phymat_format.R' 'itis_taxrank.R'
+        'eol_pages.R' 'tp_acceptednames.R' 'tp_namedistributions.R'
+        'tp_namereferences.R' 'tp_summary.R' 'tp_synonyms.R' 'zzz.R'
+        'get_genes_avail.R' 'tpl_search.r' 'tpl_get.r'
+        'itis_downstream.R' 'eol_dataobjects.R' 'col_children.R'
+        'col_classification.R' 'gisd_isinvasive.R' 'itis_name.R'
+        'tax_name.R' 'col_downstream.R' 'get_genes.R' 'tnrs_sources.r'
+        'tnrs.R' 'itis.R' 'apg_lookup.R' 'tax_rank.R' 'gni_parse.R'
+        'iucn_getname.R' 'rankagg.R' 'tax_agg.R' 'tpl_families.r'
+        'names_list.r' 'startup.R' 'taxize_capwords.r' 'ubio_id.R'
+        'ubio_classification.R' 'ubio_search.R'
+        'ubio_classification_search.R' 'ubio_synonyms.R'
+        'eol_invasive.R' 'get_tpsid.R' 'synonyms.R' 'tp_search.R'
+        'get_eolid.R' 'col_search.R' 'get_colid.R'
+        'tp_classification.R' 'get_ids.R' 'comm2sci.R' 'sci2comm.R'
+        'phylomatic_tree.R' 'gbif_parse.R' 'itis_getrecord.R'
+        'itis_ping.R' 'itis_refs.R' 'itis_kingdomnames.R' 'itis_lsid.R'
+        'itis_native.R' 'itis_hierarchy.R' 'itis_terms.R'
+Packaged: 2013-11-19 01:11:45 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre],
+  Eduard Szoecs [aut],
+  Carl Boettiger [aut],
+  Karthik Ram [aut],
+  Ignasi Bartomeus [aut],
+  John Baumgartner [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-19 07:38:04

@@ -1,0 +1,15 @@
+Package: weirs
+Title: A Hydraulics Package to Compute Open-Channel Flow over Weirs
+Version: 0.21
+Depends: R (>= 2.7.0), utils
+Date: 2010-10-05
+Author: William Asquith
+Description: This hydraulics package provides computational support for
+        flow over weirs, such as sharp-crested, broad-crested, and
+        embankments. Initially, the package supports broad- and
+        sharp-crested weirs.
+Maintainer: William Asquith <william.asquith@ttu.edu>
+License: GPL-2
+Packaged: 2012-10-29 09:00:00 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 09:00:00

@@ -1,0 +1,14 @@
+Package: HMMmix
+Version: 0.1
+Date: 2011-02-08
+Title: The HMMmix (HMM with mixture of gaussians as emission
+        distribution) package
+Author: Stevenn Volant and Caroline Berard
+Maintainer: Stevenn Volant <stevenn.volant@agroparistech.fr>
+Depends: R (>= 2.0.0), mnormt
+Description: This package allows one to reduce a K-states HMM to a
+        D-states HMM, with D < K.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:57:07 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:08

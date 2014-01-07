@@ -1,0 +1,17 @@
+Package: aster
+Version: 0.8-21
+Date: 2013-03-29
+Title: Aster Models
+Author: Charles J. Geyer <charlie@stat.umn.edu>.
+Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
+Depends: R (>= 2.10.0), trust
+ByteCompile: TRUE
+Description: functions and datasets for Aster modeling (forest graph
+        exponential family conditional or unconditional canonical
+        statistic models for life history analysis)
+License: MIT + file LICENSE
+URL: http://www.stat.umn.edu/geyer/aster/
+Packaged: 2013-03-30 13:31:13 UTC; charlie
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-30 15:29:29

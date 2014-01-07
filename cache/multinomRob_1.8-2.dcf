@@ -1,0 +1,12 @@
+Package: multinomRob
+Version: 1.8-2
+Date: 2006/02/09
+Title: Robust Estimation of Overdispersed Multinomial Regression Models
+Author: Walter R. Mebane, Jr. <wrm1@cornell.edu>, Jasjeet Singh Sekhon
+        <sekhon@berkeley.edu>
+Maintainer: Jasjeet Singh Sekhon <sekhon@berkeley.edu>
+Description: MNL and overdispersed multinomial regression using robust (LQD and tanh) estimation
+Depends: R (>= 1.7.1), rgenoud (>= 2.9), MASS (>= 7.1-8), mvtnorm (>= 0.6-3)
+License: GPL version 2 or later
+URL: http://sekhon.polisci.berkeley.edu/
+Packaged: Fri Feb  9 02:14:07 2007; sekhon

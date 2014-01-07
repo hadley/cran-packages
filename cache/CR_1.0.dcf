@@ -1,0 +1,23 @@
+Package: CR
+Type: Package
+Title: Power Calculation for Weighted Log-Rank Tests in Cure Rate
+        Models
+Version: 1.0
+Date: 2012-06-18
+Author: Emil A. Cornea, Bahjat F. Qaqish, and Joseph G. Ibrahim
+Maintainer: Emil A. Cornea <ecornea@live.unc.edu>
+Description: This package contains R-functions to perform power
+        calculation in a group sequential clinical trial with censored
+        survival data and possibly unequal patient allocation between
+        treatment and control groups. The fuctions can also be used to
+        determine the study duration in a clinical trial with censored
+        survival data as the sum of the accrual duration, which
+        determines the sample size in a traditional sense, and the
+        follow-up duration, which more or less controls the number of
+        events to be observed. This package also contains R functions
+        and methods to display the computed results.
+License: GPL-2
+Depends: methods
+Packaged: 2012-07-02 13:33:05 UTC; Mihaela
+Repository: CRAN
+Date/Publication: 2012-07-02 14:27:34

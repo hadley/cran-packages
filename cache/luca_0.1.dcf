@@ -1,0 +1,11 @@
+Package: luca
+Title: Likelihood Under Covariate Assumptions (LUCA)
+Version: 0.1
+Author: Ji-Hyung Shin <jshinb@sfu.ca>, Brad McNeney <mcneney@stat.sfu.ca>, Jinko Graham <jgraham@stat.sfu.ca>
+Maintainer: Sigal Blay <sblay@sfu.ca>
+Depends: R (>= 2.0.0), survival
+Suggests: genetics
+Description: Likelihood inference in case-control studies of a rare disease under independence or simple dependence of genetic and non-genetic covariates 
+License: GPL version 2
+URL: http://stat-db.stat.sfu.ca:8080/statgen
+Packaged: Sun Mar 11 22:53:03 2007; mcneney

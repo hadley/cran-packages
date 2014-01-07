@@ -1,0 +1,14 @@
+Package: label.switching
+Type: Package
+Title: Relabelling MCMC outputs of mixture models
+Version: 1.0
+Date: 2013-09-14
+Author: Panagiotis Papastamoulis
+Maintainer: <papapast@yahoo.gr>
+Description: The Bayesian estimation of mixture models (and more general hidden Markov models) suffers from the label switching phenomenon, making the MCMC output non-identifiable. This package can be used in order to deal with this problem using various relabelling algorithms.
+Depends: lpSolve, combinat
+License: GPL-2
+Packaged: 2013-09-15 23:53:40 UTC; mqbssppe
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-16 08:32:48

@@ -1,0 +1,15 @@
+Package: pmr
+Type: Package
+Title: Probability Models for Ranking Data
+Version: 1.1.2
+Date: 2012-09-12
+Depends: stats4,graphics
+Author: Paul H. Lee and Philip L. H. Yu
+Maintainer: Paul H. Lee <honglee@graduate.hku.hk>
+Description: Fitting probability models for ranking data. Currently,
+        only complete rankings are supported by this package.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-09-13 14:31:22 UTC; manufans
+Repository: CRAN
+Date/Publication: 2012-09-14 06:19:12

@@ -1,0 +1,19 @@
+Package: MorseGen
+Type: Package
+Title: Simple raw data generator based on user-specified summary
+        statistics
+Version: 1.1
+Date: 2012-03-02
+Author: Brendan J. Morse
+Maintainer: Brendan Morse <bmorse@bridgew.edu>
+Description: MorseGen is a program for generating raw data based on
+        user-specified summary (descriptive) statistics. Samples based
+        on the supplied statistics are drawn from a normal distribution
+        (or, in some cases, an exponential distribution) and scaled to
+        match the desired descriptive statistics. Intended uses include
+        creating raw data that fits desired characteristics or to
+        replicate the results in a published study.
+License: GPL-2
+Packaged: 2012-03-03 04:42:07 UTC; morse07
+Repository: CRAN
+Date/Publication: 2012-03-03 07:06:46

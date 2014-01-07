@@ -1,0 +1,18 @@
+Package: MUCflights
+Title: Munich Franz-Josef-Strauss Airport Pattern Analysis
+Version: 0.0-1
+Date: 2011-02-08
+Author: The students of the `Advanced R Programming Course' Basil Abou
+        El-Komboz, Andreas Bender, Abdelilah El Hadad, Laura Goeres,
+        Roman Hornung, Max Hughes-Brandl, Christian Lindenlaub,
+        Christina Riedel, Ariane Straub, Florian Wickler under the
+        supervision of Manuel Eugster and Torsten Hothorn
+Maintainer: Manuel Eugster <Manuel.Eugster@stat.uni-muenchen.de>
+Description: Functions for downloading flight data from
+        http://www.munich-airport.de and for analyzing flight patterns.
+License: GPL (>= 2)
+Depends: XML, geosphere (>= 1.2-15), sp, RSQLite, NightDay
+URL: http://www.youtube.com/watch?v=y3RW_N-TPb4
+Packaged: 2011-02-08 17:23:54 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2011-02-09 10:09:59

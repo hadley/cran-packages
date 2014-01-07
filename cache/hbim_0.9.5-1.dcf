@@ -1,0 +1,11 @@
+Package: hbim
+Type: Package
+Title: Hill/Bliss Independence Model for Combination Vaccines
+Version: 0.9.5-1
+Date: 2007-05-30
+Author: M.P. Fay
+Maintainer: Michael Fay <mfay@niaid.nih.gov>
+Depends:  R (>= 2.5.0), stats, mvtnorm
+Description: Calculate expected relative risk and proportion protected assuming normally distributed log10 transformed antibody dose for several component vaccine. Uses Hill models for each component which are combined under Bliss independence.  
+License: GPL
+Packaged: Wed Sep 12 15:14:45 2007; faym

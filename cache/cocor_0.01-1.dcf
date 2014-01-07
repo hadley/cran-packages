@@ -1,0 +1,23 @@
+Package: cocor
+Type: Package
+Title: Comparing correlations
+Author: Birk Diedenhofen <mail@birkdiedenhofen.de>
+Maintainer: Birk Diedenhofen <mail@birkdiedenhofen.de>
+Depends: methods
+Suggests: testthat
+Enhances: rkward
+Description: This package provides functions to compare two
+        correlations based on either dependent or independent groups.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://r.birkdiedenhofen.de/pckg/cocor/
+Authors@R: c(person(given="Birk", family="Diedenhofen",
+        email="mail@birkdiedenhofen.de", role=c("aut", "cre")))
+Version: 0.01-1
+Date: 2012-11-29
+Collate: 'cocor.dep.groups.nonoverlap.r' 'cocor.dep.groups.overlap.r'
+        'cocor.indep.groups.r' 'cocor-package.R' 'helper.r'
+Packaged: 2012-11-29 20:54:34 UTC; birk
+Repository: CRAN
+Date/Publication: 2012-11-30 07:20:55

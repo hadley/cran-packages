@@ -1,0 +1,12 @@
+Package: LogConcDEAD
+Type: Package
+Title: Log-concave Density Estimation in Arbitrary Dimensions
+Version: 1.3-2
+Date: 2008-12-10
+Depends: R (>= 2.3), akima, MASS, geometry
+Suggests: rgl, logcondens
+Author: Madeleine Cule, Robert Gramacy, Richard Samworth
+Maintainer: Madeleine Cule <mlc40@cam.ac.uk>
+Description: Computes a log-concave (maximum likelihood) estimator for i.i.d. data in any number of dimensions.
+License: LGPL
+Packaged: Fri Jan 16 22:37:00 2009; mlc40

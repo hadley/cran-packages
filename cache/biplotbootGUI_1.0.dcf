@@ -1,0 +1,16 @@
+Package: biplotbootGUI
+Type: Package
+Title: Bootstrap on Classical Biplots
+Version: 1.0
+Date: 2013-12-22
+Author: Ana Belen Nieto Librero<ananieto@usal.es>, Purificacion Galindo Villardon<pgalindo@usal.es>
+Maintainer: Ana Belen Nieto Librero <ananieto@usal.es>
+Description: A GUI with which the user can construct and interact with Bootstrap methods on Classical Biplots
+License: GPL (>= 2)
+Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot
+        (>= 0.0-23), vegan (>= 2.0-7), tcltk2 (>= 1.2-5)
+SystemRequirements: BWidget
+Packaged: 2013-12-30 21:24:10 UTC; Ana
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-31 07:13:59

@@ -1,0 +1,14 @@
+Package: Lmoments
+Version: 1.1-2
+Date: 2007-02-05
+Title: L-moments and quantile mixtures
+Author: Juha Karvanen
+Maintainer: Juha Karvanen <juha.karvanen@ktl.fi>
+Depends: R 
+Suggests: lmomco
+Description: The Lmoments package contains functions to estimate L-moments and trimmed L-moments from the data. 
+  The package also contains functions to estimate the parameters of the normal polynomial quantile mixture and 
+  the Cauchy polynomial quantile mixture from L-moments and trimmed L-moments. 
+License: GPL version 2 
+URL: http://www.tilastotiede.fi/juha_karvanen.html
+Packaged: Mon Feb  5 08:58:33 2007; jkau

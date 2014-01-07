@@ -1,0 +1,24 @@
+Package: OrdinalLogisticBiplot
+Type: Package
+Title: Biplot representations of ordinal variables
+Version: 0.2
+Date: 2013-11-25
+Author: Julio Cesar Hernandez Sanchez, Jose Luis Vicente-Villardon
+Maintainer: Julio Cesar Hernandez Sanchez <juliocesar_avila@usal.es>
+Description: Analysis of a matrix of polytomous items using Ordinal Logistic Biplots (OLB)
+  The OLB procedure extends the binary logistic biplot to ordinal (polytomous) data. 
+  The  individuals are represented as points on a plane and the variables are represented 
+  as lines rather than vectors as in a classical or binary biplot, specifying the points
+  for each of the categories of the variable. 
+  The set of prediction regions is established by stripes perpendicular to the line 
+  between the category points, in such a way that the prediction for each individual is given
+  by its projection into the line of the variable.
+License: GPL (>= 2)
+Encoding: latin1
+Repository: CRAN
+Depends: R (>= 2.15.1),mirt,MASS,NominalLogisticBiplot
+LazyData: yes
+Archs: i386, x64
+NeedsCompilation: no
+Packaged: 2013-11-26 17:02:49 UTC; INE
+Date/Publication: 2013-11-26 18:40:30

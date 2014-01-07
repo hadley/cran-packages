@@ -1,0 +1,17 @@
+Package: phylolm
+Version: 1.0
+Date: 2012-09-21
+Title: Phylogenetic Linear Regression
+Author: Lam Si Tung Ho, Cecile Ane
+Maintainer: Lam Si Tung Ho <lamho@stat.wisc.edu>
+Depends: R (>= 2.15.0), ape
+Description: phylolm package provides a function for fitting
+        phylogenetic linear regression models. The likelihood is
+        calculated with an algorithm that is linear in the number of
+        tips in the tree. The package also provides a function for
+        simulating continuous traits along the tree.
+License: GPL (>= 2)
+URL: http://www.stat.wisc.edu/~lamho/phylolm/
+Packaged: 2012-09-27 02:11:34 UTC; lamho
+Repository: CRAN
+Date/Publication: 2013-01-08 08:33:19

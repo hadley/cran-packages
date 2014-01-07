@@ -1,0 +1,10 @@
+Package: clinfun
+Title:  Clinical Trial Design and Data Analysis Functions
+Version: 0.7-4
+Depends: R (>= 2.0.0), graphics, stats
+Imports: mvtnorm
+Author: Venkatraman E. Seshan
+Description:  Utilities to make your clinical collaborations easier if not fun.
+Maintainer: Venkatraman E. Seshan<ves2111@columbia.edu>
+License: GPL version 2 or later
+Packaged: Fri Oct  5 18:14:22 2007; venkat

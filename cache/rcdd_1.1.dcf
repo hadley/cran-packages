@@ -1,0 +1,19 @@
+Package: rcdd
+Version: 1.1
+Date: 2008-04-12
+Title: rcdd (C Double Description for R)
+Author: Charles J. Geyer <charlie@stat.umn.edu> and
+    Glen D. Meeden <glen@stat.umn.edu>, incorporates code from
+    cddlib (ver 0.94f) written by Komei Fukuda <fukuda@ifor.math.ethz.ch>
+Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
+Depends: R (>= 2.4.1)
+SystemRequirements: GMP (GNU MP bignum library from http://gmplib.org/)
+Description: R interface to (some of) cddlib,
+    see http://www.ifor.math.ethz.ch/~fukuda/cdd_home/cdd.html
+    converts back and forth between two representations of a convex polytope:
+    as solution of a set of linear equalities and inequalities and as
+    convex hull of set of points and rays,
+    also does linear programming with exact arithmetic
+License: GPL (>= 2)
+URL: http://www.stat.umn.edu/geyer/rcdd/
+Packaged: Sat Apr 12 07:59:47 2008; charlie

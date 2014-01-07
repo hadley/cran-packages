@@ -1,0 +1,27 @@
+Package: rapport
+Maintainer: Gergely Daróczi <gergely@snowl.net>
+Title: rapport - a report templating system
+Type: Package
+Encoding: UTF-8
+Description: A package that facilitates creation of reproducible
+        statistical report templates. Once created, rapport templates
+        can be exported to various external formats (HTML, LaTeX, PDF,
+        ODT, etc.) with pandoc converter as a backend.
+Author: Aleksandar Blagotić <aca.blagotic@gmail.com> and Gergely
+        Daróczi <gergely@snowl.net>
+Version: 0.2
+Date: 2012-02-02
+URL: http://rapport-package.info/
+BugReports: https://github.com/aL3xa/rapport/issues
+License: AGPL-3
+LazyData: yes
+LazyLoad: yes
+Depends: ascii, evaluate, lattice, latticeExtra, moments, RColorBrewer,
+        reshape, RJSONIO
+Collate: 'crypt.R' 'eval.R' 'export.R' 'graphs.R' 'init.R' 'ius2008.R'
+        'print.methods.R' 'rapport.R' 'rp_helpers.R' 'stat_helpers.R'
+        'stats_univar.R' 'tables.R' 'template.R' 'utils.R'
+        'tpl-check.R'
+Packaged: 2012-02-03 19:36:16 UTC; omleny
+Repository: CRAN
+Date/Publication: 2012-02-04 08:39:46

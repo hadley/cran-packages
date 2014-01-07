@@ -1,0 +1,14 @@
+Package: wordmatch
+Type: Package
+Title: Matches words in one file with words in another file
+Version: 1.0
+Date: 2013-07-22
+Author: Amit Singh Rathore
+Maintainer: Amit Singh Rathore <amitplatinum@gmail.com>
+Description: Matches words in one file with words in another file and shows index(row number) for the matches
+License: GPL-2
+Depends: R (>= 2.9.0),plyr,reshape2
+Packaged: 2013-07-22 17:09:08 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-22 19:26:53

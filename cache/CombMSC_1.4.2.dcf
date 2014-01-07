@@ -1,0 +1,17 @@
+Package: CombMSC
+Type: Package
+Title: Combined Model Selection Criteria
+Version: 1.4.2
+Date: 2008-02-24
+Author: Andrew K. Smith
+Maintainer: Andrew K. Smith <andrewsmith81@gmail.com>
+Description: Functions for computing optimal convex combinations of
+        model selection criteria based on ranks, along with utility
+        functions for constructing model lists, MSCs, and priors on
+        model lists.
+License: GPL-2
+Depends: R(>= 2.4.0)
+Suggests: lattice, rgl
+Packaged: 2012-10-29 08:56:53 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:56:53

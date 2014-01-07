@@ -1,0 +1,20 @@
+Package: TSfame
+Version: 2013.8-2
+Title: TSdbi extensions for fame
+Description: TSfame provides a fame interface for TSdbi.
+	Comprehensive examples of all the TS* packages is provided in the
+	vignette Guide.pdf with the TSdata package.
+Depends: R (>= 2.8.0), TSdbi (>= 2011.11-1)
+Imports: methods, DBI, tframe, tframePlus(>= 2011.8-1), fame (>= 2.12),
+        tis
+Suggests: tseries, tfplot, zoo
+BuildVignettes: true
+License: GPL-2
+Copyright: 2007-2011 Bank of Canada.  2012 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Packaged: 2013-09-25 14:40:01 UTC; paul
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-29 18:08:42

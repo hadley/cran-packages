@@ -1,0 +1,12 @@
+Package: apsrtable
+Version: 0.7-2
+Date: 2009-02-26 
+Title: apsrtable model-output formatter for social science 
+Author: Michael Malecki
+Maintainer: Michael Malecki <malecki@wustl.edu>
+Depends: R (>= 2.8.0), methods
+Description: Formats latex tables from one or more model objects side-by-side with standard errors below, not unlike tables found in such journals as the American Political Science Review. 
+Encoding: UTF-8
+License: GPL (version 2 or later) 
+LazyLoad: yes
+Packaged: Thu Feb 26 13:09:04 2009; malecki

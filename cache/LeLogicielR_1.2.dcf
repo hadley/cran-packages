@@ -1,0 +1,21 @@
+Package: LeLogicielR
+Type: Package
+Title: Functions and datasets to accompany the book "Le logiciel R:
+        Maitriser le langage, Effectuer des analyses statistiques"
+        (french)
+Version: 1.2
+Date: 2012-04-20
+Author: Lafaye de Micheaux Pierre, Drouilhet Remy, Liquet Benoit
+Maintainer: P Lafaye de Micheaux <lafaye@dms.umontreal.ca>
+Description: This package provides functions and datasets for the
+        reader of the book "Le logiciel R: Maitriser le langage,
+        Effectuer des analyse statistiques". The documentation and help
+        pages are written in french.
+Language: fr
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: xtable, RColorBrewer, gdata, IndependenceTests
+Encoding: latin1
+Packaged: 2012-12-15 14:37:01 UTC; lafaye
+Repository: CRAN
+Date/Publication: 2012-12-15 15:55:07

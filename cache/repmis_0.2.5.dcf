@@ -1,0 +1,24 @@
+Package: repmis
+Type: Package
+Title: A collection of miscellaneous tools for reproducible research
+        with R.
+Description: A collection of miscellaneous tools for reproducible
+        research with R. Currently the package includes tools to load R
+        packages and automatically generate BibTeX files citing them as
+        well as load plain-text data stored on Dropbox, GitHub, and
+        from other sources.
+Version: 0.2.5
+Date: 2013-04-24
+Author: Christopher Gandrud
+Maintainer: Christopher Gandrud <christopher.gandrud@gmail.com>
+License: GPL (>= 2)
+Depends: R (>= 3.0.0)
+URL: https://github.com/christophergandrud/repmis
+BugReports: https://github.com/christophergandrud/repmis/issues
+Imports: digest, knitr, httr, plyr
+Collate: 'InstallOldPackages.R' 'LoadandCite.R' 'source_data.R'
+        'source_GitHubData.R' 'source_DropboxData.R'
+Packaged: 2013-04-24 01:43:13 UTC; christophergandrud
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-24 08:04:11

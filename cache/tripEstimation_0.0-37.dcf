@@ -1,0 +1,20 @@
+Package: tripEstimation
+Type: Package
+Title: Metropolis sampler and supporting functions for estimating
+        animal movement from archival tags and satellite fixes
+Version: 0.0-37
+Suggests: locfit
+Imports: akima, lattice, mgcv, rgdal, sp, zoo
+Author: Michael Sumner and Simon Wotherspoon
+Maintainer: Michael Sumner <mdsumner@gmail.com>
+Description: Data handling and estimation functions for animal movement
+        estimation by light level and satellite data. Image summaries
+        from MCMC simulations of point data, binned by time interval.
+        Various convenience functions for creating generic summary
+        images for periods defined by the location estimation and
+        combining those in arbitrarily specified ways.
+License: GPL-2
+URL: http://staff.acecrc.org.au/~mdsumner/Rutas/
+Packaged: 2011-10-10 11:49:20 UTC; mdsumner
+Repository: CRAN
+Date/Publication: 2011-10-10 13:41:39

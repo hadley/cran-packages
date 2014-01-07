@@ -1,0 +1,14 @@
+Package: mem
+Type: Package
+Title: Moving Epidemics Method R Package.
+Version: 1.2
+Date: 2012-09-28
+Author: Jose E. Lozano Alonso <lozalojo@jcyl.es>
+Maintainer: Jose E. Lozano Alonso <lozalojo@jcyl.es>
+Depends: R (>= 2.15.1), sm, boot
+Description: Modelization of influenza epidemics in order to monitor
+        future activity.
+License: GPL (>= 2)
+Packaged: 2012-10-01 11:31:46 UTC; lozalojo
+Repository: CRAN
+Date/Publication: 2012-10-01 12:19:37

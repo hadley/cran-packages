@@ -1,0 +1,21 @@
+Package: anesrake
+Type: Package
+Title: ANES Raking Implementation
+Version: 0.2
+Date: 2010-04-23
+Author: Josh Pasek
+Maintainer: Josh Pasek <josh@joshpasek.com>
+Description: This package provides a comprehensive system for selecting
+        variables and weighting data to match the specifications of the
+        American National Election Studies.  The package includes
+        methods for identifying discrepant variables, raking data, and
+        assessing the effects of the raking algorithm.  It also allows
+        automated re-raking if target variables fall outside identified
+        bounds and allows greater user specification than other
+        available raking algorithms.
+Depends: Hmisc
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-05-07 03:21:20 UTC; jmping
+Repository: CRAN
+Date/Publication: 2010-05-07 08:56:54

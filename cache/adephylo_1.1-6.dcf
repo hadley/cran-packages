@@ -1,0 +1,23 @@
+Package: adephylo
+Version: 1.1-6
+Date: 2013/11/29
+Title: adephylo: exploratory analyses for the phylogenetic comparative
+        method.
+Author: Thibaut Jombart <t.jombart@imperial.ac.uk>, Stephane Dray <stephane.dray@univ-lyon1.fr>
+Maintainer: Thibaut Jombart <t.jombart@imperial.ac.uk>
+Suggests:
+Depends: methods, ade4
+Imports: phylobase, ape, adegenet
+Description: Multivariate tools to analyze comparative data, i.e. a phylogeny and some traits measured for each taxa.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: utils.R partition.R table.phylo4d.R distances.R proximities.R
+        orthobasis.R ppca.R orthogram.R abouheif.R moran.R dibas.R
+        bullseye.R zzz.R
+Repository: CRAN
+Repository/R-Forge/Project: adephylo
+Repository/R-Forge/Revision: 201
+Repository/R-Forge/DateTimeStamp: 2013-11-29 15:46:01
+Date/Publication: 2013-11-30 10:11:53
+Packaged: 2013-11-29 19:18:01 UTC; rforge
+NeedsCompilation: yes

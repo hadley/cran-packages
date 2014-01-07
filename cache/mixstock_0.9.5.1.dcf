@@ -1,0 +1,13 @@
+Package: mixstock
+Version: 0.9.5.1
+Date: 2012/07/17
+Title: functions for mixed stock analysis
+Author: Ben Bolker <bolker@mcmaster.ca>
+Maintainer: Ben Bolker <bolker@mcmaster.ca>
+Depends: coda, plotrix, abind, lattice
+Suggests: R2WinBUGS, R2jags, coefplot2, ggplot2, reshape2
+Description: mixed stock analysis functions
+License: GPL
+Packaged: 2012-09-21 05:39:58 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-09-21 05:42:23

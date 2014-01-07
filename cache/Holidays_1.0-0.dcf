@@ -1,0 +1,14 @@
+Package: Holidays
+Type: Package
+Title: Holiday and halfday data, for use with the TimeWarp package
+Version: 1.0-0
+Date: 2011-12-10
+Author: Lars Hansen <lwhansen@blackmesacapital.com>
+Maintainer: Tony Plate <tplate@acm.org>
+Depends: R (>= 2.6), TimeWarp
+Suggests: scriptests
+Description: Contains trading holiday and halfday data that is automatically registered when loaded.
+License: GPL
+Packaged: 2011-12-18 01:12:22 UTC; tap
+Repository: CRAN
+Date/Publication: 2011-12-19 13:49:37

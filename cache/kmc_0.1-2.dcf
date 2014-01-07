@@ -1,0 +1,14 @@
+Package: kmc
+Version: 0.1-2
+Title: Kaplan - Meier estimator with constraints for right censored
+        data -- a recursive computational algorithm
+Author: Yifan Yang <yifan.yang@uky.edu> , Mai Zhou<mai@ms.uky.edu>
+Maintainer: Yifan Yang <yifan.yang@uky.edu>
+Description: Calculate NPMLE with constraints for right censored data. This package give a recursive computational algorithm for the "constrained" Kaplan- Meier estimator. The constraint is assumed given in linear estimating equations or mean functions. We also illustrate how this leads to the empirical likelihood ratio test with right censored data. EM algorithm (emplik) is used to get the initial value. 
+License: LGPL-3
+Depends: R (>= 2.13.1), compiler, rootSolve, emplik, Rcpp
+LinkingTo: Rcpp
+Packaged: 2013-12-25 07:29:57 UTC; Yifan
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-25 09:15:26

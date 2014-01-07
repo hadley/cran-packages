@@ -1,0 +1,13 @@
+Package: jit
+Version: 0.0-1
+Date: 2008-01-06
+Title: Just-in-time compiler
+Author: Stephen Milborrow
+Maintainer: Stephen Milborrow <milbo@sonic.net>
+Description: 
+  Enable just-in-time (JIT) compilation.
+  These commands are only useful under Ra and have no effect under R.
+  This version of the jit package is for Ra 1.0-05.
+License: GPL-3
+URL: http://www.milbo.users.sonic.net/ra
+Packaged: Thu Mar  6 15:01:30 2008; steve

@@ -1,0 +1,14 @@
+Package: IDPmisc
+Title: Utilities from Institute of Data Analyses and Process Design (www.idp.zhwin.ch)
+LazyLoad: yes
+LazyData: yes
+SaveImage: no
+Version: 0.4.3
+Date: 2005-11-15
+Author: Andreas Ruckstuhl, Thomas Unternährer, Rene Locher
+Description: The IDPmisc package contains different high-level graphics functions for displaying large datasets, brewing color ramps, drawing nice arrows, zooming 2D-plots, creating figures with differently colored margins and plot regions. In addition, the package contains convenience functions for data manipulation like omitting observations with irregular values or selecting data by logical vectors including NAs.
+Maintainer: Rene Locher <rene.locher@zhwin.ch>
+Depends: R (>= 2.0.1), methods
+Suggests: SwissAir 
+License: GPL (GNU Public Licence), Version 2 or later
+Packaged: Tue Nov 15 12:58:54 2005; lor

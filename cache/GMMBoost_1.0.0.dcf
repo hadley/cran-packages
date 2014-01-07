@@ -1,0 +1,14 @@
+Package: GMMBoost
+Type: Package
+Title: Likelihood-based Boosting for Generalized mixed models
+Version: 1.0.0
+Date: 2011-10-25
+Author: Andreas Groll
+Maintainer: Andreas Groll <andreas.groll@stat.uni-muenchen.de>
+Description: Likelihood-based Boosting for Generalized mixed models
+Depends: methods, magic, R(>= 2.9.2)
+Imports: minqa
+License: GPL-2
+Packaged: 2011-10-26 18:45:05 UTC; groll
+Repository: CRAN
+Date/Publication: 2011-10-27 05:42:13

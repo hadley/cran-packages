@@ -1,0 +1,26 @@
+Package: SesIndexCreatoR
+Type: Package
+Title: Computation and visualization of socioeconomic indices and
+        categories distributions
+Version: 1.0-2
+Date: 2013-05-16
+Authors@R: c(person("Benoit", "Lalloue", role = c("aut", "cre"), email
+        = "benoit.lalloue@ehesp.fr"), person("Severine", "Deguen", role
+        = c("ths", "aut"), email = "severine.deguen@ehesp.fr"),
+        person("Jean-Marie", "Monnez", role =c("ths", "aut"), email =
+        "jean-marie.monnez@univ-lorraine.fr"), person("Nolwenn", "Le
+        Meur", role = c("aut")))
+Author: Benoit Lalloue
+Maintainer: Benoit Lalloue <benoit.lalloue@ehesp.fr>
+Description: This package allows computing and visualizing
+        socioeconomic indices and categories distributions from
+        datasets of socioeconomic variables (These tools were developed
+        as part of the EquitArea Project, a public health program).
+Depends: FactoMineR, class, R (>= 3.0.0)
+URL: www.equitarea.org
+Encoding: latin1
+License: GPL-2 | GPL-3
+Packaged: 2013-05-24 17:15:46 UTC; Ben
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-27 10:56:29

@@ -1,0 +1,17 @@
+Package: mleur
+Type: Package
+Title: Maximum likelihood unit root test
+Version: 1.0-3
+Date: 2011-08-19
+Author: A. I. McLeod, Hao Yu and Ying Zhang
+Maintainer: <aimcleod@uwo.ca>
+Depends: R (>= 2.0.0), urca, fBasics, fGarch
+Description: Provides functions for unit root testing using MLE method
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.4, I.5
+Classification/MSC: 62H30
+Packaged: 2011-08-19 04:40:39 UTC; aim
+Repository: CRAN
+Date/Publication: 2011-08-19 05:05:42

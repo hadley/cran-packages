@@ -1,0 +1,11 @@
+Package: Bchron
+Type: Package
+Title: Create chronologies based on radiocarbon and non-radiocarbon dated depths
+Version: 2.1
+Date: 2008-04-28
+Depends: coda, hdrcde
+Author: Andrew Parnell
+Maintainer: Andrew Parnell <Andrew.Parnell@tcd.ie>
+Description: This package follows the work of Parnell and Haslett (2007; JRSSC). It runs MCMC, predictions and plots for radiocarbon (and non radiocarbon) dated sediment cores.
+License: GPL (version 2 or later)
+Packaged: Mon May 12 15:21:59 2008; parnella

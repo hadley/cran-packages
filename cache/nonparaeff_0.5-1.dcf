@@ -1,0 +1,19 @@
+Package: nonparaeff
+Version: 0.5-1
+Date: 2010-03-28
+Title: Nonparametric Methods for Measuring Efficiency and Productivity
+Author: Dong-hyun Oh <oh.donghyun77@gmail.com>
+Maintainer: Dong-hyun Oh <oh.donghyun77@gmail.com>, Dukrok Suh
+        <dukrok@gmail.com>
+Depends: R (>= 1.8.0), lpSolve, gdata, Hmisc, Design, geometry, psych,
+        pwt
+Suggests: gtools
+Description: This package contains functions for measuring efficiency
+        and productivity of decision making units (DMUs) under the
+        framework of Data Envelopment Analysis (DEA) and its
+        variations.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2010-04-03 15:40:23 UTC; arecibo
+Repository: CRAN
+Date/Publication: 2010-04-03 17:42:47

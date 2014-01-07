@@ -1,0 +1,16 @@
+Package: RcmdrPlugin.KMggplot2
+Type: Package
+Title: Rcmdr Plug-In for Kaplan-Meier Plot and Other Plots by Using the
+        ggplot2 Package
+Version: 0.0-4
+Author: Triad sou. and Kengo NAGASHIMA
+Maintainer: Triad sou. <triadsou@gmail.com>
+Depends: R (>= 2.14.0), Rcmdr, ggplot2 (>= 0.9.0), grid, grDevices,
+        scales, survival, RColorBrewer
+Imports: methods
+Description: This package is an R Commander plug-in for Kaplan-Meier
+        plot and other plots by using the ggplot2 package.
+License: GPL-2
+Packaged: 2012-02-01 08:22:31 UTC; NAGASHIMA
+Repository: CRAN
+Date/Publication: 2012-03-01 08:38:37

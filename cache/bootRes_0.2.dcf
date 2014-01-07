@@ -1,0 +1,16 @@
+Package: bootRes
+Type: Package
+Title: Bootstrapped Response and Correlation Functions
+Version: 0.2
+Date: 2009-07-07
+Author: Christian Zang
+Maintainer: Christian Zang <christian.zang@gmail.com>
+Depends: base, stats, utils
+Suggests: dplR
+Description: Calculation of Bootstrapped Response and Correlation
+        Functions for Use in Dendroclimatology
+License: GPL-3
+LazyLoad: yes
+Packaged: 2009-07-07 12:09:46 UTC; christian
+Repository: CRAN
+Date/Publication: 2009-07-18 15:36:14

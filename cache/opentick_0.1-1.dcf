@@ -1,0 +1,13 @@
+Package: opentick
+Type: Package
+Title: R API to opentick databases
+Version: 0.1-1
+Revision: 16
+Date: 2008-09-27
+Author: Josh Ulrich
+Maintainer: Josh Ulrich <josh.m.ulrich@gmail.com>
+Description: Provide a native R interface to opentick real time and historical market data. Disclaimer: This software is not endorsed in any way by opentick corporation. The authors of this software are not affiliated with opentick corporation.
+Depends: pack, xts
+License: GPL-3
+LazyLoad: yes
+Packaged: Wed Oct  1 22:22:10 2008; josh

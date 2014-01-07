@@ -1,0 +1,20 @@
+Package: mvngGrAd
+Type: Package
+Title: Software for moving grid adjustment in plant breeding field
+        trials
+Version: 0.1.2
+Date: 2011-10-12
+Depends: methods, stats
+Author: Frank Technow
+Maintainer: Frank Technow <Frank.Technow@uni-hohenheim.de>
+Description: Package for moving grid adjustment in plant breeding field
+        trials.
+License: GPL (>= 2)
+LazyLoad: TRUE
+Collate: movG-class.R circularExtension.R entryData.R
+        entryDataMethods.R extendHorVer.R fittedMethods.R movingGrid.R
+        movingMean.R residualsMethods.R showMethods.R sketchGrid.R
+        sketchGridMethods.R summaryMethods.R movingMeanMethods.R
+Packaged: 2011-10-12 16:05:42 UTC; frank
+Repository: CRAN
+Date/Publication: 2011-10-12 18:00:56

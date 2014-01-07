@@ -1,0 +1,15 @@
+Package: RISmed
+Version: 1.1
+Type: Package
+Title: Search Pubmed, Make bibliographic content analyzable
+Date: 2011-03-26
+Author: S. A. Kovalchik
+Depends: R (>= 2.8.0), methods
+Maintainer: S. A. Kovalchik <s.a.kovalchik@gmail.com>
+Description: Pubmed search through R, creating analyzable object from
+        Pubmed results and RIS files. This package replaces \code{ris}.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-03-27 19:30:19 UTC; skoval
+Repository: CRAN
+Date/Publication: 2011-03-28 09:46:49

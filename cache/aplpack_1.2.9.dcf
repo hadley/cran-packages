@@ -1,0 +1,26 @@
+Package: aplpack
+Type: Package
+Title: Another Plot PACKage: stem.leaf, bagplot, faces, spin3R,
+        plotsummary, plothulls, and some slider functions
+Version: 1.2.9
+Date: 2013-05-11
+Author: Peter Wolf, Uni Bielefeld
+Maintainer: Peter Wolf <pwolf@wiwi.uni-bielefeld.de>
+Depends: R (>= 2.8.0), tcltk
+Suggests: tkrplot
+Description: set of functions for drawing some special plots:
+   stem.leaf plots a stem and leaf plot,
+   stem.leaf.backback plots back-to-back versions of stem and leafs,
+   bagplot plots a bagplot,
+   skyline.hist plots several histgramm in one plot of a one dimensional data set,
+   plotsummary plots a graphical summary of a data set with one or more variables,
+   plothulls plots sequentially hulls of a bivariate data set,
+   faces plots chernoff faces,
+   spin3R for an inspection of a 3-dim point cloud,
+   slider functions for interactive graphics.
+License: GPL (>= 2)
+URL: http://www.wiwi.uni-bielefeld.de/com/wolf/software/aplpack.html
+Packaged: 2013-11-05 09:40:58 UTC; pwolf
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-05 11:34:54

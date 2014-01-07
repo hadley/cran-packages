@@ -1,0 +1,12 @@
+Package: LoopAnalyst
+Version: 1.1-1
+Date: 2006-03-05
+Title: A collection of tools to conduct Levins' Loop Analysis
+Author: Alexis Dinno <adinno@hsph.harvard.edu>
+Maintainer: Alexis Dinno <adinno@hsph.harvard.edu>
+Depends: R (>= 1.8.0), nlme
+Description: Loop analysis makes qualitative predictions of variable change in a system of causally interdependent variabless, where "qualitative" means sign only (i.e. increases, decreases, non change, and ambiguous). This implementation includes output support for graphs in .dot file format for use with visualization software such as graphviz (graphviz.org). Loop Analyst provides tools for the construction and output of community matrices, computation and output of community effect matrices, tables of correlations, adjoint, absolute feedback, weighted feedback and weighted prediction matrices, and feedback, path and loop enumeration tools.
+License: GPL version 2 or newer
+SaveImage: true
+URL: http://www.doyenne.com/LoopAnalyst
+Packaged: Mon Mar  6 21:40:23 2006; alexis

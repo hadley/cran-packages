@@ -1,0 +1,16 @@
+Package: cit
+Type: Package
+Title: Causal Inference Test
+Version: 1.2
+Date: 2013-12-19
+Author: Joshua Millstein
+Maintainer: Joshua Millstein <millstei@usc.edu>
+Description: This package implements a formal statistical hypothesis test, resulting in a p-value, to quantify uncertainty in a causal inference pertaining to a measured factor, e.g. a molecular species, which potentially mediates a known causal association between a locus and a quantitative trait. The test is applicable to data that includes genotype (discrete), possible causal mediator such as gene expression (continuous) and an outcome of interest (continuous).
+SystemRequirements: gsl (with development libraries)
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2013-12-19 23:10:57 UTC; joshuamillstein
+NeedsCompilation: yes
+OS_type: unix
+Repository: CRAN
+Date/Publication: 2013-12-20 07:54:39

@@ -1,0 +1,23 @@
+Package: Momocs
+Type: Package
+Title: Shape Analysis of Outlines
+Version: 0.2-01
+Date: 2012-10-01
+Author: Vincent Bonhomme, Sandrine Picq, Julien Claude
+Maintainer: Vincent Bonhomme <bonhomme.vincent@gmail.com>
+Description: Momocs is intended to ease and popularize shape analysis
+        of outlines (especially using elliptical Fourier analysis). It
+        mostly hinges on the functions developed in Morphometrics with
+        R (Claude, 2008). From outline extraction of images and
+        elliptical Fourier calculation to multivariate analysis and the
+        visualization of transformations within the morphological
+        space, Momocs provides a complete and convenient toolkit to
+        specialists within every field that are, or may be, interested
+        in morphological comparisons of outlines.
+License: GPL (>= 2)
+URL: http://www.vincentbonhomme.fr/Momocs
+Depends: methods, sp, ReadImages, ade4, spdep, shapes, R(>= 2.10.0)
+Collate: global.R Coe.R Coo.R
+Packaged: 2012-10-18 11:56:10 UTC; vincent.bonhomme
+Repository: CRAN
+Date/Publication: 2012-10-18 13:22:42

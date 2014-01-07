@@ -1,0 +1,15 @@
+Package: dupiR
+Type: Package
+Title: Bayesian inference from count data using discrete uniform priors
+Version: 1.1
+Date: 2013-08-06
+Depends: R (>= 2.15.1), methods, plotrix
+Author: Federico Comoglio and Maurizio Rinaldi
+Maintainer: Federico Comoglio <federico.comoglio@bsse.ethz.ch>
+Description: Inference of population sizes using a binomial likelihood and least informative discrete uniform priors.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-08-06 17:18:59 UTC; comoglif
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-06 21:39:28

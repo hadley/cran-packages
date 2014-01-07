@@ -1,0 +1,22 @@
+Package: ChainLadder
+Type: Package
+Title: Mack, Bootstrap, Munich, Multivariate-chain-ladder and Clark
+        methods for insurance claims reserving
+Version: 0.1.4-3.4
+Date: 2011-03-22
+Author: Markus Gesmann, Wayne (Yanwei) Zhang, Daniel Murphy
+Maintainer: Markus Gesmann <markus.gesmann@gmail.com>
+Description: The package provides Mack-, Munich-, Bootstrap, and
+        Multivariate-chain-ladder methods, as well as the LDF Curve
+        Fitting methods of Dave Clark. These methods are typically used
+        in insurance claims reserving.
+Depends: Hmisc, lattice, Matrix, methods, stats, systemfit, MASS,
+        RUnit, actuar
+Suggests: RODBC
+License: GPL (>= 2)
+URL: http://code.google.com/p/chainladder/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-03-27 13:46:38 UTC; Markus
+Repository: CRAN
+Date/Publication: 2011-03-27 18:21:02

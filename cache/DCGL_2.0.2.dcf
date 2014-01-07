@@ -1,0 +1,21 @@
+Package: DCGL
+Type: Package
+Title: Differential Co-expression Analysis and Differential Regulation
+        Analysis of Gene Expression Microarray Data
+Version: 2.0.2
+Date: 2013-08-14
+Author: Jing Yang, Hui Yu, Bao-Hong Liu
+Maintainer: Bao-Hong Liu <bhliu@scbit.org>
+Description: Functions for 1) gene filtration; 2) link filtration; 3) differential co-expression analysis: DCG (Differential Coexpressed
+        Gene) identification and DCL (Differentially Coexpressed Link)
+        identification; and 4) differential regulation analysis: DRG (Differential Regulated
+        Gene) identification, DRL (Differential Regulated Link)
+        identification, DRL visualization and regulator ranking.
+Depends: R (>= 2.10)
+Imports: igraph, limma
+License: GPL (> 2)
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2013-08-15 02:56:17 UTC; Administrator
+NeedsCompilation: no
+Date/Publication: 2013-08-15 06:52:56

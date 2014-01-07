@@ -1,0 +1,16 @@
+Package: twslm
+Version: 1.0.2
+Date: 2007-07-13
+Maintainer: Deli Wang <deli.wang@ccc.uab.edu>
+Author: Deli Wang, Jian Huang
+Depends: splines
+Title: A two-way semilinear model for normalization and analysis of
+        cDNA microarray data.
+Description: twslm is for normalization of cDNA microarray data with
+        the two-way semilinear model. Huber's and Tukey's bisquare
+        weight functions are available for robust estimation of the
+        two-way semilinear models.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:59:57 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:57

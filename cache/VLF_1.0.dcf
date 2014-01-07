@@ -1,0 +1,15 @@
+Package: VLF
+Type: Package
+Title: Frequency Matrix Approach for Assessing Very Low Frequency
+        Variants in Sequence Records
+Version: 1.0
+Date: 2013-10-25
+Author: Taryn B. T. Athey and Paul D. McNicholas
+Maintainer: Taryn B. T. Athey <tathey@uoguelph.ca>
+Description: Using frequency matrices, very low frequency variants (VLFs) are assessed for amino acid and nucleotide sequences.  The VLFs are then compared to see if they occur in only one member of a species, singleton VLFs, or if they occur in multiple members of a species, shared VLFs.  The amino acid and nucleotide VLFs are then compared to see if they are concordant with one another.  Amino acid VLFs are also assessed to determine if they lead to a change in amino acid residue type, and potential changes to protein structures.
+License: GPL (>= 3)
+Packaged: 2013-11-19 11:40:58 UTC; tathey
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-19 16:55:25

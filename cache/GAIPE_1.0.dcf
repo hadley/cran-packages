@@ -1,0 +1,20 @@
+Package: GAIPE
+Type: Package
+Title: Graphical Extension with Accuracy in Parameter Estimation
+        (GAIPE)
+Version: 1.0
+Date: 2013-04-08
+Author: Tzu-Yao Lin
+Maintainer: Tzu-Yao Lin <zaiyaolin@gmail.com>
+Depends: R (>= 2.15.3)
+Description: GAIPE implements graphical representation of accuracy in
+        parameter estimation (AIPE) on RMSEA for sample size planning
+        in structural equation modeling. Sample sizes suggested by
+        RMSEA with AIPE method and power analysis approach can also be
+        obtained separately using the provided functions.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+Packaged: 2013-04-17 12:55:49 UTC; Administrator
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-17 19:22:33

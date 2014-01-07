@@ -1,0 +1,13 @@
+Package: eigenprcomp
+Type: Package
+Title: Computes confidence intervals for principal components
+Version: 1.0
+Date: 2013-07-26
+Author: Francisco Juretig
+Maintainer: Francisco Juretig <fjuretig@yahoo.com>
+Description: Computes confidence intervals for the proportion explained by the first 1,2,k principal components, and computes confidence intervals for each eigenvalue. Both computations are done via nonparametric bootstrap.
+License: GPL-2
+Packaged: 2013-07-27 08:12:58 UTC; Fran
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-27 11:42:23

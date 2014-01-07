@@ -1,0 +1,30 @@
+Package: kinship
+Version: 1.1.0-6
+Date: 2005-3-21
+Title: mixed-effects Cox models, sparse matrices, and modeling data from large pedigrees
+Author: Beth Atkinson (atkinson@mayo.edu) for pedigree
+        functions. Terry Therneau (therneau@mayo.edu) for all other functions.
+Maintainer: Jing hua Zhao <j.zhao@ucl.ac.uk>
+Depends: survival, nlme, lattice, R (>= 2.0.0)
+SaveImage: No
+LazyLoad: Yes
+LazyData: Yes
+Description: coxme: general mixed-effects Cox models; kinship: routines
+        to create and manipulate n by n matrices that describe the
+        genetic relationships between n persons; pedigree: create and
+        plot pedigrees; bdsmatrix: a class of objects for sparse
+        block-diagonal matrices (which is how kinship matrices are
+        stored); gchol: generalized cholesky decompositions
+License: Copyright 2003 Mayo Foundation for Medical Education and
+        Research This program is free software; you can redistribute
+        it and/or modify it under the terms of the GNU General Public
+        License as published by the Free Software Foundation; either
+        version 2 of the License, or (at your option) any later
+        version. This program is distributed in the hope that it will
+        be useful, but WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+        PURPOSE. See the GNU General Public License for more details.
+        For other licensing arrangements, please contact Terry
+        Therneau, Ph.D. Division of Biostatistics Mayo Clinic
+        200 First St., SW Rochester, MN 55905 email: therneau@mayo.edu
+Packaged: Sat Apr  2 09:15:33 2005; jzhao

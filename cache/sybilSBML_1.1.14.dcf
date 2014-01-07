@@ -1,0 +1,18 @@
+Package: sybilSBML
+Type: Package
+Title: SBML integration in SyBiL
+Version: 1.1.14
+Date: 2012-04-20
+Authors@R: c(person("Gabriel", "Gelius-Dietrich", role = "cre", email =
+        "geliudie@uni-duesseldorf.de"))
+Depends: R (>= 2.12.0), Matrix (>= 1.0-4), rsbml (>= 2.10.0), sybil (>=
+        1.0.0), methods
+Description: SBML integration in SyBiL
+URL: http://www.cs.uni-duesseldorf.de/AG/BI/Software/SyBiL
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-04-20 12:27:47 UTC; gabriel
+Author: Gabriel Gelius-Dietrich [cre]
+Maintainer: Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
+Repository: CRAN
+Date/Publication: 2012-07-06 09:41:40

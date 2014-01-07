@@ -1,0 +1,13 @@
+Package: RGraphics
+Title: Data and Functions from R Graphics
+Version: 1.0-1
+Author: Paul Murrell
+Description: Data and Functions from the book R Graphics.  There is a 
+  function to produce each figure in the book, plus several functions
+  defined in Chapter 7.  
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+Depends: R (>= 2.0.0), grDevices, graphics, grid, lattice
+Suggests: CircStats, cluster, gridBase, maps, mapproj, oz, pixmap, vcd
+License: GPL
+LazyData: yes
+Packaged: Thu May  5 09:29:38 2005; paul

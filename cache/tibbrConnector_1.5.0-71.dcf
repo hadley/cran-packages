@@ -1,0 +1,14 @@
+Package: tibbrConnector
+Type: Package
+Title: R interface to tibbr
+Version: 1.5.0-71
+Depends: RCurl, rjson
+DependsTERR: terrUtils
+Author: TIBCO Software Inc.
+Maintainer: Stephen Kaluzny <skaluzny@tibco.com>
+Description: Post messages to tibbr from within R.
+License: BSD_3_clause + file LICENSE
+Packaged: 2013-06-28 22:11:46 UTC; spk
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-29 01:15:31

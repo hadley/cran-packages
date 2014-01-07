@@ -1,0 +1,18 @@
+Package: agreement
+Type: Package
+LazyData: yes
+LazyLoad: yes
+Encoding: latin1
+Depends: R (>= 2.7.0), stats, utils, tools
+Title: agreement: Analyse the agreement between two measurement methods
+Version: 1.0-1
+Date: 2008-09-18
+Author: Fabio Frascati, Bruno Mario Cesana
+Maintainer: Fabio Frascati <fabio.frascati@studenti.unimi.it>
+Description: The agreement is a package to investigate agreement
+             between two measurement methods using a simulation
+             approach. This approach is the same as that presented
+             in literature.
+License: GPL-2
+URL: http://www.r-project.org/, http://cran.r-project.org/
+Packaged: Wed Dec 10 14:38:56 2008; Fabio

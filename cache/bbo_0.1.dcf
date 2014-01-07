@@ -1,0 +1,23 @@
+Package: bbo
+Type: Package
+Title: Biogeography-Based Optimization
+Version: 0.1
+Date: 2013-02-28
+Author: Sarvesh Nikumbh (BBO originally invented by Prof. Dan Simon,
+        Cleveland State University, Ohio)
+Maintainer: Sarvesh Nikumbh <snikumbh@mpi-inf.mpg.de>
+Description: This package provides an R implementation of
+        Biogeography-Based Optimization (BBO), originally invented by
+        Prof. Dan Simon, Cleveland State University, Ohio. This method
+        is an application of the concept of biogeography, a study of
+        the geographical distribution of biological organisms, to
+        optimization problems. More information about this method can
+        be found here: http://academic.csuohio.edu/simond/bbo/.
+License: GPL (>= 3)
+LazyLoad: yes
+Repository: CRAN
+Depends:
+Suggests:
+Packaged: 2013-04-19 00:02:15 UTC; nikumbh
+NeedsCompilation: no
+Date/Publication: 2013-04-19 06:21:50

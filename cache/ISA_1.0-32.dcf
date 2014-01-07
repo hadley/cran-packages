@@ -1,0 +1,17 @@
+Package: ISA
+Type: Package
+LazyData: no
+Encoding: latin1
+Depends: R (>= 2.4.1), stats, utils, tools
+Title: INTRODUZIONE ALLA STATISTICA APPLICATA con esempi in R
+Version: 1.0-32
+Date: 2007-09-14
+Author: Fabio Frascati <fabiofrascati@yahoo.it> and
+        Federico M. Stefanini <stefanini@ds.unifi.it>
+Maintainer: Fabio Frascati <fabiofrascati@yahoo.it>
+Description: Insieme di funzioni di supporto al volume "INTRODUZIONE
+        ALLA STATISTICA APPLICATA con esempi in R", Federico M. Stefanini,
+        PEARSON Education Milano, 2007.
+License: GPL-2
+URL: http://hpe.pearsoned.it/stefanini
+Packaged: Fri Jan 11 09:28:30 2008; Fabio

@@ -1,0 +1,19 @@
+Package: geoPlot
+Type: Package
+Title: Geocodes street or ip addresses and plots them on a map.
+Version: 2.3
+Date: 2013-08-07
+Author: Randall Shane, PhD
+Maintainer: "Randall Shane, PhD" <rshane@basexvi.com>
+Depends: R(>= 2.15.3), rjson, RgoogleMaps, XML
+Description: There are 4 primary functions and RgoogleMaps and XML
+        are dependencies.  This package resolves street addressand ip 
+		address to point coordinates, plot resolved points on specified 
+		Google map and determine distance between 2 points in km or mi 
+		using haversine formula.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-08-08 01:06:04 UTC; rshane
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-09 07:03:19

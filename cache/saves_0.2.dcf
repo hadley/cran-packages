@@ -1,0 +1,27 @@
+Package: saves
+Type: Package
+Title: Fast load variables
+Version: 0.2
+Date: 2011-01-26
+Author: Gergely Daróczi <daroczi.gergely@btk.ppke.hu>
+Maintainer: Gergely Daróczi <daroczi.gergely@btk.ppke.hu>
+Description: The purpose of this package is to be able to save and load
+        only the needed variables/columns of a dataframe in special
+        binary files (tar archives) - which seems to be a lot faster
+        method than loading the whole binary object (Rdata files) via
+        load() function, or than loading columns from SQLite/MySQL
+        databases via SQL commands.  The performance improvement gained
+        by loading only the chosen variables in binary format can be
+        useful in some special cases (e.g. where merging data tables is
+        not an option and very different datasets are needed for
+        reporting), but be sure you really need this, as non-standard
+        file formats are used!
+License: AGPL-3
+BugReports: https://github.com/daroczig/saves/issues
+URL: http://r.snowl.net/saves/
+LazyData: no
+Encoding: UTF-8
+Collate: 'docu.R' 'loads.R' 'saves.R'
+Packaged: 2011-01-26 14:37:19 UTC; omleny
+Repository: CRAN
+Date/Publication: 2011-01-27 10:34:29

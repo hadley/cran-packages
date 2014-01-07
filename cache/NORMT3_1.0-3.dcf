@@ -1,0 +1,18 @@
+Package: NORMT3
+Title: Evaluates complex erf, erfc, Faddeeva, and density of sum of
+        Gaussian and Student's t
+Version: 1.0-3
+Date: 31/10/2012
+Author: Guy Nason <g.p.nason@bristol.ac.uk>
+Maintainer: Guy Nason <g.p.nason@bristol.ac.uk>
+Depends: R (>= 2.0)
+Description: Evaluates the probability density function of the sum of
+        the Gaussian and Student's t density on 3 degrees of freedom.
+        Evaluates the p.d.f. of the sphered Student's t density
+        function.  Also evaluates the erf, and erfc functions on
+        complex-valued arguments. Thanks to Krishna Myneni the function
+        is calculates the Faddeeva function also!
+License: GPL-2
+Packaged: 2012-10-31 16:44:53 UTC; magpn
+Repository: CRAN
+Date/Publication: 2012-10-31 18:08:31

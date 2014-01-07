@@ -1,0 +1,46 @@
+Package: gRbase
+Version: 1.6-8
+Title: A package for graphical modelling in R
+Author: Søren Højsgaard <sorenh@math.aau.dk> with contributions from
+        Claus Dethlefsen <cld@rn.dk> and Clive Bowsher
+        <C.Bowsher@statslab.cam.ac.uk>
+Maintainer: Søren Højsgaard <sorenh@math.aau.dk>
+Description: The gRbase package provides certain general constructs
+        which are used by other graphical modelling packages, in
+        particular by the packages gRain, gRim and gRc.
+ .
+ gRbase contains several datasets relevant for use in connection with
+        graphical models. Almost all datasets used in the book
+        Graphical Models with R (2012) are contained in gRbase.
+ .
+ gRbase implements several graph algorithms (based mainly on
+        representing graphs as adjacency matrices - either in the form
+        of a standard matrix or a sparse matrix). Some graph algorithms
+        are: (i) maximum cardinality search (for marked and unmarked
+        graphs).  (ii) moralize.  (iii) triangulate.  (iv)
+        junctionTree.
+ .
+ gRbase facilities for array operations,
+ .
+ gRbase implements functions for testing for conditional independence.
+ .
+ gRbase illustrates how hierarchical log-linear models (hllm) may be
+        implemented and describes concept of gmData (graphical meta
+        data). These features, however, are not maintained anymore and
+        remains in gRbase only because there exists a paper describing
+        these facilities: A Common Platform for Graphical Models in R:
+        The gRbase Package, Journal of Statistical Software, Vol 14, No
+        17, 2005.
+License: GPL (>= 2)
+URL: http://people.math.aau.dk/~sorenh/software/gR/
+Depends: R (>=
+        2.15.2),methods,MASS,Rcpp,RcppEigen,RcppArmadillo,igraph,graph,RBGL(>=
+        1.34.0)
+Imports: Matrix,Rgraphviz,fastmatch
+Encoding: latin1
+LinkingTo: Rcpp,RcppArmadillo,RcppEigen
+ByteCompile: Yes
+Packaged: 2013-03-10 23:37:15 UTC; sorenh
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-11 07:40:37

@@ -1,0 +1,14 @@
+Package: mmcm
+Version: 1.0-1
+Date: 2009-06-12
+Title: Modified Maximum Contrast Method
+Author: Kengo NAGASHIMA and Yasunori SATO
+Maintainer: Kengo NAGASHIMA <nagasima@josai.ac.jp>
+Description: This package provides an implementation of modified
+        maximum contrast method. Current version supports function
+        mmcm.resamp that gives P-value for the modified maximum
+        contrast statistics by using a resampling based procedure.
+License: file LICENSE
+Packaged: 2009-06-12 12:46:27 UTC; NAGASHIMA
+Repository: CRAN
+Date/Publication: 2009-06-14 19:12:01

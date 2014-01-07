@@ -1,0 +1,24 @@
+Package: CPMCGLM
+Version: 1.0
+Date: 2012-03-20
+Title: Correction of the pvalue after multiple coding
+Author: Jeremie Riou, Amadou Diakite, and Benoit Liquet
+Maintainer: Jeremie Riou <jeremie.riou@isped.u-bordeaux2.fr>
+LazyLoad: yes
+Description: We propose to determine the correction of the significance
+        level after multiple coding of an explanatory variable in
+        Generalized Linear Model. The possible codings are: Box-Cox,
+        dichotomous and categorical transformations. The different
+        methods of correction of the p-value are the Single step
+        Bonferroni procedure, and resampling based methods(permutation
+        and the parametric bootstrap procedure). If only some
+        continuous, and dichotomous transformations are performed this
+        package offers an exact correction of the p-value developped by
+        B.Liquet & D.Commenges in 2005. The naive method with no
+        correction is also available.
+License: GPL (> 2)
+Depends: R (>= 2.10.0), mvtnorm, plyr
+URL: http://www.r-project.org
+Repository: CRAN
+Packaged: 2012-03-29 09:41:38 UTC; jr3
+Date/Publication: 2012-03-29 12:11:56

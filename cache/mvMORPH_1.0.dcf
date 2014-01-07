@@ -1,0 +1,15 @@
+Package: mvMORPH
+Type: Package
+Title: Multivariate Comparative Tools for Fitting Evolutionary Models
+        to Morphometric Data
+Version: 1.0
+Date: 2013-07-22
+Author: Julien Clavel, with contributions from Aaron King, and Emmanuel Paradis
+Maintainer: Julien Clavel <julien.clavel@hotmail.fr>
+Description: Fits multivariate models of continuous traits evolution on trees
+Depends: R(>= 2.9.1), phytools, ape, corpcor, subplex
+License: GPL (>= 2.0)
+Packaged: 2013-10-08 15:18:47 UTC; julien.clavel
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-08 19:53:52

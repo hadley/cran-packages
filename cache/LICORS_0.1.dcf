@@ -1,0 +1,35 @@
+Package: LICORS
+Type: Package
+Title: Light Cone Reconstruction of States - Predictive State
+        Estimation From Spatio-Temporal Data
+Version: 0.1
+Date: 2012-11-02
+Author: Georg M. Goerg <gmg@stat.cmu.edu>
+Maintainer: Georg M. Goerg <gmg@stat.cmu.edu>
+Description: Estimates predictive states from spatio-temporal data and
+        consequently can provide provably optimal forecasts.  Currently
+        this implementation supports an N-dimensional spatial grid
+        observed over equally spaced time intervals. E.g. a video is a
+        2D spatial systems observed over time. This package implements
+        mixed LICORS, has plotting tools (for (1+1)D and (2+1)D
+        systems), and methods for optimal forecasting.
+License: GPL-2
+Depends: R (>= 2.12.1), itertools
+Imports: RColorBrewer, mvtnorm, zoo, FNN, itertools, fields, locfit
+Suggests: huge, locfit, RANN, yaImpute
+URL: http://www.stat.cmu.edu/~gmg
+Collate: 'compute_LC_coords.R' 'compute_LICORS_loglik.R'
+        'compute_margin_coords.R' 'compute_mixture_penalty.R'
+        'compute_NEC.R' 'contCA00.R' 'data2LCs.R' 'estimate_LC_pdfs.R'
+        'estimate_state_adj_matrix.R' 'estimate_state_probs.R'
+        'get_spacetime_iterator.R' 'get_LC_config.R' 'image2.R'
+        'initialize_states.R' 'kmeanspp.R' 'LC-utils.R'
+        'LICORS-package.R' 'merge_states.R' 'mixed_LICORS.R'
+        'normalize.R' 'predict_FLC_given_PLC.R' 'rdensity.R'
+        'relabel_vector.R' 'remove_small_sample_states.R'
+        'search_knn.R' 'setup_LC_geometry.R' 'sparsify_weights.R'
+        'states2weight_matrix.R' 'threshold.R' 'weight_matrix2states.R'
+        'wKDE.R' 'mixed_LICORS-utils.R'
+Packaged: 2012-11-07 15:25:23 UTC; GMG
+Repository: CRAN
+Date/Publication: 2012-11-08 06:05:42

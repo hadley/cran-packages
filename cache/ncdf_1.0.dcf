@@ -1,0 +1,15 @@
+Package: ncdf
+Title: Interface to Unidata netCDF data files
+Maintainer:  David Pierce <dpierce@ucsd.edu>
+Version: 1.0
+Author: David Pierce
+Description: This package provides a high-level R interface to Unidata's
+ netCDF data files, which are portable across platforms and include
+ metadata information in addition to the data sets.  
+ Using this package netCDF files can be opened and data sets read in easily.
+ It is also easy to create new netCDF dimensions, variables, and files,
+ or manipulate existing netCDF files.
+ This interface provides considerably more functionality than the "netCDF"
+ package.  It is not compatible with the "netCDF" package.
+License: GPL version 2 or newer
+URL: http://www.unidata.ucar.edu/packages/netcdf/

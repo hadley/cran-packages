@@ -1,0 +1,21 @@
+Package: RcmdrPlugin.EHESsampling
+Title: Tools for sampling in European Health Examination Surveys (EHES)
+Version: 2.0
+Date: 2011/05/27
+Depends: Rcmdr (>= 1.3-0), lpSolve, sampling, MASS, tcltk2, Hmisc (>=
+        3.8-0)
+Author: Statistics Norway
+Maintainer: Susie Jentoft <susie.jentoft@ssb.no> & Johan heldal
+        <johan.heldal@ssb.no>
+Description: This package includes tools useful for European Health
+        Examination Surveys. This includes selecting a two-stage sample
+        and creating and checking encoded serial numbers. The EHES
+        Pilot project has received funding from the European Commission
+        and DG Sanco. The views expressed here are those of the authors
+        and they do not represent Commission's official position.
+URL: http://www.ehes.info.net
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-06-13 10:44:52 UTC; coo
+Repository: CRAN
+Date/Publication: 2011-06-15 17:53:41

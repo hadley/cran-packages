@@ -1,0 +1,17 @@
+Package: TPAM
+Type: Package
+Title: TPAM
+Version: 1.0
+Date: 2011-07-30
+Author: Yuping Zhang
+Maintainer: Yuping Zhang <yupingz@stanford.edu>
+Description: Classification using time-course gene expression data,
+        described in the following paper: Zhang Y, Tibshirani RJ, Davis
+        RW. Classification of patients from time-course gene
+        expression. Biostatistics 2012
+License: GPL
+LazyLoad: FALSE
+Depends: pamr, MASS,Matrix
+Packaged: 2012-01-31 20:58:27 UTC; yuping
+Repository: CRAN
+Date/Publication: 2012-01-31 21:46:42

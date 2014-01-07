@@ -1,0 +1,21 @@
+Package: DOSim
+Type: Package
+Title: Disease Analysis toolkit for gene set; Computation of
+        similarities between DO terms and disease similarity between
+        gene products; DO enrichment analysis; Disease Ontology
+        annotation
+Version: 1.2
+Date: 2010-7-15
+Author: Jiang Li <riverlee2008@gmail.com>
+Maintainer: Jiang Li <riverlee2008@gmail.com>
+Depends: RBGL, graph
+Description: This package implements several functions useful for
+        computing similarities between DO terms and gene products.
+        Moreover it allows for conducting DO enrichment analysis and
+        provide basic disease ontology annotation.
+License: GPL (>= 2)
+URL: http://bioinfo.hrbmu.edu.cn/dosim/
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2010-07-15 14:19:46 UTC; lee
+Date/Publication: 2010-07-24 19:40:53

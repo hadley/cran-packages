@@ -1,0 +1,16 @@
+Package: RFGLS
+Version: 1.0
+Date: 2012-11-29
+Title: a family GWAS data-analysis tool that uses a generalized least
+        squares method to perform single-marker association analysis.
+Author: Xiang Li <lixxx554@umn.edu>, Robert M. Kirkpatrick
+        <kirk0191@umn.edu>, and Saonli Basu <saonli@umn.edu>.
+Maintainer: Saonli Basu <saonli@umn.edu>
+Description: RFGLS is a family GWAS data-analysis tool that uses a
+        generalized least squares method to perform single-marker
+        association analysis.
+Depends: stats, bdsmatrix, Matrix, R (>= 2.15.0)
+License: GPL (>= 2)
+Packaged: 2012-11-29 20:42:30 UTC; kirk0191
+Repository: CRAN
+Date/Publication: 2012-11-30 07:04:27

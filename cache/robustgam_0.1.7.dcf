@@ -1,0 +1,21 @@
+Package: robustgam
+Type: Package
+Title: Robust Estimation for Generalized Additive Models
+Version: 0.1.7
+Date: 2013-5-7
+Author: Raymond K. W. Wong, Fang Yao and Thomas C. M. Lee
+Maintainer: Raymond K. W. Wong <raymondkww.dev@gmail.com>
+Description: This package provides robust estimation for generalized
+        additive models. It implements a fast and stable algorithm in
+        Wong, Yao and Lee (2013). The implementation also contains
+        three automatic selection methods for smoothing parameter. They
+        are designed to be robust to outliers. For more details, see
+        Wong, Yao and Lee (2013).
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.9.13), RcppArmadillo (>= 0.3.4.4) , mgcv (>=
+        1.7-20), robustbase (>= 0.9-3)
+LinkingTo: Rcpp, RcppArmadillo
+Packaged: 2014-01-02 18:01:16 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-02 19:18:27

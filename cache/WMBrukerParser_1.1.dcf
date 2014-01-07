@@ -1,0 +1,15 @@
+Package: WMBrukerParser
+Type: Package
+Title: William and Mary Parser For Bruker-Ultraflex Mass Spec Data
+Version: 1.1
+Date: 2009-12-22
+Author: William Cooke, Maureen Tracy and Dariya Malyarenko
+Maintainer: William Cooke <wecook@wm.edu>
+Description: The package parses Bruker Ultraflex TOF mass spectrometry
+        data and experimental parameter files into R structures for
+        further signal processing and statistical analysis.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2009-12-23 01:32:25 UTC; Maureen Tracy
+Repository: CRAN
+Date/Publication: 2009-12-23 08:28:09

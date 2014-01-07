@@ -1,0 +1,23 @@
+Package: np
+Version: 0.40-13
+Date: 2012-03-05
+Depends: boot, cubature
+Suggests: quantreg, MASS
+Title: Nonparametric kernel smoothing methods for mixed data types
+Author: Tristen Hayfield <hayfield@mpia.de>, Jeffrey S. Racine
+        <racinej@mcmaster.ca>
+Maintainer: Jeffrey S. Racine <racinej@mcmaster.ca>
+Description: This package provides a variety of nonparametric (and
+        semiparametric) kernel methods that seamlessly handle a mix of
+        continuous, unordered, and ordered factor data types. We would
+        like to gratefully acknowledge support from the Natural
+        Sciences and Engineering Research Council of Canada
+        (NSERC:www.nserc.ca), the Social Sciences and Humanities
+        Research Council of Canada (SSHRC:www.sshrc.ca), and the Shared
+        Hierarchical Academic Research Computing Network
+        (SHARCNET:www.sharcnet.ca).
+License: GPL
+URL: https://github.com/JeffreyRacine/R-Package-np/
+Packaged: 2012-03-05 19:52:39 UTC; jracine
+Repository: CRAN
+Date/Publication: 2012-03-06 06:40:16

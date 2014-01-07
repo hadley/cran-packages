@@ -1,0 +1,18 @@
+Package: IAT
+Title: Functions to use with data from the Implicit Association Test
+Description: Contains a function to implement the standard D-Scoring algorithm
+    (Greenwald, Banaji, & Nosek, 2003) for Implicit Association Test (IAT)
+    data, as well as various other functions to produce plots of IAT data.
+Version: 0.1
+Author: Dan Martin <dm4zz@virginia.edu>
+Maintainer: Dan Martin <dm4zz@virginia.edu>
+Depends: R (>= 2.15.3)
+Imports: data.table, ggplot2
+License: Apache License 2.0
+LazyData: true
+Collate: 'cleanIAT.R' 'plotIIV.R' 'plotIndVar.R' 'plotItemErr.R'
+        'plotItemVar.R' 'cleanIATExample.R'
+Packaged: 2013-09-24 02:50:46 UTC; danmartin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-24 07:45:13

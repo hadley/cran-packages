@@ -1,0 +1,14 @@
+Package: mixtools
+Version: 0.2.0
+Title: Tools for mixture models.
+Author:  Derek Young
+         Ryan Elmore
+         Tom Hettmansperger
+         David Hunter
+         Hoben Thomas
+         Fengjuan Xuan
+Maintainer: Derek Young <dsy109@stat.psu.edu>
+Depends: boot, mvtnorm, R (>= 2.0.0)
+Description: A collection of R functions for analyzing mixture models.
+License: GPL Version 2 or later.
+Packaged: Tue May  1 00:51:41 2007; Derek Young

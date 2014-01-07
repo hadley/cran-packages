@@ -1,0 +1,30 @@
+Package: DMR
+Type: Package
+Title: Delete or Merge Regressors for linear model selection.
+Version: 2.0
+Date: 2013-01-30
+Author: Aleksandra Maj, Agnieszka Prochenka, Piotr Pokarowski
+Maintainer: Aleksandra Maj <aleksandra.lucja.maj@gmail.com>
+Depends: R (>= 1.8.0), magic
+Description: A backward selection procedure called delete or merge
+        regressors (DMR) combines deleting continuous variables with
+        merging levels of factors. The method assumes greedy search
+        among linear models with set of constraints of two types:
+        either a parameter for a continuous variable is set to zero or
+        parameters corresponding to two levels of a factor are
+        compared. DMR is a stepwise regression procedure, where in each
+        step a new constraint is added according to ranking of the
+        hypotheses based on squared t-statistics. As a result a nested
+        family of linear models is obtained and the final decision is
+        made according to minimization of the generalized information
+        criterion (GIC, default BIC). The main function of the package
+        is DMR, which is based on hierarchical clustering. Moreover,
+        other functions for extensions of DMR method are given, such as
+        stepDMR which is based on recalculation of t-statistics in each
+        step and function DMR4glm for generalized linear models.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-02-21 11:44:32 UTC; am248424
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-21 13:19:28

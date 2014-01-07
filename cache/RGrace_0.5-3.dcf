@@ -1,0 +1,11 @@
+Package: RGrace
+Version: 0.5-3
+Date: 2005-5-13
+Title:  RGrace
+Author: M.Kondrin <mkondrin@hppi.troitsk.ru>
+Maintainer: M.Kondrin <mkondrin@hppi.troitsk.ru>
+Depends: R (>= 1.9.1), RGtk,gtkDevice (>= 0.5.4), grid (>= 2.0)
+Description: Mouse/menu driven interactive plotting application.
+License: GPL version 2 or newer
+URL: http://www.hppi.troitsk.ru/Kondrin/rgrace.htm
+Packaged: Fri May 13 08:49:17 2005; root

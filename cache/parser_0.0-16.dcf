@@ -1,0 +1,18 @@
+Package: parser
+Type: Package
+Title: Detailed R source code parser
+Version: 0.0-16
+Date: 2012-06-25
+Author: Romain Francois <romain@r-enthusiasts.com>
+Maintainer: Andrew Redd <Andrew.Redd@hsc.utah.edu>
+Description: detailed source code parser, based on the standard R
+        parser but organizing the information differently
+License: GPL (>= 2.0)
+Depends: R (>= 2.12.0), Rcpp (>= 0.9.7)
+LinkingTo: Rcpp
+LazyData: yes
+RcppModules: parser_module
+URL: https://github.com/halpo/parser
+Packaged: 2012-06-26 04:46:00 UTC; aredd
+Repository: CRAN
+Date/Publication: 2012-06-26 04:46:08

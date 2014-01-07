@@ -1,0 +1,22 @@
+Package: Rivivc
+Type: Package
+Title: In vitro in vivo correlation linear level A
+Version: 0.9
+Date: 2012-10-03
+Authors@R: c(person("Aleksander", "Mendyk", role = c("aut",
+        "cre"),email = "mfmendyk@cyf-kr.edu.pl"),person("Sebastian",
+        "Polak",role="aut",email="mfpolak@@cyf-kr.edu.pl"))
+Depends: signal, compiler
+Suggests: graphics
+Description: This package is devoted to the IVIVC linear level A with
+        numerical deconvolution method. The latter is working for
+        inequal and incompatible timepoints between impulse and
+        response curves. A numerical convolution method is also
+        available. Application domains include pharamaceutical industry
+        QA/QC and R&D together with academic research.
+License: GPL (>= 3)
+Packaged: 2012-10-04 23:09:13 UTC; olo
+Author: Aleksander Mendyk [aut, cre], Sebastian Polak [aut]
+Maintainer: Aleksander Mendyk <mfmendyk@cyf-kr.edu.pl>
+Repository: CRAN
+Date/Publication: 2012-10-05 05:37:51

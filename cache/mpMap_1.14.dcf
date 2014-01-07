@@ -1,0 +1,35 @@
+Package: mpMap
+Type: Package
+Title: Multi-parent RIL genetic analysis
+Version: 1.14
+Date: 2012-06-06
+Author: Emma Huang
+Maintainer: Emma Huang <Emma.Huang@csiro.au>
+Description: Tools for constructing linkage maps, reconstructing
+        haplotypes, estimating linkage disequilibrium and QTL mapping
+        in multi-parent RIL designs (e.g. MAGIC)
+License: GPL-2
+LazyLoad: yes
+Depends: gdata, seriation, qtl, wgaim
+Suggests: aod, asreml, happy.hbrem, Heatplus, MASS, VPdtw, lattice
+Collate: 'add3pt.R' 'calc.genoprob2.R' 'calcmpprob.R' 'check-ped.R'
+        'check-QTL.R' 'clean.mpcross.R' 'cleanmap.R' 'cleanrf.R'
+        'combine-chr.R' 'combine-ibd.R' 'combine-ld.R' 'combine-rf.R'
+        'compare-orders.R' 'compute-bnld.R' 'compute-bnrf.R'
+        'computemap.R' 'convertped.R' 'CR-calcLD.R' 'CR-cross.R'
+        'CR-estrf.R' 'CR-gen-geno.R' 'fill.R' 'fillmiss.R' 'findqtl2.R'
+        'fit.mpqtl.R' 'gen4ped.R' 'gen8ped.R' 'generate-error.R'
+        'generate-obs.R' 'generate-pheno.R' 'getpval.R' 'mapcomp.R'
+        'maporder.R' 'mp-mapdist.R' 'mpadd.R' 'mpcalcld.R' 'mpcross.R'
+        'mpestrf.R' 'mpgroup.R' 'mpIM.R' 'mpMap-output.R' 'mporder.R'
+        'mpprob.R' 'mpsegrat.R' 'nai.R' 'plot.mpcross.R'
+        'plot.mpprob.R' 'plot.mpqtl.R' 'plotlink.map.R'
+        'print.mapcomp.R' 'print.mpcross.R' 'print.mpprob.R'
+        'print.mpqtl.R' 'qtlmap.R' 'read.mpcross.R'
+        'reorgRIgenoprob2.R' 'sim.mpcross.R' 'sim.mpped.R'
+        'sim.sigthr.R' 'subset.mpcross.R' 'subset.mpprob.R'
+        'summary.mpcross.R' 'summary.mpprob.R' 'summary.mpqtl.R'
+        'supportinterval.R' 'waldTests.R'
+Packaged: 2012-06-06 04:42:08 UTC; hua032
+Repository: CRAN
+Date/Publication: 2012-06-06 05:59:03

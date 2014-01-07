@@ -1,0 +1,19 @@
+Package: SemiPar
+Version: 1.0-4
+Title: Semiparametic Regression
+Author: Matt Wand <mwand@uts.edu.au>
+Maintainer: ORPHANED
+Imports: MASS, cluster, nlme
+Suggests: lattice
+Description: Functions for semiparametric regression analysis, to
+        complement the book: Ruppert, D., Wand, M.P. and Carroll, R.J.
+        (2003). Semiparametric Regression. Cambridge University Press.
+License: GPL (>= 2)
+URL: http://www.uow.edu.au/~mwand/SPmanu.pdf
+Packaged: 2013-03-23 07:07:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-03-23 08:30:39
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Matt Wand <mwand@uts.edu.au>
+X-CRAN-Comment: Orphaned on 2013-03-23 as the maintainer is
+        unresponsive.

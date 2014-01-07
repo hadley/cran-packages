@@ -1,0 +1,17 @@
+Package: plotGoogleMaps
+Type: Package
+Title: Plot SP data as HTML map mushup over Google Maps
+Version: 1.1
+Date: 2012-01-31
+Author: Milan Kilibarda
+Maintainer: Milan Kilibarda <kili@grf.bg.ac.rs>
+Description: This package provides a interactive plot device for
+        handling the geographic data for web browsers. It is optomised
+        for Google Chrome browser. It is designed for the automatic
+        creation of web maps as a combination of users' data and Google
+        Maps layers.
+Depends: R (>= 2.10.0), sp, rgdal, maptools,lattice
+License: GPL
+Packaged: 2012-02-06 12:54:48 UTC; gf01
+Repository: CRAN
+Date/Publication: 2012-02-06 13:38:08

@@ -1,0 +1,20 @@
+Package: qqplotter
+Version: 1.11
+Date: October 14 2011
+Title: Quantile-quantile analysis of 24-hr precipitation using a frame
+        work based on the exponential distribution
+Author: Rasmus E. Benestad <rasmus.benestad@physics.org> & D. Nychka
+Maintainer: Rasmus E. Benestad <rasmus.benestad@physics.org>
+Depends: ncdf, fields, clim.pact, akima, LatticeKrig, PrecipStat, R (>=
+        2.10.0)
+Description: The package provides a quick analysis of quantiles of
+        wet-day 24-hr accumulated precipitation records, demonstrating
+        that the quantiles to a great degree can be predicted from the
+        wet-day mean. The package analyses both observations and
+        results from RCMs.
+License: GPL (>= 2)
+URL: no
+ZipData: no
+Packaged: 2011-10-14 20:11:23 UTC; rasmusb
+Repository: CRAN
+Date/Publication: 2011-10-15 19:53:45

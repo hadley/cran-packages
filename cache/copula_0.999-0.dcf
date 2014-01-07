@@ -1,0 +1,57 @@
+Package: copula
+Version: 0.999-0
+Date: $ $
+Revision: $Revision: 827 $
+Title: Multivariate Dependence with Copulas
+Author: Marius Hofert <marius.hofert@math.ethz.ch>, Ivan Kojadinovic
+        <ivan.kojadinovic@univ-pau.fr>, Martin Maechler
+        <maechler@stat.math.ethz.ch>, and Jun Yan <jun.yan@uconn.edu>
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Depends: R (>= 2.14.1), methods
+Imports: stats4, graphics, gsl, ADGofTest, stabledist (>= 0.6-4),
+        mvtnorm, pspline
+Suggests: lattice, MASS, Matrix, KernSmooth, sfsmisc, bbmle,
+        scatterplot3d, Rmpfr, mvnormtest, tseries, zoo
+SuggestsComments: packages mvnormtest, tseries, zoo are only used in
+        demos
+Enhances: nor1mix
+Description: Classes (S4) of commonly used copulas including elliptical
+        (normal and t), Archimedean (Clayton, Gumbel, Frank, and
+        Ali-Mikhail-Haq), extreme value (Gumbel, Husler-Reiss,
+        Galambos, Tawn, and t-EV), and other families (Plackett and
+        Farlie-Gumbel-Morgenstern). Methods for density, distribution,
+        random number generation, bivariate dependence measures,
+        perspective and contour plots. Functions for fitting copula
+        models with variance estimate. Independence tests among random
+        variables and random vectors. Serial independence tests for
+        univariate and multivariate continuous time series.
+        Goodness-of-fit tests for copulas based on multipliers, the
+        parametric bootstrap with several transformation options.
+        Bivariate and multivariate tests of extreme-value dependence.
+        Bivariate tests of exchangeability.  Now with former 'nacopula'
+        for working with nested Archimedean copulas.  Specifically,
+        providing procedures for computing function values and cube
+        volumes, characteristics such as Kendall's tau and tail
+        dependence coefficients, efficient sampling algorithms, various
+        estimators, and goodness-of-fit tests.  The package also
+        contains related univariate distributions and special functions
+        such as the Sibuya distribution, the polylogarithm, Stirling
+        and Eulerian numbers.
+License: GPL (>= 3)
+Collate: AllClass.R Classes.R Copula.R Auxiliaries.R aux-acopula.R
+        special-func.R cop_objects.R nacopula.R derCdfPdf.R amhCopula.R
+        amhExpr.R An.R archmCopula.R asymCopula.R asymExplicitCopula.R
+        claytonCopula.R claytonExpr.R ellipCopula.R empcop.R
+        estimation.R evCopula.R evTests.R exchTests.R fgmCopula.R
+        fitCopula.R fitMvdc.R frankCopula.R frankExpr.R
+        galambosCopula.R galambosExpr-math.R galambosExpr.R gof.R
+        gofEVTests.R gofTests.R graphics.R gumbelCopula.R gumbelExpr.R
+        huslerReissCopula.R huslerReissExpr.R indepCopula.R
+        indepTests.R joeCopula.R K.R logseries.R mvdc.R normalCopula.R
+        plackettCopula.R plackettExpr.R rstable1.R safeUroot.R
+        schlatherCopula.R stable.R timing.R trafos.R tCopula.R
+        tawnCopula.R tawnExpr.R tevCopula.R zzz.R
+Encoding: UTF-8
+Packaged: 2012-07-28 12:09:13 UTC; maechler
+Repository: CRAN
+Date/Publication: 2012-07-30 17:25:12

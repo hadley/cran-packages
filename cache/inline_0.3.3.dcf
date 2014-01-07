@@ -1,0 +1,13 @@
+Package: inline
+Version: 0.3.3
+Date: 18 July 2007
+Title: Inline C, C++, Fortran function calls from R
+Author: Oleg Sklyar, Duncan Murdoch, Mike Smith
+Maintainer: Oleg Sklyar <osklyar@ebi.ac.uk>
+Depends: R (>= 2.4.0), methods
+Description: Functionality to dynamically define R functions and S4 methods with in-lined C, C++ or Fortran code supporting .C and .Call calling conventions.
+License: LGPL
+URL: http://www.ebi.ac.uk/~osklyar/inline/
+Copyright: Oleg Sklyar, 2005-2007
+LazyLoad: yes
+Packaged: Wed Aug 15 13:47:00 2007; osklyar

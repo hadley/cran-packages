@@ -1,0 +1,12 @@
+Package: maptree
+Version: 1.4-4
+Date: 2007-10-22
+Title: Mapping, pruning, and graphing tree models
+Author: Denis White <white.denis@epa.gov>
+Maintainer: Denis White <white.denis@epa.gov>
+Depends: R (>= 1.0), cluster, rpart
+Description: Functions with example data for graphing, pruning, and mapping models
+ from hierarchical clustering, and classification and regression trees. 
+License: Unlimited
+URL: http://www.epa.gov/wed/pages/staff/white/
+Packaged: Fri Oct 26 13:46:00 2007; dwhite02

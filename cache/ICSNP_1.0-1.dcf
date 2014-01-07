@@ -1,0 +1,12 @@
+Package: ICSNP
+Type: Package
+Title: Tools for Multivariate Nonparametrics
+Version: 1.0-1
+Date: 2007-10-04
+Author: Klaus Nordhausen, Seija Sirkia, Hannu Oja, Dave Tyler
+Maintainer: Klaus Nordhausen <klaus.nordhausen@uta.fi>
+Depends: R (>= 2.4.0), mvtnorm, ICS
+Description: Tools for multivariate nonparametrics, as location tests based on marginal ranks, spatial median and spatial signs computation, Hotelling's T-test, estimates of shape 
+License: GPL (>= 2)
+Encoding: latin1 
+Packaged: Thu Oct  4 16:12:22 2007; kn66583

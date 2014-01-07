@@ -1,0 +1,25 @@
+Package: rgauges
+Title: R wrapper to Gaug.es API
+Description: This package provides functions to interact with the
+    Gaug.es API. Gaug.es is a web analytics service, like Google
+    analytics. You have to have a Gaug.es account to use this package.
+Version: 0.1.5
+Date: 2013-11-12
+License: CC0
+URL: https://github.com/ropensci/rgauges
+BugReports: https://github.com/ropensci/rgauges/issues
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"), email =
+    "myrmecocystus@gmail.com"), person("Karthik", "Ram", role = "aut"))
+Imports: ggplot2, lubridate, plyr, httr, reshape2, gridExtra, scales,
+        data.table
+Collate: 'gauges.R' 'vis_gauge.R' 'zzz.R' 'clients.R' 'content.R'
+        'engines.R' 'locations.R' 'me.R' 'referrers.R' 'resolution.R'
+        'sharing.R' 'technology.R' 'terms.R' 'traffic.R' 'pageviews.R'
+        'globals.R'
+Packaged: 2013-11-13 07:09:05 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre],
+  Karthik Ram [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-13 09:01:45

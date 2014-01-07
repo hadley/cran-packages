@@ -1,0 +1,19 @@
+Package: cpm
+Title: Sequential Parametric and Nonparametric Change Detection
+Version: 1.0
+Date: 2012-01-01
+Depends: methods
+Author: Gordon J. Ross, incorporating code from the GNU Scientific
+        Library
+Maintainer: Gordon J. Ross <gordon.ross03@imperial.ac.uk>
+Description: Sequential change detection and Phase II process control
+        for univariate data streams, using the change point model
+        framework. Functions are provided to allow the parametric
+        monitoring of sequences of Gaussian and Bernoulli random
+        variables, along with more general nonparametric functions for
+        monitoring sequences which have an unspecified or unknown
+        distribution.
+License: GPL-3
+Packaged: 2012-02-06 10:16:23 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-02-06 10:45:57

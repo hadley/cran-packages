@@ -1,0 +1,18 @@
+Package: ttrTests
+Type: Package
+Title: Standard Backtests for Technical Trading Rules in Financial Data
+Version: 1.5
+Date: 2010-03-03
+Author: David St John
+Maintainer: David St John <dstjohn@math.uic.edu>
+Depends: fTrading, TTR
+Description: Four core functions evaluate the efficacy of a technical
+        trading rule. - Conditional return statistics - Bootstrap
+        resampling statistics - Reality Check for data snooping bias
+        among parameter choices - Robustness, or Persistence, of
+        parameter choices
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-03-04 02:45:40 UTC; dstjohn
+Repository: CRAN
+Date/Publication: 2010-03-04 06:51:40

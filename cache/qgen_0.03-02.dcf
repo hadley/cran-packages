@@ -1,0 +1,12 @@
+Package: qgen
+Type: Package
+Title: Quantitative Genetics using R
+Version: 0.03-02
+Date: 2007-01-24
+Author: Thomas Fabbro <thomas.fabbro@unibas.ch>
+Maintainer: Thomas Fabbro <thomas.fabbro@unibas.ch>
+Depends: MASS, lme4, Matrix, methods
+Description: The package qgen is a collection of functions to analyse quantitative genetic data. It is especially helpful to perform parametric resampling of quantitative genetic data sets. Resampling allows first to determine a priori the expected variance of an estimator, second for a given empirical data set to calculate bootstrap confidence intervals, and third to evaluate different estimators and confidence intervals.
+License: GPL version 2 or newer
+URL: http://www.evolution.unibas.ch/people/tfabbro/qgen/qgen.htm
+Packaged: Wed Feb  4 10:43:09 2009; hornik

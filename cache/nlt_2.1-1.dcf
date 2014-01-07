@@ -1,0 +1,15 @@
+Package: nlt
+Type: Package
+Title: A nondecimated lifting transform for signal denoising
+Version: 2.1-1
+Date: 16/08/2010
+Author: Marina Knight, Matt Nunes
+Maintainer: Matt Nunes <m.nunes@lancs.ac.uk>
+Depends: EbayesThresh, adlift (>= 1.0-2)
+Description: Uses a modified lifting algorithm on which it builds the
+        nondecimated lifting transform. It has applications in wavelet
+        shrinkage.
+License: GPL
+Packaged: 2012-10-29 08:59:17 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:17

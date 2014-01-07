@@ -1,0 +1,20 @@
+Package: lle
+Type: Package
+Title: Locally linear embedding
+Version: 1.1
+Date: 2012-03-21
+Author: Holger Diedrich, Dr. Markus Abel (Department of Physics,
+        University Potsdam)
+Maintainer: Holger Diedrich <holgerdiedrich@gmx.net>
+Depends: scatterplot3d, MASS, snowfall
+Suggests: rgl
+Description: LLE is a non-linear algorithm for mapping high-dimensional
+        data into a lower dimensional (intrinsic) space. This package
+        provides the main functions to performs the LLE alogrithm
+        including some enhancements like subset selection, calculation
+        of the intrinsic dimension etc.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-03-21 09:51:04 UTC; holger
+Repository: CRAN
+Date/Publication: 2012-03-21 12:52:58

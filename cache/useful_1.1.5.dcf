@@ -1,0 +1,19 @@
+Package: useful
+Type: Package
+Title: A collection of handy, useful functions
+Version: 1.1.5
+Date: 2011-10-02
+Author: Jared P. Lander
+Maintainer: <packages@jaredlander.com>
+Description: A set of little functions that have been found useful to
+        do little odds and ends
+License: BSD
+Depends: ggplot2, plyr
+LazyLoad: yes
+Collate: 'corner.r' 'hartigan.r' 'MapToInterval.r' 'regex.r'
+        'subspecials.r' 'useful-package.r' 'comparisons.r'
+        'buildFormula.r' 'binary.flip.r' 'shiftColumn.r'
+        'kmeansPlotting.r' 'tsPlot.r'
+Packaged: 2012-06-15 03:55:07 UTC; Jared
+Repository: CRAN
+Date/Publication: 2012-06-15 04:20:24

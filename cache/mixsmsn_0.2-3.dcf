@@ -1,0 +1,16 @@
+Package: mixsmsn
+Title: Fitting finite mixture of scale mixture of skew-normal
+        distributions .
+Date: 2010-07-02
+Version: 0.2-3
+Author: Marcos Prates <marcos.prates@uconn.edu>, Victor Lachos
+        <hlachos@ime.unicamp.br> and Celso Cabral
+        <celsoromulo@gmail.com>
+Description: Functions to fit finite mixture of scale mixture of
+        skew-normal (FM-SMSN) distributions.
+Depends: R (>= 1.9.0), mvtnorm (>= 0.9-9)
+Maintainer: Marcos Prates <marcos.prates@uconn.edu>
+License: GPL (>= 3.0)
+Repository: CRAN
+Date/Publication: 2010-07-03 16:19:39
+Packaged: Fri Jul 2 22:40:03 2010; hlachos

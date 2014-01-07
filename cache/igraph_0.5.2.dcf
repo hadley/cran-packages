@@ -1,0 +1,17 @@
+Package: igraph
+Version: 0.5.2
+Date: Apr 10, 2009
+Title: Routines for simple graphs, network analysis.
+Author: Gabor Csardi <Gabor.Csardi@unil.ch>
+Maintainer: Gabor Csardi <Gabor.Csardi@unil.ch>
+Description: Routines for simple graphs and network analysis. igraph
+        can handle large graphs very well and provides functions for
+        generating random and regular graphs, graph visualization,
+        centrality indices and much more.
+Depends: stats
+Suggests: stats4, rgl, tcltk, RSQLite, digest, graph, Matrix
+License: GPL (>= 2)
+URL: http://cneurocvs.rmki.kfki.hu/igraph
+Packaged: Sat Apr 11 10:33:25 2009; csardi
+Repository: CRAN
+Date/Publication: 2009-04-14 17:31:25

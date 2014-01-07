@@ -1,0 +1,18 @@
+Package: MVA
+Title: An Introduction to Applied Multivariate Analysis with R
+Date: 2011-11-07
+Version: 1.0-2
+Author: Brian S. Everitt and Torsten Hothorn
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Functions, data sets, analyses and examples from the book 
+  `An Introduction to Applied Multivariate Analysis with R' 
+  (Brian S. Everitt and Torsten Hothorn, Springer, 2011). 
+Depends: HSAUR2
+Suggests: mvtnorm, mclust, lattice, flexclust, nlme, RLRsim, multcomp,
+        ape, MASS, sem, KernSmooth, scatterplot3d
+URL: http://dx.doi.org/10.1007/978-1-4419-9650-3
+License: GPL-2
+Encoding: UTF-8
+Packaged: 2011-11-07 14:40:59 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2011-11-07 16:23:47

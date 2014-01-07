@@ -1,0 +1,27 @@
+Package: galts
+Type: Package
+Title: Genetic algorithms and C-steps based LTS (Least Trimmed Squares)
+        estimation
+Version: 1.3
+Date: 2013-02-06
+Author: Mehmet Hakan Satman
+Maintainer: Mehmet Hakan Satman <mhsatman@istanbul.edu.tr>
+Description: This package includes the ga.lts function that estimates
+        LTS (Least Trimmed Squares) parameters using genetic algorithms
+        and C-steps. ga.lts() constructs a genetic algorithm to form a
+        basic subset and iterates C-steps as defined in Rousseeuw and
+        van-Driessen (2006) to calculate the cost value of the LTS
+        criterion. OLS(Ordinary Least Squares) regression is known to
+        be sensitive to outliers. A single outlying observation can
+        change the values of estimated parameters. LTS is a resistant
+        estimator even the number of outliers is up to half of the
+        data. This package is for estimating the LTS parameters with
+        lower bias and variance in a reasonable time. Version 1.3
+        included the function medmad for fast outlier detection in
+        linear regression.
+Depends: genalg, DEoptim
+Repository: CRAN
+License: GPL
+LazyLoad: yes
+Packaged: 2013-02-06 20:25:43 UTC; hako
+Date/Publication: 2013-02-07 09:27:39

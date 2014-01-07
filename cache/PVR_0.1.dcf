@@ -1,0 +1,17 @@
+Package: PVR
+Type: Package
+Title: Computes PVR and PSR
+Version: 0.1
+Date: 2012-03-20
+Author: Thiago Santos, Jose Alexandre Diniz-Filho, Thiago Rangel e Luis
+        Mauricio Bini
+Depends: R (>= 2.14.0), ape, splancs, methods
+Suggests: picante, geiger
+Maintainer: Thiago Santos <thiagobioufg@gmail.com>
+Description: Computes Phylogenetic eigenVectors Regression and
+        Phylogentic Signal-Representation curve (with null and neutral
+        expectancies).
+License: GPL (>= 2)
+Packaged: 2012-07-05 12:11:29 UTC; santos
+Repository: CRAN
+Date/Publication: 2012-07-05 12:47:44

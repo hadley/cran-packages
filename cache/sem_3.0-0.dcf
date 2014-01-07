@@ -1,0 +1,30 @@
+Package: sem
+Version: 3.0-0
+Date: 2012/03/14
+Title: Structural Equation Models
+Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email =
+        "jfox@mcmaster.ca"), person("Zhenghua", "Nie", role = "aut",
+        email="niez@mcmaster.ca"), person("Jarrett", "Byrnes", role =
+        "aut", email="byrnes@nceas.ucsb.edu"), person("Michael",
+        "Culbertson", role = "ctb"), person("Michael", "Friendly", role
+        = "ctb"), person("Adam", "Kramer", role = "ctb"),
+        person("Georges", "Monette", role = "ctb") )
+Depends: R (>= 2.14.0), stats, MASS, matrixcalc
+Suggests: boot, tcltk, polycor, MBESS
+LazyLoad: yes
+LazyData: yes
+ByteCompile: yes
+Description: This package contains functions for fitting general linear
+        structural equation models (with observed and unobserved
+        variables) using the RAM approach, and for fitting structural
+        equations in observed-variable models by two-stage least
+        squares.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+Packaged: 2012-04-11 14:35:25 UTC; John Fox
+Author: John Fox [aut, cre], Zhenghua Nie [aut], Jarrett Byrnes [aut],
+        Michael Culbertson [ctb], Michael Friendly [ctb], Adam Kramer
+        [ctb], Georges Monette [ctb]
+Maintainer: John Fox <jfox@mcmaster.ca>
+Repository: CRAN
+Date/Publication: 2012-04-11 18:10:37

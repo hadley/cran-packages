@@ -1,0 +1,23 @@
+Package: aws
+Version: 1.3-0
+Date: 2003-11-17
+Title: Adaptive Weights Smoothing
+Author: Joerg Polzehl <polzehl@wias-berlin.de>
+Maintainer: Joerg Polzehl <polzehl@wias-berlin.de>
+Description: The library contains R-functions to perform the 
+     adaptive weights smoothing (AWS) procedure described in 
+     Polzehl und Spokoiny (2000), Adaptive weights smoothing with 
+     applications to image restoration. Journal of the Royal Statistical    
+     Society, Ser. B,  62, 2, 335--354 
+     and its generalizations to local polynomial models as
+     described in Polzehl und Spokoiny (2003), Varying coefficient regression 
+     modeling by adaptive weights smoothing, WIAS-Preprint 818
+     and to local likelihood models as described in Polzehl und Spokoiny (2002). 
+     Local likelihood modelling by adaptive weights smoothing, WIAS-Preprint 787. 
+     The functions awsuni, awsbi and awstri are superseded by functions aws and laws
+     and will be removed in later versions.
+License: GPL version 2 or newer
+     This library is Copyright (C) 2002 Weierstrass Institute for 
+                                   Applied Analysis and Stochastics.
+URL: http://wias-berlin.de/project-areas/stat/projects/adaptive-image-processing.html
+Packaged: Mon Dec 27 13:47:23 2004; hornik

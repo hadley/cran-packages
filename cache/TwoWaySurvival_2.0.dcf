@@ -1,0 +1,14 @@
+Package: TwoWaySurvival
+Title: Additiv Two-Way Hazards Modelling of Right Censored Survival Data 
+Version: 2.0
+Author: Pavel Khomski <pkhomski@wiwi.uni-bielefeld.de>
+Description: The package offers a fitting of smooth varying coefficients in an additiv two-way hazard model. 
+             Nonparametric penalized spline (p-spline) fitting is proposed. 
+	     Two alternativ models can be analized. In the first one a non.periodic calender time, like the calender yaer, is considered 
+	     as a second time scale (additionaly to the survival time) and as a spline basis truncated polynomial functions are chosen.
+	     In the second model a periodic time scale, like a season of year, is additionaly considered and as a spline basis the b-splines
+	     are selected.
+Maintainer: Pavel Khomski <pkhomski@wiwi.uni-bielefeld.de>
+Depends: splines
+License: GPL version 2 or newer
+Packaged: Sat Oct 28 15:22:06 2006; pkhomski

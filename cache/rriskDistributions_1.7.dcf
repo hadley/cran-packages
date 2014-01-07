@@ -1,0 +1,38 @@
+Package: rriskDistributions
+Type: Package
+Title: Collection of functions for fitting distributions (related to
+        the 'rrisk' project)
+Author: Natalia Belgorodski (STAT-UP Statistical Consulting, Germany),
+        Matthias Greiner (Federal Institute for Risk Assessment,
+        Germany), Kristin Tolksdorf (Federal Institute for Risk
+        Assessment, Germany), Katharina Schueller (STAT-UP Statistical
+        Consulting, Germany)
+Maintainer: Federal Institute for Risk Assessment, Matthias Greiner
+        <matthias.greiner@bfr.bund.de>
+Description: Collection of functions for fitting distributions to given
+        data or by known quantiles. Two main functions fit.perc() and
+        fit.cont() provide users a GUI that allows to choose a most
+        appropriate distribution without any knowledge of the R syntax.
+License: GPL (>= 3)
+LazyLoad: yes
+URL: http://www.bfr.bund.de/cd/52158
+Depends: R(>= 2.11.0), mc2d, eha, msm, tcltk, tkrplot
+SystemRequirements: Tcl/Tk (>= 8.5), Tktable (>= 2.9)
+Authors@R: c(person(given="Natalia",
+        family="Belgorodski",email="belgorodski@stat-up.de",role=c("aut"),comment="STAT-UP
+        Statistical Consulting"), person(given="Matthias",
+        family="Greiner",email="matthias.greiner@bfr.bund.de",role=c("aut",
+        "cre"),comment="Federal Institute for Risk Assessment,
+        Germany"), person(given="Kristin",
+        family="Tolksdorf",email="Kristin.tolksdorf@bfr.bund.de",role=c("aut"),comment="Federal
+        Institute for Risk Assessment, Germany"),
+        person(given="Katharina",
+        family="Schueller",email="schueller@stat-up.de",role=c("aut"),comment="STAT-UP
+        Statistical Consulting"))
+Version: 1.7
+Date: 2012-06-06
+Collate: 'rriskDistributions-package.R'
+        'rriskDistributions_functions_v1.7.R'
+Packaged: 2012-06-06 12:17:44 UTC; dzhunna
+Repository: CRAN
+Date/Publication: 2012-06-06 17:55:16

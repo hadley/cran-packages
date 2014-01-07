@@ -1,0 +1,15 @@
+Package: RJSONLD
+Type: Package
+Title: Semantic packaging tools for standard analytics
+Version: 1.0
+Date: 2013-12-23
+Author: Joseph Dureau <joseph@standardanalytics.io>
+Maintainer: Joseph Dureau <joseph@standardanalytics.io>
+Description: Package the results of standard statistical functions into
+    JSON-LD. Semantics are defined at
+    https://github.com/standard-analytics/Schemas
+License: MIT + file LICENSE
+Depends: RJSONIO,formula.tools,methods
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-06 18:32:28

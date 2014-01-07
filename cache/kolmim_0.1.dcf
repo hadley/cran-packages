@@ -1,0 +1,15 @@
+Package: kolmim
+Version: 0.1
+Title: An improved evaluation of Kolmogorov's distribution
+Author: Luis Carvalho
+Maintainer: Luis Carvalho <lexcarvalho@gmail.com>
+Description: This package provides an alternative, more efficient
+        evaluation of extreme probabilities of Kolmogorov's
+        goodness-of-fit measure, Dn, when compared to the original
+        implementation of Wang, Marsaglia, and Tsang. These
+        probabilities are used in Kolmogorov-Smirnov tests when
+        comparing two samples.
+License: LGPL-3
+Packaged: 2013-01-14 16:34:41 UTC; carvalho
+Repository: CRAN
+Date/Publication: 2013-01-15 07:57:06

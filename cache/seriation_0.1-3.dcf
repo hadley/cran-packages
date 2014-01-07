@@ -1,0 +1,15 @@
+Package: seriation
+Type: Package
+Title: Infrastructure for seriation
+Author: Michael Hahsler, Christian Buchta and Kurt Hornik 
+Maintainer: Michael Hahsler <hahsler@ai.wu-wien.ac.at>
+Version: 0.1-3
+Date: 2008-2-1
+Depends: stats, cluster, TSP, gclus, grid
+Suggests: MASS
+Description: Infrastructure for seriation with an implementation of several
+    seriation/sequencing techniques to reorder matrices, dissimilarity
+    matrices, and dendrograms. Also contains some visualizations techniques
+    based on seriation.
+License: GPL-2 
+Packaged: Mon Feb  4 17:44:28 2008; hahsler

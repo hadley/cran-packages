@@ -1,0 +1,36 @@
+Package: openair
+Type: Package
+Title: Tools for the analysis of air pollution data
+Version: 0.5-11
+Date: 2011-09-14
+Author: David Carslaw and Karl Ropkins
+Depends: R (>= 2.13.0),
+Imports: proto, Matrix, utils, grid, plyr, reshape2, mgcv, zoo,
+        lattice, boot,RColorBrewer
+Suggests: latticeExtra, hexbin, RgoogleMaps, ellipse, maps
+Maintainer: David Carslaw <david.carslaw@kcl.ac.uk>
+Description: Tools to analyse, interpret and understand air pollution
+        data. Data are typically hourly time series and both monitoring
+        data and dispersion model output can be analysed.  Many
+        functions can also be applied to other data, including
+        meteorological and traffic data.
+License: GPL (>= 2)
+URL: http://www.openair-project.org/
+LazyLoad: yes
+LazyData: yes
+Collate: 'aqStats.R' 'calcFno2.R' 'calcPercentile.R' 'calendarPlot.R'
+        'checkPrep.R' 'conditionalQuantile.R' 'corPlot.R' 'cutData.R'
+        'date.breaks.R' 'drawOpenKey.R' 'GoogleMapsPlot.R' 'import.2.R'
+        'import.R' 'importADMS.R' 'importAURN.R' 'importAURNCsv.R'
+        'importKCL.R' 'importSAQN.R' 'kernelExceed.R'
+        'linearRelation.R' 'modStats.R' 'openair.generics.R'
+        'openColours.R' 'percentileRose.R' 'polarAnnulus.R'
+        'polarFreq.R' 'polarPlot.R' 'quickText.R' 'samp.boot.block.R'
+        'scatterPlot.R' 'selectRunning.R' 'smoothTrend.R'
+        'summaryPlot.R' 'TaylorDiagram.R' 'timeAverage.R' 'timePlot.R'
+        'timeVariation.R' 'trendLevel.R' 'utilities.R' 'windRose.R'
+        'zzz.R' 'trajPlot.R' 'importTraj.R' 'getMeta.R' 'senTheil.R'
+        'TheilSen.R'
+Packaged: 2011-10-05 06:46:08 UTC; david
+Repository: CRAN
+Date/Publication: 2011-10-05 11:31:43

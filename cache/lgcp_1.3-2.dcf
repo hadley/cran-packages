@@ -1,0 +1,35 @@
+Package: lgcp
+Maintainer: Benjamin M. Taylor <b.taylor1@lancaster.ac.uk>
+License: GPL-3
+Title: Log-Gaussian Cox Process
+Type: Package
+LazyLoad: yes
+Author: B. M. Taylor, T. M. Davies, B. S. Rowlingson, P. J. Diggle.
+        Additional code contributions from E. Pebesma.
+Description: Spatial and spatio-temporal modelling of point patterns
+        using the log-Gaussian Cox process
+Version: 1.3-2
+Date: 2012-20-04
+Depends: R (>= 3.0.1), spatstat, sp, RandomFields, iterators, ncdf,
+        methods, tcltk, rgl, rpanel (>= 1.1-2), fields, maptools,
+        Matrix, raster, rgeos, nlme
+Imports: spatstat
+Suggests: sparr, rgdal, gpclib
+Collate: 'adaptiveSchemes.R' 'arealMethods.R' 'computeGradtrunc.R'
+        'fftgrid.R' 'getCounts.R' 'gridAverageMethods.R'
+        'gridFunctionMethods.R' 'lgcpForecast.R' 'lgcp-INLA.R'
+        'lgcpInternals.R' 'lgcpMethods.R' 'lgcppars.R'
+        'lgcpPredictSpatial.R' 'lgcpPredictSpatioTemporal.R' 'lgcp.R'
+        'lgcpSimSpatioTemporal.R' 'lgcpStructures.R' 'mcmcIterator.R'
+        'mcmcpars.R' 'mcmcProgress.R' 'parameterEstimation.R'
+        'selectObsWindow.R' 'setoutput.R' 'spatialAtRiskClassDef.R'
+        'spatialOnly.R' 'stpppClassDef.R' 'temporalAtRiskClassDef.R'
+        'txtProgressBar2.R' 'zzz.R'
+        'AggregateSpatialOnlyPlusParameters.R' 'geometryHandling.R'
+        'minimumContrast.R' 'mstpppClassDef.R'
+        'MultitypeSpatialOnlyPlusParameters.R'
+        'SpatialOnlyPlusParameters.R' 'SpatioTemporalPlusParameters.R'
+Packaged: 2013-06-14 13:07:24 UTC; taylorb1
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-14 17:46:21

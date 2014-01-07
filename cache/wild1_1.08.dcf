@@ -1,0 +1,17 @@
+Package: wild1
+Type: Package
+Title: R Tools for Wildlife Research and Management
+Version: 1.08
+Date: 2010-12-03
+Author: Glen A. Sargeant, USGS Northern Prairie Wildlife Research
+        Center
+Maintainer: <glen_sargeant@usgs.gov>
+Depends: R (>= 2.10.0), chron, survival, sp, maptools, spatstat,
+        gpclib, ICSNP
+Description: Provides classes, methods, and examples for use in
+        wildlife research and management
+License: GPL-3
+LazyLoad: yes
+Packaged: 2010-12-03 19:35:44 UTC; gsargeant
+Repository: CRAN
+Date/Publication: 2010-12-04 10:16:42

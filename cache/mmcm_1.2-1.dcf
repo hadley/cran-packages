@@ -1,0 +1,16 @@
+Package: mmcm
+Version: 1.2-1
+Depends: stats, mvtnorm
+Title: Modified Maximum Contrast Method
+Author: Kengo NAGASHIMA and Yasunori SATO
+Maintainer: Kengo NAGASHIMA <nagasima@josai.ac.jp>
+Description: This package provides an implementation of modified
+        maximum contrast methods and the maximum contrast method. This
+        version supports functions mmcm.mvt, mcm.mvt that gives P-value
+        by using randomized quasi-Monte Carlo method from pmvt function
+        of package mvtnorm, and mmcm.resamp that gives P-value by using
+        the permutation method.
+License: GPL (>= 3)
+Packaged: 2011-05-19 07:41:22 UTC; NAGASHIMA
+Repository: CRAN
+Date/Publication: 2011-05-19 10:05:05

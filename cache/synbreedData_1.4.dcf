@@ -1,0 +1,18 @@
+Package: synbreedData
+Type: Package
+Title: Data for the synbreed package
+Version: 1.4
+Date: 2013-12-11
+Author: Valentin Wimmer, Theresa Albrecht, Hans-Juergen Auinger, Chris-Carolin Schoen with contributions by  Malena Erbe, Ulrike Ober and Christian Reimer
+Depends: R (>= 2.10)
+Maintainer: Valentin Wimmer <Valentin.Wimmer@kws.com>
+Description: This package contains three data sets from cattle, maize and mice to illustrate the functions in the synbreed R package. All data sets are stored in the gpData format introduced in the synbreed package. This research was funded by the German Federal Ministry of Education and Research (BMBF) within the AgroClustEr Synbreed - Synergistic plant and animal breeding (FKZ 0315528A).
+URL: http://synbreed.r-forge.r-project.org/
+License: GPL-2
+LazyLoad: yes
+LazyData: no
+ZipData: no
+Packaged: 2013-12-11 18:25:05 UTC; Janna-Levke
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-12 07:23:59

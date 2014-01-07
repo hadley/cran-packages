@@ -1,0 +1,17 @@
+Package: wavelets
+Version: 0.2-0
+Date: 2005-11-02
+Title: A package of funtions for computing wavelet filters, wavelet
+       transforms and multiresolution analyses
+Author: Eric Aldrich <ealdrich@gmail.com>
+Maintainer: Eric Aldrich <eldrich@gmail.com>
+Description: This package contains functions for computing and
+	     plotting discrete wavelet transforms (DWT) and maximal
+	     overlap discrete wavelet transforms (MODWT), as well as
+	     their inverses. Additionally, it contains functionality
+	     for computing and plotting wavelet transform filters that
+	     are used in the above decompositions as well as
+	     multiresolution analyses.
+License: GPL version 2 or newer
+URL: http://www.atmos.washington.edu/~ealdrich/wavelets/
+Packaged: Wed Nov  2 18:09:56 2005; ealdrich

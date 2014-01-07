@@ -1,0 +1,11 @@
+Package: marginTree
+Title: marginTree: margin trees for high-dimensional classification 
+Version: 1.00
+Author: R. Tibshirani
+Description: Some functions for high-dimensional classification, useful for more than 2 classes
+Maintainer: Rob TIbshirani  <tibs@stat.stanford.edu>
+LazyLoad: false
+LazyData: false
+Depends:  e1071
+License: LGPL2.0
+Packaged: Fri Jan  4 09:44:32 2008; tibs

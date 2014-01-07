@@ -1,0 +1,38 @@
+Package: FAiR
+Type: Package
+Title: Factor Analysis in R
+Version: 0.4-11
+Date: 2012-09-21
+Author: Ben Goodrich
+Maintainer: Ben Goodrich <bgokGM@gmail.com>
+Description: This package estimates factor analysis models using a
+        genetic algorithm, which permits a general mechanism for
+        restricted optimization with arbitrary restrictions that are
+        chosen at run time with the help of a GUI. Importantly,
+        inequality restrictions can be imposed on functions of multiple
+        parameters, which provides a new avenues for testing and
+        generating theories with factor analysis models. This package
+        also includes an entirely new estimator of the common factor
+        analysis model called semi-exploratory factor analysis, which
+        is a general alternative to exploratory and confirmatory factor
+        analysis. Finally, this package integrates a lot of other
+        packages that estimate sample covariance matrices and thus
+        provides a lot of alternatives to the traditional sample
+        covariance calculation. Note that you need to have the Gtk run
+        time library installed on your system to use this package; see
+        the URL below for detailed installation instructions. Most
+        users would only need to understand the first twenty-four pages
+        of the PDF manual.
+URL: http://wiki.r-project.org/rwiki/doku.php?id=packages:cran:fair
+License: AGPL (>= 3) + file LICENSE
+Encoding: UTF-8
+Imports: stats4, rrcov
+Enhances: stats4, rrcov
+Depends: R (>= 2.7.0), methods, rgenoud (>= 5.4-7), gWidgetsRGtk2 (>=
+        0.0-31), stats4, rrcov, Matrix
+Suggests: corpcor, mvnmle, polycor, nFactors, Rgraphviz, mvnormtest,
+        energy, GPArotation, sem, MASS, psych
+LazyLoad: yes
+Packaged: 2012-09-21 07:10:05 UTC; goodrich
+Repository: CRAN
+Date/Publication: 2012-09-21 08:32:18

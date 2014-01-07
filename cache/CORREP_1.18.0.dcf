@@ -1,0 +1,17 @@
+Package: CORREP
+Type: Package
+Title: Multivariate Correlation Estimator and Statistical Inference
+        Procedures.
+Version: 1.18.0
+Date: 2007-03-19
+Author: Dongxiao Zhu and Youjuan Li
+Maintainer: Dongxiao Zhu <doz@stowers-institute.org>
+Imports: e1071, stats
+Suggests: cluster
+Description: Multivariate correlation estimation and statistical
+        inference. See package vignette.
+License: GPL (>= 2)
+biocViews: Bioinformatics, Microarray, Clustering, GraphsAndNetworks
+Packaged: 2011-04-14 06:50:29 UTC; biocbuild
+Repository: CRAN
+Date/Publication: 2011-04-26 19:17:11

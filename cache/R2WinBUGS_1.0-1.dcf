@@ -1,0 +1,17 @@
+Package: R2WinBUGS
+Title: Running WinBUGS from R
+Date: 2005-11-14
+Version: 1.0-1
+Author: originally written by Andrew Gelman <gelman@stat.columbia.edu>;
+ changes and packaged by Sibylle Sturtz <sturtz@statistik.uni-dortmund.de>
+ and Uwe Ligges <ligges@statistik.uni-dortmund.de>
+Description: Using this package, 
+ it is possible to call a BUGS model, summarize inferences and 
+ convergence in a table and graph, and save the simulations in arrays for easy access in R. 
+Depends: R (>= 2.0.0)
+Suggests: coda (>= 0.9-0)
+SystemRequirements: WinBUGS 1.4 on Windows
+URL: http://www.stat.columbia.edu/~gelman/bugsR/
+Maintainer: Sibylle Sturtz <sturtz@statistik.uni-dortmund.de>
+License: GPL version 2 or newer
+Packaged: Mon Nov 14 19:31:34 2005; ligges

@@ -1,0 +1,11 @@
+Package: mimR
+Version: 2.1.0
+Title:   A package for graphical modelling in R 
+Author:  Søren Højsgaard <sorenh@agrsci.dk>
+Maintainer: Søren Højsgaard <sorenh@agrsci.dk>
+Description: An R interface to MIM for graphical modelling in R
+URL: http://gbi.agrsci.dk/~sorenh/mimR
+License: GPL
+Depends: methods,gRbase,Rgraphviz,graph,rcom,MASS 
+Encoding: latin1
+Packaged: Sun Nov 25 23:08:13 2007; shd

@@ -1,0 +1,16 @@
+Package: games
+Title: Statistical Estimation of Game-Theoretic Models
+Version: 0.6-0
+Date: 2010-12-09
+Author: Curtis S. Signorino and Brenton Kenkel
+Maintainer: Brenton Kenkel <brenton.kenkel@gmail.com>
+Description: Provides estimation and analysis functions for strategic
+        statistical models.
+License: GPL (>= 2)
+Depends: Formula (>= 0.2-0), maxLik (>= 0.7-0), MASS
+LazyLoad: yes
+Collate: 'games.r' 'doc.r' 'helpers.r' 'egame12.r' 'egame122.r'
+        'egame123.r' 'ultimatum.r'
+Packaged: 2010-12-09 19:35:37 UTC; Brenton
+Repository: CRAN
+Date/Publication: 2010-12-09 20:32:48

@@ -1,0 +1,23 @@
+Package: estout
+Version: 1.1
+Date: 2013-02-24
+Title: Estimates Output
+Author: Felix Kaminsky <fkamins@uni-goettingen.de>, inspired by the
+        estout package for Stata.
+Maintainer: Felix Kaminsky <fkamins@uni-goettingen.de>
+Description: This package is intended to speedup the process of
+        creating model-comparing tables common in Macroeconomics. The
+        function collection stores the estimates of several models and
+        formats it to a table of the form estimate starred and std.err.
+        below. The default output is LaTeX but output to CSV for later
+        editing in a spreadsheet tool is possible as well. It works for
+        linear models (lm) and panel models from the "plm"-package
+        (plm). Two further implemented functions "descsto" and
+        "desctab" enable you to export descriptive statistics of
+        data-frames and single variables to LaTeX and CSV.
+License: GPL-2
+URL: http://www.toolswitch.net
+Packaged: 2013-02-24 17:27:39 UTC; thunderboy
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-24 20:01:51

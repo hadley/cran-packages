@@ -1,0 +1,17 @@
+Package: irtoys
+Type: Package
+Title: Simple interface to the estimation and plotting of IRT models
+Version: 0.1.2
+Date: 2009-10-11
+Author: Ivailo Partchev
+Maintainer: Ivailo Partchev <Ivailo.Partchev@uni-jena.de>
+Description: Provides a simple common interface to the estimation of
+        item parameters in IRT models for binary responses with three
+        different programs (ICL, BILOG-MG, and ltm, and a variety of
+        functions useful with IRT models.
+License: GPL (>= 2)
+Depends: sm, ltm
+Suggests: MASS
+Packaged: 2009-10-11 18:52:42 UTC; ivo
+Repository: CRAN
+Date/Publication: 2009-10-12 06:48:48

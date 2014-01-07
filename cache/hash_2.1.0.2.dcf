@@ -1,0 +1,17 @@
+Package: hash
+Type: Package
+Title: Full feature implementation of hash/associated
+        arrays/dictionaries
+Version: 2.1.0.2
+Date: 2012-04-20
+Author: ORPHANED
+Maintainer: ORPHANED
+Depends: R (>= 2.12.0), methods, utils
+Description: This package implements a data structure similar to hashes
+        in Perl and dictionaries in Python but with a purposefully R
+        flavor. For objects of appreciable size, access using hashes
+        outperforms native named lists and vectors.
+License: GPL (>= 2)
+Packaged: 2012-04-20 06:50:53 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-04-20 06:52:11

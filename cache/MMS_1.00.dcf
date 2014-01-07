@@ -1,0 +1,14 @@
+Package: MMS
+Type: Package
+Title: Fixed effects Selection in Linear Mixed Models
+Version: 1.00
+Date: 2012-05-08
+Author: F.Rohart
+Maintainer: F.Rohart <florian.rohart@gmail.com>
+Description: Fixed effects Selection in Linear Mixed Models
+License: GPL-3
+lazyload: yes
+Depends: glmnet,Matrix, mht (>= 2.011)
+Packaged: 2012-10-12 06:52:37 UTC; florian
+Repository: CRAN
+Date/Publication: 2012-10-12 08:30:07

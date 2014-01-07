@@ -1,0 +1,13 @@
+Package: wmtsa
+Type: Package
+Title: Insightful Wavelet Methods for Time Series Analysis
+Version: 1.0-1
+Date: 2007-09-21
+Author: William Constantine (Insightful Corporation) and Donald Percival (Applied Physics Laboratory, University of Washington)
+Maintainer: William Constantine <wconstan@insightful.com>
+Depends: R (>= 2.4.1), splus2R, ifultools, graphics, stats, MASS
+DependsSplus: ifultools
+Description: Software to book Wavelet Methods for Time Series Analysis, Donald B. Percival and Andrew T. Walden, Cambridge University Press, 2000.
+License: GPL version 2
+ZipData: no
+Packaged: Fri Sep 21 14:19:32 2007; wconstan

@@ -1,0 +1,21 @@
+Package: hmmm
+Version: 1.0.0
+Date: 2012-10-26
+Title: hierarchical multinomial marginal models
+Author: Roberto Colombi, Sabrina Giordano, Manuela Cazzaro
+Maintainer: Colombi Roberto <colombi@unibg.it>
+Description: Functions for specifying and fitting marginal models for
+        contingency tables proposed by Bergsma and Rudas (2002) here
+        called hierarchical multinomial marginal models (hmmm) and
+        their extensions presented by Bartolucci et al.  (2007);
+        multinomial Poisson homogeneous (mph) models and homogeneous
+        linear predictor (hlp) models for contingency tables proposed
+        by Lang (2004) and (2005); hidden Markov models where the
+        distribution of the observed variables is described by a
+        marginal model.  Inequality constraints on the parameters are
+        allowed and can be tested.
+Depends: quadprog, MASS
+License: GPL (>= 2)
+Packaged: 2012-11-17 16:24:19 UTC; Sabrina
+Repository: CRAN
+Date/Publication: 2012-11-17 19:41:32

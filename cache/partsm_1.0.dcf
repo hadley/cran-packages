@@ -1,0 +1,10 @@
+Package: partsm
+Version: 1.0
+Date: 2005/9/3
+Title: Periodic Autoregressive Time Series Models
+Author: Javier López-de-Lacalle <javlacalle@yahoo.es>
+Maintainer: Javier López-de-Lacalle <javlacalle@yahoo.es>
+Depends: R (>= 2.0.0), methods
+Description: This package performs basic functions to fit and predict periodic autoregressive time series models. These models are discussed in the book P.H. Franses (1996) "Periodicity and Stochastic Trends in Economic Time Series", Oxford University Press. Data set analyzed in that book is also provided.
+License: GPL version 2 or newer. The terms of this license are in a file called COPYING which you should have received with R.
+Packaged: Thu Sep 22 11:56:07 2005; root

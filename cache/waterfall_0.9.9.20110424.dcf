@@ -1,0 +1,16 @@
+Package: waterfall
+Type: Package
+Version: 0.9.9.20110424
+Date: 2011-04-24
+Title: Waterfall Charts in R
+Author: James P. Howard, II <jh@jameshoward.us>
+Maintainer: James P. Howard, II <jh@jameshoward.us>
+Depends: R (>= 2.0.0), lattice
+Description: This package provides both traditional and lattice
+        graphics implementations of waterfall charts.
+License: BSD
+URL: http://hg.jameshoward.us/waterfall
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:59 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:59

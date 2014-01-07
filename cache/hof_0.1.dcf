@@ -1,0 +1,16 @@
+Package: hof
+Imports: plyr
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+License: GPL-2
+Title: More higher order functions for R.
+Type: Package
+Author: Hadley Wickham <h.wickham@gmail.com>
+Description: A collection of higher order functions from
+    other programming languages that are useful for R
+    programmers.
+Version: 0.1
+Depends: R (>= 2.12.0)
+Collate: 'ask.r' 'funcall.r' 'guard.r' 'pluck.r' 'tee.r'
+Packaged: 2011-12-01 21:55:46 UTC; MNAA
+Repository: CRAN
+Date/Publication: 2011-12-02 16:22:59

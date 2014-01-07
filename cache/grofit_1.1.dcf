@@ -1,0 +1,21 @@
+Package: grofit
+Type: Package
+Title: The package was developed to fit fit many growth curves obtained
+        under different conditions.
+Version: 1.1
+Date: 2012-08-05
+Author: Matthias Kahm, Maik Kschischo
+Maintainer: Matthias Kahm <sysbio_software@rheinahrcampus.de>
+Description: The package was developed to fit fit many growth curves
+        obtained under different conditions in order to derive a
+        conclusive dose-response curve, for instance for a compound
+        that potentially affects growth. grofit fits data to different
+        parametric models (function gcFitModel) and in addition
+        provides a model free spline fit (function gcFitSpline) to
+        circumvent systematic errors that might occur within
+        application of parametric methods.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-08-24 16:11:12 UTC; mkahm
+Repository: CRAN
+Date/Publication: 2012-08-24 19:12:21

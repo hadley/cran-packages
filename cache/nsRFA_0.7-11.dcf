@@ -1,0 +1,34 @@
+Package: nsRFA
+Version: 0.7-11
+Date: 2013-12-16
+Title: Non-supervised Regional Frequency Analysis
+Authors@R: c(person("Alberto", "Viglione", role=c("aut", "cre"), email="viglione@hydro.tuwien.ac.at"),
+             person("Jonathan R. M.", "Hosking", role="ctb"),
+             person("Francesco", "Laio", role="ctb"),
+             person("Alan", "Miller", role="ctb"))
+Depends: R (>= 3.0.0), stats, graphics
+Description: A collection of statistical tools for objective (non-supervised) applications 
+             of the Regional Frequency Analysis methods in hydrology. 
+             The package refers to the index-value method and, more precisely, helps the
+             hydrologist to: (1) regionalize the index-value; (2) form homogeneous regions 
+             with similar growth curves; (3) fit distribution functions to the 
+             empirical regional growth curves.
+License: GPL (>= 2)
+Copyright: The fortran routines for the function HW.original are from
+        Jonathan R. M. Hosking and are available at the url
+        http://www.research.ibm.com/people/h/hosking/lmoments.html. The
+        functions `MLlaio2004.R', `GOFlaio2004.R' and `MSClaio2008.R'
+        are derived from original Francesco Laio Matlab code (non
+        published material). The fortran routines for the function
+        'bestlm' are from Alan Miller and were obtained from his R
+        package 'leaps'.
+URL: http://www.idrologia.polito.it/~alviglio/index_en.htm
+Packaged: 2013-12-16 11:54:45 UTC; alviglio
+Author: Alberto Viglione [aut, cre],
+  Jonathan R. M. Hosking [ctb],
+  Francesco Laio [ctb],
+  Alan Miller [ctb]
+Maintainer: Alberto Viglione <viglione@hydro.tuwien.ac.at>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-16 14:38:03

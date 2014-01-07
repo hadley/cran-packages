@@ -1,0 +1,20 @@
+Package: playwith
+Type: Package
+Title: A GUI for interactive plots using GTK+
+Version: 0.8.24
+Date: 2007-11-21
+Author: Felix Andrews <felix@nfrac.org>
+Maintainer: Felix Andrews <felix@nfrac.org>
+Depends: R (>= 2.5.0), grid
+Imports: lattice (>= 0.16), graphics, gridBase, grDevices, RGtk2, cairoDevice, gWidgets, gWidgetsRGtk2
+Suggests: lattice
+Description: A graphical user interface for viewing and interacting with R plots.
+  It tries to work out the structure of a plot, in order to interact with it.
+  The built-in features include: navigating the data space, identifying data points,
+  editing and annotating the plot, and saving to a file. New tools can be defined.
+  Note: the interaction features do not work with multiple-plot layouts. 
+  This package is still under development and should not be considered stable.
+  This package is based on RGtk2, and so requires the GTK+ libraries.
+License: GPL version 2 or newer
+URL: http://playwith.googlecode.com/
+Packaged: Wed Nov 21 19:29:06 2007; Felix

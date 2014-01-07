@@ -1,0 +1,19 @@
+Package: causalsens
+Version: 0.1
+Date: 2013-04-15
+Title: Selection Bias Approach to Sensitivity Analysis for Causal
+        Effects
+Author: Matthew Blackwell <m.blackwell@rochester.edu>
+Maintainer: Matthew Blackwell <m.blackwell@rochester.edu>
+Depends: R (>= 2.15.0)
+Description: A package to study how various assumptions about selection
+        bias affects estimates of causal effects.
+License: GPL (>= 2)
+URL: http://www.mattblackwell.org/software/causalsens/
+VignetteBuilder: knitr
+Suggests: knitr
+Collate: 'causalsens.R'
+Packaged: 2013-04-21 17:27:12 UTC; mblackwell
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-21 22:09:19

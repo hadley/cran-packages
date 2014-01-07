@@ -1,0 +1,14 @@
+Package: coloc
+Type: Package
+Depends: methods, MASS
+Title: Colocalisation tests of two genetic traits
+Version: 1.08
+Author: Chris Wallace
+Maintainer: Chris Wallace <chris.wallace@cimr.cam.ac.uk>
+Description: Performs the colocalisation tests described in Plagnol et
+        al (2009) and Wallace et al (in preparation).
+License: GPL
+LazyLoad: yes
+Packaged: 2012-04-12 11:47:28 UTC; chrisw
+Repository: CRAN
+Date/Publication: 2012-04-12 12:22:57

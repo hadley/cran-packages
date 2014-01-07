@@ -1,0 +1,14 @@
+Package: seqPERM
+Type: Package
+Title: Generates a permutation matrix based upon a sequence.
+Version: 1.0
+Date: 2013-01-28
+Author: Eric Golinko
+Maintainer: Eric Golinko <egolinko@gmail.com>
+Description: User inputs a range of values r1 and r2, as well as a
+        number of columns v, in the function sq.pe(r1,r2,v). The
+        returned statement is a permutation matrix.
+License: GPL-3
+Packaged: 2013-01-28 15:26:15 UTC; egolinko
+Repository: CRAN
+Date/Publication: 2013-01-28 17:47:28

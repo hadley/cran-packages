@@ -1,0 +1,19 @@
+Package: mlmRev
+Version: 1.0-5
+Date: 2013-09-21
+Title: Examples from Multilevel Modelling Software Review
+Author: Douglas Bates <bates@stat.wisc.edu>,
+        Martin Maechler <maechler@R-project.org> and
+	Ben Bolker <bolker@mcmaster.ca>
+Contact: LME4 Authors <lme4-authors@lists.r-forge.r-project.org>
+Maintainer: Steve Walker <steve.walker@utoronto.ca>
+Description: Data and examples from a multilevel modelling software review
+  as well as other well-known data sets from the multilevel modelling
+  literature.
+Depends: lme4, R (>= 2.10)
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2013-09-23 21:29:43 UTC; stevenwalker
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-23 23:44:47

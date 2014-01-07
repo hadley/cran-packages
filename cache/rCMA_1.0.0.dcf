@@ -1,0 +1,16 @@
+Package: rCMA
+Type: Package
+Title: CMA-ES R-to-Java interface
+Version: 1.0.0
+Date: 01.03.2013
+Author: Wolfgang Konen <wolfgang.konen@fh-koeln.de>
+Maintainer: Wolfgang Konen <wolfgang.konen@fh-koeln.de>
+Description: rCMA allows access to the Java version
+        (CMAEvolutionStrategy) of Niko Hansen.
+License: GPL (>= 2)
+Depends: R (>= 2.14.0), rJava
+Collate: 'rCMA.R' 'cmaGetters.R' 'cmaEvalMeanX.R'
+Packaged: 2013-03-01 11:50:48 UTC; wolfgang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 13:41:10

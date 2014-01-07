@@ -1,0 +1,16 @@
+Package: nlrwr
+Title: Nonlinear regression with R
+LazyLoad: yes
+LazyData: yes
+Version: 1.1-0
+Author: Christian Ritz <ritz@life.ku.dk>,
+Maintainer: Christian Ritz <ritz@life.ku.dk>
+Description: Datasets and functions for nonlinear regression. Support software for the book "Nonlinear regression with R".
+License: GPL (>= 2)
+Depends: R (>= 2.0.0), alr3, car, drc, HydroMe, lattice, lmtest, MASS,
+        NISTnls, nlme, nls2, nlstools, NRAIA, sandwich
+Date: 2011-10-31
+URL: http://www.r-project.org
+Packaged: 2011-10-31 07:15:02 UTC; ritz
+Repository: CRAN
+Date/Publication: 2011-11-02 17:26:09

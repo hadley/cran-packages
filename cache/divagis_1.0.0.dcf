@@ -1,0 +1,16 @@
+Package: divagis
+Type: Package
+Title: Provides tools for quality checks of georeferenced plant species
+        accessions.
+Version: 1.0.0
+Date: 2008-09-14
+Author: Reinhard Simon
+Maintainer: Reinhard Simon <r.simon@cgiar.org>
+Description: Provides tools for quality checks of georeferenced plant
+        species accessions.
+License: GPL (>= 2)
+Depends: rgdal, sp
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:35 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:35

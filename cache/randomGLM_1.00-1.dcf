@@ -1,0 +1,15 @@
+Package: randomGLM
+Version: 1.00-1
+Date: 2013-01-13
+Title: Random General Linear Model Prediction
+Author: Lin Song, Peter Langfelder
+Maintainer: Peter Langfelder <peter.langfelder@gmail.com>
+Depends: R (>= 2.14.0), MASS, gtools, foreach, doParallel
+ZipData: no
+License: GPL (>= 2)
+Description: The package implements a bagging predictor based on
+        general linear models
+URL: http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/
+Packaged: 2013-01-14 07:27:46 UTC; plangfelder
+Repository: CRAN
+Date/Publication: 2013-01-14 08:50:47

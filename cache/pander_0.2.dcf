@@ -1,0 +1,30 @@
+Package: pander
+Maintainer: Gergely Daróczi <gergely@snowl.net>
+Title: An R pandoc writer
+Type: Package
+Encoding: UTF-8
+Description: Contains some functions catching all messages, stdout and
+        other useful information while evaluating R code and other
+        helpers to return user specified text elements (like: header,
+        paragraph, table, image, lists etc.)  in Pandoc's markdown or
+        several type of R objects similarly automatically transformed
+        to markdown format. Also capable of exporting/converting (the
+        resulting) complex Pandoc documents to e.g. HTML, pdf, docx or
+        odt. This latter reporting feature is supported in brew syntax
+        or with a custom reference class with a smarty caching backend.
+Author: Gergely Daróczi <gergely@snowl.net>
+Version: 0.2
+Date: 2012-08-15
+URL: https://github.com/rapporter/pander
+BugReports: https://github.com/rapporter/pander/issues
+License: AGPL-3
+Depends: R (>= 2.15.0)
+Imports: methods, digest
+Suggests: grid, lattice, ggplot2
+SystemRequirements: Pandoc (http://johnmacfarlane.net/pandoc) for
+        exporting markdown files to other formats.
+Collate: 'helpers.R' 'S3.R' 'R5.R' 'brew.R' 'convert.R' 'evals.R'
+        'ess-functions.R' 'options.R' 'graph.R'
+Packaged: 2012-08-16 15:46:49 UTC; omleny
+Repository: CRAN
+Date/Publication: 2012-08-17 08:19:40

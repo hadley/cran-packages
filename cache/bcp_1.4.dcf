@@ -1,0 +1,11 @@
+Package: bcp
+Type: Package
+Title: Bayesian Change Point
+Version: 1.4
+Date: 2006-12-15
+Author: Chandra Erdman
+Maintainer: Chandra Erdman <chandra.erdman@yale.edu>
+Depends: DNAcopy, stats, graphics
+Description: An implementation of the Barry and Hartigan (1993) product partition model for the standard change point problem using Markov Chain Monte Carlo.
+License: GPL version 2 or newer
+Packaged: Fri Dec 15 19:40:45 2006; cle7

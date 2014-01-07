@@ -1,0 +1,10 @@
+Package: classInt
+Version: 0.1-7
+Date: 2007-08-24
+Title: Choose univariate class intervals
+Author: Roger Bivand <Roger.Bivand@nhh.no> 
+Maintainer: Roger Bivand <Roger.Bivand@nhh.no>
+Depends: R (>= 2.2), grDevices, stats, class, e1071
+Description: A package for choosing univariate class intervals for mapping or other graphics purposes
+License: GPL version 2 or later
+Packaged: Fri Aug 24 09:19:42 2007; rsb

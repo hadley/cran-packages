@@ -1,0 +1,18 @@
+Package: 	tutoR
+Type: 		Package
+Title: 		Student-friendly package to mask common functions,
+		straight-to-the-point with examples for help,
+		and deskcheck() for debugging User defined functions.
+Version: 	0.3.2
+Date: 		2006-11-24
+Author: 	Mark Fielding, Dept. Mathematics and Statistics, 
+		The University of Melbourne
+Maintainer: 	Mark Fielding <M.Fielding@ms.unimelb.edu.au>
+Description: 	Package to mask common functions so that inputs in error are
+                explained and able to be corrected, prior to execution.
+                'assist' offers step-by-step assistance to correctly call
+                a function such as 'par'.  'eg' picks out Examples first and
+                foremost in help.  With 'deskcheck', execution is initiated
+                and the 'debug' flag utilized, to help deskcheck a function.
+License: 	GPL version 2.0
+Packaged: Fri Nov 24 15:26:42 2006; markf

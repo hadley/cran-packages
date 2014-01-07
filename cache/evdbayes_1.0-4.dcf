@@ -1,0 +1,12 @@
+Package: evdbayes
+Version: 1.0-4
+Date: 2006-03-10
+Title: Bayesian Analysis in Extreme Value Theory
+Author: Alec Stephenson.
+Maintainer: Alec Stephenson <alec_stephenson@hotmail.com>
+Depends: R (>= 1.5.0)
+Description: Provides functions for the bayesian analysis of 
+    extreme value models, using MCMC methods.
+License: GPL (Version 2 or above)
+URL: http://www.maths.lancs.ac.uk/~stephena/
+Packaged: Thu Mar  9 20:57:37 2006; stephena

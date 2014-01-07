@@ -1,0 +1,12 @@
+Package: adlift
+Version: 0.8-2
+Date: 20/03/2006
+Title: An adaptive lifting scheme algorithm
+Author: Matt Nunes <matt.nunes@bristol.ac.uk>
+	Marina Popa <Marina.Popa@bristol.ac.uk>
+Maintainer: Matt Nunes <matt.nunes@bristol.ac.uk>
+Description: Adaptive Wavelet transforms for signal denoising
+Depends: R, EbayesThresh
+License: GPL version 2 or later
+URL: http://www2.maths.bris.ac.uk/~maman/Adlift.html
+Packaged: Thu Feb 15 13:33:13 2007; hornik

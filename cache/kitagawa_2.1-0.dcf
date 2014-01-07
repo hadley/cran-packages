@@ -1,0 +1,28 @@
+Package: kitagawa
+Type: Package
+Title: Spectral response of water wells to harmonic strain and pressure
+Version: 2.1-0
+Date: 2013-10-03
+Author: Andrew J Barbour
+Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
+Description: Provides tools to calculate the theoretical hydrodynamic response
+    of an aquifer undergoing harmonic straining or pressurization. There are
+    two classes of models here: (1) for sealed wells, based on the model of
+    Kitagawa et al (2011), and (2) for open wells, based on the models of
+    Cooper et al (1965), Hsieh et al (1987), Rojstaczer (1988), and Liu et al
+    (1989). These models treat strain (or aquifer head) as an input to the
+    physical system, and fluid-pressure (or water height) as the output. The
+    applicable frequency band of these models is characteristic of seismic
+    waves, atmospheric pressure fluctuations, and solid earth tides.
+License: GPL
+URL: http://abarbour.github.io/kitagawa/
+Depends: R (>= 2.10.1), kelvin (>= 1.2-0)
+Suggests: knitr, RColorBrewer, signal
+VignetteBuilder: knitr
+Collate: 'kitagawa-package.R' 'alpha_constants.R' 'omega_constants.R'
+        'open_well_response.R' 'well_response.R' 'utilities.R'
+        'methods.R' 'zzz.R'
+Packaged: 2013-10-03 22:50:39 UTC; abarbour
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-04 07:49:57

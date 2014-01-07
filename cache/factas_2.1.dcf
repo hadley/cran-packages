@@ -1,0 +1,17 @@
+Package: factas
+Type: Package
+Title: Data Mining Methods
+Version: 2.1
+Date: 2013-03-10
+Author: Romain BAR <romain.bar@univ-lorraine.fr>
+Maintainer: Romain BAR <romain.bar@univ-lorraine.fr>
+Description: The package contains methods using stochastic approximation
+ to analyse (big) data (streams). 
+Depends: Matrix, graphics, plotrix, datasets, FactoMineR
+License: GPL
+Encoding: UTF-8
+LazyLoad: yes
+Packaged: 2013-07-17 18:21:53 UTC; romain
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-18 00:20:29

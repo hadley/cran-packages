@@ -1,0 +1,17 @@
+Package: genomatic
+Type: Package
+Title: Manages microsatellite projects.  Creates 96-well maps,
+        genotyping submission forms, rerun management, and import into
+        statistical software.
+Version: 0.0-7
+Date: 2010-01-05
+Author: Brian J. Knaus
+Maintainer: Brian J. Knaus <bknaus@fs.fed.us>
+Depends: R (>= 2.9.2), tcltk
+Description: Manages DNA fragment analysis projects.  Creates 96-well
+        maps, genotyping submission forms, rerun management, and import
+        to statistical software.
+License: GPL-2
+Packaged: 2012-10-29 08:58:49 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:49

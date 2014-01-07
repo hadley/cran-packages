@@ -1,0 +1,18 @@
+Package: LIM
+Version: 1.4
+Title: Linear Inverse Model examples and solution methods.
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>, Dick van
+        Oevelen<d.vanoevelen@nioo.knaw.nl>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01), limSolve, diagram
+Description: Functions that read and solve linear inverse problems
+        (food web problems, linear programming problems). These
+        problems find solutions to linear or quadratic functions: min
+        or max (f(x)), where f(x) = ||Ax-b||^2 or f(x) = sum(ai*xi)
+        subject to equality constraints Ex=f and inequality constraints
+        Gx>=h. Uses package limSolve.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: Sun Oct 11 16:17:07 2009; KarlineS
+Repository: CRAN
+Date/Publication: 2009-10-11 14:53:52

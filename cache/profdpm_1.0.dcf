@@ -1,0 +1,21 @@
+Package: profdpm
+Type: Package
+Title: Profile Dirichlet Process Mixtures
+Version: 1.0
+Date: 2009-04-09
+Author: Matt Shotwell
+Maintainer: Matt Shotwell <shotwelm@musc.edu>
+Description: This package performs profile inference for models
+        utilizing the Dirichlet process (DP) and Dirichlet motivated
+        process (DMP) mixtures. This method is not based on Markov
+        chain Monte Carlo methods, as are most other mechanisms of
+        inference in DP and DMP mixtures. This method searches for the
+        maximum posterior (MAP) estimate for the cluster indicators in
+        the DP or DMP mixture model.
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: profdpm
+Repository/R-Forge/Revision: 51
+Date/Publication: 2009-11-15 13:51:28
+Packaged: 2009-11-11 21:13:17 UTC; rforge

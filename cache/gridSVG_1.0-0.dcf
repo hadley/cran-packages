@@ -1,0 +1,16 @@
+Package: gridSVG
+Title: Export grid graphics as SVG
+Version: 1.0-0
+Authors@R: c(person("Paul", "Murrell", role = c("cre", "aut"), email =
+        "paul@stat.auckland.ac.nz"), person("Simon", "Potter", role =
+        "aut", email = "simon.potter@auckland.ac.nz"))
+Description: Export grid graphics as SVG
+Depends: R (>= 2.15.0), methods, grid, RJSONIO, XML
+Suggests: lattice
+License: GPL
+Packaged: 2013-03-28 19:43:07 UTC; EC\pmur002
+Author: Paul Murrell [cre, aut], Simon Potter [aut]
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-28 21:30:21

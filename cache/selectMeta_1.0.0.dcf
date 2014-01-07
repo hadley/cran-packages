@@ -1,0 +1,29 @@
+Package: selectMeta
+Type: Package
+Title: Estimation weight functions in meta analysis
+Version: 1.0.0
+Date: 2010-11-15
+Author: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch>
+Maintainer: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch>
+Depends: DEoptim (>= 2.0-6)
+Description: Publication bias, the fact that studies identified for
+        inclusion in a meta analysis do not represent all studies on
+        the topic of interest, is commonly recognized as a threat to
+        the validity of the results of a meta analysis. One way to
+        explicitly model publication bias is via selection models or
+        weighted probability distributions. In this package we provide
+        implementations of several parametric and nonparametric weight
+        functions. The novelty in Rufibach (2010) is the proposal of a
+        non-increasing variant of the nonparametric weight function of
+        Dear & Begg (1992). The new approach potentially offers more
+        insight in the selection process than other methods, but is
+        more flexible than parametric approaches. To maximize the
+        log-likelihood function proposed by Dear & Begg (1992) under a
+        monotonicity constraint we use a differential evolution
+        algorithm proposed by Ardia et al (2010a, b) and implemented in
+        Mullen et al (2009).
+License: GPL (>= 2)
+URL: http://www.biostat.uzh.ch/aboutus/people/rufibach.html
+Packaged: 2010-11-15 13:31:21 UTC; rufibach
+Repository: CRAN
+Date/Publication: 2010-11-15 16:05:35

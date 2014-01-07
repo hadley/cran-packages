@@ -1,0 +1,30 @@
+Package: rbefdata
+Title: BEFdata R package
+Version: 0.3.5
+Authors@R: c(person("Claas-Thido", "Pfaff",
+    email="claas-thido.pfaff@idiv-biodiversity.de", role=c("cre","aut")),
+    person("Karin", "Nadrowski", email="nadrowski@uni-leipzig.de", role="aut"),
+    person("Xingxing", "Man", email="manxingxing@gmail.com", role="aut"))
+Description: Basic R package to access data structures offered by any
+    BEFdata portal instance.
+Suggests: ggplot2, plyr
+Imports: XML, RCurl, rjson, wordcloud, rtematres, RColorBrewer
+Date: 2013-04-17
+License: MIT + file LICENSE
+URL: https://github.com/befdata/rbefdata
+Collate: 'bef.options.R' 'zzz.R' 'rbefdata-package.R'
+        'bef.portal.get.dataset.R' 'bef.portal.get.proposal.R'
+        'bef.portal.get.metadata.R' 'bef.portal.get.keywords.R'
+        'bef.portal.get.categories.R' 'bef.portal.upload.R'
+        'bef.portal.api.R' 'bef.mediawiki.api.R' 'bef.tematres.api.R'
+        'helper.R' 'bef.portal.get.attachments.R'
+        'rbefdata-deprecated.R' 'rbefdata-defunct.R'
+        'bef.portal.vizalize.R'
+Packaged: 2013-11-18 11:38:10 UTC; sabsirro
+Author: Claas-Thido Pfaff [cre, aut],
+  Karin Nadrowski [aut],
+  Xingxing Man [aut]
+Maintainer: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-18 17:50:08

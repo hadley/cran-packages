@@ -1,0 +1,24 @@
+Package: allelematch
+Type: Package
+Title: Identifying unique multilocus genotypes where genotyping error
+        and missing data may be present
+Version: 2.03
+Date: 2013-01-14
+Author: Paul Galpern <pgalpern@gmail.com>
+Maintainer: Paul Galpern <pgalpern@gmail.com>
+Description: This package provides tools for the identification of
+        unique of multilocus genotypes when both genotyping error and
+        missing data may be present. The package is targeted at those
+        working with large datasets and databases containing multiple
+        samples of each individual, a situation that is common in
+        conservation genetics, and particularly in non-invasive
+        wildlife sampling applications. Functions explicitly
+        incorporate missing data, and can tolerate allele mismatches
+        created by genotyping error.
+License: GPL (>= 2)
+Depends: dynamicTreeCut
+URL: http://nricaribou.cc.umanitoba.ca/allelematch/
+LazyLoad: yes
+Packaged: 2013-01-14 16:49:17 UTC; pgalpern
+Repository: CRAN
+Date/Publication: 2013-01-14 18:29:38

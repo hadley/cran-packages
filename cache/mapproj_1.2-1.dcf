@@ -1,0 +1,14 @@
+Package: mapproj
+Title: Map Projections
+Version: 1.2-1
+Date: 2013-03-25
+Author: Doug McIlroy.  Packaged for R by Ray Brownrigg and Thomas P
+        Minka, transition to Plan 9 codebase by Roger Bivand.
+Description: Converts latitude/longitude into projected coordinates.
+Depends: maps (>= 2.3-0)
+License: Lucent Public License
+Maintainer: Ray Brownrigg <Ray.Brownrigg@ecs.vuw.ac.nz>
+Packaged: 2013-03-24 23:28:21 UTC; ray
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-25 21:59:46

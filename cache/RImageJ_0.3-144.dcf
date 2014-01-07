@@ -1,0 +1,17 @@
+Package: RImageJ
+Version: 0.3-144
+Date: 2010-10-24
+Title: R bindings for ImageJ
+Author: Romain Francois, Philippe Grosjean with contributions from Paul
+        Murrell
+Maintainer: Romain Francois <romain@r-enthusiasts.com>
+Description: Bindings between R and the ImageJ java based image
+        processing and Analysis platform
+Depends: R (>= 2.11.0), rJava (>= 0.8-0), grDevices
+SystemRequirements: Java (>= 5.0)
+License: GPL (>= 3.0)
+URL: http://rsbweb.nih.gov/ij/index.html,
+        http://romainfrancois.blog.free.fr/index.php?category/R-package/RImageJ
+Packaged: 2010-10-24 15:28:15 UTC; romain
+Repository: CRAN
+Date/Publication: 2010-10-24 15:58:48

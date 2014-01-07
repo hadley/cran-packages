@@ -1,0 +1,19 @@
+Package: R2wd
+Type: Package
+Title: Write MS-Word documents from R
+Version: 1.5
+Date: 2012-03-16
+Author: Christian Ritter
+Maintainer: Christian Ritter <R2wd@ridaco.be>
+Description: This package uses either the statconnDCOM server (via the
+        rcom package) or the RDCOMClient to communicate with MS-Word
+        via the COM interface.
+Depends: R (>= 2.10.0)
+Suggests: rcom, RDCOMClient
+SystemRequirements: Windows
+License: GPL-2
+OS_type: windows
+LazyLoad: yes
+Packaged: 2012-03-16 07:58:37 UTC; Chris
+Repository: CRAN
+Date/Publication: 2012-03-16 17:14:55

@@ -1,0 +1,14 @@
+Package: yaImpute
+Version: 1.0-16
+Date: 20 Sept 2011
+Title: yaImpute: An R Package for k-NN Imputation
+Author: Nicholas L. Crookston <ncrookston@fs.fed.us>, Andrew O. Finley
+        <afinley@stat.umn.edu>
+Maintainer: Nicholas L. Crookston <ncrookston@fs.fed.us>
+Depends: R (>= 2.7.0)
+Suggests: vegan, randomForest, gam, fastICA
+Description: Performs popular nearest neighbor routines for imputation
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2011-09-21 13:18:25
+Packaged: 2011-09-20 15:17:53 UTC; ncrookston

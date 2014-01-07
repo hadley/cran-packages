@@ -1,0 +1,18 @@
+Package: PenLNM
+Type: Package
+Title: Group l1 penalized logistic normal multinomial (LNM) regression
+        model.
+Version: 1.0
+Date: 2012-11-13
+Author: FAN XIA
+Maintainer: FAN XIA <phoebexia@yahoo.com>
+Description: The package is developed for the cross-sectional study of
+        diet and stool microbiome data. The model facility variable
+        selection. The group l1 penalized logistic normal (LN) approach
+        is also implemented in the package.
+License: GPL-2
+Depends: remMap, MASS, Matrix
+LazyLoad: yes
+Packaged: 2012-11-28 06:00:51 UTC; natsuhan
+Repository: CRAN
+Date/Publication: 2012-11-28 08:18:07

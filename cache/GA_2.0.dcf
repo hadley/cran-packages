@@ -1,0 +1,17 @@
+Package: GA
+Type: Package
+Version: 2.0
+Date: 2013-08-19
+Title: Genetic Algorithms
+Description: An R package for optimization using genetic algorithms. The package provides a flexible general-purpose set of tools for implementing genetic algorithms search in both the continuous and discrete case, whether constrained or not. Users can easily define their own objective function depending on the problem at hand. Several genetic operators are available and can be combined to explore the best settings for the current task. Furthermore, users can define new genetic operators and easily evaluate their performances. GAs can be run sequentially or in parallel.
+Author: Luca Scrucca <luca@stat.unipg.it>
+Maintainer: Luca Scrucca <luca@stat.unipg.it>
+Depends: R (>= 3.0.0), methods
+Suggests: parallel, doParallel, foreach, iterators
+License: GPL (>= 2)
+ByteCompile: true
+LazyLoad: yes
+Packaged: 2013-08-20 08:23:45 UTC; luca
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-20 15:23:06

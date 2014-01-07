@@ -1,0 +1,35 @@
+Package: blockcluster
+Type: Package
+Title: Co-Clustering package for binary, contingency, continuous and
+        categorical data-sets.
+Version: 3.0
+Encoding: UTF-8
+Date: 2012-02-22
+Author: Parmeet Bhatia & Serge Iovleff & Gerard Goavert & Vincent Brault, with
+    contributions from Christophe Biernacki and Gilles Celeux.
+Maintainer: Serge Iovleff <serge.iovleff@inria.fr>
+Description: Simultaneous clustering of rows and columns, usually designated by
+    biclustering, co-clustering or block clustering, is an important technique
+    in two way data analysis. It consists of estimating a mixture model which
+    takes into account the block clustering problem on both the individual and
+    variables sets. The blockcluster package provides a bridge between the C++
+    core library and the R statistical computing environment. This package
+    allows to co-cluster binary, contingency, continuous and categorical
+    data-sets. It also provides utility functions to visualize the results.
+    This package may be useful for various applications in fields of Data
+    mining,Information retrieval, Biology, computer vision and many more. More
+    information about the project and comprehensive tutorial can be found on
+    the link mentioned in URL.
+License: GPL (>= 3)
+URL: https://modal.lille.inria.fr/pages/blockcluster.php
+BugReports:
+        https://gforge.inria.fr/forum/forum.php?forum_id=11190&group_id=3679
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.9), R (>= 2.14), methods
+LinkingTo: Rcpp
+Collate: 'Strategy.R' 'optionclasses.R' 'summary.R' 'plot.R'
+        'Rcoclust.R' 'onattach.R' 'cocluster.R'
+Packaged: 2013-12-03 09:31:26 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-03 11:26:08

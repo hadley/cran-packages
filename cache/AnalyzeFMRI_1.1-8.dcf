@@ -1,0 +1,11 @@
+Package: AnalyzeFMRI
+Version: 1.1-8
+Date: 2007-12-11
+Title: Functions for analysis of fMRI datasets stored in the ANALYZE format.
+Author: J L Marchini <marchini@stats.ox.ac.uk>, P Lafaye de Micheaux <Pierre.Lafaye-de-Micheaux@upmf-grenoble.fr>
+Maintainer: P Lafaye de Micheaux <Pierre.Lafaye-de-Micheaux@upmf-grenoble.fr>
+Depends: R (>= 2.3.0)
+Description: Functions for I/O, visualisation and analysis of functional Magnetic Resonance Imaging (fMRI) datasets stored in the ANALYZE format.
+License: GPL (version 2 or later)
+Depends: tcltk
+Packaged: Tue Dec 11 22:23:43 2007; lafaye

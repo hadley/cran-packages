@@ -1,0 +1,15 @@
+Package: cudia
+Type: Package
+Title: CUDIA Cross-level Imputation
+Version: 0.1
+Date: 2012-08-17
+Author: Yubin Park and Joydeep Ghosh
+Maintainer: Yubin Park <yubin.park@utexas.edu>
+Depends: R (>= 2.14.1), MCMCpack, mvtnorm
+Suggests: MASS
+Description: Reconstruct individual-level values from aggregate-level
+        summaries.
+License: GPL-2
+Packaged: 2012-08-19 13:48:36 UTC; yubin
+Repository: CRAN
+Date/Publication: 2012-08-19 13:55:03

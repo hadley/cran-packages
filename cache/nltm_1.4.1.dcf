@@ -1,0 +1,23 @@
+Package: nltm
+Version: 1.4.1
+Date: 2009-02-10
+Title: Non-linear Transformation Models
+Author: Gilda Garibotti, Alexander Tsodikov
+Maintainer: Gilda Garibotti <garibotti@crub.uncoma.edu.ar>
+Depends: survival, R (>= 2.8.1)
+Description: Fits a non-linear transformation model (nltm) for
+        analyzing survival data, see Tsodikov (2003)
+        "Semiparametricmodels: a generalized self-consistency
+        approach". J.R. Statistical Society B, 65, Part 3, 759-774. The
+        class of nltm includes the following currently supported
+        models: Cox proportional hazard, proportional hazard cure,
+        proportional odds, proportional hazard - proportional hazard
+        cure, proportional hazard - proportional odds cure, Gamma
+        frailty, and proportional hazard - proportional odds.
+License: GPL-2
+URL: http://www.r-project.org
+LazyLoad: No
+LazyData: No
+Packaged: 2010-05-07 08:04:50 UTC; ripley
+Repository: CRAN
+Date/Publication: 2010-05-07 16:10:33

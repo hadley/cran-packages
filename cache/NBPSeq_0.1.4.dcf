@@ -1,0 +1,19 @@
+Package: NBPSeq
+Type: Package
+Version: 0.1.4
+Date: 04-23-2011
+Title: The NBP Negative Binomial Model for Assessing Differential Gene
+        Expression from RNA-Seq
+Author: Yanming Di <diy@stat.oregonstate.edu>, Daniel W Schafer
+        <schafer@stat.oregonstate.edu>, with contributions from Jason S
+        Cumbie <cumbiej@onid.orst.edu> and Jeff H Chang
+        <changj@cgrb.oregonstate.edu>.
+Maintainer: Yanming Di <diy@stat.oregonstate.edu>
+Description: Fit NBP model to RNA-Seq count data and identify genes
+        differentially expressing in two groups.
+Depends: qvalue
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-04-24 04:39:29 UTC; yanming
+Repository: CRAN
+Date/Publication: 2011-04-24 08:12:30

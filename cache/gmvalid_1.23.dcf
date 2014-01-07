@@ -1,0 +1,19 @@
+Package: gmvalid
+Type: Package
+Title: Validation of graphical models
+Version: 1.23
+Date: 2012-10-14
+Author: Ronja Foraita, Fabian Sobotka
+Maintainer: Fabian Sobotka <fabian.sobotka@wiwi.uni-goettingen.de>
+Description: Simulate data sets given a dependence model, validate
+        graphical models using the bootstrap, find the best prediction
+        model using cross validation.
+License: GPL (>= 2)
+Depends: R (>= 2.10.0), grid, epitools, gtools
+Enhances: mimR, CoCo (>= 0.1.7.6)
+LazyLoad: yes
+LazyData: yes
+URL: http://www.bips.uni-bremen.de/wimi.php?MAid=23
+Packaged: 2012-10-18 14:02:55 UTC; fabiansobotka
+Repository: CRAN
+Date/Publication: 2012-10-18 18:11:37

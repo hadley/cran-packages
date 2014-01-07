@@ -1,0 +1,19 @@
+Package: Rknots
+Type: Package
+Title: Rknots
+Version: 1.2.1
+Date: 2012-02-25
+Depends: R (>= 2.14.0), methods, rgl, rSymPy
+Suggests: bio3d
+Author: Federico Comoglio and Maurizio Rinaldi
+Maintainer: Federico Comoglio <federico.comoglio@bsse.ethz.ch>
+Description: The Rknots package contains functions for the topological
+        analysis of polymers, with a major focus on proteins. Notice
+        that Rknots depends on the package bio3d (it can be downloaded
+        from http://mccammon.ucsd.edu/~bgrant/bio3d/) not available
+        through CRAN.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-02-27 13:47:38 UTC; comoglif
+Repository: CRAN
+Date/Publication: 2012-02-27 18:58:40

@@ -1,0 +1,20 @@
+Package: fANCOVA
+Type: Package
+Title: Nonparametric Analysis of Covariance
+Version: 0.5-1
+Date: 2010-10-20
+Author: Xiao-Feng Wang
+Maintainer: Xiao-Feng Wang <wangx6@ccf.org>
+Description: This package contains a collection of R functions to
+        perform nonparametric analysis of covariance for regression
+        curves or surfaces. Testing the equality or parallelism of
+        nonparametric curves or surfaces is equivalent to analysis of
+        variance (ANOVA) or analysis of covariance (ANCOVA) for
+        one-sample functional data. Three different testing methods are
+        available in the package, including one based on L-2 distance,
+        one based on an ANOVA statistic, and one based on variance
+        estimators.
+License: GPL (>= 3)
+Packaged: 2010-10-20 04:10:18 UTC; xfwang
+Repository: CRAN
+Date/Publication: 2010-10-20 07:19:25

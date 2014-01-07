@@ -1,0 +1,18 @@
+Package: phylotools
+Type: Package
+Title: Phylogenetic tools for Eco-phylogenetics
+Version: 0.1.2
+Date: 2011-8-18
+Author: Jinlong Zhang, Nancai Pei, Xiangcheng Mi
+Maintainer: Jinlong Zhang <jinlongzhang01@gmail.com>
+Description: Building supermatrix for DNA barcodes using different
+        genes, calculating the inequality among lineages and
+        phylogenetic similarity for very large dataset using slicing
+        methods by invoking Phylocom.
+Depends: seqRFLP, ape, picante, spaa, fields
+Suggests: vegan
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:27 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:27

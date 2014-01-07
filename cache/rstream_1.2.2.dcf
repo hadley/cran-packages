@@ -1,0 +1,11 @@
+Package: rstream
+Version: 1.2.2
+Date: 2007-09-10
+Title: Streams of random numbers
+Author: Josef Leydold <leydold@statistik.wu-wien.ac.at>
+Maintainer: Josef Leydold <leydold@statistik.wu-wien.ac.at>
+Depends: R (>= 2.0.0), methods
+Description: Unified object oriented interface for multiple independent streams of random numbers from different sources.
+License: GPL version 2
+URL: http://statistik.wu-wien.ac.at/arvag/
+Packaged: Mon Sep 10 10:27:25 2007; leydold

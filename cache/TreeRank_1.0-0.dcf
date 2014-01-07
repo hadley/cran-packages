@@ -1,0 +1,17 @@
+Package: TreeRank
+Version: 1.0-0
+Date: 2010-02-25
+Title: TreeRank
+Description: Implementation of the TreeRank methodology for building
+        tree-based ranking rules for bipartite ranking through ROC
+        curve optimization.
+Author: Nicolas Baskiotis <nicolas.baskiotis@gmail.com>
+Maintainer: Nicolas Baskiotis <nicolas.baskiotis@gmail.com>
+Depends: rpart, tcltk, igraph, colorspace, tkrplot, kernlab, coin
+URL: http://treerank.sourceforge.net/
+LazyData: yes
+LazyLoad: no
+License: GPL-2 | GPL-3
+Packaged: 2010-03-04 01:29:17 UTC; nbaskiot
+Repository: CRAN
+Date/Publication: 2010-03-04 06:51:18

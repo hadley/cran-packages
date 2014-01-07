@@ -1,0 +1,19 @@
+Package: sdcMicro
+Type: Package
+Title: Statistical Disclosure Control methods for the generation of
+        public- and scientific-use files.
+Version: 2.6.7
+Date: 2011-11-11
+Author: Matthias Templ
+Maintainer: Matthias Templ <Matthias.Templ@statistik.gv.at>
+Description: Data from statistical agencies and other institutions are
+        mostly confidential. This package can be used for the
+        generation of anonymized (micro)data, i.e. for the generation
+        of public- and scientific-use files. The package includes also
+        a graphical user interface.
+Depends: robustbase, tcltk, car, cluster, MASS, e1071
+Imports: car, robustbase, cluster, MASS, e1071, tcltk
+License: GPL-2
+Packaged: 2012-01-26 07:18:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-01-26 07:20:00

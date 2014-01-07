@@ -1,0 +1,14 @@
+Package: waveslim
+Version: 1.0
+Date: 10-01-2001
+Title: Basic wavelet routines for time series analysis
+Author: Brandon Whitcher <whitcher@ucar.edu>
+Maintainer: Brandon Whitcher <whitcher@ucar.edu>
+Depends: R (>= 1.3.0)
+Description: Basic wavelet routines for time series analysis.  The
+  code provided here is based on wavelet methodology developed in
+  Percival and Walden (2000) along with Gencay, Selcuk and Whitcher
+  (2001).  All figures in chapters 4-7 of G-S-W are reproducible using
+  this package and R code available at the book website below.
+License: GPL version 2 or newer
+URL: http://www.cgd.ucar.edu/~whitcher/ http://www.cgd.ucar.edu/~whitcher/book/

@@ -1,0 +1,19 @@
+Package: apcluster
+Type: Package
+Title: Affinity Propagation Clustering
+Version: 1.0.1
+Date: 2010-03-02
+Depends: R (>= 2.6.0), methods
+Imports: methods, stats, graphics, utils
+Author: Ulrich Bodenhofer, Andreas Kothmeier
+Maintainer: Ulrich Bodenhofer <apcluster@bioinf.jku.at>
+Description: The apcluster package implements Frey's and Dueck's
+        Affinity Propagation clustering in R. The algorithms are
+        analogous to the Matlab code published by Frey and Dueck.
+License: GPL (>= 2)
+URL: http://www.bioinf.jku.at/software/apcluster/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2010-03-02 15:18:07 UTC; bodenhof
+Repository: CRAN
+Date/Publication: 2010-03-02 16:57:42

@@ -1,0 +1,17 @@
+Package: OpenStreetMap
+Maintainer: Ian Fellows <ian@fellstat.com>
+License: GPL-2 + file LICENCE
+Title: Access to open street map raster images
+Author: Ian Fellows, using the JMapViewer library by Jan Peter Stotz
+Description: Access to high quality open street map raster images.
+SystemRequirements: Java (>= 1.5), JRI
+Version: 0.2
+URL: http://www.fellstat.com http://research.cens.ucla.edu/
+Date: 2012-02-21
+Depends: methods, rJava, sp, maptools, raster, R (>= 2.10.0)
+Suggests: rgdal, ggplot2 (>= 0.9.0), colorspace
+Imports: rJava
+Collate: 'OpenStreetMap-package.R' 'osm.R' 'autoplot.R' 'zzz.R'
+Packaged: 2012-03-01 18:30:37 UTC; ianfellows
+Repository: CRAN
+Date/Publication: 2012-03-01 19:37:43

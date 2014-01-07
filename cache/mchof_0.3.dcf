@@ -1,0 +1,24 @@
+Package: mchof
+Type: Package
+Title: multicore higher-order functions
+Description: mchof (read: mac'hoff) is a utility library that provides
+        composable, consistent parallel implementations of functionals
+        such as Filter, Fold, ZipWith and Partition.
+Version: 0.3
+Depends: R (>= 2.14.0)
+Date: 2013-02-03
+Author: Ryan Grannell
+Maintainer: Ryan Grannell <r.grannell2@gmail.com>
+Contact: Ryan Grannell <r.grannell2@gmail.com>
+BugReports: <r.grannell2@gmail.com>
+Imports: parallel
+Suggests: testthat, itertools, microbenchmark, ggplot2, reshape2
+License: GPL-2
+OS_type: unix
+Collate: 'call_mclapply.R' 'filter.R' 'partition.R' 'position.R'
+        'reduce.R' 'unzip.R' 'zip.R' 'quantify.R' 'reject.R' 'fold.R'
+        'utils.R' 'mchof.R' 'test_utils.R' 'test_generators.R'
+Packaged: 2013-06-11 14:25:20 UTC; rgrannell1
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-11 17:03:00

@@ -1,0 +1,19 @@
+Package: heatmapFit
+Version: 1.0
+Title: Heatmap Fit Statistic For Binary Dependent Variable Models
+Authors@R: c(person("Justin", "Esarey", role = c("aut", "cre"), email =
+        "Justin@justinesarey.com"), person("Andrew", "Pierce", role
+        ="aut", email = "awpierc@emory.edu"))
+Author: Justin Esarey and Andrew Pierce
+Maintainer: Justin Esarey <Justin@justinesarey.com>
+Depends: R (>= 2.15.1)
+Description: Generates a fit plot for diagnosing misspecification in
+        GLM models, and calculates the related heatmap fit statistic
+        (Esarey and Pierce, 2012).
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.justinesarey.com/
+BugReports: http://www.justinesarey.com/
+BuildKeepEmpty: TRUE
+Packaged: 2012-11-20 22:34:24 UTC; Valued Customer
+Repository: CRAN
+Date/Publication: 2012-11-20 23:21:48

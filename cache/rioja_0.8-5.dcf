@@ -1,0 +1,18 @@
+Package: rioja
+Type: Package
+Title: Analysis of Quaternary Science Data
+Version: 0.8-5
+Date: 2013-11-18
+Author: Steve Juggins
+Maintainer: Steve Juggins <Stephen.Juggins@ncl.ac.uk>
+Depends: vegan
+Suggests: lattice, RODBC, gdata, mgcv
+Description: Functions for the analysis of Quaternary science data, including
+         constrained clustering, WA, WAPLS, IKFA, MLRC and MAT transfer 
+         functions, and stratigraphic diagrams.
+License: GPL-3
+URL: http://www.staff.ncl.ac.uk/staff/stephen.juggins/
+Packaged: 2013-11-18 10:23:09 UTC; nsj3
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-18 12:08:37

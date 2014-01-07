@@ -1,0 +1,15 @@
+Package: ICS 
+Type: Package 
+Title: ICS / ICA Computation Based on two Scatter Matrices
+Version: 1.0-0 
+Date: 2007-05-04 
+Author: Klaus Nordhausen, Hannu Oja, Dave Tyler 
+Maintainer: Klaus Nordhausen <klaus.nordhausen@uta.fi> 
+Depends: R (>= 2.5.0), methods, mvtnorm, survey 
+Suggests: pixmap
+Description: The package implements Oja et al.'s method of two different scatter
+	matrices to obtain an invariant coordinate system or independent
+	components, depending on the underlying assumptions. 
+License: GPL version 2 or newer
+LazyLoad: yes
+Packaged: Fri May  4 10:44:04 2007; kn66583

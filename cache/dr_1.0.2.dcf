@@ -1,0 +1,16 @@
+Package: dr
+Version: 1.0.2
+Date:  2002/12/18
+Title: Methods for dimension reduction for regression
+Author: Sanford Weisberg <sandy@stat.umn.edu>, 
+Maintainer: Sanford Weisberg <sandy@stat.umn.edu>
+Description: Functions, methods, and datasets for fitting dimension
+ reduction regression, including pHd and inverse regression methods
+ SIR and SAVE.  These methods are described, for example, in
+ R. D. Cook (1998), Regression Graphics, Wiley, New York.  Also included is
+ code for computing permutation tests of dimension.  Adding additional
+ methods of estimating dimension is straightforward.  One function depends
+ on the lqs package.  Minor revision to be compatible with R 1.6, and one
+ bug-fix.
+License: GPL version 2 or newer
+URL: http://www.r-project.org

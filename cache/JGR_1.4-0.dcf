@@ -1,0 +1,9 @@
+Package: JGR
+Version: 1.4-0
+Title: JGR - Java Gui for R
+Author: Markus Helbig <markus.helbig@student.uni-augsburg.de>
+Maintainer: Markus Helbig <markus.helbig@student.uni-augsburg.de>
+Depends: R (>= 1.9.0), rJava, JavaGD
+Description: full functionality for JGR and additional features as well as JGR (the Java application) itself, additionally you need the start applications depending on your OS from JGR's website.
+License: GPL version 2
+URL: http://www.rosuda.org/JGR

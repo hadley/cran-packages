@@ -1,0 +1,73 @@
+Package: Rcmdr
+Version: 2.0-1
+Date: 2013/11/08
+Title: R Commander
+Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email = "jfox@mcmaster.ca"),
+    person("Milan", "Bouchet-Valat", role = "aut"),
+    person("Liviu", "Andronic", role = "ctb"),
+    person("Michael", "Ash", role = "ctb"),
+    person("Theophilius", "Boye", role = "ctb"),
+    person("Stefano", "Calza", role = "ctb"),
+    person("Andy", "Chang", role = "ctb"),
+    person("Philippe", "Grosjean", role = "ctb"),
+    person("Richard", "Heiberger", role = "ctb"),
+    person("Kosar", "Karimi Pour", role = "ctb"),
+    person("G. Jay", "Kerns", role = "ctb"),
+    person("Renaud", "Lancelot", role = "ctb"),
+    person("Matthieu", "Lesnoff", role = "ctb"),
+    person("Uwe", "Ligges", role = "ctb"),
+    person("Samir", "Messad", role = "ctb"),
+    person("Martin", "Maechler", role = "ctb"),
+    person("Robert", "Muenchen", role = "ctb"),
+    person("Duncan", "Murdoch", role = "ctb"),
+    person("Erich", "Neuwirth", role = "ctb"),
+    person("Dan", "Putler", role = "ctb"),
+    person("Brian", "Ripley", role = "ctb"),
+    person("Miroslav", "Ristic", role = "ctb"),
+    person("Peter", "Wolf", role = "ctb"),
+    person("Kevin", "Wright", role="ctb")
+   )
+Depends: R (>= 3.0.0), grDevices, utils, splines
+Imports: tcltk, knitr, markdown
+Suggests: abind, aplpack, car (>= 2.0-18), colorspace, effects (>=
+        1.0-7), e1071, foreign, grid, Hmisc, lattice, leaps, lmtest,
+        MASS, mgcv, multcomp (>= 0.991-2), nlme, nnet, relimp, rgl,
+        RODBC, sem (>= 2.1-1)
+ByteCompile: yes
+Description: 
+  A platform-independent basic-statistics GUI (graphical user interface) for R, based on the tcltk package.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://socserv.socsci.mcmaster.ca/jfox/Misc/Rcmdr/
+Author: John Fox [aut, cre],
+  Milan Bouchet-Valat [aut],
+  Liviu Andronic [ctb],
+  Michael Ash [ctb],
+  Theophilius Boye [ctb],
+  Stefano Calza [ctb],
+  Andy Chang [ctb],
+  Philippe Grosjean [ctb],
+  Richard Heiberger [ctb],
+  Kosar Karimi Pour [ctb],
+  G. Jay Kerns [ctb],
+  Renaud Lancelot [ctb],
+  Matthieu Lesnoff [ctb],
+  Uwe Ligges [ctb],
+  Samir Messad [ctb],
+  Martin Maechler [ctb],
+  Robert Muenchen [ctb],
+  Duncan Murdoch [ctb],
+  Erich Neuwirth [ctb],
+  Dan Putler [ctb],
+  Brian Ripley [ctb],
+  Miroslav Ristic [ctb],
+  Peter Wolf [ctb],
+  Kevin Wright [ctb]
+Maintainer: John Fox <jfox@mcmaster.ca>
+Repository: CRAN
+Repository/R-Forge/Project: rcmdr
+Repository/R-Forge/Revision: 461
+Repository/R-Forge/DateTimeStamp: 2013-11-08 22:07:04
+Date/Publication: 2013-11-09 07:58:20
+Packaged: 2013-11-08 23:15:48 UTC; rforge
+NeedsCompilation: yes

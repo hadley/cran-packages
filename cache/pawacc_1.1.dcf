@@ -1,0 +1,17 @@
+Package: pawacc
+Type: Package
+Title: Physical activity with accelerometers
+Version: 1.1
+Date: 2013-11-13
+Author: Marco Geraci
+Maintainer: Marco Geraci <m.geraci@ucl.ac.uk>
+Depends: R (>= 3.0.0)
+Imports: SparseM
+Description: Process, format and store accelerometer data
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org/package=pawacc
+LazyLoad: yes
+Packaged: 2013-11-13 19:43:28 UTC; Marco Geraci
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-13 21:16:46

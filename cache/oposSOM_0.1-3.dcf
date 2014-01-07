@@ -1,0 +1,17 @@
+Package: oposSOM
+Type: Package
+Title: Package for analysis and visualization of metagenes
+Version: 0.1-3
+Date: 2011-07-15
+Author: Henry Wirth
+Maintainer: Henry Wirth <wirth@izbi.uni-leipzig.de>
+Description: This package translates microarray expression data into
+        metagenes and provides various visualizations and second level
+        analyses.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://som.izbi.uni-leipzig.de
+Depends: R (>= 2.11.0), som, fastICA, pixmap, igraph, ape
+Packaged: 2011-07-27 09:37:22 UTC; henry
+Repository: CRAN
+Date/Publication: 2011-07-27 10:38:59

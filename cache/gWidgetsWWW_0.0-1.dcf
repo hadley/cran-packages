@@ -1,0 +1,13 @@
+Package: gWidgetsWWW
+Version: 0.0-1
+Title: Toolkit implementation of gWidgets for www
+Author: John Verzani
+Maintainer: John Verzani <gwidgetsrgtk@gmail.com>
+Depends: methods, proto, Rpad
+Suggests: 
+Extends: 
+Description: Port of gWidgets API to www using Rpad to link R with a web page and Ext to create widgets.
+License: GPL (>= 2)
+URL: http://www.math.csi.cuny.edu/pmg
+LazyLoad: FALSE
+Packaged: Fri Jul 18 11:06:15 2008; verzani

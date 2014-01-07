@@ -1,0 +1,20 @@
+Package: systemfit
+Version: 1.1-14
+Date: 2012/11/17
+Title: Estimating Systems of Simultaneous Equations
+Author: Arne Henningsen and Jeff D. Hamann
+Maintainer: Arne Henningsen <arne.henningsen@gmail.com>
+Depends: R (>= 1.8.0), Matrix, car (>= 2.0-0), lmtest
+Suggests: plm (>= 1.0-1), MASS, sem (>= 2.0-0)
+Imports: stats (>= 2.14.0), sandwich (>= 2.2-9)
+Description: This package contains functions for fitting simultaneous
+        systems of linear and nonlinear equations using Ordinary Least
+        Squares (OLS), Weighted Least Squares (WLS), Seemingly
+        Unrelated Regressions (SUR), Two-Stage Least Squares (2SLS),
+        Weighted Two-Stage Least Squares (W2SLS), and Three-Stage Least
+        Squares (3SLS).
+License: GPL (>= 2)
+URL: http://www.systemfit.org
+Packaged: 2012-11-17 19:40:15 UTC; arne
+Repository: CRAN
+Date/Publication: 2012-11-18 07:23:01

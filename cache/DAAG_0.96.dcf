@@ -1,0 +1,17 @@
+Package: DAAG
+Version: 0.96
+Date: 2007-December-31
+Title: Data Analysis And Graphics  
+Author: John Maindonald and W. John Braun
+Maintainer: W. John Braun <braun@stats.uwo.ca>
+Description: various data sets used in examples and exercises in
+        the book Maindonald, J.H. and Braun, W.J. (2003, 2007)  "Data 
+        Analysis and Graphics Using R".
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.0.1), MASS
+Suggests: lattice, leaps, oz
+ZipData: no
+License: Unlimited
+URL: http://www.stats.uwo.ca/DAAG
+Packaged: Mon Dec 31 14:20:40 2007; braun

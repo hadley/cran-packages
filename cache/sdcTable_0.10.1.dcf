@@ -1,0 +1,27 @@
+Package: sdcTable
+Version: 0.10.1
+Date: 2012-07-06
+Title: Methods for SDC (statistical disclosure control) in tabular data
+Description: Implementation of methods for SDC (statistical disclosure
+        control) in tabular data
+Author: Bernhard Meindl
+Maintainer: Bernhard Meindl <bernhard.meindl@statistik.gv.at>
+Depends: stringr, methods, Rcpp, Rglpk, lpSolveAPI
+LazyLoad: yes
+LinkingTo: Rcpp
+License: GPL-2
+URL: http://www.statistik.at
+Collate: 'classes.r' 'data.r' 'export_functions.r' 'generics_cutList.r'
+        'generics_dataObj.r' 'generics_dimInfo.r' 'generics_dimVar.r'
+        'generics_linProb.r' 'generics_multiple.r'
+        'generics_problemInstance.r' 'generics_safeObj.r'
+        'generics_sdcProblem.r' 'generics_simpleTriplet.r'
+        'helper_functions.r' 'methods_class_cutList.r'
+        'methods_class_dataObj.r' 'methods_class_dimInfo.r'
+        'methods_class_dimVar.r' 'methods_class_linProb.r'
+        'methods_class_problemInstance.r' 'methods_class_safeObj.r'
+        'methods_class_sdcProblem.r' 'methods_class_simpleTriplet.r'
+        'methods_multiple_classes.r' 'zzz.r'
+Packaged: 2012-07-11 12:57:15 UTC; bernhard
+Repository: CRAN
+Date/Publication: 2012-07-11 13:10:00

@@ -1,0 +1,18 @@
+Package: costat
+Type: Package
+Title: Time series costationarity determination
+Version: 2.0
+Date: 2012-11-26
+Author: Guy Nason, Alessandro Cardinali
+Maintainer: Guy Nason <g.p.nason@bristol.ac.uk>
+Depends: R (>= 2.0), wavethresh, multicore
+Description: Contains functions that can determine whether a time
+        series is second-order stationary or not (and hence evidence
+        for locally stationarity). Given two non-stationary series
+        (i.e.  locally stationary series) this package can then
+        discover time-varying linear combinations that are second-order
+        stationary.
+License: GPL (>= 2)
+Packaged: 2012-11-26 22:45:53 UTC; magpn
+Repository: CRAN
+Date/Publication: 2012-11-27 06:56:42

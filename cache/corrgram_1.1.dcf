@@ -1,0 +1,16 @@
+Package: corrgram
+Type: Package
+Title: Plot a correlogram
+Version: 1.1
+Date: 2011-10-19
+Author: Kevin Wright
+Maintainer: Kevin Wright <kw.stat@gmail.com>
+Description: Calculates correlation of variables and displays the
+        results graphically.
+Depends: graphics, seriation, stats
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-10-19 20:58:30 UTC; wrightkevi
+Repository: CRAN
+Date/Publication: 2011-10-20 08:47:23

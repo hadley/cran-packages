@@ -1,0 +1,16 @@
+Package: restlos
+Type: Package
+Title: Robust estimation of location and scatter
+Version: 0.1
+Date: 2012-08-23
+Author: Steffen Liebscher and Thomas Kirschstein
+Maintainer: Steffen Liebscher <steffen.liebscher@wiwi.uni-halle.de>
+Description: The package implements some recently introduced
+        methodology for robust estimation of location and scatter as
+        well as outlier identification.
+Depends: som, rgl, tripack, ade4, geometry
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-23 11:43:26 UTC; Steffen
+Repository: CRAN
+Date/Publication: 2012-08-24 09:10:09

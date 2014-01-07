@@ -1,0 +1,12 @@
+Package: bayescount
+Version: 0.5.1
+Date: 2007-27-08
+Title: Bayesian analysis of count distributions with JAGS
+Author: Matthew Denwood <m.denwood.1@research.gla.ac.uk>, funded as part of the DEFRA VTRI project 0101.
+Maintainer: Matthew Denwood <m.denwood.1@research.gla.ac.uk>
+Depends: bayesmix, coda, lattice
+Suggests:
+Description: A set of functions to apply a zero-inflated gamma Poisson (equivalent to a zero-inflated negative binomial), zero-inflated Poisson, gamma Poisson (negative binomial) or Poisson model to a set of count data using JAGS (Just Another Gibbs Sampler).  Returns information on the possible values for mean count, overdispersion and zero inflation present in count data such as faecal egg count data.  Checks for convergence using the Gelman-Rubin statistic.  Just Another Gibbs Sampler (JAGS) must be installed.  *THIS SOFTWARE IS INTENDED FOR EDUCATIONAL PURPOSES ONLY AND SHOULD NOT BE RELIED UPON FOR REAL WORLD APPLICATIONS*
+License: GPL
+URL:
+Packaged: Mon Aug 27 15:25:17 2007; matthew

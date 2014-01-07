@@ -1,0 +1,14 @@
+Package: camel
+Type: Package
+Title: Calibrated Machine Learning
+Version: 0.2.0
+Date: 2013-09-09
+Author: Xingguo Li, Tuo Zhao, and Han Liu
+Maintainer: Xingguo Li <xingguo.leo@gmail.com>
+Depends: R (>= 2.15.0), lattice, igraph, MASS, Matrix
+Description: The package "camel" provides the implementation of a family of high-dimensional calibrated machine learning tools, including (1) LAD, SQRT Lasso and Calibrated Dantzig Selector for estimating sparse linear models; (2) Calibrated Multivariate Regression for estimating sparse multivariate linear models; (3) Tiger, Calibrated Clime for estimating sparse Gaussian graphical models. We adopt the combination of the dual smoothing and monotone fast iterative soft-thresholding algorithm (MFISTA). The computation is memory-optimized using the sparse matrix output, and accelerated by the path following and active set tricks.
+License: GPL-2
+Repository: CRAN
+Packaged: 2013-09-09 00:53:44 UTC; leo
+NeedsCompilation: yes
+Date/Publication: 2013-09-09 15:49:04

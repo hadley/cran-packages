@@ -1,0 +1,26 @@
+Package: random.polychor.pa
+Type: Package
+Title: A Parallel Analysis With Polychoric Correlation Matrices
+Version: 1.0
+Date: 2010-02-20
+Author: Fabio Presaghi & Marta Desimoni
+Maintainer: Fabio Presaghi <fabio.presaghi@uniroma1.it>
+Description: The Function perform a parallel analysis using simulated
+        polychoric correlation matrices. The nth-percentile of the
+        eigenvalues distribution obtained from the randomly generated
+        polychoric correlation matrices is returned. A plot comparing
+        the two types of eigenvalues (real and simulated) will help
+        determine the number of real eigenvalues that outperform random
+        data. The function is based on the idea that if real data are
+        non-normal and the polychoric correlation matrix is needed to
+        perform a Factor Analysis, then the Parallel Analysis method
+        used to choose a non-random number of factors should also be
+        based on randomly generated polychoric correlation matrices and
+        not on Pearson correlation matrices.
+Depends: psych, nFactors
+LazyLoad: yes
+License: GPL (>= 2)
+Encoding: latin1
+Packaged: 2010-03-01 03:21:42 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-03-01 06:57:59

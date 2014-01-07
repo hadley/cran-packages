@@ -1,0 +1,18 @@
+Package: lmmlasso
+Type: Package
+Title: Linear mixed-effects models with Lasso
+Version: 0.1-2
+Date: 2011-04-13
+Author: Juerg Schelldorfer
+Maintainer: Juerg Schelldorfer <schell@stat.math.ethz.ch>
+Description: This package fits (gaussian) linear mixed-effects models
+        for high-dimensional data (n<<p) using a Lasso-type approach
+        for the fixed-effects parameter.
+Depends: methods, emulator, miscTools, penalized
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: lmmlasso
+Repository/R-Forge/Revision: 5
+Date/Publication: 2011-04-15 10:29:50
+Packaged: 2011-04-14 20:51:09 UTC; rforge

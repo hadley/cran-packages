@@ -1,0 +1,10 @@
+Package: lpridge
+Version: 1.0-1
+Title: Local Polynomial (Ridge) Regression
+Author: Burkhardt Seifert <seifert@ifspm.unizh.ch> (S original);
+	Packaged for R by Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: "lpridge" and "lpepa" provide local polynomial regression
+  algorithms including local bandwidth use.
+Depends:
+License: GPL version 2 or later

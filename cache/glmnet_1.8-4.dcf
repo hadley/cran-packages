@@ -1,0 +1,21 @@
+Package: glmnet
+Type: Package
+Title: Lasso and elastic-net regularized generalized linear models
+Version: 1.8-4
+Date: 2012-12-23
+Author: Jerome Friedman, Trevor Hastie, Rob Tibshirani
+Maintainer: Trevor Hastie <hastie@stanford.edu>
+Depends: Matrix (>= 1.0-6), utils
+Suggests: survival
+Description: Extremely efficient procedures for fitting the entire
+        lasso or elastic-net regularization path for linear regression,
+        logistic and multinomial regression models, poisson regression
+        and the Cox model. Two recent additions are the multiresponse
+        gaussian, and the grouped multinomial. The algorithm uses
+        cyclical coordinate descent in a pathwise fashion, as described
+        in the paper listed below.
+License: GPL-2
+URL: http://www.jstatsoft.org/v33/i01/.
+Packaged: 2012-12-27 21:47:57 UTC; hastie
+Repository: CRAN
+Date/Publication: 2012-12-27 23:11:07

@@ -1,0 +1,17 @@
+Package: covRobust
+Title: Robust Covariance Estimation via Nearest Neighbor Cleaning
+Version: 1.1-0
+Date: 2013-5-9
+Author: Naisyin Wang <nwangaa@umich.edu> and Adrian Raftery
+        <raftery@uw.edu> with contributions from Chris Fraley
+        <fraley@uw.edu>
+Description: The cov.nnve() function for robust covariance estimation
+        by the nearest neighbor variance estimation (NNVE) method of
+        Wang and Raftery (2002,JASA)
+Maintainer: Hana Sevcikova <hanas@uw.edu>
+Depends: R (>= 2.15.1)
+License: GPL (>= 2)
+Packaged: 2013-05-09 18:50:41 UTC; hana
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-10 10:07:45

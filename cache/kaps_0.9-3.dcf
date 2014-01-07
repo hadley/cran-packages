@@ -1,0 +1,21 @@
+Package: kaps
+Title: K Adaptive Partitioning for Survival data
+Version: 0.9-3
+Date: 2012-05-21
+Author: Soo-Heang Eo and HyungJun Cho
+Maintainer: Soo-Heang Eo <hanansh@korea.ac.kr>
+Description: This package provides some routines to conduct the
+        K-adaptive parititioning (kaps) and recursive partitioning
+        (lrtree) for survival data, with the application to SEER
+        (Surveillance Epidemiology and End Results). A function kaps is
+        an implementation version of our algorithm kaps which provides
+        minimax based partitioing rule by log-rank test. A fuction
+        lrtree enables researchers to conduct log-rank survival tree
+        proposed by Segal (1988).
+License: GPL-2
+URL: http://statlab.korea.ac.kr/kaps
+Depends: R (>= 2.14.0), methods, survival, Formula, grid, parallel,
+        locfit
+Repository: CRAN
+Packaged: 2012-05-23 01:54:23 UTC; hanansh
+Date/Publication: 2012-05-23 07:37:23

@@ -1,0 +1,30 @@
+Package: FrF2
+Title: Fractional Factorial designs with 2-level factors
+Version: 1.6-6
+Depends: R(>= 2.13.0), BsMD, scatterplot3d, igraph (>= 0.6-2), DoE.base
+        (>= 0.23-4)
+Imports: sfsmisc
+Suggests: FrF2.catlg128
+Date: 2013-04-18
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@beuth-hochschule.de>
+Description: This package creates regular and non-regular Fractional
+        Factorial designs. Furthermore, analysis tools for Fractional
+        Factorial designs with 2-level factors are offered (main
+        effects and interaction plots for all factors simultaneously,
+        cube plot for looking at the simultaneous effects of three
+        factors, full or half normal plot, alias structure in a more
+        readable format than with the built-in function alias). The
+        package is still under development. While much of the intended
+        functionality is already available, some changes and
+        improvements are still to be expected. Suggestions are welcome.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: latin1
+URL: http://prof.beuth-hochschule.de/groemping/DoE/,
+        http://prof.beuth-hochschule.de/groemping/
+Packaged: 2013-04-18 23:09:00 UTC; groemping
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-19 07:57:30

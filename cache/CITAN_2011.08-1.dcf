@@ -1,0 +1,38 @@
+Package: CITAN
+License: LGPL (>= 3)
+Maintainer: Marek Gagolewski <gagolews@ibspan.waw.pl>
+BugReports:
+        http://r-forge.r-project.org/tracker/?atid=4279&group_id=1075
+LazyData: true
+Title: CITation ANalysis toolpack
+Type: Package
+Author: Marek Gagolewski <gagolews@ibspan.waw.pl>
+Description: CITAN is a library of functions useful in - but not
+        limited to - quantitative research in the field of
+        scientometrics. It contains various tools for preprocessing
+        bibliographic data retrieved e.g. from Elsevier's SciVerse
+        Scopus and calculating bibliometric impact of individuals.
+        Also, many functions dealing with Pareto-Type II (GPD) and
+        Discretized Pareto-Type II statistical models are included
+        (e.g. Zhang-Stephens and MLE estimators, goodness-of-fit and
+        two-sample tests, confidence intervals for the theoretical
+        Hirsch index etc.). They may be used to describe and analyze
+        many phenomena encountered in the social sciences.
+Version: 2011.08-1
+URL: http://www.ibspan.waw.pl/~gagolews/CITAN/
+Date: 2011-08-11
+Depends: R (>= 2.10.0), DBI, RSQLite, RGtk2, hash, ADGofTest
+Collate: 'biblio.internal.R' 'biblio.assess.R' 'biblio.clear.R'
+        'biblio.connect.R' 'biblio.create.R' 'biblio.duplicates.R'
+        'biblio.getcitations.R' 'biblio.import.R' 'biblio.info.R'
+        'biblio.search.R' 'biblio.stats.R' 'CITAN-package.R'
+        'distrib_hirsch.R' 'distrib_p2.R' 'distrib_sstat.R'
+        'dp2.estimate.R' 'dp2.goftest.R' 'execquery.R'
+        'impact_functions.R' 'impact_visualization.R' 'p2.confint.h.R'
+        'p2.confint.rho.approx.R' 'p2.confint.rho.R' 'p2.estimate.R'
+        'p2.ftest.R' 'p2.goftest.R' 'p2.htest.approx.R' 'p2.htest.R'
+        'rgtk2.R' 'rho.R' 'scopus.data.R' 'scopus.importsources.R'
+        'scopus.readcsv.R' 'string.R'
+Packaged: 2011-08-11 18:59:25 UTC; gagolews
+Repository: CRAN
+Date/Publication: 2011-08-12 05:08:34

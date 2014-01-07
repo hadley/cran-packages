@@ -1,0 +1,11 @@
+Package: x12
+Version: 0.0-4
+Date: 2009-01-20
+Title: X12
+Author: Alexander Kowarik <alexander.kowarik@statistik.gv.at>
+Maintainer: Alexander Kowarik <alexander.kowarik@statistik.gv.at>
+Depends: R (>= 2.7.0),tcltk,stats,utils,grDevices
+Description: A wrapper function and GUI for the X12 binaries under windows
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: Tue Jan 20 08:52:06 2009; kowa$

@@ -1,0 +1,23 @@
+Package: seq2R
+Type: Package
+Title: Simple method to detect compositional changes in genomic
+        sequences
+Version: 1.0
+Date: 2012-07-20
+Author: Nora M. Villanueva, Marta Sestelo and Javier Roca-Pardinas
+Maintainer: Nora M. Villanueva <nmvillanueva@uvigo.es>
+Depends: R (>= 2.15.1), seqinr
+Description: This software is useful for loading .fasta or .gbk files,
+        and for retrieving sequences from GenBank dataset. This package
+        allows to detect differences or asymmetries based on nucleotide
+        composition by using local linear kernel smoothers. Also, it is
+        possible to draw inference about critical points (i. e. maximum
+        or minimum points) related with the derivative curves.
+        Additionally, bootstrap methods have been used for estimating
+        confidence intervals and speed computational techniques
+        (binning techniques) have been implemented in seq2R.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-08-23 11:26:16 UTC; Nora
+Repository: CRAN
+Date/Publication: 2012-08-23 13:47:48

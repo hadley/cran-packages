@@ -1,0 +1,14 @@
+Package: wasim
+Type: Package
+Title: Visualisation and analysis of output files of the hydrological
+        model WASIM
+Version: 1.1.2
+Date: 2011-12-27
+Author: Dominik Reusser, Till Francke
+Maintainer: Dominik Reusser <reusser@pik-potsdam.de>
+Description: Helpful tools for data processing and visualisation of results of the hydrological model WASIM-ETH.
+Depends: R (>= 1.8.0), MASS, qualV, tiger, fast
+License: GPL-2
+Packaged: 2011-12-27 05:25:31 UTC; reusser
+Repository: CRAN
+Date/Publication: 2011-12-30 11:23:17

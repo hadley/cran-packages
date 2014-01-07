@@ -1,0 +1,23 @@
+Package: Rd2roxygen
+Type: Package
+Title: Convert Rd to roxygen documentation
+Version: 0.1-2
+Date: 2010-12-06
+Author@R: c(person("Hadley", "Wickham", email = "h.wickham@gmail.com",
+        role = "aut"), person("Yihui", "Xie", email = "xie@yihui.name",
+        role = c("aut", "cre")))
+Author: Hadley Wickham and Yihui Xie
+Maintainer: Yihui Xie <xie@yihui.name>
+Depends: roxygen
+Description: Functions to convert Rd to roxygen documentation. It can
+        parse an Rd file to a list, create the roxygen documentation
+        and update the original R script (e.g. the one containing the
+        definition of the function) accordingly. This package also
+        provides utilities which can help developers build packages
+        using roxygen more easily.
+License: GPL
+URL: https://github.com/yihui/Rd2roxygen, http://yihui.name/en/?p=645
+Collate: 'rd2roxygen.R' 'utils.R'
+Packaged: 2010-12-06 20:24:11 UTC; yihui
+Repository: CRAN
+Date/Publication: 2010-12-07 08:20:15

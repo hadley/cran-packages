@@ -1,0 +1,29 @@
+Package: ROSE
+Type: Package
+Title: ROSE: Random Over-Sampling Examples
+Version: 0.0-1
+Date: 2013-02-04
+Authors@R: c(person("Nicola", "Lunardon", role = c("aut", "cre"), email
+        = "nicola.lunardon@econ.units.it"), person("Giovanna",
+        "Menardi", role = c("aut", "cre"), email =
+        "menardi@stat.unipd.it"), person("Nicola", "Torelli", role =
+        "aut", email = "nicola.torelli@econ.units.it"))
+Author: Nicola Lunardon <nicola.lunardon@econ.units.it>, Giovanna
+        Menardi <menardi@stat.unipd.it>, Nicola Torelli
+        <nicola.torelli@econ.units.it>
+Maintainer: Nicola Lunardon <nicola.lunardon@econ.units.it>, Giovanna
+        Menardi <menardi@stat.unipd.it>
+Suggests: MASS, nnet, rpart, tree
+Description: The package provides functions to deal with binary
+        classification problems in the presence of imbalanced classes.
+        Synthetic balanced samples are generated according to ROSE
+        (Menardi and Torelli, 2012).  Functions that implement more
+        traditional remedies to the class imbalance are also provided,
+        as well as different metrics to evaluate a learner accuracy.
+        These are estimated by holdout, bootstrap or cross-validation
+        methods.
+License: GPL-2
+Packaged: 2013-03-01 18:09:18 UTC; bustra
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 20:08:50

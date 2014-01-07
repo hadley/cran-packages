@@ -1,0 +1,19 @@
+Package: kedd
+Type: Package
+Title: Kernel Estimator and Bandwidth Selection for Density and its
+        Derivatives
+Version: 1.0.0
+Date: 2013-08-14
+Authors@R: c(person("Arsalane Chouaib", "Guidoum", role = c("aut", "cre"),
+        email = "acguidoum@usthb.dz"))
+Author: Arsalane Chouaib Guidoum 
+Maintainer: Arsalane Chouaib Guidoum <acguidoum@usthb.dz>
+Depends: R (>= 2.15.0)
+Description: Smoothing techniques and computing bandwidth selectors of the nth derivative of a probability density for one-dimensional data.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Packaged: 2013-08-14 08:32:38 UTC; arsalane
+NeedsCompilation: no
+Date/Publication: 2013-08-14 16:35:44

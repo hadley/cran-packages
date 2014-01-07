@@ -1,0 +1,20 @@
+Package: abctools
+Type: Package
+Title: Algorithms for ABC summary statistics selection
+Version: 0.1-2
+Date: 22/02/13
+Authors@R: c(person("Matt","Nunes",role=c("aut","cre"),
+        email="m.nunes@lancaster.ac.uk"),person("Dennis", "Prangle",
+        role="aut",email="d.prangle@lancaster.ac.uk"))
+Author: Matt Nunes and Dennis Prangle
+Maintainer: Matt Nunes <m.nunes@lancaster.ac.uk>
+Description: Methods for choosing summary statistics in approximate
+        Bayesian computation
+Depends: R (>= 2.10), abc, abind, pls
+License: GPL
+LazyLoad: yes
+SystemRequirements: ABCtoolbox
+Packaged: 2013-02-22 12:15:05 UTC; nunes
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-22 17:21:55

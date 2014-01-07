@@ -1,0 +1,17 @@
+Package: MultEq
+Type: Package
+Title: Multiple equivalence tests and simultaneous confidence intervals
+Version: 2.2
+Date: 2009-01-30
+Author: Mario Hasler
+Suggests: SimComp
+Maintainer: Mario Hasler <hasler@email.uni-kiel.de>
+Description: The package provides tests and confidence intervals for
+ comparing two treatments if there is more than one primary response
+ variable (endpoint). The step-up procedure of Quan et al. (2001)
+ is both applied for differences and extended to ratios of means of
+ normally distributed data. A related single-step procedure is also
+ available.
+License: GPL
+LazyLoad: yes
+Packaged: Fri Jan 30 11:59:01 2009; Mario

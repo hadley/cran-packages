@@ -1,0 +1,24 @@
+Package: evir
+Version: 1.7-3
+Date: 2011-07-22
+Title: Extreme Values in R
+Authors@R: c(person("Bernhard", "Pfaff", email =
+        "bernhard@pfaffikus.de", role = c("aut", "cre")),
+        person("Alexander", "McNeil", email = "mcneil@math.ethz.ch",
+        role = "aut", comment = "S original (EVIS)"), person("Alec",
+        "Stephenson", email = "alec_stephenson@hotmail.com", role =
+        "trl", comment = "R port of EVIS"))
+Depends: stats
+Description: Functions for extreme value theory, which may be divided
+        into the following groups; exploratory data analysis, block
+        maxima, peaks over thresholds (univariate and bivariate), point
+        processes, gev/gpd distributions.
+License: GPL (>= 2)
+Author: Bernhard Pfaff [aut, cre], Alexander McNeil [aut] (S original
+        (EVIS)), Alec Stephenson [trl] (R port of EVIS)
+Maintainer: Bernhard Pfaff <bernhard@pfaffikus.de>
+Repository: CRAN
+Repository/R-Forge/Project: evir
+Repository/R-Forge/Revision: 9
+Packaged: 2012-07-22 14:19:39 UTC; rforge
+Date/Publication: 2012-07-26 21:32:20

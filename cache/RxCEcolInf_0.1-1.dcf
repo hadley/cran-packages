@@ -1,0 +1,15 @@
+Package: RxCEcolInf
+Type: Package
+Title: R x C Ecological Inference With Optional Incorporation of Survey
+        Information
+Version: 0.1-1
+Date: 2009-04-29
+Author: D. James Greiner, Paul Baines, and Kevin M. Quinn
+Maintainer: Kevin M. Quinn <kquinn@law.berkeley.edu>
+Description: Fits the R x C inference model described in Greiner and
+        Quinn (2009).  Allows incorporation of survey results.
+Depends: MASS, MCMCpack, mvtnorm
+License: GPL
+Packaged: 2012-06-03 07:52:07 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-06-03 07:52:21

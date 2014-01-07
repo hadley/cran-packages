@@ -1,0 +1,17 @@
+Package: gooJSON
+Type: Package
+Title: Google JSON Data Interpreter for R
+Version: 1.0
+Date: 2011-01-29
+Author: Christopher Steven Marcum
+Maintainer: <cmarcum@uci.edu>
+Description: A suite of helper functions for obtaining data from the
+        Google Maps API JSON objects. Calls Google Maps API and returns
+        results as an R data frame.
+License: GPL (>= 2)
+Depends: rjson
+Recommends: spatial, RgoogleMaps
+LazyLoad: yes
+Packaged: 2011-01-30 16:42:43 UTC; cmarcum
+Repository: CRAN
+Date/Publication: 2011-01-30 18:00:52

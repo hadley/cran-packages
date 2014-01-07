@@ -1,0 +1,16 @@
+Package: colorfulVennPlot
+Type: Package
+Title: Plot and add custom coloring to Venn diagrams for 2-dimensional,
+        3-dimensional and 4-dimensional data.
+Version: 2.4
+Date: 2013-11-11
+Author: Elliot Noma, Aliona Manvae
+Maintainer: Elliot Noma <noma@garrettassetmanagement.com>
+Description: Given 2-,3- or 4-dimensional data, plots a Venn diagram, i.e. 'crossing circles'. The user can specify values, labels for each circle-group and unique colors for each plotted part. Here is what it would look like for a 3-dimensional plot: http://elliotnoma.files.wordpress.com/2011/02/venndiagram.png. To see what the 4-dimensional plot looks like, go to http://elliotnoma.files.wordpress.com/2013/03/4dplot.png.
+Depends: grid
+Suggests: MASS
+License: GPL-2
+Packaged: 2013-11-12 16:02:41 UTC; elliotnoma
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-12 18:52:29

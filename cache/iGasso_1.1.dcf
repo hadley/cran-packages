@@ -1,0 +1,15 @@
+Package: iGasso
+Type: Package
+Title: Genetic association tests and utilities
+Version: 1.1
+Date: 2012-08-18
+Author: Dr. Kai Wang
+Maintainer: Kai Wang <kai-wang@uiowa.edu>
+Depends: R(>= 2.12), lattice
+Description: A collection of statistical tests and utilities for
+        genetic association studies
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-21 03:58:21 UTC; kaiwang
+Repository: CRAN
+Date/Publication: 2012-08-21 04:21:04

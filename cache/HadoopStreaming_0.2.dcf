@@ -1,0 +1,15 @@
+Package: HadoopStreaming
+Type: Package
+Title: Utilities for using R scripts in Hadoop streaming
+Version: 0.2
+Date: 2009-09-28
+Author: David S. Rosenberg <drosen@sensenetworks.com>
+Maintainer: David S. Rosenberg <drosen@sensenetworks.com>
+Depends: getopt
+Description: Provides a framework for writing map/reduce scripts for
+        use in Hadoop Streaming. Also facilitates operating on data in
+        a streaming fashion, without Hadoop.
+License: GPL
+Packaged: 2012-10-29 08:57:09 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:09

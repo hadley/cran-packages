@@ -1,0 +1,16 @@
+Package: markovchain
+Type: Package
+Title: Package to perform discrete Markov chain analysis
+Version: 0.0.1
+Date: 2013-08-12
+Author: Giorgio Alfredo Spedicato
+Maintainer: Giorgio Alfredo Spedicato <spedicato_giorgio@yahoo.it>
+Description: Package to easily handle discrete Markov chains
+License: GPL-2
+Depends: R (>= 2.14), methods, expm, matlab, igraph
+LazyLoad: yes
+BugReports: Giorgio Alfredo Spedicato <spedicato_giorgio@yahoo.it>
+Packaged: 2013-08-13 18:22:01 UTC; Giorgio Copia
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-13 23:46:47

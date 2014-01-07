@@ -1,0 +1,20 @@
+Package: gamclass
+Type: Package
+Title: Functions and data for a course on modern regression and
+        classification
+Version: 0.51
+Date: 2012-10-31
+Author: John Maindonald
+Maintainer: John Maindonald <john.maindonald@anu.edu.au>
+LazyData: true
+Depends: R (>= 2.10.0), mgcv, DAAG, MASS, randomForest, lattice,
+        latticeExtra, Ecdat, mlbench, rpart, KernSmooth
+Suggests: leaps, quantreg, sp, diagram, ape, oz, forecast, DAAGbio,
+        SMIR, kernlab
+Imports: car
+Description: Modern regression extends to include classification and
+        multivariate exploration
+License: GPL (>= 2)
+Packaged: 2012-10-31 09:30:43 UTC; johnm1
+Repository: CRAN
+Date/Publication: 2012-10-31 13:16:54

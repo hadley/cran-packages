@@ -1,0 +1,29 @@
+Package: rsnps
+Version: 0.0.5
+Date: 2013-11-13
+Description: This package is a programmatic interface to various SNP datasets
+    on the web: openSNP, NBCI's dbSNP database, and Broad Institute SNP
+    Annotation and Proxy Search. This package started as a library to
+    interact with openSNP alone, so most functions deal with openSNP.
+Title: Get SNP (Single-Nucleotide Polymorphism) data on the web.
+License: CC0
+Authors@R: c(
+    person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"),
+    person("Kevin", "Ushey", role = "aut",
+    email = "kevinushey@gmail.com"))
+URL: https://github.com/ropensci/rsnps
+BugReports: https://github.com/ropensci/rsnps/issues
+Imports: RJSONIO, plyr, stringr, httr, RCurl, XML
+Suggests: roxygen2, testthat, rjson
+Collate: 'genotypes.R' 'users.R' 'allgensnp.R' 'phenotypes.R'
+        'fetch_genotypes.R' 'allphenotypes.R' 'annotations.R'
+        'phenotypes_byid.R' 'LDSearch.R' 'NCBI_snp_query.R' 'utils.R'
+        'download_users.R'
+Packaged: 2013-11-13 15:47:04 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre],
+  Kevin Ushey [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-13 17:08:18

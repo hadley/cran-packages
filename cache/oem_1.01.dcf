@@ -1,0 +1,14 @@
+Package: oem
+Type: Package
+Title: Orthogonalizing Expectation maximization
+Version: 1.01
+Date: 2012-09-09
+Author: Bin Dai
+Maintainer: Bin Dai <dai@stat.wisc.edu>
+Description: Fit penalized regression with orthogonalizing EM algorithm
+License: GPL (>= 2)
+Depends: R (>= 2.10), Rcpp (>= 0.9.9), RcppArmadillo (>= 0.2.0)
+LinkingTo: Rcpp, RcppArmadillo
+Packaged: 2012-09-09 17:01:08 UTC; dai
+Repository: CRAN
+Date/Publication: 2012-09-09 17:10:50

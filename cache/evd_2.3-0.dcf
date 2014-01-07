@@ -1,0 +1,19 @@
+Package: evd
+Version: 2.3-0
+Date: 2012-09-01
+Title: Functions for extreme value distributions
+Author: Alec Stephenson. Function fbvpot by Chris Ferro.
+Maintainer: Alec Stephenson <alec_stephenson@hotmail.com>
+Depends: stats
+Suggests: akima
+Description: Extends simulation, distribution, quantile and density
+        functions to univariate and multivariate parametric extreme
+        value distributions, and provides fitting functions which
+        calculate maximum likelihood estimates for univariate and
+        bivariate maxima models, and for univariate and bivariate
+        threshold models.
+LazyData: yes
+License: GPL-3
+Packaged: 2012-08-30 06:36:08 UTC; ste6an
+Repository: CRAN
+Date/Publication: 2012-08-30 11:16:13

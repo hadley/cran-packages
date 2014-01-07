@@ -1,0 +1,18 @@
+Package: dbmss
+Type: Package
+Title: Distance-based measures of spatial structures
+Version: 1.2.4
+Date: 2012-11-27
+Author: Eric Marcon, Gabriel Lang, Stephane Traissac, Florence Puech
+Maintainer: Eric Marcon <Eric.Marcon@ecofog.gf>
+Description: This package allows simple computation of a full set of
+        spatial statistic functions of distance, including classical
+        ones (Ripley's K and others) and more recent onces used by
+        spatial economists (Duranton and Overman's Kd, Marcon and
+        Puech's M). It relies on spatstat for core calculation.
+License: GNU General Public License
+Depends: spatstat, cubature
+Imports: spatstat, cubature
+Packaged: 2012-12-04 23:31:32 UTC; Eric.Marcon
+Repository: CRAN
+Date/Publication: 2012-12-17 06:17:57

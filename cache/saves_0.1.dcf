@@ -1,0 +1,23 @@
+Package: saves
+Type: Package
+Title: Fast load variables
+Version: 0.1
+Date: 2011-01-24
+Author: Gergely Daróczi
+Maintainer: Gergely Daróczi <daroczi.gergely@btk.ppke.hu>
+Description: The purpose of this package is to be able to save and load
+        only the chosen variables/columns of a data.frame in special
+        binary files (tar archives) - which seems to be a lot faster
+        method than loading the whole binary object (Rdata files) via
+        load() function, or than loading columns from SQLite/MySQL
+        databases via SQL commands. The performance improvement gained
+        by loading only the chosen variables in binary format can be
+        useful in some special cases, but be sure you really need this,
+        as non-standard file formats are used!
+License: AGPL-3
+LazyData: no
+Encoding: UTF-8
+Collate: 'docu.R' 'init.R' 'loads.R' 'saves.R'
+Packaged: 2011-01-24 21:24:34 UTC; omleny
+Repository: CRAN
+Date/Publication: 2011-01-25 07:42:40

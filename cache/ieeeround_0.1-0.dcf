@@ -1,0 +1,16 @@
+Package: ieeeround
+Version: 0.1-0
+Date: 2011-01-20
+Title: Functions to set and get the IEEE rounding mode
+Description: A pair of functions for getting and setting the IEEE
+        rounding mode for floating point computations.
+Author: Gianluca Amato <amato@sci.unich.it>
+Maintainer: Gianluca Amato <amato@sci.unich.it>
+URL: http://www.sci.unich.it/~amato
+License: GPL (>= 2)
+SystemRequirements: A C library with the fesetround/fegetround
+        functions.
+OS_type: unix
+Packaged: 2011-01-20 17:48:10 UTC; amato
+Repository: CRAN
+Date/Publication: 2011-01-21 08:46:19

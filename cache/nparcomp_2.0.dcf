@@ -1,0 +1,26 @@
+Package: nparcomp
+Type: Package
+Title: Perform multiple comparisons and compute simultaneous confidence
+        intervals for the nonparametric relative contrast effects.
+Version: 2.0
+Date: 2012-11-06
+Author: Frank Konietschke
+Maintainer: Frank Konietschke <fkoniet@gwdg.de>
+Description: With this package, it is possible to compute nonparametric
+        simultaneous confidence intervals for relative contrast effects
+        in the unbalanced one way layout. Moreover, it computes
+        simultaneous p-values. The simultaneous confidence intervals
+        can be computed using multivariate normal distribution,
+        multivariate t-distribution with a Satterthwaite Approximation
+        of the degree of freedom or using multivariate range preserving
+        transformations with Logit or Probit as transformation
+        function. 2 sample comparisons can be performed with the same
+        methods described above. There is no assumption on the
+        underlying distribution function, only that the data have to be
+        at least ordinal numbers.
+License: GPL
+LazyLoad: yes
+Depends: multcomp, mvtnorm
+Packaged: 2012-11-06 12:09:31 UTC; mplacze
+Repository: CRAN
+Date/Publication: 2012-11-06 14:42:24

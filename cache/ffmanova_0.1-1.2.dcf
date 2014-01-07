@@ -1,0 +1,19 @@
+Package: ffmanova
+Type: Package
+Title: Fifty-fifty MANOVA
+Version: 0.1-1.2
+Date: 2007-04-20
+Author: Øyvind Langsrud and Bjørn-Helge Mevik
+Maintainer: ORPHANED
+Encoding: latin1
+Description: This package performs general linear modeling with
+        multiple responses (MANCOVA).  An overall p-value for each
+        model term is calculated by the 50-50 MANOVA method, which
+        handles collinear responses.  Rotation testing is used to
+        compute adjusted single response p-values according to
+        familywise error rates and false discovery rates.
+License: GPL-2
+URL: http://cran.r-project.org/src/contrib/Descriptions/ffmanova.html
+Packaged: 2012-10-29 08:58:44 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:44

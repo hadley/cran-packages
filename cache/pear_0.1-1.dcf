@@ -1,0 +1,13 @@
+Package: pear
+Version: 0.1-1
+Date: 2002-1-11
+Title: Package for Periodic Autoregression Analysis
+Author: S original by A. I. McLeod <aim@uwo.ca>.
+        R port by Mehmet Balcilar.
+Maintainer: Mehmet Balcilar <mbalcilar@cu.edu.tr>
+Depends: R (>= .99)
+Description: Package for estimating periodic autoregressive models.
+	     Package also includes methods fo plotting periodic time
+	     series data.
+License: S original from StatLib, see COPYRIGHT.orig
+URL: http://www.r-project.org

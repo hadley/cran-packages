@@ -1,0 +1,17 @@
+Package: mcmc
+Version: 0.9-2
+Date: 2013-03-29
+Title: Markov Chain Monte Carlo
+Author: Charles J. Geyer <charlie@stat.umn.edu> and Leif T. Johnson
+        <ltjohnson@google.com>
+Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
+Depends: R (>= 2.10.0)
+Suggests: xtable, Iso
+ByteCompile: TRUE
+Description: functions for Markov chain Monte Carlo (MCMC).
+License: MIT + file LICENSE
+URL: http://www.stat.umn.edu/geyer/mcmc/
+Packaged: 2013-03-31 03:33:00 UTC; charlie
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-31 07:54:48

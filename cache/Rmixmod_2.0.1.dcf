@@ -1,0 +1,44 @@
+Package: Rmixmod
+Version: 2.0.1
+Date: 2013-12-05
+Title: An interface of MIXMOD
+Description: Supervised and unsupervised classification with MIXture MODelling
+Authors@R: c(person("Remi", "Lebret", role=c("aut","cre"),
+    email="remi@lebret.ch"),
+    person("Serge", "Iovleff", role="aut",
+    email="serge.iovleff@univ-lille1.fr"),
+    person("Florent", "Langrognet", role="aut",
+    email="florent.langrognet@univ-fcomte.fr"),
+    person("C.", "Biernacki", role="ctb",
+    email="christophe.biernacki@math.univ-lille1.fr"),
+    person("G.", "Celeux", role="ctb",
+    email="gilles.celeux@math.u-psud.fr"),
+    person("G.", "Govaert", role="ctb",
+    email="gerard.govaert@utc.fr"))
+Copyright: Authors, and Mixmod use Newmat C++ library
+Contact: contact@mixmod.org
+License: GPL-3
+URL: http://www.mixmod.org
+BugReports: see http://www.mixmod.org/article.php3?id_article=23
+LinkingTo: Rcpp
+Type: Package
+LazyLoad: yes
+Depends: R(>= 2.12.0), Rcpp(>= 0.8.0), methods, graphics
+Collate: 'global.R' 'Strategy.R' 'Model.R' 'Parameter.R'
+        'GaussianParameter.R' 'MixmodResults.R' 'MixmodDAResults.R'
+        'MultinomialModel.R' 'GaussianModel.R' 'MultinomialParameter.R'
+        'Mixmod.R' 'CompositeModel.R' 'CompositeParameter.R'
+        'MixmodCluster.R' 'MixmodLearn.R' 'Rmixmod.R' 'MixmodPredict.R'
+        'zzz.R'
+Packaged: 2013-12-13 08:56:19 UTC; ripley
+Author: Remi Lebret [aut, cre],
+  Serge Iovleff [aut],
+  Florent Langrognet [aut],
+  C. Biernacki [ctb],
+  G. Celeux [ctb],
+  G. Govaert [ctb]
+Maintainer: Remi Lebret <remi@lebret.ch>
+SystemRequirements: GNU make
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-13 09:56:35

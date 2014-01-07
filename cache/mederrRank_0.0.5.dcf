@@ -1,0 +1,24 @@
+Package: mederrRank
+Title: Bayesian Methods for Identifying the Most Harmful Medication
+        Errors
+Version: 0.0.5
+Date: 2011-03-20
+Description: This package implements two distinct but related
+        statistical approaches to the problem of identifying the
+        combinations of medication error characteristics that are more
+        likely to result in harm: 1) Bayesian hierarchical models with
+        optimal Bayesian ranking on the log odds of harm, and 2) an
+        empirical Bayes model that estimates the ratio of the observed
+        count of harm to the count that would be expected if error
+        characteristics and harm were independent. In addition, for the
+        Bayesian hierarchical model, the package provides functions to
+        assess the sensitivity of results to different specifications
+        of the random effects distributions.
+Author: Sergio Venturini, Jessica Myers
+Maintainer: Sergio Venturini <sergio.venturini@unibocconi.it>
+Depends: BB, methods, numDeriv, utils
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:10 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:10

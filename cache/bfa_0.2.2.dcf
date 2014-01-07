@@ -1,0 +1,22 @@
+Package: bfa
+Maintainer: Jared Murray <jared.murray@stat.duke.edu>
+License: GPL-3
+Title: Bayesian Factor Analysis
+LinkingTo: Rcpp, RcppArmadillo
+Type: Package
+LazyLoad: yes
+Author: Jared Murray
+Description: This package provides model fitting for
+    several Bayesian factor models including Gaussian,
+    ordinal probit, mixed and semiparametric Gaussian
+    copula factor models.
+SystemRequirements: GNU make
+Version: 0.2.2
+Date: 2011-10-31
+Depends: Rcpp (>= 0.8.6), RcppArmadillo, ggplot2, coda
+Imports: coda
+Collate: 'bfa-package.R' 'class.R' 'get_coda.R' 'main.R' 'plots.R'
+        'rng.R' 'postproc.R' 'ratings08.R'
+Packaged: 2011-11-01 00:22:57 UTC; jared
+Repository: CRAN
+Date/Publication: 2011-11-02 17:25:42

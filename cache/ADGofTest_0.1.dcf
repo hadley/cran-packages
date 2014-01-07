@@ -1,0 +1,17 @@
+Package: ADGofTest
+Type: Package
+Title: Anderson-Darling GoF test
+Version: 0.1
+Date: 2009-06-26
+Author: Carlos J. Gil Bellosta
+Maintainer: Carlos J. Gil Bellosta <cgb@datanalyics.com>
+Description: Anderson-Darling GoF test with p-value calculation based
+        on Marsaglia's 2004 paper "Evaluating the Anderson-Darling
+        Distribution"
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: adgoftest
+Repository/R-Forge/Revision: 2
+Date/Publication: 2009-07-18 15:21:35
+Packaged: 2009-07-04 20:06:26 UTC; rforge

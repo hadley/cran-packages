@@ -1,0 +1,11 @@
+Package: ConvCalendar
+Type: Package
+Title: Converts dates between calendars 
+Version: 1.0
+Date: 2009-01-08
+Author: 'Project Pluto' (www.projectpluto.com/calendar) and Thomas Lumley
+Maintainer: Thomas Lumley <tlumley@u.washington.edu>
+Description: Converts between the Date class and d/m/y for several calendars, including Persian, Islamic, and Hebrew
+License: file LICENCE
+LazyLoad: yes
+Packaged: Thu Jan  8 10:29:34 2009; tlumley

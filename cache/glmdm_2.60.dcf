@@ -1,0 +1,15 @@
+Package: glmdm
+Type: Package
+Title: R Code for Simulation of GLMDM
+Version: 2.60
+Date: 2013-04-15
+Author: Jeff Gill, George Casella, Minjung Kyung, and Jonathan Rapkin
+Maintainer: Jeff Gill <jgill@wustl.edu>
+Description: This package contains functions to perform generalized
+        linear mixed Dirichlet models using posterior simulation.
+License: GPL
+Depends: R (>= 2.10.0)
+Packaged: 2013-04-16 04:32:18 UTC; ttsai
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-18 08:27:33

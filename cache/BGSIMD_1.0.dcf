@@ -1,0 +1,19 @@
+Package: BGSIMD
+Type: Package
+Title: Block Gibbs Sampler with Incomplete Multinomial Distribution
+Version: 1.0
+Date: 2009-02-06
+Author: Kwang Woo Ahn <kwooahn@mcw.edu>, Kung-Sik Chan
+        <kung-sik-chan@uiowa.edu>
+Maintainer: Kwang Woo Ahn <kwooahn@mcw.edu>
+Description: Implement an efficient block Gibbs sampler with incomplete
+        data from a multinomial distribution taking values from the k
+        categories 1,2,...,k, where data are assumed to miss at random
+        and each missing datum belongs to one and only one of m
+        distinct non-empty proper subsets A1, A2,..., Am of 1,2,...,k
+        and the k categories are labelled such that only consecutive
+        A's may overlap.
+License: GPL (>= 2)
+Packaged: 2012-10-29 13:13:02 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:36

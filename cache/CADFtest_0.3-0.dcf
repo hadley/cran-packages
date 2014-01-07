@@ -1,0 +1,22 @@
+Package: CADFtest
+Title: Hansen's Covariate-Augmented Dickey-Fuller (CADF) Test
+Version: 0.3-0
+Date: 2009-10-06
+Author: Claudio Lupi
+Maintainer: Claudio Lupi <lupi@unimol.it>
+Depends: dynlm, sandwich, tseries, urca
+Suggests: fUnitRoots
+Description: This package performs Hansen's (1995) Covariate-Augmented
+        Dickey-Fuller (CADF) test. The only required argument is y, the
+        univariate time series to be tested. If no stationary covariate
+        X is passed to the procedure, then an ordinary ADF test is
+        performed. The p-values of the test are computed using a
+        procedure proposed in Costantini, Lupi and Popp (2007),
+        illustrated in Lupi (2009).
+License: GPL (>= 2)
+URL: http://econpapers.repec.org/paper/molecsdps/esdp09051.htm
+LazyLoad: yes
+LazyData: yes
+Packaged: 2009-10-06 12:23:51 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2009-10-06 13:10:07

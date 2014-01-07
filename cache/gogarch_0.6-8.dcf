@@ -1,0 +1,15 @@
+Package: gogarch
+Version: 0.6-8
+Type: Package
+Title: Generalized Orthogonal GARCH (GO-GARCH) models
+Date: 2009-03-06
+Author: Bernhard Pfaff
+Maintainer: Bernhard Pfaff <bernhard@pfaffikus.de>
+Depends: R (>= 2.7.0), methods, stats, graphics, fGarch, fastICA
+Suggests: vars
+Description: Implementation of the GO-GARCH model class 
+License: GPL (>= 2)
+LazyLoad: yes
+LazyLoad: yes
+Revision: 31
+Packaged: Mon Mar  9 05:13:26 2009; rforge

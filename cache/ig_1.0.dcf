@@ -1,0 +1,13 @@
+Package: ig
+Type: Package
+Title: Package for the robust and classical versions of the inverse Gaussian distribution
+Version: 1.0
+Date: 2007-09-05
+Encoding: latin1
+Author: Víctor Leiva <victor.leiva@uv.cl>, Hugo Hernández <hugo.hernandez@msn.com>, and Antonio Sanhueza <asanhue@ufro.cl>
+Maintainer: Hugo Hernández <hugo.hernandez@msn.com>
+Depends: R (>= 1.8.0), nlme, methods, fBasics
+Description: A collection of utilities for robust and classical versions of the inverse Gaussian distribution known as inverse Gaussian type distribution (IGTD).
+License: GPL
+URL: http://www.r-project.org
+Packaged: Sun Sep 30 16:08:24 2007; Hugo Hernández

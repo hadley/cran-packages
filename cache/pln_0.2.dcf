@@ -1,0 +1,17 @@
+Package: pln
+Type: Package
+Title: Polytomous logit-normit (graded logistic) model estimation
+Version: 0.2
+Date: 2012-07-09
+Author: Carl F. Falk and Harry Joe
+Maintainer: Carl F. Falk <cffalk@gmail.com>
+Description: Performs bivariate composite likelihood and full
+        information maximum likelihood estimation for polytomous
+        logit-normit (graded logistic) item response theory (IRT)
+        models.
+Depends: R (>= 2.9.0)
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-07-10 21:34:10 UTC; cf
+Repository: CRAN
+Date/Publication: 2012-07-19 05:27:08

@@ -1,0 +1,14 @@
+Package: gsscopu
+Version: 0.9-1
+Date: 2013-12-9
+Title: Copula Density and 2-D Hazard Estimation using Smoothing Splines
+Author: Chong Gu <chong@purdue.edu>
+Maintainer: Chong Gu <chong@purdue.edu>
+Depends: R (>= 2.14.0), gss (>= 2.1-0)
+Description: A collection of routines for the estimation of copula density
+        and 2-D hazard function using smoothing splines.
+License: GPL (>= 2)
+Packaged: 2013-12-09 15:17:51 UTC; chong
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-10 16:13:19

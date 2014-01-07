@@ -1,0 +1,12 @@
+Package: DierckxSpline
+Type: Package
+Title: R companion to "Curve and Surface Fitting with Splines"
+Version: 1.1-2
+Date: 2007-7-31
+Author: Sundar Dorai-Raj
+Maintainer: Sundar Dorai-Raj <sundar.dorai-raj@pdf.com>
+Description: This package provides a wrapper to the FITPACK routines written by Paul Dierckx. The original Fortran is available from http://www.netlib.org/dierckx
+License: GPL (>= 2)
+Depends: R (>= 2.4.0), stats, lattice, PolynomF
+Suggests: fda, splines
+Packaged: Sun Jan 11 13:08:12 2009; spencerg

@@ -1,0 +1,15 @@
+Package: IPSUR
+Version: 0.1-2
+Date: 2007-01-11
+Title: Introduction to Probability and Statistics Using R
+Author: G. Jay Kerns <gkerns@ysu.edu> with contributions by Theophilius Boye, adapted from the work of John Fox et al.
+Maintainer: G. Jay Kerns <gkerns@ysu.edu>
+Depends: R (>= 2.1.0), car (>= 1.0-15), grDevices, tcltk, utils
+Suggests: abind, distr, distrEx, effects (>= 1.0-7), foreign, grid, lattice, lmtest, MASS, mgcv, multcomp (>= 0.991-2), nlme, nnet, qcc, relimp, rgl, RODBC
+LazyLoad: no
+Description:
+ This package accompanies G. Andy Chang and G. Jay Kerns, Introduction to Probability and Statistics Using R (in progress).
+  The package contributes functions unique to the book as well as specific configuration and selected functionality to the R Commander by John Fox.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.cc.ysu.edu/~gjkerns/IPSUR/package
+Packaged: Fri Jan 12 01:20:10 2007; Administrator

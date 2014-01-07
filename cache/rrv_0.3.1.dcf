@@ -1,0 +1,14 @@
+Package: rrv
+Title: Random Return Variables
+Version: 0.3.1
+Date: 2011-06-23
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: A package for modelling returns as random variables. The
+        package is partly based on the work of Markowitz (1952, 1959),
+        however considers both normal and empirical returns.
+Depends: ofp (>= 0.7.0), mecdf (>= 0.5.0)
+License: GPL (>= 2)
+Packaged: 2011-06-23 04:22:00 UTC; maia
+Repository: CRAN
+Date/Publication: 2011-06-24 16:58:25

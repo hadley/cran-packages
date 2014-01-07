@@ -1,0 +1,21 @@
+Package: logistf
+Type: Package
+Title: Firth's bias reduced logistic regression
+Version: 1.21
+Date: 2013-06-26
+Author: Georg Heinze <georg.heinze@meduniwien.ac.at>, Meinhard Ploner,
+        Daniela Dunkler (former versions), Harry Southworth (former
+        versions)
+Maintainer: Georg Heinze <georg.heinze@meduniwien.ac.at>
+Depends: R (>= 3.0.0), mice, mgcv
+Description: Firth's bias reduced logistic regression approach with
+        penalized profile likelihood based confidence intervals for
+        parameter estimates.
+License: GPL
+URL:
+        http://cemsiis.meduniwien.ac.at/en/kb/science-research/software/statistical-software/fllogistf/
+LazyLoad: yes
+Packaged: 2013-06-26 11:46:55 UTC; Georg
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-26 18:31:49

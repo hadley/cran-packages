@@ -1,0 +1,14 @@
+Package: npmv
+Type: Package
+Title: Nonparametric Comparison of Multivariate Samples
+Version: 2.1
+Date: 2013-11-24
+Author: Woodrow Burchett and Amanda Ellis
+Maintainer: Amanda Ellis <arelli4@uky.edu>
+Description: Performs analysis of one-way multivariate data, for small samples using Nonparametric techniques. Using approximations for ANOVA Type, Wilks' Lambda, Lawley Hotelling, and Bartlett Nanda Pillai Test statics, the package compares the multivariate distributions for a single explanatory variable.  The comparison is also performed using a permutation test for each of the four test statistics. The package also performs an all-subsets algorithm regarding variables and regarding factor levels. 
+Depends: Formula, ggplot2
+License: GPL-2
+Packaged: 2013-11-25 00:00:58 UTC; Amanda
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-04 19:18:17

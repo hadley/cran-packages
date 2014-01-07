@@ -1,0 +1,10 @@
+Package: pcse
+Type: Package
+Title: Panel-Corrected Standard Error Estimation in R
+Version: 1.6
+Date: 2007-09-05
+Author: Delia Bailey <dbailey@wustl.edu> and Jonathan N. Katz <jkatz@caltech.edu>
+Maintainer: Delia Bailey <dbailey@wustl.edu>
+Description: This package contains a function to estimate panel-corrected standard errors. Data may contain balanced or unbalanced panels. 
+License: GPL (>= 3)
+Packaged: Fri Nov 14 15:11:15 2008; delia

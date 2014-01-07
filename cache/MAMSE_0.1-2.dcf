@@ -1,0 +1,18 @@
+Package: MAMSE
+Type: Package
+Title: Calculation of Minimum Averaged Mean Squared Error (MAMSE)
+        weights.
+Version: 0.1-2
+Date: 2011-03-12
+Author: Jean-Francois Plante <jfplante@hec.ca>
+Maintainer: Jean-Francois Plante <jfplante@hec.ca>
+Description: This package calculates the nonparametric adaptive MAMSE
+        weights for univariate, right-censored or multivariate data.
+        The MAMSE weights can be used in a weighted likelihood or to
+        define a mixture of empirical distribution functions.
+Depends: R (>= 2.4.0)
+Suggests:
+License: GPL-2
+Packaged: 2012-10-29 08:57:15 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:15

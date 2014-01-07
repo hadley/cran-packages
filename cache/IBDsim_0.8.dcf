@@ -1,0 +1,21 @@
+Package: IBDsim
+Type: Package
+Title: Simulation of chromosomal regions shared by family members.
+Version: 0.8
+Date: 2011-10-24
+Author: Magnus Dehli Vigeland
+Maintainer: <magnusdv@medisin.uio.no>
+Description: R package for simulation of IBD sharing among family
+        members. Using sex specific recombination rates from the Decode
+        map (2010) of the human genome, phased chromosomes are
+        simulated for all pedigree members, either by unconditional
+        'gene dropping' or conditional on a specified IBD pattern.
+        Regions compatible with the query IBD pattern (possibly
+        different from the conditional pattern) are subsequently
+        detected and summarized.
+Depends: R (>= 2.12), paramlink
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-10-24 08:57:08 UTC; magnusdv
+Repository: CRAN
+Date/Publication: 2011-10-24 13:37:34

@@ -1,0 +1,15 @@
+Package: localgauss
+Type: Package
+Title: Estimating local Gaussian parameters
+Version: 0.3
+Date: 2012-11-30
+Author: Tore Selland Kleppe <tore.kleppe@math.uib.no>
+Maintainer: Tore Selland Kleppe <tore.kleppe@math.uib.no>
+Depends: ggplot2, MASS
+Description: This package provides computational routines for
+        estimating and visualizing local Gaussian parameters.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-12-04 10:58:56 UTC; tkl083
+Repository: CRAN
+Date/Publication: 2012-12-04 13:30:28

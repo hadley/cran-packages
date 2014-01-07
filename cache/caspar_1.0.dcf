@@ -1,0 +1,19 @@
+Package: caspar
+Type: Package
+Title: Clustered and sparse regression (CaSpaR)
+Version: 1.0
+Date: 2010-11-15
+Author: Daniel Percival
+Maintainer: Daniel Percival <dperciva@andrew.cmu.edu>
+Depends: R (>= 2.10.1), mvtnorm
+Description: Clustered and sparse regression gives structured sparse
+        solutions to regression problems.  In particular, we consider
+        cases where the structural relationship between predictors can
+        be cast as a pairwise distance.  The package gives fitting and
+        cross validation routines for parameter selection.
+License: GPL-2
+Suggests: mvtnorm
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:20 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:20

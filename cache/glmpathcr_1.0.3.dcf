@@ -1,0 +1,18 @@
+Package: glmpathcr
+Type: Package
+Title: Fit a penalized continuation ratio model for predicting an
+        ordinal response.
+Version: 1.0.3
+Date: 2013-12-18
+Author: Kellie J. Archer
+Maintainer: Kellie J. Archer <kjarcher@vcu.edu>
+Description: Provides a function for fitting a penalized constrained continuation ratio model using the glmpath algorithm and methods for extracting coefficient estimates, predicted class, class probabilities, and plots.
+License: GPL-2
+Depends: R (>= 2.10), glmpath, mvtnorm
+Suggests: tools
+BuildResaveData: best
+LazyLoad: yes
+Packaged: 2014-01-03 14:44:52 UTC; kjarcher
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-03 16:14:59

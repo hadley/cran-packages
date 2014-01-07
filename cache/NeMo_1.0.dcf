@@ -1,0 +1,19 @@
+Package: NeMo
+Version: 1.0
+Date: 2011/08/22
+Title: Exceptionnal Network Motifs in biological networks
+Author: S. Robin, E. Birmele, G. Grasseau, M. Koskas, S. Schbath
+Maintainer: <mixer@genopole.cnrs.fr>
+Description: NeMo package aims to extract motifs which are occur more
+        frequently than expected in random, in a given network. The
+        method used doesn't require any Monte-Carlo based simulations.
+        The number of motif occurences is compared (p-value
+        calculation) with well-suited count distribution (compound
+        Poisson distribution)
+Depends: R (>= 2.5.0)
+License: GPL (>= 2)
+URLs: http://www.r-project.org, http://nemo.ssbgroup.fr
+Encoding: UTF-8
+Packaged: 2011-08-22 10:27:58 UTC; ggrasseau
+Repository: CRAN
+Date/Publication: 2011-08-22 19:47:19

@@ -1,0 +1,16 @@
+Package: nricens
+Type: Package
+Title: NRI for risk prediction models with time to event data
+Version: 1.0
+Date: 2012-11-19
+Author: Eisuke Inoue
+Depends: survival
+Maintainer: Eisuke Inoue <inouee@pharm.kitasato-u.ac.jp>
+Description: Calculating NRI for comparing risk prediction models with
+        time to event data. The modified estimators for tackling with a
+        dependent censoring as well as the standard estimators are
+        provided.
+License: GPL-2
+Packaged: 2012-11-20 15:12:30 UTC; root
+Repository: CRAN
+Date/Publication: 2012-11-21 12:50:34

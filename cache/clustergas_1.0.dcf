@@ -1,0 +1,17 @@
+Package: clustergas
+Type: Package
+Title: A hierarchical clustering method based on genetic algorithms
+Version: 1.0
+Date: 2012-03-01
+Depends: cluster
+Author: Jose A. Castellanos-Garzon <jantonio_cu@ieee.org>, Fernando
+        Diaz <fdiaz@infor.uva.es>
+Maintainer: Jose A. Castellanos-Garzon <jantonio_cu@ieee.org>
+Description: This package develops a genetic algorithm to build
+        hierarchical clusterings from a dataset. It additionally
+        provides a set of functions applied to cluster analysis.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-06-13 17:23:15 UTC; jantonio
+Repository: CRAN
+Date/Publication: 2012-06-13 19:26:06

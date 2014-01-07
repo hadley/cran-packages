@@ -1,0 +1,14 @@
+Package: rbugs
+Title: Fusing R and OpenBugs
+Date: 2011-02-19
+Version: 0.5-3
+Author: Jun Yan <jyan@stat.uconn.edu> and Marcos Prates <marcosop@ime.unicamp.br>
+Description: Functions to prepare files needed for running BUGS in
+        batch-mode, and running BUGS from R. Support for Linux and Windows systems
+        with OpenBugs is emphasized.
+Suggests: coda (>= 0.13-5)
+Maintainer: Marcos Prates <marcosop@ime.unicamp.br>
+License: GPL (>= 3.0)
+Repository: CRAN
+Date/Publication: 2011-11-08 17:35:08
+Packaged: 2011-11-08 15:57:24 UTC; Marcos

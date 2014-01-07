@@ -1,0 +1,16 @@
+Package: rimage
+Version: 0.5
+Date: 2003-4-10
+Title: Image Processing Module for R
+Author: Nikon Digital Technologies Co., Ltd. 
+Maintainer: Tomomi TAKASHINA <t.takashina@computer.org>
+Depends: R (>= 1.6)
+Description: This package provides functions for image processing,
+  including sobel filter, rank filters, fft, histogram equalization, and 
+  reading JPEG file. This package requires fftw <http://www.fftw.org/>
+  and libjpeg <http://www.ijg.org>. This version doesn't require
+  pixmap package, which the older version of rimage (private only) required.
+License: BSD
+URL: http://www.nidit.co.jp/
+
+

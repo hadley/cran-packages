@@ -1,0 +1,21 @@
+Package: mlgt
+Type: Package
+Title: Multi-Locus Geno-Typing
+Version: 0.16
+Date: 2012-03-26
+Author: Dave T. Gerrard
+Maintainer: Dave T. Gerrard <david.gerrard@manchester.ac.uk>
+Description: Processing and analysis of high throughput (Roche 454)
+        sequences generated from multiple loci and multiple biological
+        samples. Sequences are assigned to their locus and sample of
+        origin, aligned and trimmed. Where possible, genotypes are
+        called and variants mapped to known alleles.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.13.0), methods, seqinr
+Suggests: snowfall
+URL: http://personalpages.manchester.ac.uk/staff/David.Gerrard/
+Collate: 'mlgt.R'
+Packaged: 2012-03-26 12:17:22 UTC; Dave
+Repository: CRAN
+Date/Publication: 2012-03-26 13:20:25

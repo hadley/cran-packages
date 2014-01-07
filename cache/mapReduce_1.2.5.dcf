@@ -1,0 +1,19 @@
+Package: mapReduce
+Type: Package
+Title: mapReduce - flexible mapReduce algorithm for parallel
+        computation
+Version: 1.2.5
+Date: 2012-04-29
+Author: Christopher Brown
+Maintainer: Christopher Brown <chris.brown@decisionpatterns.com>
+Depends: R (>= 2.6.0), utils
+Suggests: multicore, papply, testthat
+License: GPL (>= 2)
+Description: mapReduce is an algorithm provides a simple framework for
+        parallel computations.  This implementation provides (a) a pure
+        R implementation (b) a syntax following the mapReduce paper and
+        (c) flexible and parallelizable back end.
+LazyLoad: yes
+Packaged: 2012-05-16 05:51:31 UTC; cbrown
+Repository: CRAN
+Date/Publication: 2012-06-14 18:17:03

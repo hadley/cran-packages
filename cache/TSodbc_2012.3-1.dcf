@@ -1,0 +1,17 @@
+Package: TSodbc
+Version: 2012.3-1
+Title: Time Series Database Interface extensions for ODBC
+Description: TSodbc provides an ODBC interface for TSdbi.
+Depends: R (>= 2.8.0), methods, tframe, tframePlus, TSdbi (>=
+        2011.11-1), DBI, RODBC
+Imports: methods, TSdbi (>= 2011.6-1), DBI, RODBC (>= 0.6-0)
+Suggests: zoo, tseries, TShistQuote
+Enhances: TSdbi
+BuildVignettes: false
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Packaged: 2012-03-29 16:11:12 UTC; paul
+Repository: CRAN
+Date/Publication: 2012-03-29 18:21:01

@@ -1,0 +1,19 @@
+Package: gtcorr
+Type: Package
+Title: Calculate efficiencies of group testing algorithms with
+        correlated responses
+Version: 0.1-2
+Date: 2011-05-12
+Author: Sam Lendle <lendle@stat.berkeley.edu>
+Maintainer: Sam Lendle <lendle@stat.berkeley.edu>
+Description: This package provides functions to calculate the
+        efficiencies (expected tests per unit) of hierarchical and
+        matrix group testing procedures.  Efficiencies can be
+        calculated in the presense of correlated responses under
+        multiple arrangements of clustesrs.  Efficiencies can also be
+        evaluated in the presense of test error.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-05-12 15:31:17 UTC; sam
+Repository: CRAN
+Date/Publication: 2011-05-13 06:58:28

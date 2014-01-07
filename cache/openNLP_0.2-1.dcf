@@ -1,0 +1,22 @@
+Package: openNLP
+Encoding: UTF-8
+Version: 0.2-1
+Title: Apache OpenNLP Tools Interface
+Authors@R: person("Kurt", "Hornik", role = c("aut", "cre"),
+                  email = "Kurt.Hornik@R-project.org")
+Description: An interface to the Apache OpenNLP tools (version 1.5.3).
+  The Apache OpenNLP library is a machine learning based toolkit for the
+  processing of natural language text written in Java.
+  It supports the most common NLP tasks, such as tokenization, sentence
+  segmentation, part-of-speech tagging, named entity extraction, chunking,
+  parsing, and coreference resolution.
+  See http://opennlp.apache.org/ for more information.
+Imports: NLP (>= 0.1-0), openNLPdata (>= 1.5.3-1), rJava (>= 0.6-3)
+SystemRequirements: Java (>= 5.0)
+License: GPL-3
+Packaged: 2013-08-20 13:23:54 UTC; hornik
+Author: Kurt Hornik [aut, cre]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-20 15:41:22

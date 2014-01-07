@@ -1,0 +1,11 @@
+Package: RGrace
+Version: 0.6-6
+Date: 2007-10-10
+Title:  RGrace
+Author: M.Kondrin <mkondrin@hppi.troitsk.ru>
+Maintainer: M.Kondrin <mkondrin@hppi.troitsk.ru>
+Depends: R (>= 2.5),  RGtk2 (>= 2.11), grid, cairoDevice (>= 2.3)
+Description: Interactive charting application.
+License: GPL version 2 or newer
+URL: http://www.hppi.troitsk.ru/Kondrin/rgorace.htm
+Packaged: Wed Oct 17 16:32:22 2007; mike

@@ -1,0 +1,27 @@
+Package: EcoTroph
+Type: Package
+Title: EcoTroph modelling support
+Version: 1.2
+Date: 2012-02-02
+Author: J. Guitton and M. Colleter, D. Gascuel
+Maintainer: Jerome Guitton <jerome.guitton@agrocampus-ouest.fr>
+URL: http://sirs.agrocampus-ouest.fr/EcoTroph/
+Description: EcoTroph is an approach and software for modelling marine
+        and freshwater ecosystems. It is articulated entirely around
+        trophic levels. EcoTroph's key displays are bivariate plots,
+        with trophic level as the abscissa, and biomass flows or
+        related quantities as ordinate. Thus, trophic ecosystem
+        functioning can be modelled as a continuous flow of biomass
+        surging up the food web, from lower to higher trophic levels,
+        because of predation and ontogenic processes. Such an approach,
+        wherein species as such disappear, may be regarded as
+        constituting the ultimate stage in the use of the trophic level
+        metric for ecosystem modelling, providing a simplified but
+        potentially useful caricature of ecosystem functioning and
+        impact of fishing.
+License: GPL
+LazyLoad: yes
+Depends: XML
+Packaged: 2012-02-16 15:48:56 UTC; jerome
+Repository: CRAN
+Date/Publication: 2012-02-16 19:10:27

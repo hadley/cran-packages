@@ -1,0 +1,17 @@
+Package: bigmemory.sri
+Type: Package
+Title: A shared resource interface for Bigmemory Project packages
+Version: 0.1.2
+Date: 2012-09-15
+Author: Michael J. Kane
+Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
+Contact: Michael J. Kane <bigmemoryauthors@gmail.com>
+Description: This package provides a shared resource interface for the
+        bigmemory and synchronicity packages.
+License: LGPL-3
+OS_type: unix
+Depends: methods
+Enhances: bigmemory, synchronicity
+Packaged: 2012-09-15 17:59:42 UTC; jay
+Repository: CRAN
+Date/Publication: 2012-09-17 14:57:19

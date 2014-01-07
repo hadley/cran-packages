@@ -1,0 +1,27 @@
+Package: bnlearn
+Type: Package
+Title: Bayesian network structure learning
+Version: 0.7
+Date: 2008-03-25
+Depends: R (>= 2.6.0)
+Suggests: snow
+Author: Marco Scutari
+Maintainer: Marco Scutari <marco.scutari@gmail.com>
+Description: Bayesian network structure learning
+  via constraint-based (also known as 'conditional
+  independence') and score-based algorithms.
+  This package implements the Grow-Shrink (GS)
+  algorithm, the Incremental Association (IAMB)
+  algorithm, the Interleaved-IAMB (Inter-IAMB)
+  algorithm, the Fast-IAMB (Fast-IAMB) algorithm
+  and the Hill-Climbing (HC) greedy search
+  algorithm for both discrete and gaussian networks,
+  along with many score functions and conditional
+  independence tests.
+  Some utility functions (model comparison and
+  manipulation, random data generation, arc
+  orientation testing) are also included.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: Wed Mar 26 09:44:39 2008; fizban

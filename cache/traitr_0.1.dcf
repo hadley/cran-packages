@@ -1,0 +1,20 @@
+Package: traitr
+Type: Package
+Title: An interface for creating GUIs modeled in part after traits UI
+        module for python.
+Version: 0.1
+Author: John Verzani <jverzani@gmail.com>
+Maintainer: John Verzani <jverzani@gmail.com>
+Description: An inteface for creating GUIs modeled in part after the
+        traits UI module for pytoh. The basic design takes advantage of
+        model-view-controller design pattern. The overall interface
+        makes basic dialogs quite easy to produce.
+Depends: digest, proto, gWidgets, gWidgetsRGtk2
+License: GPL (>= 2)
+LazyLoad: FALSE
+Collate: 'helpers.R' 'base.R' 'model.R' 'view.R' 'controller.R'
+        'container.R' 'editor.R' 'itemgroup.R' 'dialog.R' 'items.R'
+        'traitR-package.R'
+Packaged: 2010-01-15 03:25:05 UTC; verzani
+Repository: CRAN
+Date/Publication: 2010-01-15 08:50:03

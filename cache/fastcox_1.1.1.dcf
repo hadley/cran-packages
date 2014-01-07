@@ -1,0 +1,15 @@
+Package: fastcox
+Title: Lasso and elastic-net penalized Cox's regression in high
+        dimensions models using the cocktail algorithm
+Version: 1.1.1
+Date: 2011-12-13
+Author: Yi Yang <yiyang@umn.edu>, Hui Zou <hzou@stat.umn.edu>
+Maintainer: Yi Yang <yiyang@umn.edu>
+Depends: Matrix
+Description: We implement a cocktail algorithm, a good mixture of coordinate decent, the majorization-minimization principle and the strong rule, for computing the solution paths of the elastic net penalized Cox's proportional hazards model.
+License: GPL-2
+URL: http://code.google.com/p/fastcox/
+Packaged: 2013-10-24 15:13:10 UTC; emeryyi
+Repository: CRAN
+Date/Publication: 2013-10-24 18:01:49
+NeedsCompilation: yes

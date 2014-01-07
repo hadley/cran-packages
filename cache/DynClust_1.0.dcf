@@ -1,0 +1,20 @@
+Package: DynClust
+Type: Package
+Title: non-parametric denoising and clustering method of noisy images
+        both indexed by time and space
+Version: 1.0
+Date: 2012-07-31
+Author: Yves Rozenholc, Christophe Pouzat, Tiffany Lieury
+Maintainer: Tiffany Lieury <lieuryt-dynclust@yahoo.fr>
+Description: The aim of the method is first to denoise each temporal
+        sequence using both the spatial and temporal information
+        contained in the data, and then to cluster them according to
+        their dynamic features. The method is based on the assumption
+        that a finite sequence of noisy images both indexed by time and
+        space is composed of noisy versions of only a limited amount of
+        dynamic features.
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+Packaged: 2012-08-30 12:50:15 UTC; tiffany
+Repository: CRAN
+Date/Publication: 2012-08-30 15:09:24

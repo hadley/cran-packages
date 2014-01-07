@@ -1,0 +1,16 @@
+Package: Rmetrics
+Version: 260.71
+Date: 1997 - 2007
+Title: Rmetrics - Financial Engineering and Computational Finance
+Author: Diethelm Wuertz and many others, see the SOURCE file
+Depends: R (>= 2.2.0), fEcofin, fUtilities, fCalendar, fSeries, fImport, fBasics, fArma, fGarch, fNonlinear, fUnitRoots, fTrading, fMultivar, fRegression, fExtremes, fCopulae, fOptions, fExoticOptions, fAsianOptions, fAssets, fPortfolio
+Maintainer: Diethelm Wuertz and Rmetrics Core Team <wuertz@itp.phys.ethz.ch>
+Description: Environment for teaching "Financial Engineering and Computational Finance"
+NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE FUTURE.
+      THIS TYPICALLY INCLUDES FUNCTION AND ARGUMENT NAMES,
+      AS WELL AS DEFAULTS FOR ARGUMENTS AND RETURN VALUES.
+LazyLoad: yes
+LazyData: yes
+License: GPL Version 2 or later
+URL: http://www.rmetrics.org
+Packaged: Mon Oct  1 15:35:51 2007; myself

@@ -1,0 +1,20 @@
+Package: gWidgets
+Version: 0.0-39
+Title: gWidgets API for building toolkit-independent, interactive GUIs
+Author: John Verzani. Based on the iwidgets code of Simon Urbanek and
+        suggestions by Simon Urbanek, Philippe Grosjean and Michael
+        Lawrence
+Maintainer: John Verzani <gwidgetsrgtk@gmail.com>
+Depends: methods, utils
+Suggests: gWidgetsRGtk2, gWidgetstcltk
+Description: gWidgets provides a toolkit-independent API for building
+        interactive GUIs. Atleast one of the gWidgetsXXX packages, such
+        as gWidgetstcltk, needs to be installed. Some icons are on loan
+        from the scigraphica project
+        http://scigraphica.sourceforge.net.
+License: GPL (>= 2)
+URL: http://www.math.csi.cuny.edu/pmg
+LazyLoad: yes
+Packaged: 2009-12-10 01:10:49 UTC; verzani
+Repository: CRAN
+Date/Publication: 2009-12-10 19:56:32

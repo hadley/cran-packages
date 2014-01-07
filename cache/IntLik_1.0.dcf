@@ -1,0 +1,15 @@
+Package: IntLik
+Type: Package
+Title: Numerical Integration for Integrated Likelihood
+Version: 1.0
+Date: 2012-01-25
+Author: Zhenyu Zhao
+Maintainer: Zhenyu Zhao <zhenyuzhao2014@u.northwestern.edu>
+Depends: maxLik
+Description: This package calculates the integrated likelihood numerically. Given the Likelihood function and the prior function, this package integrates out the nuisance parameters by Metropolis-Hastings (MCMC) Algorithm.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-08-14 00:09:40 UTC; sailwind
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-14 07:31:29

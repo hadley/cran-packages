@@ -1,0 +1,18 @@
+Package: REEMtree
+Type: Package
+Title: Regression Trees with Random Effects for Longitudinal (Panel)
+        Data
+Version: 0.82
+Date: 2010-02-14
+Author: Rebecca Sela and Jeffrey Simonoff
+Maintainer: Rebecca Sela <rsela@stern.nyu.edu>
+Depends: nlme, rpart, methods
+Suggests: AER
+Description: This package estimates regression trees with random
+        effects as a way to use data mining techniques to describe
+        longitudinal or panel data.
+License: GPL
+URL: http://pages.stern.nyu.edu/~rsela/REEMtree/code.html
+Packaged: Sun Feb 14 14:13:51 2010; rsela
+Repository: CRAN
+Date/Publication: 2010-02-14 19:36:20

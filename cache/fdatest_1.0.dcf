@@ -1,0 +1,14 @@
+Package: fdatest
+Type: Package
+Title: Interval Testing Procedure for functional data
+Version: 1.0
+Date: 2013-02-27
+Depends: fda
+Author: Alessia Pini, Simone Vantini
+Maintainer: Alessia Pini <alessia.pini@mail.polimi.it>
+Description: The package implements the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier). The current version of the package requires functional data evaluated on a uniform grid; it automatically projects each function on a chosen functional basis; it performs the entire family of multivariate tests; and, finally, it provides the matrix of the p-values of the previous tests and the vector of the corrected p-values. The functional basis, the coupled or uncoupled scenario, and the kind of test can be chosen by the user. The package provides also a plotting function creating a graphical output of the procedure: the p-value heat-map, the plot of the corrected p-values, and the plot of the functional data.
+License: GPL-2
+Packaged: 2013-07-23 13:13:00 UTC; ilariapini
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-23 16:08:44

@@ -1,0 +1,20 @@
+Package: rocc
+Title: ROC based classification
+Version: 1.0
+Depends: ROCR, caret, class, e1071
+Author: Martin Lauss
+Description: Functions for a classification method based on receiver
+        operating characteristics (ROC). Briefly, features are selected
+        according to their ranked AUC value in the training set. The
+        selected features are merged by the mean value to form a
+        metagene. The samples are ranked by their metagene value and
+        the metagene threshold that has the highest accuracy in
+        splitting the training samples is determined. A new sample is
+        classified by its metagene value relative to the threshold. In
+        the first place, the package is aimed at two class problems in
+        gene expression data, but might also apply to other problems.
+Maintainer: Martin Lauss <martin.lauss@med.lu.se>
+License: GPL (>= 2)
+Packaged: 2010-04-14 10:52:22 UTC; Martin
+Repository: CRAN
+Date/Publication: 2010-04-15 13:49:49

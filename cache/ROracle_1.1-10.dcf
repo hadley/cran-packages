@@ -1,0 +1,18 @@
+Package: ROracle
+Version: 1.1-10
+Date: 2013-04-30
+Author: Denis Mukhin, David A. James and Jake Luciani
+Maintainer: Denis Mukhin <denis.x.mukhin@oracle.com>
+Title: OCI based Oracle database interface for R
+Description: Oracle database interface (DBI) driver for R.  This is a
+        DBI-compliant Oracle driver based on the OCI.
+SystemRequirements: Oracle Instant Client or Oracle Database Client
+LazyLoad: yes
+Depends: methods, DBI
+License: LGPL
+URL: http://www.oracle.com
+Collate: dbi.R oci.R zzz.R
+Packaged: 2013-05-14 04:40:49 UTC; aime
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-14 21:50:46

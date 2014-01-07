@@ -1,0 +1,27 @@
+Package: zoom
+Type: Package
+Title: A spatial data visualization tool
+Depends: R (>= 2.10.0)
+Suggests: testthat
+Description: zm(), called with any active plot allow to enter an
+    interactive session to zoom/navigate any plot. The development
+    version, as well as binary releases can be found at
+    https://github.com/cbarbu/R-package-zoom
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/cbarbu/R-package-zoom
+Authors@R: c(person(given="Corentin M", family="Barbu",
+    email="corentin.barbu@gmail.com", role=c("aut", "cre")),
+    person(given="Sebastian", family="Gibb", role="ctb",
+    email="mail@sebastiangibb.de"))
+Version: 2.0.4
+Date: 2013-10-14
+Collate: 'utils.R' 'zoom-package.R' 'zoom.R'
+Packaged: 2013-10-14 19:50:52 UTC; cbarbu
+Author: Corentin M Barbu [aut, cre],
+  Sebastian Gibb [ctb]
+Maintainer: Corentin M Barbu <corentin.barbu@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-15 00:25:31

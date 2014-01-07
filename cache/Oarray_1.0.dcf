@@ -1,0 +1,9 @@
+Package: Oarray
+Version: 1.0
+Date: 15.05.01
+Title: Arrays with arbitrary offsets
+Author: Jonathan Rougier <J.C.Rougier@durham.ac.uk>
+Description: Generalise the starting point of the array index, eg
+	to allow x[0, 0, 0] to be the first element of x.
+License: GPL version 2 or newer
+Maintainer: Jonathan Rougier <J.C.Rougier@durham.ac.uk>

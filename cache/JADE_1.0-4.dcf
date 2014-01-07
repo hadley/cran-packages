@@ -1,0 +1,15 @@
+Package: JADE
+Type: Package
+Title: JADE and ICA performance criteria
+Version: 1.0-4
+Date: 2011-09-05
+Author: Klaus Nordhausen, Jean-Francois Cardoso, Hannu Oja, Esa Ollila
+Maintainer: Klaus Nordhausen <klaus.nordhausen@uta.fi>
+Depends: clue
+Description: The package ports JF Cardoso's JADE algorithm as well as
+        his function for joint diagonalization. There are also several
+        criteria for performance evaluation of ICA algorithms.
+License: GPL (>= 2)
+Packaged: 2011-09-05 12:57:51 UTC; klaus
+Repository: CRAN
+Date/Publication: 2011-09-05 19:37:23

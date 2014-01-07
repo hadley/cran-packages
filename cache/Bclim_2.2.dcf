@@ -1,0 +1,18 @@
+Package: Bclim
+Type: Package
+Title: Bayesian Palaeoclimate Reconstruction from Pollen
+Version: 2.2
+Date: 2013-01-23
+Author: Andrew Parnell, Thinh Doan and James Sweeney
+Maintainer: Andrew Parnell <Andrew.Parnell@ucd.ie>
+Depends: mclust, hdrcde, statmod, MASS
+Suggests: Bchron, doMC, foreach
+Description: This package takes pollen/time data from lake cores and
+        produces a Bayesian posterior distribution of palaeoclimate
+        from that location after fitting a non-linear non-Gaussian
+        state-space model. This latest version fixes a bug where
+        volatilities were estimated incorrectly
+License: GPL (>= 2)
+Packaged: 2013-01-23 13:15:04 UTC; aparnell
+Repository: CRAN
+Date/Publication: 2013-01-23 16:20:13

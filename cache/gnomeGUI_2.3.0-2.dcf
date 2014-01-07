@@ -1,0 +1,12 @@
+Package: gnomeGUI
+Type: Frontend
+Version: 2.3.0-2
+Date: 2006-02-20
+Title: GNOME Console for R
+Author: R Development Core Team
+Maintainer: R Core Team <R-core@r-project.org>
+Description: Provides a console for R under Unix-alikes based on GNOME
+Depends: R (>= 2.1.0)
+SystemRequirements: GNOME development libraries, R built as a shared object.
+License: GPL Version 2 or later.
+Packaged: Mon Feb 20 17:13:27 2006; ripley

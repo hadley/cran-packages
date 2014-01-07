@@ -1,0 +1,12 @@
+Package: CompetingRiskFrailty
+Version: 2.0
+Title: Competing Risk Model with Frailties for Right Censored Survival Data
+Author: Pavel Khomski <pkhomski@web.de>
+Description: The package offers a fitting of smooth varying coefficients
+	in a competing risks modelling of hazards as well as estimating of the frailties (or unobserved heterogenities)
+	for clustered observations. Nonparametric penalized spline (p-spline) 
+	fitting of smooth covariates effects is proposed. As a spline basis truncated polynomial functions are chosen. 
+	The frailties are also fitted (via the EM-algoritghm) in a flexible way using a penalizied mixture of gamma distributions.
+Maintainer: Pavel Khomski <pkhomski@web.de>
+License: GPL (>= 2)
+Packaged: Sat Nov 24 17:41:46 2007; pkhomski

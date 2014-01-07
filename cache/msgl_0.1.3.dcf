@@ -1,0 +1,35 @@
+Package: msgl
+Type: Package
+Title: High dimensional multiclass classification using sparse group
+        lasso
+Version: 0.1.3
+Date: 2013-20-05
+Author: Martin Vincent
+Maintainer: Martin Vincent <vincent@math.ku.dk>
+Description: Sparse group lasso multiclass classification, suitable for
+        high dimensional problems with many classes. Fast algorithm for
+        solving the multinomial sparse group lasso convex optimization
+        problem. This package apply template metaprogramming
+        techniques, therefore -- when compiling the package from source
+        -- a high level of optimization is needed to gain full speed
+        (e.g. for the GCC compiler use -O3). Use of multiple processors
+        for cross validation and subsampling is supported through
+        OpenMP. The Armadillo C++ library is used as the primary linear
+        algebra engine. Armadillo is licensed under the MPL 2.0. The
+        Armadillo C++ library is primarily developed at NICTA
+        (Australia) by Conrad Sanderson, with contributions from around
+        the world. Furthermore the package utilize various Boost
+        libraries, in particular the Tuple library by Jaakko Jarvi and
+        the Random library by Jens Maurer. The Boost libraries are
+        licensed under the Boost Software License.
+URL: http://arxiv.org/abs/1205.1245 http://arma.sourceforge.net/,
+        http://www.boost.org/
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.13.0), Matrix, RcppProgress, RcppArmadillo, BH
+LinkingTo: Rcpp, RcppProgress, RcppArmadillo, BH
+Collate: 'msgl_multinomial.R'
+Packaged: 2013-05-27 16:50:51 UTC; martin
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-27 22:45:46

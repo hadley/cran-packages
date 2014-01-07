@@ -1,0 +1,17 @@
+Package: gRim
+Version: 0.1.0
+Title: Graphical Interaction Models
+Author: Søren Højsgaard <sorenh@agrsci.dk>
+Maintainer: Søren Højsgaard <sorenh@agrsci.dk>
+Description: Implements graphical interaction models for contingency
+        tables (i.e. log-linear models) and graphical Gaussian models
+        for the multivariate normal data (i.e. covariance selection
+        models).
+License: GPL (>= 2)
+URL: http://genetics.agrsci.dk/~sorenh/public/R/gRim/
+Depends: R (>= 2.1.0),methods,gRbase,graph,gRain,RBGL,igraph,doBy
+Encoding: latin1
+Suggests: Rgraphviz
+Packaged: 2011-07-19 22:39:33 UTC; SHD
+Repository: CRAN
+Date/Publication: 2011-07-23 13:52:24

@@ -1,0 +1,27 @@
+Package: saves
+Maintainer: Gergely Daróczi <daroczig@rapporter.net>
+License: AGPL-3
+BugReports: https://github.com/daroczig/saves/issues
+Title: Fast load variables
+LazyData: no
+Type: Package
+Author: Gergely Daróczi <gergely@snowl.net>
+Description: The purpose of this package is to be able to save and load only
+    the needed variables/columns of a dataframe in special binary files (tar
+    archives) - which seems to be a lot faster method than loading the whole
+    binary object (RData files) via load() function, or than loading columns
+    from SQLite/MySQL databases via SQL commands (see vignettes). Performance
+    gain on SSD drives is a lot more sensible compared to basic load()
+    function. The performance improvement gained by loading only the chosen
+    variables in binary format can be useful in some special cases (e.g. where
+    merging data tables is not an option and very different datasets are needed
+    for reporting), but be sure if using this package that you really need
+    this, as non-standard file formats are used!
+Version: 0.5
+URL: http://r.snowl.net/saves/
+Date: 2013-12-27
+Encoding: UTF-8
+Packaged: 2013-12-27 14:15:16 UTC; daroczig
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-27 16:07:34

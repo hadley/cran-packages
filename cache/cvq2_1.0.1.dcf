@@ -1,0 +1,19 @@
+Package: cvq2
+Type: Package
+Title: Calculate the predictive squared correlation coefficient.
+Version: 1.0.1
+Date: 2012-10-15
+Author: Torsten Thalheim
+Maintainer: Torsten Thalheim <torstenthalheim@gmx.de>
+Description: The external prediction capability of quantitative
+        structure-activity relationship (QSAR) models is often
+        quantified using the predictive squared correlation
+        coefficient. This value indicates the actual prediction
+        capability of a model, calculated with an external data set or
+        by cross validation, if no external data set is available.
+Depends: stats
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-10-16 16:13:40 UTC; TT
+Repository: CRAN
+Date/Publication: 2012-10-16 16:38:38

@@ -1,0 +1,18 @@
+Package: capwire
+Type: Package
+Title: Estimates population size from non-invasive sampling
+Version: 1.1.4
+Date: 2012-08-16
+Author: Matthew W. Pennell and Craig R. Miller
+Maintainer: Matthew W. Pennell <mwpennell@gmail.com>
+Description: Fits models from Miller et al. 2005 to estimate population
+        sizes from natural populations. Several models are implemented.
+        Package also includes functions to perform a likelihood ratio
+        test to choose between models, perform parametric bootstrapping
+        to obtain confidence intervals and multiple functions to
+        simulate data.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-16 12:52:27 UTC; mwp
+Repository: CRAN
+Date/Publication: 2012-08-16 13:47:50

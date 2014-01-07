@@ -1,0 +1,17 @@
+Package: qmap
+Type: Package
+Title: Statistical transformations for post-processing climate model
+        output
+Version: 1.0-1
+Date: 2012-10-15
+Author: Lukas Gudmundsson
+Maintainer: Lukas Gudmundsson <lukas.gudmundsson@env.ethz.ch>
+Depends: R (>= 2.8.0), fitdistrplus
+Description: Empirical adjustment of the distribution of variables
+        originating from (regional) climate model simulations using
+        quantile mapping.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-31 09:13:55 UTC; lukasgu
+Repository: CRAN
+Date/Publication: 2012-10-31 09:54:42

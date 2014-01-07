@@ -1,0 +1,15 @@
+Package: ora
+Version: 2.0-0
+Date: 2013-06-17
+Title: Convenient Tools for Working with Oracle Databases
+Author: Arni Magnusson
+Maintainer: Arni Magnusson <arnima@hafro.is>
+Depends: DBI, ROracle
+SystemRequirements: Oracle client
+Description: Easy-to-use functions to explore Oracle databases and
+        import data into R. User interface for the ROracle package.
+License: GPL (>= 2)
+Packaged: 2013-06-18 11:10:45 UTC; arnima
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-19 09:06:20

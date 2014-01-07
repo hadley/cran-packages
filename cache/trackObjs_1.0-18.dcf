@@ -1,0 +1,23 @@
+Package: trackObjs
+Version: 1.0-18
+Date: 2012-09-22
+Title: Track Objects (last release - package name changed to 'track')
+Author: Tony Plate <tplate@acm.org>
+Maintainer: Tony Plate <tplate@acm.org>
+Description: Final release of 'trackObjs' - package name changed to
+        'track' - if using 'trackObjs' please switch to 'track'.
+        Tracking database are the same with 'track' and 'trackObjs'.
+        Automatically stores objects in files on disk so that files are
+        rewritten when objects are changed, and so that objects are
+        accessible but do not occupy memory until they are accessed.
+        Keeps track of times when objects are created and modified, and
+        caches some basic characteristics of objects to allow for fast
+        summaries of objects.  Also provides a command history
+        mechanism that saves the last command to a history file after
+        each command completes.
+License: GPL
+Depends: R (>= 2.1.0), methods
+Suggests: scriptests
+Packaged: 2012-09-24 00:37:51 UTC; tap
+Repository: CRAN
+Date/Publication: 2012-09-29 16:57:48

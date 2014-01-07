@@ -1,0 +1,23 @@
+Package: globalboosttest
+Version: 1.1-0
+Date: 2010-08-02
+Title: Testing the additional predictive value of high-dimensional data
+Author: Anne-Laure Boulesteix <boulesteix@ibe.med.uni-muenchen.de>,
+        Torsten Hothorn <torsten.hothorn@stat.uni-muenchen.de>.
+Maintainer: Anne-Laure Boulesteix <boulesteix@ibe.med.uni-muenchen.de>
+Depends: R (>= 2.8), mboost (>= 2.0-0), survival
+Suggests:
+Description: 'globalboosttest' implements a permutation-based testing
+        procedure to globally test the (additional) predictive value of
+        a large set of predictors given that a small set of predictors
+        is already available. Currently, 'globalboosttest' supports
+        binary outcomes (via logistic regression) and survival outcomes
+        (via Cox regression). It is based on boosting regression as
+        implemented in the package 'mboost'.
+License: GPL (>= 2)
+URL:
+Repository: CRAN
+Repository/R-Forge/Project: globalboosttest
+Repository/R-Forge/Revision: 4
+Date/Publication: 2012-10-29 08:58:54
+Packaged: 2012-10-29 08:58:54 UTC; ripley

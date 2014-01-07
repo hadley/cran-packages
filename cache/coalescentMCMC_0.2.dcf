@@ -1,0 +1,17 @@
+Package: coalescentMCMC
+Version: 0.2
+Date: 2013-01-02
+Title: MCMC Algorithms for the Coalescent
+Author: Emmanuel Paradis
+Maintainer: Emmanuel Paradis <Emmanuel.Paradis@ird.fr>
+Depends: ape, pegas, phangorn, adegenet, coda
+ZipData: no
+Description: coalescentMCMC provides a flexible framework for
+  coalescent analyses in R. It includes a main function running the
+  MCMC algorithm, auxilliary functions for tree rearrangement, and some
+  functions to compute population genetic parameters.
+License: GPL (>= 2)
+Packaged: 2013-07-19 10:01:33 UTC; paradis
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-19 16:23:13

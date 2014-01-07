@@ -1,0 +1,17 @@
+Package: PrecipStat
+Version: 1.00
+Date: October 13 2011
+Title: Precipitation Statistics
+Author: Rasmus E. Benestad <rasmus.benestad@physics.org> & D. Nychka
+Maintainer: Rasmus E. Benestad <rasmus.benestad@physics.org>
+Depends: R (>= 2.10.0)
+Description: The package contains data for the qqplotter package. These
+        data contain 14 percentiles p in [0.50, 0.55, ... 0.95] and
+        [0.96,0.97, ... 0.99] for the 24hr precipitation for all days
+        with amounts greater than 1mm/day.
+License: GPL (>= 2)
+URL: no
+ZipData: no
+Packaged: 2011-10-14 07:31:48 UTC; rasmusb
+Repository: CRAN
+Date/Publication: 2011-10-14 13:22:19

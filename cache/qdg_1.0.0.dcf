@@ -1,0 +1,13 @@
+Package: qdg
+Type: Package
+Title: QTL directed graphs
+Version: 1.0.0
+Date: 2008-06-27
+Author: Elias Chaibub Neto <chaibub@stat.wisc.edu> and Brian S. Yandell <yandell@stat.wisc.edu>
+Maintainer: Elias Chaibub Neto <chaibub@stat.wisc.edu>
+Description: Infer QTL-directed Dependency Graphs for Phenotype Networks
+Depends: pcalg,sem,qtl
+LazyLoad: yes
+LazyData: yes
+License: GPL version 2 or newer
+Packaged: Mon Jul  7 14:38:35 2008; hornik

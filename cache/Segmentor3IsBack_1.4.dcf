@@ -1,0 +1,18 @@
+Package: Segmentor3IsBack
+Version: 1.4
+Date: 2013-04-03
+Title: A Fast Segmentation Algorithm
+Author: Alice Cleynen, Guillem Rigaill, Michel Koskas
+Maintainer: Alice Cleynen <alice.cleynen@agroparistech.fr>
+Depends: methods
+Description: This package performs a fast exact segmentation allowing
+        the use of various cost functions and provides criteria for
+        model selection.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: segmentor3isbac
+Repository/R-Forge/Revision: 22
+Repository/R-Forge/DateTimeStamp: 2013-04-03 11:24:30
+Date/Publication: 2013-04-04 17:33:52
+Packaged: 2013-04-03 14:15:30 UTC; rforge
+NeedsCompilation: yes

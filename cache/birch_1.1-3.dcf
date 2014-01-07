@@ -1,0 +1,11 @@
+Package: birch
+Type: Package
+Depends: ellipse
+Title: Dealing with very large datasets using BIRCH
+Version: 1.1-3
+Date: 2008-02-26
+Author: Justin Harrington, Matias Salibian-Barrera
+Maintainer: Justin Harrington <harringt@stat.ubc.ca>
+Description: birch is an implementation of the algorithms described in Zhang et al (1997), and provides functions for creating CF-trees, along with algorithms for dealing with some combinatorial problems, such as covMcd and ltsReg. It is very well suited for dealing with very large data sets, and does not require that the data can fit in physical memory.  
+License: GPL
+Packaged: Tue Feb 26 18:07:49 2008; harringt

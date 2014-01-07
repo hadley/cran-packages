@@ -1,0 +1,18 @@
+Package: MAINT.Data
+Type: Package
+Title: Model and Analize Interval Data
+Version: 0.1
+Date: 2011-08-03
+Author: Pedro Duarte Silva <psilva@porto.ucp.pt> Paula Brito
+        <mpbrito.fep.up.pt>
+Maintainer: Pedro Duarte Silva <psilva@porto.ucp.pt>
+Description: MAINT.Data implements methodologies for modelling Interval
+        Data, considering five different possible configurations
+        structures for the variance-covariance matrix.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.8.0), MASS, sn, methods, miscTools
+Packaged: 2011-08-03 17:23:03 UTC; apedro
+Repository: CRAN
+Date/Publication: 2011-08-04 16:30:16

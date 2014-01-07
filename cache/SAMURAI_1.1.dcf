@@ -1,0 +1,21 @@
+Package: SAMURAI
+Type: Package
+Title: Sensitivity Analysis of a Meta-analysis with Unpublished but
+        Registered Analytical Investigations
+Version: 1.1
+Date: 2013-04-29
+Author: Noory Y. Kim. Advisors: Shrikant I. Bangdiwala, Gerald
+        Gartlehner.
+Maintainer: Noory Y. Kim <noory@live.unc.edu>
+Description: This package contains R functions to gauge the impact of
+        unpublished studies upon the meta-analytic summary effect of a
+        set of published studies. (Credits: The research leading to
+        these results has received funding from the European Union's
+        Seventh Framework Programme (FP7/2007-2013) under grant
+        agreement no. 282574.)
+License: GPL-2 | GPL-3
+Depends: metafor
+Packaged: 2013-04-29 19:24:52 UTC; tamarahowerton
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-30 06:22:40

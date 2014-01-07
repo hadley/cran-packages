@@ -1,0 +1,24 @@
+Package: fmt
+Type: Package
+Title: Variance estimation of FMT method (Fully Moderated t-statistic)
+Version: 1.0
+Date: 2012-08-30
+Author: Lianbo Yu, The Ohio State University
+Maintainer: Lianbo Yu <Lianbo.Yu@osumc.edu>
+Description: This package computes posterior residual variances to be
+        used in the denominator of a moderated t-statistic from a
+        linear model analysis of microarray data.  It is an extension
+        of the moderated t-statistic original proposed by Smyth (2004).
+        LOESS local regression and empirical Bayesian method are used
+        to estimate gene specific prior degrees of freedom and prior
+        variance based on average gene intensity level. The posterior
+        residual variance in the denominator is a weighted average of
+        prior and residual variance and the weights are prior degrees
+        of freedom and residual variance degrees of freedom. The
+        degrees of freedom of the moderated t-statistic is simply the
+        sum of prior and residual variance degrees of freedom.
+Suggests: limma
+License: GPL-2
+Packaged: 2012-08-30 18:57:52 UTC; yu18
+Repository: CRAN
+Date/Publication: 2012-08-30 19:46:07

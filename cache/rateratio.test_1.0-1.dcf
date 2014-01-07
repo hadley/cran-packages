@@ -1,0 +1,14 @@
+Package: rateratio.test
+Type: Package
+Title: Exact rate ratio test
+Version: 1.0-1
+Date: 2009-10-13
+Author: Michael Fay <mfay@niaid.nih.gov>
+Maintainer: Michael Fay <mfay@niaid.nih.gov>
+Depends: R (>= 2.4.1), stats
+Description: A function which performs exact rate ratio tests and
+        returns an object of class htest.
+License: GPL
+Packaged: 2012-10-29 08:59:34 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:34

@@ -1,0 +1,20 @@
+Package: isopam
+Type: Package
+Title: Isopam (Hierarchical Clustering)
+Version: 0.9-5
+Date: 2010-02-18
+Author: Sebastian Schmidtlein with contributions from Jason Collison
+Maintainer: Sebastian Schmidtlein <s.schmidtlein@uni-bonn.de>
+Depends: R (>= 2.7.0), cluster, vegan
+Suggests: proxy
+Description: Isopam clustering algorithm and utilities. Isopam
+        optimizes clusters and optionally cluster numbers in a brute
+        force style and aims at an optimum separation by a limited
+        number of indicative descriptors (typically species).
+License: GPL-2
+LazyLoad: yes
+URL: http://www.geographie.uni-bonn.de/biogeo/isopam/
+Encoding: UTF-8
+Packaged: 2010-02-18 16:03:44 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-02-18 17:50:09

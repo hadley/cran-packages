@@ -1,0 +1,17 @@
+Package: DNAtools
+Title: Tools for analysing forensic genetic DNA data
+Version: 0.1-8
+Date: 2013-12-06
+Author: Torben Tvedebrink <tvede@math.aau.dk> and James Curran <j.curran@auckland.ac.nz>. Mikkel Meyer Andersen <mikl@math.aau.dk> assisted on the multicore/CPU implementation.
+Maintainer: Torben Tvedebrink <tvede@math.aau.dk>
+Description: 
+  Computational efficient tools for comparing all pairs of profiles in a DNA database. The expectation and covariance of the summary statistic
+  is implemented for fast computing. Routines for estimating proportions of close related individuals are available. The use of wildcards (also
+  called F-designation) is implemented. Dedicated functions ease plotting the results.
+Depends: R (>= 2.10.0), Rsolnp, multicool
+SystemRequirements: None
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2013-12-06 11:05:33 UTC; tvede
+Repository: CRAN
+Date/Publication: 2013-12-06 12:14:58

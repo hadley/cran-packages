@@ -1,0 +1,14 @@
+Package: rrdflibs
+Type: Package
+Title: rrdflibs - package with Jena libraries for use with rrdf
+Version: 1.1.2
+Date: 2011-04-25
+Author: Egon Willighagen <egon.willighagen@gmail.com>
+Maintainer: Egon Willighagen <egon.willighagen@gmail.com>
+Depends: R (>= 2.0.0), rJava
+Description: Jena RDF libraries.
+License: AGPL-3
+LazyLoad: yes
+Packaged: 2011-04-26 06:44:30 UTC; egonw
+Repository: CRAN
+Date/Publication: 2011-04-26 15:30:23

@@ -1,0 +1,17 @@
+Package: MCLIME
+Type: Package
+Title: Simultaneous Estimation of the Regression Coefficients and
+        Precision Matrix
+Version: 1.1
+Date: 2010-09-24
+Author: T. Tony Cai, Hongzhe Li, Weidong Liu and Jichun Xie
+Maintainer: Jichun Xie <jichun@mail.med.upenn.edu>
+Depends: lpSolve
+Description: A robust constrained L1 minimization method for estimating
+        the regression coefficients and a large sparse inverse
+        covariance matrix (i.e. precision matrix) simultaneoulsy. The
+        computation uses linear programming.
+License: GPL-2
+Packaged: 2010-11-17 20:12:22 UTC; jichun
+Repository: CRAN
+Date/Publication: 2010-11-18 07:12:15

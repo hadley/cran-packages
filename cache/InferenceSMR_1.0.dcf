@@ -1,0 +1,20 @@
+Package: InferenceSMR
+Type: Package
+Title: Inference about the standardized mortality ratio when evaluating
+        the effect of a screening program on survival.
+Version: 1.0
+Date: 2013-05-22
+Author: Denis Talbot, Thierry Duchesne, Jacques Brisson, Nathalie
+        Vandal
+Maintainer: Denis Talbot <denis.talbot@mat.ulaval.ca>
+Description: The InferenceSMR package provides functions to make
+        inference about the standardized mortality ratio (SMR) when
+        evaluating the effect of a screening program. The package is
+        based on methods described in Sasieni (2003) and Talbot et al.
+        (2011).
+License: GPL (>= 2)
+Depends: survival
+Packaged: 2013-05-23 14:10:09 UTC; Nilidas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-23 17:41:26

@@ -1,0 +1,26 @@
+Package: QTLRel
+Version: 0.2-2
+Date: 2011-3-16
+Title: Tools for mapping of quantitative traits of genetically related
+        individuals and calculating identity coefficients from a
+        pedigree
+Author: Riyan Cheng <rcheng@uchicago.edu>
+Maintainer: Riyan Cheng <rcheng@uchicago.edu>
+Description: This software provides tools for quantitative trait
+        mapping in populations such as advanced intercross lines where
+        relatedness among individuals should not be ignored. It can
+        estimate background genetic variances, impute missing
+        genotypes, simulate genotypes, perform a genome scan for
+        putative quantitative trait loci (QTL), and plot mapping
+        results. It also has functions to calculate identity
+        coefficients for pedigrees, especially suitable for pedigrees
+        that consist of a large number of generations.
+Depends:
+Imports: gdata
+Suggests: lattice
+LazyLoad: yes
+LazyData: no
+License: GPL (>= 2)
+Packaged: 2011-03-15 20:01:08 UTC; rcheng
+Repository: CRAN
+Date/Publication: 2011-03-16 16:20:03

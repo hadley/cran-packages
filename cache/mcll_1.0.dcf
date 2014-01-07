@@ -1,0 +1,17 @@
+Package: mcll
+Type: Package
+Title: Monte Carlo Local Likelihood Estimation
+Version: 1.0
+Date: 2012-10-28
+Author: Minjeong Jeon <mjj@berkeley.edu>, Cari Kaufman
+        <cgk@berkeley.edu>, and Sophia Rabe-Hesketh
+        <sophiarh@berkeley.edu>
+Maintainer: Minjeong Jeon <mjj@berkeley.edu>
+Depends: R (>= 2.13.0), locfit, statmod
+Description: Maximum likelihood estimation using a Monte Carlo local
+        likelihood (MCLL) method
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-01 19:00:32 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-11-01 19:24:16

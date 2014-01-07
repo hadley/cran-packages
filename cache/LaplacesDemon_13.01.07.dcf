@@ -1,0 +1,16 @@
+Package: LaplacesDemon
+Version: 13.01.07
+Date: 2013-01-07
+Title: Complete Environment for Bayesian Inference
+Author: Statisticat, LLC <software@bayesian-inference.com>
+Maintainer: Martina Hall <software@bayesian-inference.com>
+Depends: R (>= 2.14.1), parallel
+ByteCompile: TRUE
+Description: Laplace's Demon is a complete environment for Bayesian
+        inference.
+License: GPL-2
+URL: http://www.r-project.org,
+        http://www.bayesian-inference.com/software
+Packaged: 2013-01-07 20:10:02 UTC; root
+Repository: CRAN
+Date/Publication: 2013-01-08 08:17:35

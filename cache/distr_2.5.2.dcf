@@ -1,0 +1,34 @@
+Package: distr
+Version: 2.5.2
+Date: 2013-09-12
+Title: Object oriented implementation of distributions
+Description: S4 Classes and Methods for distributions
+Authors@R: c(person("Florian", "Camphausen", role=c("aut")),
+        person("Matthias", "Kohl", role=c("aut", "cph")), 
+		person("Peter", "Ruckdeschel", role=c("cre", "cph"), email="Peter.Ruckdeschel@itwm.fraunhofer.de"), 
+		person("Thomas", "Stabla", role=c("aut", "cph")),
+        person("R Core Team", role = c("ctb", "cph"), 
+		comment="for source file ks.c/ routines 'pKS2' and 'pKolmogorov2x'"))
+Depends: R(>= 2.14.0), methods, graphics, startupmsg, sfsmisc,
+        SweaveListingUtils
+Suggests: distrEx
+Imports: stats
+ByteCompile: yes
+Encoding: latin1
+License: LGPL-3
+URL: http://distr.r-forge.r-project.org/
+LastChangedDate: {$LastChangedDate: 2013-09-12 11:25:48 +0200 (Do, 12
+        Sep 2013) $}
+LastChangedRevision: {$LastChangedRevision: 912 $}
+SVNRevision: 910
+Packaged: 2013-09-12 12:49:31 UTC; ruckdesc
+Author: Florian Camphausen [aut],
+  Matthias Kohl [aut, cph],
+  Peter Ruckdeschel [cre, cph],
+  Thomas Stabla [aut, cph],
+  R Core Team [ctb, cph] (for source file ks.c/ routines 'pKS2' and
+    'pKolmogorov2x')
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-12 22:52:12

@@ -1,0 +1,36 @@
+Package: eRm
+Type: Package
+Title: Extended Rasch Modeling
+Version: 0.15-1
+Date: 2012-11-11
+Authors@R: c(person(given="Patrick", family="Mair",
+        email="patrick.mair@wu.ac.at", role=c("cre","aut")),
+        person(given="Reinhold", family="Hatzinger",
+        email="reinhold.hatzinger@wu.ac.at", role="aut"),
+        person(given=c("Marco", "J."), family="Maier",
+        email="marco.maier@wu.ac.at", role="aut"))
+Author: Patrick Mair, Reinhold Hatzinger, Marco J. Maier
+Maintainer: Patrick Mair <patrick.mair@wu.ac.at>
+Description: eRm fits Rasch models (RM), linear logistic test models
+        (LLTM), rating scale model (RSM), linear rating scale models
+        (LRSM), partial credit models (PCM), and linear partial credit
+        models (LPCM). Missing values are allowed in the data matrix.
+        Additional features are the ML estimation of the person
+        parameters, Andersen's LR-test, item-specific Wald test,
+        Martin-Loef-Test, nonparametric Monte-Carlo Tests, itemfit and
+        personfit statistics including infit and outfit measures,
+        various ICC and related plots, automated stepwise item
+        elimination, simulation module for various binary data
+        matrices. An eRm platform is provided at R-forge (see URL).
+License: GPL-2
+URL: http://r-forge.r-project.org/projects/erm/
+Imports: graphics, stats, MASS, splines, methods, Matrix
+Depends: R (>= 2.14.0), methods
+Suggests: lattice
+Encoding: latin1
+LazyData: yes
+LazyLoad: yes
+ByteCompile: yes
+Packaged: 2012-11-11 15:22:40 UTC; maier
+Repository: CRAN
+Date/Publication: 2012-11-11 18:25:47

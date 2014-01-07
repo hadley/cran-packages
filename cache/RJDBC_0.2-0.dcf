@@ -1,0 +1,14 @@
+Package: RJDBC
+Version: 0.2-0
+Title: Provides access to databases through the JDBC interface
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: methods, DBI, rJava (>= 0.4-15), R (>= 2.4.0)
+Description: RJDBC is an implementation of R's DBI interface using JDBC
+        as a back-end. This allows R to connect to any DBMS that has a
+        JDBC driver.
+License: GPL-2
+URL: http://www.rforge.net/RJDBC/
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:31
+Packaged: 2012-10-29 08:57:31 UTC; ripley

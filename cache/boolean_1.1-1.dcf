@@ -1,0 +1,13 @@
+Package: boolean
+Version: 1.1-1
+Date: 2006-10-07
+Title: Boolean Binary Response Models
+Author: Bear F. Braumoeller <bfbraum@fas.harvard.edu>, Ben Goodrich <goodrich@fas.harvard.edu>, Jacob Kline <jkline@fas.harvard.edu>
+Maintainer: Bear F. Braumoeller <bfbraum@fas.harvard.edu>
+Depends: R (>= 2.0.1)
+Suggests: Zelig (>= 2.5-3), micEcon (>= 0.2-2), rgenoud (>= 4.1-5), MCMCpack (>= 0.7-1)
+Imports: stats
+Description: This package implements a partial-observability procedure for testing Boolean hypotheses that generalizes the binary response GLM.
+License: Unlimited distribution.
+URL: http://www.people.fas.harvard.edu/~bfbraum/
+

@@ -1,0 +1,28 @@
+Package: xpose4
+Title: Xpose 4
+Version: 4.3.0
+Date: 2010-10-23
+Author: E. Niclas Jonsson <niclas.jonsson@farmbio.uu.se>, Andrew Hooker
+        <andrew.hooker@farmbio.uu.se> and Mats Karlsson
+        <mats.karlsson@farmbio.uu.se>
+Maintainer: Andrew Hooker <andrew.hooker@farmbio.uu.se>
+Depends: R (>= 2.2.0), lattice, grid, Hmisc, gam, methods, xpose4data
+        (>= 4.3.0), xpose4generic (>= 4.3.0), xpose4specific (>=
+        4.3.0), xpose4classic (>= 4.3.0)
+Description: Xpose is collection of packages to be used as a model
+        building aid for non-linear mixed effects (population) analysis
+        using NONMEM. It facilitates data set checkout, exploration and
+        visualization, model diagnostics, candidate covariate
+        identification and model comparison. xpose4 is a package that
+        links the other 4 packages together.
+LazyLoad: yes
+LazyData: yes
+License: LGPL (>= 3)
+URL: http://xpose.sourceforge.net
+Copyright: 1998-2004 E. Niclas Jonsson and Mats Karlsson. 2005-2008
+        Andrew C. Hooker, Justin J. Wilkins, Mats O. Karlsson and E.
+        Niclas Jonsson. 2009-2010 Andrew C. Hooker, Mats O. Karlsson
+        and E. Niclas Jonsson.
+Packaged: 2010-10-23 13:43:48 UTC; Andrew Hooker
+Repository: CRAN
+Date/Publication: 2010-10-23 19:19:28

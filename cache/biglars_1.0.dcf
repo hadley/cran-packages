@@ -1,0 +1,17 @@
+Package: biglars
+Type: Package
+Title: Scalable Least-Angle Regression and Lasso
+Version: 1.0
+Date: Mon Jan 04 14:00:00 PDT 2010
+Author: Mark Seligman, Chris Fraley, Tim Hesterberg
+Maintainer: Mark Seligman <Mark.Seligman@insilicos.com>
+Description: Least-angle regression, lasso and stepwise regression for
+        numeric datasets in which the number of observations is greater
+        than the number of predictors.  The functions can be used with
+        the ff library to accomodate datasets that are too large to be
+        held in memory.
+Depends: R (>= 2.10), ff
+License: GPL (>= 2)
+Packaged: 2010-01-05 09:52:40 UTC; hornik
+Repository: CRAN
+Date/Publication: 2010-01-05 10:05:48

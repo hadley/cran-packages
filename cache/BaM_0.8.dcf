@@ -1,0 +1,12 @@
+Package: BaM 
+Version: 0.8
+Date: 2008-10-03
+Author:Jeff Gill <jgill@wustl.edu>
+Maintainer: Jeff Gill <jgill@wustl.edu>
+Title: Functions and datasets for books by Jeff Gill.
+Description: Books is "Bayesian Methods: A Social and Behavioral Sciences Approach, Second Edition published by CRC Press, 2007"
+Depends: R (>= 1.4.1), bayesm, coda, MASS, stats, mice, survival, foreign,nnet
+License: GPL 
+URL: jgill.wustl.edu
+LazyData: yes
+Packaged: Sun Oct  5 07:33:22 2008; rapkin

@@ -1,0 +1,20 @@
+Package: hwriterPlus
+Type: Package
+Title: hwriterPlus: Extending the hwriter Package
+Version: 1.0-1
+Date: 2012-10-22
+Author: David Scott <d.scott@auckland.ac.nz>
+Maintainer: David Scott <d.scott@auckland.ac.nz>
+Depends: R (>= 2.10.0), hwriter, TeachingDemos, RUnit
+Suggests: xtable
+Description: This package extends the package hwriter providing
+        facilities such as the inclusion of output from R, the results
+        of an R session, the display of mathematical expressions using
+        LaTeX notation and the incorporation of SVG graphical objects.
+        It uses MathJax to display mathematical expressions, in
+        contrast to R2HTML which uses MathML.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-23 15:28:55 UTC; dsco036
+Repository: CRAN
+Date/Publication: 2012-10-23 16:44:58

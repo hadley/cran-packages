@@ -1,0 +1,16 @@
+Package: arfima
+Version: 1.2-5
+Date: 2013-04-03
+Title: Fractional ARIMA Time Series Modeling
+Author: Justin Q. Veenstra, A.I. McLeod
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.14.0), ltsa, parallel
+Description: Simulates, fits, and predicts long-memory and
+        anti-persistent time series, possibly mixed with ARMA,
+        regression, transfer-function components. Exact methods (MLE,
+        forecasting simulation) are used.
+License: GPL (>= 2)
+Packaged: 2013-04-03 14:37:43 UTC; Aim
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-03 17:54:05

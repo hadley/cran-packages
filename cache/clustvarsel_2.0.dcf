@@ -1,0 +1,18 @@
+Package: clustvarsel
+Type: Package
+Version: 2.0
+Date: 2013-10-25
+Title: Variable Selection for Model-Based Clustering
+Description: A function which implements variable selection methodology for model-based clustering which allows to find the (locally) optimal subset of variables  in a dataset that have group/cluster information. A greedy or headlong search can be used, either in a forward-backward or backward-forward direction, with or without sub-sampling at the hierarchical clustering stage for starting Mclust models. By default the algorithm uses a sequential search, but parallelization is also available.
+Author: Nema Dean, Adrian E. Raftery, and Luca Scrucca
+Maintainer: Luca Scrucca <luca@stat.unipg.it>
+Depends: R (>= 3.0.0), mclust (>= 4.0), BMA (>= 3.16), foreach,
+        iterators
+Suggests: MASS, parallel, doParallel
+License: GPL (>= 2)
+Repository: CRAN
+ByteCompile: true
+LazyLoad: yes
+Packaged: 2013-10-25 10:02:12 UTC; luca
+NeedsCompilation: no
+Date/Publication: 2013-10-25 13:02:53

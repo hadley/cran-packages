@@ -1,0 +1,16 @@
+Package: cluster
+Version: 1.11.0
+Date: 2006-05-03
+Priority: recommended
+Author: Martin Maechler, based on S original by Peter Rousseeuw <rousse@uia.ua.ac.be>,
+	Anja.Struyf@uia.ua.ac.be and Mia.Hubert@uia.ua.ac.be,
+	and initial R port by Kurt.Hornik@R-project.org
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Title: Cluster Analysis Extended Rousseeuw et al.
+Description: Cluster Analysis, extended original from
+  Peter Rousseeuw, Anja Struyf and Mia Hubert.
+Depends: R (>= 2.2.1), stats, graphics, utils
+LazyLoad: yes
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Wed May 17 09:56:22 2006; maechler

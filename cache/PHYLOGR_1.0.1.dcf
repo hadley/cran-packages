@@ -1,0 +1,10 @@
+Package: PHYLOGR
+Version: 1.0.1
+Date: 2001/12/22
+Title: Functions for phylogenetically based statistical analyses
+Author: Ramón Díaz-Uriarte <ramon-diaz@teleline.es> and Theodore Garland, Jr <tgarland@facstaff.wisc.edu>, <tgarland@citrus.ucr.edu>
+Maintainer: Ramón Díaz-Uriarte <ramon-diaz@teleline.es>
+Depends: R(>= 1.2.0), mva
+Description: Manipulation and analysis of phylogenetically simulated data sets
+	 and phylogenetically based analyses using GLS.
+License: GPL version 2 or newer

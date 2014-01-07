@@ -1,0 +1,27 @@
+Package: mspath
+Title: Multi-state Path-Dependent Models in Discrete Time
+Version: 0.9-9
+Date: 2010-01-23
+Author: Ross Boylan <ross@biostat.ucsf.edu> and Peter Bacchetti
+        <peter@biostat.ucsf.edu>, building on the work of Christopher
+        H. Jackson <chris.jackson@imperial.ac.uk>. Thorsten Ottosen
+        <nesotto@cs.auc.dk> for the ptr_container library. Gennadiy
+        Rozental <rogeeff@fusemail.com> for the Boost Test Library. And
+        the authors of other Boost libraries used by the previous two.
+Description: Functions for fitting path-dependent (non-Markov)
+        multi-state models to categorical processes observed at
+        arbitrary times, optionally with misclassified responses, and
+        covariates on transition or misclassification rates.  Uses
+        discrete-time approximation.  Based on the Jackson's msm
+        package v 0.3.1, with an interface as compatible as possible.
+Maintainer: Ross Boylan <ross@biostat.ucsf.edu>
+Depends: methods, stats
+Suggests: Rmpi
+SystemRequirements: Boost C++ libraries (1.31 or greater)
+License: file LICENSE
+Collate: allGenerics.R checkPoint.R mspathCoefficients.R
+        mspathCalculator.R mspathDistributedCalculator.R mspath.R
+        readingError.R runTime.R subset.R trial.R utils.R zzz.R
+Packaged: 2012-01-15 10:30:44 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-01-15 10:43:49

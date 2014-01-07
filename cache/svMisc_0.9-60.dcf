@@ -1,0 +1,19 @@
+Package: svMisc
+Type: Package
+Title: SciViews GUI API - Miscellaneous functions
+Imports: utils, methods, tools
+Depends: R (>= 2.6.0)
+Suggests: svUnit
+Description: Supporting functions for the GUI API (various utilitary
+        functions)
+Version: 0.9-60
+Date: 2010-09-11
+Author: Philippe Grosjean, Romain Francois & Kamil Barton
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: GPL-2
+LazyLoad: yes
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2010-09-25 07:26:11 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2010-09-27 06:35:38

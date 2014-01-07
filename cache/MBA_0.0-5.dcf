@@ -1,0 +1,11 @@
+Package: MBA
+Version: 0.0-5
+Date: 2009-2-25
+Title: Multilevel B-spline Approximation
+Author: Andrew O. Finley <finleya@msu.edu>, Sudipto Banerjee <sudiptob@biostat.umn.edu>
+Maintainer: Andrew O. Finley <finleya@msu.edu>
+Depends: R (>= 2.8.0), sp
+SystemRequirements: boost headers for smart pointers
+Description: Scattered data interpolation with Multilevel B-Splines
+License: GPL (>= 2)
+Packaged: Wed Mar  4 20:28:02 2009; andy

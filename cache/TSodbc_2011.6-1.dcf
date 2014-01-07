@@ -1,0 +1,19 @@
+Package: TSodbc
+Version: 2011.6-1
+Date: 2011-07-4
+Title: Time Series Database Interface extensions for ODBC
+Description: TSodbc provides an ODBC interface for TSdbi.
+Depends: R (>= 2.8.0), methods, tframe, tframePlus, TSdbi (>=
+        2011.6-1), DBI, RODBC
+Imports: methods, TSdbi (>= 2011.6-1), DBI, RODBC (>= 0.6-0)
+Suggests: zoo, tseries, TShistQuote
+Enhances: TSdbi
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 251
+Date/Publication: 2011-07-25 20:06:32
+Packaged: 2011-07-05 20:47:47 UTC; rforge

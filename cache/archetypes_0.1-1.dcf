@@ -1,0 +1,27 @@
+Package: archetypes
+Type: Package
+Title: Archetypal Analysis
+Version: 0.1-1
+Date: 2009-04-15
+Depends: nnls (>= 1.1)
+Suggests: MASS, vcd
+Author: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>
+Maintainer: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>
+Description: The main function archetypes implements a framework for
+        archetypal analysis supporting arbitary problem solving
+        mechanisms for the different conceputal parts of the algorithm.
+        NOTE: This package is used as real-world test application for
+        the Roxygen documentation system. At the moment, Roxygen does
+        not produce "good" help pages for the everyday use of a
+        package; we refer to the vignette for a consistent package
+        illustration.
+License: GPL (>= 2)
+Revision: 16
+Collate: 'archetypes-barplot.R' 'archetypes-class.R'
+        'archetypes-kit-blocks.R' 'archetypes-kit.R'
+        'archetypes-movie.R' 'pcplot.R' 'archetypes-pcplot.R'
+        'archetypes-plot.R' 'archetypes-screeplot.R'
+        'archetypes-step.R' 'skeletonplot.R'
+Packaged: Wed Apr 15 10:32:09 2009; meugster
+Repository: CRAN
+Date/Publication: 2009-04-15 10:05:58

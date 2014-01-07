@@ -1,0 +1,26 @@
+Package: RSQLite.extfuns
+Type: Package
+Title: Math and String Extension Functions for RSQLite
+Version: 0.0.1
+Date: 2010-05-03
+Author: Seth Falcon <seth@userprimary.net>
+Maintainer: Seth Falcon <seth@userprimary.net>
+Depends: RSQLite (>= 0.9-1)
+LinkingTo: RSQLite
+Description: This package uses SQLite's loadable extension feature to
+        provide a number of additional SQL functions and aggregates.
+        The package is a wrapper of extension functions written by Liam
+        Healy and made available through the SQLite website
+        (http://www.sqlite.org/contrib).  Math: acos, asin, atan, atn2,
+        atan2, acosh, asinh, atanh, difference, degrees, radians, cos,
+        sin, tan, cot, cosh, sinh, tanh, coth, exp, log, log10, power,
+        sign, sqrt, square, ceil, floor, pi. String: replicate,
+        charindex, leftstr, rightstr, ltrim, rtrim, trim, replace,
+        reverse, proper, padl, padr, padc, strfilter. Aggregate: stdev,
+        variance, mode, median, lower_quartile, upper_quartile.
+URL: http://www.sqlite.org/contrib/
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2010-05-29 14:14:45 UTC; seth
+Repository: CRAN
+Date/Publication: 2010-05-30 11:37:46

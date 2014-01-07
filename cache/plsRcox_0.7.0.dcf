@@ -1,0 +1,27 @@
+Package: plsRcox
+Version: 0.7.0
+Date: 2011-02-08
+Depends: R (>= 2.4.0)
+Imports: boot, plsRglm, lars, survival, pls, spls, kernlab
+Enhances:
+Suggests: glcoxph, survivalROC, plsRglm, lars, survival, pls, spls,
+        kernlab, plsRcox, plsdof
+Title: Partial least squares Regression for Cox models and related
+        techniques
+Author: Frederic Bertrand <frederic.bertrand@math.unistra.fr>, Myriam
+        Maumy-Bertrand <myriam.maumy-bertrand@math.unistra.fr>, Nicolas
+        Meyer <Nicolas.Meyer@nmeyer@unistra.fr>.
+Maintainer: Frederic Bertrand <frederic.bertrand@math.unistra.fr>
+Description: This packages provides Partial least squares Regression
+        and various techniques for fitting Cox models in high
+        dimensionnal settings. It allows for Kfold crossvalidation of
+        such models using various criteria, missing data in the
+        eXplanatory variables. Bootstrap confidence intervals
+        constructions are also available.
+License: GPL-3
+Encoding: latin1
+URL: http://www-irma.u-strasbg.fr/~fbertran/
+Classification/MSC: 62N01, 62N02, 62N03, 62N99
+Packaged: 2012-03-30 10:47:07 UTC; Bertrand
+Repository: CRAN
+Date/Publication: 2012-03-30 14:40:28

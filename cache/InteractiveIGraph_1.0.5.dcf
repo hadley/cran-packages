@@ -1,0 +1,14 @@
+Package: InteractiveIGraph
+Type: Package
+Title: interactive network analysis and visualization.
+Version: 1.0.5
+Date: 2013-02-06
+Author: Vygantas Butkus
+Maintainer: Vygantas Butkus <Vygantas.Butkus@gmail.com>
+Depends: igraph, grDevices
+Description: An extension of the package 'igraph'. This package create
+        possibly to work with 'igraph' objects interactively.
+License: GPL-2
+Packaged: 2013-02-06 17:41:59 UTC; Vygantas
+Repository: CRAN
+Date/Publication: 2013-02-06 20:08:14

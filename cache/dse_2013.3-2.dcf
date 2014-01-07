@@ -1,0 +1,30 @@
+Package: dse
+Version: 2013.3-2
+Title: Dynamic Systems Estimation (time series package)
+Description: Package dse provides tools for multivariate, linear,
+        time-invariant, time series models. It includes ARMA and
+        state-space representations, and methods for converting between
+        them. It also includes simulation methods and several
+        estimation functions. The package has functions for looking at
+        model roots, stability, and forecasts at different horizons.
+        The ARMA model representation is general, so that VAR, VARX,
+        ARIMA, ARMAX, ARIMAX can all be considered to be special cases.
+        Kalman filter and smoother estimates can be obtained from the
+        state space model, and state-space model reduction techniques
+        are implemented.  An introduction and User's Guide is available
+        in a vignette.
+Depends: R (>= 2.5.0), tframe (>= 2007.5-3), setRNG (>= 2004.4-1),
+        tfplot
+LazyLoad: yes
+License: GPL-2
+Copyright: 1993-1996,1998-2011 Bank of Canada. 1997,2012 Paul Gilbert
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsanalysis.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsanalysis
+Repository/R-Forge/Revision: 123
+Repository/R-Forge/DateTimeStamp: 2013-03-06 23:24:51
+Date/Publication: 2013-03-07 08:03:12
+Packaged: 2013-03-07 03:16:15 UTC; rforge
+NeedsCompilation: yes

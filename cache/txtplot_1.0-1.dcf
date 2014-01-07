@@ -1,0 +1,16 @@
+Package: txtplot
+Type: Package
+Title: Text based plots
+Version: 1.0-1
+Date: 2011-06-14
+Author: Bjoern Bornkamp
+Maintainer: Bjoern Bornkamp <bbnkmp@gmail.com>
+Description: Provides functions to produce rudimentary ascii graphics
+        directly in the terminal window. Provides a basic plotting
+        function (and equivalents of curve, density, acf and barplot)
+        as well as a boxplot function.
+License: LGPL
+LazyLoad: yes
+Packaged: 2011-06-14 21:33:51 UTC; bjoern
+Repository: CRAN
+Date/Publication: 2011-06-15 18:13:12

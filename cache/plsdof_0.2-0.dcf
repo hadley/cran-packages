@@ -1,0 +1,18 @@
+Package: plsdof
+Type: Package
+Title: Degrees of Freedom and Confidence Intervals for Partial Least
+        Squares Regression
+Version: 0.2-0
+Date: 2010-02-22
+Author: Nicole Kraemer, Mikio L. Braun
+Maintainer: Nicole Kraemer <nkraemer@cs.tu-berlin.de>
+Description: The plsdof package provides Degrees of Freedom estimates
+        and approximate confidence intervals for Partial Least Squares
+        Regression. The package also allows model selection based on
+        various information criteria (aic, bic, gmdl) and based on
+        cross-validation.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-02-22 15:30:16 UTC; kranic
+Repository: CRAN
+Date/Publication: 2010-02-23 07:33:38

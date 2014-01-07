@@ -1,0 +1,17 @@
+Package: vrmlgen
+Type: Package
+Title: Convert 3D data matrices to VRML files
+Version: 1.1
+Date: 2008-12-18
+Author: Enrico Glaab
+Maintainer: <e.glaab@cs.nott.ac.uk>
+Suggests: misc3d
+Description: vrmlgen translates 3D point data, i.e. a numerical matrix
+        with 3 columns and n rows, into a visual representation in the
+        Virtual Reality Markup Language (VRML, filetype .wrl) or
+        alternatively, in the LiveGraphics3D format.
+License: GNU General Public License
+URL: http://www.cs.nott.ac.uk/~egg/vrmlgen
+Packaged: Mon Oct 12 15:52:24 2009; egg
+Repository: CRAN
+Date/Publication: 2009-10-12 16:47:19

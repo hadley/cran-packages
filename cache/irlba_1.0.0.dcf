@@ -1,0 +1,16 @@
+Package: irlba
+Type: Package
+Title: Fast partial SVD by implicitly-restarted Lanczos
+        bidiagonalization
+Version: 1.0.0
+Date: 2011-05-21
+Author: Jim Baglama and Lothar Reichel
+Maintainer: Bryan W. Lewis <blewis@illposed.net>
+Description: A fast and memory-efficient method for computing a few
+        approximate signular values and singular vectors of large
+        matrices.
+License: GPL
+LazyLoad: yes
+Packaged: 2011-05-27 04:22:58 UTC; blewis
+Repository: CRAN
+Date/Publication: 2011-05-27 06:02:57

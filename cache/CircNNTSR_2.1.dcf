@@ -1,0 +1,19 @@
+Package: CircNNTSR
+Type: Package
+Title: CircNNTSR: An R package for the statistical analysis of circular
+        data using nonnegative trigonometric sums (NNTS) models
+Version: 2.1
+Date: 2013-04-05
+Author: Juan Jose Fernandez-Duran and Maria Mercedes Gregorio-Dominguez
+Maintainer: Maria Mercedes Gregorio-Dominguez <mercedes@itam.mx>
+Description: Functions for the analysis of circular data using
+        distributions based on Nonnegative Trigonometric Sums (NNTS).
+        Functions for calculation of densities and distributions, the
+        estimation of parameters, plotting and more
+Depends: stats
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-05-07 02:54:17 UTC; aine
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-07 22:13:41

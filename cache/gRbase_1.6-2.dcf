@@ -1,0 +1,24 @@
+Package: gRbase
+Version: 1.6-2
+Title: A package for graphical modelling in R
+Author: Søren Højsgaard <sorenh@math.aau.dk> with contributions from
+        Claus Dethlefsen <cld@rn.dk> and Clive Bowsher
+        <C.Bowsher@statslab.cam.ac.uk>
+Maintainer: Søren Højsgaard <sorenh@math.aau.dk>
+Description: The gRbase package provides certain general constructs
+        which are used by other graphical modelling packages. This
+        includes 1) the concept of gmData (graphical meta data), 2)
+        several graph algorithms 3) facilities for table operations, 4)
+        functions for testing for conditional independence. gRbase also
+        illustrates how hierarchical log-linear models (hllm) may be
+        implemented.
+License: GPL (>= 2)
+URL: http://people.math.aau.dk/~sorenh/software/gR/
+Depends: R (>= 2.10), MASS, graph, RBGL, igraph, methods, Matrix, Rcpp,
+        RcppEigen
+Suggests: Rgraphviz
+Encoding: latin1
+LinkingTo: Rcpp,RcppEigen
+Packaged: 2012-08-05 21:23:01 UTC; sorenh
+Repository: CRAN
+Date/Publication: 2012-08-06 06:09:51

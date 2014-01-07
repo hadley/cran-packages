@@ -1,0 +1,22 @@
+Package: WGCNA
+Version: 1.25-1
+Date: 2012-11-09
+Title: Weighted Correlation Network Analysis
+Author: Peter Langfelder <Peter.Langfelder@gmail.com> and Steve Horvath
+        <SHorvath@mednet.ucla.edu> with contributions by Chaochao Cai,
+        Jun Dong, Jeremy Miller, Lin Song, Andy Yip, and Bin Zhang
+Maintainer: Peter Langfelder <Peter.Langfelder@gmail.com>
+Depends: R (>= 2.14), stats, impute, grDevices, dynamicTreeCut (>=
+        1.20), utils, flashClust, Hmisc, splines, cluster, reshape,
+        MASS, foreach, doParallel
+Suggests: GO.db, org.Hs.eg.db, org.Mm.eg.db, AnnotationDbi, infotheo,
+        entropy, minet, survival
+ZipData: no
+License: GPL (>= 2)
+Description: Functions necessary to perform Weighted Correlation
+        Network Analysis
+URL:
+        http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/Rpackages/WGCNA/
+Packaged: 2012-11-09 18:47:20 UTC; plangfelder
+Repository: CRAN
+Date/Publication: 2012-11-09 20:25:23

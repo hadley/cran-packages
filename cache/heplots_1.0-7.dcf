@@ -1,0 +1,29 @@
+Package: heplots
+Type: Package
+Title: Visualizing Hypothesis Tests in Multivariate Linear Models
+Version: 1.0-7
+Date: 2013-02-07
+Authors@R: c(person(given = "John", family = "Fox", role="aut"),
+        person(given = "Michael", family = "Friendly", role=c("aut",
+        "cre"), email="friendly@yorku.ca"), person(given = "Georges",
+        family = "Monette", role="ctb"))
+Author: John Fox, Michael Friendly, and Georges Monette
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Depends: R (>= 2.10), car, graphics, stats, MASS
+Suggests: rgl, candisc, effects, reshape, gplots, nlme, lattice,
+        reshape2, corrgram, FRB, animation
+LazyLoad: yes
+LazyData: yes
+Description: Provides HE plot functions for visualizing hypothesis
+        tests in multivariate linear models. They represents
+        sums-of-squares-and-products matrices for linear hypotheses and
+        for error using ellipses (in two dimensions) and ellipsoids (in
+        three dimensions).
+License: GPL (>= 2)
+URL: http://datavis.ca/R/index.php#heplots
+Repository: CRAN
+Repository/R-Forge/Project: heplots
+Repository/R-Forge/Revision: 162
+Repository/R-Forge/DateTimeStamp: 2013-02-07 22:46:54
+Date/Publication: 2013-02-08 20:18:15
+Packaged: 2013-02-07 23:23:48 UTC; rforge

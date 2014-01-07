@@ -1,0 +1,12 @@
+Package: FitAR
+Type: Package
+Title:  Subset AR Model Fitting
+Version: 1.3
+Date: 2008-05-01
+Author: A.I. McLeod and Ying Zhang
+Maintainer: A.I. McLeod <aimcleod@uwo.ca> 
+Depends: R (>= 2.0.0), lattice, leaps, ltsa
+Description: Complete functions are given for model identification, estimation and diagnostic checking for AR and subset AR models. Two types of subset AR models are supported.  One family of subset AR models, denoted by ARp, is formed by taking subet of the original AR coefficients and in the other, denoted by ARz, subsets of the partial autocorrelations are used. The main advantage of the ARz model is its applicability to very large order models.  
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: Fri Feb 29 13:42:14 2008; aim

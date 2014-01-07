@@ -1,0 +1,30 @@
+Package: vegetarian
+Type: Package
+Title: Jost Diversity Measures for Community Data
+Version: 1.0
+Date: 2009-07-20
+Author: Noah Charney, Sydne Record
+Maintainer: Noah Charney <noah@alumni.amherst.edu>
+Description: This package computes diversity for community data sets
+        using the methods outlined by Jost (2006, 2007). While there
+        are differing opinions on the ideal way to calculate diversity
+        (e.g. Magurran 2004), this method offers the advantage of
+        providing diversity numbers equivalents, independent alpha and
+        beta diversities, and the ability to incorporate 'order' (q) as
+        a continuous measure of the importance of rare species in the
+        metrics. The functions provided in this package largely
+        correspond with the equations offered by Jost in the cited
+        papers. The package computes alpha diversities, beta
+        diversities, gamma diversities, and similarity indices.
+        Confidence intervals for diversity measures are calculated
+        using a bootstrap method described by Chao et al. (2008).  For
+        datasets with many samples (sites, plots), sim.table creates
+        tables of all pairwise comparisons possible, and for grouped
+        samples sim.groups calculates pairwise combinations of within-
+        and between-group comparisons.
+License: GPL-2
+LazyLoad: yes
+Depends: stats
+Packaged: Sun Aug 9 11:26:42 2009; Noah
+Repository: CRAN
+Date/Publication: 2009-08-09 18:21:38

@@ -1,0 +1,12 @@
+Package: FrF2
+Title: Package for analysing Fractional Factorial designs with 2-level factors
+Version: 0.5
+Depends: R(>= 2.2.1), BsMD
+Suggests: BHH2
+Date: 2007-12-15
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@tfh-berlin.de>
+Description: This package analyses Fractional Factorial designs with 2-level factors; it is meant for completely aliased designs only, i.e. e.g. not for analysing Plackett-Burman designs with interactions. The package enables convenient main effects and interaction plots for all factors simultaneously and offers an enhanced DanielPlot function (modified from BsMD). Furthermore, the alias structure for Fractional Factorial 2-level designs is output in a more readable format than with the built-in function alias. 
+License: GPL (>=2)
+Encoding: latin1
+Packaged: Sat Dec 15 20:49:14 2007; Grömping

@@ -1,0 +1,25 @@
+Package: pcalg
+Version: 1.1-6
+Date: 2013-03-22
+Author: Markus Kalisch, Martin Maechler, Diego Colombo
+Maintainer: Markus Kalisch <kalisch@stat.math.ethz.ch>
+Title: Estimation of CPDAG/PAG and causal inference using the IDA
+        algorithm
+Description: Standard and robust estimation of the equivalence class of
+        a Directed Acyclic Graph (DAG) via the PC-Algorithm. The
+        equivalence class is represented by its (unique) Completete
+        Partially Directed Acyclic Graph (CPDAG). Furthermore, a PAG
+        instead of a CPDAG can be estimated if latent variables and/or
+        selection variables are assumed to be present. FCI and RFCI are
+        available for estimating PAGs. Functions for causal inference
+        using the IDA algorithm (based on do-calculus of Judea Pearl)
+        are provided for CPDAGs.
+Depends: methods, abind, sfsmisc
+Imports: graph, RBGL, ggm, corpcor, robustbase, graphics, vcd
+Suggests: MASS, Matrix, Rgraphviz
+License: GPL (>= 2)
+URL: http://pcalg.r-forge.r-project.org/
+Packaged: 2013-03-22 14:29:15 UTC; maechler
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-22 15:46:01

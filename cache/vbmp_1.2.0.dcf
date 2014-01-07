@@ -1,0 +1,15 @@
+Package: vbmp
+Type: Package
+Title: Variational Bayesian Multinomial Probit Regression
+Version: 1.2.0
+Date: 2007-06-15
+Author: N Lama <nicola.lama@unina2.it>, MA Girolami <girolami@dcs.gla.ac.uk>
+Maintainer:  N Lama <nicola.lama@unina2.it> 
+Description: Variational Bayesian Multinomial Probit Regression with Gaussian 
+    Process Priors. (Neural Computation 18, 1790-1817 (2006))
+License: GPL version 2 or newer
+Suggest: MNP, mprobit
+Depends: R (>= 2.4.1)
+biocViews: Statistics,Classification
+URL: http://www.dcs.gla.ac.uk/~girolami
+Packaged: Fri Jun 22 11:54:34 2007; hornik

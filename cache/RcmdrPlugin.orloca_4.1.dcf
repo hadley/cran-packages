@@ -1,0 +1,19 @@
+Package: RcmdrPlugin.orloca
+Type: Package
+Title: orloca Rcmdr Plug-in
+Version: 4.1
+Date: 2013-01-20
+Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and
+        Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Depends: orloca (>= 4.1), orloca.es (>= 4.1)
+Imports: Rcmdr
+Description: This package provides a GUI for the orloca package, it is
+        developed as an Rcmdr plug-in.
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: yes
+URL: http://knuth.uca.es/orloca
+Packaged: 2013-01-20 18:10:27 UTC; mmarquez
+Repository: CRAN
+Date/Publication: 2013-01-21 07:48:53

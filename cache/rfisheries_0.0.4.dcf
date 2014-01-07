@@ -1,0 +1,22 @@
+Package: rfisheries
+Title: R interface for fisheries data
+Version: 0.0.4
+Date: 2013-08-01
+Authors@R: c(person("Karthik", "Ram", role = c("aut", "cre"), email =
+    "karthik.ram@gmail.com"), person("Carl", "Boettiger", role = "aut"),
+    person("Andrew", "Dyck", role = "aut"))
+Maintainer: Karthik Ram <karthik.ram@gmail.com>
+Description: A programmatic interface to openfisheries.org
+Depends: R (>= 2.15), plyr, RCurl, RJSONIO
+Imports: RCurl
+URL: http://www.github.com/ropensci/rfisheries
+BugReports: http://www.github.com/ropensci/rfisheries/issues/new
+License: CC0
+Collate: 'country_codes.R' 'landings.R' 'species_codes.R'
+Packaged: 2013-08-02 21:35:06 UTC; karthik
+Author: Karthik Ram [aut, cre],
+  Carl Boettiger [aut],
+  Andrew Dyck [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-03 00:23:25

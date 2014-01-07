@@ -1,0 +1,20 @@
+Package: rangeMapper
+Version: 0.0-2
+Date: 2010-Mar-10
+Title: A package to manipulate species range (extent-of-occurrence)
+        maps
+Author: Mihai Valcu <valcu@orn.mpg.de>, James Dale
+        <J.Dale@massey.ac.nz>
+Maintainer: Mihai Valcu <valcu@orn.mpg.de>
+Depends: R (>= 2.10.0), utils, RSQLite, sp, rgdal, maptools, lattice,
+        RColorBrewer
+Suggests: tcltk, tcltk2, pixmap
+SystemRequirements: Bwidget
+Description: A package to manipulate species range
+        (extent-of-occurrence) maps, mainly tools for easy generation
+        of biodiversity (species richness) or life-history traits maps.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2010-03-18 13:34:25 UTC; valcu
+Repository: CRAN
+Date/Publication: 2010-03-18 14:25:26

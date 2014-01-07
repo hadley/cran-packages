@@ -1,0 +1,18 @@
+Package: npmv
+Type: Package
+Title: Nonparametric Comparison of Multivariate Samples
+Version: 1.0
+Date: 2012-07-03
+Author: Woodrow Burchett
+Maintainer: Woodrow Burchett <woodrow.burchett@uky.edu>
+Description: Performs analysis of one-way multivariate data, for small
+        samples using Nonparametric techniques. Using approximations
+        for ANOVA Type, Wilk's Lambda, Lawley Hotelling, and Bartlett
+        Nanda Pillai Test statics, the package compares the multvariate
+        distributions for a single explanatory variable.  The
+        comparision is also performed using a permutation test for each
+        of the four test statistics.
+License: GPL-2
+Packaged: 2012-07-28 22:17:13 UTC; Aman
+Repository: CRAN
+Date/Publication: 2012-07-29 18:17:48

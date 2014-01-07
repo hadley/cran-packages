@@ -1,0 +1,13 @@
+Package: R.matlab
+Version: 1.0.2
+Date: 2005-05-03
+Title: Read and write of MAT files together with R-to-Matlab connectivity
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R.oo
+Description: This package provides methods to read and write MAT files.  It also makes it possible to communicate (evaluate code, send and retrieve objects etc.) with Matlab v6 or higher running locally or on a remote host.  The auxillary Java class provides static methods to read and write Java data types.
+License: GPL version 2 or newer
+URL: http://www.braju.com/R/
+DevelURL: http://www.maths.lth.se/help/R/
+LazyLoad: TRUE
+Packaged: Tue May  3 15:52:54 2005; hb

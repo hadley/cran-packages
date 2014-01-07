@@ -1,0 +1,32 @@
+Package: termstrc
+Type: Package
+Title: Zero-coupon Yield Curve Estimation
+Version: 1.3.7
+Date: 2013-11-03
+Author: Robert Ferstl, Josef Hayden
+Maintainer: Josef Hayden <josef.hayden@gmail.com>
+Description: The package offers a wide range of functions for term
+        structure estimation based on static and dynamic coupon bond
+        and yield data sets. The implementation focuses on the cubic
+        splines approach of McCulloch (1971, 1975) and the Nelson and
+        Siegel (1987) method with extensions by Svensson (1994),
+        Diebold and Li (2006) and De Pooter (2007). We propose a
+        weighted constrained optimization procedure with analytical
+        gradients and a globally optimal start parameter search
+        algorithm. Extensive summary statistics and plots are provided
+        to compare the results of the different estimation methods.
+        Several demos are available using data from European government
+        bonds and yields.
+URL: http://R-Forge.R-project.org/projects/termstrc/
+LazyLoad: yes
+Depends: R (>= 3.0.0)
+Imports: lmtest, Rcpp (>= 0.10.6), rgl, sandwich, urca, zoo
+LinkingTo: Rcpp
+License: GPL (>= 2)
+Packaged: 2013-11-03 19:15:41 UTC; rforge
+Repository: CRAN
+Repository/R-Forge/Project: termstrc
+Repository/R-Forge/Revision: 637
+Repository/R-Forge/DateTimeStamp: 2013-11-03 18:53:03
+Date/Publication: 2013-11-04 20:20:11
+NeedsCompilation: yes

@@ -1,0 +1,13 @@
+Package: bs 
+Type: Package 
+Title: Package for the Birnbaum-Saunders distribution 
+Version: 1.0 
+Date: 2007-09-03 
+Author: Víctor Leiva <victor.leiva@uv.cl>, Hugo Hernández <hugo.hernande@msn.com>, and Marco Riquelme <mriquelm@ucm.cl>.
+Maintainer: Hugo Hernández <hugo.hernandez@msn.com> 
+Depends: R (>= 1.8.0), nlme, methods
+Description: A collection of utilities for the Birnbaum-Saunders distribution (BSD).
+License: GPL
+Encoding: latin1
+URL: http://www.r-project.org
+Packaged: Thu Sep 27 09:27:12 2007; hornik

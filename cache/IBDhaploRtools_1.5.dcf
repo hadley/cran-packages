@@ -1,0 +1,22 @@
+Package: IBDhaploRtools
+Type: Package
+Title: Functions for the Analysis of IBD Haplo output
+Version: 1.5
+Date: 2013-03-18
+Author: Marshall Brown
+Maintainer: Fiona Grimson <fgrimson@uw.edu>
+Description: IBDhaploRtools consists of several functions to analyze,
+        plot, and store the output of running IBD_Haplo software
+        package. More information regarding IBD_Haplo can be found at
+        www.stat.washington.edu/thompson/Genepi/pangaea.shtml.
+License: GPL-3
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: morgan-rtools
+Repository/R-Forge/Revision: 13
+Repository/R-Forge/DateTimeStamp: 2013-03-20 21:44:00
+Date/Publication: 2013-03-21 07:41:03
+Packaged: 2013-03-20 23:15:45 UTC; rforge
+Depends: R (>= 2.10)
+NeedsCompilation: no

@@ -1,0 +1,32 @@
+Package: LCAextend
+Type: Package
+Title: Latent Class Analysis (LCA) with familial dependence in extended
+        pedigrees
+Version: 1.0
+Date: 2008-12-20
+Author: Arafat TAYEB <arafat.tayeb@ircm.qc.ca>, Alexandre BUREAU
+        <alexandre.bureau@msp.ulaval.ca> and Aurelie Labbe
+        <aurelie.labbe@mcgill.ca>
+Maintainer: Arafat TAYEB <arafat.tayeb@ircm.qc.ca>
+Depends: boot, mvtnorm, Design, kinship
+Description: This package performs a Latent Class Analysis of
+        phenotypic measurements in pedigrees and a model selection
+        based on one of two methods: likelihood-based cross-validation
+        and Bayesian Information Criterion. It computes also individual
+        and triplet child-parents weights in a pedigree using an
+        upward-downward algorithm. It takes into account the familial
+        dependence defined by the pedigree structure by considering
+        that a class of a child depends on his parents classes via
+        triplet-transition probabilities of the classes. The package
+        handles the case where measurements are available on all
+        subjects and the case where measurements are available only on
+        symptomatic (i.e. affected) subjects. Distributions for
+        discrete (or ordinal) and continuous data are currently
+        implemented. The package can deal with missing data.
+License: GPL
+LazyLoad: yes
+URL: http://www.r-project.org,
+        http://www.crulrg.ulaval.ca/pages_perso_chercheurs/bureau_a/
+Packaged: 2011-02-03 19:09:17 UTC; labbe
+Repository: CRAN
+Date/Publication: 2011-02-04 06:44:05

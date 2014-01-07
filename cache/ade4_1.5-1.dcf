@@ -1,0 +1,24 @@
+Package: ade4
+Version: 1.5-1
+Date: 2012/09/14
+Title: Analysis of Ecological Data : Exploratory and Euclidean methods
+        in Environmental sciences
+Author: Daniel Chessel, Anne-Beatrice Dufour
+        <anne-beatrice.dufour@univ-lyon1.fr> and Stephane Dray
+        <stephane.dray@univ-lyon1.fr>, with contributions from Thibaut
+        Jombart, Jean R. Lobry, Sebastien Ollier, Sandrine Pavoine and
+        Jean Thioulouse.
+Maintainer: Simon Penel <simon.penel@univ-lyon1.fr>
+Suggests: waveslim, splancs, MASS, maptools, spdep, pixmap, ape,
+        deldir, ade4TkGUI
+Depends: R (>= 2.10)
+Description: Multivariate data analysis and graphical display.
+License: GPL (>= 2)
+URL: http://pbil.univ-lyon1.fr/ADE-4, Mailing list:
+        http://listes.univ-lyon1.fr/wws/info/adelist
+Repository: CRAN
+Repository/R-Forge/Project: ade4
+Repository/R-Forge/Revision: 575
+Repository/R-Forge/DateTimeStamp: 2012-09-14 11:23:45
+Date/Publication: 2012-09-14 16:47:07
+Packaged: 2012-09-14 14:19:35 UTC; rforge

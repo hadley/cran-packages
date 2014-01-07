@@ -1,0 +1,16 @@
+Package: FitARMA
+Title: FitARMA: Fit ARMA or ARIMA using fast MLE algorithm
+Version: 1.6
+Date: 2013-09-26
+Author: A.I. McLeod
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0), FitAR
+Description: Implements fast maximum likelihood algorithm for fitting ARMA time series. Uses S3 methods print, summary, fitted, residuals. Fast exact Gaussian ARMA simulation. 
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2013-09-27 14:28:53 UTC; IanMcLeod
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-27 19:29:04

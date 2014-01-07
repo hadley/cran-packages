@@ -1,0 +1,18 @@
+Package: polyphemus
+Type: Package
+Title: Genome wide analysis of RNA Polymerase II-based ChIP Seq data.
+Version: 0.3.4
+Date: 2010-08-11
+Author: Martial Sankar, supervised by Marco Mendoza and Hinrich Gronenmeyer
+Maintainer: Martial Sankar <martial.sankar@unil.ch>
+Description: Polyphemus is able to combine signal intensity (count) profiles, with significant peak annotations in order to identify coding regions of interest for the comparative analysis or two or more samples. The algorithm (i) identifies significant coding regions, (ii) performs normalization, (iii) compares several profiles and (iv) provides matrix output suitable for further clustering analysis.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.14.0)
+OS_type: unix
+Imports: IRanges, zoo, RUnit, parallel, R.utils, limma
+URL:
+        http://www-igbmc.u-strasbg.fr/recherche/Prog_FGC/Eq_HGron/index.html
+Packaged: 2011-11-22 22:12:06 UTC; root
+Repository: CRAN
+Date/Publication: 2011-11-22 22:21:15

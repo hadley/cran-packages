@@ -1,0 +1,18 @@
+Package: MALDIquant
+Version: 0.1
+Date: 2011-02-22
+Title: Quantitative analysis of MALDI-TOF MS data
+Author: Sebastian Gibb
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+Depends: R (>= 2.9.0), methods
+Suggests: readBrukerFlexData, readMzXmlData
+Description: Quantitative analysis of MALDI-TOF MS data This package
+        should provide an easy framework for quantitative analysis of
+        MALDI-TOF mass spectrometry data. Up to now only importing and
+        plotting of a single mass spectrum are supported.
+License: GPL (>= 3)
+URL: http://www.sebastiangibb.de/maldiquant
+LazyLoad: yes
+Packaged: 2011-02-22 17:45:14 UTC; sgibb
+Repository: CRAN
+Date/Publication: 2011-02-22 18:22:17

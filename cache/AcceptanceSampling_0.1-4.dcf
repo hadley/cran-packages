@@ -1,0 +1,15 @@
+Package: AcceptanceSampling
+Type: Package
+Title: Creation and evaluation of Acceptance Sampling Plans
+Version: 0.1-4
+Date: 2008-05-14
+Author: Andreas Kiermeier <Kiermeier.Andreas@saugov.sa.gov.au>
+Maintainer: Andreas Kiermeier <Kiermeier.Andreas@saugov.sa.gov.au>
+Description: This package provides functionality for creating and
+	evaluating acceptance sampling plans. Plans can be single,
+	double or multiple sampling plans
+Depends: methods, R(>= 2.4.0), stats
+Imports: graphics
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: Fri May 16 20:59:20 2008; sfvlaxk

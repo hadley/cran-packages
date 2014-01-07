@@ -1,0 +1,12 @@
+Package: clim.pact
+Version: 2.1-5
+Date: January 12 2005
+Title: Climate analysis and downscaling package for monthly and daily data.
+Author: Rasmus E. Benestad <rasmus.benestad@met.no>
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: ncdf, akima, R (>= 2.0.0)
+Description: The package contains R functions for retrieving data, making climate analysis and downscaling of monthly mean and daily mean global climate scenarios.
+License: GPL version 2 or newer. The use should be acknowledged in publication acknowledgement: .. "results were obtained using clim.pact by Benestad (The Norwegian Meteorological Institute and the Norwegian Research Council's RegClim programme)."
+URL: http://www.r-project.org http://cran.r-project.org
+ZipData: no 
+Packaged: Wed Jan 12 10:09:46 2005; rasmusb

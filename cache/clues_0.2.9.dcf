@@ -1,0 +1,20 @@
+Package:	clues
+Version:	0.2.9
+Date:		2009-02-12
+Title:		Clustering Method Based on Local Shrinking
+Author:		Fang Chang <changf@mathstat.yorku.ca>,
+                Vincent Carey <stvjc@channing.harvard.edu>,
+                Weiliang Qiu <stwxq@channing.harvard.edu>, 
+		Ruben H. Zamar <ruben@stat.ubc.ca>,
+                Ross Lazarus <ross.lazarus@channing.harvard.edu>,
+		Xiaogang Wang <stevenw@mathstat.yorku.ca>
+Maintainer:	Fang Chang <changf@mathstat.yorku.ca>
+Depends:	R (>= 2.8.1), stats
+Description:	The package contains functions for automatically estimating 
+                the number of clusters and geting the final cluster partition 
+                without any input parameter except the stopping rule for 
+                convergence. The package also provides functions to evaluate 
+                and compare the performances of partitions of a data set 
+                both numerically and graphically. 
+License:	GPL version 2 or newer
+Packaged: Thu Feb 12 11:12:09 2009; stwxq

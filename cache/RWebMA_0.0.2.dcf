@@ -1,0 +1,15 @@
+Package: RWebMA
+Type: Package
+Title: RWebMA
+Version: 0.0.2
+Date: 2010-06-29
+Author: Yohei Sato
+Maintainer: Yohei Sato <yokkuns@tkul.jp>
+Description: This package is an interface for R of WebMA of Yahoo!
+        Japan. http://developer.yahoo.co.jp/webapi/jlp/ma/v1/parse.html
+License: BSD
+LazyLoad: yes
+Depends: XML
+Packaged: 2010-06-29 20:10:14 UTC; yokkuns
+Repository: CRAN
+Date/Publication: 2010-06-30 11:57:26

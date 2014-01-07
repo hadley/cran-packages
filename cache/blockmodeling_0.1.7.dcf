@@ -1,0 +1,13 @@
+Package: blockmodeling
+Type: Package
+Title: An R package for Generalized and classical blockmodeling of valued networks
+Version: 0.1.7
+Date: 2008-10-17
+Imports: stats 
+Suggests: sna, Matrix
+Author: Ales Ziberna
+Maintainer: Ales Ziberna <ales.ziberna@gmail.com>
+Description: The package is primarly ment as an implementation of Generalized blockmodeling for valued networks. In addition, measurese of similarity or dissimilarity based on structural equivalence and regular equivalence (REGE algorithem) can be computed and partitioned matrices can be ploted.
+License: GPL version 2 or newer
+Encoding: UTF-8
+Packaged: Mon Nov 17 13:48:05 2008; Ales_Ziberna

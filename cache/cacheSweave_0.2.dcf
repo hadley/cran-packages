@@ -1,0 +1,12 @@
+Package: cacheSweave
+Title: Tools for caching Sweave computations
+Version: 0.2
+Date: 2007-01-31
+LazyLoad: yes
+Depends: R (>= 2.4.1), digest, stashR
+Imports: utils
+Author: Roger D. Peng <rpeng@jhsph.edu>
+Maintainer: Roger D. Peng <rpeng@jhsph.edu>
+Description: Tools for caching Sweave computations and storing them in key-value databases
+License: GNU GPL (version 2 or later)
+Packaged: Wed Jan 31 10:12:13 2007; rpeng

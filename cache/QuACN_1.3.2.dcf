@@ -1,0 +1,17 @@
+Package: QuACN
+Type: Package
+Title: This package offers a set of topological network measures to
+        analyze complex Networks structurally.
+Version: 1.3.2
+Date: 2010-05-27
+Author: Laurin Mueller
+Maintainer: Laurin Mueller <laurin.mueller@umit.at>
+Description: Quantitative Analysis of Complex Networks. This package
+        offers a set of topological network measures to analyze complex
+        Networks structurally.
+License: LGPL
+LazyLoad: yes
+Depends: graph, RBGL, igraph (>= 0.5.5-1), combinat, Rmpfr
+Packaged: 2011-08-16 12:56:32 UTC; laurin
+Repository: CRAN
+Date/Publication: 2011-08-17 04:57:05

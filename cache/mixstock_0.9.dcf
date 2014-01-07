@@ -1,0 +1,11 @@
+Package: mixstock
+Version: 0.9
+Date: 2008/05/14
+Title: functions for mixed stock analysis
+Author: Ben Bolker <bolker@zoo.ufl.edu>
+Maintainer: Ben Bolker <bolker@zoo.ufl.edu>
+Depends: coda, plotrix, abind, lattice
+Suggests: R2WinBUGS
+Description: mixed stock analysis functions
+License: GPL
+Packaged: Tue Jul  8 18:50:39 2008; hornik

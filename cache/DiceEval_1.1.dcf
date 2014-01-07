@@ -1,0 +1,16 @@
+Package: DiceEval
+Title: Construction and evaluation of metamodels
+Version: 1.1
+Date: 2011-08-24
+Author: D. Dupuy and C. Helbert
+Maintainer: D. Dupuy <dupuy@emse.fr>
+Description: Estimation, validation and prediction of metamodels
+        (linear models, additive models, MARS,PolyMARS and Kriging)
+License: GPL-3
+Depends: DiceKriging
+Suggests: gam, akima, mda, polspline
+Encoding: latin1
+URL: http://emse.dice.fr/
+Packaged: 2011-08-25 21:02:02 UTC; dupuy
+Repository: CRAN
+Date/Publication: 2011-08-26 05:28:18

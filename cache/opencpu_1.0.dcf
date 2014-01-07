@@ -1,0 +1,29 @@
+Package: opencpu
+Type: Package
+Title: OpenCPU framework for embedded statistical computation and
+        reproducible research.
+Version: 1.0
+Date: 2013-08-24
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+License: Apache License (== 2.0)
+URL: http://www.opencpu.org
+BugReports: http://github.com/jeroenooms/opencpu/issues
+Depends: R (>= 3.0.0)
+Imports: parallel, tools, stats, evaluate (>= 0.4.7), httpuv (>= 1.1),
+        knitr (>= 1.4), RJSONIO, devtools, httr, brew, pander
+Suggests: RAppArmor
+SystemRequirements: latex, pandoc, apparmor
+Description: The OpenCPU framework exposes a web API interfacing R, Latex and
+    Pandoc. This API is used for example to integrate statistical functionality
+    into systems, share and execute scripts or reports on centralized servers,
+    and build R based "apps". The OpenCPU server can run either as a
+    single-user server inside the interactive R session (using httpuv), or as a
+    cloud server that builds on Linux and rApache. The current R package forms
+    the core of the framework. When loaded in R, it automatically initiates the
+    single-user server and displays the web address in the console. For more
+    information, visit the OpenCPU website.
+Packaged: 2013-08-24 12:31:09 UTC; jeroen
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-24 15:31:05

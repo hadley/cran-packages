@@ -1,0 +1,16 @@
+Package: LLdecomp
+Type: Package
+Title: Decomposes a set of variables into cliques and separators.
+Version: 1.0
+Date: 2009-05-12
+Author: Corinne Dahinden
+Maintainer: Corinne Dahinden <dahinden@stat.math.ethz.ch>
+Description: Decomposes a set of variables into cliques and separators
+        depending on their association which is measured using Random
+        Forests.
+Depends: randomForest,igraph, gRain
+License: GPL
+LazyLoad: yes
+Packaged: 2009-09-18 07:40:33 UTC; kalisch
+Repository: CRAN
+Date/Publication: 2009-09-18 20:17:49

@@ -1,0 +1,10 @@
+Package: Icens
+Version: 1.2.0
+Author: R. Gentleman and Alain Vandal .
+Description: Many functions for computing the NPMLE for censored and
+        truncated data.
+Title: NPMLE for Censored and Truncated Data
+Depends: survival
+License: GPL 2
+Maintainer: Robert Gentleman <rgentlem@fhcrc.org>
+Packaged: Sun Oct 16 19:34:30 2005; biocbuild

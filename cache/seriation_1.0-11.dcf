@@ -1,0 +1,41 @@
+Package: seriation
+Type: Package
+Title: Infrastructure for seriation
+Authors@R: c(
+	person("Michael", "Hahsler", role = c("aut", "cre", "cph"),
+	    email = "mhahsler@lyle.smu.edu"),
+	person("Christian", "Buchta", role = c("aut", "cph")),
+	person("Kurt", "Hornik", role = c("aut", "cph")),
+	person("Fionn", "Murtagh", role = c("ctb", "cph")),
+	person("Michael", "Brusco", role = c("ctb", "cph")),
+	person("Stephanie", "Stahl", role = c("ctb", "cph")),
+	person("Hans-Friedrich", "Koehn", role = c("ctb", "cph")))
+Version: 1.0-11
+Date: 2013-09-06
+Description: Infrastructure for seriation with an implementation of several
+    seriation/sequencing techniques to reorder matrices, dissimilarity
+    matrices, and dendrograms. Also contains some visualizations techniques
+    based on seriation.
+Classification/ACM: G.1.6, G.2.1, G.4
+URL: http://R-Forge.R-project.org/projects/seriation/,
+        http://lyle.smu.edu/IDA/seriation/
+Depends: R (>= 2.14.0), stats, cluster, TSP, gclus, grid, colorspace
+Suggests: MASS, biclust
+License: GPL-2
+Copyright: The code in src/bea.f is Copyright (C) 1991 F. Murtagh;
+        src/bbwrcg.f, src/arsa.f and src/bburcg.f are Copyright (C)
+        2005 M. Brusco, H.F. Koehn, and S. Stahl. All other code is
+        Copyright (C) Michael Hahsler, Christian Buchta, and Kurt
+        Hornik.
+Packaged: 2013-09-06 18:01:05 UTC; hahsler
+Author: Michael Hahsler [aut, cre, cph],
+  Christian Buchta [aut, cph],
+  Kurt Hornik [aut, cph],
+  Fionn Murtagh [ctb, cph],
+  Michael Brusco [ctb, cph],
+  Stephanie Stahl [ctb, cph],
+  Hans-Friedrich Koehn [ctb, cph]
+Maintainer: Michael Hahsler <mhahsler@lyle.smu.edu>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-06 20:45:51

@@ -1,0 +1,14 @@
+Package: mvoutlier
+Version: 1.9.4
+Date: 2011-11-07
+Title: Multivariate outlier detection based on robust methods
+Author: Peter Filzmoser <P.Filzmoser@tuwien.ac.at> and
+	Moritz Gschwandtner <e0125439@student.tuwien.ac.at>
+Maintainer: Peter Filzmoser <P.Filzmoser@tuwien.ac.at>
+Depends: robustbase, compositions, robCompositions, R (>= 2.10)
+Description: This packages was made for multivariate outlier detection.
+License: GPL (>= 3)
+URL: http://www.statistik.tuwien.ac.at/public/filz/
+Packaged: 2011-11-07 08:27:38 UTC; root
+Repository: CRAN
+Date/Publication: 2011-11-07 14:05:30

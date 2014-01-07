@@ -1,0 +1,21 @@
+Package: rtape
+Maintainer: Miron B. Kursa <M.Kursa@icm.edu.pl>
+License: GPL-2
+Title: Manage and manipulate large collections of R objects stored as
+        tape-like files
+Type: Package
+LazyLoad: yes
+Author: Miron B. Kursa
+Description: Storing huge data in RData format causes problems because
+        of the nessesity to load the whole file to the memory in order
+        to access and manipulate objects inside such file; rtape is a
+        simple solution to this problem. The package contains serveral
+        wrappers of R built-in serialize/unserialize mechanism allowing
+        user to quickly append objects to a tape-like file and later
+        iterate over them requiring only one copy of each stored object
+        to reside in memory a time.
+Version: 1.0
+Date: 2011-05-10
+Packaged: 2011-05-10 21:31:25 UTC; mbq
+Repository: CRAN
+Date/Publication: 2011-05-11 07:19:25

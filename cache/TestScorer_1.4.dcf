@@ -1,0 +1,19 @@
+Package: TestScorer
+Type: Package
+Title: GUI for entering test items and obtaining raw and transformed
+        scores
+Version: 1.4
+Date: 2013-11-29
+Depends: tcltk
+Author: Manel Salamero
+Maintainer: Manel Salamero <manelsalamero@gmail.com>
+Description: GUI for entering test items and obtaining raw
+   and transformed scores. The results are shown on the
+   console and can be saved to a tabular text file for further
+   statistical analysis. The user can define his own tests and
+   scoring procedures through a GUI.
+License: GPL-2
+Packaged: 2013-11-29 14:28:14 UTC; ms
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-29 15:37:32

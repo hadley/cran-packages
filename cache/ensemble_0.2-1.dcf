@@ -1,0 +1,17 @@
+Package: ensemble
+Version: 0.2-1
+Date: 2000/12/07
+Title: Ensembles of Tree Classifiers
+Author: Zhilong Yuan <zhilong@stat.wisc.edu>. 
+Maintainer: Zhilong Yuan <zhilong@stat.wisc.edu>
+Description: This is part of the semester project for Statistics 771: 
+  Statistical Computing at the University of of Wisconsin - Madison.
+  The package is built on the rpart library developed by Terry M Therneau
+  and Beth Atkinson<atkinson@mayo.edu> 
+Depends: R (>= 1.2.0), rpart
+License: GPL version 2 or later. This is still a crude software and need
+  much improvement. You are welcome to use it or change the code or what-
+  soever. Of course if there is anything wrong with the code, or you somehow
+  encounter damage to your reputation/wallet because of its use, you
+  are not allowed to sue me.
+Packaged: Wed Jan 23 19:33:22 2008; hornik

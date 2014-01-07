@@ -1,0 +1,16 @@
+Package: LOST
+Type: Package
+Title: Missing morphometric data simulation and estimation
+Version: 1.1
+Date: 2013-09-26
+Author: J. Arbour and C. Brown
+Maintainer: Jessica Arbour <jessica.arbour@utoronto.ca>
+Imports: gdata, shapes, e1071, pcaMethods, MASS, miscTools
+Description: LOST includes functions for simulating missing morphometric
+	data randomly, with taxonomic bias and with anatomical bias. LOST also 
+	includes functions for estimating linear and geometric morphometric data. 
+License: GPL (>= 2)
+Packaged: 2013-10-10 20:08:46 UTC; Jessica
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-11 01:36:31

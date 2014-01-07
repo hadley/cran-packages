@@ -1,0 +1,18 @@
+Package: expoTree
+Type: Package
+Title: Calculate density dependent likelihood of a phylogenetic tree
+Version: 0.8
+Date: 2013-01-22
+Author: Gabriel E Leventhal, partly adapted from MATLAB code by Awad H.
+        Al-Mohy and using the routines DLNAC1 and DLARPC by Sheung Hun
+        Cheng, and DLAPST from ScaLAPACK.
+Maintainer: Gabriel E Leventhal <gabriel@leventhal.ch>
+Depends: R (>= 2.12.0), pso
+Description: Calculates the density dependent likelihood of a
+        phylogenetic tree. It takes branching and sampling times as an
+        argument and integrates the likelihood function over the whole
+        tree.
+License: BSD
+Packaged: 2013-01-25 07:39:00 UTC; gaberoo
+Repository: CRAN
+Date/Publication: 2013-01-25 08:58:36

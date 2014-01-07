@@ -1,0 +1,18 @@
+Package: malaria.em
+Type: Package
+Title: EM Estimation of Malaria Haplotype Probabilities from Multiply
+        Infected Human Blood Samples
+Version: 1.0
+Date: 2012-02-08
+Author: Xiaohong Li
+Maintainer: Xiaohong Li <xli@bg-medicine.com>
+Description: Using EM algorithm to estimate malaria haplotype
+        probabilities and the number of infections from multiply
+        infected human blood samples. Estimated haplotype probabilities
+        and their standard error are reported.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-02-13 18:51:51 UTC; xli
+Repository: CRAN
+Date/Publication: 2012-02-14 06:57:54

@@ -1,0 +1,19 @@
+Package: randomizeBE
+Type: Package
+Title: Function to create a random list for crossover studies
+Version: 0.2-1
+Date: 2012-09-20
+Author: D. Labes
+Maintainer: D. Labes <detlewlabes@gmx.de>
+Description: Contains a function to randomise subjects, patients in
+        groups of sequences (treatment sequences).  If a blocksize is
+        given, the randomisation will be done within blocks.  The
+        randomisation may be controlled by a Wald-Wolfowitz runs test.
+        The package is mainly intended for randomisation of
+        bioequivalence studies but may be used also for other clinical
+        crossover studies.  Contains a helper function to get the
+        sequences of commonly used designs in BE studies.
+License: GPL (>= 2.0)
+Packaged: 2012-09-20 10:00:23 UTC; dlabes
+Repository: CRAN
+Date/Publication: 2012-09-20 13:42:30

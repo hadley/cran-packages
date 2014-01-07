@@ -1,0 +1,29 @@
+Package: epibase
+Version: 0.1-0
+Date: 2013/05/22
+Title: basic tools for the analysis of disease outbreaks.
+Author: {The Hackout team (In alphabetic order: David Aanensen, Marc
+        Baguelin, Paul Birrell, Simon Cauchemez, Anton Camacho,
+        Caroline Colijn, Anne Cori, Xavier Didelot, Ken Eames,
+        Christophe Fraser, Simon Frost, Niel Hens, Joseph Hugues,
+        Thibaut Jombart, Lulla Opatowski, Oliver Ratmann, Samuel
+        Soubeyrand, Marc Suchard, Jacco Wallinga, Rolf Ypma)}
+Maintainer: Thibaut Jombart <t.jombart@imperial.ac.uk>
+Suggests: EpiEstim
+Depends: R (>= 3.0.0), methods, MASS, ape, adegenet, network,
+        networkDynamic, ggplot2, ggmap, sna, scales, plyr, reshape2,
+        mapproj, RColorBrewer, knitr
+Description: basic tools for the analysis of disease outbreaks.
+License: GPL (>= 2)
+LazyLoad: yes
+VignetteBuilder: knitr
+Collate: 'auxClasses.R' 'generics.R' 'obkContacts.R' 'obkSequences.R'
+        'obkData.R' 'obkData_Accessors.R' 'subset.R' 'obkData_basics.R'
+        'uniqSequences.R' 'dna2uniqSequences.R' 'make.phylo.R'
+        'phylo2ggphy.R' 'plotggMST.R' 'plotggphy.R' 'plot.R'
+        'plotIndividualTimeline.R' 'simuEpi.R' 'utils.R' 'plotGeo.R'
+        'annotatedTreeReader.R' 'zzz.R' 'epibase.R'
+Packaged: 2013-05-26 21:24:54 UTC; thibaut
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-26 23:42:03

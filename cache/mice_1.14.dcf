@@ -1,0 +1,11 @@
+Package: mice
+Version: 1.14
+Date: 9/16/2005
+Title: Multivariate Imputation by Chained Equations
+Author: S. Van Buuren & C.G.M. Oudshoorn [R: peter.malewski@gmx.de]
+Maintainer: Roel de Jong <dejongroel@gmail.com>
+Depends: MASS, nnet, nlme
+Description: Multivariate Imputation by Chained Equations
+License: GPL (version 2)
+URL: http://web.inter.nl.net/users/S.van.Buuren/mi/hmtl/mice.htm
+Packaged: Tue Apr  4 10:59:09 2006; hornik

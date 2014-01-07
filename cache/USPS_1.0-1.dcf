@@ -1,0 +1,13 @@
+Package: USPS
+Title: Unsupervised and Supervised methods of Propensity Score Adjustment for Bias
+Version: 1.0-1
+Date: 2005-10-19
+Author: Bob Obenchain <sunsetstats@earthlink.net> 
+Maintainer: Bob Obenchain <sunsetstats@earthlink.net>
+Depends: R (>= 1.8.0), cluster, lattice
+Description: Identify and display the distribution of Local Treatment Differences (LTDs)
+  and Local Average Treatment Effects (LATEs) in Outcome within Clusters of patients chosen
+  to be relatively well matched on baseline X-covariates.
+License: GPL version 2 or later; sunsetstats@earthlink.net
+URL: http://www.r-project.org, http://www.math.iupui.edu/~indyasa/bobodown.htm
+Packaged: Mon Oct 31 21:34:48 2005; Prince BobO

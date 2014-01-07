@@ -1,0 +1,23 @@
+Package: ipw
+Version: 1.0-10
+Date: 2011-09-10
+Title: Estimate inverse probability weights.
+Author: Willem M. van der Wal <w.m.vd.wal@umcutrecht.nl>
+Maintainer: ORPHANED
+Depends: R (>= 2.0.0), boot, geepack, MASS, nlme, nnet, survey,
+        survival
+Description: Estimate inverse probability weights. These are typically
+        used to perform inverse probability weighting (IPW) to fit a
+        marginal structural model (MSM), to estimate causal effects
+        from observational data. Both data from point treatment
+        situations and longitudinal studies can be used.
+Encoding: latin1
+License: GPL (>= 2)
+Packaged: 2011-09-10 21:17:18 UTC; wwal
+Repository: CRAN
+Date/Publication: 2011-09-11 17:54:20
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Willem M. van der Wal
+        <w.m.vd.wal@umcutrecht.nl>
+X-CRAN-Comment: Orphaned on 2013-12-21 as maintainer address
+        <w.m.vd.wal@umcutrecht.nl> bounced.

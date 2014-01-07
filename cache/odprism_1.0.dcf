@@ -1,0 +1,28 @@
+Package: odprism
+Type: Package
+Title: Optimal design and performance of random intercept and slope
+        models.
+Version: 1.0
+Date: 2011-06-09
+Author: Martijn van de Pol
+Maintainer: Martijn van de Pol <m.van.de.pol@myscience.eu>
+Description: Simulation functions to assess the optimal design and
+        performance of random intercept and slope models (i.e. mixed
+        models), which can be used to a priori determine adequate
+        sampling designs for e.g. reaction norm studies. Functions
+        allow users to vary the sampling design in terms of number of
+        grouping units sampled (e.g. individuals, schools, populations,
+        etc.) and replicates per grouping unit (unbalanced as well
+        balanced datasets) and also allow users to vary the parameter
+        conditions used to generate the data. Subsequently, the
+        performance of mixed models (based on lme4 package) fitted on
+        these datasets is assessed in terms of the accuracy and the
+        precision of estimates of fixed and random parameter, as well
+        as the statistical power.
+License: GPL-2
+Encoding: UTF-8
+Depends: R (>= 2.11.0), lme4, mvtnorm, fields, graphics
+LazyLoad: yes
+Packaged: 2011-06-16 00:02:55 UTC; Martijn
+Repository: CRAN
+Date/Publication: 2011-06-17 06:45:17

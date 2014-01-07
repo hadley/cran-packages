@@ -1,0 +1,17 @@
+Package: lemma
+Version: 1.2-1
+Date: 2009-08-12
+Title: Laplace approximated EM Microarray Analysis
+Author: Haim Bar, Elizabeth Schifano.
+Maintainer: Haim Bar <hyb2@cornell.edu>
+Description: LEMMA is used to detect "nonnull genes" - genes for which
+        the average response in treatment group 1 is significantly
+        different from the average response in group 2, in normalized
+        microarray data. LEMMA is an implementation of an approximate
+        EM algorithm to estimate the parameters in the assumed linear
+        model in Bar, Booth, Schifano, Wells (2009).
+License: GPL (>= 2)
+URL: http://www.stat.cornell.edu/lemma
+Packaged: Mon Aug 31 21:56:28 2009; barhaim
+Repository: CRAN
+Date/Publication: 2009-09-03 09:25:33

@@ -1,0 +1,17 @@
+Package: bayesGDS
+Type: Package
+Title: Functions to implement Generalized Direct Sampling
+Version: 0.6.0
+Date: 2013-11-01
+Author: Michael Braun
+Maintainer: Michael Braun <braunm@smu.edu>
+URL: www.cox.smu.edu/web/michaelbraun
+Description: This package contains functions to help users implement the Generalized Direct Sampling algorithm for Bayesian hierarchical models (Braun and Damien, 2013). GDS is useful for sampling from posterior distributions for which there is a large number of conditionally independent heterogeneous units.
+License: MPL (== 2.0)
+Depends: R (>= 3.0.2), Matrix (>= 1.1.0), compiler
+Suggests: sparseHessianFD(>= 0.1.1), sparseMVN(>= 0.1.0), mvtnorm,
+        trustOptim (>= 0.8.3), plyr (>= 1.8)
+Packaged: 2013-12-14 00:13:14 UTC; braunm
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-14 08:04:05

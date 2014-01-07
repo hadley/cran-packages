@@ -1,0 +1,14 @@
+Package: doSNOW
+Type: Package
+Title: Foreach parallel adaptor for the snow package
+Version: 1.0.3
+Author: REvolution Computing
+Maintainer: REvolution Computing <packages@REvolution-computing.com>
+Description: Provides a parallel backend for the %dopar% function using
+        Luke Tierney's snow package.
+Depends: R (>= 2.5.0), foreach(>= 1.2.0), iterators(>= 1.0.0), snow(>=
+        0.3.0), utils
+License: GPL-2
+Packaged: 2009-08-20 21:25:15 UTC; weston
+Repository: CRAN
+Date/Publication: 2009-08-21 05:15:15

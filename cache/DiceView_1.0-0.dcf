@@ -1,0 +1,14 @@
+Package: DiceView
+Title: Plot methods for computer experiments design and models.
+Version: 1.0-0
+Date: 2010-11-15
+Author: Yann Richet, Yves Deville, Clement Chevalier
+Maintainer: Yann Richet <yann.richet@irsn.fr>
+Description: View 2D/3D sections of computer experiments designs and
+        kriging models.
+Depends: methods, DiceKriging, DiceEval, rgl
+License: GPL-3
+URL: http://www.dice-consortium.fr/
+Repository: CRAN
+Date/Publication: 2010-11-26 12:49:57
+Packaged: 2010-11-26 10:40:19 UTC; yves

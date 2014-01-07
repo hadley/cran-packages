@@ -1,0 +1,13 @@
+Package: objectProperties
+Title: A factory of self-describing properties.
+Description: Supports the definition of sets of properties on objects. Observers can listen to changes on individual properties or the set as a whole. The properties are meant to be fully self-describing. In support of this, there is a framework for defining enumerated types, as well as other bounded types, as S4 classes.
+Author: Tengfei Yin, Michael Lawrence
+Maintainer: Tengfei Yin <yintengfei@gmail.com>
+Depends: R (>= 2.12), methods, objectSignals
+Imports: methods, objectSignals (>= 0.10.2)
+Version: 0.6.2
+License: GPL (>= 2)
+Collate: PropertySet-class.R Enum-class.R comp-classes.R
+Packaged: 2011-10-28 04:12:32 UTC; tengfei
+Repository: CRAN
+Date/Publication: 2011-10-28 07:08:35

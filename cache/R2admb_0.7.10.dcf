@@ -1,0 +1,25 @@
+Package: R2admb
+Type: Package
+Title: ADMB to R interface functions
+Version: 0.7.10
+Date: 2013-09-22
+Author: Ben Bolker, Hans Skaug, Jeff Laake
+Maintainer: Ben Bolker <bolker@mcmaster.ca>
+Description: A series of functions to call AD Model Builder (i.e.,
+    compile and run models) from within R, read the results back
+    into R as "admb" objects, and provide standard accessors (i.e.
+    coef(), vcov(), etc.)
+Depends: R (>= 3.0.1)
+Suggests: bbmle, lattice, coda, lme4, ggplot2, testthat, knitr
+VignetteBuilder: knitr
+License: GPL
+LazyLoad: yes
+Packaged: 2013-09-22 17:45:25 UTC; bolker
+Repository: CRAN
+Date/Publication: 2013-09-22 20:55:59
+Collate: 'R2admb-package.R' 'base-funs.r' 'check_section.R' 'do_admb.r'
+        'mcmc.control.r' 'plot.admb_hist.r' 'read-funs.r' 'readfit.R'
+        'run.control.r' 'setup_admb.R' 'std_accessor.r'
+        'utility-funs.R' 'write-funs.r' 'extract_gradient.r'
+        'find_large_cor.r' 'get_version.r'
+NeedsCompilation: no

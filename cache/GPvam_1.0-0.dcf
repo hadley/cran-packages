@@ -1,0 +1,17 @@
+Package: GPvam
+Type: Package
+Title: Maximum Likelihood Estimation of the Generalized Persistence
+        Value-Added Model
+Version: 1.0-0
+Date: 2012-02-19
+Author: Andrew Karl, Yan Yang, and Sharon Lohr
+Maintainer: Andrew Karl <akarl@asu.edu>
+Description: Maximum likelihood estimators are obtained via an EM
+        algorithm
+Depends: Matrix, numDeriv
+LazyLoad: yes
+LazyData: yes
+License: GPL-2
+Packaged: 2012-02-19 21:00:11 UTC; Andrew Karl
+Repository: CRAN
+Date/Publication: 2012-02-19 21:43:36

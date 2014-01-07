@@ -1,0 +1,14 @@
+Package: GeneReg
+Type: Package
+Title: GeneReg
+Version: 1.0
+Date: 2009-06-05
+Author: Tao Huang
+Maintainer: Tao Huang <huangtao@sibs.ac.cn>
+Description: The goal of time delay linear model is to fit a linear
+        regression model using a set of putative regulators to estimate
+        the transcription pattern of a specific target gene.
+Depends: splines, igraph
+License: LGPL
+Repository: CRAN
+Date/Publication: 2009-06-07 13:08:21

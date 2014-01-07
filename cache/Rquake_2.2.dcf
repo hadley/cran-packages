@@ -1,0 +1,15 @@
+Package: Rquake
+Type: Package
+Title: Seismic Hypocenter Determination
+Version: 2.2
+Date: 2012-06-12
+Depends: R (>= 2.12)
+Imports: RPMG, RSEIS, GEOmap, MBA, minpack.lm, rgl
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees <jonathan.lees@unc.edu>
+Description: Rquake is a package for analysis of seismic data collected continuously, or in trigger mode. The functions organize other functions from RSEIS and GEOmap to help researchers pick, locate, and store hypocenters for detailed seismic investigation.
+License: GPL (>= 2)
+Packaged: 2014-01-05 16:30:13 UTC; lees
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-06 18:33:10

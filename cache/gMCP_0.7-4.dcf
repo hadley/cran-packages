@@ -1,0 +1,19 @@
+Package: gMCP
+Type: Package
+Title: Graph Based Multiple Comparison Procedures
+Version: 0.7-4
+Author: Kornelius Rohmeyer, Florian Klinglmueller (parametric tests,
+        adaptive designs), Bjoern Bornkamp (power simulations)
+Maintainer: Kornelius Rohmeyer <rohmeyer@small-projects.de>
+Description: This package provides functions and a graphical user
+        interface for graphical described multiple test procedures.
+Depends: R (>= 2.8.0), rJava (>= 0.6-3), CommonJavaJars, methods, MASS,
+        PolynomF, multcomp (>= 1.1), JavaGD, lattice
+Suggests: RUnit, Deducer, highlight (>= 0.2-3), graph (>= 1.20),
+        mutoss, boot, RMySQL
+SystemRequirements: Java (>= 5.0)
+License: GPL (>= 2)
+URL: http://gsrmtp.r-forge.r-project.org/
+Packaged: 2012-01-22 14:06:27 UTC; kornel
+Repository: CRAN
+Date/Publication: 2012-01-22 16:20:06

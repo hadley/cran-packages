@@ -1,0 +1,16 @@
+Package: QCA
+Type: Package
+Title: Qualitative Comparative Analysis
+Version: 1.0-4
+Date: 2012-07-30
+Author: Adrian Dusa <dusadrian@unibuc.ro> and Alrik Thiem
+        <thiem@sipo.gess.ethz.ch>
+Maintainer: Adrian Dusa <dusadrian@unibuc.ro>
+Depends: R (>= 2.1.10), lpSolve
+Suggests: XML
+Description: Performs the Quine-McCluskey algorithm for Qualitative
+        Comparative Analysis, for all versions: csQCA, mvQCA and fsQCA.
+License: GPL (>= 2)
+Packaged: 2012-07-29 10:13:53 UTC; dusadrian
+Repository: CRAN
+Date/Publication: 2012-07-31 06:54:29

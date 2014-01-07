@@ -1,0 +1,22 @@
+Package: BPHO
+Version: 1.3-0
+Title: Bayesian Prediction with High-order Interactions
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 2.5.1)
+Description: This software can be used in two situations. The first is
+        to predict the next outcome based on the previous states of a
+        discrete sequence. The second is to classify a discrete
+        response based on a number of discreate covariates. In both
+        situations, we use Bayesian logistic regression models that
+        consider the high-order interactions. The models are trained
+        with slice sampling method, a variant of Markov chain Monte
+        Carlo. The time arising from using high-order interactions is
+        reduced greatly by our compression technique that represents a
+        group of original parameters as a single one in MCMC step.
+License: GPL (>= 2)
+URL: \url{http://www.r-project.org},
+        \url{http://math.usask.ca/~longhai}
+Packaged: 2012-10-29 13:13:02 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:36

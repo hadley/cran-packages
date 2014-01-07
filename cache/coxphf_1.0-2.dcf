@@ -1,0 +1,11 @@
+Package: coxphf
+Type: Package
+Title: Cox regression with Firth's penalized likelihood
+Version: 1.0-2
+Date: 2007-04-10
+Author: R by Meinhard Ploner, Fortran by Georg Heinze
+Maintainer: <georg.heinze@meduniwien.ac.at>
+Depends: R (>= 2.3.1), survival
+Description: Cox regression with Firth's penalized likelihood
+License: GPL
+Packaged: Tue Apr 10 10:16:40 2007; Georg

@@ -1,0 +1,16 @@
+Package: MExPosition
+Type: Package
+Title: Multi-table ExPosition
+Version: 2.0.3
+Date: 2013-06-10
+Author: Cherise R. Chin Fatt, Derek Beaton, Herve Abdi.
+Maintainer: Cherise R. Chin Fatt <cherise.chinfatt@utdallas.edu>
+Description: MExPosition is for descriptive (i.e., fixed-effects)
+        multi-table multivariate analysis the singular value
+        decomposition.
+License: GPL-2
+Depends: prettyGraphs (>= 2.0.0), ExPosition (>= 2.0.0)
+Packaged: 2013-06-14 03:44:36 UTC; dbeaton
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-15 18:39:41

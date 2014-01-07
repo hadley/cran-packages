@@ -1,0 +1,19 @@
+Package: dtw
+Type: Package
+Title: Dynamic Time Warping algorithms
+Version: 1.12-5
+Date: 2008-06-17
+Depends: proxy
+Enhances: proxy
+Author: Toni Giorgino <toni.giorgino@gmail.com>,
+	Paolo Tormene <paolo.tormene@gmail.com>
+Maintainer: Toni Giorgino <toni.giorgino@gmail.com>
+Description: Comprehensive implementation of Dynamic Time Warping
+ algorithms in R. DTW finds the optimal (least cumulative distance)
+ mapping between two time series.  All common DTW variants are
+ covered, including local and global constraints, arbitrary timeseries
+ lenghts, distance definitions, MVM, etc.  Package computes cumulative
+ distance, warping functions, plots, normalizations, etc.
+License: GPL (>=2)
+URL: http://dtw.r-forge.r-project.org/
+Packaged: Wed Jan  7 12:11:24 2009; toni

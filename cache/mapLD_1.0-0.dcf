@@ -1,0 +1,13 @@
+Package: mapLD
+Title: Linkage Disequilibrium Mapping
+Version: 1.0-0
+Date: 2005-09-28
+Author: Peter Hu and Jared Lunceford, with contributions from 
+  Xiang Yu, Bret Musser and Peggy Wong
+Depends: R (>= 2.0.1), lattice
+Description: mapLD measures linkage disequilibrium and constructs 
+  haplotype blocks using the method described 
+  in Gabriel et al (2002) and Wall & Prichard (2003).
+Maintainer: Peter Hu <peter_hu@merck.com>
+License: GPL version 2 or newer
+Packaged: Wed Feb  8 12:58:41 2006; hornik

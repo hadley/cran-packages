@@ -1,0 +1,19 @@
+Package: optimsimplex
+Type: Package
+Title: R port of the Scilab optimsimplex module
+Version: 1.0
+Date: 2010-05-01
+Author: Sebastien Bihorel
+Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
+Description: Provides a building block for optimization algorithms
+        based on a simplex. The optimsimplex package may be used in the
+        following optimization methods: the Spendley et al. simplex
+        method, the Nelder-Mead method, the Box algorithm for
+        constrained optimization, the multi-dimensional search by
+        Virginia Torczon, etc...
+Depends: optimbase
+License: CeCILL-2
+LazyLoad: yes
+Packaged: 2010-05-05 04:43:40 UTC; sebastien
+Repository: CRAN
+Date/Publication: 2010-05-05 08:09:02

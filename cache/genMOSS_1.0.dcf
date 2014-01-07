@@ -1,0 +1,20 @@
+Package: genMOSS
+Title: An implementation of the MOSS algorithm for the analysis of GWAS
+        data
+Version: 1.0
+Date: 2013-03-06
+Author: Matthew Friedlander and Laurent Briollais
+Maintainer: Matthew Friedlander <friedlander@lunenfeld.ca>
+Depends: R (>= 2.10)
+Description: The MOSS algorithm is a Bayesian variable selection
+        procedure that is applicable to GWAS data. It identifies
+        combinations of the best predictive SNPs associated with the
+        response. It also performs a hierarchical log-linear model
+        search to identify the most relevant associations among the
+        resulting subsets of SNPs.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-04-15 14:34:47 UTC; mfriedlander
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-16 07:43:23

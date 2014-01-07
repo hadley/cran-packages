@@ -1,0 +1,16 @@
+Package: micEconCES
+Version: 0.9-4
+Date: 2011/07/03
+Title: Analysis with the Constant Elasticity of Scale (CES) function
+Author: Arne Henningsen and Geraldine Henningsen
+Maintainer: Arne Henningsen <arne.henningsen@googlemail.com>
+Depends: R (>= 2.4.0), systemfit (>= 1.0-0), miscTools (>= 0.6-1),
+        micEcon (>= 0.6-1), minpack.lm (>= 1.1-4), DEoptim (>= 2.0-4)
+Suggests: maxLik (>= 0.8-0), xtable (>= 1.5-6)
+Description: Tools for economic analysis and economic modelling with a
+        Constant Elasticity of Scale (CES) function
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.micEcon.org
+Packaged: 2011-07-02 23:32:40 UTC; suapm095
+Repository: CRAN
+Date/Publication: 2011-07-04 07:40:12

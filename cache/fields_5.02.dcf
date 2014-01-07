@@ -1,0 +1,20 @@
+Package: fields
+Version: 5.02
+Date: February 6, 2009
+Title: Tools for spatial data
+Author: Reinhard Furrer, Douglas Nychka and Stephen Sain
+Maintainer: Doug Nychka <nychka@ucar.edu> 
+Description: Fields is for curve, surface and function
+ fitting with an emphasis on splines, spatial data and spatial statistics. The
+ major methods include cubic, robust, and thin plate splines, 
+ multivariate Kriging and Kriging for large data sets. One main feature is any
+ covariance function implemented in R can be used for spatial prediction. 
+ There are also useful functions for plotting and working with 
+ spatial data as images. This package also contains an implementation of a
+ sparse matrix  methods for large data sets and currently requires the 
+ sparse matrix (spam) package for testing (but not for the standard spatial 
+ functions.) Use help(fields) to get started and for an overview. 
+License: GPL (>= 2) 
+URL: http://www.image.ucar.edu/Software/Fields
+Depends: methods, spam
+Packaged: Fri Feb  6 16:36:12 2009; nychka

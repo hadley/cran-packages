@@ -1,0 +1,19 @@
+Package: vegdata
+Version: 0.5.5
+Encoding: UTF-8
+Date: March 2011
+Title: Functions to access vegetation databases (Turboveg) and prepare
+        vegetation data for analysis
+Author: Florian Jansen <jansen@uni-greifswald.de>
+Maintainer: Florian Jansen <jansen@uni-greifswald.de>
+Depends: R (>= 2.10), foreign, indicspecies
+Suggests: HOF, vegan, labdsv, akima, RMySQL, gWidgets, R.utils,
+        googleVis
+Description: Handling of vegetation data sets from Turboveg. Taxonomic
+        harmonization of datasets with the help of the German
+        taxonomical standard list "GermanSL".
+License: GPL (>= 2)
+URL: http://www.botanik.uni-greifswald.de/GermanSL.html
+Packaged: 2012-03-20 19:00:58 UTC; jansen
+Repository: CRAN
+Date/Publication: 2012-03-20 19:02:56

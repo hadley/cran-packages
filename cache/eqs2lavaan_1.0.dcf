@@ -1,0 +1,21 @@
+Package: eqs2lavaan
+Type: Package
+Title: EQS Output Conversion to lavaan Functions
+Version: 1.0
+Date: 2013-07-28
+Author: Craig M. Krebsbach
+Maintainer: Craig M. Krebsbach <craigmk@my.uri.edu>
+Description: Transitioning from EQS to R for structural equation modeling (SEM)
+    is made easier with a set of functions to convert .out files into R code.
+    The EQS output can be converted into lavaan syntax and run in the R
+    environment.  Other functions parse descriptive statistics and the covariance matrix
+    from an EQS .out file.  A heat map plot of a covariance matrix is also
+    included.
+License: GPL-2
+Depends: lavaan, stringr
+Collate: 'eqs2lavaan.R' 'eqsCorr.R' 'eqsCov.R' 'eqsDesc.R'
+        'out2lavaan.R' 'plotCov.R'
+Packaged: 2013-07-28 19:22:48 UTC; craig_m_k
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-29 01:05:09

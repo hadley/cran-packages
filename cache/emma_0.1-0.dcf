@@ -1,0 +1,21 @@
+Package: emma
+Type: Package
+Title: Evolutionary model-based multiresponse approach
+Version: 0.1-0
+Date: 2011-10-22
+Author: Laura Villanova <laura.villanova@monash.edu>, Kate Smith-Miles
+        <kate.smith-miles@monash.edu> and Rob J Hyndman
+        <rob.hyndman@monash.edu>.
+Maintainer: Laura Villanova <laura.villanova@monash.edu>
+Depends: R (>= 2.9.2), earth, clusterSim
+Imports: methods
+Description: The evolutionary model-based multiresponse approach (EMMA)
+        is a novel methodology to process optimisation and product
+        improvement. The approach is suitable to contexts in which the
+        experimental cost and/or time limit the number of implementable
+        trials.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2011-10-25 22:09:51 UTC; Rob
+Date/Publication: 2011-10-26 17:59:36

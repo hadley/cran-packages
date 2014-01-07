@@ -1,0 +1,19 @@
+Package: HWEBayes
+Type: Package
+Title: Bayesian investigation of Hardy-Weinberg Equilibrium via
+        estimation and testing.
+Version: 1.2
+Date: 2009-06-22
+Depends: MCMCpack, mvtnorm
+Author: Jon Wakefield <jonno@u.washington.edu>
+Maintainer: Jon Wakefield <jonno@u.washington.edu>
+Description: Estimation and testing of HWE using Bayesian methods.
+        Three models are currently considered: HWE, a model
+        parameterized in terms of the allele frequencies and a single
+        inbreeding coefficient f, and the saturated model. Testing is
+        based on Bayes factors.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-07-30 14:27:16 UTC; jonno
+Repository: CRAN
+Date/Publication: 2009-07-30 19:29:54

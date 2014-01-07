@@ -1,0 +1,14 @@
+Package: RcmdrPlugin.doex
+Type: Package
+Title: Rcmdr plugin for Stat 4309 course
+Version: 0.2.0
+Date: 2011-08-13
+Author: Erin Hodgess<hodgesse@uhd.edu>
+Maintainer: Erin Hodgess <hodgesse@uhd.edu>
+Depends: Rcmdr (>= 1.7-0), multcomp
+Description: This package provides an Rcmdr "plug-in" based on the
+        Design of experiments class Stat 4309
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2011-08-14 05:35:05
+Packaged: 2011-08-14 04:33:00 UTC; erin

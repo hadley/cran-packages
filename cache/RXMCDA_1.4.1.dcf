@@ -1,0 +1,19 @@
+Package: RXMCDA
+Version: 1.4.1
+Date: 2012-02-15
+Title: RXMCDA
+Author: Patrick Meyer, Sebastien Bigaret.
+Maintainer: Patrick Meyer <patrick.meyer@telecom-bretagne.eu>
+Description: The RXMCDA library for the R statistical software allows
+        you to read many XMCDA tags and transform them into R variables
+        which are then usable in your MCDA algorithms written in R. The
+        library also allows to write certain R variables into XML files
+        according to the XMCDA standard.
+Depends: R(>= 2.1.0), methods, XML
+Suggests: kappalab
+Encoding: latin1
+License: CeCILL-2
+URL: http://www.decision-deck.org/xmcda
+Packaged: 2012-02-15 12:09:32 UTC; pat
+Repository: CRAN
+Date/Publication: 2012-02-15 16:37:40

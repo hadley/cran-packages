@@ -1,0 +1,10 @@
+Package: caretLSF
+Version: 1.10
+Date: 2007-10-10
+Title: Classification and Regression Training LSF Style
+Author: Max Kuhn
+Description: Augment some caret functions for parallel processing
+Maintainer: Max Kuhn <Max.Kuhn@pfizer.com>
+Depends: caret (>= 2.18), Rlsf (>= 1.1.0)
+License: GPL 2.0
+Packaged: Wed Oct 10 10:37:48 2007; kuhna03

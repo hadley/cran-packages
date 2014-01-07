@@ -1,0 +1,15 @@
+Package: iwtp
+Type: Package
+Title: Numerical evaluation willingness to pay based on interval data
+Version: 1.0.0
+Date: 2012-02-29
+Depends: survival, R (>= 2.14.1)
+LazyData: Yes
+LazyLoad: Yes
+Author: Yuri Belyaev, Wenchao Zhou
+Maintainer: Wenchao Zhou <zhou.wenchao@sekon.slu.se>
+Description: self-selected intervals
+License: GPL-2
+Packaged: 2012-03-02 08:28:18 UTC; zhouw
+Repository: CRAN
+Date/Publication: 2012-03-02 13:35:21

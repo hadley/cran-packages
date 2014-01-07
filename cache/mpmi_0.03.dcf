@@ -1,0 +1,19 @@
+Package: mpmi
+Type: Package
+Title: Mixed-pair mutual information estimators
+Version: 0.03
+Date: 2012-01-11
+Author: Chris Pardy
+Maintainer: Chris Pardy <cpardy@unsw.edu.au>
+Description: Uses a kernel smoothing approach to calculate Mutual Information
+    for comparisons between all types of variables including continuous vs
+    continuous, continuous vs discrete and discrete vs discrete. Uses a
+    nonparametric bias correction giving Bias Corrected Mutual Information
+    (BCMI). Implemented efficiently in Fortran 95 with OpenMP and suited to
+    large genomic datasets.  
+License: GPL-3
+Depends: KernSmooth
+Packaged: 2013-08-27 06:57:42 UTC; cp
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-27 09:47:28

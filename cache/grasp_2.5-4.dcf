@@ -1,0 +1,11 @@
+Package: grasp
+Version: 2.5-4
+Date: 2007-06-28
+Title: Generalized Regression Analysis and Spatial Prediction for R
+Author: Anthony Lehmann (anthony.lehmann@unige.ch), Fabien Fivaz (fabien.fivaz@unine.ch), John Leathwick and Jake Overton, with contributions from many specialists from around the world
+Description: GRASP is a general method for making spatial predictions of response variables (RV) using point surveys of the RV and spatial coverages of Predictor variables (PV). Originally, GRASP was developed to analyse, model and predict vegetation distribution over New Zealand. It has been used in all sorts of applications since then. (A. Lehmann, J.R. Leathwick & J.McC. Overton, 2002. GRASP. Ecological Modelling, 157: 189-207)
+Maintainer: Fabien Fivaz <fabien.fivaz@unine.ch>
+Depends: R (>= 2.0), gam (>= 0.93), mda (>= 0.3)
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.unige.ch/ia/climat/grasp
+Packaged: Sat Jul  7 20:40:30 2007; hornik

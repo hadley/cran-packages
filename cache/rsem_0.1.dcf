@@ -1,0 +1,19 @@
+Package: rsem
+Type: Package
+Title: Robust Structural Equation Modeling with Missing Data and
+        Auxiliary Variables
+Version: 0.1
+Date: 2010-12-27
+Author: Ke-Hai Yuan and Zhiyong Zhang
+Maintainer: Zhiyong Zhang <zhiyongzhang@nd.edu>
+Depends: R (>= 2.7), semdiag, MASS
+Description: This package estimates means and covariance matrix of
+        multiple variables with missing data using Huber weight and
+        then estimates a SEM model using EQS.
+License: GPL-2
+URL: http://rpackages.psychstat.org
+ZipData: no
+LazyLoad: yes
+Packaged: 2011-10-03 19:01:00 UTC; zzhang4
+Repository: CRAN
+Date/Publication: 2011-10-04 07:25:31

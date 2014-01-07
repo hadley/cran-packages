@@ -1,0 +1,9 @@
+Package: proftools
+Title: Profile Output Processing Tools for R
+Version: 0.0-1
+Author: Luke Tierney <luke@stat.uiowa.edu>
+Description: Tools for examining Rprof profile output.
+Maintainer: Luke Tierney <luke@stat.uiowa.edu>
+Suggests: graph,Rgraphviz
+License: GPL
+Packaged: Sun Aug 26 13:32:44 2007; luke

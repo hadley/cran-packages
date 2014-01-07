@@ -1,0 +1,22 @@
+Package: VGAMdata
+Version: 0.9-1
+Date: 2013-04-23
+Title: Data supporting the VGAM package
+Author: Thomas W. Yee <t.yee@auckland.ac.nz>
+Maintainer: Thomas Yee <t.yee@auckland.ac.nz>
+Depends: R (>= 2.15.1)
+Suggests: VGAM
+Description: Data sets to accompany the VGAM package.  These are used
+        to illustrate vector generalized linear and additive models,
+        and associated models (Reduced-Rank VGLMs, Quadratic RR-VGLMs,
+        Row-Column Interaction Models, and constrained ordination
+        models in ecology.
+License: GPL-2
+Imports: methods, stats, stats4
+URL: http://www.stat.auckland.ac.nz/~yee/VGAMdata
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-04-23 03:57:03 UTC; tyee001
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-23 07:59:21

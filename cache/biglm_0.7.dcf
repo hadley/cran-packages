@@ -1,0 +1,14 @@
+Package: biglm
+Type: Package
+Title: bounded memory linear and generalized linear models
+Version: 0.7
+Author: Thomas Lumley
+Maintainer: Thomas Lumley <tlumley@u.washington.edu>
+Description: Regression for data too large to fit in memory
+License: GPL
+Suggests: RSQLite, RODBC
+Depends: DBI, methods
+Enhances: leaps
+Packaged: 2009-05-04 20:18:41 UTC; tlumley
+Repository: CRAN
+Date/Publication: 2009-05-05 07:28:51

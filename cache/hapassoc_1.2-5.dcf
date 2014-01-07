@@ -1,0 +1,20 @@
+Package: hapassoc
+Version: 1.2-5
+Title: Inference of trait associations with SNP haplotypes and other
+        attributes using the EM Algorithm
+Author: K. Burkett <kburkett@sfu.ca>, B. McNeney <mcneney@sfu.ca>, J.
+        Graham <jgraham@stat.sfu.ca>, with code for case-control data
+        contributed by Zhijian Chen <z11chen@math.uwaterloo.ca>
+Maintainer: K. Burkett <kburkett@sfu.ca>
+Depends: R (>= 2.6.0), stats
+Description: The following R functions are used for inference of trait
+        associations with haplotypes and other covariates in
+        generalized linear models.  The functions are developed
+        primarily for data collected in cohort or cross-sectional
+        studies. They can accommodate uncertain haplotype phase and
+        handle missing genotypes at some SNPs.
+License: GPL-2
+URL: http://stat-db.stat.sfu.ca:8080/statgen/research/hapassoc
+Packaged: 2012-04-05 16:26:04 UTC; mcneney
+Repository: CRAN
+Date/Publication: 2012-04-05 20:47:39

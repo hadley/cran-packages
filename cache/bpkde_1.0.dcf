@@ -1,0 +1,13 @@
+Package: bpkde
+Version: 1.0
+Date: 2012-04-28
+Title: Back Projected Kernel Density Estimation
+Author: Kjell Konis <kjell.konis@me.com>, Victor Panaretos
+        <victor.panaretos@epfl.ch>.
+Maintainer: Kjell Konis <kjell.konis@me.com>
+Depends: R (>= 2.15.0), mvtnorm, KernSmooth
+Description: alpha version but now a little bit better
+License: GPL-2
+Packaged: 2012-04-28 18:38:23 UTC; kjell
+Repository: CRAN
+Date/Publication: 2012-04-29 20:58:33

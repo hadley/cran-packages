@@ -1,0 +1,22 @@
+Package: list
+Version: 1.0
+Date: 2010-07-08
+Title: Multivariate Statistical Analysis for the Item Count Technique
+Author: Graeme Blair <gblair@Princeton.edu>, Kosuke Imai
+        <kimai@Princeton.edu>
+Maintainer: Graeme Blair <gblair@Princeton.edu>
+Depends: R (>= 2.10.0), utils, VGAM (>= 0.8-1), magic (>= 1.4-6),
+        gamlss.dist (>= 4.0-0)
+Description: list is a publicly available R package that allows
+        researchers to conduct a multivariate statistical analysis for
+        the item count technique.  This survey methodology is also
+        known as the list experiment or the unmatched count technique
+        is an alternative to the commonly used randomized response
+        method.  The package implements the methods described in Imai
+        (2010).
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2010-07-09 11:24:50 UTC; gblair
+Repository: CRAN
+Date/Publication: 2010-07-09 13:27:53

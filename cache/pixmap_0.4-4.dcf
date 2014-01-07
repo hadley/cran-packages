@@ -1,0 +1,13 @@
+Package: pixmap
+Version: 0.4-4
+Date: 2006-01-23
+Title:  Bitmap Images (``Pixel Maps'')
+Depends: methods
+Author: Roger Bivand, Friedrich Leisch and Martin Mächler
+Maintainer: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at>
+Description: Functions for import, export, plotting and other
+  manipulations of bitmapped images.
+License: GPL version 2.
+Collate: pixmap.R addlogo.R pnmhead.R pnm.R
+SaveImage: yes
+Packaged: Mon Jan 23 16:55:10 2006; leisch

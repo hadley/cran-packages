@@ -1,0 +1,20 @@
+Package: Kmisc
+Type: Package
+Title: Miscellaneous functions to improve R coding experience
+Version: 0.1.0
+Date: 2012-12-03
+Author: Kevin Ushey
+Maintainer: Kevin Ushey <kevinushey@gmail.com>
+Description: A collection of functions that improve both R coding
+        experience.  Includes utility functions for common data
+        reshaping operations, as well as functions for efficient table
+        and plot generation in R Markdown documents.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.10.1), lattice
+Suggests: knitr, googleVis
+LinkingTo: Rcpp
+Collate: 'misc.R' 'rcpp_functions.R' 'html.R' 'package_description.R'
+        'html_prep.R'
+Packaged: 2012-12-12 08:15:10 UTC; kevinushey
+Repository: CRAN
+Date/Publication: 2012-12-12 10:57:31

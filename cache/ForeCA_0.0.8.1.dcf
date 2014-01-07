@@ -1,0 +1,27 @@
+Package: ForeCA
+Type: Package
+Title: ForeCA - Forecastable Component Analysis
+Version: 0.0.8.1
+Date: 2012-12-01
+Author: Georg M. Goerg <gmg@stat.cmu.edu>
+Maintainer: Georg M. Goerg <gmg@stat.cmu.edu>
+URL: http://www.stat.cmu.edu/~gmg http://arxiv.org/abs/1205.4591
+Description: ForeCA is a novel dimension reduction (DR) technique for
+        temporally dependent signals. Contrary to other popular DR
+        methods, such as PCA or ICA, ForeCA explicitly searches for the
+        most ''forecastable'' signal. The measure of forecastability
+        Omega(x_t) is based on negative Shannon entropy of the spectral
+        density of the transformed signal. This R package provides the
+        main algorithms and some auxiliary function (summary, plotting,
+        etc).
+Depends: R (>= 2.12.0), sapa, mgcv, astsa, class
+License: GPL (>= 2)
+Imports: mgcv, sapa, R.utils
+Collate: 'discrete_entropy.R' 'ForeCA.EM-aux.R' 'ForeCA.EM.R'
+        'ForeCA-package.R' 'ForeCA-utils.R' 'mvspec2mvspectrum.R'
+        'mvspectrum2wcov.R' 'mvspectrum.R' 'Omega.R' 'prewhiten.R'
+        'quadratic_form.R' 'SDF2mvspectrum.R' 'spectral_entropy.R'
+        'continuous_entropy.R'
+Packaged: 2012-12-11 16:12:53 UTC; GMG
+Repository: CRAN
+Date/Publication: 2012-12-11 18:02:22

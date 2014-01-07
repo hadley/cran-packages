@@ -1,0 +1,18 @@
+Package: polySegratioMM
+Type: Package
+Title: Bayesian mixture models for marker dosage in autopolyploids
+Version: 0.6-2
+Date: 2012-04-10
+Author: Peter Baker
+Maintainer: Peter Baker <p.baker1@uq.edu.au>
+Depends: R (>= 2.12.0), polySegratio, coda
+Imports: gtools
+Description: Fits Bayesian mixture models to estimate marker dosage for
+        dominant markers on autopolyploids using JAGS (1.0 or greater)
+        as outlined in Baker et al (2010). May be used in conjunction
+        with polySegratio for simulation studies and comparison with
+        standard methods.
+License: GPL-3
+Packaged: 2012-04-10 00:59:51 UTC; pete
+Repository: CRAN
+Date/Publication: 2012-04-10 04:31:06

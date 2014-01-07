@@ -1,0 +1,17 @@
+Package: anoint
+Type: Package
+Title: Analysis of interactions
+Version: 1.0
+Date: 2012-04-20
+Author: Ravi Varadhan <rvaradhan@jhmi.edu> and Stephanie Kovalchik
+Maintainer: Stephanie Kovalchik <s.a.kovalchik@gmail.com>
+Description: Tools for assessing multiple treatment-covariate
+        interactions with data from a parallel-group randomized
+        controlled clinical trial
+License: GPL (>= 2)
+Depends: survival, grid, methods, glmnet, MASS
+LazyLoad: yes
+BuildVignettes: no
+Packaged: 2012-04-24 00:30:42 UTC; kovalchiksa
+Repository: CRAN
+Date/Publication: 2012-04-24 03:59:48

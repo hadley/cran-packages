@@ -1,0 +1,11 @@
+Package: caretLSF
+Version: 1.16
+Date: 2008-06-10
+Title: Classification and Regression Training LSF Style
+Author: Max Kuhn, Nathan Coulter
+Description: Augment some caret functions for parallel processing
+Maintainer: Max Kuhn <Max.Kuhn@pfizer.com>
+Depends: caret (>= 3.21), Rlsf (>= 1.1.0)
+Suggests: randomForest
+License: GPL-2
+Packaged: Tue Jun 10 15:54:29 2008; kuhna03

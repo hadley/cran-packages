@@ -1,0 +1,23 @@
+Package: DAAGxtras
+Version: 0.8-4
+Date: 2013-October-16
+Title: Data Sets and Functions, supplementary to DAAG
+Author: John Maindonald
+Maintainer: John Maindonald <john.maindonald@anu.edu.au>
+Description: various data sets used in additional exercises for
+        the book Maindonald, J.H. and Braun, W.J. (3rd edn 2010)
+        "Data Analysis and Graphics Using R", and for a
+        'Data Mining' course.  Note that a number of datasets
+        that were in earlier versions of this package have been
+        transferred to the DAAG package.
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.10.0)
+Suggests: DAAG, MASS, lattice, randomForest
+ZipData: yes
+License: Unlimited
+URL: http://www.maths.anu.edu.au/~johnm
+Packaged: 2013-10-16 07:12:00 UTC; johnm1
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-16 10:46:09

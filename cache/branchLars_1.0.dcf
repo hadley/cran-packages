@@ -1,0 +1,14 @@
+Package: branchLars
+Type: Package
+Title: Cost-efficient Variable Selection
+Version: 1.0
+Date: 2013-5-27
+Author: Li Hua Yue
+Maintainer: Li Hua Yue <lyue7@uwo.ca>
+Depends: lars, Rgraphviz, R(>= 3.0)
+Description: Select cost-efficient factors using Branching LARS method
+License: GPL (>= 2)
+Packaged: 2013-05-29 00:46:04 UTC; TuTu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-29 07:53:23

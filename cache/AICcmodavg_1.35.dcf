@@ -1,0 +1,17 @@
+Package: AICcmodavg
+Type: Package
+Title: Model selection and multimodel inference based on (Q)AIC(c)
+Version: 1.35
+Date: 2013-11-17
+Author: Marc J. Mazerolle <marc.mazerolle@uqat.ca>.  Special thanks to T. Ergon for the original idea of storing candidate models in a list.  
+Maintainer: Marc J. Mazerolle <marc.mazerolle@uqat.ca>
+Depends: methods, stats
+Suggests: lme4, MASS, Matrix, nlme, nnet, ordinal, R2jags, R2OpenBUGS,
+        R2WinBUGS, stats4, survival, unmarked
+Description: This package includes functions to create model selection tables based on Akaike's information criterion (AIC) and the second-order AIC (AICc), as well as their quasi-likelihood counterparts (QAIC, QAICc).  Tables are printed with delta AIC and Akaike weights.  The package also features functions to conduct classic model averaging (multimodel inference) for a given parameter of interest and predicted values, as well as a shrinkage version of model averaging parameter estimates.  Other handy functions enable the computation of relative variable importance, evidence ratios, and confidence sets for the best model.  The present version works with Cox regression ('coxph' class), linear models ('lm' class), generalized linear models ('glm' class), linear models fit by generalized least squares ('gls' class), linear mixed models ('lme' class), generalized linear mixed models ('mer' and 'merMod' classes), multinomial and ordinal logistic regressions ('multinom', 'polr', 'clm', and 'clmm' classes), robust regression models ('rlm' class), nonlinear models ('nls' class), and nonlinear mixed models ('nlme' class).  The package also supports various models incorporating detection probabilities such as single-season occupancy models ('unmarkedFitOccu' and 'unmarkedFitOccuFP classes), multiple-season occupancy models ('unmarkedFitColExt' class), single-season heterogeneity models ('unmarkedFitOccuRN' class), single-season and multiple-season N-mixture models for repeated counts ('unmarkedFitPCount' and 'unmarkedFitPCO' classes, respectively), and distance sampling models ('unmarkedFitDS' and 'unmarkedFitGDS' classes). Some functions also allow the creation of model selection tables for Bayesian models of the 'bugs' and 'rjags' classes.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-11-18 14:32:08 UTC; mazerolm
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-19 00:28:13

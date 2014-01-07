@@ -1,0 +1,16 @@
+Package: GhcnDaily
+Type: Package
+Title: Downloads and processes GHCN daily
+Version: 1.1
+Date: 2011-09-10
+Author: Steven Mosher,
+Maintainer: Steven Mosher <moshersteven@gmail.com>
+Depends: R (>= 2.11.0), abind, ncdf
+Imports: R.utils
+Description: The GhcnDaily package provides the core functions required
+        to download and format the GHCN Daily Data into Monthly
+        datasets. It is currently restricted to operating with
+        temperature data from the daily files.
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2011-09-11 06:11:50

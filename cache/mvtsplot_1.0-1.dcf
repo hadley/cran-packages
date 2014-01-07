@@ -1,0 +1,14 @@
+Package: mvtsplot
+Version: 1.0-1
+Date: 2012-03-21
+Depends: R (>= 2.14.0), RColorBrewer
+Imports: splines, graphics
+Title: Multivariate Time Series Plot
+Author: Roger D. Peng <rpeng@jhsph.edu>
+Maintainer: Roger D. Peng <rpeng@jhsph.edu>
+Description: A function for plotting multivariate time series data
+License: GPL (>= 2)
+URL: http://github.com/rdpeng/mvtsplot
+Packaged: 2012-03-21 13:36:44 UTC; rdpeng
+Repository: CRAN
+Date/Publication: 2012-03-21 15:19:34

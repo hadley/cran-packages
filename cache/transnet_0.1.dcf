@@ -1,0 +1,25 @@
+Package: transnet
+Type: Package
+Title: Conducts transmission modeling on a bayesian network.
+Version: 0.1
+Date: 2012-11-13
+Authors@R: c(person('Alun', 'Thomas',
+        email='alun.thomas@utah.edu',role=c('aut', 'cph')),
+        person('Andrew', 'Redd', email='andrew.redd@hsc.utah.edu',
+        role=c('com', 'cre', 'ctb')))
+Suggests: testthat (>= 0.5)
+Depends: methods, rJava, plyr, reshape2
+Description: Models disease transmission in discrete time for open
+        systems like hospitals.  Estimates probability of importing
+        disease into system, Transmission rate, and test sensitivity.
+License: GPL (>= 3.0)
+SystemRequirements: java
+LazyLoad: yes
+Collate: 'onLoad.R' 'TransmissionNetwork.R' 'sim.R'
+Packaged: 2014-01-02 18:17:06 UTC; ripley
+Repository: CRAN
+Date/Publication: 2014-01-02 19:18:28
+Author: Alun Thomas [aut, cph],
+  Andrew Redd [com, cre, ctb]
+Maintainer: Andrew Redd <andrew.redd@hsc.utah.edu>
+NeedsCompilation: no

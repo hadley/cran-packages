@@ -1,0 +1,16 @@
+Package: DOBAD
+Type: Package
+Title: Analysis of Discretely Observed linear
+        Birth-And-Death(-and-immigration) Markov Chains
+Version: 1.0
+Date: 2010-12-21
+Author: Charles Doss
+Maintainer: Charles Doss <cdoss@stat.washington.edu>
+Description: Frequentist (EM) and Bayesian (MCMC) Methods for Inference
+        of Birth-Death-Immigration Markov Chains
+License: GPL (>= 2)
+Depends: methods, lattice, numDeriv
+LazyLoad: yes
+Packaged: 2010-12-27 20:33:45 UTC; charles
+Repository: CRAN
+Date/Publication: 2011-01-03 12:27:35

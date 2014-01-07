@@ -1,0 +1,11 @@
+Package: boolean
+Version: 1.05
+Date: 2004-08-07
+Title: Boolean logit and probit
+Author: Bear F. Braumoeller <bfbraum@fas.harvard.edu>, Jacob Kline <jkline@fas.harvard.edu>
+Maintainer: Bear F. Braumoeller <bfbraum@fas.harvard.edu>
+Depends: R (>= 1.9.0), methods, stats, rgenoud
+Description: Partial-observability procedure for testing Boolean hypotheses
+License: Unlimited distribution.
+URL: http://www.people.fas.harvard.edu/~bfbraum/
+Packaged: Thu Oct  7 20:09:57 2004; bfbraum

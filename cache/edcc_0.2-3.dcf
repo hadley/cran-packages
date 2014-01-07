@@ -1,0 +1,15 @@
+Package: edcc
+Version: 0.2-3
+Title: Economic Design of Control Charts
+Author: Weicheng Zhu, Changsoon Park
+Maintainer: Weicheng Zhu <weicheng@dreamhunter.me>
+Depends: spc
+Description: This package provides a unified approach for Economic
+        Design of Control Charts. The main purpose of this package is
+        to find out the optimal parameters to minimize the ECH
+        (Expected Cost per Hour) of the process.
+License: GPL
+Collate: 'ecoDesign.R' 'internal.R'
+Packaged: 2012-03-30 03:02:14 UTC; weicheng
+Repository: CRAN
+Date/Publication: 2012-03-30 04:41:32

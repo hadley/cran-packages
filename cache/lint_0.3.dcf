@@ -1,0 +1,21 @@
+Package: lint
+Title: Tools to check R code style
+Version: 0.3
+Date: 2013-01-23
+Author: Andrew Redd <andrew.redd@hsc.utah.edu>
+Maintainer: Andrew Redd <andrew.redd@hsc.utah.edu>
+Description: Tools for checking R code for style compliance.  Tools for
+        creating style compliance tests.  A suite of pre-built tests is
+        provided.
+Depends: R (>= 3.0)
+Imports: plyr, harvestr, stringr, dostats, foreach
+Suggests: testthat, roxygen2
+License: GPL (>= 3)
+Collate: 'conversion.R' 'find-utils.R' 'finders.R' 'family.R'
+        'functional.R' 'lint.R' 'base.patterns.R' 'pattern-utils.R'
+        'styles.assignment.R' 'styles.performance.R' 'styles.spacing.R'
+        'lint.patterns.R'
+Packaged: 2013-01-23 19:41:52 UTC; aredd
+Repository: CRAN
+Date/Publication: 2013-04-03 10:42:24
+NeedsCompilation: no

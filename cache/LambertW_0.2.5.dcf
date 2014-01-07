@@ -1,0 +1,31 @@
+Package: LambertW
+Type: Package
+Title: Gaussianize and analyze skewed, heavy-tailed data
+Version: 0.2.5
+Date: 2010-12-31
+Author: Georg M. Goerg <gmg@stat.cmu.edu>
+Maintainer: Georg M. Goerg <gmg@stat.cmu.edu>
+URL: http://www.stat.cmu.edu/~gmg http://arxiv.org/abs/0912.4554
+        http://arxiv.org/abs/1010.2265
+Description: The Lambert W framework is a new generalized way to
+        analyze skewed, heavy-tailed data. Lambert W random variables
+        (RV) are based on an input/ouput framework where the input is a
+        RV X with distribution F(x), and the output Y = func(X) has
+        similar properties as X (but slightly skewed or heavy-tailed).
+        Then this transformed RV Y has a Lambert W x F distribution -
+        for details see References. This package contains functions to
+        perform a Lambert W analysis of skewed and heavy-tailed data:
+        data can be simulated, parameters can be estimated from real
+        world data, quantiles can be computed, and results
+        plotted/printed in a 'nice' way. Probably the most important
+        function is 'Gaussianize', which works the same way as the R
+        function 'scale' but actually makes your data Gaussian. An
+        optional modular toolkit implementation allows users to define
+        their own Lambert W x 'my favorite distribution' and use it for
+        their analysis.
+Depends: moments, gsl, MASS, nortest, maxLik
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-12-29 20:43:15 UTC; root
+Repository: CRAN
+Date/Publication: 2011-01-03 12:27:59

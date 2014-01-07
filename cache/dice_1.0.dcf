@@ -1,0 +1,11 @@
+Package: dice
+Type: Package
+Title: Calculate Probabilities of Various Dice-Rolling Events
+Version: 1.0
+Date: 2007-03-24
+Author: Dylan Arena
+Maintainer: Dylan Arena <dylanarena1@gmail.com>
+Description: This package provides utilities to calculate the probabilities of various dice-rolling events, such as the probability of rolling six four-sided dice and getting a 4, a 3, and either a 1 or 2 among the six rolls (in any order) or the probabilities of each possible total of rolling five six-sided dice, dropping the lowest two rolls, and summing the remaining dice.
+License: GPL version 2 or newer
+Depends: gtools
+Packaged: Thu Sep 13 17:31:09 2007; dylanarena

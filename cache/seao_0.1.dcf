@@ -1,0 +1,9 @@
+Package: seao
+Version: 0.1
+Date: 22 May 2003
+Title: Simple evolutionary algorithm optimization
+Author:	Kurt Sys, LabMET - Laboratory of Microbial Ecology and Technology, RUG
+Maintainer: Kurt Sys <kurt.sys@UGent.be>
+Description: Software for simple evolutionary algorithms. For all factors (genes) included, one can set the lowest and highest values as well as the number of levels (alleles) or the step. An initial generation can be calculated in several ways and following generations are calculated based on a parent generation which can be constructed using other, already calculated generations or new generations (as long as the format is ok). 
+License: GPL Version 2 or newer
+URL: http://LabMET.UGent.be, http://LabMET.UGent.be/~kurt

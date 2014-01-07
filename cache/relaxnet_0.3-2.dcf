@@ -1,0 +1,17 @@
+Package: relaxnet
+Type: Package
+Title: Relaxation of glmnet models (as in relaxed lasso, Meinshausen
+        2007)
+Version: 0.3-2
+Date: 2013-08-16
+Author: Stephan Ritter, Alan Hubbard
+Maintainer: Stephan Ritter <stephanritterRpacks@gmail.com>
+Depends: glmnet
+Suggests: parallel
+Description: Extends the glmnet package with "relaxation", done by running glmnet once on the entire predictor matrix, then again on each different subset of variables from along the regularization path. Relaxation may lead to improved prediction accuracy for truly sparse data generating models, as well as fewer false positives (i.e. fewer noncontributing predictors in the final model). Penalty may be lasso (alpha = 1) or elastic net (0 < alpha < 1). For this version, family may be "gaussian" or "binomial" only. Takes advantage of fast FORTRAN code from the glmnet package.
+License: GPL (>= 2)
+URL: http://cran.r-project.org/package=relaxnet
+Packaged: 2013-08-16 15:16:43 UTC; sritter
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-16 18:29:00

@@ -1,0 +1,15 @@
+Package: HBSTM
+Type: Package
+Title: Hierarchical Bayesian Space-Time models for Gaussian space-time
+        data.
+Version: 1.0
+Date: 2013-12-24
+Author: Pilar Munyoz, Alberto Lopez Moreno
+Maintainer: Alberto Lopez Moreno <bertolomo@gmail.com>
+Description: This package fits Hierarchical Bayesian space-Time models for Gaussian data. Furthermore, its functions have been implemented for analysing the fitting qualities of those models.
+License: GPL (>= 2.0)
+Depends: methods, MASS, msm, fBasics, maps
+Packaged: 2013-12-24 17:08:13 UTC; Alberto
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-24 20:54:57

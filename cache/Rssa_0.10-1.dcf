@@ -1,0 +1,18 @@
+Package: Rssa
+Type: Package
+Title: A collection of methods for singular spectrum analysis
+Version: 0.10-1
+Date: 2013-09-01
+Depends: R (>= 3.0), svd (>= 0.3.3), forecast
+Imports: lattice
+Suggests: testthat (>= 0.7)
+SystemRequirements: fftw (>=3.2)
+Author: Anton Korobeynikov, Alex Shlemov, Konstantin Usevich, Nina Golyandina
+Maintainer: Anton Korobeynikov <anton@korobeynikov.info>
+Description: This package provides various Singular Spectrum Analysis routines.
+License: GPL (>= 2)
+URL: http://github.com/asl/rssa
+Packaged: 2013-09-03 09:21:04 UTC; asl
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-03 11:45:33

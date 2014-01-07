@@ -1,0 +1,14 @@
+Package: Devore6
+Version: 0.5-4
+Date: 2004-09-07
+Title: Data sets from Devore's "Prob and Stat for Eng (6th ed)"
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Author: Original by Jay L. Devore, 
+  modifications by Douglas Bates <bates@stat.wisc.edu> 
+Description: Data sets and sample analyses from Jay L. Devore 
+  (2003), "Probability and Statistics for Engineering and the 
+  Sciences (6th ed)", Duxbury.
+Depends: R(>= 1.9.0)
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Tue Sep  7 10:25:48 2004; bates

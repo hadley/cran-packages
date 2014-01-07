@@ -1,0 +1,26 @@
+Package: marelac
+Version: 2.1
+Title: Tools for Aquatic Sciences
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>, Thomas Petzoldt
+        <thomas.petzoldt@tu-dresden.de>, Filip Meysman
+        <filip.meysman@vub.ac.be>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.6), shape, seacarb
+Description: Datasets, constants, conversion factors, utilities for
+        MArine, Riverine, Estuarine, LAcustrine and Coastal science.
+        The package contains among others: (1) chemical and physical
+        constants and datasets, e.g. atomic weights, gas constants, the
+        earths bathymetry; (2) conversion factors (e.g. gram to mol to
+        liter, barometric units, temperature, salinity); (3) physical
+        functions, e.g. to estimate concentrations of conservative
+        substances, gas transfer and diffusion coefficients, the
+        Coriolis force and gravity; (4) thermophysical properties of
+        the seawater, as from the UNESCO polynomial or from the more
+        recent derivation based on a Gibbs function.
+License: GPL (>= 2)
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: marelac
+Repository/R-Forge/Revision: 127
+Date/Publication: 2010-04-06 09:29:26
+Packaged: 2010-04-01 20:45:24 UTC; rforge

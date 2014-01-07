@@ -1,0 +1,15 @@
+Package: mimR
+Version: 2.6.2
+Title: A package for graphical modelling in R
+Author: Søren Højsgaard <sorenh@agrsci.dk>
+Maintainer: Søren Højsgaard <sorenh@agrsci.dk>
+Description: An R interface to MIM for graphical modelling in R
+URL: http://genetics.agrsci.dk/~sorenh/public/R/mimRweb
+License: GPL (>= 2)
+Depends: methods,gRbase,graph,rcom,MASS
+Suggests: Rgraphviz
+Encoding: latin1
+OS_type: windows
+Packaged: 2010-02-06 21:42:42 UTC; shd
+Repository: CRAN
+Date/Publication: 2010-02-07 09:16:20

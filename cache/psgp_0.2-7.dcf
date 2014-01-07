@@ -1,0 +1,16 @@
+Package: psgp
+Version: 0.2-7
+Title: Projected Spatial Gaussian Process methods for package intamap
+Author: Ben Ingram <B.R.Ingram@Aston.ac.uk>, Remi Barillec
+        <r.barillec@aston.ac.uk>
+Maintainer: Jon Skoien <j.skoien@geo.uu.nl>, Remi Barillec
+        <r.barillec@aston.ac.uk>, Edzer Pebesma
+        <edzer.pebesma@uni-muenster.de>
+Depends: intamap
+Description: implements projected sparse Gaussian process kriging for
+        the intamap package
+License: GPL (>= 2)
+URL: http://www.intamap.org/
+Packaged: 2009-09-29 11:36:00 UTC; jon
+Repository: CRAN
+Date/Publication: 2009-09-29 18:49:39

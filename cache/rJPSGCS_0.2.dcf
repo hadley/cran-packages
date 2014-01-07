@@ -1,0 +1,18 @@
+Package: rJPSGCS
+Type: Package
+Title: R-interface to gene drop Java Programs for Statistical Genetics
+        and Computational Statistics (JPSGCS)
+Version: 0.2
+Author: Sigal Blay, Jinko Graham, Brad McNeney, Annick Nembot-Simo
+Maintainer: Brad McNeney <mcneney@sfu.ca>
+Depends: R (>= 2.12.0), rJava (>= 0.8-4), snpMatrix (>= 1.14.0),
+        methods(>= 2.11.0)
+SystemRequirements: Java (>= 1.5)
+Description: R-interface to gene drop programs from Alun Thomas' Java
+        Programs for Statistical Genetics and Computational Statistics
+        (JPSGCS)
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-07-23 20:17:55 UTC; mcneney
+Repository: CRAN
+Date/Publication: 2011-07-24 05:16:16

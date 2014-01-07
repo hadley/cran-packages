@@ -1,0 +1,25 @@
+Type: Package
+Encoding: latin1
+Package: vines
+Title: Multivariate Dependence Modeling with Vines
+Version: 1.0.5
+Date: 2012-07-31
+Author: Yasser González Fernández <ygonzalezfernandez@gmail.com> and
+        Marta Rosa Soto Ortiz <mrosa@icimaf.cu>
+Maintainer: Yasser González Fernández <ygonzalezfernandez@gmail.com>
+Description: Vines are graphical models for pair-copula constructions
+        that allow building high-dimensional distributions using
+        bivariate copulas and marginal density functions. This package
+        contains S4 classes for vines (C-vines and D-vines) and methods
+        for inference, goodness-of-fit tests, density evaluation,
+        distribution function evaluation, and simulation.
+License: GPL (>= 3)
+LazyLoad: yes
+URL: https://github.com/ygf/vines
+Depends: methods, copula, ADGofTest, cubature, TSP
+Collate: h.R hinverse.R Vine.R show.R dimnames.R vineParameters.R
+        vineIter.R vineFit.R vineFitML.R vinePIT.R vineGoF.R
+        vineOrder.R dvine.R pvine.R rvine.R
+Packaged: 2012-07-31 17:55:31 UTC; ygf
+Repository: CRAN
+Date/Publication: 2012-08-01 13:56:22

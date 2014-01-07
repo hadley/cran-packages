@@ -1,0 +1,17 @@
+Package: BCE
+Version: 1.3
+Title: Bayesian composition estimator: estimating sample (taxonomic)
+        composition from biomarker data
+Author: Karel Van den Meersche <k.vdmeersche@nioo.knaw.nl>, Karline
+        Soetaert <k.soetaert@nioo.knaw.nl>
+Maintainer: Karel Van den Meersche <k.vdmeersche@nioo.knaw.nl>
+Depends: R (>= 2.01), limSolve
+Description: Function to estimates taxonomic compositions from
+        biomarker data, using a Bayesian approach.
+License: GPL
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: bce
+Repository/R-Forge/Revision: 43
+Date/Publication: 2009-06-03 20:45:44
+Packaged: 2009-06-03 02:59:04 UTC; rforge

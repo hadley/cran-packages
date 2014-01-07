@@ -1,0 +1,13 @@
+Package: distributions
+Type: Package
+Title: Probability distributions based on TI-83 Plus
+Version: 1.2
+Date: 2006-09-08
+Author: Fabio Frascati
+Maintainer: Fabio Frascati <fabiofrascati@yahoo.it>
+Depends: R (>= 2.0.1), stats
+Description: Probability distributions (binomial, poisson,
+  geometric, normal, chi square, Fisher, Student) based on
+  TI-83 Plus graphic scientific calculator
+License: GPL version 2 or newer
+Packaged: Mon Sep 11 11:33:58 2006; Fabio

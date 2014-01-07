@@ -1,0 +1,17 @@
+Package: readbitmap
+Maintainer: Gregory Jefferis <jefferis@gmail.com>
+License: GPL (>= 2)
+Title: Read bitmap images (BMP,JPEG,PNG) without external dependencies
+Author: Gregory Jefferis
+Description: Identifies and reads Windows BMP, JPEG and PNG format bitmap
+    images. Identification defaults to the use of a magic embedded in the file
+    rather than the file extension. Depends only on R packages without external
+    dependencies.
+Version: 0.1
+Date: 11 Dec 2011
+Depends: bmp, jpeg, png
+Suggests: pixmap, testthat
+Collate: 'read-any-bitmap.R'
+Packaged: 2011-12-12 11:49:22 UTC; jefferis
+Repository: CRAN
+Date/Publication: 2011-12-12 12:21:58

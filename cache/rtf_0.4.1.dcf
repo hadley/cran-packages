@@ -1,0 +1,17 @@
+Package: rtf
+Version: 0.4.1
+Date: 2011-09-04
+Title: Rich Text Format (RTF) Output
+Author: Michael Schaffer, Ph.D.
+Maintainer: Michael Schaffer, Ph.D. <mschaff@gmail.com>
+Depends: R (>= 2.10.1), R.oo (>= 1.7.4)
+Imports: methods
+Suggests: lattice
+Description: A set of R functions to output Rich Text Format (RTF)
+        files with high resolution tables and graphics that may be
+        edited with a standard word processor such as Microsoft Word.
+License: BSD
+LazyLoad: TRUE
+Date/Publication: 2011-09-05 05:14:48
+Packaged: 2011-09-05 04:56:06 UTC; mschaff
+Repository: CRAN

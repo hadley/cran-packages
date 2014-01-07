@@ -1,0 +1,27 @@
+Package: RCurl
+Version: 0.9-2
+Title: HTTP request interface
+Author: Duncan Temple Lang
+SystemRequirements: curl (version 7.12.0 or higher) http://curl.haxx.se
+Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+Description: The package allows one to compose HTTP requests to fetch URIs, post forms,
+     etc. and process the results returned by the Web server. 
+     This provides a great deal of control over the HTTP connection and the form
+     of the request while providing a higher-level interface than is available just
+     using R socket connections.  Additionally, the underlying implementation is robust
+     and extensive, supporting SSL/HTTPS, cookies, redirects, authentication, etc.
+License: BSD
+LazyLoad: true
+Depends: methods
+URL: http://www.omegahat.org/RCurl
+Limitations: 
+       One doesn't yet have full control over the contents of a POST form such as specifying
+       files, content type.
+       Error handling uses a single global variable at present.
+Note:  This will be used generally to communicate with HTTP servers and specifically
+       in the SOAP package, HTML forms and for accessing data on Web sites that require
+       more state information than simply URL access (e.g. cookies).
+Check:  To run R CMD check, one really needs network access. It is an HTTP client!
+        This can be problematic as a Web site may be down when you run
+        but the real tests are important.
+Packaged: Thu May  8 02:28:19 2008; duncan

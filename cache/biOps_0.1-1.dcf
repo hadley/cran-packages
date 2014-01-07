@@ -1,0 +1,12 @@
+Package: biOps
+Type: Package
+Title: Basic image operations and image processing
+Version: 0.1-1
+Date: 2007-08-02
+Author: Matias Bordese, Walter Alini
+Maintainer: Matias Bordese <mbordese@gmail.com>
+Encoding: UTF-8
+Description: This package includes arithmetic, logic, look up table and geometric operations. Some image processing functions, for edge detection (several algorithms including roberts, sobel, kirsch, marr-hildreth, canny) and operations by convolution masks (with predefined as well as user defined masks) are provided. Supported file formats are jpeg and tiff (it requires libtiff and libjpeg libraries installed).
+SystemRequirements: libtiff, libjpeg
+License: GPL
+Packaged: Mon Aug 13 18:30:31 2007; matias

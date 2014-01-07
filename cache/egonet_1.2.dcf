@@ -1,0 +1,18 @@
+Package: egonet
+Type: Package
+Title: Tool for ego-centric measures in Social Network Analysis
+Version: 1.2
+Date: 2012-11-01
+Author: A. Sciandra, F. Gioachin, L. Finos
+Maintainer: L. Finos <livio@stat.unipd.it>
+Depends: sna
+Description: A small tool for Social Network Analysis, dealing with
+        ego-centric network measures, including Burt's effective size
+        and aggregate constraint and an import code suitable for a
+        large number of adjacency matrices. A free web application is
+        also available on http://www.egonet.associazionerospo.org
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-11 16:13:09 UTC; livio
+Repository: CRAN
+Date/Publication: 2012-11-11 16:30:56

@@ -1,0 +1,13 @@
+Package: eba
+Version: 1.4-0
+Date: 2005/MAY/02
+Title: Elimination-By-Aspects (EBA) Models
+Author: Florian Wickelmaier <wickelmaier@web.de>.
+Maintainer: Florian Wickelmaier <wickelmaier@web.de>
+Depends: R (>= 1.8.1), nlme
+Description: Fitting and testing probabilistic choice models,
+  especially the Bradley-Terry-Luce (BTL) model (Bradley & Terry, 1952;
+  Luce, 1959), elimination-by-aspects (EBA) models (Tversky, 1972),
+  and preference tree (Pretree) models (Tversky & Sattath, 1979).
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://acoustics.dk/~fw

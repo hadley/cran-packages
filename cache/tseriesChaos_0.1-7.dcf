@@ -1,0 +1,14 @@
+Package: tseriesChaos
+Title: Analysis of nonlinear time series
+Date: 2007-04-09
+Version: 0.1-7
+Author: Antonio, Fabio Di Narzo
+Depends: R (>= 2.2.0), odesolve
+Suggests: scatterplot3d
+LazyData: yes
+LazyLoad: yes
+Description: Routines for the analysis of nonlinear time series. 
+	This work is largely inspired by the TISEAN project, by Rainer Hegger, Holger Kantz and Thomas Schreiber: http://www.mpipks-dresden.mpg.de/~tisean/
+Maintainer: Antonio, Fabio Di Narzo <antonio.dinarzo@studio.unibo.it>
+License: GPL version 2 or newer
+Packaged: Mon Apr  9 16:58:39 2007; antonio

@@ -1,0 +1,30 @@
+Package: RClimMAWGEN
+Maintainer: Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: RClimMAWGEN (R Climate Index Multi-site Auto-regressive Weather
+        GENeretor): a package to generate time series of climate
+        indices from RMAWGEN generations.
+Type: Package
+Author: Emanuele Cordano, Annalisa Di Piazza
+Description: This package contains wrapper functions and methods which allow to
+    use "climdex.pcic" and "RMAWGEN" packages.  With this simple approach it is
+    possible to calculate climate change indices, suggested by the WMO-CCL,
+    CLIVAR, ETCCDMI(http://www.climdex.org),on stochastic generations of
+    temperature and precipitation time series, obtained by the application of
+    RMAWGEN.  Each index can be applied to both observed data and to synthetic
+    time series produced by the Weather Generator, over a reference period
+    (e.g. 1981-2010, as in the example). It contains also functions and methods
+    to evaluate the generated time series of climate change indices consistency
+    by statistical tests.Bugs/comments/questions/collaboration of any kind are
+    warmly welcomed.
+Version: 1.1
+Repository: CRAN
+Date: 2014-01-04
+Depends: R (>= 2.10),climdex.pcic,RMAWGEN
+URL: http://presentations.copernicus.org/EGU2012-5404_presentation.pdf
+Collate: 'accepted.R' 'as.clindex.data.frame.R' 'as.data.frame.R'
+        'climdex.data.frame.R' 'ks.test.R' 'RClimMAWGEN-package.R'
+        'temperature_max.R' 'temperature_min.R' 'wilcox.test.R'
+Packaged: 2014-01-05 14:33:05 UTC; ecor
+NeedsCompilation: no
+Date/Publication: 2014-01-05 17:09:55

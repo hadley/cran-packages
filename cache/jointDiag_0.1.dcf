@@ -1,0 +1,23 @@
+Package: jointDiag
+Version: 0.1
+Date: 2009-02-20
+Title: Joint Approximate Diagonalization of a set of square matrices
+Author: Cedric Gouy-Pailler <cedric.gouypailler@gmail.com> from
+        original code by Antoine Souloumiac (J_Di), Dinh-Tuan Pham
+        (jadiag and lscjadiag), Marco Congedo (lscjadiag), Petr
+        Tichavky (uwedge), Andreas Ziehe (ffdiag), Roland Vollgraf
+        (qdiag)
+Maintainer: Cedric Gouy-Pailler <cedric.gouypailler@gmail.com>
+Depends:
+Suggests:
+Description: Different algorithms to perform approximate joint
+        diagonalization of a finite set of square matrices. The
+        algorithms have been provided by different authors (see list
+        above). Depending on the algorithm, orthogonal or
+        non-orthogonal diagonalizer is found.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+        http://www.lis.inpg.fr/pages_perso/gouypailler/
+Packaged: Thu Mar 12 11:33:50 2009; gouypailler
+Repository: CRAN
+Date/Publication: 2009-03-12 20:07:01

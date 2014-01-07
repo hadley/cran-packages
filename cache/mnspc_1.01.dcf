@@ -1,0 +1,19 @@
+Package: mnspc
+Version: 1.01
+Date: 2011-02-21
+Title: Multivariate Nonparametric Statistical Process Control
+Author: Martin Bezener <bezener@stat.umn.edu> and Peihua Qiu
+        <qiu@stat.umn.edu>
+Maintainer: Martin Bezener <bezener@stat.umn.edu>
+Depends: R (>= 2.6.0)
+Description: Statistical process control for multivariate data that is
+        not necessarily Gaussian distributed. A function is provided to
+        categorize components of multivariate response vectors. Tools
+        for setting up a CUSUM procedure for the transformed data are
+        included. The CUSUM scheme can also be applied to the case when
+        some (or all) of the multivariate response components are
+        binary-categorical.
+License: X11
+Packaged: 2011-04-19 17:46:36 UTC; bezener
+Repository: CRAN
+Date/Publication: 2011-04-24 06:56:50

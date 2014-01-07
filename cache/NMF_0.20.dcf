@@ -1,0 +1,47 @@
+Package: NMF
+Type: Package
+Title: Algorithms and framework for Nonnegative Matrix Factorization
+        (NMF)
+Version: 0.20
+Date: 2013-09-17
+Author: Renaud Gaujoux, Cathal Seoighe
+Maintainer: Renaud Gaujoux <renaud@tx.technion.ac.il>
+Description: This package provides a framework to perform Non-negative Matrix
+    Factorization (NMF). It implements a set of already published algorithms
+    and seeding methods, and provides a framework to test, develop and plug
+    new/custom algorithms. Most of the built-in algorithms have been optimized
+    in C++, and the main interface function provides an easy way of performing
+    parallel computations on multicore machines.
+License: GPL (>= 2)
+URL: http://renozao.github.io/NMF, http://github.com/renozao/NMF,
+        http://r-forge.r-project.org/projects/nmf/
+BugReports: http://github.com/renozao/NMF/issues
+LazyLoad: yes
+VignetteBuilder: knitr
+Depends: R (>= 3.0.0), methods, utils, pkgmaker (>= 0.17.4), registry,
+        rngtools (>= 1.2.3), cluster
+Imports: graphics, stats, stringr, digest, grid, grDevices, gridBase,
+        colorspace, RColorBrewer, foreach, doParallel, ggplot2,
+        reshape2
+Suggests: RcppOctave (>= 0.11), fastICA, doMPI, bigmemory (>= 4.2),
+        synchronicity, corpcor, xtable, devtools, knitr, bibtex, RUnit,
+        mail, Biobase
+Collate: 'rmatrix.R' 'nmf-package.R' 'utils.R' 'simulation.R'
+        'versions.R' 'colorcode.R' 'options.R' 'algorithmic.R'
+        'atracks.R' 'grid.R' 'aheatmap.R' 'NMF-class.R'
+        'extractFeatures.R' 'setNMFClass.R' 'NMFstd-class.R'
+        'fixed-terms.R' 'NMFOffset-class.R' 'NMFns-class.R'
+        'nmfModel.R' 'NMFfit-class.R' 'rnmf.R' 'heatmaps.R'
+        'NMFSet-class.R' 'registry.R' 'NMFStrategy-class.R'
+        'NMFStrategyFunction-class.R' 'NMFStrategyIterative-class.R'
+        'NMFStrategyOctave-class.R' 'registry-algorithms.R'
+        'algorithms-base.R' 'algorithms-brunet.R' 'NMFSeed-class.R'
+        'registry-seed.R' 'seed-base.R' 'parallel.R' 'nmf.R'
+        'transforms.R' 'Bioc-layer.R' 'NMFplots.R' 'algorithms-lnmf.R'
+        'algorithms-lsnmf.R' 'algorithms-pe-nmf.R' 'algorithms-snmf.R'
+        'algorithms-siNMF.R' 'seed-ica.R' 'seed-nndsvd.R' 'data.R'
+        'tests.R' 'run.R'
+Packaged: 2013-11-01 09:17:15 UTC; renaud
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-01 17:54:03

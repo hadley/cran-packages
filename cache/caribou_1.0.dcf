@@ -1,0 +1,22 @@
+Package: caribou
+Type: Package
+Title: Estimation of caribou abundance based on large scale
+        aggregations monitored by radio telemetry
+Version: 1.0
+Date: 2012-01-25
+Author: Helene Crepeau <Helene.Crepeau@mat.ulaval.ca> and Louis-Paul
+        Rivest <Louis-Paul.Rivest@mat.ulaval.ca> and Serge Couturier
+        <tuttu@videotron.ca> and Sophie Baillargeon
+        <Sophie.Baillargeon@mat.ulaval.ca>
+Maintainer: Sophie Baillargeon <Sophie.Baillargeon@mat.ulaval.ca>
+Description: This is a package for estimating the population size of
+        migratory caribou herds based on large scale aggregations
+        monitored by radio telemetry. It implements the methodology
+        found in the article by Rivest et al. (1998) about caribou
+        abundance estimation. It also includes a function based on the
+        Lincoln-Petersen Index as applied to radio telemetry data by
+        White and Garrott (1990).
+License: GPL-2
+Packaged: 2012-01-25 18:16:39 UTC; Sophie Baillargeon
+Repository: CRAN
+Date/Publication: 2012-01-25 19:56:46

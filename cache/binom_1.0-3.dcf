@@ -1,0 +1,10 @@
+Package: binom
+Title: Binomial Confidence Intervals For Several Parameterizations
+Version: 1.0-3
+Author: Sundar Dorai-Raj <sundar.dorai-raj@pdf.com>
+Description: Constructs confidence intervals on the probability of success in a binomial experiment via several parameterizations
+Maintainer: Sundar Dorai-Raj <sundar.dorai-raj@pdf.com>
+Depends: lattice
+Suggests: polynom, tcltk
+License: GPL
+Packaged: Wed Jan  2 05:40:02 2008; sundard

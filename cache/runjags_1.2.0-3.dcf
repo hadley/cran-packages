@@ -1,0 +1,22 @@
+Package: runjags
+Version: 1.2.0-3
+Date: 2013-11-16
+Title: Interface utilities, parallel computing methods and additional
+        distributions for MCMC models in JAGS
+Author: Matthew Denwood <matthew.denwood@glasgow.ac.uk>
+Maintainer: Matthew Denwood <matthew.denwood@glasgow.ac.uk>
+Copyright: The code in src/distributions/jags/ (and elements elsewhere
+        where indicated) is Copyright (C) 2002-10 Martyn Plummer,
+        licensed under GPL-2.  All other code is Copyright (C) Matthew
+        Denwood, licensed under GPL-2.
+Depends: R (>= 2.14)
+Imports: parallel, lattice (>= 0.20-10), coda (>= 0.16-1)
+Suggests: rjags
+SystemRequirements: jags (see http://mcmc-jags.sourceforge.net)
+Description: This package provides high-level interface utilities for Just Another Gibbs Sampler (JAGS), either running locally (via the rjags package or separate JAGS instances) or via distributed computing clusters such as those provided by snow (a Simple Network Of Workstations), Xgrid, or other user specified functions.  A JAGS extension module providing the full Pareto family of distributions for use in JAGS models is also provided.  The primary functions facilitate running parallel JAGS models for multiple chains, automated control of convergence and sample length diagnostics, evaluation of the performance of a model against simulated data, and compatibility with the WinBUGS syntax of model files with data and initial values lists.  Running of arbitrary R commands (not involving JAGS) over Xgrid is also supported.
+License: GPL-2
+URL: http://cran.r-project.org/web/packages/runjags/
+Packaged: 2013-11-16 19:20:13 UTC; matthewdenwood
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-17 08:24:50

@@ -1,0 +1,12 @@
+Package: earth
+Title: Earth: Multivariate Adaptive Regression Spline Models
+Version: 1.0-6
+Author: Stephen Milborrow <milbo@sonic.net> 
+  derived from mda:mars by Trevor Hastie and Rob Tibshirani.
+Maintainer: Stephen Milborrow <milbo@sonic.net>
+Description: Build regression models using the techniques in Friedman's
+  papers "Fast MARS" and "Multivariate Adaptive Regression Splines".
+  (The term "MARS" is copyrighted and thus not used as the name of the package.)
+Depends: leaps
+License: GPL2
+Packaged: Thu May 10 15:26:56 2007; Stephen Milborrow

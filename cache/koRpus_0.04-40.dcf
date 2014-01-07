@@ -1,0 +1,68 @@
+Package: koRpus
+Type: Package
+Title: An R Package for Text Analysis
+Author: m.eik michalke <meik.michalke@hhu.de>, with contributions from
+        Earl Brown, Alberto Mirisola, Alexandre Brulet, and Laura
+        Hauser
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Depends: R (>= 2.10.0),methods
+Enhances: rkward
+Suggests: testthat,tm,Snowball
+Description: A set of tools to analyze texts. Includes, amongst others,
+        functions for automatic language detection, hyphenation,
+        several indices of lexical diversity (e.g., type token ratio,
+        HD-D/vocd-D, MTLD) and readability (e.g., Flesch, SMOG, LIX,
+        Dale-Chall). Basic import functions for language corpora are
+        also provided, to enable frequency analyses (supports Celex and
+        Leipzig Corpora Collection file formats).  #' Note: For full
+        functionality a local installation of TreeTagger is
+        recommended.  Be encouraged to send feedback to the author(s)!
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://reaktanz.de/?c=hacking&s=koRpus
+Authors@R: c(person(given="Meik", family="Michalke",
+        email="meik.michalke@hhu.de", role=c("aut", "cre")),
+        person(given="Earl", family="Brown", email="eabrown@csumb.edu",
+        role=c("ctb")), person(given="Alberto", family="Mirisola",
+        role=c("ctb")), person(given="Alexandre", family="Brulet",
+        role=c("ctb")), person(given="Laura", family="Hauser",
+        role=c("ctb")))
+Version: 0.04-40
+Date: 2013-04-07
+Collate: 'ARI.R' 'bormuth.R' 'C.ld.R' 'kRp.tagged-class.R'
+        'kRp.txt.freq-class.R' 'kRp.txt.trans-class.R'
+        'kRp.TTR-class.R' 'kRp.analysis-class.R' 'koRpus-internal.R'
+        'clozeDelete-method.R' 'coleman.liau.R' 'coleman.R'
+        'kRp.hyphen-class.R' 'correct-method.R' 'cTest-method.R'
+        'CTTR.R' 'dale.chall.R' 'danielson.bryan.R' 'dickes.steiwer.R'
+        'DRP.R' 'ELF.R' 'farr.jenkins.paterson.R' 'flesch.kincaid.R'
+        'flesch.R' 'FOG.R' 'FORCAST.R' 'freq.analysis.R' 'fucks.R'
+        'get.kRp.env.R' 'guess.lang.R' 'harris.jacobson.R' 'HDD.R'
+        'hyphen.R' 'hyph.XX-data.R' 'jumbleWords.R' 'K.ld.R'
+        'koRpus-internal.import.R' 'kRp.readability-class.R'
+        'kRp.lang-class.R' 'kRp.hyph.pat-class.R' 'kRp.filter.wclass.R'
+        'kRp.corp.freq-class.R' 'koRpus-internal.rdb.formulae.R'
+        'koRpus-internal.rdb.params.grades.R'
+        'koRpus-internal.roxy.all.R' 'koRpus-package.R' 'kRp.cluster.R'
+        'kRp.POS.tags.R' 'kRp.taggedText-methods.R'
+        'kRp.text.analysis.R' 'kRp.text.paste.R' 'kRp.text.transform.R'
+        'lang.support-de.R' 'lang.support-en.R' 'lang.support-es.R'
+        'lang.support-fr.R' 'lang.support-it.R' 'lang.support-ru.R'
+        'lex.div.num.R' 'lex.div.R' 'linsear.write.R' 'LIX.R' 'maas.R'
+        'manage.hyph.pat.R' 'MATTR.R' 'MSTTR.R' 'MTLD.R' 'nWS.R'
+        'plot.kRp.tagged.R' 'query-methods.R' 'readability.num.R'
+        'readability.R' 'read.corp.celex.R' 'read.corp.custom.R'
+        'read.corp.LCC.R' 'read.hyph.pat.R' 'RIX.R' 'R.ld.R'
+        'segment.optimizer.R' 'set.kRp.env.R' 'show.kRp.lang.R'
+        'show.kRp.corp.freq.R' 'show.kRp.readability.R'
+        'show.kRp.TTR.R' 'S.ld.R' 'SMOG.R' 'spache.R' 'strain.R'
+        'summary.kRp.lang.R' 'summary.kRp.readability.R'
+        'summary.kRp.tagged.R' 'summary.kRp.TTR.R'
+        'summary.kRp.txt.freq.R' 'textFeatures.R' 'tokenize.R'
+        'traenkle.bailer.R' 'treetag.R' 'TRI.R' 'TTR.R' 'U.ld.R'
+        'wheeler.smith.R'
+Packaged: 2013-04-07 18:56:55 UTC; m
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-08 00:07:46

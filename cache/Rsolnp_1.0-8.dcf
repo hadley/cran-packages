@@ -1,0 +1,18 @@
+Package: Rsolnp
+Type: Package
+Title: General Non-linear Optimization
+Version: 1.0-8
+Date: 2011-01-03
+Author: Alexios Ghalanos and Stefan Theussl
+Maintainer: Alexios Ghalanos <alexios@4dscape.com>
+Depends: stats, truncnorm
+Suggests: multicore, snowfall
+Description: General Non-linear Optimization Using Augmented Lagrange
+        Multiplier Method
+LazyLoad: yes
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: rino
+Repository/R-Forge/Revision: 73
+Date/Publication: 2011-01-05 06:25:04
+Packaged: 2011-01-03 21:44:54 UTC; rforge

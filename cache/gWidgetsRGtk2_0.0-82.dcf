@@ -1,0 +1,16 @@
+Package: gWidgetsRGtk2
+Version: 0.0-82
+Title: Toolkit implementation of gWidgets for RGtk2
+Author: Michael Lawrence, John Verzani
+Maintainer: John Verzani <jverzani@gmail.com>
+Depends: methods, RGtk2, gWidgets
+Suggests: cairoDevice (>= 2.3.0)
+Enhances: RGtk2Extras
+Description: Port of gWidgets API to RGtk2
+License: GPL (>= 2)
+URL: http://gwidgets.r-forge.r-project.org/
+LazyLoad: yes
+Packaged: 2013-11-11 00:56:58 UTC; verzani
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-11 14:03:03

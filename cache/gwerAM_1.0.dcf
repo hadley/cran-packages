@@ -1,0 +1,18 @@
+Package: gwerAM
+Version: 1.0
+Date: 2011-30-05
+Title: Controlling the genome-wide type I error rate in association
+        mapping experiments
+Author: Benjamin Stich <stich@mpipz.mpg.de>, Bettina Mueller
+        <b.mueller@uni-hohenheim.de>, Hans-Peter Piepho
+        <piepho@uni-hohenheim.de>
+Maintainer: Benjamin Stich <stich@mpipz.mpg.de>
+Depends: R (>= 2.10.0), MASS, Matrix
+Description: This package provides functions to calculate the
+        significance threshold for controlling the type I error rate in
+        mixed-model association mapping analyses.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2012-10-29 08:58:55 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:55

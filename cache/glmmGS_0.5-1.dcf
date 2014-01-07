@@ -1,0 +1,16 @@
+Package: glmmGS
+Version: 0.5-1
+Title: Gauss-Seidel Generalized Linear Mixed Model solver
+Author: Michele Morara, Louise Ryan, Subharup Guha, Christopher
+        Paciorek
+Maintainer: Michele Morara<moraram@battelle.org>
+Description: Solve Generalized Linear Mixed Models using Gauss-Seidel
+        algorithm
+License: GPL
+LazyLoad: yes
+URL: http://r-forge.r-project.org/projects/glmmgs/
+Packaged: 2014-01-05 11:19:54 UTC; ripley
+Repository: CRAN
+Date/Publication: 2014-01-05 12:25:00
+SystemRequirements: GNU make
+NeedsCompilation: yes

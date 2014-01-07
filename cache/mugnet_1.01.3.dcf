@@ -1,0 +1,18 @@
+Package: mugnet
+Title: Mixture of Gaussian Bayesian Network Model
+Version: 1.01.3
+Author: Nikolay Balov
+Description: A package that models continuous multivariate data via
+        directional acyclic graphs and provides inference based on the
+        frequentist approach
+Maintainer: Nikolay Balov <nikolay_balov@urmc.rochester.edu>
+License: GPL (>= 2)
+Depends: R (>= 2.10.0), methods, catnet
+Imports: methods, stats, tools, utils
+Collate: mugnet.class.R mugnet.def.R mugnet.learn.R mugnet.predict.R
+        mugnet.sample.R mugnet.find.R
+LazyLoad: yes
+Packaged: 2013-02-25 17:32:03 UTC; root
+Repository: CRAN
+Date/Publication: 2013-02-26 07:52:11
+NeedsCompilation: yes

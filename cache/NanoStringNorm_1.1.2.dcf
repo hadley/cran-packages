@@ -1,0 +1,16 @@
+Package: NanoStringNorm
+Type: Package
+Title: Normalize NanoString miRNA and mRNA data
+Version: 1.1.2
+Date: 2012-02-10
+Author: Daryl M. Waggott
+Maintainer: Daryl Waggott <Daryl.Waggott@oicr.on.ca>
+Depends: R (>= 2.13.1), gdata
+Suggests: RUnit, vsn, googleVis
+Description: The function is used to Normalize Nanostring data
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-02-13 02:05:06 UTC; dwaggott
+Repository: CRAN
+Date/Publication: 2012-02-13 06:47:15

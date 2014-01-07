@@ -1,0 +1,18 @@
+Package: miRtest
+Maintainer: Stephan Artmann <stephan-artmann@gmx.net>
+License: GPL
+Title: combined miRNA- and mRNA-testing
+URL: http://www.ncbi.nlm.nih.gov/pubmed/22723856
+Type: Package
+LazyLoad: yes
+Author: Stephan Artmann, Klaus Jung, Tim Beissbarth
+Description: combined miRNA- and mRNA-testing
+Version: 1.5
+Date: 2012-03-04
+Depends: globaltest, GlobalAncova, limma, RepeatedHighDim, corpcor,
+        MASS
+Collate: 'miRtest.R'
+Packaged: 2013-03-20 11:47:01 UTC; stephan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-21 10:22:38

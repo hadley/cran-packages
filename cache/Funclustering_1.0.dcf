@@ -1,0 +1,22 @@
+Package: Funclustering
+Type: Package
+Title: A package for functional data clustering.
+Version: 1.0
+Date: 2013-08-09
+Author: Mohamed Soueidatt <mohamed.soueidatt@inria.fr>, <msoueidatt@gmail.com>
+Maintainer: Julien Jacques <julien.jacques@inria.fr>
+Description: This packages proposes a model-based clustering algorithm for
+    multivariate functional data. The parametric mixture model, based on the
+    assumption of normality of the principal components resulting from a
+    multivariate functional PCA, is estimated by an EM-like algorithm. The main
+    advantage of the proposed algorithm is its ability to take into account the
+    dependence among curves.
+License: GPL (>= 3) + file LICENSE
+Depends: Rcpp (>= 0.10.3), fda (>= 2.2.6), methods(>= 2.15.1)
+LinkingTo: Rcpp
+Collate: 'cpp_data.R' 'funclust.r' 'input.R' 'output.R' 'plot.R'
+        'mfpca.R' 'harmCut.r' 'mfpcaPlot.R'
+Packaged: 2013-08-23 16:01:34 UTC; soueidat
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-23 20:58:03

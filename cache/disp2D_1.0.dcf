@@ -1,0 +1,16 @@
+Package: disp2D
+Type: Package
+Title: 2D Hausdorff and Simplex Dispersion Orderings
+Version: 1.0
+Date: 2012-05-24
+Author: Guillermo Ayala
+Maintainer: Guillermo Ayala <Guillermo.Ayala@uv.es>
+Depends: geometry
+Suggests: mvtnorm
+Description: An implementation of two exact algorithms for testing the
+        Hausdorff and simplex dispersion orderings
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-05-28 14:43:25 UTC; gag
+Repository: CRAN
+Date/Publication: 2012-05-28 16:32:13

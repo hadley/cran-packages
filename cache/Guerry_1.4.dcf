@@ -1,0 +1,22 @@
+Package: Guerry
+Type: Package
+Title: Guerry: maps, data and methods related to Guerry (1833) "Moral
+        Statistics of France"
+Version: 1.4
+Date: 2010-02-15
+Author: Michael Friendly and Stephane Dray
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Encoding: latin1
+Depends: sp, shapefiles
+Suggests: spdep, ade4, maptools, spacemakeR
+Description: This package comprises maps of France in 1830, data from
+        A.-M. Guerry and others and statistical and graphic methods
+        related to Guerry's "Moral Statistics of France".
+License: GPL
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: guerry
+Repository/R-Forge/Revision: 14
+Date/Publication: 2010-02-16 09:36:42
+Packaged: 2010-02-15 21:10:17 UTC; rforge

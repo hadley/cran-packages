@@ -1,0 +1,17 @@
+Package: flexclust
+Version: 0.7-0
+Date: 2005-06-09
+Author: Friedrich Leisch, parts based on code by Evgenia Dimitriadou
+Maintainer: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at>
+Title: Flexible Cluster Algorithms
+Depends: R (>= 2.1.0), methods
+Imports: graphics, grid, stats
+Suggests: flexmix
+Description: The main function kcca implements a general framework for
+  k-centroids cluster analysis supporting arbitrary
+  distance/similarity measures and centroid computation. Further
+  cluster methods include hard competitive learning, neural gas and QT
+  clustering. 
+License: GPL version 2.
+SaveImage: yes
+Packaged: Thu Jun  9 16:34:13 2005; leisch

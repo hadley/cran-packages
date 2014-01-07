@@ -1,0 +1,15 @@
+Package: rFerns
+Type: Package
+Title: Random ferns classifier
+Version: 0.3.1
+Date: 2011-12-29
+Author: Miron B. Kursa
+Maintainer: Miron B. Kursa <M.Kursa@icm.edu.pl>
+Description: An R implementation of the random ferns classifier by
+        Ozuysal et al., modified for generic classification problems
+        and featuring OOB error approximation and importance measure.
+License: GPL-3
+Packaged: 2013-04-23 13:56:09 UTC; mbkursa
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-23 16:50:11

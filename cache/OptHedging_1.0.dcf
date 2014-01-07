@@ -1,0 +1,15 @@
+Package: OptHedging
+Type: Package
+Title: Estimation of value and hedging strategy of call and put
+        options.
+Version: 1.0
+Date: 2013-10-10
+Author: Bruno Remillard
+Maintainer: Bruno Remillard <bruno.remillard@hec.ca>
+Description: Estimation of value and hedging strategy of call and put options, based on optimal hedging and Monte Carlo method, from Chapter 3 of 'Statistical Methods for Financial Engineering', by Bruno Remillard, CRC Press, (2013).
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.brunoremillard.com
+Packaged: 2013-10-11 16:02:10 UTC; bruno
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-11 18:00:57

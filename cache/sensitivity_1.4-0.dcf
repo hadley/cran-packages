@@ -1,0 +1,14 @@
+Package: sensitivity
+Version: 1.4-0
+Date: 2008-07-14
+Title: Sensitivity Analysis
+Author: Gilles Pujol
+Maintainer: Bertrand Iooss <bertrand.iooss@cea.fr>
+Depends: R (>= 2.7.0), boot
+Suggests: rgl
+Description: A collection of functions for factor screening and global
+        sensitivity analysis of model output.
+License: CeCILL-2
+Packaged: Tue Jul 15 11:53:00 2008; pujol
+Repository: CRAN
+Date/Publication: 2008-07-15 15:47:55

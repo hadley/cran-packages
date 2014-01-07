@@ -1,0 +1,20 @@
+Package: BH
+Type: Package
+Title: The Boost C++ Libraries
+Version: 1.51.0-3
+Date: 2013-10-19
+Author: John W. Emerson, Michael J. Kane, Dirk Eddelbuettel, JJ Allaire, and Romain Francois
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: Boost provides free peer-reviewed portable C++ source 
+  libraries.  A large part of Boost is provided as C++ template code
+  which is resolved entirely at compile-time without linking.  This 
+  package aims to provide the most useful subset of Boost libraries 
+  for template use among CRAN package. By placing these libraries in 
+  this package, we offer a more efficient distribution system for CRAN 
+  as replication of this code in the sources of other packages is 
+  avoided. 
+License: BSL-1.0
+Packaged: 2013-10-19 12:11:25.02117 UTC; edd
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-19 18:40:19

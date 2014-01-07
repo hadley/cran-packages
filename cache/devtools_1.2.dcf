@@ -1,0 +1,38 @@
+Package: devtools
+Title: Tools to make developing R code easier
+Version: 1.2
+Authors@R: c( person("Hadley", "Wickham", email =
+        "h.wickham@gmail.com", role = c("aut", "cre")),
+        person("Winston", "Chang", role = "aut"), person("R Core team",
+        role = "ctb", comment = "Some namespace and vignette code
+        extracted from base R"))
+Description: Collection of package development tools
+Depends: R (>= 3.0)
+Imports: httr, RCurl, utils, tools, methods, memoise, whisker, evaluate
+Suggests: testthat, roxygen2, BiocInstaller, Rcpp (>= 0.10.0), MASS,
+        knitr
+License: GPL (>= 2)
+Collate: 'bash.r' 'build.r' 'check.r' 'check-cran.r'
+        'common-mistakes.r' 'devel-mode.r' 'document.r' 'file-cache.r'
+        'has-devel.r' 'install.r' 'load-code.r' 'load-data.r' 'load.r'
+        'news.r' 'package-deps.r' 'package-env.r' 'package.r'
+        'release.r' 'reload.r' 'run-examples.r' 'system.r' 'test.r'
+        'vignettes.r' 'zzz.r' 'wd.r' 'decompress.r' 'install-github.r'
+        'install-url.r' 'install-git.r' 'install-version.r'
+        'install-gitorious.r' 'missing-s3.r' 'run-source.r'
+        'dependencies.r' 'with.r' 'install-bitbucket.r' 'path.r'
+        'run-loadhooks.r' 'env-utils.r' 'inst.r' 'metadata.r'
+        'create.r' 'session-info.r' 'parent-envs.r' 'compile.r'
+        'load-dll.r' 'utils.r' 'imports-env.r' 'namespace-env.r'
+        'topic-index.r' 'dev-example.r' 'run-example.r' 'dev-help.r'
+        'check_devtools.r' 'rcpp-attributes.r' 'cran.r'
+        'load-depends.r' 'shims.r' 'remove-s4-class.r' 'rtools.r'
+        'clean.r' 'with-debug.r' 'source.r' 'install-min.r'
+        'vignette-r.r' 'has-tests.r'
+Packaged: 2013-04-16 20:27:59 UTC; hadley
+Author: Hadley Wickham [aut, cre], Winston Chang [aut], R Core team
+        [ctb] (Some namespace and vignette code extracted from base R)
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-17 13:42:43

@@ -1,0 +1,19 @@
+Package: hashFunction
+Type: Package
+Title: A collection of non-cryptographic hash functions
+Version: 1.0
+Date: 2013-03-24
+Author: Xiaowei Zhan
+Maintainer: Xiaowei Zhan <zhanxw@gmail.com>
+Description: This package provides common non-cryptographic hash
+        functions for R. For example, SpookyHash, Murmur3Hash, Google
+        CityHash.
+Copyright: Under the allowance of MIT license, smhash
+        (https://code.google.com/p/smhasher/) codes have been adopted.
+License: GPL
+Suggests: R.utils, bitops
+Collate: 'hashFunction.R'
+Packaged: 2013-03-25 13:05:08 UTC; zhanxw
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-25 14:21:08

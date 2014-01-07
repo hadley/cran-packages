@@ -1,0 +1,26 @@
+Package: FeaLect
+Type: Package
+Title: Scores features for Feature seLection
+Version: 1.1
+Date: 2010-10-28
+Author: Habil Zare
+Maintainer: Habil Zare <zare@cs.ubc.ca>
+Depends: lars, Design
+Description: For each feature, a score is computed that can be useful
+        for feature selection. Several random subsets are sampled from
+        the input data and for each random subset, various linear
+        models are fitted using lars method. A score is assigned to
+        each feature based on the tendency of LASSO in including that
+        feature in the models.Finally, the average score and the models
+        are returned as the output. The features with relatively low
+        scores are recommended to be ignored because they can lead to
+        overfitting of the model to the training data. Moreover, for
+        each random subset, the best set of features in terms of global
+        error is returned. They are useful for applying Bolasso, the
+        alternative feature selection method that recommends the
+        intersection of features subsets.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-11-02 01:50:17 UTC; habil
+Repository: CRAN
+Date/Publication: 2010-11-03 07:32:50

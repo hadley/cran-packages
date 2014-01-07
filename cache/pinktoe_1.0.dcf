@@ -1,0 +1,14 @@
+Package: pinktoe
+Version: 1.0
+Date: 2001-05-22
+Title: pinktoe: convert S trees to HTML/perl for interactive tree traversal
+Author: Guy Nason <G.P.Nason@bristol.ac.uk>
+Maintainer: Guy Nason <G.P.Nason@bristol.ac.uk>
+Depends: R (>= 0.99)
+Description: pinktoe converts S tree objects into HTML/perl files.
+  These web files can be used to interactively traverse the tree on
+  a web browser. This web based approach to traversing trees is especially
+  useful for large trees or for trees where the text for each
+  variable is verbose.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.stats.bris.ac.uk/~magpn/Research/Pinktoe/Welcome.html

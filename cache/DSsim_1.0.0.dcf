@@ -1,0 +1,47 @@
+Package: DSsim
+Depends: shapefiles, splancs, mrds, mgcv, methods
+Suggests: testthat, parallel
+Type: Package
+Title: Distance Sampling Simulations
+Version: 1.0.0
+Date: 2013-12-18
+LazyLoad: yes
+Author: Laura Marshall <lhm@st-and.ac.uk>
+Maintainer: Laura Marshall <lhm@st-and.ac.uk>
+Description: Performs distance sampling simulations. It repeatedly 
+    generates instances of a user defined population within a given survey 
+    region, generates realisations of a survey design (currently these must 
+    be pre-generated using Distance software) and simulates the detection
+    process. The data are then analysed so that the results can be compared for
+    accuracy and precision across all replications. This will allow users to
+    select survey designs which will give them the best accuracy and precision
+    given their expectations about population distribution. Any uncertainty in
+    population distribution or population parameters can be included by running
+    the different survey designs for a number of different population
+    descriptions. An example simulation can be found in the help file 
+    for make.simulation.
+License: GPL (>= 2)
+Collate: 'generic.functions.R' 'Region.R' 'Detectability.R'
+        'Population.R' 'calc.poss.detect.dists.R'
+        'check.intersection.R' 'Class.Constructors.R' 'DDF.Data.R'
+        'Single.Obs.DDF.Data.R' 'DDF.Analysis.R' 'Density.R'
+        'DS.Analysis.R' 'DSM.Analysis.R' 'hn.detect.R' 'hr.detect.R'
+        'in.polygons.R' 'Line.Transect.R' 'Survey.Design.R'
+        'LT.Design.R' 'LT.EqSpace.ZZ.Design.R' 'LT.EqAngle.ZZ.Design.R'
+        'Survey.R' 'LT.Survey.R' 'Obs.Table.R'
+        'Population.Description.R' 'PT.Design.R' 'Region.Table.R'
+        'rename.duplicates.R' 'Sample.Table.R' 'simulate.detections.R'
+        'Single.Obs.LT.Survey.R' 'LT.Survey.Results.R' 'Simulation.R'
+        'coords.from.shapefile.R' 'is.gap.R' 'store.ddf.results.R'
+        'store.dht.results.R' 'add.summary.results.R'
+        'get.surface.constant.R' 'get.ave.density.R'
+        'get.surface.gam.R' 'single.simulation.loop.R'
+        'accumulate.PP.results.R' 'Simulation.Summary.R'
+        'generate.pop.D.R' 'generate.pop.N.R' 'calc.area.R'
+        'get.bound.box.R' 'get.shapefile.names.R' 'get.sampler.info.R'
+        'LT.Systematic.Design.R' 'LT.Random.Design.R'
+        'LT.User.Specified.Design.R' 'display.glossary.R'
+Packaged: 2013-12-19 03:55:02 UTC; laura
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-19 06:57:10

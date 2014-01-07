@@ -1,0 +1,15 @@
+Package: jackknifeKME
+Type: Package
+Title: Jackknife estimates of Kaplan-Meier estimators or integrals.
+Version: 1.0
+Date: 2013-02-22
+Author: Hasinur Rahaman Khan and Ewart Shaw
+Maintainer: Hasinur Rahaman Khan <hasinurkhan@gmail.com>
+Description: The package is for computing both the original and
+        modified jackknife estimates of Kaplan-Meier estimators.
+Depends: imputeYn (>= 1.1), survival
+License: GPL-2
+Packaged: 2013-02-24 18:26:20 UTC; hasinur
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-24 20:07:19

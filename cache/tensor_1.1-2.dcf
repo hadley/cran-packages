@@ -1,0 +1,10 @@
+Package: tensor
+Version: 1.1-2
+Date: 14.05.01
+Title: Tensor product of arrays
+Author: Jonathan Rougier <J.C.Rougier@durham.ac.uk>
+Description: The tensor product of two arrays is notionally an outer
+	product of the arrays collapsed in specific extents by
+	summing along the appropriate diagonals.
+Maintainer: Jonathan Rougier <J.C.Rougier@durham.ac.uk>
+License: GPL version 2 or newer

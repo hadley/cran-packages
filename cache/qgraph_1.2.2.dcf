@@ -1,0 +1,22 @@
+Package: qgraph
+Type: Package
+Title: Network representations of relationships in data
+Version: 1.2.2
+Date: 2013-05-08
+Author: Sacha Epskamp, Angelique O. J. Cramer, Lourens J. Waldorp,
+        Verena D. Schmittmann and Denny Borsboom
+Maintainer: Sacha Epskamp <qgraph@sachaepskamp.com>
+Depends: R (>= 2.15.0)
+Suggests: RSVGTipsDevice, fdrtool, lavaan, sem, rpanel
+Imports: psych, ellipse, lavaan, sem, plyr, methods, Hmisc, igraph,
+        jpeg, png, colorspace
+ByteCompile: yes
+Description: The qgraph package can be used to visualize data as
+        networks.
+URL: http://sachaepskamp.com/qgraph
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-05-08 15:07:16 UTC; sacha
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-08 18:38:17

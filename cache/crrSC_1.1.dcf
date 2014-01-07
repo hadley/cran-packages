@@ -1,0 +1,13 @@
+Package: crrSC
+Title: Competing risks regression for Stratified and Clustered data
+Version: 1.1
+Author: Bingqing Zhou and Aurelien Latouche
+Description: Extension of cmprsk to Stratified and Clustered data.
+        Goodness of fit test for Fine-Gray model.
+Depends: survival
+Maintainer: Aurelien Latouche <aurelien.latouche@cnam.fr>
+License: GPL-2
+Packaged: 2013-06-22 20:01:47 UTC; latouche
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-23 00:24:34

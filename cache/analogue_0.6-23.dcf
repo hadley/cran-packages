@@ -1,0 +1,18 @@
+Package: analogue
+Type: Package
+Title: Analogue and weighted averaging methods for palaeoecology
+Version: 0.6-23
+Date: $Date: 2010-01-18 20:04:17 +0100 (Mon, 18 Jan 2010) $
+Depends: R (>= 2.5.0), stats, graphics, vegan, lattice, MASS
+Author: Gavin L. Simpson, Jari Oksanen
+Maintainer: Gavin L. Simpson <gavin.simpson@ucl.ac.uk>
+Description: Fits Modern Analogue Technique and Weighted Averaging
+        transfer function models for prediction of environmental data
+        from species data, and related methods used in palaeoecology.
+License: GPL-2
+URL: http://analogue.r-forge.r-project.org
+Repository: CRAN
+Repository/R-Forge/Project: analogue
+Repository/R-Forge/Revision: 163
+Date/Publication: 2010-03-13 14:54:49
+Packaged: 2010-03-10 21:44:31 UTC; rforge

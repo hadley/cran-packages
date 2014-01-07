@@ -1,0 +1,10 @@
+Package: AnalyzeIO
+Version: 0.1.1
+Date: 2001-17-05
+Title: Functions for I/O of ANALYZE format .img and .hdr image files. 
+Author: J L Marchini <marchini@stats.ox.ac.uk>
+Maintainer: J L Marchini <marchini@stats.ox.ac.uk>
+Description: Functions for I/O of ANALYZE image format files
+License: GPL (version 2 or later)
+Depends: tcltk (but only for the GUI, all other functions are stand alone) 
+URL: http://www.stats.ox.ac.uk/~marchini/software.html

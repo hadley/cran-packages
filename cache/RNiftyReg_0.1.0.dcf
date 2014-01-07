@@ -1,0 +1,15 @@
+Package: RNiftyReg
+Version: 0.1.0
+Date: 2010-09-06
+Title: Medical image registration using the NiftyReg library
+Author: Jon Clayden; based on original code by Marc Modat and Pankaj
+        Daga
+Maintainer: Jon Clayden <jon.clayden+rniftyreg@gmail.com>
+Depends: R (>= 2.9.0)
+Suggests: oro.nifti
+Description: This package provides an R interface to the NiftyReg image
+        registration tools <http://sourceforge.net/projects/niftyreg/>.
+License: GPL-2
+Packaged: 2010-09-06 13:06:38 UTC; jon
+Repository: CRAN
+Date/Publication: 2010-09-06 14:42:53

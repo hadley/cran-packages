@@ -1,0 +1,17 @@
+Package: geigen
+Type: Package
+Title: Calculate generalized eigenvalues of a matrix pair
+Version: 1.3
+Date: 2013-08-27
+Author: Berend Hasselman, Lapack authors
+Maintainer: Berend Hasselman <bhh@xs4all.nl>
+Description: Compute generalized eigenvalues and eigenvectors of a pair of matrices, 
+             using routines from Lapack (dggev and zggev). Compute the
+             generalized Schur decomposition of a pair of matrices using Lapack routines.
+             In the latter case options for ordering the generalized eigenvalues are provided.
+License: GPL (>= 2)
+Copyright: see inst/COPYRIGHTS for the files in src/.
+Packaged: 2013-08-27 10:30:45 UTC; berendhasselman
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-27 13:48:43

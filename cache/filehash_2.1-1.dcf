@@ -1,0 +1,16 @@
+Package: filehash
+Version: 2.1-1
+Date: 2010-10-04
+Depends: R (>= 2.9.0), methods
+Imports: utils
+Collate: filehash.R filehash-DB1.R filehash-RDS.R coerce.R dump.R
+        hash.R queue.R stack.R zzz.R
+Title: Simple key-value database
+Author: Roger D. Peng <rpeng@jhsph.edu>
+Maintainer: Roger D. Peng <rpeng@jhsph.edu>
+Description: Simple key-value database
+License: GPL (>= 2)
+URL: http://github.com/rdpeng/filehash
+Packaged: 2010-10-05 15:42:22 UTC; rdpeng
+Repository: CRAN
+Date/Publication: 2010-10-05 16:37:24

@@ -1,0 +1,13 @@
+Package: fishMod
+Title: Fits Poisson-sum-of-Gammas GLMs, Tweedie GLMs, and delta
+        log-normal mdoels.
+Version: 0.19
+Author: Scott D. Foster
+Description: Fits models to catch and effort data. Single-species models are 1) delta log-normal, 2) Tweedie, or 3) Poisson-gamma (GL)Ms.
+Maintainer: Scott Foster <scott.foster@csiro.au>
+Suggests: mgcv
+License: GPL
+Packaged: 2013-11-28 10:26:00 UTC; fos085
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-28 11:50:31

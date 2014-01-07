@@ -1,0 +1,14 @@
+Package: tree
+Title: Classification and regression trees
+Version: 1.0-29
+Date: 2011-07-24
+Depends: R (>= 2.7.0), grDevices, graphics, stats
+Suggests: MASS
+Author: Brian Ripley <ripley@stats.ox.ac.uk>.
+Maintainer: Brian Ripley <ripley@stats.ox.ac.uk>
+Description: Classification and Regression Trees.
+LazyLoad: yes
+License: GPL-2 | GPL-3
+Packaged: 2012-01-02 14:06:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-01-02 15:45:57

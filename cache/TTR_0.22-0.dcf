@@ -1,0 +1,18 @@
+Package: TTR
+Type: Package
+Title: Technical Trading Rules
+Version: 0.22-0
+Date: 2013-03-18
+Author: Joshua Ulrich
+Maintainer: Joshua Ulrich <josh.m.ulrich@gmail.com>
+Depends: xts (>= 0.9-3)
+LinkingTo: xts
+Enhances: quantmod
+Suggests: RUnit
+Description: Functions and data to construct technical trading rules
+        with R.
+License: GPL-2
+Packaged: 2013-03-17 15:58:13 UTC; josh
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-17 17:55:49

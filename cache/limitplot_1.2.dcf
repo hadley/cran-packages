@@ -1,0 +1,15 @@
+Package: limitplot
+Type: Package
+Title: Jitter/CI Plot with Ordered Points Below the Limit of Detection
+Version: 1.2
+Date: 2011-07-05
+Author: Omar E. Olmedo
+Maintainer: Omar E. Olmedo <omareolmedo@gmail.com>
+Description: Values below a specified limit of detection are stacked in
+        rows in order to reduce overplotting and create a clear
+        graphical representation of your data.
+Depends: R (>= 2.9.0)
+License: GPL-2
+Packaged: 2011-07-06 03:17:07 UTC; omareolmedo
+Repository: CRAN
+Date/Publication: 2011-07-06 19:10:10

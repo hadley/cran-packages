@@ -1,0 +1,20 @@
+Package: vbdm
+Type: Package
+Title: Variational Bayes Discrete Mixture Model
+Version: 0.0.1
+Date: 2013-08-31
+Author: Benjamin Logsdon
+Maintainer: Benjamin Logsdon <blogsdon@uw.edu>
+Depends: R (>= 3.0.0)
+Description: Efficient algorithm for solving discrete mixture
+		regression model for rare variant association analysis.
+		Uses variational Bayes algorithm to efficiently search over
+		model space.  Outputs an approximate likelihood ratio test
+		as well as variant level posterior probabilities of
+		association.
+License: GPL-2
+Copyright: Benjamin Logsdon 2013
+Packaged: 2013-10-02 17:41:01 UTC; aeberhart
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-02 22:33:50

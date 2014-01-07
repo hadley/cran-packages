@@ -1,0 +1,18 @@
+Package: FinAsym
+Type: Package
+Title: Classifies implicit trading activity from market quotes and
+        computes the probability of informed trading
+Version: 1.0
+Date: 2012-04-02
+Author: Paolo Zagaglia
+Maintainer: Paolo Zagaglia <paolo.zagaglia@gmail.com>
+Description: This package accomplishes two tasks: a) it classifies
+        implicit trading activity from quotes in OTC markets using the
+        algorithm of Lee and Ready (1991); b) based on information for
+        trade initiation, the package computes the probability of
+        informed trading of Easley and O'Hara (1987).
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-04-03 13:58:28 UTC; paolozagaglia
+Repository: CRAN
+Date/Publication: 2012-04-03 21:01:52

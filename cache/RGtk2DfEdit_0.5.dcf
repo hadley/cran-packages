@@ -1,0 +1,15 @@
+Package: RGtk2DfEdit
+Type: Package
+Title: Improved data frame editor for RGtk2
+Version: 0.5
+Date: 2010-02-01
+Author: Tom Taverner, with contributions from John Verzani
+        <verzani@math.csi.cuny.edu>
+Maintainer: Tom Taverner <thomas.taverner@pnl.gov>
+Description: RGtk2 data frame editor megawidget
+Depends: methods, RGtk2(>= 2.12.8)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-02-13 22:59:12 UTC; d3x487
+Repository: CRAN
+Date/Publication: 2010-02-14 14:44:11

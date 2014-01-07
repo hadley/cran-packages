@@ -1,0 +1,28 @@
+Package: LiblineaR
+Title: Linear Predictive Models Based On The Liblinear C/C++ Library.
+Version: 1.51-0
+Author: Thibault Helleputte <thelleputte@gmail.com>
+Maintainer: Thibault Helleputte <thelleputte@gmail.com>
+Description: This R package is a wrapper around the liblinear C/C++
+        library for machine learning. It allows the estimation of
+        predictive linear models such as L1- or L2-regularized logistic
+        regression, L1- or L2-regularized L2-loss support vector
+        classification, L2-regularized L1-loss support vector
+        classification and multi-class support vector classification.
+        The estimation of the models is particularly fast as compared
+        to other libraries. For more information on liblinear itself,
+        refer to R.-E. Fan, K.-W. Chang, C.-J. Hsieh, X.-R. Wang, and
+        C.-J. Lin. LIBLINEAR: A Library for Large Linear
+        Classification, Journal of Machine Learning Research 9(2008),
+        1871-1874. Software available at
+        http://www.csie.ntu.edu.tw/~cjlin/liblinear . The two first
+        blocks of the package version indicates which version of
+        liblinear is currently supported. For example: 1.32-14 means
+        that the package supports the version 1.32 of liblinear.
+License: GPL-2
+Date: 2010-05-26
+LazyLoad: yes
+URL: http://www.r-project.org, http://www.thibaulthelleputte.be
+Packaged: 2010-05-29 21:31:10 UTC; thibaulthelleputte
+Repository: CRAN
+Date/Publication: 2010-05-30 13:37:55

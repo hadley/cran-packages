@@ -1,0 +1,23 @@
+Package: DAKS
+Type: Package
+Title: Data Analysis and Knowledge Spaces
+Version: 2.1-2
+Date: 2012-08-17
+Authors@R: c(person("Ali", "Uenlue", email = "ali.uenlue@tum.de", role
+        = c("aut", "cre")), person("Anatol", "Sargin", email =
+        "anatol.sargin@generali.de", role = c("aut")))
+Description: Functions and an example dataset for the psychometric
+        theory of knowledge spaces.  This package implements data
+        analysis methods and procedures for simulating data and quasi
+        orders and transforming different formulations in knowledge
+        space theory.
+Depends: R (>= 2.15.1), relations, sets
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.meb.edu.tum.de/
+Packaged: 2012-08-17 17:01:43 UTC; root
+Author: Ali Uenlue [aut, cre], Anatol Sargin [aut]
+Maintainer: Ali Uenlue <ali.uenlue@tum.de>
+Repository: CRAN
+Date/Publication: 2012-08-17 17:40:21

@@ -1,0 +1,18 @@
+Package: plotGoogleMaps
+Type: Package
+Title: Plot HTML output with Google Maps API and your own data
+Version: 1.0
+Date: 2010-12-08
+Author: Milan Kilibarda
+Maintainer: Milan Kilibarda <kili@grf.bg.ac.rs>
+Description: This package produces HTML output with Google Maps and
+        costume layer (layers). The HTML is ready to use as local file
+        or into your own website. More details about using Google Maps
+        JavaScritpt API V3 is available on the official web site
+        http://code.google.com/apis/maps/documentation/javascript/
+Depends: sp, rgdal, maptools
+License: GPL
+LazyLoad: yes
+Packaged: 2010-12-10 10:04:48 UTC; gf01
+Repository: CRAN
+Date/Publication: 2010-12-12 09:11:03

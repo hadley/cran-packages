@@ -1,0 +1,13 @@
+Package: randomizationInference
+Version: 1.0.0
+Date: 2013-09-09
+Title: Flexible Randomization-Based Inference
+Author: Joseph J. Lee and Tirthankar Dasgupta
+Maintainer: Joseph J. Lee <lee26@fas.harvard.edu>
+Depends: permute, matrixStats
+Description: The 'randomizationInference' package allows the user to conduct randomization-based inference for a wide variety of experimental scenarios. The package leverages a potential outcomes framework to output randomization-based p-values and intervals for any estimand of interest, according to the specified null and alternative hypotheses.  The package also creates visualizations of randomization distributions and can test multiple test statistics simultaneously.
+License: GPL-2
+Packaged: 2013-09-10 03:51:48 UTC; Joseph J. Lee
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-10 07:38:30

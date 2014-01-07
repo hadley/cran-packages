@@ -1,0 +1,25 @@
+Package: perry
+Type: Package
+Title: Resampling-based prediction error estimation for regression
+        models
+Version: 0.1.0
+Date: 2012-08-23
+Depends: R (>= 2.14.1), ggplot2, parallel, robustbase
+Imports: stats
+Description: Tools that allow developers to write functions for
+        prediction error estimation with minimal programming effort and
+        assist users with model selection in regression problems.
+License: GPL (>= 2)
+LazyLoad: yes
+Authors@R: person("Andreas", "Alfons", email =
+        "andreas.alfons@kuleuven.be", role = c("aut", "cre"))
+Collate: 'accessors.R' 'aggregate.R' 'cost.R' 'fortify.R' 'perryFit.R'
+        'perryPlot.R' 'perry.R' 'perryReshape.R' 'perrySelect.R'
+        'perrySplits.R' 'perryTools.R' 'perryTuning.R' 'predict.R'
+        'print.R' 'reperry.R' 'selectBest.R' 'subset.R' 'summary.R'
+        'utils.R'
+Packaged: 2012-08-23 12:33:01 UTC; andi
+Author: Andreas Alfons [aut, cre]
+Maintainer: Andreas Alfons <andreas.alfons@kuleuven.be>
+Repository: CRAN
+Date/Publication: 2012-08-23 14:05:02

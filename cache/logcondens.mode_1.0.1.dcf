@@ -1,0 +1,17 @@
+Package: logcondens.mode
+Type: Package
+Title: Compute MLE of Log-Concave Density on R with Fixed Mode, and
+        Perform Inference for the Mode.
+Version: 1.0.1
+Date: 2013-07-10
+Author: Charles Doss
+Maintainer: Charles Doss <cdoss@stat.washington.edu>
+Description: Computes maximum likelihood estimate of a log-concave density  with fixed and known location of the mode. Performs inference about the mode via a likelihood ratio test. Extension of the logcondens package.
+License: GPL (>= 2)
+Depends: logcondens
+Imports: distr
+LazyLoad: yes
+Packaged: 2013-09-12 15:17:02 UTC; cdoss
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-12 18:31:44

@@ -1,0 +1,16 @@
+Package: luca
+Title: Likelihood inference from case-control data Under Covariate
+        Assumptions (LUCA)
+Version: 1.0-5
+Author: Ji-Hyung Shin <shin@sfu.ca>, Brad McNeney
+        <mcneney@stat.sfu.ca>, Jinko Graham <jgraham@stat.sfu.ca>
+Maintainer: Ji-Hyung Shin <shin@sfu.ca>
+Depends: R (>= 2.0.0), survival, genetics
+Description: Likelihood inference in case-control studies of a rare
+        disease under independence or simple dependence of genetic and
+        non-genetic covariates
+License: GPL-2
+URL: http://stat-db.stat.sfu.ca:8080/statgen/research/luca
+Packaged: 2009-05-05 23:05:14 UTC; jshin
+Repository: CRAN
+Date/Publication: 2009-05-05 18:08:53

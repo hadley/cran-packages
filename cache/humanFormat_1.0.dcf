@@ -1,0 +1,16 @@
+Package: humanFormat
+Type: Package
+Depends: testthat
+Title: Human-friendly formatting functions
+Version: 1.0
+Date: 2013-11-22
+Author: Dustin Sallings
+Maintainer: Dustin Sallings <dustin@spy.net>
+Description: Format quantities of time or bytes into human-friendly strings.
+License: MIT + file LICENSE
+URL: https://github.com/dustin/humanFormat
+BugReports: https://github.com/dustin/humanFormat/issues
+Packaged: 2013-11-24 23:40:32 UTC; dustin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-25 05:12:51

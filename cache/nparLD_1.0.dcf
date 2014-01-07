@@ -1,0 +1,25 @@
+Package: nparLD
+Version: 1.0
+Date: 2009-09-014
+Title: Nonparametric Analysis of Longitudinal Data in Factorial
+        Experiments
+Author: Kimihiro Noguchi <knoguchi@uwaterloo.ca>, Mahbub Latif
+        <mlatif@gwdg.de>, Karthinathan Thangavelu <kthanga@gwdg.de>,
+        Frank Konietschke <fkoniet@gwdg.de>, Yulia R. Gel
+        <ygl@math.uwaterloo.ca>, Edgar Brunner
+        <brunner@ams.med.uni-goettingen.de>
+Maintainer: Kimihiro Noguchi <knoguchi@uwaterloo.ca>
+Depends: R (>= 2.6.0), MASS
+License: GPL (>= 2)
+Description: The package "nparLD" is designed to perform nonparametric
+        analysis of longitudinal data in factorial experiments.
+        Longitudinal data are those which are collected from the same
+        subjects over time, and they frequently arise in biological
+        sciences. Nonparametric methods do not require assumptions on
+        distributions of parameters, and are applicable to a variety of
+        data types (continuous, discrete, purely ordinal, and
+        dichotomous). Such methods are also robust with respect to
+        outliers and for small sample sizes.
+Packaged: Wed Sep 16 14:05:03 2009; KNoguchi
+Repository: CRAN
+Date/Publication: 2009-09-18 20:25:50

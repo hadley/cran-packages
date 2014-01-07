@@ -1,0 +1,15 @@
+Package: atmi
+Type: Package
+Title: Analysis of technical market indicators
+Version: 1.0
+Date: 2009-10-05
+Author: Waldemar Kemler, Peter Schaffner, <atmi.info@gmail.com>
+Maintainer: Waldemar Kemler, Peter Schaffner, <atmi.info@gmail.com>
+Description: Analysis and usage of the trading rules, which are based
+        on technical market indicators as well as on the time series
+        analysis.
+Depends: R (>= 2.9.0), TTR
+License: GPL (>= 2)
+Packaged: 2009-10-06 09:45:53 UTC; root
+Repository: CRAN
+Date/Publication: 2009-10-07 07:48:15

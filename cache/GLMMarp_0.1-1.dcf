@@ -1,0 +1,32 @@
+Package: GLMMarp
+Version: 0.1-1
+Date: 2009-09-28
+Title: Generalized Linear Multilevel Model with AR(p) Errors Package
+Author: Xun Pang <xpang@wustl.edu>
+Maintainer: Xun Pang <xpang@wustl.edu>
+Depends: R (>= 2.8.0), coda (>= 0.11-3), MCMCpack, mvtnorm, lattice,
+        msm, MASS, Matrix, accuracy, kinship, panel, bayesSurv
+Description: This package contains functions to estimate the GLMM-AR(p)
+        model for analyzing discrete time-series cross-sectional data
+        via Markov Chain Monte Carlo simulation. The simulation is done
+        only with the R language. The model returns draws of the
+        parameter posteriors selected by the user in a list format.
+        Each parameter chain is returned as a matrix. The user is
+        responsible to summarize the mcmc output by using the coda
+        package. GLMMarp also contains several useful utility
+        functions, including an independent function for computing the
+        Bayes factor with GLMM-AR(p) output, a function to recover the
+        random coefficients at the individual level, and a function to
+        do prediction by using the posterior distributions. The package
+        also contains a library of supporting functions for the MCMC
+        simulation and Bayes factor estimation. In this version, no
+        tools for visualization are provided. To use the functions in
+        this package, the user needs to load the following two packages
+        by him/herself: \code{panel} and \code{bayesSurv}, because the
+        two packages have no namespace.
+License: GPL
+SystemRequirements: gcc (>= 4.0)
+URL: http://xpang.wustl.edu/Computing.html
+Repository: CRAN
+Date/Publication: 2009-10-18 09:17:21
+Packaged: 2009-10-16 17:15:53 UTC; xpang

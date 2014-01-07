@@ -1,0 +1,26 @@
+Package: DPpackage
+Version: 1.0-5
+Date: 2007-03-05
+Title: Bayesian Nonparametric and Semiparametric Analysis
+Author: Alejandro Jara <Alejandro.JaraVallejos@med.kuleuven.be>
+Maintainer: Alejandro Jara <Alejandro.JaraVallejos@med.kuleuven.be> 
+Description: 
+  This package contains functions to perform inference via
+  simulation from the posterior distributions for Bayesian nonparametric and
+  semiparametric models. Although the name of the package was motivated
+  by the Dirichlet Process prior, the package considers and will consider
+  other priors on functional spaces. So far, DPpackage includes models 
+  considering Dirichlet Process, Polya Trees, Mixtures of Triangular distributions, 
+  and Random Bernstein polynomials priors. The package
+  also includes models considering Penalized B-Splines.
+  Currently the package includes semiparametric models for density estimation, ROC curve analysis,
+  interval censored data, binary regression models, generalized linear mixed 
+  models, IRT type models, and generalized additive models. The package also contains functions 
+  to compute Pseudo-Bayes factors for model comparison, and to elicitate the precision 
+  parameter of the Dirichlet Process. To maximize computational efficiency, 
+  the actual sampling for each model is done in compiled FORTRAN. The functions 
+  return objects which can be subsequently analyzed with functions provided in 
+  the coda package.
+License: GPL version 2 or newer
+URL: http://www.student.kuleuven.ac.be/%7Es0166452/software.html
+Packaged: Fri Sep 14 02:45:31 2007; Administrador

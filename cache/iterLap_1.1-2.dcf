@@ -1,0 +1,24 @@
+Package: iterLap
+Type: Package
+Title: Approximate probability densities by iterated Laplace
+        Approximations
+Version: 1.1-2
+Depends: quadprog, randtoolbox, parallel, R (>= 2.15)
+Date: 2012-05-22
+Author: Bjoern Bornkamp
+Maintainer: Bjoern Bornkamp <bbnkmp@gmail.com>
+Description: The iterLap (iterated Laplace approximation) algorithm
+        approximates a general (possibly non-normalized) probability
+        density on R^p, by repeated Laplace approximations to the
+        difference between current approximation and true density (on
+        log scale). The final approximation is a mixture of
+        multivariate normal distributions and might be used for example
+        as a proposal distribution for importance sampling (eg in
+        Bayesian applications).  The algorithm can be seen as a
+        computational generalization of the Laplace approximation
+        suitable for skew or multimodal densities.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-05-22 20:05:33 UTC; bjoern
+Repository: CRAN
+Date/Publication: 2012-05-22 20:52:08

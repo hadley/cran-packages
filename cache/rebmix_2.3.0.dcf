@@ -1,0 +1,16 @@
+Package: rebmix
+Version: 2.3.0
+Title: The Rebmix Package
+Author: Marko Nagode
+Maintainer: Marko Nagode <marko.nagode@fs.uni-lj.si>
+Description: R functions for random univariate and multivariate finite
+        mixture generation, number of components, component weights and
+        component parameters estimation, printing and plotting of
+        finite mixtures and class membership prediction. Variables can
+        be either continuous or discrete.
+License: GPL (>= 2)
+Suggests: mixtools, mclust
+Packaged: 2012-01-25 12:39:14 UTC; Marko Nagode
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2012-01-25 13:25:49

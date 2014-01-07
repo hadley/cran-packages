@@ -1,0 +1,22 @@
+Package: MatchIt
+Version: 2.4-14
+Date: 2010-08-12
+Title: MatchIt
+Author: Daniel Ho <daniel.e.ho@gmail.com>, Elizabeth Stuart
+        <stuart@stat.harvard.edu>, Kosuke Imai <kimai@Princeton.Edu>,
+        Gary King <king@harvard.edu>
+Maintainer: Kosuke Imai <kimai@Princeton.Edu>
+Depends: R (>= 2.7), MASS
+Description: MatchIt preprocesses data by selecting approximate matched
+        samples of the treated and control groups with similar
+        covariate distributions, drawing on a large variety of matching
+        methods. After preprocessing data with MatchIt, whatever
+        standard parametric technique one might have used without
+        preprocessing can be used, but the results will be far less
+        model dependent.
+License: GPL (>= 2)
+URL: http://gking.harvard.edu/matchit/
+Suggests: cem, optmatch, Matching, WhatIf, nnet, rpart, mgcv
+Packaged: 2010-08-12 14:12:17 UTC; rbuild
+Repository: CRAN
+Date/Publication: 2010-08-12 14:32:03

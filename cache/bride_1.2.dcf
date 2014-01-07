@@ -1,0 +1,20 @@
+Package: bride
+Title: Brier score decomposition of probabilistic forecasts for binary
+        events
+Version: 1.2
+Date: 2013-03-25
+Author: Stefan Siegert
+Maintainer: Stefan Siegert <stefan_siegert@gmx.de>
+Description: Decomposes the empirical Brier score into reliability,
+        resolution and uncertainty. Two different estimators for the
+        components are provided: The original estimators proposed by
+        Murphy (1974), and the bias-corrected estimators proposed by
+        Ferro and Fricker (2012). Variances of all the components are
+        estimated. This package applies only to probabilistic
+        predictions of binary events.
+Suggests:
+License: GPL-2
+Packaged: 2013-03-26 12:51:09 UTC; siegert
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-26 14:25:46

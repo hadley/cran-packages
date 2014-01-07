@@ -1,0 +1,18 @@
+Package: enviPat
+Type: Package
+Title: Isotope pattern, profile and centroid calculation.
+Version: 1.0
+Date: 2013-03-06
+Author: Martin Loos, Christian Gerber
+Maintainer: Martin Loos <Martin.Loos@eawag.ch>
+Description: Fast and very memory-efficient calculation of isotope
+        patterns, subsequent convolution to theoretical envelopes
+        (profiles) plus valley detection and centroidization or
+        intensoid calculation. Batch processing, resolution
+        interpolation, wrapper, adduct calculations and molecular
+        formula parsing.
+License: GPL-2
+Packaged: 2013-06-24 14:19:04 UTC; loosmart
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-24 16:27:55

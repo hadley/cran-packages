@@ -1,0 +1,19 @@
+Package: pearson7
+Version: 1.0
+Date: 2013
+Title: Maximum Likelihood Inference for the Pearson VII Distribution
+        with Shape Parameter 3/2
+Author: John Hughes
+Maintainer: John Hughes <hughesj@umn.edu>
+Depends: utils
+Description: pearson7 supports maximum likelihood inference for the
+        Pearson VII distribution with shape parameter 3/2 and free
+        location and scale parameters. This distribution is relevant
+        when estimating the velocity of processive motor proteins with
+        random detachment.
+License: GPL (>= 2)
+URL: http://www.biostat.umn.edu/~johnh
+Collate: 'pearson7.R' 'zzz.R'
+Packaged: 2013-02-14 09:47:16 UTC; jphughesjr
+Repository: CRAN
+Date/Publication: 2013-02-14 11:41:50

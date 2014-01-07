@@ -1,0 +1,16 @@
+Package: SVGMapping
+Type: Package
+Title: Map experimental data on custom-made SVG file
+Version: 1.42
+Date: 2012-01-03
+Author: Jean-Christophe AUDE, Raphael CHAMPEIMONT
+Maintainer: Jean-Christophe AUDE <jean-christophe.aude@cea.fr>
+Description: This package allows you to display experimental data on a
+        custom-made SVG image.
+License: BSD
+LazyLoad: yes
+Depends: R (>= 2.10.0), rJava, XML, grDevices, utils
+Suggests: cairoDevice
+Packaged: 2012-01-05 09:41:27 UTC; jcaude2
+Repository: CRAN
+Date/Publication: 2012-01-05 09:50:49

@@ -1,0 +1,21 @@
+Package: aspect
+Type: Package
+Title: Aspects of Multivariables
+Version: 1.0-2
+Date: 2010-11-30
+Author: Jan de Leeuw, Kurt Hornik, Patrick Mair
+Maintainer: Jan de Leeuw <deleeuw@stat.ucla.edu>
+Description: This package consists of two main functions: The first function is corAspect() performs optimal scaling by maximizing an aspect (i.e. a target function such as the sum of eigenvalues, sum of squared correlations, squared multiple correlations, etc.) of the corresponding correlation matrix. The second function is lineals() performs optimal scaling by minimization a non-correlational aspect based on pairwise correlations and correlation ratios. The resulting correlation matrix and category scores can be used for further multivariate methods such as SEM. A platform including related PsychoR packages is provided on R-Forge. 
+Suggests: sem, polycor
+Imports: stats, graphics
+License: GPL-2
+URL: http://R-forge.R-project.org/projects/psychor/
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: psychor
+Repository/R-Forge/Revision: 131
+Repository/R-Forge/DateTimeStamp: 2013-11-30 20:34:43
+Date/Publication: 2013-12-03 07:23:52
+Packaged: 2013-11-30 23:15:13 UTC; rforge
+Depends: R (>= 2.10)
+NeedsCompilation: no

@@ -1,0 +1,27 @@
+Package: datamart
+Type: Package
+Title: Unified access to various data sources
+Version: 0.3.2
+Date: 2013-05-11
+Author: Karsten Weinert
+Maintainer: Karsten Weinert <k.weinert@gmx.net>
+Description: Provides an S4 infrastructure for unified handling of
+        internal datasets and web based data sources. Examples include
+        dbpedia, gapminder, and sourceforge.
+License: GPL (>= 3)
+Depends: RJSONIO, XML, RCurl, base64, methods, RSQLite, markdown, xts
+LazyLoad: yes
+Collate: '000_datamart-doc.r' '001_DataStore.R' '003_Xdata.R'
+        '005_Res.R' '010_Twttr.R' '020_Xsparql.R' '030_Dbpedia.R'
+        '040_InternalData.R' '045_Evs.R' '060_UrlData.R' '070_mauna.R'
+        '080_iwv.R' '090_Mashup.R' '100_GScholar.R' '101_statsoftpop.R'
+        '110_SourceForge.R' '120_Gapminder.R' '140_TourDeFrance.R'
+        '150_be_badestellen.R' '200_Eurostat.R' 'mem.info.R'
+        'strexts.R' '212_UnitSetManager.R' '230_Location.R'
+        '232_Target.R' '235_build.R' '237_TextTarget.R' '238_Figure.R'
+        '250_Blogger.R' '255_MdReport.R' '260_SweaveReport.R'
+        '270_CityCoords.R' 'localappdir.R' '280_PkgTarget.R'
+Packaged: 2013-05-11 09:56:50 UTC; TravelMate
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-11 15:18:24

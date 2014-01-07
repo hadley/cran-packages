@@ -1,0 +1,15 @@
+Package: mecdf
+Title: Multivariate ECDF Based Models
+Version: 0.1.0
+Date: 2009-12-06
+Author: CHARLOTTE MAIA
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: Univariate and multivariate ECDFs. Currently this produces
+        step functions (which is what one would expect). Methods for
+        producing smooth(ish) distribution functions are being
+        considered. Note, this package is still experimental.
+License: GPL (>= 2)
+Depends: oosp (>= 0.2.0)
+Packaged: 2009-12-06 09:15:30 UTC; maia
+Repository: CRAN
+Date/Publication: 2009-12-06 10:15:06

@@ -1,0 +1,20 @@
+Encoding: UTF-8
+Package: TPmsm
+Type: Package
+Depends: R (>= 2.12.0),graphics,grDevices,KernSmooth
+Enhances: p3state.msm,etm
+Title: Estimation of transitions probabilities in multistate models
+Version: 1.1.0
+Date: 2013-04-28
+Author: Artur Agostinho Araujo, Javier Roca-Pardinas <roca@uvigo.es>
+        and Luis Meira-Machado <lmachado@math.uminho.pt>
+Maintainer: Artur Agostinho Araujo <artur.stat@gmail.com>
+Description: Estimation of transition probabilities for the
+        illness-death model and or the three-state progressive model
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-04-28 19:45:04 UTC; Owner
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-03 10:53:53

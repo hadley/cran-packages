@@ -1,0 +1,12 @@
+Package: race
+Version: 0.1-47
+Date: $Date: 2004/04/01 08:56:31 $
+Title: Racing methods for the selection of the best
+Author: Mauro Birattari <mbiro@ulb.ac.be>
+Maintainer: Mauro Birattari <mbiro@ulb.ac.be>
+Description: Implementation of some racing methods for the empirical
+  selection of the best. If the R package `rpvm' is installed
+  (and if PVM is available, properly configured, and initialized), 
+  the evaluation of the candidates are performed in parallel on 
+  different hosts.
+License: GPL version 2 or newer

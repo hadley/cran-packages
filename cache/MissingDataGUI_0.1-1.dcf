@@ -1,0 +1,19 @@
+Package: MissingDataGUI
+Maintainer: Xiaoyue Cheng <xycheng@iastate.edu>
+License: GPL
+Title: A GUI for Missing Data Exploration
+Type: Package
+Author: Xiaoyue Cheng, Dianne Cook, Heike Hofmann
+Description: This package provides numeric and graphical summaries for
+        the missing values from both discrete and continuous variables.
+        A variety of imputation methods are applied, including
+        univariate imputations like fixed or random values, multiple
+        imputations based on other packages, and imputations
+        conditioned on a categorical variable.
+Version: 0.1-1
+Date: 2011-06-18
+Depends: gWidgetsRGtk2, cairoDevice, GGally, Hmisc, norm
+Collate: 'MissingDataGUI.r' 'zzz.r'
+Packaged: 2011-06-18 19:34:36 UTC; Cheng
+Repository: CRAN
+Date/Publication: 2011-06-20 06:36:59

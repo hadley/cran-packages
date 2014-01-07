@@ -1,0 +1,21 @@
+Package: sabreR
+Version: 1.0
+Date: 2007-03-28
+Title: Provides SABRE functionality from within R
+Author: R. Crouchley
+Maintainer: R. Crouchley <asarc@exchange.lans.ac.uk>
+Type: Package
+URL: http://sabre.lancs.ac.uk/sabreRuse_intro.html
+Description: sabreR is a package for the statistical analysis of
+        multi-process random effect response data. These responses can
+        take the form of binary, ordinal, count and linear recurrent
+        events. The response sequences can be of different types. Such
+        multi-process data is common in many research areas, e.g. the
+        analysis of work and life histories. sabreR may be used for
+        analyisng longitudinal datasets surveys either with recurrent
+        information collected over time or with a clustered sampling
+        scheme.
+License: GPL (>= 2)
+Packaged: Thu Mar 26 16:49:57 2009; grosed
+Repository: CRAN
+Date/Publication: 2009-04-01 11:45:51

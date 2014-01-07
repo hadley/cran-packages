@@ -1,0 +1,28 @@
+Package: ExpDes
+Type: Package
+Title: Experimental Designs package
+Version: 1.1.2
+Date: 2013-04-06
+Author: Eric Batista Ferreira, Portya Piscitelli Cavalcanti, Denismar
+        Alves Nogueira
+Maintainer: Eric Batista Ferreira <eric.ferreira@unifal-mg.edu.br>
+Description: Package for analysis of simple experimental designs (CRD,
+        RBD and LSD), experiments in double factorial schemes (in CRD
+        and RBD), experiments in a split plot in time schemes (in CRD
+        and RBD), experiments in double factorial schemes with an
+        additional treatment (in CRD and RBD), experiments in triple
+        factorial scheme (in CRD and RBD) and experiments in triple
+        factorial schemes with an additional treatment (in CRD and
+        RBD), performing the analysis of variance and means comparison
+        by fitting regression models until the third power
+        (quantitative treatments) or by a multiple comparison test,
+        Tukey test, test of Student-Newman-Keuls (SNK), Scott-Knott,
+        Duncan test, t test (LSD) and Bonferroni t test (protected LSD)
+        - for qualitative treatments.
+License: GPL-2
+LazyLoad: yes
+Encoding: latin1
+Packaged: 2013-05-07 14:11:58 UTC; ericbferreira
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-07 17:22:18

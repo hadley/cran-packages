@@ -1,0 +1,11 @@
+Package: adabag
+Title: Applies Adaboost.M1 and Bagging
+Version: 1.1
+Author: Esteban Alfaro Cortes, Matias Gamez Martinez and Noelia Garcia Rubio
+Maintainer: Esteban Alfaro Cortes <Esteban.Alfaro@uclm.es>
+Depends:  R (>= 2.4.0), rpart, mlbench
+Description: This package implements Freund and Schapire's Adaboost.M1 algorithm and Breiman's Bagging algorithm 
+	using classification trees as individual classifiers. Once these classifiers have been trained, 
+	they can be used to predict on new data. Also, cross validation predictions can be done.
+License: GPL (>= 2)
+Packaged: Thu Oct 25 11:12:42 2007; Esteban.Alfaro

@@ -1,0 +1,20 @@
+Package: ipdmeta
+Type: Package
+Title: Tools for subgroup analyses with multiple trial data using
+        aggregate statistics
+Version: 2.3
+Date: 2012-01-02
+Author: S. Kovalchik
+Maintainer: S. Kovalchik <s.a.kovalchik@gmail.com>
+Description: This package provides functions to estimate an IPD linear
+        mixed effects model for a continuous outcome and any
+        categorical covariate from study summary statistics. There are
+        also functions for estimating the power of a
+        treatment-covariate interaction test in an individual patient
+        data meta-analysis from aggregate data.
+License: GPL-2
+Depends: nlme, methods
+LazyLoad: yes
+Packaged: 2012-06-12 03:39:44 UTC; kovalchiksa
+Repository: CRAN
+Date/Publication: 2012-06-12 06:36:58

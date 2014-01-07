@@ -1,0 +1,10 @@
+Package: mefa
+Type: Package
+Title: Faunistic count data handling and reporting
+Version: 1.0
+Author: Peter Solymos
+Maintainer: Peter Solymos <Solymos.Peter@aotk.szie.hu>
+Description: R package for faunistic count data handling and reporting. The name 'mefa' stands for the term 'metafaunistics' indicating that handling of basic data is only the first, but the most critical and sometimes most time consuming part of data analysis. It contains functions to create and manage objects combining basic faunistic (sample/species/count or crosstabulated) count data and sample/species attribute tables. Segments within the count data and samples with zero count can be indicated and used in subsequent operations. Reports can be generated in plain text or LaTeX format.
+License: GPL-2
+URL: http://www.univet.hu/users/psolymos/personal/
+Packaged: Tue Nov 20 21:36:09 2007; hornik

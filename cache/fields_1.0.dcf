@@ -1,0 +1,14 @@
+Package: fields
+Version: 1.0
+Date: May 24 2001
+Title: Tools for spatial data
+Author: Doug Nychka
+Maintainer: Doug Nychka <nychka@ucar.edu>
+Description: FIELDS is a collection of programs for curve and function
+ fitting with an emphasis on spatial data. The major methods implemented
+ include cubic and thin plate splines, universal Kriging and Kriging for
+ large data sets. The main feature is that any covariance function
+ implemented in R can be used for spatial prediction. 
+License: GPL Version 2 or later. 
+URL: http://www.cgd.ucar.edu/stats/software/Fields
+

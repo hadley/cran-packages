@@ -1,0 +1,21 @@
+Package: trio
+Type: Package
+Title: trio package without Fortran code
+Version: 1.7.0
+Date: 2012-07-29
+Author: Holger Schwender, Qing Li, Christoph Neumann, Ingo Ruczinski
+Maintainer: Holger Schwender <holger.schw@gmx.de>
+Suggests: survival, haplo.stats, mcbiopi, siggenes, splines, LogicReg
+        (>= 1.5.3), logicFS (>= 1.23.4)
+Description: Testing SNPs and SNP interactions with a genotypic TDT.
+        This package furthermore contains functions for computing
+        pairwise values of LD measures and for identifying LD blocks,
+        as well as functions for setting up matched case pseudo-control
+        genotype data for case-parent trios in order to run trio logic
+        regreesion, to impute missing genotypes in trios, or to
+        simulate case-parent trios with disease risk dependent on SNP
+        interaction.
+License: LGPL-2
+Packaged: 2012-07-29 13:01:33 UTC; schwender
+Repository: CRAN
+Date/Publication: 2012-07-30 03:59:57

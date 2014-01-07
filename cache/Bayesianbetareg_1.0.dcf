@@ -1,0 +1,15 @@
+Package: Bayesianbetareg
+Type: Package
+Title: Bayesian Beta regression
+License: GPL (>= 2)
+Version: 1.0
+Date: 2013-08-31
+Author: The code in R and guide document were prepared by Margarita Marin  and Javier Rojas and Daniel Jaimes, under the direction of the professor Edilberto Cepeda and with collaboration of Martha Corrales, Maria Fernanda Zarate, Ricardo Duplat and Luis F Villarraga. 
+Maintainer: Margarita Marin <mmarinj@unal.edu.co>
+Depends: R (>= 2.12.1), mvtnorm, betareg
+Description: This package performs beta regression  
+Encoding: latin1
+Packaged: 2013-10-29 20:17:22 UTC; Admin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-29 22:35:45

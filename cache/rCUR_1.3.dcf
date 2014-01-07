@@ -1,0 +1,14 @@
+Package: rCUR
+Type: Package
+Title: CUR decomposition package
+Version: 1.3
+Date: 2012-03-06
+Author: Andras Bodor, Norbert Solymosi
+Maintainer: Andras Bodor <bodri.mh3@gmail.com>
+Depends: R (>= 2.10.0), MASS, methods, Matrix, lattice
+Description: Functions and objects for CUR matrix decomposition.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-02 12:07:15 UTC; bodri
+Repository: CRAN
+Date/Publication: 2012-07-02 13:20:21

@@ -1,0 +1,29 @@
+Package: DPw
+Type: Package
+Title: Semiparametric Bayesian procedure for selecting a subset
+        containing the weakest species with an acceptably high
+        probability.
+Version: 1.1
+Date: 2013-02-26
+Author: Yumi Kondo
+Maintainer: Yumi Kondo <y.kondo@stat.ubc.ca>
+Description: The purpose of the functions implemented in this package
+        is to find the subset containing the weakest species with some
+        acceptable certainty; Suppose we have sampled some quality
+        measures T_{k,j} (>=0) from K species (k=1...K, j=1,...,m_j=
+        sample size of jth species), and wish to find the species with
+        the smallest alpha quantile (say, 5th quantile) of T (namely
+        the weakest species).Due to the smalle sample size (m_k) or
+        large number of species to be considered (K), we might not be
+        able to select a single species as a weakest species with
+        acceptably large certainty. Instead of selecting a single
+        species with a low certainty, we propose to select a subset of
+        species which contains the weakest species with predetermined
+        certainty.
+License: GPL (>= 2)
+Depends:
+LinkingTo:
+Packaged: 2013-03-04 19:53:23 UTC; yumik091186
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-05 06:44:11

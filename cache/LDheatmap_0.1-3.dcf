@@ -1,0 +1,9 @@
+Package: LDheatmap
+Title: Plots measures of pairwise linkage disequilibria for SNPs
+Version: 0.1-3
+Author: Ji-Hyung Shin <jshinb@sfu.ca>, Sigal Blay <sblay@sfu.ca>, Jinko Graham <jgraham@stat.sfu.ca>, Brad McNeney <mcneney@stat.sfu.ca>
+Description: Produces a graphical display, as a heat map, of measures of pairwise linkage disequilibria between SNPs. Users may optionally include the physical locations or genetic map distances of each SNP on the plot.
+Maintainer: Sigal Blay <sblay@sfu.ca>
+Depends: R (>= 2.0.0), genetics
+License: GPL version 2
+Packaged: Tue Apr 26 17:20:36 2005; root

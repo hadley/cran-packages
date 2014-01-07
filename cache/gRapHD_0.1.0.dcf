@@ -1,0 +1,23 @@
+Package: gRapHD
+Version: 0.1.0
+Date: 2009-09-15
+Title: Efficient selection of undirected graphical models for
+        high-dimensional datasets
+Author: Gabriel Coelho Goncalves de Abreu <Gabriel.Abreu@agrsci.dk>,
+        Rodrigo Labouriau <Rodrigo.Labouriau@agrsci.dk>, David Edwards
+        <David.Edwards@agrsci.dk>.
+Maintainer: Gabriel Coelho Goncalves de Abreu <Gabriel.Abreu@agrsci.dk>
+Depends: R (>= 2.9.0), methods
+Suggests: graph
+Description: gRapHD is designed for efficient selection of
+        high-dimensional undirected graphical models. The package
+        provides tools for selecting trees, forests and decomposable
+        models minimizing information criteria such as AIC or BIC, and
+        for displaying the independence graphs of the models. It has
+        also some useful tools for analysing graphical structures. It
+        supports the use of discrete, continuous, or both types of
+        variables.
+License: GPL (>= 3)
+Packaged: 2009-09-21 06:47:14 UTC; gaab
+Repository: CRAN
+Date/Publication: 2009-09-21 07:27:19

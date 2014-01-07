@@ -1,0 +1,19 @@
+Package: scriptests
+Type: Package
+Title: Transcript-based unit tests that are easy to create and maintain
+Version: 1.0-4
+Date: 2011-02-24
+Author: Tony Plate
+Maintainer: Tony Plate <tplate@acm.org>
+Description: Support for using .Rt (transcript) tests in the tests
+        directory of a package.  Provides more convenience and features
+        than the standard .R/.Rout.save tests.  Tests can be run under
+        R CMD check and also interactively.  Provides source.pkg() for
+        quickly loading code, DLLs, and data from a package for use in
+        an edit/compile/test development cycle.
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: scriptests
+Repository/R-Forge/Revision: 87
+Date/Publication: 2011-02-27 16:29:33
+Packaged: 2011-02-25 21:59:22 UTC; rforge

@@ -1,0 +1,39 @@
+Package: RcppGSL
+Type: Package
+Title: Rcpp integration for GNU GSL vectors and matrices
+Version: 0.2.0
+Date: $Date: 2012-07-22 16:48:22 -0500 (Sun, 22 Jul 2012) $
+Author: Romain Francois and Dirk Eddelbuettel
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: Rcpp integration for GNU GSL vectors and matrices The GNU
+        Scientific Library (GSL) is a collection of numerical routines
+        for scientific computing. It is particularly useful for C and
+        C++ programs as it provides a standard C interface to a wide
+        range of mathematical routines such as special functions,
+        permutations, combinations, fast fourier transforms,
+        eigensystems, random numbers, quadrature, random distributions,
+        quasi-random sequences, Monte Carlo integration, N-tuples,
+        differential equations, simulated annealing, numerical
+        differentiation, interpolation, series acceleration, Chebyshev
+        approximations, root-finding, discrete Hankel transforms
+        physical constants, basis splines and wavelets.  There are over
+        1000 functions in total with an extensive test suite.
+ .
+ The RcppGSL package provides an easy-to-use interface between GSL data
+        structures and R using concepts from Rcpp which is itself a
+        package that eases the interfaces between R and C++.
+ .
+ This package also serves as a prime example of how to build a package
+        that uses Rcpp to connect to anoother third-party library. The
+        autoconf script, inline plugin and example package can all be
+        used as a stanza to write a similar package against another
+        library.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.8)
+Suggests: RUnit, inline
+LinkingTo: Rcpp
+SystemRequirements: GNU GSL
+Packaged: 2012-07-23 02:48:25.983538 UTC; edd
+Repository: CRAN
+Date/Publication: 2012-07-23 13:36:59

@@ -1,0 +1,18 @@
+Package: scope
+Type: Package
+Title: Data Manipulation Using Arbitrary Row and Column Criteria
+Version: 2.2
+Date: 2007-03-26
+Author: Tim Bergsma
+Maintainer: Tim Bergsma <timb@metrumrg.com>
+Description: 
+ Calculate, per data frame row, a value that depends on information in a 
+ relevant subset of rows and columns.  These functions create and refine 
+ scope objects, which identify relevant rows on a per-row basis. Columns 
+ can be aggregated within relevant scopes to aid identification of a row 
+ of interest, from which a value in an arbitrary column can be selected.
+ Version 2 is optimized for fast execution.  Version 2.1 adds a formatting
+ command for display of scope objects in data.frames, etc; skim is enhanced.
+ Version 2.2 supports scope objects referenced as columns in the data frame.
+License: GPL version 2 or newer
+Packaged: Wed May 23 09:14:10 2007; timb

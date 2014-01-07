@@ -1,0 +1,16 @@
+Package: propagate
+Type: Package
+LazyLoad: no
+LazyData: no
+Title: Propagation of Uncertainty
+Version: 1.0-1
+Date: 2013-08-29
+Author: Andrej-Nikolai Spiess <a.spiess@uke.uni-hamburg.de>        
+Maintainer: Andrej-Nikolai Spiess <a.spiess@uke.uni-hamburg.de>
+Description: Propagation of uncertainty using higher-order Taylor expansion and Monte Carlo simulation.
+License: GPL (>= 2)
+Depends: R (>= 2.13.0), MASS, tmvtnorm
+Packaged: 2013-08-29 15:29:40 UTC; aspiess
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-29 22:32:30

@@ -1,0 +1,16 @@
+Package: TH.data
+Title: TH's Data Archive
+Date: 2012-09-02
+Version: 1.0-0
+Authors@R: c(person("Torsten", "Hothorn", role = c("aut", "cre"),
+                    email = "Torsten.Hothorn@R-project.org"))
+Description: Contains data sets used on other packages I maintain.
+Depends: R (>= 2.10.0)
+LazyData: yes
+License: GPL-3
+Packaged: 2013-09-02 09:53:19 UTC; hothorn
+Author: Torsten Hothorn [aut, cre]
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-02 13:36:30

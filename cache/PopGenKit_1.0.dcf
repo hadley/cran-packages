@@ -1,0 +1,27 @@
+Package: PopGenKit
+Type: Package
+Title: Useful functions for (batch) file conversion and data resampling
+        in microsatellite datasets
+Version: 1.0
+Date: 2011-07-21
+Author: Sebastien Rioux Paquette
+Maintainer: Sebastien Rioux Paquette
+        <sebastien.riouxpaquette@gmail.com>
+Description: There are two main purposes to this package. The first is
+        to allow batch conversion of Genepop (Rousset 2008) input files
+        for use with Arlequin (Excoffier and Lischer 2010), which has a
+        simple GUI to analyze batch files. Two commonly used simulation
+        software, BottleSim (Kuo & Janzen 2003) and Easypop (Balloux
+        2001) produce Genepop output files that can be analyzed this
+        way. There are also functions to convert to and from BottleSim
+        format, to quickly produce allele frequency tables or to
+        convert a file directly for use in ordination analyses (e.g.
+        principal component analysis). This package also includes
+        functions to calculate allele rarefaction curves, confidence
+        intervals on heterozygosity and allelic richness with
+        resampling strategies (bootstrap and jackknife).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:27 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:27

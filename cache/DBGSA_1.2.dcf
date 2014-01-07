@@ -1,0 +1,25 @@
+Package: DBGSA
+Type: Package
+Title: methods of distance-based gene set functional enrichment
+        analysis.
+Version: 1.2
+Date: 2011-12-29
+Author: Li Jin, Huang Meilin
+Maintainer: Li Jin <lijin@hrbmu.edu.cn>
+Data: 2011-05-17
+Description: This package provides methods and examples to support a
+        method of Gene Set Analysis (GSA).  DBGSA is a novel
+        distance-based gene set enrichment analysis method. We consider
+        that, the distance between 2 groups with different phenotype by
+        focusing on the gene expression should be larger, if a certain
+        gene functional set was significantly associated with a
+        particular phenotype.
+License: GPL-3
+Depends: R (>= 2.12.2), fdrtool(>= 1.2.6)
+BioViews: bioinformatics, Microarray
+Collate: avelinkdis.R centdis.R distable.R randdis.R valuep.R
+        functionall.R
+lazy-loading: yes
+Packaged: 2012-01-16 03:26:10 UTC; Lemon
+Repository: CRAN
+Date/Publication: 2012-01-16 07:32:40

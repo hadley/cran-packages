@@ -1,0 +1,18 @@
+Package: babel
+Version: 0.2-3
+Title: Ribosome profiling data analysis
+Author: Adam B. Olshen, Richard A. Olshen, Barry S. Taylor
+Maintainer: Adam B. Olshen <olshena@biostat.ucsf.edu>
+Depends: R (>= 2.14.0), edgeR
+Imports: parallel
+Suggests: R.rsp, R.devices, R.utils
+VignetteBuilder: R.rsp
+Description: Implements babel routines for identifying unusual ribosome protected fragment counts given mRNA counts
+License: LGPL (>= 2.1)
+Repository: CRAN
+Repository/R-Forge/Project: abo
+Repository/R-Forge/Revision: 528
+Repository/R-Forge/DateTimeStamp: 2013-12-03 19:48:17
+Date/Publication: 2013-12-04 07:41:13
+Packaged: 2013-12-03 23:24:37 UTC; rforge
+NeedsCompilation: no

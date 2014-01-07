@@ -1,0 +1,20 @@
+Package: OrgMassSpecR
+Type: Package
+Title: Organic Mass Spectrometry
+Version: 0.2-2
+Date: 2010-09-07
+Author: Nathan G. Dodder, Southern California Coastal Water Research
+        Project (SCCWRP).  Contributions from Katharine M. Mullen.
+Maintainer: Nathan Dodder <nathand@sccwrp.org>
+Suggests: lattice
+Description: Functions related to instrument operation and data
+        analysis.
+License: BSD
+URL: http://orgmassspecr.r-forge.r-project.org/
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: orgmassspecr
+Repository/R-Forge/Revision: 38
+Date/Publication: 2010-09-09 16:54:28
+Packaged: 2010-09-07 20:35:57 UTC; rforge

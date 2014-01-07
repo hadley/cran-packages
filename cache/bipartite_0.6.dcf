@@ -1,0 +1,11 @@
+Package: bipartite
+Type: Package
+Title: Visualises bipartite networks and calculates some ecological indices.
+Version: 0.6
+Date: 2008-05-01
+Author: Carsten F. Dormann and Bernd Gruber, with additional code from Jochen Fruend, based on the C-code developed by Nils Bluethgen.
+Maintainer: Carsten F. Dormann <carsten.dormann@ufz.de>
+Depends: MASS, vegan, sna
+Description: See bipartite-package for more details.
+License: GPL
+Packaged: Mon May  5 08:50:21 2008; dormann

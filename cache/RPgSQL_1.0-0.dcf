@@ -1,0 +1,11 @@
+Package: RPgSQL
+Version: 1.0-0
+Date: Wed Jun 20 15:18:04 EDT 2001
+Title: PostgreSQL access
+Author: Timothy H. Keitt <thk@users.sourceforge.net>
+Maintainer: Timothy H. Keitt <thk@users.sourceforge.net>
+Description: Provides methods for accessing data stored in PostgreSQL
+	     tables.
+Depends: R (>= 1.2)
+License: GPL (version 2 or higher; see LICENSE)
+URL: http://rpgsql.sourceforge.net/

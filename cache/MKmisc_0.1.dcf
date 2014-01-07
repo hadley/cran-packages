@@ -1,0 +1,12 @@
+Package: MKmisc
+Type: Package
+Title: Miscellaneous Functions from M. Kohl
+Version: 0.1
+Date: 2008-09-04
+Author: Matthias Kohl
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+Description: Miscellaneous Functions from M. Kohl
+Depends: R(>= 2.7.2), stats, graphics, robustbase, RColorBrewer, plotrix(>= 2.1.6)
+Suggests: gplots
+License: GPL (version 2 or later)
+Packaged: Thu Sep  4 19:20:37 2008; btm722

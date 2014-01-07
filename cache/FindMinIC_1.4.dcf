@@ -1,0 +1,14 @@
+Package: FindMinIC
+Type: Package
+Title: Find Models with Minimum IC
+Version: 1.4
+Date: 2013-09-18
+Author: Nicholas Lange, Tom Fletcher, Kristen Zygmunt
+Maintainer: Kristen Zygmunt <krismz@sci.utah.edu>
+Imports: nlme, sets
+Description: Creates models from all combinations of a list of variables and sorts by minimum IC (information criterion).
+License: LGPL (>= 3.0)
+Packaged: 2013-09-18 16:30:18 UTC; krismz
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-19 08:47:12

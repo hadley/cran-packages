@@ -1,0 +1,23 @@
+Package: BiGGR
+Type: Package
+Title: Creates an interface to BiGG database, provides a framework for
+        simulation and produces flux graphs
+Version: 1.5
+Date: 2010-03-25
+Author: Anand K. Gavai
+Maintainer: Anand K. Gavai <anand.gavai@bioinformatics.nl>
+Depends: R (>= 2.10.0),
+        LIM,igraph,Rgraphviz,minet,graph,rsbml,limSolve,diagram,hyperdraw
+Description: This package provides an interface to simulate metabolic
+        reconstruction from the BiGG database(http://bigg.ucsd.edu/).
+        The package aids in performing flux balance analysis (FBA) on
+        the similar lines of the COBRA
+        toolbox(http://systemsbiology.ucsd.edu/Downloads/Cobra_Toolbox)
+        but with the added value of vizualizing the results in the form
+        of a metabolic network using the graphviz framework.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.bioinformatics.nl
+LazyLoad: yes
+Packaged: 2012-10-29 13:13:04 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:37

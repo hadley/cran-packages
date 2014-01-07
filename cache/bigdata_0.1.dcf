@@ -1,0 +1,14 @@
+Package: bigdata
+Type: Package
+Title: Big Data Analytics
+Version: 0.1
+Date: 2011-02-12
+Author: Han Liu, Tuo Zhao
+Maintainer: Han Liu <hanliu@cs.jhu.edu>
+Depends: glmnet, Matrix, lattice,
+Description: The big data package is a collection of scalable methods
+        for large-scale data analysis.
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2012-04-06 15:55:53
+Packaged: 2012-04-06 05:02:55 UTC; tourzhao

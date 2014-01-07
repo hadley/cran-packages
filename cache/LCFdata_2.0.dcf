@@ -1,0 +1,14 @@
+Package: LCFdata
+Type: Package
+Title: Data sets for package ``LMERConvenienceFunctions''
+Version: 2.0
+Date: 2013-11-27
+Author: Antoine Tremblay, Department of Psychology, Dalhousie University
+Maintainer: Antoine Tremblay <trea26@gmail.com>
+Description: This package contains (1) event-related brain potential data recorded from 10 participants at electrodes Fz, Cz, Pz, and Oz (0--300 ms) in the context of Antoine Tremblay's PhD thesis (Tremblay, 2009); (2) ERP amplitudes at electrode Fz restricted to the 100 to 175 millisecond time window; and (3) plotting data generated from a linear mixed-effects model.
+License: GPL-2
+Depends: R (>= 3.0.0)
+Packaged: 2013-11-27 23:45:49 UTC; antoine
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-28 08:21:43

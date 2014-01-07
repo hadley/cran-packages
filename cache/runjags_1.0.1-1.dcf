@@ -1,0 +1,34 @@
+Package: runjags
+Version: 1.0.1-1
+Date: 2013-04-25
+Title: Interface utilities for MCMC models in Just Another Gibbs
+        Sampler (JAGS) using parallel and distributed computing methods
+Author: Matthew Denwood <matthew.denwood@glasgow.ac.uk>
+Maintainer: Matthew Denwood <matthew.denwood@glasgow.ac.uk>
+Depends: R (>= 2.14), coda (>= 0.16-1), lattice (>= 0.20-10), parallel
+Imports: coda, lattice, parallel, stats, utils
+Suggests: rjags
+SystemRequirements: jags (see http://mcmc-jags.sourceforge.net)
+Description: This package provides high-level interface utilities for
+        JAGS, either running locally (via the rjags package or using
+        multiple cores in parallel) or via distributed computing
+        clusters such as those provided by snow (a Simple Network Of
+        Workstations), Apple Xgrid distributed computing clusters (Mac
+        OS X 10.5-10.7 only), and possibly others via user specified
+        functions.  The primary motivation is to facilitate running
+        relatively simple JAGS models to convergence, including
+        evaluating the performance of a model against simulated data,
+        and compatibility with the WinBUGS syntax of model files with
+        data and initial values lists.  Runjags interface functions
+        also provide convenience wrappers for automatic control of
+        model convergence assessment and run length diagnostics,
+        calculation of relevant summary statistics, generation of trace
+        and density plots, calculation of DIC, and automatic retrieval
+        of R objects as data and initial values.  Running of arbitrary
+        R commands (not involving JAGS) over Xgrid is also supported.
+License: GPL
+URL: http://cran.r-project.org/web/packages/runjags/
+Packaged: 2013-04-25 15:29:26 UTC; matthewdenwood
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-25 22:42:58

@@ -1,0 +1,19 @@
+Package: trio
+Type: Package
+Title: Processing and Simulating Genotype Data for Trio Logic
+        Regression
+Version: 1.0.9
+Date: 2010-02-17
+Author: Qing Li, Holger Schwender
+Maintainer: Qing Li <mail2qing@yahoo.com>
+Depends: survival, haplo.stats
+Description: Set up matched case-pseudo controls genotypes data for
+        trios in order to run trio logic regreesion, to impute missing
+        genotypes in trios, or to simulate case-parent trios with
+        disease risk dependent on SNP-SNP interaction. This package
+        furthermore contains functions for computing the values of
+        pairwise LD measures and for identifying LD blocks.
+License: LGPL-2
+Packaged: 2010-02-17 05:47:29 UTC; hschwend
+Repository: CRAN
+Date/Publication: 2010-02-17 08:26:45

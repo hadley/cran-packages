@@ -1,0 +1,15 @@
+Package: edtdbg
+Version: 1.0.0
+Author: Norm Matloff <matloff@cs.ucdavis.edu>
+Maintainer: Norm Matloff <matloff@cs.ucdavis.edu>
+Depends: R (>= 2.10.0)
+Date: 1/19/2010
+Title: Integrating R's debug() with Your Text Editor
+Description: Integrates R's debugging facilities with your text editor,
+        featuring code tracking, variable display, quick breakpoint
+        setting, and easy toggling of function debug status.
+LazyLoad: no
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2010-01-21 17:20:43 UTC; matloff
+Date/Publication: 2010-01-22 07:47:49

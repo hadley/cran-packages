@@ -1,0 +1,18 @@
+Package: mombf
+Version: 1.0.4
+Date: 2009-07-17
+Title: Moment and Inverse Moment Bayes factors
+Author: David Rossell <rosselldavid@gmail.com>.
+Maintainer: David Rossell <rosselldavid@gmail.com>
+Depends: R (>= 2.5.0), mvtnorm
+Description: This package computes Moment and Inverse Moment Bayes
+        factors for linear models, and approximate Bayes factors for
+        GLM and situations having a statistic which is asymptotically
+        normally distributed and sufficient. Routines to evaluate prior
+        densities, distribution functions, quantiles and modes are
+        included.
+License: GPL (>= 2)
+LazyLoad: no
+Packaged: 2009-07-23 08:25:21 UTC; drossell
+Repository: CRAN
+Date/Publication: 2009-07-24 06:06:29

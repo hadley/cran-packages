@@ -1,0 +1,23 @@
+Package: cold
+Type: Package
+Title: cold: a package for Count Longitudinal Data
+Version: 1.0
+Date: 2013-06-20
+Author: M. Helena Gonçalves and M. Salomé Cabral, apart from a set of
+        Fortran-77 subroutines written by R. Piessens and E. de
+        Doncker, belonging to the suite "Quadpack"
+Maintainer: M. Helena Gonçalves <mhgoncal@ualg.pt>
+Description: cold performs regression analysis for longitudinal count
+        data using a self-decomposable probability distribution, a
+        random intercept term is also allowed. Estimation is via
+        maximization of the exact likelihood of a suitably defined
+        model.
+Encoding: latin1
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.10.0), methods, stats, graphics, utils
+Packaged: 2013-06-20 09:34:27 UTC; Helena
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-20 13:31:11

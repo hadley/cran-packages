@@ -1,0 +1,13 @@
+Package: cgh
+Version: 1.0-1
+Date: 2006-10-27
+Title: Functions to analyse microarray comparative genome hybridisation
+    data using the Smith-Waterman algorithm
+Author: Tom Price <tom@spirit.gcrc.upenn.edu>
+Maintainer: Tom Price <tom@spirit.gcrc.upenn.edu>
+Depends: R (>= 2.4.0)
+Description: Functions to analyse microarray comparative genome hybridisation
+    data using the Smith-Waterman algorithm
+LazyLoad: Yes
+License: GPL version 2 or newer
+Packaged: Fri Oct 27 11:50:41 2006; Tom Price

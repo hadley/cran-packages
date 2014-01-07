@@ -1,0 +1,15 @@
+Package: bReeze
+Type: Package
+Title: Functions for wind resource assessment
+Version: 0.2-3
+Date: 2013-09-17
+Author: Christian Graul and Carsten Poppinga
+Maintainer: Christian Graul <christian.graul@gmail.com>
+Description: A collection of functions to analyse, visualize and interpret wind data
+         and to calculate the potential energy production of wind turbines.
+License: GPL (>= 2)
+Depends: R (>= 2.14.2), RColorBrewer, XML
+Packaged: 2013-09-17 18:38:25 UTC; Christian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-18 08:36:33

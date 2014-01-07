@@ -1,0 +1,16 @@
+Package: msme
+Type: Package
+Title: Functions and Datasets for "Methods of Statistical Model
+        Estimation".
+Version: 0.4.0
+Date: 2013-01-25
+Author: Jospeh Hilbe and Andrew Robinson
+Maintainer: Andrew Robinson <A.Robinson@ms.unimelb.edu.au>
+Depends: R (>= 2.10), MASS, lattice, ggplot2, gridExtra
+Description: This package provides functions and datasets from the book
+        "Methods of Statistical Model Estimation".
+License: GPL-3
+LazyLoad: yes
+Packaged: 2013-02-06 13:03:34 UTC; andrewpr
+Repository: CRAN
+Date/Publication: 2013-02-06 15:09:42

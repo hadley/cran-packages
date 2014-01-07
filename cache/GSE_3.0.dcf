@@ -1,0 +1,19 @@
+Package: GSE
+Type: Package
+Title: Robust Estimation of Multivariate Location and Scatter in the
+        Presence of Missing Data
+Version: 3.0
+Date: 2013-06-05
+Author: Mike Danilov, Andy Leung, Victor Yohai, Ruben Zamar
+Maintainer: Andy Leung <andy.leung@stat.ubc.ca>
+Description: Robust Estimation of Multivariate Location and Scatter in
+        the Presence of Missing Data
+License: GPL (>= 2)
+Depends: R (>= 2.14.1), Rcpp (>= 0.9.8), RcppArmadillo (>= 0.2.34),
+        MASS, methods, ggplot2
+Suggests: lattice, rrcov, xtable
+LinkingTo: Rcpp, RcppArmadillo
+Packaged: 2013-06-05 07:51:44 UTC; Andy
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-05 10:30:41

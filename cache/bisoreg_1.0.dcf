@@ -1,0 +1,14 @@
+Package: bisoreg
+Type: Package
+Title: Bayesian Isotonic Regression with Bernstein Polynomials
+Version: 1.0
+Date: 2008-10-07
+Author: S. McKay Curtis <smcurtis@stat.washington.edu>
+Maintainer: S. McKay Curtis <smcurtis@stat.washington.edu>
+Depends: R (>= 2.7.0), bootstrap, monreg, R2WinBUGS, coda
+Description: Bayesian monotonic regression function
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:18 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:18

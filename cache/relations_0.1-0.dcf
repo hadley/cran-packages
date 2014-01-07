@@ -1,0 +1,13 @@
+Package: relations
+Version: 0.1-0
+Date: 2007-06-01
+Title: Data Structures and Algorithms for Relations
+Description: Data structures for k-ary relations with arbitrary domains, 
+             predicate functions, and fitters for consensus relations.
+Author: Kurt Hornik and David Meyer
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Depends: R (>= 2.5.0), lpSolve (>= 5.5.7)
+Suggests: Rgraphviz
+Enhances: clue
+License: GPL-2
+Packaged: Mon Jun  4 21:09:42 2007; hornik

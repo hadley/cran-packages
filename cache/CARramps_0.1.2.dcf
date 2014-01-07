@@ -1,0 +1,22 @@
+Package: CARramps
+Type: Package
+Title: Reparameterized and marginalized posterior sampling for
+        conditional autoregressive models
+Version: 0.1.2
+Date: 2011-11-30
+Author: Kate Cowles and Stephen Bonett; with thanks to Juan Cervantes,
+        Dong Liang, Alex Sawyer, and Michael Seedorff
+Maintainer: Kate Cowles <kate-cowles@uiowa.edu>
+SystemRequirements: Nvidia CUDA driver (>= 270.xx.xx), Nvidia CUDA
+        Toolkit (>= release 3.0)
+Suggests: coda
+Description: This package fits Bayesian conditional autoregressive
+        models for spatial and spatiotemporal data on a lattice.  It
+        uses Nvidia GPUs to perform rejection sampling to obtain
+        independent samples from the joint posterior distribution of
+        model parameters.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2012-10-29 13:13:08 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:37

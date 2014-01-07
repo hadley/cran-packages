@@ -1,0 +1,16 @@
+Package: tframePlus
+Version: 2009.10-2
+Date: 2009-10-20
+Title: Time Frame coding kernel extensions
+Description: Extensions and additional tframe utilities.
+Depends: R (>= 2.5.0), tframe
+Imports: tframe
+Suggests: zoo, its, WriteXLS(>= 1.7.0)
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: 2009-10-31 20:04:21 UTC; paul
+Repository: CRAN
+Date/Publication: 2009-11-02 07:48:07

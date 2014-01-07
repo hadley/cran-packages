@@ -1,0 +1,13 @@
+Package: sets
+Version: 0.1-1
+Date: 2007-10-16
+Title: Sets and Generalized Sets
+Description: Data structures and basic operations for ordinary sets,
+             and generalizations such as fuzzy sets, multisets, and
+             fuzzy multisets.
+Author: David Meyer and Kurt Hornik
+Maintainer: David Meyer <David.Meyer@R-project.org>
+Depends: R (>= 2.6.0)
+Imports: stats
+License: GPL-2
+Packaged: Tue Oct 16 22:36:21 2007; meyer

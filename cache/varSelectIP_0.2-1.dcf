@@ -1,0 +1,16 @@
+Package: varSelectIP
+Type: Package
+Title: Objective Bayes Model Selection
+Version: 0.2-1
+Date: 2013-10-28
+Author: Andrew Womack and Gopal, V. and Novelo, L. L. and Casella, G.
+Maintainer: Andrew Womack <ajwomack@ufl.edu>
+Depends: MASS, mvtnorm
+Description: Objective Bayes Variable Selection in Linear Regression
+        and Probit Models.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2013-10-30 19:57:25 UTC; womack
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-31 07:42:57

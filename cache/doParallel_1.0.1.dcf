@@ -1,0 +1,17 @@
+Package: doParallel
+Type: Package
+Title: Foreach parallel adaptor for the parallel package
+Version: 1.0.1
+Author: Revolution Analytics
+Maintainer: Revolution Analytics <packages@revolutionanalytics.com>
+Description: Provides a parallel backend for the %dopar% function using
+        the parallel package.
+Depends: R (>= 2.14.0), foreach(>= 1.2.0), iterators(>= 1.0.0), utils,
+        parallel
+Enhances: compiler, RUnit
+License: GPL-2
+Repository: CRAN
+Repository/R-Forge/Project: doparallel
+Repository/R-Forge/Revision: 4
+Packaged: 2012-04-12 16:20:03 UTC; rforge
+Date/Publication: 2012-04-16 06:09:51

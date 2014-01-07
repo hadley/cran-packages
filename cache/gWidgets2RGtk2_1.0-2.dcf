@@ -1,0 +1,27 @@
+Package: gWidgets2RGtk2
+Type: Package
+Title: Implementation of gWidgets2 for RGtk2 package
+Version: 1.0-2
+Date: 2011-09-18
+Author: John Verzani
+Maintainer: John Verzani <jverzani@gmail.com>
+URL: https://github.com/jverzani/gWidgets2RGtk2
+Description: Implements gWidgets2 API for RGtk2
+License: GPL-3
+Depends: methods, memoise, RGtk2, gWidgets2
+Suggests: testthat, cairoDevice
+LazyLoad: yes
+Collate: 'gWidgets2RGtk2-package.R' 'misc.R' 'gtk-misc.R'
+        'GComponent.R' 'GContainer.R' 'GWidget.R' 'icons.R' 'startup.R'
+        'gbutton.R' 'ggroup.R' 'gframe.R' 'gexpandgroup.R'
+        'gcheckbox.R' 'gcheckboxgroup.R' 'gcombobox.R' 'gnotebook.R'
+        'gpanedgroup.R' 'gseparator.R' 'gstackwidget.R' 'gwindow.R'
+        'gmenu.R' 'gstatusbar.R' 'gtoolbar.R' 'gslider.R'
+        'gspinbutton.R' 'glayout.R' 'gradio.R' 'dialogs.R'
+        'gcalendar.R' 'gfile.R' 'gaction.R' 'ggraphics.R' 'gtable.R'
+        'gdf.R' 'gtext.R' 'gimage.R' 'glabel.R' 'gtimer.R' 'gtree.R'
+        'gvarbrowser.R' 'gedit.R' 'gformlayout.R' 'gprogressbar.R'
+Packaged: 2013-10-29 02:04:00 UTC; verzani
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-29 08:00:08

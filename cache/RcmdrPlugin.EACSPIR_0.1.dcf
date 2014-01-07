@@ -1,0 +1,21 @@
+Package: RcmdrPlugin.EACSPIR
+Type: Package
+Title: Plugin de R-Commander para el manual EACSPIR
+Version: 0.1
+Date: 2011-15-11
+Author: Maribel Peró <mpero@ub.edu>, David Leiva <dleivaur@ub.edu>,
+        Joan Guàrdia <jguardia@ub.edu>, Antonio Solanas
+        <antonio.solanas@ub.edu>
+Maintainer: David Leiva <dleivaur@ub.edu>
+Depends: Rcmdr (>= 1.6-4), tcltk
+Suggests: R2HTML, abind, ez, nortest, reshape
+Encoding: latin1
+Description: Este paquete proporciona una interfaz gráfica de usuario
+        (GUI) para algunos de los procedimientos estadísticos
+        detallados en un curso de "Estadística aplicada a las Ciencias
+        Sociales mediante el programa informático R" (EACSPIR). LA GUI
+        se ha desarrollado como un Plugin del programa R-Commander.
+License: GPL (>= 2)
+Packaged: 2012-07-12 08:02:39 UTC; dleivaur
+Repository: CRAN
+Date/Publication: 2012-07-16 11:33:37

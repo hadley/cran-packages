@@ -1,0 +1,20 @@
+Package: optpart
+Version: 2.0-1
+Date: 2010-01-04
+Title: Optimal partitioning of similarity relations
+Author: David W. Roberts <droberts@montana.edu>
+Maintainer: David W. Roberts <droberts@montana.edu>
+Depends: cluster, labdsv, MASS, plotrix
+Description: The package contains a set of algorithms for creating
+        partitions and coverings of objects largely based on operations
+        on similarity relations (or matrices). There are several
+        iterative re-assigmnent algorithms optimizing different
+        goodness-of-clustering criteria.  In addition, there are
+        covering algorithms "clique" which derives maximal cliques, and
+        "maxpact" which creates a covering of maximally compact sets.
+        Graphical analyses and conversion routines are also included.
+License: GPL (>= 2)
+URL: http://ecology.msu.montana.edu/labdsv/R
+Packaged: 2010-01-08 12:28:36 UTC; root
+Repository: CRAN
+Date/Publication: 2010-01-08 17:04:20

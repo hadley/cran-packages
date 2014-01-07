@@ -1,0 +1,15 @@
+Package: evir
+Version: 1.6
+Date: 2008-07-12
+Title: Extreme Values in R
+Author: S original (EVIS) by Alexander McNeil 
+  <mcneil@math.ethz.ch>, R port by Alec 
+  Stephenson <alec_stephenson@hotmail.com>.
+Maintainer: ORPHANED
+Depends: stats
+Description: Functions for extreme value theory, which may be 
+  divided into the following groups; exploratory data analysis, 
+  block maxima, peaks over thresholds (univariate and bivariate), 
+  point processes, gev/gpd distributions.
+License: GPL (Version 2 or above)
+Packaged: Sat Jul 12 14:50:44 2008; alec

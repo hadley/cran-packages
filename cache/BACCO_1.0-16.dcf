@@ -1,0 +1,14 @@
+Bundle: BACCO
+Version: 1.0-16
+Date: 13 October 2005
+Depends: R (>= 2.0.0), mvtnorm, adapt
+Contains: emulator calibrator 
+Title: Bayesian Analysis of Computer Code Output
+BundleDescription: Bayesian analysis of computer code software.  The
+  bundle contains routines that evaluate the formulae of Kennedy,
+  O'Hagan, and Oakley.
+License: GPL
+Author: Robin K. S. Hankin <r.hankin@noc.soton.ac.uk>
+Maintainer: Robin K. S. Hankin <r.hankin@noc.soton.ac.uk>
+URL: http://www.noc.soton.ac.uk/JRD/SAT/pers/rksh.html
+Packaged: Mon Dec 19 08:42:55 2005; rksh

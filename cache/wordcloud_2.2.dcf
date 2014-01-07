@@ -1,0 +1,18 @@
+Package: wordcloud
+Type: Package
+Title: Word Clouds
+Version: 2.2
+Date: 2012-09-05
+Author: Ian Fellows
+Maintainer: Ian Fellows <ian@fellstat.com>
+Description: Pretty word clouds.
+License: LGPL-2.1 + file LICENSE
+LazyLoad: yes
+Depends: methods, Rcpp (>= 0.9.4), RColorBrewer
+Imports: slam
+Suggests: tm
+URL: http://www.fellstat.com http://research.cens.ucla.edu/
+LinkingTo: Rcpp
+Packaged: 2012-09-10 18:20:20 UTC; ianfellows
+Repository: CRAN
+Date/Publication: 2012-09-11 06:22:12

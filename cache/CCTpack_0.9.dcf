@@ -1,0 +1,14 @@
+Package: CCTpack
+Type: Package
+Title: Cultural Consensus Theory applications to data
+Version: 0.9
+Date: 2013-10-04
+Author: Royce Anders <andersr@uci.edu>
+Maintainer: Royce Anders <andersr@uci.edu>
+Description: A user-friendly GUI for the application of Cultural Consensus Theory (CCT) models and methods to consensus data. The models are applied using hierarchical Bayesian inference. The current package version supports binary, ordinal, and continuous data formats. 
+Suggests: psych, mvtnorm, polycor, cluster, R2jags, rjags, tcltk
+License: GPL (>= 2)
+Packaged: 2013-10-10 16:48:47 UTC; Royce
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-10 20:19:43

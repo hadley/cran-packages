@@ -1,0 +1,20 @@
+Package: filterviewR
+Imports: rjson
+Maintainer: Nelson Ray <ncray86@gmail.com>
+License: GPL-2
+Title: Get started easily with FilterView from R.
+Type: Package
+Author: Nelson Ray <ncray86@gmail.com>
+Description: filterviewR lets you quickly start using FilterView with
+        your R data.  prepareJSON converts your data frame into a JSON
+        Object, and fvplot accepts FilterView plotting syntax and the
+        appropriate data, opening a web browser with FilterView
+        rendering the graphics. See
+        http://counsyl.github.com/filterview/ and
+        https://github.com/counsyl/filterview
+Version: 0.11
+Depends: R (>= 2.11.0)
+Collate: 'fvplot.r' 'prepareJSON.r'
+Packaged: 2012-02-28 02:52:18 UTC; ncray
+Repository: CRAN
+Date/Publication: 2012-02-29 08:37:51

@@ -1,0 +1,18 @@
+Package: rbounds
+Type: Package
+Title: Perform Rosenbaum bounds sensitivity tests for matched data.
+Version: 0.7
+Date: 2011-04-18
+Author: Luke J. Keele
+Maintainer: Luke J. Keele <keele.4@osu.edu>
+Depends: R (>= 2.8.1), Matching (>= 4.6-2), lattice
+Imports: lattice
+Description: Takes matched data and calculates Rosenbaum bounds for the
+        treatment effect.  Calculates bounds for binary data,
+        Hodges-Lehmann point estimates, Wilcoxon signed-rank test, and
+        for data with multiple matched controls.  Is designed to work
+        with the Matching package and operate on Match() objects.
+License: GPL (>= 2)
+Packaged: 2011-04-19 18:38:24 UTC; keele
+Repository: CRAN
+Date/Publication: 2011-04-24 06:58:10

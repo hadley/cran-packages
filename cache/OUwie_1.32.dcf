@@ -1,0 +1,20 @@
+Package: OUwie
+Version: 1.32
+Date: 2013-1-30
+Title: Analysis of evolutionary rates in an OU framework
+Author: Jeremy M. Beaulieu <jbeaulieu@nimbios.org>, Brian O'Meara
+        <bomeara@utk.edu>
+Maintainer: Jeremy M. Beaulieu <jbeaulieu@nimbios.org>
+Imports: ape, nloptr, numDeriv, corpcor, lattice, akima, grDevices,
+        phytools, phangorn
+Depends: ape, nloptr, numDeriv, corpcor, lattice, akima, grDevices,
+        phytools, phangorn
+Description: Calculates and compares rate differences of continuous
+        character evolution under Brownian motion and a new set of
+        Ornstein-Uhlenbeck-based Hansen models that allow the strength
+        of selection and stochastic motion to vary across selective
+        regimes.
+License: GPL (>= 2)
+Packaged: 2013-01-30 14:22:37 UTC; jbeaulieu
+Repository: CRAN
+Date/Publication: 2013-01-30 16:13:44

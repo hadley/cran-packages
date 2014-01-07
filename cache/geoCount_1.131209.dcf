@@ -1,0 +1,23 @@
+Package: geoCount
+Type: Package
+Title: Analysis and Modeling for Geostatistical Count Data
+Version: 1.131209
+Date: 2013-12-09
+Author: Liang Jing
+Maintainer: Liang Jing <ljing918@gmail.com>
+Description: This package provides a variety of functions to analyze and model geostatistical count data with generalized linear spatial models, including
+ 1) simulate and visualize the data;
+ 2) posterior sampling with robust MCMC algorithms (in serial or parallel way);
+ 3) perform prediction for unsampled locations;
+ 4) conduct Bayesian model checking procedure to evaluate the goodness of fitting;
+ 5) conduct transformed residual checking procedure.
+ In the package, seamlessly embedded C++ programs and parallel computing techniques are implemented to speed up the computing processes.
+License: GPL (>= 2)
+LazyLoad: Yes
+Depends: R (>= 2.12.0), Rcpp (>= 0.9.4), RcppArmadillo (>= 0.2.19)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: coda, distrEx, reldist, snow, snowfall
+Packaged: 2013-12-09 15:06:26 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-09 16:06:44

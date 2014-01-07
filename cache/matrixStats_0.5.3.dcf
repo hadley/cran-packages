@@ -1,0 +1,18 @@
+Package: matrixStats
+Version: 0.5.3
+Date: 2012-09-10
+Title: Methods that apply to rows and columns of a matrix
+Author: Henrik Bengtsson, Hector Corrada Bravo, Robert Gentleman,
+        Harris Jaffee
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.9.0)
+Imports: methods, R.methodsS3 (>= 1.4.2)
+Description: This packages provides methods operating on rows and
+        columns of matrices.  The objective is to have all methods
+        being optimized for speed and memory consumption.
+License: Artistic-2.0
+LazyLoad: TRUE
+biocViews: Infrastructure, Statistics
+Packaged: 2012-09-10 23:49:49 UTC; hb
+Repository: CRAN
+Date/Publication: 2012-09-13 05:58:29

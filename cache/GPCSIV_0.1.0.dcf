@@ -1,0 +1,15 @@
+Package: GPCSIV
+Type: Package
+Title: GPCSIV, Generalized Principal Component of Symbolic Interval
+        variables
+Version: 0.1.0
+Date: 2013-06-06
+Author: Brahim Brahim and Sun Makosso-Kallyth <sun.makosso-kallyth@crchuq.ulaval.ca>
+Maintainer: Brahim Brahim <brahim.brahim@bigdatavisualizations.com>
+Description: This package implements an extension of principal component analysis (PCA) tailored to handle multiple data tables. It can handle Big Data in the sense that the variation in massive data can be described by intervals [a, b] and multiple tables. 
+License: GPL (>= 2)
+Depends: scatterplot3d, sqldf
+Packaged: 2013-09-14 19:01:48 UTC; PSA
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-15 09:53:08

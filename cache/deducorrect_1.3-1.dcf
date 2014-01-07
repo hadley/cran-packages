@@ -1,0 +1,22 @@
+Package: deducorrect
+Maintainer: Mark van der Loo <mark.vanderloo@gmail.com>
+License: GPL-3
+Title: deducorrect: Deductive correction, deductive imputation, and
+        deterministic correction.
+Type: Package
+LazyLoad: yes
+Author: Mark van der Loo, Edwin de Jonge, and Sander Scholtus
+Description: A collection of methods for automated data cleaning where
+        all actions are logged.
+Version: 1.3-1
+URL: http://code.google.com/p/deducorrect/
+Date: 2011-02-22
+Depends: editrules (>= 2.5-0)
+Collate: 'correctRounding.R' 'correctSigns.R' 'correctTypos.R' 'pkg.R'
+        'S3deducorrect.R' 'stringdistance.R' 'unimodularity.R' 'util.R'
+        'deductiveLevels.R' 'deductiveZeros.R' 'deduImpute.R'
+        'deterministic.R' 'revert.R' 'solSpace.R'
+Packaged: 2013-03-01 14:21:55 UTC; mark
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 16:19:46

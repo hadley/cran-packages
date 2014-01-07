@@ -1,0 +1,14 @@
+Package: kmi
+Version: 0.4
+Date: 2011.11.25
+Title: Kaplan-Meier multiple imputation for the analysis of cumulative
+        incidence functions in the competing risks setting
+Author: Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+Maintainer: Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+Depends: survival, mitools
+Description: The package performs a Kaplan-Meier multiple imputation to recover the missing potential censoring information from competing risks events, so that standard right-censored methods could be applied to the imputed data sets to perform analyses of the cumulative incidence functions.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2011-11-29 15:08:47 UTC; arthur
+Repository: CRAN
+Date/Publication: 2011-11-29 16:38:25

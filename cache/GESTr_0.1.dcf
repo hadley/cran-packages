@@ -1,0 +1,22 @@
+Package: GESTr
+Version: 0.1
+Date: 2013-02-21
+Title: Gene Expression State Transformation
+Authors@R: person("Ed", "Curry", role = c("aut", "cre"),email =
+        "e.curry@imperial.ac.uk")
+Author: Ed Curry
+Maintainer: Ed Curry <e.curry@imperial.ac.uk>
+Depends: R (>= 2.15.0), mclust, gtools
+Description: The Gene Expression State Transformation (GESTr) models
+        the states of expression of genes across a compendium of
+        samples in order to provide a universal scale of gene
+        expression for all genes. TranSAM is a modification of the SAM
+        approach designed to utilise GESTr-transformed gene expression
+        data.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://www1.imperial.ac.uk/medicine/people/e.curry/
+Packaged: 2013-03-07 09:26:51 UTC; ecurry
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-07 13:16:24

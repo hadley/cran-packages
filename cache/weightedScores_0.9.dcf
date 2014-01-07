@@ -1,0 +1,28 @@
+Package: weightedScores
+Version: 0.9
+Date: 2011-09-30
+Title: Weighted scores method for regression with dependent data
+Author: Aristidis K. Nikoloulopoulos <A.Nikoloulopoulos@uea.ac.uk> and
+        Harry Joe <harry.joe@ubc.ca>.
+Maintainer: Aristidis K. Nikoloulopoulos <A.Nikoloulopoulos@uea.ac.uk>
+Depends: R (>= 2.0.0), mvtnorm, rootSolve
+Description: This package has functions that handle the steps for the
+        weighted scores method in Nikoloulopoulos, Joe and Chaganty
+        (2011, Biostatistics, 12: 653-665) for binary (logistic and
+        probit), Poisson and negative binomial regression, with
+        dependent data. Two versions of negative binomial regression
+        from Cameron and Trivedi (1998) are used. Let NB(tau,xi) be a
+        parametrization with probability mass function f(y;tau,xi)=
+        Gamma(tau+y) xi^y / [ Gamma(tau) y! (1+xi)^(tau+y)], for
+        y=0,1,2,..., tau>0, xi>0, with mean mu=tau*xi = exp(beta^T x)
+        and variance tau*xi*(1+xi), where x is a vector of covariates.
+        For NB1, the parameter gamma is defined so that tau=mu/gamma,
+        xi=gamma; for NB2, the parameter gamma is defined so that
+        tau=1/gamma, xi=mu*gamma.  In NB1, the convolution parameter
+        tau is a function of the covariate x and xi is constant; in
+        NB2, the convolution parameter tau is constant and xi is a
+        function of the covariate x.
+License: GPL (>= 2)
+Packaged: 2011-09-30 19:27:40 UTC; xry09vgu
+Repository: CRAN
+Date/Publication: 2011-10-01 08:19:13

@@ -1,0 +1,18 @@
+Package: Renext
+Type: Package
+Title: Renewal method for extreme values extrapolation
+Version: 2.0-11
+Date: 2012-08-23
+Author: Yves Deville <deville.yves@alpestat.com>, IRSN <renext@irsn.fr>
+Maintainer: Lise Bardet <lise.bardet@irsn.fr>
+Depends: R (>= 2.8.0), evd, numDeriv
+Suggests: MASS, graphics, ismev, XML
+Description: R package dedicated to some Extreme values problems and
+        allowing the use of the so-called "renewal method" which is
+        popular among french-speaking hydrologists.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: https://gforge.irsn.fr/gf/project/renext
+Packaged: 2012-08-23 13:26:39 UTC; yves
+Repository: CRAN
+Date/Publication: 2012-08-24 12:33:23

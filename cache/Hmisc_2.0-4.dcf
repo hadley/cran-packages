@@ -1,0 +1,18 @@
+Package: Hmisc
+Version: 2.0-4
+Date: 2003-10-16
+Title: Harrell Miscellaneous
+Author: Frank E Harrell Jr <f.harrell@vanderbilt.edu>, with
+  contributions from many other users.
+Maintainer: Frank E Harrell Jr <f.harrell@vanderbilt.edu>
+Depends: R (>= 1.6), grid (>= 0.5-1), lattice (>= 0.4-0), mva, acepack
+Description: The Hmisc library contains many functions useful for data
+	analysis, high-level graphics, utility operations, functions for
+	computing sample size and power, importing datasets,
+	imputing missing values, advanced table making, variable clustering,
+	character string manipulation, conversion of S objects to LaTeX code,
+	and recoding variables.
+License: GPL version 2 or newer
+URL: http://hesweb1.med.virginia.edu/biostat/s/Hmisc.html,
+	http://hesweb1.med.virginia.edu/biostat/s/doc/splus.pdf,
+	http://hesweb1.med.virginia.edu/biostat/s/doc/summary.pdf

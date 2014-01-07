@@ -1,0 +1,11 @@
+Package: CPGchron
+Type: Package
+Title: Create radiocarbon-dated depth chronologies
+Version: 1.0
+Date: 2007-11-25
+Depends: hdrcde, boa
+Author: Andrew Parnell
+Maintainer: Andrew Parnell <Andrew.Parnell@tcd.ie>
+Description: This package follows the work of Parnell and Haslett (2007, submitted to JRSSC; contact the author for a pre-print). It runs MCMC, predictions and plots for radiocarbon-dated sediment cores.
+License: GPL (version 2 or later)
+Packaged: Sun Nov 25 15:20:03 2007; parnella

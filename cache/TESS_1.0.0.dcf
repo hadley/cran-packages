@@ -1,0 +1,23 @@
+Package: TESS
+Type: Package
+Title: Fast simulation of reconstructed phylogenetic trees under
+        time-dependent birth-death processes
+Version: 1.0.0
+Date: 2012-10-01
+Author: Sebastian Hoehna
+Maintainer: Sebastian Hoehna <hoehna@math.su.se>
+Depends: ape
+Description: TESS is a package for simulation of reconstructed
+        phylogenetic trees under global, time-dependent birth-death
+        processes. Speciation and extinction rates can be any function
+        of time and mass-extinction events at specific times can be
+        provided. Trees can be simulated either conditioned on the
+        number of species, the time of the process, or both.
+        Additionally, the likelihood equations are implemented for
+        convenience and can be used for Maximum Likelihood (ML)
+        estimation and Bayesian inference.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-10-10 09:21:34 UTC; hoehna
+Repository: CRAN
+Date/Publication: 2012-10-10 09:35:08

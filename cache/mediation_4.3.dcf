@@ -1,0 +1,22 @@
+Package: mediation
+Version: 4.3
+Date: 2013-10-13
+Title: R Package for Causal Mediation Analysis
+Author: Dustin Tingley <dtingley@gov.harvard.edu>,
+        Teppei Yamamoto <teppei@mit.edu>,
+        Kentaro Hirose <hirose@princeton.edu>,
+        Luke Keele <ljk20@psu.edu>,
+        Kosuke Imai <kimai@princeton.edu>
+Maintainer: Teppei Yamamoto <teppei@mit.edu>
+Depends: R (>= 2.15.1), MASS, Matrix, lpSolve, sandwich
+Suggests: mgcv, quantreg, VGAM, SuppDists, lme4 (>= 1.0), arm,
+        survival, parallel
+Description: mediation is a publicly available R package that allows both parametric and nonparametric causal mediation analysis.  It implements the methods and suggestions in Imai, Keele and Yamamoto (2010), Imai, Keele and Tingley (2010), Imai, Tingley and Yamamoto (2013), Imai and Yamamoto (2013) and Yamamoto (2013). In addition to the estimation of causal mediation effects, the software also allows researchers to conduct sensitivity analysis for certain parametric models.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://imai.princeton.edu/projects/mechanisms.html
+Packaged: 2013-10-13 22:05:42 UTC; teppei
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-14 07:22:59

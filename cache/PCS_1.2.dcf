@@ -1,0 +1,15 @@
+Package: PCS
+Type: Package
+Title: Calculate the probability of correct selection (PCS)
+Version: 1.2
+Date: 2013-08-16
+Depends: statmod, multtest
+Author: Jason Wilson
+Maintainer: Jason Wilson <jason.wilson@biola.edu>
+Description: Given k populations (can be in thousands), what is the probability that a given subset of size t contains the true top t populations?  This package finds this probability and offers three tuning parameters (G, d, L) to relax the definition.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2013-08-16 19:23:44 UTC; jasonw
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-16 23:45:14

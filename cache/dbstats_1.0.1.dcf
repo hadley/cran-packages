@@ -1,0 +1,22 @@
+Package: dbstats
+Type: Package
+Title: Distance-based statistics (dbstats)
+Version: 1.0.1
+Date: 2011-06-28
+Author: Boj, Eva <evaboj@ub.edu>, Caballe, Adria
+        <adria.caballe@upc.edu>, Delicado, Pedro
+        <pedro.delicado@upc.edu> and Fortiana, Josep <fortiana@ub.edu>.
+Maintainer: Fortiana, Josep <fortiana@ub.edu>
+Description: This package contains functions for distance-based
+        prediction methods. These are methods for prediction where
+        predictor information is coded as a matrix of distances between
+        individuals. Distances can either be directly input as an
+        interdistances matrix, a squared interdistances matrix, an
+        inner-products matrix or computed from observed explanatory
+        variables.
+License: GPL-2
+Repository: CRAN
+Depends: R (>= 2.10.0),cluster, pls
+Suggests: proxy
+Packaged: 2011-06-30 17:04:53 UTC; josep
+Date/Publication: 2011-06-30 17:25:48

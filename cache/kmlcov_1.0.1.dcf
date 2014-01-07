@@ -1,0 +1,23 @@
+Package: kmlcov
+Type: Package
+Title: Clustering longitudinal data using the likelihood as a metric of
+        distance
+Version: 1.0.1
+Date: 2013-08-21
+Authors@R: c(person("Mamoun O.", "Benghezal", role = c("aut", "cre"), email =
+    "mobenghezal@gmail.com"), person("Christophe", "Genolini", role = c("ctb"),
+    email = "christophe.genolini@u-paris10.fr"))
+Description: 'kmlcov' Cluster longitudinal data using the likelihood as a
+    metric of distance. The generalised linear model allow the user to
+    introduce covariates with different level effects (2 levels).
+License: GPL-2
+Depends: methods
+Collate: 'functions4glmClust.R' 'GlmCluster.R' 'glmclust-internal.R'
+        'glmClust.R' 'kmlcov-package.R' 'kmlCov.R'
+Packaged: 2013-08-21 14:03:41 UTC; mob
+Author: Mamoun O. Benghezal [aut, cre],
+  Christophe Genolini [ctb]
+Maintainer: Mamoun O. Benghezal <mobenghezal@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-21 16:07:27

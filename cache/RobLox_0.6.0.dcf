@@ -1,0 +1,15 @@
+Package: RobLox
+Version: 0.6.0
+Date: 2008-08-04
+Title: Optimally robust influence curves for location and scale
+Description: functions for the determination of optimally 
+    robust influence curves in case of normal
+    location with unknown scale
+Depends: R(>= 2.6.0), stats, distrMod(>= 2.0.0), RobAStBase(>= 0.1.0)
+Suggests: Biobase
+Author: Matthias Kohl <Matthias.Kohl@stamats.de>
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+LazyLoad: yes
+License: GPL version 2 or later
+URL: http://robast.r-forge.r-project.org/
+Packaged: Mon Sep 15 08:19:48 2008; btm722

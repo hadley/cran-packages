@@ -1,0 +1,12 @@
+Package: RLMM 
+Version: 0.7
+Date: 2005-09-02
+Title: A Genotype Calling Algorithm for Affymetrix SNP Arrays 
+Author: Nusrat Rabbee <nrabbee@post.harvard.edu>, Gary Wong <wongg62@berkeley.edu>
+Maintainer: Nusrat Rabbee <nrabbee@post.harvard.edu>
+Description: A classification algorithm, based on a multi-chip, multi-SNP approach for Affymetrix SNP arrays. Using a large training sample where the genotype labels are known, this aglorithm will obtain more accurate classification results on new data. RLMM is based on a robust, linear model and uses the Mahalanobis distance for classification. The chip-to-chip non-biological variation is removed through normalization. This model-based algorithm captures the similarities across genotype groups and probes, as well as thousands other SNPs for accurate classification. NOTE: 100K-Xba only at for now. 
+License: LGPL version 2 or newer
+Depends: R (>= 2.1.0), MASS
+SystemRequirements: Internal files Xba.CQV, Xba.regions (or other regions file)
+URL: http://www.stat.berkeley.edu/users/nrabbee/RLMM
+Packaged: Sun Sep  4 13:22:49 2005; vigre2

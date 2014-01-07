@@ -1,0 +1,18 @@
+Package: qgraph
+Type: Package
+Title: qgraph
+Version: 0.4.2
+Date: 2011-01-12
+Author: Sacha Epskamp, Angelique O. J. Cramer, Lourens J. Waldorp,
+        Verena D. Schmittmann and Denny Borsboom
+Maintainer: Sacha Epskamp <sacha.epskamp@gmail.com>
+Depends: R (>= 1.10.0)
+Suggests: sem, psych, RSVGTipsDevice
+Description: The qgraph package can be used to visualize psychometric
+        data by using networks. (see URL).
+URL: http://sites.google.com/site/qgraphproject
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-01-12 11:57:32 UTC; Sacha
+Repository: CRAN
+Date/Publication: 2011-01-12 14:37:04

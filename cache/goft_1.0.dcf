@@ -1,0 +1,16 @@
+Package: goft
+Type: Package
+Title: Tests of fit for some probability distributions
+Version: 1.0
+Date: 2013-10-18
+Author: Elizabeth Gonzalez-Estrada, Jose A. Villasenor-Alva
+Maintainer: Elizabeth Gonzalez-Estrada <egonzalez@colpos.mx>
+Description: This package implements some tests of fit for the normal, Gumbel (type I extreme
+    value distribution), multivariate normal and generalized Pareto distributions.
+License: GPL (>= 3)
+Depends: stats, gPdtest, mvShapiroTest
+LazyLoad: yes
+Packaged: 2013-12-03 21:34:44 UTC; elizabeth
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-04 07:29:16

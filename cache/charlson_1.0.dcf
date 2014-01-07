@@ -1,0 +1,15 @@
+Package: charlson
+Type: Package
+Title: Converts listwise icd9 data into comorbidity count and Charlson
+        Index
+Version: 1.0
+Date: 2010-05-04
+Author: Vanessa Cox
+Depends: R (>= 2.8), plyr,reshape
+Maintainer: Vanessa Cox <vanessa@stat.tamu.edu>
+Description: Input patient id and icd9 codes and obtain summary index
+License: Unlimited
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:21 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:21

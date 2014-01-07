@@ -1,0 +1,20 @@
+Package: bootfs
+Type: Package
+Title: Use multiple feature selection algorithms to derive robust
+        feature sets for two class classification problems.
+Version: 1.2
+Date: 2012-08-01
+Author: Christian Bender
+Maintainer: Christian Bender <christian.bender@tron-mainz.de>
+Description: To select a set of features for classification of two groups of samples, multiple classification and feature selection algorithms are utilised. By combining the results of all methods and applying a bootstrapping approach a robust set of features with high power to distinguish the two groups is selected.
+License: GPL (>= 2)
+Imports: igraph, ROCR, gbm, pROC, colorRamps, gplots, gtools, pamr,
+        randomForest, Boruta, caret, tgp, mlegp, penalizedSVM
+Suggests: parallel
+Repository: CRAN
+Repository/R-Forge/Project: bootfs
+Repository/R-Forge/Revision: 15
+Repository/R-Forge/DateTimeStamp: 2013-08-25 09:30:30
+Date/Publication: 2013-08-26 22:11:20
+Packaged: 2013-08-25 10:15:38 UTC; rforge
+NeedsCompilation: no

@@ -1,0 +1,19 @@
+Package: DynamicDistribution
+Title: Dynamically visualized probability distributions and their
+        moments
+Description: The package is aimed at dynamically visualizing probability
+    distributions and their moments and all the commonly used distributions are
+    included.
+Version: 1.1
+Author: Lei ZHANG, Hao JIANG and Chen XUE(Equally contributed, the order is
+    decided by the time the author joined the project. )
+Maintainer: Hao JIANG <lucius.hao.jiang@gmail.com>
+Depends: R (>= 3.0.2)
+License: GPL (>= 2)
+Packaged: 2013-12-05 02:30:41 UTC; Administrator
+Repository: CRAN
+LazyData: true
+Collate: 'DynCon.R' 'DynDis.R' 'internal.R'
+        'DynamicDistribution-package.r'
+NeedsCompilation: no
+Date/Publication: 2013-12-05 07:50:41

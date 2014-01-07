@@ -1,0 +1,12 @@
+Package: ipred
+Title: Improved Predictors 
+Version: 0.4-0
+Date: $Date: 2002/03/26 16:29:31 $
+Author: Andrea Peters <Andrea.Peters@imbe.imed.uni-erlangen.de> and 
+  Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Maintainer: Andrea Peters <Andrea.Peters@imbe.imed.uni-erlangen.de>
+Description: Improved predictive models by direct and indirect 
+  bootstrap aggregation in classification and regression as well as
+  resampling based estimators of prediction error. 
+Depends: rpart, MASS, mlbench
+License: GPL

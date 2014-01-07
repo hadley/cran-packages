@@ -1,0 +1,23 @@
+Package: RcmdrPlugin.depthTools
+Type: Package
+Title: R commander Depth Tools Plug-In
+Version: 1.0
+Date: 2010-12-01
+Author: Sara Lopez-Pintado <sl2929@columbia.edu> and Aurora Torrente
+        <etorrent@est-econ.uc3m.es>.
+Maintainer: Aurora Torrente <etorrent@est-econ.uc3m.es>
+Depends: Rcmdr (>= 1.4-0), tcltk, depthTools
+Description: This package provides an Rcmdr plug-in based on the
+        depthTools package, which implements different robust
+        statistical tools for the description and analysis of gene
+        expression data based on the Modified Band Depth, namely, the
+        scale curves for visualizing the dispersion of one or various
+        groups of samples (e.g. types of tumors), a rank test to decide
+        whether two groups of samples come from a single distribution
+        and two methods of supervised classification techniques, the DS
+        and TAD methods.
+License: GPL (>= 2)
+Models:
+Packaged: 2012-10-29 08:57:35 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:35

@@ -1,0 +1,18 @@
+Package: tolerance
+Type: Package
+Title: Functions for calculating tolerance intervals
+Version: 0.5.0
+Date: 2012-07-19
+Author: Derek S. Young
+Maintainer: Derek S. Young <dsy109@stat.psu.edu>
+Depends: rgl, stats4
+Description: Tolerance limits provide the limits between which we can
+        expect to find a specified proportion of a population with a
+        given level of confidence.  This package provides functions for
+        estimating tolerance limits for various distributions.
+        Plotting is also available for tolerance limits of continuous
+        random variables.
+License: GPL (>= 2)
+Packaged: 2012-07-19 00:26:51 UTC; dsy109
+Repository: CRAN
+Date/Publication: 2012-07-19 05:15:55

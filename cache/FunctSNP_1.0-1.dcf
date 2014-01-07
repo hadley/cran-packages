@@ -1,0 +1,20 @@
+Package: FunctSNP
+Type: Package
+Title: FunctSNP - SNP annotation data methods and species specific
+        database builder
+Version: 1.0-1
+Date: 2009-09-10
+Author: S. J. Goodswen with contributions from N. S. Watson-Haigh, H.
+        N. Kadarmideen and C. Gondro
+Maintainer: S. J. Goodswen <Stephen.Goodswen@csiro.au>
+Description: This package provides functions to query species specific
+        annotation databases. The main use of the package is to
+        associate SNPs to functional information. Functions are also
+        provided to download or build local databases from public
+        repositories.
+License: GPL-3
+Depends: R (>= 2.9.0), DBI, RSQLite, utils
+LazyLoad: yes
+Packaged: 2010-01-19 06:11:43 UTC; goo17a
+Repository: CRAN
+Date/Publication: 2010-01-19 08:00:14

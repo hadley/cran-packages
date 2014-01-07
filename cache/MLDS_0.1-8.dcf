@@ -1,0 +1,21 @@
+Package: MLDS
+Type: Package
+Title: Maximum Likelihood Difference Scaling
+Version: 0.1-8
+Date: 2009-04-18
+Author: Kenneth Knoblauch and Laurence T. Maloney, based in part on C
+        code written by Laurence T. Maloney and J. N. Yang
+Maintainer: Ken Knoblauch <ken.knoblauch@inserm.fr>
+Depends: R (>= 2.6), graphics, stats, utils, base
+Imports: MASS
+LazyLoad: yes
+LazyData: yes
+Description: Difference scaling is a method for scaling perceived
+        supra-threshold differences.  The package contains functions
+        that allow the user to design and run a difference scaling
+        experiment, to fit the resulting data by maximum likelihood and
+        test the internal validity of the estimated scale.
+License: GPL
+Packaged: Wed May 13 03:37:32 2009; knoblauch
+Repository: CRAN
+Date/Publication: 2009-05-25 20:23:41

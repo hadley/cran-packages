@@ -1,0 +1,17 @@
+Package: rTOFsPRO
+Type: Package
+Title: Time-of-flight mass spectra signal processing
+Version: 1.4.1
+Date: 2011-08-02
+Author: Dariya Malyarenko, Maureen Tracy and William Cooke
+Maintainer: Dariya Malyarenko <dimaly@wm.edu>
+Depends: R (>= 2.10)
+Suggests: R.matlab
+Description: rTOFsPRO provides functions for signal processing of the
+        linear TOF spectra to produce aligned peak intensity matrix
+        (and peak positions)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:34 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:34

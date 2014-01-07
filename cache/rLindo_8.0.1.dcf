@@ -1,0 +1,17 @@
+Package: rLindo
+Type: Package
+Title: R Interface to LINDO API
+Version: 8.0.1
+Date: 2013-08-12
+Author: Zhe Liu
+Maintainer: Zhe Liu<zliu@lindo.com>
+Depends: R (>= 2.14.1), methods
+Description: An interface to LINDO API. Supports Linear, Integer, Quadratic, Conic, General Nonlinear, Global, and Stochastic Programming models. To download the trial version LINDO API, please visit www.lindo.com/rlindo.
+SystemRequirements: LINDO API 8.0
+URL: www.lindo.com/rlindo
+License: LGPL (>= 2.1)
+Collate: rLindo.R zzz.R rLindoParam.R
+Repository: CRAN
+Packaged: 2013-08-12 11:55:49 UTC; liuzhe2005
+NeedsCompilation: yes
+Date/Publication: 2013-08-12 17:42:05

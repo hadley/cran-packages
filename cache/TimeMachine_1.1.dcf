@@ -1,0 +1,21 @@
+Package: TimeMachine
+Version: 1.1
+Date: 2013-03-18
+Title: Time Machine
+Authors@R: c(person("Gianluca", "Campanella", role=c("aut", "cre"),
+        email="gianluca@campanella.org"), person("Marc",
+        "Chadeau-Hyam", role="aut", email="m.chadeau@imperial.ac.uk"),
+        person("Maria", "De Iorio", role="ctb",
+        email="m.deiorio@ucl.ac.uk"), person("Ajay", "Jasra",
+        role="ctb", email="staja@nus.edu.sg"))
+Depends: R (>= 2.15), methods
+Description: Implements the Time Machine, a simulation approach for
+        stochastic trees.
+License: GPL (>= 2)
+Packaged: 2013-03-18 12:28:18 UTC; gc
+Author: Gianluca Campanella [aut, cre], Marc Chadeau-Hyam [aut], Maria
+        De Iorio [ctb], Ajay Jasra [ctb]
+Maintainer: Gianluca Campanella <gianluca@campanella.org>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-18 15:49:41

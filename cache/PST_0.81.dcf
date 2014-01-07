@@ -1,0 +1,31 @@
+Package: PST
+Version: 0.81
+Date: 2012-12-10
+Title: Probabilistic Suffix Trees
+Author: Alexis Gabadinho <alexis.gabadinho@unige.ch>
+Maintainer: Alexis Gabadinho <alexis.gabadinho@unige.ch>
+Depends: R (>= 2.8.1), methods, stats4, RColorBrewer, TraMineR
+Description: This package provides functions to analyse state sequences
+        with probabilistic suffix trees (PST), the construction that
+        stores variable length Markov chains (VLMC). The PST library
+        allows to learn VLMC models and includes many additional tools
+        and features to analyse sequence data with these models:
+        visualization tools, functions for model optimization, for
+        sequence prediction and artificial sequences generation,
+        context and pattern mining. The package is specifically adapted
+        to the field of social sciences by allowing to learn VLMC
+        models from sets of individual sequences possibly containing
+        missing values and to account for case weights. The library
+        also allows to fit segmented VLMC, where conditional transition
+        probabilities are estimated and stored for each value of a
+        covariate. This software results from research work executed
+        within the framework of the Swiss National Centre of Competence
+        in Research LIVES, which is financed by the Swiss National
+        Science Foundation. The authors are grateful to the Swiss
+        National Science Foundation for its financial support.
+License: GPL (>= 2)
+Encoding: latin1
+URL: http://r-forge.r-project.org/projects/pst
+Packaged: 2012-12-10 09:32:08 UTC; alex
+Repository: CRAN
+Date/Publication: 2012-12-10 10:48:32

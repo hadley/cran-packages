@@ -1,0 +1,29 @@
+Package: pkgutils
+Version: 0.5.0
+Date: 2013-09-04
+Title: pkgutils -- Utilities for creating R packages.
+Author: Markus Goeker <markus.goeker@dsmz.de>
+Maintainer: Markus Goeker <markus.goeker@dsmz.de>
+Depends: R (>= 2.15.0)
+Imports: tools
+Enhances: roxygen2
+Description: Tools for creating R packages, particularly for checking
+    the documentation produced by roxygen2 and for adding support
+    for the documentation of S4 methods. Also included are some
+    functions of use when coding a package and some of use in
+    interactive R sessions. Finally, R syntax-highlighting patterns
+    for some text editors are contained.
+License: GPL (>= 2)
+URL: http://www.dsmz.de/
+Collate: 'imports.R' 'constants.R' 'data.R' 'auxiliary.R' 'coding.R'
+        'character.R' 'package.R' 'class.R' 'directory.R' 'rd.R'
+        'plotting.R'
+LazyData: yes
+LazyDataCompression: bzip2
+Repository: CRAN
+Repository/R-Forge/Project: opm
+Repository/R-Forge/Revision: 269
+Repository/R-Forge/DateTimeStamp: 2013-09-04 15:24:39
+Date/Publication: 2013-09-18 16:00:36
+Packaged: 2013-09-13 18:41:12 UTC; rforge
+NeedsCompilation: no

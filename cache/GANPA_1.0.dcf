@@ -1,0 +1,17 @@
+Package: GANPA
+Type: Package
+Title: Gene Association Network-based Pathway Analysis
+Version: 1.0
+Date: 2011-05-24
+Author: Zhaoyuan Fang, Weidong Tian and Hongbin Ji
+Maintainer: Zhaoyuan Fang <fangzhaoyuan@sibs.ac.cn>
+Depends: GANPAdata
+Imports: graphics, stats, grDevices, utils
+Description: This package implements a network-based gene weighting
+        algorithm for pathways, as well as a gene-weighted gene set
+        analysis approach for microarray data pathway analysis.
+License: GPL-2
+LazyLoad: yes
+Packaged: Thu May 26 14:48:06 2011; john
+Repository: CRAN
+Date/Publication: 2011-05-29 18:47:15

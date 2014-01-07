@@ -1,0 +1,11 @@
+Package: RTisean
+Date: 10/10/2007
+Version: 3.0.9
+Title:  R interface to Tisean algorithms
+Author: TISEAN authors: Rainer Hegger, Holger Kantz, Thomas Schreiber. R interface code by Antonio, Fabio Di Narzo, R documentation and examples by Gianluca Gazzola
+Maintainer: Antonio Fabio Di Narzo <antonio.dinarzo@unibo.it>
+Depends: R (>= 2.5.0), tcltk
+Description: Algorithms for time series analysis from nonlinear dynamical systems theory originally made available by Rainer Hegger, Holger Kantz and Thomas Schreiber at the site http://www.mpipks-dresden.mpg.de/~tisean/ .  A related R package (tseriesChaos by Antonio, Fabio Di Narzo) contains rewritten versions of a few of the TISEAN algorithms.   The intention of the present package is to use the TISEAN routines from within R with no need of manual importing/exporting.  It is in a beta version state, though most of the functions should be usable.  Correspondence should be sent to either Marji Lines, lines@dss.uniud.it, or to the current maintainer of the package. This package only contains R interface code. It requires that you have the Tisean-3.0.1 algorithms available on your computer.
+License: GPL-2
+URL: http://tsnonlinear.uniud.it, http://www.mpipks-dresden.mpg.de/~tisean
+Packaged: Tue Oct  9 17:08:37 2007; antonio

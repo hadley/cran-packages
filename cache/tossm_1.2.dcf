@@ -1,0 +1,13 @@
+Package: tossm
+Type: Package
+Title: Testing of Spatial Structure Methods
+Version: 1.2
+Date: 2009-03-05
+Author: Mark Bravington, Karen Martien, Dave Gregovich
+Maintainer: Karen Martien <karen.martien@noaa.gov>
+Description: Provides a framework under which methods of detecting and managing genetic spatial structure in populations can be tested.
+Depends: splancs,grid,gpclib,hierfstat,mvbutils,rmetasim,wombsoft
+License: GPL (>= 2)
+URL: swfsc.noaa.gov/TOSSM.aspx
+LazyData:TRUE
+Packaged: Thu Mar  5 12:27:42 2009; DPG

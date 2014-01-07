@@ -1,0 +1,15 @@
+Package: laeken
+Type: Package
+Title: Laeken indicators for measuring social cohesion
+Version: 0.1.2
+Date: 2010-08-09
+Author: Andreas Alfons, Josef Holzer and Matthias Templ
+Maintainer: Andreas Alfons <alfons@statistik.tuwien.ac.at>
+Depends: boot, MASS
+Description: Calculate Laeken indicators for measuring social cohesion
+        and apply Pareto tail modeling to empirical income
+        distributions (including graphical tools).
+License: GPL (>= 2)
+Packaged: 2010-08-09 09:37:53 UTC; alfons
+Repository: CRAN
+Date/Publication: 2010-08-09 14:49:22

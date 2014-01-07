@@ -1,0 +1,16 @@
+Package: BCEs0
+Type: Package
+Title: Bayesian models for cost-effectiveness analysis in the presence
+        of structural zero costs
+Version: 1.1
+Date: 2013-11-15
+Author: Gianluca Baio
+Maintainer: Gianluca Baio <gianluca@stats.ucl.ac.uk>
+Suggests: R2jags
+LazyData: yes
+Description: Implements a full Bayesian cost-effectiveness analysis in the case where the cost variable is characterised by structural zeros. The package implements the Gamma, log-Normal and Normal models for the cost variable and the Gamma, Beta, Bernoulli and Normal models for the measure of clinical effectiveness. 
+License: GPL (>= 2)
+Packaged: 2013-11-15 21:14:02 UTC; gianluca
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-16 00:14:29

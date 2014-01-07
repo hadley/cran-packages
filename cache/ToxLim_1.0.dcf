@@ -1,0 +1,18 @@
+Package: ToxLim
+Version: 1.0
+Title: Incorporating Ecological Data and Associated Uncertainty in
+        Bioaccumulation Modeling
+Author: Frederik De Laender <frederik.delaender@ugent.be> Karline
+        Soetaert <k.soetaert@nioz.nl>
+Maintainer: Frederik De Laender <frederik.delaender@ugent.be>
+Depends: R (>= 2.01), LIM
+Description: Functions that predict internal concentrations of
+        hydrophobic chemicals in aquatic organisms.
+License: GPL (>= 2)
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: toxwebs
+Repository/R-Forge/Revision: 8
+Date/Publication: 2013-06-20 18:51:51
+Packaged: 2013-06-20 16:51:02 UTC; ripley
+NeedsCompilation: no

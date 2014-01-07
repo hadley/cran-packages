@@ -1,0 +1,20 @@
+Package: getopt
+Type: Package
+Title: C-like getopt behavior.
+Version: 1.19.0
+Author: Allen Day Contributions from Trevor L Davis
+Maintainer: Trevor L Davis <trevor.l.davis@stanford.edu>
+Description: Package designed to be used with Rscript to write ``#!''
+        shebang scripts that accept short and long flags/options.  Many
+        users will prefer using instead the package optparse which adds
+        extra features (automatically generated help option and usage,
+        support for default values, basic positional argument support).
+License: GPL (>= 2)
+Suggests: testthat
+Collate: 'getopt.R'
+Repository: CRAN
+Repository/R-Forge/Project: optparse
+Repository/R-Forge/Revision: 103
+Repository/R-Forge/DateTimeStamp: 2012-11-13 01:06:02
+Date/Publication: 2012-11-18 09:10:57
+Packaged: 2012-11-13 03:24:09 UTC; rforge

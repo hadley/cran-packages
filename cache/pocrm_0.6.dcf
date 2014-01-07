@@ -1,0 +1,15 @@
+Package: pocrm
+Type: Package
+Title: Dose-finding in drug combination Phase I trials using the
+        partial order continual reassessment method (PO-CRM).
+Version: 0.6
+Date: 2013-11-26
+Author: Nolan A. Wages
+Maintainer: "Varhegyi, Nikole (nev4g)" <nev4g@eservices.virginia.edu>
+Depends: dfcrm, nnet
+Description: This package provides functions to implement and simulate the partial order continual reassessment method (PO-CRM) for use in Phase I trials of combinations of agents. It also provides a function for generating a set of initial guesses (skeleton) for the toxicity probabilities at each combination that correspond to the set of possible orderings of the toxicity probabilities specified by the user.
+License: GPL-2
+Packaged: 2013-11-26 18:07:25 UTC; nev4g
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-26 22:08:53

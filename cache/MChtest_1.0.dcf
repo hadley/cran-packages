@@ -1,0 +1,12 @@
+Package: MChtest
+Type: Package
+Title: Monte Carlo hypothesis tests with Sequential Stopping 
+Version: 1.0
+Date: 2007-03-23
+Author: M.P. Fay
+Maintainer: M.P. Fay <mfay@niaid.nih.gov>
+Depends: stats
+Description:The package performs Monte Carlo hypothesis tests. It allows a couple of different sequential stopping boundaries (a truncated sequential probability ratio test boundary and a boundary proposed by Besag and Clifford, 1991). Gives valid p-values and confidence intervals on p-values.
+License: GPL
+URL: http://www3.niaid.nih.gov/about/organization/dcr/BRB/staff/michael.htm 
+Packaged: Fri Mar 23 19:03:45 2007; faym

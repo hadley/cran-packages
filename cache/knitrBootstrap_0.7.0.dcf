@@ -1,0 +1,20 @@
+Package: knitrBootstrap
+Version: 0.7.0
+Date: 2013-7-24
+Maintainer: Jim Hester <james.f.hester@gmail.com>
+Author: Jim Hester
+Title: Knitr Bootstrap framework.
+Description: A framework to create bootstrap styled HTML reports from knitr
+    Rmarkdown and RHTML.
+Depends: R (>= 3.0.0), knitr (>= 1.2), markdown (>= 0.5.5)
+Suggests: testthat, roxygen2, corrplot, ggplot2, igraph, maps, mapproj,
+        maptools, plyr, reshape2, xtable,
+License: GPL-2
+URL: http://jimhester.github.io/knitrBootstrap
+BugReports: https://github.com/jimhester/knitrBootstrap/issues
+VignetteBuilder: knitr
+Packaged: 2013-07-30 19:51:07 UTC; hesterj
+Collate: 'knit_bootstrap.R'
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-30 22:05:44

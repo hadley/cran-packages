@@ -1,0 +1,23 @@
+Package: bmem
+Type: Package
+Title: Mediation analysis with missing data using bootstrap
+Version: 1.3
+Date: 2011-01-04
+Author: Zhiyong Zhang and Lijuan Wang
+Maintainer: Zhiyong Zhang <zhiyongzhang@nd.edu>
+Depends: R (>= 1.7), sem, Amelia, MASS
+Description: Four methods for mediation analysis with missing data:
+        Listwise deletion, Pairwise deletion, Multiple imputation, and
+        Two Stage Maximum Likelihood algorithm. For MI and TS-ML,
+        auxiliary variables can be included. Bootstrap confidence
+        intervals for mediation effects are obtained. The robust method
+        is also implemented for TS-ML.
+License: GPL-2
+LazyLoad: yes
+URL: http://rpackages.psychstat.org
+ZipData: no
+Repository: CRAN
+Repository/R-Forge/Project: semdiag
+Repository/R-Forge/Revision: 6
+Packaged: 2012-06-25 22:15:16 UTC; rforge
+Date/Publication: 2012-06-26 14:50:12

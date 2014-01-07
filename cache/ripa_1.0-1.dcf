@@ -1,0 +1,19 @@
+Package: ripa
+Version: 1.0-1
+Date: 2009-07-17
+Title: R Image Processing and Analysis
+Author: Talita Perciano <talitaperciano@gmail.com>, with contributions
+        from Alejandro C Frery <acfrery@pq.cnpq.br>.
+Maintainer: Talita Perciano <talitaperciano@gmail.com>
+Depends: R (>= 2.8.1), rimage, tcltk, tkrplot, e1071, rggobi, reshape,
+        methods
+SystemRequirements: Bwidget, Tktable, Img
+Description: A package including various functions for image processing
+        and analysis. With this package is possible to process and
+        analyse RGB, LAN (multispectral) and AVIRIS (hiperspectral)
+        images.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2009-07-18 16:15:23 UTC; talita
+Repository: CRAN
+Date/Publication: 2009-07-18 16:42:57

@@ -1,0 +1,16 @@
+Package: hsphase
+Type: Package
+Title: Phasing and imputation of half-sib families using SNP data
+Version: 1.2.3
+Date: 2013-5-25
+Author: Mohammad Ferdosi <mferdosi@myune.edu.au>, Cedric Gondro <cgondro2@une.edu.au>
+Maintainer: Mohammad Ferdosi <mferdosi@myune.edu.au>
+Depends: gtools, snowfall, Rcpp (>= 0.10.4), RcppArmadillo (>=
+        0.3.900.0), R (>= 2.15.1)
+LinkingTo: Rcpp, RcppArmadillo
+Description: Identification of recombination events, haplotype reconstruction and sire imputation using half-sib family SNP data
+License: GPL (>= 3)
+Packaged: 2013-10-26 03:57:11 UTC; mhf
+Repository: CRAN
+Date/Publication: 2013-10-26 07:44:18
+NeedsCompilation: yes

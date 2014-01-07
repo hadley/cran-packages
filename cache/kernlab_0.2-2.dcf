@@ -1,0 +1,11 @@
+Package: kernlab
+Version: 0.2-2
+Date: 2004-05-01
+Title: Kernel Methods Lab
+Author: Alexandros Karatzoglou, Alex Smola, Achim Zeileis, Kurt Hornik 
+Maintainer: Alexandros Karatzoglou <alexis@ci.tuwien.ac.at>
+Description: Kernel-based machine learning methods including 
+             support vector machines. 
+Depends: R (>= 1.9.0)
+License: GPL version 2 or newer
+Packaged: Sat Jun  5 15:55:08 2004; alexis

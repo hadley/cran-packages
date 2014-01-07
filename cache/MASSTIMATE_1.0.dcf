@@ -1,0 +1,17 @@
+Package: MASSTIMATE
+Type: Package
+Title: Body Mass Estimation Equations for Vertebrates
+Version: 1.0
+Date: 2013-03-20
+Author: Nicolas E. Campione
+Maintainer: Nicolas E. Campione <nicolas.campione@mail.utoronto.ca>
+Depends: R (>= 2.10.0)
+Description: Estimation equations are from a variety of sources but
+        are, in general, based on regressions between skeletal
+        measurements (e.g., femoral circumference) and body mass in
+        living taxa.
+License: GPL (>= 2)
+Packaged: 2013-03-21 16:17:35 UTC; Nic
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-21 18:29:37

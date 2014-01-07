@@ -1,0 +1,17 @@
+Package: R0
+Type: Package
+Title: Estimation of R0 and real-time reproduction number from
+        epidemics
+Version: 1.2-4
+Date: 2013-07-08
+Author: Pierre-Yves Boelle, Thomas Obadia
+Maintainer: Thomas Obadia <obadia@u707.jussieu.fr>
+Depends: R (>= 2.13.0), MASS
+Suggests: epicalc
+Description: This package is designed to estimate reproduction numbers for disease outbreak, based on incidence data. It implements several documented methods. It is therefore possible to compare estimations according to the methods used. Depending on the methods requested by user, basic reproduction number (commonly denoted as R0) or real-time reproduction number (referred to as R(t)) is computed, along with a 95% Confidence Interval. Plotting outputs will give different graphs depending on the methods requested : basic reproductive number estimations will only show the epidemic curve (collected data) and an adjusted model, whereas real-time methods will also show the R(t) variations throughout the outbreak time period. Sensitivity analysis tools are also provided, and allow for investigating effects of varying Generation Time distribution or time window on estimates.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-12-13 11:05:53 UTC; thomas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-13 12:42:09

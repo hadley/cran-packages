@@ -1,0 +1,12 @@
+Package:      grImport
+Version:      0.3-1
+Depends:      R (>= 2.3.0), methods, grid, XML
+SystemRequirements: ghostscript
+Date:         2006-03-07
+Title:        Importing Vector Graphics
+Author:       Paul Murrell and Richard Walton.
+Maintainer:   Paul Murrell <p.murrell@auckland.ac.nz>
+Description:  Functions for converting, importing, and drawing PostScript 
+              pictures in R plots.
+License:      GPL (>= 2)
+Packaged: Thu Jul 31 08:53:00 2008; paul

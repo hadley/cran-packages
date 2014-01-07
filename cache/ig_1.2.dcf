@@ -1,0 +1,13 @@
+Package: ig
+Type: Package
+Title: Package for a General Class of Inverse Gaussian Distributions
+Version: 1.2
+Date: 2008-04-20
+Encoding: latin1
+Author: Víctor Leiva <victor.leiva@uv.cl>, Hugo Hernández <hugo.hernandez.p@gmail.com>, and Antonio Sanhueza <asanhue@ufro.cl>
+Maintainer: Hugo Hernández <hugo.hernandez@msn.com>
+Depends: R (>= 1.8.0), nlme
+Description: A collection of utilities for a general class of inverse Gaussian models known as inverse Gaussian type distribution (IGTD).
+License: GPL-2
+URL: http://www.r-project.org, http://www.deuv.cl/leiva/
+Packaged: Sun Apr 20 10:24:22 2008; Hugo Hernández

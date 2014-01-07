@@ -1,0 +1,42 @@
+Package: cda
+Version: 1.3.3
+Authors@R: c(person("Baptiste", "Auguie", email =
+        "baptiste.auguie@gmail.com", role = c("aut", "cre")),
+        person("LAPACK authors", role = "cph", comment = "copyrights
+        apply to src/zgels.f"))
+License: GPL-3
+Copyright: file inst/COPYRIGHTS for src/zgels.f obtained from LAPACK
+Title: Coupled dipole approximation in electromagnetic scattering
+Description: The cda package implements the coupled-dipole
+        approximation for electromagnetic scattering by sparse
+        collections of subwavelength particles, with a particular focus
+        on plasmonic nanoparticles in the visible regime. The
+        interaction matrix, and the solution of the linear system of
+        coupled-dipole equations are executed in C++ code for speed;
+        convenient wrapper functions are provided at the R level to
+        generate the particle clusters, calculate the extinction,
+        scattering, and absorption of light by particles with linearly
+        and circularly polarised light. Functions are also provided to
+        calculate orientation-averaged circular dichroism, and display
+        clusters of nanoparticles in three dimensions using OpenGL or
+        povray.
+URL: https://github.com/baptiste/cda
+Type: Package
+LazyLoad: yes
+BuildVignettes: true
+SystemRequirements: GNU make
+LinkingTo: Rcpp, RcppArmadillo
+Depends: methods, Rcpp (>= 0.10), RcppArmadillo (>= 0.3.4), plyr,
+        statmod, randtoolbox, reshape2, dielectric (>= 0.2.2)
+Suggests: rgl, grid, ggplot2, gridExtra, testthat, knitr
+RcppModules: cda, cd, linear, array
+Collate: 'cd.r' 'cda-package.r' 'linear.r' 'polarizability.R'
+        'positions.R' 'povray.r' 'rgl.r' 'zzz.r' 'array_factor.R'
+        'dispersion.r'
+Packaged: 2013-06-21 18:34:42 UTC; baptiste
+Author: Baptiste Auguie [aut, cre], LAPACK authors [cph] (copyrights
+        apply to src/zgels.f)
+Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-23 09:23:38

@@ -1,0 +1,15 @@
+Package: lazyWeave
+Type: Package
+Title: LaTeX Wrappers for R Users
+Version: 2.1.3
+Date: 2012-03-13
+Author: Benjamin Nutter
+Maintainer: Benjamin Nutter <nutterb@ccf.org>
+Description: Provides the functionality to write LaTeX code from within
+        R without having to learn LaTeX.
+License: GPL
+LazyLoad: yes
+Depends: R (>= 2.10.0), Hmisc, survival
+Packaged: 2012-04-06 12:59:54 UTC; nutterb
+Repository: CRAN
+Date/Publication: 2012-04-06 14:49:48

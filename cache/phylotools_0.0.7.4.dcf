@@ -1,0 +1,16 @@
+Package: phylotools
+Type: Package
+Title: Phylogenetic tools for ecologists
+Version: 0.0.7.4
+Date: 2010-11-1
+Author: Jinlong Zhang, Xiangcheng Mi, Nancai Pei
+Maintainer: Jinlong Zhang <jinlongzhang01@gmail.com>
+Description: Tools for manupulating DNA sequences for DNA-barcoding,
+        especially for building supermatrix.
+Depends: seqRFLP
+Suggests: ape
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-11-01 12:34:53 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-11-03 07:42:23

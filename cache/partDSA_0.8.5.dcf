@@ -1,0 +1,24 @@
+Package: partDSA
+Type: Package
+Title: Partitioning using deletion, substitution, and addition moves
+Version: 0.8.5
+Author: Annette Molinaro <annette.molinaro@ucsf.edu>, Karen Lostritto
+        <karen.lostritto@yale.edu>, Gregory Ryslik
+        <gregory.ryslik@yale.edu>, Steve Weston
+        <stephen.weston@yale.com>
+Maintainer: Annette Molinaro <annette.molinaro@ucsf.edu>
+Description: partDSA is a novel tool for generating a piecewise
+        constant estimation list of increasingly complex predictors
+        based on an intensive and comprehensive search over the entire
+        covariate space.
+Depends: R (>= 2.5), survival
+Suggests: nws, MASS, ipred, VGAM
+License: GPL-2
+Repository: CRAN
+Repository/R-Forge/Project: partdsa
+Repository/R-Forge/Revision: 43
+Repository/R-Forge/DateTimeStamp: 2013-01-29 02:18:37
+Date/Publication: 2013-02-06 08:08:48
+Packaged: 2013-01-29 16:02:40 UTC; rforge
+X-CRAN-Comment: versions prior to 2013-02-06 were removed at the
+        request of the maintainer.

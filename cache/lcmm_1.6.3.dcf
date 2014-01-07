@@ -1,0 +1,20 @@
+Package: lcmm
+Type: Package
+Title: Estimation of latent class mixed models, joint latent class
+        mixed models and mixed models for curvilinear outcomes
+Version: 1.6.3
+Date: 2013-03-14
+Author: Cecile Proust-Lima, Viviane Philipps, Amadou Diakite and Benoit
+        Liquet
+Maintainer: Cecile Proust-Lima <cecile.proust@isped.u-bordeaux2.fr>
+Description: This package provides functions for the estimation of
+        various latent class mixed models, joint latent latent class
+        mixed models and mixed models for curvilinear outcomes using a
+        maximum likelihood method
+License: GPL (>= 2.0)
+Depends: R (>= 2.9.0), survival
+LazyLoad: yes
+Packaged: 2013-03-14 10:42:20 UTC; cproust
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-14 13:12:31

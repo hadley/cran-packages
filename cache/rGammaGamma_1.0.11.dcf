@@ -1,0 +1,15 @@
+Package: rGammaGamma
+Type: Package
+Title: Gamma convolutions for methylation array background correction.
+Depends: gsl
+Version: 1.0.11
+Date: 2012-12-04
+Author: Tim Triche, Jr.
+Maintainer: Tim Triche, Jr. <tim.triche@gmail.com>
+Description: This package implements a Gamma convolution model for
+        background.
+License: GPL (>= 2.0)
+LazyLoad: yes
+Packaged: 2012-12-04 23:36:45 UTC; tim
+Repository: CRAN
+Date/Publication: 2012-12-05 09:05:53

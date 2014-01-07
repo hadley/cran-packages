@@ -1,0 +1,16 @@
+Package: G1DBN
+Version: 3.0
+Date: 2012-02-24
+Title: A package performing Dynamic Bayesian Network inference.
+Author: Sophie Lebre <sophie.lebre@lsiit-cnrs.unistra.fr>, original
+        version 1.0 by Sophie Lebre
+        <sophie.lebre@lsiit-cnrs.unistra.fr>, contribution of Julien
+        Chiquet <julien.chiquet@genopole.cnrs.fr> to version 2.0
+Maintainer: Sophie Lebre <sophie.lebre@lsiit-cnrs.unistra.fr>
+Depends: R (>= 2.11.1), MASS, igraph
+Description: G1DBN performs DBN inference using 1st order conditional
+        dependencies.
+License: GPL (>= 2)
+Packaged: 2012-03-01 15:45:39 UTC; sophie
+Repository: CRAN
+Date/Publication: 2012-03-01 16:32:06

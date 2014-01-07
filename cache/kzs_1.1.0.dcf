@@ -1,0 +1,12 @@
+Package: kzs
+Type: Package
+Title: Kolmogorov-Zurbenko Spline
+Version: 1.1.0
+Date: 2007-07-01
+Author: Derek Cyr <dc896148@albany.edu> and Igor Zurbenko <igorg.zurbenko@gmail.com>.
+Maintainer: Derek Cyr <dc896148@albany.edu>
+Depends: R (>= 2.5.0), graphics, stats 
+Description: A collection of functions utilizng splines to smooth a noisy data set in order 
+	     to estimate its underlying signal.
+License: GPL version 2 or newer
+Packaged: Sun Jul  1 15:30:14 2007; Owner

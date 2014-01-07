@@ -1,0 +1,13 @@
+Package: MLDS
+Type: Package
+Title: Maximum Likelihood Difference Scaling
+Version: 0.0.4
+Date: 2007-02-06
+Author: Kenneth Knoblauch and Laurence T. Maloney, based in part on C code written by Laurence T. Maloney and J. N. Yang
+Maintainer: Ken Knoblauch <knoblauch@lyon.inserm.fr>
+Depends: R (>= 2.4.0), graphics, stats, utils, base
+Suggests: MASS
+LazyLoad: yes
+Description: More about what it does (maybe more than one line)
+License: GPL
+Packaged: Mon Apr 16 23:50:46 2007; knoblauch

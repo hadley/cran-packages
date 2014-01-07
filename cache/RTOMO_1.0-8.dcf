@@ -1,0 +1,17 @@
+Package: RTOMO
+Type: Package
+Title: Visualization for seismic tomography
+Version: 1.0-8
+Date: 2008-08-15
+Depends: GEOmap, RSEIS
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees <jonathan.lees@unc.edu>
+Description: Created mainly for use with seismic tomography, this
+        program plots tomographic images, and allows one to interact
+        and query three-dimensional tomographic models.  Vertical
+        cross-sectional cuts can be extracted by mouse click.
+        Geographic information can be added easily.
+License: GPL
+Packaged: 2011-10-19 20:17:45 UTC; lees
+Repository: CRAN
+Date/Publication: 2011-10-20 08:47:01

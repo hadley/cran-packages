@@ -1,0 +1,20 @@
+Package: EngrExpt
+Version: 0.1-6
+Date: 2009-05-04
+Title: Data sets from "Introductory Statistics for Engineering
+        Experimentation"
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Author: R port by Douglas Bates <bates@stat.wisc.edu> and Karen A.F.
+        Copeland <karen@boulderstats.com>
+Description: Datasets from Nelson, Coffin and Copeland "Introductory
+        Statistics for Engineering Experimentation" (Elsevier, 2003)
+        with sample code.
+Depends: R (>= 2.9.0), lattice
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: engrexpt
+Repository/R-Forge/Revision: 26
+Date/Publication: 2009-05-06 17:38:20
+Packaged: 2009-05-06 02:54:30 UTC; rforge

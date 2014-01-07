@@ -1,0 +1,54 @@
+Package: lmomco
+Title: L-moments, Trimmed L-moments, L-comoments, and Many
+        Distributions
+Version: 1.2.1
+Depends: R (>= 2.7.0), utils
+Date: 2010-11-20
+Author: William H. Asquith
+Description: The package implements the statistical theory of L-moments
+        including L-moment estimation, probability-weighted moment
+        estimation, parameter estimation for numerous familiar and
+        not-so-familiar distributions, and L-moment estimation for the
+        same distributions from the parameters. L-moments are derived
+        from the expectations of order statistics and are linear with
+        respect to the probability-weighted moments; choice of either
+        can be made by mathematical convenience. L-moments are directly
+        analogous to the well-known product moments; however, L-moments
+        have many advantages including unbiasedness, robustness, and
+        consistency with respect to the product moments. The method of
+        L-moments can out perform the method of maximum likelihood. The
+        lmomco package historically is oriented around canonical
+        FORTRAN algorithms of J.R.M. Hosking, and the nomenclature for
+        many of the functions parallels that of the Hosking library,
+        which later became available in the lmom package. However, vast
+        arrays of various extensions and curiosities are made by the
+        author to aid and expand of the breadth of L-moment
+        application. Such extensions venerable statistics as Sen
+        weighted mean, Gini mean difference, plotting positions, and
+        conditional probability adjustment. Much extension of L-moment
+        theory has occurred in recent years, including extension of
+        L-moments into right-tail censoring conditions by known
+        censoring threshold or by an indicator variable. Extension to
+        left-tail censoring is readily made by variable flipping,
+        treatment as right-tail censored, and finally back-flipping
+        (re-transformation). E.A.H. Elamir and A.H. Seheult have
+        developed the trimmed L-moments, which are implemented in this
+        package. Further, Robert Serfling and Peng Xiao have extended
+        L-moments into multivariate space; the so-called sample
+        L-comoments are implemented here and might have considerable
+        application in copula theory because they measure asymmetric
+        correlation and higher co-moments. The supported distributions
+        with moment type shown as L (L-moments) or TL (trimmed
+        L-moments) and additional support for right-tail censoring
+        ([RC]) include: Cauchy (TL), Exponential (L), Gamma (L),
+        Generalized Extreme Value (L), Generalized Lambda (L & TL),
+        Generalized Logistic (L), Generalized Normal (L), Generalized
+        Pareto (L[RC] & TL), Gumbel (L), Kappa (L), Kumaraswamy (L),
+        Normal (L), 3-parameter log-Normal (L), Pearson Type III (L),
+        Rayleigh (L), Reverse Gumbel (L[RC]), Rice (L), Wakeby (L), and
+        Weibull (L).
+Maintainer: William H. Asquith <william.asquith@ttu.edu>
+License: GPL
+Packaged: 2010-11-21 20:38:26 UTC; wasquith
+Repository: CRAN
+Date/Publication: 2010-11-22 07:50:47

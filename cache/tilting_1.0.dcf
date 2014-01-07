@@ -1,0 +1,18 @@
+Package: tilting
+Type: Package
+Title: Variable selection via Tilted Correlation Screening algorithm
+Version: 1.0
+Date: 2011-05-19
+Author: Haeran Cho
+Maintainer: Haeran Cho <h.cho1@lse.ac.uk>
+Description: The package implements an algorithm for variable selection
+        in high-dimensional linear regression using the "tilted
+        correlation", a new way of measuring the contribution of each
+        variable to the response which takes into account high
+        correlations among the variables in a data-driven way.
+Depends: mvtnorm
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:55 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:55

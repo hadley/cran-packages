@@ -1,0 +1,16 @@
+Package: bayesGDS
+Type: Package
+Title: Functions to implement Generalized Direct Sampling
+Version: 0.5.0
+Date: 2012-08-27
+Author: Michael Braun
+Maintainer: Michael Braun <braunm@mit.edu>
+URL: braunm.scripts.mit.edu/Software.html
+Description: This package contains functions to help users implement
+        the Generalized Direct Sampling algorithm for Bayesian
+        hierarchical models (Braun and Damien, 2012).
+License: MPL (== 2.0)
+Depends: Matrix, Rmpfr
+Packaged: 2012-08-27 21:17:01 UTC; braunm
+Repository: CRAN
+Date/Publication: 2012-08-28 05:24:32

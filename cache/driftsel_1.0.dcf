@@ -1,0 +1,16 @@
+Package: driftsel
+Type: Package
+Title: Distinguishing drift and natural selection as causes of
+        phenotypic differentiation
+Version: 1.0
+Date: 2013-04-23
+Author: Markku Karhunen & Otso Ovaskainen
+Maintainer: Markku Karhunen, <markku.karhunen@helsinki.fi>
+Depends: R (>= 2.12.0), MCMCpack, SparseM, corpcor, car
+Description: Neutrality test for quantitative traits
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-04-23 14:05:07 UTC; mkarhune
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-24 10:52:53

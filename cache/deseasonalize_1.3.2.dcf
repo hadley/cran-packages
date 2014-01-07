@@ -1,0 +1,18 @@
+Package: deseasonalize
+Type: Package
+Title: Optimal deseasonalization for geophysical time series using AR
+        fitting
+Version: 1.3.2
+Date: 2012-09-21
+Author: A. I. McLeod and Hyukjun Gweon
+Maintainer: <aimcleod@uwo.ca>
+Depends: R (>= 2.10),lattice, FitAR
+Description: Deseasonalize daily or monthly time series.
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.4, I.5
+Classification/MSC: 62H30
+License: GPL (>= 2)
+Packaged: 2012-09-21 16:58:28 UTC; Aim
+Repository: CRAN
+Date/Publication: 2012-09-22 04:33:25

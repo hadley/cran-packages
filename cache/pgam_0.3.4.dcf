@@ -1,0 +1,10 @@
+Package: pgam
+Version: 0.3.4
+Date: 2004-04-15
+Author: Washington Junger <wjunger@ims.uerj.br>
+Maintainer: Washington Junger <wjunger@ims.uerj.br>
+Depends: modreg, R (>= 1.8.0)
+Title: Poisson-Gamma Additive Models.
+Description: This work is aimed at extending a class of state space models for Poisson count data, so called Poisson-Gamma models, towards a semiparametric specification. Just like the generalized additive models (GAM), cubic splines are used for covariate smoothing. The semiparametric models are fitted by an iterative process that combines maximization of likelihood and backfitting algorithm.
+License: GPL version 2 or later
+Packaged: Thu Apr 15 22:57:26 2004; wjunger

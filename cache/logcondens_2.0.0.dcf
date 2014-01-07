@@ -1,0 +1,29 @@
+Package: logcondens
+Type: Package
+Title: Estimate a Log-Concave Probability Density from iid Observations
+Version: 2.0.0
+Date: 2010-08-26
+Author: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch> and Lutz
+        Duembgen <duembgen@stat.unibe.ch>
+Maintainer: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch>
+Description: Given independent and identically distributed observations
+        X(1), ..., X(n), this package allows to compute the maximum
+        likelihood estimator (MLE) of a density as well as a smoothed
+        version of it under the assumption that the density is
+        log-concave, see Rufibach (2007) and Duembgen and Rufibach
+        (2009). The main function of the package is 'logConDens' that
+        allows computation of the log-concave MLE and its smoothed
+        version. In addition, we provide functions to compute (1) the
+        value of the density and distribution function estimates (MLE
+        and smoothed) at a given point (2) the characterizing functions
+        of the estimator, (3) to sample from the estimated
+        distribution, and (5) to compute a two-sample permutation test
+        based on log-concave densities. Finally, two datasets that have
+        been used to illustrate log-concave density estimation are made
+        available.
+License: GPL (>= 2)
+URL: http://www.biostat.uzh.ch/aboutus/people/rufibach.html ,
+        http://www.staff.unibe.ch/duembgen
+Packaged: 2010-08-26 20:45:31 UTC; rufibach
+Repository: CRAN
+Date/Publication: 2010-08-27 06:23:50

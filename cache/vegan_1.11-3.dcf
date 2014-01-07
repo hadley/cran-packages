@@ -1,0 +1,13 @@
+Package: vegan
+Title: Community Ecology Package
+Version: 1.11-3
+Date: April 10, 2008
+Author: Jari Oksanen, Roeland Kindt, Pierre Legendre, Bob O'Hara, Gavin L. Simpson, 
+  M. Henry H. Stevens  
+Maintainer: Jari Oksanen <jari.oksanen@oulu.fi>
+Suggests: MASS, mgcv, lattice, cluster, scatterplot3d, rgl, ellipse, tcltk
+Description: Ordination methods, diversity analysis and other
+  functions for community and vegetation ecologists.
+License: GPL-2 
+URL: http://cran.r-project.org/, http://vegan.r-forge.r-project.org/
+Packaged: Thu Apr 10 15:37:51 2008; jarioksa

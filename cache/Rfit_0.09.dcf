@@ -1,0 +1,17 @@
+Package: Rfit
+Type: Package
+Title: Rank Estimation for Linear Models
+Version: 0.09
+Date: 2010-10-06
+Author: John Kloke
+Maintainer: John Kloke <jdk61@pitt.edu>
+Description: Rank estimation and inference for linear models.
+        Estimation is for general scores and a library of commonly used
+        score functions is included.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: methods, quantreg
+Packaged: 2010-10-06 19:59:57 UTC; john
+Repository: CRAN
+Date/Publication: 2010-10-07 11:25:19

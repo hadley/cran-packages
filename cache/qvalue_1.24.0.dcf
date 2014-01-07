@@ -1,0 +1,24 @@
+Package: qvalue
+Title: Q-value estimation for false discovery rate control
+Version: 1.24.0
+Author: Alan Dabney <adabney@u.washington.edu> and John D. Storey
+        <jstorey@u.washington.edu>, with assistance from Gregory R.
+        Warnes <gregory_r_warnes@groton.pfizer.com>
+Description: This package takes a list of p-values resulting from the
+        simultaneous testing of many hypotheses and estimates their
+        q-values. The q-value of a test measures the proportion of
+        false positives incurred (called the false discovery rate) when
+        that particular test is called significant. Various plots are
+        automatically generated, allowing one to make sensible
+        significance cut-offs. Several mathematical results have
+        recently been shown on the conservative accuracy of the
+        estimated q-values from this software. The software can be
+        applied to problems in genomics, brain imaging, astrophysics,
+        and data mining.
+Maintainer: John D. Storey <jstorey@u.washington.edu>
+Imports: graphics, grDevices, stats, tcltk
+License: LGPL
+biocViews: MultipleComparisons
+Packaged: 2010-10-18 08:10:38 UTC; biocbuild
+Repository: CRAN
+Date/Publication: 2010-10-26 12:23:41

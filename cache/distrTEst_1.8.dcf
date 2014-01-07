@@ -1,0 +1,16 @@
+Package: distrTEst
+Version: 1.8
+Date: 2006-10-04
+Title: Estimation and Testing classes based on package distr
+Depends: R(>= 2.2.0), methods, graphics, setRNG(>= 2006.2-1), distr(>= 1.8), distrSim(>= 1.8), startupmsg
+Suggests: distrEx(>= 0.4-4)
+Imports: stats
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas Stabla
+Description: Evaluation (S4-)classes based on package distr for evaluating 
+    procedures (estimators/tests) at data/simulation in a unified way.
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@uni-bayreuth.de>
+SaveImage: no
+LazyLoad: yes
+License: GPL (version 2 or later)
+URL: http://www.uni-bayreuth.de/departments/math/org/mathe7/DISTR/
+Packaged: Wed Nov 22 21:34:39 2006; Peter

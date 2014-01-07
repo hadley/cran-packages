@@ -1,0 +1,27 @@
+Package: OmicKriging
+Type: Package
+Title: OmicKriging for Phenotypic Prediction
+Version: 1.0
+Date: 2013-03-08
+Author: Hae Kyung Im, Heather E. Wheeler
+Maintainer: Hae Kyung Im <haky@uchicago.edu>
+Description: This package provides functions to generate correlation
+        matrices from SNP, gene expression, methylation or other
+        'omics' datasets and to use these matrices to predict the
+        phenotype of an individual by using the phenotypes of the
+        remaining individuals through kriging. Kriging is a
+        geostatistical method for optimal prediction or best unbiased
+        linear prediction. It consists of predicting the value of a
+        variable at an unobserved location as a weighted sum of the
+        variable at observed locations. Intuitively, it works as a
+        reverse linear regression: instead of computing correlation
+        (univariate regression coefficients are simply scaled
+        correlation) between a dependent variable Y and independent
+        variables X, it uses known correlation between X and Y to
+        predict Y.
+License: GPL (>= 3)
+Depends: R(>= 2.10.0)
+Packaged: 2013-03-08 16:32:07 UTC; hwheeler
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-09 05:29:37

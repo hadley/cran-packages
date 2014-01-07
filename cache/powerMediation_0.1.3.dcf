@@ -1,0 +1,20 @@
+Package: powerMediation
+Version: 0.1.3
+Date: 2013-04-29
+Title: Power/Sample size calculation for mediation analysis
+Author: Weiliang Qiu <stwxq@channing.harvard.edu>
+Maintainer: Weiliang Qiu <stwxq@channing.harvard.edu>
+Depends: R (>= 2.9.0), stats
+Description: The package contains functions (1) for calculating power,
+        sample size, and minimal detectable mediation effect for
+        testing mediation effect in linear, logistic, Poisson, or cox
+        regression; (2) for calculating power, sample size, and minimal
+        detectable slope for testing the slope in a simple linear
+        regression (only one predictor); (3) for calculating power, and
+        sample size for testing odds ratio in a simple logistic
+        regression with continuous predictor or binary predictor.
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2013-04-29 14:14:09 UTC; stwxq
+Date/Publication: 2013-04-29 16:56:41
+NeedsCompilation: no

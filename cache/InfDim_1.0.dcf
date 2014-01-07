@@ -1,0 +1,20 @@
+Package: InfDim
+Type: Package
+Title: Infine-dimensional model (IDM) to analyse phenotypic variation
+        in growth trajectories.
+Version: 1.0
+Encoding: latin1
+Date: 2011-3-23
+Author: Anna Kuparinen, Mats Bjorklund
+Maintainer: Anna Kuparinen <anna.kuparinen@gmail.com>
+Description: This package contains functions to perform calculations of
+        the infine-dimensional model (IDM) and to produce 95%
+        confidence intervals around the model elements through
+        bootstrapping.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+ZipData: no
+Packaged: 2012-10-29 08:57:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:11

@@ -1,0 +1,21 @@
+Package: PropClust
+Type: Package
+Title: Propensity Clustering and Decomposition
+Version: 1.4
+Date: 2013-02-20
+Author: John Michael O Ranola, Kenneth Lange, Steve Horvath, Peter
+        Langfelder
+Maintainer: Peter Langfelder <Peter.Langfelder@gmail.com>
+Depends: R (>= 2.10), flashClust, dynamicTreeCut
+Description: This package implements propensity clustering and
+        decomposition. Propensity decomposition can be viewed on the
+        one hand as a generalization of the eigenvector-based
+        approximation of correlation networks, and on the other hand as
+        a generalization of random multigraph models and
+        conformity-based decompositions.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-02-19 08:31:10 UTC; plangfelder
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-19 10:11:38

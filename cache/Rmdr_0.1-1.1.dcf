@@ -1,0 +1,13 @@
+Package: Rmdr
+Version: 0.1-1.1
+Date: 2005-11-19
+Title: R-Multifactor Dimensionality Reduction
+Author: Mounir Aout, contributions from C. Wachter
+Maintainer: ORPHANED
+Depends: R (>= 2.2.1), combinat
+Description: Rmdr: R package of the MDR approach That is a nonparametric and genetic model-free alternative
+        to logistic regression for detecting and characterizing
+        nonlinear interactions among discrete genetic and
+        environmental attributes.
+License: GPL (version 2 or later)
+Packaged: Mon Feb 23 10:43:52 2009; hornik

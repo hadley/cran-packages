@@ -1,0 +1,20 @@
+Package: fbRanks
+Type: Package
+Title: Association Football (Soccer) Ranking via Poisson Regression
+Version: 2.0
+Date: 2013-10-21
+Depends: stats
+Imports: igraph, stringr
+Suggests: RJSONIO, RCurl, httr, XML, Rlab, xtable, tcltk, speedglm,
+        glmnet
+Author: Eli Holmes
+Maintainer: E Holmes <eeholmes@u.washington.edu>
+Description: This package uses time dependent Poisson regression and a record of goals scored in matches to rank teams via estimated attack and defense strengths.  The statistical model is based on Dixon and Coles (1997) Modeling Association Football Scores and Inefficiencies in the Football Betting Market, Applied Statistics, Volume 46, Issue 2, 265-280.  The package has a some webscrapers to assist in the development and updating of a match database.  If the match database contains unconnected clusters (i.e. sets of teams that have only played each other and not played teams from other sets), each cluster is ranked separately relative to the median team strength in the cluster.  The package contains functions for predicting and simulating tournaments and leagues from estimated models. The package allows fitting via the glm(), speedglm(), and glmnet() functions.  The latter allows fast and efficient fitting of very large numbers of teams.  The fitting algorithm will analyze the match data and determine which teams form a cluster (a set of teams where there is a path of matches connecting every team) and fit each cluster separately.
+License: GPL-2
+URL: http://www.lastplanetranking.blogspot.com/
+LazyData: yes
+BuildVignettes: yes
+Packaged: 2013-10-23 01:05:18 UTC; eli.holmes
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-23 07:59:42

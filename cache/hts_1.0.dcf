@@ -1,0 +1,16 @@
+Package: hts
+Type: Package
+Title: Hierarchical time series
+Version: 1.0
+Date: 2010-03-18
+Depends: forecast, SparseM
+LazyLoad: yes
+LazyData: yes
+Author: Rob J Hyndman, Roman A Ahmed, and Han Lin Shang
+Maintainer: Han Lin Shang <HanLin.Shang@buseco.monash.edu.au>
+Description: Methods for analysing and forecasting hierarchical time
+        series.
+License: GPL (>= 2)
+Packaged: 2010-03-21 22:49:47 UTC; hanshang
+Repository: CRAN
+Date/Publication: 2010-03-22 09:49:31

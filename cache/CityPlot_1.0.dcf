@@ -1,0 +1,15 @@
+Package: CityPlot
+Type: Package
+Title: Visualization of structure and contents of a database
+Version: 1.0
+Date: 2011-07-28
+Author: Martin Dugas
+Maintainer: Martin Dugas <dugas@uni-muenster.de>
+Description: Input: a csv-file for each database table and a
+        controlfile describing relations between tables. Output: An
+        extended ER diagram
+License: LGPL
+LazyLoad: yes
+Packaged: 2011-08-01 12:30:19 UTC; dugasmar
+Repository: CRAN
+Date/Publication: 2011-08-03 06:26:24

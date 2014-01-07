@@ -1,0 +1,15 @@
+Package: MFDF
+Version: 0.0-2
+Date: 2009-10-31
+Title: Modeling Functional Data in Finance
+Author: Wei Dou <wei.dou@yale.edu>
+Maintainer: Wei Dou <wei.dou@yale.edu>
+Depends: R (>= 2.4.0),fda,zoo
+Suggests: odesolve, R.matlab, quadprog, DierckxSpline, nlme
+Description: The package contains functions designed to modeling or
+        analyzing the functional data arising in financial research and
+        practice, as well as some interesting data sets.
+License: GPL (>= 2)
+Packaged: Tue Nov 3 16:53:57 2009; wd72
+Repository: CRAN
+Date/Publication: 2009-11-04 07:53:13

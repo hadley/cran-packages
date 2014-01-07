@@ -1,0 +1,22 @@
+Package: CDVine
+Type: Package
+Title: Statistical inference of C- and D-vine copulas
+Version: 1.0
+Date: 2011-05-01
+Author: Ulf Schepsmeier, Eike Christian Brechmann
+Maintainer: Ulf Schepsmeier, Eike Christian Brechmann
+        <CDVine@ma.tum.de>
+Depends: R (>= 2.8.1), MASS, mvtnorm, igraph
+Description: This package provides functions for statistical inference
+        of canonical vine (C-vine) and D-vine copulas. It contains
+        tools for bivariate exploratory data analysis and for bivariate
+        as well as vine copula selection. Models can be estimated
+        either sequentially or by joint maximum likelihood estimation.
+        Sampling algorithms and plotting methods are also included.
+        Data is assumed to lie in the unit hypercube (so-called copula
+        data).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-04-21 08:00:09 UTC; Ulf
+Repository: CRAN
+Date/Publication: 2011-04-23 20:53:49

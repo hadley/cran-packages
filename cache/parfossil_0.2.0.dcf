@@ -1,0 +1,19 @@
+Package: parfossil
+Type: Package
+Title: Parallelized functions for palaeoecological and
+        palaeogeographical analysis
+Version: 0.2.0
+Date: 2010-12-10
+Author: Matthew Vavrek <matthew@matthewvavrek.com>
+Maintainer: Matthew Vavrek <matthew@matthewvavrek.com>
+Depends: fossil, foreach
+Description: The package provides a number of easily parallelized
+        functions from the fossil package. This package is designed to
+        be used with some type of parallel computing backend, such as
+        multicore, snow or MPI.
+License: GPL (>= 2)
+URL: http://matthewvavrek.com
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:23 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:23

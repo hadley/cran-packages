@@ -1,0 +1,20 @@
+Package: kerdiest
+Type: Package
+Title: Nonparametric kernel estimation of the distribution function.
+        Bandwidth selection and estimation of related functions.
+Version: 1.2
+Date: 2012-08-11
+Author: Alejandro Quintela del Rio and Graciela Estevez Perez
+Maintainer: Alejandro Quintela del Rio <aquintela@udc.es>
+Description: Nonparametric kernel distribution function estimation is
+        performed. Three automatic bandwidth selection methods for
+        nonparametric kernel distribution function estimation are
+        implemented: the plug-in of Altman and Leger, the plug-in of
+        Polansky and Baker, and the modified cross-validation of
+        Bowman, Hall and Prvan. The exceedance function, the mean
+        return period and the return level are also computed.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: date, chron, evir
+Repository: CRAN
+Date/Publication: 2012-08-13 07:57:06

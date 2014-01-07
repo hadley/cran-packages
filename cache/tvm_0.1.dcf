@@ -1,0 +1,15 @@
+Package: tvm
+Type: Package
+Title: Time Value Functions
+Version: 0.1
+Date: 2013-12-26
+Author: Juan  Manuel Truppia
+Maintainer: Juan Manuel Truppia <jmtruppia@gmail.com>
+Description: Functions for managing cashflows and interest rate curves
+License: MIT + file LICENSE
+Depends: Rcpp (>= 0.10.6)
+LinkingTo: Rcpp
+Packaged: 2014-01-03 15:18:25 UTC; B03964
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-03 20:44:53

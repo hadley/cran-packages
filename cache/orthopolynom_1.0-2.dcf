@@ -1,0 +1,16 @@
+Package: orthopolynom
+Version: 1.0-2
+Date: 2009-10-16
+Title: Collection of functions for orthogonal and orthonormal
+        polynomials
+Author: Frederick Novomestky <fnovomes@poly.edu>
+Maintainer: Frederick Novomestky <fnovomes@poly.edu>
+Depends: R (>= 2.0.1), polynom
+Description: A collection of functions to construct sets of orthogonal
+        polynomials and their recurrence relations. Additional
+        functions are provided to calculate the derivative, integral,
+        value and roots of lists of polynomial objects.
+License: GPL (>= 2)
+Packaged: Fri Oct 16 11:23:53 2009; fred
+Repository: CRAN
+Date/Publication: 2009-10-18 09:19:34

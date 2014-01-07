@@ -1,0 +1,26 @@
+Package: mirt
+Version: 0.1-20
+Date: 2012-01-25
+Type: Package
+Title: Multidimensional Item Response Theory
+Author: Phil Chalmers <rphilip.chalmers@gmail.com>
+Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
+Description: Analysis of dichotomous and polychotomous response data
+        using latent trait models under the Item Response Theory
+        paradigm. Includes the multivariate two- and three-parameter
+        logistic models, confirmatory bifactor analysis, polytomous
+        confirmatory and exploratory item response models, and
+        partially-compensatory item response modeling in conjunction
+        with other IRT models.
+Depends: R (>= 2.10), methods, lattice, psych, MASS, GPArotation,
+        mvtnorm, Matrix
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+License: GPL (>= 2)
+URL:
+Collate: 'bfactor.R' 'expand.table.R' 'itemplot.R' 'key2binary.R'
+        'misc.R' 'logLik.R' 'fscores.R' 'mirt-package.R' 'confmirt.R'
+        'mirt.R' 'polymirt.R' 'simdata.R' 'confmirt.model.R'
+Packaged: 2012-02-03 23:28:01 UTC; Phil
+Date/Publication: 2012-02-04 08:39:44

@@ -1,0 +1,19 @@
+Package: compareGroups
+Type: Package
+Title: descriptives by groups
+Version: 0.1-4
+Date: 2011-04-26
+Depends: R (>= 2.11.0), xtable, Hmisc, gdata, tcltk, foreign
+Author: Hector Sanz, Isaac Subirana, Joan Vila
+Maintainer: Isaac Subirana <isubirana@imim.es>
+Description: This package is meant to facilitate the construction of
+        bivariate table (descriptives of several variables between
+        groups) and generate reports in LaTeX or (CSV) plain text.
+        Also, it includes a graphical interface to build these tables
+        more easily.
+License: GPL (>= 2)
+LazyLoad: yes
+Encoding: latin1
+Repository: CRAN
+Date/Publication: 2011-04-26 16:08:50
+Packaged: 2011-04-26 13:29:45 UTC; instalar

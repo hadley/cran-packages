@@ -1,0 +1,25 @@
+Package: crqa
+Type: Package
+Title: Cross-Recurrence Quantification Analysis for Categorical and
+        Continuous Time-Series
+Version: 1.0
+Date: 2013-10-02
+Author: Moreno I. Coco and Rick Dale
+Maintainer: Moreno I. Coco <moreno.cocoi@gmail.com>
+Description: 
+    CRQA is a package to perform cross-recurrence quantification
+    analysis between two time-series, of either categorical or
+    continuous values. It provides different methods
+    for profiling cross-recurrence, i.e., only looking
+    at the diagonal recurrent points, as well as more
+    in-depth measures of the whole cross-recurrence plot,
+    e.g., percentage recurrence.
+Depends: R (>= 1.8.0), Matrix, tseriesChaos, fields
+License: GPL (>= 2)
+Collate: 'CTcrqa.R' 'calcphi.R' 'checkts.R' 'crqa.R' 'drpdfromts.R'
+        'optimizeParam.R' 'runcrqa.R' 'simts.R' 'spdiags.R' 'takephi.R'
+        'tt.R' 'wincrqa.R' 'windowdrp.R'
+Packaged: 2013-10-03 16:21:07 UTC; moreno
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-03 19:40:18

@@ -1,0 +1,14 @@
+Package: muUtil
+Type: Package
+Title: muStat Utility Functions
+Version: 1.5.0
+Date: 2008-02-07
+Author: Knut M. Wittkowski <kmw@rockefeller.edu>,
+  Tingting Song <ttsong@gmail.com>
+Maintainer:  Tingting Song <ttsong@gmail.com>
+Depends: R (>= 2.6.0), muS2RC, stats
+Description: This package contains a collection of utility functions for
+  package muStat.
+License: GPL (>= 2)
+URL: http://mustat.rockefeller.edu
+Packaged: Thu Feb  7 21:00:34 2008; Administrator

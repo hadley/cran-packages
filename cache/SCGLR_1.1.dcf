@@ -1,0 +1,25 @@
+Package: SCGLR
+Type: Package
+Title: Supervised Component Generalized Linear Regression (SCGLR)
+Version: 1.1
+Date: 2012-11-21
+Author: Mortier F., Trottier C., Cornu G., Bry X.
+Maintainer: G. Cornu <gcornu@cirad.fr>
+Contact: F. mortier <fmortier@cirad.fr> and G. Cornu <gcornu@cirad.fr>
+        and C. Trottier <catherine.trottier@univ-montp3.fr>
+Description: SCGLR extends the Fisher Scoring Algorithm so as to combine PLS
+    regression with GLM estimation in the multivariate context.
+License: CeCILL-2
+Depends: Formula,expm,ROCR,ggplot2
+Imports: ggplot2,graphics,grid, stringr
+Suggests: parallel,testthat
+LazyData: yes
+Collate: 'data.r' 'f2x.r' 'scglr.r' 'utils.r' 'plot.r' 'kComponents.r'
+        'multivariateGlm.fit.r' 'oneComponent.r' 'critConvergence.r'
+        'multivariateFormula.r' 'scglrCrossVal.r'
+        'multivariatePredictGlm.r' 'infoCriterion.r' 'metric.r'
+        'multivariateGlm.r' 'print.r' 'summary.r'
+Packaged: 2013-08-01 10:54:11 UTC; cornu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-01 13:58:25

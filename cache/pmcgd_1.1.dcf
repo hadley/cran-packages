@@ -1,0 +1,16 @@
+Package: pmcgd
+Type: Package
+Title: pmcgd
+Version: 1.1
+Date: 2013-01-27
+Author: Antonio Punzo and Paul D. McNicholas
+Maintainer: Antonio Punzo <Antonio.Punzo@unict.it>
+Description: Parsimonious Mixtures of Contaminated Gaussian Distributions
+License: GPL-2
+LazyLoad: yes
+Depends: R (>= 2.15.0)
+Imports: mixture, mnormt
+Packaged: 2013-12-21 17:46:46 UTC; Angelo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-21 21:21:38

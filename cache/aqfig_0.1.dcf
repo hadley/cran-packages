@@ -1,0 +1,19 @@
+Package: aqfig
+Type: Package
+Title: Functions to help display air quality model output and
+        monitoring data
+Version: 0.1
+Date: 2011-02-25
+Author: Jenise Swall <Swall.Jenise@epa.gov>
+Maintainer: Jenise Swall <Swall.Jenise@epa.gov>
+Depends: geoR
+Suggests: maps
+Description: This package contains functions to help display air
+        quality model output and monitoring data, such as creating
+        color scatterplots, maps preserving aspect ratio, and color
+        legends.
+License: Unlimited
+LazyLoad: yes
+Packaged: 2011-06-15 14:14:59 UTC; swall
+Repository: CRAN
+Date/Publication: 2011-06-20 19:07:11

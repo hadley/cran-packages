@@ -1,0 +1,19 @@
+Package: easystab
+Version: 1.0
+Date: 2013-03-07
+Title: Clustering Perturbation Stability Analysis
+Description: Clustering perturbation stability analysis toolkit
+Author: Hoyt Koepke <hoytak@gmail.com>, Zongjun Hu
+        <zongjunhu@yahoo.com>, Bertrand Clarke <BClarke2@med.miami.edu>
+Maintainer: Zongjun Hu <zongjunhu@yahoo.com>
+Depends: R(>= 2.11.1), graphics, fields, plotrix, grDevices,
+        RColorBrewer
+Suggests: rJava, mlbench
+LazyData: yes
+License: GPL (>= 2)
+URL: https://github.com/zongjunhu/easystab
+Collate: 'clstab.R' 'easystab-package.R'
+Packaged: 2013-03-07 18:28:53 UTC; zhu
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-07 19:51:12

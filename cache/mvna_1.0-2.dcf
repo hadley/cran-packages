@@ -1,0 +1,11 @@
+Package: mvna
+Title: Nelson-Aalen estimator of the cumulative hazard in multistate models
+Version: 1.0-2
+Author: Arthur Allignol
+Description: This package computes the Nelson-Aalen estimator of the cumulative transition hazard for multistate models. 
+Maintainer: Arthur Allignol <arthur.allignol@fdm.uni-freiburg.de>
+License: GPL (>=2)
+Depends: lattice, survival
+Suggests: boot
+date: 2007/11/30
+Packaged: Wed Dec  5 19:19:31 2007; arthur

@@ -1,0 +1,18 @@
+Package: cpm
+Title: Sequential Parametric and Nonparametric Change Detection
+Version: 1.1
+Date: 2012-01-01
+Depends: R (>= 2.12.0), methods
+Author: Gordon J. Ross
+Maintainer: Gordon J. Ross <gordon.ross03@imperial.ac.uk>
+Description: Sequential and batch change detection for univariate data
+        streams, using the change point model framework. Functions are
+        provided to allow the parametric monitoring of sequences of
+        Gaussian and Bernoulli random variables, along with more
+        general nonparametric functions for monitoring sequences which
+        have an unspecified or unknown distribution.
+License: GPL-3
+Packaged: 2013-12-15 09:21:24 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-15 11:24:09

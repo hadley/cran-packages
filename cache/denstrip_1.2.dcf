@@ -1,0 +1,13 @@
+Package: denstrip
+Type: Package
+Title: Density strips and other methods for compactly illustrating distributions
+Version: 1.2
+Date: 2008-11-03
+Author: Christopher Jackson
+Maintainer: Christopher Jackson <chris.jackson@mrc-bsu.cam.ac.uk>
+Description: Graphical methods for compactly illustrating probability distributions, including density strips, density regions, sectioned density plots and varying width strips.
+License: GPL-2
+LazyLoad: yes
+Suggests: survival,vioplot,lattice,Hmisc
+Enhances: survival
+Packaged: Mon Nov  3 10:47:18 2008; chris

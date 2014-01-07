@@ -1,0 +1,21 @@
+Package: robust
+Version: 0.3-19
+Date: 2012-04-22
+Title: Insightful Robust Library
+Description: A package of robust methods.
+Author: Jiahui Wang, Ruben Zamar <ruben@stat.ubc.ca>, Alfio Marazzi
+        <Alfio.Marazzi@inst.hospvd.ch>, Victor Yohai
+        <vyohai@dm.uba.ar>, Matias Salibian-Barrera
+        <matias@stat.ubc.ca>, Ricardo Maronna <maron@mate.unlp.edu.ar>,
+        Eric Zivot <ezivot@u.washington.edu>, David Rocke
+        <dmrocke@ucdavis.edu>, Doug Martin <doug@statsci.com>, Martin
+        Maechler <maechler@stat.math.ethz.ch>, Kjell Konis
+        <kjell.konis@me.com>.
+Maintainer: Kjell Konis <kjell.konis@me.com>
+Depends: R (>= 2.15.0), MASS, lattice, robustbase, rrcov, stats
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: robust
+Repository/R-Forge/Revision: 67
+Packaged: 2012-04-23 02:15:07 UTC; rforge
+Date/Publication: 2012-04-23 19:31:50

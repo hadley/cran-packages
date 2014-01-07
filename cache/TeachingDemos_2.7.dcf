@@ -1,0 +1,20 @@
+Package: TeachingDemos
+Title: Demonstrations for teaching and learning
+Version: 2.7
+Author: Greg Snow
+Description: This package is a set of demonstration functions that can
+        be used in a classroom to demonstrate statistical concepts, or
+        on your own to better understand the concepts or the
+        programming.
+Maintainer: Greg Snow <greg.snow@imail.org>
+License: Artistic-2.0
+Date: 2010-08-10
+Suggests: tkrplot, lattice, MASS, rgl, sgeostat, mapproj, tcltk,
+        tcltk2, R2wd, EBImage, png
+Enhances: maptools, qcc
+LazyData: true
+Repository: CRAN
+Repository/R-Forge/Project: teachingdemos
+Repository/R-Forge/Revision: 29
+Date/Publication: 2010-08-09 19:12:29
+Packaged: 2010-08-07 20:37:44 UTC; rforge

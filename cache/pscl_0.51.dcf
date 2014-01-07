@@ -1,0 +1,13 @@
+Package: pscl
+Type: Package
+Title: R in the Political Science Computational Laboratory, Stanford University
+Version: 0.51
+Depends: MASS, stats, mvtnorm
+Date: 2005-06-13
+Author: Simon Jackman
+URL: http://pscl.stanford.edu
+Maintainer: Simon Jackman <jackman@stanford.edu>
+Description: new classes and/or methods for discrete data models; e.g., models for counts, ordinal data, item-response theory (IRT) models for binary data
+SaveImage: yes
+License: GPL
+Packaged: Mon Jun 13 22:46:18 2005; jackman

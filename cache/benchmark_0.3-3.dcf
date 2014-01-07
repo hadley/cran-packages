@@ -1,0 +1,22 @@
+Package: benchmark
+Type: Package
+Title: Benchmark Experiments Toolbox
+Version: 0.3-3
+Date: 2012-01-30
+Author: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>
+Maintainer: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>
+Depends: R (>= 2.10), utils, proto, ggplot2, reshape, relations
+Suggests: coin, multcomp, lme4, e1071, entropy, archetypes, Rgraphviz
+Description: The benchmark package provides a toolbox for setup,
+        execution and analysis of benchmark experiments. Main focus is
+        the analysis of data accumulating during the execution -- one
+        primary objective is the statistical correct computation of the
+        candidate algorithms' order.
+License: GPL (>= 2)
+Revision: 59
+LazyLoad: false
+LazyData: true
+URL: http://benchmark.r-forge.r-project.org/
+Packaged: 2012-01-30 10:40:13 UTC; vadmin
+Repository: CRAN
+Date/Publication: 2012-01-30 12:13:00

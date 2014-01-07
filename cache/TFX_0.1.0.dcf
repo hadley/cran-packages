@@ -1,0 +1,18 @@
+Package: TFX
+Type: Package
+Title: R API to TrueFX(tm)
+Version: 0.1.0
+Date: 2012-11-26
+Author: Garrett See
+Maintainer: Garrett See <gsee000@gmail.com>
+Description: Connects R to TrueFX(tm) for free streaming real-time and
+        historical tick-by-tick market data for dealable interbank
+        foreign exchange rates with millisecond detail.
+License: GPL-3
+URL: http://www.truefx.com
+Depends: R(>= 2.15.0)
+Imports: XML
+Collate: 'TrueFXRef.R' 'TFX-package.R' 'TFX.R'
+Packaged: 2012-11-26 19:31:17.311422 UTC; garrett
+Repository: CRAN
+Date/Publication: 2012-11-27 06:43:38

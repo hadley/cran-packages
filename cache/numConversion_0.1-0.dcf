@@ -1,0 +1,18 @@
+Package: numConversion
+Type: Package
+Title: Test of accuracy of as.character() for a numeric input using the
+        standard arithmetic.
+Version: 0.1-0
+Date: 2011-04-03
+Author: Petr Savicky <savicky@cs.cas.cz>
+Maintainer: Petr Savicky <savicky@cs.cas.cz>
+Depends: R (>= 2.13.0)
+Description: The function check.as.character() creates pairs of close
+        numbers, which should have a different character representation
+        and checks, whether they are converted to different values by
+        as.character().
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-04-03 20:56:50 UTC; savicky
+Repository: CRAN
+Date/Publication: 2011-04-04 08:20:08

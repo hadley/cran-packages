@@ -1,0 +1,29 @@
+Package: logcondiscr
+Type: Package
+Title: Estimate a Log-Concave Probability Mass function from Discrete
+        i.i.d. Observations
+Version: 1.0.0
+Date: 2011-06-20
+Author: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch> and Fadoua
+        Balabdaoui <fadoua@ceremade.dauphine.fr> and Hanna Jankowski
+        <hkj@mathstat.yorku.ca> and Kathrin Weyermann
+        <kathrin.weyermann@bkw-fmb.ch>
+Maintainer: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch>
+Depends: Matrix, mvtnorm, cobs
+Description: Given independent and identically distributed observations
+        X(1), ..., X(n), this package allows to compute the maximum
+        likelihood estimator (MLE) of probability mass function (pmf)
+        under the assumption that it is log-concave, see Weyermann
+        (2007) and Balabdaoui, Jankowski, and Rufibach (2011). The main
+        functions of the package are 'logConDiscrMLE' that allows
+        computation of the log-concave MLE, 'logConDiscrCI' that
+        computes pointwise confidence bands for the MLE, and
+        'kInflatedLogConDiscr' that computes a mixture of a log-concave
+        PMF and a point mass at k.
+License: GPL (>= 2)
+URL: http://www.biostat.uzh.ch/aboutus/people/rufibach.html ,
+        http://www.ceremade.dauphine.fr/~fadoua ,
+        http://www.math.yorku.ca/~hkj
+Packaged: 2011-06-21 04:24:26 UTC; rufibach
+Repository: CRAN
+Date/Publication: 2011-06-21 04:35:31

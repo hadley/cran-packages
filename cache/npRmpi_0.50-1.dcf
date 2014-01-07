@@ -1,0 +1,29 @@
+Package: npRmpi
+Version: 0.50-1
+Date: 2013-03-14
+Depends: boot, cubature
+Suggests: quantreg, MASS, parallel
+Title: Parallel nonparametric kernel smoothing methods for mixed data
+        types
+Author: Tristen Hayfield <hayfield@mpia.de>, Jeffrey S. Racine
+        <racinej@mcmaster.ca>
+Maintainer: Jeffrey S. Racine <racinej@mcmaster.ca>
+Description: This package provides a variety of nonparametric (and
+        semiparametric) kernel methods that seamlessly handle a mix of
+        continuous, unordered, and ordered factor data types. This
+        package is a parallel implementation of the np package based on
+        the MPI specification that incorporates the Rmpi package (Hao
+        Yu <hyu@stats.uwo.ca>) with minor modifications and we are
+        extremely grateful to Hao Yu for his contributions to the R
+        community. We would like to gratefully acknowledge support from
+        the Natural Sciences and Engineering Research Council of Canada
+        (NSERC:www.nserc.ca), the Social Sciences and Humanities
+        Research Council of Canada (SSHRC:www.sshrc.ca), and the Shared
+        Hierarchical Academic Research Computing Network
+        (SHARCNET:www.sharcnet.ca).
+License: GPL
+URL: https://github.com/JeffreyRacine/R-Package-npRmpi/
+Packaged: 2013-03-14 17:56:43 UTC; jracine
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-14 19:24:13

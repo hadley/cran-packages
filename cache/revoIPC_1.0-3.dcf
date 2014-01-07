@@ -1,0 +1,17 @@
+Package: revoIPC
+Type: Package
+Title: Shared memory parallel framework for multicore machines
+Version: 1.0-3
+Author: Revolution Analytics
+Maintainer: Revolution Analytics <packages@revolutionanalytics.com>
+Description: This package provides a fast parallel framework for
+        multicore machines.
+Depends: R (>= 2.5), methods
+License: GPL-2
+LazyLoad: yes
+URL: http://www.revolutionanalytics.com
+Repository: CRAN
+Repository/R-Forge/Project: dosmp
+Repository/R-Forge/Revision: 11
+Date/Publication: 2011-03-01 08:07:02
+Packaged: 2011-02-27 22:00:11 UTC; rforge

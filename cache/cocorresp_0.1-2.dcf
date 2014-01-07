@@ -1,0 +1,16 @@
+Package: cocorresp
+Type: Package
+Title: Co-correspondence analysis ordination methods for community ecology
+Version: 0.1-2
+Date: 2005-11-10
+Depends: vegan
+Author: Original Matlab routines by C.J.F. ter Braak and A.P. Schaffers. R port by Gavin L. Simpson.
+  Function simpls based on simpls.fit (package pls) by Ron Wehrens and Bjorn-Helge Mevik.
+Maintainer: Gavin L. Simpson <gavin.simpson@ucl.ac.uk>
+Description: Fits predictive and symmetric co-correspondence analysis (CoCA) models to relate one data matrix
+  to another data matrix. More specifically, CoCA maximises the weighted covariance 
+  between the weighted averaged species scores of one community and the weighted averaged species
+  scores of another community. CoCA attempts to find patterns that are common to both communitities.
+License: GPL Version 2
+Encoding: UTF-8
+Packaged: Thu Nov 10 17:31:25 2005; gavin

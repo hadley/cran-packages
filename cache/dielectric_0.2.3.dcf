@@ -1,0 +1,25 @@
+Package: dielectric
+Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
+License: GPL-3
+Title: Defines some physical constants and dielectric functions
+        commonly used in optics, plasmonics.
+Type: Package
+LazyLoad: yes
+LazyData: yes
+Authors@R: person("Baptiste", "Auguie", email = "baptiste.auguie@gmail.com",
+    role = c("aut", "cre"), comment = "the original data have their original
+    source listed in the help file.")
+Description: Physical constants. Gold, silver and glass permittivities,
+    together with spline interpolation functions.
+Version: 0.2.3
+Date: 2012-03-04
+Depends: R (>= 2.13), methods
+Suggests: ggplot2
+Collate: 'conversions.R' 'dielectric.r' 'plot.r' 'zzz.r' 'drude.r'
+        'metals.r'
+Packaged: 2013-11-08 19:58:33 UTC; baptiste
+Author: Baptiste Auguie [aut, cre] (the original data have their original
+    source listed in the help file.)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-09 22:00:36

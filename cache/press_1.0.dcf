@@ -1,0 +1,19 @@
+Package: press
+Type: Package
+Title: Protein REsidue-level Structural Statistics
+Version: 1.0
+Depends: pressData, gWidgets, RGtk2, gWidgetsRGtk2, Rcmdr, rgl, car,
+        outliers, MASS
+Date: 2010-07-20
+Author: Yuanyuan Huang, Stephen Bonett, Zhijun Wu
+Maintainer: Yuanyuan Huang <sunnyuan.h@gmail.com>
+Description: GUI software for displaying statistical information about
+        known protein structures and for evaluating the energy of novel
+        structures.
+URL: orion.math.iastate.edu/press
+LazyLoad: yes
+LazyData: yes
+License: GPL-3
+Packaged: 2011-04-09 23:15:08 UTC; sunnyuan
+Repository: CRAN
+Date/Publication: 2011-04-09 23:34:26

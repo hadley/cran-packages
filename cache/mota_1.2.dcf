@@ -1,0 +1,16 @@
+Package: mota
+Type: Package
+Title: Mean Optimal Transformation Approach
+Version: 1.2
+Date: 2007-06-27
+Author: Stefan Hengl
+Maintainer: Stefan Hengl <hengl@fdm.uni-freiburg.de>
+Depends: methods, acepack, scatterplot3d
+Description: Detect nonlinear functional relations. This package was originally 
+  designed for the identifiability analysis of nonlinear dynamical models. However,
+  the concept is very general and allows to detect groups of functionally related
+  variables whenever there are multiple estimates for each variable, which can be written
+  in matrix K. The essence of the algorithm is the calculation of mean optimal
+  transformations estimated from bootstrap samples drawn from K. 
+License: LGPL
+Packaged: Fri Sep  7 12:00:39 2007; hengl

@@ -1,0 +1,16 @@
+Package: eco
+Version: 1.0-1
+Date: 2004-12-11
+Title: eco: R Package for Fitting Bayesian Models of Ecological Inference in 2 by 2 Tables
+Author: Ying Lu <yinglu@princeton.edu>,
+        Kosuke Imai <kimai@princeton.edu>
+Maintainer: Ying Lu <yinglu@princeton.edu>
+Depends: R (>= 2.0)
+Description: eco is a publicly available R package that fits
+             parametric and nonparametric Bayesian models for
+             ecological inference in 2 by 2 tables. The models are fit
+             using the Markov chain Monte Carlo algorithms that are
+             described in Imai and Lu (2004). 
+License: GPL (version 2 or later)
+URL: http://www.princeton.edu/~kimai/research/eco.html
+Packaged: Sun Dec 19 17:47:20 2004; ying

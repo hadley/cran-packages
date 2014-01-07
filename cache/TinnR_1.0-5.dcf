@@ -1,0 +1,17 @@
+Package: TinnR
+Type: Package
+Title: Resources of Tinn-R GUI/Editor for R Environment
+Version: 1.0-5
+OS_type: windows
+Date: 2012-04-02
+Author: Jose Claudio Faria <joseclaudio.faria@gmail.com>, based on the
+        sources of Philippe Grosjean <phgrosjean@sciviews.org>
+Maintainer: Jose Claudio Faria <joseclaudio.faria@gmail.com>
+Depends: R (>= 2.6.0), utils, tcltk, Hmisc, R2HTML
+Description: Implements a set of customized functions, adapted from
+        svFamily packages of Philippe Grosjean and co-authors,
+        necessary to Tinn-R GUI/Editor for R environment
+License: GPL (>= 2)
+Packaged: 2012-04-02 14:24:48 UTC; jcfaria
+Repository: CRAN
+Date/Publication: 2012-04-02 17:47:19

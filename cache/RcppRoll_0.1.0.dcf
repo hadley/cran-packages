@@ -1,0 +1,23 @@
+Package: RcppRoll
+Type: Package
+Title: Fast rolling functions through Rcpp and RcppArmadillo
+Version: 0.1.0
+Date: 2013-01-10
+Author: Kevin Ushey
+Maintainer: Kevin Ushey <kevinushey@gmail.com>
+Description: RcppRoll supplies fast functions for 'roll'ing over
+        vectors and matrices, e.g. rolling means, medians and
+        variances. It also provides the utility functions 'rollit' and
+        'rollit_raw' as an interface for generating your own C++ backed
+        rolling functions.
+License: GPL (>= 2)
+Depends: R (>= 2.15.1), Rcpp (>= 0.10.2), RcppArmadillo (>= 0.3.6.1)
+Suggests: zoo, microbenchmark
+LinkingTo: Rcpp, RcppArmadillo
+Collate: 'package_description.R' 'RcppExports.R' 'roll_mean.R'
+        'roll_sum.R' 'roll_var.R' 'roll_sd.R' 'roll_prod.R'
+        'roll_median.R' 'roll_max.R' 'roll_min.R' 'get_rollit_source.R'
+        'rollit_example.R' 'rollit_raw.R' 'rollit.R'
+Packaged: 2013-01-15 04:18:21 UTC; kevinushey
+Repository: CRAN
+Date/Publication: 2013-01-15 07:36:24

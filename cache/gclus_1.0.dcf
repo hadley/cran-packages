@@ -1,0 +1,11 @@
+Package: gclus
+Version: 1.0
+Author: Catherine Hurley
+Maintainer: Catherine Hurley <catherine.hurley@may.ie>
+Title:  Clustering Graphics
+Description: Orders panels in scatterplot matrices and parallel coordinate
+ displays by some merit index. Package contains various indices of merit,
+ ordering functions, and enhanced versions of pairs and parcoord which
+ color panels according to their merit level.
+Depends:
+License: GPL version 2 or later

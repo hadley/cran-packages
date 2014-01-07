@@ -1,0 +1,19 @@
+Package: xlsReadWrite
+Version: 1.5.3
+Title: Read and write Excel files (.xls)
+Date: 2010-11-21
+Author: Hans-Peter Suter
+Maintainer: Hans-Peter Suter <support@swissr.org>
+Depends: R (>= 2.9.0)
+Suggests: tools, RUnit
+Description: Natively read and write Excel files (.xls/BIFF8)
+License: GPL-2
+LicenseDetails: Exception to allow linking of proprietary Flexcel code
+OS_type: windows
+SystemRequirements: Win 32-bit, dl regular shlib with 'xls.getshlib()'
+        or manually (~420 KB)
+URL: http://www.swissr.org
+BugReports: http://dev.swissr.org/projects/xlsreadwrite
+Packaged: 2010-11-21 17:57:02 UTC; chappi
+Repository: CRAN
+Date/Publication: 2010-11-22 10:52:53

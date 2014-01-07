@@ -1,0 +1,18 @@
+Package: DBKGrad
+Type: Package
+Title: Discrete Beta Kernel Graduation of mortality data
+Version: 1.2
+Date: 2013-04-27
+Author: Angelo Mazza and Antonio Punzo
+Maintainer: Angelo Mazza <a.mazza@unict.it>
+Description: This package allows for nonparametric graduation of
+        mortality rates using fixed or adaptive discrete beta kernel
+        estimator.
+License: GPL-2
+LazyLoad: yes
+Depends: R (>= 2.15.0)
+Imports: minpack.lm, SDD, TSA, lattice
+Packaged: 2013-06-22 06:42:41 UTC; Angelo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-22 15:11:11

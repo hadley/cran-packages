@@ -1,0 +1,19 @@
+Package: trip
+Type: Package
+Title: Spatial analysis of animal track data
+Version: 1.1-12
+Depends: methods, sp (>= 0.9-64), spatstat (>= 1.18-4)
+Imports: maptools
+Suggests: rgdal, adehabitatLT, lattice
+Author: Michael D. Sumner
+Maintainer: Michael D. Sumner <mdsumner@utas.edu.au>
+Description: Functions for accessing and manipulating spatial data for
+        animal tracking.  Filter for speed and create time spent plots
+        from animal track data.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: trip
+Repository/R-Forge/Revision: 44
+Repository/R-Forge/DateTimeStamp: 2012-10-31 10:48:37
+Date/Publication: 2012-11-06 07:11:16
+Packaged: 2012-10-31 11:24:19 UTC; rforge

@@ -1,0 +1,22 @@
+Package: r2stl
+Version: 1.0.0
+Title: r2stl, R package for visualizing data using a 3D printer
+Author: Ian Walker and Jose' Gama
+Maintainer: Ian Walker <i.walker@bath.ac.uk>
+Description: r2stl, R package for visualizing data using a 3D printer
+        Package r2stl converts R data to STL (stereolithography) files
+        that can be used to feed a 3-dimensional printer.  The
+        3-dimensional output from an R function can be materialized
+        into a solid surface in a plastic material, therefore allowing
+        more detailed examination. There are many possible uses for
+        this new R tool, such as to examine mathematical expressions
+        with very irregular shapes, to aid teaching people with
+        impaired vision, to create raised relief maps from digital
+        elevation maps (DEMs), to bridge the gap between mathematical
+        tools and rapid prototyping, and many more.  Ian Walker created
+        the function "r2stl" and Jose' Gama assembled the package.
+License: CC BY-NC-SA 3.0
+Depends: R (>= 2.7.0)
+Packaged: 2012-10-04 22:49:44 UTC; friend
+Repository: CRAN
+Date/Publication: 2012-10-05 08:24:46

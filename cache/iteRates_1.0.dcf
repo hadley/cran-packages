@@ -1,0 +1,15 @@
+Package: iteRates
+Type: Package
+Title: Parametric rate comparison
+Version: 1.0
+Date: 2011-05-24
+Author: Premal Shah, Benjamin Fitzpatrick, James Fordyce
+Maintainer: James A. Fordyce <jfordyce@utk.edu>
+Description: Iterates through a phylogenetic tree to identify regions
+        of rate variation using the parametric rate comparison test.
+License: GPL (>= 3)
+LazyLoad: yes
+Depends: partitions, stats, VGAM, MASS, ape, apTreeshape, geiger, laser
+Packaged: 2011-06-03 19:27:08 UTC; jamesfordyce
+Repository: CRAN
+Date/Publication: 2011-06-24 16:58:15

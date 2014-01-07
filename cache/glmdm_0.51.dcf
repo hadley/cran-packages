@@ -1,0 +1,17 @@
+Package: glmdm
+Version: 0.51
+Date: 2009-10-14
+Author: Jeff Gill <jgill@wustl.edu>, George Casella
+        <casella@stat.ufl.edu>, Minjung Kyung <kyung@stat.ufl.edu> and
+        Jonathan Rapkin <rapkin@wustl.edu>
+Maintainer: Jeff Gill <jgill@wustl.edu>
+Title: R Code for Simulation of GLMDM
+Depends: R (>= 1.4.1),
+        compositions,MASS,msm,mvtnorm,e1071,coda,MCMCpack,class,lattice,LearnBayes
+Description: R CODE FOR SIMULATION OF GLMDM
+License: GPL
+URL: jgill.wustl.edu
+LazyData: yes
+Packaged: 2009-10-14 14:32:09 UTC; rapkin
+Repository: CRAN
+Date/Publication: 2009-10-14 14:40:20

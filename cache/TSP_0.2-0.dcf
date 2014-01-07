@@ -1,0 +1,15 @@
+Package: TSP
+Type: Package
+Title: Traveling Salesperson Problem (TSP)
+Version: 0.2-0
+Date: 2006-12-21
+Author: Michael Hahsler and Kurt Hornik
+Maintainer: Michael Hahsler <hahsler@ai.wu-wien.ac.at>
+SystemRequirements: Concorde (http://www.tsp.gatech.edu/concorde/)
+Suggests: maps, sp, maptools
+Description: Basic infrastructure and some algorithms for the traveling
+    salesperson problem (TSP). The package provides some simple algorithms and
+    an interface to Concorde, the currently fastest TSP solver. Concorde
+    itself is not included in the package and has to be obtained separately.
+License: GPL
+Packaged: Thu Dec 21 10:06:50 2006; hahsler

@@ -1,0 +1,9 @@
+Version: 2003.9-2
+License: Free. See the LICENCE file for details.
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Package: CDNmoney
+Title: Components of Canadian Monetary Aggregates
+Description: Components of Canadian Monetary Aggregates with continuity adjustments.
+Depends: R (>= 1.7.0), tframe (>= 2003.9-2)

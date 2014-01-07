@@ -1,0 +1,27 @@
+Package: BaBooN
+Version: 0.0-4
+Date: 2010-12-20
+Title: The Bayesian Bootstrap Predictive Mean Matching Package -
+        Multiple and single imputation for discrete data
+Author: Florian Meinfelder <florian.meinfelder@uni-bamberg.de>
+Maintainer: Florian Meinfelder <florian.meinfelder@uni-bamberg.de>
+Depends: R (>= 2.10.0), MASS, nnet
+Description: The package contains two variants of Bayesian Bootstrap
+        Predictive Mean Matching to multiply impute missing data. The
+        first variant is a variable-by-variable imputation combining
+        sequential regression and Predictive Mean Matching (PMM) that
+        has been extended for unordered categorical data. The Bayesian
+        Bootstrap allows for generating approximately proper multiple
+        imputations. The second variant is also based on PMM, but the
+        focus is on imputing several variables at the same time. The
+        suggestion is to use this variant, if the missing-data pattern
+        resembles a data fusion situation, or any other
+        missing-by-design pattern, where several variables have
+        identical missing-data patterns. Both variants can be run as
+        'single imputation' versions, in case the analysis objective is
+        of a purely descriptive nature.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2011-01-06 17:11:54 UTC; Florian
+Repository: CRAN
+Date/Publication: 2011-01-06 20:10:17

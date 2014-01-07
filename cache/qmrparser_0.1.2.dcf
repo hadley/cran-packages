@@ -1,0 +1,17 @@
+Package: qmrparser
+Type: Package
+Title: Parser combinator in R
+Version: 0.1.2
+Date: 2012-08-29
+Author: Juan Gea Rosat, Ramon Martínez Coscollà .
+Maintainer: <juangea@geax.net>
+Description: Basic functions for building parsers, with an application
+        to PC-AXIS format files.
+License: GPL (>= 3)
+Depends: R (>= 2.11.1)
+Suggests: RUnit
+LazyLoad: yes
+Encoding: UTF-8
+Packaged: 2012-08-29 17:11:01 UTC; qumo
+Repository: CRAN
+Date/Publication: 2012-08-29 18:06:43

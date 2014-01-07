@@ -1,0 +1,25 @@
+Package: NetworkAnalysis
+Version: 0.1-1
+Date: 2010-12-01
+Title: Statistical inference on populations of weighted or unweighted
+        networks.
+Author: Cedric E Ginestet <cedric.ginestet@kcl.ac.uk>, Andrew Simmons
+        <andy.simmons@kcl.ac.uk>
+Maintainer: Cedric E Ginestet <cedric.ginestet@kcl.ac.uk>
+Depends: R (>= 2.10.1), nlme, lme4, igraph
+Description: Network analysis is a recently adopted phrase, which
+        reflects the growing utilization of graph theory for the
+        analysis of a range of different types of connectivity data.
+        The set of objects contained in this package will particularly
+        useful for the analysis of population of networks in
+        neuroimaging, where subject-specific networks are available.
+        Future versions will include an SPN (statistical parametric
+        network) object, which permits to summarize one or several
+        populations of networks.
+License: GPL (>= 2)
+URL: http://www.r-project.org/package=NetworkAnalysis
+BugReports: http://www.r-project.org/package=NetworkAnalysis
+LazyLoad: yes
+Packaged: 2010-12-01 14:04:31 UTC; cgineste
+Repository: CRAN
+Date/Publication: 2010-12-03 15:58:22

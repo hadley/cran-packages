@@ -1,0 +1,12 @@
+Package:      RUnit
+Version:      0.4.12
+Date:         2006/07/28
+Title:        R Unit test framework
+Author:       Matthias Burger <matthias.burger@epigenomics.com>, Klaus Juenemann <k.junemann@gmx.net>, Thomas Koenig <thomas.koenig@epigenomics.com>
+Maintainer:   Matthias Burger <matthias.burger@epigenomics.com>
+SaveImage:    yes
+Depends:      R (>= 1.9.0), methods (>= 1.9.0)
+Description:  R functions implementing a standard Unit Testing framework, with additional code inspection and report generation tools
+License:      GPL 2
+URL:          https://sourceforge.net/projects/runit/
+Packaged: Mon Jul 31 22:08:21 2006; burger

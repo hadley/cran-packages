@@ -1,0 +1,14 @@
+Package: trip
+Type: Package
+Title: Spatial analysis of animal track data
+Version: 1.1-4
+Depends: methods, sp
+Author: Michael D. Sumner
+Maintainer: Michael D. Sumner <mdsumner@utas.edu.au>
+Description: Functions for accessing and manipulating spatial data for
+        animal tracking. Filter for speed and create time spent plots
+        from animal track data.
+License: GPL-2
+Packaged: 2009-12-06 04:31:24 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2009-12-06 10:08:45

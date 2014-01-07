@@ -1,0 +1,14 @@
+Package: LogConcDEAD
+Version: 1.5-2
+Date: 2011-04-01
+Title: Log-concave Density Estimation in Arbitrary Dimensions
+Author: Madeleine Cule, Robert Gramacy, Richard Samworth, Yining Chen
+Maintainer: Yining Chen <Y.Chen@statslab.cam.ac.uk>
+Depends: R (>= 2.3), MASS, mvtnorm
+Suggests: rgl, logcondens
+Description: Computes a log-concave (maximum likelihood) estimator for
+        i.i.d. data in any number of dimensions.
+License: LGPL
+Repository: CRAN
+Date/Publication: 2011-04-05 07:14:13
+Packaged: 2011-04-04 20:47:45 UTC; yc319

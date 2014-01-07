@@ -1,0 +1,16 @@
+Package: g.data
+Version: 2.2
+Date: 2011-08-26
+Title: Delayed-Data Packages
+Author: David Brahm <brahm@alum.mit.edu>
+Maintainer: David Brahm <brahm@alum.mit.edu>
+Description: Create and maintain delayed-data packages (ddp's).  Data
+        stored in a ddp are available on demand, but do not take up
+        memory until requested.  You attach a ddp with g.data.attach(),
+        then read from it and assign to it in a manner similar to
+        S-PLUS, except that you must run g.data.save() to actually
+        commit to disk.
+License: GPL
+Packaged: 2012-10-31 19:39:25 UTC; a215020
+Repository: CRAN
+Date/Publication: 2012-10-31 21:11:44

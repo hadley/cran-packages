@@ -1,0 +1,21 @@
+Package: TSdata
+Version: 2012.8-1
+Title: TSdbi Illustration
+Description: TSdata illustrates the various TSdbi packages using time
+        series data from several sources. It also illustrates some
+        simple time series manipulation and plotting using packages
+        tframe and tfplot.
+Depends: R (>= 2.8.0), tframe, tfplot, tframePlus(>= 2012.8-1), TSdbi
+Suggests: TSPostgreSQL, TSMySQL, TSSQLite, TSodbc, TSgetSymbol,
+        TShistQuote, TSfame, TSpadi, TSxls, TSzip, TScompare, zoo,
+        tseries, its
+Enhances: TSdbi
+BuildVignettes: false
+License: GPL-2
+Copyright: 2012 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Packaged: 2012-09-29 22:18:56 UTC; paul
+Repository: CRAN
+Date/Publication: 2012-10-02 06:52:23

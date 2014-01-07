@@ -1,0 +1,23 @@
+Package: effects
+Version: 2.0-9
+Date: 2009/10/11
+Title: Effect Displays for Linear, Generalized Linear,
+        Multinomial-Logit, and Proportional-Odds Logit Models
+Author: John Fox <jfox@mcmaster.ca> and Jangman Hong. We are grateful
+        to Robert Andersen, David Firth, and Michael Friendly, for
+        various suggestions, and to Ian Fellows for contributing
+        patches.
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: R (>= 2.4.0), lattice, grid, MASS, nnet, colorspace
+LazyLoad: yes
+LazyData: yes
+Description: Graphical and tabular effect displays, e.g., of
+        interactions, for linear generalized linear, multinomial-logit,
+        and proportional-odds logit models.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
+Repository: CRAN
+Repository/R-Forge/Project: effects
+Repository/R-Forge/Revision: 39
+Date/Publication: 2009-10-14 09:45:52
+Packaged: 2009-10-13 20:14:17 UTC; rforge

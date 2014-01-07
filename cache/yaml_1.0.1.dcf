@@ -1,0 +1,10 @@
+Package: yaml
+Type: Package
+Title: Methods to convert R to YAML and back
+Version: 1.0.1
+Date: 2008-11-14
+Author: Jeremy Stephens <jeremy.stephens@vanderbilt.edu>
+Maintainer: Jeremy Stephens <jeremy.stephens@vanderbilt.edu>
+License: BSD
+Description: This package implements the Syck YAML parser by why (http://www.whytheluckystiff.net/syck) for R.  There are also methods to convert R objects into YAML.
+Packaged: Fri Nov 14 10:06:57 2008; stephej1

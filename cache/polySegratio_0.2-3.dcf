@@ -1,0 +1,21 @@
+Package: polySegratio
+Type: Package
+Title: Simulate and test marker dosage for dominant markers in
+        autopolyploids
+Version: 0.2-3
+Date: 2010-01-21
+Depends: gdata
+Author: Peter Baker
+Maintainer: Peter Baker <p.baker1@uq.edu.au>
+Description: Perform classic chi-squared tests and Ripol et al(1999)
+        binomial confidence interval approach for autopolyploid
+        dominant markers. Also, dominant markers may be generated for
+        families of offspring where either one or both of the parents
+        possess the marker. Missing values and misclassified markers
+        may be generated at random.
+License: GPL-3
+Repository: CRAN
+Repository/R-Forge/Project: polysegratio
+Repository/R-Forge/Revision: 2
+Date/Publication: 2010-01-22 07:48:05
+Packaged: 2010-01-21 21:28:43 UTC; rforge

@@ -1,0 +1,17 @@
+Package: chords
+Type: Package
+Title: Estimation in respondent driven samples.
+Version: 0.67
+Date: 2012-07-19
+Author: Jonathan Rosenblatt
+Maintainer: Jonathan Rosenblatt <john.ros@gmail.com>
+Description: Maximum likelihood estimation of population size and
+        degree distribution.
+License: GPL-2
+Collate: 'chords.R' 'beta_js.R'
+Repository: CRAN
+Repository/R-Forge/Project: rds2
+Repository/R-Forge/Revision: 68
+Packaged: 2012-09-04 14:19:25 UTC; rforge
+Depends: R (>= 2.10)
+Date/Publication: 2012-09-05 16:00:08

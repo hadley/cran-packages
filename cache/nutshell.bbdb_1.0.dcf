@@ -1,0 +1,19 @@
+Package: nutshell.bbdb
+Type: Package
+Title: Baseball Database for "R in a Nutshell"
+Version: 1.0
+Date: 2012-12-04
+Author: Joseph Adler
+Maintainer: Joseph Adler <rinanutshell@gmail.com>
+Description: This package contains the baseball databank data set used
+        as an example in the book "R in a Nutshell" from O'Reilly
+        Media. For more information about this book, see
+        http://shop.oreilly.com/product/0636920022008.do
+License: CC BY-NC-ND 3.0 US
+LazyLoad: yes
+ZipData: no
+Depends: R (>= 2.10)
+Suggests: RSQLite
+Packaged: 2012-12-09 21:56:01 UTC; jadler
+Repository: CRAN
+Date/Publication: 2012-12-12 09:14:05

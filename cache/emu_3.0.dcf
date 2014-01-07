@@ -1,0 +1,16 @@
+Package: emu
+Version: 3.0
+Priority: contrib
+Title: Interface to the Emu Speech Database System
+Author: Jonathan Harrington and others, IPS LMU Muenchen & IPDS CAU Kiel
+Description: Provides an interface to the Emu speech database system and
+	many special purpose functions for display and analysis of speech 
+	data. 
+License: GPL (>= 2)
+Depends: R (>= 2.0), stats, methods
+LazyLoad: yes
+LazyData: yes
+ZipData: no
+URL: http://emu.sourceforge.net/
+Maintainer: Jonathan Harrington  <jmh@phonetik.uni-muenchen.de>
+Packaged: Thu Feb 14 20:58:31 2008; Natty

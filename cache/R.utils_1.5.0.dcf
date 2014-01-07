@@ -1,0 +1,18 @@
+Package: R.utils
+Version: 1.5.0
+Date: 2010-08-04
+Title: Various programming utilities
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.5.0), R.oo (>= 1.7.3)
+Suggests: digest (>= 0.4.2)
+Description: This package provides utility classes and methods useful
+        when programming in R and developing R packages.
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/
+LazyLoad: TRUE
+Repository: CRAN
+Repository/R-Forge/Project: r-dots
+Repository/R-Forge/Revision: 378
+Date/Publication: 2010-08-16 13:45:05
+Packaged: 2010-08-14 20:32:33 UTC; rforge

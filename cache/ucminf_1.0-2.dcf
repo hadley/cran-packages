@@ -1,0 +1,14 @@
+Package: ucminf
+Version: 1.0-2
+Date: 2009-02-20
+Title: General-purpose unconstrained non-linear optimization
+Author: Hans Bruun Nielsen and Stig Bousgaard Mortensen
+Maintainer: Stig Bousgaard Mortensen <sbm@imm.dtu.dk>
+Description: An algorithm for general-purpose unconstrained non-linear optimization. 
+	     The algorithm is of quasi-Newton type with BFGS updating of the inverse
+	     Hessian and soft line search with a trust region type monitoring of the
+	     input to the line search algorithm. The interface of 'ucminf' is 
+	     designed for easy interchange with 'optim'.
+Depends: numDeriv, R (>= 1.9.0)
+License: GPL (>= 2)
+Packaged: Fri Feb 20 15:46:30 2009; sbm

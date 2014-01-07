@@ -1,0 +1,17 @@
+Package: bayesDem
+Type: Package
+Title: Graphical User Interface for bayesTFR and bayesLife
+Version: 1.3-1
+Date: 2011-07-15
+Author: Hana Sevcikova <hanas@uw.edu>
+Maintainer: Hana Sevcikova <hanas@uw.edu>
+Depends: R (>= 2.9.0), cairoDevice, gWidgets, gWidgetsRGtk2, RGtk2,
+        bayesTFR (>= 1.4-0), bayesLife (>= 0.2-0)
+Description: Provides Graphical user interface for the packages
+        bayesTFR and bayesLife
+License: GPL (>= 2)
+LazyLoad: no
+URL: http://bayespop.csss.washington.edu
+Packaged: 2011-07-15 17:32:36 UTC; hana
+Repository: CRAN
+Date/Publication: 2011-07-18 09:07:54

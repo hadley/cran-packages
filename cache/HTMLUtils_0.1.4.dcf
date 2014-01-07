@@ -1,0 +1,16 @@
+Package: HTMLUtils
+Type: Package
+Title: Facilitates automated HTML report creation
+Version: 0.1.4
+Date: 2010-07-29
+Depends: R2HTML
+Suggests: GDD, Cairo
+Author: Markus Loecher, Sense Networks <markus@sensenetworks.com>
+Maintainer: Markus Loecher, Sense Networks <markus@sensenetworks.com>
+Description: Facilitates automated HTML report creation, in particular
+        framed HTML pages and dynamically sortable tables.
+License: GPL
+LazyLoad: yes
+Packaged: 2010-08-09 20:04:30 UTC; mloecher
+Repository: CRAN
+Date/Publication: 2010-08-10 14:16:25

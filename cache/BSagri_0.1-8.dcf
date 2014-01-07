@@ -1,0 +1,16 @@
+Package: BSagri
+Title: Statistical methods for safety assessment in agricultural field
+        trials
+Version: 0.1-8
+Date: 2013-11-21
+Author: Frank Schaarschmidt
+Description: Collection of functions, data sets and code examples 
+ for evaluations of field trials with the objective of equivalence assessment.
+Maintainer: Frank Schaarschmidt <schaarschmidt@biostat.uni-hannover.de>
+Depends: gamlss, multcomp, MCPAN
+Imports: mvtnorm, boot, mratios
+License: GPL-2
+Packaged: 2013-11-21 10:22:19 UTC; Schaarschmidt
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-21 11:50:03

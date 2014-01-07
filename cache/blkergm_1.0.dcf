@@ -1,0 +1,15 @@
+Package: blkergm
+Version: 1.0
+Type: Package
+Title: Fitting block ERGM given the block structure on social networks
+Date: 2013-09-13
+Author: Xiaolin Yang,Stephen Fienberg, Alessandro Rinaldo, Han Liu,Michael Rosenblum
+Maintainer: Xiaolin Yang <xyang@stat.cmu.edu>
+Description: This package is an extension to the "ergm" package which implements the block ergms.
+Depends: ergm,ergm.userterms
+License: GPL (>= 2)
+BugReports: http://pkgname.bugtracker.url
+Packaged: 2013-10-19 06:14:23 UTC; xiaolinyang
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-19 08:54:42

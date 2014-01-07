@@ -1,0 +1,18 @@
+Package: energy
+Title: E-statistics (energy statistics)
+Version: 1.2-0
+Date: 2010-09-25
+Author: Maria L. Rizzo and Gabor J. Szekely
+Description: E-statistics (energy) tests and statistics for comparing
+        distributions: multivariate normality, multivariate distance
+        components and k-sample test for equal distributions,
+        hierarchical clustering by e-distances, multivariate
+        independence tests, distance correlation, goodness-of-fit
+        tests. Energy-statistics concept based on a generalization of
+        Newton's potential energy is due to Gabor J. Szekely.
+Maintainer: Maria Rizzo <mrizzo@bgsu.edu>
+Depends: boot, MASS
+License: GPL (>= 2)
+Packaged: 2010-09-27 14:58:07 UTC; Maria
+Repository: CRAN
+Date/Publication: 2010-09-27 16:04:08

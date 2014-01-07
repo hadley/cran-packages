@@ -1,0 +1,19 @@
+Package: perARMA
+Type: Package
+Title: Package for Periodic Time Series Analysis
+Version: 1.5
+Date: 2013-03-01
+Author: Anna Dudek, Harry Hurd and Wioletta Wojtowicz
+Maintainer: Wioletta Wojtowicz <wwojtowi@agh.edu.pl>
+Description: The package includes procedures for identification, model
+        fitting and estimation for time series with periodic structure.
+        Additionally procedures for simulation of periodic processes
+        and real data sets are included.
+License: GPL (>= 2.0)
+Depends: R (>= 2.12.2)
+Imports: corpcor, gnm, matlab, Matrix, signal
+LazyLoad: yes
+Packaged: 2013-03-01 09:54:06 UTC; Administrator
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 14:57:36

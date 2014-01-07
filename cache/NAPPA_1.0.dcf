@@ -1,0 +1,15 @@
+Package: NAPPA
+Type: Package
+Title: Performs the processing and normalisation of Nanostring miRNA
+        and mRNA data
+Version: 1.0
+Date: 2013-10-04
+Author: Mark Wappett
+Maintainer: Mark Wappett <mark.wappett@astrazeneca.com>
+Depends: R (>= 3.0.1), plyr (>= 1.8)
+Description: Enables the processing and normalisation of the standard mRNA data output from the Nanostring nCounter software
+License: GPL-2
+Repository: CRAN
+Packaged: 2013-10-29 11:29:37 UTC; kcfk059
+NeedsCompilation: no
+Date/Publication: 2013-10-29 14:33:19

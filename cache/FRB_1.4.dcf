@@ -1,0 +1,15 @@
+Package: FRB
+Type: Package
+Title: Fast and Robust Bootstrap
+Version: 1.4
+Date: 2009-05-07
+Author: Ella Roelant, Stefan Van Aelst, Gert Willems
+Maintainer: Gert Willems <gert.willems@ugent.be>
+Depends: corpcor
+Description: This package performs robust inference based on applying
+        Fast and Robust Bootstrap on robust estimators. Available
+        methods are multivariate regression, PCA and Hotelling tests.
+License: GPL-2
+Packaged: 2009-05-13 10:58:02 UTC; gewillem
+Repository: CRAN
+Date/Publication: 2009-05-13 19:16:26

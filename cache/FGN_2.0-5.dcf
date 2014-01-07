@@ -1,0 +1,21 @@
+Package: FGN
+Version: 2.0-5
+Date: 2013-04-02
+Title: Fractional Gaussian Noise and hyperbolic decay time series model
+        fitting
+Author: A.I. McLeod and Justin Veenstra
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0), ltsa, akima
+Description: Exact MLE and Whittle MLE estimation for various
+        hyperbolic decay time series models.
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+Imports: ltsa
+LazyLoad: yes
+LazyData: yes
+License: CC BY-NC-SA 3.0
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2013-04-02 18:43:59 UTC; Aim
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-02 21:57:12

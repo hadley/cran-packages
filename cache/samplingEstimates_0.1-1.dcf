@@ -1,0 +1,16 @@
+Package: samplingEstimates
+Version: 0.1-1
+Date: 2012-09-20
+Title: Sampling Estimates
+Author: Emilio Lopez Escobar
+Maintainer: Emilio Lopez Escobar <emilio.lopez@itam.mx>
+Description: Functions to estimate from survey data. This package is a user-friendly wrapper of the samplingVarEst package. It considers that the user is more familiar with practical survey data rather than with research on survey sampling (variance estimation). More functionalities are on the way.
+Classification/MSC: 62D05, 62F40, 62G09
+Classification/JEL: C13, C830
+Classification/ACM: G.3
+Depends: R (>= 3.0.0), samplingVarEst
+License: GPL (>= 2)
+Packaged: 2013-07-23 22:37:15 UTC; ELOPEZE
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-24 08:26:32

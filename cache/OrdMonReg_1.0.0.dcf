@@ -1,0 +1,27 @@
+Package: OrdMonReg
+Type: Package
+Title: Compute least squares estimates of one bounded or two ordered
+        antitonic regression curves
+Version: 1.0.0
+Date: 2009-04-10
+Author: Fadoua Balabdaoui, Kaspar Rufibach, Filippo Santambrogio
+Maintainer: Kaspar Rufibach <kaspar.rufibach@ifspm.uzh.ch>
+Description: We consider the problem of estimating two antitonic
+        regression curves f1* and f2* under the constraint that f1* >=
+        f2*. Given two sets of n data points g1(x_1), ..., g1(x_n) and
+        g2(x_1), ..., g2(x_n) that are observed at (the same)
+        deterministic points x_1, ..., x_n, the estimates are obtained
+        by minimizing the Least Squares criterion L(f1, f2) =
+        sum_{i=1}^n (g1(x_i) - f1(x_i))^2 w1(x_i) + sum_{i=1}^n
+        (g2(x_i) - f2(x_i))^2 w2(x_i) over the class of pairs of
+        functions (f1, f2) such that f1 and f2 are antitonic and
+        f1(x_i) >= f2(x_i) for all i = 1, ..., n. The estimates are
+        computed with a projected subgradient algorithm where the
+        projection is calculated using a PAVA.
+License: GPL (>= 2)
+URL: http://www.ceremade.dauphine.fr/~fadoua,
+        http://www.biostat.uzh.ch/aboutus/people/rufibach.html,
+        http://www.ceremade.dauphine.fr/~filippo
+Packaged: Tue Apr 14 20:39:09 2009; rufibach
+Repository: CRAN
+Date/Publication: 2009-04-15 08:16:45

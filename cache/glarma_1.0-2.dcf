@@ -1,0 +1,17 @@
+Package: glarma
+Type: Package
+Title: Generalized Linear Autoregressive Moving Average Models
+Version: 1.0-2
+Date: 2013-11-15
+Author: William T.M. Dunsmuir <w.dunsmuir@unsw.edu.au>, Cenanning Li
+	<cli113@aucklanduni.ac.nz>, and David J. Scott
+	<d.scott@auckland.ac.nz>
+Maintainer: "William T.M. Dunsmuir" <w.dunsmuir@unsw.edu.au>
+Depends: R (>= 2.3.0), MASS
+Suggests: RUnit
+Description: This package provides functions for estimation, testing and diagnostic checking of generalized linear autoregressive moving average (GLARMA) models for discrete valued time series with regression variables.  These are a class of observation driven non-linear non-Gaussian state space models. The state vector consists of a linear regression component plus an observation driven component consisting of an autoregressive-moving average (ARMA) filter of past predictive residuals. Currently three distributions (Poisson, negative binomial and binomial) can be used for the response series. Three options (Pearson, score-type and unscaled) for the residuals in the observation driven component are available. Estimation is via maximum likelihood (conditional on initializing values for the ARMA process) optimized using Fisher scoring or Newton Raphson iterative methods. Likelihood ratio and Wald tests for the observation driven component allow testing for serial dependence in generalized linear model settings. Graphical diagnostics including model fits, autocorrelation functions and probability integral transform residuals are included in the package. Several standard data sets are included in the package.
+License: GPL (>= 2)
+Packaged: 2013-12-16 06:07:50 UTC; dsco036
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-16 07:43:54

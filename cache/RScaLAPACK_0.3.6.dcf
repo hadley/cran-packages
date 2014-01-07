@@ -1,0 +1,10 @@
+Package: RScaLAPACK
+Version: 0.3.6
+Date: 2004-05-14
+Title: ScaLAPACK implementation in R
+Author: Nagiza F. Samatova <samatovan@ornl.gov>, Srikanth Yoginath <yoginathsb@ornl.gov>, and David Bauer <bauerda@ornl.gov>
+Maintainer: Nagiza F. Samatova <samatovan@ornl.gov>
+Depends: R (>= 1.6.1)
+Description: An interface to ScaLAPACK functions from R 
+License: Free.  See COPYING for details.
+URL: http://www.aspect-sdm.org/Parallel-R/

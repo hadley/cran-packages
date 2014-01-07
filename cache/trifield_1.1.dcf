@@ -1,0 +1,17 @@
+Package: trifield
+Type: Package
+Title: Some basic facilities for ternary fields and plots
+Version: 1.1
+Date: 2011-07-24
+Author: Tim Keitt <tkeitt@gmail.com>
+Maintainer: Tim Keitt <tkeitt@gmail.com>
+Description: The package contains routines to 1) project unity-summed
+        triples to unit-square doubles and vice versa, 2) make a grid
+        of unity-summed triples paired to doubles, 3) evaluate a
+        function over the grid and 4) make simple plots including
+        ternary contour plots over a grid of values.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 16:57:27 UTC; tkeitt
+Repository: CRAN
+Date/Publication: 2012-10-29 17:24:23

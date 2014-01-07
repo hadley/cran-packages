@@ -1,0 +1,15 @@
+Package: GAMBoost
+Version: 1.2
+Title: Generalized linear and additive models by likelihood based
+        boosting
+Author: Harald Binder <binderh@fdm.uni-freiburg.de>
+Maintainer: Harald Binder <binderh@fdm.uni-freiburg.de>
+Depends: Matrix
+Suggests: snowfall, multicore
+Description: This package provides routines for fitting generalized
+        linear and and generalized additive models by likelihood based
+        boosting, using penalized B-splines
+License: GPL (>= 2)
+Packaged: 2010-11-17 14:07:44 UTC; harald
+Repository: CRAN
+Date/Publication: 2010-11-17 16:04:25

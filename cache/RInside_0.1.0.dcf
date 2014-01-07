@@ -1,0 +1,21 @@
+Package: RInside
+Title: C++ classes to embed R in C++ applications
+Version: 0.1.0
+Date: $Date: 2009-01-07 20:00:52 -0600 (Wed, 07 Jan 2009) $
+Author: Dirk Eddelbuettel
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: C++ classes to embed R in C++ applications The RInside
+        packages makes it easier to have 'R inside' your C++
+        application by providing a few wrapper classes.
+ .
+ As R itself is embedded, a shared library build of R is required. This
+        works on Linux and OS X, but not necessarily on Windows due to
+        the way R is built on Windows.
+Depends: R (>= 2.8.0), Rcpp
+SystemRequirements: None
+OS_type: unix
+URL: http://dirk.eddelbuettel.com/code/rinside.html
+License: GPL-2
+Packaged: 2009-09-19 12:21:41 UTC; edd
+Repository: CRAN
+Date/Publication: 2009-09-20 19:35:13

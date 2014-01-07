@@ -1,0 +1,18 @@
+Package: climatol
+Version: 2.2
+Date: 2013-10-01
+Title: Some Tools for Climatology: series homogenization, plus windrose
+        and Walter&Lieth diagrams
+Author: José A. Guijarro <jguijarrop@aemet.es>
+Maintainer: José A. Guijarro <jguijarrop@aemet.es>
+Description: Functions to homogenize (outlier and shifts detection/correction)
+  climatological series and to list climatological summaries of the homogenized
+  results, plus functions to draw wind-rose and Walter&Lieth diagrams.
+Encoding: latin1
+License: GPL (>= 2)
+Suggests: maps
+URL: http://www.climatol.eu/
+Packaged: 2013-10-11 11:25:04 UTC; jag
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-11 14:33:31

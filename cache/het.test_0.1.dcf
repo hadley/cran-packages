@@ -1,0 +1,15 @@
+Package: het.test
+Type: Package
+Title: White's Test for Heteroskedasticity
+Version: 0.1
+Date: 2013-02-27
+Author: Sebastian Andersson
+Maintainer: Sebastian Andersson <sebastian.andersson@statistik.uu.se>
+Depends: vars, methods
+Description: An implementation of White's Test for Heteroskedasticity
+        as outlined in Doornik (1996).
+License: GPL (>= 2)
+Packaged: 2013-02-27 21:10:14 UTC; Sebastian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-28 07:26:07

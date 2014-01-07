@@ -1,0 +1,30 @@
+Package: ExpDes.pt
+Type: Package
+Language: pt
+Title: Pacote Experimental Designs (Portuguese)
+Version: 1.1.2
+Date: 2013-05-07
+Author: Eric Batista Ferreira, Pórtya Piscitelli Cavalcanti, Denismar
+        Alves Nogueira
+Maintainer: Eric Batista Ferreira <eric.ferreira@unifal-mg.edu.br>
+Description: Pacote destinado a analise de delineamentos experimentais
+        simples (DIC, DBC e DQL), experimentos em esquema de fatorial
+        duplo (em DIC e DBC), experimentos em esquema de parcelas
+        subdivididas no tempo (em DIC e DBC), experimentos em esquema
+        de fatorial duplo com um tratamento adicional (em DIC e DBC),
+        experimentos em esquema de fatorial triplo (em DIC e DBC) e
+        experimentos em esquema de fatorial triplo com um tratamento
+        adicional (em DIC e DBC); realizando a analise de variancia e
+        comparacao de medias pelo ajuste de modelos de regressao ate o
+        terceiro grau (tratamentos quantitativos) ou por testes de
+        comparacao multipla: teste de Tukey, teste de
+        Student-Newman-Keuls (SNK), teste de Scott-Knott, teste de
+        Duncan, teste t (LSD), teste t de Bonferroni (LSD protegido) e
+        teste Bootstrap - tratamentos qualitativos.
+Encoding: latin1
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-05-07 14:25:13 UTC; ericbferreira
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-07 17:22:20

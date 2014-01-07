@@ -1,0 +1,19 @@
+Package: tpsDesign
+Type: Package
+Title: Design and analysis of two-phase sampling and case-control
+        studies
+Version: 1.0
+Date: 2010-05-07
+Author: Takumi Saegusa, Sebastien Haneuse, Nilanjan Chaterjee, Norman
+        Breslow
+Maintainer: Takumi Saegusa <tsaegusa@uw.edu>
+Description: The tpsDesign serves for planning a two-phase design and a
+        case-control design. Functions in this packages provides Monte
+        Carlo based evaluation of operating characteristics such as
+        powers for estimators of the components of a logistic
+        regression model.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2010-06-04 21:25:57 UTC; tsaegusa
+Repository: CRAN
+Date/Publication: 2010-06-05 06:02:21

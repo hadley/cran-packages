@@ -1,0 +1,20 @@
+Package: FGN
+Version: 2.0-1
+Date: 2012-12-10
+Title: Fractional Gaussian Noise (FGN) and simple models for hyperbolic
+        decay time series
+Author: A.I. McLeod and Justin Veenstra
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0), ltsa, hypergeo, akima
+Description: Efficient exact MLE and Whittle MLE estimation of four
+        simple long memory time series models.
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+Imports: ltsa
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2012-12-12 21:38:51 UTC; aim
+Repository: CRAN
+Date/Publication: 2012-12-13 06:28:49

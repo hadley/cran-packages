@@ -1,0 +1,21 @@
+Package: diveRsity
+Version: 1.0
+Date: 2012/07/19
+Title: Genetic diversity partition statistics and Informative locus
+        selection.
+Author: Kevin Keenan, <kkeenan02@qub.ac.uk>
+Maintainer: Kevin Keenan <kkeenan02@qub.ac.uk>
+Suggests: xlsx, sendplot
+Repository: CRAN
+LazyLoad: yes
+Description: diveRsity is a package which which allows the calculation
+        of both genetic diversity partition statistics, genetic
+        differentiaton statistics and locus informativeness for
+        ancestry assignment. It also provides users with various option
+        to calculate bootstrapped 95% ci's both across loci, for
+        pairwise population comparisons and to plot these results
+        interactively
+License: GPL (>= 2)
+ByteCompile: yes
+Packaged: 2012-08-13 18:31:22 UTC; kevin
+Date/Publication: 2012-08-14 07:21:40

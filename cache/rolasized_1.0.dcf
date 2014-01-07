@@ -1,0 +1,16 @@
+Package: rolasized
+Type: Package
+Title: Solarized colours in R
+Version: 1.0
+Date: 2012-05-03
+Author: Christian Zang
+Maintainer: Christian Zang <christian.zang@wzw.tum.de>
+Depends: base
+Description: Ethan Schoonover's solarized colour scheme for R
+        (http://ethanschoonover.com/solarized)
+License: MIT
+LazyLoad: yes
+Collate: 'rolasized.R'
+Packaged: 2012-05-10 06:50:48 UTC; christian
+Repository: CRAN
+Date/Publication: 2012-05-10 09:48:37

@@ -1,0 +1,16 @@
+Package: BradleyTerry
+Version: 0.8-8
+Date: 2010-03-09
+Title: Bradley-Terry Models -- this package is now deprecated in favour
+        of 'BradleyTerry2'
+Author: David Firth
+Maintainer: David Firth <d.firth@warwick.ac.uk>
+URL: http://go.warwick.ac.uk/dfirth
+Description: Specify and fit the Bradley-Terry model and structured
+        versions
+Depends: R (>= 2.10.1)
+Imports: brglm
+License: GPL (>= 2)
+Packaged: 2012-10-29 13:13:07 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:37

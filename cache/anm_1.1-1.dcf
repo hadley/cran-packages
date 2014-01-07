@@ -1,0 +1,21 @@
+Package: anm
+Version: 1.1-1
+Date: July 3 2012
+Title: Analog model for downscaling
+Author: Alexandra Imbert & Rasmus E. Benestad
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: R (>= 1.4), clim.pact, survival
+Description: The package contains an analog model for
+        statistical/empirical downscaling.
+License: GPL (>= 2)
+URL: http://www.r-project.org http://cran.r-project.org,
+        http://www.stats.bris.ac.uk/~masgc/,
+        http://www.met.rdg.ac.uk/cag/
+ZipData: no
+Packaged: 2012-07-03 12:04:36 UTC; rasmusb
+X-CRAN-Comment: This package has been archived: it had check ERRORs
+        since R-2.15.0 (at least) and was not fixed for weeks even
+        after reminders
+Repository: CRAN
+Date/Publication: 2012-07-03 13:28:44
+X-CRAN-Original-Package: anm

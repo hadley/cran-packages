@@ -1,0 +1,21 @@
+Package: fCalendar
+Version: 270.78.3
+Revision: 4191
+Date: 2009-05-25
+Title: Chronological and Calendarical Objects
+Author: Diethelm Wuertz, Yohan Chalabi
+Depends: R (>= 2.4.0), methods, MASS, fUtilities, fEcofin
+Suggests: RUnit
+Maintainer: Rmetrics Core Team <Rmetrics-core@r-project.org>
+Description: Environment for teaching "Financial Engineering and
+        Computational Finance"
+NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE
+        FUTURE. THIS TYPICALLY INCLUDES FUNCTION AND ARGUMENT NAMES, AS
+        WELL AS DEFAULTS FOR ARGUMENTS AND RETURN VALUES.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.rmetrics.org
+Packaged: 2009-05-25 11:05:25 UTC; yankee
+Repository: CRAN
+Date/Publication: 2009-05-25 20:24:14

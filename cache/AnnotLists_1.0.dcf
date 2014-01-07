@@ -1,0 +1,15 @@
+Package: AnnotLists
+Type: Package
+Title: Data extraction tool from annotations files.
+Version: 1.0
+Depends: tcltk
+Date: 2010-12-20
+Author: Nicolas Cagnard
+Maintainer: Nicolas Cagnard <nicolas.cagnard@gmail.com>
+Description: Extract data annotations about lists of identifiers or
+        microarray probes ID from an annotations file.
+License: GPL
+LazyLoad: yes
+Packaged: 2010-12-21 15:57:22 UTC; cagnard
+Repository: CRAN
+Date/Publication: 2010-12-22 08:56:54

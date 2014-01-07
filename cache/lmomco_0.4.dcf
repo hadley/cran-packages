@@ -1,0 +1,24 @@
+Package: lmomco
+Title: L-moments, L-comoments, Trimmed L-moments, and Distributions
+Version: 0.4
+Date: 2006-02-28
+Author: William H. Asquith
+Description: The package implements the statistical theory of L-moments including 
+ L-moment estimation, probability-weighted moment estimation, parameter estimation 
+ for numerous familiar and not-so-familiar distributions, and L-moment estimation 
+ for the same distributions from the parameters. L-moments are derived from the 
+ expectations of order statistics and are linear with respect to the probability- 
+ weighted moments. L-moments are directly analogous to the well-known product 
+ moments; however, L-moments have many advantages including unbiasedness, 
+ robustness, and consistency with respect to the product moments. This package 
+ is oriented around the FORTRAN algorithms of J.R.M. Hosking, and the 
+ nomenclature for many of the functions parallels that of the Hosking library. 
+ Further features are added to aid in extension of the breadth of L-moment 
+ application. Much theoretical extension of L-moment theory has occurred in 
+ recent years. E.A.H. Elamir and A.H. Seheult have developed the trimmed L-moments, 
+ which are implemented in this package. Further, recent developments by Robert 
+ Serfling and Peng Xiao have extended L-moments into multivariate space; the so-called 
+ sample L-comoments are implemented here.
+Maintainer: William H. Asquith <wasquith@austin.rr.com>
+License: GPL
+Packaged: Mon Feb 27 22:40:01 2006; wasquith

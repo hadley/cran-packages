@@ -1,0 +1,61 @@
+Package: sybil
+Type: Package
+Title: sybil - Efficient Constrained Based Modelling in R
+Version: 1.2.5
+Date: 2013-11-27
+Authors@R: c(person("Gabriel", "Gelius-Dietrich", role = c("aut", "cre"), email = "geliudie@uni-duesseldorf.de"),
+             person(c("C.", "Jonathan"), "Fritzemeier", role = "ctb"),
+             person("Rajen", "Piernikarczyk", role = "ctb"),
+             person(c("Marc", "Andre"), "Daxer", role = "ctb"),
+             person("Benjamin", "Braasch", role = "ctb"),
+             person("Abdelmoneim", "Desouki", role = "ctb"))
+Depends: R (>= 2.14.2), Matrix, lattice
+Imports: methods
+Suggests: glpkAPI (>= 1.2.8), cplexAPI (>= 1.2.4), clpAPI (>= 1.2.4),
+        lpSolveAPI (>= 5.5.2.0), parallel, grid
+URL:
+        http://www.cs.hhu.de/en/research-groups/bioinformatics/software/sybil.html
+Description: The package sybil is a Systems Biology Library for R, implementing algorithms for constraint based analyses of metabolic networks (e.g. flux-balance analysis (FBA), minimization of metabolic adjustment (MOMA), regulatory on/off minimization (ROOM), robustness analysis and flux variability analysis).
+LazyLoad: yes
+License: GPL-3
+Collate: generics.R validmodelorg.R validoptsol.R validreactId.R
+        validreactId_Exch.R validsysBiolAlg.R addAlgorithm.R
+        addExchReact.R addReact.R addSolver.R blockedReact.R
+        bracket_pairs.R ceilValues.R changeBounds.R changeGPR.R
+        changeObjFunc.R checkAlgorithm.R checkDefaultMethod.R
+        checkEmptyField.R checkReactId.R check_brackets.R
+        createReactionString.R deadEndMetabolite.R doInRound.R
+        doubleFluxDel.R doubleGeneDel.R doubleReact.R editEnvir.R
+        findExchReact.R floorValues.R fluxVar.R geneDel.R
+        geneDeletion.R generateFluxdels.R generateModKey.R generateWT.R
+        getsybilenv.R makeLPcompatible.R mod2irrev.R modelorg2ExPA.R
+        modelorg2text.R modelorg2tsv.R multiDel.R oneFluxDel.R
+        oneGeneDel.R onlyChangeGPR.R onlyCheckGPR.R optObj_basicfunc.R
+        optObj_lpSolveAPIcompat.R optimizer.R parseBoolean.R phpp.R
+        ppProcessing.R prepareSubSysMatrix.R printLogComment.R
+        printNamedList.R progress.R promptSysBiolAlg.R recodeMatrix.R
+        readTEXTmod.R readTSVmod.R reassignFwBwMatch.R rmReact.R
+        robAna.R settings.R singletonMetabolite.R sybilStack.R ypd.R
+        zzz.R modelorgClass.R modelorg_irrevClass.R optObj_pointer.R
+        optObjClass.R optObj_clpAPIClass.R optObj_cplexAPIClass.R
+        optObj_glpkAPIClass.R optObj_lpSolveAPIClass.R
+        sybilErrorClass.R ppProcClass.R netFluxClass.R
+        fluxDistributionClass.R reactIdClass.R reactId_ExchClass.R
+        optsolClass.R optsol_blockedReactClass.R
+        optsol_optimizeProbClass.R optsol_fluxVarClass.R
+        optsol_fluxdelClass.R optsol_robAnaClass.R optsol_phppClass.R
+        optsol_genedelClass.R checksolClass.R summaryOptsolClass.R
+        sysBiolAlgClass.R sysBiolAlg_fbaClass.R sysBiolAlg_fvClass.R
+        sysBiolAlg_lmomaClass.R sysBiolAlg_momaClass.R
+        sysBiolAlg_mtfClass.R sysBiolAlg_roomClass.R sybilLogClass.R
+Packaged: 2013-11-27 21:31:50 UTC; gabriel
+Author: Gabriel Gelius-Dietrich [aut, cre],
+  C. Jonathan Fritzemeier [ctb],
+  Rajen Piernikarczyk [ctb],
+  Marc Andre Daxer [ctb],
+  Benjamin Braasch [ctb],
+  Abdelmoneim Desouki [ctb]
+Maintainer: Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-28 08:19:27

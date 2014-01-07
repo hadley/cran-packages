@@ -1,0 +1,19 @@
+Package: capme
+Type: Package
+Title: Covariate Adjusted Precision Matrix Estimation
+Version: 1.3
+Date: 2012-10-20
+Author: T. Tony Cai, Hongzhe Li, Weidong Liu and Jichun Xie
+Maintainer: Jichun Xie <jichun@temple.edu>
+Depends: lpSolve
+Description: The package uses constrained l1 optimization to solve the
+        regression coefficient matrix A and the precision matrix Omega
+        in the model Y = XA + Z, where Z follows N(0,Omega^{-1}). Both
+        A and Omega are high-dimensional sparse matrices.
+References: Cai, T.T., Li, H., Liu, W., and Xie, J. (2012). Covariate
+        adjusted precision matrix estimation with an application in
+        genetical genomics. \emph{Biometrika}, to appear.
+License: GPL-2
+Packaged: 2012-10-21 15:33:56 UTC; jichun
+Repository: CRAN
+Date/Publication: 2012-10-21 16:04:05

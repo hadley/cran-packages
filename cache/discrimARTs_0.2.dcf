@@ -1,0 +1,14 @@
+Package: discrimARTs
+Type: Package
+Title: Discrimination of Alternative Reproductive Tactics (ARTs).
+Version: 0.2
+Date: 2013-05-13
+Author: J. Mark Rowland, Clifford Qualls, and Christian Gunning
+Maintainer: Clifford Qualls <cqualls@salud.unm.edu>
+Description: 'discrimARTs' discriminates with explicit confidence the alternative reproductive tactics (ARTs) in dimorphic systems with bimodal traits by computing the maximum likelihood estimate of a mixture of distributions of a measured ARTs trait. Supported distributions include a mixture of 2 normal distributions and a mixture of 2 facing gamma distributions.
+License: Artistic-2.0
+Depends: R (>= 2.10.0), grid, RUnit
+Packaged: 2013-12-08 01:45:21 UTC; xian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-08 02:54:34

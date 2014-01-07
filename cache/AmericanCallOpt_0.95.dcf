@@ -1,0 +1,28 @@
+Package: AmericanCallOpt
+Type: Package
+Title: This package includes pricing function for selected American
+        call options with underlying assets that generate payouts.
+Version: 0.95
+Date: 2012-03-02
+Author: Paolo Zagaglia
+Maintainer: Paolo Zagaglia <paolo.zagaglia@gmail.com>
+Depends: R (>= 2.0.0)
+Description: This package includes a set of pricing functions for
+        American call options. The following cases are covered: Pricing
+        of an American call using the standard binomial approximation;
+        Hedge parameters for an American call with a standard binomial
+        tree; Binomial pricing of an American call with continuous
+        payout from the underlying asset; Binomial pricing of an
+        American call with an underlying stock that pays proportional
+        dividends in discrete time; Pricing of an American call on
+        futures using a binomial approximation; Pricing of a currency
+        futures American call using a binomial approximation; Pricing
+        of a perpetual American call. The user should kindly notice
+        that this material is for educational purposes only. The codes
+        are not optimized for computational efficiency as they are
+        meant to represent standard cases of analytical and numerical
+        solution.
+License: GPL-3
+Packaged: 2012-03-03 15:07:38 UTC; paolozagaglia
+Repository: CRAN
+Date/Publication: 2012-03-04 15:32:00

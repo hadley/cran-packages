@@ -1,0 +1,18 @@
+Package: longitudinalData
+Type: Package
+Title: Longitudinal Data
+Version: 0.5
+Date: 2009-06-02
+Author: Christophe Genolini
+Maintainer: Christophe Genolini <genolini@u-paris10.fr>
+Description: Tools for Longitudinal Data
+License: GPL (>= 2)
+Lazyload: yes
+Depends: methods,codetools,clv
+URL: http:www.r-project.org
+Collate: global.r function.r longData.r partition.r imputation.r
+        criterion.r plotLongData.r
+Encoding: latin1
+Packaged: 2009-06-09 14:30:49 UTC; Christophe
+Repository: CRAN
+Date/Publication: 2009-06-10 08:04:59

@@ -1,0 +1,11 @@
+Package: elasticnet
+Version: 1.0-5
+Date: 2008-05-05
+Title: Elastic-Net for Sparse Estimation and Sparse PCA  
+Author: Hui Zou <hzou@stat.umn.edu> and Trevor Hastie <hastie@stanford.edu> 
+Maintainer: Hui Zou <hzou@stat.umn.edu>
+Depends: R (>= 1.9.0), lars
+Description: This package provides functions for fitting the entire solution path of the Elastic-Net and also provides functions for estimating sparse Principal Components. The Lasso solution paths can be computed by the same function. First version: 2005-10.
+License: GPL (>=2)
+URL: http://www.stat.umn.edu/~hzou
+Packaged: Mon May  5 16:56:53 2008; hzou

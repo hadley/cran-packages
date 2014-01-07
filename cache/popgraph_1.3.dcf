@@ -1,0 +1,29 @@
+Package: popgraph
+Type: Package
+Title: This is an R package that constructs and manipulates population
+        graphs.
+Version: 1.3
+Date: 2013-12-17
+Author: Rodney J. Dyer
+Maintainer: Rodney J. Dyer <rjdyer@vcu.edu>
+Description: This is a generic package that produces "Population Graphs"
+    a graph-theoretic topology based upon conditional genetic covariance.  This
+    functionality used to be within the gstudio package, but has been taken out
+    to focus on spatial integration of graph topologies with existing packages
+    like sp, raster, and ggplot2.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.15), ggplot2
+Imports: MASS, sp, igraph, Matrix
+Suggests: testthat, maps, fields, grid
+Collate: 'as_popgraph.R' 'centroid_distance.R' 'centroid_variance.R'
+        'congruence_topology.R' 'decorate_graph.R' 'geom_edgeset.R'
+        'geom_nodeset.R' 'ops_popgraph.R' 'overlay_popgraph.R'
+        'popgraph-package.R' 'popgraph.R' 'read_popgraph.R'
+        'test_congruence.R' 'theme_empty.R' 'to_SpatialLines.R'
+        'to_SpatialPoints.R' 'to_data.frame.R' 'to_html.R' 'to_json.R'
+        'to_kml.R' 'to_matrix.R' 'to_pgraph.R' 'write_popgraph.R'
+Packaged: 2013-12-20 15:38:58 UTC; rodney
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-20 17:28:24

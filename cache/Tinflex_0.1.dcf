@@ -1,0 +1,15 @@
+Package: Tinflex
+Type: Package
+Title: Tinflex - Universal non-uniform random number generator
+Version: 0.1
+Date: 2011-07-07
+Author: Josef Leydold, Carsten Botts and Wolfgang H\"ormann
+Maintainer: Josef Leydold <josef.leydold@wu.ac.at>
+Suggests: Runuran, rvgtest
+Description: A universal non-uniform random number generator for quite
+        arbitrary distributions with piecewise twice differentiable
+        densities.
+License: GPL (>= 2)
+Packaged: 2011-07-08 06:44:38 UTC; leydold
+Repository: CRAN
+Date/Publication: 2011-07-23 16:15:10

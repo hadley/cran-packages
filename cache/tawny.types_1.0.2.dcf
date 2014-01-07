@@ -1,0 +1,15 @@
+Package: tawny.types
+Type: Package
+Title: Common types for tawny
+Version: 1.0.2
+Depends: futile.logger (>= 1.2.0), futile.paradigm (>= 2.0.0),
+        futile.any (>= 1.2.0), quantmod, RUnit
+Date: 2012-02-06
+Author: Brian Lee Yung Rowe
+Maintainer: Brian Lee Yung Rowe <r@nurometic.com>
+Description: Base library of types for tawny and related packages
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-02-07 02:06:13 UTC; root
+Repository: CRAN
+Date/Publication: 2012-02-07 08:44:13

@@ -1,0 +1,25 @@
+Package: bigmemory
+Version: 4.4.3
+Date: 2013-03-21
+Title: Manage massive matrices with shared memory and memory-mapped
+        files
+Author: Michael J. Kane <kaneplusplus@gmail.com> and John W. Emerson
+        <jayemerson@gmail.com>
+Maintainer: Michael J. Kane <bigmemoryauthors@gmail.com>
+Contact: Mike and Jay <bigmemoryauthors@gmail.com>
+Depends: methods, utils, bigmemory.sri, BH
+Enhances: biganalytics, bigtabulate, synchronicity
+LinkingTo: BH
+Description: Create, store, access, and manipulate massive matrices.
+        Matrices are allocated to shared memory and may use
+        memory-mapped files.  Packages biganalytics, bigtabulate,
+        synchronicity, and bigalgebra provide advanced functionality.
+OS_type: unix
+License: LGPL-3
+Copyright: (C) 2013 John W. Emerson and Michael J. Kane
+URL: http://www.bigmemory.org
+LazyLoad: yes
+Packaged: 2013-03-21 11:56:48 UTC; jay
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-01 16:17:15

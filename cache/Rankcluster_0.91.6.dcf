@@ -1,0 +1,28 @@
+Package: Rankcluster
+Type: Package
+Title: Model-based clustering for multivariate partial ranking data
+Version: 0.91.6
+Date: 2013-12-19
+Author: Quentin Grimonprez, Julien Jacques
+Maintainer: Quentin Grimonprez <quentin.grimonprez@inria.fr>
+Description: This package proposes a model-based clustering algorithm for
+    ranking data. Multivariate rankings as well as partial rankings are taken
+    into account. This algorithm is based on an extension of the Insertion
+    Sorting Rank (ISR) model for ranking data, which is a meaningful and
+    effective model parametrized by a position parameter (the modal ranking,
+    quoted by mu) and a dispersion parameter (quoted by pi). The heterogeneity
+    of the rank population is modelled by a mixture of ISR, whereas conditional
+    independence assumption is considered for multivariate rankings.
+License: GPL (>= 2) | file LICENSE
+Copyright: For Rankcluster, Quentin Grimonprez and Julien Jacques. For
+        Eigen, author list is available at:
+        http://eigen.tuxfamily.org/index.php?title=Main_Page#Credits.
+        Eigen licences are available at inst/COPYRIGHTS.
+Depends: Rcpp (>= 0.9.14), methods
+LinkingTo: Rcpp
+Collate: 'conversion.R' 'likelihood.R' 'mixtureSEM.R' 'rankclust.R'
+        'RankDistance.R' 'RankFunctions.R' 'resultClass.R' 'test.R'
+Packaged: 2013-12-19 10:26:33 UTC; grimonprez
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-19 12:24:18

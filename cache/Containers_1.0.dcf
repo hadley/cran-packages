@@ -1,0 +1,11 @@
+Package: Containers
+Type: Package
+Title: Object-Oriented Data Structures for R
+Version: 1.0
+Date: 2008-1-10
+Author: John Hughes
+Maintainer: John Hughes <jph264@psu.edu>
+Depends: R.oo, rJava
+Description: This package furnishes R with a suite of object-oriented data structures: stack, queue, deque, max-heap, min-heap, binary search tree, and splay tree.
+License: GPL
+Packaged: Wed Jan  9 20:34:57 2008; jhughes

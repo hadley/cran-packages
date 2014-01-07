@@ -1,0 +1,15 @@
+Package: imguR
+Type: Package
+Title: Share plots using the imgur.com image hosting service
+Version: 0.1.5
+Date: 2012-10-15
+Author: Aaron Statham
+Maintainer: Aaron Statham <aaron.l.statham@gmail.com>
+Depends: XML, RCurl, httr
+Description: A package to share plots using the image hosting service
+        imgur.com
+License: GPL-3
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2012-10-15 03:48:16 UTC; aarsta
+Date/Publication: 2012-10-15 05:49:08

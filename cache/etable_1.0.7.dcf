@@ -1,0 +1,16 @@
+Package: etable
+Type: Package
+Title: Easy Table
+Version: 1.0.7
+Date: 2012-06-11
+Depends: xtable, Hmisc, R (>= 2.15)
+Author: Andreas Schulz
+Maintainer: Andreas Schulz <ades-s@web.de>
+Description: A table function for descriptive statistics in tabular
+        format, using variables in a data.frame. You can create simple
+        or highly customized tables.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-06-11 06:44:45 UTC; scu9a
+Repository: CRAN
+Date/Publication: 2012-06-12 14:56:56

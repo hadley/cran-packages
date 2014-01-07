@@ -1,0 +1,20 @@
+Package: aods3
+Version: 0.4.0
+Title: Analysis of Overdispersed Data using S3 methods
+Author: Matthieu Lesnoff <matthieu.lesnoff@cirad.fr> and Renaud
+        Lancelot <renaud.lancelot@cirad.fr>
+Maintainer: Renaud Lancelot <renaud.lancelot@cirad.fr>
+Depends: R (>= 3.0.0), methods, stats, lme4, boot
+Suggests: MASS, gamlss
+Description: This package provides functions to analyse overdispersed
+        counts or proportions. These functions should be considered as
+        complements to more sophisticated methods such as generalized
+        estimating equations (GEE) or generalized linear mixed effect
+        models (GLMM). Package aods3 is an S3 re-implementation of the
+        deprecated S4 package aod.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2013-06-15 13:54:18 UTC; lancelot
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-15 17:25:28

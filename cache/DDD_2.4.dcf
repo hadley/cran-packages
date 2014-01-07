@@ -1,0 +1,19 @@
+Package: DDD
+Type: Package
+Title: Diversity-dependent diversification
+Version: 2.4
+Date: 2013-10-18
+Depends: R (>= 2.14.2), deSolve, ape, ade4
+Author: Rampal S. Etienne & Bart Haegeman
+Maintainer: Rampal S. Etienne <r.s.etienne@rug.nl>
+License: GPL-2
+Description: 
+   DDD implements maximum likelihood methods based on the diversity-dependent birth-death process to test whether speciation or extinction are diversity-dependent.
+   See Etienne et al. 2012, Proc. Roy. Soc. B 279: 1300-1309, doi: 10.1098/rspb.2011.1439.
+   DDD also implements a maximum likelihood method to detect key innovations defined as decoupling of diversity-dependence.
+   See Etienne & Haegeman 2012, Am. Nat. 180: E75-E89, doi: 10.1086/667574.
+   Finally, DDD contains a function to simulate the diversity-dependent process.
+Packaged: 2013-10-18 08:11:24 UTC; P223208
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-23 17:02:48

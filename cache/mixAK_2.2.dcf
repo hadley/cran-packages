@@ -1,0 +1,15 @@
+Package: mixAK
+Version: 2.2
+Date: 2011-12-20
+Title: Mixture of methods including mixtures
+Author: Arnošt Komárek <arnost.komarek@mff.cuni.cz>
+Maintainer: Arnošt Komárek <arnost.komarek@mff.cuni.cz>
+Depends: R (>= 2.10.0), splines, colorspace, lme4, mnormt, coda, snow,
+        snowfall
+Description: This package contains a mixture of statistical methods including the MCMC methods to analyze normal mixtures
+Encoding: UTF-8
+License: GPL (>= 2)
+URL: http://www.karlin.mff.cuni.cz/~komarek
+Packaged: 2011-12-20 09:54:44 UTC; komarek
+Repository: CRAN
+Date/Publication: 2011-12-20 11:47:22

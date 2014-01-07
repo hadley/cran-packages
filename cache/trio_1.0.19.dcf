@@ -1,0 +1,21 @@
+Package: trio
+Type: Package
+Title: Detection of disease-associated SNP interactions in case-parent
+        trio data
+Version: 1.0.19
+Date: 2010-04-19
+Author: Qing Li, Holger Schwender
+Maintainer: Qing Li <mail2qing@yahoo.com>, Holger Schwender
+        <holger.schw@gmx.de>
+Depends: survival, haplo.stats
+Description: Set up matched case-pseudo controls genotypes data for
+        trios in order to run trio logic regreesion, to impute missing
+        genotypes in trios, or to simulate case-parent trios with
+        disease risk dependent on SNP-SNP interaction. This package
+        furthermore contains functions for testing SNPs and SNP
+        interactions with a genotypic TDT, for computing the values of
+        pairwise LD measures and for identifying LD blocks.
+License: LGPL-2
+Packaged: 2010-04-19 04:20:06 UTC; hschwend
+Repository: CRAN
+Date/Publication: 2010-04-19 07:27:45

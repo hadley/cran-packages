@@ -1,0 +1,22 @@
+Package: agilp
+Type: Package
+Title: Extracting and preprocessing Agilent express arrays
+Version: 1.0
+Date: 2010-03-12
+Author: Benny Chain <b.chain@ucl.ac.uk>
+Maintainer: Benny Chain <b.chain@ucl.ac.uk>
+Description: The current version contains a single function, AAProcess.
+        AAProcess extracts the raw median signals from green and red
+        channels of Agilent scanner array files. It replaces values for
+        replicate probes by the mean of all replicates, and
+        (optionally) removes control probes It log2 transforms data ,
+        and outputs txt files containing the red and green channel data
+        separately. It then normalises each set of data against a
+        baseline file (typically median or mean of a large set of
+        arrays, using LOESS regression. Finally outputs the normalised
+        data. The normalisation step can be optionally omitted.
+License: GPL (>= 2)
+LazyLoad: no
+Packaged: Sun Mar 14 18:40:33 2010; Benny Chain
+Repository: CRAN
+Date/Publication: 2010-03-15 07:59:33

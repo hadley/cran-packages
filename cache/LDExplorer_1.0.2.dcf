@@ -1,0 +1,20 @@
+Package: LDExplorer
+Version: 1.0.2
+Date: 2013-03-18
+Title: Efficient Whole-Genome LD Based Haplotpe Block Recognition
+Author: Daniel Taliun <Daniel.Taliun@eurac.edu>, Johann
+        Gamper<gamper@inf.unibz.it>, Cristian Pattaro
+        <Cristian.Pattaro@eurac.edu>
+Maintainer: Daniel Taliun <Daniel.Taliun@eurac.edu>
+Description: LDExplorer is an R package for the memory and time
+        efficient whole-genome LD based haplotype block recognition.
+Depends: R (>= 2.15.1)
+Suggests: parallel
+License: GPL (>= 3)
+Repository: CRAN
+Repository/R-Forge/Project: ldexplorer
+Repository/R-Forge/Revision: 55
+Repository/R-Forge/DateTimeStamp: 2013-03-18 16:46:50
+Date/Publication: 2013-03-18 23:22:20
+Packaged: 2013-03-18 19:15:45 UTC; rforge
+NeedsCompilation: yes

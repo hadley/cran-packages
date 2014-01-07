@@ -1,0 +1,22 @@
+Package: RunuranGUI
+Type: Package
+Title: A GUI for the UNU.RAN random variate generators
+Version: 0.1
+Date: 2010-10-25
+Author: Josef Leydold
+Maintainer: Josef Leydold <josef.leydold@wu.ac.at>
+Depends: R (>= 2.11.0), methods, Runuran (>= 0.15.0), rvgtest (>=
+        0.5.0), gWidgets (>= 0.0-41), gWidgetsRGtk2(>= 0.0-69),
+        cairoDevice
+Description: This package provides a GUI (Graphical User Interface) for
+        the UNU.RAN random variate generators. Thus it allows to build
+        non-uniform random number generators interactively for quite
+        arbitrary distributions. In addition, R code for the required
+        calls from package Runuran can be displayed and stored for
+        later use. Some basic analysis like goodness-of-fit tests can
+        be performed.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-10-25 17:20:07 UTC; leydold
+Repository: CRAN
+Date/Publication: 2010-10-26 12:36:44

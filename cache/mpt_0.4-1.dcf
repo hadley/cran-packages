@@ -1,0 +1,18 @@
+Package: mpt
+Version: 0.4-1
+Date: 2013-01-25
+Title: Multinomial Processing Tree (MPT) Models
+Author: Florian Wickelmaier
+Maintainer: Florian Wickelmaier <wickelmaier@web.de>
+Depends: R (>= 2.15.0), stats
+Description: Fitting and testing multinomial processing tree models, a
+        class of statistical models for categorical data.  The
+        parameters are the link probabilities of a tree-like graph and
+        represent the latent cognitive processing steps executed to
+        arrive at observable response categories (Batchelder & Riefer,
+        1999; Erdfelder et al., 2009; Riefer & Batchelder, 1988).
+License: GPL (>= 2)
+URL: http://homepages.uni-tuebingen.de/florian.wickelmaier
+Packaged: 2013-01-25 13:59:16 UTC; siifw01
+Repository: CRAN
+Date/Publication: 2013-01-25 15:58:02

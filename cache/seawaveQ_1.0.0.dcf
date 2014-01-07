@@ -1,0 +1,17 @@
+Package: seawaveQ
+Type: Package
+Title: U.S. Geological Survey seawaveQ model
+Version: 1.0.0
+Date: 2013-12-13
+Author: Karen R. Ryberg and Aldo V. Vecchia
+Maintainer: Karen R. Ryberg <kryberg@usgs.gov>
+License: Unlimited
+LazyLoad: yes
+Description: A model and utilities for analyzing trends in chemical concentrations in streams with a seasonal wave (seawave) and adjustment for streamflow (Q) and other ancillary variables
+Depends: R (>= 2.15.3), survival, NADA, lubridate
+Suggests: waterData
+URL: http://dx.doi.org/10.3133/ofr20131255
+Packaged: 2013-12-30 20:40:01 UTC; kryberg
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-30 22:13:01

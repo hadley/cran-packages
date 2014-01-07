@@ -1,0 +1,22 @@
+Package: W2CWM2C
+Type: Package
+Title: The W2CWM2C package is a set of functions to produce new
+        graphical tools for wavelet correlation (bivariate and
+        multivariate cases) using some routines from the waveslim and
+        wavemulcor packages
+Version: 1.0
+Date: 2012-10-30
+Author: Josue Moises Polanco-Martinez (a.k.a. jomopo)
+Maintainer: Josue M. Polanco-Martinez <jomopo@gmail.com>
+Depends: R (>= 2.10.0), waveslim, wavemulcor
+Description: The W2CWM2C package is a set of routines that improves the
+        graphical presentations of the functions 'wave.correlation' and
+        'spin.correlation' (wavelet cross correlation) (Waveslim
+        package, Whitcher 2012) and the 'wave.multiple.correlation' and
+        'wave.multiple.cross.correlation' (Wavemulcor package,
+        Fernandez-Macho 2012)
+License: GPL (>= 2)
+Repository: CRAN
+LazyLoad: yes
+Date/Publication: 2012-11-24 08:31:41
+Packaged: 2012-11-23 16:44:14 UTC; erg

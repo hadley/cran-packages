@@ -1,0 +1,15 @@
+Package: RefFreeEWAS
+Type: Package
+Title: EWAS using reference-Free DNA methylation mixture deconvolution
+Version: 1.01
+Date: 2013-11-26
+Author: E. Andres Houseman, Sc.D.
+Maintainer: E. Andres Houseman <andres.houseman@oregonstate.edu>
+Depends: R (>= 2.3.12), isva
+Description: 
+    Reference-free method for conducting EWAS while deconvoluting DNA methylation arising as mixtures of cell types.  This method is similar to surrogate variable analysis (SVA and ISVA), except that it makes additional use of a biological mixture assumption.
+License: GPL (>= 2)
+Packaged: 2013-12-04 00:09:48 UTC; housemae
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-04 07:34:32

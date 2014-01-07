@@ -1,0 +1,15 @@
+Package: Rdsm
+Version: 1.0.0
+Author: Norm Matloff <matloff@cs.ucdavis.edu>
+Maintainer: Norm Matloff <matloff@cs.ucdavis.edu>
+Date: 3/5/2010
+Title: Threads-Like Environment for R
+Description: Provides a threads-like programming environment for R,
+        usable both on a multicore machine and across a network of
+        multiple machines.  The package gives the illusion of shared
+        memory, again even across multiple machines on a network.
+LazyLoad: no
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2010-03-10 01:44:33 UTC; matloff
+Date/Publication: 2010-03-10 10:20:09

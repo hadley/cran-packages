@@ -1,0 +1,21 @@
+Package: difR
+Type: Package
+Title: Some traditional methods to detect dichotomous differential item
+        functionning (DIF) in psychometrics.
+Version: 1.0
+Date: 2009-09-21
+Encoding: latin1
+Author: Sebastien Beland (UQAM), David Magis (KU Leuven) and Gilles
+        Raiche (UQAM)
+Maintainer: Sebastien Beland<sebastien.beland.1@hotmail.com>
+Depends: R (>= 2.8.0), lme4, ltm
+Description: The difR package contains several traditional methods to
+        detect DIF in dichotomously scored items. Both uniform and
+        non-uniform DIF effects can be detected, with methods relying
+        upon item response models or not. Some methods deal with more
+        than one focal group.
+License: file LICENSE
+LazyLoad: yes
+Packaged: 2009-09-23 18:39:19 UTC; Gilles Raîches
+Repository: CRAN
+Date/Publication: 2009-09-23 20:11:42

@@ -1,0 +1,13 @@
+Package: Java
+Version: 0.5
+Date:    2000/07/24
+Title: The Omegahat interface for R and Java.
+Author:  Duncan Temple Lang <duncan@research.bell-labs.com>,
+         John Chambers <jmc@research.bell-labs.com>
+Depends: R (>= 1.1.0)
+Description: An interface from R to Java to create and call Java objects
+             and methods.
+License: GPL version 2 or newer. http://www.gnu.org/copyleft/gpl.html
+URL:  http://www.omegahat.org/RSJava,  http://www.omegahat.org
+      http://www.omegahat.org/omegahat-bugs
+

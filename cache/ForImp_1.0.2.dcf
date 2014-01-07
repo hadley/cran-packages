@@ -1,0 +1,16 @@
+Package: ForImp
+Type: Package
+Title: Imputation of missing values through a forward imputation
+        algorithm
+Version: 1.0.2
+Date: 2013-01-30
+Author: Alessandro Barbiero, Pier Alda Ferrari, Giancarlo Manzi
+Maintainer: Alessandro Barbiero <alessandro.barbiero@unimi.it>
+Description: Imputation of missing values in datasets of ordinal
+        variables through a forward imputation algorithm
+License: GPL
+LazyLoad: yes
+Depends: homals, sampling, mvtnorm
+Packaged: 2013-01-31 07:46:46 UTC; Alessandro
+Repository: CRAN
+Date/Publication: 2013-01-31 11:05:58

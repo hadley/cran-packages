@@ -1,0 +1,16 @@
+Package: SemiCompRisks
+Type: Package
+Title: Parametric and semi-parametric analyses of semi-competing risks
+        data
+Version: 1.0
+Date: 2013-12-21
+Author: Kyu Ha Lee and Sebastien Haneuse
+Maintainer: Kyu Ha Lee <klee@hsph.harvard.edu>
+Description: In this package, we provide parametric and semi-parametric regression models to analyze semi-competing risks data.
+License: GPL (>= 2)
+Depends: R (>= 3.0.2)
+LazyLoad: yes
+Packaged: 2013-12-21 15:57:59 UTC; kyuhalee
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-21 17:51:48

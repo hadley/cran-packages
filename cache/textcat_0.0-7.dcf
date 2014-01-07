@@ -1,0 +1,13 @@
+Package: textcat
+Version: 0.0-7
+Title: N-Gram Based Text Categorization
+Description: Text categorization based on n-grams
+Author: Kurt Hornik, Johannes Rauch, Christian Buchta, Ingo Feinerer
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Depends: R (>= 2.13.0)
+Imports: tau (>= 0.0-11)
+License: GPL-2
+LazyData: yes
+Packaged: 2011-04-14 16:57:32 UTC; hornik
+Repository: CRAN
+Date/Publication: 2011-04-15 06:33:04

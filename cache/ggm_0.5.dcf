@@ -1,0 +1,10 @@
+Package: ggm
+Version: 0.5
+Date: 2003-08-23
+Title: Graphical Gaussian Models
+Author: Giovanni M. Marchetti <gmm@ds.unifi.it>.
+Maintainer: Giovanni M. Marchetti <gmm@ds.unifi.it>
+Depends: R (>= 1.7.1)
+Description: Functions for defining directed acyclic graphs and undirected graphs,
+  finding induced graphs and fitting Gaussian Markov models.
+License: GPL version 2 or newer

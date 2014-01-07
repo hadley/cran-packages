@@ -1,0 +1,23 @@
+Package: gRim
+Version: 0.1-13
+Title: Graphical Interaction Models
+Author: Søren Højsgaard <sorenh@math.aau.dk>
+Maintainer: Søren Højsgaard <sorenh@math.aau.dk>
+Description: Implements graphical interaction models for contingency
+        tables (i.e. log-linear models) and graphical Gaussian models
+        for the multivariate normal data (i.e. covariance selection
+        models) and mixed interaction models
+License: GPL (>= 2)
+URL: http://people.math.aau.dk/~sorenh/software/gR/
+Depends: R (>= 2.1.0),methods,gRbase (>= 1.6-2),gRain,doBy, Rcpp (>=
+        0.9.13), RcppArmadillo (>= 0.3.2.4)
+Encoding: latin1
+Suggests: Rgraphviz
+ByteCompile: no
+LinkingTo: Rcpp,RcppArmadillo
+Packaged: 2012-09-09 22:14:43 UTC; sorenh
+X-CRAN-Comment: Package is broken since a (premilinary announced) API
+        change in package igraph, although an igraph0 compatibility
+        package is available.
+Repository: CRAN
+Date/Publication: 2012-09-10 06:41:54

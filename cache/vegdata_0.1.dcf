@@ -1,0 +1,18 @@
+Package: vegdata
+Version: 0.1
+Date: 11.2009
+Title: Functions to use vegetation databases (Turboveg) for vegetation
+        analyses in R
+LazyLoad: yes
+LazyData: yes
+Author: Florian Jansen <jansen@uni-greifswald.de>
+Maintainer: Florian Jansen <jansen@uni-greifswald.de>
+Depends: R (>= 2.0.0), foreign
+Suggests: RODBC, lattice, RMySQL, Hmisc, vegan, labdsv, akima
+Description: Handling of vegetation data sets from Turboveg Databases.
+        Taxonomic valuation for German Taxonomical Standard List.
+License: GPL (>= 2)
+URL: http://geobot.botanik.uni-greifswald.de/reflist
+Packaged: 2009-11-10 22:57:27 UTC; jansen
+Repository: CRAN
+Date/Publication: 2009-11-11 07:42:44

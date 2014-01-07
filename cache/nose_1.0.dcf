@@ -1,0 +1,23 @@
+Package: nose
+Type: Package
+Title: nose Package for R
+Version: 1.0
+Date: 2012-12-04
+Author: originally written by Subbiah M <sisufive@gmail.com> packaged
+        by Sumathi R with considerable contributions by Srinivasan M R
+Maintainer: Sumathi R <sumathimr@yahoo.co.in>
+Description: The nose package consists of a collection of three
+        functions for classifying sparseness in typical 2 x 2 data sets
+        with at least one cell should have zero count. These functions
+        are based on the three widely applied summary measures for 2 x
+        2 categorical data viz, Risk Difference (RD), Relative Risk
+        (RR), Odds Ratio (OR). This package helps to identify suitable
+        continuity correction for zero cells when a multi centre
+        analysis or a meta analysis is carried out. Further, it can be
+        considered as a tool for sensitivity analysis for adding a
+        continuity correction and to identify the presence of Simpson's
+        paradox.
+License: GPL-2
+Packaged: 2012-12-04 06:41:53 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-12-19 11:39:43

@@ -1,0 +1,18 @@
+Package: gettingtothebottom
+Title: Getting to the Bottom, A Package for Learning Optimization
+        Methods
+Description: Getting to the Bottom is a companion package for the "Getting to
+    the Bottom" optimization methods series at Statisticisviews.com.  The
+    package contains data and code to reproduce the examples in the articles.
+URL: http://jocelynchi.com/gettingtothebottom
+Version: 1.0
+Author: Jocelyn T. Chi <jocelynchi@alum.berkeley.edu>
+Maintainer: Jocelyn T. Chi <jocelynchi@alum.berkeley.edu>
+Depends: R (>= 3.0.2), ggplot2, grid
+License: CC BY-NC-SA 3.0
+LazyData: true
+Collate: 'gradientdescent.R' 'dataset-descriptions.R'
+Packaged: 2013-11-08 22:26:20 UTC; jocelyn
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-09 14:42:26

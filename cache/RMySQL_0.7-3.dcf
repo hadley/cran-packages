@@ -1,0 +1,15 @@
+Package: RMySQL
+Version: 0.7-3
+Date: 2009-02-02
+Title: R interface to the MySQL database
+Author: David A. James and Saikat DebRoy
+Maintainer: Jeffrey Horner <jeff.horner@vanderbilt.edu>
+Description: Database interface and MySQL driver for R.
+   This version complies with the database interface 
+   definition as implemented in the package DBI 0.2-2.
+LazyLoad: true
+Depends: R (>= 2.8.0), methods, DBI (>= 0.2-2), utils
+License: GPL-2
+URL: http://biostat.mc.vanderbilt.edu/RMySQL
+Collate:  S4R.R zzz.R MySQLSupport.R dbObjectId.R MySQL.R
+Packaged: Tue Feb  3 14:43:25 2009; hornerj

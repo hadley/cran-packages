@@ -1,0 +1,22 @@
+Package: dcmle
+Type: Package
+Title: Hierarchical Models Made Easy with Data Cloning
+Version: 0.2-0
+Date: 2012-04-27
+Author: Peter Solymos
+Maintainer: Peter Solymos <solymos@ualberta.ca>
+Description: S4 classes around infrastructure provided by the dclone
+        package to make package development with data cloning for
+        hierarchical models easy as a breeze.
+License: GPL-2
+Depends: methods, stats4, dclone (>= 1.7-2), rjags, coda, R2WinBUGS,
+        parallel, lattice
+Suggests: snow
+SystemRequirements: JAGS (>= 3.0.0)
+URL: http://cran.r-project.org/package=dcmle,
+        http://dcr.r-forge.r-project.org/
+LazyLoad: yes
+LazyData: true
+Packaged: 2012-05-03 06:01:08 UTC; Peter
+Repository: CRAN
+Date/Publication: 2012-05-03 06:10:10

@@ -1,0 +1,16 @@
+Package: evora
+Type: Package
+Title: Epigenetic Variable Outliers for Risk prediction Analysis
+Version: 1.0
+Date: 2012-01-14
+Author: Andrew E Teschendorff
+Maintainer: <a.teschendorff@ucl.ac.uk>
+Depends: qvalue, Hmisc
+Description: EVORA is an adaptive index classification algorithm which
+        selects features based on differential variability and is aimed
+        at DNA methylation array studies.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:39

@@ -1,0 +1,17 @@
+Package: PairedData
+Type: Package
+Title: Paired Data Analysis
+Version: 1.0.1
+Date: 2013-04-18
+Author: Stephane Champely <champely@univ-lyon1.fr>
+Maintainer: Stephane Champely <champely@univ-lyon1.fr>
+Description: This package provides many datasets and a set of graphics
+        (based on ggplot2), statistics, effect sizes and hypothesis
+        tests for analysing paired data with S4 class.
+License: GPL (>= 2)
+Depends: methods,graphics,MASS,gld,mvtnorm,lattice,ggplot2
+Collate: global1.R ClassP1.R
+Packaged: 2013-04-19 05:17:46 UTC; champely
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-19 07:43:41

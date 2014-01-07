@@ -1,0 +1,15 @@
+Package: curvetest
+Type: Package
+Version: 1.1
+Title: Test the equality of two curves, or one curve with 0.
+Date: Thu Sep 18 15:42:44 2008
+Depends: locfit
+Author: Zhongfa Zhang and Jiayang Sun
+Maintainer: Jacob Zhang<jacob.zhang@vai.org>
+Description: To test if two curves defined by two data sets are equal,
+        or if one curve is equal to 0.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: Thu Sep 18 15:43:47 2008; jacob
+Repository: CRAN
+Date/Publication: 2008-09-19 06:56:39

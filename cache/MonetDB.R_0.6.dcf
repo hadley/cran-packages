@@ -1,0 +1,25 @@
+Package: MonetDB.R
+Version: 0.6
+Date: 2013-04-19
+Title: Connect MonetDB to R
+Authors@R: c(person("Hannes Muehleisen", "Developer", role = c("aut",
+        "cre"),email = "hannes@cwi.nl"), person("Thomas Lumley",
+        "Contributor", role = "ctb"), person("Anthony Damico",
+        "Contributor", role = "ctb"))
+Depends: DBI (>= 0.2-5), bitops (>= 1.0-4.2), digest (>= 0.6.0),
+        methods, utils, stats
+Description: Allows to pull data from MonetDB into R
+License: MPL (== 1.1)
+URL: http://monetr.r-forge.r-project.org
+Maintainer: Hannes Muehleisen <hannes@cwi.nl>
+SystemRequirements: MonetDB installation, available at
+        http://www.monetdb.org
+Author: Hannes Muehleisen Developer [aut, cre], Thomas Lumley
+        Contributor [ctb], Anthony Damico Contributor [ctb]
+Repository: CRAN
+Repository/R-Forge/Project: monetr
+Repository/R-Forge/Revision: 69
+Repository/R-Forge/DateTimeStamp: 2013-04-19 14:00:08
+Date/Publication: 2013-04-19 19:10:41
+Packaged: 2013-04-19 14:16:21 UTC; rforge
+NeedsCompilation: no

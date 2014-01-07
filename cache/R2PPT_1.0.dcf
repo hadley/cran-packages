@@ -1,0 +1,15 @@
+Package: R2PPT
+Type: Package
+Title: Simple R Interface to Microsoft PowerPoint using rcom.
+Depends: R (>= 2.2.0), rcom
+Version: 1.0
+Date: 2009-04-29
+Author: Wayne Jones
+Maintainer: Wayne Jones <wayne_betws@hotmail.com>
+Description: R2PPT provides a simple set of wrappers to easliy use rcom
+        for generating Microsoft PowerPoint presentations.
+License: GPL (>= 2)
+Packaged: Fri May 1 15:22:11 2009; Wayne.W.Jones
+Repository: CRAN
+Date/Publication: 2010-05-08 10:04:45
+OS_type: windows

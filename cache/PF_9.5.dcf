@@ -1,0 +1,22 @@
+Package: PF
+Type: Package
+Title: Prevented fraction.
+Version: 9.5
+Date: 2013-08-28
+Author: Dave Siev
+Maintainer: Marie Vendettuoli <marie.c.vendettuoli@aphis.usda.gov>
+Description: Functions related to PF (prevented fraction). Calculate incidence density ratio, confidence interval, and Rao-Scott weights of PF by multiple methods. See http://goo.gl/eJ6Rxi for definition of PF.
+License: MIT + file LICENSE
+LazyLoad: yes
+LazyData: yes
+Depends: methods, grid, xtable, RColorBrewer, gdata
+Collate: 'aaa.r' 'aab.r' 'class-rr1_tables.r' 'class-rror_tables.r'
+        'class-rrsc_tables.r' 'class-rrsi_tables.r'
+        'class-rrstr_tables.r' 'class.r' 'generics.r'
+        'getPFTable_generics.r' 'PF-package.r' 'IDRlsi.r' 'IDRsc.r'
+        'phiWt.r' 'RRlsi.r' 'RRmh.r' 'RRmpWald.r' 'RRor.r' 'RRotsst.r'
+        'RRsc.r' 'RRStr.r' 'RRtosst.r' 'rsbWt.r' 'tauWt.r'
+Packaged: 2013-09-03 22:32:25 UTC; mvendett
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-04 07:52:25

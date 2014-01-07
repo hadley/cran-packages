@@ -1,0 +1,10 @@
+Package: bim
+Version: 0.92-3
+Date: 09/12/2003
+Author: Brian S. Yandell <yandell@stat.wisc.edu>, Hao Wu <hao@jax.org>
+Title: Bayesian Interval Mapping Diagnostics
+Description: Functions to interpret QTLCart/Bmapqtl samples.
+Maintainer: Brian S. Yandell <yandell@stat.wisc.edu>
+Depends: modreg,mva,qtl
+License: GPL version 2 or newer
+URL: http://www.stat.wisc.edu/~yandell/qtl/software/Bmapqtl

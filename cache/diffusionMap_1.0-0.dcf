@@ -1,0 +1,18 @@
+Package: diffusionMap
+Version: 1.0-0
+Date: 2009-11-20
+Title: Diffusion map
+Author: Joseph Richards <jwrichar@stat.cmu.edu>
+Maintainer: Joseph Richards <jwrichar@stat.cmu.edu>
+Description: Implements diffusion map method of data parametrization,
+        including creation and visualization of diffusion map,
+        clustering with diffusion K-means and regression using adaptive
+        regression model.
+Depends: R (>= 2.4.0), scatterplot3d, igraph, Matrix
+Imports: scatterplot3d, igraph, Matrix
+License: GPL-2
+URL: http://www.r-project.org,
+        http://www.stat.cmu.edu/~jwrichar/software.html
+Packaged: 2009-11-20 22:28:57 UTC; jwrichar
+Repository: CRAN
+Date/Publication: 2009-11-22 16:11:37

@@ -1,0 +1,16 @@
+Package: mapplots
+Type: Package
+Title: Data visualisation on maps
+Version: 1.4
+Date: 2013-07-15
+Author: Hans Gerritsen
+Maintainer: Hans Gerritsen <hans.gerritsen@marine.ie>
+Depends: R (>= 2.10.0)
+Suggests: shapefiles
+Description: Create simple maps; add sub-plots like pie plots to a map or any other plot; format, plot and export gridded data. The package was developed for displaying fisheries data but most functions can be used for more generic data visualisation. 
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-07-15 15:08:14 UTC; hgerritsen
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-15 17:40:42

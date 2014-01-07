@@ -1,0 +1,24 @@
+Package: optextras
+Version: 2013-10.27
+Date: 2013-10-27
+Title: A set of tools to support optimization methods (function
+        minimization with at most bounds and masks).
+Authors@R: c( person(given = c("John", "C."), family = "Nash", role =
+        c("aut", "cre"), email = "nashjc@uottawa.ca") )
+Maintainer: John C. Nash <nashjc@uottawa.ca>
+Description: Tools to assist in safely applying user generated objective and 
+   derivative function to optimization programs. These are primarily function 
+   minimization methods with at most bounds and masks on the parameters.
+   Provides a way to check the basic computation of objective functions that 
+   the user provides, along with proposed gradient and Hessian functions, 
+   as well as to wrap such functions to avoid failures when inadmissible parameters 
+   are provided. Check bounds and masks. Check scaling or optimality conditions. 
+   Perform an axial search to seek lower points on the objective function surface. 
+   Includes forward, central and backward gradient approximation codes.
+License: GPL-2
+Depends: numDeriv
+Packaged: 2013-11-08 17:06:25 UTC; john
+Author: John C. Nash [aut, cre]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-08 22:41:12

@@ -1,0 +1,21 @@
+Package: abctools
+Type: Package
+Title: Tools for ABC analyses
+Version: 0.2
+Date: 20/05/13
+Authors@R: c(person("Matt","Nunes",role=c("aut","cre"),
+        email="m.nunes@lancaster.ac.uk"),person("Dennis", "Prangle",
+        role="aut",email="d.prangle@lancaster.ac.uk"))
+Author: Matt Nunes and Dennis Prangle
+Maintainer: Matt Nunes <m.nunes@lancaster.ac.uk>
+Description: Tools for approximate Bayesian computation including
+        summary statistic selection and assessing coverage
+Depends: R (>= 2.10), abc, abind, parallel, pls, plyr
+Suggests: ggplot2
+License: GPL (>= 2)
+LazyLoad: yes
+SystemRequirements: ABCtoolbox
+Packaged: 2013-05-20 11:33:44 UTC; nunes
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-20 14:18:36

@@ -1,0 +1,16 @@
+Package: ifultools
+Type: Package
+Title: Insightful Research Tools
+Version: 1.1-3
+Date: 2011-12-12
+Author: William Constantine
+Maintainer: ORPHANED
+Depends: R (>= 2.14.0), splus2R (>= 1.1-0), MASS
+Description: Insightful Research Tools.
+License: GPL-2
+Collate: it_mutils.R it_plot.R it_util.R
+Repository: CRAN
+Date/Publication: 2012-12-23 10:47:33
+Packaged: 2012-12-23 09:45:45 UTC; ripley
+X-CRAN-Comment: Orphaned on 2012-09-24, as former maintainer (William
+        Constantine <wlbconstan@gmail.com>) is unresponsive.

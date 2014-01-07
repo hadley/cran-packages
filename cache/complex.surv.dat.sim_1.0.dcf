@@ -1,0 +1,16 @@
+Package: complex.surv.dat.sim
+Type: Package
+Title: Simulation of recurrent event survival data
+Version: 1.0
+Date: 2012-03-28
+Encoding: latin1
+Author: David Moriña, Centre Tecnològic de Nutrició i Salut and Albert
+        Navarro, Universitat Autònoma de Barcelona
+Maintainer: David Moriña <david.morina@ctns.cat>
+Description: Simulation of complex survival data
+Depends: R (>= 2.13.1), eha
+Repository: CRAN
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-06-05 16:07:47 UTC; dmorinya
+Date/Publication: 2012-06-06 05:59:01

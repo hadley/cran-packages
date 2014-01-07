@@ -1,0 +1,20 @@
+Package: ecp
+Type: Package
+Title: Nonparametric Multiple Change Point Analysis of Multivariate
+        Data
+Version: 1.5.5
+Date: 2013-03-18
+Author: Nicholas A. James and David S. Matteson
+Maintainer: Nicholas A. James <nj89@cornell.edu>
+Description: This package performs hierarchical change point analysis 
+		through the use of U-statistics. Both agglomerative 
+		and divisive procedures return the set of change points estimates, 
+		and other summary information.
+License: GPL (>= 2)
+Depends: Rcpp
+Suggests: mvtnorm,MASS,combinat
+LinkingTo: Rcpp
+Packaged: 2013-11-17 23:48:50 UTC; nick
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-20 17:03:36

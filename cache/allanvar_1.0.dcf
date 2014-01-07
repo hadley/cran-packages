@@ -1,0 +1,16 @@
+Package: allanvar
+Type: Package
+Title: Allan Variance Analysis
+Version: 1.0
+Date: 2011-05-13
+Author: Javier Hidalgo Carrio
+Maintainer: <javier.hidalgo_carrio@dfki.de>
+Description: A collection of tools for stochastic sensor error
+        characterization using the Allan Variance technique originally
+        developed by D. Allan.
+License: GPL-2
+Depends: R (>= 2.10.0), gplots
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:12 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:12

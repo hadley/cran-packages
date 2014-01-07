@@ -1,0 +1,17 @@
+Package: mixedQF
+Version: 0.2
+Date: 2010-10-21
+Title: Estimator with Qudratics Forms in Mixeds Models
+Author: Jean-Benoist Leger <jleger@agroparistech.fr>, ENS Cachan
+        Jean-Benoist Leger <jleger@agroparistech.fr>, INRA
+Maintainer: Jean-Benoist Leger <jleger@agroparistech.fr>
+Depends: R (>= 1.10.0), nnet, MASS
+Suggests:
+Description: Compute Estimator of variance with quadratic forms, and
+        computes test on a linar contrasts in fixed effects
+License: FreeBSD
+URL:
+BugReports:
+Packaged: 2010-10-21 11:44:38 UTC; jleger
+Repository: CRAN
+Date/Publication: 2010-10-25 10:40:48

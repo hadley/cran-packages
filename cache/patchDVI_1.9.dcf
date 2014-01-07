@@ -1,0 +1,14 @@
+Package: patchDVI
+Type: Package
+Title: Package to patch .dvi files
+Version: 1.9
+Author: Duncan Murdoch
+Maintainer: Duncan Murdoch <murdoch@stats.uwo.ca>
+Description: Functions to patch specials in .dvi files; works with
+        "concordance=TRUE" in Sweave 2.5.0+
+License: GPL-2
+Depends: R (>= 2.10.0)
+BugReports: https://r-forge.r-project.org/projects/sweavesearch/
+Packaged: 2013-01-10 18:11:21 UTC; murdoch
+Repository: CRAN
+Date/Publication: 2013-01-10 19:28:10

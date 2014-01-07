@@ -1,0 +1,18 @@
+Package: rseedcalc
+Type: Package
+Title: Estimating the proportion of genetically modified stacked seeds
+        in seedlots via multinomial group testing
+Version: 1.1
+Date: 2012-10-26
+Author: Kevin Wright, Jean-Louis Laffont
+Maintainer: Kevin Wright <kw.stat@gmail.com>
+Description: Estimate the percentage of seeds in a seedlot that contain
+        stacks of genetically modified traits.  Estimates are
+        calculated using a multinomial group testing model with maximum
+        likelihood estimation of the parameters.
+Suggests: RExcelInstaller, rcom
+License: GPL-2
+Collate: 'rseedcalc-package.R' 'stacks.r'
+Packaged: 2012-10-29 16:48:03 UTC; wrightkevi
+Repository: CRAN
+Date/Publication: 2012-10-29 17:24:33

@@ -1,0 +1,21 @@
+Package: gap
+Version: 0.8
+Date: 2004-2-28
+Title: Genetic analysis package
+Author: Jing hua Zhao in collaboration with other colleagues, and with
+        help from Kurt Hornik and Brian Ripley of the R core development team
+Maintainer: Jing hua Zhao <j.zhao@ucl.ac.uk>
+Depends: haplo.score
+Description: This is an integrated package for genetic data analysis
+        of both population and family data. Currently it contains
+        functions for sample size calculations of both population-based
+        and family-based designs, probability of familial disease
+        aggregation, kinship calculation, some statistics in linkage
+        analysis, and association analysis involving one or more
+        genetic markers including haplotype analysis. In the future
+        it will incorporate programs for path and segregation analyses,
+        as well as other statistics in linkage and association analyses.
+License: Programs included in this package by Jing hua Zhao will be
+        under GPL. Specific requirement may be possible for programs
+        written by other authors.
+URL: http://www.hgmp.mrc.ac.uk/~jzhao, http://www.ucl.ac.uk/~rmjdjhz,

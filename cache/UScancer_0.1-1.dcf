@@ -1,0 +1,15 @@
+Package: UScancer
+Type: Package
+Title: Create US cancer datasets from SEER, IARC, and US Census data
+Version: 0.1-1
+Date: 2013-08-23
+Author: Jonathan Lee
+Maintainer: Jonathan Lee <jonathan@utstat.utoronto.ca>
+Depends: R (>= 3.0.0), rgdal
+Suggests: diseasemapping
+Description: This package contains functions to read cancer data from SEER (http://seer.cancer.gov/) and IARC (http://www.iarc.fr) to create datasets at the county level based on US census information.
+License: GPL-2
+Packaged: 2013-08-29 16:42:01 UTC; jlee
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-30 01:30:20

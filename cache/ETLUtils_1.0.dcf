@@ -1,0 +1,20 @@
+Package: ETLUtils
+Type: Package
+Title: Extra utility functions to execute standard ETL operations on
+        large data
+Version: 1.0
+Date: 2012-03-26
+Author: Jan Wijffels
+Maintainer: Jan Wijffels <jwijffels@bnosac.be>
+Description: Provides functions to do fast left outer join merging
+        based on match, loading of bigdata (e.g. from Oracle) directly
+        into ffdf objects using DBI and some utility functions like
+        recoding.
+License: GPL-2
+LazyLoad: yes
+Depends: zoo, DBI, ff
+Suggests: RSQLite
+URL: http://www.bnosac.be
+Packaged: 2012-04-03 20:26:54 UTC; jan
+Repository: CRAN
+Date/Publication: 2012-04-03 20:28:02

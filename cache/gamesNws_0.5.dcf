@@ -1,0 +1,20 @@
+Package: gamesNws
+Type: Package
+Title: Playing games using a NWS Server
+Version: 0.5
+Date: 2009-10-05
+Author: Markus Schmidberger, Fabian Grandke
+Maintainer: Markus Schmidberger <schmidb@ibe.med.uni-muenchen.de>
+Depends: nws
+Description: This is a package with different card games (e.g. uno,
+        poker, ...) and using a NWS Server as card table. You can play
+        the games with your friends in the whole world. Just install a
+        NWS Server at one machine, send the login data to your friends
+        and start the game.
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: gamesnws
+Repository/R-Forge/Revision: 45
+Date/Publication: 2009-10-06 10:41:51
+Packaged: 2009-10-05 20:19:54 UTC; rforge

@@ -1,0 +1,32 @@
+Package: LLAhclust
+Version: 0.2-2
+Date: 2007-31-08
+Title: Hierarchical clustering of variables or objects based on the
+        likelihood linkage analysis method
+Author: Ivan Kojadinovic, Israël-César Lerman, Philippe Peter
+Maintainer: ORPHANED
+Description: The likelihood linkage analysis is a general agglomerative
+        hierarchical clustering method developed in France by Lerman in
+        a long series of research articles and books. Initially
+        proposed in the framework of variable clustering, it has been
+        progressively extended to allow the clustering of very general
+        object descriptions. The approach mainly consists in replacing
+        the value of the estimated similarity coefficient by the
+        probability of finding a lower value under the hypothesis of
+        'absence of link'. The package LLAhclust contains routines for
+        computing various types of probablistic similarity coefficients
+        between variables or object descriptions. Once the similarity
+        values between variables/objects are computed, a hierarchical
+        clustering can be performed using several probabilistic and
+        non-probabilistic aggregation criteria, and indices measuring
+        the quality of the partitions compatible with the resulting
+        hierarchy can be computed.
+Depends: R(>= 2.1.0)
+Encoding: latin1
+License: CeCILL-2
+URL: http://www.stat.auckland.ac.nz/~ivan/LLAhclust
+Packaged: Fri Feb 27 08:33:40 2009; hornik
+X-CRAN-Comment: Orphaned on 2012-06-03 as requested by the original
+        maintainer, ivan.kojadinovic@univ-pau.fr
+Repository: CRAN
+Date/Publication: 2009-02-27 07:40:31

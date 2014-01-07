@@ -1,0 +1,15 @@
+Package: parspatstat
+Type: Package
+Title: Parallel spatial statistics
+Version: 0.1-3
+Date: 2013-04-08
+Author: Jonathan Lee <jlee253@uwo.ca>
+Maintainer: Jonathan Lee <jlee253@uwo.ca>
+Depends: R (>= 2.14.0), Rmpi (>= 0.6-3), spatstat (>= 1.31-1), methods
+Description: Provides parallel computing functionality (using Rmpi) to
+        some methods in the spatstat package.
+License: GPL-2
+Packaged: 2013-04-09 00:48:46 UTC; jlee
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-09 07:09:40

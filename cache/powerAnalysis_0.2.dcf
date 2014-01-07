@@ -1,0 +1,17 @@
+Package: powerAnalysis
+Title: Power analysis in experimental design.
+Description: Basic functions for power analysis and effect size calculation.
+Version: 0.2
+Date: 2013-10-03
+Author: Felix Yanhui Fan <nolanfyh@gmail.com>
+Maintainer: Felix Yanhui Fan <nolanfyh@gmail.com>
+License: GPL (>= 2)
+URL: https://github.com/felixfan/powerAnalysis
+Collate: 'ES.anova.oneway.R' 'ES.chisq.assoc.R' 'ES.chisq.gof.R'
+        'ES.proportions.R' 'ES.t.one.R' 'ES.t.paired.R' 'ES.t.two.R'
+        'power.chisq.R' 'power.plot.chisq.R' 'power.t.R'
+        'power.anova.oneway.R' 'power.proportions.R'
+Packaged: 2013-10-03 05:34:31 UTC; alice
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-03 08:43:15

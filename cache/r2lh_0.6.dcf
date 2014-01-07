@@ -1,0 +1,19 @@
+Package: r2lh
+Type: Package
+Title: R to LaTeX and HTML)
+Version: 0.6
+Date: 2010-03-01
+Author: Christophe Genolini, Bernard Desgraupes, Lionel Riou Franca
+Maintainer: Christophe Genolini <genolini@u-paris10.fr>
+Description: generate univariate and bivariate analyses in LaTeX or
+        HTML formats
+License: GPL (>= 2)
+Lazyload: yes
+Depends: methods
+URL: http:www.r-project.org
+Collate: functions.R logical.R factor.R ordered.R discrete.R
+        continuous.R rtlu.R rtlbDisplay.R rtlb.R
+Encoding: latin1
+Packaged: 2010-03-01 10:23:55 UTC; bernardo
+Repository: CRAN
+Date/Publication: 2010-03-01 15:03:16

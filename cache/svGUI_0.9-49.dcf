@@ -1,0 +1,21 @@
+Package: svGUI
+Type: Package
+Title: SciViews GUI API - Functions to manage GUI client
+Depends: R (>= 2.11.0), svMisc (>= 0.9-60)
+Imports: tools
+Suggests: svSocket (>= 0.9-50)
+SystemRequirements: Komodo Edit (http://www.openkomodo.com), SciViews-K
+        (http://www.sciviews.org/SciViews-K)
+Description: Functions to manage the GUI client, like Komodo with the
+        SciViews-K extension
+Version: 0.9-49
+Date: 2010-09-11
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+License: GPL-2
+LazyLoad: yes
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2010-09-25 07:21:20 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2010-09-27 06:35:34

@@ -1,0 +1,32 @@
+Package: NPMPM
+Type: Package
+Title: tertiary probabilistic model in predictive microbiology for use
+        in food manufacture
+Version: 1.0
+Date: 2011-03-18
+Author: Nadine Schoene
+Maintainer: Nadine Schoene <nadine.schoene@fu-berlin.de>
+Description: The main method npmpm calculates bacterial concentrations
+        during food manufacture after a contamination. Variability and
+        uncertainty are included by use of probability distributions
+        and Monte Carlo Simulation. The model aims at predicting
+        possible bacterial concentrations at one certain point in time
+        s, e.g. at the end of a process chain. The process steps of
+        this process chain are run through in linear order.
+        Experimental data that match current process step conditions
+        are gathered, and one deterministic primary model is fitted to
+        every series of measured values. From every fitted curve one
+        concentration of bacteria at time s is computed, yielding a set
+        of concentrations. This sample of possible contamination sizes
+        is assumed to follow a certain probability distribution. After
+        calculation of distribution parameters, one value is randomly
+        drawn from this probability distribution. This value may be
+        modified, and then serves as contamination for the next process
+        step.
+License: GPL (>= 2)
+Depends: R (>= 2.11.0)
+Suggests: SweaveListingUtils, graphics
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:20 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:20

@@ -1,0 +1,16 @@
+Package: untb
+Type: Package
+Title: ecological drift under the UNTB
+Version: 1.3-3
+Date: 2007-06-07
+Author: Robin K. S. Hankin
+SystemRequirements: PARI/GP >= 2.3.0 [strongly recommended for logkda()]
+Depends: partitions,Brobdingnag
+Maintainer: Robin K. S. Hankin <rksh1@cam.ac.uk>
+Description: A collection of utilities for biodiversity data.
+  Includes the simulation of ecological drift under Hubbell's Unified
+  Neutral Theory of Biodiversity, and the calculation of various
+  diagnostics such as Preston curves.
+License: GPL
+URL: http://www.r-project.org
+Packaged: Fri Jan 16 18:05:16 2009; rksh

@@ -1,0 +1,19 @@
+Package: devtools
+Title: Tools to make developing R code easier
+Version: 0.5
+Author: Hadley Wickham <h.wickham@gmail.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: Collection of package development tools
+Depends: R (>= 2.13)
+Imports: RCurl, utils
+Suggests: testthat, roxygen2
+License: MIT
+Collate: 'bash.r' 'build.r' 'check.r' 'common-mistakes.r'
+        'devel-mode.r' 'document.r' 'file-cache.r' 'has-devel.r'
+        'install.r' 'load-c.r' 'load-code.r' 'load-data.r' 'load.r'
+        'news.r' 'package-deps.r' 'package-env.r' 'package.r'
+        'release.r' 'reload.r' 'run-examples.r' 'system.r' 'test.r'
+        'utils.r' 'vignettes.r' 'os.r' 'zzz.r' 'wd.r' 'source.r'
+Packaged: 2011-12-03 18:47:31 UTC; hadley
+Repository: CRAN
+Date/Publication: 2011-12-04 09:26:38

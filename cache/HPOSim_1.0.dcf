@@ -1,0 +1,18 @@
+Package: HPOSim
+Type: Package
+Title: Analysis similarities between HPO terms and phenotypic
+        similarity between genes and between diseases.
+Version: 1.0
+Date: 2013-03-25
+Author: Yue Deng, Gang Wang, Xiaocheng Huang and Tingting Ma
+Maintainer: Yue Deng <anfdeng@163.com>
+Description: This package implements multiple similarity measures for
+        HPO terms, genes and diseases.  It is aiming at phenotype
+        analysis for gene sets and disease sets.  Functions for HPO
+        enrichment analysis is also provided.
+Depends: R (>= 2.13.1), AnnotationDbi, HPO.db, igraph
+License: GPL-2
+Packaged: 2013-03-26 05:51:39 UTC; Administrator
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-28 09:04:35

@@ -1,0 +1,23 @@
+Package: mc2d
+Type: Package
+Title: Tools for Two-Dimensional Monte-Carlo Simulations
+Version: 0.1-14
+Date: 2013-10-15
+Authors@R: c(person("Regis", "Pouillot", role = c("aut", "cre"), email = "rpouillot@yahoo.fr"),
+			person("Marie-Laure", "Delignette-Muller", role = "ctb", email= "ml.delignette@vetagro-sup.fr"),
+			person("Jean-Baptiste", "Denis", role = "ctb", email = "jbdenis@jouy.inra.fr"))
+Suggests: fitdistrplus, survival
+Depends: R (>= 2.10.0), mvtnorm
+Description: Various distributions and utilities to ease the use of R to build and study Two-Dimensional Monte-Carlo simulations
+License: GPL (>= 2)
+Author: Regis Pouillot [aut, cre],
+  Marie-Laure Delignette-Muller [ctb],
+  Jean-Baptiste Denis [ctb]
+Maintainer: Regis Pouillot <rpouillot@yahoo.fr>
+Repository: CRAN
+Repository/R-Forge/Project: riskassessment
+Repository/R-Forge/Revision: 262
+Repository/R-Forge/DateTimeStamp: 2013-10-15 20:02:23
+Date/Publication: 2013-10-16 16:39:10
+Packaged: 2013-10-15 22:17:23 UTC; rforge
+NeedsCompilation: no

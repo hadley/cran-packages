@@ -1,0 +1,21 @@
+Package: tripEstimation
+Type: Package
+Title: Metropolis sampler and supporting functions for estimating
+        animal movement from archival tags and satellite fixes
+Version: 0.0-41
+Imports: lattice, mgcv, rgdal, sp, zoo
+Authors@R: c(person("Michael D.","Sumner", role = c("aut", "cre"),
+    email = "mdsumner@gmail.com"),
+    person("Simon", "Wotherspoon", role = "ctb",
+    email = "Simon.Wotherspoon@utas.edu.au"))
+Maintainer: Michael D. Sumner <mdsumner@gmail.com>
+Description: Data handling and estimation functions for animal movement estimation from archival or satellite tags. Helper functions are included for making image summaries binned by time interval from MCMC simulations of point data.
+License: GPL-3
+NeedsCompilation: no
+ByteCompile: yes
+URL: https://github.com/mdsumner/tripEstimation
+Packaged: 2013-07-10 00:11:41 UTC; mdsumner
+Author: Michael D. Sumner [aut, cre],
+  Simon Wotherspoon [ctb]
+Repository: CRAN
+Date/Publication: 2013-07-10 06:20:02

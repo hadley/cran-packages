@@ -1,0 +1,28 @@
+Package: ez
+Version: 2.1-0
+Date: 2010-09-28
+Title: Easy analysis and visualization of factorial experiments.
+Author: Michael A. Lawrence <Mike.Lawrence@dal.ca>
+Maintainer: Michael A. Lawrence <Mike.Lawrence@dal.ca>
+Depends: R (>= 2.6-1), car (>= 2.0-0), reshape (>= 0.8-3), plyr (>=
+        1.1), ggplot2 (>= 0.8-8), stringr (>= 0.4), lme4 (>=
+        0.999375-35), Matrix (>= 0.999375-31)
+Description: This package facilitates easy analysis of factorial
+        experiments, including purely within-Ss designs (a.k.a.
+        "repeated measures"), purely between-Ss designs, and mixed
+        within-and-between-Ss designs. The functions in this package
+        aim to provide simple, intuitive and consistent specification
+        of data analysis and visualization. Visualization functions
+        also include design visualization for pre-analysis data
+        auditing, and correlation matrix visualization. Finally, this
+        package includes functions for non-parametric analysis,
+        including permutation tests and bootstrap resampling. The
+        bootstrap function obtains predictions either by cell means or
+        by more advanced/powerful mixed effects models, yielding
+        predictions and confidence intervals that may be easily
+        visualized at any level of the experiment's design.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-09-29 01:44:55 UTC; mike
+Repository: CRAN
+Date/Publication: 2010-09-29 08:00:37

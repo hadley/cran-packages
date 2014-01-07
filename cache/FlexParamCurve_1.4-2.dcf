@@ -1,0 +1,17 @@
+Package: FlexParamCurve
+Type: Package
+Title: Tools to Fit Flexible Parametric Curves
+Version: 1.4-2
+Date: 2012-07-11
+Author: Stephen Oswald
+Maintainer: Stephen Oswald <ozsao23@hotmail.com>
+Description: selfStart functions and model selection tools to fit
+        parametric curves in nls, nlsList and nlme frameworks.
+License: GPL-2
+Depends: nlme
+Suggests:
+Enhances: nlme
+LazyLoad: yes
+Packaged: 2012-07-12 03:54:15 UTC; oswald
+Repository: CRAN
+Date/Publication: 2012-07-12 05:41:39

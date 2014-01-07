@@ -1,0 +1,17 @@
+Package: orderbook
+Type: Package
+Title: Orderbook visualization/Charting software
+Depends: R (>= 2.11.0), methods, graphics, lattice, hash, grid
+Version: 1.01
+Date: 2010-01-15
+Author: Andrew Liu, Khanh Nguyen, Dave Kane
+Maintainer: Andrew Liu <Andrew.T.Liu@williams.edu>
+Description: Functions for visualizing and retrieving data for the
+        state of an orderbook at a particular period in time.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: limitob
+Repository/R-Forge/Revision: 227
+Date/Publication: 2010-09-23 16:04:48
+Packaged: 2010-09-20 21:09:54 UTC; rforge

@@ -1,0 +1,39 @@
+Package: gregmisc
+Title: Greg's Miscellaneous Functions
+Version: 1.11.2
+Date: 2004/06/07
+Author: Gregory R. Warnes.  Includes R source code and documentation
+        contributed by 
+	   - Ben Bolker, 
+	   - Lodewijk Bonebakker, 
+	   - Bendix Carstensen, 
+	   - R. Gentleman, 
+	   - Kjetil Halvorsen, 
+	   - W. Huber
+	   - Andy Liaw, 
+	   - Don MacQueen, 
+	   - M. Maechler, 
+	   - Arni Magnusson, 
+	   - Jim Rogers, 
+	   - Marc Schwartz, 
+	   - William Venables, 
+	   - Ian Wilson,
+	and others (let me know if I missed you!), as well as the Perl
+        modules 
+	   - "IO-stringy" (copyright 1996 by Eryq, and 1999,2001 by
+  	     ZeeGee Software Inc),
+	   - OLE::Storage_Lite (copyright 2000,2001 by Kawai Takanori),
+	   - Spreadsheet::ParseExcel (copyright 2000-2002 by Kawai
+ 	     Takanori )
+	under the terms of the GNU General Public Licence (GPL).
+Maintainer: Gregory R. Warnes <Gregory_R_Warnes@groton.pfizer.com>
+Depends: R (>= 1.9.0), nlme
+Description: The gregmisc package is a repository for a variety of
+             functions that I find myself needing but that don't seem
+             to be available somewhere else. Most of the function in
+             the gregmisc library fall into six general areas:
+	     permutations and combinations, tools for linear models,
+	     plots, data manipulation, and fixed or extended versions of
+	     existing functions.
+License: GPL
+Packaged: Mon Jun  7 23:56:22 2004; warneg

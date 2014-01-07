@@ -1,0 +1,24 @@
+Package: bootstrap
+Version: 2012.04-1
+Date: 2012-04-04
+Title: Functions for the Book "An Introduction to the Bootstrap"
+Author: S original, from StatLib, by Rob Tibshirani.  R port by
+        Friedrich Leisch.
+Maintainer: ORPHANED
+Depends: stats, R (>= 2.10.0)
+LazyData: TRUE
+Description: Software (bootstrap, cross-validation, jackknife) and data
+        for the book "An Introduction to the Bootstrap" by B. Efron and
+        R. Tibshirani, 1993, Chapman and Hall.
+        _____________________________________________________________
+        This package is primarily provided for projects already based
+        on it, and for support of the book.  New projects should
+        preferentially use the recommended package "boot".
+License: BSD_3_clause + file LICENSE
+Packaged: 2013-07-26 10:08:50 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-07-26 12:09:40
+NeedsCompilation: yes
+X-CRAN-Original-Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+X-CRAN-Comment: Orphaned on 2013-07-19 for non-response, and repaired
+        by the CRAN team

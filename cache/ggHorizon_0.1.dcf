@@ -1,0 +1,15 @@
+Package: ggHorizon
+Title: An implementation of Horizon Graph
+Description: Implements horizon graphs based on ggplot2.
+Version: 0.1
+Author: Thomas Kern <thk.kern@gmail.com>
+Maintainer: Thomas Kern <thk.kern@gmail.com>
+Depends: R (>= 3.0.2), ggplot2 (>= 0.9.3), plyr (>= 1.8), RColorBrewer
+        (>= 1.0.5), proto
+License: GPL (>= 2)
+LazyData: true
+Collate: 'plot_horizon.r' 'smooth.r' 'theme.r'
+Packaged: 2013-11-17 14:30:04 UTC; thomaskern
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-20 17:51:28

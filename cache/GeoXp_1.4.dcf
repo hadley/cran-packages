@@ -1,0 +1,31 @@
+Package: GeoXp
+Type: Package
+Title: Interactive exploratory spatial data analysis
+Encoding: latin1
+Version: 1.4
+Date: 2009-08-28
+Author: Yves Aragon, Thibault Laurent, Lauriane Robidou, Anne
+        Ruiz-Gazen, Christine Thomas-Agnan
+Maintainer: Thibault Laurent <thibault.laurent@univ-tlse1.fr>
+Depends: R (>= 2.7.0), fields, KernSmooth, mvoutlier, rgl, robustbase,
+        spdep, splancs, stats, tcltk
+Description: GeoXp is a tool for researchers in spatial statistics,
+        spatial econometrics, geography, ecology etc allowing to link
+        dynamically statistical plots with elementary maps. This
+        coupling consists in the fact that the selection of a zone on
+        the map results in the automatic highlighting of the
+        corresponding points on the statistical graph or reversely the
+        selection of a portion of the graph results in the automatic
+        highlighting of the corresponding points on the map. GeoXp
+        includes tools from different areas of spatial statistics
+        including geostatistics as well as spatial econometrics and
+        point processes. Besides elementary plots like boxplots,
+        histograms or simple scatterplos, GeoXp also couples with maps
+        Moran scatterplots, variogram cloud, Lorentz Curves,...In order
+        to make the most of the multidimensionality of the data, GeoXp
+        includes some dimension reduction techniques such as PCA.
+License: GPL (>= 2)
+URL: \url{ http://w3.univ-tlse1.fr/GREMAQ/Statistique/SP_etheme3.pdf }
+Packaged: 2009-11-05 19:24:06 UTC; laurent
+Repository: CRAN
+Date/Publication: 2009-11-05 20:05:06

@@ -1,0 +1,15 @@
+Package: inarmix
+Type: Package
+Title: Mixture models for longitudinal count data.
+Version: 0.2
+Date: 2013-07-27
+Author: Nicholas Henderson and Paul Rathouz
+Maintainer: Nicholas Henderson <nhenders@stat.wisc.edu>
+Description: Fits mixtures models for longitudinal data. Appropriate when the data are counts and when the correlation structure is assumed to be AR(1).
+License: GPL-2
+Depends: Matrix, Rcpp (>= 0.10.3)
+LinkingTo: Rcpp
+Packaged: 2013-07-28 15:36:27 UTC; nhenders
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-28 18:36:16

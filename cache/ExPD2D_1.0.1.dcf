@@ -1,0 +1,20 @@
+Package: ExPD2D
+Type: Package
+Title: Exact Computation of Bivariate Projection Depth Based on Fortran
+        Code
+Version: 1.0.1
+Date: 2009-05-06
+Author: Yijun Zuo, Xiangyang Ye
+Maintainer: Xiangyang Ye <xyexye08@gmail.com>
+Description: Projection depth is one of favorite data depth among all
+        its competitors. But like all depth functions, compute data
+        depth is a very challenging problem. This package computes
+        exact projection depth based on FORTRAN code, but now one can
+        utilize the package in R to get the exact projection depth of
+        data points.
+License: GPL-2
+LazyLoad: yes
+URL: http://home.utah.edu/~u0585652
+Packaged: 2012-10-29 08:57:01 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:02

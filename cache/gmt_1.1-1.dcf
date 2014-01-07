@@ -1,0 +1,16 @@
+Package: gmt
+Version: 1.1-1
+Date: 2005-08-02
+Title: Interface between GMT map-making software and R
+Author: Arni Magnusson
+Maintainer: Arni Magnusson <arnima@u.washington.edu>
+LazyData: yes
+Description: Interface between the GMT map-making software and R,
+  enabling the user to manipulate geographic data within R and call GMT commands
+  to draw and annotate maps in postscript format. The 'gmt' package is about
+  interactive data analysis, rapidly visualizing subsets and summaries of
+  geographic data, while performing statistical analysis in the R console.
+License: GPL version 2 or newer
+URL: http://gmt.soest.hawaii.edu/,
+  http://students.washington.edu/arnima/s/
+Packaged: Thu Aug  2 19:33:01 2007; hornik

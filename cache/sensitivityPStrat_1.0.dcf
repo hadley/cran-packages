@@ -1,0 +1,15 @@
+Package: sensitivityPStrat
+Type: Package
+Title: Principal Stratification Sensitivity Analysis Functions
+Version: 1.0
+Date: 2010-01-23
+Author: Charles Dupont
+Maintainer: Charles Dupont <charles.dupont@vanderbilt.edu>
+Description: This package provides functions to perform principal
+        stratification sensitivity analyses on datasets.
+Depends: stats, survival
+License: GPL
+LazyLoad: yes
+Packaged: 2010-05-06 22:55:06 UTC; dupontct
+Repository: CRAN
+Date/Publication: 2010-05-07 08:57:14

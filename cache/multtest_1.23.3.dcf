@@ -1,0 +1,24 @@
+Package: multtest
+Title: Resampling-based multiple hypothesis testing
+Version: 1.23.3
+Author: Katherine S. Pollard, Yongchao Ge, Sandra Taylor, Sandrine Dudoit
+Description: Non-parametric bootstrap and permutation resampling-based
+        multiple testing procedures for controlling the family-wise
+        error rate (FWER), generalized family-wise error rate (gFWER),
+        tail probability of the proportion of false positives (TPPFP),
+        and false discovery rate (FDR). Single-step and step-wise
+        methods are implemented. Tests based on a variety of t- and
+        F-statistics (including t-statistics based on regression
+        parameters from linear and survival models) are included.
+        Results are reported in terms of adjusted p-values,
+        confindence regions and test statistic cutoffs. The procedures
+        are directly applicable to identifying differentially
+        expressed genes in DNA microarray experiments.
+Maintainer: Katherine S. Pollard <kpollard@gladstone.ucsf.edu>
+Depends: R (>= 2.1.0), methods, Biobase
+Imports: survival
+Enhances: snow, Rmpi, rpvm
+License: LGPL
+biocViews: Microarray, DifferentialExpression, MultipleComparisons
+LazyLoad:yes
+Packaged: Fri Feb 13 02:43:36 2009; biocbuild

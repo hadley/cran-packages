@@ -1,0 +1,11 @@
+Package: yaImpute
+Version: 0.0-1
+Date: 10 January 2007
+Title: Performs popular nearest neighbor routines
+Author: Nicholas L. Crookston <ncrookston@fs.fed.us>, Andrew O. Finley <afinley@stat.umn.edu>
+Maintainer: Andrew O. Finley <afinley@stat.umn.edu>
+Depends: R (>= 2.4.0)
+Suggests: vegan, randomForest, gam, fastICA, sp
+Description: Performs popular nearest neighbor routines
+License: Function ann and all the code in src except rfoneprox.cpp is covered by Lesser GNU Public License (LGPL). Otherwise, this package was written and prepared by U.S. Government employees on official time and therefore is in the public domain and not subject to copyright.
+Packaged: Fri Jan 26 00:38:39 2007; andy

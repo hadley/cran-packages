@@ -1,0 +1,33 @@
+Package: MSeasy
+Type: Package
+Title: Preprocessing of Gas Chromatography-Mass Spectrometry (GC-MS)
+        data
+Version: 5.3.3
+Date: 2013-03-18
+Depends: amap, clValid, cluster, fpc, mzR, xcms
+Suggests: tcltk
+Author: Elodie Courtois <courtoiselodie@gmail.com>, Yann Guitton
+        <yann.guitton@gmail.com>, Florence Nicole
+        <florence.nicole@univ-st-etienne.fr>
+Maintainer: Yann GUITTON <yann.guitton@gmail.com>
+Description: Package for the detection of molecules in complex mixtures
+        of compounds. It creates an initial_DATA matrix from several
+        GC-MS analyses by collecting and assembling the information
+        from chromatograms and mass spectra (MS.DataCreation), It can
+        read several format (ASCII, CDF, mzML, mzXML or mzData).It
+        tests for the best unsupervised clustering method to group
+        similar mass spectra into molecules (MS.test.clust).It runs the
+        optimal unsupervised clustering method on the initial_DATA
+        matrix, identifies the optimal number of clusters, produces
+        different files for facilitating the quality control and
+        identification of putative molecules, and returns
+        fingerprinting or profiling matrices (MS.clust).It converts
+        output files from MS.clust for NIST mass spectral library
+        search and ARISTO webtool search
+License: GPL-2
+URL: http://sites.google.com/site/rpackagemseasy/
+LazyData: yes
+Packaged: 2013-03-19 16:52:04 UTC; chimimar
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-20 17:07:31

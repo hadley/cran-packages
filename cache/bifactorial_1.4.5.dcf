@@ -1,0 +1,16 @@
+Package: bifactorial
+Version: 1.4.5
+Date: 2010-11-22
+Author: Peter Frommolt
+Maintainer: Peter Frommolt <peter.frommolt@uni-koeln.de>
+Title: Inferences for bi- and trifactorial trial designs
+Depends: mvtnorm,multcomp,lattice,graphics,methods,Rcpp (>= 0.7.4)
+LinkingTo: Rcpp
+Description: This package makes global and multiple inferences for
+        given bi- and trifactorial clinical trial designs using
+        bootstrap methods and a classical approach.
+URL: http://portal.ccg.uni-koeln.de
+License: GPL
+Packaged: 2010-11-22 08:20:52 UTC; frommolt
+Repository: CRAN
+Date/Publication: 2010-11-22 10:40:41

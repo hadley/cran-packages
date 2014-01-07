@@ -1,0 +1,27 @@
+Package: archetypes
+Type: Package
+Title: Archetypal Analysis
+Version: 2.1-0
+Date: 2011-10-25
+Depends: methods, stats, modeltools, nnls (>= 1.1)
+Suggests: MASS, vcd, mlbench, ggplot2
+Authors@R: c(person("Manuel", "J. A. Eugster", role = c("aut", "cre"),
+        email = "manuel.eugster@stat.uni-muenchen.de"),
+        person("Friedrich", "Leisch", role = "aut"))
+Description: The main function archetypes implements a framework for
+        archetypal analysis supporting arbitary problem solving
+        mechanisms for the different conceputal parts of the algorithm.
+License: GPL (>= 2)
+Revision: 44
+Collate: 'archetypes-barplot.R' 'generics.R' 'archetypes-class.R'
+        'archetypes-kit-blocks.R' 'archetypes-kit.R'
+        'archetypes-movie.R' 'archetypes-panorama.R' 'pcplot.R'
+        'archetypes-pcplot.R' 'archetypes-robust.R'
+        'archetypes-screeplot.R' 'archetypes-step.R'
+        'archetypes-weighted.R' 'archetypes-xyplot.R' 'memento.R'
+        'skeletonplot.R' 'archetypes-map.R'
+Packaged: 2012-06-13 11:12:23 UTC; meugster
+Author: Manuel J. A. Eugster [aut, cre], Friedrich Leisch [aut]
+Maintainer: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>
+Repository: CRAN
+Date/Publication: 2012-06-13 12:22:08

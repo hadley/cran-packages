@@ -1,0 +1,36 @@
+Package: DiscriMiner
+Type: Package
+Title: Tools of the Trade for Discriminant Analysis
+Version: 0.1-29
+Date: 2013-11-14
+Authors@R: c(
+    person("Gaston", "Sanchez",
+    email = "gaston.stat@gmail.com", role = c("aut", "cre")),
+    person("Charles", "Determan", role = "ctb"))
+Depends: R (>= 2.15.0)
+Suggests: MASS, FactoMineR
+Description: Functions for Discriminant Analysis and Classification purposes
+    covering various methods such as descriptive, geometric, linear, quadratic,
+    PLS, as well as qualitative discriminant analyses
+License: GPL-3
+URL: http://www.gastonsanchez.com
+LazyData: yes
+Collate: 'DiscriMiner-package.R' 'FRatio.R' 'betweenCov.R'
+        'betweenSS.R' 'binarize.R' 'classify.R' 'corRatio.R' 'desDA.R'
+        'discPower.R' 'disqual.R' 'easyMCA.R' 'geoDA.R' 'getWithin.R'
+        'groupMeans.R' 'groupMedians.R' 'groupQuants.R' 'groupStds.R'
+        'groupVars.R' 'linDA.R' 'my_betweenCov.R' 'my_catDA.R'
+        'my_discFunctions.R' 'my_geoDA.R' 'my_groupMeans.R'
+        'my_linDA.R' 'my_mca.R' 'my_plsDA.R' 'my_quaDA.R' 'my_tdc.R'
+        'my_verify.R' 'my_withinCov.R' 'plot.plsda.R' 'print.desda.R'
+        'print.disqual.R' 'print.geoda.R' 'print.linda.R'
+        'print.plsda.R' 'print.quada.R' 'print.qualmca.R' 'quaDA.R'
+        'totalCov.R' 'totalSS.R' 'withinCov.R' 'withinSS.R'
+        'my_plsDA_old.R' 'plsDA_old.R' 'plsDA.R'
+Packaged: 2013-11-14 19:52:13 UTC; Gaston
+Author: Gaston Sanchez [aut, cre],
+  Charles Determan [ctb]
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-15 00:52:30

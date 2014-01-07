@@ -1,0 +1,12 @@
+Package: mefa
+Type: Package
+Title: Multivariate count data handling in ecology and biogeography
+Version: 1.1-0
+Date: 2008-03-14
+Author: Peter Solymos
+Maintainer: Peter Solymos <Solymos.Peter@aotk.szie.hu>
+Depends: R (>= 2.6.0), vegan
+Description: R package for multivariate count data handling in ecology and biogeography. The name 'mefa' stands for the term 'metafaunistics' indicating that data handling is the most critical and sometimes most time consuming part of data analysis. The package contains object classes and functions to manipulate basic biotic (sample/species/count or crosstabulated) count data and relational attribute tables for samples and species. Functions can handle segments within the count data and samples with zero count. Reports are generated in plain text or LaTeX format.
+License: GPL-2
+URL: http://mefa.r-forge.r-project.org/
+Packaged: Sat Mar 15 00:08:06 2008; Peter Solymos

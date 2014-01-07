@@ -1,0 +1,27 @@
+Package: car
+Version: 2.0-0
+Date: 2010/07/09
+Title: Companion to Applied Regression
+Author: John Fox <jfox@mcmaster.ca> and Sanford Weisberg
+        <sandy@stat.umn.edu>. We are grateful to Douglas Bates, David
+        Firth, Michael Friendly, Gregor Gorjanc, Spencer Graves,
+        Richard Heiberger, Georges Monette, Henric Nilsson, Derek Ogle,
+        Brian Ripley, and Achim Zeileis for various suggestions and
+        contributions.
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: R (>= 2.1.1), stats, graphics, MASS, nnet, leaps, survival
+Suggests: alr3, lmtest, sandwich, mgcv, rgl
+LazyLoad: yes
+LazyData: yes
+Description: This package accompanies J. Fox and S. Weisberg, An R
+        Companion to Applied Regression, Second Edition, Sage,
+        forthcoming.
+License: GPL (>= 2)
+URL: https://r-forge.r-project.org/projects/car/,
+        http://cran.r-project.org/web/packages/car/index.html,
+        http://socserv.socsci.mcmaster.ca/jfox/Books/Companion/index.html
+Repository: CRAN
+Repository/R-Forge/Project: car
+Repository/R-Forge/Revision: 149
+Date/Publication: 2010-07-26 15:32:13
+Packaged: 2010-07-10 20:44:00 UTC; rforge

@@ -1,0 +1,29 @@
+Package: adegenet
+Version: 1.3-5
+Date: 2012/10/31
+Title: adegenet: an R package for the exploratory analysis of genetic
+        and genomic data.
+Author: Thibaut Jombart <t.jombart@imperial.ac.uk>
+Developpers: Ismail Ahmed <ismail.ahmed@inserm.fr>, Anne Cori
+        <a.cori@imperial.ac.uk>, Peter Solymos
+Contributed datasets from: Katayoun Moazami-Goudarzi, Denis Laloe,
+        Dominique Pontier, Daniel Maillard, Francois Balloux
+Maintainer: Thibaut Jombart <t.jombart@imperial.ac.uk>
+Suggests: genetics, spdep, tripack, ape, pegas, seqinr, adehabitat,
+        multicore, akima, maps, splancs, hierfstat
+Depends: R (>= 2.10), methods, MASS, ade4, igraph
+Description: Classes and functions for genetic data analysis within the
+        multivariate framework.
+Collate: classes.R basicMethods.R handling.R auxil.R setAs.R SNPbin.R
+        glHandle.R glFunctions.R glSim.R find.clust.R hybridize.R
+        scale.R fstat.R import.R seqTrack.R chooseCN.R genind2genpop.R
+        loadingplot.R sequences.R gstat.randtest.R makefreq.R
+        colorplot.R monmonier.R spca.R coords.monmonier.R haploGen.R
+        old2new.R spca.rtests.R dapc.R haploPop.R PCtest.R
+        dist.genpop.R Hs.R propShared.R export.R HWE.R propTyped.R
+        inbreeding.R glPlot.R gengraph.R simOutbreak.R zzz.R
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-01 19:16:00 UTC; thibaut
+Repository: CRAN
+Date/Publication: 2012-11-01 20:37:59

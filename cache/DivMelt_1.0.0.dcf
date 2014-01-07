@@ -1,0 +1,17 @@
+Package: DivMelt
+Type: Package
+Title: Diversity Melting Assay Analysis package
+Version: 1.0.0
+Author: David Swan <dswan@fhcrc.com>
+Maintainer: David Swan <dswan@fhcrc.com>
+Description: This package has tools for analyzing Diversity Assay
+        fluorescence files to generate melting scores, plots and
+        statistics
+License: Artistic-2.0
+Depends: R(>= 2.12.0),tcltk,glmnet
+Imports:
+biocViews:
+URL:
+Packaged: 2012-07-09 16:30:56 UTC; dswan
+Repository: CRAN
+Date/Publication: 2012-07-10 16:25:45

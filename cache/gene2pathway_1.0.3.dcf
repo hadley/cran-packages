@@ -1,0 +1,13 @@
+Package: gene2pathway
+Version: 1.0.3
+Date: 2008-11-10
+Title: Prediction of KEGG pathway membership for individual genes based on InterPro domain signatures
+Author: Holger Froehlich <h.froehlich@dkfz.de>, contributions by Tim Beissbarth <t.beissbarth@dkfz.de>
+Description: The package takes a list of genes and predicts to which KEGG pathway each gene maps to. This is done by looking at the InterPro domains of each gene. Each prediction is assigned a confidence score. The package also allows to predict connected component membership of genes within signaling pathways. Separate models for each organism supported by KEGG can be trained.
+Maintainer: Holger Froehlich <h.froehlich@dkfz.de>
+Reference: H. Froehlich, M. Fellmann, H. Sueltmann, A. Poustka, T. Beissbarth, Predicting Pathway Membership via Domain Signatures, Bioinformatics, 24:2137-2142, 2008
+Depends: R (>= 2.6.0), kernlab (>= 0.9), KEGG.db (>= 2.2.0), biomaRt (>= 1.12.1), KEGGSOAP (>= 1.12.0), RBGL, AnnotationDbi,org.Dm.eg.db 
+LazyLoad: Yes
+biocViews: Microarray, Statistics, Classification, GraphsAndNetworks, Pathways
+License: GPL (>= 2)
+Packaged: Wed Nov 12 10:15:17 2008; froehlih

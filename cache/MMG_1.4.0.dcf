@@ -1,0 +1,16 @@
+Package: MMG
+Type:    Package
+Title:   Mixture Model on Graphs
+Version: 1.4.0
+Date:    2008-11-18
+Author:  Josselin Noirel and Guido Sanguinetti
+Maintainer: Josselin Noirel <j.noirel@sheffield.ac.uk>
+Depends: R (>= 2.6.0)
+Description: This package implements the Mixture Model on Graphs
+	developed in Sanguinetti et al., Bioinformatics 2008.  The
+	graph structure is used to infer quantities that were not
+	measured, based on the neighbours' measurements.  This approach
+	was developed to address problems typical of Quantitative
+	Proteomics but could be applicable to many other domains.
+License: GPL-3
+Packaged: Tue Nov 18 16:08:10 2008; jnoirel

@@ -1,0 +1,22 @@
+Package: pvclass
+Type: Package
+Title: P-values for Classification
+Version: 1.0
+Date: 2010-07-29
+Author: Niki Zumbrunnen <niki.zumbrunnen@stat.unibe.ch>, Lutz Duembgen
+        <lutz.duembgen@stat.unibe.ch>.
+Maintainer: Niki Zumbrunnen <niki.zumbrunnen@stat.unibe.ch>
+Depends: Matrix
+Description: Computes nonparametric p-values for the potential class
+        memberships of new observations as well as cross-validated
+        p-values for the training data. The p-values are based on
+        permutation tests applied to an estimated Bayesian likelihood
+        ratio, using a plug-in statistic for the Gaussian model, 'k
+        nearest neighbors' or 'weighted nearest neighbors'.
+        Additionally, it provides graphical displays and quantitative
+        analyses of the p-values.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-07-29 14:06:28 UTC; niki
+Repository: CRAN
+Date/Publication: 2010-07-29 15:47:20

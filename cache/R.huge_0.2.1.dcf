@@ -1,0 +1,24 @@
+Package: R.huge
+Version: 0.2.1
+Date: 2010-11-08
+Title: Methods for accessing huge amounts of data [DEPRECATED]
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.5.0), R.oo (>= 1.7.3), R.utils (>= 1.5.7)
+Description: THIS PACKAGE HAS BEEN DEPRECATED. Do not start building
+        new projects based on it. Cross-platform alternatives are the
+        following packages: bigmemory (CRAN), ff (CRAN), BufferedMatrix
+        (BioConductor).  The main usage of it was inside the
+        aroma.affymetrix package. (The package currently provides a
+        class representing a matrix where the actual data is stored in
+        a binary format on the local file system.  This way the size
+        limit of the data is set by the file system and not the
+        memory.)
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/
+LazyLoad: TRUE
+Repository: CRAN
+Repository/R-Forge/Project: r-dots
+Repository/R-Forge/Revision: 437
+Date/Publication: 2011-02-01 07:48:31
+Packaged: 2011-01-31 21:40:19 UTC; rforge

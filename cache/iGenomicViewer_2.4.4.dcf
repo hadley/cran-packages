@@ -1,0 +1,21 @@
+Package: iGenomicViewer
+Version: 2.4.4
+Date: Oct 29, 2009
+Title: Tool for sending interactive bioinformatic heatmaps with
+        tool-tip content.
+Author: Daniel P Gaile <dpgaile@buffalo.edu>, Lori A. Shepherd
+        <las65@buffalo.edu>, Lara Sucheston <lsuchest@buffalo.edu>,
+        Andrew Bruno <aebruno2@ccr.buffalo.edu>, Kenneth F. Manly
+        <manly@buffalo.edu>
+Maintainer: Lori A. Shepherd <las65@buffalo.edu>
+Depends: sendplot(>= 3.8.0)
+biocViews:
+        Software,Visualization,DataRepresentation,MultipleComparisons,Bioinformatics,Infrastructure,Genetics,Annotation,
+        AssayTechnologies,AssayDomains
+Description: A tool for visualizing data
+License: GPL (>= 2)
+URL:
+        http://sphhp.buffalo.edu/biostat/research/software/igenomicviewer/index.php
+Packaged: Thu Oct 29 11:25:03 2009; las65
+Repository: CRAN
+Date/Publication: 2009-10-29 17:25:07

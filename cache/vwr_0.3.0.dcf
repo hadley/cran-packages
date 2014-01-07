@@ -1,0 +1,24 @@
+Package: vwr
+Type: Package
+Title: Useful functions for visual word recognition research
+Version: 0.3.0
+Date: 2013-08-07
+Author: Emmanuel Keuleers
+Maintainer: Emmanuel Keuleers <emmanuel.keuleers@ugent.be>
+Description: Functions and data for use in visual word recognition research: 
+	 Computation of neighbors (Hamming and Levenshtein
+	 distances), average distances to neighbors (e.g., OLD20),
+	 and Coltheart's N. Also includes the LD1NN algorithm to
+	 detect bias in the composition of a lexical decision task. Most of
+	 the functions support parallel execution. Supplies wordlists for 
+	 several languages. Uses the string distance functions from the stringdist package by Mark van der Loo.
+Depends: R(>= 3.0.1), stringdist, lattice, latticeExtra
+Suggests: parallel
+License: GPL (>= 3)
+LazyData: yes
+Encoding: UTF-8
+Packaged: 2013-08-19 09:48:23 UTC; emmanuel
+NeedsCompilation: no
+LazyDataCompression: xz
+Repository: CRAN
+Date/Publication: 2013-08-19 12:28:49

@@ -1,0 +1,25 @@
+Package: CORElearn
+Title: CORElearn - classification, regression, feature evaluation and
+        ordinal evaluation
+Version: 0.9.22
+Date: 2009-08-17
+Author: Marko Robnik-Sikonja <marko.robnik@fri.uni-lj.si>, Petr Savicky
+        <savicky@cs.cas.cz>
+Maintainer: Marko Robnik-Sikonja <marko.robnik@fri.uni-lj.si>
+Description: CORElearn is machine learning suite ported to R from
+        standalone C++ package. It contains several model learning
+        techniques in classification and regression, for example
+        decision and regression trees with optional constructive
+        induction and models in the leafs, random forests, kNN, naive
+        Bayes, and locally weighted regression. It is especially strong
+        in feature evaluation algorithms where it contains several
+        variants of Relief algorithm and many impurity based attribute
+        evaluation functions, e.g., Gini, information gain, MDL, DKM,
+        ... Its additional strength is ordEval algorithm and its
+        visualization used for ordinal features and class. The top
+        level documentation is reachable through ?CORElearn.
+License: GPL
+URL: http://lkm.fri.uni-lj.si/rmarko/software/
+Packaged: 2009-09-20 19:06:04 UTC; rmarko
+Repository: CRAN
+Date/Publication: 2009-09-20 20:07:24

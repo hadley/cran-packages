@@ -1,0 +1,16 @@
+Package: HGNChelper
+Maintainer: Levi Waldron <lwaldron@hsph.harvard.edu>
+Depends: R (>= 2.10)
+Author: Levi Waldron
+Version: 0.1
+Date: 2012-07-19
+License: GPL (> 2.0)
+Title: Handy functions for working with HGNC gene symbols and
+        Affymetrix probeset identifiers.
+Description: Contains functions for identifying and correcting HGNC
+        gene symbols which have been converted to date format by Excel,
+        and for reversibly converting between HGNC symbols and valid R
+        names.
+Packaged: 2012-07-20 01:23:31 UTC; lwaldron
+Repository: CRAN
+Date/Publication: 2012-07-20 11:46:57

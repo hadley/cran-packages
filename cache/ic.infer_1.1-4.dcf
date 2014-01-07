@@ -1,0 +1,19 @@
+Package: ic.infer
+Title: Inequality constrained inference in linear normal situations
+Version: 1.1-4
+Depends: R(>= 2.5.0)
+Imports: quadprog, mvtnorm, boot, kappalab
+Suggests: relaimpo
+Date: 2013-09-13
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@beuth-hochschule.de>
+Description: This package implements parameter estimation in normal (linear) models under linear equality and inequality constraints and implements normal likelihood ratio tests involving inequality-constrained hypotheses. For inequality-constrained linear models, averaging over R-squared for different orderings of regressors is also included.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: latin1
+URL: http://prof.beuth-hochschule.de/groemping/
+Packaged: 2013-09-13 11:34:24 UTC; Grömping
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-13 14:18:13

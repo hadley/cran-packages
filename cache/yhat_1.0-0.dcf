@@ -1,0 +1,18 @@
+Package: yhat
+Type: Package
+Title: Interpreting Regression Effects
+Version: 1.0-0
+Date: 2009-07-02
+Author: Kim Nimon <kim.nimon@gmail.com>
+Maintainer: Kim Nimon <kim.nimon@gmail.com>
+Depends: R (>= 2.7.0)
+Suggests: MBESS, yacca
+Description: The purpose of this package is to provide methods for
+        computing commonality coefficients for linear models and
+        commonality coefficients for canonical correlation analysis.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+LazyLoad: yes
+Packaged: 2009-07-03 13:35:10 UTC; Michael
+Repository: CRAN
+Date/Publication: 2009-07-18 16:16:51

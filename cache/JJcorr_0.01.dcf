@@ -1,0 +1,16 @@
+Package: JJcorr
+Type: Package
+Title: Calculates polychorical correlations for several copula
+        families.
+Version: 0.01
+Date: 2009-11-08
+Author: Jeroen Ooms and Joakim Ekstrom
+Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
+Description: Calculates polychorical correlations for several copula
+        families.
+License: GPL
+LazyLoad: yes
+Depends: fCopulae, mvtnorm
+Packaged: 2010-02-01 21:24:14 UTC; jeroenooms
+Repository: CRAN
+Date/Publication: 2010-02-02 10:08:23

@@ -1,0 +1,20 @@
+Encoding: latin1
+Package: multibiplotGUI
+Type: Package
+Title: Multibiplot Analysis in R
+Version: 0.0-1
+Date: 2010/07/20
+Author: Ana Belen Nieto Librero <ananieto@usal.es>, Nora Baccala
+        <norabaccala@gmail.com>, Purificacion Vicente Galindo
+        <purivg@usal.es>, Purificacion Galindo Villardon
+        <pgalindo@usal.es>
+Maintainer: Ana Belen Nieto Librero <ananieto@usal.es>
+Depends: R (>= 2.9.2), rgl (>= 0.87), tcltk (>= 2.9.2), tkrplot (>=
+        0.0-18), RODBC (>= 1.3-0)
+Description: Provides a GUI with which users can construct and interact
+        with Multibiplot Analysis.
+License: GPL (>= 2)
+SystemRequirements: windows
+Packaged: 2012-10-29 08:59:14 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:14

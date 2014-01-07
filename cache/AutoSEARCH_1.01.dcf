@@ -1,0 +1,15 @@
+Package: AutoSEARCH
+Type: Package
+Title: General-to-Specific (GETs) Model Selection
+Version: 1.01
+Date: 2011-11-13
+Author: Genaro Sucarrat
+Maintainer: Genaro Sucarrat <genaro.sucarrat@bi.no>
+Depends: R (>= 2.4.1), zoo
+Description: Multi-path General-to-Specific (GETS) model selection of the mean and log-volatility specifications of a power log-ARCH model
+License: GPL-2
+LazyLoad: yes
+URL: http://www.sucarrat.net/
+Packaged: 2011-11-13 15:55:57 UTC; admin
+Repository: CRAN
+Date/Publication: 2011-11-14 06:53:04

@@ -1,0 +1,31 @@
+Package: opm
+Version: 0.8-0
+Date: 2013-01-23
+Title: Tools for analysing OmniLog(R) Phenotype Microarray data
+Author: Markus Goeker, with contributions by Lea A.I. Vaas, Benjamin
+        Hofner, Johannes Sikorski, Nora Buddruhs and Anne Fiebig
+Maintainer: Markus Goeker <markus.goeker@dsmz.de>
+Depends: R (>= 2.10.0), grofit
+Imports: methods, lattice, boot, hwriter, plotrix, pkgutils (>= 0.3-0),
+        Ckmeans.1d.dp, yaml (>= 2.1.5)
+Suggests: multicore, optparse, gplots, opmdata (>= 0.4-0), testthat
+Description: Tools for analysing OmniLog(R) and Microstation Phenotype
+        Microarray (PM) data as produced by the devices distributed by
+        BiOLOG Inc., including plotting, aggregating (estimating curve
+        parameters), comparing and discretizing PM data, creating
+        phylogenetic formats and reports for taxonomic journals,
+        integrating metadata, using the YAML format for the storage of
+        data and metadata, and batch conversion of large numbers of
+        files.
+License: GPL (>= 2)
+URL: http://opm.dsmz.de/
+Collate: 'substrate-info.R' 'well-map.R' 'plate-map.R' 'imports.R'
+        'package.R' 'constants.R' 'classes.R' 'auxiliary.R' 'kmeans.R'
+        'naming.R' 'metadata.R' 'getter.R' 'conversion.R'
+        'combination.R' 'aggregation.R' 'discretization.R' 'plotting.R'
+        'io.R' 'phylogeny.R' 'data.R' 'testing.R'
+LazyData: yes
+LazyDataCompression: bzip2
+Packaged: 2013-01-23 21:36:30 UTC; goeker
+Repository: CRAN
+Date/Publication: 2013-01-24 08:16:10

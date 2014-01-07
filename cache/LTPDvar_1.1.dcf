@@ -1,0 +1,19 @@
+Package: LTPDvar
+Type: Package
+Title: LTPD and AOQL plans for acceptance sampling inspection by
+        variables
+Version: 1.1
+Date: 2012-11-18
+Author: Nikola Kasprikova
+Maintainer: Nikola Kasprikova <data@tulipany.cz>
+Description: Calculation of LTPD and AOQL plans for sampling inspection
+        by variables which minimize mean inspection cost per lot of
+        process average quality
+Depends: methods
+Imports: graphics
+License: GPL-2
+URL: http://samplingplans.tulipany.cz
+LazyLoad: yes
+Packaged: 2012-11-20 08:39:36 UTC; nikola
+Repository: CRAN
+Date/Publication: 2012-11-20 08:54:35

@@ -1,0 +1,22 @@
+Package: IBDsim
+Type: Package
+Title: Simulation of chromosomal regions shared by related individuals.
+Version: 0.7
+Date: 2011-10-09
+Author: Magnus Dehli Vigeland
+Maintainer: <magnusdv@medisin.uio.no>
+Description: Simulates phased diploid DNA-strands for each pedigree
+        member pedigree, either by unconditional "gene dropping" or
+        conditional on a specified IBD pattern. Regions compatible with
+        user-defined IBD patterns (possibly different from the
+        conditional patterns) are detected and summary statics
+        computed. Each meioses in the pedigree is simulated from the
+        latest Decode recombination map of the human genome (Kong et
+        al, 2010), and a four stranded chi squared model as the basis
+        model for recombination.
+Depends: R (>= 2.12), paramlink
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-10-14 16:18:52 UTC; magnusdv
+Repository: CRAN
+Date/Publication: 2011-10-15 19:52:33

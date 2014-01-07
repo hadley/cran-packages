@@ -1,0 +1,23 @@
+Package: treebase
+Type: Package
+Title: An R package for discovery, access and manipulation of online
+        phylogenies
+Version: 0.0-6
+Date: 2011-04-25
+Author: Carl Boettiger, Duncan Temple-Lang
+Maintainer: Carl Boettiger <cboettig@gmail.com>
+Authors@R: c(person("Carl", "Boettiger", role = c("aut", "cre"), email
+        = "cboettig@gmail.com"), person("Duncan", "Temple Lang", role =
+        "aut"))
+Description: Interface to the API for TreeBASE
+License: CC0
+URL: http://www.github.com/ropensci/treebase
+BugReports: http://www.github.com/ropensci/treebase/issues
+Imports: XML, RCurl, methods, utils, reshape2, data.table
+Depends: R (>= 2.12), ape
+Suggests: TreePar, testthat
+Collate: 'cache_treebase.R' 'clean_metadata.R' 'data.R' 'metadata.R'
+        'treebase.R' 'download_metadata.R'
+Packaged: 2012-06-26 19:17:37 UTC; cboettig
+Repository: CRAN
+Date/Publication: 2012-06-27 05:34:47

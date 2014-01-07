@@ -1,0 +1,18 @@
+Package: CCA
+Type: Package
+Encoding: latin1
+Title: Canonical correlation analysis
+Version: 1.2
+Date: 2009-03-11
+Author: Ignacio González, Sébastien Déjean
+Maintainer: Sébastien Déjean <sebastien.dejean@math.univ-toulouse.fr>
+Description: The package provide a set of functions that extend the
+        cancor function with new numerical and graphical outputs. It
+        also include a regularized extension of the cannonical
+        correlation analysis to deal with datasets with more variables
+        than observations.
+Depends: fda, fields
+License: GPL (>= 2)
+Packaged: 2012-10-29 13:13:08 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:37

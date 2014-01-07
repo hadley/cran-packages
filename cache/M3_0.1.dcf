@@ -1,0 +1,17 @@
+Package: M3
+Type: Package
+Title: Reading M3 files
+Version: 0.1
+Date: 2011-03-03
+Author: Jenise Swall <Swall.Jenise@epa.gov>
+Maintainer: Jenise Swall <Swall.Jenise@epa.gov>
+Depends: ncdf4,rgdal,maps
+Description: This package contains functions to read in and manipulate
+        air quality model output from Models3-formatted files.  This
+        format is used by the Community Multiscale Air Quaility (CMAQ)
+        model.
+License: Unlimited
+LazyLoad: yes
+Packaged: 2011-06-15 14:08:42 UTC; swall
+Repository: CRAN
+Date/Publication: 2011-06-20 19:18:02

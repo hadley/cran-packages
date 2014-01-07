@@ -1,0 +1,18 @@
+Package: mseapca
+Type: Package
+Title: Metabolite set enrichment analysis for factor loading in
+        principal component analysis
+Version: 1.0
+Date: 2012-04-10
+Author: Hiroyuki Yamamoto
+Maintainer: Hiroyuki Yamamoto <h.yama2396@gmail.com>
+Description: This package provides functions for metabolite set
+        enrichment analysis (MSEA) and principal component analysis
+        (PCA), and converting metabolite set list from your own csv
+        files or KEGG's tar.gz files to XML documents.  This package is
+        suitable for computation of MSEA for factor loading in PCA.
+License: BSD
+Depends: XML
+Packaged: 2012-04-15 04:16:03 UTC; yamamoto
+Repository: CRAN
+Date/Publication: 2012-04-15 16:42:20

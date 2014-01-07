@@ -1,0 +1,16 @@
+Package: MultEq
+Type: Package
+Title: Equivalence tests and simultaneous confidence intervals for multiple endpoints
+Version: 1.0
+Date: 2008-01-08
+Author: Mario Hasler <hasler@biostat.uni-hannover.de>
+Maintainer: Mario Hasler <hasler@biostat.uni-hannover.de>
+Depends: R (>= 2.2.0), mvtnorm
+Description: The package provides tests and confidence intervals for
+ comparing two treatments when there is more than one primary response
+ variable (endpoint) given. The step-up procedure of Quan et al. (2001)
+ is both applied for differences and extended to ratios of means of
+ normally distributed data with equal group variances. A related
+ single-step procedure is also available.
+License: GPL
+Packaged: Mon Jan 14 15:46:44 2008; Mario

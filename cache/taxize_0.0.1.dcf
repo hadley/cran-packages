@@ -1,0 +1,33 @@
+Package: taxize
+Description: Taxonomic search and phylogeny retrieval.
+Title: Taxonomic search and phylogeny retrieval.
+Version: 0.0.1
+Date: 2012-12-03
+License: CC0
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+        email = "myrmecocystus@gmail.com"), person("Eduard", "Szoecs",
+        role = "aut", email = "szoe8822@uni-landau.de"), person("Carl",
+        "Boettiger", role = "aut", email = "cboettig@gmail.com"))
+LazyLoad: yes
+LazyData: yes
+Depends: ritis
+Imports: XML, RCurl (>= 1.6), stringr, plyr, httr (>= 0.2), RJSONIO,
+        foreach, ape, Taxonstand
+Suggests: testthat, roxygen2, doMC, rjson
+Collate: 'classification.R' 'get_tsn.R' 'gnr_datasources.R'
+        'ubio_namebank.R' 'gni_search.R' 'gni_details.R'
+        'iucn_summary.R' 'get_uid.R' 'plantminer.R' 'eol_hierarchy.R'
+        'eol_ping.R' 'eol_search.R' 'gnr_resolve.R'
+        'iplant_tnrsmatch.R' 'phylomatic_tree.R' 'get_seqs.R'
+        'taxize-package.R' 'capwords.r' 'itis_acceptname.R'
+        'itis_name.R' 'itis_phymat_format.R' 'itis_taxrank.R' 'itis.R'
+        'eol_pages.R' 'tp_acceptednames.R' 'tp_namedistributions.R'
+        'tp_namereferences.R' 'tp_summary.R' 'tp_synonyms.R' 'zzz.R'
+        'get_genes_avail.R' 'tpl_search.r' 'tpl_get.r'
+        'itis_downstream.R'
+Packaged: 2012-12-04 17:24:37 UTC; ScottMac
+Author: Scott Chamberlain [aut, cre], Eduard Szoecs [aut], Carl
+        Boettiger [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+Repository: CRAN
+Date/Publication: 2012-12-04 18:47:14

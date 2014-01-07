@@ -1,0 +1,10 @@
+Package: mfp
+Title: Multivariable Fractional Polynomials
+Version: 1.4.5
+Date: 2008-06-21
+Author: original by Gareth Ambler <gareth@stats.ucl.ac.uk>, modified by Axel Benner <benner@dkfz.de>
+Maintainer: Axel Benner <benner@dkfz.de>
+Depends: survival
+Description: Fractional polynomials are used to represent curvature in regression models. A key reference is Royston and Altman, 1994.
+License: GPL (>= 2)
+Packaged: Thu Jun 26 10:08:26 2008; hornik

@@ -1,0 +1,17 @@
+Package: extracat
+Type: Package
+Title: Graphic Extensions for Categorical Data
+Version: 1.1-0
+Date: 2011-02-08
+Author: Alexander Pilhoefer <alexander.pilhoefer@math.uni-augsburg.de>
+Maintainer: Alexander Pilhoefer
+        <alexander.pilhoefer@math.uni-augsburg.de>
+Description: graphic extensions for categorical data
+Depends: R (>= 2.12.0), reshape2, grid, MASS, colorspace, plyr
+Suggests: JGR, iplots, iWidgets, vcd
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2011-02-14 16:38:43
+Packaged: 2011-02-08 15:00:17 UTC; pilhoeal

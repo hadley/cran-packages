@@ -1,0 +1,27 @@
+Package: RKEA
+Version: 0.0-3
+Title: R/KEA interface
+Authors@R: c(person("Ingo", "Feinerer", role = "aut"),
+             person("Kurt", "Hornik", role = c("aut", "cre"),
+                    email = "Kurt.Hornik@R-project.org"),
+             person("Eibe", "Frank", role = c("ctb", "cph"),
+                    comment = "KEA Java library"),
+             person("Olena", "Medelyan", role = c("ctb", "cph"),
+                    comment = "KEA Java library"))
+Description: An R interface to KEA (Version 5.0).
+  KEA (for Keyphrase Extraction Algorithm) allows for extracting
+  keyphrases from text documents. It can be either used for free
+  indexing or for indexing with a controlled vocabulary. For more
+  information see http://www.nzdl.org/Kea/.
+Imports: rJava (>= 0.6-3), tm
+SystemRequirements: Java (>= 5.0)
+License: GPL-2
+Packaged: 2013-09-05 16:37:09 UTC; hornik
+Author: Ingo Feinerer [aut],
+  Kurt Hornik [aut, cre],
+  Eibe Frank [ctb, cph] (KEA Java library),
+  Olena Medelyan [ctb, cph] (KEA Java library)
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-05 19:06:59

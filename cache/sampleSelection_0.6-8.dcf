@@ -1,0 +1,15 @@
+Package: sampleSelection
+Version: 0.6-8
+Date: 2009/10/16
+Title: Sample Selection Models
+Author: Arne Henningsen <arne.henningsen@googlemail.com>, Ott Toomet
+        <otoomet@ut.ee>
+Maintainer: Arne Henningsen <arne.henningsen@googlemail.com>
+Depends: R (>= 2.4.0), maxLik (>= 0.5-12), systemfit (>= 1.0-0)
+Suggests: VGAM, mvtnorm, plm
+Description: Estimation of Sample Selection Models
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org, http://www.sampleSelection.org
+Packaged: 2009-10-16 12:27:01 UTC; suapm095
+Repository: CRAN
+Date/Publication: 2009-10-16 14:05:41

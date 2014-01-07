@@ -1,0 +1,13 @@
+Package: ncf
+Version: 1.1-1
+Date: 2008/04/12
+Title: spatial nonparametric covariance functions
+Author: Ottar N. Bjornstad <onb1@psu.edu>
+Maintainer: Ottar N. Bjornstad <onb1@psu.edu>
+Depends: R (>= 2.0.0)
+Description: R functions for analyzing spatial (cross-)covariance: the
+        nonparametric (cross-)covariance, the spline correlogram, the
+        nonparametric phase coherence function, and related.
+License: GPL (>= 2)
+URL: http://onb.ent.psu.edu/onb1/R
+Packaged: Sat Apr 12 16:28:20 2008; onb1

@@ -1,0 +1,9 @@
+Package: perturb
+Title: Tools for evaluating collinearity
+Version: 2.03
+Author: John Hendrickx
+Description: "perturb" evaluates collinearity by adding random noise to selected variables. "colldiag" calculates condition numbers and variance decomposition proportions to test for collinearity and uncover its sources.
+Suggests: car
+Maintainer: John Hendrickx <John_Hendrickx@yahoo.com>
+License: GPL version 2 or newer
+Packaged: Thu Dec  6 22:10:37 2007; John

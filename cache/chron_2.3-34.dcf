@@ -1,0 +1,15 @@
+Package: chron
+Version: 2.3-34
+Date: 2010-03-17
+Title: Chronological objects which can handle dates and times
+Description: Chronological objects which can handle dates and times
+Author: S original by David James <dj@research.bell-labs.com>, R port
+        by Kurt Hornik <Kurt.Hornik@R-project.org>.
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Depends: R (>= 2.4.0)
+Imports: graphics, stats
+Enhances: zoo
+License: GPL-2
+Packaged: 2010-03-17 08:41:28 UTC; hornik
+Repository: CRAN
+Date/Publication: 2010-03-17 08:56:05

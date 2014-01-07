@@ -1,0 +1,19 @@
+Package: BioIDMapper
+Title: Mapping between BioIDs
+Version: 3.0
+Date: 2010-12-02
+Depends: R (>= 2.7.0), RCurl, XML
+Author: Xiaoyong Sun
+Maintainer: Xiaoyong Sun <johnsunx1@gmail.com>
+Description: Facilitate mapping between different databases, integrate
+        various ID systems and provide a full view from gene level,
+        mRNA level and functional level regarding one specific ID. The
+        mapping system is based on NCBI and UniProt web service.
+License: GPL (>= 2)
+LazyData: true
+Collate: updateTerm.R global.R bio.convert.R bio.link.R bio.sum.R
+        bio.type.R bio.select.R dbjumper.R geneMap.R parse1.R parse2.R
+        processMessage.R proteinMap.R validate.R
+Repository: CRAN
+Date/Publication: 2010-12-09 11:29:00
+Packaged: 2010-12-09 01:15:48 UTC; sunx1

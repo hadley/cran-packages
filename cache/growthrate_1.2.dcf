@@ -1,0 +1,15 @@
+Package: growthrate
+Type: Package
+Version: 1.2
+Date: 2013-02-06
+Title: Bayesian reconstruction of growth velocity
+Author: Sara Lopez-Pintado and Ian W. McKeague
+Maintainer: Yang Hu <yyh2106@caa.columbia.edu>
+Description: A nonparametric empirical Bayes method for recovering
+        gradients (or growth velocities) from observations of smooth
+        functions (e.g., growth curves) at isolated time points.
+Depends: Matrix, clime, mvtnorm
+License: GPL-3
+Packaged: 2013-02-10 03:59:33 UTC; yanghu
+Repository: CRAN
+Date/Publication: 2013-02-11 20:49:16

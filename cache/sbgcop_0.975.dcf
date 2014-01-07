@@ -1,0 +1,17 @@
+Package: sbgcop
+Title: Semiparametric Bayesian Gaussian copula estimation and
+        imputation
+Version: 0.975
+Date: 2010-03-08
+Author: Peter Hoff
+Maintainer: Peter Hoff <hoff@stat.washington.edu>
+Description: This package estimates parameters of a Gaussian copula,
+        treating the univariate marginal distributions as nuisance
+        parameters as described in Hoff(2007). It also provides a
+        semiparametric imputation procedure for missing multivariate
+        data.
+License: GPL (>= 2)
+URL: http://www.stat.washington.edu/hoff
+Packaged: 2012-10-29 08:59:38 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:38

@@ -1,0 +1,18 @@
+Package: capushe
+Type: Package
+Title: Capushe, data-driven slope estimation and dimension jump
+Version: 0.8
+Date: 2011-07-13
+Author: Vincent Brault, Jean-Patrick Baudry, Cathy Maugis and Bertrand
+        Michel
+Maintainer: Vincent Brault <vincent.brault@math.u-psud.fr>
+Description: This package is devoted to the calibration of penalized
+        criteria for model selection. The calibration methods available
+        in this package are based on the slope heuristics.
+License: GPL (>= 2.0)
+LazyLoad: yes
+Depends: methods, graphics, MASS
+Collate: prog.R DDSE.R Djump.R capushe.R
+Packaged: 2011-10-06 06:35:31 UTC; brault
+Repository: CRAN
+Date/Publication: 2011-10-06 11:11:09

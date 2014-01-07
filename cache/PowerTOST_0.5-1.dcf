@@ -1,0 +1,19 @@
+Package: PowerTOST
+Type: Package
+Title: Power and Sample size based on two-one-sided-t-tests (TOST) for
+        BE studies
+Version: 0.5-1
+Date: 2010-05-07
+Author: Detlew Labes
+Maintainer: D. Labes <DetlewLabes@gmx.de>
+Description: Contains functions to calculate power and sample size for
+        various study designs used for bioequivalence studies. See
+        known.designs for study designs covered. Moreover the package
+        contains functions for power and sample size based on 'expected
+        power' in case of uncertain (estimated) variability.
+Depends: stats
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-05-10 10:42:03 UTC; dlabes
+Repository: CRAN
+Date/Publication: 2010-05-10 14:37:10

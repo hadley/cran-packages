@@ -1,0 +1,17 @@
+Package: compound.Cox
+Type: Package
+Title: Regression estimation based on the compound covariate methed
+        under the Cox proportional hazard model
+Version: 1.0
+Date: 2012-04-15
+Author: Takeshi Emura & Yi-Hau Chen
+Maintainer: Takeshi Emura, Graduate Institute of Statistics, National
+        Central University, Taiwan <emura@stat.ncu.edu.tw>
+Description: Calculate regression coefficients and their standard
+        errors under the Cox proportional hazard model with the large
+        number of covariates.
+License: GPL-2
+Depends: numDeriv
+Packaged: 2012-04-16 04:12:23 UTC; user
+Repository: CRAN
+Date/Publication: 2012-04-16 08:35:43

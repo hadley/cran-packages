@@ -1,0 +1,15 @@
+Type: Package
+Package: tnet
+Version: 3.0.5
+Date: 2011-05-04
+Title: tnet: Software for Analysis of Weighted, Two-mode, and
+        Longitudinal networks
+Author: Tore Opsahl
+Maintainer: Tore Opsahl <tore@opsahl.co.uk>
+Depends: R (>= 2.10.0), igraph, survival
+Description: R package to analyse weighted, two-mode, and longitudinal
+        networks.
+License: CC BY-NC 3.0 + file LICENSE
+Packaged: 2011-05-04 07:30:30 UTC; Tore
+Repository: CRAN
+Date/Publication: 2011-05-04 15:24:27

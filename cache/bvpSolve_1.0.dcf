@@ -1,0 +1,18 @@
+Package: bvpSolve
+Version: 1.0
+Title: Solvers for boundary value problems of ordinary differential
+        equations
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01), rootSolve, deSolve
+Description: Functions that solve boundary value problems (BVP) of
+        systems of ordinary differential equations (ODE). The functions
+        provide an interface to the FORTRAN function twpbvp and an
+        R-implementation of the shooting method.
+License: GPL
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: bvpsolve
+Repository/R-Forge/Revision: 27
+Date/Publication: 2009-07-01 14:47:11
+Packaged: 2009-06-30 20:34:36 UTC; rforge

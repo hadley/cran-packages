@@ -1,0 +1,25 @@
+Package: denpro
+Version: 0.8.4
+Date: 2008-02-18
+Title: Visualization of multivariate, functions, sets, and data
+Author: Jussi Klemela <klemela@oulu.fi>
+Maintainer: Jussi Klemela <klemela@oulu.fi> 
+Depends:  
+Description: 
+  The package provides tools to 
+  (1) visualize multivariate density functions and density estimates 
+      with level set trees,
+  (2) visualize level sets with shape trees,
+  (3) visualize multivariate data with tail trees, 
+  (4) visualize scales of multivariate density estimates with 
+      mode graphs and branching maps, and
+  (5) visualize anisotropic spread with 2D volume functions and
+      2D probability conetent functions.
+  Level set trees visualize mode structure,
+  shape trees visualize shapes of level sets of unimodal densities,
+  and tail trees visualize connected data sets.
+  The kernel estimator is implemented
+  but the package may be applied for visualizing other density estimates. 
+License: GPL(>=2)
+URL: http://www.rni.helsinki.fi/~jsk/denpro
+Packaged: Wed Feb  4 10:43:07 2009; hornik

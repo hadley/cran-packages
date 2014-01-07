@@ -1,0 +1,19 @@
+Package: gmodels
+Version: 2.11.0
+Date: 2005-12-03
+Title: Various R programming tools for model fitting
+Author: Gregory R. Warnes. Includes R source code and/or documentation
+        contributed by Ben Bolker, Thomas Lumley, and Randall C Johnson.
+Maintainer: Nitin Jain <nitin.jain@pfizer.com>
+Description: Various R programming tools for model fitting
+Depends: R (>= 1.9.0)
+Suggests: gplots
+Imports: MASS, gdata
+License: GPL (version 2 or later).  Contributions from Randall C
+	 Johnson are Copyright (2005) SAIC-Frederick, Inc. Funded by
+	 the Intramural Research Program, of the NIH, National
+	 Cancer Institute, Center for Cancer Research under NCI
+	 Contract NO1-CO-12400.
+URL: http://cran.r-project.org/src/contrib/PACKAGES.html 
+     http://www.sf.net/projects/r-gregmisc
+Packaged: Sun Dec  4 01:28:25 2005; warneg

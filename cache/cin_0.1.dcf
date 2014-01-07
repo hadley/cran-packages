@@ -1,0 +1,12 @@
+Package: cin
+Type: Package
+Title: Causal Inference for Neuroscience
+Version: 0.1
+Date: 2011-12-28
+Author: Xi (Rossi) LUO with contributions from Dylan Small, Chiang-shan Li, and Paul Rosenbaum
+Maintainer: Xi (Rossi) LUO <xi.rossi.luo@gmail.com>
+Description: Many experiments in neuroscience involve randomized and fast stimulation while the continuous outcome measures respond at much slower time scale, for example event-related fMRI.  This package provide valid statistical tools with causal interpretation under these challenging settings, without imposing model assumptions.
+License: GPL-2
+Packaged: 2011-12-28 18:46:30 UTC; xluo
+Repository: CRAN
+Date/Publication: 2011-12-30 11:22:46

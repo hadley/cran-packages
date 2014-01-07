@@ -1,0 +1,14 @@
+Package: IDPmisc
+Title: Utilities of Institute of Data Analyses and Process Design (www.idp.zhwin.ch)
+Version: 0.8.0
+Date: 2006-11-08
+Author: Andreas Ruckstuhl, Thomas Unternährer, Rene Locher
+Description: The IDPmisc package contains different high-level graphics functions for displaying large datasets, displaying circular data in a very flexible way, finding local maxima, brewing color ramps, drawing nice arrows, zooming 2D-plots, creating figures with differently colored margin and plot region. In addition, the package contains auxiliary functions for data manipulation like omitting observations with irregular values or selecting data by logical vectors, which include NAs. The latest addendum is a function for robust baseline fitting whcih is useful in spectroscopy and analyses of environmental data.
+Maintainer: Rene Locher <rene.locher@zhwin.ch>
+LazyLoad: yes
+LazyData: yes
+SaveImage: no
+Depends: R(>= 2.4), methods, grid(>= 2.1.1), lattice(>= 0.12-3)
+Suggests: SwissAir 
+License: GPL (GNU Public Licence), Version 2 or later
+Packaged: Tue Nov 14 14:40:44 2006; lor

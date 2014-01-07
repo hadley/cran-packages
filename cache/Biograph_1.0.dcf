@@ -1,0 +1,16 @@
+Package: Biograph
+Type: Package
+Title: Explore life histories
+Version: 1.0
+Depends: Epi,msm, mvna, survival
+Date: 2011-1-26
+Author: Frans Willekens
+Maintainer: Frans Willekens <willekens@nidi.nl>
+Description: Extracts from the data useful information on the life
+        courses of selected individuals or subpopulations with given
+        attributes.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-01-25 23:20:17 UTC; franswillekens
+Repository: CRAN
+Date/Publication: 2011-01-26 11:28:02

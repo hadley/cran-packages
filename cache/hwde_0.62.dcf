@@ -1,0 +1,24 @@
+Package: hwde
+Version: 0.62
+Date: 2011-03-31
+Title: Models and tests for departure from Hardy-Weinberg equilibrium
+        and independence between loci.
+Author: J.H. Maindonald, with \code{hwexact()} from Randall Johnson.
+Maintainer: J.H. Maindonald <John.Maindonald@anu.edu.au>
+Depends: R (>= 2.0)
+Description: Fits models for genotypic disequilibria, as described in
+        Huttley and Wilson (2000), Weir (1996) and Weir and Wilson
+        (1986). Contrast terms are available that account for first
+        order interactions between loci. Also implements, for a single
+        locus in a single population, a conditional exact test for
+        Hardy-Weinberg equilibrium
+License: GPL (>= 2)
+Copyright: (c) Centre for Bioinformation Science, John Curtin Research
+        School of Medical Sciences and Centre for Mathematics and Its
+        Applications, The Australian National University
+URL: http://www.maths.anu.edu.au/~johnm
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-10-29 08:58:58 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:58

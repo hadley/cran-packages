@@ -1,0 +1,16 @@
+Package: fracprolif
+Type: Package
+Title: Fraction Proliferation via a quiescent growth model
+Version: 1.0.2
+Date: 2012-04-25
+Author: Shawn Garbett, Darren Tyson
+Maintainer: Shawn Garbett <Shawn.Garbett@Vanderbilt.edu>
+Description: Functions for fitting data to a quiescent growth model,
+        i.e. a growth process that involves members of the population
+        who stop dividing or propagating.
+License: GPL-2
+LazyLoad: yes
+Depends: emg (>= 1.0.5)
+Packaged: 2012-04-26 20:46:07 UTC; garbetsp
+Repository: CRAN
+Date/Publication: 2012-04-27 06:18:32

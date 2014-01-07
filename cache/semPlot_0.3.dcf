@@ -1,0 +1,23 @@
+Package: semPlot
+Type: Package
+Title: Path diagrams and visual analysis of various SEM packages'
+        output
+Version: 0.3
+Date: 2013-01-28
+Author: Sacha Epskamp
+Maintainer: Sacha Epskamp <mail@sachaepskamp.com>
+Depends: qgraph (>= 1.2)
+Suggests: lavaan (>= 0.5-11), sem (>= 3.1-0), MplusAutomation (>=
+        0.5-3)
+Imports: lavaan (>= 0.5-11), sem (>= 3.1-0), MplusAutomation (>=
+        0.5-3), plyr, methods, XML, igraph (>= 0.6-3), lisrelToR,
+        rockchalk
+ByteCompile: yes
+Description: Path diagrams and visual analysis of various SEM packages'
+        output
+URL: https://github.com/SachaEpskamp/semPlot
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-01-28 16:35:59 UTC; sacha
+Repository: CRAN
+Date/Publication: 2013-01-28 18:24:55

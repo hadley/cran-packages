@@ -1,0 +1,15 @@
+Package: rebird
+Version: 0.1
+Date: 2012-1-28
+Description: A programmatic interface to the eBird database
+Title: Interface to eBird
+License: BSD
+Author: Rafael Maia, Scott Chamberlain
+Maintainer: Rafael Maia <rm72@zips.uakron.edu>
+URL: https://github.com/ropensci/rebird
+Depends: RJSONIO, RCurl, plyr
+Collate: 'notable.R' 'ebirdgeo.R' 'ebirdhotspot.R' 'ebirdloc.R'
+        'ebirdregion.R' 'nearestobs.R' 'rebird-package.R'
+Packaged: 2012-10-14 02:06:22 UTC; rmaia
+Repository: CRAN
+Date/Publication: 2012-10-14 06:49:30

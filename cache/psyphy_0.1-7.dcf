@@ -1,0 +1,21 @@
+Package: psyphy
+Type: Package
+Title: Functions for analyzing psychophysical data in R
+Version: 0.1-7
+Date: 2012-07-29
+Author: Kenneth Knoblauch
+Maintainer: Ken Knoblauch <ken.knoblauch@inserm.fr>
+Depends: R (>= 2.4.0), stats, graphics
+Suggests: MASS, nlme, lattice
+LazyData: yes
+Description: An assortment of functions that could be useful in
+        analyzing data from pyschophysical experiments. It includes
+        functions for calculating d' from several different
+        experimental designs, links for m-alternative forced-choice
+        (mafc) data to be used with the binomial family in glm (and
+        possibly other contexts) and self-Start functions for
+        estimating gamma values for CRT screen calibrations.
+License: GPL
+Packaged: 2012-07-29 14:43:34 UTC; ken
+Repository: CRAN
+Date/Publication: 2012-07-29 15:22:00

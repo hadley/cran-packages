@@ -1,0 +1,25 @@
+Package: CoinMinD
+Type: Package
+Title: Simultaneous Confidence Interval for Multinomial Proportion
+Version: 1.0
+Date: 2013-04-22
+Author: Dr M.Subbiah
+Maintainer: Sumathi <sumathimr@yahoo.co.in>
+Description: Methods for obtaining simultaneous confidence interval for
+        multinomial proportion have been proposed by many authors and
+        the present study include a variety of widely applicable
+        procedures. Seven classical methods (Wilson, Quesenberry and
+        Hurst, Goodman, Wald with and without continuity correction,
+        Fitzpatrick and Scott, Sison and Glaz) and Bayesian Dirichlet
+        models are included in the package. The advantage of MCMC pack
+        has been exploited to derive the Dirichlet posterior directly
+        and this also helps in handling the Dirichlet prior parameters.
+        This package is prepared to have equal and unequal values for
+        the Dirichlet prior distribution that will provide better scope
+        for data analysis and associated sensitivity analysis.
+License: GPL-2
+Depends: MCMCpack
+Packaged: 2013-04-23 15:07:31 UTC; Sumathi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-23 21:19:18

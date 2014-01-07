@@ -1,0 +1,10 @@
+Package: npConfRatio
+Title: Nonparametric Confidence Intervals for Ratios 
+Version: 1.0-2
+Author: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Maintainer: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Description: Implementation of the method described in "Exact Nonparametric
+ Confidence Intervals for the Ratio of Medians" by T. Hothorn and U. Munzel
+ (submitted)
+Depends: exactRankTests
+License: GPL

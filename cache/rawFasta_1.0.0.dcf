@@ -1,0 +1,17 @@
+Package: rawFasta
+Type: Package
+Title: Memory efficient handling of FASTA sequence files, a pure R
+        implementation.
+Version: 1.0.0
+Date: 2013-03-07
+Author: Sylvain Mareschal
+Maintainer: Sylvain Mareschal <maressyl@gmail.com>
+URL: http://bioinformatics.ovsa.fr/rawFasta
+Description: This package provides functions to import FASTA sequence
+        files into R memory with various bit counts per letter.
+Depends: methods
+License: GPL (>= 3)
+Packaged: 2013-03-07 18:52:29 UTC; sylvain
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-08 07:24:50

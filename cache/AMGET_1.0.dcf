@@ -1,0 +1,13 @@
+Package: AMGET
+Type: Package
+Title: Post-processing tool for ADAPT 5
+Version: 1.0
+Date: 2013-08-02
+Author: Benjamin Guiastrennec
+Maintainer: Benjamin Guiastrennec <guiastrennec@gmail.com>
+Description: AMGET allows to simply and rapidly creates highly informative diagnostic plots for ADAPT 5 models. Features include data analysis prior any modeling form either NONMEM or ADAPT shaped dataset, goodness-of-fit plots (GOF), posthoc-fits plots (PHF), parameters distribution plots (PRM) and visual predictive check plots (VPC) based on ADAPT output.
+License: GPL (>= 2)
+Packaged: 2013-08-02 10:03:31 UTC; bengu839
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-02 14:19:54

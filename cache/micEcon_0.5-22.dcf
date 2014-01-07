@@ -1,0 +1,15 @@
+Package: micEcon
+Version: 0.5-22
+Date: 2009/07/21
+Title: Microeconomic Analysis and Modelling
+Author: Arne Henningsen
+Maintainer: Arne Henningsen <arne.henningsen@googlemail.com>
+Depends: R (>= 2.4.0), systemfit (>= 1.0-0), lmtest, np (>= 0.30-0)
+Suggests: MASS, plm (>= 1.1-0)
+Description: Tools for microeconomic analysis and microeconomic
+        modelling
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.micEcon.org
+Packaged: 2009-07-21 13:15:44 UTC; suapm095
+Repository: CRAN
+Date/Publication: 2009-07-21 15:47:41

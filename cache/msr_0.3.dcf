@@ -1,0 +1,15 @@
+Package: msr
+Version: 0.3
+Date: 2011-11-10
+Author: Samuel Gerber <sgerber@cs.utah.edu>, 
+	Kristi Potter <kpotter@sci.utah.edu>, 
+	Oliver Ruebel <ruebel1@llnl.gov>
+Maintainer: Samuel Gerber <sgerber@cs.utah.edu>
+Description: Package for discrete Morse-Smale complex approximation based on kNN graph. The Morse-Smale complex provides a decomposition of the domain. This package provides methods to compute a hierarchical sequence of Morse-Smale complicies and tools that exploit this domain decomposition for regression and visualization of scalar functions.
+Title: Morse-Smale approximation, regression and visualization
+Depends: R (>= 2.10), stats, class, glmnet, stats4, e1071, rgl,
+        RColorBrewer, colorspace
+License: GPL-2
+Repository: CRAN
+Packaged: 2011-11-13 16:37:58 UTC; sgerber
+Date/Publication: 2011-11-13 17:29:18

@@ -1,0 +1,19 @@
+Package: covLCA
+Type: Package
+Title: Latent Class Models with Covariate Effects on Underlying and
+        Measured Variables
+Version: 1.0
+Date: 2013-05-03
+Author: Aurelie Bertrand <aurelie.bertrand@uclouvain.be> and Christian
+        M.  Hafner <christian.hafner@uclouvain.be>
+Maintainer: Aurelie Bertrand <aurelie.bertrand@uclouvain.be>
+Description: Estimation of latent class models with covariate effects
+        on underlying and measured variables. The measured variables
+        are dichotomous or polytomous, all with the same number of
+        categories.
+License: GPL-2
+Depends: Matrix, mlogit, poLCA
+Repository: CRAN
+Packaged: 2013-06-10 07:53:54 UTC; aurbertrand
+NeedsCompilation: no
+Date/Publication: 2013-06-10 11:06:36

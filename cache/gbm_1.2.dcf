@@ -1,0 +1,15 @@
+Package: gbm
+Version: 1.2
+Date: 2004-6-17
+Title: Generalized Boosted Regression Models
+Author: Greg Ridgeway <gregr@rand.org>
+Maintainer: Greg Ridgeway <gregr@rand.org>
+Depends: R (>= 1.8.0), survival, lattice
+Description: This package implements extensions
+  to Freund and Schapire's AdaBoost algorithm and J. Friedman's
+  gradient boosting machine. Includes regression methods for least
+  squares, absolute loss, logistic, Poisson, Cox proportional hazards
+  partial likelihood, and AdaBoost exponential loss.
+License: GPL (version 2 or newer)
+URL: http://www.i-pensieri.com/gregr/gbm.shtml
+Packaged: Thu Jun 24 15:15:35 2004; gregr

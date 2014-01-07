@@ -1,0 +1,18 @@
+Package: nplplot
+Version: 4.4
+Date: 2009-09-18
+Title: Plotting non-parametric linkage results
+Author: Nandita Mukhopadhyay <nandita@pitt.edu>, Daniel E. Weeks
+        <weeks+@pitt.edu>, Xinyu Tang <xit11+@pitt.edu>
+Maintainer: Nandita Mukhopadhyay <nandita@pitt.edu>
+Description: nplplot: Plots curves for non parametric linkage results
+        contained within a file or a table; nplplot.multi: wrapper
+        function for nplplot to graph multiple plot-data files, and
+        save these in PDF or postscript format; nplplot.old: the old
+        nplplot function that combined nplplot and nplplot.multi into
+        one function, please use the other two functions instead.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://watson.hgen.pitt.edu/register
+Packaged: 2012-10-29 08:59:18 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:18

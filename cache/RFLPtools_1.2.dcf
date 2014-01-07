@@ -1,0 +1,16 @@
+Package: RFLPtools
+Type: Package
+Title: Tools to analyse RFLP data
+Version: 1.2
+Date: 2010-06-09
+Author: Fabienne Flessa, Alexandra Kehl, Matthias Kohl
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+Description: RFLPtools provides functions to analyse DNA fragment
+        samples (i.e. derived from RFLP-analysis) and standalone BLAST
+        report files (i.e. DNA sequence analysis).
+Depends: R(>= 2.10.0), stats, utils, graphics, grDevices, RColorBrewer
+Suggests: lattice, MKmisc(>= 0.8)
+License: LGPL-3
+Packaged: 2010-06-09 08:37:19 UTC; mkohl
+Repository: CRAN
+Date/Publication: 2010-06-10 06:26:26

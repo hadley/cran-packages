@@ -1,0 +1,14 @@
+Package: dlmodeler
+Title: Generalized Dynamic Linear Modeler
+Version: 1.3-3
+Date: 2013-12-13
+Author: Cyrille Szymanski <cnszym@gmail.com>
+Maintainer: Cyrille Szymanski <cnszym@gmail.com>
+Description: dlmodeler is a set of user-friendly functions to simplify the state-space modelling, fitting, analysis and forecasting of Generalized Dynamic Linear Models (DLMs). It includes functions to name and extract individual components of a DLM, build classical seasonal time-series models (monthly, quarterly, yearly, etc. with calendar adjustments) and provides a unified interface compatible with other state-space packages including: dlm, FKF and KFAS.
+License: GPL (>= 2) | BSD_2_clause + file LICENSE
+Suggests: KFAS (>= 1.0.2), FKF (>= 0.1.2), dlm (>= 1.1-3)
+Depends: R (>= 2.15.0)
+Packaged: 2013-12-13 21:07:00 UTC; cns
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-13 22:35:41

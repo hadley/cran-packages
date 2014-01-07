@@ -1,0 +1,22 @@
+Package: bamdit
+Type: Package
+Title: Bayesian Meta-Analysis of diagnostic test data
+Version: 1.0
+Date: 2011-08-05
+Author: Dr. Pablo Emilio Verde <pabloemilio.verde@uni-duesseldorf.de> &
+        Arnold Sykosch <arnold.sykosch@uni-duesseldorf.de>
+Maintainer: Dr. Pablo Emilio Verde
+        <pabloemilio.verde@uni-duesseldorf.de>
+Depends: R (>= 2.9.0), coda (>= 0.13), rjags (>= 2.2.0-4)
+SystemRequirements: jags (>= 2.1.0)
+Description: Bayesian meta-analysis of diagnostic test data based on a
+        scale mixtures bivariate random-effects model. Summary
+        statistics are based on pooled and predictive sensitivities and
+        specificities. Model checking is used for diagnostic of
+        random-effects' misfit and predictive data is used to assess
+        models departures from observed data.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-08-06 14:43:27 UTC; unausgeschlafen
+Repository: CRAN
+Date/Publication: 2011-08-07 08:08:25

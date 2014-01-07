@@ -1,0 +1,16 @@
+Package: mvShapiroTest
+Type: Package
+Title: Generalized Shapiro-Wilk test for multivariate normality
+Version: 0.0.1
+Date: 2009-05-27
+Author: Elizabeth Gonzalez Estrada, Jose A. Villasenor Alva
+Maintainer: Elizabeth Gonzalez Estrada <egonzalez@colpos.mx>
+Description: This package computes the generalized Shapiro-Wilk test
+        for multivariate normality proposed by Villasenor-Alva and
+        Gonzalez-Estrada (2009).
+License: GPL (>= 2)
+Depends: stats
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:15 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:15

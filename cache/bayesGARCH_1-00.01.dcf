@@ -1,0 +1,12 @@
+Package: bayesGARCH
+Version: 1-00.01
+Date: 2008-06-03
+Title: Bayesian Estimation of the GARCH(1,1) Model with Student's t Innovations
+Author: David Ardia <david.ardia@unifr.ch>
+Maintainer: David Ardia <david.ardia@unifr.ch>
+Depends: mvtnorm, coda
+Description: This package provides the bayesGARCH function which performs the
+  Bayesian estimation of the GARCH(1,1) model with Student's t innovations.
+License: GPL (>=2)
+URL: http://perso.unifr.ch/david.ardia
+Packaged: Tue Jun  3 13:10:19 2008; David Ardia

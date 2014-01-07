@@ -1,0 +1,26 @@
+Package: VecStatGraphs2D
+Type: Package
+Title: Vector analysis using graphical and analytical methods in 2D.
+Version: 1.2
+Date: 2010-06-08
+Author: Juan Carlos Ruiz Cuetos, Maria Eugenia Polo Garcia, Pablo
+        Garcia Rodriguez
+Maintainer: Juan Carlos Ruiz Cuetos <bilba_t@hotmail.com>, Pablo Garcia
+        Rodriguez <pablogr@unex.es>
+Depends: R (>= 2.10.1), MASS
+Description: This package performs a 2D statistical analysis, both
+        numerical and graphic, of a set of vectors. Since a vector has
+        two components (module and azimuth) vector analysis is
+        performed in three stages: modules are analyzed by means of
+        linear statistics, azimuths are analyzed by circular
+        statistics, and the joint analysis of modules and azimuths is
+        done using density maps that allow detecting another
+        distribution properties (I.e. anisotropy) and outliers. Tests
+        and circular statistic parameters have associated a full range
+        of graphing: histograms, maps of distributions, point maps,
+        vector maps, density maps, distribution modules and azimuths.
+License: GPL-3
+URL: http://fegtepinta.byethost11.com/
+Packaged: 2010-08-13 10:19:42 UTC; Juan Carlos
+Repository: CRAN
+Date/Publication: 2010-08-13 18:30:36

@@ -1,0 +1,18 @@
+Package: bfp
+Version: 0.0-25
+Date: 30/05/2012
+Title: Bayesian Fractional Polynomials
+Author: Daniel Sabanes Bove <daniel.sabanesbove@ifspm.uzh.ch>
+Maintainer: Daniel Sabanes Bove <daniel.sabanesbove@ifspm.uzh.ch>
+Depends: R (>= 2.10), Rcpp (>= 0.9.10)
+LinkingTo: Rcpp
+Suggests: doBy, SoDA, Hmisc, mfp
+Description: The package implements the Bayesian paradigm for
+        fractional polynomial models under the assumption of normally
+        distributed error terms.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: bfp
+Repository/R-Forge/Revision: 47
+Packaged: 2012-05-30 14:15:12 UTC; rforge
+Date/Publication: 2012-05-30 16:03:13

@@ -1,0 +1,26 @@
+Package: MetaPCA
+Type: Package
+Title: MetaPCA: Meta-analysis in the Dimension Reduction of Microarray
+        data
+Version: 0.1.2
+Author: Don Kang <donkang75@gmail.com>
+Maintainer: Don Kang <donkang75@gmail.com>
+Description: MetaPCA implements simultaneous dimension reduction using
+        PCA when multiple studies are combined. We propose two basic
+        ideas to find a common PC subspace by eigenvalue maximization
+        approach and angle minimization approach, and we extend the
+        concept to incorporate Robust PCA and Sparse PCA in the
+        meta-analysis realm.
+Depends: R (>= 2.10.0)
+Imports: foreach
+Suggests: MASS, GEOquery, pcaPP, affy, hgu133plus2.db, doMC, doSMP,
+        ellipse, impute
+License: GPL-2
+URL: https://github.com/donkang75/MetaPCA
+LazyLoad: yes
+Collate: MetaPCA.R functions.R DropDupGenes.R requireAll.R PlotPC2D.R
+        PreprocessMetaAnalysis.R
+Date: 2011-04-21
+Packaged: 2011-04-23 04:13:17 UTC; don
+Repository: CRAN
+Date/Publication: 2011-04-23 20:54:41

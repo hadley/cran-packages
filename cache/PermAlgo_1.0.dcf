@@ -1,0 +1,18 @@
+Package: PermAlgo
+Title: Permutational algorithm to simulate survival data
+Version: 1.0
+Date: 2010-08-24
+Author: Marie-Pierre Sylvestre, Thad Edens, Todd MacKenzie, Michal
+        Abrahamowicz
+Maintainer: Marie-Pierre Sylvestre
+        <marie-pierre.sylvestre@umontreal.ca>
+Description: This version of the permutational algorithm generates a
+        dataset in which event and censoring times are conditional on
+        an user-specified list of covariates, some or all of which are
+        time-dependent.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-12-13 17:31:45 UTC; MP
+Repository: CRAN
+Date/Publication: 2013-12-13 18:38:26
+NeedsCompilation: no

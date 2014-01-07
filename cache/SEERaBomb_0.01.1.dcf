@@ -1,0 +1,18 @@
+Package: SEERaBomb
+Title: SEER Setup and Use with A-Bomb Data
+Version: 0.01.1
+Date: 2012-06-01
+Author: Tomas Radivoyevitch
+Description: This package contains codes that setup SEER (Surveillance,
+        Epidemiology and End Results) data use with R.  It includes
+        SEER and Japanese A-Bomb survivor data analysis examples.  Its
+        use will improve SEER R script portability.
+Maintainer: Tomas Radivoyevitch <txr24@case.edu>
+Depends: RSQLite, LaF
+Suggests: bbmle
+License: GPL-2
+LazyData: yes
+URL: http://epbi-radivot.cwru.edu/SEERaBomb/SEERaBomb.html
+Packaged: 2012-06-17 14:26:15 UTC; radivot
+Repository: CRAN
+Date/Publication: 2012-06-17 17:36:07

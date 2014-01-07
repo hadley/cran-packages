@@ -1,0 +1,15 @@
+Package: rcdk
+Version: 2.6.1
+Date: 2006-11-28
+Title: rcdk - Interface to the CDK Libraries
+Author: Rajarshi Guha <rguha@indiana.edu>
+Maintainer: Rajarshi Guha <rguha@indiana.edu>
+Depends: R (>= 2.0.0), rJava, fingerprint
+License: GPL version 2 or later, Java part see doc
+Description: This package allows the user to access functionality in the
+ CDK, a Java framework for cheminformatics. This allows the user to load
+ molecules, evaluate fingerprints, calculate molecular descriptors and so on. 
+ In addition the CDK API allows the user to view structures in 2D. The package
+ can also use JChemPaint, to draw 2D structure and use them within R and Jmol to
+ view structures in 3D
+Packaged: Tue Nov 28 11:22:30 2006; rajarshi

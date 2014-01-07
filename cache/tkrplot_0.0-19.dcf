@@ -1,0 +1,11 @@
+Package: tkrplot
+Version: 0.0-19
+Author: Luke Tierney <luke@stat.uiowa.edu>
+Description: simple mechanism for placing R graphics in a Tk widget
+Title: TK Rplot
+Depends: R (>= 2.2), grDevices, tcltk
+License: GPL
+Maintainer: Luke Tierney <luke@stat.uiowa.edu>
+Packaged: 2010-08-30 14:44:56 UTC; luke
+Repository: CRAN
+Date/Publication: 2010-08-31 05:57:33

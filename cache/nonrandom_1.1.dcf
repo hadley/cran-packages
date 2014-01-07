@@ -1,0 +1,20 @@
+Package: nonrandom
+Type: Package
+Title: Stratification and matching by the propensity score
+Version: 1.1
+Date: 2011-01-03
+Author: Susanne Stampf
+Maintainer: Susanne Stampf <susta@imbi.uni-freiburg.de>
+Description: This package offers a comprehensive data analysis if
+        stratification and matching by the propensity score is done.
+        Several functions are implemented, starting from the selection
+        of the propensity score model up to estimating propensity score
+        based treatment or exposure effects. All functions can be
+        applied separately as well as combined.
+Depends: lme4
+Suggests: colorspace
+License: GPL
+LazyLoad: yes
+Packaged: 2011-01-12 09:49:32 UTC; susta
+Repository: CRAN
+Date/Publication: 2011-01-12 10:22:13

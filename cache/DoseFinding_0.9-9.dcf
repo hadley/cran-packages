@@ -1,0 +1,21 @@
+Package: DoseFinding
+Type: Package
+Title: Planning and Analyzing Dose Finding experiments
+Version: 0.9-9
+Date: 2013-10-15
+Author: Bjoern Bornkamp, Jose Pinheiro, Frank Bretz
+Depends: lattice, mvtnorm, R (>= 2.4.1)
+Suggests: numDeriv, Rsolnp, multcomp
+Maintainer: Bjoern Bornkamp <bbnkmp@gmail.com>
+Description: The DoseFinding package provides functions for the design and analysis
+	     of dose-finding experiments (with focus on pharmaceutical Phase
+	     II clinical trials). It provides functions for: multiple contrast
+	     tests, fitting non-linear dose-response models (using Bayesian and
+	     non-Bayesian estimation), calculating optimal designs and an
+	     implementation of the MCPMod methodology.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2013-10-15 19:24:32 UTC; bjoern
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-16 08:52:27

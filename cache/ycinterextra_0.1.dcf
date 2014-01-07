@@ -1,0 +1,17 @@
+Package: ycinterextra
+Type: Package
+Title: Yield curve or zero-coupon prices interpolation and
+        extrapolation
+Version: 0.1
+Date: 2013-12-18
+Author: Thierry Moudiki
+Maintainer: Thierry Moudiki <thierry.moudiki@gmail.com>
+Description: Yield curve or zero-coupon prices interpolation and extrapolation using the Nelson-Siegel, Svensson, Smith-Wilson models, and Hermite cubic splines.
+License: GPL-2 | GPL-3
+Depends: compiler, methods
+Imports: graphics, mcGlobaloptim
+Collate: fonctions.R ClassycInterp.R
+Packaged: 2013-12-18 02:46:52 UTC; Thierry
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-18 07:32:51

@@ -1,0 +1,18 @@
+Package: CoCoGraph
+Namespace: CoCoGraph
+Title: Interactive and dynamic graphs for the CoCo objects
+Description: Interface between dynamicGraph and CoCo (objects)
+LazyLoad: False
+Version: 0.1.7.6
+Date: 18.03.2010
+Author: Jens Henrik Badsberg <coco@badsberg.eu>
+Maintainer: Jens Henrik Badsberg <coco@badsberg.eu>
+Depends: R (>= 2.10.0), dynamicGraph (>= 0.2.0), MASS, methods, CoCo
+License: file LICENSE
+Copyright: Copyright (C) by Jens Henrik Badsberg, 1991-2009, non-profit
+        use and redistribution permitted
+Address: Andreas Bjorns Gade 21, 2. tv., 1428 Kobenhavn K, Denmark
+URL: http://www.badsberg.eu
+Packaged: 2010-03-18 20:53:17 UTC; Jens Henrik Badsberg
+Repository: CRAN
+Date/Publication: 2010-03-19 15:05:34

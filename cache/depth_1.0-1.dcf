@@ -1,0 +1,12 @@
+Package: depth
+Type: Package
+Title: Depth functions tools for multivariate analysis
+Version: 1.0-1
+Date: 2009-02-09
+Author: Jean-Claude Masse <jcmasse@mat.ulaval.ca>, Jean-Francois Plante <plante@utstat.toronto.edu>.
+Maintainer: Jean-Francois Plante <plante@utstat.toronto.edu>
+Description: Depth functions methodology applied to multivariate analysis. Besides allowing calculation of depth values and depth-based location estimators, the package includes functions for drawing contour plots and perspective plots of depth functions. 
+Depends: R (>= 2.4.0), grDevices, rgl
+Suggests: robustbase, MASS
+License: GPL-2
+Packaged: Mon Feb  9 16:40:07 2009; jplante

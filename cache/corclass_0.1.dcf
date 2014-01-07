@@ -1,0 +1,15 @@
+Package: corclass
+Type: Package
+Title: Correlational Class Analysis
+Version: 0.1
+Date: 2013-11-25
+Author: Andrei Boutyline
+Maintainer: Andrei Boutyline <andrei.boutyline@gmail.com>
+Description: Perform a correlational class analysis of the data, resulting in a partition of the data into separate modules.
+License: GPL-2
+Depends: igraph
+Suggests: Cairo
+Packaged: 2013-12-10 07:04:09 UTC; ElectricShhh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-10 08:36:54

@@ -1,0 +1,23 @@
+Package: CHNOSZ
+Title: Chemical Thermodynamics and Activity Diagrams
+Version: 0.8
+Date: 2009-04-22
+Author: Jeffrey M. Dick <jmdick@asu.edu>
+Maintainer: Jeffrey M. Dick <jmdick@asu.edu>
+Depends: utils
+Description: Calculation of the standard molal thermodynamic properties
+        and chemical affinities of reactions between and among
+        minerals, inorganic, organic, and/or biomolecular aqueous and
+        crystalline species. Incorporation of an extensive database of
+        thermodynamic properties of species and algorithms for
+        computing the standard thermodynamic properties of neutral and
+        ionized proteins from amino acid group contributions.
+        Generation of chemical speciation and predominance diagrams for
+        stable and metastable equilibrium in open systems as a function
+        of temperature, pressure, and chemical activities or fugacities
+        of basis species.
+License: GPL-2
+ZipData: no
+Packaged: 2009-04-23 02:51:33 UTC; jedick
+Repository: CRAN
+Date/Publication: 2009-04-23 07:11:01

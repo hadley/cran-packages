@@ -1,0 +1,11 @@
+Package: SAGx
+Version: 1.5.2
+Date: 01JUL05
+Title: Statistical Analysis of the GeneChip
+Author: Per Broberg
+Maintainer: Per Broberg <pi.broberg@swipnet.se>
+Depends: R (>= 2.0.1), stats, multtest
+Description: A package for retrieval, preparation and analysis of data from the Affymetrix GeneChip. In particular the issue of identifying  differentially expressed genes is addressed.
+License: GNU GPL. 
+URL: http://www.r-project.org
+Packaged: Fri Jul  1 15:53:44 2005; hornik

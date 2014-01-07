@@ -1,0 +1,25 @@
+Package: pmc
+Version: 0.0-8
+Date: 2012-02-22
+Title: Phylogenetic Monte Carlo
+Author: Carl Boettiger <cboettig@gmail.com>
+Maintainer: Carl Boettiger <cboettig@gmail.com>
+Description: Monte Carlo based model choice for applied phylogenetics
+        of continuous traits
+URL: https://github.com/cboettig/pmc
+BugReports: https://github.com/cboettig/pmc/issues
+License: CC0
+Authors@R: person("Carl", "Boettiger", role=c("aut", "cre"),
+        email="cboettig@gmail.com")
+Type: Package
+Imports: ape, geiger, snowfall, TreeSim, methods, ouch, reshape2
+Depends: ggplot2, ouch
+Enhances: ouch, geiger, ape
+Collate: 'format_data.R' 'pmc.R' 'powercurve.R' 'wrappers_geiger.R'
+        'wrappers_laser.R' 'wrappers_ouch.R' 'wrappers_treepar.R'
+        'convert.R' 'treepalette.R' 'generics.R' 'data_documentation.R'
+        'maticce.R'
+Packaged: 2013-03-04 01:49:53 UTC; cboettig
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-04 07:19:19

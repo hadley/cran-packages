@@ -1,0 +1,13 @@
+Package: session
+Description: Utility functions for interacting with R processes from
+             external programs. This package includes functions to
+             save and restore session information (including loaded packages,
+             and attached data objects), as well as functions to
+             evaluate strings containing R commands and return the
+             printed results or an execution transcript.
+Title: Functions for interacting with, saving and restoring R sessions.
+Version: 1.0.2
+Maintainer: Gregory R. Warnes <warnes@bst.rochester.edu>
+Author: Gregory R. Warnes.
+License: GPL (version 2 or later)
+Packaged: Thu Nov 16 13:49:47 2006; warnes

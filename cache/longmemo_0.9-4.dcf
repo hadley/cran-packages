@@ -1,0 +1,15 @@
+Package: longmemo
+Version: 0.9-4
+Date: 2006-09-08
+Author: S scripts originally by Jan Beran <jan.beran@uni-konstanz.de>
+        Datasets via Brandon Whitcher <brandon@stat.washington.edu>.
+	Toplevel R functions and much more by Martin Maechler.
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Title: Statistics for Long-Memory Processes (Jan Beran) -- Data and Functions
+Description: Datasets and Functionality from the textbook
+        Jan Beran (1994). Statistics for Long-Memory Processes; Chapman \& Hall.
+Depends: R (>= 2.0.0)
+Enhances: fracdiff
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Mon Sep 18 09:48:26 2006; maechler

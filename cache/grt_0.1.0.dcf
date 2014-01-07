@@ -1,0 +1,16 @@
+Package: grt
+Version: 0.1.0
+Date: 2010-07-27
+Depends: R (>= 2.10.1), grDevices, graphics, stats, utils, MASS, rgl,
+        misc3d
+Author: The original Matlab toolbox by Leola A. Alfonso-Reese. R port,
+        with several significant modifications by Kazunaga Matsuki.
+Maintainer: Kazunaga Matsuki <kmatsuki@uwo.ca>
+Description: Functions to generate and analyze data for psychology
+        experiments based on the General Recognition Theory.
+Title: General Recognition Theory
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-07-27 07:36:32 UTC; hornik
+Repository: CRAN
+Date/Publication: 2010-07-27 07:43:12

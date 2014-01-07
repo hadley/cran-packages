@@ -1,0 +1,15 @@
+Package: latentnetHRT
+Version: 0.7-18
+Date: April 25, 2007
+Title:  Latent position and cluster models for statistical networks
+Author: Mark S. Handcock <handcock@stat.washington.edu>, 
+        Jeremy Tantrum <Jeremy.Tantrum@microsoft.com>,
+        Susan Shortreed <susanms@stat.washington.edu>, and
+        Peter Hoff <hoff@stat.washington.edu>.
+Maintainer: Mark S. Handcock <handcock@stat.washington.edu>
+Description: This package implements the original specification in Handcock, Raftery and Tantrum (2007). This corresponds to version 0.7 of the original latentnet. The current package latentnet implements the new specification in Krivitsky and Handcock (2008), and represents a substantial rewrite of the original package.  This package is part of the "statnet" suite of packages. 
+Depends: network, locfit, mvtnorm, mclust, shapes, KernSmooth
+Suggests: coda
+License: GPL version 2 (June, 1991)
+URL: http://statnetproject.org/latentnetHRT
+Packaged: Sat Jan 19 19:40:05 2008; handcock

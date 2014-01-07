@@ -1,0 +1,14 @@
+Package: DBI
+Version: 0.1-2
+Date: 2001-12-05
+Title: R/Splus Database Interface 
+Author: R Special Interest Group on Databases (R-SIG-DB)
+Maintainer: David A. James <dj@bell-labs.com>
+Depends: R (>= 1.4), methods
+Description: A common database interface (DBI) class and
+   method definitions.  All classes in this package are
+   virtual and need to be extended by the various DBMS
+   implementatios.  See DBI.RODBC, DBI.RPgSQL for examples
+   of simple DBI front-ends to those existing packages.
+License: GPL (version 2 or later)
+URL: http://developer.r-project.org/db

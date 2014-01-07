@@ -1,0 +1,17 @@
+Package: CNVassocData
+Type: Package
+Title: Example data sets for association analysis of CNV data
+Version: 1.0
+Date: 2013-08-15
+Depends: R (>= 2.15.0)
+Author: Juan R González, Isaac Subirana
+Maintainer: Juan R González <jrgonzalez@creal.cat>
+Description: This package contains example data sets with Copy Number Variants and imputed SNPs to be used by CNVassoc package.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://www.creal.cat/jrgonzalez/software.htm
+Encoding: latin1
+Packaged: 2013-08-16 13:30:30 UTC; isubirana
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-16 16:33:15

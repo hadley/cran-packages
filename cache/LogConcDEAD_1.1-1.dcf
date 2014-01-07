@@ -1,0 +1,12 @@
+Package: LogConcDEAD
+Type: Package
+Title: Maximum likelihood estimation of a log-concave density
+Version: 1.1-1
+Date: 2008-04-09
+Depends: R (>= 2.3), akima
+Suggests: rgl
+Author: Madeleine Cule, Robert Gramacy, Richard Samworth
+Maintainer: Madeleine Cule <mlc40@cam.ac.uk>
+Description: Computes the maximum likelihood estimator from an i.i.d. sample of data from a log-concave density in any number of dimensions.  Plots are available for 1- and 2-d data.  
+License: LGPL
+Packaged: Tue Apr  8 00:24:39 2008; mlc40

@@ -1,0 +1,16 @@
+Package: mtsc
+Title: Multivariate Timeseries Clusters
+Version: 0.1.2
+Date: 2011-10-26
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: A package for multivariate timeseries clustering.
+        Currently, this includes constrained agglomerative clustering
+        over observations (and extensions for change point detection),
+        based closely on the work of Harnish, Nelson and Runger (2009).
+        This package is incomplete and experimental.
+License: GPL (>= 2)
+Depends: s3x
+Packaged: 2011-10-26 03:27:14 UTC; maia
+Repository: CRAN
+Date/Publication: 2011-10-27 06:54:20

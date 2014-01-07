@@ -1,0 +1,25 @@
+Package: SWordInstaller
+Version: 1.0-2
+Date: 2009-09-05
+Title: SWord: Use R in Microsoft Word (Installer)
+Author: Thomas Baier
+Maintainer: Thomas Baier <thomas@statconn.com>
+Description: Creating articles and reports in Word is easy. Adding R
+        results (figures, tables, summaries) requires manually copying
+        the data from R to Word. Changing the data requires redoing the
+        analyses in R and re-inserting the results into Word manually.
+        SWord integrates R scripts and results into Word documents.
+        Documents can be edited and read even without R installed (or
+        without any knowledge of R). The functionality of embedding the
+        scripts is somewhat similar to what Sweave does for LaTeX
+        documents. In addition, the R results become part of the same
+        document. R results can be textual results (e.g., the output of
+        an object "summary"), tables (e.g., the values of a data frame)
+        or figures (plots, graphs).
+License: GPL-2
+Depends: R (>= 2.8.0), rscproxy, rcom
+SystemRequirements: Windows, statconnDCOM (>= 3.1-0B0)
+OS_type: windows
+Repository: CRAN
+Date/Publication: 2009-09-06 10:36:57
+Packaged: 2009-09-06 09:13:13 UTC; tb

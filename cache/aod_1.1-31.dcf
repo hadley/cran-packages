@@ -1,0 +1,23 @@
+Package: aod
+Version: 1.1-31
+Date: 2009-05-06
+Title: Analysis of Overdispersed Data
+Author: Matthieu Lesnoff <matthieu.lesnoff@cirad.fr> and Renaud
+        Lancelot <renaud.lancelot@cirad.fr>
+Maintainer: Renaud Lancelot <renaud.lancelot@cirad.fr>
+Depends: R (>= 2.0.0), methods, stats
+Suggests: MASS, nlme, boot
+Description: This package provides a set of functions to analyse
+        overdispersed counts or proportions. Most of the methods are
+        already available elsewhere but are scattered in different
+        packages. The proposed functions should be considered as
+        complements to more sophisticated methods such as generalized
+        estimating equations (GEE) or generalized linear mixed effect
+        models (GLMM).
+License: GPL (>= 2)
+URL: http://cran.r-project.org/package=aod
+LazyLoad: yes
+LazyData: yes
+Packaged: 2009-05-06 06:13:22 UTC; LANCELOT
+Repository: CRAN
+Date/Publication: 2009-05-06 12:00:52

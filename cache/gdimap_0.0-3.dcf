@@ -1,0 +1,32 @@
+Package: gdimap
+Version: 0.0-3
+Date: 2013-03-19
+Title: Generalized Diffusion Magnetic Resonance Imaging
+Author: Adelino Ferreira da Silva <afs@fct.unl.pt>
+Maintainer: Adelino Ferreira da Silva <afs@fct.unl.pt>
+Depends: R (>= 2.10.0), oro.nifti, gsl, movMF, gridExtra, rgl,
+        colorspace, geometry
+Description: Diffusion anisotropy has been used to characterize white
+        matter neuronal pathways in the human brain, and infer global
+        connectivity in the central nervous system. The package
+        implements algorithms to estimate and visualize the orientation
+        of neuronal pathways in model-free methods (q-space imaging
+        methods).  An optimized reconstruction technique based on the
+        generalized q-sampling imaging (GQI) approach is adopted to
+        reconstruct orientation distribution function (ODF) profiles.
+        Two methods have been implemented to estimate fibre
+        orientations. One method implements fibre orientation detection
+        through local maxima extraction. A second more robust method is
+        based on directional statistical clustering of ODF voxel data.
+        Fibre orientations in multiple fibre voxels are estimated using
+        a mixture of von Mises-Fisher (vMF) distributions. This
+        statistical estimation procedure is used to resolve crossing
+        fibre configurations.  Procedures for the visualization of
+        RGB-maps, line-maps and glyph-maps of real diffusion magnetic
+        resonance imaging (dMRI) data-sets are included in the package.
+LazyData: yes
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2013-03-20 09:32:22 UTC; arfs
+NeedsCompilation: no
+Date/Publication: 2013-03-20 13:18:40

@@ -1,0 +1,19 @@
+Package: bayesQR
+Version: 2.1
+Date: 2013-02-14
+Title: Bayesian quantile regression
+Author: Dries F. Benoit, Rahim Al-Hamzawi, Keming Yu, Dirk Van den Poel
+Maintainer: Dries F. Benoit <Dries.Benoit@UGent.be>
+Depends: R (>= 2.12.1)
+Description: Bayesian quantile regression using the asymmetric Laplace
+        distribution, both continuous as well as binary dependent
+        variables are supported. The package consists of
+        implementations of the methods of Yu & Moyeed (2001), Benoit &
+        Van den Poel (2012) and Al-Hamzawi, Yu & Benoit (2012). To
+        speed up the calculations, the Markov Chain Monte Carlo core of
+        all algorithms is programmed in Fortran and called from R.
+License: GPL (>= 2)
+Packaged: 2013-02-18 10:44:42 UTC; dfbenoit
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-18 16:59:18

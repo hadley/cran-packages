@@ -1,0 +1,15 @@
+Package: cmprsk
+Version: 2.0-1
+Date: 2001-mar-11
+Title: Subdistribution Analysis of Competing Risks
+Author: Bob Gray <gray@jimmy.harvard.edu>
+Maintainer: Bob Gray <gray@jimmy.harvard.edu>
+Depends: R (>= 0.99), survival5
+Description: Estimation, testing and regression modeling of
+ subdistribution functions in competing risks, as described in Gray
+ (1988), A class of K-sample tests for comparing the cumulative
+ incidence of a competing risk, Ann. Stat. 16:1141-1154, and Fine JP and
+ Gray RJ (1999), A proportional hazards model for the subdistribution
+ of a competing risk, JASA, 94:496-509.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://biowww.dfci.harvard.edu/~gray

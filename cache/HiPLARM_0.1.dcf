@@ -1,0 +1,22 @@
+Package: HiPLARM
+Type: Package
+Title: High Performance Linear Algebra in R
+Version: 0.1
+Date: 2012-09-12
+Author: Peter Nash and Vendel Szeremi
+Acknowledgements: Martin Maechler and Douglas Bates (Matrix package)
+Maintainer: Giovanni Montana <g.montana@imperial.ac.uk>
+License: GPL (>= 2)
+Depends: R (>= 2.14), Matrix, methods
+Description: Provides multi-core or GPU support (or both if the system
+        has GPU and multi-core CPU) for the recommended R package,
+        Matrix.
+OS_type: unix
+SystemRequirements: BLAS/LAPACK libraries, PLASMA library , NVIDIA CUDA
+        toolkit, MAGMA library
+URL: http://www.hiplar.org , http://icl.cs.utk.edu/magma/ ,
+        http://icl.cs.utk.edu/plasma/,
+        http://www.nvidia.com/object/cuda_home_new.html
+Packaged: 2012-10-18 16:00:13 UTC; pjnash
+Repository: CRAN
+Date/Publication: 2012-10-18 18:25:17

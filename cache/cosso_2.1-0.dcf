@@ -1,0 +1,19 @@
+Package: cosso
+Version: 2.1-0
+Date: 2012-12-12
+Title: Fit Regularized Nonparametric Regression Models Using COSSO
+        Penalty.
+Author: Hao Helen Zhang <hzhang@stat.ncsu.edu> and Chen-Yen Lin
+        <clin5@ncsu.edu>
+Maintainer: Chen-Yen Lin <clin5@ncsu.edu>
+Description: COSSO is the short term for COmponent Selection and
+        Smoothing Operator. The new regularization method automatically
+        estimates and selects important function components by a
+        soft-thresholding penalty in the context of smoothing spline
+        ANOVA models.
+License: GPL (>= 2)
+Depends: quadprog, Rglpk, snow, snowfall, glmnet
+URL: http://www4.stat.ncsu.edu/~hzhang/cosso.html
+Packaged: 2012-12-17 00:23:48 UTC; ChenYen
+Repository: CRAN
+Date/Publication: 2012-12-17 06:01:58

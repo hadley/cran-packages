@@ -1,0 +1,19 @@
+Package: GGEBiplotGUI
+Type: Package
+Title: GGEBiplotGUI: Interactive GGE Biplots in R
+Version: 1.0-6
+Date: 2013-06-19
+Author: Elisa Frutos Bernal <efb@usal.es>, Purificacion Galindo
+        Villardon <pgalindo@usal.es>
+Maintainer: Elisa Frutos Bernal <efb@usal.es>
+Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tkrplot
+        (>= 0.0-23)
+SystemRequirements: BWidget
+Description: A GUI with which to construct and interact with GGE
+        biplots.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2013-06-22 11:31:47 UTC; Elisa
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-22 15:11:13

@@ -1,0 +1,21 @@
+Package: orloca
+Type: Package
+Depends: methods
+Suggests: grDevices, graphics, snow
+Title: The package deals with Operations Research LOCational Analysis
+        models
+Version: 3.1
+Date: 2010-04-21
+Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and
+        Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Description: This version of the package deals with the min-sum ocation
+        problem, also known as Fermat--Weber problem or center location
+        problem. The min-sum location problem search for a point such
+        that the weighted sum of the distances to the demand points are
+        minimized.
+License: GPL (>= 2)
+URL: http://knuth.uca.es/orloca
+Packaged: 2010-04-21 21:05:49 UTC; mmarquez
+Repository: CRAN
+Date/Publication: 2010-04-22 06:21:11

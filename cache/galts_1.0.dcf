@@ -1,0 +1,15 @@
+Package: galts
+Type: Package
+Title: Genetic algorithms and C-steps based LTS estimation
+Version: 1.0
+Date: 2010-11-11
+Author: Mehmet Hakan Satman
+Maintainer: Mehmet Hakan Satman <mhsatman@istanbul.edu.tr>
+Description: This package includes the ga.lts function that estimates
+        LTS parameters using genetic algorithms and C-steps
+License: GPL
+Depends: genalg
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2010-11-14 20:09:32 UTC; hako
+Date/Publication: 2010-11-15 07:28:13

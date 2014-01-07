@@ -1,0 +1,11 @@
+Package: bqtl
+Version: 1.0-7
+Date: 2002-06-25
+Title: Bayesian QTL mapping toolkit 
+Author: Charles C. Berry <cberry@ucsd.edu>
+Maintainer: Charles C. Berry <cberry@ucsd.edu>
+Description: QTL mapping toolkit for inbred crosses and
+ recombinant inbred lines. Includes maximum likelihood and Bayesian tools.
+Depends: R (>= 1.2)
+License: GPL version 2 or later
+URL: http://hacuna.ucsd.edu/bqtl/

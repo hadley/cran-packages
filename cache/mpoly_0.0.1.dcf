@@ -1,0 +1,25 @@
+Package: mpoly
+Type: Package
+Title: Symbolic computation and more with multivariate polynomials
+Version: 0.0.1
+Date: 2012-05-01
+Author: David Kahle <david.kahle@gmail.com>
+Maintainer: David Kahle <david.kahle@gmail.com>
+Description: mpoly allows for the symbolic manipulation of multivariate
+        polynomials in a general and consistent way designed especially
+        for sparse and super sparse polynomials.  It also allows for
+        basic differential calculus with multivariate polynomials and
+        Grobner basis calculations from computational algebraic
+        geometry.
+Imports: stringr, rSymPy, rJython, rJava, rjson, partitions, plyr
+License: MIT
+Collate: 'as.function.mpoly.R' 'as.function.mpolyList.R'
+        'deriv.mpoly.R' 'grobner.R' 'is.mpoly.R' 'is.mpolyList.R'
+        'is.wholenumber.R' 'LCM.R' 'mp.R' 'mpoly.R' 'mpolyAdd.R'
+        'mpolyEqual.R' 'mpolyExp.R' 'mpolyList.R' 'mpolyListAdd.R'
+        'mpolyListProd.R' 'mpolyProd.R' 'print.mpoly.R'
+        'print.mpolyList.R' 'reorder.mpoly.R' 'terms.mpoly.R' 'vars.R'
+        'help.R' 'permutations.R' 'tuples.R' 'partitions.R' 'burst.R'
+Packaged: 2012-05-02 00:00:42 UTC; david_kahle
+Repository: CRAN
+Date/Publication: 2012-05-02 13:23:46

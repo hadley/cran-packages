@@ -1,0 +1,25 @@
+Package: prob
+Version: 0.9-2
+Date: 2009-1-18
+Title: Elementary Probability on Finite Sample Spaces
+Author: G. Jay Kerns <gkerns@ysu.edu>
+Maintainer: G. Jay Kerns <gkerns@ysu.edu>
+Depends:
+Suggests: combinat, fAsianOptions, hypergeo, VGAM
+LazyLoad: no
+Description: This package provides a framework for performing
+        elementary probability calculations on finite sample spaces,
+        which may be represented by data frames or lists.
+        Functionality includes setting up sample spaces, counting
+        tools, defining probability spaces, performing set algebra,
+        calculating probability and conditional probability, tools for
+        simulation and checking the law of large numbers, adding random
+        variables, and finding marginal distributions. Characteristic
+        functions for all base R distributions are included.
+License: GPL (>= 2)
+URL: http://prob.r-forge.r-project.org, http://www.cc.ysu.edu/~gjkerns
+Repository: CRAN
+Repository/R-Forge/Project: prob
+Repository/R-Forge/Revision: 39
+Date/Publication: 2009-11-02 07:47:59
+Packaged: 2009-11-01 21:13:27 UTC; rforge

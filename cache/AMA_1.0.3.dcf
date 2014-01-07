@@ -1,0 +1,35 @@
+Package: AMA
+Type: Package
+Title: Anderson-Moore Algorithm
+Version: 1.0.3
+Depends: rJava
+Date: 2010-10-13
+Author: Gary Anderson, Aneesh Raghunandan
+Maintainer: Gary Anderson <gary.anderson@frb.gov>
+Description: Implements Anderson-Moore algorithm for solving linear
+        rational expectations models.  For information about the
+        algorithm and its uses, please see
+        http://www.federalreserve.gov/pubs/oss/oss4/aimindex.html.
+        This version works on both Unix and Windows.  For questions
+        about the algorithm and its implementation/applications, please
+        contact gary.anderson@frb.gov.  If you are having technical
+        issues with the package, please contact
+        aneesh.raghunandan@yale.edu.
+License: GPL-2
+Copyright: The "C" code, sparseAim.c, implementing the basic algorithm
+        is in the public domain and may be used freely.  However, the
+        authors would appreciate acknowledgement of the source by
+        citation of any of the following papers: Anderson, G. and
+        Moore, G. "A Linear Algebraic Procedure For Solving Linear
+        Perfect Foresight Models."  Economics Letters, 17, 1985.
+        Anderson, G. "Solving Linear Rational Expectations Models: A
+        Horse Race." Computational Economics, 2008, vol. 31, issue 2,
+        pp. 95-113 Anderson, G. "A Reliable and Computationally
+        Efficient Algorithm for Imposing the Saddle Point Property in
+        Dynamic Models." Journal of Economic Dynamics and Control,
+        2010, vol 34, issue 3, pp. 472-489. \n
+SystemRequirements: Java
+LazyLoad: yes
+Packaged: 2010-10-19 13:17:59 UTC; m1gsa00
+Repository: CRAN
+Date/Publication: 2010-10-19 16:10:48

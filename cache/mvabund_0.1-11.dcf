@@ -1,0 +1,21 @@
+Package: mvabund
+Title: statistical methods for analysing multivariate abundance data
+Version: 0.1-11
+Date: 20-11-2010
+Author: Yi Wang, Ulrike Naumann, Stehpen Wright and David Warton
+Maintainer: Yi Wang <yi.wang@unsw.edu.au>
+Description: A set of tools for displaying, modeling and analysing
+        multivariate abundance data in community ecology. See
+        mvabund-package.Rd or type 'help("mvabund-package")' in R for
+        details of overall package organization. The package is
+        implemented with the Gnu Scientific Library
+        (http://www.gnu.org/software/gsl/) and Rcpp
+        (http://dirk.eddelbuettel.com/code/rcpp.html) R / C++ APIs.
+Depends: R (>= 2.10.0), methods, Rcpp (>= 0.7.11)
+LinkingTo: Rcpp
+SystemRequirements: GNU GSL (>= 1.10)
+License: LGPL (>= 2.1)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2010-11-20 14:18:44
+Packaged: 2010-11-20 00:37:17 UTC; z3069443

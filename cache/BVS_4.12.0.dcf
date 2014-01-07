@@ -1,0 +1,23 @@
+Package: BVS
+Type: Package
+Title: Bayesian Variant Selection: Bayesian Model Uncertainty
+        Techniques for Genetic Association Studies
+Author: Melanie Quintana <maw27.wilson@gmail.com>
+Maintainer: Melanie Quintana <maw27.wilson@gmail.com>
+Description: The functions in this package focus on analyzing
+        case-control association studies involving a group of genetic
+        variants.  In particular, we are interested in modeling the
+        outcome variable as a function of a multivariate genetic
+        profile using Bayesian model uncertainty and variable selection
+        techniques.  The package incorporates functions to analyze data
+        sets involving common variants as well as extensions to model
+        rare variants via the Bayesian Risk Index (BRI) as well as
+        haplotypes.  Finally, the package also allows the incorporation
+        of external biological information to inform the marginal
+        inclusion probabilities via the iBMU.
+Version: 4.12.0
+License: Unlimited
+Depends: MASS, msm, haplo.stats, R (>= 2.14.0)
+Packaged: 2012-05-09 16:00:55 UTC; maw27
+Repository: CRAN
+Date/Publication: 2012-05-10 04:14:52

@@ -1,0 +1,22 @@
+Package: RJaCGH
+Version: 2.0.1
+Date: 2011-03-21
+Title: Reversible Jump MCMC for the analysis of CGH arrays.
+Author: Oscar Rueda <rueda.om@gmail.com> and Ramon Diaz-Uriarte
+        <rdiaz02@gmail.com>. zlib from Jean-loup Gailly and Mark Adler;
+        see README. Function "getHostname.System" from package R.utils
+        by Henrik Bengtsson.
+Maintainer: Oscar Rueda <rueda.om@gmail.com>
+Depends: R (>= 2.10)
+Description: Bayesian analysis of CGH microarrays fitting Hidden Markov
+        Chain models. The selection of the number of states is made via
+        their posterior probability computed by Reversible Jump Markov
+        Chain Monte Carlo Methods. Also returns probabilistic common
+        regions for gains/losses.
+LazyLoad: Yes
+License: GPL-3
+URL: http://www.r-project.org
+biocViews: Microarray, DNACopyNumber
+Packaged: 2011-03-21 15:59:28 UTC; rueda01
+Repository: CRAN
+Date/Publication: 2011-03-21 17:32:20

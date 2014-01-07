@@ -1,0 +1,20 @@
+Package: qdapDictionaries
+Type: Package
+Title: Dictionaries and word lists for the qdap package.
+Version: 0.0.2
+Date: 2013-07-21
+Author: Tyler Rinker
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Depends: R (>= 3.0.0)
+Suggests: qdap
+LazyData: TRUE
+Description: This package is a collection of dictionaries and word lists for
+    use with the qdap package.
+License: GPL-2
+URL: http://trinker.github.com/qdapDictionaries/
+BugReports: http://github.com/trinker/qdapDictionaries/issues
+Collate: 'left.just.R' 'qdapDictionaries-package.R' 'view_data.R'
+Packaged: 2013-12-23 05:36:25 UTC; trinker
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-23 09:11:59

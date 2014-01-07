@@ -1,0 +1,20 @@
+Package: kst
+Version: 0.2-0
+Date: 2011-11-17
+Title: Knowledge Space Theory
+Authors@R: c(person(given = "Christina", family = "Stahl", role =
+        c("aut", "cre"), email = "christina.stahl@chello.at"),
+        person(given = "David", family = "Meyer", role = c("aut")))
+Description: Knowledge Space Theory is a set-theoretical framework, which 
+   proposes mathematical formalisms to operationalize knowledge structures in a 
+   particular domain. The kst-package provides basic functionalities to 
+   generate, handle, and manipulate knowledge structures and knowledge spaces.
+License: GPL (>= 2)
+Depends: R (>= 2.7.0), proxy, relations (>= 0.4-0), sets (>= 0.3-2)
+Suggests: Rgraphviz
+Packaged: 2011-11-19 16:41:37 UTC; meyer
+Author: Christina Stahl [aut, cre],
+  David Meyer [aut]
+Maintainer: Christina Stahl <christina.stahl@chello.at>
+Repository: CRAN
+Date/Publication: 2011-11-21 17:49:38

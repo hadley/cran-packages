@@ -1,0 +1,14 @@
+Package: mixsep
+Version: 0.1-6
+Date: 2011-07-13
+Title: Forensic Genetics DNA Mixture Separation
+Author: Torben Tvedebrink <tvede@math.aau.dk>
+Maintainer: Torben Tvedebrink <tvede@math.aau.dk>
+Description: Separates DNA mixtures using a statistical model within a
+        greedy algorithm.
+Depends: R (>= 2.0.0), tcltk, tcltk2, MASS, RODBC
+License: GPL (>= 2)
+URL: http://people.math.aau.dk/~tvede/mixsep
+Packaged: 2011-07-13 11:56:16 UTC; tvede
+Repository: CRAN
+Date/Publication: 2011-07-23 13:57:26

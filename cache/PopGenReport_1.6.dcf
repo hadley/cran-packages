@@ -1,0 +1,17 @@
+Package: PopGenReport
+Type: Package
+Title: PopGen: A simple way to analyse and visualize population genetic
+        data
+Version: 1.6
+Date: 2013-08-31
+Author: Aaron Adamack & Bernd Gruber
+Maintainer: Bernd Gruber, <Bernd.Gruber@canberra.edu.au>
+Description: This package provides an easy way to analyse population genetic data
+License: GPL
+Depends: R (>= 3.0.0), adegenet, mmod, knitr
+Imports: lattice, RgoogleMaps, gap, calibrate, xtable, plyr, dismo,
+        reshape, ggplot2, R.utils, ade4, pegas, genetics
+Packaged: 2013-08-31 02:28:53 UTC; yellowgecko
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-03 16:58:20

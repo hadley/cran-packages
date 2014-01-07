@@ -1,0 +1,22 @@
+Package: LS2W
+Version: 1.3-2
+Date: 29/03/2013
+Title: Locally stationary two-dimensional wavelet process estimation
+        scheme
+Authors@R: c(person("Idris","Eckley",role=c("aut","cre"),
+        email="i.eckley@lancaster.ac.uk"),
+        person("Guy","Nason",role="aut",
+        email="g.p.nason@bristol.ac.uk"), person("Sarah", "Taylor",
+        role="ctb", email="s.taylor14@lancaster.ac.uk"),
+        person("Matthew", "Nunes",
+        role="ctb",email="m.nunes@lancaster.ac.uk"))
+Author: Idris Eckley and Guy Nason, with contributions from Sarah
+        Taylor and Matthew Nunes
+Maintainer: Idris Eckley <i.eckley@lancaster.ac.uk>
+Depends: R (>= 2.12), wavethresh (>= 4.5)
+Description: Estimates two-dimensional local wavelet spectra
+License: GPL-2
+Packaged: 2013-03-29 11:19:30 UTC; nunes
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-29 18:53:52

@@ -1,0 +1,9 @@
+Package: impute
+Title: impute: Imputation for microarray data
+Version: 1.0-3
+Author: Trevor Hastie, Robert Tibshirani, Balasubramanian Narasimhan, Gilbert Chu
+Description: Imputation for microarray data (currently KNN only)
+Maintainer: Balasubramanian Narasimhan <naras@stat.Stanford.EDU>
+Depends: R (>= 1.7.0)
+License: GPL2.0
+Packaged: Tue May 10 08:58:44 2005; naras

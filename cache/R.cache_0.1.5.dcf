@@ -1,0 +1,14 @@
+Package: R.cache
+Version: 0.1.5
+Date: 2007-03-13
+Title: Fast and light-weight caching of objects
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.3.0), R.oo, R.utils
+Suggests: digest (>= 0.3.0)
+Description: Methods for caching arbitrary R objects on persistent media.  Objects can be loaded and saved stratified on a set of hashing objects.
+License: LGPL version 2.1 or newer (the releases)
+URL: http://www.braju.com/R/
+DevelURL: http://www.maths.lth.se/help/R/
+LazyLoad: TRUE
+Packaged: Sun May 13 20:38:25 2007; hb

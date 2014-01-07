@@ -1,0 +1,12 @@
+Package: RKEA
+Version: 0.0-1
+Date: 2008-06-28
+Title: R/KEA interface
+Author: Ingo Feinerer 
+Maintainer: Ingo Feinerer <feinerer@logic.at>
+Description: An R interface to KEA (Version 5.0).
+Depends: rJava (>= 0.5-0), RWeka, Snowball
+Imports: tm
+SystemRequirements: Java (>= 5.0)
+License: GPL-2
+Packaged: Wed Jul  9 12:23:39 2008; hornik

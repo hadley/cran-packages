@@ -1,0 +1,25 @@
+Package: robustHD
+Type: Package
+Title: Robust methods for high-dimensional data
+Version: 0.1.0
+Date: 2012-04-10
+Author: Andreas Alfons
+Maintainer: Andreas Alfons <andreas.alfons@econ.kuleuven.be>
+Depends: Rcpp (>= 0.9.10), cvTools (>= 0.3.0), lattice, MASS,
+        robustbase (>= 0.6-0)
+Imports: RcppArmadillo (>= 0.2.36), stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: mvtnorm
+Description: Robust methods for high-dimensional data, in particular
+        linear model selection techniques based on least angle
+        regression and sparse regression.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'AIC.R' 'backend.R' 'coef.R' 'corHuber.R' 'cv.R' 'fastLasso.R'
+        'fitModels.R' 'fitted.R' 'initialSubsets.R' 'lambda0.R'
+        'plot.R' 'predict.R' 'print.R' 'repCV.R' 'residuals.R'
+        'rlars.R' 'sparseLTS.R' 'standardize.R' 'test.R' 'utils.R'
+        'weights.R' 'winsorize.R' 'zzz.R'
+Packaged: 2012-04-10 16:48:44 UTC; andi
+Repository: CRAN
+Date/Publication: 2012-04-10 18:00:47

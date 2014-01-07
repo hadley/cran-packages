@@ -1,0 +1,18 @@
+Package: DAAGxtras
+Version: 0.5-1
+Date: 2006-12-21
+Title: Data Sets and Functions, Additional to DAAG
+Author: John Maindonald
+Maintainer: John Maindonald <john.maindonald@anu.edu.au>
+Description: various data sets used in additonal exercises for
+        the book Maindonald, J.H. and Braun, W.J. (2nd edn 2007)  
+        "Data Analysis and Graphics Using R", and for laboratory
+        exercises prepared for a 'Data Mining' course.
+LazyLoad: true
+LazyData: true
+Depends: R (>= 2.4.0)
+Suggests: DAAG
+ZipData: no
+License: Unlimited use and distribution.
+URL: http://www.maths.anu.edu.au/~johnm
+Packaged: Fri Dec 22 08:50:34 2006; johnm

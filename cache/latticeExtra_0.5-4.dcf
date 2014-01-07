@@ -1,0 +1,14 @@
+Package: latticeExtra
+Version: 0.5-4
+Date: 2008/10/31
+Title: Extra Graphical Utilities Based on Lattice
+Author: Deepayan Sarkar <deepayan.sarkar@r-project.org>, Felix Andrews <felix@nfrac.org>
+Maintainer: Deepayan Sarkar <deepayan.sarkar@r-project.org>
+Description: Extra graphical utilities based on lattice
+Depends: R (>= 2.5.0), RColorBrewer, lattice
+Imports: lattice (>= 0.16-3), grid
+Suggests: maps, mapproj, deldir, tripack
+LazyLoad: yes
+LazyData: no
+License: GPL (>= 2)
+Packaged: Fri Oct 31 16:56:23 2008; dsarkar

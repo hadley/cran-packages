@@ -1,0 +1,16 @@
+Package: muStat
+Type: Package
+Title: Prentice Rank Sum Test and McNemar Test
+Version: 1.6.0
+Date: 2010-09-17
+Author: Knut M. Wittkowski <kmw@rockefeller.edu> and Tingting Song
+        <ttsong@gmail.com>
+Maintainer: Tingting Song <ttsong@gmail.com>
+Depends: R (>= 2.11.1), muUtil, muS2RC, stats
+Description: Performs Wilcox rank sum test, Kruskal rank sum test,
+        Friedman rank sum test and McNemar test.
+License: GPL (>= 2)
+URL: http://mustat.rockefeller.edu
+Packaged: 2010-09-17 22:48:11 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-09-23 15:43:08

@@ -1,0 +1,17 @@
+Package: OutlierDC
+Type: Package
+Version: 0.2.1
+Date: 2013-03-16
+Title: Outlier Detection using Quantile Regression for Censored Data
+Author: Soo-Heang Eo <hanansh@korea.ac.kr> and HyungJun Cho
+        <hj4cho@korea.ac.kr>
+Maintainer: Soo-Heang Eo <hanansh@korea.ac.kr>
+Depends: R (>= 2.15.3), methods, quantreg, survival, Formula
+Description: This provides three algorithms to detect outliers based on
+        censored quantile regression.
+URL: http://statlab.korea.ac.kr
+License: GPL (>= 3)
+Packaged: 2013-03-18 06:35:30 UTC; hanansh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-18 09:26:31

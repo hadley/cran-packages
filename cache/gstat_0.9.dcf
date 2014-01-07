@@ -1,0 +1,12 @@
+Package: gstat
+Version: 0.9
+Date: 2003/02/04
+Title: multivariable geostatistical modelling, prediction and simulation
+Author: Edzer J. Pebesma <e.pebesma@geog.uu.nl> and others
+Maintainer: Edzer J. Pebesma <e.pebesma@geog.uu.nl>
+Description: multivariable geostatistics: variogram modelling; simple,
+	ordinary and universal point or block (co)kriging, and sequential 
+	Gaussian or indicator (co)simulation, map plotting functions.
+Depends: R (>= 1.5.0), lattice
+License: GPL version 2 or later (gstat), BSD (meschach matrix library)
+URL: http://www.gstat.org/

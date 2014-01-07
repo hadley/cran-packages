@@ -1,0 +1,19 @@
+Package: ltm
+Title: Latent Trait Models under IRT
+Version: 0.9-3
+Date: 2009-12-08
+Author: Dimitris Rizopoulos <d.rizopoulos@erasmusmc.nl>
+Maintainer: Dimitris Rizopoulos <d.rizopoulos@erasmusmc.nl>
+Description: Analysis of multivariate dichotomous and polytomous data
+        using latent trait models under the Item Response Theory
+        approach. It includes the Rasch, the Two-Parameter Logistic,
+        the Birnbaum's Three-Parameter, the Graded Response, and the
+        Generalized Partial Credit Models.
+Depends: R (>= 2.5.0), MASS, msm, mvtnorm, polycor
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: http://wiki.r-project.org/rwiki/doku.php?id=packages:cran:ltm
+Packaged: 2009-12-08 07:19:24 UTC; Dimitris
+Repository: CRAN
+Date/Publication: 2009-12-09 08:53:47

@@ -1,0 +1,14 @@
+Package: emg
+Type: Package
+Title: Exponentially Modified Gaussian (EMG) Distribution
+Version: 1.0.4
+Date: 2010-12-08
+Author: Shawn Garbett, Mark Kozdoba
+Maintainer: Shawn Garbett <Shawn.Garbett@Vanderbilt.edu>
+Depends: R (>= 1.8.0), stats, stats4
+Description: Provides basic distribution functions for a mixture model of a gaussian and exponential distribution.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-12-13 17:14:18 UTC; garbetsp
+Repository: CRAN
+Date/Publication: 2011-12-14 07:32:53

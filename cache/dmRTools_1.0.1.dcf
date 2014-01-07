@@ -1,0 +1,25 @@
+Package: dmRTools
+Version: 1.0.1
+Date: 2011-8-10
+Title: Data Management Reporting Tool Version 1.0.1
+Author@R: c(person("Zekai", "Otles",email =
+        "otles@fstrf-wi.org"),role="aut", person("Pascal", "Groenen",
+        role = "aut", email = "p.groenen@factory-cro.com"))
+Author: Zekai Otles  <otles@fstrf-wi.org>, with contributions from 
+        Pascal Groenen <p.groenen@factory-cro.com>
+Maintainer: Zekai Otles <otles@fstrf-wi.org>
+Depends: R (>= 2.12.0), chron,RgoogleMaps,rgdal,sp,sqldf,xtable,utils
+Suggests: odfWeave
+Description: Data Management Reporting Tools 
+   This package can be used for a clinical trials data management systems.
+   The clinical trial data could be monitored for accrual and performance of the sites.
+   The details of the data collection process can be examined during the
+   trial.  The ancestor of this package called "dfRTools" specifically 
+   designed to be used for Clinical DataFax System (http://www.datafax.com).
+License: GPL (>= 2)
+http: //dmrtools.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: dmrtools
+Repository/R-Forge/Revision: 26
+Date/Publication: 2011-11-02 17:25:46
+Packaged: 2011-10-29 21:01:27 UTC; rforge

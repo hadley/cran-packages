@@ -1,0 +1,16 @@
+Package: binseqtest
+Type: Package
+Title: Exact Binary Sequential Designs and Analysis
+Version: 0.3
+Date: 2012-11-05
+Author: Jenn Kirk, Mike Fay
+Maintainer: Michael Fay <mfay@niaid.nih.gov>
+Description: For a series of binary responses, create stopping boundary
+        with exact results after stopping, allowing updating for
+        missing assessments.
+License: GPL-2
+Depends: methods, graphics, stats, clinfun
+Collate: 'allFuncs.R'
+Packaged: 2012-11-05 18:19:52 UTC; faym
+Repository: CRAN
+Date/Publication: 2012-11-05 19:57:21

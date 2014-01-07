@@ -1,0 +1,16 @@
+Package: pwt
+Version: 6.3-1
+Date: 2011-02-06
+Title: Penn World Table
+Author: Achim Zeileis, Guan Yang
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+Description: The Penn World Table provides purchasing power parity and
+        national income accounts converted to international prices for
+        189 countries for some or all of the years 1950-2007.
+LazyData: yes
+LazyDataCompression: xz
+Depends: R (>= 2.10.0)
+License: GPL-2
+Packaged: 2011-02-06 11:18:21 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2011-02-06 11:27:20

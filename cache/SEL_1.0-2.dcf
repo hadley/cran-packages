@@ -1,0 +1,22 @@
+Package: SEL
+Type: Package
+Title: Semiparametric elicitation
+Version: 1.0-2
+Date: 2010-05-22
+Depends: splines, quadprog, lattice
+Author: Bjoern Bornkamp
+Maintainer: Bjoern Bornkamp <bornkamp@statistik.tu-dortmund.de>
+Description: This package implements a novel method for fitting a
+        bounded probability distribution to quantiles (for example
+        stated by an expert), see Bornkamp and Ickstadt (2009) for
+        details.  For this purpose B-splines are used, and the density
+        is obtained by penalized least squares based on a Brier entropy
+        penalty.  The package provides methods for fitting the
+        distribution as well as methods for evaluating the underlying
+        density and cdf. In addition methods for plotting the
+        distribution, drawing random numbers and calculating quantiles
+        of the obtained distribution are provided.
+License: GPL
+Packaged: 2010-05-22 19:23:56 UTC; bjoern
+Repository: CRAN
+Date/Publication: 2010-05-23 07:10:59

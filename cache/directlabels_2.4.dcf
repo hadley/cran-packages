@@ -1,0 +1,26 @@
+Package: directlabels
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>
+Author: Toby Dylan Hocking
+Version: 2.4
+License: GPL-3
+Title: Direct labels for multicolor plots in lattice or ggplot2
+Description: The directlabels package provides an extensible framework
+        for automatically placing direct labels onto multicolor lattice
+        or ggplot2 plots.  It includes heuristics for examining
+        "trellis" and "ggplot" objects and inferring an appropriate
+        Positioning Method for placing the labels. Furthermore, the
+        design of directlabels makes it simple to create Positioning
+        Methods for specific plots or libraries of portable Positioning
+        Methods that can be re-used.
+URL: http://directlabels.r-forge.r-project.org/
+LazyData: true
+Suggests: ks, MASS, inlinedocs, quadprog, ggplot2 (>= 0.9.0), lattice,
+        alphahull, reshape2, nlme, ElemStatLearn, proto, lars, mlmRev,
+        latticeExtra
+Depends: grid
+Collate: utility.function.R compare.R dotplot.R lineplot.R
+        densityplot.R ggplot2.R positioning.functions.R doc.R lattice.R
+        scatterplot.R contourplot.R
+Packaged: 2012-03-05 08:44:55 UTC; hocking
+Repository: CRAN
+Date/Publication: 2012-03-05 09:05:09

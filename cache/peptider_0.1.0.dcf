@@ -1,0 +1,18 @@
+Package: peptider
+Type: Package
+Title: Evaluation of diversity in nucleotide libraries
+Version: 0.1.0
+Date: 2013-10-07
+Author: Heike Hofmann, Eric Hare, ggobi Foundation
+Maintainer: Eric Hare <erichare@iastate.edu>
+Description: Functions for evaluating diversity in peptide libraries, including
+    NNN, NNB, NNK/S, and NNN schemes.  This includes expected coverage, relative
+    efficiency, and functional diversity of the library.
+License: GPL-3
+Depends: discreteRV, plyr
+Suggests: ggplot2
+Collate: 'peptider.r' 'tabulate.r'
+Packaged: 2013-10-16 21:22:59 UTC; erichare
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-17 07:55:16

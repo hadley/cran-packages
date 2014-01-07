@@ -1,0 +1,16 @@
+Package: informR
+Type: Package
+Title: informR: R Tools for Creating Sequence Statistics
+Version: 1.0.01
+Date: 2011-08-29
+Author: Christopher Steven Marcum
+Maintainer: Christopher Steven Marcum <cmarcum@uci.edu>
+Description: Tools for creating sequence statistics, especially for
+        Butts's egocentric relational event model fitting software in
+        the relevent R package
+License: GPL (>= 2.0)
+Depends: abind, relevent
+LazyLoad: yes
+Packaged: 2011-08-30 02:35:16 UTC; cmarcum
+Repository: CRAN
+Date/Publication: 2011-08-30 05:37:13

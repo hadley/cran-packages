@@ -1,0 +1,10 @@
+Package: permax
+Version: 0.5
+Author: Robert J. Gray <gray@hsph.harvard.edu>
+Maintainer: Robert Gentleman <rgentlem@hsph.harvard.edu>
+Description:  The permax library consists of 7 functions, intended to facilitate
+ certain basic analyses of DNA array data, especially with regard to
+ comparing expression levels between two types of tissue. 
+Title: permax
+Depends: R (>= 1.2)
+License: GPL 2

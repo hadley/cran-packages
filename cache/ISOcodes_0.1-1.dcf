@@ -1,0 +1,14 @@
+Package: ISOcodes
+Version: 0.1-1
+Date: 2008-04-27
+Title: Selected ISO codes
+Author: Christian Buchta and Kurt Hornik
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Description: ISO language, territory, currency, script and character codes.
+  Provides ISO 639 language codes, ISO 3166 territory codes, ISO 4217
+  currency codes, ISO 15924 script codes, and the ISO 8859 and ISO 10646
+  character codes as well as the Unicode data table.
+Depends: R (>= 2.5.0)
+Encoding: UTF-8
+License: GPL-2
+Packaged: Sat Apr 26 20:12:45 2008; hornik

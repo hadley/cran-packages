@@ -1,0 +1,17 @@
+Package: QLSpline
+Version: 1.0-1
+Date: 2011-10-24
+Title: QLSpline
+Author: Steve Lund <lunds@iastate.edu>
+Maintainer: Steve Lund <lunds@iastate.edu>
+Depends: R (>= 2.12.2), fields
+Suggests: MASS
+Description: This package is used to apply the QL, QLShrink, and
+        QLSpline methods (Lund and Nettleton, 2011) for identifying
+        differentially expressed genes in RNA-seq data.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+BugReports: http://abc.bugtracker.url
+Packaged: 2012-10-29 08:57:28 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:28

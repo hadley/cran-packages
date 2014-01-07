@@ -1,0 +1,18 @@
+Package: convevol
+Title: Quantify and assess the significance of convergent evolution
+Description: Currently uses the convnum metric to quantify and assess the
+    significance of convergent evolution
+Version: 0.1-1
+Authors@R: c(person("C. Tristan", "Stayton", role = c("aut", "cre"),
+    email = "tstayton@bucknell.edu"))
+Depends: R (>= 3.0.1), phytools, cluster
+Imports: MASS, geiger
+License: GPL-2
+LazyData: true
+Collate: 'convevol-package.r' 'convnum.R' 'convnumsig.R' 'multianc.R'
+Packaged: 2013-11-15 06:48:12 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-15 07:50:22
+Author: C. Tristan Stayton [aut, cre]
+Maintainer: C. Tristan Stayton <tstayton@bucknell.edu>

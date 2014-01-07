@@ -1,0 +1,44 @@
+Package: RcppArmadillo
+Type: Package
+Title: Rcpp integration for Armadillo templated linear algebra library
+Version: 0.2.8
+Date: $Date: 2010-10-16 08:42:38 -0500 (Sat, 16 Oct 2010) $
+Author: Romain Francois, Dirk Eddelbuettel and Doug Bates
+Maintainer: Romain, Dirk and Doug
+        <RcppArmadillo-authors@r-enthusiasts.com>
+Description: R and Armadillo integration using Rcpp Armadillo is a
+        templated C++ linear algebra library aiming towards a good
+        balance between speed and ease of use. Integer, floating point
+        and complex numbers are supported, as well as a subset of
+        trigonometric and statistics functions. Various matrix
+        decompositions are provided through optional integration with
+        LAPACK and ATLAS libraries.
+ .
+ A delayed evaluation approach is employed (during compile time) to
+        combine several operations into one, and to reduce (or
+        eliminate) the need for temporaries. This is accomplished
+        through recursive templates and template meta-programming.
+ .
+ This library is useful if C++ has been decided as the language of
+        choice (due to speed and/or integration capabilities), rather
+        than another language.
+ .
+ The RcppArmadillo package includes the header files from the templated
+        Armadillo library (currently version 0.9.90). Thus users do not
+        need to install Armadillo itself in order to use RcppArmadillo.
+ .
+ This Armadillo integration provides a nice illustration of the
+        capabilities of the Rcpp package for seamless R and C++
+        integration.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.10.0), Rcpp (>= 0.8.6)
+LinkingTo: Rcpp
+Suggests: inline, RUnit
+SystemRequirements: GNU make
+URL: http://arma.sourceforge.net/,
+        http://dirk.eddelbuettel.com/code/rcpp.armadillo.html,
+        http://romainfrancois.blog.free.fr/index.php?category/R-package/RcppArmadillo
+Packaged: 2010-10-16 13:43:11.371872 UTC; edd
+Repository: CRAN
+Date/Publication: 2010-10-16 14:46:10

@@ -1,0 +1,13 @@
+Package: SASmixed
+Version: 0.1-5
+Date: 2001/12/31
+Title: Data sets from "SAS System for Mixed Models"
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Author: Original by Littel, Milliken, Stroup, and Wolfinger
+  modifications by Douglas Bates <bates@stat.wisc.edu> and
+  Jose Pinheiro <jcp@bell-labs.com>
+Description: Data sets and sample lme analyses corresponding
+  to the examples in Littel, Milliken, Stroup and Wolfinger
+  (1996), "SAS System for Mixed Models", SAS Institute.
+Depends: nlme
+License: GPL version 2 or later

@@ -1,0 +1,18 @@
+Package: CircSpatial
+Type: Package
+Title: Functions For Circular Spatial Data
+Version: 1.0
+Date: 2009-09-19
+Author: Bill Morphet
+Maintainer: Bill Morphet <morphwj@comcast.net>
+Depends: R (>= 2.9.2), fields (>= 5.02), CircStats (>= 0.2-3), geoR (>=
+        1.6-25), RandomFields (>= 1.3.40), spam (>= 0.15-4), MASS (>=
+        7.2-48), sp (>= 0.9-43)
+SystemRequirements: ActiveTcl (>= 8.5.5.0)
+Description: The package is a collection of functions for color
+        continuous high resolution images of circular spatial data,
+        circular kriging, and simulation of circular random fields.
+License: GPL-2 | GPL-3
+Packaged: 2009-09-20 21:51:11 UTC; Bill
+Repository: CRAN
+Date/Publication: 2009-09-21 06:50:49

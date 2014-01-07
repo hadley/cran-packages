@@ -1,0 +1,16 @@
+Package: detrendeR
+Type: Package
+Title: detrendeR - A Graphical User Interface (GUI) to process and
+        visualize tree-ring data using R.
+Version: 1.0
+Date: 2010-12-11
+Author: Filipe Campelo
+Maintainer: Filipe Campelo <fcampelo@ci.uc.pt>
+Description: Simple GUI to perform some standard tree-ring analyses.
+Imports: tcltk, dplR
+Suggests: tcltk, dplR
+License: GPL (>= 2)
+LazyLoad: no
+Packaged: 2010-12-29 18:09:00 UTC; filipe
+Repository: CRAN
+Date/Publication: 2011-01-03 12:34:41

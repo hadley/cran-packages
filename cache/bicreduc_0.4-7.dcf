@@ -1,0 +1,15 @@
+Package: bicreduc
+Version: 0.4-7
+Date: 2005-05-03
+Title: Reduction algorithm for the NPMLE for the distribution function of 
+  bivariate interval-censored data
+Author: Marloes Maathuis <marloes@stat.washington.edu>
+Maintainer: Marloes Maathuis <marloes@stat.washington.edu>
+Description: The main function is HMA, the HeightMapAlgorithm. This algorithm 
+  is based on the idea of an 'height map', and is described in the following paper: 
+  "Reduction algorithm for the NPMLE for the distribution function of 
+  bivariate interval-censored data", by Marloes Maathuis, Journal of Computational 
+  and Graphical Statistics, Volume 14, Number 2 (to appear). 
+License: GPL (version 2 or later)
+URL: http://www.stat.washington.edu/marloes
+Packaged: Thu Feb 19 14:22:52 2009; hornik

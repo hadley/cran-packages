@@ -1,0 +1,17 @@
+Package: doBy
+Version: 4.0.6
+Title: Groupwise computations of summary statistics, general linear
+        contrasts and other utilities
+Author: Søren Højsgaard <sorenh@agrsci.dk> with contributions from
+        Kevin Wright and Alessandro A. Leidi.
+Maintainer: Søren Højsgaard <sorenh@agrsci.dk>
+Description: Facilities for groupwise computations of summary
+        statistics and other facilities for working with grouped data.
+Encoding: latin1
+ZipData: no
+License: GPL (>= 2)
+Imports: Matrix
+Depends: survival
+Packaged: 2010-05-07 02:33:04 UTC; shd
+Repository: CRAN
+Date/Publication: 2010-05-07 08:56:59

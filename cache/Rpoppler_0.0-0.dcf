@@ -1,0 +1,15 @@
+Package: Rpoppler
+Version: 0.0-0
+Title: PDF tools based on Poppler
+Description: PDF tools based on the Poppler library
+Author: Kurt Hornik
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+License: GPL-2
+SystemRequirements: Poppler Glib interface headers and libraries
+        (<http://poppler.freedesktop.org/>) [Debian/Ubuntu:
+        libpoppler-glib-dev, Fedora: poppler-glib-devel]
+OS_type: unix
+Packaged: 2013-08-08 08:01:17 UTC; hornik
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-08 10:05:59

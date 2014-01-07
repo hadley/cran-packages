@@ -1,0 +1,17 @@
+Package: diseasemapping
+Type: Package
+Title: Calculate observed and expected disease incidence counts from a
+        case file and population data.
+Version: 0.5.3
+Date: 2009-09-29
+Depends: mgcv
+Enhances: diseasemappingDevel, glmmBUGS, sp, spdep
+Author: Patrick Brown
+Maintainer: Lutong Zhou <carly_zhou@hotmail.com>
+Description: works with regular data set file and shape file.
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: diseasemapping
+Repository/R-Forge/Revision: 422
+Date/Publication: 2009-10-05 18:26:07
+Packaged: 2009-10-02 20:19:37 UTC; rforge

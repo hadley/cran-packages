@@ -1,0 +1,17 @@
+Package: ExceedanceTools
+Type: Package
+Title: Confidence Regions for Exceedance Sets
+Version: 1.0
+Date: 2012-05-16
+Author: Joshua French
+Maintainer: Joshua French <joshua.french@ucdenver.edu>
+Description: Various tools for constructing confidence regions for
+        exceedance regions.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.12.0)
+Imports: SpatialTools, splancs
+Packaged: 2013-03-01 19:33:06 UTC; jfrench
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 22:41:40

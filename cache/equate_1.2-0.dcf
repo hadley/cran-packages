@@ -1,0 +1,24 @@
+Package: equate
+Version: 1.2-0
+Date: 2013-9-20
+Title: Statistical Methods for Test Score Equating
+Author: Anthony Albano <tony.d.albano@gmail.com>
+Maintainer: Anthony Albano <tony.d.albano@gmail.com>
+Depends: R (>= 3.0.0)
+Description: The equate package contains functions for
+	non-IRT equating under equivalent and nonequivalent
+	groups with anchor test designs. Mean, linear,
+	equipercentile and circle-arc equating are supported,
+	as are methods for univariate and bivariate presmoothing
+	of score distributions. Specific equating methods
+	currently supported include synthetic, nominal weights,
+	Tucker, Levine observed score, Levine true score,
+	Braun/Holland, frequency estimation, and chained equating.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2) | file LICENSE
+URL: http://www.r-project.org
+Packaged: 2013-09-19 19:46:33 UTC; talbano
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-20 07:48:30

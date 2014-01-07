@@ -1,0 +1,40 @@
+Package: drsmooth
+Title: Dose-Response Modeling with Smoothing Splines
+Description: Drsmooth provides tools for assessing the shape of a dose-response
+    curve by testing linearity and non-linearity at user-defined cut-offs. It
+    also provides two methods of estimating a threshold dose, or the dose at
+    which the dose-response function transitions to significantly increasing:
+    bi-linear (based on pkg:segmented) and smoothed with splines (based on
+    pkg:mgcv).
+Version: 1.0
+Authors@R: c(person("Greg", "Hixon", role = c("aut", "cph"),
+    email = "ghixon@toxstrategies.com"),
+    person("Anne", "Bichteler", role = c("aut","cre"),
+    email = "abichteler@toxstrategies.com"),
+    person("Chad", "Thompson", role = "ctb",
+    email = "cthompson@toxstrategies.com"),
+    person("Liz", "Abraham", role = "ctb",
+    email = "labraham@toxstrategies.com"))
+Maintainer: Anne Bichteler <abichteler@toxstrategies.com>
+Depends: R (>= 3.0.1)
+Imports: car, clinfun, mgcv, multcomp, pgirmess, DTK, segmented,
+        mvtnorm
+Suggests: testthat
+License: GPL (>= 3)
+LazyData: TRUE
+Collate: 'bartlett.r' 'chisquare.r' 'dosefactor.r' 'DRdata.R'
+        'dunnetts1.r' 'dunnetts2.r' 'dunnettst3.r' 'dunns1.r'
+        'dunns2.r' 'jonckheere.r' 'lbcd.r' 'nlaad.r' 'nlbcd.r'
+        'outlier.r' 'pkg_prep.r' 'prelimstats.r' 'segment.r'
+        'shapiro.r' 'firstDeriv.r' 'noel.r' 'dunnetts.format.r'
+        'dunns.format.r' 'drsmooth.print.r' 'segment.plot.r'
+        'segment.print.r' 'spline.plot.r' 'drsmooth-package.R'
+        'smooth.r'
+Packaged: 2013-12-04 19:50:26 UTC; abichteler
+Author: Greg Hixon [aut, cph],
+  Anne Bichteler [aut, cre],
+  Chad Thompson [ctb],
+  Liz Abraham [ctb]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-05 17:26:56

@@ -1,0 +1,49 @@
+Package: hyperSpec
+Type: Package
+Title: Interface for hyperspectral data, i.e. spectra + meta info
+        (spatial, time, concentration, ...)
+Version: 0.98-20120224
+Date: 2012-02-24
+Author: Claudia Beleites
+Maintainer: Claudia Beleites <cbeleites@units.it>
+Description: This package is an interface to handle hyperspectral data
+        sets in R.  I.e. spatially or time-resolved spectra, or spectra
+        with any other kind of information associated with each of the
+        spectra. The spectra can be data as obtained in XRF, UV/VIS,
+        Fluorescence, AES, NIR, IR, Raman, NMR, MS, etc. More
+        generally, any data that is recorded over a discretized
+        variable, e.g. absorbance = f (wavelength), stored as a vector
+        of absorbance values for discrete wavelengths is suitable.
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.11), methods, utils, lattice, grid
+Suggests: R.matlab, latticeExtra, tripack, deldir, rgl, plotrix,
+        testthat, ggplot2, pls, playwith, latticist, svUnit, sp,
+        baseline, compiler, inline, Rcpp
+URL: http://hyperSpec.r-forge.r-project.org/
+Collate: 'hyperspec-package.R' 'validate.R' 'hyperspec-class.R'
+        'aggregate.R' 'all.equal.R' 'apply.R' 'paste.row.R' 'Arith.R'
+        'as.data.frame.R' 'barbiturates.R' 'bind.R' 'call.list.R'
+        'chk.hy.R' 'chondro.R' 'collapse.R' 'Compare.R'
+        'decomposition.R' 'dimnames.R' 'dim.R' 'DollarNames.R'
+        'empty.R' 'wl2i.R' 'extract.R' 'factor2num.R' 'flu.R'
+        'getbynames.R' 'initialize.R' 'labels.R' 'laser.R' 'plotmap.R'
+        'levelplot.R' 'logbook.R' 'logentry.R' 'map.identify.R'
+        'map.sel.poly.R' 'mark.dendrogram.R' 'Math.R'
+        'matlab.palette.R' 'mean_sd.R' 'merge.R' 'options.R'
+        'orderwl.R' 'paracetamol.R' 'pearson.dist.R' 'plotc.R' 'plot.R'
+        'plotspc.R' 'plotvoronoi.R' 'qplotmixmap.R' 'qplot.R'
+        'rbind.fill.R' 'read.ENVI.Nicolet.R' 'read.ENVI.R'
+        'read.spc.KaiserMap.R' 'read.spc.R' 'read.txt.long.R'
+        'read.txt.wide.R' 'replace.R' 'sample.R' 'scan.txt.Renishaw.R'
+        'scan.txt.Witec.R' 'sel.poly.R' 'seq.R' 'show.R' 'spc.bin.R'
+        'spc.fit.poly.R' 'spc.identify.R' 'spc.loess.R'
+        'spc.NA.approx.R' 'splitdots.R' 'split.R' 'split.string.R'
+        'Summary.R' 'sweep.R' 'trellis.factor.key.R' 'unittest.R'
+        'wc.R' 'wl.R' 'write.txt.long.R' 'write.txt.wide.R' 'zzz.R'
+        'units.R' 'colMeans.R' 'read.jdx.Shimadzu.R'
+        'read.txt.Shimadzu.R' 'subset.R' 'y-pastenames.R'
+Packaged: 2012-02-24 12:04:21 UTC; cb
+Repository: CRAN
+Date/Publication: 2012-02-24 14:26:43

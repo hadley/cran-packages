@@ -1,0 +1,16 @@
+Package: COSINE
+Type: Package
+Title: COndition SpecIfic sub-NEtwork
+Version: 0.0
+Date: 2010-11-13
+Author: Haisu Ma
+Maintainer: Haisu Ma <haisu.ma@yale.edu>
+Depends: R (>= 2.9.0), MASS,genalg
+Description: To identify the globally most discriminative subnetwork
+        from gene expression profiles using an optimization model and
+        genetic algorithm
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-11-29 19:14:26 UTC; Haisu
+Repository: CRAN
+Date/Publication: 2010-11-29 20:39:22

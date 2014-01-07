@@ -1,0 +1,18 @@
+Package: glm2
+Type: Package
+Title: Fitting Generalized Linear Models
+Version: 1.1
+Date: 2012-11-21
+Author: Ian Marschner (using code from glm and glm.fit in the stats
+        package)
+Maintainer: Ian Marschner <ian.marschner@mq.edu.au>
+Depends: R (>= 2.12.1), stats
+Description: Fits generalized linear models using the same model
+        specification as glm in the stats package, but with a modified
+        default fitting method that provides greater stability for
+        models that may fail to converge using glm
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-21 10:32:54 UTC; Ian
+Repository: CRAN
+Date/Publication: 2012-11-28 16:45:37

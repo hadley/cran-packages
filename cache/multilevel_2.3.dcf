@@ -1,0 +1,11 @@
+Package: multilevel
+Title: Multilevel Functions
+Version: 2.3
+Date:  2008-2-10
+Author: Paul Bliese <paul.bliese@us.army.mil>
+Maintainer: Paul Bliese <paul.bliese@us.army.mil>
+Description:  The functions in this package are designed to be used in the analysis of multilevel data by organizational and social psychologists.  The package includes estimates of within-group agreement, and routines using random group resampling (RGR) to detect group effects.  The package also contains basic routines for estimating reliability and manipulating data.
+Depends: nlme, MASS
+LazyLoad: yes
+License: GPL-2
+Packaged: Sun Feb 15 10:19:59 2009; hornik

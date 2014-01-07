@@ -1,0 +1,21 @@
+Package: rgrs
+Type: Package
+Title: Functions to make R usage in social sciences easier (in french)
+Version: 0.2-16
+Date: 2011-09-26
+Author: Julien Barnier <julien.barnier@ens-lyon.fr>
+Maintainer: Julien Barnier <julien.barnier@ens-lyon.fr>
+Description: This package provides functions for beginners and social
+        sciences students or researchers. Currently it includes
+        functions for cross-tabulation, weighting, results export, and
+        maps plotting. The documentation and help pages are written in
+        french.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends:
+Suggests: tcltk, odfWeave, R2HTML, RColorBrewer, sp
+SystemRequirements: xclip (Linux)
+URL: http://alea.fr.eu.org/j/rgrs.html
+Packaged: 2011-09-29 08:29:28 UTC; julien
+Repository: CRAN
+Date/Publication: 2011-09-29 14:58:08

@@ -1,0 +1,16 @@
+Package: twostageTE
+Type: Package
+Title: Two-Stage Threshold Estimation
+Version: 1.0
+Date: 2013-03-05
+Author: Shawn Mankad, George Michailidis, Moulinath Banerjee
+Maintainer: Shawn Mankad <smankad@umich.edu>
+Description: Implements a variety of nonparametric methods for
+        computing one-stage and two-stage confidence intervals, as well
+        as point estimates of threshold values.
+License: GPL-2
+Depends: isotone
+Packaged: 2013-05-23 22:28:03 UTC; smankad
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-24 07:38:34

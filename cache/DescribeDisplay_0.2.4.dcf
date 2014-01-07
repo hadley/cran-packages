@@ -1,0 +1,22 @@
+Package: DescribeDisplay
+Version: 0.2.4
+Title: R interface to DescribeDisplay (GGobi plugin)
+Author: Hadley Wickham <hadley@rice.edu>,
+    Di Cook <dicook@iastate.edu>,
+    Andreas Buja <buja@wharton.upenn.edu>,
+    Barret Schloerke <bigbear@iastate.edu>
+Depends: proto
+Imports: reshape2, ggplot2 (>= 0.9.1), plyr, scales, grid, GGally
+Maintainer: Di Cook <dicook@iastate.edu>
+Description: Produce publication quality graphics from output of GGobi's
+    describe display plugin
+License: BSD
+URL: http://www.ggobi.org/describe-display/
+Collate: 'axis-geom.r' 'axis-grob.r' 'data.r'
+        'DescribeDisplay-package.r' 'ggplot-barchart.r'
+        'ggplot-parcoords.r' 'ggplot-scatmat.r' 'ggplot-timeseries.r'
+        'ggplot.r' 'plots.r' 'utils.r'
+Packaged: 2013-07-10 11:41:27 UTC; dicook
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-18 17:36:48

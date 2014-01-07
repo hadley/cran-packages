@@ -1,0 +1,16 @@
+Package: Laterality
+Type: Package
+Title: Functions to calculate common laterality statistics in
+        primatology.
+Version: 0.9.2
+Date: 2013-07-07
+Author: Borel A., Pouydebat E., Reghem E.
+Maintainer: Antony Borel <antony.borel@gmail.com>
+Description: Laterality package calculates Handedness index (HI) and z-score. It gives also absolute HI and mean HI at the individual and group level. The corresponding graphs can also be plotted. Some functions based on the ade4 package perform correspondence analysis (package ade4 is needed).
+License: GPL (>= 2.0)
+LazyLoad: yes
+Depends: ade4
+Packaged: 2013-07-07 19:43:09 UTC; antony
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-08 07:22:53

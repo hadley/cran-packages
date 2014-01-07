@@ -1,0 +1,32 @@
+Package: WhatIf
+Version: 1.3-4-3
+Date: 2005-10-31
+Title: WhatIf: Software for Evaluating Counterfactuals
+Author: Heather Stoll <hstoll@polsci.ucsb.edu>,
+          Gary King <king@harvard.edu>,
+	  Langche Zeng <zeng@ucsd.edu>,
+Maintainer: Heather Stoll <hstoll@polisci.ucsb.edu>
+Depends: R (>= 2.2.0)
+Description: Inferences about counterfactuals are essential for prediction,
+      answering what if questions, and estimating causal effects.
+      However, when the counterfactuals posed are too far from the data at
+      hand, conclusions drawn from well-specified statistical analyses
+      become based largely on speculation hidden in convenient modeling
+      assumptions that few would be willing to defend.  Unfortunately,
+      standard statistical approaches assume the veracity of the model
+      rather than revealing the degree of model-dependence, which makes this
+      problem hard to detect.  WhatIf offers easy-to-apply methods to
+      evaluate counterfactuals that do not require sensitivity testing over
+      specified classes of models.  If an analysis fails the tests offered
+      here, then we know that substantive inferences will be sensitive to at
+      least some modeling choices that are not based on empirical evidence,
+      no matter what method of inference one chooses to use.  WhatIf
+      implements the methods for evaluating counterfactuals discussed in
+      Gary King and Langche Zeng.  2006a. The Dangers of Extreme
+      Counterfactuals, Political Analysis 14 (2), forthcoming, and Gary 
+      King and Langche Zeng. 2006b. When Can History Be Our Guide?  The 
+      Pitfalls of Counterfactual Inference, International Studies 
+      Quarterly, forthcoming.
+License: GPL version 2 or newer
+URL: http://gking.harvard.edu/whatif
+Packaged: Mon Oct 31 15:04:15 2005; king

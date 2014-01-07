@@ -1,0 +1,21 @@
+Package: clue
+Version: 0.3-46
+Encoding: UTF-8
+Title: Cluster ensembles
+Description: CLUster Ensembles
+Authors@R: c(person("Kurt", "Hornik", role = c("aut", "cre"), email =
+        "Kurt.Hornik@R-project.org"), person("Walter", "Böhm", role =
+        "ctb"))
+License: GPL-2
+Depends: R (>= 2.10)
+Imports: stats, cluster, graphics, methods
+Suggests: e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations,
+        cluster
+Enhances: RWeka, ape, cba, cclust, flexmix, flexclust, kernlab, mclust,
+        modeltools
+Packaged: 2013-03-19 14:25:47 UTC; hornik
+Author: Kurt Hornik [aut, cre], Walter Böhm [ctb]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-19 15:58:47

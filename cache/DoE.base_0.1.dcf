@@ -1,0 +1,19 @@
+Package: DoE.base
+Title: Full factorials, orthogonal arrays and base utilities for DoE
+        packages
+Version: 0.1
+Depends: R(>= 2.7.1)
+Date: 2009-05-24
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@bht-berlin.de>
+Description: This package creates full factorial experiments and
+        experiments based on orthogonal arrays for (industrial)
+        experiments. Additionally, it provides some utility functions
+        used also by other DoE packages.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: latin1
+Packaged: Mon May 25 11:49:13 2009; Grömping
+Repository: CRAN
+Date/Publication: 2009-05-25 19:08:29

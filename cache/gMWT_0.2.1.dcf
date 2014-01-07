@@ -1,0 +1,18 @@
+Package: gMWT
+Type: Package
+Title: Generalized Mann-Whitney Type Tests
+Version: 0.2.1
+Date: 2012-12-20
+Author: Daniel Fischer , Hannu Oja
+Maintainer: Daniel Fischer <daniel.fischer@uta.fi>
+Depends: R (>= 2.15.2), clinfun, Rcpp (>= 0.9.13), RcppArmadillo (>=
+        0.3.4.4)
+LinkingTo: Rcpp, RcppArmadillo
+Description: Generalized Mann-Whitney type tests based on probabilistic
+        indices and new diagnostic plots.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-03-16 18:56:03 UTC; medafi
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-17 07:41:43

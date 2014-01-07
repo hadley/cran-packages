@@ -1,0 +1,24 @@
+Package: mobForest
+Type: Package
+Title: Model based Random Forest analysis
+Version: 1.0
+Date: 2011-12-12
+Author: Nikhil Garge and Barry Eggleston
+Maintainer: Nikhil Garge <ngarge@rti.org>
+Description: This package implements random forest method for model
+        based recursive partitioning. The mob() function, developed by
+        Zeileis et al (2008), within party package, is modified to
+        contruct model-based decesion trees based on random forest
+        methodology. The main input function mobForestAnalysis() takes
+        all input parameters to construct trees, compute out-of-bag
+        errors, predictions, and overall accuracy of forest. The
+        algorithm performs parallel computation using clusterApply()
+        function within 'parallel' package.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: parallel, party
+Imports: methods, modeltools
+Suggests: mlbench
+Packaged: 2012-01-10 21:00:03 UTC; ngarge
+Repository: CRAN
+Date/Publication: 2012-01-12 09:30:27

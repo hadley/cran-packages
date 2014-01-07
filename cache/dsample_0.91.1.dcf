@@ -1,0 +1,17 @@
+Package: dsample
+Type: Package
+Title: Discretization-based Direct Random Sample Generation
+Version: 0.91.1
+Date: 2013-05-11
+Author: Liqun Wang and Chel Hee Lee
+Maintainer: Chel Hee Lee <gnustats@gmail.com>
+Description: The package provides two discretization-based Monte Carlo
+        algorithms, namely the Fu-Wang algorithm and the Wang-Lee
+        algorithm, for random sample generation from a high dimensional
+        distribution of complex structure. The normalizing constant of
+        the target distribution needs not to be known.
+License: GPL-3
+Packaged: 2013-05-11 21:13:53 UTC; gnustats
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-14 06:42:21

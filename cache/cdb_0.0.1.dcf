@@ -1,0 +1,25 @@
+Package: cdb
+Type: Package
+Title: Reading and Writing Constant DataBases
+Version: 0.0.1
+Date: 2013-04-14
+Authors@R: c(person("Emilio", "Torres Manzanera", role = c("aut",
+        "cre"), email = "torres@uniovi.es"))
+Maintainer: Emilio Torres Manzanera <torres@uniovi.es>
+Description: A constant database is a data structure created by Daniel
+        J. Bernstein in his cdb package. Its format consists on a
+        sequence of (key,value)-pairs. This R package replicates the
+        basic utilities for reading (cdbget) and writing (cdbdump)
+        constant databases.
+Depends: bitops
+Suggests: methods
+URL: http://cdb.r-forge.r-project.org/
+License: GPL (>= 2)
+Author: Emilio Torres Manzanera [aut, cre]
+Repository: CRAN
+Repository/R-Forge/Project: cdb
+Repository/R-Forge/Revision: 6
+Repository/R-Forge/DateTimeStamp: 2013-04-20 09:46:16
+Date/Publication: 2013-04-20 23:11:50
+Packaged: 2013-04-20 10:15:32 UTC; rforge
+NeedsCompilation: no

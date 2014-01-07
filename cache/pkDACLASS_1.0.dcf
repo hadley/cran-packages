@@ -1,0 +1,19 @@
+Package: pkDACLASS
+Type: Package
+Title: A complete statistical analysis of MALDI-TOF Mass Spectrometry
+        Proteomics data
+Version: 1.0
+Date: 2011-01-05
+Depends: PROcess, plyr, ROCR, randomForest, caMassClass
+Author: Juliet Ndukum <jpntsang@gmail.com>, Mourad Atlas
+        <mourad.atlas@gmail.com>, Susmita Datta <susmdatta@gmail.com>
+Maintainer: Juliet Ndukum <jpntsang@gmail.com>
+Description: The package pkDACLASS provides unique monoisotopic peaks
+        of peptides. It will align the detected monoisotopic peaks from
+        multiple samples and classify the samples with these peaks and
+        report the classification accuracy.
+License: LGPL
+LazyLoad: yes
+Packaged: 2011-01-05 22:00:31 UTC; j0nduk01
+Repository: CRAN
+Date/Publication: 2011-01-15 16:23:56

@@ -1,0 +1,15 @@
+Package: EasyHTMLReport
+Type: Package
+Title: EasyHTMLReport
+Version: 0.1.1
+Date: 2013-08-13
+Author: Yohei Sato <yohei0511@gmail.com>
+Maintainer: Yohei Sato <yohei0511@gmail.com>
+Description: It is a package that can be used to send HTML reports easily.
+License: GPL-2
+Depends: base64enc,markdown,knitr(>= 0.7),
+Imports: ggplot2,scales,xtable,reshape2
+Packaged: 2013-08-13 02:57:13 UTC; sato_yohei
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-13 07:04:46

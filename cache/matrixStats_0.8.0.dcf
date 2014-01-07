@@ -1,0 +1,27 @@
+Package: matrixStats
+Version: 0.8.0
+Depends: R (>= 2.9.0)
+Imports: methods, R.methodsS3 (>= 1.4.2)
+Date: 2013-05-01
+Title: Methods that apply to rows and columns of a matrix
+Authors@R: c( person("Henrik", "Bengtsson", role=c("aut", "cre",
+        "cph"), email="henrikb@braju.com"), person("Hector", "Corrada
+        Bravo", role="ctb"), person("Robert", "Gentleman", role="ctb"),
+        person("Ola", "Hossjer", role="ctb"), person("Harris",
+        "Jaffee", role="ctb"), person("Peter", "Langfelder",
+        role="ctb"))
+Author: Henrik Bengtsson, Hector Corrada Bravo, Robert Gentleman, Ola
+        Hossjer, Harris Jaffee, Peter Langfelder
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Description: This packages provides methods operating on rows and
+        columns of matrices, e.g. col/rowMedians() and col/rowRanks().
+        There are also some vector-based methods, e.g. anyMissing(),
+        weightedMedians(), and binMeans().  The objective is to have
+        all methods being optimized for speed and memory consumption.
+License: Artistic-2.0
+LazyLoad: TRUE
+biocViews: Infrastructure, Statistics
+Packaged: 2013-05-01 18:40:34 UTC; hb
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-02 08:20:07

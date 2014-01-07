@@ -1,0 +1,25 @@
+Package: itree
+Title: Tools for classification and regression trees, with an emphasis
+        on interpretability.
+Version: 0.1
+Date: 2013-06-14
+Author: Alex Goldstein (itree modifications) Terry Therneau, Beth
+        Atkinson, Brian Ripley (rpart)
+Maintainer: Alex Goldstein <alexlg@wharton.upenn.edu>
+Description: This package is based on the code of the rpart package.
+        It extends rpart by adding additional splitting methods
+        emphasizing interpretable/parsimonious trees.  Unless indicated
+        otherwise, it is safe to assume that all functions herein are
+        extensions of or copied directly from similar or nearly
+        identical rpart methods.  As such, the authors of rpart are
+        authors of this package as well.  However, please direct any
+        error reports or other questions about itree to the maintainer
+        of this package; they are welcome and appreciated.
+Depends: R (>= 2.13.0), graphics, stats, grDevices
+Suggests: survival, mlbench
+License: GPL-2 | GPL-3
+LazyData: yes
+NeedsCompilation: yes
+Packaged: 2013-06-26 18:50:55 UTC; alex
+Repository: CRAN
+Date/Publication: 2013-06-27 07:09:25

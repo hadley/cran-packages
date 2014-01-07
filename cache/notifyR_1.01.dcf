@@ -1,0 +1,17 @@
+Package: notifyR
+Type: Package
+Title: Send push notifications to your smartphone via pushover.net
+        (ACCOUNT REQUIRED!)
+Version: 1.01
+Date: 2012-08-05
+Author: Torben Engelmeyer
+Maintainer: Torben Engelmeyer <torben@engelmeyer.de>
+Depends: R (>= 2.11.0), RCurl, rjson
+Description: This Package provides a connection to the pushover.net API
+        to send push notification to your smartphone directly from R.
+        (ACCOUNT REQUIRED!)
+License: GPL-2
+URL: http://www.engelmeyer.de/notifyR
+Packaged: 2012-08-05 16:53:10 UTC; Engelmeyer
+Repository: CRAN
+Date/Publication: 2012-08-05 17:40:07

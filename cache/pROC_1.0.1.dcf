@@ -1,0 +1,22 @@
+Package: pROC
+Type: Package
+Title: pROC
+Version: 1.0.1
+Date: 2010-04-28
+Encoding: UTF-8
+Depends: plyr, MASS, utils, stats, graphics, R (>= 2.10)
+Suggests: tcltk
+Author: Xavier Robin, Natacha Turck, Alexandre Hainard, Natalia
+        Tiberti, Frédérique Lisacek, Jean-Charles Sanchez and Markus
+        Müller
+Maintainer: Xavier Robin <Xavier.Robin@unige.ch>
+Description: Tools for visualizing, smoothing and comparing receiver
+        operating characteristic (ROC curves). (Partial) area under the
+        curve (AUC) can be compared with statistical tests based on
+        U-statistics or bootstrap. Confidence intervals can be computed
+        for (p)AUC or ROC curves.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2010-04-28 08:39:08 UTC; ROBINX
+Repository: CRAN
+Date/Publication: 2010-04-28 09:19:47

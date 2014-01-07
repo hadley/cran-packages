@@ -1,0 +1,17 @@
+Package: severity
+Type: Package
+Title: Mayo's Post-data Severity Evaluation
+Version: 1.0
+Date: 2013-03-15
+Author: Nicole Mee-Hyaang Jinn
+Maintainer: Nicole Mee-Hyaang Jinn <njinn@vt.edu>
+Depends: graphics
+Description: This package contains functions for calculating severity
+        and generating severity curves. Specifically, the simple case
+        of the one-parameter Normal distribution (i.e., with known
+        variance) is considered.
+License: GPL (>= 2)
+Packaged: 2013-03-15 08:30:16 UTC; nicolejinn
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-15 10:23:44

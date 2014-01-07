@@ -1,0 +1,19 @@
+Package: r2lUniv
+Type: Package
+Title: R to LaTeX, Univariate analysis
+Version: 0.9.4
+Date: 2009-1-12
+Author: Christophe Genolini<genolini@u-paris10.fr>
+Maintainer: Christophe Genolini<genolini@u-paris10.fr>
+Description: This package provide facilities to export some R analysis
+        in a LaTeX format. Working either on a single variable or on a
+        data.frame, it compute several statistics (frequency,
+        centrality, dispersion, graph) for each variable, according to
+        their nature.
+License: GPL (>= 2)
+Collate: function.R rtlu.R
+URL: http://www.r-project.org,
+        http://christophe.genolini.free.fr/r2lUniv
+Packaged: 2009-12-06 21:54:32 UTC; Christophe
+Repository: CRAN
+Date/Publication: 2009-12-07 07:47:37

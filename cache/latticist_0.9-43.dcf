@@ -1,0 +1,23 @@
+Package: latticist
+Type: Package
+Title: A graphical user interface for exploratory visualisation
+Version: 0.9-43
+Date: 2010-06-21
+Author: Felix Andrews <felix@nfrac.org>
+Maintainer: Felix Andrews <felix@nfrac.org>
+Depends: lattice (>= 0.16-3), latticeExtra (>= 0.5-4), vcd
+Imports: gWidgets (>= 0.0-30)
+Suggests: playwith, gWidgetstcltk, hexbin, deldir, tripack, DAAG, RGtk2
+Description: Latticist provides a graphical user interface for
+        exploratory visualisation. It is primarily an interface to the
+        Lattice graphics system, but also produces displays from the
+        vcd package for categorical data. Given a multivariate dataset
+        (either a data frame or a table), latticist attempts to produce
+        useful displays based on the properties of the data. The
+        displays can be customised by editing the calls used to
+        generate them.
+License: GPL (>= 2)
+URL: http://latticist.googlecode.com/
+Packaged: 2010-06-29 23:11:52 UTC; andrewsf
+Repository: CRAN
+Date/Publication: 2010-06-30 11:58:01

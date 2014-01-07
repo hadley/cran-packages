@@ -1,0 +1,17 @@
+Package: nfda
+Type: Package
+Title: Nonparametric Functional Data Analysis
+Version: 0.1
+Date: 2011-10-28
+Author: Simon M<c3><bc>ller
+Maintainer: Simon M<c3><bc>ller
+        <Simon.Mueller@mathematik.uni-stuttgart.de>
+Description: Nonparametric Functional Data Analysis
+License: GPL
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.5), RcppArmadillo (>= 0.2.27)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: fds, splines
+Packaged: 2011-11-12 16:17:04 UTC; alpha
+Repository: CRAN
+Date/Publication: 2011-11-12 16:51:14

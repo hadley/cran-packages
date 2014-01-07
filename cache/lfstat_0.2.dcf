@@ -1,0 +1,22 @@
+Package: lfstat
+Type: Package
+Title: Calculates Low Flow Statistics for daily stream flow data
+Version: 0.2
+Date: 2013-02-26
+Author: Daniel Koffler
+Maintainer: Daniel Koffler <daniel.koffler@boku.ac.at>
+Description: The "Manual on Low-flow Estimation and Prediction",
+        published by the World Meteorological Organisation (WMO), gives
+        an idea how to analyse stream flow data focusing on low-flow
+        issues. This packages gives functions to compute the described
+        statistics and produce plots similar to the one in the manual.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.10), lattice, lmom, lmomRFA, latticeExtra
+Repository: CRAN
+Repository/R-Forge/Project: lfstat
+Repository/R-Forge/Revision: 24
+Repository/R-Forge/DateTimeStamp: 2013-02-26 08:34:47
+Date/Publication: 2013-02-27 14:25:53
+Packaged: 2013-02-26 11:15:11 UTC; rforge
+NeedsCompilation: no

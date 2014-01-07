@@ -1,0 +1,13 @@
+Package: RobRSVD
+Type: Package
+Title: Robust Regularized Singular Value Decomposition
+Version: 1.0
+Date: 2013-12-15
+Author: Lingsong Zhang and Chao Pan
+Maintainer: Lingsong Zhang <lingsong@purdue.edu>
+Description: This package provides the function to calculate SVD, regularized SVD, robust SVD and robust regularized SVD method. The robust SVD methods use alternating iteratively reweighted least squares methods. The regularized SVD uses generalized cross validation to choose the optimal smoothing parameters. 
+License: GPL
+Packaged: 2013-12-16 15:55:43 UTC; lingsong
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-16 17:46:34

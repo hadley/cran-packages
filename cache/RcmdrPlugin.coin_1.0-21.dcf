@@ -1,0 +1,17 @@
+Package: RcmdrPlugin.coin
+Type: Package
+Title: Rcmdr Coin Plug-In
+Version: 1.0-21
+Date: 2012-10-29
+Author: Daniel-Corneliu Leucuta <danny.ldc@gmail.com>
+Maintainer: Daniel-Corneliu Leucuta <danny.ldc@gmail.com>
+Depends: R (>= 2.10), Rcmdr (>= 1.7.0), coin, survival, multcomp
+Description: This package provides an Rcmdr "plug-in" based on coin
+        (Conditional Inference Procedures in a Permutation Test
+        Framework).
+License: GPL (>= 2)
+Log-Exceptions:
+Models:
+Packaged: 2012-10-29 20:30:04 UTC; danny
+Repository: CRAN
+Date/Publication: 2012-10-30 06:17:49

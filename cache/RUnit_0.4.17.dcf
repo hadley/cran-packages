@@ -1,0 +1,12 @@
+Package:      RUnit
+Version:      0.4.17
+Date:         2007/05/21
+Title:        R Unit test framework
+Author:       Matthias Burger <burgerm@users.sourceforge.net>, Klaus Juenemann <k.junemann@gmx.net>, Thomas Koenig <thomas.koenig@epigenomics.com>
+Maintainer:   Matthias Burger <burgerm@users.sourceforge.net>
+LazyLoad:     yes
+Depends:      R (>= 1.9.0), utils (>= 1.9.0), methods (>= 1.9.0)
+Description:  R functions implementing a standard Unit Testing framework, with additional code inspection and report generation tools
+License:      GPL 2
+URL:          https://sourceforge.net/projects/runit/
+Packaged: Mon May 21 13:43:01 2007; burger

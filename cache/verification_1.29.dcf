@@ -1,0 +1,12 @@
+Package: verification
+Version: 1.29
+Date:  2008-12-12
+Title: Forecast verification utilities.
+Author: NCAR - Research Application Program
+Maintainer: Matt Pocernich <pocernic@ucar.edu>
+Depends:  methods, waveslim, fields, boot, CircStats
+Description: This package contains utilities for verification of discrete,continuous,  probabilistic forecasts and forecast expressed as parametric distributions.
+License: GPL (>=2)
+LazyLoad: yes
+LazyData: yes
+Packaged: Sun Jan  4 11:20:23 2009; joan_schunck

@@ -1,0 +1,20 @@
+Package: vcdExtra
+Type: Package
+Title: vcd additions
+Version: 0.4-1
+Date: 2010-02-25
+Author: Michael Friendly with Heather Turner, David Firth and Achim
+        Zeileis
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Depends: vcd,gnm
+Suggests: ca,gmodels,Fahrmeir
+Description: Provides additional data sets, methods and documentation
+        to complement the vcd package for Visualizing Categorical Data.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: vcdextra
+Repository/R-Forge/Revision: 53
+Date/Publication: 2010-03-07 17:10:04
+Packaged: 2010-03-05 21:50:40 UTC; rforge

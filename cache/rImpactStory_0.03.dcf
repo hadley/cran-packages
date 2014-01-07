@@ -1,0 +1,22 @@
+Package: rImpactStory
+Type: Package
+Title: Retrieves altmetrics from ImpactStory. See
+        http://impactstory.org for more about the metrics.
+Version: 0.03
+Date: 2012-09-05
+Authors@R: c(person("Karthik", "Ram", role = c("aut", "cre"), email =
+        "karthik.ram@gmail.com"), person("Scott", "Chamberlain", role =
+        "aut"))
+Maintainer: Karthik Ram <karthik.ram@gmail.com>
+Description: Provides a programmatic interface to ImpactStory API
+License: CC0
+URL: http://github.com/ropensci/rImpactStory
+Bug reports: http://github.com/ropensci/rImpactStory/issues
+Depends: RJSONIO, XML, reshape2, RCurl (>= 1.6), stringr, plyr
+Imports: RJSONIO, XML, RCurl, stringr, plyr
+Collate: 'getMetrics.R' 'collection.R' 'api_info.R' 'tiID.R'
+        'ti_providers.R'
+Packaged: 2012-11-10 00:41:18 UTC; karthik
+Author: Karthik Ram [aut, cre], Scott Chamberlain [aut]
+Repository: CRAN
+Date/Publication: 2012-11-10 18:04:04

@@ -1,0 +1,19 @@
+Package: svDialogstcltk
+Type: Package
+Version: 0.9-3
+Date: 2012-04-02
+Title: SciViews GUI API - Dialog boxes using Tcl/Tk
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"))
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 2.6.0), svDialogs (>= 0.9-50), tcltk
+Imports: svGUI (>= 0.9-52)
+Enhances: svDialogs
+Description: Reimplementation of the svDialogs dialog boxes in Tcl/Tk
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2013-01-27 21:57:06 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-28 07:44:03

@@ -1,0 +1,20 @@
+Package: geneARMA
+Type: Package
+Title: Simulate, model, and display data from a time-course microarray
+        experiment with periodic gene expression
+Version: 1.0
+Date: 2009-10-06
+Author: Timothy McMurry <tmcmurry@depaul.edu>, Arthur Berg
+        <berg@psu.edu>
+Maintainer: Timothy McMurry <tmcmurry@depaul.edu>
+Depends: mvtnorm
+Description: Fit models for periodic gene expression to time-course
+        microarray data in a normal mixture model framework with mean
+        approximated by a truncated Fourier series and covariance
+        structure modeled by an ARMA(p,q) process.  Estimation is
+        performed with the EM algorithm.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:49 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:49

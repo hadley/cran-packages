@@ -1,0 +1,24 @@
+Package: fechner
+Type: Package
+Title: Fechnerian Scaling of Discrete Object Sets
+Version: 1.0-2
+Date: 2012-08-16
+Authors@R: c(person("Ali", "Uenlue", email = "ali.uenlue@tum.de", role
+        = c("aut", "cre")), person("Thomas", "Kiefer", email =
+        "t.kiefer@bifie.at", role = c("aut", "trl"), comment = "Based
+        on original MATLAB source by Ehtibar N. Dzhafarov."))
+Description: Functions and example datasets for Fechnerian scaling of
+        discrete object sets.  It computes Fechnerian distances among
+        objects representing subjective dissimilarities, and other
+        related information.  See package?fechner for an overview.
+Depends: R (>= 2.15.1), base, graphics, stats
+Imports: base, graphics, stats
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2012-08-17 00:15:39 UTC; root
+Author: Ali Uenlue [aut, cre], Thomas Kiefer [aut, trl] (Based on
+        original MATLAB source by Ehtibar N.  Dzhafarov.)
+Maintainer: Ali Uenlue <ali.uenlue@tum.de>
+Repository: CRAN
+Date/Publication: 2012-08-17 08:32:09

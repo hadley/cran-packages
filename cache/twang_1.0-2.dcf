@@ -1,0 +1,15 @@
+Package: twang
+Version: 1.0-2
+Date: 2006-8-12
+Title: Toolkit for Weighting and Analysis of Nonequivalent Groups
+Author: Greg Ridgeway <gregr@rand.org>, Dan McCaffrey
+        <danielm@rand.org>, Andrew Morral <morral@rand.org>
+Maintainer: Greg Ridgeway <gregr@rand.org>
+Depends: R (>= 2.2), gbm (>= 1.5-3), survey, xtable
+Description: This package offers functions for propensity score
+        estimating and weighting, nonresponse weighting, and diagnosis
+        of the weights
+License: GPL (>= 2)
+Packaged: 2010-08-06 19:41:13 UTC; cfan
+Repository: CRAN
+Date/Publication: 2010-08-07 07:36:00

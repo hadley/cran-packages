@@ -1,0 +1,14 @@
+Package: GenKern
+Version: 1.2-60
+Date: 10/11/2013
+Title: Functions for generating and manipulating binned kernel density
+        estimates
+Author: David Lucy <d.lucy@lancaster.ac.uk> and Robert Aykroyd <r.g.aykroyd@leeds.ac.uk>
+Maintainer: David Lucy <d.lucy@lancaster.ac.uk>
+Description: Computes generalised KDEs
+Depends: KernSmooth, utils
+License: GPL-2
+Packaged: 2013-11-10 10:46:24 UTC; lucy
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-11 12:50:45

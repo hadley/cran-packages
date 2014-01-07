@@ -1,0 +1,30 @@
+Package: TraMineRextras
+Version: 0.2.2
+Date: 2013-10-30
+Title: Extras for use with the TraMineR package
+Authors@R: c(
+  person("Gilbert", "Ritschard", role = c("aut", "cre", "ths", "cph"),
+  email = "gilbert.ritschard@unige.ch"),
+  person("Matthias", "Studer", role = "aut"),
+  person("Reto", "Buergin", role = "aut"),
+  person("Alexis", "Gabadinho", role = "ctb"),
+  person("Nicolas", "Muller", role = "ctb"),
+  person("Patrick", "Rousset", role = "ctb"))
+Depends: R (>= 2.8.1), TraMineR (>= 1.8-4), RColorBrewer, combinat,
+        survival
+Suggests: cluster
+Description: Collection of ancillary functions and utilities to be used in conjunction with the TraMineR package for sequence data exploration. Most of the functions are in test phase, lack systematic consistency check of the arguments and are subject to changes. Once fully checked, some of the functions of this collection could be included in a next release of TraMineR.
+License: GPL (>= 2)
+URL: http://mephisto.unige.ch/traminer
+Encoding: UTF-8
+Packaged: 2013-10-29 15:40:01 UTC; adm
+Author: Gilbert Ritschard [aut, cre, ths, cph],
+  Matthias Studer [aut],
+  Reto Buergin [aut],
+  Alexis Gabadinho [ctb],
+  Nicolas Muller [ctb],
+  Patrick Rousset [ctb]
+Maintainer: Gilbert Ritschard <gilbert.ritschard@unige.ch>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-29 18:04:08

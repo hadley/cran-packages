@@ -1,0 +1,22 @@
+Package: FluOMatic
+Type: Package
+Title: Estimation of background-subtracted fluorescence data
+Version: 1.0
+Date: 2013-03-18
+Author: Sebastien Joucla, Christophe Pouzat
+Maintainer: Sebastien Joucla <joucla_sebastien@yahoo.fr>
+Description: Simulate and analyse fluorescence data sets obtained from
+        calcium imaging experiments in living cells (such as neurons).
+        The package provide tools to estimate background-subtracted
+        fluorescence transients and build meaningful confidence
+        intervals on these estimations. This covers both the case of
+        homogeneous background fluorescence and that of Regions Of
+        Interest (ROI) displaying background inhomogeneities.
+        Background-subtracted fluorescence transients can be fitted
+        with monoexponential models or estimated pointwise.
+License: GPL (>= 2)
+Packaged: 2013-03-20 20:48:25 UTC; seb
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-22 06:36:51

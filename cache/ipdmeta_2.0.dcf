@@ -1,0 +1,16 @@
+Package: ipdmeta
+Type: Package
+Title: Tools for Individual patient data and Mixed-level Meta-analysis
+Version: 2.0
+Date: 2011-01-18
+Author: S. Kovalchik
+Maintainer: S. Kovalchik <skoval@ucla.edu>
+Depends: survival, coxme, Matrix, phmm
+Description: Mixed effects IPD meta-analysis, mixed-level meta-analysis
+        with patient level data and mulivariate survival estimates for
+        aggregate studies
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-01-19 00:01:17 UTC; skoval
+Repository: CRAN
+Date/Publication: 2011-01-19 08:21:23

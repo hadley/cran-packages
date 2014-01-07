@@ -1,0 +1,17 @@
+Package: packHV
+Type: Package
+Title: A few useful functions for statisticians
+Version: 1.6
+Date: 2013-06-05
+Author: Hugo Varet
+Maintainer: Hugo Varet <varethugo@gmail.com>
+Depends: WriteXLS (>= 2.3.0), survival
+Description: Various useful functions for statisticians: describe data,
+        plot Kaplan-Meier curves with numbers of subjects at risk,
+        compare data sets, display spaghetti-plot, build
+        multi-contingency tables...
+License: GPL (>= 2)
+Packaged: 2013-06-05 08:06:55 UTC; varet
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-05 10:34:26

@@ -1,0 +1,14 @@
+Package: ARTIVA
+Type: Package
+Title: Infer a time-varying DBN network from time series data.
+Version: 1.0
+Date: 2011-12-10
+Author: S. Lebre and G. Lelandais.
+Maintainer: S. Lebre <sophie.lebre@lsiit-cnrs.unistra.fr>
+Depends: MASS, igraph
+Description: This package generates Reversible Jump MCMC (RJ-MCMC) sampling for approximating the posterior distribution of a time varying regulatory network, under the Auto Regressive TIme VArying (ARTIVA) model (for a detailed description of the algorithm, see Lebre et al. BMC Systems Biology, 2010). Starting from time-course gene expression measurements for a gene of interest (referred to as "target gene") and a set of genes (referred to as "parent genes") which may explain the expression of the target gene, the ARTIVA procedure identifies temporal segments for which a set of interactions occur between the "parent genes" and the "target gene". The time points that delimit the different temporal segments are referred to as changepoints (CP).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-12-19 15:03:08 UTC; sophie
+Repository: CRAN
+Date/Publication: 2011-12-20 07:24:07

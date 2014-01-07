@@ -1,0 +1,18 @@
+Package: GRTo
+Type: Package
+Title: Tools for the analysis of Gutenberg-Richter distributions of
+        earthquake magnitudes
+Version: 1.1
+Date: 2012-08-04
+Author: Daniel Amorese, Paul A. Rydelek and Jean-Robert Grasso  
+Maintainer: Daniel C. Amorese <amorese@ipgp.fr>
+Depends: R (>= 2.2.0), bootstrap
+Description: This package offers functions for the comparison of Gutenberg-Richter 
+	b-values. Several functions in GRTo are helpful for the assessment of the
+	quality of seismicity catalogs. 
+License: GPL
+LazyLoad: yes
+Packaged: 2013-07-26 21:17:03 UTC; daniel
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-27 00:38:18

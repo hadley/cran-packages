@@ -1,0 +1,17 @@
+Package: logregperm
+Type: Package
+Title: Inference in Logistic Regression
+Version: 1.0
+Date: 2008-03-18
+Author: Douglas M. Potter
+Maintainer: Douglas M. Potter <potter@upci.pitt.edu>
+Description: A permutation test is used for inference in logistic
+        regression.  The procedure is useful when parameter estimates
+        in ordinary logistic regression fail to converge or are
+        unreliable due to small sample size, or when the conditioning
+        in exact conditional logistic regression restricts the sample
+        space too severely.
+License: GPL-3
+Packaged: 2012-10-29 08:59:06 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:06

@@ -1,0 +1,14 @@
+Package: HTSCluster
+Type: Package
+Title: Clustering high throughput sequencing (HTS) data
+Version: 1.0
+Date: 2011-11-06
+Author: Andrea Rau, Gilles Celeux, Marie-Laure Martin-Magniette, Cathy Maugis-Rabusseau
+Maintainer: Andrea Rau <andrea.rau@jouy.inra.fr>
+Depends: R (>= 2.10.0)
+Description: This package implements two parameterizations of a Poisson mixture model to cluster observations (e.g., genes) in high throughput sequencing data. Parameter estimation is performed using either the EM or CEM algorithm, and the BIC or ICL criteria are used for model selection (i.e., to choose the number of clusters).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-11-06 21:37:59 UTC; Andrea_2
+Repository: CRAN
+Date/Publication: 2011-11-07 14:05:12

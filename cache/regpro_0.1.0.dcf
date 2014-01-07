@@ -1,0 +1,18 @@
+Package: regpro
+Version: 0.1.0
+Date: 2013-10-16
+Title: Nonparametric Regression
+Author: Jussi Klemela <jussi.klemela@oulu.fi>
+Maintainer: Jussi Klemela <jussi.klemela@oulu.fi>
+Depends: denpro (>= 0.9)
+Description: 
+  The package provides tools for
+  (1) nonparametric regression (kernel, local linear),
+  (2) semiparametric regression (single index, additive models), and
+  (3) quantile regression (linear, kernel)
+License: GPL (>= 2)
+URL: http://cc.oulu.fi/~jklemela/regpro
+Packaged: 2013-10-16 08:11:30 UTC; jsk
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-16 10:46:07

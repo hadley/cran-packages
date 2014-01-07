@@ -1,0 +1,16 @@
+Package: gvcm.cat
+Type: Package
+Title: Regularized Categorial Effects/Categorial Effect
+        Modifiers/Continuous/Smooth effects in GLMs
+Version: 1.6
+Date: 2013-11-14
+Author: Margret Oelker
+Maintainer: Margret Oelker <Margret.Oelker@stat.uni-muenchen.de>
+Description: The function fits generalized structured regression models with regularized categorical effects, categorical effect modifiers, continuous effects and smooth effects. 
+Depends: R (>= 2.10.0), Matrix, MASS, splines
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-11-14 13:27:14 UTC; oelker
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-14 14:51:56

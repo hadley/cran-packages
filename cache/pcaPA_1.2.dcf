@@ -1,0 +1,26 @@
+Package: pcaPA
+Title: Parallel Analysis for ordinal and numeric data using polychoric
+        and Pearson correlations with S3 classes.
+Version: 1.2
+Date: 2013-23-20
+Author: Carlos A. Arias <carias@icfes.gov.co> and Victor H. Cervantes
+        <vcervantes@icfes.gov.co>.
+Maintainer: Carlos A. Arias <carias@icfes.gov.co>
+Depends: R (>= 3.0.0), polycor, ltm, stats, ggplot2, mc2d
+Description: A set of functions to perform parallel analysis for
+        principal components analysis intended mainly for large data
+        sets. It performs a parallel analysis of continuous, ordered
+        (including dichotomous/binary as a special case) or mixed type
+        of data associated with a principal components analysis.
+        Polychoric correlations among ordered variables, Pearson
+        correlations among continuous variables and polyserial
+        correlation between mixed type variables (one ordered and one
+        continuous) are used. Whenever the use of polyserial or
+        polychoric correlations yields a non positive definite
+        correlation matrix, the resulting matrix is transformed into
+        the nearest positive definite matrix.
+License: GPL (>= 2)
+Packaged: 2013-12-20 17:46:43 UTC; Carlos
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-21 00:15:37

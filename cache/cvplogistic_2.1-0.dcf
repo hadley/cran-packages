@@ -1,0 +1,26 @@
+Package: cvplogistic
+Version: 2.1-0
+Date: 2012-06-05
+Title: Majorization Minimization by Coordinate Descent Algorithm for
+        Concave Penalized Logistic Regression for High Dimensional Data
+Author: Dingfeng Jiang <dingfeng.jiang@abbott.com>
+Maintainer: Dingfeng Jiang <dingfeng.jiang@abbott.com>
+Depends: R (>= 2.9.0), Matrix
+Description: The package uses majorization minimization by coordinate
+        descent (MMCD) algorithm to compute the solution surface for
+        concave penalized logistic regression models. The SCAD and MCP
+        (default) are two concave penalties considered in this
+        implementation. The package provides three types of solutions
+        surfaces, one computed along the regulation parameter kappa
+        (default), the one along the penalty parameter lambda, and the
+        one computed using a hybrid algorithm. The package also
+        provides three tuning parameter selection methods, one based on
+        AIC, one based on BIC and one based on k-fold cross-validated
+        area under ROC curve. Other algorithms such as the adaptive
+        rescaling approach and local linear approximation approach are
+        also provided for the MCP penalty as optional choices.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2012-06-05 04:30:24 UTC; luwenjing
+Repository: CRAN
+Date/Publication: 2012-06-05 05:55:42

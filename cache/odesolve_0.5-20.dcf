@@ -1,0 +1,14 @@
+Package: odesolve
+Version: 0.5-20
+Date: 2008/9/16
+Title: Solvers for Ordinary Differential Equations
+Author: R. Woodrow Setzer <setzer.woodrow@epa.gov>
+Maintainer: R. Woodrow Setzer <setzer.woodrow@epa.gov>
+Depends: R (>= 2.3.1)
+Description: This package provides an interface for the ODE solver
+        lsoda.  ODEs are expressed as R functions or as compiled code.
+        This is deprecated!  Use deSolve instead.
+License: GPL-2
+Packaged: Tue Sep 16 08:31:04 2008; wsetzer
+Repository: CRAN
+Date/Publication: 2008-09-16 17:25:56

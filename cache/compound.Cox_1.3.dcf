@@ -1,0 +1,15 @@
+Package: compound.Cox
+Type: Package
+Title: Regression estimation based on the compound shrinkage method
+        under the Cox proportional hazard model
+Version: 1.3
+Date: 2013-11-6
+Author: Takeshi Emura & Yi-Hau Chen
+Maintainer: Takeshi Emura <emura@stat.ncu.edu.tw>
+Description: Calculate regression coefficients and their standard deviations under the Cox proportional hazard model with the large number of covariates. 
+License: GPL-2
+Depends: numDeriv
+Packaged: 2013-11-08 00:18:36 UTC; user
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-08 07:08:44

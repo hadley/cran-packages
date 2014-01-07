@@ -1,0 +1,16 @@
+Package: dupiR
+Type: Package
+Title: dupiR
+Version: 1.0
+Date: 2013-06-19
+Depends: R (>= 2.15.1), methods, plotrix
+Author: Federico Comoglio and Maurizio Rinaldi
+Maintainer: Federico Comoglio <federico.comoglio@bsse.ethz.ch>
+Description: Inference of population sizes using a binomial likelihood
+        and least informative discrete uniform priors.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-06-19 19:51:01 UTC; comoglif
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-20 07:34:47

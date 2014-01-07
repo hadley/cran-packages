@@ -1,0 +1,22 @@
+Package: DiagnosisMed
+Version: 0.2.2.2
+Date: 2009-08-18
+Author: Pedro Brasil <pedro.brasil@ipec.fiocruz.br>
+Maintainer: Pedro Brasil <pedro.brasil@ipec.fiocruz.br>
+Depends: R (>= 2.7.2),epitools, epicalc, TeachingDemos, tcltk, AMORE
+Title: Diagnostic test accuracy evaluation for medical professionals.
+Description: DiagnosisMed is a package to analyze data from diagnostic
+        test accuracy evaluating health conditions. It is being built
+        to be used by health professionals. This package is able to
+        estimate sensitivity and specificity from categorical and
+        continuous test results including some evaluations of
+        indeterminate results, or compare different categorical tests,
+        and estimate reasonble cut-offs of tests and display it in a
+        way commonly used by health professionals. No graphical
+        interface is avalible yet.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: diagnosismed
+Repository/R-Forge/Revision: 17
+Date/Publication: 2009-08-25 08:04:43
+Packaged: 2009-08-19 20:12:54 UTC; rforge

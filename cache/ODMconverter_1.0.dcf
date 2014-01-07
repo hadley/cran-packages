@@ -1,0 +1,18 @@
+Package: ODMconverter
+Type: Package
+Title: tools to convert ODM files
+Version: 1.0
+Date: 2013-05-28
+Author: Martin Dugas
+Maintainer: Martin Dugas <dugas@uni-muenster.de>
+Depends: R (>= 2.13.1), XML, xlsx
+Description: Transformation of ODM files into R format, office format
+        and vice versa. CDISC ODM format is commonly used in clinical
+        trials. Semantic annotation (such as UMLS, SNOMED or LOINC
+        codes) are transformed accordingly.
+License: GPL
+LazyLoad: yes
+Packaged: 2013-05-28 06:57:08 UTC; dugasmar
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-28 10:32:54

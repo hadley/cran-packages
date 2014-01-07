@@ -1,0 +1,20 @@
+Package: ExactSampling
+Type: Package
+Title: ExactSampling: risk evaluation using exact resampling methods
+        for the k Nearest Neighbor algorithm.
+Version: 1.0
+Date: 2013-01-14
+Author: Kai LI
+Maintainer: Koskas Michel<Michel.Koskas@agroparistech.fr>
+Description: ExactSampling contains functions that estimate the risk
+        associated to a kNN prediction function (either in regression
+        or binary classification) based on resampling method
+        (leave-p-out cross-validation or bootstrap). It also contain a
+        function knn.search to obtain the list of k nearest neighbors
+        for each point in the sample, and a function to compute the
+        empirical risk of a kNN prediction function.
+License: GPL (>= 2)
+Packaged: 2013-04-08 11:25:20 UTC; kaili
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-08 14:24:35

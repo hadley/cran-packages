@@ -1,0 +1,18 @@
+Package: fds
+Type: Package
+Title: Functional data sets
+Version: 1.7
+Date: 2013-08-22
+Depends: R (>= 2.10.0), rainbow, RCurl
+LazyLoad: yes
+LazyData: yes
+LazyDataCompression: xz
+Author: Han Lin Shang and Rob J Hyndman
+Maintainer: Han Lin Shang <H.Shang@soton.ac.uk>
+Description: Functional data sets
+License: GPL (>= 2)
+URL: https://sites.google.com/site/hanlinshangswebsite/
+Packaged: 2013-08-22 09:09:23 UTC; hanlinshang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-22 11:45:50

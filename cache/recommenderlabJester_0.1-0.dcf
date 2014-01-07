@@ -1,0 +1,19 @@
+Package: recommenderlabJester
+Version: 0.1-0
+Date: 2011-11-09
+Title: Jester Dataset for recommenderlab
+Author: Michael Hahsler
+Maintainer: Michael Hahsler <michael@hahsler.net>
+Description: Provides the Jester Dataset for recommenderlab
+Depends: R (>= 2.10), recommenderlab (>= 0.1.3)
+URL: http://R-Forge.R-project.org/projects/recommenderlab/,
+        http://lyle.smu.edu/IDA/recommenderlab/
+License: GPL-2
+Copyright: Freely available for research use when acknowledged with the
+        following reference: Eigentaste: A Constant Time Collaborative
+        Filtering Algorithm. Ken Goldberg, Theresa Roeder, Dhruv Gupta,
+        and Chris Perkins. Information Retrieval, 4(2), 133-151. July
+        2001.
+Packaged: 2011-11-09 20:40:27 UTC; hahsler
+Repository: CRAN
+Date/Publication: 2011-11-10 12:59:10

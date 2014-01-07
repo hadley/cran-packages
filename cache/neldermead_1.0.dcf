@@ -1,0 +1,27 @@
+Package: neldermead
+Type: Package
+Title: R port of the Scilab neldermead module
+Version: 1.0
+Date: 2010-05-01
+Author: Sebastien Bihorel
+Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
+Depends: optimbase, optimsimplex
+Description: Provides several direct search optimization algorithms
+        based on the simplex method. The provided algorithms are direct
+        search algorithms, i.e. algorithms which do not use the
+        derivative of the cost function. They are based on the update
+        of a simplex, which is a set of k>=n+1 vertices, where each
+        vertex is associated with one point and one function value. The
+        following algorithms are available: Spendley, Hext and
+        Himsworth fixed size simplex method - unconstrained
+        optimization with a fixed sized simplex made of k=n+1
+        vertices). Nelder and Mead variable size simplex method -
+        unconstrained optimization with a variable sized simplex made
+        of k=n+1 vertices). Box complex method - constrained
+        optimization with a variable sized simplex made of an arbitrary
+        k number of vertices (k=2n is recommended by Box).
+License: CeCILL-2
+LazyLoad: yes
+Packaged: 2010-05-05 04:43:59 UTC; sebastien
+Repository: CRAN
+Date/Publication: 2010-05-05 08:08:54

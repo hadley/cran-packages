@@ -1,0 +1,25 @@
+Package: tfplot
+Version: 2013.4-1
+Title: Time Frame User Utilities
+Description: Utilities in this package are for simple manipulation and
+        quick plotting of time series data. These utilities use the
+        tframe package which provides a programming kernel for time
+        series. Extension to tframe provided in tframePlus can also be
+        used. See the Guide vignette for examples.
+Depends: R (>= 2.12.0), tframe
+Suggests: googleVis
+Enhances: tframePlus
+LazyLoad: yes
+License: GPL-2
+Copyright: 1993-1996,1998-2011 Bank of Canada. 1997,2012-2013 Paul
+        Gilbert
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsanalysis.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsanalysis
+Repository/R-Forge/Revision: 125
+Repository/R-Forge/DateTimeStamp: 2013-04-07 13:53:58
+Date/Publication: 2013-04-13 13:07:37
+Packaged: 2013-04-11 22:18:53 UTC; rforge
+NeedsCompilation: no

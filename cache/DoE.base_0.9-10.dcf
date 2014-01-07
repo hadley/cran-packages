@@ -1,0 +1,21 @@
+Package: DoE.base
+Title: Full factorials, orthogonal arrays and base utilities for DoE
+        packages
+Version: 0.9-10
+Depends: R(>= 2.8.0), stats, relimp, utils, graphics, tcltk, vcd
+Date: 2009-11-27
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@bht-berlin.de>
+Description: This package creates full factorial experimental designs
+        and designs based on orthogonal arrays for (industrial)
+        experiments. Additionally, it provides some utility functions
+        used also by other DoE packages.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: latin1
+URL: http://prof.tfh-berlin.de/groemping/DoE/,
+        http://prof.tfh-berlin.de/groemping/
+Packaged: 2009-11-27 08:54:28 UTC; Grömping
+Repository: CRAN
+Date/Publication: 2009-11-27 09:45:26

@@ -1,0 +1,17 @@
+Package: cobs99
+Version: 0.9-12
+Date: 2013-06-12
+Title: Constrained B-splines -- outdated 1999 version
+Author: Pin T. Ng <Pin.Ng@nau.edu> and Xuming He, U. Illinois; R port
+        by Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Qualitatively Constrained (Regression) Smoothing via
+        Linear Programming. OUTDATED version based on He & Ng (1999),
+        the modified "non-simplex" algorithm of Bartels and Conn
+        (1980).  Use 'cobs' instead, unless for historical comparisons.
+URL: http://www.franke.nau.edu/pin-ng/cobs.html
+License: GPL (>= 2)
+Packaged: 2013-06-12 10:09:26 UTC; maechler
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-12 12:51:09

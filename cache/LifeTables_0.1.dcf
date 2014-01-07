@@ -1,0 +1,19 @@
+Package: LifeTables
+Type: Package
+Title: A package to implement HMD model life table system
+Depends: R (>= 2.10), mclust
+Suggests: gWidgets, gWidgetsRGtk2, RGtk2
+Version: 0.1
+Date: 2011-06-01
+Author: David J. Sharrow, GUI by Hana Sevcikova
+Maintainer: David Sharrow <dsharrow@uw.edu>
+Description: Functions supplied in this package will implement
+        discriminant analysis to select an appropriate life table
+        family, select an appropriate alpha level based on a desired
+        life expectancy at birth, produce a model mortality pattern
+        based on family and level as well as plot the results.
+License: Unlimited
+LazyLoad: yes
+Packaged: 2012-07-23 09:28:48 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:31

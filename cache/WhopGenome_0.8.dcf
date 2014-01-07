@@ -1,0 +1,32 @@
+Package: WhopGenome
+Type: Package
+Title: High-speed processing of whole-genome data in VCF and alignments
+        in multiple other formats
+Version: 0.8
+Date: 2013-08-06
+Author: Ulrich Wittelsbuerger
+Maintainer: Ulrich Wittelsbuerger
+        <ulrich.wittelsbuerger@uni-duesseldorf.de>
+Depends: R (>= 1.8.0)
+Suggests: RMySQL, DBI, AnnotationDbi
+Description: WhopGenome's primary focus lies in reading SNP and InDel data from
+	Variant Call Format files as fast as possible. Several optimisation and design
+	choices allow to read 4000+ SNPs / second.
+	It also reads in alignments from FASTA, Phylip, MAF and other file formats.
+	Provides simple interfaces to query genome annotation from UCSC and
+	Bioconductor, gene ontology data from AmiGO and process .PED-format pedigree files.
+License: GPL (>= 2)
+LazyLoad: yes
+Copyright: This package uses zlib, Tabix and faidx. Zlib by Jean-loup
+        Gally <jloup@gzip.org> and Mark Adler
+        <madler@alumni.caltech.edu>, uses the Zlib licence. Tabix,
+        FaIdx by Heng Li <lh3@live.co.uk> uses MIT licence. All code
+        has been slightly modified to conform to R package development
+        requirements such as removal or replacement of printf, fprintf
+        on stderr and functions that would terminate a running R
+        session by R-supplied equivalents as well as modifications that
+        eliminate most compiler warnings.
+Packaged: 2013-11-12 15:24:27 UTC; wittelsbuerger
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-12 18:20:31

@@ -1,0 +1,32 @@
+Package: growcurves
+Type: Package
+Title: Bayesian semiparametric growth curve models that additionally
+        include multiple membership random effects.
+Version: 0.1
+Date: 2012-03-24
+Author: Terrance Savitsky
+Maintainer: <tds151@gmail.com>
+Description: Employs a Dirichlet Process (DP) prior on the set of
+        by-subject random effect parameters under repeated waves of
+        measurements to allow the number of random effect parameters
+        specified per subject, \code{q}, to be equal to the number of
+        measurement waves, \code{T}.  Random effects are grouped by
+        subject and all \code{q} parameters receive the DP prior.  An
+        additional set of random effects are included that utilize a
+        different grouping factor; e.g. treatment(s) exposure or
+        dosage.  These additional random effects are mapped back to
+        subjects through a multiple membership weight matrix.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.4), RcppArmadillo (>= 0.2.29), reshape2 (>=
+        1.2.1), scales (>= 0.2.0), ggplot2 (>= 0.9.0), Formula (>=
+        1.0-0), testthat (>= 0.5)
+LinkingTo: Rcpp, RcppArmadillo, reshape2, scales, ggplot2, Formula,
+        testthat
+Collate: 'summary_quantiles.R' 'mcmcPlots.R' 'relabel.R' 'getmf.R'
+        'XZcov.R' 'growthCurve.R' 'dpgrowmm.R' 'dpgrow.R' 'help.R'
+        'growplot.R' 'trtplot.R' 'datsim.R' 'datsimcov.R'
+        'datsimmult.R' 'dpgrowmult.R' 'effectsplot.R' 'datbrghtterms.R'
+Packaged: 2012-03-25 14:58:47 UTC; savitsky
+Repository: CRAN
+Date/Publication: 2012-03-25 14:59:14

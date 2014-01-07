@@ -1,0 +1,12 @@
+Package: eRm
+Type: Package
+Title: Extended Rasch Modeling.
+Version: 0.9.0
+Date: 2007-04-24
+Author: Patrick Mair, Reinhold Hatzinger
+Maintainer: Patrick Mair <patrick.mair@wu-wien.ac.at>
+Description: eRm fits Rasch models (RM), linear logistic test models (LLTM), rating scale model (RSM), linear rating scale models (LRSM), partial credit models (PCM), and linear partial credit models (LPCM).
+License: GPL 
+Imports: graphics, stats
+Depends: gtools, splines, sna
+Packaged: Thu Apr 26 11:24:56 2007; admin

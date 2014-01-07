@@ -1,0 +1,16 @@
+Package: mcGlobaloptim
+Version: 0.1
+Date: 2013-10-11
+Title: Global optimization using Monte Carlo and Quasi Monte Carlo
+        simulation
+Author: Thierry Moudiki       
+Maintainer: Thierry Moudiki <thierry.moudiki@gmail.com>
+Depends: R (>= 2.12.1), utils
+Description: The package performs global optimization combining Monte Carlo and Quasi Monte Carlo simulation with a local search. \n       The local searches can be easily speeded-up by using a network of local workstations.       
+License: GPL (>= 2)
+Imports: randtoolbox, snow
+URL: http://www.r-project.org
+Packaged: 2013-10-11 20:04:40 UTC; Thierry
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-12 00:42:10

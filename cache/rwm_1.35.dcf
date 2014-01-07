@@ -1,0 +1,17 @@
+Package: rwm
+Type: Package
+Title: R Workspace and Directory Management
+Version: 1.35
+Date: 2010-01-06
+Author: A.I. McLeod
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.0.0)
+Description: R workspace and directory management functions. The
+        workspace functions are loosed similar to commands used in APL
+        for managing workspaces but with enhancements to manage the
+        present working directory and command history as well
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2010-01-06 22:46:47 UTC; aim
+Repository: CRAN
+Date/Publication: 2010-01-07 15:41:55

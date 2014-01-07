@@ -1,0 +1,17 @@
+Package: samplingVarEst
+Version: 0.9-1
+Date: 2012-09-20
+Title: Sampling Variance Estimation
+Author: Emilio Lopez Escobar, Ernesto Barrios Zamudio
+        <ebarrios@itam.mx>
+Maintainer: Emilio Lopez Escobar <emilio.lopez@itam.mx>
+Description: Functions for estimating the sampling variance of some
+        point estimators.
+Classification/MSC: 62D05, 62F40, 62G09, 62H12
+Classification/JEL: C130, C150, C420, C830
+Classification/ACM: G.3
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+Packaged: 2012-11-05 18:51:18 UTC; emilio
+Repository: CRAN
+Date/Publication: 2012-11-06 07:01:21

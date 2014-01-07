@@ -1,0 +1,19 @@
+Package: ExactPath
+Type: Package
+Title: Exact solution paths for regularized LASSO regressions with L_1
+        penalty
+Version: 1.0
+Date: 2013-02-05
+Author: Dr. Kai Wang
+Maintainer: Kai Wang <kai-wang@uiowa.edu>
+Depends: R(>= 2.12), ncvreg, lars
+Description: ExactPath implements an algorithm for exact LASSO
+        solution. Two methods are provided to print and visualize the
+        whole solution paths. Use ?ExactPath to see an introduction.
+        Packages ncvreg and lars are required so that their data sets
+        can be used in examples.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-02-05 15:17:22 UTC; kaiwang
+Repository: CRAN
+Date/Publication: 2013-02-06 08:27:04

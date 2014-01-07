@@ -1,0 +1,25 @@
+Package: MonoPoly
+Type: Package
+Title: Functions to fit monotone polynomials
+Version: 0.2-8
+Date: 2013-11-03
+Authors@R: c(person(c("Berwin", "A."), "Turlach",
+                    role=c("aut", "cre"),
+                    email = "Berwin.Turlach@gmail.com"),
+             person("Kevin", "Murray",
+                    role="ctb",
+                    email = "Kevin.Murray@uwa.edu.au")
+             )
+Description: Package contains functions to fit monotone polynomials to
+             data 
+License: GPL (>= 2)
+Depends: R (>= 2.15.0), quadprog
+LazyData: yes
+Encoding: latin1
+Packaged: 2013-11-03 09:19:30 UTC; berwin
+Author: Berwin A. Turlach [aut, cre],
+  Kevin Murray [ctb]
+Maintainer: Berwin A. Turlach <Berwin.Turlach@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-03 12:44:22

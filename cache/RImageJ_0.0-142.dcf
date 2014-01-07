@@ -1,0 +1,16 @@
+Package: RImageJ
+Version: 0.0-142
+Date: 2009-06-18
+Title: R bindings for ImageJ
+Author: Romain Francois, Philippe Grosjean
+Maintainer: Romain Francois <francoisromain@free.fr>
+Description: Bindings between R and the ImageJ java based image
+        processing and Analysis platform
+Depends: R (>= 2.9.0), rJava
+SystemRequirements: Java (>= 5.0), ant
+License: GPL-3
+Repository: CRAN
+Repository/R-Forge/Project: rimagej
+Repository/R-Forge/Revision: 7
+Date/Publication: 2009-06-22 07:28:31
+Packaged: 2009-06-21 03:07:22 UTC; rforge

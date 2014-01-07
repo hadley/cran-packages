@@ -1,0 +1,28 @@
+Package: laeken
+Type: Package
+Title: Estimation of indicators on social exclusion and poverty
+Version: 0.4.0
+Date: 2012-10-16
+Depends: R (>= 2.10.0), boot, MASS
+Description: Estimation of indicators on social exclusion and poverty,
+        as well as Pareto tail modeling for empirical income
+        distributions.
+License: GPL (>= 2)
+Authors@R: c(person("Andreas", "Alfons", email =
+        "andreas.alfons@kuleuven.be", role = c("aut", "cre")),
+        person("Josef", "Holzer", role = "aut"), person("Matthias",
+        "Templ", role = "aut"))
+Collate: 'arpr.R' 'arpt.R' 'bootVar.R' 'calibVars.R' 'calibWeights.R'
+        'eqInc.R' 'eqSS.R' 'fitPareto.R' 'gini.R' 'gpg.R' 'incMean.R'
+        'incMedian.R' 'incQuintile.R' 'meanExcessPlot.R' 'minAMSE.R'
+        'paretoQPlot.R' 'paretoScale.R' 'paretoTail.R' 'plot.R' 'qsr.R'
+        'rmpg.R' 'thetaHill.R' 'thetaISE.R' 'thetaLS.R' 'thetaMoment.R'
+        'thetaPDC.R' 'thetaQQ.R' 'thetaTM.R' 'thetaWML.R' 'utils.R'
+        'variance.R' 'weightedMean.R' 'weightedMedian.R'
+        'weightedQuantile.R'
+Packaged: 2012-10-16 21:09:27 UTC; andi
+Author: Andreas Alfons [aut, cre], Josef Holzer [aut], Matthias Templ
+        [aut]
+Maintainer: Andreas Alfons <andreas.alfons@kuleuven.be>
+Repository: CRAN
+Date/Publication: 2012-10-17 08:24:18

@@ -1,0 +1,14 @@
+Package: flexCrossHaz
+Type: Package
+Title: Flexible crossing hazards in the Cox model
+Version: 0.2
+Date: 2010-03-25
+Author: Vito M.R. Muggeo <vito.muggeo@unipa.it> and Miriam Tagliavia
+        <tagliavia@dssm.unipa.it>
+Maintainer: Miriam Tagliavia <tagliavia@dssm.unipa.it>
+Depends: survival, splines
+Description: Crossing points in time varying hazard ratios.
+License: GPL
+Packaged: 2010-03-30 11:51:54 UTC; user
+Repository: CRAN
+Date/Publication: 2010-04-02 17:08:07

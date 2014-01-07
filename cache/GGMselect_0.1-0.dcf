@@ -1,0 +1,17 @@
+Package: GGMselect
+Title: Gaussian Graphs Models selection
+Version: 0.1-0
+Date: 2009-07-06
+Author: Annie Bouvier, Christophe Giraud, Sylvie Huet, Verzelen N.
+Maintainer: Annie Bouvier <Annie.Bouvier@jouy.inra.fr>
+Description: GGMselect is a package dedicated to graph estimation in
+        Gaussian Graphical Models. The main functions return the
+        adjacency matrix of an undirected graph estimated from a data
+        matrix.
+Depends: mvtnorm, lars, mvbutils (>= 2.0), gtools
+Suggests: network, glasso
+License: GPL (>= 3)
+URL: http://www.inra.fr/miaj/public/logiciels/GGMselect/
+Packaged: Thu Sep 3 08:56:42 2009; abouvier
+Repository: CRAN
+Date/Publication: 2009-09-03 08:40:58

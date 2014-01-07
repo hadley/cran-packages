@@ -1,0 +1,15 @@
+Package: nleqslv
+Type: Package
+Title: Solve systems of non linear equations
+Version: 1.9.1
+Date: 2011-12-05
+Author: Berend Hasselman
+Maintainer: Berend Hasselman <bhh@xs4all.nl>
+Description: Solve a system of non linear equations using a Broyden or a Newton method
+             with a choice of global strategies such as linesearch and trust region.
+             There are options for using a numerical or an analytical jacobian and
+             fixed or automatic scaling of parameters.
+License: GPL (>= 2)
+Packaged: 2011-12-05 14:47:26 UTC; berendhasselman
+Repository: CRAN
+Date/Publication: 2011-12-05 18:56:34

@@ -1,0 +1,15 @@
+Package: HydroMe
+Type: Package
+Title: Estimation of Soil Hydraulic Parameters from Experimental Data
+Version: 1.0
+Date: 2007-01-01
+Author: Christian Thine Omuto <thineomuto@yahoo.com>
+Maintainer: Christian Thine Omuto <thineomuto@yahoo.com>
+Description: This package estimates the parameters in infiltration and
+        water retention models by curve-fitting method. The models
+        considered are those that are commonly used in soil science.
+Depends: R (>= 2.10), nlme
+License: GPL (>= 2)
+Packaged: 2012-07-23 09:28:09 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:31

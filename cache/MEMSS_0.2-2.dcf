@@ -1,0 +1,13 @@
+Package: MEMSS
+Version: 0.2-2
+Date: 2006-01-04
+Title: Data sets from Mixed-effects Models in S
+Author: Douglas Bates <bates@stat.wisc.edu>
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Description: Data sets and sample analyses from Pinheiro and Bates, 
+  "Mixed-effects Models in S and S-PLUS" (Springer, 2000).
+Depends: R(>= 2.2.0), Matrix(>= 0.99-1)
+Suggests: lattice
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Wed Jan  4 12:31:06 2006; bates

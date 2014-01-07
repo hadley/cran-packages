@@ -1,0 +1,19 @@
+Package: poLCA
+Type: Package
+Title: Polytomous variable Latent Class Analysis
+Version: 1.4
+Date: 2013-02-21
+Author: Drew Linzer <dlinzer@emory.edu>, Jeffrey Lewis
+        <jblewis@ucla.edu>.
+Maintainer: Drew Linzer <dlinzer@emory.edu>
+Depends: scatterplot3d, MASS
+Description: Latent class analysis and latent class regression models
+        for polytomous outcome variables.  Also known as latent
+        structure analysis.
+License: GPL (>= 2)
+URL: https://github.com/dlinzer/poLCA
+LazyLoad: yes
+Packaged: 2013-02-24 07:04:03 UTC; DLINZER
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-24 08:43:35

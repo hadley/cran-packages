@@ -1,0 +1,12 @@
+Package: hints
+Type: Package
+Title: Provide hints on what to do next
+Version: 1.0
+Date: 2007-09-12
+Author: Hadley Wickham <h.wickham@gmail.com>, Sanford Weisberg <sandy@stat.umn.edu>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Suggets: xtable 
+Description: Gives hints on what functions you might want to apply to an object you have created.
+URL: http://hints.googlecode.com
+License: GPL version 2 or newer
+Packaged: Sun Sep 30 18:17:28 2007; hadley

@@ -1,0 +1,15 @@
+Package: NPHMC
+Type: Package
+Title: Sample Size Calculation for the Proportional Hazards Cure Model
+Version: 2.0
+Date: 2013-01-13
+Author: Chao Cai, Songfeng Wang, Wenbin Lu, Jiajia Zhang
+Maintainer: Chao Cai <caic@email.sc.edu>
+Description: An R-package for calculating sample size based on
+        Proportional Hazard Mixture Cure (PHMC) Model
+Depends: survival, smcure
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-01-14 01:19:29 UTC; TangUSC
+Repository: CRAN
+Date/Publication: 2013-01-14 07:23:32

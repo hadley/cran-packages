@@ -1,0 +1,23 @@
+Package: IsoGene
+Type: Package
+Title: Testing for monotonic relationship between gene expression and
+        doses in a microarray experiment.
+Version: 1.0-13
+Date: 2008-09-09
+Author: Lin et al.
+Maintainer: Dan Lin <dan.lin@uhasselt.be>
+Description: Several testing procedures including the global likelihood
+        ratio test (Bartholomew, 1961), Williams (1971, 1972), Marcus
+        (1976), M (Hu et al. 2005) and the modified M (Lin et al. 2007)
+        are used to test for the monotonic trend in gene expression
+        with respect to doses. BH (Benjamini and Hochberg 1995) and BY
+        (Benjamini and Yekutilie 2004) FDR controlling procedures are
+        applied to adjust the raw p-values obtained from the
+        permutations.
+Depends: ff(>= 2.0.0)
+License: GPL-2
+Repository: CRAN
+Repository/R-Forge/Project: isogene
+Repository/R-Forge/Revision: 87
+Date/Publication: 2009-05-26 17:56:01
+Packaged: 2009-05-26 02:54:58 UTC; rforge

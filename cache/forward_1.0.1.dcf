@@ -1,0 +1,12 @@
+Package: forward
+Version: 1.0.1
+Date: 2005/11/28
+Title: Forward search
+Author: Originally written for S-Plus by:
+        Kjell Konis <kkonis@insightful.com> and Marco Riani <mriani@unipr.it>
+        Ported to R by Luca Scrucca <luca@stat.unipg.it>
+Maintainer: Luca Scrucca <luca@stat.unipg.it>
+Depends: R (>= 2.0.0), MASS
+Description: Forward search approach to robust analysis in linear and generalized linear regression models.
+License: GPL (version 2)
+Packaged: Mon Nov 28 15:13:04 2005; luca

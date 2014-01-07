@@ -1,0 +1,25 @@
+Package: TSpadi
+Version: 2011.11-2
+Title: Time Series Database Interface extensions for PADI Time Series
+        Server
+Description: Provides methods for generics in the TSdbi package to 
+	connect through a protocol for application database interface (PADI)
+	to a time series database (e.g. Fame).
+SystemRequirements: rpcgen, GNU make
+Depends: R (>= 2.14.0), methods, DBI, TSdbi (>= 2011.11-1), tframe (>=
+        2011.11-1)
+Suggests: tframePlus (>= 2011.11-1)
+Imports: methods, DBI, TSdbi (>= 2011.11-1)
+Enhances: TSdbi
+BuildVignettes: false
+Collate: padi.R TSdbiMethods.R
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 295
+Date/Publication: 2011-11-28 11:59:52
+Packaged: 2011-11-17 21:54:58 UTC; rforge
+OS_type: unix

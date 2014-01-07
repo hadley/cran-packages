@@ -1,0 +1,14 @@
+Package: Metatron
+Version: 0.1-0
+Date: 2013-12-16
+Title: Meta-analysis for Classification Data and Correction to
+        Imperfect Reference
+Author: Huiling Huang
+Maintainer: Huiling Huang <huiling.huang23@gmail.com>
+Depends: R (>= 2.15.0), lme4, mpt, Matrix
+Description: This package allows doing meta-analysis for primary studies with classification outcomes in order to evaluate systematically the accuracies of classifiers, namely, the diagnostic tests. It provides functions to fit the bivariate model of Reitsma et al.(2005). Moreover, if the reference employed in the classification process isn't a gold standard, its deficit can be detected and its influence to the underestimation of the diagnostic test's accuracy can be corrected, as described in Botella et al.(2013).
+License: GPL (>= 2)
+Packaged: 2013-12-16 14:15:18 UTC; Lenovo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-16 17:01:40

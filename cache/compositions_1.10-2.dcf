@@ -1,0 +1,18 @@
+Package: compositions
+Version: 1.10-2
+Date: 2009-04-01
+Title: Compositional Data Analysis
+Author: K. Gerald van den Boogaart <support@boogaart.de>, Raimon
+        Tolosana, Matevz Bren
+Maintainer: K. Gerald van den Boogaart <support@boogaart.de>
+Depends: R (>= 2.2.0), rgl, tensorA, robustbase, energy
+Suggests:
+Description: The package provides functions for the consistent analysis
+        of compositional data (e.g. portions of substances) and
+        positive numbers (e.g. concentrations) in the way proposed by
+        Aitchison and Pawlowsky-Glahn.
+License: GPL (>= 2)
+URL: http://www.stat.boogaart.de/compositions
+Packaged: 2011-10-20 14:24:51 UTC; boogaart
+Repository: CRAN
+Date/Publication: 2011-10-20 15:34:48

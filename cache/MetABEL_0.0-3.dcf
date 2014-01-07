@@ -1,0 +1,14 @@
+Package: MetABEL
+Type: Package
+Title: meta-analysis of genome-wide SNP association results
+Version: 0.0-3
+Date: 2008-09-21
+Author: Maksim Struchalin, Yurii Aulchenko
+Maintainer: Maksim Struchalin <m.struchalin@erasmusmc.nl>
+Depends: R (>= 2.5.1), grid
+Description: a package for meta-analysis of genome-wide association
+        scans between quantitative or binary traits and SNPs
+License: GPL (>= 2)
+Packaged: 2011-02-10 18:06:54 UTC; yuriiaulchenko
+Repository: CRAN
+Date/Publication: 2011-02-10 19:29:48

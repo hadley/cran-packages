@@ -1,0 +1,17 @@
+Package: lasso2
+Version: 1.2-16
+Date: 2013-04-19
+Author: Justin Lokhorst, Bill Venables and Berwin Turlach; port to R,
+        tests etc: Martin Maechler <maechler@stat.math.ethz.ch>
+Maintainer: Berwin Turlach <Berwin.Turlach@gmail.com>
+Title: L1 constrained estimation aka `lasso'
+Description: Routines and documentation for solving regression problems
+        while imposing an L1 constraint on the estimates, based on the
+        algorithm of Osborne et al. (1998)
+Depends: R (>= 2.15.0)
+License: GPL (>= 2)
+URL: http://www.maths.uwa.edu.au/~berwin/software/lasso.html
+Packaged: 2013-04-19 15:00:45 UTC; berwin
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-19 17:20:45

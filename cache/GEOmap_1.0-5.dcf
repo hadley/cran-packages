@@ -1,0 +1,11 @@
+Package: GEOmap
+Type: Package
+Title: Topographic and Geologic Mapping
+Version: 1.0-5
+Date: 2008-03-21
+Depends: geomapdata, RPMG, akima, splancs
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Les<jonathan.lees@unc.edu>
+Description: Set of routines for making Map Projections (forward and inverse), Topographic Maps, Perspective plots, Geological Maps, geological map symbols, geological databases, interactive plotting and selection of focus regions.
+License: GPL
+Packaged: Mon Mar 24 16:52:00 2008; lees

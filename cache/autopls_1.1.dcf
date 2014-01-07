@@ -1,0 +1,16 @@
+Package: autopls
+Version: 1.1
+Date: 2012-10-22
+Title: pls regression with backward selection of predictors
+Author: Sebastian Schmidtlein, with contributions from Carsten
+        Oldenburg and Hannes Feilhauer
+Maintainer: Sebastian Schmidtlein <s.schmidtlein@uni-bonn.de>
+Description: An extension of the pls package with automated backward
+        selection of predictors
+Depends: pls
+Suggests: raster, rgdal
+License: GPL-2
+URL: http://www.biogeo.eu/autopls
+Packaged: 2012-10-22 20:24:12 UTC; Admin
+Repository: CRAN
+Date/Publication: 2012-10-23 06:40:10

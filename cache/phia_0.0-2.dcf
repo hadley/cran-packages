@@ -1,0 +1,16 @@
+Package: phia
+Version: 0.0-2
+Date: 2012-05-08
+Title: Post-Hoc Interaction Analysis
+Author: Helios De Rosario-Martinez
+Maintainer: Helios De Rosario-Martinez <helios.derosario@ibv.upv.es>
+Description: Analysis of terms in linear and generalized linear models,
+        on the basis of multiple comparisons of factor contrasts.
+        Specially suited for the analysis of interaction terms.
+Depends: car, graphics, stats
+Imports: car
+License: GPL (>= 3)
+LazyData: yes
+Packaged: 2012-05-08 17:56:41 UTC; helios
+Repository: CRAN
+Date/Publication: 2012-05-09 04:06:56

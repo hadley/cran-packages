@@ -1,0 +1,17 @@
+Package: aCRM
+Type: Package
+Title: Convenience functions for analytical Customer Relationship
+        Management
+Version: 0.1.0
+Date: 2013-03-24
+Imports: dummies, randomForest, kernelFactory, ada
+Author: Dirk Van den Poel, Michel Ballings, Andrey Volkov, Jeroen
+        D'haen, Michiel Vanherwegen
+Maintainer: Michel Ballings <Michel.Ballings@UGent.be>
+Description: Convenience functions for data preparation and modeling
+        often used in aCRM.
+License: GPL (>= 2)
+Packaged: 2013-03-24 19:41:34 UTC; user
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-25 11:08:41

@@ -1,0 +1,23 @@
+Package: RcmdrPlugin.BCA
+Type: Package
+Title: Rcmdr Plug-In for Business and Customer Analytics
+Version: 0.9-6
+Date: 2013-07-07
+Author: Dan Putler
+Maintainer: Dan Putler <putler@yahoo.com>
+Depends: BCA (>= 0.9-1), car (>= 2.0-12)
+Imports: Rcmdr (>= 1.9-3)
+Suggests: rgl, foreign, rpart, rpart.plot, nnet
+Description: This package provides an Rcmdr "plug-in" to accompany the
+        book Customer and Business Analytics: Applied Data Mining for
+        Business Decision Making Using R by Daniel S. Putler and Robert
+        E.  Krider.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+URL: http://www.customeranalyticsbook.com
+RcmdrModels: nnet.formula, rpart
+Packaged: 2013-07-15 00:48:17 UTC; dputler
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-15 07:22:57

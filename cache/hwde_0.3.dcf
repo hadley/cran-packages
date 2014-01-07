@@ -1,0 +1,17 @@
+Package: hwde
+Version: 0.3 
+Date: 2003-03-05
+Title: Models and tests for departure from Hardy-Weinberg equilibrium and 
+  independence between loci.  
+Author: J.H. Maindonald  
+Maintainer: J.H. Maindonald <John.Maindonald@anu.edu.au>
+Depends: R (>= 1.6.1)
+Description: Fits models for genotypic disequilibria, as described in 
+  Huttley and Wilson (2000), Weir (1996) and Weir and Wilson (1986).
+  Contrast terms are available that account for first order interactions 
+  between loci.
+License: GPL version 2 or newer
+Copyright:  (c) Centre for Bioinformation Science, John Curtin Research 
+  School of Medical Sciences and Mathematical Sciences Institute,
+  The Australian National University
+URL: http://wwwmaths.anu.edu.au/~johnm

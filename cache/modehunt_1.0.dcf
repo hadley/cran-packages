@@ -1,0 +1,20 @@
+Package: modehunt
+Type: Package
+Title: Multiscale Analysis for Density Functions
+Version: 1.0
+Date: 2007-05-24
+Author: Kaspar Rufibach <kaspar.rufibach@stanford.edu> and Guenther Walther <gwalther@stanford.edu>
+Maintainer: Kaspar Rufibach <kaspar.rufibach@stanford.edu>
+Description: Given independent and identically distributed observations X(1), ..., X(n) from a density f,
+ this package provides five methods to perform a multiscale analysis about f as well as the necessary critical
+ values. The first method, introduced in Duembgen and Walther (2006), provides simultaneous confidence statements
+ for the existence and location of local increases (or decreases) of f, based on all intervals I(all) spanned by
+ any two observations X(j), X(k). The second method approximates the latter approach by using only a subset of
+ I(all) and is therefore computationally much more efficient, but asymptotically equivalent. Omitting the additive
+ correction term Gamma in either method offers another two approaches which are more powerful on small scales and
+ less powerful on large scales, however, not asymptotically minimax optimal anymore. Finally, the block procedure is a
+ compromise between adding Gamma or not, having intermediate power properties. The latter is again asymptotically
+ equivalent to the first and was introduced in Rufibach and Walther (2007).
+License: GPL version 2 or newer
+URL: www.stanford.edu/~kasparr, www-stat.stanford.edu/~gwalther
+Packaged: Thu May 24 18:44:37 2007; rufibach

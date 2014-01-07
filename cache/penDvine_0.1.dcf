@@ -1,0 +1,16 @@
+Package: penDvine
+Type: Package
+Title: Flexible Pair-Copula Estimation in D-vines with Penalized
+        Splines
+Version: 0.1
+Date: 2012-07-06
+Depends: R (>= 2.11.0), lattice, quadprog, doMC, TSP, fda
+Author: Christian Schellhase <cschellhase@wiwi.uni-bielefeld.de>
+Maintainer: Christian Schellhase <cschellhase@wiwi.uni-bielefeld.de>
+Description: Flexible Pair-Copula Estimation in D-vines with Penalized
+        Splines.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-16 08:57:58 UTC; cschellhase
+Repository: CRAN
+Date/Publication: 2012-07-16 14:08:37

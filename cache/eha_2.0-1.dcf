@@ -1,0 +1,14 @@
+Encoding: UTF-8
+Package: eha
+Version: 2.0-1
+Date: 2011-08-07
+Title: Event History Analysis and Discrete Models
+Description: A package for the analysis event history, binary, and
+        count data.
+License: GPL (>= 3)
+Author: \enc{Göran Broström}{George Bridgewater}
+Depends: R (>= 2.13.0), survival, graphics
+Maintainer: \enc{Göran Broström}{George Bridgewater} <gb@stat.umu.se>
+Packaged: 2011-08-07 15:49:12 UTC; gb
+Repository: CRAN
+Date/Publication: 2011-08-08 05:41:50

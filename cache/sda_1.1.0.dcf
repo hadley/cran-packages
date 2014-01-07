@@ -1,0 +1,20 @@
+Package: sda
+Version: 1.1.0
+Date: 2009-03-12
+Title: Shrinkage Discriminant Analysis and Feature Selection
+Author: Miika Ahdesmaki and Korbinian Strimmer
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.7.0), lattice, entropy (>= 1.1.3), corpcor (>= 1.5.2),
+        fdrtool (>= 1.2.5)
+Suggests:
+Description: This package provides an efficient framework for
+        high-dimensional linear and diagonal discriminant analysis with
+        feature selection. The classifier is trained using Stein-type
+        shrinkage estimators and features are ranked using
+        correlation-adjusted t-scores. Feature selection is controlled
+        using false non-discovery rates or higher criticism scores.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/sda/
+Packaged: Thu Mar 12 11:12:50 2009; strimmer
+Repository: CRAN
+Date/Publication: 2009-03-12 20:07:08

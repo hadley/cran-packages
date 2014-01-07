@@ -1,0 +1,10 @@
+Package: regress
+Version: 0.1
+Date: 2004-06-11
+Title: Fitting Gaussian Linear Models where the Covariance Structure is a Linear Combination of Known Matrices by Maximising the Residual Log Likelihood
+Author: David Clifford <clifford@galton.uchicago.edu>, Peter McCullagh <pmcc@galton.uchicago.edu>
+Maintainer: David Clifford <clifford@galton.uchicago.edu>
+Description: Functions to fit Gaussian linear model by maximising the residual log likelihood.  The covariance structure can be written as a linear combination of known matrices.  Can be used for multivariate models and random effects models.  Easy straight forward manner to specify random effects models, including random interactions.
+License: GPL
+URL: http://galton.uchicago.edu/~clifford/
+SystemRequirements: R

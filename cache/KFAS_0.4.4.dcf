@@ -1,0 +1,21 @@
+Package: KFAS
+Version: 0.4.4
+Date: 2009-10-01
+Title: Multivariate Kalman filter and smoother, simulation smoother and
+        forecasting
+Author: Jouni Lehtonen <jouni.v.t.lehtonen@jyu.fi>
+Maintainer: Jouni Lehtonen <jouni.v.t.lehtonen@jyu.fi>
+Depends: R (>= 2.8.0)
+Description: Package KFAS provides functions for fast Kalman filtering,
+        state and disturbance smoothing, forecasting and simulation of
+        multivariate time-variant state space models. All functions can
+        use exact diffuse initialisation when distributions of some or
+        all elements of initial state vector are unknown. Filtering,
+        state smoothing and simulation functions use sequential
+        processing algorithm, which is faster than standard approach,
+        and it also allows singularity of prediction error variance
+        matrix.
+License: GPL (>= 2)
+Packaged: 2009-10-01 13:07:27 UTC; jovetale
+Repository: CRAN
+Date/Publication: 2009-10-01 19:53:37

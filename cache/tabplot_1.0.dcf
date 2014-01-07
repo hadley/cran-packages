@@ -1,0 +1,35 @@
+Package: tabplot
+Maintainer: Martijn Tennekes <mtennekes@gmail.com>
+License: GPL-3
+Title: Tableplot, a visualization of large datasets
+Type: Package
+LazyLoad: yes
+Author: Martijn Tennekes and Edwin de Jonge
+Description: A tableplot is a visualisation of a (large) dataset with a
+        dozen of variables, both numeric and categorical. Each column
+        represents a variable and each row bin is an aggregate of a
+        certain number of records.  Numeric variables are visualized as
+        bar charts, and categorical variables as stacked bar charts.
+        Missing values are taken into account. Also supports large ffdf
+        datasets from the ff package.
+Version: 1.0
+URL: http://code.google.com/p/tableplot/
+Date: 2012-12-18
+Depends: ffbase (>= 0.6-3), grid
+Suggests: classInt, shiny, testthat, ggplot2
+Collate: 'bin_data.R' 'cellplot.R' 'columnTable.R' 'datetime2fac.R'
+        'getBinSizes.R' 'itableplot.R' 'markLabels.R' 'num2fac.R'
+        'pkg.R' 'plotCatCol.R' 'plotNumCol.R' 'plot_tabplot.r'
+        'tablePrepare.R' 'print_tabplot.R' 'summary_tabplot.R'
+        'tableChange.R' 'tablePalettes.R' 'tableSave.R'
+        'tableViewport.R' 'tableplot.R' 'tableplot_checkBins.R'
+        'tableplot_checkCols.R' 'tableplot_checkDecreasing.R'
+        'tableplot_checkFromTo.R' 'tableplot_checkPals.R'
+        'tableplot_checkScales.R' 'tabplot_object.R' 'bin_hcc_data.R'
+        'subset_data.R' 'coorCatCol.R' 'coorNumCol.R' 'scaleNumCol.R'
+        'splitTab.R' 'tableplot_checkChangePalType.R'
+        'tableplot_checkLimitsX.R' 'tableplot_checkNcols.R'
+        'tableplot_checkNumPals.R'
+Packaged: 2012-12-18 15:38:09 UTC; Vontijn
+Repository: CRAN
+Date/Publication: 2012-12-18 21:00:05

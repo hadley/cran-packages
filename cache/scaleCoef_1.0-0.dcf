@@ -1,0 +1,19 @@
+Package: scaleCoef
+Type: Package
+Title: Scale regression coefficients
+Version: 1.0-0
+Date: 2011-05-19
+Author: Sandrah P. Eckel
+Maintainer: Sandrah P. Eckel <eckel@usc.edu>
+Depends: R (>= 2.1.1), car
+Description: Scale regression coefficients from model fit object(s) by
+        a user specified function of the predictor variables of
+        interest or a constant to produce an object of S3 class
+        scaleCoef. Generic functions are available for printing,
+        plotting, or ranking scaled regression coefficients by absolute
+        value.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-05-19 21:06:49 UTC; eckel
+Repository: CRAN
+Date/Publication: 2011-05-20 12:05:45

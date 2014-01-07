@@ -1,0 +1,27 @@
+Package: rminer
+Type: Package
+Title: Simpler use of data mining methods (e.g. NN and SVM) in
+        classification and regression.
+Version: 1.3
+Date: 2012-10-09
+Author: Paulo Cortez
+Maintainer: Paulo Cortez <pcortez@dsi.uminho.pt>
+Description: This package facilitates the use of data mining algorithms
+        in classification and regression tasks by presenting a short
+        and coherent set of functions. While several DM algorithms can
+        be used, it is particularly suited for Neural Networks (NN) and
+        Support Vector Machines (SVM). Version 1.3 - new classification
+        and regression metrics (improved mmetric function); version 1.2
+        - new input importance methods (improved Importance function);
+        version 1.1 - minor error corrections; version 1.0 - first
+        version.
+License: GPL (>= 2)
+URL: http://www3.dsi.uminho.pt/pcortez/rminer.html
+LazyLoad: yes
+Depends: nnet, kknn, kernlab, rpart, grDevices, graphics, plotrix,
+        lattice, methods
+Suggests: randomForest, MASS, mda
+Packaged: 2013-03-19 13:43:09 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-19 16:00:19

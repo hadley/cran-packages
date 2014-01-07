@@ -1,0 +1,21 @@
+Package: plmm
+Type: Package
+Title: Partially Linear Mixed Effects Model
+Version: 0.1-1
+Date: 2012-11-28
+Author: OHINATA Ren
+Maintainer: OHINATA Ren <Ren.Ohinata@wiwi.uni-goettingen.de>
+Depends: sm, Formula, nlme
+Description: This package fits the partially linear mixed effects model
+        (semiparametric random intercept model) using kernel
+        regression, without distributional assumptions for the random
+        terms. Estimation procedure is an iterative generalized least
+        squares type. A nonparametric heteroskedastic variance function
+        is allowed for the regression error. Bootstrap resampling is
+        provided for inference. The package implements bandwidth
+        selection by an alternative cross validation for correlated
+        data.
+License: GPL (>= 2)
+Packaged: 2012-11-28 14:09:51 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-11-28 15:35:50

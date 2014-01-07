@@ -1,0 +1,13 @@
+Package: pvclust
+Version: 1.2-0
+Date: 2006-07-11
+Title: Hierarchical Clustering with P-Values via Multiscale Bootstrap Resampling
+Author: Ryota Suzuki <ryota.suzuki@is.titech.ac.jp>,
+	Hidetoshi Shimodaira <shimo@is.titech.ac.jp>
+Maintainer: Ryota Suzuki <ryota.suzuki@is.titech.ac.jp>
+Depends: R (>= 1.8.0)
+Suggests: MASS, snow, Rmpi
+Description: pvclust is a package for assessing the uncertainty in hierarchical cluster analysis. It provides AU (approximately unbiased) p-values as well as BP (boostrap probability) values computed via multiscale bootstrap resampling.
+License: GPL version 2 or newer
+URL: http://www.is.titech.ac.jp/~shimo/prog/pvclust/
+Packaged: Wed Feb  4 10:43:09 2009; hornik

@@ -1,0 +1,20 @@
+Package: R.rsp
+Version: 0.9.17
+Depends: R (>= 2.5.0), R.utils (>= 1.26.0)
+Imports: R.methodsS3 (>= 1.4.4), R.oo (>= 1.13.9), R.utils (>= 1.26.0)
+Suggests: tcltk, tools, digest (>= 0.6.3), R.devices (>= 2.2.2), ascii,
+        markdown, knitr
+VignetteBuilder: R.rsp
+Date: 2013-07-28
+Title: Dynamic generation of scientific reports
+Authors@R: c(person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                          email = "henrikb@braju.com"))
+Author: Henrik Bengtsson
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Description: The RSP markup language makes any text-based document come alive.  RSP provides a powerful markup for controlling the content and output of LaTeX, HTML, Markdown, AsciiDoc, Sweave and knitr documents (and more), e.g. 'Today's date is <%=Sys.Date()%>'.  Contrary to many other literate programming languages, with RSP it is straightforward to loop over mixtures of code and text sections, e.g. in month-by-month summaries.  RSP has also several preprocessing directives for incorporating static and dynamic contents of external files (local or online) among other things.  Functions rstring() and rcat() make it easy to process RSP strings, while rfile() compiles RSP files (also online) into their final outputs, e.g. rfile('report.tex.rsp') generates 'report.pdf'.  RSP is ideal for self-contained scientific reports and R package vignettes.
+License: LGPL (>= 2.1)
+LazyLoad: TRUE
+Packaged: 2013-07-29 13:06:57 UTC; hb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-29 23:39:01

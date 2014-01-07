@@ -1,0 +1,10 @@
+Package: HiddenMarkov
+Title: Hidden Markov Models
+Version: 1.2-5
+Date: 2008-06-21
+Author: David Harte
+Maintainer: David Harte <david@statsresearch.co.nz>
+Description: Contains functions for the analysis of Discrete Time Hidden Markov Models, Markov Modulated GLMs and the Markov Modulated Poisson Process. It includes functions for simulation, parameter estimation, and the Viterbi algorithm. See the topic "HiddenMarkov" for an introduction to the package, and "Changes" for a list of recent changes. The algorithms are based of those of Walter Zucchini.
+License: GPL (>=2)
+URL: http://www.statsresearch.co.nz
+Packaged: Sat Jun 21 12:04:51 2008; david

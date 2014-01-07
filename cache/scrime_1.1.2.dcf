@@ -1,0 +1,15 @@
+Package: scrime
+Type: Package
+Title: Analysis of High-Dimensional Categorical Data such as SNP Data
+Version: 1.1.2
+Date: 2009-01-27
+Author: Holger Schwender, Arno Fritsch
+Maintainer: Holger Schwender <holger.schw@gmx.de>
+Suggests: MASS, RSQLite (>= 0.4-15), oligoClasses (>= 1.1.9)
+Description: Tools for the analysis of high-dimensional data developed/implemented
+  at the group "Statistical Complexity Reduction In Molecular Epidemiology" (SCRIME).
+  Main focus is on SNP data. But most of the functions can also be applied to other
+  types of categorical data.
+License: GPL-2
+biocViews: Genetics, SNPsAndGeneticVariability, Statistics, MultipleComparisons
+Packaged: Tue Jan 27 15:55:19 2009; schwender

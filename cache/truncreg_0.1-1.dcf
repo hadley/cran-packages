@@ -1,0 +1,11 @@
+Package: truncreg
+Version: 0.1-1
+Date: 2009-02-03
+Title: Truncated Regression Models
+Author: Yves Croissant <yves.croissant@let.ish-lyon.cnrs.fr>
+Maintainer: Yves Croissant <yves.croissant@let.ish-lyon.cnrs.fr>
+Depends: R (>= 1.8.0), maxLik
+Description: Estimation of models for truncated variables by maximum likelihood
+License: GPL (>=2)
+URL: http://www.r-project.org
+Packaged: Tue Feb  3 20:59:52 2009; yves

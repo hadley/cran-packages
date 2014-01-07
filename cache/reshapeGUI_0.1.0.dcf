@@ -1,0 +1,16 @@
+Package: reshapeGUI
+Maintainer: Jason Crowley <crowley.jason.s@gmail.com>
+License: GPL (>= 2.0)
+Title: A GUI for the reshape2 and plyr packages.
+Type: Package
+LazyLoad: yes
+Author: Jason Crowley <crowley.jason.s@gmail.com>
+Description: A tool for learning how to use the functions, melt,
+        acast/dcast, and ddply.
+Version: 0.1.0
+Date: 2011-05-30
+Depends: reshape2, plyr, gWidgets, gWidgetsRGtk2
+Collate: 'reshapeGUI.R'
+Packaged: 2011-05-30 21:08:41 UTC; Jason
+Repository: CRAN
+Date/Publication: 2011-05-31 06:27:21

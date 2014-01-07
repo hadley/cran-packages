@@ -1,0 +1,17 @@
+Package: allelic
+Version: 0.1
+Date: 2006-05-19
+Title: A fast, unbiased and exact allelic exact test
+Author: Karl Forner <Karl.Forner@gmail.com>
+Maintainer: Mickael Guedj <guedj@genopole.cnrs.fr>
+Description: This is the implementation in R+C of a new association
+        test described in "A fast, unbiased and exact allelic exact
+        test for case-control association studies" (Submitted).  It
+        appears that in most cases the classical chi-square test used
+        for testing for allelic association on genotype data is biased.
+        Our test is unbiased, exact but fast throught careful
+        optimization.
+License: GPL (>= 2)
+Packaged: Wed May 24 03:02:01 2006; kforner
+Repository: CRAN
+Date/Publication: 2006-05-24 08:12:01

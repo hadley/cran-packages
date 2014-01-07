@@ -1,0 +1,14 @@
+Package: sdcTable
+Title: statistical disclosure control for tabular data
+Version: 0.0.15
+Date: 2010-12-03
+Author: Bernhard Meindl
+Maintainer: Bernhard Meindl <bernhard.meindl@statistik.gv.at>
+Description: R-Package for statistical disclosure control for tabular
+        data.
+Depends: lpSolve, Rcpp
+LinkingTo: Rcpp
+License: GPL-2
+Packaged: 2010-12-03 11:02:23 UTC; meindl$
+Repository: CRAN
+Date/Publication: 2010-12-03 11:38:08

@@ -1,0 +1,19 @@
+Package: mixcat
+Type: Package
+Title: MIXED EFFECTS MODELS FOR MULTICATEGORY DATA
+Version: 1.0-0
+Date: 2011-9-11
+Author@R: c(person("Georgios", "Papageorgiou", email =
+        "gpapageo@gmail.com"), person("John", "Hinde", email =
+        "john.hinde@nuigalway.ie"))
+Author: Georgios Papageorgiou and John Hinde
+Maintainer: Georgios Papageorgiou <gpapageo@gmail.com>
+Depends: R (>= 2.8.1), statmod
+LazyLoad: yes
+Description: Mixed effects models for the analysis of binary or
+        multinomial (ordinal or nominal) data with non-parametric
+        distribution for the random effects
+License: GPL (>= 2)
+Packaged: 2011-09-13 12:57:26 UTC; gpapageo
+Repository: CRAN
+Date/Publication: 2011-09-14 06:21:14

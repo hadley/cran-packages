@@ -1,0 +1,12 @@
+Package: ltsa
+Version: 1.0
+Date: 2007-09-01
+Title: Linear time series analysis
+Author: A.I. McLeod, Hao Yu, Zinovi Krougly
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0)
+Suggests: FGN
+Description: Methods of developing linear time series modelling.  Methods are given for loglikelihood computation, forecasting and simulation.
+License: GPL (version 2 or later)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: Tue Oct 30 12:55:48 2007; aim

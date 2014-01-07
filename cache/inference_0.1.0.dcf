@@ -1,0 +1,21 @@
+Package: inference
+Version: 0.1.0
+Date: 2010-10-22
+Title: Functions to extract inferential values of a fitted model object
+Author: Vinh Nguyen <vinhdizzo@gmail.com>
+Maintainer: Vinh Nguyen <vinhdizzo@gmail.com>
+Description: Collection of functions to extract inferential values
+        (point estimates, confidence intervals, p-values, etc) of a
+        fitted model object into a matrix-like object that can be used
+        for table/report generation; transform point estimates via the
+        delta method.
+License: GPL (>= 2)
+Type: Package
+URL: http://r-forge.r-project.org/projects/inference/
+BugReports:
+        http://lists.r-forge.r-project.org/mailman/listinfo/inference-devel
+Depends: sandwich, methods
+Collate: 'inference.R'
+Packaged: 2010-10-26 19:56:25 UTC; vinh
+Repository: CRAN
+Date/Publication: 2010-10-27 05:25:35

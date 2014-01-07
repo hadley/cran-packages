@@ -1,0 +1,13 @@
+Package: fbati
+Version: 0.6.1
+Date: 2009-03-10
+Title: Gene by Environment Interaction and Conditional Gene Tests for Nuclear Families
+Author: Thomas Hoffmann <tjhoffm@gmail.com>
+Maintainer: Thomas Hoffmann <tjhoffm@gmail.com>
+Depends: pbatR(>= 2.0.0), fgui, rootSolve, tcltk
+Imports: tcltk, fgui
+Description: Does family-based gene by environment interaction tests, joint gene, gene-environment interaction test, and a test of a set of genes conditional on another set of genes.
+License: GPL
+URL: http://www.people.fas.harvard.edu/~tjhoffm/fbati.html
+LazyLoad: true
+Packaged: Tue Mar 10 10:02:23 2009; merlin

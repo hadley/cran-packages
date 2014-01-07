@@ -1,0 +1,23 @@
+Package: IM
+Type: Package
+Title: Orthogonal Moment Analysis
+Version: 1.0
+Date: 2012-07-18
+Author: Bartek Rajwa, Murat Dundar, Allison Irvine, Tan Dang
+Maintainer: Allison Irvine <a.irvine2@gmail.com>
+Contact: Tan Dang <dangt@purdue.edu>, Bartek Rajwa
+        <rajwa@cyto.purdue.edu>
+Description: Compute moments of images and perform reconstruction from
+        moments.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.10.0),png (>= 0.1-4),jpeg (>= 0.1-2),bmp (>= 0.1),
+        methods
+Collate: ImageClass.R MethodDefinitions.R ComplexImageClass.R
+        OrthogonalImageClass.R MultipleImagesClass.R OrthMoments.R
+        MultiCmplxWrapper.R gpzmWrapper.R frWrapper.R fmWrapper.R
+        fcWrapper.R
+Packaged: 2013-03-06 17:09:30 UTC; me
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-06 18:46:11

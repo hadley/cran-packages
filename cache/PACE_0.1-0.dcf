@@ -1,0 +1,17 @@
+Package: PACE
+Version: 0.1-0
+Date: 2011-31-03
+Title: PACE package
+Author: Bitao Liu <btliu@wald.ucdavis.edu>
+Maintainer: Kehui Chen <khchen@wald.ucdavis.edu> Matt Yang
+        <matyang@ucdavis.edu>
+Depends: akima, MASS
+Description: The core program of this package is Functional Principal
+        Component Analysis (FPCA), a key technique for functional data
+        analysis, for sparsely or densely sampled random trajectories
+        and time courses, via the Principal Analysis by Conditional
+        Estimation (PACE) algorithm.
+License: GPL
+Packaged: 2011-09-26 13:13:13 UTC; kingyang826
+Repository: CRAN
+Date/Publication: 2011-09-26 13:27:42

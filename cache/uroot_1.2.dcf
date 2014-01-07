@@ -1,0 +1,25 @@
+Package: uroot
+Version: 1.2
+Date: 2005/3/3
+Title: Unit root tests and graphics for seasonal time series.
+Author: Javier López-de-Lacalle <javlacalle@yahoo.es> &
+        Ignacio Díaz-Emparanza <etpdihei@bs.ehu.es>
+Maintainer: Javier López-de-Lacalle <javlacalle@yahoo.es>
+SystemRequirements: "BWidget", it is an extension for the R package tcltk that consists of Tcl
+      scripts. See README file.
+Depends: R (>= 2.0.0), stats, tcltk
+Description: This package contains several methods for analysing quarterly and monthly time series.
+      Unit root test: KPSS, ADF, CH and HEGY, as well as several graphics: Buys-Ballot and
+      seasonal cycles among others, have been implemented to accomplish either an analytical or a
+      graphical analysis. Combined use of both enables the user to characterize the seasonality as
+      deterministic, stochastic or a mixture of them.
+      All the applications can be run from an easy to use graphical user interface, besides, some
+      of the results can be exported to a LaTeX file.
+      Although we aim at making this interface as flexible as possible, the user must be aware of
+      the constraints entailed in this procedure. Omited cases could be added for particular
+      circumstances, modifying the source code provided in this package or consulting the
+      maintainer.
+License: GPL version 2 or newer. The terms of this license are in a file called COPYING which is
+      provided with R
+URL: http://www.bl.ehu.es/~jedlobej, http://www.bl.ehu.es/~etpdihei
+Packaged: Fri Mar 18 13:03:20 2005; root

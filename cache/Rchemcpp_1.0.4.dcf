@@ -1,0 +1,26 @@
+Package: Rchemcpp
+Type: Package
+Title: An R interface for the ChemCpp library
+Version: 1.0.4
+Date: 2012-09-30
+Author: Michael Mahr, Guenter Klambauer
+Maintainer: Guenter Klambauer <klambauer@bioinf.jku.at>
+Description: Rchemcpp compares sets of molecules and returns a
+        similarity matrix.  This matrix can be used as input to support
+        vector machines.  It wraps the c++ library 'chemcpp' by P. Mahe
+        and J.-L. Perret to emulate the tools "sd2gram",
+        "sd2gram3Dspectrum", "sd2gramSubtree", "sd2gram3Dpharma" and
+        "sd2gramSpectrum".
+License: GPL (>= 2.1)
+URL: http://www.bioinf.jku.at/software/Rchemcpp
+Depends: Rcpp (>= 0.9.13), R (>= 2.15.0), RcppClassic, methods
+Suggests: apcluster
+LinkingTo: RcppClassic, Rcpp
+RcppModules: Rmolecule, Rmoleculeset, Relements, spectrumhelper,
+        spectrum3Dhelper, subtreehelper
+Collate: 'getMoleculeNamesFromSDF.R' 'sd2gram3Dpharma.R'
+        'sd2gram3Dspectrum.R' 'sd2gram.R' 'sd2gramSpectrum.R'
+        'sd2gramSubtree.R' 'utility.R' 'zzz.R' 'roxygen.R'
+Packaged: 2012-12-03 08:36:03 UTC; klambaue
+Repository: CRAN
+Date/Publication: 2012-12-03 09:21:53

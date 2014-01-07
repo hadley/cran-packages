@@ -1,0 +1,19 @@
+Package: gld
+Version: 2.0.1
+Date: 2013/08/31
+Title: Estimation and use of the generalised (Tukey) lambda
+        distribution
+Suggests: graphics, lmom
+Author: Robert King <Robert.King@newcastle.edu.au>
+Maintainer: Robert King <Robert.King@newcastle.edu.au>
+Description: The generalised lambda distribution, or Tukey lambda distribution, provides a wide variety of shapes with one functional form.  
+ This package provides random numbers, quantiles, probabilities, densities for four different parameterisations of the distribution.
+ It provides density function, distribution function and Quantile-Quantile plots.
+ It implements the starship estimation method for the distribution, including diagnostic plots.
+License: GPL (>= 2)
+URL:
+        http://tolstoy.newcastle.edu.au/~rking/publ/rprogs/information.html
+Packaged: 2013-08-30 20:16:18 UTC; robertking
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-31 07:27:53

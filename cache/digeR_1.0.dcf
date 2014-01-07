@@ -1,0 +1,17 @@
+Package: digeR
+Type: Package
+Title: GUI tool for analyzing 2D DIGE data
+Version: 1.0
+Date: 2009-06-16
+Author: Yue Fan, Thomas Brendan Murphy, R. William G. Watson
+Maintainer: Yue Fan <yue.fan@ucd.ie>
+Description: An easy to use Graphical User Interfact for spots
+        correlation analysis, score plot, classification, feature
+        selection and power analysis for 2D DIGE experiment data.
+Depends: R (>= 2.6.0), gWidgets, MASS, pls, e1071, adabag,
+        randomForest, ROCR, caTools, class, ellipse
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2009-06-19 17:13:02 UTC; Yue
+Repository: CRAN
+Date/Publication: 2009-06-20 09:52:45

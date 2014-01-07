@@ -1,0 +1,15 @@
+Package: TCC
+Version: 0.2
+Date: 2012-05-07
+Title: TCC: tag count comparison package
+Author: Koji Kadota, Tomoaki Nishiyama, Kentaro Shimizu
+Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>
+Description: This package provides normalization method of tag count
+        data by TMM-bayseq-TMM pipeline.  Expected application includes
+        RNA-seq, SAGE, ChIP-seq and a like.
+Depends: R (>= 2.14.0), edgeR (>= 2.4.6), baySeq, NBPSeq
+License: GPL-2
+Copyright: Authors listed above
+Packaged: 2012-05-08 14:12:28 UTC; tomoaki
+Repository: CRAN
+Date/Publication: 2012-05-09 04:06:52

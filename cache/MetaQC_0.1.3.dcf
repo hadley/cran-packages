@@ -1,0 +1,38 @@
+Package: MetaQC
+Type: Package
+Title: MetaQC: Quantitative Quality Assessment for Inclusion/Exclusion
+        Criteria of Genomic Meta-Analysis
+Version: 0.1.3
+Author: Don Kang <donkang75@gmail.com>
+Maintainer: Don Kang <donkang75@gmail.com>
+Description: MetaQC implements our proposed quantitative quality
+        control measures: (1) internal homogeneity of co-expression
+        structure among studies (internal quality control; IQC); (2)
+        external consistency of co-expression structure correlating
+        with pathway database (external quality control; EQC); (3)
+        accuracy of differentially expressed gene detection (accuracy
+        quality control; AQCg) or pathway identification (AQCp); (4)
+        consistency of differential expression ranking in genes
+        (consistency quality control; CQCg) or pathways (CQCp). (See
+        the reference for detailed explanation.) For each quality
+        control index, the p-values from statistical hypothesis testing
+        are minus log transformed and PCA biplots were applied to
+        assist visualization and decision. Results generate systematic
+        suggestions to exclude problematic studies in microarray
+        meta-analysis and potentially can be extended to GWAS or other
+        types of genomic meta-analysis. The identified problematic
+        studies can be scrutinized to identify technical and biological
+        causes (e.g. sample size, platform, tissue collection,
+        preprocessing etc) of their bad quality or irreproducibility
+        for final inclustion/exclusion decision.
+Depends: R (>= 2.10.0)
+Imports: proto, foreach
+Suggests: doMC, doSMP, FactoMineR, samr, matrixStats, gdata, gtools
+License: GPL-2
+URL: https://github.com/donkang75/MetaQC
+LazyLoad: yes
+Collate: MetaQC.R requireAll.R functions.R
+Date: 2011-04-22
+Packaged: 2011-04-23 04:04:08 UTC; don
+Repository: CRAN
+Date/Publication: 2011-04-23 20:54:44

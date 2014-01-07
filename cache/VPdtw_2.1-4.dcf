@@ -1,0 +1,15 @@
+Package: VPdtw
+Type: Package
+Title: Variable Penalty Dynamic Time Warping
+Version: 2.1-4
+Date: 2009-11-19
+Author: David Clifford, Glenn Stone
+Maintainer: David Clifford <David.Clifford@csiro.au>
+Description: Variable Penalty Dynamic Time Warping for aligning GC-MS
+        chromatograms to a master signal and more. With the appropriate
+        penalty this method performs good alignment without altering
+        the shape of peaks in GC-MS data.
+License: GPL-2
+Packaged: 2009-11-19 01:22:06 UTC; cli065
+Repository: CRAN
+Date/Publication: 2009-11-19 13:00:35

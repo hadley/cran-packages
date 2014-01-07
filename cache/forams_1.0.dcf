@@ -1,0 +1,15 @@
+Package: forams
+Type: Package
+Title: Foraminifera and Community Ecology Analyses
+Version: 1.0
+Date: 2011-08-20
+Author: Rodrigo Aluizio
+Maintainer: Rodrigo Aluizio <r.aluizio@gmail.com>
+Depends: R (>= 2.10), vegan
+Description: SHE, FORAM Index and ABC Method analyses and custom plot
+        functions for community data.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-08-22 11:37:18 UTC; Rodrigo
+Repository: CRAN
+Date/Publication: 2011-08-22 19:47:39

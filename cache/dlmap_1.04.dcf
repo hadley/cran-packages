@@ -1,0 +1,23 @@
+Package: dlmap
+Type: Package
+Title: Detection Localization Mapping for QTL
+Version: 1.04
+Date: 2010-01-08
+Author: Emma Huang and Andrew George
+Maintainer: Emma Huang <Emma.Huang@csiro.au>
+Description: QTL mapping in a mixed model framework with separate
+        detection and localization stages. The first stage detects the
+        number of QTL on each chromosome based on the genetic variation
+        due to grouped markers on the chromosome; the second stage uses
+        this information to determine the most likely QTL positions.
+        The mixed model can accommodate general fixed and random
+        effects, including spatial effects in field trials and pedigree
+        effects. Applicable to backcrosses, doubled haploids,
+        recombinant inbred lines, F2 intercrosses, and association
+        mapping populations.
+License: GPL-2
+Depends: qtl, ibdreg, wgaim, nlme
+Suggests: asreml
+Packaged: 2010-01-08 03:11:56 UTC; hua032
+Repository: CRAN
+Date/Publication: 2010-01-08 08:08:10

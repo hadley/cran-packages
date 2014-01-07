@@ -1,0 +1,13 @@
+Package: geonames
+Type: Package
+Title: Interface to www.geonames.org web service
+Version: 0.8
+Date: 2008-10-16
+Author: Barry Rowlingson
+Maintainer: Barry Rowlingson <barry.rowlingson@gmail.com>
+Depends: R (>= 2.2.0), rjson
+Description: Code for querying the web service at www.geonames.org
+License: GPL-3
+LazyLoad: yes
+Revision: 13
+Packaged: Fri Feb 27 05:12:52 2009; rforge

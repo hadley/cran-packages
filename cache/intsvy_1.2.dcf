@@ -1,0 +1,15 @@
+Package: intsvy
+Type: Package
+Title: International Assessment Data Manager
+Version: 1.2
+Date: 2013-10-27
+Author: Daniel Caro
+Maintainer: Daniel Caro <daniel.caro@education.ox.ac.uk>
+Description: Provides tools for importing, merging, and analysing data from international assessment studies (TIMSS, PIRLS, and PISA)
+License: GPL-2
+Depends: memisc, foreign, plyr
+LazyData: yes
+Packaged: 2013-10-27 11:13:29 UTC; eldani
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-27 12:22:01

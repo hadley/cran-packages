@@ -1,0 +1,24 @@
+Package: RgoogleMaps
+Type: Package
+Title: Overlays on Google map tiles in R
+Version: 1.1.9.13
+Date: 2011-07-26
+Depends: R (>= 1.4.0), graphics, stats, utils, png
+Suggests: grid, ReadImages, PBSmapping, sp
+Enhances: rgdal
+Author: Markus Loecher, Sense Networks
+Maintainer: "Markus Loecher, Sense Networks" <markus.loecher@gmail.com>
+Description: This package serves two purposes: (i) Provide a
+        comfortable R interface to query the Google server for static
+        maps, and (ii) Use the map as a background image to overlay
+        plots within R. This requires proper coordinate scaling. NOTE:
+        To do anything but downloading static map tiles, RgoogleMaps
+        needs EITHER png OR ReadImages OR rimage installed ! png
+        (default) is your package if you prefer png file format and
+        ReadImages or rimage if you prefer jpg format. In the latter
+        cases, you will also need the libjpeg library installed.
+License: GPL
+LazyLoad: yes
+Packaged: 2011-07-26 06:42:25 UTC; mloecher
+Repository: CRAN
+Date/Publication: 2011-07-26 10:14:03

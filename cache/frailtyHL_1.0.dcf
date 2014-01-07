@@ -1,0 +1,21 @@
+Package: frailtyHL
+Type: Package
+Title: Frailty Models via H-likelihood
+Version: 1.0
+Date: 2011-02-07
+Author: Il Do HA, Maengseok Noh, Youngjo Lee
+Maintainer: Maengseok Noh <msnoh@pknu.ac.kr>
+Description: The frailtyHL package implements the h-likelihood
+        estimation procedures for frailty models. The package fits
+        Cox's proportional hazards models with random effects (or
+        frailties). For the frailty distribution lognormal and gamma
+        are allowed. The h-likelihood uses the Laplace approximation
+        when the numerical integration is intractable, giving a
+        statistically efficient estimation in frailty models.
+Depends: R (>= 2.10.0), Matrix,numDeriv
+License: Unlimited
+LazyLoad: yes
+Respository: CRAN
+Date/Publication: 2011-02-06 09:19:27
+Packaged: 2011-02-06 07:59:03 UTC; Administrator
+Repository: CRAN

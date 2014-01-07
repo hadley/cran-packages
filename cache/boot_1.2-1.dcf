@@ -1,0 +1,12 @@
+Package: boot
+Version: 1.2-1
+Date: 2001-Mar-03
+Author: S original <http://dmawww.epfl.ch/davison.mosaic/BMA/library.html>
+  by Angelo Canty.  R port by  Brian Ripley <ripley@stats.ox.ac.uk>.
+Maintainer: Brian Ripley <ripley@stats.ox.ac.uk>.
+Description: functions and datasets for bootstrapping from the
+  book "Bootstrap Methods and Their Applications" by A.C. Davison and 
+  D.V. Hinkley (1997, CUP).
+Title: Bootstrap R (S-Plus) Functions (Canty)
+Depends: R (>= 1.0.0), survival5 for some examples
+License: Unlimited distribution.

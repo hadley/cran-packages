@@ -1,0 +1,16 @@
+Package: RcmdrPlugin.SensoMineR
+Type: Package
+Title: Graphical User Interface for SensoMineR
+Version: 1.11
+Date: 2007-08-10
+Author: F. Husson, J. Josse, S. Le
+Encoding: latin1
+Maintainer: Francois Husson <francois.husson@agrocampus-rennes.fr>
+Depends: R (>= 2.5.0), SensoMineR, FactoMineR, Rcmdr, tcltk
+Description: Rcmdr Plugin for the SensoMineR package
+License: GPL (>= 2)
+URL: http://sensominer.free.fr, http://www.agrocampus-rennes.fr/math/
+LazyLoad: no
+Packaged: 2010-07-19 09:04:04 UTC; PRI
+Repository: CRAN
+Date/Publication: 2010-07-25 11:06:09

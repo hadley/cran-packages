@@ -1,0 +1,8 @@
+Package: RmSQL
+Version: 0.3-6
+Title: An R Interface to mSQL Databases
+Author: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Maintainer: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Description: An R <-> mSQL database interface   
+Depends: mSQL-2.0.8 (http://www.Hughes.com.au) or higher
+License: GPL (interface-code) and mSQL-Licence

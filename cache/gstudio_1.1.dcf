@@ -1,0 +1,23 @@
+Package: gstudio
+Maintainer: Rodney J. Dyer <rjdyer@vcu.edu>
+License: GPL (>= 2)
+Title: Analyses and functions related to the spatial analysis of
+        genetic marker data.
+Type: Package
+Author: Rodney J. Dyer <rjdyer@vcu.edu>
+Description: This package contains classes and functions for
+    the spatial analysis of marker data to include structure
+    statistics, analyses based upon allele frequencies, and
+    other methods for the manipulation and analysis of marker
+    data.  
+Version: 1.1
+Date: 2014-01-04
+LazyLoad: true
+VignetteBuilder: knitr
+Depends: R (>= 2.15)
+Imports: sp, raster, grid, reshape2, ggplot2, ggmap, popgraph
+Suggests: testthat, knitr
+Packaged: 2014-01-04 21:35:08 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-04 22:35:43

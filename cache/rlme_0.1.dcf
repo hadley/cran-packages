@@ -1,0 +1,14 @@
+Package: rlme
+Type: Package
+Title: Random Effects Nested Models
+Version: 0.1
+Date: 2013-01-07
+Author: Yusuf Bilgic and Herb Susmann
+Maintainer: Yusuf Bilgic <bilgic@geneseo.edu>
+Description: Estimates fixed effects and predicts random effects in two
+        and three level random effects nested models.
+License: GPL (>= 2)
+Depends: MASS, quantreg, nlme, mgcv, magic, stringr
+Packaged: 2013-02-05 18:25:56 UTC; ykb
+Repository: CRAN
+Date/Publication: 2013-02-06 09:58:49

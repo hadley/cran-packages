@@ -1,0 +1,19 @@
+Package: Sequential
+Type: Package
+Title: Exact Sequential Analysis for Poisson Data
+Version: 1.0
+Date: 2012-11-14
+Author: Ivair Ramos Silva and Martin Kulldorff
+Maintainer: Ivair Ramos Silva <jamesivair@yahoo.com.br>
+Description: Calculates exact critical values to perform continuous or
+        group sequential analysis for Poisson type data using the
+        Maximized Sequential Probability Ratio Test (MaxSPRT) with a
+        Wald type rejection boundary. Also calculates properties such
+        as statistical power, expected time to signal when the null is
+        rejected and maximum sample size needed to obtain a certain
+        power.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-01-31 17:05:58 UTC; Ivair
+Repository: CRAN
+Date/Publication: 2013-01-31 18:56:30

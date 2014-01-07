@@ -1,0 +1,20 @@
+Package: gstat
+Version: 1.0-5
+Date: 2011/09/16
+Title: spatial and spatio-temporal geostatistical modelling, prediction
+        and simulation
+Author: Edzer Pebesma <edzer.pebesma@uni-muenster.de> and others
+Maintainer: Edzer Pebesma <edzer.pebesma@uni-muenster.de>
+Description: variogram modelling; simple, ordinary and universal point
+        or block (co)kriging, sequential Gaussian or indicator
+        (co)simulation; variogram and variogram map plotting utility
+        functions.
+Depends: R (>= 2.10), methods, sp (>= 0.9-72), spacetime (>= 0.4-4)
+Imports: lattice
+Suggests: rgdal (>= 0.5.2), fields, mapdata, lattice, maptools
+License: GPL (>= 2.0)
+URL: http://www.gstat.org, http://52north.org/geostatistics,
+        http://www.52north.org/svn/geostatistics/main/gstat
+Packaged: 2011-10-01 08:44:41 UTC; edzer
+Repository: CRAN
+Date/Publication: 2011-10-01 09:16:01

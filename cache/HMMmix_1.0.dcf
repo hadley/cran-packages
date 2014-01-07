@@ -1,0 +1,13 @@
+Package: HMMmix
+Version: 1.0
+Date: 2013-01-07
+Title: The HMMmixture package
+Author: Stevenn Volant and Caroline Berard
+Maintainer: Caroline Berard <caroline.berard@agroparistech.fr>
+Depends: R (>= 2.0.0), mnormt
+Description: This package allows one to reduce a K-states HMM to a
+        D-states HMM, with D < K.
+License: GPL (>= 2)
+Packaged: 2013-01-08 08:43:30 UTC; bioinfo
+Repository: CRAN
+Date/Publication: 2013-01-08 22:43:25

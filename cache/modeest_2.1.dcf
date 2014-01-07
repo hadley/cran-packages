@@ -1,0 +1,15 @@
+Package: modeest
+Type: Package
+Title: Mode Estimation
+Version: 2.1
+Date: 2012-10-15
+Author: P. PONCET
+Description: This package provides estimators of the mode of univariate
+        unimodal data or univariate unimodal distributions
+Maintainer: P. PONCET <paulponcet@yahoo.fr>
+Depends: R (>= 2.12.0)
+Suggests: stats, evd, fBasics, stabledist, VGAM
+License: GPL (>= 2)
+Packaged: 2012-10-15 09:04:15 UTC; YL1101
+Repository: CRAN
+Date/Publication: 2012-10-15 11:21:35

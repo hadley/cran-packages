@@ -1,0 +1,24 @@
+Package: amen
+Type: Package
+Title: Additive and multiplicative effects modeling of networks and
+        relational data
+Version: 0.75
+Date: 2012-06-12
+Author: Peter Hoff, Bailey Fosdick, Alex Volfovsky, Kate Stovel
+Maintainer: Peter D. Hoff <pdhoff@uw.edu>
+Suggests: coda
+Description: This package computes Bayesian estimates for additive and
+        multiplicative effects (AME) models for networks and relational
+        data. The basic model includes regression terms, the covariance
+        structure of the social relations model (Warner, Kenny and
+        Stoto (1979), Wong (1982)), and multiplicative factor effects
+        (Hoff(2009)). Four different link functions accomodate
+        different relational data structures, including binary/network
+        data (bin), normal relational data (nrm), ordinal relational
+        data (ord) and data from fixed-rank nomination schemes (frn).
+        Development of this software was supported in part by NICHD
+        grant 1R01HD067509-01A1.
+License: GPL-3
+Packaged: 2012-06-16 19:57:01 UTC; hoff
+Repository: CRAN
+Date/Publication: 2012-06-17 00:06:28

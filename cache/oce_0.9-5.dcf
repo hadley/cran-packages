@@ -1,0 +1,22 @@
+Package: oce
+Version: 0.9-5
+Date: 2012-12-15
+Title: Analysis of Oceanographic data
+Author: Dan Kelley <Dan.Kelley@Dal.Ca>
+Maintainer: Dan Kelley <Dan.Kelley@Dal.Ca>
+Depends: R (>= 2.15), utils, methods, mapproj
+Suggests: ncdf, foreign
+BugReports:
+        https://github.com/dankelley/oce/issues?sort=created&direction=desc&state=open
+Description: Supports the analysis of Oceanographic data, including ADP
+        measurements, CTD measurements, sectional data, sea-level time
+        series, coastline files, etc.  Provides functions for
+        calculating seawater properties such as potential temperature
+        and density, as well as derived properties such as buoyancy
+        frequency and dynamic height.
+License: GPL (>= 2)
+URL: http://dankelley.github.com/oce/
+LazyLoad: yes
+Packaged: 2012-12-15 12:15:26.655 UTC; kelley
+Repository: CRAN
+Date/Publication: 2012-12-15 15:47:36

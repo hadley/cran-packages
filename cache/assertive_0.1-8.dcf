@@ -1,0 +1,35 @@
+Package: assertive
+Type: Package
+Title: Readable check functions to ensure code integrity.
+Version: 0.1-8
+Date: 2013-10-13
+Authors@R: person("Richard", "Cotton", role = c("aut", "cre"), email =
+    "richierocks@gmail.com")
+Description: assertive contains lots of is_* functions to check the
+    state of your variables, and assert_* functions to throw errors
+    if they aren't in the right form.
+Depends: R (>= 2.15.0)
+License: Unlimited
+LazyLoad: yes
+LazyData: yes
+Collate: 'assertive-package.R' 'internal.R' 'utils.R' 'zzz.R'
+        'assert-has.R' 'assert-is-a-type.R'
+        'assert-is-atomic-recursive-vector.R' 'assert-is-connection.R'
+        'assert-is-empty-scalar.R' 'assert-is-file.R'
+        'assert-is-in-range.R' 'assert-is-na-nan-null.R'
+        'assert-is-other.R' 'assert-is-real-imaginary.R'
+        'assert-is-reflection.R' 'assert-is-string.R'
+        'assert-is-string-uk.R' 'assert-is-string-us.R'
+        'assert-is-time.R' 'assert-is-true-false.R' 'assert-is-type.R'
+        'has.R' 'is-a-type.R' 'is-atomic-recursive-vector.R'
+        'is-connection.R' 'is-empty-scalar.R' 'is-file.R'
+        'is-in-range.R' 'is-na-nan-null.R' 'is-other.R'
+        'is-real-imaginary.R' 'is-reflection.R' 'is-string.R'
+        'is-string-uk.R' 'is-string-us.R' 'is-time.R' 'is-true-false.R'
+        'is-type.R'
+Packaged: 2013-10-13 21:03:29 UTC; richie
+Author: Richard Cotton [aut, cre]
+Maintainer: Richard Cotton <richierocks@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-13 23:44:27

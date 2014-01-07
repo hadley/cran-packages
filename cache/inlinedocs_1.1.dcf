@@ -1,0 +1,19 @@
+Package: inlinedocs
+Title: Convert inline comments to documentation
+Type: Package
+Version: 1.1
+Date: 2009-11-30
+Author: Toby Dylan Hocking, Keith Ponting
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>, Keith Ponting
+        <k.ponting@aurix.com>
+Description: Generates Rd files from R source code with comments,
+        providing for quick, sustainable package development. The
+        syntax keeps code and documentation close together, and is
+        inspired by the Don't Repeat Yourself principle.
+URL: http://inlinedocs.r-forge.r-project.org
+Depends: methods
+License: GPL-3
+LazyLoad: yes
+Packaged: 2010-04-12 09:31:02 UTC; hocking
+Repository: CRAN
+Date/Publication: 2010-04-12 12:44:40

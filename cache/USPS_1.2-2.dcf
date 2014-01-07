@@ -1,0 +1,29 @@
+Package: USPS
+Title: Unsupervised and Supervised methods of Propensity Score
+        Adjustment for Bias
+Version: 1.2-2
+Date: 2012-6-18
+Author: Bob Obenchain <wizbob@att.net>
+Maintainer: Bob Obenchain <wizbob@att.net>
+Depends: R (>= 1.8.0), cluster, lattice, gss
+Description: Unsupervised PS Methods define Local Treatment Differences
+        (LTDs) within numerous Clusters of patients well-matched on
+        their pre-treatment X-characteristics and display the resulting
+        distribution of local effect-size estimates across Clusters.  I
+        now prefer to call this form of Nonparametric Preprocessing of
+        observational outcomes Local Control; it uses patient blocking
+        / matching concepts so as to rely only on a simple model
+        (Nested ANOVA, treatment within cluster) that becomes more and
+        more relastic as Clusters become small and numerous. In sharp
+        contrast, the Supervised PS Methods provided here attempt to
+        estimate unknow true Propensities with parametric models that
+        can be quite wrong and unrealistic.  PS estimates always need
+        to be Validated; there is usually no guarantee that such
+        estimatres actually block patients with similar
+        X-characteristics together, like true propensities do.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://members.iquest.net/~softrx/
+BuildVignettes: no
+Packaged: 2012-06-19 03:35:20 UTC; wiz
+Repository: CRAN
+Date/Publication: 2012-06-19 05:42:57

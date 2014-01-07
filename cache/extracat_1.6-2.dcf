@@ -1,0 +1,19 @@
+Package: extracat
+Type: Package
+Title: Categorical Data Analysis and Visualization
+Version: 1.6-2
+Date: 2013-04-30
+Author: Alexander Pilhoefer <alexander.pilhoefer@math.uni-augsburg.de>
+Maintainer: Alexander Pilhoefer
+        <alexander.pilhoefer@math.uni-augsburg.de>
+Description: graphics and more for categorical data
+Depends: R (>= 3.0.0), grid, MASS, colorspace, hexbin, scales, ggplot2,
+        reshape, plyr, TSP
+Suggests: JGR, iplots, vcd, ca, amap, rgl
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2013-05-03 15:08:11 UTC; pilhoeal
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-03 19:22:23

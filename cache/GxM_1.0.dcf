@@ -1,0 +1,15 @@
+Package: GxM
+Type: Package
+Title: Maximum Likelihood Estimation for Gene-by-Measured Environment
+        Interaction Models
+Version: 1.0
+Date: 2013-10-08
+Author: Hao Zheng and Paul Rathouz
+Maintainer: Hao Zheng <haozheng@stat.wisc.edu>
+Description: Quantifying and testing gene-by-measured-environment interaction in behavior genetic designs.
+License: GPL-2
+Depends: methods, Rcpp, minqa, nlme, parallel
+Packaged: 2013-10-09 22:20:56 UTC; HAO
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-10 00:36:12

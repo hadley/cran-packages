@@ -1,0 +1,35 @@
+Package: visualFields
+Type: Package
+Title: Statistical methods for visual fields
+Description: A collection of tools for analyzing the field of vision.
+        It provides a framework for development and use of innovative
+        methods for visualization, statistical analysis, and clinical
+        interpretation of visual-field loss and its change over time.
+        It is intended to be a tool for collaborative research.
+Version: 0.2-14
+Date: 2013-02-24
+Author: Ivan Marin-Franch <imarinfr@indiana.edu>, Paul H Artes
+        <paul@dal.ca>
+Maintainer: Ivan Marin-Franch <imarinfr@indiana.edu>
+Authors@R: c( person( given = "Ivan", family = "Marin-Franch", role =
+        c( "aut", "cre" ), comment = NULL, email =
+        "imarinfr@indiana.edu" ), person( given = "Paul H", family =
+        "Artes", role = c( "aut" ), comment = NULL, email =
+        "paul@dal.ca" ), person( given = "Chaitanya", family =
+        "Khadilkar", role = c( "ctb" ), comment = "developer" ),
+        person( given = "Neil", family = "O'Leary", role = c( "ctb" ),
+        comment = "PoPLR" ), person( given = "William H", family =
+        "Swanson", role = c( "ctb" ), comment = "normative values" ),
+        person( given = "Victor E", family = "Malinovsky", role = c(
+        "ctb" ), comment = "normative values" ), person( given =
+        "Mitchell W", family = "Dul", role = c( "ctb" ), comment =
+        "normative values" ), person( given = "Richard", family =
+        "Russell", role = c( "ctb" ), comment = "xml2csv" ) )
+Depends: R (>= 2.14.0), stats, utils, gridBase, flip (>= 1.3),
+        matrixStats, Hmisc
+LazyData: yes
+License: GPL (>= 2.0)
+Packaged: 2013-03-08 19:24:57 UTC; ivanmarin-franch
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-08 20:34:01

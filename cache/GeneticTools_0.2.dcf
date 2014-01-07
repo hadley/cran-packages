@@ -1,0 +1,18 @@
+Package: GeneticTools
+Type: Package
+Title: Collection of Genetic Data Analysis Tools.
+Version: 0.2
+Date: 2013-03-10
+Author: Daniel Fischer
+Maintainer: Daniel Fischer <daniel.fischer@uta.fi>
+Depends: R (>= 2.15.1), gMWT (>= 0.2), snpStats, Rcpp (>= 0.9.13),
+        RcppArmadillo (>= 0.3.4.4), plotrix
+LinkingTo: Rcpp, RcppArmadillo
+Description: GeneticTools is a loose collection of tools for the
+        analysis of expression and genotype data, currently with main
+        focus on eQTL analysis.
+License: GPL (>= 2)
+Packaged: 2013-03-17 08:32:41 UTC; medafi
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-17 16:27:20

@@ -1,0 +1,18 @@
+Package: parcor
+Type: Package
+Title: Regularized estimation of partial correlation matrices
+Version: 0.2-3
+Date: 2012-07-26
+Depends: MASS, glmnet, ppls, Epi, GeneNet
+Author: Nicole Kraemer, Juliane Schaefer
+Maintainer: Nicole Kraemer <kraemer@ma.tum.de>
+Description: The package estimates the matrix of partial correlations
+        based on different regularized regression methods: lasso,
+        adaptive lasso, PLS, and Ridge Regression. In addition, the
+        package provides model selection for lasso, adaptive lasso and
+        Ridge regression based on cross-validation.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-26 10:04:38 UTC; kraemer
+Repository: CRAN
+Date/Publication: 2012-07-26 10:31:58

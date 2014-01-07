@@ -1,0 +1,26 @@
+Package: MplusAutomation
+Type: Package
+Title: Automating Mplus Model Estimation and Interpretation
+Version: 0.6-2
+Date: 2013-10-24
+Author: Michael Hallquist, Joshua Wiley
+Maintainer: Michael Hallquist <michael.hallquist@gmail.com>
+Description: The MplusAutomation package leverages the flexibility of the R
+    language to automate latent variable model estimation and interpretation
+    using Mplus, a powerful latent variable modeling program developed by
+    Muthen and Muthen (www.statmodel.com). Specifically, MplusAutomation
+    provides routines for creating related groups of models, running batches of
+    models, and extracting and tabulating model parameters and fit statistics.
+License: LGPL-3
+Depends: plyr, boot
+Imports: gsubfn, coda, xtable, lattice
+Suggests: rhdf5, tcltk, relimp
+LazyLoad: yes
+Collate: 'compareModels.R' 'createModels.R' 'extractModIndices.R'
+        'extractParameters.R' 'extractSaveData.R' 'graphModels.R'
+        'mplus.R' 'MplusAutomation.R' 'parseOutput.R' 'runModels.R'
+        'utilityFunctions.R' 'methods.R' 'extractAuxDis.R'
+Packaged: 2013-10-24 16:19:12 UTC; michael
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-24 19:06:02

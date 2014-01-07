@@ -1,0 +1,17 @@
+Package: Rglpk
+Version: 0.3-4
+Date: 2010-02-03
+Title: R/GNU Linear Programming Kit Interface
+Author: Stefan Theussl and Kurt Hornik
+Maintainer: Stefan Theussl <stefan.theussl@wu.ac.at>
+Description: R interface to the GNU Linear Programing Kit (GLPK version
+        4.42). GLPK is open source software for solving large-scale
+        linear programming (LP), mixed integer linear programming
+        (MILP) and other related problems.
+Depends: slam (>= 0.1-9)
+License: GPL-2
+URL: http://R-Forge.R-project.org/projects/rglp/,
+        http://www.gnu.org/software/glpk/
+Packaged: 2010-02-10 10:00:01 UTC; theussl
+Repository: CRAN
+Date/Publication: 2010-02-11 08:45:18

@@ -1,0 +1,60 @@
+Package: lmomco
+Type: Package
+Title: L-moments, Censored L-moments, Trimmed L-moments, L-comoments,
+        and Many Distributions
+Version: 1.5.1
+Depends: R (>= 2.10.0), utils
+Suggests: copBasic, Lmoments
+Date: 2012-04-15
+Author: William H. Asquith
+Description: The package implements the statistical theory of L-moments
+        in R including L-moment estimation, probability-weighted moment
+        estimation, parameter estimation for numerous familiar and
+        not-so-familiar distributions, and L-moment estimation for the
+        same distributions from the parameters. L-moments are derived
+        from the expectations of order statistics and are linear with
+        respect to the probability-weighted moments; choice of either
+        can be made by mathematical convenience. L-moments are directly
+        analogous to the well-known product moments; however, L-moments
+        have many advantages including unbiasedness, robustness, and
+        consistency with respect to the product moments. The method of
+        L-moments can out perform the method of maximum likelihood. The
+        lmomco package historically is oriented around canonical
+        FORTRAN algorithms of J.R.M. Hosking, and the nomenclature for
+        many of the functions parallels that of the Hosking library,
+        which later became available in the lmom package. However, vast
+        arrays of various extensions and curiosities are added by the
+        author to aid and expand the breadth of L-moment application.
+        Such extensions include venerable statistics as Sen weighted
+        mean, Gini mean difference, plotting positions, and conditional
+        probability adjustment. The plotting of L-moment ratio diagrams
+        is directly supported in this package. Computations of
+        L-moments for right-tail and left-tail censoring by known or
+        unknown censoring threshold and also by indicator variable also
+        are available. E.A.H. Elamir and A.H. Seheult have developed
+        the trimmed L-moments, which are implemented in this package,
+        and numerical integration of quantile functions is used to
+        dynamically compute trajectories of select TL-moment ratios for
+        the construction of TL-moment ratio diagrams. Robert Serfling
+        and Peng Xiao have extended L-moments into multivariate space;
+        the so-called sample L-comoments are implemented here and might
+        have considerable application in copula theory because they
+        measure asymmetric correlation and higher co-moments or
+        co-movements of variables. The package supports the following
+        distributions with moment type shown as "L" (L-moments) or "TL"
+        (trimmed L-moments) and additional support for right-tail
+        censoring ([RC]) include: Asymmetric Exponential Power (L),
+        Cauchy (TL), Exponential (L), Gamma (L), Generalized Extreme
+        Value (L), Generalized Lambda (L & TL), Generalized Logistic
+        (L), Generalized Normal (L), Generalized Pareto (L[RC] & TL),
+        Gumbel (L), Kappa (L), Kumaraswamy (L), Laplace (L), Normal
+        (L), 3-parameter log-Normal (L), Pearson Type III (L), Rayleigh
+        (L), Reverse Gumbel (L[RC]), Rice/Rician (L), Truncated
+        Exponential (L), Wakeby (L), and Weibull (L).
+Maintainer: William H. Asquith <william.asquith@ttu.edu>
+Repository: CRAN
+License: GPL
+URL:
+        http://www.amazon.com/Distributional-Statistics-Environment-Statistical-Computing/dp/1463508417/
+Packaged: 2012-04-16 18:33:31 UTC; wasquith
+Date/Publication: 2012-04-16 19:59:37

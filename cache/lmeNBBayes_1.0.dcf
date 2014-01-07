@@ -1,0 +1,26 @@
+Package: lmeNBBayes
+Type: Package
+Title: Sample from the posterior of the negative binomial mixed-effect
+        regression model. The random effect is modeled with DP mixture
+        of beta distributions.
+Version: 1.0
+Date: 2012-12-01
+Author: Yumi Kondo
+Maintainer: Yumi Kondo <y.kondo@stat.ubc.ca>
+Description: This package contains a gibbs sampler to sample from the
+        posterior distribution of the negative binomial mixed-effect
+        regression model. For the distribution of subject-specific
+        random intercept, user can choose a beta distribution or an
+        infinite mixture of beta distributions. For the safety
+        monitoring, subject-specific conditional probability indices
+        can be computed. For details, see Kondo,Y. and Zhao, Y. A
+        Flexible Mixed Effect Negative Binomial Regression for
+        Detecting Abrupt Increase in MRI Lesion Counts in Multiple
+        Sclerosis Patients.
+License: GPL (>= 2)
+Depends: lattice
+LinkingTo:
+Packaged: 2013-04-16 02:14:17 UTC; yumik091186
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-16 07:43:24

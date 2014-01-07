@@ -1,0 +1,16 @@
+Package: Maeswrap
+Type: Package
+Title: Wrapper functions for MAESTRA/MAESPA.
+Version: 1.4.11
+Date: 2012-05-25
+Author: Remko Duursma
+Maintainer: Remko Duursma <remkoduursma@gmail.com>
+Depends: rgl,lattice,geometry
+Description: A bundle of functions for modifying MAESTRA/MAESPA input
+        files, reading output files, and visualizing the stand in 3D.
+        Handy for running sensitivity analyses, scenario analyses, etc.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-05-25 01:34:12 UTC; 30022860
+Repository: CRAN
+Date/Publication: 2012-05-25 06:19:42

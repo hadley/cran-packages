@@ -1,0 +1,10 @@
+Package: grasper
+Version: 0.3-2
+Date: 2002-12-10
+Title: Generalized Regression Analysis and Spatial Predictions for R
+Author: A. Lehmann, J.R. Leathwick, J.McC. Overton, ported to R by F. Fivaz
+Maintainer: Fabien Fivaz <fabien.fivaz@bluewin.ch>
+Depends: R (>= 1.5.1), mgcv (>= 0.8-7), MASS, modreg, tcltk
+Description: R-GRASP uses generalized regressions analyses to automate the production of spatial predictions.
+License: GPL
+URL: http://www.r-project.org, http://www.cscf.ch/grasp

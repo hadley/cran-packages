@@ -1,0 +1,17 @@
+Package: latdiag
+Type: Package
+Title: Draws diagrams useful for checking latent scales
+Version: 0.2
+Date: 2009-07-30
+Author: Michael Dewey
+Maintainer: Michael Dewey <info@aghmed.fsnet.co.uk>
+Description: Writes a file of commands for the dot program to draw a
+        graph proposed by Rosenbaum and useful for checking some
+        properties of various sorts of latent scale
+License: GPL-2
+Suggests: ltm
+LazyLoad: yes
+SystemRequirements: dot from graphviz
+Packaged: 2009-08-02 08:32:50 UTC; user
+Repository: CRAN
+Date/Publication: 2009-08-02 18:01:35

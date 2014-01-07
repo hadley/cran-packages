@@ -1,0 +1,15 @@
+Package: EILA
+Type: Package
+Title: Efficient Inference of Local Ancestry
+Version: 0.1-1
+Date: 2013-09-09
+Author: James J. Yang, Jia Li, and Anne Buu
+Maintainer: James J. Yang <jyangstat@gmail.com>
+Description: Implementation of Efficient Inference of Local Ancestry 
+	     using fused quantile regression and k-means classifier
+Depends: R (>= 2.10), class, quantreg
+License: GPL (>= 2)
+Packaged: 2013-09-11 20:59:25 UTC; jyang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-12 08:02:21

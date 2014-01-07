@@ -1,0 +1,12 @@
+Package: grouped
+Title: Regression Analysis of Grouped and Coarse Data
+Version: 0.3-0
+Date: 2006-09-11
+Author: Dimitris Rizopoulos <dimitris.rizopoulos@med.kuleuven.be> and Spyridoula Tsonaka <spyridoula.tsonaka@med.kuleuven.be>
+Maintainer: Dimitris Rizopoulos <dimitris.rizopoulos@med.kuleuven.be>
+Description: Regression models for grouped and coarse data, under the Coarsened At Random assumption.
+Depends: R(>= 2.0.0), MASS
+LazyLoad: yes
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Mon Sep 11 16:26:26 2006; dimitris

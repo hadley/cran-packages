@@ -1,0 +1,21 @@
+Package: mgraph
+Type: Package
+Title: Graphing map attributes and non-map variables in R
+Version: 1.01
+Date: 2012-08-22
+Author: George Owusu <owusugeorge@ug.edu.gh>
+Maintainer: George Owusu <owusugeorge@ug.edu.gh>
+Depends: rgdal (>= 0.5.2)
+Suggests: gstat
+Description: Each function in the package performs three main functions
+        i) it reads spatial data and produces basic graphs including
+        pie chart, bar chart, box plots, histogram, scatter plots, and
+        lines ii)it reads non-spatial data such as "csv", "txt", "dat"
+        data and produces basic graphs and iii) it plots map(s) of the
+        input attribute(s) of spatial data by setting "type" parameter
+        to "map"
+URL: http://www.ug.edu.gh/index1.php?linkid=616&sectionid=919&page=2
+License: GPL (>= 2.0)
+Packaged: 2012-08-22 11:59:11 UTC; george
+Repository: CRAN
+Date/Publication: 2012-11-13 12:00:16

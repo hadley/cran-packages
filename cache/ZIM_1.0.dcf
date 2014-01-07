@@ -1,0 +1,15 @@
+Package: ZIM
+Type: Package
+Title: Statistical Models for Count Time Series with Excess Zeros
+Version: 1.0
+Date: 2013-06-15
+Author: Ming Yang, Gideon K. D. Zamba, and Joseph E. Cavanaugh
+Maintainer: Ming Yang <myang@sdac.harvard.edu>
+Depends: MASS
+Description: Fits observation-driven and parameter-driven models for
+        count time series with excess zeros.
+License: GPL-2
+Packaged: 2013-06-15 18:07:55 UTC; myang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-19 00:41:33

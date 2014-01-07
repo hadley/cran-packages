@@ -1,0 +1,19 @@
+Package: ascrda
+Type: Package
+Title: Augmented SCRDA: improved rda classifier using nearest neighbor
+        autocovariate
+Version: 1.0-5
+Date: 2011-10-11
+Author: M. S. Islam and A. I. McLeod
+Maintainer: <mislam22@uwo.ca>
+Depends: R (>= 2.0.0),class, nnet,rda,MASS,e1071
+Description: Uses nearest neighbor autocovariates with SCRDA for
+        improved class prediction with microarray data.
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.4, I.5
+Classification/MSC: 62H30
+License: GPL (>= 2)
+Packaged: 2011-10-16 19:39:18 UTC; user
+Repository: CRAN
+Date/Publication: 2011-10-17 18:41:38

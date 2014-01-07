@@ -1,0 +1,16 @@
+Package: multmod
+Title: Testing of multiple outcomes
+LazyLoad: yes
+LazyData: yes
+Version: 0.3
+Author: Christian B. Pipper <pipper@life.ku.dk>, Christian Ritz
+        <ritz@life.ku.dk>
+Maintainer: Christian B. Pipper <pipper@life.ku.dk>
+Description: Testing of multiple outcomes using i.i.d. decompositions
+License: GPL (>= 2)
+Depends: R (>= 2.6.0), gtools, mvtnorm, sandwich, MASS
+Date: 2009-06-23
+URL: http://www.r-project.org
+Packaged: Wed Jun 24 08:55:42 2009; Christian Pipper
+Repository: CRAN
+Date/Publication: 2009-06-25 15:10:56

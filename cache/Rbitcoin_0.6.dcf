@@ -1,0 +1,20 @@
+Package: Rbitcoin
+Type: Package
+Title: Rbitcoin integration
+Version: 0.6
+Date: 2013-11-23
+Author: Jan Gorecki
+Maintainer: Jan Gorecki <j.gorecki@wit.edu.pl>
+Description: Utilities related to Bitcoin: markets API interface (mtgox,
+    bitstamp, btce, kraken). Both public and private API calls. Support HTTP
+    over SSL. Debug messages of Rbitcoin, debug messages of RCurl, error
+    handling. Please read Rbitcoin documentation (command: ?btc) for more
+    information.
+License: MIT + file LICENSE
+URL: https://bitcointalk.org/index.php?topic=343504
+Imports: RJSONIO, RCurl, digest, data.table
+Collate: 'Rbitcoin.R'
+Packaged: 2013-11-23 08:46:35 UTC; Janek
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-23 14:23:29

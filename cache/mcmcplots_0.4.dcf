@@ -1,0 +1,20 @@
+Package: mcmcplots
+Type: Package
+Title: Create Plots from MCMC Output
+Version: 0.4
+Date: 2010-01-12
+Author@R: c( person("S. McKay", "Curtis", role=c("aut", "cre"),
+        email="s.mckay.curtis@gmail.com"), person("Ilya", "Goldin",
+        role="ctb") )
+Author: S. McKay Curtis with contributions from Ilya Goldin
+Maintainer: S. McKay Curtis <s.mckay.curtis@gmail.com>
+Depends: coda
+Imports: sfsmisc, colorspace, denstrip
+Suggests: R2WinBUGS
+Description: MCMC plots
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-10-07 19:50:40 UTC; McKay
+Repository: CRAN
+Date/Publication: 2012-10-07 21:09:46

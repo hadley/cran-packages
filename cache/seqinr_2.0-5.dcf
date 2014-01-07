@@ -1,0 +1,21 @@
+Package: seqinr
+Version: 2.0-5
+Date: 2009-07-01
+Title: Biological Sequences Retrieval and Analysis
+Author: Delphine Charif and Jean R. Lobry and Anamaria Necsulea and
+        Leonor Palmeira and Simon Penel
+Maintainer: Simon Penel <penel@biomserv.univ-lyon1.fr>
+Depends: R (>= 2.5.0)
+Suggests: ade4, segmented
+Description: Exploratory data analysis and data visualization for
+        biological sequence (DNA and protein) data. Include also
+        utilities for sequence data management under the ACNUC system.
+License: GPL (>= 2)
+URL: http://seqinr.r-forge.r-project.org/, Mailing list:
+        http://r-forge.r-project.org/mail/?group_id=220
+ZipData: no
+Repository: CRAN
+Repository/R-Forge/Project: seqinr
+Repository/R-Forge/Revision: 1647
+Date/Publication: 2009-09-18 20:32:03
+Packaged: 2009-09-09 20:26:58 UTC; rforge

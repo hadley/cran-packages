@@ -1,0 +1,12 @@
+Package: R2HTML
+Version: 1.59
+Date: 2008-05-23
+Title: HTML exportation for R objects
+Author: Eric Lecoutre <lecoutre@stat.ucl.ac.be>
+Maintainer: Fernando Henrique Ferraz Pereira da Rosa <academic@feferraz.net>
+Depends: R (>= 2.0)
+Suggests: boot, splines, survival, stats, cluster, nlme, rpart, nnet, utils
+Description: Includes HTML function and methods to write in an HTML file. Thus, making HTML reports is easy. Includes a function that allows redirection on the fly, which appears to be very usefull for teaching purpose, as the student can keep a copy of the produced output to keep all that he did during the course. Package comes with a vignette describing how to write HTML reports for statistical analysis. Finally, a driver for Sweave allows to parse HTML flat files containing R code and to automatically write the corresponding outputs (tables and graphs).  
+License: GPL version 2 or newer
+URL: http://www.feferraz.net/en/R2HTML.html, http://www.r-project.org, http://www.stat.ucl.ac.be/R2HTML/
+Packaged: Fri May 23 14:32:25 2008; mentus

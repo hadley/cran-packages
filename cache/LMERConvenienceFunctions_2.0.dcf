@@ -1,0 +1,37 @@
+Package: LMERConvenienceFunctions
+Type: Package
+Title: A suite of functions to back-fit fixed effects and forward-fit
+        random effects, as well as other miscellaneous functions.
+Version: 2.0
+Date: 2013-04-10
+Author: Antoine Tremblay, Dalhousie University, and Johannes Ransijn,
+        University of Copenhagen
+Maintainer: "Antoine Tremblay, Dalhousie University" <trea26@gmail.com>
+Description: Functions to back-fit fixed effects (on F or t values as
+        well as log-likelihood ratio testing (llrt), AIC, BIC,
+        relLik.AIC or relLik.BIC) and to forward-fit random effects
+        (using log-likelihood ratio testing). NOTE that the back- and
+        forward-fitting of generalized linear mixed-effects regression
+        (glmer) models is now supported by functions
+        ``bfFixefLMER_t.fnc'' and ``ffRanefLMER.fnc''. The package also
+        includes a function to compute ANOVAs with upper- and
+        lower-bound p-values (anti-conservative and conservative,
+        respectively), a function to graph model criticism plots,
+        functions to trim data on model residuals or on a response
+        variable (per subject), a function to perform posthoc analyses
+        (with or without MCMC p-values), a function to generate
+        summaries of mcposthoc objects, a function to generate
+        (dynamic) 3d plots of (i) predicted values of an LMER model for
+        interactions between two numeric variables,(ii) the raw data as
+        a function of two numeric variable, and (iii) kernel density
+        estimates (densities) of two numeric variables, and finally a
+        function to calculate the relative log-likelihood between two
+        models.
+Depends: Matrix, lme4
+Suggests: LCFdata, rgl, fields, mgcv, parallel, languageR
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-04-10 19:06:08 UTC; antoine
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-10 23:24:56

@@ -1,0 +1,13 @@
+Package: BARD
+Type: Package
+Title: Better Automated ReDistricting
+Version: 0.83
+Date: 2007-09-13
+Author: Micah Altman <Micah_Altman@harvard.edu>
+Maintainer: Micah Altman <Micah_Altman@harvard.edu>
+Description: This is a package for automated redistricting and heuristic exploration of redistricter revealed preference
+Depends: spdep, maptools, digest
+Suggests:  snow, rgenoud , iplots
+License: GPL 3.0 Affero (with attribution)
+URL: http://bard.sf.net
+Packaged: Thu Sep 13 16:54:05 2007; maltman

@@ -1,0 +1,16 @@
+Package: nnDiag
+Title: k-Nearest Neighbor Diagnostic Tools
+Version: 0.0-1
+Date: 2009-10-21
+Author: Brian Walters <bfwalters83@yahoo.com>, Andrew O. Finley
+        <finleya@msu.edu>
+Maintainer: Brian Walters <bfwalters83@yahoo.com>
+Depends: sp, rgdal, spBayes, gplots, vcd
+Description: A suite of graphical diagnostic tools to evaluate kNN
+        classifications.
+License: GPL (>= 2)
+URL: http://blue.for.msu.edu/NAFIS/software.html
+LazyLoad: yes
+Packaged: 2009-10-26 17:58:36 UTC; brian
+Repository: CRAN
+Date/Publication: 2009-10-26 20:51:50

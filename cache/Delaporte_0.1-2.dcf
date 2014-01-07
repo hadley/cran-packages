@@ -1,0 +1,22 @@
+Package: Delaporte
+Type: Package
+Title: Statistical functions for the Delaporte distribution
+Version: 0.1-2
+Date: 2013-04-08
+Authors@R: c(person(given="Avraham", family="Adler", role=c("aut",
+        "cph", "cre"), email="Avraham.Adler@gmail.com"))
+Author: Avraham Adler
+Maintainer: Avraham Adler <Avraham.Adler@gmail.com>
+Description: Provides probability mass, distribution, and quantile
+        functions, as well as a random number generator, for the
+        Delaporte distribution.
+License: GPL (>= 2) | LGPL (>= 3)
+URL: https://bitbucket.org/aadler/delaporte
+BugReports: https://bitbucket.org/aadler/delaporte/issues
+Depends: R (>= 2.15.1), Rcpp (>= 0.10.3)
+LinkingTo: Rcpp
+ByteCompile: yes
+NeedsCompilation: yes
+Packaged: 2013-04-10 21:49:28 UTC; aadler00
+Repository: CRAN
+Date/Publication: 2013-04-11 07:04:36

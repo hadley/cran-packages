@@ -1,0 +1,19 @@
+Type: Package
+Encoding: latin1
+Package: cec2005benchmark
+Title: Benchmark for the CEC 2005 Special Session on Real-Parameter
+        Optimization
+Version: 1.0.0
+Date: 2012-04-15
+Author: Yasser González-Fernández <ygonzalezfernandez@gmail.com> and
+        Marta Soto <mrosa@icimaf.cu>
+Maintainer: Yasser González-Fernández <ygonzalezfernandez@gmail.com>
+Description: This package is a wrapper for the C implementation of the
+        25 benchmark functions for the CEC 2005 Special Session on
+        Real-Parameter Optimization. The original C code by Santosh
+        Tiwari and related documentation are available at
+        http://www.ntu.edu.sg/home/EPNSugan/.
+License: GPL (>= 3)
+Packaged: 2012-04-16 03:32:19 UTC; ygf
+Repository: CRAN
+Date/Publication: 2012-04-20 16:31:48

@@ -1,0 +1,14 @@
+Package: gsmaRt
+Type: Package
+Title: Gene Set Microarray Testing
+Version: 1.0
+Date: 2011-05-06
+Author: Stephan Artmann, Mathias Fuchs
+Maintainer: Stephan Artmann <stephan.artmann@gmx.net>
+Depends: GEOquery,R2HTML,qvalue,rgl,scatterplot3d,xtable,limma
+Description: combined miRNA- and mRNA-testing
+License: GPL
+LazyLoad: yes
+Packaged: 2012-05-18 11:48:48 UTC; stephan
+Repository: CRAN
+Date/Publication: 2012-05-18 14:56:42

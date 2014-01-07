@@ -1,0 +1,22 @@
+Package: decctools
+Type: Package
+Author: James Keirstead <j.keirstead@imperial.ac.uk>
+Maintainer: James Keirstead <j.keirstead@imperial.ac.uk>
+Version: 0.1.2
+License: GPL-2
+Title: Get energy data from the UK Dept of Energy and Climate Change
+Description: decctools provides functions for retrieving energy
+    statistics from the United Kingdom Department of Energy and Climate
+    Change and related data sources.  The current version focuses on
+    total final energy consumption statistics at the local authority, MSOA,
+    and LSOA geographies.  Methods for calculating the generation mix of
+    grid electricity and its associated carbon intensity are also provided.
+Date: 2013-06-26
+Depends: stringr, XLConnect, XML, lubridate, reshape2, RCurl, plyr
+LazyData: true
+Collate: 'decctools.r' 'utils.r' 'msoa.r' 'lsoa.r' 'lad.r'
+        'carbon-intensity.r'
+Packaged: 2013-10-01 06:44:14 UTC; admin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-01 09:53:48

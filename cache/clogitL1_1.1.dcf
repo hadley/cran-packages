@@ -1,0 +1,16 @@
+Package: clogitL1
+Type: Package
+Title: Fitting exact conditional logistic regression with lasso and
+        elastic net penalties.
+Version: 1.1
+Date: 2013-09-23
+Author: Stephen Reid and Robert Tibshirani
+Maintainer: Stephen Reid <sreid@stanford.edu>
+Description: Tools for the fitting and cross validation of exact conditional logistic regression models with lasso and elastic net penalties. Uses cyclic coordinate descent and warm starts to compute the entire path efficiently.
+License: GPL-2
+Depends: Rcpp (>= 0.10.2)
+LinkingTo: Rcpp
+Packaged: 2013-09-24 06:29:07 UTC; sreid
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-24 09:24:26

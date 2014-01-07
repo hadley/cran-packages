@@ -1,0 +1,24 @@
+Package: QCA
+Type: Package
+Title: Qualitative Comparative Analysis
+Version: 0.6-3
+Date: 2009-10-09
+Author: Adrian Dusa <dusa.adrian@unibuc.ro>
+Maintainer: Adrian Dusa <dusa.adrian@gmail.com>
+Depends: R (>= 1.9.0), lpSolve
+Suggests: XML
+Description: Performs the Quine-McCluskey algorithm for Qualitative
+        Comparative Analysis, both for bvQCA (binary-value QCA) and for
+        mvQCA (multi-value QCA). In the classical approach it currently
+        handles about 15 conditions and one outcome for binary data
+        only, but since version 0.4-5 the package has an enhanced,
+        faster function that obtains the same exact solutions with a
+        substantially lower memory consumption, it handles even more
+        causal conditions and it can be used for mvQCA as well. The
+        next versions of this algorithm will be oriented towards
+        fuzzy-set functions. Also, in the near future the current
+        functions will deal with missing values in the data
+License: GPL (>= 2)
+Packaged: 2009-10-09 13:36:04 UTC; adi
+Repository: CRAN
+Date/Publication: 2009-10-11 14:37:52

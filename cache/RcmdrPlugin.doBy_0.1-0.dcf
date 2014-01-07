@@ -1,0 +1,14 @@
+Package: RcmdrPlugin.doBy
+Type: Package
+Title: Rcmdr doBy Plug-In
+Version: 0.1-0
+Date: 2011-12-12
+Author: Jonathan Lee <jlee253@uwo.ca>
+Maintainer: Jonathan Lee <jlee253@uwo.ca>
+Depends: Rcmdr (>= 1.4-0), tcltk, doBy
+Description: This package provides an Rcmdr "plug-in" for the core doBy functions in the doBy package, which helps with computing groupwise summary statistics. 
+License: GPL-2
+Models:
+Packaged: 2011-12-13 16:17:21 UTC; jlee253
+Repository: CRAN
+Date/Publication: 2011-12-13 16:50:19

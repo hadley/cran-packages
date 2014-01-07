@@ -1,0 +1,19 @@
+Package: KoNLP
+Maintainer: Heewon Jeon <madjakarta@gmail.com>
+License: GPL-3
+Title: Korean NLP Package
+Author: Heewon Jeon
+Description: Korean language processing package. Morphological
+        analyzer, POS tagger, Keystroke converter, Hangul automata...
+SystemRequirements: Java (>= 1.6)
+URL: https://github.com/haven-jeon/KoNLP
+Version: 0.76.8
+Repository: CRAN
+Date/Publication: 2012-11-12 16:04:15
+Packaged: 2012-11-12 15:36:41 UTC; gogamza
+Date: 2011-10-12
+Encoding: UTF-8
+Depends: R (>= 2.14.0), rJava (>= 0.9-0), utils (>= 2.14.0), Sejong (>=
+        0.01)
+Collate: 'onLoad.R' 'manageDic.R' 'hangulUtils.R' 'koAnalyzerRun.R'
+        'tagdata.R'

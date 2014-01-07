@@ -1,0 +1,17 @@
+Package: Ridit
+Type: Package
+Title: Ridit Analysis (An extension of the Kruskal-Wallis Test.)
+Version: 1.1
+Date: 2012-10-15
+Author: SeyedMahmood TaghaviShahri
+Maintainer: SeyedMahmood TaghaviShahri <taghavi_m@razi.tums.ac.ir>
+Description: An extension of the Kruskal-Wallis Test that allow
+        selection of arbitrary reference group. Also provide Mean Ridit
+        for each group. Mean Ridit of a group is an estimate of
+        probability a random observation from that group will be
+        greater than or equal to a random observation from reference
+        group.
+License: GPL-2 | GPL-3
+Packaged: 2012-10-15 18:15:11 UTC; Taghavi
+Repository: CRAN
+Date/Publication: 2012-10-15 20:03:34

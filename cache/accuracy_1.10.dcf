@@ -1,0 +1,21 @@
+Package: accuracy
+Title: Tools for testing and improving accuracy of statistical results. 
+Version: 1.10
+Date: 2005-01-22
+Author: Micah Altman, Jeff Gill, Michael P. McDonald
+Description: This is a suite of tools designed to test and improve the accuracy of
+	statistical computation, including: Summarization of the sensitivity of linear 
+	and non-linear models (lm, glm, mle, nls) to 
+	measurement and numerical error; Sensitivity analysis of dozens of models
+	as run through Zelig;  A generalized cholesky method for 
+	correcting non-invertable Hessians; Tests for 
+	the global optimality of non-linear regression and maximum likelihood results;
+	Tools for obtaining true random numbers using entropy collected from the system
+	and/or entropy servers on the internet; 
+	A method for converting floating point numbers to normalized fractions;
+	Benchmark data for checking the accuracy of basic distribution functions.
+Maintainer: Micah Altman <Micah_Altman@harvard.edu>
+Suggests: Zelig
+License: GPL 2.0
+URL: http://www.r-project.org, http://www.hmdc.harvard.edu/micah_altman/numal/
+Packaged: Wed Feb  1 01:03:27 2006; maltman

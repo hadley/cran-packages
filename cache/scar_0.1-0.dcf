@@ -1,0 +1,14 @@
+Package: scar
+Type: Package
+Title: Shape-Constrained Additive Regression: a Maximum Likelihood
+        Approach
+Version: 0.1-0
+Date: 2013-07-01
+Author: Yining Chen and Richard Samworth
+Maintainer: Yining Chen <y.chen@statslab.cam.ac.uk>
+Description: This package computes the maximum likelihood estimator of the generalised additive regression with shape constraints. Each component function of the additive predictors is assumed to belong to one of the nine possible shape restrictions.
+License: GPL (>= 2)
+Packaged: 2013-07-23 15:43:27 UTC; yc319
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-23 23:39:17

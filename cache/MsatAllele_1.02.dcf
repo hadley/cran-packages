@@ -1,0 +1,19 @@
+Package: MsatAllele
+Type: Package
+Title: Visualizes the scoring and binning of microsatellite fragment
+        sizes
+Version: 1.02
+Date: 2008-09-11
+Author: Filipe Alberto
+Maintainer: Filipe Alberto <falberto@ualg.pt>
+Description: The package contains functions to: 1) load ah files from
+        Strand software and build a R data base; 2) plot different
+        graphical displays of the fragment sizes obtained for each
+        locus and their bins; 3) interact with graphs to sort the data
+        base for a given locus and range, allowing to easily trace back
+        a particular group of samples to its original Strand file; bin
+        fragment size data into population genetics files.
+License: GPL (>= 2)
+Packaged: 2010-11-29 10:28:59 UTC; falberto
+Repository: CRAN
+Date/Publication: 2010-11-29 11:13:18

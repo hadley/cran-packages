@@ -1,0 +1,18 @@
+Package: GFMaps
+Type: Package
+Title: Visualization technique for interpretation of high-throughput genetic or proteomic experiments.
+Version: 1.1
+Date: 2009-02-03
+Depends: affy, topGO, plotrix, KEGG.db, hgu95av2.db 
+Suggests: ALL
+Author: Dr. Sanjay Bhatikar <sanjay.bhatikar@biobase.in>, Kanika Arora <kanika.arora@biobase.in>
+Maintainer: Kanika Arora <kanika.arora@biobase.in>
+Description: GFMaps integrates datasets derived from gene
+		expression profiles with preexisting information from public
+        databases such as KEGG pathway or Gene Ontology using Gene Set
+        Enrichment Analysis (GSEA) and introduce a framework that allow
+        us to visualize biologically annotated datasets and relevant
+        ratings of genes via a color gradient.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: Tue Feb  3 11:48:18 2009; kaa

@@ -1,0 +1,16 @@
+Package: RAtmosphere
+Type: Package
+Title: Standard Atmosperic profiles
+Version: 1.0
+Date: 2011-02-18
+Author: Gionata Biavati
+Maintainer: Who to complain to <gbiavati@bgc-jena.mpg.de>
+Description: This package provide an easy way to produce atmospheric
+        profiles of Pressure, Temperature and Density. It provides also
+        molecular scatter coeffient for standard atmosphere and for
+        specificated temperature and pressure profiles.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:30 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:30

@@ -1,0 +1,26 @@
+Package: georob
+Type: Package
+Title: Robust Geostatistical Analysis of Spatial Data
+Version: 0.1-0
+Date: 2013-06-20
+Authors@R: c( person( "Andreas", "Papritz", role = c( "cre", "aut" ),
+        email = "andreas.papritz@env.ethz.ch" ), person( "Cornelia",
+        "Schwierz", role = "ctb" ))
+Depends: R(>= 2.14.0), lmtest, nlme, robustbase, sp(>= 0.9-60)
+Imports: constrainedKriging(>= 0.1-9), nleqslv, quantreg,
+        RandomFields(>= 2.0.55), spatialCovariance(>= 0.6-4)
+Suggests: geoR
+Description: The georob package provides functions for fitting linear
+        models with spatially correlated errors by robust and Gaussian
+        Restricted Maximum Likelihood and for computing robust and
+        customary point and block kriging predictions, along with
+        utility functions for cross-validation and for unbiased
+        back-transformation of kriging predictions of log-transformed
+        data.
+License: GPL (>= 2)
+Packaged: 2013-06-20 07:11:40 UTC; papritz
+Author: Andreas Papritz [cre, aut], Cornelia Schwierz [ctb]
+Maintainer: Andreas Papritz <andreas.papritz@env.ethz.ch>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-20 13:21:53

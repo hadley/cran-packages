@@ -1,0 +1,25 @@
+Package: rotations
+Type: Package
+Title: Tools for Working with Rotation Data
+Version: 0.2
+Author: Bryan Stanfill <stanfill@iastate.edu>, Heike Hofmann
+    <hofmann@iastate.edu>, Ulrike Genschel <ulrike@iastate.edu>
+Maintainer: Bryan Stanfill <stanfill@iastate.edu>
+Description: This package implements tools for working with rotational data: it
+    allows simulation from the most commonly used distributions on SO(3), it
+    includes methods for different Bayes, mean and median type estimators for the
+    central orientation of a sample, it provides confidence and credible regions
+    for the central orientation based on those estimators and it includes a novel 
+    visualization technique for rotation data.
+License: MIT + file LICENSE
+Depends: R (>= 3.0), ggplot2, Rcpp, RcppArmadillo
+Imports: grid, stats, utils, methods
+Suggests: gridExtra
+LinkingTo: Rcpp, RcppArmadillo
+Collate: 'help.R' 'parameterizations.R' 'estimators.R' 'preliminary.R'
+        'distributions.R' 'kappa.R' 'regions.R' 'RcppExports.R'
+        'plot.R' 'grid-search.R' 'bayes.R' 'primatives.R'
+Packaged: 2013-12-09 22:42:34 UTC; stanfill
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-10 15:01:02

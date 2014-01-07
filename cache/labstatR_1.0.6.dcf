@@ -1,0 +1,19 @@
+Package: labstatR
+Version: 1.0.6
+Date: 2011-10-21
+Require: stats
+Title: Libreria del Laboratorio di Statistica con R
+Author: Stefano M.Iacus <stefano.iacus@unimi.it> and Guido Masarotto
+        <guido@sirio.stat.unipd.it>
+Maintainer: Stefano M.Iacus <stefano.iacus@unimi.it>
+Description: Insieme di funzioni di supporto al volume "Laboratorio di
+        Statistica con R", Iacus-Masarotto, MacGraw-Hill Italia, 2006.
+        This package contains sets of functions defined in "Laboratorio
+        di Statistica con R", Iacus-Masarotto, MacGraw-Hill Italia,
+        2006. Function names and docs are in italian as well.
+License: GPL
+URL: http://www.catalogo.mcgraw-hill.it/catLibro.asp?item_id=2128
+Packaged: 2011-10-21 07:22:43 UTC; jago
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2011-10-23 10:09:46

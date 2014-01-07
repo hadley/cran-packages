@@ -1,0 +1,14 @@
+Package: latticeExtra
+Version: 0.1-1
+Date: 2004/12/12
+Title: Extra Graphical Displays based on lattice
+Author: Deepayan Sarkar <deepayan@stat.wisc.edu>
+Maintainer: Deepayan Sarkar <deepayan@stat.wisc.edu>
+Description: Generic function and standard methods for Trellis-based displays
+Depends: R (>= 2.0.0)
+Suggests: grid
+Imports: lattice
+LazyLoad: yes
+LazyData: no
+License: GPL version 2 or later
+Packaged: Sun Dec 12 18:02:51 2004; deepayan

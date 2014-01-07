@@ -1,0 +1,12 @@
+Package: linprog
+Version: 0.5-7
+Date: 2008/06/18
+Title: Linear Programming / Optimization
+Author: Arne Henningsen <ahenningsen@agric-econ.uni-kiel.de>
+Maintainer: Arne Henningsen <ahenningsen@agric-econ.uni-kiel.de>
+Depends: R (>= 2.4.0), lpSolve
+Description: This package can be used to solve Linear Programming / Linear
+   Optimization problems by using the simplex algorithm.
+License: GPL (>= 2)
+URL: http://CRAN.R-project.org, http://www.arne-henningsen.name
+Packaged: Wed Jun 18 16:10:58 2008; suapm095

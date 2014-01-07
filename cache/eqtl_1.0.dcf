@@ -1,0 +1,11 @@
+Package: eqtl
+Type: Package
+Title: Tools for analyzing eQTL experiments: A complementary to Karl Broman's 'qtl' package for genome-wide analysis
+Version: 1.0
+Date: 2008-03-05
+Author: Ahmid A. Khalili and Olivier Loudet
+Maintainer: Ahmid A. Khalili <hamid.khalili@gmail.com>
+Depends:  R (>= 2.6.0), qtl (>= 1.07-12)
+Description:  Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits.
+License: GPL (>= 2)
+Packaged: Mon Sep  1 17:11:25 2008; hkhalili

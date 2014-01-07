@@ -1,0 +1,17 @@
+Package: MetSizeR
+Type: Package
+Title: GUI tool for estimating sample sizes for metabolomic
+        experiments.
+Version: 0.99
+Date: 2013-09-08
+Author: Gift Nyamundanda, Isobel Claire Gormley, Yue Fan, William M Gallagher, Lorraine Brennan
+Maintainer: Gift Nyamundanda <gift.nyamundanda@ucd.ie>
+Description: An easy to use Graphical User Interface for estimating sample sizes required for metabolomic experiments even when experimental pilot data is not available.
+Depends: R (>= 2.6.0), gWidgets, cairoDevice, pscl, gtools,
+        MetabolAnalyze
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-09-12 15:16:26 UTC; Gift
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-12 17:48:26

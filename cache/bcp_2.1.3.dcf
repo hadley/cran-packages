@@ -1,0 +1,17 @@
+Package: bcp
+Type: Package
+Title: A Package for Performing a Bayesian Analysis of Change Point
+        Problems
+Version: 2.1.3
+Date: 2010-02-24
+Author: Chandra Erdman and John W. Emerson
+Maintainer: Chandra Erdman <chandraerdman@gmail.com>
+Depends: methods, stats, graphics
+Suggests: nws
+Description: An implementation of an approximation to the Barry and
+        Hartigan (1993) product partition model for the standard change
+        point problem using Markov Chain Monte Carlo.
+License: GPL (>= 2)
+Packaged: 2010-02-24 20:45:43 UTC; erdma004
+Repository: CRAN
+Date/Publication: 2010-02-25 11:10:13

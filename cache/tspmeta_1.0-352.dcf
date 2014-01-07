@@ -1,0 +1,32 @@
+Package: tspmeta
+Title: Instance feature calculation and evolutionary instance
+        generation for the traveling salesman problem.
+Description: Instance feature calculation and evolutionary instance
+        generation for the traveling salesman problem. Also contains
+        code to "morph" two TSP instances into each other. And the
+        possibility to conveniently run a couple of solvers on TSP
+        instances.
+Author: Bernd Bischl <bernd_bischl@gmx.net>, Jakob Bossek
+        <jakob.bossek@tu-dortmund.de>, Olaf Mersmann
+        <olafm@p-value.net>
+Maintainer: Bernd Bischl <bernd_bischl@gmx.net>
+License: BSD
+Depends: ggplot2, TSP, MASS
+Imports: BBmisc, fpc, vegan, stringr, splancs
+Suggests: testthat
+LazyData: yes
+ByteCompile: yes
+Version: 1.0-352
+Collate: 'feature_angle.R' 'feature_bounding_box.R'
+        'feature_centroid.R' 'feature_chull.R' 'feature_cluster.R'
+        'feature_distance.R' 'feature_modes.R' 'feature_mst.R'
+        'feature_nnds.R' 'features.R' 'helpers.R' 'morph_inst_match.R'
+        'numvec_feature_statistics.R' 'point_matching.R'
+        'random_instance.R' 'read_tsplib_instance.R'
+        'read_tsplib_instances.R' 'remove_zero_distance.R'
+        'rescale_instance.R' 'rotation_utilities.R' 'run_solver.R'
+        'tour_length.R' 'tsp_generation_ea.R' 'tsp_instance.R' 'zzz.R'
+Packaged: 2013-04-16 19:44:40 UTC; bischl
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-16 22:52:40

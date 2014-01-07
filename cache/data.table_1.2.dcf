@@ -1,0 +1,11 @@
+Package: data.table
+Type: Package
+Title: Extension of data.frame. i and j expressions, keys and binary search.
+Version: 1.2
+Date: 2008-08-19
+Author: Matthew Dowle
+Maintainer: Matthew Dowle <mdowle@mdowle.plus.com>
+Depends: R (>= 2.4.0), ref
+Description: Like a data.frame but i and j may be expressions evaluated within the frame. i is then like base::with and j like select in base::subset. When i is itself a data.table, a join is invoked similar to base::merge but uses binary search on the sorted key.
+License: GPL
+Packaged: Sun Aug 31 15:23:47 2008; mdowle

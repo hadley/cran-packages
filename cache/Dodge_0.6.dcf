@@ -1,0 +1,15 @@
+Package: Dodge
+Type: Package
+Title: Functions for Acceptance Sampling Ideas originated by H.F. Dodge
+Version: 0.6
+Date: 2012-03-14
+Author: Jonathan Godfrey and Raj Govindaraju
+Maintainer: <a.j.godfrey@massey.ac.nz>
+Description: Various sampling plans are able to be compared using
+        evaluations of their OC, AOQ, ATI etc.
+License: GPL
+LazyLoad: yes
+Depends: R (>= 2.13.0)
+Packaged: 2012-03-13 23:32:31 UTC; ajgodfre
+Repository: CRAN
+Date/Publication: 2012-03-14 09:52:04

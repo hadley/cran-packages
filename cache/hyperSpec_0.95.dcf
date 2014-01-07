@@ -1,0 +1,27 @@
+Package: hyperSpec
+Type: Package
+Title: Interface for hyperspectral data sets, i.e. spectra + meta
+        information (spatial, time, concentration, ...)
+Version: 0.95
+Date: 2009-10-12
+Author: Claudia Beleites
+Maintainer: Claudia Beleites <cbeleites@units.it>
+Description: This package gives an interface to handle hyperspectral
+        data sets in R. I.e. spatially or time-resolved spectra, or
+        spectra with any other kind of information associated with the
+        spectra. The spectra can be data as obtained in XRF, UV/VIS,
+        Fluorescence, AES, NIR, IR, Raman, NMR, MS, etc. More
+        generally, any data that is recorded over a discretized
+        variable, e.g. absorbance = f (wavelength), stored as a vector
+        of absorbance values for discrete wavelengths is suitable.
+License: GPL
+LazyLoad: yes
+LazyData: yes
+Depends: methods, utils, lattice
+#Imports: lattice
+Suggests: R.matlab
+Repository: CRAN
+Repository/R-Forge/Project: hyperspec
+Repository/R-Forge/Revision: 130
+Date/Publication: 2009-10-28 17:13:28
+Packaged: 2009-10-27 21:09:36 UTC; rforge

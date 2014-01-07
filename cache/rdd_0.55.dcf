@@ -1,0 +1,21 @@
+Package: rdd
+Maintainer: Drew Dimmery <drewd@nyu.edu>
+Author: Drew Dimmery
+Version: 0.55
+License: Apache License (== 2.0)
+Title: Regression Discontinuity Estimation
+Description: This package provides the tools to undertake estimation in
+    Regression Discontinuity Designs. Both sharp and fuzzy designs are
+    supported. Estimation is accomplished using local linear regression.
+    A provided function will utilize Imbens-Kalyanaraman optimal
+    bandwidth calculation. A function is also included to test the
+    assumption of no-sorting effects.
+Type: Package
+Date: 2013-10-03
+Depends: R (>= 2.15.0), sandwich, lmtest, AER, Formula
+Collate: 'kernelwts.R' 'DCdensity.R' 'IKbandwidth.R' 'RDestimate.R'
+        'plot.RD.R' 'summary.RD.R' 'rdd-package.R' 'print.RD.R'
+Packaged: 2013-10-03 19:16:58 UTC; drewdimmery
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-03 21:26:09

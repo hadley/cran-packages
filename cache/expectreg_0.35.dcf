@@ -1,0 +1,35 @@
+Package: expectreg
+Type: Package
+Title: Expectile and Quantile Regression
+Version: 0.35
+Date: 2012-08-15
+Authors@R: c(person("Fabian", "Sobotka", role = "cre", email =
+        "fabian.sobotka@wiwi.uni-goettingen.de"), person("Sabine",
+        "Schnabel", role = "aut", email = "sabine.schnabel@wur.nl"),
+        person("Linda", "Schulze Waltrup", role = "aut", email =
+        "lschulze_waltrup@stat.uni-muenchen.de"), person("Paul",
+        "Eilers", role = "ctb", email = "p.eilers@erasmusmc.nl"),
+        person("Thomas", "Kneib", role = "ths", email =
+        "tkneib@uni-goettingen.de"), person("Goeran", "Kauermann", role
+        = "ctb", email = "goeran.kauermann@stat.uni-muenchen.de"))
+Author: Fabian Sobotka <fabian.sobotka@wiwi.uni-goettingen.de>, Sabine
+        Schnabel <sabine.schnabel@wur.nl> and Linda Schulze Waltrup
+        <lschulze_waltrup@stat.uni-muenchen.de> with contributions from
+        Paul Eilers <p.eilers@erasmusmc.nl>, Thomas Kneib
+        <tkneib@uni-goettingen.de> and Goeran Kauermann
+        <goeran.kauermann@stat.uni-muenchen.de>.
+Maintainer: Fabian Sobotka <fabian.sobotka@wiwi.uni-goettingen.de>
+Depends: R (>= 2.14.0), mboost (>= 2.1.0), BayesX (>= 0.2-4), quadprog,
+        stats, parallel
+Imports: splines
+Suggests: SemiPar, fields
+Description: Expectile and quantile regression of models with nonlinear
+        effects e.g. spatial, random, ridge using least asymmetric
+        weighed squares / absolutes as well as boosting; also supplies
+        expectiles for common distributions.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-08-14 16:16:26 UTC; fabiansobotka
+Repository: CRAN
+Date/Publication: 2012-08-14 18:04:37

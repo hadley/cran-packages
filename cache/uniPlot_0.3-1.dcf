@@ -1,0 +1,21 @@
+Package: uniPlot
+Type: Package
+Title: Uniforms and customizes plots of packages ggplot2, graphics and
+        lattice
+Version: 0.3-1
+Date: 2011-05-29
+Author: Sina Rueeger
+URL: http://uniplot.sinarueeger.ch
+Maintainer: Sina Rueeger <sina.rueeger@gmail.com>
+Description: uniPlot() allows to change parameters of the packages
+        graphics, lattice and ggplot2 and to make these changes
+        persistent over one R session. The motivation behind this
+        package is that changes for each package can be time consuming
+        and cumbersome.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.11.0), Defaults (>= 1.1-1)
+Imports: ggplot2 (>= 0.8.8), lattice (>= 0.19-17), RColorBrewer, grid
+Packaged: 2011-07-29 05:31:39 UTC; sina
+Repository: CRAN
+Date/Publication: 2011-07-29 07:26:58

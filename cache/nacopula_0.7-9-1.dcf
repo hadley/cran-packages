@@ -1,0 +1,25 @@
+Package: nacopula
+Version: 0.7-9-1
+Date: 2011-09-23
+LastChanged: $LastChangedRevision: 608 $; $LastChangedDate: 2011-09-23
+        14:56:52 +0200 (Fri, 23 Sep 2011) $
+Title: Nested Archimedean Copulas
+Description: An R package for working with nested Archimedean copulas.
+        Specifically, providing procedures for computing function
+        values and cube volumes, characteristics such as Kendall's tau
+        and tail dependence coefficients, efficient sampling
+        algorithms, various estimators, and goodness-of-fit tests.  The
+        package also contains related univariate distributions and
+        special functions such as the Sibuya distribution, the
+        polylogarithm, Stirling and Eulerian numbers.
+Author: Marius Hofert <marius.hofert@math.ethz.ch> and Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Depends: R (>= 2.11.0), methods, stats4
+Imports: gsl, ADGofTest, stabledist
+Suggests: lattice, MASS, sfsmisc, Rmpfr, bbmle
+License: GPL (>= 2)
+LazyData: yes
+Encoding: UTF-8
+Packaged: 2011-09-23 17:17:45 UTC; maechler
+Repository: CRAN
+Date/Publication: 2011-09-24 06:42:55

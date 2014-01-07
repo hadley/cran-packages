@@ -1,0 +1,14 @@
+Type: Package
+Package: tnet
+Version: 0.0.6
+Date: 2009-06-01
+Title: Analysis of weighted and longitudinal networks
+Author: Tore Opsahl
+Maintainer: Tore Opsahl <tore@opsahl.co.uk>
+Depends: R (>= 2.7.0), graph, RBGL
+Suggests: network, sna
+Description: R package to analyse weighted and longitudinal networks.
+License: file LICENSE
+Packaged: 2009-06-02 23:02:47 UTC; Tore Opsahl
+Repository: CRAN
+Date/Publication: 2009-06-03 17:31:37

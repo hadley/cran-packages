@@ -1,0 +1,16 @@
+Package: basicspace
+Version: 0.05
+Date: 2012-01-16
+Title: A Package to Recover a Basic Space from Issue Scales
+Author: Keith Poole <ktpoole@uga.edu>, Howard Rosenthal
+        <rosentha@princeton.edu>, Jeffrey Lewis <jblewis@ucla.edu>,
+        James Lo <lo@uni-mannheim.de> and Royce Carroll
+        <rcarroll@rice.edu>
+Maintainer: Keith Poole <ktpoole@uga.edu>
+Depends: R (>= 2.3.1), tools (>= 2.0.0)
+Description: Conducts Aldrich-McKelvey and Blackbox Scaling (SVD
+        generalization with missing values)
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2012-01-17 07:59:39
+Packaged: 2012-01-16 23:49:44 UTC; jalo

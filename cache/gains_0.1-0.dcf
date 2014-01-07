@@ -1,0 +1,16 @@
+Package: gains
+Version: 0.1-0
+Date: 2013-03-09
+Title: Gains Table Package
+Author: Craig A. Rolling <crolling@umn.edu>
+Maintainer: Craig A. Rolling <crolling@umn.edu>
+Depends: R (>= 2.15.1)
+Description: This package constructs gains tables and lift charts for
+        prediction algorithms. These tools are commonly used in direct
+        marketing applications.
+LazyData: Yes
+License: GPL-3
+Packaged: 2013-04-30 18:35:16 UTC; crolling
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-01 07:08:14

@@ -1,0 +1,18 @@
+Package: MFSAS
+Title: Creation and Evaluation of Multilevel Fixed and Sequential
+        Sampling Plans
+Version: 1.0-0
+Date: 2011-07-21
+Author: Aaron Childs and Yalin Chen
+Maintainer: Aaron Childs <childsa@mcmaster.ca>
+Description: This package provides functionality for creating and
+        evaluating acceptance sampling plans for attributes when there
+        are k (>=2) levels of product quality. Plans can be multilevel
+        fixed, or multilevel sequential.
+Depends: methods, R(>= 2.9.2), stats
+Imports: graphics
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-07-21 12:14:25 UTC; zeileis
+Repository: CRAN
+Date/Publication: 2011-07-21 16:01:19

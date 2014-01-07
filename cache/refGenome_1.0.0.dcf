@@ -1,0 +1,15 @@
+Package: refGenome
+Type: Package
+Title: Managing data from reference genomes (UCSC, ensembl)
+Version: 1.0.0
+Date: 2013-05-08
+Author: Wolfgang Kaisers
+Maintainer: Wolfgang Kaisers <kaisers@med.uni-duesseldorf.de>
+Description: Functionality for reading and managing reference genomic
+        Information.
+License: GPL-2
+Depends: methods,RSQLite
+Packaged: 2013-05-08 15:46:55 UTC; kaisers
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-08 18:35:36

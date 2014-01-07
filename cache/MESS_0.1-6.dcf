@@ -1,0 +1,16 @@
+Package: MESS
+Type: Package
+Title: Miscellaneous esoteric statistical scripts
+Version: 0.1-6
+Date: 2013-03-14
+Author: Claus Ekstrom <claus@rprimer.dk>
+Maintainer: Claus Ekstrom <claus@rprimer.dk>
+Enhances: geepack, kinship2, MASS
+Suggests: geepack, kinship2, MASS
+Description: A mixed collection of useful and semi-useful functions,
+        some of which may even be referenced in The R Primer book.
+License: GPL-2
+Packaged: 2013-03-14 14:44:21 UTC; claus
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-25 14:04:03

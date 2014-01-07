@@ -1,0 +1,17 @@
+Package: MPINet
+Version: 1.0
+Title: The package can implement the network-based metabolite pathway
+        identification of pathways.
+Author: Yanjun Xu, Chunquan Li and Xia Li
+Maintainer: Yanjun Xu <tonghua605@163.com>
+Description: (1) Our system provides a network-based strategies for metabolite pathway identification.(2) The MPINet can support the identification of pathways using Hypergeometric test based on metabolite set. (3)MPINet can support pathways from multiple databases.
+Depends: R (>= 2.15.2),BiasedUrn,mgcv
+Collate: getPSS.R performpcls.R identifypathway.R GetExampleData.R
+        getEnvironmentData.R
+LazyData: Yes
+License: GPL (>= 2)
+biocViews: Statistics, Annotation, Pathways, metabolite, Networks
+Packaged: 2013-07-27 13:14:57 UTC; lironghong
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-28 08:30:30

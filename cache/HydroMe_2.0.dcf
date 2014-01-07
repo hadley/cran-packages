@@ -1,0 +1,22 @@
+Package: HydroMe
+Type: Package
+Title: R codes for estimating water retention and infiltration model
+        parameters using experimental data
+Version: 2.0
+Depends: R (>= 2.10), nlme, minpack.lm
+Date: 2013-04-29
+Author: Christian Thine Omuto
+Maintainer: Christian Thine Omuto <thineomuto@yahoo.com>
+Description: This package is version 2 of HydroMe v.1 package. It
+        estimates the parameters in infiltration and water retention
+        models by curve-fitting method. The models considered are those
+        that are commonly used in soil science. It has new models for
+        water retention characteristic curve and debugging of errors in
+        HydroMe v.1
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://archive.uonbi.ac.ke/profiles/research_description.php?height=250&width=400&id=%206000023%20title=
+Packaged: 2013-05-03 18:18:27 UTC; SONY VIAO
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-04 00:08:43

@@ -1,0 +1,22 @@
+Package: fanc
+Type: Package
+Title: Penalized likelihood factor analysis via nonconvex penalty
+Version: 1.1
+Date: 2012-05-30
+Author: Kei Hirose, Michio Yamamoto
+Maintainer: Kei Hirose <mail@keihirose.com>
+Suggests: RGtk2
+Description: An R package "fanc" computes the penalized maximum
+        likelihood estimates of factor loadings and unique variances
+        for various tuning parameters. The pathwise coordinate descent
+        along with EM algorithm is used.  This package also includes a
+        new graphical tool which outputs path diagram, goodness-of-fit
+        indices and model selection criteria for each regularization
+        parameter. The user can change the regularization parameter by
+        manipulating scrollbars, which is helpful to find a suitable
+        value of regularization parameter.
+License: GPL (>= 2)
+URL: http://arxiv.org/abs/1205.5868, http://www.keihirose.com
+Packaged: 2012-05-30 22:41:16 UTC; hirosekei
+Repository: CRAN
+Date/Publication: 2012-05-31 08:46:11

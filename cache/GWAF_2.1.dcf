@@ -1,0 +1,18 @@
+Package: GWAF
+Type: Package
+Title: Genome-wide association/interaction analysis and rare variant
+        analysis with family data
+Version: 2.1
+Date: 2013-06-06
+Author: Ming-Huei Chen <mhchen@bu.edu> and Qiong Yang <qyang@bu.edu>
+Maintainer: Ming-Huei Chen <mhchen@bu.edu>
+Depends: R(>= 2.15.1), geepack, coxme, lme4
+Description: Functions for genome-wide association/interaction analysis
+        and rare variant analysis on a continuous/dichotomous trait
+        using family data, and for making genome-wide p-value plot and
+        QQ plot.
+License: GPL (>= 2)
+Packaged: 2013-06-06 21:14:29 UTC; mhchen
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-07 08:17:35

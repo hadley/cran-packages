@@ -1,0 +1,18 @@
+Package: rggobi
+Version: 2.1.4-2
+Date:    2006-08-21
+Title:   Interface between R and GGobi
+Author:  Duncan Temple Lang <duncan@research.bell-labs.com>,
+	 Debby Swayne <dfs@research.att.com>,
+	 Hadley Wickham <hadley@iastate.edu>,
+	 Michael Lawrence <lawremi@iastate.edu>
+Depends: R (>= 2.2.0), RGtk2, utils
+Suggests: reshape
+SystemRequirements: GGobi
+Maintainer: Hadley Wickham <hadley@iastate.edu>
+Description: An interface from R to GGobi for programmatic dynamic, interactive visualization.
+License: BSD
+LazyData: true
+URL: http://www.ggobi.org/
+Acknowledgements: Di Cook, Nicholas Lewin-Koh, Xuejing Chen.
+Packaged: Fri Nov 10 13:34:34 2006; hadley

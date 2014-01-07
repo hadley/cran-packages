@@ -1,0 +1,26 @@
+Package: GGally
+Version: 0.4.4
+Date: 2013-07-17
+Maintainer: Barret Schloerke <schloerke@gmail.com>
+License: GPL (>= 2.0)
+Title: Extension to ggplot2.
+Type: Package
+LazyLoad: yes
+Author: Barret Schloerke <schloerke@gmail.com>, Jason Crowley
+    <crowley.jason.s@gmail.com>, Di Cook <dicook@iastate.edu>, Heike Hofmann
+    <hofmann@iastate.edu>, Hadley Wickham <h.wickham@iastate.edu>, and Francois
+    Briatte <f.briatte@ed.ac.uk>, and Moritz Marbach
+    <mmarbach@mail.uni-mannheim.de>
+Description: GGally is designed to be a helper to ggplot2. It contains
+    templates for different plots to be combined into a plot matrix, a parallel
+    coordinate plot function, as well as a function for making a network plot.
+Depends: R (>= 3.0), ggplot2 (>= 0.9.3.1), reshape (>= 0.8.4)
+Imports: grid (>= 3.0.0), gtable (>= 0.1.2), stringr (>= 0.6.2)
+Suggests: scagnostics, intergraph (>= 2.0-0), network (>= 1.7.2),
+        RColorBrewer (>= 1.0-5), sna (>= 2.3-1)
+Collate: 'find-combo.r' 'gg-plots.r' 'ggpairs.r' 'ggcorr.r' 'ggnet.r'
+        'ggparcoord.r'
+Packaged: 2013-12-21 07:41:05 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-21 08:41:21

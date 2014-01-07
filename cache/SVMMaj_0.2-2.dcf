@@ -1,0 +1,18 @@
+Package: SVMMaj
+Type: Package
+Title: SVMMaj algorithm
+Version: 0.2-2
+Date: 2010-12-16
+Author: Hoksan Yip, Patrick J.F. Groenen, Georgi Nalbantov
+Maintainer: Hok San Yip <hoksan@gmail.com>
+Description: Implements the SVM-Maj algorithm to train data with
+        Support Vector Machine, this algorithm uses two efficient
+        updates, one for linear kernel and one for the nonlinear
+        kernel.
+Imports: graphics, stats, MASS, methods
+Depends: R (>= 2.9.0), kernlab
+License: GPL-2
+LazyData: Yes
+Packaged: 2011-01-13 07:33:21 UTC; Hoksan
+Repository: CRAN
+Date/Publication: 2011-01-13 12:09:49

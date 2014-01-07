@@ -1,0 +1,23 @@
+Package: ordinal
+Type: Package
+Title: Regression Models for Ordinal Data
+Version: 2010.03-04
+Date: 2010-03-04
+Author: Rune Haubo B Christensen
+Maintainer: Rune Haubo B Christensen <rhbc@imm.dtu.dk>
+Imports: numDeriv
+Depends: MASS, ucminf
+Description: This package implements likelihood based models for
+        ordinal (ordered categorical) data based on cumulative
+        probabilities in the framework of cumulative link models. This
+        includes the important proportional odds model but also allows
+        for general regression structures for location as well as scale
+        of the latent distribution, i.e. additive as well as
+        multiplicative structures, structured thresholds (cut-points),
+        nominal effects and flexible link functions. Further, a range
+        of estimation procedures and a range of auxiliary functions are
+        implemented.
+License: GPL (>= 2)
+Packaged: 2010-03-05 18:15:28 UTC; rhbc
+Repository: CRAN
+Date/Publication: 2010-03-07 17:09:51

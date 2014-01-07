@@ -1,0 +1,17 @@
+Package: NetSim
+Type: Package
+Title: A Social Networks Simulation Tool in R
+Version: 0.9
+Date: 2013-06-13
+Author: Christoph Stadtfeld
+Maintainer: Christoph Stadtfeld <c.stadtfeld@rug.nl>
+Description: NetSim allows to combine and simulate a variety of micro-models to research their impact on the macro-features of social networks.  
+License: GPL-2
+Depends: Rcpp (>= 0.9.15)
+LinkingTo: Rcpp
+Suggests: igraph
+SystemRequirements: GNU make
+Packaged: 2013-12-15 10:28:37 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-15 11:31:27

@@ -1,0 +1,15 @@
+Package: interactivity
+Type: Package
+Title: toggle R interactive mode.
+Version: 0.2
+Date: 2010-08-22
+Author: Jeffrey Horner, Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Description: Toggle R interactive mode by setting C level global
+        variable R_Interactive.
+License: GPL
+LazyLoad: yes
+Packaged: 2011-08-23 10:32:59 UTC; jeroen
+Repository: CRAN
+Date/Publication: 2011-08-23 20:08:52
+OS_type: unix

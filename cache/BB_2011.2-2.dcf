@@ -1,0 +1,24 @@
+Package: BB
+Title: Solving and Optimizing Large-Scale Nonlinear Systems
+Description: Barzilai-Borwein spectral methods for solving nonlinear
+        system of equations, and for optimizing nonlinear objective
+        functions subject to simple constraints. A tutorial style
+        introduction to this package is available in a vignette on the
+        CRAN download page or, when the package is loaded in an R
+        session, with vignette("BB").
+Depends: R (>= 2.6.1), quadprog
+Suggests: setRNG, survival, Hmisc, numDeriv
+Version: 2011.2-2
+Date: 2011-04-15
+LazyLoad: yes
+License: GPL (>= 2)
+Author: Ravi Varadhan
+Maintainer: Ravi Varadhan and Paul Gilbert
+        <pgilbert@bank-banque-canada.ca>
+URL:
+        http://www.jhsph.edu/agingandhealth/People/Faculty_personal_pages/Varadhan.html
+Repository: CRAN
+Repository/R-Forge/Project: optimizer
+Repository/R-Forge/Revision: 419
+Date/Publication: 2011-04-23 20:53:42
+Packaged: 2011-04-17 20:36:18 UTC; rforge

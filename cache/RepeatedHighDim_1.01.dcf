@@ -1,0 +1,17 @@
+Package: RepeatedHighDim
+Type: Package
+Title: Detection of global group effect in microarrays data
+Version: 1.01
+Date: 2013-03-11
+Author: Klaus Jung
+Maintainer: Klaus Jung <Klaus.Jung@ams.med.uni-goettingen.de>
+Description: Detection of global group effect in microarrays data.
+        Paired and unpaired samples are allowed.
+Depends: MASS
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-03-11 15:43:31 UTC; kjung
+Repository: CRAN
+Date/Publication: 2013-03-11 17:00:59
+Collate: 'RepeatedHighDim.R'
+NeedsCompilation: no

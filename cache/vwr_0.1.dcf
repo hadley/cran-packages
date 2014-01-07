@@ -1,0 +1,25 @@
+Package: vwr
+Type: Package
+Title: Useful functions for visual word recognition research
+Version: 0.1
+Date: 2011-01-20
+Author: Emmanuel Keuleers
+Maintainer: Emmanuel Keuleers <emmanuel.keuleers@ugent.be>
+Description: Functions and data for use in visual word recognition
+        research: Supports computation of neighbors (Hamming and
+        Levenshtein distances), average distances to neighbors (e.g.,
+        OLD20), and Coltheart's N. Also includes the LD1NN algorithm to
+        detect bias in the composition of a lexical decision task. Most
+        of the functions support parallel execution. Supplies wordlists
+        for several languages.
+Depends: R(>= 2.10.0), RecordLinkage, lattice, latticeExtra
+Suggests: multicore
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: UTF-8
+Packaged: 2012-07-23 10:29:37 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:33
+X-CRAN-Original-Package: vwr
+LazyDataCompression: xz

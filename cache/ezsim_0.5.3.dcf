@@ -1,0 +1,16 @@
+Package: ezsim
+Type: Package
+Title: provide an easy to use framework to conduct simulation
+Version: 0.5.3
+Date: 2012-03-15
+Author: TszKin Julian Chan <ctszkin@gmail.com>
+Maintainer: TszKin Julian Chan <ctszkin@gmail.com>
+Description: ezsim provides a handy way to run simulation and examine
+        its result
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: foreach, ggplot2, reshape, plyr, parallel, Jmisc, digest
+BugReports: TszKin Julian Chan <ctszkin@gmail.com>
+Packaged: 2012-03-16 02:56:25 UTC; julian
+Repository: CRAN
+Date/Publication: 2012-03-16 06:03:12

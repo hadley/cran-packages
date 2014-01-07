@@ -1,0 +1,17 @@
+Package: Ratings
+Version: 0.1-1
+Date: 2008-08-05
+Title: Model-based Ratings Figures
+Author: Kevin M. Quinn <kevin_quinn@harvard.edu>, and Daniel E. Ho
+        <dho@law.stanford.edu>
+Maintainer: Kevin M. Quinn <kevin_quinn@harvard.edu>
+Depends: R (>= 2.2.0), coda (>= 0.10-3)
+Description: This package contains functions to implement the methods
+        described in Ho and Quinn. n.d. "Improving the Presentation and
+        Interpretation of Online Ratings Data with Model-based
+        Figures". The American Statistician.
+License: GPL-2
+URL: none
+Packaged: Wed Aug 27 22:33:40 2008; kquinn
+Repository: CRAN
+Date/Publication: 2008-08-31 11:01:49

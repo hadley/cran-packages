@@ -1,0 +1,16 @@
+Package: KFAS
+Version: 0.3.3
+Date: 2009-08-26
+Title: Multivariate Kalman filter and smoother, simulation smoother and
+        forecasting
+Author: Jouni Lehtonen <jouni.v.t.lehtonen@jyu.fi>
+Maintainer: Jouni Lehtonen <jouni.v.t.lehtonen@jyu.fi>
+Depends: R (>= 2.8.0)
+Description: Fast multivariate Kalman filter, smoother, simulation
+        smoother and forecasting. Uses exact diffuse initialisation
+        when distributions of some or all elements of initial state
+        vector are unknown.
+License: GPL (>= 2)
+Packaged: 2009-08-27 05:11:20 UTC; jovetale
+Repository: CRAN
+Date/Publication: 2009-08-27 07:37:11

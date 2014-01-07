@@ -1,0 +1,19 @@
+Package: diffdepprop
+Type: Package
+Title: Calculates Confidence Intervals for two Dependent Proportions
+Version: 0.1-9
+Date: 2013-05-03
+Author: Daniela Wenzel, Antonia Zapf
+Maintainer: Daniela Wenzel <dani-wenzel@gmx.net>
+Description: The package includes functions to calculate confidence
+        intervals for the difference of dependent proportions. There
+        are two functions implemented to edit the data (dichotomising
+        with the help of cutpoints, counting accordance and discordance
+        of two tests or situations). For the calculation of the
+        confidence intervals entries of the fourfold table are needed.
+Depends: gee, rootSolve, PropCIs
+License: GPL
+Packaged: 2013-05-03 12:18:05 UTC; schererr
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-03 19:07:38

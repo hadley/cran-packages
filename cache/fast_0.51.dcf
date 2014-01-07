@@ -1,0 +1,15 @@
+Package: fast
+Type: Package
+Title: Implementation of the Fourier Amplitute Sensitivity Test (FAST)
+Version: 0.51
+Date: 2008-11-26
+Author: Dominik Reusser
+Maintainer: Dominik Reusser <dreusser@uni-potsdam.de>
+Description: The Fourier Amplitute Sensitivity Test (FAST) is a method
+        to deterimine global sensitivities of a model on parameter
+        changes with relavtively few model runs. This package
+        implements this sensitivity analysis method.
+License: GPL-2
+Packaged: Thu Mar 26 18:57:23 2009; dreusser
+Repository: CRAN
+Date/Publication: 2009-03-27 08:10:42

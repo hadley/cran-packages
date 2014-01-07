@@ -1,0 +1,30 @@
+Package: phylobase
+Type: Package
+Title: Base package for phylogenetic structures and comparative data
+Version: 0.6.5.2
+Date: 2013-04-29
+Depends: methods, grid, ape(>= 2.1), Rcpp (>= 0.10.0)
+Imports: ade4
+LinkingTo: Rcpp
+Suggests: MASS, RUnit
+Author: R Hackathon et al. (alphabetically: Ben Bolker, Marguerite
+        Butler, Peter Cowan, Damien de Vienne, Dirk Eddelbuettel, Mark
+        Holder, Thibaut Jombart, Steve Kembel, Francois Michonneau,
+        David Orme, Brian O'Meara, Emmanuel Paradis, Jim Regetz,
+        Derrick Zwickl)
+Maintainer: Ben Bolker <bolker@mcmaster.ca>
+Description: Provides a base S4 class for comparative methods,
+        incorporating one or more trees and trait data
+License: GPL (>= 2)
+Collate: 'phylo4.R' 'checkdata.R' 'formatData.R' 'class-multiphylo4.R'
+        'class-oldclasses.R' 'class-phylo4.R' 'class-phylo4d.R'
+        'class-phylomats.R' 'methods-multiphylo4.R'
+        'methods-oldclasses.R' 'methods-phylo4.R' 'methods-phylo4d.R'
+        'setAs-Methods.R' 'pdata.R' 'subset.R' 'phylobase.options.R'
+        'prune.R' 'treePlot.R' 'treestruc.R' 'treewalk.R' 'readNCL.R'
+        'tbind.R' 'zzz.R'
+URL: http://phylobase.R-forge.R-project.org
+Packaged: 2013-11-27 11:11:32 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-27 12:14:50

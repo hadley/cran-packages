@@ -1,0 +1,20 @@
+Package: epoc
+Version: 0.2.4-12
+Date: 2011-10-19
+Encoding: UTF-8
+Title: EPoC (Endogenous Perturbation analysis of Cancer)
+Author: Rebecka Jornsten, Tobias Abenius, Sven Nelander
+Maintainer: Tobias Abenius <Tobias.Abenius@Chalmers.se>
+Depends: R (>= 2.12.0), lassoshooting (>= 0.1.4), Matrix, methods, irr,
+        igraph, elasticnet, survival
+Suggests: graph, RCytoscape
+Description: Estimates sparse matrices A or G using fast lasso
+        regression from mRNA transcript levels Y and CNA profiles U.
+        Two models are provided, EPoC A where AY + U + R = 0 and EPoC G
+        where Y = GU + E, the matrices R and E are so far treated as
+        noise. For details see the reference and the manual page of
+        `lassoshooting'.
+License: LGPL-3
+Packaged: 2011-10-19 09:43:26 UTC; btobias
+Repository: CRAN
+Date/Publication: 2011-10-19 10:33:22

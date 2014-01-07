@@ -1,0 +1,20 @@
+Package: msarc
+Version: 1.2.0
+License: Artistic-2.0
+Date: 2013-04-09
+Title: Draws diagrams (mis)representing the results of mass spec
+        experiments
+Author: Gord Brown, Hisham Mohammed
+Maintainer: Gord Brown <gordon.brown@cruk.cam.ac.uk>
+Depends: R (>= 2.14.0)
+Imports: GO.db, org.Hs.eg.db, org.Mm.eg.db, AnnotationDbi, gplots
+Description: Clusters Uniprot terms by GO category, then draws diagrams
+        showing the results in hierarchical clusters, with lines for
+        individual proteins, showing their score with the length of the
+        line.  The results are in general not publication-ready, but
+        will rather require editing via Illustrator or some similar
+        tool.
+Packaged: 2013-04-09 15:22:55 UTC; brown22
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-09 18:24:20

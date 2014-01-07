@@ -1,0 +1,14 @@
+Package: CADStat
+Version: 2.1-13
+Date: 2008-09-16
+Title: Provides a GUI to several statistical methods useful for causal assessment.
+Author: Lester Yuan, Tom Stockton, Doug Bronson, Pasha Minallah, and Mark Fitzgerald
+Maintainer: Lester Yuan <yuan.lester@epa.gov>
+Depends: JGR, XML, lattice, bio.infer, gdata, gmodels, car, MASS, quantreg, rpart
+Description: Using JGR, provides a GUI to several statistical methods -
+  scatterplot, boxplot, linear regression, generalized linear regression, quantile,
+  regression, conditional probability calculations, 
+  and regression trees.
+License: GPL Version 2 or newer
+URL: http://www.rforge.net/CADStat/
+Packaged: Tue Sep 16 11:52:26 2008; Lester

@@ -1,0 +1,25 @@
+Package: DiagTest3Grp
+Type: Package
+Title: Diagnostic test summary measures for three ordinal groups
+Version: 1.2
+Date: 2011-06-06
+Author: Jingqin Luo, Chengjie Xiong
+Maintainer: Jingqin Luo<rosy@wubios.wustl.edu>
+Description: Assuming diagnostic marker increase monotonically and
+        stochatically with disease severity, the R package provides
+        utilities to estimate two diagnostic test summary measures for
+        three ordinal groups ----volume under ROC surface (VUS) and the
+        extended Youden index. Variance, confidence interval and
+        optimal cut-points both under the normal assumption and also
+        the non-parametric method(s) will be provided for the summary
+        measures. Statistical tests are implemented to compare multiple
+        diagnostic tests and two diagnostic test. Sample size is
+        calculated to estimate the summary measures within
+        user-specified margin of error for future study planning.
+License: GPL (>= 3.0)
+Depends: car,KernSmooth,stats, gplots
+URL: http://www.biostat.wustl.edu/~rosy/DiagTest3Grp
+LazyLoad: yes
+Packaged: 2011-07-01 15:02:58 UTC; rosy
+Repository: CRAN
+Date/Publication: 2011-07-22 21:48:43

@@ -1,0 +1,26 @@
+Package: trueskill
+Title: Implementation the TrueSkill algorithm in R
+Description: An implementation of the TrueSkill algorithm (Herbrich,
+        R., Minka, T. and Grapel, T) in R; a Bayesian skill rating
+        system with inference by approximate message passing on a
+        factor graph. Used by Xbox to rank gamers and identify
+        appropriate matches.
+        http://research.microsoft.com/en-us/projects/trueskill/default.aspx
+        Current version allows for one player per team. Will update as
+        time permits.  Requires R version 3.0 as it is written with
+        Reference Classes.  URL:
+        https://github.com/bhoung/trueskill-in-r Acknowledgements to
+        Doug Zongker and Heungsub Lee for their python implementations
+        of the algorithm and for the liberal reuse of Doug's code
+        comments (@dougz and @sublee on github).
+Version: 0.1
+Author: Brendan Houng <brendan.houng@gmail.com>
+Maintainer: Brendan Houng <brendan.houng@gmail.com>
+License: GPL-3
+Depends: R (>= 3.0)
+Imports: methods
+Collate: 'factorgraph.r' 'init.r' 'competition.r' 'player.r'
+Packaged: 2013-05-22 05:32:15 UTC; brendanhoung
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-22 08:00:08

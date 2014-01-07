@@ -1,0 +1,21 @@
+Package: cplm
+Type: Package
+Title: Monte Carlo EM algorithms and Bayesian methods for fitting
+        Tweedie compound Poisson linear models
+Version: 0.1-1
+Date: 2011-08-10
+Author: Wayne Zhang
+Maintainer: Wayne Zhang <actuary_zhang@hotmail.com>
+Description: This package provides methods for fitting Tweedie compound
+        Poisson linear models using Monte Carlo EM algorithm and MCMC
+        methods. Models that are handled in the package are generalized
+        linear models, mixed-effect models and their corresponding
+        Bayesian models.
+Depends: Matrix, methods, stats, tweedie
+License: GPL (>= 2)
+URL: http://code.google.com/p/cplm/, http://www.actuaryzhang.com
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-08-07 21:38:20 UTC; actuaryzhang
+Repository: CRAN
+Date/Publication: 2011-08-08 05:41:45

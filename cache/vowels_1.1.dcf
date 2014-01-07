@@ -1,0 +1,16 @@
+Package: vowels
+Type: Package
+Title: Vowel Manipulation, Normalization, and Plotting
+Version: 1.1
+Date: 2010-04-09
+Author: Tyler Kendall and Erik R. Thomas
+Maintainer: Tyler Kendall <tsk3@duke.edu>
+Description: vowels is an R package for the manipulation,
+        normalization, and plotting of phonetic and sociophonetic vowel
+        formant data.  vowels is the backend for the NORM website.
+License: GPL-3
+URL: http://ncslaap.lib.ncsu.edu/tools/norm/
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:59 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:59

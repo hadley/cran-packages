@@ -1,0 +1,13 @@
+Package: BayHaz
+Type: Package
+Version: 0.0-6
+Date: 2007-01-09
+Title: R Functions for Bayesian Hazard Rate Estimation
+Author: Luca La Rocca
+Maintainer: Luca La Rocca <luca.larocca@unimore.it>
+Depends: R (>= 1.8.0)
+Suggests: coda
+Description: A suite of R functions for Bayesian estimation of smooth hazard rates via Compound Poisson Process (CPP) priors.
+License: GPL Version 2 or newer
+URL: http://www.r-project.org, http://www-dimat.unipv.it/luca
+Packaged: Tue Jan  9 15:48:31 2007; luca

@@ -1,0 +1,23 @@
+Package: GB2
+Version: 1.0
+Date: 2010-12-30
+Title: Generalized Beta Distribution of the Second Kind: properties,
+        likelihood, estimation.
+Author: Monique Graf <monique.graf@bfs.admin.ch>, Desislava Nedyalkova
+        <desislava.nedyalkova@bfs.admin.ch>.
+Maintainer: Desislava Nedyalkova <desislava.nedyalkova@bfs.admin.ch>
+Description: GB2 is a simple package that calculates the basic
+        properties of the Generalized Beta distribution of the second
+        kind - density, distribution function, quantiles, moments.
+        Functions for the full loglikelihood, the profile loglikelihood
+        and the scores are provided. Formulae for various Laeken
+        indicators under the GB2 are implemented. It performs maximum
+        likelihood estimation and non-linear least squares eastimation
+        of the model parameters. It provides various polots for the
+        vizualization and analysis of the results.
+Imports: hypergeo, laeken, numDeriv, stats
+Suggests: simFrame, survey
+License: GPL (>= 2)
+Packaged: 2011-01-05 09:46:38 UTC; U4722
+Repository: CRAN
+Date/Publication: 2011-01-06 20:42:30

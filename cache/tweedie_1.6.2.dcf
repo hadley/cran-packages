@@ -1,0 +1,12 @@
+Package: tweedie
+Version: 1.6.2
+Date: 2009-02-16
+Title: Tweedie exponential family models
+Author: Peter K Dunn <pdunn2@usc.edu.au>
+Maintainer: Peter K Dunn <pdunn2@usc.edu.au>
+Depends: R (>= 1.0), statmod(>= 1.0.8)
+Suggests: fBasics
+Description:  Maximum likelihood computations for Tweedie families.
+License: GPL version 2 or newer
+URL: http://www.r-project.org/package=tweedie
+Packaged: Mon Feb 16 18:03:11 2009; pdunn2

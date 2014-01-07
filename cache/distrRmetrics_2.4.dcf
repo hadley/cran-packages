@@ -1,0 +1,23 @@
+Package: distrRmetrics
+Version: 2.4
+Date: 2013-02-05
+Title: Package distr classes for distributions from Rmetrics
+Depends: R(>= 2.6.0), methods, startupmsg, distr(>= 2.4), fBasics(>=
+        270.73), fGarch(>= 270.73)
+Suggests: distrEx(>= 2.4), distrMod(>= 2.4)
+Author: Nataliya Horbenko, Matthias Kohl, Daria Pupashenko, Myhailo
+        Pupashenko, Peter Ruckdeschel
+Description: (S4-)distribution classes based on package distr for
+        distributions from packages fBasics and fGarch
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+ByteCompile: yes
+License: LGPL-3
+Encoding: latin1
+URL: http://distr.r-forge.r-project.org/
+LastChangedDate: {$LastChangedDate: 2011-11-18 13:15:04 +0100 (Fr, 18
+        Nov 2011) $}
+LastChangedRevision: {$LastChangedRevision: 758 $}
+SVNRevision: 756
+Packaged: 2013-02-05 17:12:48 UTC; ruckdesc
+Repository: CRAN
+Date/Publication: 2013-02-07 19:38:07

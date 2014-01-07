@@ -1,0 +1,14 @@
+Package: R.huge
+Version: 0.1.4
+Date: 2006-05-21
+Title: Methods for accessing huge amounts of data
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.0.0), R.oo, R.utils
+Description: The package currently provides a class representing a matrix where the actuall data is stored in a binary format on the local file system.  This way the size limit of the data is set by the file system and not the memory.
+License: LGPL version 2.1 or newer (the releases)
+URL: http://www.braju.com/R/
+ContribURL: http://www.maths.lth.se/help/R/  
+DevelURL: http://www.maths.lth.se/help/R/
+LazyLoad: TRUE
+Packaged: Mon May 21 13:00:35 2007; hb

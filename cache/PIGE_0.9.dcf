@@ -1,0 +1,26 @@
+Package: PIGE
+Type: Package
+Title: Self contained gene set analysis for gene- and
+        pathway-environment interaction analysis
+Version: 0.9
+Date: 2013-12-30
+Author: Benoit Liquet, Therese Truong
+Maintainer: Benoit Liquet <benoit.liquet@isped.u-bordeaux2.fr>
+Depends: snowfall,ARTP,xtable,survival
+Description: Extension of the ARTP package for gene- and pathway-environment
+    interaction
+License: GPL (>= 2.0)
+Collate: 'ARTP-GE.R' 'data.to.PIGE.R' 'permutation.snp.R'
+        'PIGE-package.R' 'compute.p.snp.obs.R' 'LR.inter.cat.R'
+        'LR.inter.cont.R' 'permutation.wrapper.cont.R' 'LR.cont.R'
+        'permutation.wrapper.cat.inter.R'
+        'permutation.wrapper.cont.inter.R'
+        'permutation.wrapper.cat.inter.Y.and.X.R'
+        'permutation.wrapper.cont.inter.Y.and.X.R'
+        'permutation.wrapper.cont.Y.and.X.R' 'LR.cont.surv.R'
+        'LR.inter.cat.surv.R' 'LR.inter.cont.surv.R'
+        'data.to.list.gene.snp.R'
+Packaged: 2013-12-30 05:47:20 UTC; liquet
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-30 07:44:39

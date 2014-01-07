@@ -1,0 +1,9 @@
+Package: its
+Version: 0.2.2
+Date: 2004/01/06
+Title:  Irregular Time Series
+Author:  Portfolio & Risk Advisory Group, Commerzbank Securities
+Maintainer: Giles Heywood <giles.heywood@commerzbankib.com>
+Depends: R (>= 1.8.0), methods, Hmisc
+Description: The its package contains an S4 class for handling irregular time series
+License: GPL, Commerzbank Securities disclaimer.

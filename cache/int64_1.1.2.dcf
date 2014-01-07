@@ -1,0 +1,20 @@
+Package: int64
+Type: Package
+Title: 64 bit integer types
+Version: 1.1.2
+Date: 2011-12-01
+Author: Romain Francois, sponsored by the Google Open Source Programs
+        Office
+Maintainer: ORPHANED
+Description: 64 bit integer types
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods
+Suggests: RUnit
+Packaged: 2011-12-01 10:59:08 UTC; romain
+Repository: CRAN
+Date/Publication: 2011-12-02 16:23:01
+X-CRAN-Original-Package: int64
+X-CRAN-Original-Maintainer: Romain Francois <romain@r-enthusiasts.com>
+X-CRAN-Comment: Orphaned on 2012-07-18 as the orginal maintainer,
+        Romain Francois <romain@r-enthusiasts.com>, is unresponsive.

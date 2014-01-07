@@ -1,0 +1,19 @@
+Package: cloudUtil
+Type: Package
+Title: Cloud Util Plots
+Version: 0.1.9
+Date: 2012-03-19
+Author: Christian Panse <cp@fgcz.ethz.ch>, Ermir Qeli
+        <ermir.qeli@gmail.com>
+Maintainer: Christian Panse <cp@fgcz.ethz.ch>
+Depends: R (>= 2.11.0), methods
+Imports:
+Suggests:
+Description: Provides means of plots for comparing utilization data of
+        compute systems.
+License: GPL-2
+URL: http://fgcz-data.uzh.ch/~cpanse/cloudUtil/
+Collate: cloudUtilPlot.R
+Packaged: 2012-03-20 08:30:04 UTC; cp
+Repository: CRAN
+Date/Publication: 2012-03-20 09:14:22

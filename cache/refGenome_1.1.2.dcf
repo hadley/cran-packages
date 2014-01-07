@@ -1,0 +1,14 @@
+Package: refGenome
+Type: Package
+Title: Managing data from Ensembl and UCSC genome browsers.
+Version: 1.1.2
+Date: 2013-05-08
+Author: Wolfgang Kaisers
+Maintainer: Wolfgang Kaisers <kaisers@med.uni-duesseldorf.de>
+Description: Functionality for import and managing of downloaded genome annotation Data from Ensembl genome browser (European Bioinformatics Institute) and from UCSC genome browser (University of California, Santa Cruz).
+License: GPL-2
+Depends: methods,RSQLite,doBy
+Packaged: 2013-08-08 12:39:58 UTC; kaisers
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-08 17:52:30

@@ -1,0 +1,35 @@
+Package: RODM
+Version: 1.0
+Date: 2010-05-01
+Title: R interface to Oracle Data Mining
+Author: Pablo Tamayo <pablo.tamayo@oracle.com> and Ari Mozes
+        <ari.mozes@oracle.com>
+Maintainer: Pablo Tamayo <pablo.tamayo@oracle.com>
+Depends: R (>= 2.10.1), RODBC
+Suggests: RODBC, mlbench, verification, PASWR, scatterplot3d
+Description: This package implements an interface to Oracle Data Mining
+        (ODM). It provides an ideal environment for rapid development
+        of demos and proof of concept data mining studies. It
+        facilitates the prototyping of vertical applications and makes
+        ODM and the RDBMS environment easily accessible to
+        statisticians and data analysts familiar with R but not fluent
+        in SQL or familiar with the database environment. It also
+        facilitates the benchmarking and testing of ODM functionality
+        including the production of summary statistics, performance
+        metrics and graphics. It enables the scripting and control of
+        production data mining methodologies from a high-level
+        environment. Oracle Data Mining (ODM) is an option of Oracle
+        Relational Database Management System (RDBMS) Enterprise
+        Edition (EE). It contains several data mining and data analysis
+        algorithms for classification, prediction, regression,
+        clustering, associations, feature selection, anomaly detection,
+        feature extraction, and specialized analytics. It provides
+        means for the creation, management and operational deployment
+        of data mining models inside the database environment. For more
+        information consult the entry for "Oracle Data Mining" in
+        Wikipedia (en.wikipedia.org).
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2010-05-26 17:38:56 UTC; Tamayo
+Repository: CRAN
+Date/Publication: 2010-05-26 19:58:47

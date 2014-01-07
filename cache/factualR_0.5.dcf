@@ -1,0 +1,20 @@
+Package: factualR
+Type: Package
+Title: thin wrapper for the Factual.com server API
+Version: 0.5
+Date: 2010-12-31
+Author: Ethan McCallum
+Maintainer: Ethan McCallum <factualr-package@exmachinatech.net>
+Description: Per the Factual.com website, "Factual is a platform where
+        anyone can share and mash open, living data on any subject."
+        The data is in the form of tables and is accessible via REST
+        API.  The factualR package is a thin wrapper around the
+        Factual.com API, to make it even easier for people working with
+        R to explore Factual.com data sets.
+License: Apache License 2.0
+LazyLoad: yes
+Depends: methods, RJSONIO, RCurl
+URL: http://www.exmachinatech.net/factualR/
+Packaged: 2010-12-31 15:25:24 UTC; root
+Repository: CRAN
+Date/Publication: 2011-01-03 12:35:05

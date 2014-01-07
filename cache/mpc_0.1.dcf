@@ -1,0 +1,23 @@
+Package: mpc
+Type: Package
+Title: MPC - Multiple Precision Complex Library
+Version: 0.1
+Date: 2011-03-05
+Author: Murray Stokely
+Maintainer: Murray Stokely <murray@stokely.org>
+Depends: R (>= 2.9.1)
+SystemRequirements: MPFR (MP Floating-Point Reliable Library,
+        http://mpfr.org/), GMP (GNU Multiple Precision library,
+        http://gmplib.org/), and MPC (Multiple Precision Complex
+        Library, http://www.multiprecision.org/), see README.
+Description: The package aims at providing S3 classes and methods for
+        arbitrary precision arithmetic on complex numbers providing
+        correct roudning.  It interfaces to the LGPL'ed MPC (Multiple
+        Precision Complex), MPFR (Multiple Precision Floating-Point
+        Reliable), and GMP (GNU Multiple Precision) Libraries.
+License: LGPL (>= 3)
+Repository: CRAN
+Repository/R-Forge/Project: mpc
+Repository/R-Forge/Revision: 29
+Date/Publication: 2012-01-21 09:10:26
+Packaged: 2012-01-21 09:10:26 UTC; ripley

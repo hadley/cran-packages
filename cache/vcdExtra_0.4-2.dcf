@@ -1,0 +1,22 @@
+Package: vcdExtra
+Type: Package
+Title: vcd additions
+Version: 0.4-2
+Date: 2010-03-09
+Author: Michael Friendly with Heather Turner, David Firth and Achim
+        Zeileis
+Maintainer: Michael Friendly <friendly@yorku.ca>
+Depends: vcd,gnm
+Suggests: ca,gmodels,Fahrmeir,effects,VGAM,plyr
+Description: Provides additional data sets, methods and documentation
+        to complement the vcd package for Visualizing Categorical Data.
+        In particular, vcdExtra extends mosaic, assoc and sieve plots
+        from vcd to handle glm() and gnm() models.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Repository: CRAN
+Repository/R-Forge/Project: vcdextra
+Repository/R-Forge/Revision: 65
+Date/Publication: 2010-03-18 14:25:28
+Packaged: 2010-03-17 21:57:00 UTC; rforge

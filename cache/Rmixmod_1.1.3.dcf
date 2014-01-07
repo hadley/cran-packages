@@ -1,0 +1,34 @@
+Package: Rmixmod
+Version: 1.1.3
+Date: 2012-06-14
+Title: An interface of MIXMOD
+Description: Supervised and unsupervised classification with MIXture
+        MODelling
+Authors@R: c(person("Remi", "Lebret", role=c("aut","cre"),
+        email="remi.lebret@math.univ-lille1.fr"), person("Serge",
+        "Iovleff", role="aut", email="serge.iovleff@univ-lille1.fr"),
+        person("Florent", "Langrognet", role="aut",
+        email="florent.langrognet@univ-fcomte.fr"),
+        person("Christophe", "Biernacki", role="ctb",
+        email="christophe.biernacki@math.univ-lille1.fr"),
+        person("Gilles", "Celeux", role="ctb",
+        email="gilles.celeux@math.u-psud.fr"), person("Gerard",
+        "Govaert", role="ctb", email="gerard.govaert@utc.fr"))
+Author: Remi Lebret and Serge Iovleff and Florent Langrognet, with
+        contributions from C. Biernacki and G.  Celeux and G. Govaert
+Maintainer: Remi Lebret <remi.lebret@math.univ-lille1.fr>
+License: GPL-3 + file LICENSE
+URL: http://www.mixmod.org
+BugReports: see http://www.mixmod.org/article.php3?id_article=23
+LinkingTo: Rcpp
+Type: Package
+LazyLoad: yes
+Depends: R(>= 2.12.0), Rcpp(>= 0.8.0), methods, graphics
+Collate: 'global.R' 'Strategy.R' 'Model.R' 'Parameter.R'
+        'GaussianParameter.R' 'MixmodResults.R' 'MixmodDAResults.R'
+        'MultinomialModel.R' 'GaussianModel.R' 'MultinomialParameter.R'
+        'Mixmod.R' 'MixmodCluster.R' 'MixmodLearn.R' 'Rmixmod.R'
+        'MixmodPredict.R' 'zzz.R'
+Packaged: 2012-06-13 10:33:47 UTC; lebret
+Repository: CRAN
+Date/Publication: 2012-06-13 12:14:32

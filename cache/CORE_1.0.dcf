@@ -1,0 +1,17 @@
+Package: CORE
+Type: Package
+Title: Cores of Recurrent Events
+Version: 1.0
+Author: Alex Krasnitz, Guoli Sun
+Maintainer: Guoli Sun <gsun@cshl.edu>
+Description: given a collection of intervals with integer start and end
+        positions, find recurrently targeted regions and estimate the
+        significance of finding. Randomization is implemented by
+        parallel methods, either using local host machines, or
+        submitting grid engine jobs.
+License: GPL-2
+Imports: Rmpi,parallel
+Packaged: 2013-06-21 20:21:58 UTC; gsun
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-21 23:10:52

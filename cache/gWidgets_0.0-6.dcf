@@ -1,0 +1,13 @@
+Package: gWidgets
+Version: 0.0-6
+Date: 2006-09-29
+Title: gWidgets API for building toolkit-independent, interactive GUIs
+Author:  Philippe Grosjean, Michael Lawrence, Simon Urbanek, John Verzani
+Maintainer: John Verzani <gwidgetsrgtk@gmail.com>
+Depends: methods, utils
+Description: gWidgets provides a toolkit-independent API for building interactive GUIs
+License: GPL version 2 or newer
+URL: http://www.math.csi.cuny.edu/pmg
+LazyLoad: FALSE
+SaveImage: TRUE
+Packaged: Fri Sep 29 10:27:35 2006; verzani

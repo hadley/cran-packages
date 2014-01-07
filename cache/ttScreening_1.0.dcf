@@ -1,0 +1,16 @@
+Package: ttScreening
+Type: Package
+Title: Genome-wide DNA methylation sites screening by use of training
+        and testing samples.
+Version: 1.0
+Date: 2013-09-4
+Author: Meredith Ray, Xin Tong, Hongmei Zhang
+Maintainer: Xin Tong <tongx@email.sc.edu>
+Depends: R (>= 2.14.0)
+Imports: limma, sva, matrixStats, corpcor
+Description: This package utilizes training and testing samples to filter out uninformative DNA methylation sites. Surrogate variables (SVs) of DNA methylation are included in the filtering process to explain unknown factor effects. 
+License: Artistic-2.0
+Packaged: 2013-10-04 15:07:52 UTC; Meredith Ray
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-05 07:35:16

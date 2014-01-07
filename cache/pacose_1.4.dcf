@@ -1,0 +1,17 @@
+Package: pacose
+Type: Package
+Title: iPACOSE, PACOSE and other methods for covariance selection
+Version: 1.4
+Depends: ggm, igraph, ppls, MASS, corpcor, glmnet, mvtnorm, lcd
+Date: 2011-11-11
+Author: Vincent Guillemot, Andreas Bender
+Maintainer: GUILLEMOT Vincent <Vincent.GUILLEMOT@cea.fr>
+Description: Implementation of iPACOSE, PACOSE and of various methods
+        for the estimation of covariance/precision matrices under the
+        constraint that some partial correlation coefficients are equal
+        to zero.
+License: GPL
+LazyLoad: yes
+Packaged: 2013-02-08 15:06:14 UTC; vg213089
+Repository: CRAN
+Date/Publication: 2013-02-08 16:34:44

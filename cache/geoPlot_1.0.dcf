@@ -1,0 +1,20 @@
+Package: geoPlot
+Type: Package
+Title: Performs Address Comparison
+Version: 1.0
+Date: 2011-03-14
+Author: Randall Shane, PhD
+Maintainer: "Randall Shane, PhD" <rshane@basexvi.com>
+Description: This package uses 2 separate algorithms to perform address
+        comparison.  The first concatenates the numerical portion of
+        the address to the postal code and the second utilizes the
+        Google Maps API to resolve latitude and longitude then compares
+        them by implementing the haversine formula for geospatial
+        distance.
+Depends: R (>= 2.10)
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-03-15 14:14:55 UTC; rshane
+Repository: CRAN
+Date/Publication: 2011-05-11 07:18:59

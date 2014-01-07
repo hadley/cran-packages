@@ -1,0 +1,15 @@
+Package: WMTregions
+Type: Package
+Title: Exact calculation of WMTR
+Version: 2.3.9
+Date: 2010-09-11
+Author: Pavel Bazovkin
+Maintainer: Pavel Bazovkin <econometrics@russia.ru>
+Depends: rggobi, RGtk2
+Description: R realization of an exact algorithm for calculating WMT
+        regions
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-10-20 19:36:59 UTC; root
+Repository: CRAN
+Date/Publication: 2010-10-21 10:48:45

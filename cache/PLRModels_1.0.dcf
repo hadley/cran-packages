@@ -1,0 +1,20 @@
+Package: PLRModels
+Type: Package
+Title: Statistical inference in partial linear regression models
+Version: 1.0
+Date: 2013-06-26
+Author: German Aneiros Perez and Ana Lopez Cheda
+Maintainer: German Aneiros Perez <ganeiros@udc.es>
+Description: This package provides statistical inference tools applied
+        to Partial Linear Regression (PLR) models. Specifically, point
+        estimation, bandwidth selection, goodness-of-fit tests and
+        analysis of covariance are considered.  Kernel-based methods,
+        combined with ordinary least squares estimation, are used and
+        time series errors are allowed. In addition, these techniques
+        are also implemented for both parametric (linear) and
+        nonparametric regression models.
+License: GPL
+Packaged: 2013-06-26 11:11:58 UTC; ana
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-26 18:08:52

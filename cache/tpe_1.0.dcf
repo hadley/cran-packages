@@ -1,0 +1,15 @@
+Package: tpe
+Type: Package
+Title: Tree preserving embedding
+Version: 1.0
+Date: 2012-03-01
+Author: Albert D. Shieh, Tatsunori B. Hashimoto, and Edoardo M. Airoldi
+Maintainer: Albert D. Shieh <adshieh@post.harvard.edu>
+Description: This package implements the greedy approximation for tree
+        preserving embedding.
+License: MIT
+LazyData: yes
+Depends: clue, tripack
+Packaged: 2012-03-13 01:00:21 UTC; adshieh
+Repository: CRAN
+Date/Publication: 2012-03-28 15:44:10

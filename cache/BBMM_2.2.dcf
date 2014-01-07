@@ -1,0 +1,16 @@
+Package: BBMM
+Type: Package
+Title: Brownian bridge movement model for estimating the movement path
+        of an animal using discrete location data.
+Version: 2.2
+Date: 2011-02-21
+Author: Nielson, R. M., H. Sawyer, and T. L. McDonald
+Maintainer: Ryan Nielson <rnielson@west-inc.com>
+Description: The model provides an empirical estimate of the movement
+        path of an animal using discrete location data obtained at
+        relatively short time intervals.
+License: GNU General Public License
+LazyLoad: yes
+Packaged: 2011-02-21 16:56:50 UTC; rnielson
+Repository: CRAN
+Date/Publication: 2011-02-25 07:39:27

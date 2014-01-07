@@ -1,0 +1,15 @@
+Package: Bergm
+Type: Package
+Title: Bayesian inference for exponential random graph models
+Version: 1.1
+Date: 2009-09-27
+Author: Alberto Caimo and Nial Friel
+Maintainer: Alberto Caimo <alberto.caimo@ucd.ie>
+Description: Functions implementing Bayesian estimation for exponential
+        random graph models via exchange algorithm
+License: GPL (>= 2)
+Depends: network, ergm, coda
+LazyLoad: yes
+Packaged: 2010-04-06 09:14:40 UTC; alb
+Repository: CRAN
+Date/Publication: 2010-04-06 09:29:12

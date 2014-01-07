@@ -1,0 +1,15 @@
+Package: ff
+Version: 1.0-1
+Date: 2007-11-01
+Title: flat-file library
+Author:
+  Daniel Adler <dadler@uni-goettingen.de>, 
+  Oleg Nenadic <onenadi@uni-goettingen.de>, 
+  Walter Zucchini <wzucchi@uni-goettingen.de>,
+  Christian Glaeser <christian_glaeser@gmx.de>
+Maintainer: Daniel Adler <dadler@uni-goettingen.de>
+Depends: R (>= 1.7.0)
+Suggests: biglm
+Description: Flat file database designed for large vectors and multi-dimensional arrays
+License: BSD
+Packaged: Thu Nov  1 18:00:33 2007; dadler

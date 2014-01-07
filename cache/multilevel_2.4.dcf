@@ -1,0 +1,17 @@
+Package: multilevel
+Version: 2.4
+Date: 2012-04-04
+Title: Multilevel Functions
+Author: Paul Bliese
+Maintainer: Paul Bliese <paul.bliese@us.army.mil>
+Description: The functions in this package are designed to be used in
+        the analysis of multilevel data by applied psychologists.  The
+        package includes functions for estimating common within-group
+        agreement and reliability indices. The package also contains
+        basic data manipulation functions that facilitate the analysis
+        of multilevel and longitudinal data.
+Depends: R (>= 2.10), nlme, MASS
+License: GPL (>= 2)
+Packaged: 2012-04-13 15:13:35 UTC; Paul
+Repository: CRAN
+Date/Publication: 2012-04-15 16:42:32

@@ -1,0 +1,20 @@
+Package: Rcpp
+Title: Rcpp R/C++ interface package
+Version: 0.6.8
+Date: $Date: 2009-11-09 21:55:07 -0600 (Mon, 09 Nov 2009) $
+Author: Dirk Eddelbuettel with contributions by Simon Urbanek and David
+        Reiss
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: R/C++ interface classes and examples The Rcpp library maps
+        data types betweeen R and C++, and includes support for R types
+        real, integer, character, vector, matrix, Date, datetime (i.e.
+        POSIXct) at microsecond resolution, data frame, and function.
+        It also supports calling R functions from C++. Several examples
+        are included.
+Depends: R (>= 2.0.0)
+SystemRequirements: None
+URL: http://dirk.eddelbuettel.com/code/rcpp.html
+License: LGPL (>= 2.1)
+Packaged: 2009-11-10 03:55:34 UTC; edd
+Repository: CRAN
+Date/Publication: 2009-11-10 10:15:12

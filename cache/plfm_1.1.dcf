@@ -1,0 +1,18 @@
+Package: plfm
+Type: Package
+Title: Probabilistic latent feature analysis of two-way two-mode
+        frequency data
+Version: 1.1
+Date: 2013-08-18
+Author: Michel Meulders
+Maintainer: Michel Meulders <michel.meulders@hubrussel.be>
+Depends: sfsmisc,abind
+Description: The package can be used to estimate probabilistic latent feature models 
+	     with a disjunctive or a conjunctive mapping rule for two-way two-mode frequency data
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-08-18 14:08:39 UTC; Michel
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-18 17:26:57

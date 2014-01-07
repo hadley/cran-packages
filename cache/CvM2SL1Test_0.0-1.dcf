@@ -1,0 +1,20 @@
+Package: CvM2SL1Test
+Version: 0.0-1
+Date:    2008-09-05
+Title:   L1-version of Cramer-von Mises Two Sample Tests
+Author:  Yuanhui Xiao <matyxx@langate.gsu.edu>
+Maintainer: Yuanhui Xiao <matyxx@langate.gsu.edu>
+Depends:    
+Suggests:  
+Description: The package contains two functions for L1-version of 
+  Cramer-von Mises Tests: one computes Cramer-von Mises
+  two sample test scores, the other cmoputes the exact p-value(s) for given 
+  Cramer-von Mises two-sample test score(s) under the assumption that
+  the populations under comparison have the same probability distribution.
+  The L1-version Cramer-von Mises test, like its L2 counterpart,
+  is distribution-free, but of less computational intensity. In certain cases,
+  this version of Cramer-von Mises test is almost as powerful as its L2 counterpart.
+  Simulation study also shows that it is more powerful than the Kolmogorov-Smirnov 
+  test in certain cases. 
+License: GPL (Version 2 or later)
+Packaged: Sun Sep  7 21:40:13 2008; YuanhuiXiao

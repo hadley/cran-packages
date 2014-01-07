@@ -1,0 +1,19 @@
+Package: xlsxjars
+Type: Package
+Title: Package required jars for the xlsx package
+Version: 0.1.0
+Date: 2010-01-01
+Depends: rJava
+Imports: rJava
+LazyLoad: yes
+Author: Adrian A. Dragulescu
+Maintainer: Adrian A. Dragulescu <adrian.dragulescu@gmail.com>
+Description: The xlsxjars package collects all the external jars
+        required for the xlxs package.  These external jars are quite
+        large in size (15MB) and have a slow release cycle.  By
+        separating the Java and R development, the storage footprint on
+        CRAN is reduced.
+License: GPL-3
+Repository: CRAN
+Packaged: 2010-01-02 14:41:05 UTC; home
+Date/Publication: 2010-01-03 11:43:10

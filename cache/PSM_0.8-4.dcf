@@ -1,0 +1,14 @@
+Package: PSM
+Type: Package
+Title: Non-Linear Mixed-Effects modelling using Stochastic Differential Equations.
+Version: 0.8-4
+Date: 2009-02-24
+Encoding: latin1
+Author: Stig Mortensen <sbm@imm.dtu.dk> and S\xF8ren Klim <skl@imm.dtu.dk>
+Maintainer: Authors <psmpackage@imm.dtu.dk>
+Depends: MASS, numDeriv, odesolve, ucminf
+Description: This package provides functions for estimation of linear and non-linear mixed-effects models using stochastic differential equations. Moreover it provides functions for finding smoothed estimates of model states and for simulation. The package allows for any multivariate non-linear time-variant model to be specified, and it also handels multidimentional input, co-variates, missing observations and specification of dosage regimen.
+License: GPL (>=2)
+URL: http://www.imm.dtu.dk/psm
+Revision: 159
+Packaged: Wed Feb 25 04:58:25 2009; rforge

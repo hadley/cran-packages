@@ -1,0 +1,23 @@
+Package: sequences
+Title: Generic and biological sequences.
+Version: 0.5.7
+Authors@R: c(person(given = "Laurent", family = "Gatto", email =
+        "lg390@cam.ac.uk", role = c("aut","cre")), person(given =
+        "Robert", family ="Stojnic", email = "rs550@cam.ac.uk", role =
+        "aut"))
+Author: Laurent Gatto and Robert Stojnic
+Maintainer: Laurent Gatto <lg390@cam.ac.uk>
+Description: Educational package used in R courses to illustrate OO
+        programming and package development. Using biological sequences
+        (DNA and RNA) as a working example.
+Depends: methods, Rcpp
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-3
+biocViews: Bioinformatics, Infrastructure, DataRepresentation,
+        DataImport
+URL: https://github.com/lgatto/sequences/
+Packaged: 2013-07-03 08:44:33 UTC; lgatto
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-03 11:29:35

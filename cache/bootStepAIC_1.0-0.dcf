@@ -1,0 +1,12 @@
+Package: bootStepAIC
+Title: Bootstrap stepAIC
+Version: 1.0-0
+Date: 2007-05-07
+Author: Dimitris Rizopoulos <dimitris.rizopoulos@med.kuleuven.be>
+Maintainer: Dimitris Rizopoulos <dimitris.rizopoulos@med.kuleuven.be>
+Description: Model selection by bootstrapping the stepAIC() procedure.
+Depends: R(>= 2.3.0), MASS
+LazyLoad: yes
+LazyData: yes
+License: GPL version 2 or later
+Packaged: Mon May  7 09:03:45 2007; dimitris

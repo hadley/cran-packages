@@ -1,0 +1,27 @@
+Package: easi
+Type: Package
+Title: EASI Demand System Estimation
+Version: 0.2
+Date: 2012-05-08
+Author: Stephane Hoareau <sjlhoaro@yahoo.fr>, Guy Lacroix, Mirella
+        Hoareau, Luca Tiberti
+Maintainer: Stephane Hoareau <sjlhoaro@yahoo.fr>
+Description: "easi" is a package for R enabling the estimation of the
+        Exact Affine Stone Index demand system of Pendakur and Lewbel
+        (2009). However, more than just a transcript, it offers a
+        number of extensions in an unified framework. Firstly, it
+        allows to calculate elasticities (income elasticities, price
+        elasticities and demographic elasticities) and their standard
+        deviations.  Secondly, it enables the calculation and the
+        graphical representation of Engel curves and their confidence
+        interval. Thirdly, it provides simulation tools to assess the
+        impact of price changes, income changes and demographic changes
+        on fitted budget shares, elasticities, and their standard
+        deviations. Finally, easi allows the computation of equivalent
+        incomes.
+License: GPL (>= 2.0)
+Depends: systemfit, stats, micEcon
+LazyLoad: yes
+Packaged: 2012-06-25 14:53:29 UTC; stephane
+Repository: CRAN
+Date/Publication: 2012-07-04 15:16:12

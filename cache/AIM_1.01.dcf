@@ -1,0 +1,16 @@
+Package: AIM
+Title: AIM: adaptive index model
+Version: 1.01
+Author: L. Tian and R. Tibshirani
+Description: R functions for adaptively constructing index models for
+        continuous, binary and survival outcomes. Implementation
+        requires loading R-pacakge "survival"
+Maintainer: Robert Tibshirani <tibs@stat.stanford.edu>
+LazyLoad: false
+LazyData: false
+Depends: survival
+Imports: survival
+License: LGPL-2
+Repository: CRAN
+Date/Publication: 2010-04-05 19:01:20
+Packaged: 2010-01-30 00:45:50 UTC; lutian

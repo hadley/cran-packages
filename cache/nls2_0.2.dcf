@@ -1,0 +1,16 @@
+Package: nls2
+Version: 0.2
+Date: 2013-03-07
+Title: Non-linear regression with brute force
+Author: G. Grothendieck
+Maintainer: G. Grothendieck <ggrothendieck@gmail.com>
+Description: Adds brute force and multiple starting values to nls.
+Depends: proto
+Suggests: nlstools
+License: GPL-2
+BugReports: http://groups.google.com/group/sqldf
+URL: http://nls2.googlecode.com
+Packaged: 2013-03-08 00:55:30 UTC; Louis
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-08 07:24:52

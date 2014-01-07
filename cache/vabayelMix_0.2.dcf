@@ -1,0 +1,13 @@
+Package: vabayelMix
+Version: 0.2
+Date: 2005-03-30
+Title: Variational Bayesian Mixture Model
+Author: Andrew Teschendorff <aet21@hutchison-mrc.cam.ac.uk>
+Maintainer: Andrew Teschendorff <aet21@hutchison-mrc.cam.ac.uk>
+Depends: R (>= 1.8.0)
+Description: Performs inference of a gaussian mixture model within a bayesian 
+ framework using an optimal separable approximation to the posterior density.
+ The optimal posterior approximation is obtained using a variational approach.
+License: GPL version 2 or newer
+URL: http://www.r-project.org
+Packaged: Wed Feb  8 12:59:02 2006; hornik

@@ -1,0 +1,16 @@
+Package: fxregime
+Version: 0.1-0
+Date: 2007-08-28
+Title: Exchange Rate Regime Analysis
+Author: Achim Zeileis, Ajah Shah, Ila Patnaik
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+Description: Frankel-Wei regression and structural change tools
+             for estimating, testing, dating and monitoring
+	     (de facto) exchange rate regimes.
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 2.3.0), graphics, stats, zoo, sandwich, strucchange
+Suggests: lmtest, car
+Imports: graphics, stats, zoo, sandwich, strucchange, car
+License: GPL
+Packaged: Wed Aug 29 04:44:58 2007; zeileis

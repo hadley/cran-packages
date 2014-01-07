@@ -1,0 +1,23 @@
+Encoding: latin1
+Package: TripleR
+Type: Package
+Title: Social Relation Model (SRM) analyses for single round-robin
+        groups
+Version: 0.1
+Date: 2009-04-27
+Author: S.C. Schmukle, F.D. Schoenbrodt and M.D. Back
+Maintainer: Felix Schoenbrodt <felix@nicebread.de>
+Description: Social Relation Model (SRM) analysis for a single
+        Round-Robin group are performed. These analyses are either
+        based on one manifest variable, one latent construct measured
+        by two manifest variables, two manifest variables and their
+        bivariate relations, or two latent constructs each measured by
+        two manifest variables (in the last case, four Round-Robin
+        matrices have to be provided)
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: tripler
+Repository/R-Forge/Revision: 11
+Date/Publication: 2009-06-02 17:28:30
+Packaged: 2009-06-02 03:01:32 UTC; rforge

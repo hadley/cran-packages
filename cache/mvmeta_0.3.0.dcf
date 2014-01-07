@@ -1,0 +1,18 @@
+Package: mvmeta
+Type: Package
+Title: Multivariate meta-analysis and meta-regression
+Version: 0.3.0
+Date: 2012-08-01
+Author: Antonio Gasparrini
+Maintainer: Antonio Gasparrini <antonio.gasparrini@lshtm.ac.uk>
+Depends: R (>= 2.13.0)
+Imports: stats, graphics, grDevices, utils
+Suggests: metafor, meta, rmeta, nlme
+Description: The package mvmeta consists of a collection of functions
+        to perform fixed and random-effects multivariate and univariate
+        meta-analysis and meta-regression in R.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2012-08-01 10:53:22 UTC; Gaspa
+Repository: CRAN
+Date/Publication: 2012-08-01 12:26:54

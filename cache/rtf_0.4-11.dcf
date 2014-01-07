@@ -1,0 +1,17 @@
+Package: rtf
+Version: 0.4-11
+Depends: R (>= 2.10.1)
+Imports: R.oo, R.methodsS3
+Suggests: ggplot2, lattice, grid, xtable, gsubfn
+Date: 2013-08-22
+Title: Rich Text Format (RTF) Output
+Authors@R: c(person(c("Michael","E."), "Schaffer", role=c("aut", "cre", "cph"), email = "mschaff@gmail.com"))
+Description: A set of R functions to output Rich Text Format (RTF) files with high resolution tables and graphics that may be edited with a standard word processor such as Microsoft Word.
+License: GPL (>= 2)
+LazyLoad: TRUE
+Packaged: 2013-11-12 12:21:59 UTC; mschaff
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-12 14:19:04
+Author: Michael E. Schaffer [aut, cre, cph]
+Maintainer: Michael E. Schaffer <mschaff@gmail.com>

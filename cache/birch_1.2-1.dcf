@@ -1,0 +1,19 @@
+Package: birch
+Type: Package
+Depends: R (>= 2.10), ellipse
+Suggests: MASS
+Title: Dealing with very large datasets using BIRCH
+Version: 1.2-1
+Date: 2012-03-29
+Author: Lysiane Charest, Justin Harrington, Matias Salibian-Barrera
+Maintainer: Lysiane Charest <lysiane.charest@hec.ca>
+Description: birch is an implementation of the algorithms described in
+        Zhang et al (1997), and provides functions for creating
+        CF-trees, along with algorithms for dealing with some
+        combinatorial problems, such as covMcd and ltsReg. It is very
+        well suited for dealing with very large data sets, and does not
+        require that the data can fit in physical memory.
+License: GPL
+Packaged: 2012-03-30 00:51:17 UTC; lysiane
+Repository: CRAN
+Date/Publication: 2012-03-30 04:41:30

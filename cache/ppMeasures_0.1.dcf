@@ -1,0 +1,19 @@
+Package: ppMeasures
+Type: Package
+Title: Point pattern distances and prototypes.
+Version: 0.1
+Date: 2010-05-10
+Author: David M Diez, Katherine E Tranbarger Freier, and Frederic P
+        Schoenberg
+Maintainer: David M Diez <david.m.diez@gmail.com>
+Description: The package focuses on distances and prototypes for point
+        patterns. There are three algorithms provided to compute
+        spike-time distance, and one of these algorithms is generalized
+        to compute variations of spike-time distance. Multiple
+        algorithms are also provided to estimate prototypes of
+        collections of point patterns.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:29 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:29

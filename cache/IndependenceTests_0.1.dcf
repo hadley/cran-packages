@@ -1,0 +1,18 @@
+Package: IndependenceTests
+Version: 0.1
+Date: 2011-04-04
+Title: Nonparametric tests of independence between random vectors.
+Author: P Lafaye de Micheaux <lafaye@dms.umontreal.ca>, M Bilodeau
+        <bilodeau@dms.umontreal.ca>
+Maintainer: P Lafaye de Micheaux <lafaye@dms.umontreal.ca>
+Depends: R (>= 2.3.0), xtable
+Description: Functions for testing mutual independence between many
+        numerical random vectors or serial independence of a
+        multivariate stationary sequence. The proposed test works when
+        some or all of the marginal distributions are singular with
+        respect to Lebesgue measure.
+License: GPL (>= 2)
+Suggests: snow, rsprng, Rmpi
+Packaged: 2012-10-29 08:57:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:11

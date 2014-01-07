@@ -1,0 +1,17 @@
+Package: prinsimp
+Type: Package
+Title: Finding and plotting simple basis vectors for multivariate data
+Version: 0.8-8
+Date: 2013-11-01
+Author: Davor Cubranic, Jonathan Zhang, Nancy Heckman, Travis Gaydos,
+        and J.S. Marron
+Maintainer: Davor Cubranic <cubranic@stat.ubc.ca>
+License: AGPL-3
+Description: Provides capabilities beyond principal components
+    analysis to focus on finding structure in low variability
+    subspaces. Constructs and plots simple basis vectors for
+    pre-defined and user-defined measures of simplicity.
+Packaged: 2013-11-01 23:33:46 UTC; davor
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-02 01:21:46

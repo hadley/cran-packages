@@ -1,0 +1,20 @@
+Encoding: latin1
+Package: GrapheR
+Type: Package
+Title: A multiplatform GUI for drawing customizable graphs in R
+Version: 1.1
+Date: 2011-03-21
+Author: Maxime Hervé
+Maintainer: Maxime Hervé <maxime.herve@laposte.net>
+Depends: R (>= 2.10.0), tcltk, mgcv
+Description: GrapheR is a multiplatform user interface for drawing
+        highly customizable graphs in R. It aims to be a valuable help
+        to quickly draw publishable graphs without any knowledge of R
+        commands. Six kinds of graphs are available: histogram,
+        box-and-whisker plot, bar plot, pie chart, curve and scatter
+        plot.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-03-21 09:49:10 UTC; Maxime
+Repository: CRAN
+Date/Publication: 2011-03-21 14:00:49

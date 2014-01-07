@@ -1,0 +1,11 @@
+Package: blockTools
+Type: Package
+Title: Block, assign, and diagnose potential interference in randomized experiments
+Version: 0.2.1
+Date: 2008-04-10
+Author: Ryan T. Moore
+Maintainer: ORPHANED
+Depends: MASS, gtools, xtable
+Description: Blocks units into experimental blocks, with one unit per treatment condition, by creating a measure of multivariate distance between all possible pairs of units.  Maximum, minimum, or an allowable range of differences between units on one variable can be set.  Randomly assign units to treatment conditions.  Diagnose potential interference between units assigned to different treatment conditions.  Write outputs to .tex and .csv files.
+License: GNU GPL Version 2 (or later)
+Packaged: Mon Feb 23 11:11:46 2009; hornik

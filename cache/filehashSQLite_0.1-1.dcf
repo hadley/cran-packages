@@ -1,0 +1,12 @@
+Package:  filehashSQLite
+Version:  0.1-1
+Date:  2006-11-08
+LazyLoad:  yes
+Depends:  R (>= 2.4.0), methods, filehash, DBI, RSQLite
+Title:  Simple key-value database using SQLite
+Author:  Roger D. Peng <rpeng@jhsph.edu>
+Maintainer:  Roger D. Peng <rpeng@jhsph.edu>
+Description:  Simple key-value database using SQLite as the backend
+License:  GNU GPL (version 2 or later)
+URL:  http://sandybox.typepad.com/software/
+Packaged: Wed Nov  8 13:30:59 2006; rpeng

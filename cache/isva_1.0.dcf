@@ -1,0 +1,16 @@
+Package: isva
+Type: Package
+Title: Independent Surrogate Variable Analysis
+Version: 1.0
+Date: 2010-08-14
+Author: Andrew E Teschendorff
+Maintainer: <a.teschendorff@ucl.ac.uk>
+Depends: qvalue, fastICA
+Description: Independent Surrogate Variable Analysis is a general
+        algorithm for feature selection in the presence of potentially
+        confounding factors.
+License: GPL-2
+LazyLoad: yes
+Packaged: Mon Aug 16 22:56:38 2010; aet21
+Repository: CRAN
+Date/Publication: 2010-08-17 05:06:03

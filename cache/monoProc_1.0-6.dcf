@@ -1,0 +1,16 @@
+Package: monoProc
+Type: Package
+Title: strictly monotone smoothing procedure
+Version: 1.0-6
+Date: 2007-10-23
+Author: Regine Scheder
+Maintainer: Regine Scheder <regine.scheder@rub.de>
+Description: monotonizes a given fit in one or two variables.
+Depends: R (>= 2.4.1), methods
+Suggests: locfit, UsingR, KernSmooth
+LazyLoad: yes
+Imports: graphics
+License: GPL (>= 2)
+Packaged: 2009-10-11 17:50:15 UTC; regine
+Repository: CRAN
+Date/Publication: 2009-10-11 18:30:13

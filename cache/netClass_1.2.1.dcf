@@ -1,0 +1,23 @@
+Package: netClass
+Version: 1.2.1
+Date: 2013-12-03
+Title: netClass: An R Package for Network-Based Biomarker Discovery
+Author: Yupeng Cun
+Maintainer: Yupeng Cun <yupeng.cun@gmail.com>
+Description: netClass is an R package for network-based feature (gene)
+        selection for biomarkers discovery via integrating biological
+        information.  This package adapts the following 5 algorithms
+        for classifying and predicting gene expression data using prior
+        knowledge: 1) average gene expression of pathway (aep); 2)
+        pathway activities classification (PAC); 3) Hub network
+        Classification (hubc); 4) filter via top ranked genes (FrSVM);
+        5) network smoothed t-statistic (stSVM).
+Depends: R (>= 2.14), kernlab
+Imports: AnnotationDbi, Matrix, ROCR, graph, igraph, samr
+Suggests: parallel, Biobase, KEGG.db, pathClass
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-12-03 21:27:02 UTC; cun
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-03 22:44:46

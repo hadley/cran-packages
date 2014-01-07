@@ -1,0 +1,27 @@
+Package: aroma.core
+Version: 1.1.2
+Date: 2009-06-14
+Title: Support package for aroma.affymetrix et al.
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.6.0), R.methodsS3 (>= 1.0.3), R.oo (>= 1.4.5), R.utils
+        (>= 1.1.6), R.cache (>= 0.1.7), R.filesets (>= 0.5.1), R.rsp
+        (>= 0.3.4), matrixStats (>= 0.1.4), digest (>= 0.3.1),
+        aroma.light (>= 1.12.2)
+Suggests: EBImage (>= 2.2.0), Cairo (>= 1.3-5), sfit (>= 0.1.5),
+        expectile (>= 0.2.3), GLAD (>= 1.12.0), DNAcopy (>= 1.18.0),
+        HaarSeg (>= 0.0.2)
+Imports: affxparser (>= 1.10.1), geneplotter (>= 1.16.0), RColorBrewer
+        (>= 1.0-2)
+Description: This package is a private support package for
+        aroma.affymetrix et al.  The methods and classes of this
+        package are independent of platform.  It's API is in alpha and
+        beta stage.
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/aroma.affymetrix/
+PatchURL: http://www.braju.com/R/
+LazyLoad: TRUE
+biocViews: Infrastructure, Microarray, DataImport
+Packaged: 2009-06-14 22:22:22 UTC; hb
+Repository: CRAN
+Date/Publication: 2009-06-16 06:39:58

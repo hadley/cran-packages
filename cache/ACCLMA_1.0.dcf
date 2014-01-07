@@ -1,0 +1,22 @@
+Package: ACCLMA
+Type: Package
+Title: ACC & LMA Graph Plotting
+Version: 1.0
+Date: 2010-05-31
+Author: Tal Carmi, Liat Gaziel
+Maintainer: Tal Carmi <talca@bgu.ac.il>
+Description: The main function is plotLMA(sourcefile,header) that takes
+        a data set and plots the appropriate LMA and ACC graphs. If no
+        sourcefile (a string) was passed, a manual data entry window is
+        opened. The header parameter indicates by TRUE/FALSE (false by
+        default) if the source CSV file has a head row or not. The data
+        set should contain only one independent variable (X) and one
+        dependent varialbe (Y) and can contain a weight for each
+        observation
+License: GPL-2
+LazyLoad: yes
+Keywords: ACC,LMA,Absolute Concentration Curve, LOI minus ACC,
+        Regression coefficient robustness
+Packaged: 2012-10-29 13:13:00 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:35

@@ -1,0 +1,14 @@
+Package: IsotopeR
+Type: Package
+Title: IsotopeR
+Version: 0.3.1
+Date: 2011-11-07
+Author: Jack Hopkins, Jake Ferguson
+Maintainer: Jake Ferguson <troutinthemilk@gmail.com>
+Description: Estimates diet contributions from isotopic sources using JAGS. Includes estimation of concentration dependence and measurement error.
+Depends: fgui, runjags, ellipse, plotrix, colorspace
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-11-07 20:58:32 UTC; troutinthemilk
+Repository: CRAN
+Date/Publication: 2011-11-08 06:54:25

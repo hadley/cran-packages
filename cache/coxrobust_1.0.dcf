@@ -1,0 +1,14 @@
+Package: coxrobust
+Version: 1.0
+Depends: R (>= 2.0.0), survival
+Date: 2006-03-05
+Title: Robust Estimation in Cox Model
+LazyLoad: Yes
+Description: Fit robustly proportional hazards regression model
+Author: Tadeusz Bednarski <t.bednarski@prawo.uni.wroc.pl>, Filip
+        Borowicz <f.borowicz@prawo.uni.wroc.pl>
+Maintainer: Filip Borowicz <f.borowicz@prawo.uni.wroc.pl>
+License: GPL (>= 2)
+Packaged: Mon Mar 6 23:03:22 2006; filu
+Repository: CRAN
+Date/Publication: 2006-03-15 09:12:51

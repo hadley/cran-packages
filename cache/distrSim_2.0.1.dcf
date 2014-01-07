@@ -1,0 +1,13 @@
+Package: distrSim
+Version: 2.0.1
+Date: 2008-10-10
+Title: Simulation classes based on package distr
+Depends: R(>= 2.6.0), methods, graphics, setRNG(>= 2006.2-1), distr(>= 2.0), startupmsg
+Suggests: distrEx(>= 2.0)
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas Stabla
+Description: Simulation (S4-)classes based on package distr 
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+LazyLoad: yes
+License: GPL (version 2 or later)
+URL: http://distr.r-forge.r-project.org/
+Packaged: Sat Oct 11 09:46:52 2008; btm722

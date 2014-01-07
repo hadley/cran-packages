@@ -1,0 +1,20 @@
+Package: pdfCluster
+Type: Package
+Title: Cluster analysis via nonparametric density estimation
+Version: 0.1-8
+Date: 2011-02-28
+Author: Adelchi Azzalini, Giovanna Menardi, Tiziana Rosolin
+Maintainer: Giovanna Menardi <menardi@stat.unipd.it>
+Description: This package provides tools to perform cluster analysis
+        via kernel density estimation. Clusters are associated to the
+        maximally connected components with estimated density above a
+        threshold. Diagnostics methods for evaluating the quality of
+        clustering are also available. The package provides also a
+        routine to estimate the probability density function by the
+        kernel method, given a set of data with arbitrary dimension.
+License: GPL-2
+LazyLoad: yes
+Depends: methods, geometry
+Packaged: 2011-02-28 17:53:03 UTC; aa
+Repository: CRAN
+Date/Publication: 2011-03-01 07:32:11

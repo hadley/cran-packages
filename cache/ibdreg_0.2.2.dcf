@@ -1,0 +1,16 @@
+Package: ibdreg
+Version: 0.2.2
+Date: 2013-1-4
+Title: Regression Methods for IBD Linkage With Covariates
+Author: Jason P. Sinnwell and Daniel J. Schaid
+Maintainer: Jason P. Sinnwell <Sinnwell.Jason@mayo.edu>
+Description: A method to test genetic linkage with covariates by
+        regression methods with response IBD sharing for relative
+        pairs.  Account for correlations of IBD statistics and
+        covariates for relative pairs within the same pedigree.
+License: GPL-2 | file LICENSE
+Depends: R (>= 2.15.0)
+URL: http://mayoresearch.mayo.edu/mayo/research/schaid_lab/software.cfm
+Packaged: 2013-01-04 22:26:31 UTC; sinnwell
+Repository: CRAN
+Date/Publication: 2013-01-05 08:26:41

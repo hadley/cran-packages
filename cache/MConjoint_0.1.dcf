@@ -1,0 +1,17 @@
+Package: MConjoint
+Type: Package
+Title: Conjoint Analysis through Averaging of Multiple Analyses
+Version: 0.1
+Date: 2013-05-14
+Author: William Hughes
+Maintainer: William Hughes <William.Hughes@rogers.com>
+Description: The package aids in creating a Conjoint Analysis design
+        with extra cards.  Unlike traditional "holdout" cards these
+        cards are used to create a set of "good" (balanced and low
+        correlation) designs. Each of these designs is analyzed and the
+        average calculated.
+License: GPL-3
+Packaged: 2013-06-19 06:38:26 UTC; william
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-19 09:01:22

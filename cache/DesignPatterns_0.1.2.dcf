@@ -1,0 +1,19 @@
+Package: DesignPatterns
+Type: Package
+Title: Design Patterns in R to build reusable object-oriented software
+Version: 0.1.2
+Date: 2009-10-27
+Author: Jitao David Zhang, supported by Stefan Wiemann and Wolfgang
+        Huber
+Maintainer: Jitao David Zhang <j.zhang@dkfz.de>
+Description: Design patterns are building blocks of reusable
+        object-oriented software projects. This package provides data
+        structures and tools to implement, study and reuse design
+        patterns, especially the ones introduced in the book 'Gang of
+        Four'.
+License: GPL-2
+Depends: R (>= 2.3.0), methods
+Collate: S4GSetter.R
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2009-10-27 07:46:58

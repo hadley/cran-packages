@@ -1,0 +1,14 @@
+Package: RCPmod
+Version: 1.4
+Date: 2013-11-01
+Title: Regions of common profiles modelling with mixtures-of-experts.
+Author: Scott D. Foster
+Maintainer: Scott Foster <scott.foster@csiro.au>
+Depends: numDeriv, gtools
+Suggests: MASS
+Description: Identifies regions of common (species) profiles (RCPs).  Within a region the probability of sampling all species remains approximately constant.  This is performed using mixtures-of-experts models.  The package also contains associated methods, such as diagnostics.  Currently, the model and methods are defined for species presence-absence data for a number of sites.
+License: GPL (>= 2)
+Packaged: 2013-11-02 08:10:51 UTC; fos085
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-02 10:53:28

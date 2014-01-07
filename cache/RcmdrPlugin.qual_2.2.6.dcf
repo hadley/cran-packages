@@ -1,0 +1,17 @@
+Package: RcmdrPlugin.qual
+Type: Package
+Title: Rcmdr plugin for quality control course
+Version: 2.2.6
+Date: 2013-09-13
+Author: Erin Hodgess<hodgesse@uhd.edu>
+Maintainer: Erin Hodgess <hodgesse@uhd.edu>
+Depends: R (>= 3.0)
+Imports: Rcmdr (>= 2.0-0), tcltk,stats
+Suggests: qcc,sp,vcd,MASS
+Description: This package provides an Rcmdr "plug-in" based on the
+        Quality control class Stat 4300
+License: GPL-2 | GPL-3
+Repository: CRAN
+Date/Publication: 2013-09-14 22:42:04
+Packaged: 2013-09-14 17:36:38 UTC; erin
+NeedsCompilation: no

@@ -1,0 +1,17 @@
+Package: ProfessR
+Type: Package
+Title: Grades Setting and Exam Maker
+Version: 2.1
+Date: 2012-11-26
+Depends: RPMG
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
+Description: Programs to determine student grades and create
+        examinations from Question banks.  Programs will create
+        numerous multiple choice exams, randomly shuffled, for
+        different versions of same question list.
+License: GPL
+Packaged: 2013-03-13 17:58:14 UTC; lees
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-15 17:58:33

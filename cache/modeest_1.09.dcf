@@ -1,0 +1,16 @@
+Package: modeest
+Type: Package
+Title: Mode Estimation
+Version: 1.09
+Date: 2009-05-23
+Author: Paul PONCET <paulponcet@yahoo.fr>
+Description: This package provides estimators of the mode of univariate
+        unimodal data or univariate unimodal distributions. It also
+        enables to compute the Chernoff distribution.
+Maintainer: Paul PONCET <paulponcet@yahoo.fr>
+Depends: R (>= 2.4.0)
+Suggests: stats, evd, fBasics
+License: GPL (>= 2)
+Packaged: Sat May 23 09:34:42 2009; Paul
+Repository: CRAN
+Date/Publication: 2009-05-24 08:47:31

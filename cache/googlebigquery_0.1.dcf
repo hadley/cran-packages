@@ -1,0 +1,16 @@
+Package: googlebigquery
+Type: Package
+Title: R client library for communicating with the Google Bigquery
+        service
+Version: 0.1
+Date: 2011-06-07
+Depends: bitops,RCurl,rjson
+Author: Benjamin Yolken
+Maintainer: Benjamin Yolken <yolken@google.com>
+Description: This package contains functions for running Bigquery
+        queries and returning the results to R.
+License: Apache License 2.0
+LazyLoad: yes
+Packaged: 2011-06-22 11:40:19 UTC; yolken
+Repository: CRAN
+Date/Publication: 2011-06-22 16:32:00

@@ -1,0 +1,17 @@
+Package: waveclock
+Version: 1.0-2
+Date: 2008-08-20
+Title: Time-frequency analysis of cycling cell luminescence data
+Author: Tom Price <t0mpr1c3@gmail.com>
+Maintainer: Tom Price <t0mpr1c3@gmail.com>
+Depends: R (>= 2.7.0), Rwave
+Description: waveclock is an R function designed to assess the period and
+  amplitude of cycling cell luminescence data. The function reconstructs
+  the modal frequencies from a continuous wavelet decomposition of the
+  luminescence data using the 'crazy climbers' algorithm described in
+  "Practical Time-Frequency Analysis: Gabor and Wavelet Transforms with
+  an Implementation in S", by Rene Carmona, Wen L. Hwang and Bruno
+  Torresani, Academic Press, 1998.
+License: GPL version 2 or newer
+URL: http://sgdp.iop.kcl.ac.uk/tprice/software.html
+Packaged: Wed Aug 20 13:47:52 2008; spjgtsp

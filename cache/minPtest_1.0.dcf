@@ -1,0 +1,19 @@
+Package: minPtest
+Type: Package
+Title: Gene region-level testing procedure for SNP data, using the min
+        P test resampling approach
+Version: 1.0
+Date: 2011-05-02
+Depends: scrime, Epi
+Suggests: multicore, snowfall
+Author: Stefanie Hieke
+Maintainer: Stefanie Hieke <hieke@fdm.uni-freiburg.de>
+Description: Package minPtest is designed for estimating a gene
+        region-level summary for SNP data from case-control studies
+        using a permutation-based resampling method, called min P test,
+        allowing execution on a compute cluster or multicore computer.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-05-20 09:22:12 UTC; hieke
+Repository: CRAN
+Date/Publication: 2011-05-20 12:41:38

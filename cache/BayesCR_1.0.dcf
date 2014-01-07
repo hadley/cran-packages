@@ -1,0 +1,16 @@
+Package: BayesCR
+Type: Package
+Title: Bayesian analysis of censored linear regression models with
+        scale mixtures of normal (SMN) distributions.
+Version: 1.0
+Date: 2013-11-02
+Author: Aldo M. Garay <aldowmg@ime.usp.br>, 
+        Victor H. Lachos <hlachos@ime.unicamp.br>
+Description: Propose a robust parametric  model of censored linear regression models based on SMN distributions from a Bayesian perspective.
+Depends: R(>= 3.0.1), MCMCpack, mvtnorm, Rlab, truncdist, truncnorm
+Maintainer: Aldo M. Garay <aldowmg@ime.usp.br>
+License: GPL (>= 3.0.1)
+Packaged: 2013-11-02 16:10:41 UTC; hlachos
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-02 18:07:27

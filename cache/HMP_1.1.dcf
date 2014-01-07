@@ -1,0 +1,21 @@
+Package: HMP
+Type: Package
+Title: Hypothesis Testing and Power Calculations for Comparing
+        Metagenomic Samples from HMP
+Version: 1.1
+Date: 2012-4-24
+Author: Patricio S. La Rosa, Elena Deych, Berkley Shands, William D.
+        Shannon
+Maintainer: Berkley Shands <bshands@dom.wustl.edu>
+Depends: R (>= 2.13.0), MCMCpack, dirmult
+Description: This package provides several functions to perform formal
+        hypothesis testing, and power and sample size calculations for
+        human microbiome experiments. Dirichlet-Multinomial
+        distribution is proposed for modeling the species abundance
+        distributions of human microbiota (ranked bacterial taxa
+        counts).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-04-24 18:39:54 UTC; bshands
+Repository: CRAN
+Date/Publication: 2012-04-25 04:39:22

@@ -1,0 +1,20 @@
+Package: YuGene
+Type: Package
+Title: YuGene for comparing gene expression across platforms
+Version: 1.0
+Date: 2012-11-27
+Author: Leo McHugh, Kim-Anh Le Cao
+Maintainer: Leo McHugh <l.mchugh@qfab.org>
+Description: YuGene is a simple method for comparison of gene
+        expression generated across different experiments, and on
+        different platforms; that does not require global
+        renormalization, and is not restricted to comparison of
+        identical probes. YuGene works on a range of microarray dataset
+        distributions, such as between manufacturers. The resulting
+        output allows direct comparisons of gene expression between
+        experiments and experimental platforms.
+License: GPL (>= 2)
+Packaged: 2012-11-29 04:22:16 UTC; l.mchugh
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2012-11-29 05:47:58

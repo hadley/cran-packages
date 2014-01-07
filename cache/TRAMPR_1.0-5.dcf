@@ -1,0 +1,19 @@
+Package: TRAMPR
+Title: TRFLP Analysis and Matching Package for R
+Version: 1.0-5
+Author: Rich FitzJohn & Ian Dickie
+Maintainer: Rich FitzJohn <rich.fitzjohn@gmail.com>
+License: GPL-2
+Depends: R (>= 2.4)
+Description: TRAMPR is an R package for matching terminal restriction
+        fragment length polymorphism (TRFLP) profiles between unknown
+        samples and a database of knowns.  TRAMPR facilitates analysis
+        of many unknown profiles at once, and provides tools for
+        working directly with electrophoresis output through to
+        generating summaries suitable for community analyses with R's
+        rich set of statistical functions.  TRAMPR also resolves the
+        issues of multiple TRFLP profiles within a species, and shared
+        TRFLP profiles across species.
+Packaged: 2009-05-22 16:34:17 UTC; rich
+Repository: CRAN
+Date/Publication: 2009-05-24 08:35:29

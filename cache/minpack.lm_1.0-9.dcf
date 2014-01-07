@@ -1,0 +1,8 @@
+Package: minpack.lm
+Version: 1.0-9
+Title: R interface to the Levenberg-Marquardt nonlinear least-squares algorithm found in MINPACK 
+Author: Timur V. Elzhov, Katharine M. Mullen
+Maintainer: Katharine M. Mullen <kate@few.vu.nl>
+Description: Provides R interface to lmder and lmdif from the MINPACK library, for solving nonlinear least-squares problems by a modification of the Levenberg-Marquardt algorithm.
+License: file LICENSE
+Packaged: Fri Mar 14 08:33:30 2008; hornik

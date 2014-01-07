@@ -1,0 +1,20 @@
+Package: BEDASSLE
+Type: Package
+Title: Disentangles the effects of geographic and ecological isolation
+        on genetic differentiation
+Version: 1.1
+Date: 2013-07-09
+Author: Gideon Bradburd
+Maintainer: Gideon Bradburd <gbradburd@ucdavis.edu>
+Description: This package provides functions that allow users to quantify the relative 
+	contributions of geographic and ecological distances to empirical patterns of genetic 
+	differentiation on a landscape.  Specifically, the package contains a function that 
+	calls a custom Markov chain Monte Carlo (MCMC) algorithm, which is used to estimate 
+	the parameters of the inference model, as well as functions for performing MCMC 
+	diagnosis and assessing model adequacy.
+License: GPL (>= 2)
+Imports: MASS, matrixcalc, emdbook
+Packaged: 2013-09-11 16:59:05 UTC; gburd
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-11 20:46:41

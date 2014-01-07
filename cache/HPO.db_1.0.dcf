@@ -1,0 +1,14 @@
+Package: HPO.db
+Type: Package
+Title: A set of annotation maps describing the Human Phenotype Ontology
+Version: 1.0
+Date: 2012-10-10
+Author: Yue Deng
+Maintainer: Yue Deng <anfdeng@163.com>
+Description: A set of annotation maps describing the entire Human
+        Phenotype Ontology assembled using data from HPO
+License: GPL-2
+Depends: R (>= 2.12.0), methods, AnnotationDbi (>= 1.9.7)
+Packaged: 2012-10-30 02:47:40 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-10-30 06:27:40

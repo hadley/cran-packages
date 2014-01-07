@@ -1,0 +1,11 @@
+Package: RScaLAPACK
+Version: 0.4.0
+Date: 2005-04-15
+Title: A seamless interface to perform parallel computation on linear algebra problems using the ScaLAPACK library.
+Author: Nagiza F. Samatova <samatovan@ornl.gov>, Srikanth Yoginath <yoginathsb@ornl.gov>, David Bauer <bauerda@ornl.gov> and Guruprasad Kora <koragh@ornl.gov> 
+Maintainer: Nagiza F. Samatova <samatovan@ornl.gov>
+Depends: R (>= 1.6.1)
+Description: An R add-on package capable of carrying out parallel computation through a single function call from the R environment. It uses the high-performance ScaLAPACK library for the linear algebra computations.   
+License: Free.  See COPYING for details.
+URL: http://www.aspect-sdm.org/Parallel-R/
+Packaged: Wed Jun 15 11:04:03 2005; srikanth

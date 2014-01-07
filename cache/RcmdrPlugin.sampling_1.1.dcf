@@ -1,0 +1,20 @@
+Package: RcmdrPlugin.sampling
+Title: Tools for sampling in Official Statistical Surveys
+Version: 1.1
+Date: 2013-08-23
+Depends: lpSolve, sampling, MASS
+Imports: Rcmdr
+Author: Susie Jentoft and Johan Heldal
+Maintainer: Susie Jentoft <Susie.Jentoft@ssb.no>
+Description: This package includes tools for calculating sample sizes and 
+ selecting samples using various sampling designs. This package is an extension
+ of RcmdrPlugin.EHESsampling which was developed as part of the EHES pilot project.
+ The EHES Pilot project has received funding from the European Commission and 
+ DG Sanco. The views expressed here are those of the authors and they do not represent 
+ Commission's official position. 
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-08-23 10:28:20 UTC; coo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-23 14:07:26

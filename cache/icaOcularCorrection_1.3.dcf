@@ -1,0 +1,16 @@
+Package: icaOcularCorrection
+Type: Package
+Title: Independent Components Analysis (ICA) based eye-movement
+        correction.
+Version: 1.3
+Date: 02-11-2011
+Depends: fastICA
+Author: Antoine Tremblay, IWK Health Center 
+Maintainer: Antoine Tremblay <trea26@gmail.com>
+Description: Removes eye-movements artifacts as well as (a portion of) of other noise using the fastICA package. The correction methods is based on Flexer, Bauer, Pripfl, and Dorffner (2005). 
+Suggests: multicore
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-11-03 16:59:55 UTC; antoine
+Repository: CRAN
+Date/Publication: 2011-11-03 21:30:48

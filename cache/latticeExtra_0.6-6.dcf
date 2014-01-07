@@ -1,0 +1,18 @@
+Package: latticeExtra
+Version: 0.6-6
+Date: 2010/02/08
+Title: Extra Graphical Utilities Based on Lattice
+Author: Deepayan Sarkar <deepayan.sarkar@r-project.org>, Felix Andrews
+        <felix@nfrac.org>
+Maintainer: Deepayan Sarkar <deepayan.sarkar@r-project.org>
+Description: Extra graphical utilities based on lattice
+Depends: R (>= 2.10.0), RColorBrewer, lattice
+Imports: lattice (>= 0.18-1), grid
+Suggests: maps, mapproj, deldir, tripack, quantreg
+URL: http://latticeextra.r-forge.r-project.org/
+LazyLoad: yes
+LazyData: no
+License: GPL (>= 2)
+Packaged: 2010-02-08 00:45:04 UTC; andrewsf
+Repository: CRAN
+Date/Publication: 2010-02-08 09:03:19

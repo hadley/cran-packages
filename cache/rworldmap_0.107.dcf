@@ -1,0 +1,18 @@
+Package: rworldmap
+Type: Package
+Title: For mapping global data : rworldmap
+Version: 0.107
+Date: 2010-01-07
+Author: Andy South
+        <andy.south[at]cefas.co.uk>,<southandy[at]gmail.com>, with
+        contributions from Barry Rowlingson, Roger Bivand, Matthew
+        Staines & Pru Foster
+Maintainer: Andy South <andy.south@cefas.co.uk>
+Description: Enables mapping of country level and gridded user
+        datasets.
+License: GPL (>= 2)
+Depends: R (>= 2.7.0), sp, maptools, foreign
+Suggests: fields, spam, maps, RColorBrewer, classInt, cshapes
+Packaged: 2010-02-03 15:49:19 UTC; abs00
+Repository: CRAN
+Date/Publication: 2010-02-03 19:44:39

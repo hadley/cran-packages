@@ -1,0 +1,19 @@
+Package: bdsmatrix
+Title: Routines for Block Diagonal Symmetric matrices
+Maintainer: Terry Therneau <therneau@mayo.edu>
+Version: 1.1
+Date: 2011-11-5
+Depends: methods, R (>= 2.0.0)
+LazyData: Yes
+LazyLoad: Yes
+Author: Terry Therneau
+Description: This is a special case of sparse matrices, used by coxme 
+License: GPL-2
+URL: http://r-forge.r-project.org
+Collate: bdsmatrix.R gchol.R gchol.bdsmatrix.R as.matrix.bdsmatrix.R
+        bdsBlock.R bdsI.R bdsmatrix.ibd.R bdsmatrix.reconcile.R
+        diag.bdsmatrix.R listbdsmatrix.R multiply.bdsmatrix.R
+        solve.bdsmatrix.R solve.gchol.R solve.gchol.bdsmatrix.R
+Packaged: 2011-11-10 20:46:00 UTC; therneau
+Repository: CRAN
+Date/Publication: 2011-11-11 05:02:45

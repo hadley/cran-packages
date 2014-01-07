@@ -1,0 +1,20 @@
+Package: ReliabilityTheory
+Title: Tools for structural reliability analysis
+Description: A variety of tools useful for performing structural
+        reliability analysis, such as with structure function and
+        system signatures.  Plans to expand more widely.
+URL: http://www.louisaslett.com/
+Version: 0.1.1
+Maintainer: Louis Aslett <louis@maths.tcd.ie>
+Author: Louis Aslett <louis@maths.tcd.ie>
+Depends: igraph (>= 0.6.5-1)
+Imports: sfsmisc, combinat, FRACTION, mcmc, PhaseType (>= 0.1.3),
+        actuar, HI
+Suggests: testthat
+License: GPL-2 | GPL-3
+ByteCompile: yes
+LazyLoad: yes
+Packaged: 2013-03-06 18:55:01 UTC; louis
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-07 08:10:29

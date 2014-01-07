@@ -1,0 +1,36 @@
+Package: clustvarsel
+Title: Variable Selection for Model-Based Clustering
+Version: 1.3
+Author: Nema Dean <nd29c@stats.gla.ac.uk> and Adrian E. Raftery
+        <raftery@stat.washington.edu>
+Description: The selection method uses either a greedy search or
+        headlong search. The greedy search at each step either checks
+        all variables not currently included in the set of clustering
+        variables singly for inclusion into the set or checks all
+        variables in the set of clustering variables singly for
+        exclusion.The headlong search only checks until a variable is
+        included or excluded (i.e. does not necessarily check all
+        possible variables for inclusion/exclusion at each step) and
+        any variable with evidence of clustering below a certain level
+        at any stage is removed from consideration for the remainder of
+        the algorithm. Each variable's evidence for being useful to the
+        clustering given the currently selected clustering variables is
+        given by the difference between the BIC for the model with
+        clustering (allowed to vary over 2 to a maximum number of
+        groups and any of the different covariance parameterizations
+        allowed in mclust) using the set of clustering variables
+        including the variable being checked and the sum of BICs for
+        the model with clustering (allowed to vary over 2 to a maximum
+        number of groups and any of the different covariance
+        parameterizations allowed in mclust) using the set of
+        clustering variables without the variable being checked and the
+        model for the variable being checked being conditionally
+        independent of the clustering given the other clustering
+        variables (this is modeled as a regression of the variable
+        being checked on the other clustering variables).
+Maintainer: Nema Dean <nd29c@stats.gla.ac.uk>
+Depends: mclust
+License: GPL
+Packaged: Sun Aug 2 20:30:10 2009; nema
+Repository: CRAN
+Date/Publication: 2009-08-04 12:24:01

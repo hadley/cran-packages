@@ -1,0 +1,21 @@
+Package: RobLoxBioC
+Version: 0.7
+Date: 2009-11-01
+Title: Infinitesimally robust estimators for preprocessing omics data
+Description: Functions for the determination of optimally robust
+        influence curves and estimators for preprocessing omics data,
+        in particular gene expression data.
+Depends: R(>= 2.8.1), methods, Biobase, affy, beadarray, distr, RobLox,
+        lattice, RColorBrewer
+Author: Matthias Kohl <Matthias.Kohl@stamats.de>
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+LazyLoad: yes
+License: LGPL-3
+URL: http://robast.r-forge.r-project.org/
+Encoding: latin1
+LastChangedDate: {$LastChangedDate: 2009-11-01 11:53:32 +0100 (So, 01.
+        Nov 2009) $}
+LastChangedRevision: {$LastChangedRevision: 394 $}
+Packaged: 2009-11-04 10:55:08 UTC; btms02
+Repository: CRAN
+Date/Publication: 2009-11-04 13:09:38

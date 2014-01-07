@@ -1,0 +1,17 @@
+Package: magic
+Title: create and investigate magic squares
+Version: 1.3-12
+Author: Robin K. S. Hankin
+Depends: R (>= 1.9.0), abind
+Description: a collection of efficient, vectorized algorithms for the
+ creation and investigation of magic squares, including methods for
+ creating normal magic squares of any order greater than 2.  The
+ ultimate intention is for the package to be a computerized embodiment
+ all magic square knowledge, including direct numerical verification
+ of properties of magic squares (such as recent results on the
+ determinant of odd-ordered semimagic squares).  The package also
+ serves as a rebuttal to the often-heard comment "I thought R
+ was just for statistics".
+Maintainer: Robin K. S. Hankin <r.hankin@soc.soton.ac.uk>
+License: GPL
+Packaged: Sun Mar 20 21:44:35 2005; rksh

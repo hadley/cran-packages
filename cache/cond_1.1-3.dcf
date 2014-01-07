@@ -1,0 +1,21 @@
+Package: cond
+Version: 1.1-3
+Date: 2009-09-14
+Title: Approximate conditional inference for logistic and loglinear
+        models
+Author: S original by Alessandra R. Brazzale
+        <alessandra.brazzale@unimore.it>. R port by Alessandra R.
+        Brazzale <alessandra.brazzale@unimore.it>, following earlier
+        work by Douglas Bates.
+Maintainer: Alessandra R. Brazzale <alessandra.brazzale@unimore.it>
+Depends: R (>= 2.6.0), statmod, survival
+Suggests: boot, csampling, marg, nlreg
+Description: Higher order likelihood-based inference for logistic and
+        loglinear models
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://statwww.epfl.ch/AA/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2009-09-24 12:12:03 UTC; brazzale
+Repository: CRAN
+Date/Publication: 2009-09-24 20:13:08

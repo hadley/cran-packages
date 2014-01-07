@@ -1,0 +1,18 @@
+Package: NanoStringNorm
+Type: Package
+Title: Normalize NanoString miRNA and mRNA data
+Version: 1.1.16
+Date: 2013-09-24
+Author: Daryl M. Waggott
+Maintainer: Daryl Waggott <Daryl.Waggott@oicr.on.ca>
+Depends: R (>= 2.14.0), gdata (>= 2.8.2)
+Suggests: vsn (>= 3.22.0), googleVis (>= 0.2.14), lme4, RUnit (>=
+        0.4.26)
+Description: A set of tools for normalizing, diagnostics and visualization of NanoString nCounter data
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-09-24 20:36:26 UTC; dwaggott
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-25 00:17:58

@@ -1,0 +1,19 @@
+Package: PlotRegionHighlighter
+Type: Package
+Title: Creates an envelope that surrounds a set of points plotted in a
+        two dimensional space.
+Version: 1.0
+Date: 2013-04-04
+Author: Elliot Noma
+Maintainer: Elliot Noma <noma@garrettassetmanagement.com>
+Description: Creates an envelope around a set of plotted points. The
+        envelope is compact with a boundary that is continuous, smooth
+        and convex. Each point is represented as a circle and the
+        circles and connecting lines are the solution to the multiple
+        pulley problem. This method can be used to highlight regions in
+        a two-dimensional space.
+License: GPL-2
+Packaged: 2013-04-05 14:28:12 UTC; elliotnoma
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-05 18:25:16

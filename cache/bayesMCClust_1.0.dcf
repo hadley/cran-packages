@@ -1,0 +1,24 @@
+Package: bayesMCClust
+Type: Package
+Title: Mixtures-of-Experts Markov Chain Clustering and Dirichlet
+        Multinomial Clustering
+Version: 1.0
+Date: 2012-01-26
+Author: Christoph Pamminger <christoph.pamminger@gmail.com>
+Maintainer: Christoph Pamminger <christoph.pamminger@gmail.com>
+Description: This package provides various Markov Chain Monte Carlo
+        (MCMC) sampler for model-based clustering of discrete-valued
+        time series obtained by observing a categorical variable with
+        several states (in a Bayesian approach).  In order to analyze
+        group membership, we provide also an extension to the
+        approaches by formulating a probabilistic model for the latent
+        group indicators within the Bayesian classification rule using
+        a multinomial logit model.
+Depends: R (>= 2.14.1), gplots, xtable, grDevices, mnormt, MASS,
+        bayesm, boa, e1071, gtools
+Suggests: nnet
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-01-31 09:48:34 UTC; AK107357
+Repository: CRAN
+Date/Publication: 2012-01-31 10:57:02

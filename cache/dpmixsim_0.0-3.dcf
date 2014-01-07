@@ -1,0 +1,22 @@
+Package: dpmixsim
+Version: 0.0-3
+Date: 2010-04-29
+Title: Dirichlet Process Mixture model simulation for clustering and
+        image segmentation
+Author: Adelino Ferreira da Silva <afs@fct.unl.pt>
+Maintainer: Adelino Ferreira da Silva <afs@fct.unl.pt>
+Depends: R (>= 2.9.2), oro.nifti
+Suggests: cluster
+Description: The package implements a Dirichlet Process mixture (DPM)
+        model for clustering and image segmentation. The DPM model is a
+        Bayesian nonparametric methodology that relies on MCMC
+        simulations for exploring mixture models with an unknown number
+        of components. The code implements conjugate models with normal
+        structure (conjugate normal-normal DP mixture model). The
+        package's applications are oriented towards the classification
+        of magnetic resonance images according to tissue type or region
+        of interest.
+License: GPL (>= 2)
+Repository: CRAN
+Packaged: 2010-04-29 08:18:06 UTC; afs
+Date/Publication: 2010-04-29 09:20:45

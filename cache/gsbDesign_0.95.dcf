@@ -1,0 +1,15 @@
+Package: gsbDesign
+Type: Package
+Title: Group Sequential Bayes Design
+Version: 0.95
+Date: 2012-05-07
+Author: Florian Gerber, Thomas Gsponer
+Depends: gsDesign, lattice, grid
+Maintainer: <flora.fauna.gerber@gmail.com>
+Description: Group Sequential Operating Characteristics for Clinical,
+        Bayesian two-arm Trials with known Sigma and Normal Endpoints.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-05-07 16:32:11 UTC; flow
+Repository: CRAN
+Date/Publication: 2012-05-08 14:52:25

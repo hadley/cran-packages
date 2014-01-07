@@ -1,0 +1,11 @@
+Package: exactRankTests
+Title: Exact Distributions for Rank Tests 
+Date: $Date: 2002/02/20 15:05:58 $
+Version: 0.6-4
+Author: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de> and
+  Kurt Hornik <Kurt.Hornik@ci.tuwien.ac.at>
+Maintainer: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Description: computes exact p-values and quantiles using an
+ implementation of the Streitberg/Roehmel shift algorithm
+Depends: R (>= 1.4.0)
+License: GPL

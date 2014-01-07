@@ -1,0 +1,28 @@
+Package: cda
+Maintainer: baptiste Auguie <baptiste.auguie@gmail.com>
+License: GPL (>= 2) + file LICENCE
+Title: Coupled dipole approximation
+LinkingTo: Rcpp, RcppArmadillo
+Type: Package
+LazyLoad: yes
+Author: baptiste Auguie
+Description: Given a set of ellipsoidal nanoparticles (positions and
+        sizes), calculates the polarizability tensor for the dipoles
+        associated with each particle, and solves the coupled-dipole
+        equations by direct inversion of the interaction matrix.
+        Retardation is included in the interaction.
+SystemRequirements: GNU make
+Version: 1.0
+BuildVignettes: false
+Date: 2011-05-15
+Depends: methods, Rcpp (>= 0.9.5), RcppArmadillo (>= 0.2.3), plyr,
+        ggplot2, statmod
+Suggests: dielectric, rgl, gridExtra
+RcppModules: cda, cd, linear, array
+Encoding: UTF-8
+Collate: 'array.factor.R' 'cd.r' 'cda-package.r' 'epsilon.r' 'linear.r'
+        'polarizability.R' 'positions.R' 'povray.r' 'rgl.r' 'themes.r'
+        'zzz.r'
+Packaged: 2011-07-25 21:40:31 UTC; auguieba
+Repository: CRAN
+Date/Publication: 2011-07-25 22:02:38

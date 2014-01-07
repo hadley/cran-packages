@@ -1,0 +1,14 @@
+Package: conting
+Type: Package
+Title: Bayesian analysis of contingency tables
+Version: 1.1
+Date: 2013-08-13
+Author: Antony M. Overstall
+Maintainer: Antony M. Overstall <antony@mcs.st-and.ac.uk>
+Description: Bayesian analysis of complete and incomplete contingency tables.
+Depends: R (>= 2.15.0), mvtnorm, BMS, gregmisc, tseries, coda
+License: GPL-2
+Packaged: 2013-08-13 11:52:03 UTC; antony
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-13 14:14:11

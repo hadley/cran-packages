@@ -1,0 +1,24 @@
+Package: dclone
+Type: Package
+Title: Data Cloning and MCMC Tools for Maximum Likelihood Methods
+Version: 1.0-0
+Date: 2009-11-16
+Author: Peter Solymos
+Maintainer: Peter Solymos <solymos@ualberta.ca>
+Description: Low level functions for implementing maximum likelihood
+        estimating procedures for complex models using data cloning and
+        Bayesian Markov chain Monte Carlo methods with support for
+        JAGS, WinBUGS and OpenBUGS.
+License: GPL-2
+Depends: R (>= 2.7.0), rjags, coda (>= 0.13), R2WinBUGS
+Imports: stats
+SystemRequirements: jags (== 1.0.3), WinBUGS (== 1.4)
+URL: http://cran.r-project.org/package=dclone,
+        http://dcr.r-forge.r-project.org/
+LazyLoad: yes
+LazyData: true
+Repository: CRAN
+Repository/R-Forge/Project: dcr
+Repository/R-Forge/Revision: 67
+Date/Publication: 2009-11-20 07:53:20
+Packaged: 2009-11-17 21:22:34 UTC; rforge

@@ -1,0 +1,19 @@
+Package: metacor
+Type: Package
+Title: Meta-analysis of correlation coefficients
+Version: 1.0-1
+Date: 2009-10-27
+Author: Etienne Laliberté
+Maintainer: Etienne Laliberté <etiennelaliberte@gmail.com>
+Description: Implement the DerSimonian-Laird (DSL) and Olkin-Pratt (OP)
+        meta-analytical approaches with correlation coefficients as
+        effect sizes.
+License: GPL-2
+LazyLoad: yes
+Lazydata: yes
+Depends: R (>= 2.8.0), rmeta, gsl
+Keyword: meta-analysis
+Encoding: latin1
+Packaged: 2009-10-26 20:18:31 UTC; etienne
+Repository: CRAN
+Date/Publication: 2009-10-26 20:51:47

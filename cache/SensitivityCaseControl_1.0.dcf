@@ -1,0 +1,28 @@
+Package: SensitivityCaseControl
+Type: Package
+Title: Sensitivity Analysis for Case-Control Studies
+Version: 1.0
+Date: 2012-10-19
+Author: Dylan Small
+Maintainer: Dylan Small <dsmall@wharton.upenn.edu>
+Description: This package performs sensitivity analysis for
+        case-control studies in which some cases may meet a more narrow
+        definition of being a case compared to other cases which only
+        meet a broad definition.  The sensitivity analyses are
+        described in Small, Cheng, Halloran and Rosenbaum (2012, "Case
+        Definition and Sensitivity Analysis", working paper).  The
+        functions sens.analysis.mh and sens.analysis.aberrant.rank
+        provide sensitivity analyses based on the Mantel-Haenszel test
+        statistic and aberrant rank test statistic as described in
+        Rosenbaum (1991, "Sensitivity Analysis for Matched Case Control
+        Studies", Biometrics); see also Section 1 of Small et al.  The
+        function adaptive.case.test provides adaptive inferences as
+        described in Section 5 of Small et al.  The function
+        adaptive.noether.brown provides a sensitivity analysis for a
+        matched cohort study based on an adaptive test.  The other
+        functions in the package are internal functions.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-08 00:32:12 UTC; dsmall
+Repository: CRAN
+Date/Publication: 2012-11-08 06:11:29

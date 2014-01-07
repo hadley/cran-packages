@@ -1,0 +1,38 @@
+Package: XBRL
+Type: Package
+Title: Extraction of business financial information from XBRL
+        documents.
+Version: 0.99.10
+Date: 2014-01-01
+Author: Roberto Bertolusso and Marek Kimmel
+Maintainer: Roberto Bertolusso <rbertolusso@rice.edu>
+Description: 
+  XBRL is a package suited to extract business financial information from
+  an Extensible Business Reporting Language (XBRL) instance file and the
+  associated collection of files that define its Discoverable Taxonomy
+  Set (DTS). These files are usually distributed across several
+  different locations.
+  XBRL documents employ several technologies defined by XML standards,
+  which make the extraction of information difficult. The functions
+  provided by this package deal with this complexity, returning data
+  frames that offer a simpler version of the information. It has been
+  successfully tested in analyzing 10-K and 10-Q submissions from US
+  filing companies that are publicly available at the Security and
+  Exchange Commission (SEC) Edgar system.
+  As published taxonomy document files (such as "us-gaap-2013-01-31.xsd")
+  are immutable and are used by most filers, XBRL offers the possibility
+  of downloading them only the first time they are referred, keeping a
+  local cache copy that can be used from then on. This speeds-up
+  the process, specially for slow connections.
+  XBRL is not and does not aim to be (at least yet) a validating XBRL
+  processor.
+  XBRL is still a work in progress. As such, functions and produced data
+  frames may change structure in future versions until stabilization.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.10.4)
+SystemRequirements: libxml2 (>= 2.7.8)
+LinkingTo: Rcpp
+Packaged: 2013-12-31 14:29:40 UTC; mame
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-31 16:17:50

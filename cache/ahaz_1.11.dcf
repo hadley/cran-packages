@@ -1,0 +1,16 @@
+Package: ahaz
+Type: Package
+Title: Regularization for semiparametric additive hazards regression
+Version: 1.11
+Date: 2012-03-26
+Author: Anders Gorst-Rasmussen <agorstras@gmail.com>
+Maintainer: Anders Gorst-Rasmussen <agorstras@gmail.com>
+Depends: R (>= 2.10), survival, Matrix
+Description: Computationally efficient procedures for regularized
+        estimation with the semiparametric additive hazards regression
+        model.
+License: GPL-2
+URL: http://www.gorst.dk/software.htm
+Packaged: 2012-03-26 09:54:47 UTC; gorst
+Repository: CRAN
+Date/Publication: 2012-03-26 10:10:15

@@ -1,0 +1,14 @@
+Package: chemometrics
+Type: Package
+Title: Multivariate Statistical Analysis in Chemometrics
+Version: 1.3.7
+Date: 2011-11-07
+Author: P. Filzmoser and K. Varmuza
+Maintainer: P. Filzmoser <P.Filzmoser@tuwien.ac.at>
+Depends: R (>= 2.10), class, e1071, gclus, lars, MASS, mclust, nnet,
+        pcaPP, pls, rpart, robustbase, som
+Description: This package is the R companion to the book "Introduction to Multivariate Statistical Analysis in Chemometrics" written by K. Varmuza and P. Filzmoser (2009)
+License: GPL (>= 3)
+Packaged: 2011-11-07 08:46:21 UTC; root
+Repository: CRAN
+Date/Publication: 2011-11-07 14:05:15

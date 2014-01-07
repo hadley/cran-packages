@@ -1,0 +1,17 @@
+Package: Runuran
+Type: Package
+Title: R interface to the UNU.RAN random variate generators
+Version: 0.10.1
+Date: 2009-08-06
+Author: Josef Leydold and Wolfgang H\"ormann
+Maintainer: Josef Leydold <leydold@statmath.wu-wien.ac.at>
+Depends: R (>= 2.4.0), methods
+Description: Interface to the UNU.RAN library for Universal Non-Uniform
+        RANdom variate generators
+Collate: unuran_distr.R unuran_cont.R unuran_discr.R unuran_cmv.R
+        Runuran.R universal.R distributions.R deprecated.R zzz.R
+License: GPL-2
+URL: http://statistik.wu-wien.ac.at/unuran/
+Packaged: 2009-08-06 15:27:38 UTC; leydold
+Repository: CRAN
+Date/Publication: 2009-08-06 15:58:08

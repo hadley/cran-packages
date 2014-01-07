@@ -1,0 +1,19 @@
+Package: PIPS
+Type: Package
+Title: Predicted Interval Plots
+Author: Daniel G. Muenz, Ray Griner <rgriner@sdac.harvard.edu>, Huichao
+        Chen, Lijuan Deng, Sachiko Miyahara, and Scott R. Evans
+        <evans@sdac.harvard.edu>, with contributions from Lingling Li,
+        Hajime Uno, and Laura M. Smeaton.
+Maintainer: Ray Griner <rgriner@sdac.harvard.edu>
+Version: 1.0
+Date: 2012-02-10
+Depends: R (>= 2.12.1)
+Description: Generate Predicted Interval Plots.  Simulate and plot
+        confidence intervals of an effect estimate given observed data
+        and a hypothesis about the distribution of future data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-02-10 17:24:23 UTC; rgriner
+Repository: CRAN
+Date/Publication: 2012-02-12 20:21:14

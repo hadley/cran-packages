@@ -1,0 +1,18 @@
+Package: imputeYn
+Type: Package
+Title: Imputing the last largest censored datum under weighted least
+        squares
+Version: 1.0
+Date: 2012-05-05
+Author: Hasinur Rahaman Khan and Ewart Shaw
+Maintainer: Hasinur Rahaman Khan <hasinurkhan@gmail.com>
+Description: If Kaplan-Meier weights are involved in modeling,
+        especially solving AFT model using weighted least squares
+        method, the package gives alternative choices to the Efron's
+        tail correction approach that brings estimates with less bias
+        and more efficiency
+Depends: emplik, mvtnorm, quadprog, survival
+License: GPL-2
+Packaged: 2012-05-05 11:51:11 UTC; hasinur
+Repository: CRAN
+Date/Publication: 2012-05-06 06:57:55

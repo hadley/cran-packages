@@ -1,0 +1,17 @@
+Package: limSolve
+Version: 1.1
+Title: Solving linear inverse models
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>,
+  Karel Van den Meersche <k.vdMeersche@nioo.knaw.nl>,
+  Dick van Oevelen <d.vanoevelen@nioo.knaw.nl>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01), quadprog, lpSolve, MASS
+Description: Functions that (1.) Find the minimum/maximum of a linear or quadratic function:
+  min or max (f(x)), where f(x) = ||Ax-b||^2 or f(x) = sum(ai*xi)
+  subject to equality constraints Ex=f and/or inequality constraints Gx>=h.
+  (2.) Sample an underdetermined- or overdetermined system Ex=f subject to Gx>=h, and if applicable Ax~=b.      
+  (3.) Solve a linear system Ax=B for the unknown x. Includes banded and tridiagonal linear systems. 
+  The package calls Fortran functions from LINPACK
+License: GPL
+LazyData: yes
+Packaged: Thu Apr 24 04:49:37 2008; theussl

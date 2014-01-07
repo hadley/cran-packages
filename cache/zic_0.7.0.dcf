@@ -1,0 +1,17 @@
+Package: zic
+Version: 0.7.0
+Date: 2012-04-18
+Title: Bayesian Inference for Zero-Inflated Count Models
+Author: Markus Jochmann <markus.jochmann@ncl.ac.uk>
+Maintainer: Markus Jochmann <markus.jochmann@ncl.ac.uk>
+Description: This package provides MCMC algorithms for the analysis of
+        zero-inflated count models. The case of stochastic search
+        variable selection (SVS) is also considered.  All MCMC samplers
+        are coded in C++ for improved efficiency. A data set
+        considering the demand for health care is provided.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.0), coda (>= 0.14-2)
+LinkingTo: Rcpp, RcppArmadillo
+Packaged: 2012-04-20 17:07:35 UTC; markus
+Repository: CRAN
+Date/Publication: 2012-04-20 19:28:08

@@ -1,0 +1,25 @@
+Package: fanplot
+Type: Package
+Title: Visualisation of sequential probability distributions using fan
+        charts.
+Version: 2.2
+Author: Guy J. Abel
+Maintainer: "Guy J. Abel" <g.j.abel@gmail.com>
+Depends: R(>= 2.15.0), tsbugs
+Description: The fanplot package contains a collection of R functions
+        to effectively display plots of sequential distributions such
+        as probabilistic forecasts. The plotting of distributions are
+        based around two functions. The first, pn, calculates the
+        percentiles for a set of sequential distributions over a
+        specified time period. The second, fan, plots the calculated
+        percentiles of the sequential distributions. The resulting plot
+        is a set of coloured polygon, with shadings corresponding to
+        the percentile values.
+Suggests: R2OpenBUGS
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-05-17 10:14:48 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-17 12:54:33

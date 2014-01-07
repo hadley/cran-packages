@@ -1,0 +1,23 @@
+Package: JGL
+Type: Package
+Title: Performs the Joint Graphical Lasso for sparse inverse covariance
+        estimation on multiple classes
+Version: 2.1
+Date: 2012-07-20
+Author: Patrick Danaher
+Maintainer: Patrick Danaher <pdanaher@uw.edu>
+Description: The Joint Graphical Lasso is a generalized method for
+        estimating Gaussian graphical models/ sparse inverse covariance
+        matrices/ biological networks on multiple classes of data.  We
+        solve JGL under two penalty functions: The Fused Graphical
+        Lasso (FGL), which employs a fused penalty to encourage inverse
+        covariance matrices to be similar across classes, and the Group
+        Graphical Lasso (GGL), which encourages similar network
+        structure between classes.  FGL is recommended over GGL for
+        most applications.
+Depends: igraph
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-07-26 22:02:54 UTC; pdanaher
+Repository: CRAN
+Date/Publication: 2012-07-27 05:42:17

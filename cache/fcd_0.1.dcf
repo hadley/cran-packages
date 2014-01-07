@@ -1,0 +1,15 @@
+Package: fcd
+Type: Package
+Title: Fused Community Detection
+Version: 0.1
+Date: 2013-12-27
+Author: Yang Feng, Richard J. Samworth and Yi Yu
+Maintainer: Yi Yu <y.yu@statslab.cam.ac.uk>
+Depends: R (>= 2.15.1), glmnet, MASS, combinat
+Description: Efficient procedures for community detection in network studies, especially for sparse networks with not very obvious community structure. The algorithms impose penalties on the differences of the coordinates which represent the community labels of the nodes.
+License: GPL (>= 2.0)
+LazyLoad: yes
+Packaged: 2013-12-15 16:45:53 UTC; Yi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-15 17:52:32

@@ -1,0 +1,14 @@
+Package: ISwR
+Version: 2.0-3
+Date: 2009-2-19
+Title: Introductory Statistics with R
+Author: Peter Dalgaard
+Maintainer: Peter Dalgaard <p.dalgaard@biostat.ku.dk>
+Description: Data sets and scripts for text examples and exercises in 
+  P. Dalgaard (2008), `Introductory Statistics with R', 2nd ed., Springer Verlag, ISBN 978-0387790534.  
+Depends: R (>= 2.6.0)
+Suggests: survival
+License: GPL (>= 2)
+ZipData: no
+LazyData: yes
+Packaged: Thu Feb 19 22:37:07 2009; pd

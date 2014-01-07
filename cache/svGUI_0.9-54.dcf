@@ -1,0 +1,17 @@
+Package: svGUI
+Type: Package
+Version: 0.9-54
+Date: 2013-01-27
+Title: SciViews GUI API - Functions to manage GUIs
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"))
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 2.6.0)
+Description: Functions to manage GUIs from R
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2013-01-27 21:20:15 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-28 07:37:41

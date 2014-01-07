@@ -1,0 +1,20 @@
+Package: kinfit
+Type: Package
+Title: Routines for fitting kinetic models to chemical degradation data
+Version: 1.1.06
+Date: 2011-11-09
+Author: Johannes Ranke and Katrin Lindenberger
+Maintainer: Johannes Ranke <jranke@users.berlios.de>
+Description: Simple calculation routines based on the FOCUS Kinetics 
+ Report (2006). Only kinetic models for parent only datasets are 
+ included (no metabolite formation/decline or multicompartment kinetics).
+ Please note that no warranty is implied for correctness of results or
+ fitness for a particular purpose.
+License: GPL
+LazyLoad: yes
+LazyData: yes
+URL: http://cran.r-project.org,
+        http://developer.berlios.de/projects/mkin/
+Packaged: 2011-11-09 10:50:41 UTC; jranke
+Repository: CRAN
+Date/Publication: 2011-11-09 19:47:10

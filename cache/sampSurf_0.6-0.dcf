@@ -1,0 +1,44 @@
+Package: sampSurf
+Type: Package
+Title: Sampling Surface Simulation for Areal Sampling Methods
+Version: 0.6-0
+Date: 29-Dec-2011
+Author: Jeffrey H. Gove
+Maintainer: Jeffrey H. Gove <jgove@fs.fed.us>
+Depends: R (>= 2.13.1), methods(>= 2.13.1), sp(>= 0.9-84), raster(>=
+        1.9-5), rasterVis(>= 0.10-3), gpclib(>= 1.5-1)
+Suggests: rgl
+Description: This package provides the base classes and routines for
+        sampling surface simulation useful in the comparison of
+        different areal sampling methods in forestry, ecology and
+        natural resources.
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: yes
+Collate: zzz.R transparentColorBase.R initRandomSeed.R boltDimensions.R
+        taperInterpolate.R bboxCheck.R bboxToPoly.R bboxSum.R
+        defStemEnv.R transfMatrix.R spCircle.R sampleLogs.R
+        sampleTrees.R sampSurfClassUnions.R chainsawSliver.R
+        StemClass.R StemContainerClass.R TractClass.R
+        TractConstructors.R downLog.R downLogs.R standingTree.R
+        standingTrees.R ArealSamplingClass.R
+        ArealSamplingConstructors.R InclusionZoneClass.R
+        InclusionZoneConstructors.R izContainer.R
+        izContainerConstructors.R InclusionZoneGridClass.R
+        InclusionZoneGridConstructors.R izGridConstruct.R
+        sampSurfClass.R sampSurfConstructors.R hist.R plotStem.R
+        plotStemContainer.R plotArealSampling.R plotInclusionZone.R
+        plotInclusionZoneGrid.R plotTract.R plotizContainer.R
+        plotSampSurf.R showArealSampling.R showInclusionZone.R
+        showInclusionZoneGrid.R showStem.R showTract.R showSampSurf.R
+        summaryStem.R summaryStemContainer.R summaryArealSampling.R
+        summaryInclusionZone.R summaryIZContainer.R
+        summaryInclusionZoneGrid.R summaryTract.R summarySampSurf.R
+        setAsStem.R setAsizContainer.R bbox.R perimeter.R area.R
+        heapIZ.R gridCellEnhance.R plot3D.R
+URL: http://sampsurf.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: sampsurf
+Repository/R-Forge/Revision: 46
+Date/Publication: 2012-01-13 21:56:39
+Packaged: 2012-01-13 21:56:04 UTC; ripley

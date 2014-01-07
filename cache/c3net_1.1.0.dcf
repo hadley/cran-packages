@@ -1,0 +1,16 @@
+Package: c3net
+Version: 1.1.0
+Title: Infering large-scale gene networks with C3NET
+Date: 2011-01
+Author: Gokmen Altay, Frank Emmert-Streib
+Description: This package allows inferring gene regulatory networks
+        with direct physical interactions from microarray expression
+        data using C3NET.
+Maintainer: Gokmen Altay <altayscience@gmail.com>
+License: GPL (>= 3)
+Depends: R (>= 2.12.1), igraph
+Repository: CRAN
+Repository/R-Forge/Project: c3net
+Repository/R-Forge/Revision: 20
+Date/Publication: 2011-01-27 10:53:57
+Packaged: 2011-01-24 21:44:21 UTC; rforge

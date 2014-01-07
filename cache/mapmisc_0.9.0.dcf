@@ -1,0 +1,17 @@
+Package: mapmisc
+Type: Package
+Title: Utilities for producing maps
+Version: 0.9.0
+Date: 2013-11-13
+Depends: sp, raster, R (>= 3.0.0)
+Imports: geonames, RColorBrewer, rgdal, classInt
+Suggests: geostatsp, knitr
+Author: Patrick Brown <patrick.brown@utoronto.ca>
+Maintainer: Patrick Brown <patrick.brown@utoronto.ca>
+Description: This package contains various utilities for producing nice looking maps in R.
+License: GPL
+VignetteBuilder: knitr
+Packaged: 2013-11-23 15:18:42 UTC; patrick
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-23 17:09:47

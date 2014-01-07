@@ -1,0 +1,21 @@
+Package: remix
+Maintainer: David Hajage <dhajage@gmail.com>
+License: GPL (>= 2)
+Title: Remix your data
+Type: Package
+LazyLoad: yes
+Author: David Hajage
+Description: remix provides remix, a quick and easy function for
+        describing datasets. It can be view as a mix of cast (in
+        package reshape) and summary.formula (in package Hmisc).
+Version: 2.0
+URL: http://eusebe.github.com/remix/, http://github.com/eusebe/remix/
+Date: 2010-03-26
+Depends: plyr, survival
+Imports: Hmisc, ascii
+Collate: 'correlation.r' 'element.r' 'freq.r' 'funs.r' 'na.r' 'parse.r'
+        'rbind.r' 'remix.r' 'summarize.by.r' 'summarize.r' 'survival.r'
+        'table.r' 'tabular.r' 'test.r'
+Packaged: 2011-09-28 09:49:00 UTC; david
+Repository: CRAN
+Date/Publication: 2011-09-29 11:28:13

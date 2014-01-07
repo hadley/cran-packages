@@ -1,0 +1,17 @@
+Package: RcmdrPlugin.epack
+Type: Package
+Title: Rcmdr plugin for time series
+Version: 1.2.1
+Date: 2009-04-15
+Author: Erin Hodgess<hodgesse@uhd.edu>
+Maintainer: Erin Hodgess <hodgesse@uhd.edu>
+Depends: Rcmdr (>= 1.3-9), rgl, TeachingDemos, tseries, abind,MASS
+Description: This package provides an Rcmdr "plug-in" based on the time
+        series functions.  Contributors: G. Jay Kerns, John Fox, and
+        Richard Heiberger.
+License: GPL (>= 2)
+Log-Exceptions: garch
+Models: Arima, garch, HoltWinters
+Packaged: Wed Apr 15 02:09:37 2009; hodgesse
+Repository: CRAN
+Date/Publication: 2009-04-15 08:16:47

@@ -1,0 +1,23 @@
+Package: PP
+Type: Package
+Title: Person Parameter estimation
+Version: 0.2
+Date: 2012-06-22
+Author: Manuel Reif
+Maintainer: Manuel Reif <mreif@wu.ac.at>
+Description: The PP package includes estimation of (MLE and WLE) person
+        parameters for the 3-PL model (three parameter logistic model)
+        and the GPCM (generalized partial credit model). The parameters
+        are estimated under the assumption that the other parameters
+        are known and fixed. The PP package also provides two functions
+        to estimate person parameters for the 1-PL (Rasch Model). The
+        package could be useful when items from an itempool/itembank
+        with known item parameters are administered to a new population
+        of testtakers and an ability estimation for every testtaker is
+        needed.
+License: GPL
+LazyLoad: yes
+Depends: R (>= 2.15.0), splines
+Packaged: 2012-06-22 09:24:01 UTC; manuel
+Repository: CRAN
+Date/Publication: 2012-06-22 10:37:56

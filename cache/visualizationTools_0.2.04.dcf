@@ -1,0 +1,20 @@
+Package: visualizationTools
+Type: Package
+Title: Package contains a few functions to visualize statistical
+        circumstances.
+Suggests: utils, stats, grDevices, graphics
+Depends: R (>= 2.12.2),utils, stats, grDevices, graphics
+Version: 0.2.04
+Date: 2011-07-21
+Author: Thomas Roth Etienne Stockhausen
+Maintainer: T. Roth <thomas.roth@tu-berlin.de> E. Stockhausen
+        <stocdarf@mailbox.tu-berlin.de>
+Description: Package contains function to visualize a t-test, the power
+        of a t-test, control charts and the influence of regulating
+        them, Oc-curves, the Law of large Numbers and confidence
+        intervals.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-10-19 12:32:05 UTC; stockhausen
+Repository: CRAN
+Date/Publication: 2011-10-19 13:19:33

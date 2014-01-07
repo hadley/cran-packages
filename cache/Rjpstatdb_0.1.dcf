@@ -1,0 +1,16 @@
+Package: Rjpstatdb
+Type: Package
+Title: R interface of the Gateway to Advanced and User-friendly
+        Statistics Service
+Version: 0.1
+Date: 2013-08-21
+Author: Kiwamu Ishikura
+Maintainer: Kiwamu Ishikura <ishikura.kiwamu@gmail.com>
+Description: R interface to statistical database organized by Japanese government (http://statdb.nstac.go.jp/)
+Depends: methods, RCurl, XML
+License: GPL (>= 2)
+URL: https://github.com/i-kiwamu/Rjpstatdb
+Packaged: 2013-08-22 03:29:29 UTC; kiwamu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-22 07:11:51

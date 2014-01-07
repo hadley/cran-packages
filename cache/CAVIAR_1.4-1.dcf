@@ -1,0 +1,21 @@
+Package: CAVIAR
+Version: 1.4-1
+Date: 2012-01-11
+Title: Collection of Functions for Processing, Visualizing and
+        Analyzing Cambial Activity and Wood Formation Monitoring Data
+Authors@R: c(person("Cyrille", "Rathgeber", role=c("aut", "cre"),
+        email="cyrille.rathgeber@nancy.inra.fr"))
+Author: Cyrille Rathgeber <cyrille.rathgeber@nancy.inra.fr>
+Maintainer: Cyrille Rathgeber <cyrille.rathgeber@nancy.inra.fr>
+Depends: R (>= 2.10.1)
+Suggests: gdata (>= 2.7.2)
+Description: Allows processing, visualisation and analysis of data
+        coming from cambial activity and wood formation monitoring
+        studies.
+License: GPL (>= 2)
+LazyLoad: yes
+URL:
+        http://www.nancy.inra.fr/foret_bois_lerfob/personnels_de_l_umr/scientifiques/rathgeber_cyrille
+Packaged: 2012-01-16 09:35:50 UTC; cyrillerathgeber
+Repository: CRAN
+Date/Publication: 2012-01-16 14:11:33

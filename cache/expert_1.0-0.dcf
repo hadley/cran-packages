@@ -1,0 +1,20 @@
+Package: expert
+Type: Package
+Title: Modeling without data using expert opinion
+Version: 1.0-0
+Date: 2008-09-01
+Author: Mathieu Pigeon, Michel Jacques, Vincent Goulet
+Maintainer: Mathieu Pigeon <mathieu.pigeon.3@ulaval.ca>
+Description: Expert opinion (or judgment) is a body of techniques to
+  estimate the distribution of a random variable when data is scarce
+  or unavailable. Opinions on the quantiles of the distribution are
+  sought from experts in the field and aggregated into a final
+  estimate. The package supports aggregation by means of the Cooke,
+  Mendel-Sheridan and predefined weights models.
+Depends: R (>= 2.6.0), stats
+License: GPL (>= 2)
+Encoding: latin1
+LazyLoad: yes
+LazyData: yes
+ZipData: yes
+Packaged: Thu Oct  2 08:11:47 2008; vincent

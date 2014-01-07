@@ -1,0 +1,14 @@
+Package: hmm.discnp
+Version: 0.0-9
+Date: 2000-02-26
+Title: Hidden Markov models with discrete non-parametric
+	observation distributions.
+Author: Rolf Turner <r.turner@auckland.ac.nz> and Limin Liu.
+Maintainer:	Rolf Turner <r.turner@auckland.ac.nz>
+Depends: R (>= 0.99)
+Description: Fits hidden Markov models with discrete non-parametric 
+        observation distributions to data sets.  Simulates data
+	from such models.
+License: GPL version 2 or newer
+URL: http://www.math.unb.ca/~rolf/
+Packaged: Thu Feb 26 08:40:57 2009; hornik

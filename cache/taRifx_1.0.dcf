@@ -1,0 +1,19 @@
+Package: taRifx
+Type: Package
+Title: Collection of utility and convenience functions, and some
+        interesting spatial functions
+Version: 1.0
+Date: 2010-11-08
+Author: Ari B. Friedman
+Maintainer: Ari B. Friedman <abfriedman@gmail.com>
+Description: A collection of various utility and convenience functions,
+        with particular strength in GIS-like spatial object
+        manipulation.
+License: GPL (>= 2)
+LazyLoad: yes
+Suggests: xtable, grid, lattice, gdata, fields, maps, geoR, sp,
+        maptools, shapefiles, spatial, rgdal, mapproj, akima, mgcv,
+        lattice, caTools, pspline, grid, RODBC
+Packaged: 2011-07-26 23:23:04 UTC; ari
+Repository: CRAN
+Date/Publication: 2011-07-27 05:37:23

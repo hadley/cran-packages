@@ -1,0 +1,11 @@
+Package: timereg
+Version: 1.1-0
+Date: 2008-30-06
+Title: timereg package 
+Author: Thomas Scheike with contributions from Torben Martinussen and Jeremy Silver
+Maintainer: Thomas Scheike <ts@biostat.ku.dk>
+Description: Programs for Martinussen and Scheike (2006), `Dynamic Regression Models for Survival Data', Springer Verlag.  Plus more recent developments. 
+Depends: survival, R (>= 2.4.0) 
+LazyLoad: no
+License: GPL (version 2 or later)
+Packaged: Fri Aug  8 14:16:19 2008; ts

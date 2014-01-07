@@ -1,0 +1,18 @@
+Package: rmmseg4j
+Type: Package
+Title: R interface to the Java Chinese word segmentation system of
+        mmseg4j
+Version: 0.1-0
+Date: 2012-06-16
+Author: HUANG Ronggui
+Maintainer: HUANG Ronggui <ronggui.huang@gmail.com>
+Depends: rJava
+Description: This package uses mmseg4j to provide a function to segment
+        a Chinese sentence into words which are seperated by space. The
+        returned value can be processed by tm package directly.
+License: Apache License 2.0
+Encoding: UTF-8
+LazyLoad: yes
+Packaged: 2012-06-18 10:22:53 UTC; rghuang
+Repository: CRAN
+Date/Publication: 2012-06-18 15:15:13

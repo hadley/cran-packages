@@ -1,0 +1,18 @@
+Package: agridat
+Type: Package
+Title: Agricultural datasets
+Version: 1.01
+Date: 2011-04-30
+Author: Kevin Wright
+Maintainer: Kevin Wright <kw.stat@gmail.com>
+Description: Datasets from books and papers related to agriculture.
+        Simple analyses included.
+Depends: grid, lattice, latticeExtra, reshape2
+Suggests: agricolae, aod, FrF2, gam, gstat, hglm, HH, lme4, MASS,
+        MCMCglmm, nlme, pcaMethods, pls, rgl, rjags, survival, Zelig
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-04-30 15:12:31 UTC; wrightkevi
+Repository: CRAN
+Date/Publication: 2011-05-02 14:52:21

@@ -1,0 +1,27 @@
+Package: readBrukerFlexData
+Version: 1.6.1
+Date: 2013-03-28
+Title: Reads mass spectrometry data in Bruker *flex format
+Authors@R: person("Sebastian", "Gibb", role=c("aut", "cre"),
+        email="mail@sebastiangibb.de")
+Depends: R (>= 2.14.0)
+Suggests: MALDIquant (>= 1.0)
+Description: Reads data files acquired by MALDI-TOF MS on Bruker
+        Daltonics machines of the *flex series.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/maldiquant/
+        https://github.com/sgibb/readBrukerFlexData/
+BugReports: https://github.com/sgibb/readBrukerFlexData/issues/
+LazyLoad: yes
+Collate: 'cpSpecHpcMzXml-data.R' 'double2singlePrecision-functions.R'
+        'grepAcquValue-functions.R' 'hpc-functions.R'
+        'mqReadBrukerFlex-functions.R' 'package.R'
+        'readAcquFile-functions.R' 'readBrukerFlexDir-functions.R'
+        'readBrukerFlexFile-functions.R' 'readFidFile-functions.R'
+        'sampleName-functions.R' 'tof2mass-functions.R'
+Packaged: 2013-03-28 07:25:38 UTC; sebastian
+Author: Sebastian Gibb [aut, cre]
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-28 08:47:47

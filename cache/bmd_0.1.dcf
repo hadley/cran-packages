@@ -1,0 +1,13 @@
+Package: bmd
+Title: Benchmark dose analysis for dose-response data
+LazyLoad: yes
+LazyData: yes
+Version: 0.1
+Author: Christian Ritz <ritz@life.ku.dk>
+Maintainer: Christian Ritz <ritz@life.ku.dk>
+Description: Benchmark dose analysis for continuous and quantal dose-response data.
+License: GPL (>= 2)
+Depends: R (>= 2.6.0), drc
+Date: 2008-06-04
+URL: http://www.r-project.org
+Packaged: Wed Jun  4 22:19:54 2008; ritz

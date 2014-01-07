@@ -1,0 +1,17 @@
+Package: dyn
+Version: 0.2-1
+Date: 2004-05-23
+Title: Time Series Regression
+Author: Gabor Grothendieck
+Maintainer: Gabor Grothendieck <ggrothendieck@myway.com>
+Description: Time series regression.  The dyn class interfaces
+	     ts, irts, its, zoo and zooreg time series classes to
+	     lm, glm, loess, quantreg::rq, MASS::rlm, quantreg::rq,
+             randomForest::randomForest and other regression 
+	     functions allowing those functions to be used with 
+	     time series including specifications that may contain 
+             lags, diffs and missing values.
+Depends: R (>= 2.1.0), zoo (>= 0.9-9)
+Suggests: its, MASS, quantreg (>= 3.82), randomForest, tseries
+License: GPL
+Packaged: Tue May 24 04:47:15 2005; Grothendieck

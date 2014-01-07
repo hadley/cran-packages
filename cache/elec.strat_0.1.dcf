@@ -1,0 +1,18 @@
+Package: elec.strat
+Type: Package
+Title: Functions for election audits using stratified random samples
+Version: 0.1
+Date: 2011-07-19
+Author: Mike Higgins, Hua Yang
+Maintainer: Mike Higgins <mikehiggins83@gmail.com>
+Depends: elec
+Description: An extension of the elec package intended for use on
+        election audits using stratified random samples.  Includes
+        functions to obtain conservative and exact p-values, and
+        functions that give sample sizes that may make election audits
+        more efficient.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-07-25 07:26:45 UTC; michaelhiggins
+Repository: CRAN
+Date/Publication: 2011-07-25 20:42:58

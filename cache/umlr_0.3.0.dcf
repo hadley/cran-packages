@@ -1,0 +1,17 @@
+Package: umlr
+Title: Open Source Development with UML and R
+Version: 0.3.0
+Date: 2010-05-26
+Author: Charlotte Maia
+Maintainer: Charlotte Maia <maiagx@gmail.com>
+Description: A package to support open source development using UML and
+        R. Model specification is programmatic, however a simple GUI
+        can be used for layout. There's a strong emphasis on producing
+        static vector graphics (suitable for pdflatex). This package is
+        incomplete and experimental. Currently, inheritance diagrams
+        only.
+License: GPL (>= 2)
+Depends: ofp (>= 0.4.0)
+Packaged: 2010-05-26 07:24:51 UTC; maia
+Repository: CRAN
+Date/Publication: 2010-05-27 06:55:54

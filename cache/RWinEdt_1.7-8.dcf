@@ -1,0 +1,13 @@
+Package: RWinEdt
+Title: R-WinEdt
+Version: 1.7-8
+Date: 2007-10-17
+Author: Uwe Ligges <ligges@statistik.uni-dortmund.de>
+Description: A plug in for using WinEdt as an editor for R
+Maintainer: Uwe Ligges <ligges@statistik.uni-dortmund.de>
+Depends: R (>= 2.6.0), methods, utils
+SystemRequirements: Windows, WinEdt
+LazyLoad: true
+URL: http://www.winedt.com
+License: GPL-2
+Packaged: Wed Oct 17 12:12:22 2007; ligges

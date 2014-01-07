@@ -1,0 +1,14 @@
+Package: vscc
+Type: Package
+Title: Variable selection for clustering and classification
+Version: 0.2
+Date: 2013-11-16
+Author: Jeffrey L. Andrews, Paul D. McNicholas
+Maintainer: Jeffrey L. Andrews <jeffrey.andrews@macewan.ca>
+Description: Performs variable selection/feature reduction under a clustering or classification framework. In particular, it can be used in an automated fashion using mixture model-based methods (tEIGEN and MCLUST are currently supported).  
+License: GPL (>= 2)
+Imports: teigen, mclust
+Packaged: 2013-11-16 23:30:12 UTC; jeff
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-17 08:24:55

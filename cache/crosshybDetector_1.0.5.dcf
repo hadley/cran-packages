@@ -1,0 +1,20 @@
+Package: crosshybDetector
+Type: Package
+Title: Detection of cross-hybridization events in microarray
+        experiments
+Version: 1.0.5
+Date: 2010-03-15
+Author: Paolo Uva <paolo.uva@gmail.com>
+Maintainer: Paolo Uva <paolo.uva@gmail.com>
+Description: Functions for identification of probes potentially
+        affected by cross-hybridizations in microarray experiments.
+        Includes functions for diagnostic plots. The package contains
+        code from the dismissed pairseqsim package (removed in
+        BioConductor > 1.9 ), created by Witold Wolski
+        <witek96@users.sourceforge.net> and released under GNU LGPL
+        license
+License: LGPL
+Depends: R (>= 2.10), marray, methods
+Packaged: 2012-07-23 09:52:02 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:32

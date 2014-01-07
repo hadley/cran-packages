@@ -1,0 +1,18 @@
+Package: intamap
+Version: 1.3-37
+Date: 2013-11-25
+Title: procedures for automated interpolation
+Author: Edzer Pebesma <edzer.pebesma@uni-muenster.de>, Jon Olav Skoien <jon.skoien@gmail.com>  with contributions from Olivier Baume, A.Chorti, D.T. Hristopulos, H. Kazianka, S.J. Melles, G. Spiliopoulos
+Maintainer: Jon Olav Skoien <jon.skoien@gmail.com>
+Depends: R (>= 2.14.0), sp (>= 0.9-0)
+Imports: gstat (>= 0.9-36), automap, mvtnorm, MASS, evd
+Suggests: doParallel, rgdal
+Enhances: psgp
+Description: A package that provides classes and methods for automated
+  spatial interpolation.
+License: GPL (>= 2)
+URL: http://www.intamap.org/
+Packaged: 2013-11-25 13:15:37 UTC; skoiejo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-25 15:26:47

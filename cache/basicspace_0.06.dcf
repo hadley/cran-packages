@@ -1,0 +1,16 @@
+Package: basicspace
+Version: 0.06
+Date: 2012-08-02
+Title: A Package to Recover a Basic Space from Issue Scales
+Author: Keith Poole <ktpoole@uga.edu>, Howard Rosenthal
+        <rosentha@princeton.edu>, Jeffrey Lewis <jblewis@ucla.edu>,
+        James Lo <lo@uni-mannheim.de> and Royce Carroll
+        <rcarroll@rice.edu>
+Maintainer: James Lo <lo@uni-mannheim.de>
+Depends: R (>= 2.3.1), tools (>= 2.0.0)
+Description: Conducts Aldrich-McKelvey and Blackbox Scaling to Recover
+        Latent Dimensions of Judgment
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2012-08-02 20:42:39
+Packaged: 2012-08-02 19:27:19 UTC; jalo

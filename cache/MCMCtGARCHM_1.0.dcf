@@ -1,0 +1,14 @@
+Package: MCMCtGARCHM
+Version: 1.0
+Date: 2009-10-31
+Title: MCMCtGARCHM package
+Author: Ken Ren
+Maintainer: Ken Ren <ken.ren@abs.gov.au>
+Depends: R (>= 2.0.1)
+Description: MCMC estimation for GARCH (1, 1) in mean with Student-t
+        distribution using the random-walk MetropolisHastings
+        algorithm.
+License: GPL (>= 2)
+Packaged: Mon Nov 2 18:14:56 2009; @work
+Repository: CRAN
+Date/Publication: 2009-11-02 07:46:16

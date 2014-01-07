@@ -1,0 +1,14 @@
+Package: scrapeR
+Type: Package
+Title: Functions for Scraping Data from HTML and XML Documents
+Version: 0.1
+Date: 2009-10-12
+Author: Ryan M. Acton <racton@uci.edu>
+Maintainer: Ryan M. Acton <racton@uci.edu>
+Depends: XML,RCurl
+Description: Functions for Scraping Data from Web-Based Documents
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-01-11 07:10:53 UTC; ryan
+Repository: CRAN
+Date/Publication: 2010-01-11 07:42:50

@@ -1,0 +1,20 @@
+Package: abd
+Type: Package
+Title: The Analysis of Biological Data
+Version: 0.1-21
+Date: 2011-8-1
+Author: Kevin M. Middleton <kmm@csusb.edu>, Randall Pruim
+        <rpruim@calvin.edu>
+Maintainer: Kevin M. Middleton <kmm@csusb.edu>
+Depends: R (>= 2.10), nlme, lattice, grid
+Suggests: boot, car, ggplot2, plyr, HH, vcd, Hmisc
+Description: The abd package contains data sets and sample code for The
+        Analysis of Biological Data by Michael Whitlock and Dolph
+        Schluter (2009; Roberts & Company Publishers).
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Encoding: UTF-8
+Packaged: 2011-08-02 22:09:20 UTC; rpruim
+Repository: CRAN
+Date/Publication: 2011-08-03 07:35:59

@@ -1,0 +1,24 @@
+Package: msm
+Version: 1.2
+Date: 2013-05-14
+Title: Multi-state Markov and hidden Markov models in continuous time
+Author: Christopher Jackson <chris.jackson@mrc-bsu.cam.ac.uk>
+Maintainer: Christopher Jackson <chris.jackson@mrc-bsu.cam.ac.uk>
+Description: Functions for fitting general continuous-time Markov and
+        hidden Markov multi-state models to longitudinal data.  A
+        variety of observation schemes are supported, including
+        processes observed at arbitrary times (panel data),
+        continuously-observed processes, and censored states. Both
+        Markov transition rates and the hidden Markov output process
+        can be modelled in terms of covariates, which may be constant
+        or piecewise-constant in time.
+License: GPL (>= 2)
+Imports: survival,mvtnorm
+Suggests: mstate,diagram
+Repository: CRAN
+Repository/R-Forge/Project: msm
+Repository/R-Forge/Revision: 14
+Repository/R-Forge/DateTimeStamp: 2013-05-14 15:20:28
+Date/Publication: 2013-05-15 19:23:46
+Packaged: 2013-05-14 18:18:52 UTC; rforge
+NeedsCompilation: yes

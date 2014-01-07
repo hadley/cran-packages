@@ -1,0 +1,14 @@
+Package: LSMonteCarlo
+Type: Package
+Title: American options pricing with Least Squares Monte Carlo method
+Version: 1.0
+Date: 2013-09-20
+Author: Mikhail A. Beketov
+Maintainer: Mikhail A. Beketov <mikhail.beketov@gmx.de>
+Description: The package compiles functions for calculating prices of American put options with Least Squares Monte Carlo method. The option types are plain vanilla American put, Asian American put, and Quanto American put. The pricing algorithms include variance reduction techniques such as Antithetic Variates and Control Variates. Additional functions are given to derive "price surfaces" at different volatilities and strikes, create 3-D plots, quickly generate Geometric Brownian motion, and calculate prices of European options with Black & Scholes analytical solution.
+License: GPL-3
+Depends: mvtnorm, fBasics, stats, utils, graphics, grDevices
+Packaged: 2013-09-23 19:14:13 UTC; mikhailbeketov
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-23 23:07:43

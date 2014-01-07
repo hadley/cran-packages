@@ -1,0 +1,15 @@
+Package: enRich
+Type: Package
+Title: An R package for the analysis of multiple ChIP-seq data
+Version: 2.0
+Date: 2013-09-24
+Author: Yanchun Bao <yanchun.bao@brunel.ac.uk>, Veronica Vinciotti<veronica.vinciotti@brunel.ac.uk>
+Maintainer: Yanchun Bao <yanchun.bao@brunel.ac.uk>
+Description: enRich is an R package for joint statistical modelling of ChIP-seq data, accounting for technical/biological replicates, multiple conditions and different ChIP efficiencies of the individual experiments.
+Depends: R(>= 2.15.3), parallel
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-09-24 08:40:31 UTC; masryyb
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-24 11:20:59

@@ -1,0 +1,20 @@
+Package: npsp
+Type: Package
+Title: Nonparametric spatial (geo)statistics
+Version: 0.2-4
+Date: 2013-11-01
+Author: Ruben Fernandez-Casal
+Maintainer: Ruben Fernandez-Casal <rubenfcasal@gmail.com>
+Depends: R (>= 2.14.0)
+Imports: quadprog
+Suggests: sp, gstat, geoR, fields, DEoptim
+Description: Multidimensional nonparametric spatio-temporal geostatistics. 
+    S3 classes and methods for multidimensional: gridded data, linear binning, 
+    local polynomial kernel regression, density and variogram estimation. 
+    Nonparametric methods for trend and/or variogram inferences. 
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2013-11-03 20:38:42 UTC; ruben.fcasal
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-04 08:13:41

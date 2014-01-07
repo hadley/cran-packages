@@ -1,0 +1,11 @@
+Package: msm
+Version: 0.1
+Date: November 2002
+Title: Multi-state Markov models in continuous time
+Author: Christopher H. Jackson <chris.jackson@ic.ac.uk>
+Maintainer: Christopher H. Jackson <chris.jackson@ic.ac.uk>
+Description: Functions for fitting continuous-time Markov multi-state
+ models to categorical processes observed at arbitrary times,
+ optionally with misclassified responses, and covariates on transition
+ or misclassification rates.
+License: GPL version 2 or newer

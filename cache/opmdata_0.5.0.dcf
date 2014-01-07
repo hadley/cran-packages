@@ -1,0 +1,26 @@
+Package: opmdata
+Version: 0.5.0
+Date: 2013-04-13
+Title: Example data for analyzing OmniLog(R) Phenotype Microarray data
+Author: Markus Goeker, with contributions by Lea A.I. Vaas and Johannes
+        Sikorski
+Maintainer: Markus Goeker <markus.goeker@dsmz.de>
+Depends: R (>= 2.10), opm
+Enhances: opm
+Description: The package `opm' provides tools for analyzing OmniLog(R)
+        Phenotype Microarray (PM) data as produced by the device
+        distributed by BIOLOG Inc. The package `opmdata' contains the
+        entire example dataset from Vaas et al. (2012), which has been
+        removed from `opm' due to its size.
+License: GPL (>= 2)
+URL: http://opm.dsmz.de/
+Collate: 'data.R' 'hooks.R'
+LazyData: yes
+LazyDataCompression: bzip2
+Repository: CRAN
+Repository/R-Forge/Project: opm
+Repository/R-Forge/Revision: 147
+Repository/R-Forge/DateTimeStamp: 2013-04-13 11:14:49
+Date/Publication: 2013-04-14 07:15:33
+Packaged: 2013-04-13 14:15:31 UTC; rforge
+NeedsCompilation: no

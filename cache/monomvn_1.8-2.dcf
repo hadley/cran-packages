@@ -1,0 +1,29 @@
+Package: monomvn
+Type: Package
+Title: Estimation for multivariate normal and Student-t data with
+        monotone missingness
+Version: 1.8-2
+Date: 2010-04-21
+Author: Robert B. Gramacy <bobby@statslab.cam.ac.uk>
+Maintainer: Robert B. Gramacy <bobby@statslab.cam.ac.uk>
+Description: Estimation of multivariate normal and student-t data of
+        arbitrary dimension where the pattern of missing data is
+        monotone. Through the use of parsimonious/shrinkage regressions
+        (plsr, pcr, lasso, ridge, etc.), where standard regressions
+        fail, the package can handle a nearly arbitrary amount of
+        missing data. The current version supports maximum likelihood
+        inference and a full Bayesian approach employing scale-mixtures
+        for the lasso (double-exponential) and Normal-Gamma priors, and
+        Student-t errors.  Monotone data augmentation extends this
+        Bayesian approach to arbitrary missingness patterns. A fully
+        functional standalone interface to the Bayesian lasso (from
+        Park & Casella), Normal-Gamma (from Griffin & Brown), and ridge
+        regression with model selection via Reversible Jump, and
+        student-t errors (from Geweke) is also provided
+Depends: R (>= 2.4), pls, lars, MASS
+Suggests: quadprog, mvtnorm, accuracy
+License: LGPL
+URL: http://www.statslab.cam.ac.uk/~bobby/monomvn.html
+Packaged: 2010-04-22 00:58:18 UTC; bobby
+Repository: CRAN
+Date/Publication: 2010-04-22 06:21:00

@@ -1,0 +1,17 @@
+Package: Animal
+Type: Package
+Title: Analyze time-coded behavioral observations
+Version: 1.0
+Date: 2008-12-18
+Author: Matti Pastell <matti.pastell@helsinki.fi>
+Maintainer: Matti Pastell <matti.pastell@helsinki.fi>
+Description: A set of functions to analyze time-coded animal behavior
+        data. The package is designed to be used with data files from
+        CowLog (An Open source software for coding behaviors from
+        digital video), but it can be used with any data file with
+        similar format.
+License: GPL (>=3)
+LazyLoad: yes
+Repository: CRAN
+Packaged: Wed Mar 18 11:49:24 2009; mpastell
+Date/Publication: 2009-03-18 12:48:31

@@ -1,0 +1,19 @@
+Package: Lambda4
+Type: Package
+Title: Estimation techniques for the reliability estimate: Maximized
+        Lambda4
+Version: 2.1
+Date: 2012-07-10
+Author: Tyler Hunt
+Maintainer: <tyler.hunt@utah.edu>
+Description: Currently the package includes 4 functions.  Three of
+        which are different methods of calculating Guttman's lambda4
+        coefficient.  One allows the user to select the item splits.
+        The remaining two are new methods to calculate reliability.
+        Both are based on a combination of Cronbach's alpha and
+        Maximal-type reliability coefficients but use different
+        maximization procedures.
+License: GPL (>= 2)
+Packaged: 2012-09-21 04:57:37 UTC; wzp311
+Repository: CRAN
+Date/Publication: 2012-09-21 05:14:30

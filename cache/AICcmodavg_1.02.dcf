@@ -1,0 +1,26 @@
+Package: AICcmodavg
+Type: Package
+Title: Model selection and multimodel inference based on (Q)AIC(c)
+Version: 1.02
+Date: 2009-09-29
+Author: Marc J. Mazerolle <marc.mazerolle@uqat.ca>.  Special thanks to
+        T. Ergon for the original idea of storing candidate models in a
+        list.
+Maintainer: Marc J. Mazerolle <marc.mazerolle@uqat.ca>
+Suggests: MASS, nlme, nnet
+Description: This package includes functions to create model selection
+        tables based on Akaike's information criterion (AIC) and the
+        second-order AIC (AICc), as well as their quasi-likelihood
+        counterparts (QAIC, QAICc).  Tables are printed with delta AIC
+        and Akaike weights.  The package also includes functions to
+        conduct model averaging (multimodel inference) for a given
+        parameter of interest or predicted values.  Other handy
+        functions enable the computation of relative variable
+        importance, evidence ratios, and confidence sets for the best
+        model. The present version works with lm, glm, multinom, and
+        lme object classes.
+License: GPL (>= 2 )
+LazyLoad: yes
+Packaged: 2009-09-30 01:56:05 UTC; mazerolm
+Repository: CRAN
+Date/Publication: 2009-09-30 18:55:38

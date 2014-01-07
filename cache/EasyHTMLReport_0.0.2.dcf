@@ -1,0 +1,16 @@
+Package: EasyHTMLReport
+Type: Package
+Title: Easy to send HTML reports.
+Version: 0.0.2
+Date: 2013-03-24
+Author: Yohei Sato
+Maintainer: Yohei Sato <yokkuns@tkul.jp>
+Description: It is a package of easy to send HTML reports. If
+        sendmailR(<= 1.1-2) please install a modified version of me.
+        https://github.com/yokkuns/sendmailR.
+License: BSD
+Depends: sendmailR,markdown,knitr(>= 0.7)
+Packaged: 2013-03-24 01:15:07 UTC; sato.yohei
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-24 15:25:56

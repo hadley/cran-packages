@@ -1,0 +1,12 @@
+Package: tpr
+Type: Package
+Title: Temporal Process Regression
+Version: 0.2-3
+Date: 2007-12-25
+Author: Jun Yan 
+Maintainer: Jun Yan <jyan@stat.uconn.edu>
+Description: Regression models for temporal process responses with 
+	time-varying coefficient. 
+Depends: stats, lgtdl
+License: GPL (>=2)
+Packaged: Mon Dec 24 17:16:27 2007; jyan

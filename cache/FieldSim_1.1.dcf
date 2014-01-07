@@ -1,0 +1,13 @@
+Package: FieldSim
+Version: 1.1
+Date: 2006-10-01
+Title: Random fields simulations
+Author: Alexandre Brouste <Alexandre.Brouste@imag.fr>, and
+        Sophie Lambert-Lacroix <Sophie.Lambert@imag.fr>.
+Maintainer: Sophie Lambert-Lacroix <Sophie.Lambert@imag.fr>
+Depends: R (>= 2.0.0)
+Suggests:
+Description: This package provides routines for simulate random fields.
+License: GPL version 2 or newer
+URL: http://cran.r-project.org/src/contrib/Descriptions/FieldSim.html
+Packaged: Thu Sep 13 14:50:50 2007; root

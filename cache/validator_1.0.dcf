@@ -1,0 +1,19 @@
+Package: validator
+Type: Package
+Title: External and Internal Validation Indices
+Version: 1.0
+Date: 2010-09-04
+Author: Marcus Scherl
+Depends: clv, clValid, flexclust, mlbench
+Maintainer: Marcus Scherl <marcus.scherl@gmx.net>
+Description: This package contains external and internal validation
+        indices. The internal validation functions are mainly
+        implemented in "cclust" and revised with small changes. The
+        external validation functions are using the similarity table
+        from the package "clv" and further external indices are
+        included in this package.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:58 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:58

@@ -1,0 +1,20 @@
+Package: powerpkg
+Type: Package
+Title: Power analyses for the affected sib pair and the TDT design
+Version: 1.2
+Date: 2005-07-30
+Author: Daniel E. Weeks	
+Maintainer: Daniel E. Weeks <dweeks@watson.hgen.pitt.edu>
+Description: (1) To estimate the power of testing for linkage using an
+  affected sib pair design, as a function of the recurrence risk ratios. We
+  will use analytical power formulae as implemented in R. These are based
+  on a Mathematica notebook created by Martin Farrall. (2) To examine how
+  the power of the transmission disequilibrium test (TDT) depends on the
+  disease allele frequency, the marker allele frequency, the strength of
+  the linkage disequilibrium, and the magnitude of the genetic effect. We
+  will use an R program that implements the power formulae of Abel and
+  Muller-Myhsok (1998). These formulae allow one to quickly compute power
+  of the TDT approach under a variety of different conditions. This R
+  program was modeled on Martin Farrall's Mathematica notebook.
+License: GPL version 2 or newer.
+Packaged: Wed Feb  8 12:58:56 2006; hornik

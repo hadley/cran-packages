@@ -1,0 +1,15 @@
+Package: miscF
+Title: Miscellaneous Functions
+Version: 0.1-1
+Author: Dai Feng
+Description: Various functions for random number generation, density
+        estimation, classification, curve fitting, and spatial data
+        analysis.
+Maintainer: Dai Feng <dai_feng@merck.com>
+Depends: R (>= 2.15.0), MCMCpack (>= 1.2-4), mvtnorm(>= 0.9-9992)
+Suggests: mixAK (>= 2.6)
+License: GPL
+Packaged: 2013-04-30 19:54:47 UTC; fengd
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-01 07:18:01

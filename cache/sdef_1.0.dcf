@@ -1,0 +1,16 @@
+Package: sdef
+Type: Package
+Title: Synthesizing List of Differentially Expressed Features
+Version: 1.0
+Date: 2009-08-14
+Author: Marta Blangiardo, Alberto Cassese
+Maintainer: Marta Blangiardo <m.blangiardo@imperial.ac.uk>, Alberto
+        Cassese <fratucster@gmail.com>
+Description: The package performs two tests to evaluate if the
+        experiments are associated and returns a list of interesting
+        feautres common to all the experiments.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-08-14 12:34:53 UTC; albantonio
+Repository: CRAN
+Date/Publication: 2009-08-14 20:03:30

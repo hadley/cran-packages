@@ -1,0 +1,20 @@
+Package: xlsxjars
+Type: Package
+Title: Package required POI jars for the xlsx package
+Version: 0.5.0
+Date: 2013-03-31
+Depends: rJava
+Imports: rJava
+LazyLoad: yes
+Author: Adrian A. Dragulescu
+Maintainer: Adrian A. Dragulescu <adrian.dragulescu@gmail.com>
+Description: The xlsxjars package collects all the external jars
+        required for the xlxs package.  These external jars are quite
+        large in size (15MB) and have a slow release cycle.  By
+        separating the Java and R development, the storage footprint on
+        CRAN is reduced.  This release corresponds to POI 3.9.
+License: GPL-3
+Repository: CRAN
+Packaged: 2013-03-31 15:00:09 UTC; adrian
+NeedsCompilation: no
+Date/Publication: 2013-05-21 00:37:18

@@ -1,0 +1,21 @@
+Package: ACNE
+Version: 0.4.3
+Date: 2011-08-01
+Title: Affymetrix SNP probe-summarization using non-negative matrix
+        factorization
+Author: Angel Rubio <arubio@ceit.es>, Maria Ortiz <mortiz@ceit.es>,
+        Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.10.0), R.methodsS3 (>= 1.2.1), R.oo (>= 1.8.1),
+        matrixStats (>= 0.2.2), aroma.affymetrix (>= 2.1.0), MASS
+Description: Package for NMF summarization of SNP probes.
+License: LGPL (>= 2.1)
+URL: http://r-forge.r-project.org/projects/snpsprocessing/
+LazyLoad: TRUE
+biocViews: Infrastructure, Microarray, DNACopyNumber, Preprocessing,
+        aCGH, SNP, CopyNumberVariants
+Repository: CRAN
+Repository/R-Forge/Project: snpsprocessing
+Repository/R-Forge/Revision: 138
+Date/Publication: 2011-09-16 17:43:12
+Packaged: 2011-08-02 20:33:48 UTC; rforge

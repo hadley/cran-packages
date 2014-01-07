@@ -1,0 +1,17 @@
+Package: lspls
+Type: Package
+Title: LS-PLS Models
+Version: 0.1-0
+Date: 2006-01-12
+Author: Bjørn-Helge Mevik
+Maintainer: Bjørn-Helge Mevik <bhx5@mevik.net>
+Encoding: latin1
+Depends: pls
+Description: Implements the LS-PLS (least squares - partial least squares)
+  method described in for instance Jørgensen, K., Segtnan, V. H., Thyholt, K.,
+  Næs, T. (2004)  A Comparison of Methods for Analysing Regression Models with
+  Both Spectral and Designed Variables.
+  Journal of Chemometrics, 18(10), 451--464.
+License: GPL version 2
+URL: http://mevik.net/work/software/lspls.html
+Packaged: Thu Jan 12 09:23:51 2006; bhm

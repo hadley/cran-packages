@@ -1,0 +1,25 @@
+Package: modelfree
+Type: Package
+Version: 1.1-1
+Date: 08/08/2012
+Title: Model-free estimation of a psychometric function
+Author: Ivan Marin-Franch <imarinfr@indiana.edu>, Kamila Zychaluk
+        <kamila.zychaluk@liverpool.ac.uk>, and David H. Foster
+        <d.h.foster@manchester.ac.uk>
+Maintainer: Kamila Zychaluk <kamila.zychaluk@liverpool.ac.uk>
+Depends: R (>= 2.8.1), PolynomF (>= 0.93), SparseM (>= 0.79), stats,
+        utils, base
+LazyLoad: yes
+LazyData: yes
+Description: Local linear estimation of psychometric functions.
+        Provides functions for nonparametric estimation of a
+        psychometric function and for estimation of a derived threshold
+        and slope, and their standard deviations and confidence
+        intervals
+URL: http://www.modelfree.manchester.ac.uk,
+        http://www.modelfree.liv.ac.uk,
+        http://modelfree.r-forge.r-project.org/
+License: GPL (>= 2)
+Packaged: 2012-08-09 12:50:21 UTC; zychaluk
+Repository: CRAN
+Date/Publication: 2012-08-09 14:45:26

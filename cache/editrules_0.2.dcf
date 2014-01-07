@@ -1,0 +1,19 @@
+Package: editrules
+Type: Package
+Title: Convert readable linear (in)equalities into matrix form.
+Version: 0.2
+Date: 2011-02-06
+Author: Edwin de Jonge
+Maintainer: Edwin de Jonge <edwindjonge@gmail.com>
+Description: Facilitates reading of linear (in)equalities, converting
+        them into matrix format (and vice versa) and checking if data
+        are valid according to these rules.  This package can be useful
+        as input for automatic correction methods (imputation).
+License: GPL-3
+LazyLoad: yes
+Depends:
+URL: http://code.google.com/p/editrules/
+Collate: 'check.R' 'editmatrix.R' 'editrules.R' 'pkg.R'
+Packaged: 2011-02-08 08:00:57 UTC; ejne
+Repository: CRAN
+Date/Publication: 2011-02-08 08:47:36

@@ -1,0 +1,40 @@
+Package: mosaic
+Type: Package
+Title: Project MOSAIC (mosaic-web.org) statistics and mathematics
+        teaching utilities
+Version: 0.6-2
+Date: 2012-09-03
+Depends: R (>= 2.10), lattice, grid, methods, survival, Hmisc, utils
+Suggests: MASS, reshape2, manipulate, vcd, RCurl, testthat
+Author: Randall Pruim <rpruim@calvin.edu>, Daniel Kaplan
+        <kaplan@macalester.edu>, Nicholas Horton <nhorton@smith.edu>
+Maintainer: Randall Pruim <rpruim@calvin.edu>
+Description: Data sets and utilities from Project MOSAIC
+        (mosaic-web.org) used to teach mathematics, statistics,
+        computation and modeling.  Funded by the NSF, Project MOSAIC is
+        a community of educators working to tie together aspects of
+        quantitative work that students in science, technology,
+        engineering and mathematics will need in their professional
+        lives, but which are usually taught in isolation, if at all.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Collate: 'favstats.R' 'CIsim.R' 'adapt_seq.R' 'aggregating.R'
+        'binom.test.R' 'confint.R' 'cross.R' 'dfapply.R' 'do.R'
+        'dotPlot.R' 'fetchData.R' 'findZeros.R' 'interval.R' 'ladd.R'
+        'linear-algebra.R' 'logit.R' 'perctable.R' 'pqrdata.R'
+        'prop.test.R' 'rand.R' 'read.file.R' 'resample.R' 'rfun.R'
+        'rgeo.R' 'settings.R' 'smoothers.R' 'statTally.R' 'surround.R'
+        'utils.R' 'xchisq.test.R' 'xhistogram.R' 'xpnorm.R' 'xqqmath.R'
+        'zzz.R' 'Calculus.R' 'mosaic-package.R' 'datasets.R' 'themes.R'
+        'integrateODE.R' 'is.wholenumber.R' 'parseFormula.R'
+        'plotFun.R' 'bargraph.R' 'as.xtabs.R' 'plotCumfreq.R'
+        'oddsRatio.R' 'plotDist.R' 'compareMean.R'
+        'compareProportion.R' 'numD.R' 'symbolicD.R' 'fetchGoogle.R'
+        'makeFun.R' 'tally.R' 'mm.R' 'expandFun.R' 'findZerosMult.R'
+        'project.R' 'fitModel.R' 'fitSpline.R' 'plotPoints.R'
+        'datasetsOLI.R' 'frequencyPolygon.R' 'panel.lmbands.R'
+        'simplify.R' 'symbolicInt.R' 'Tukey.R' 'evalFormula.R'
+Packaged: 2012-09-03 20:19:04 UTC; rpruim
+Repository: CRAN
+Date/Publication: 2012-09-04 06:07:32

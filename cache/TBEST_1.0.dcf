@@ -1,0 +1,14 @@
+Package: TBEST
+Type: Package
+Title: Tree Branches Evaluated Statistically for Tightness
+Version: 1.0
+Date: 2013-10-30
+Author: Guoli Sun, Alex Krasnitz
+Maintainer: Guoli Sun <gsun@cshl.edu>
+Description: Our method introduces mathematically well-defined measures for tightness of branches in a hierarchical tree. Statistical significance of the findings is determined, for all branches of the tree, by performing permutation tests, optionally with generalized pareto p-value estimation.
+License: GPL-2
+Depends: parallel, signal, qvalue
+Packaged: 2013-11-17 18:19:20 UTC; gsun
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-17 19:58:40

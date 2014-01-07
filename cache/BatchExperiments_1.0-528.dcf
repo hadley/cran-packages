@@ -1,0 +1,26 @@
+Package: BatchExperiments
+Title: Statistical experiments on batch computing clusters.
+Description: Extends the BatchJobs package to run statistical
+        experiments on batch computing clusters. For further details
+        see the project web page.
+Author: Bernd Bischl <bernd_bischl@gmx.net>, Michel Lang
+        <michellang@gmail.com>, Olaf Mersmann <olafm@p-value.net>
+Maintainer: Michel Lang <michellang@gmail.com>
+URL: http://batchjobs.googlecode.com
+License: BSD
+Depends: BBmisc, RSQLite, BatchJobs, plyr
+Suggests: randomForest, rpart, testthat
+LazyData: yes
+ByteCompile: yes
+Version: 1.0-528
+Collate: 'Algorithm.R' 'Experiment.R' 'ExperimentRegistry.R'
+        'Problem.R' 'addExperiments.R' 'applyJobFunction.R'
+        'database.R' 'designs.R' 'filenames.R' 'findExperiments.R'
+        'generateProblemInstance.R' 'getAlgorithm.R'
+        'getAlgorithmIds.R' 'getIndex.R' 'getJob.R' 'getProblem.R'
+        'getProblemIds.R' 'reduceResultsExperiments.R'
+        'removeAlgorithm.R' 'removeExperiments.R' 'removeProblem.R'
+        'setJobFunction.R' 'summarizeExperiments.R' 'testJob.R' 'zzz.R'
+Packaged: 2012-06-01 11:37:19 UTC; lang
+Repository: CRAN
+Date/Publication: 2012-06-01 12:45:43

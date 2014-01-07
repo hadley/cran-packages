@@ -1,0 +1,16 @@
+Package: lcmr
+Version: 1.6.26
+Date: 2011-02-13
+Title: lcmr package
+Author: Liangliang Wang <l.wang@stat.ubc.ca>, Nandini Dendukuri
+        <nandini.dendukuri@mcgill.ca>.
+Maintainer: Nandini Dendukuri <nandini.dendukuri@mcgill.ca>
+Depends: R (>= 2.10.1),statmod
+LazyLoad: yes
+LazyData: yes
+Description: Bayesian estimation of latent class models with random
+        effects
+License: GPL (>= 2)
+Packaged: 2011-02-14 05:47:23 UTC; liangliang
+Repository: CRAN
+Date/Publication: 2011-04-26 06:30:50

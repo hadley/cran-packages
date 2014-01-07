@@ -1,0 +1,11 @@
+Package: its
+Version: 1.0.6
+Date: 2005/05/16
+Title:  Irregular Time Series
+Author:  Portfolio & Risk Advisory Group, Commerzbank Securities
+Maintainer: Whit Armstrong <Whit.Armstrong@twinfieldscapital.com>
+Depends: R (>= 2.0.0), methods, stats, Hmisc
+Description: The its package contains an S4 class for handling irregular time series
+LazyLoad: yes
+License: GPL Version 2
+Packaged: Thu May 19 05:29:14 2005; whita

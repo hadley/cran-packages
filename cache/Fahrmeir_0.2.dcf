@@ -1,0 +1,16 @@
+Package: Fahrmeir
+Version: 0.2
+Date:    2005-10-05
+Title: Data from the book "Multivariate Statistical Modelling Based
+       on Generalized Linear Models" by Ludwig Fahrmeir and Gerhard Tutz
+Author:     compiled by Kjetil Halvorsen
+Maintainer: Kjetil Halvorsen <kjetil1001@gmail.com>
+Depends:    stats, R (>= 2.0.0)
+Suggests:   MASS    
+LazyData:   TRUE
+Description:  Data and functions for the book "Multivariate Statistical 
+              Modelling Based
+              on Generalized Linear Models" by 
+              Ludwig Fahrmeir and Gerhard Tutz
+License: GPL, version 2 or newer. 
+Packaged: Thu Oct  6 10:03:40 2005; halvorsen

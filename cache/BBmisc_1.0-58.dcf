@@ -1,0 +1,21 @@
+Package: BBmisc
+Title: Miscellaneous helper functions for B. Bischl.
+Description: Miscellaneous helper functions for and from B. Bischl and
+        some other guys at TU Dortmund, mainly for package development.
+Author: Bernd Bischl <bischl@statistik.tu-dortmund.de>, Michel Lang
+        <michellang@gmail.com>, Olaf Mersmann <olafm@datensplitter.net>
+Maintainer: Bernd Bischl <bischl@statistik.tu-dortmund.de>
+License: BSD
+Depends: stringr
+LazyData: yes
+ByteCompile: yes
+Version: 1.0-58
+Collate: 'catf.R' 'checkArg.R' 'checkListElementClass.R' 'coalesce.R'
+        'collapse.R' 'convertInteger.R' 'directory.R'
+        'extractSubList.R' 'factor.R' 'insert.R' 'is_error.R'
+        'isProperlyNamed.R' 'listToShortString.R' 'makeProgressBar.R'
+        'messagef.R' 'namedList.R' 'printToChar.R' 'requirePackages.R'
+        'save2.R' 'splitTime.R' 'stopf.R' 'suppressAll.R' 'warningf.R'
+Packaged: 2012-01-05 13:52:18 UTC; bischl
+Repository: CRAN
+Date/Publication: 2012-01-05 14:34:57

@@ -1,0 +1,18 @@
+Package: MPCI
+Type: Package
+Title: Multivariate Process Capability Indices (MPCI)
+Version: 1.0.4
+Date: 2012-04-25
+Author: Edgar Santos-Fernandez, Michele Scagliarini.
+Maintainer: Edgar Santos-Fernandez <edgar.santos@etecsa.cu>
+Description: MPCI package performs the followings Multivariate Process
+        Capability Indices: Shahriari et al. (1995) Multivariate
+        Capability Vector, Taam et al. (1993) Multivariate Capability
+        Index (MCpm) and the followings based on Principal Component
+        Analysis (PCA):Wang and Chen (1998), Xekalaki and Perakis
+        (2002) and Wang (2005). Moreover, include two datasets.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-04-25 16:56:03 UTC; edgars
+Repository: CRAN
+Date/Publication: 2012-04-25 21:55:18

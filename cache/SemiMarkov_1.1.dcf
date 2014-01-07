@@ -1,0 +1,21 @@
+Package: SemiMarkov
+Type: Package
+Title: Multi-States Semi-Markov Models
+Version: 1.1
+Date: 2013-03-16
+Author: Agnieszka Listwon, Philippe Saint-Pierre
+Maintainer: Agnieszka Listwon <agnieszka.listwon@gmail.com>
+Description: Functions for fitting multi-state semi-Markov models to
+        longitudinal data. A parametric maximum likelihood estimation
+        method adapted to deal with Exponential, Weibull and
+        Exponentiated Weibull distributions is considered.
+        Right-censoring can be taken into account and both constant and
+        time-varying covariates can be included using a Cox
+        proportional model.
+Depends: numDeriv, MASS, alabama
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-03-25 12:47:25 UTC; tosh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-25 14:24:03

@@ -1,0 +1,28 @@
+Package: clusterCons
+Type: Package
+Version: 0.4
+Title: Calculate the consensus clustering result from re-sampled
+        clustering experiments with the option of using multiple
+        algorithms and parameter
+Date: 2010-03-06
+Author: Dr. T. Ian Simpson, University of Edinburgh
+Maintainer: Dr. T. Ian Simpson <ian.simpson@ed.ac.uk>
+Depends: methods,cluster
+Suggests: lattice,grid
+Enhances: cluster
+Description: clusterCons is a package containing functions that
+        generate robustness measures for clusters and cluster
+        membership based on generating consensus matrices from
+        bootstrapped clustering experiments in which a random
+        proportion of rows of the data set are used in each individual
+        clustering. This allows the user to prioritise clusters and the
+        members of clusters based on their consistency in this regime.
+        The functions allow the user to select several algorithms to
+        use in the re-sampling scheme and with any of the parameters
+        that the algorithm would normally take.
+License: GPL
+LazyLoad: yes
+URL: http://sourceforge.net/projects/clustercons/
+Packaged: 2010-03-09 14:19:15 UTC; isimpson
+Repository: CRAN
+Date/Publication: 2010-03-09 19:28:04

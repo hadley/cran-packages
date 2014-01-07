@@ -1,0 +1,13 @@
+Package: mlegp
+Type: Package
+Title: Maximum Likelihood Estimates of Gaussian Processes
+Version: 1.0
+Date: 2007-09-27
+Author: Garrett M. Dancik
+Maintainer: Garrett M. Dancik <gdancik@iastate.edu>
+Suggests: adapt 
+SystemRequirements: GNU Scientific Library (GSL)
+Description: Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots and sensitivity analysis. 
+License: GNU General Public License (GNU GPL)
+URL: http://www.public.iastate.edu/~gdancik/mlegp/
+Packaged: Thu Sep 27 14:03:59 2007; root

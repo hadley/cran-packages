@@ -1,0 +1,16 @@
+Package: batchmeans
+Version: 1.0-1
+Date: 2012-06-19
+Title: Consistent Batch Means Estimation of Monte Carlo Standard Errors
+Author: Murali Haran <mharan@stat.psu.edu> and John Hughes
+        <hughesj@umn.edu>
+Maintainer: John Hughes <hughesj@umn.edu>
+Depends: R (>= 2.14), utils
+Description: batchmeans provides consistent batch means estimation of
+        Monte Carlo standard errors.
+License: GPL (>= 2)
+URL: http://stat.psu.edu/~mharan , http://www.biostat.umn.edu/~johnh
+Collate: 'batchmeans.R' 'zzz.R'
+Packaged: 2012-06-19 18:28:23 UTC; jphughesjr
+Repository: CRAN
+Date/Publication: 2012-06-20 05:40:58

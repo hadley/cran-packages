@@ -1,0 +1,29 @@
+Package: lessR
+Version: 2.9.3
+Date: 2013-05-18
+Title: Less Code, More Results
+Author: David W. Gerbing, School of Business Administration, Portland
+        State University
+Maintainer: David W. Gerbing <gerbing@pdx.edu>
+Depends: R (>= 2.15.0)
+Imports: car, leaps, foreign, MBESS
+Description: Each function accomplishes the work of several or more
+        standard R functions.  For example, two function calls, Read()
+        and CountAll(), read the data and generate descriptive
+        statistics for all variables in the data frame, plus histograms
+        and bar charts as appropriate.  Other functions provide for
+        descriptive statistics, a comprehensive regression analysis,
+        ANOVA and t-test, plotting, bar chart, histogram, box plot,
+        density curves, calibrated power curve, the reading and display
+        of csv and other formatted data and color themes. The function
+        Help provides a help system that suggests specific analyses and
+        functions. Variable labels are available. A confirmatory factor
+        analysis of multiple indicator measurement models is also
+        available as well as pedagogical routines for data simulation
+        such as for the Central Limit Theorem.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-05-19 15:48:44 UTC; gerbing
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-19 18:49:03

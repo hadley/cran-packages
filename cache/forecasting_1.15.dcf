@@ -1,0 +1,13 @@
+Bundle: forecasting
+Contains: forecast fma Mcomp expsmooth
+Version: 1.15
+Date: 2008-09-16
+Depends: R (>= 2.0.0), graphics, stats, tseries
+LazyData: yes
+LazyLoad: yes
+Author: Rob J Hyndman <Rob.Hyndman@buseco.monash.edu.au>
+Maintainer: Rob J Hyndman <Rob.Hyndman@buseco.monash.edu.au>
+BundleDescription: Functions and datasets for forecasting.
+License: GPL (>= 2)
+URL: http://www.robhyndman.info/Rlibrary/forecast/
+Packaged: Tue Sep 16 19:55:23 2008; hyndman

@@ -1,0 +1,22 @@
+Package: coefficientalpha
+Type: Package
+Title: Robust Cronbach's alpha with missing and non-normal data
+Version: 0.2.6
+Date: 2013-01-22
+Depends: MASS
+Author: Zhiyong Zhang and Ke-Hai Yuan
+Maintainer: Zhiyong Zhang <johnnyzhz@gmail.com>
+Description: Cronbach's alpha is one of the most widely used
+        reliability or internal consistency measures in social,
+        behavioral and education sciences. Alpha is reported in nearly
+        every study that involves measuring a construct through
+        multiple test items. The package coefficientalpha calculates
+        Cronbach's coefficient alpha with missing data and non-normal
+        data. Robust standard error and confidence interval are also
+        provided.
+License: GPL
+LazyLoad: yes
+Packaged: 2013-04-25 12:57:26 UTC; zzhang4
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-25 15:44:25

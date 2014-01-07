@@ -1,0 +1,26 @@
+Package: FuzzyStatProb
+License: LGPL (>= 3)
+Maintainer: Pablo J. Villacorta <pjvi@decsai.ugr.es>
+BugReports: http://decsai.ugr.es/~pjvi
+LazyData: false
+Title: Fuzzy stationary probabilities from a sequence of observations
+        of an unknown Markov chain
+Type: Package
+Author: Pablo J. Villacorta <pjvi@decsai.ugr.es>
+Description: An implementation of a method for computing fuzzy numbers
+        representing stationary probabilities of an unknown Markov
+        chain, from which a sequence of observations along time has
+        been obtained. The algorithm is based on the proposal presented
+        by James Buckley in his book on Fuzzy probabilities (Springer,
+        2005), chapter 6. Package FuzzyNumbers is used to represent the
+        output probabilities.
+Version: 1.0
+URL: http://decsai.ugr.es/~pjvi
+Date: 2013-3-10
+Depends: R (>= 2.15.0), MultinomialCI, parallel, FuzzyNumbers, DEoptim
+Collate: 'fuzzyStatObj.R' 'FuzzyStatProb-package.R' 'initial-pop.R'
+        'main.R' 'memb-fn-reg.R' 'objective-fn.R'
+Packaged: 2013-03-11 01:10:59 UTC; Pablo
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-11 07:56:19

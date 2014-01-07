@@ -1,0 +1,16 @@
+Package: QRMlib
+Version: 1.4.3
+Date: 2008-07-06
+Title: Provides R-language code to examine Quantitative Risk Management concepts
+Author: Alexander McNeil for S-Plus original; R port by Scott Ulman
+Maintainer: R-language version by Scott Ulman <scottulman@hotmail.com>
+Depends: R(>= 2.7.0), methods, fSeries, mvtnorm, chron
+Suggests: 
+Description: This is a free R-language library designed to accompany the book
+ Quantitative Risk Management: Concepts, Techniques and Tools by Alexander 
+ J. McNeil, Rudiger Frey and Paul Embrechts.  A separate SPlus version can be 
+ downloaded from  Alexander McNeil's URL at 
+ http://www.ma.hw.ac.uk/~mcneil/book/QRMlib.html
+License: GPL version 2 or newer
+URL: http://www.ma.hw.ac.uk/~mcneil/book/index.html
+Packaged: Mon Jul  7 00:51:20 2008; Scott

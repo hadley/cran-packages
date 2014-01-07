@@ -1,0 +1,12 @@
+Package: convexHaz
+Version: 0.0
+Date: 2008-06-13
+Title: Nonparametric MLE/LSE of convex hazard
+Author: Hanna Jankowski: \email{hkj@mathstat.yorku.ca}, Ivy Wang, Hugh McCague, Jon A. Wellner 
+Maintainer: Hanna Jankowski <hkj@mathstat.yorku.ca>
+Depends: R (>= 2.4)
+Description: This package contains functions to compute the nonparametric 
+	maximum likelihood estimator (MLE) and the nonparametric least squares
+	estimator (LSE) of a convex hazard function, assuming that the data is 		IID.    
+License: GPL (version 2 or later)
+Packaged: Tue Sep  9 09:30:55 2008; Hanna Jankowski

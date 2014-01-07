@@ -1,0 +1,24 @@
+Package: hybridEnsemble
+Type: Package
+Title: Build, deploy and evaluate a Hybrid Ensemble
+Version: 0.1.0
+Date: 2013-12-18
+Imports:
+        randomForest,kernelFactory,ada,rpart,ROCR,nnet,e1071,NMOF,GenSA,Rmalschains,pso,AUC,soma,genalg,reportr,nnls,quadprog,tabuSearch,glmnet
+Author: Michel Ballings, Dauwe Vercamer, and Dirk Van den Poel
+Maintainer: Michel Ballings <Michel.Ballings@GMail.com>
+Description: This package contains functions to build and deploy an ensemble
+    consisting of six different sub-ensembles: Bagged Logistic Regressions,
+    Random Forest, Stochastic AdaBoost, Kernel Factory, Bagged Neural Networks,
+    Bagged Support Vector Machines. Functions to cross-validate the Hybrid
+    Ensemble and plot and summarize the results are also provided. There is
+    also a function to assess the importance of the predictors.
+License: GPL (>= 2)
+Collate: 'auxiliary.R' 'CVhybridEnsemble.R' 'hybridEnsemble.R'
+        'hybridEnsembleNews.R' 'importance.hybridEnsemble.R'
+        'plot.CVhybridEnsemble.R' 'predict.hybridEnsemble.R'
+        'summary.CVhybridEnsemble.R' 'zzz.R'
+Packaged: 2013-12-19 12:29:23 UTC; mballing
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-19 15:14:32

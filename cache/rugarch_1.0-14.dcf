@@ -1,0 +1,34 @@
+Package: rugarch
+Type: Package
+Title: Univariate GARCH models
+Version: 1.0-14
+Date: 2012-12-18
+Author: Alexios Ghalanos <alexios@4dscape.com>
+Maintainer: Alexios Ghalanos <alexios@4dscape.com>
+Depends: R (>= 2.10.0), Rcpp, RcppArmadillo, methods, parallel,
+        numDeriv, chron, Rsolnp
+LinkingTo: Rcpp, RcppArmadillo
+Description: ARFIMA, in-mean, external regressors and various GARCH
+        flavours, with methods for fit, forecast, simulation, inference
+        and plotting.
+SystemRequirements: GNU make
+Suggests: xts, timeSeries, nloptr, spd, ks
+Collate: rugarch-imports.R rugarch-cwrappers.R rugarch-solvers.R
+        rugarch-distributions.R rugarch-kappa.R rugarch-helperfn.R
+        rugarch-numderiv.R rugarch-series.R rugarch-startpars.R
+        rugarch-tests.R rugarch-armafor.R rugarch-graphs.R
+        rugarch-classes.R rugarch-sgarch.R rugarch-csgarch.R
+        rugarch-fgarch.R rugarch-egarch.R rugarch-gjrgarch.R
+        rugarch-aparch.R rugarch-igarch.R rugarch-multi.R
+        rugarch-plots.R rugarch-rolling.R rugarch-uncertainty.R
+        rugarch-bootstrap.R rugarch-methods.R rugarch-benchmarks.R
+        arfima-classes.R arfima-multi.R arfima-main.R arfima-methods.R
+        zzz.R
+LazyLoad: yes
+License: GPL-3
+Repository: CRAN
+Repository/R-Forge/Project: rgarch
+Repository/R-Forge/Revision: 530
+Repository/R-Forge/DateTimeStamp: 2012-12-18 17:33:22
+Date/Publication: 2012-12-19 07:47:59
+Packaged: 2012-12-18 19:16:26 UTC; rforge

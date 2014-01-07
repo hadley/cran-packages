@@ -1,0 +1,18 @@
+Package: Laterality
+Type: Package
+Title: Laterality
+Version: 0.9
+Date: 2012-10-13
+Author: Borel A., Pouydebat E., Reghem E.
+Maintainer: <antony.borel@gmail.com>
+Description: Laterality package calculates Handedness index (HI) and
+        z-score. It gives also absolute HI and mean HI at the
+        individual and group level. The corresponding graphs can also
+        be plotted. Some functions based on the ade4 package perform
+        correspondence analysis (package ade4 is needed).
+License: GPL (>= 2.0)
+LazyLoad: yes
+Depends: ade4
+Packaged: 2012-10-13 12:48:48 UTC; antony
+Repository: CRAN
+Date/Publication: 2012-10-13 16:09:23

@@ -1,0 +1,22 @@
+Package: obsSens
+Type: Package
+Title: Sensitivity analysis for Observational studies.
+Version: 1.1
+Date: 2011-01-17
+Author: Greg Snow <greg.snow@imail.org>
+Maintainer: Greg Snow <greg.snow@imail.org>
+Description: Observational studies are limited in that there could be
+        an unmeasured variable related to both the response variable
+        and the primary predictor.  If this unmeasured variable were
+        included in the analysis it would change the relationship
+        (possibly changing the conclusions).  Sensitivity analysis is a
+        way to see how much of a relationship needs to exist with the
+        unmeasured variable before the conclusions change.  This
+        package provides tools for doing a sensitivity analysis for
+        regression (linear, logistic, and cox) style models.
+License: GPL-2
+Repository: CRAN
+Repository/R-Forge/Project: obssens
+Repository/R-Forge/Revision: 11
+Date/Publication: 2011-02-05 17:08:25
+Packaged: 2011-02-04 22:00:57 UTC; rforge

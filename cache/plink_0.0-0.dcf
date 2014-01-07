@@ -1,0 +1,16 @@
+Package: plink
+Version: 0.0-0
+Date: 2007-08-30
+Title: Separate Calibration Linking Methods
+Depends: R (>= 2.4.1), methods, lattice
+Author: Jonathan Weeks <weeksjp@gmail.com>
+Maintainer: Jonathan Weeks <weeksjp@gmail.com>
+Description: This package uses unidimensional item response theory methods to compute linking 
+    constants and conduct chain linking of tests for multiple groups under a nonequivalent groups 
+    common item design.  It allows for mean/mean, mean/sigma, Haebara, and Stocking-Lord calibrations 
+    of single-format or mixed-format dichotomous (1PL, 2PL, and 3PL) and polytomous (graded response
+    partial credit/generalized partial credit, nominal, and multiple-choice model) common items. 
+LazyLoad: Yes
+LazyData: Yes
+License: GPL version 2 or newer
+Packaged: Tue Sep  4 02:09:14 2007; Jonathan Weeks

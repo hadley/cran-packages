@@ -1,0 +1,25 @@
+Package: AdequacyModel
+Type: Package
+Title: Adequacy of probabilistic models and generation of pseudo-random
+        numbers.
+Authors@R: c(person(given = "Pedro Rafael", family = "Diniz Marinho", role =
+        c("aut", "cre"), email = "pedro.rafael.marinho@gmail.com"),
+        person(given = "Cicero Rafael", family = "Barros Dias", role =
+        c("aut","ctb"), email = "cicerorafael@gmail.com"))
+Version: 1.0.2
+Date: 2013-07-06
+Author: Author: Pedro Rafael Diniz Marinho [aut, cre], Cicero Rafael Barros Dias [aut, ctb]
+Maintainer: Pedro Rafael Diniz Marinho <pedro.rafael.marinho@gmail.com>
+Description: This package provides some useful functions for calculating quality measures for adjustment,
+	     including statistics Cramer-von Mises and Anderson-Darling. These statistics are often used
+             to compare models not equipped. Also provided are other measures of fitness, such as AIC, CAIC
+             and BIC. The package also provides functions for generating pseudo-random number of random variables
+             that follow the following probability distributions: Exponentiated Weibull, Kumaraswamy Weibull, 
+             Kumaraswamy Weibull Poisson.
+Depends: R (>= 2.10.0)
+URL: http://www.r-project.org
+License: GPL (>= 2)
+NeedsCompilation: no
+Repository: CRAN
+Packaged: 2013-07-06 20:03:04 UTC; root
+Date/Publication: 2013-07-07 15:19:00

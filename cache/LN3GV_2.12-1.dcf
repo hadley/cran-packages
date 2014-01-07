@@ -1,0 +1,19 @@
+Package: LN3GV
+Version: 2.12-1
+Date: 2011-07-26
+Title: LN3GV
+Author: Steve Lund <lunds@iastate.edu>
+Maintainer: Steve Lund <lunds@iastate.edu>
+Depends: R (>= 2.7.2)
+Suggests: MASS
+Description: The main function of this package is called `analyze'.
+        This function is used to apply the LNNMV*, LNNGV, LN3, LN3MV*,
+        or LN3GV methods (Lund and Nettleton, 2011), which are
+        extensions and modifications of the LNN and LNNMV methods used
+        in the package `EBarrays'.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+BugReports: http://abc.bugtracker.url
+Packaged: 2012-10-29 08:57:13 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:13

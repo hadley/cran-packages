@@ -1,0 +1,16 @@
+Package: phull
+Version: 0.1-1
+Date: 2009-10-02
+Title: p-hull: a generalization of convex hull, X-Y hull and bounding
+        rectangle
+Author: Marek Gagolewski <gagolews@ibspan.waw.pl>
+Maintainer: Marek Gagolewski <gagolews@ibspan.waw.pl>
+Depends: R (>= 2.0.0)
+Description: The package computes the p-hull of a finite planar set,
+        which is a generalization of the convex hull, X-Y hull and
+        bounding rectangle. A fast, O(n log n) Graham-scan based
+        routine is used.
+License: GPL (>= 2)
+Packaged: 2009-10-02 21:47:55 UTC; gagolews
+Repository: CRAN
+Date/Publication: 2009-10-03 11:12:18

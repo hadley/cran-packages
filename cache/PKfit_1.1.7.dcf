@@ -1,0 +1,10 @@
+Package: PKfit
+Version: 1.1.7
+Date: 2009/01/31
+Title: A Data Analysis Tool for Pharmacokinetics
+Author: Chun-Ying Lee, Yung-Jin Lee
+Maintainer: Yung-Jin Lee <mobilePK@gmail.com>
+Depends: R (>= 2.8.0), stats4, odesolve, rgenoud 
+Description: PKfit is a nonlinear regression (including a genetic algorithm) program which was designed to perform model/curve fitting and model simulations for pharmacokinetics.
+License: GPL version 2 or later.
+Packaged: Sat Jan 31 12:56:21 2009; p6240

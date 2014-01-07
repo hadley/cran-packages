@@ -1,0 +1,20 @@
+Package: polytomous
+Type: Package
+Title: Polytomous logistic regression for fixed and mixed effects
+Version: 0.1.6
+Date: 2013-12-20
+Author: Antti Arppe
+Maintainer: Antti Arppe <antti.arppe@iki.fi>
+Description: Logistic regression modeling for polytomous settings (more than two categorical outcomes) with both fixed and mixed effect predictors, and univariate and bivariate analysis of categorical, unordered data.
+Acknowledgements: Ideas and input provided by R. Harald Baayen as well
+        as Terrance M. Nearey in the development of the polytomous
+        Poisson reformulation function allowing for mixed-effects
+        logistic regression modeling of polytomous outcome settings are
+        greatly appreciated.
+Depends: R(>= 2.10.1), stats, MASS, Hmisc, lme4
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-12-20 09:59:31 UTC; arppe
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-20 13:39:44

@@ -1,0 +1,24 @@
+Package: TSgetSymbol
+Version: 2012.8-1
+Title: TSdbi extension to connect with getSymbols
+Description: Provides methods for generics in the TSdbi package to
+        retrieve data with getSymbols, in particular from the Federal
+        Reserve FRED database.  Comprehensive examples of all the TS*
+        packages is provided in the vignette Guide.pdf with the TSdata
+        package.
+Depends: R (>= 2.8.0), methods, DBI, TSdbi (>= 2011.11-1), tframe (>=
+        2011.11-1), tframePlus, zoo, quantmod
+Suggests: tfplot
+Enhances: TSdbi
+BuildVignettes: true
+License: GPL-2
+Copyright: 2007-2011 Bank of Canada.  2012 Paul Gilbert.
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsdbi.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsdbi
+Repository/R-Forge/Revision: 378
+Repository/R-Forge/DateTimeStamp: 2012-09-29 23:37:28
+Date/Publication: 2012-10-01 19:37:28
+Packaged: 2012-09-30 02:20:33 UTC; rforge

@@ -1,0 +1,18 @@
+Package: RcmdrPlugin.mosaic
+Type: Package
+Title: Adds menu items to produce mosaic plots and assoc plots to Rcmdr
+Version: 1.0-6
+Date: 2012-08-26
+Authors@R: c(person(given = "Erich", family = "Neuwirth", role =
+        c("aut", "cre"), email = "erich.neuwirth@univie.ac.at"))
+Author: Erich Neuwirth <erich.neuwirth@univie.ac.at>
+Maintainer: Erich Neuwirth <erich.neuwirth@univie.ac.at>
+Description: Rcmdr menu items to display mosaic and assoc plots Allows
+        to visually restructure the underlying structables Developed
+        after extended discussions with Rich Heiberger
+License: GPL-2
+Depends: ENmisc, vcd (>= 1.2-11), Hmisc, Rcmdr
+LazyLoad: yes
+Packaged: 2012-08-26 10:44:58 UTC; neuwirth
+Repository: CRAN
+Date/Publication: 2012-08-26 12:51:27

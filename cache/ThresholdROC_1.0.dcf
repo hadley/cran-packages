@@ -1,0 +1,14 @@
+Package: ThresholdROC
+Type: Package
+Title: Optimum threshold estimation based on cost function in a two and
+        three state setting
+Version: 1.0
+Date: 2011-12-07
+Author: Konstantina Skaltsa
+Maintainer: Konstantina Skaltsa <kskaltsa@ub.edu>
+Description: The ThresholdROC package provides point and interval estimations of the optimum threshold for continuous diagnostic tests (two and three states setting). The point estimation is based on the definition of a cost function which we opt to minimise. An analytical estimator exists for the binormal and trinormal model and the empirical one is used for all settings. The interval estimation is based on the Delta method variance estimator in a binormal parametric setting and on methods on non-linear equations for the trinormal setting. Bootstrap methods are also provided for the confidence intervals.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-12-07 23:48:20 UTC; KS
+Repository: CRAN
+Date/Publication: 2011-12-08 19:01:42

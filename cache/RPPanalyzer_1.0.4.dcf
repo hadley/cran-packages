@@ -1,0 +1,21 @@
+Package: RPPanalyzer
+Type: Package
+Title: Reads, annotates, and normalizes reverse phase protein array
+        data
+Version: 1.0.4
+Date: 2011-08-02
+Author: Heiko Mannsperger with contributions of Stephan Gade
+Maintainer: Heiko Mannsperger <h.mannsperger@dkfz.de>
+Depends: R (>= 2.13.1), limma, gam, Hmisc, gplots, quantreg, stats4,
+        Biobase (>= 1.14.1)
+Suggests: SuperCurve (>= 1.3.3)
+ZipData: no
+Description: Reads in sampledescription and slidedescription files and
+        annotates the expression values taken from gpr files. After
+        Normalization data can be presented in boxplots, heatmaps or
+        dotplots.
+License: LGPL
+LazyLoad: yes
+Packaged: 2011-08-02 09:10:10 UTC; mannsper
+Repository: CRAN
+Date/Publication: 2011-08-02 16:08:33

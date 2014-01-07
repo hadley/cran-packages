@@ -1,0 +1,20 @@
+Package: FHtest
+Type: Package
+Title: Tests for right and interval-censored survival data based on the
+        Fleming-Harrington class
+Version: 0.85
+Date: 2012-07-26
+Author: Ramon Oller, Klaus Langohr
+Maintainer: Ramon Oller <ramon.oller@uvic.cat>
+Description: FHtest offers several tests for the comparison of two or
+        more survival curves: a) The Fleming-Harrington test for
+        right-censored data based on permutations and on count-ing
+        processes.  b) Extension of the Fleming-Harrington test for
+        interval-censored data based on a permuta-tion distribution and
+        on a score vector distribution.
+License: GPL (>= 2)
+Encoding: latin1
+Depends: Icens, interval, MLEcens, PwrGSD, MASS, KMsurv
+Packaged: 2012-07-26 15:34:00 UTC; klangohr
+Repository: CRAN
+Date/Publication: 2012-07-26 17:59:20

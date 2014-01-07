@@ -1,0 +1,21 @@
+Package: BcDiag
+Version: 1.0
+Date: 2013-01-01
+Title: Diagnostics plots for Bicluster Data
+Authors@R: c(person("Aregay Mengsteab", "MSc Student", role = c("aut",
+        "cre"), email = "mycs.zab@gmail.com"), person("Tatsiana
+        Khamiakova", "Phd Student", role = c("ctb"), email =
+        "tatsiana.khamiakova@uhasselt.be"), person("Martin Otava", "Phd
+        Student", role = c("ctb"), email = "martin.otava@uhasselt.be"))
+Author: Aregay Mengsteab
+Maintainer: Aregay Mengsteab <mycs.zab@gmail.com>
+Suggests: biclust, isa2, fabia
+Description: This package provides Diagnostics plots for Bicluster data
+        obtained from packages; "biclust" by Kaiser et al.(2008),"isa2"
+        by Csardi et al. (2010) and "fabia" by Hochreiter et al.
+        (2010).
+License: GPL (>= 2)
+Packaged: 2013-01-10 14:53:10 UTC; Fikir
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2013-01-10 17:35:38

@@ -1,0 +1,16 @@
+Package: BEST
+Type: Package
+Title: Bayesian Estimation Supersedes the t-Test
+Version: 0.2.0
+Depends: rjags
+Date: 2013-08-22
+Author: John K. Kruschke and Mike Meredith
+Maintainer: Mike Meredith <mmeredith@wcs.org>
+Description: An alternative to t-tests, producing posterior estimates
+  for group means and standard deviations and their differences and 
+  effect sizes.
+License: GPL (>= 3)
+Packaged: 2013-08-22 14:31:39 UTC; Mike
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-23 08:17:57

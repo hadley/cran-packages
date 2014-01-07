@@ -1,0 +1,17 @@
+Package: gearman
+Title: R interface to the Gearman Job Server
+Version: 0.1-2
+Date: 2012-07-25
+Author: Jeffrey Horner
+Maintainer: Jeffrey Horner <jeffrey.horner@gmail.com>
+Depends: R (>= 2.13.0), methods
+Description: gearman provides a reference class interface to the
+        Gearman Job server. gearman links to the libgearman C library
+        and currently exposes the client API, allowing R users to
+        submit jobs to Gearman Job servers. A future version may expose
+        the worker API, thus allowing users to place R jobs within the
+        server... callable by any gearman-enabled client.
+License: BSD
+Packaged: 2012-07-25 21:55:23 UTC; hornerj
+Repository: CRAN
+Date/Publication: 2012-07-26 05:29:36

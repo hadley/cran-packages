@@ -1,0 +1,13 @@
+Package: CRTSize
+Version: 0.3
+Date: 2013-12-15
+Title: Sample Size Estimation Functions for Cluster Randomized Trials
+Author: Michael A Rotondi <mrotondi@yorku.ca>
+Maintainer: Michael A Rotondi <mrotondi@yorku.ca>
+Depends: R (>= 2.01)
+Description: This package contains basic tools for the purpose of sample size estimation in cluster (group) randomized trials.  The package contains traditional power-based methods, empirical smoothing (Rotondi and Donner, 2009), and updated meta-analysis techniques (Rotondi and Donner, 2012).
+License: GPL (>= 2)
+Packaged: 2013-12-17 20:25:30 UTC; mrotondi
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-18 18:39:34

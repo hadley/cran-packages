@@ -1,0 +1,18 @@
+Package: Rcell
+Type: Package
+Version: 1.1-7
+Date: 2011-12-12
+Title: Microscopy Based Citometry Data Analysis Package
+Author: Alan Bush <abush@fbmc.fcen.uba.ar>
+Maintainer: Alan Bush <abush@fbmc.fcen.uba.ar>
+Depends: R (>= 2.10.0), plyr (>= 1.6), reshape, ggplot2
+Imports: Hmisc, stats
+Suggests: hopach, chron, EBImage, xtable
+Description: Provides functions to load, filter and visualize microscopy based citometry data
+License: GPL-2
+Encoding: latin1
+URL: http://www.lbms.df.uba.ar, http://sourceforge.net/projects/cell-id
+LazyData: no
+Packaged: 2011-12-12 21:00:37 UTC; Usuario
+Repository: CRAN
+Date/Publication: 2011-12-13 08:36:13

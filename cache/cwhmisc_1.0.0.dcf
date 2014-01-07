@@ -1,0 +1,12 @@
+Bundle: cwhmisc
+Contains: cwhmath cwhstring cwhstat cwhplot cwhprint cwhtool 
+Version: 1.0.0
+Date: 2006-02-24
+Depends: R (>= 2.0.0)
+Title: cwh's useful functions
+Author: Christian W. Hoffmann <christian.hoffmann@wsl.ch>
+Maintainer: Christian W. Hoffmann <christian.hoffmann@wsl.ch>
+BundleDescription: Miscellaneous functions for general use
+License: GPL version 2 or newer
+URL:http://www.wsl.ch/staff/christian.hoffmann/
+Packaged: Sun Feb 26 21:17:39 2006; hornik

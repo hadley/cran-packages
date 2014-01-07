@@ -1,0 +1,19 @@
+Package: fishmove
+Type: Package
+Title: Prediction of Fish Movement Parameters
+Version: 0.1-1
+Packaged: 2013-03-06 07:37:54 UTC; radinger
+Date/Publication: 2013-03-06 15:19:28
+Author: Johannes Radinger
+Maintainer: Johannes Radinger <jradinger@igb-berlin.de>
+Description: Functions to predict fish movement parameters based on
+        multiple regression and plotting leptokurtic fish dispersal
+        kernels (see Radinger and Wolter, 2013: Patterns and predictors
+        of fish dispersal in rivers. Fish and Fisheries.)
+License: GPL (>= 2)
+Depends: ggplot2, plyr
+LazyLoad: yes
+LazyData: yes
+URL: http://dx.doi.org/10.1111/faf.12028
+NeedsCompilation: no
+Repository: CRAN

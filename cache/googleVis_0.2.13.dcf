@@ -1,0 +1,24 @@
+Package: googleVis
+Type: Package
+Title: Interface between R and the Google Visualisation API
+Version: 0.2.13
+Date: 2011-12-19
+Author: Markus Gesmann, Diego de Castillo
+Maintainer: Markus Gesmann <markus.gesmann@gmail.com>
+Description: The googleVis package provides an interface between R and the Google
+	     Visualisation API to create interactive charts which can be embedded
+	     into web pages. With the googleVis package users can easily create web
+	     pages with interactive charts based on R data frames and display them
+	     either via the local R HTTP help server or within their own sites,
+	     without uploading the data to Google. 
+	     A browser with Flash and Internet connection is required. Please visit
+	     the project web site for more information and examples.
+Depends: R (>= 2.11.0), RJSONIO (>= 0.3), methods, utils
+Suggests: R.rsp, brew, pscl
+License: GPL (>= 2)
+URL: http://code.google.com/p/google-motion-charts-with-r/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-12-19 13:06:15 UTC; markusgesmann
+Repository: CRAN
+Date/Publication: 2011-12-19 13:49:39

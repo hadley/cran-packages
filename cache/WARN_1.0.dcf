@@ -1,0 +1,18 @@
+Package: WARN
+Type: Package
+Title: Weaning Age Reconstruction with Nitrogen isotope analysis
+Version: 1.0
+Date: 2013-04-12
+Author: Takumi Tsutaya
+Maintainer: Takumi Tsutaya <tsutayatakumi@gmail.com>
+Depends: MASS
+Description: This package estimates precise weaning ages for a given
+        skeletal population by analyzing the stable nitrogen isotope
+        ratios of them.  Bone collagen turnover rates estimated anew
+        and the approximate Bayesian computation (ABC) were adopted in
+        this package.
+Repository: CRAN
+License: GPL (>= 3)
+Packaged: 2013-04-12 07:37:50 UTC; sagi
+NeedsCompilation: no
+Date/Publication: 2013-04-12 14:36:04

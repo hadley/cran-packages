@@ -1,0 +1,19 @@
+Package: popsom
+Version: 2.3
+Date: 2013-10-01
+Title: Self-Organizing Maps With Population Based Convergence Criterion
+Authors@R: c(person("Lutz", "Hamel", role = c("aut", "cre"), email = "hamel@cs.uri.edu"),
+		     person("Benjamin", "Ott", role = "aut"), person("Gregory", "Breard", role = "aut"))
+Maintainer: Lutz Hamel <hamel@cs.uri.edu>
+Imports: som, fields
+Description: This package contains a set of routines which are useful in constructing 
+	and evaluating self-organizing maps (SOMs).
+License: GPL
+URL: http://homepage.cs.uri.edu/faculty/hamel/
+Packaged: 2013-10-08 22:34:40 UTC; lutz
+Author: Lutz Hamel [aut, cre],
+  Benjamin Ott [aut],
+  Gregory Breard [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-09 09:30:08

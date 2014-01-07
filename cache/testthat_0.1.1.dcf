@@ -1,0 +1,20 @@
+Package: testthat
+Type: Package
+Title: Testthat code.  Tools to make testing fun :)
+Version: 0.1.1
+Author: Hadley Wickham <h.wickham@gmail.com>
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: A testing package specifically tailored for R that's fun,
+        flexible and easy to set up.
+URL: http://had.co.nz/
+Depends: R (>= 2.8), mutatr, digest
+License: GPL
+LazyData: true
+Collate: 'aaa-classes.r' 'auto-test.r' 'colour-text.r' 'context.r'
+        'expect-that.r' 'expectation.r' 'expectations.r' 'library.r'
+        'reporter-minimal.r' 'reporter-stop.r' 'reporter-summary.r'
+        'reporter-zzz.r' 'reporter.r' 'test-files.r' 'test-that.r'
+        'watcher.r'
+Packaged: 2009-11-30 17:11:23 UTC; hadley
+Repository: CRAN
+Date/Publication: 2009-11-30 20:06:36

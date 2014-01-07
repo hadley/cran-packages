@@ -1,0 +1,19 @@
+Package: Bmix
+Type: Package
+Title: General Bayesian Mixture Sampling
+Version: 0.1
+Date: 2009-06-09
+Author: Matt Taddy <matt.taddy@chicagobooth.edu>
+Maintainer: Matt Taddy <matt.taddy@chicagobooth.edu>
+Description: This is a rough bare-bones implementation of sampling
+        algorithms for Bayesian stick-breaking (marginally DP) mixture
+        models. The software is designed to be easy to customize to
+        suit different situations and for experimentation with
+        stick-breaking models.  Since particles are repeatedly copied,
+        it is not an especially efficient implementation.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: mvtnorm
+URL: http://faculty.chicagobooth.edu/matt.taddy/software/Bmix/Bmix.html
+Repository: CRAN
+Date/Publication: 2009-10-27 07:23:10

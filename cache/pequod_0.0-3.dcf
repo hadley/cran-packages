@@ -1,0 +1,15 @@
+Package: pequod
+Type: Package
+Title: Moderated regression package
+Version: 0.0-3
+Date: 2013-1-20
+Author: Alberto Mirisola & Luciano Seta
+Depends: ggplot2, car
+Maintainer: <alberto.mirisola@gmail.com>
+Description: moderated regression with mean and residual centering and
+        simple slopes analysis
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-01-20 09:38:57 UTC; alberto
+Repository: CRAN
+Date/Publication: 2013-01-20 11:28:14

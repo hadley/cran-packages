@@ -1,0 +1,20 @@
+Package: cosso
+Version: 2.0-2
+Date: 2012-05-01
+Title: COSSO, adaptive COSSO, variable selection for nonparametric
+        smoothing spline (quantile) regression models.
+Author: Hao Helen Zhang <hzhang@stat.ncsu.edu> and Chen-Yen Lin
+        <clin5@ncsu.edu>
+Maintainer: Chen-Yen Lin <clin5@ncsu.edu>
+Description: COSSO is the short term for Component Selection and
+        Smoothing Operator. The new regularization method automatically
+        selects important function components by a soft-thresholding
+        penalty in the context of smoothing spline ANOVA models.  The
+        details about the procedures are given in the paper by Lin and
+        Zhang (2007).
+License: GPL (>= 2)
+Depends: quadprog, Rglpk, snow, snowfall
+URL: http://www4.stat.ncsu.edu/~hzhang/cosso.html
+Packaged: 2012-05-26 01:51:58 UTC; ChenYen
+Repository: CRAN
+Date/Publication: 2012-05-26 09:39:36

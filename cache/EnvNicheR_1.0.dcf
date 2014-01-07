@@ -1,0 +1,15 @@
+Package: EnvNicheR
+Version: 1.0
+Date: 2013-06-1
+Title: Environmental niche
+Author: Cástor Guisande González <castor@uvigo.es>
+Maintainer: Cástor Guisande González <castor@uvigo.es>
+Description: Plot environmental conditions with a high number of species, create boxplots with a range of environmental variables under different environmental conditions selected by the user, list species under the different environmental conditions selected by the user and create a summary of the environmental conditions, using an output file of ModestR (www.ipez.es/ModestR).
+License: GPL (>= 2)
+Encoding: latin1
+Depends: R (>= 2.10.0)
+Suggests: IDPmisc
+Packaged: 2013-07-09 15:09:41 UTC; castor
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-09 17:56:40

@@ -1,0 +1,23 @@
+Package: bmk
+Type: Package
+Title: MCMC diagnostics package
+Version: 1.0
+Date: 2012-09-21
+Author: Matthew Krachey and Edward L. Boone
+Maintainer: Matthew Krachey <matthewkrachey@yahoo.com>
+Description: MCMC diagnostic package that contains tools to diagnose
+        convergence as well as to evaluate sensitivity studies,
+        Includes summary functions which output mean, median,
+        95percentCI, Gelman & Rubin diagnostics and the Hellinger
+        distance based diagnostics, Also contains functions to
+        determine when an MCMC chain has converged via Hellinger
+        distance, A function is also provided to compare outputs from
+        identically dimensioned chains for determining sensitivy to
+        prior distribution assumptions
+License: GPL (>= 2)
+Depends: coda, plyr, functional
+Collate: 'bmkconverge.R' 'bmk.R' 'bmksensitive.R' 'bmksummary.R'
+        'HBconverg1.R' 'HDistNoSize.R' 'HDistSize.R' 'HWconverg1.R'
+Packaged: 2012-10-16 18:36:51 UTC; matthew
+Repository: CRAN
+Date/Publication: 2012-10-17 07:29:42

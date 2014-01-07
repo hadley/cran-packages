@@ -1,0 +1,32 @@
+Package: pathmox
+Type: Package
+Title: Pathmox Approach of Segmentation Trees in Partial Least Squares
+        Path Modeling
+Version: 0.2.0
+Date: 2013-12-09
+Authors@R: c(
+    person("Gaston", "Sanchez",
+    email = "gaston.stat@gmail.com", role=c("aut", "cre")),
+    person("Tomas", "Aluja", role=c("aut", "ths")))
+Description: pathmox, the cousin package of plspm, provides a very
+    interesting solution for handling segmentation variables
+    in PLS Path Modeling: segmentation trees in PLS Path Modeling.
+URL: http://www.gastonsanchez.com
+Depends: R (>= 3.0.1), plspm, tester
+Suggests: plsdepot
+License: GPL-3
+LazyLoad: yes
+Collate: 'fix.pathmox.R' 'fix.techmox.R' 'pathmox-internal.R'
+        'pathmox.R' 'plot.bootnodes.R' 'plot.treemox.R'
+        'plot.treemox.pls.R' 'plspmox.R' 'print.bootnodes.R'
+        'print.treemox.R' 'print.treemox.pls.R' 'techmox.R'
+        'treemox.boot.R' 'treemox.pls.R' 'get_fix_xexeloa.R'
+        'get_nominal_split.R' 'get_ordinal_split.R' 'get_pls_basic.R'
+        'get_xexeloa.R' 'test_sanchez_aluja.R' 'check_pathmox_args.r'
+Packaged: 2013-12-09 18:32:14 UTC; Gaston
+Author: Gaston Sanchez [aut, cre],
+  Tomas Aluja [aut, ths]
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-10 13:34:48

@@ -1,0 +1,18 @@
+Package: intamap
+Version: 1.3-11
+Date: 2011-06-10
+Title: procedures for automated interpolation
+Author: Edzer Pebesma <edzer.pebesma@uni-muenster.de>, Jon Skoien
+        <j.skoien@geo.uu.nl> and others
+Maintainer: Edzer J. Pebesma <edzer.pebesma@uni-muenster.de>
+Depends: R (>= 2.5.0), sp (>= 0.9-0), gstat (>= 0.9-36), rgdal (>=
+        0.5.2), akima, automap, mvtnorm, MASS, evd, lattice
+Suggests: doSNOW
+Enhances: psgp
+Description: A package that provides classes and methods for automated
+        spatial interpolation.
+License: GPL (>= 2)
+URL: http://www.intamap.org/
+Packaged: 2011-06-10 13:34:53 UTC; skoiejo
+Repository: CRAN
+Date/Publication: 2011-06-15 18:02:24

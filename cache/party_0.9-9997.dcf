@@ -1,0 +1,30 @@
+Package: party
+Title: A Laboratory for Recursive Partytioning
+Date: 2010-07-06
+Version: 0.9-9997
+Author: Torsten Hothorn, Kurt Hornik, Carolin Strobl and Achim Zeileis
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: A computational toolbox for recursive partitioning. The
+        core of the package is ctree(), an implementation of
+        conditional inference trees which embed tree-structured
+        regression models into a well defined theory of conditional
+        inference procedures. This non-parametric class of regression
+        trees is applicable to all kinds of regression problems,
+        including nominal, ordinal, numeric, censored as well as
+        multivariate response variables and arbitrary measurement
+        scales of the covariates. Based on conditional inference trees,
+        cforest() provides an implementation of Breiman's random
+        forests. The function mob() implements an algorithm for
+        recursive partitioning based on parametric models (e.g. linear
+        models, GLMs or survival regression) employing parameter
+        instability tests for split selection. Extensible functionality
+        for visualizing tree-structured regression models is available.
+Depends: R (>= 2.0.1), methods, survival, grid, modeltools (>= 0.2-6),
+        coin (>= 0.6-4), zoo, sandwich (>= 1.1-1), strucchange, vcd
+Suggests: ipred, mlbench, colorspace
+LazyLoad: yes
+LazyData: yes
+License: GPL-2
+Packaged: 2010-07-06 14:23:15 UTC; hothorn
+Repository: CRAN
+Date/Publication: 2010-07-06 15:25:35

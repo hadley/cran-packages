@@ -1,0 +1,12 @@
+Package: TWIX
+Title: Trees WIth eXtra splits
+Date: 28.11.2008
+Version: 0.2.6
+Author: Sergej Potapov <sergej.potapov@web.de>
+Maintainer: Martin Theus <martin.theus@Math.Uni-Augsburg.de>
+Description: Trees with extra splits
+Depends: R (>= 1.8.0), rpart
+Suggests: mlbench, ElemStatLearn
+License: GPL version 2
+URL: http://www.rosuda.org/software/TWIX/
+Packaged: Fri Nov 28 11:04:52 2008; sergejpotapov

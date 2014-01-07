@@ -1,0 +1,14 @@
+Package: vectoptim
+Type: Package
+Title: Vectorized optimization methods
+Version: 0.1
+Depends: foreach, doParallel
+Date: 2013-09-01
+Author: Qiang Kou, Yann Richet
+Maintainer: Qiang Kou <qkou@umail.iu.edu>
+Description: Some vectorized optimization methods and speedup using foreach
+License: GPL-3
+Packaged: 2013-09-24 19:13:21 UTC; kouqiang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-24 21:18:53

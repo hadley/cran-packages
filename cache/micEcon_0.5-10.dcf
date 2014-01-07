@@ -1,0 +1,12 @@
+Package: micEcon
+Version: 0.5-10
+Date: 2009/01/05
+Title: Microeconomics
+Author: Arne Henningsen <ahenningsen@agric-econ.uni-kiel.de>
+Maintainer: Arne Henningsen <ahenningsen@agric-econ.uni-kiel.de>
+Depends: R (>= 2.4.0), systemfit (>= 1.0-0), lmtest
+Suggests: MASS, plm (>= 1.0-0)
+Description: Tools for microeconomic analysis and microeconomic modelling
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.micEcon.org
+Packaged: Mon Jan  5 12:00:49 2009; suapm095

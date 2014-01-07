@@ -1,0 +1,14 @@
+Package: PAGWAS
+Type: Package
+Title: Pathway analysis methods for genomewide association data
+Version: 1.0
+Date: 2013-09-15
+Author: Marina Evangelou
+Maintainer: Marina Evangelou <marina.evangelou@cimr.cam.ac.uk>
+Description: The two Bayesian hierarchical pathway analysis methods Sparse normal/Adaptive lasso and Normal/Bayes factors proposed by Evangelou et al (2013) are implemented. Further, the well-known Fisher's method is implemented
+License: GPL (>= 2)
+Depends: lars, doMC, mnormt
+Packaged: 2013-11-13 18:54:15 UTC; marina
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-13 20:47:50

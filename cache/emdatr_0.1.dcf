@@ -1,0 +1,23 @@
+Package: emdatr
+Title: Global disaster losses from the EM-DAT database
+Description: The International Disaster Database, EM-DAT
+    (http://www.emdat.be/database) from the Center for Research on the
+    Epidemiology of Disasters (CRED, Belgium) is often used as a reference for
+    losses on human life and property resulting from natural and man-made
+    disasters. This database has over 20,000 country-level records from the
+    early 1900s to the present. This R package comes with cleaned EM-DAT data.
+    Moreover, additional information on population and GDP, for each country in
+    which a disaster occurred, is also provided. Functionality provided by this
+    package includes extraction of desired subsets of data and also adjustment
+    for inflation.
+Version: 0.1
+Author: Gopi Goteti <my.ration.shop@gmail.com>
+Maintainer: Gopi Goteti <my.ration.shop@gmail.com>
+Depends: R (>= 3.0.2)
+License: GPL (>= 2)
+LazyData: false
+Collate: 'data.r' 'extract_emdat.r'
+Packaged: 2013-11-21 22:26:02 UTC; ggoteti
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-22 07:32:39

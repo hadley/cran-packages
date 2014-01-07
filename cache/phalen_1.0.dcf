@@ -1,0 +1,18 @@
+Package: phalen
+Type: Package
+Title: Phalen Algorithms and Functions
+Version: 1.0
+Date: 2013-08-16
+Author: Robert P. Bronaugh
+Maintainer: Robert P. Bronaugh <robertbronaugh@gmail.com>
+Description: The phalen package contains (1) clustering and 
+ partitioning algorithms; (2) penalty functions for numeric 
+ vectors; (3) a ranking function; and (4) color palettes and 
+ functions.  
+License: GPL-2
+Depends: graphics, grDevices, stats, utils
+Imports: sqldf
+Packaged: 2013-09-12 00:49:50 UTC; Robert
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-12 08:00:13

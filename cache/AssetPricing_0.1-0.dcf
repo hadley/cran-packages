@@ -1,0 +1,23 @@
+Package: AssetPricing
+Version: 0.1-0
+Date: 2013-08-13
+Title: Optimal pricing of assets with fixed expiry date.
+Author: Rolf Turner <r.turner@auckland.ac.nz>
+Maintainer: Rolf Turner <r.turner@auckland.ac.nz>
+Depends: R (>= 0.99), polynom, deSolve
+Description: Calculates the optimal price of assets (such as
+	airline flight seats, hotel room bookings) whose value
+	becomes zero after a fixed ``expiry date''.  Assumes
+	potential customers arrive (possibly in groups) according
+	to a known inhomogeneous Poisson process.  Also assumes a
+	known time-varying elasticity of demand (price sensitivity)
+	function.  Uses elementary techniques based on ordinary
+	differential equations, solved numerically via the method
+	of Runge-Kutta. Now uses the package deSolve to effect
+        the solution of the differential equations.
+License: GPL (>= 2)
+URL: http://www.math.unb.ca/~rolf/
+Packaged: 2013-08-13 03:54:06 UTC; rolf
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-13 07:05:50

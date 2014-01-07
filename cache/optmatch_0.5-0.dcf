@@ -1,0 +1,17 @@
+Package: optmatch
+Version: 0.5-0
+Date: 2009-05-18
+Title: Functions for optimal matching
+Author: Ben B. Hansen <ben.hansen@umich.edu>, with embedded Fortran
+        code due to Dimitri P. Bertsekas <dimitrib@mit.edu> and Paul
+        Tseng and with contributions from Mark Fredrickson
+Maintainer: Ben B. Hansen <optmatch@ctools.umich.edu>
+Depends: R (>= 2.4.0)
+Suggests: boot
+Description: Functions for optimal matching, including full matching
+License: file LICENSE
+URL: http://www.r-project.org,
+        http://www.stat.lsa.umich.edu/~bbh/optmatch.html
+Packaged: Tue May 19 11:39:10 2009; bbh
+Repository: CRAN
+Date/Publication: 2009-05-19 19:09:29

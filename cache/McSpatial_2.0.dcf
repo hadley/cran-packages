@@ -1,0 +1,22 @@
+Package: McSpatial
+Type: Package
+Title: Nonparametric spatial data analysis
+Version: 2.0
+Date: 2013-5-20
+Author: Daniel McMillen
+Maintainer: Daniel McMillen <mcmillen@illinois.edu>
+Description: Locally weighted regression, semiparametric and
+        conditionally parametric regression, fourier and cubic spline
+        functions, GMM and linearized spatial logit and probit,
+        k-density functions and counterfactuals, nonparametric quantile
+        regression and conditional density functions, Machado-Mata
+        decomposition for quantile regressions, spatial AR model,
+        repeat sales models, conditionally parametric logit and probit
+License: GPL
+LazyLoad: yes
+Depends: lattice, locfit, maptools, quantreg, RANN, SparseM
+Suggests: car, classInt, mlogit, RColorBrewer, spatstat, spdep
+Packaged: 2013-05-26 08:34:40 UTC; Dan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-26 11:08:53

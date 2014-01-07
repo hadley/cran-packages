@@ -1,0 +1,16 @@
+Package: diffEq
+Version: 1.0
+Title: Functions from the book Solving Differential Equations in R
+Author: Karline Soetaert <karline.soetaert@nioz.nl>
+Maintainer: Karline Soetaert <karline.soetaert@nioz.nl>
+Depends: R (>= 2.01), deSolve, rootSolve, bvpSolve, ReacTran, diagram,
+        deTestSet, scatterplot3d
+Description: Functions and examples from the book Solving Differential
+        Equations in R by Karline Soetaert, Jeff R Cash and Francesca
+        Mazzia.  Springer, 2012.
+License: GPL
+LazyData: yes
+Packaged: 2013-09-24 08:02:41 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-09-24 10:08:07
+NeedsCompilation: no

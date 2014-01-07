@@ -1,0 +1,24 @@
+Package: micromap
+Version: 1.5
+Date: 2012-12-18
+Title: Linked Micromap Plots
+Authors@R: c(person("Quinn", "Payton", role="aut", email =
+        "Payton.Quinn@epa.gov"), person("Tony", "Olsen", role="aut",
+        email = "Olsen.Tony@epa.gov"), person("Marc", "Weber",
+        role="ctb", email = "Weber.Marc@epa.gov"), person("Michael",
+        "McManus", role="ctb", email = "McManus.Michael@epa.gov"),
+        person("Tom", "Kincaid", role="cre", email =
+        "Kincaid.Tom@epa.gov"))
+Author: Quinn Payton <Payton.Quinn@epa.gov> and Tony Olsen
+        <Olsen.Tony@epa.gov> with contributions from Marc Weber,
+        Michael McManus, and Tom Kincaid
+Maintainer: Tom Kincaid <Kincaid.Tom@epa.gov>
+Depends: R (>= 2.10), ggplot2, RColorBrewer, rgdal, grid
+ByteCompile: yes
+Description: This group of functions simplifies the creation of linked
+        micromap plots.
+License: GPL (>= 2)
+URL: http://www.epa.gov/nheerl/arm/
+Packaged: 2012-12-18 18:30:55 UTC; tkincaid
+Repository: CRAN
+Date/Publication: 2012-12-19 09:08:11

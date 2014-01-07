@@ -1,0 +1,10 @@
+Package: riv
+Type: Package
+Title: Robust instrumental variables estimator
+Version: 1.0-1
+Date: 2007-10-21
+Author: Beat Kaufmann <beat.kaufmann@epfl.ch> with contributions from R.H. Zamar <ruben@stat.ubc.ca> and G.V. Cohen-Freue <gcohen@stat.ubc.ca>.
+Maintainer: ORPHANED
+Description: Finds a robust instrumental variables estimator using a high breakdown point S-estimator of multivariate location and scatter matrix.
+License: GPL
+Packaged: Sun Oct 21 00:23:44 2007; hornik

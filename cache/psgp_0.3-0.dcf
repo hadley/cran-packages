@@ -1,0 +1,15 @@
+Package: psgp
+Version: 0.3-0
+Date: 2012-01-23
+Title: Projected Spatial Gaussian Process (psgp) methods
+Author: Ben Ingram <bri@utalca.cl>, Remi Barillec
+        <r.barillec@aston.ac.uk>
+Maintainer: Remi Barillec <r.barillec@aston.ac.uk>
+Depends: intamap, Rcpp (>= 0.8.0), RcppArmadillo (>= 0.2.0), doSNOW
+LinkingTo: Rcpp, RcppArmadillo
+Description: Implements projected sparse Gaussian process kriging for
+        the intamap package
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2012-01-24 06:50:19
+Packaged: 2012-01-23 22:28:13 UTC; barillrl

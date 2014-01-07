@@ -1,0 +1,32 @@
+Package: huge
+Type: Package
+Title: High-dimensional Undirected Graph Estimation
+Version: 0.7
+Date: 2010-11-09
+Author: Tuo Zhao, Han Liu, Kathryn Roeder, John Lafferty, Larry
+        Wasserman
+Maintainer: Tuo Zhao <tourzhao@gmail.com>, Han Liu <hanliu@cs.jhu.edu>
+Depends: MASS,Matrix, lattice, glmnet, igraph
+Description: The package "huge" provides a general framework for
+        high-dimensional undirected graph estimation. The package
+        integrates data preprocessing (Gaussianization), graph
+        screening, graph estimation, and model selection techniques
+        into a pipeline. The nonparanormal transformation is applied to
+        preprocess the data and helps relax the normality assumption.
+        The graph screening subroutine preselects the graph
+        neighborhood of each variable. In the graph estimation stage,
+        the structure of either the whole graph or a pre-specified
+        sub-graph is estimated by the Meinshausen & Buhlmann Graph
+        Estimation via Lasso (GEL) strategy on the pre-screened data.
+        In the case d << n, the computation is memory optimized and is
+        targeted on larger-sclae problems (with d>3000). We also
+        provide another efficient method, Graph Estimation via
+        Correlation Approximation (GECA). Two regularization parameter
+        selection methods are included in this package: (1) StARS:
+        stability approach for regularization selection (2) extended
+        Bayesian information criterion (BIC) based on
+        pseudo-likelihood.
+License: GPL-2
+Packaged: 2010-11-10 15:32:18 UTC; johndoe
+Repository: CRAN
+Date/Publication: 2010-11-11 12:40:37

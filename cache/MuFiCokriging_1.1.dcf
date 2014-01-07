@@ -1,0 +1,18 @@
+Package: MuFiCokriging
+Type: Package
+Title: Multi-Fidelity Cokriging models
+Version: 1.1
+Date: 2012-12-21
+Author: Loic Le Gratiet
+Affiliations: Paris VII - CEA, DAM, DIF
+Maintainer: Loic Le Gratiet <loic.legratiet@gmail.com>
+Description: This package builds multi-fidelity cokriging models from
+        responses with different levels of fidelity.  Important
+        functions : MuFicokm, predict.MuFicokm, summary.MuFicokm.
+Depends: DiceKriging, methods
+Suggests: rgenoud
+License: GPL-3
+URL: http://www.redice-project.org
+Packaged: 2012-12-12 09:00:15 UTC; ADM_GratietL
+Repository: CRAN
+Date/Publication: 2012-12-12 10:52:38

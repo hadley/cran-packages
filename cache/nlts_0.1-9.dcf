@@ -1,0 +1,16 @@
+Package: nlts
+Title: (non)linear time series analysis
+Description: R functions for (non)linear time series analysis. A core
+        topic is order estimation through cross-validation.
+Version: 0.1-9
+Date: 2012/09/11
+Depends: R (>= 2.2.0), locfit (>= 1.5.3), acepack, akima
+Author: Ottar N. Bjornstad <onb1@psu.edu>
+Maintainer: Ottar N. Bjornstad <onb1@psu.edu>
+URL: http://onb.ent.psu.edu/onb1/R
+License: GPL
+Packaged: 2012-10-17 20:33:07 UTC; onb1
+X-CRAN-Comment: Earlier versions of this packae have been removed as
+        they contained material not licensed under 'GPL'.
+Repository: CRAN
+Date/Publication: 2012-10-18 06:09:16

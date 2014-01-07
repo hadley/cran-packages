@@ -1,0 +1,28 @@
+Package: mefa
+Type: Package
+Title: Multivariate Data Handling in Ecology and Biogeography
+Version: 3.1-3
+Date: 2009-10-12
+Author: Peter Solymos
+Maintainer: Peter Solymos <solymos@ualberta.ca>
+Description: A framework package aimed to provide standardized
+        computational environment for specialist work via object
+        classes to represent the data coded by samples, taxa and
+        segments (i.e. subpopulations, repeated measures). It supports
+        easy processing of the data along with cross tabulation and
+        relational data tables for samples and taxa. An object of class
+        `mefa' is a project specific compendium of the data and can be
+        easily used in further analyses. Methods are provided for
+        extraction, aggregation, conversion, plotting, summary and
+        reporting of `mefa' objects. Reports can be generated in plain
+        text or LaTeX format. Vignette contains worked examples.
+Suggests: MASS, ade4, vegan
+License: GPL-2
+URL: http://mefa.r-forge.r-project.org/
+LazyLoad: yes
+LazyData: true
+Repository: CRAN
+Repository/R-Forge/Project: mefa
+Repository/R-Forge/Revision: 484
+Date/Publication: 2009-10-15 11:08:36
+Packaged: 2009-10-13 20:16:55 UTC; rforge

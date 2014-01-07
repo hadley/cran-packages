@@ -1,0 +1,20 @@
+Package: NlsyLinks
+Type: Package
+Title: Utilities and kinship information for Behavior Genetics and
+        Developmental research using the NLSY.
+Version: 1.0
+Date: 2012-04-26
+Author: Will Beasley, Joe Rodgers, David Bard, and Kelly Meredith
+Maintainer: Will Beasley <wibeasley@hotmail.com>
+Imports: methods, lavaan, stringr
+Suggests: ggplot2, testthat
+Description: Utilities and kinship information for Behavioral Genetics
+        and Developmental research using the NLSY.
+License: GPL
+URL: https://r-forge.r-project.org/projects/nlsylinks/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-04-27 03:07:45 UTC; wibeasley
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2012-04-27 06:14:39

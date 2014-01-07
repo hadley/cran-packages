@@ -1,0 +1,20 @@
+Package: orloca.es
+Type: Package
+Depends: orloca (>= 4.0)
+Language: es
+Title: Spanish version of orloca package
+Version: 4.0
+Date: 2012-09-06
+Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and
+        Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Description: Version espanola del paquete orloca que trata el problema
+        de localizacion min-sum, tambien conocido como problema de
+        Fermat--Weber. El problema de localizacion min-sum busca un
+        punto tal que la suma ponderada de las distancias a los puntos
+        de demanda sea minima.
+License: GPL (>= 2)
+URL: http://knuth.uca.es/orloca
+Packaged: 2012-09-06 14:25:13 UTC; mmarquez
+Repository: CRAN
+Date/Publication: 2012-09-06 15:19:40

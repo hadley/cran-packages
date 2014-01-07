@@ -1,0 +1,15 @@
+Package: RidgeFusion
+Type: Package
+Title: R Package for Ridge Fusion in Statistical Learning
+Version: 1.0-2
+Date: 2013-10-11
+Author: Bradley S. Price 
+Depends: R (>= 3.0.0),mvtnorm, methods
+Maintainer: Bradley S. Price <price412@umn.edu>
+Description: This package implements ridge fusion methodology for inverse covariance matrix estimation for use in quadratic discriminant analysis.  The package also contains function for model based clustering using ridge fusion for inverse matrix estimation, as well as the implementation of the EM validation likelihood for tuning parameter selection.  We have also implemented QDA using joint inverse covariance estimation.
+ByteCompile: TRUE
+License: MIT + file LICENSE
+Packaged: 2013-10-13 03:52:36 UTC; Brad
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-13 05:57:08

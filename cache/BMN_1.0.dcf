@@ -1,0 +1,16 @@
+Package: BMN
+Type: Package
+Title: The pseudo-likelihood method for pairwise binary markov networks
+Version: 1.0
+Date: 2009-03-19
+Author: Holger Hoefling
+Maintainer: Holger Hoefling <hhoeflin@gmail.com>
+Description: This package implements approximate and exact methods for
+        pairwise binary markov models. The exact method uses an
+        implementation of the junction tree algorithm for binary
+        graphical models. For more details see the help files
+License: GPL-2
+Depends: R (>= 2.6.0)
+Packaged: Wed Mar 25 14:53:15 2009; hhoeflin
+Repository: CRAN
+Date/Publication: 2009-03-26 08:29:24

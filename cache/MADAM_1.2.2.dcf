@@ -1,0 +1,27 @@
+Package: MADAM
+Type: Package
+Title: This package provides some basic methods for meta-analysis
+Version: 1.2.2
+Date: 2012-06-04
+Author: Karl Kugler, Laurin Mueller, Simone Ecker, Armin Graber (with
+        contributions from Matthias Wieser)
+Maintainer: Karl Kugler <karl@eigenlab.net>
+Description: In this package we provide some basic utilities for
+        performing meta-analysis. Note that from version 1.2 a complete
+        redesign of MADAM started to take place, so that code from
+        versions <1.2 will not be compatible with current versions.
+License: LGPL
+URL: http://madam.r-forge.r-project.org
+BugReports:
+        https://r-forge.r-project.org/tracker/?atid=3068&group_id=774
+LazyLoad: yes
+Depends: R (>= 2.10)
+Imports:
+Suggests: parallel, RColorBrewer
+Repository: CRAN
+Repository/R-Forge/Project: madam
+Repository/R-Forge/Revision: 48
+Repository/R-Forge/DateTimeStamp: 2013-06-25 13:32:24
+Date/Publication: 2013-07-05 16:54:08
+Packaged: 2013-06-25 14:15:22 UTC; rforge
+NeedsCompilation: no

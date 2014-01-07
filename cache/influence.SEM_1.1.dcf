@@ -1,0 +1,15 @@
+Package: influence.SEM
+Type: Package
+Title: Case Influence in Structural Equation Models
+Version: 1.1
+Date: 2013-10-03
+Author: Massimiliano Pastore & Gianmarco Altoe'
+Depends: lavaan
+Suggests: tcltk
+Maintainer: Massimiliano Pastore <massimiliano.pastore@unipd.it>
+Description: influence.SEM provides a set of tools for evaluating several measures of case influence for Structural Equation Models following the approach of Pek and MacCallum (2011). 
+License: GPL (>= 2)
+Packaged: 2013-10-22 09:12:35 UTC; el
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-22 12:14:27

@@ -1,0 +1,15 @@
+Package: LogrankA
+Type: Package
+Title: Logrank Test for Aggregated Survival Data
+Version: 1.0
+Date: 2013-07-15
+Author: Jonas Richter-Dumke and Roland Rau
+Maintainer: Jonas Richter-Dumke <jrd.r.project@gmail.com>
+Description: LogrankA provides a logrank test across unlimited groups with the
+ possibility to input aggregated survival data.
+Suggests: MASS, survival
+License: GPL-2
+Packaged: 2013-07-16 19:44:05 UTC; user1
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-16 22:07:31

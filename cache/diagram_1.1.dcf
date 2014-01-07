@@ -1,0 +1,14 @@
+Package: diagram
+Version: 1.1
+Date: 2008-02-19
+Title: Functions for visualising simple graphs (networks), plotting flow diagrams
+Author: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Maintainer: Karline Soetaert <k.soetaert@nioo.knaw.nl>
+Depends: R (>= 2.01)  ,shape
+Description: Visualises simple graphs (networks) based on a transition matrix, utilities to plot flow diagrams, 
+     visualising webs,...  
+     Support for the book "A guide to ecological modelling" by Karline Soetaert and Peter Herman (in preparation)
+     Includes demo(flowchart), demo(plotmat), demo(plotweb)
+License: GPL
+LazyData: yes
+Packaged: Tue Feb 19 16:59:53 2008; karlines

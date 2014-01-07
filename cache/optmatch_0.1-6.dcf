@@ -1,0 +1,14 @@
+Package: optmatch
+Version: 0.1-6
+Date: 2005-10-28
+Title: Functions for optimal matching
+Author: Ben B. Hansen <ben.hansen@umich.edu>,
+  with embedded Fortran code due to Dimitri P. Bertsekas
+  <dimitrib@mit.edu> and Paul Tseng.
+Maintainer: Ben B. Hansen <ben.hansen@umich.edu>
+Depends: R (>= 2.0.0)
+Suggests: boot
+Description: Functions to perform optimal matching, particularly full matching
+License: Fortran code free for non-commercial use; R functions GPL.  License statement from authors of Fortran codes is as follows. THIS ROUTINE IS IN THE PUBLIC DOMAIN TO BE USED ONLY FOR RESEARCH PURPOSES.  IT CANNOT BE USED AS PART OF A COMMERCIAL PRODUCT, OR TO SATISFY IN ANY PART COMMERCIAL DELIVERY REQUIREMENTS TO GOVERNMENT OR INDUSTRY, WITHOUT PRIOR AGREEMENT WITH THE AUTHORS. USERS ARE REQUESTED TO ACKNOWLEDGE THE AUTHORSHIP OF THE CODE, AND THE RELAXATION METHOD.
+URL: http://www.r-project.org, http://www.stat.lsa.umich.edu/~bbh/optmatch.html
+Packaged: Fri Oct 28 17:46:35 2005; bbh

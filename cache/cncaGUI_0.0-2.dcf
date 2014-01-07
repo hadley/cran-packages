@@ -1,0 +1,18 @@
+Encoding: latin1
+Package: cncaGUI
+Type: Package
+Title: Canonical Non-symmetrical Correspondence Analysis in R
+Version: 0.0-2
+Date: 2012-07-06
+Author: Ana Belen Nieto Librero <ananieto@usal.es>, Priscila Willems
+        <pwillems@bariloche.inta.gov.ar>, Purificacion Galindo
+        Villardon <pgalindo@usal.es>
+Maintainer: Ana Belen Nieto Librero <ananieto@usal.es>
+Depends: R (>= 2.14.2), rgl (>= 0.92.858), tcltk (>= 2.14.2), tcltk2
+        (>= 1.2-3), tkrplot (>= 0.0-23)
+Description: Provides a GUI with which users can construct and interact
+        with Canonical Non-symmetrical Correspondence Analysis.
+License: GPL (>= 2)
+Packaged: 2012-07-06 11:54:01 UTC; Elisa
+Repository: CRAN
+Date/Publication: 2012-07-18 18:09:04

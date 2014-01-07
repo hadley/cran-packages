@@ -1,0 +1,11 @@
+Package: NestedCohort
+Version: 1.0-1
+Date: 2007-09-01
+Title: Survival Analysis for Cohorts with Missing Covariate Information
+Author: Hormuzd A. Katki <katkih@mail.nih.gov>
+Maintainer: Hormuzd A. Katki <katkih@mail.nih.gov>
+Depends: R (>= 2.1.1), survival, MASS
+Description: Estimate hazard ratios, standardized survival and attributable risks for cohorts with missing covariates, for Cox models or Kaplan-Meier.
+License: Unlimited
+URL: http://dceg.cancer.gov/about/staff-bios/katki-hormuzd
+Packaged: Tue Sep 25 15:36:05 2007; katkih

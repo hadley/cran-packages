@@ -1,0 +1,11 @@
+Package: bear
+Version: 2.1.0 
+Date: 2008-12-18 
+Title: Average bioequivalence and bioavailability data analysis tool
+Author: Hsin-ya Lee <hsinyalee@gmail.com>, Yung-jin Lee <pkpd.taiwan@gmail.com>
+Maintainer: Hsin-ya Lee <hsinyalee@gmail.com>
+Depends: R (>= 2.5.0), reshape, nlme, sciplot, plotrix 
+Description: An average bioequivalence (ABE) and bioavailability data analysis tool including sample size estimation, noncompartmental analysis (NCA) and ANOVA (lm) for a standard RT/TR 2-treatment, 2-sequence, 2-period, and cross-over design 
+License: GPL version 2 or newer
+URL: http://pkpd.kmu.edu.tw/bear
+Packaged: Thu Dec 18 17:56:14 2008; user

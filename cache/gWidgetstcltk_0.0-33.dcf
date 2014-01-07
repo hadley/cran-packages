@@ -1,0 +1,19 @@
+Package: gWidgetstcltk
+Version: 0.0-33
+Title: Toolkit implementation of gWidgets for tcltk package
+Author: John Verzani
+Maintainer: John Verzani <gwidgetsrgtk@gmail.com>
+Depends: methods, gWidgets(>= 0.0.40), tcltk(>= 2.7.0)
+Suggests:
+Description: Port of gWidgets API to the tcltk package. Requires TK 8.5
+        or greater for the tile (ttk)widgets
+        http://www.tcl.tk/software/tcltk/8.5.tml. This is default on
+        Windows. Under linux, it must be installed. Under Mac OS X
+        (10.5) it must be upgraded. See www.tcl.tk to download source.
+        Under the Mac it compiles and installs cleanly.
+License: GPL (>= 2)
+URL: http://www.math.csi.cuny.edu/pmg
+LazyLoad: yes
+Packaged: 2010-05-06 02:29:38 UTC; verzani
+Repository: CRAN
+Date/Publication: 2010-05-06 05:40:13

@@ -1,0 +1,13 @@
+Package: elliptic
+Version: 0.4-13
+Date: 18-11-2004
+Title: elliptic functions
+Author: Robin K. S. Hankin
+Depends: R (>= 2.0.0), MASS, abind
+Description: 
+ A suite of elliptic and related functions including Weierstrass and
+ Jacobi forms.  Also includes various tools for manipulating and
+ visualizing complex functions.
+Maintainer: Robin Hankin <r.hankin@noc.soton.ac.uk>
+License: GPL
+Packaged: Tue Jul 12 21:43:10 2005; rksh

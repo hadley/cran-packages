@@ -1,0 +1,20 @@
+Package: RcmdrPlugin.HH
+Type: Package
+Title: Rcmdr support for the HH package
+Version: 1.1-40
+Date: 2013-10-11
+Author: Richard M. Heiberger, with contributions from Burt Holland
+Maintainer: Richard M. Heiberger <rmh@temple.edu>
+Depends: R (>= 3.0.2), HH (>= 2.3-42), lattice, grid, grDevices,
+        latticeExtra, rgl
+Imports: Rcmdr (>= 2.0-0), multcomp (>= 0.991-7),leaps
+Suggests: mgcv, abind, vcd, car
+Description: Rcmdr menu support for many of the functions in the HH package.
+        The focus is on menu items for functions we use in our introductory
+        courses.
+RcmdrModels: aov
+License: GPL (>= 2)
+Packaged: 2013-10-11 01:44:23 UTC; rmh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-11 07:35:46

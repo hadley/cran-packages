@@ -1,0 +1,29 @@
+Encoding: UTF-8
+Package: dplR
+Type: Package
+Title: Dendrochronology Program Library in R
+Version: 1.5.5
+Date: 2012-06-21
+Authors@R: c(person(c("Andrew", "G."), "Bunn", role = c("aut", "cph",
+        "cre", "trl"), email = "andy.bunn@wwu.edu"), person("Mikko",
+        "Korpela", role = c("aut", "cph")), person("Franco", "Biondi",
+        role = c("aut", "cph")), person("Pierre", "Merian", role =
+        c("aut", "cph")), person("Fares", "Qeadan", role = c("aut",
+        "cph")), person("Christian", "Zang", role = c("aut", "cph")))
+Depends: R (>= 2.15.0)
+Imports: graphics, grDevices, grid, stats, utils, digest (>= 0.2.3),
+        lattice (>= 0.13-6), stringr (>= 0.4), XML (>= 2.1-0)
+Suggests: foreach, iterators, RUnit (>= 0.4.25)
+Description: This package contains functions for performing tree-ring
+        analyses, IO, and graphics.
+LazyData: no
+License: GPL
+URL: http://www.wwu.edu/huxley/treering/dplR.shtml,
+        http://R-Forge.R-project.org/projects/dplr/
+Packaged: 2012-06-24 01:28:50 UTC; bunna
+Author: Andrew G. Bunn [aut, cph, cre, trl], Mikko Korpela [aut, cph],
+        Franco Biondi [aut, cph], Pierre Merian [aut, cph], Fares
+        Qeadan [aut, cph], Christian Zang [aut, cph]
+Maintainer: Andrew G. Bunn <andy.bunn@wwu.edu>
+Repository: CRAN
+Date/Publication: 2012-06-24 05:19:36

@@ -1,0 +1,18 @@
+Package: A3
+Type: Package
+Title: A3: Accurate, Adaptable, and Accessible Error Metrics for
+        Predictive Models
+Version: 0.9.1
+Date: 2013-02-06
+Author: Scott Fortmann-Roe
+Maintainer: Scott Fortmann-Roe <scottfr@berkeley.edu>
+Description: This package supplies tools for tabulating and analyzing
+        the results of predictive models. The methods employed are
+        applicable to virtually any predictive model and make
+        comparisons between different methodologies straightforward.
+License: GPL (>= 2)
+Depends: xtable, pbapply
+Suggests: randomForest, e1071
+Packaged: 2013-02-06 16:46:12 UTC; scott
+Repository: CRAN
+Date/Publication: 2013-02-07 10:00:27

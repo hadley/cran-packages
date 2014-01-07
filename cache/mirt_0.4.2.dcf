@@ -1,0 +1,47 @@
+Package: mirt
+Version: 0.4.2
+Date: 2012-10-19
+Type: Package
+Title: Multidimensional Item Response Theory
+Authors@R: c( person("Phil", "Chalmers", email =
+        "rphilip.chalmers@gmail.com", role = c("aut", "cre")))
+Description: Analysis of dichotomous and polytomous response data using
+        latent trait models under the Item Response Theory paradigm.
+        Includes univariate and multivariate one-, two-, three-, and
+        four-parameter logistic models, graded response models, rating
+        scale graded response models, generalized partial credit
+        models, nominal models, multiple choice models, and
+        multivariate partially-compensatory models. These can be used
+        in an exploratory or confirmatory manner with optional user
+        defined linear constraints. Exploratory models can be estimated
+        via quadrature or stochastic methods, a generalized
+        confirmatory bi-factor analysis is included, and confirmatory
+        models can be fit with a Metropolis-Hastings Robbins-Monro
+        algorithm which can include polynomial or product constructed
+        latent traits. Additionally, multiple group analysis may be
+        performed for unidimensional or multidimensional item response
+        models for detecting differential item functioning.
+Depends: R (>= 2.14), stats4, lattice, MASS, methods
+Imports: stats4, psych, GPArotation, mvtnorm, Rcpp, numDeriv, Matrix
+Suggests: plink
+ByteCompile: yes
+LazyLoad: yes
+LazyData: yes
+LinkingTo: Rcpp
+Repository: CRAN
+License: GPL (>= 2)
+URL: https://github.com/philchalmers/mirt
+Collate: 'bfactor.R' 'expand.table.R' 'itemplot.R' 'key2binary.R'
+        'fscores.R' 'mirt-package.R' 'confmirt.R' 'mirt.R' 'polymirt.R'
+        'simdata.R' '00-classes.R' 'utils.R' '01-itemtypes.R'
+        '02-item_methods.R' 'calcLogLik.R' 'LoadPars.R'
+        'confmirt.model.R' 'model.elements.R' 'PrepData.R'
+        'Confirmatory-methods.R' 'Exploratory-methods.R' 'MHRM.group.R'
+        'MultipleGroup-methods.R' 'multipleGroup.R' 'wald.R'
+        'EMstep.group.R' 'extract.item.R' 'iteminfo.R' 'itemfit.R'
+        'personfit.R' '03-estimation.R' '04-derivatives.R'
+        'read.mirt.R' 'fscores.internal.R' 'itemplot.internal.R'
+Packaged: 2012-11-25 07:32:13 UTC; phil
+Author: Phil Chalmers [aut, cre]
+Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
+Date/Publication: 2012-11-25 08:09:48

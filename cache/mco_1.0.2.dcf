@@ -1,0 +1,16 @@
+Package: mco
+Version: 1.0.2
+Date: 2008-08-11
+Title: Multi criteria optimization algorithms
+Author:
+  Heike Trautmann <trautmann@statistik.uni-dortmund.de>
+  and Detlef Steuer <detlef.steuer@hsu-hamburg.de>
+  and Olaf Mersmann <olafm@statistik.uni-dortmund.de>
+Maintainer: Olaf Mersmann <olafm@statistik.uni-dortmund.de>
+Depends: R (>= 2.7.0)
+Suggests: scatterplot3d
+Description:
+License: GPL-2
+URL: http://r-forge.r-project.org/projects/desire
+LazyData: yes
+Packaged: Wed Aug 20 04:46:12 2008; theussl

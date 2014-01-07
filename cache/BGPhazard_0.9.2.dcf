@@ -1,0 +1,15 @@
+Package: BGPhazard
+Type: Package
+Version: 0.9.2
+Date: 2013-11-25
+Title: Markov beta and gamma processes for modeling hazard rates
+Author: Garcia-Bueno, J. A. & Nieto-Barajas, L. E.
+Maintainer: Jose Antonio Garcia Bueno <joseagbueno@gmail.com>
+Description: Computes the hazard rate estimate as described by Nieto-Barajas and Walker (2002) and Nieto-Barajas (2003)
+Depends: R(>= 3.0.2), survival
+Suggests: MASS, KMsurv
+License: GPL (>= 2)
+Packaged: 2013-11-28 20:14:34 UTC; Caitlin Qbic
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-28 22:03:43

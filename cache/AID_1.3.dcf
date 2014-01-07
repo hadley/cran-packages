@@ -1,0 +1,15 @@
+Package: AID
+Type: Package
+Title: An R Package to Estimate Box-Cox Power Transformation Parameter
+Version: 1.3
+Date: 2013-07-03
+Depends: MASS, tseries, nortest, stats
+Author: Osman Dag, Ozgur Asar, Ozlem Ilk
+Maintainer: Osman Dag <osman.dag@metu.edu.tr>
+Description: Includes a function to estimate the power transformation
+        parameter and some datasets
+License: GPL (>= 2)
+Packaged: 2013-07-03 14:36:46 UTC; METU
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-03 17:09:50

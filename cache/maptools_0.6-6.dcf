@@ -1,0 +1,11 @@
+Package: maptools
+Version: 0.6-6
+Date: 2007-01-16
+Title: Tools for reading and handling spatial objects
+Author: Nicholas J. Lewin-Koh and Roger Bivand, contributions by Edzer J. Pebesma, Patrick Hausmann, Virgilio Gómez Rubio, Thomas Jagger and Sebastian P. Luque
+Maintainer: Roger Bivand <Roger.Bivand@nhh.no>
+Depends: R (>= 2.2), foreign (>= 0.8), sp (>= 0.8-7), methods
+Suggests: spatstat, PBSmapping, maps, gpclib, RArcInfo
+Description: Set of tools for manipulating and reading geographic data, in particular ESRI shapefiles; C code used from shapelib. The package also provides interface wrappers for exchanging spatial objects with packages such as PBSmapping, spatstat, maps, RArcInfo, Stata tmap, WinBUGS, Mondrian, and others.
+License: GPL version 2 or later (R and interface code), MIT (shapelib code)
+Packaged: Tue Jan 16 10:43:02 2007; rsb

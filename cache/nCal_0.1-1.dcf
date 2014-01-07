@@ -1,0 +1,19 @@
+Package: nCal
+LazyLoad: yes
+LazyData: yes
+Version: 0.1-1
+Date: 2013-05-06
+Title: Nonlinear Calibration
+Author: Youyi Fong <yfong@fhcrc.org>, Krisztian Sebestyen
+        <ksebestyen@gmail.com>
+Maintainer: Youyi Fong <yfong@fhcrc.org>
+Depends: R (>= 2.11.1), drc (>= 1.9-3), rjags
+Suggests: gWidgets, gdata
+Imports: tcltk, xtable
+Description: nCal is a package that performs nonlinear calibration for
+        data from Luminex, RT-PCR, ELISA, etc.
+License: GPL (>= 2)
+Packaged: 2013-05-10 17:21:47 UTC; yfong
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-10 19:28:49

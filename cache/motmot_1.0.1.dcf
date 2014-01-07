@@ -1,0 +1,19 @@
+Package: motmot
+Type: Package
+Title: Models of Trait Macroevolution on Trees
+Version: 1.0.1
+Depends: R (>= 2.10.0), ape, mvtnorm, MASS, caper, laser
+Date: 2011-07-08
+Author: Gavin Thomas, Rob Freckleton
+Maintainer: Gavin Thomas <gavin.thomas@bristol.ac.uk>
+Description: motmot provides functions for fitting models of trait
+        evolution on phylogenies for continuous traits. The majority of
+        functions are based around tests of variation in the rates of
+        trait evolution.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: motmot
+URL: http://seis.bris.ac.uk/~gt0027/code.html
+Repository/R-Forge/Revision: 26
+Date/Publication: 2012-10-29 08:59:13
+Packaged: 2012-10-29 08:59:13 UTC; ripley

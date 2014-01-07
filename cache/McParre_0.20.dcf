@@ -1,0 +1,18 @@
+Package: McParre
+Type: Package
+Title: Run a Regenerative Markov chain in Parallel on a Cluster
+Version: 0.20
+Date: 2011-07-10
+Author: Vikneswaran Gopal
+Maintainer: Gopal, V. <viknesh@stat.ufl.edu>
+Depends: MASS
+Suggests: Rmpi
+Description: This package provides functions for a user to run a
+        regenerative Markov chain in parallel, split it up into tours
+        and form Confidence Intervals on parameters of interest.
+License: GPL (>= 2)
+LazyLoad: yes
+URL: http://www.stat.ufl.edu/~viknesh
+Packaged: 2011-08-27 02:43:22 UTC; viknesh
+Repository: CRAN
+Date/Publication: 2011-08-29 17:36:59

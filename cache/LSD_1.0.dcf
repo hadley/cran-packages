@@ -1,0 +1,15 @@
+Package: LSD
+Type: Package
+Title: Lots of Superior Depictions
+Version: 1.0
+Date: 2010-12-06
+Author: Bjoern Schwalb, Achim Tresch, Romain Francois
+Maintainer: Bjoern Schwalb <schwalb@lmb.uni-muenchen.de>
+Description: Create lots of colorful plots in a plethora of variations
+        ( try the LSD.demo.tour() )
+License: Unlimited
+LazyLoad: yes
+Depends: MASS,gtools,RColorBrewer,colorRamps,schoolmath
+Packaged: 2010-12-10 12:30:57 UTC; schwalb
+Repository: CRAN
+Date/Publication: 2010-12-10 15:02:34

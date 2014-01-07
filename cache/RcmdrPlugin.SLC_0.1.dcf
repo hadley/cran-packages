@@ -1,0 +1,16 @@
+Package: RcmdrPlugin.SLC
+Type: Package
+Title: SLC Rcmdr Plug-in
+Version: 0.1
+Date: 2010-14-01
+Author: Antonio Solanas <antonio.solanas@ub.edu>, Rumen Manolov
+        <rrumenov13@ub.edu & Patrick Onghena
+        <patrick.onghena@ped.kuleuven.be>.
+Maintainer: Rumen Manolov <rrumenov13@ub.edu>
+Depends: Rcmdr (>= 1.3), tcltk, SLC
+Description: This package provides a GUI for the SLC package, it is
+        written as an Rcmdr plug-in.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:57:34 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:34

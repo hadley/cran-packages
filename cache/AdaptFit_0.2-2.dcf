@@ -1,0 +1,13 @@
+Package: AdaptFit
+Version: 0.2-2
+Title: Adaptive Semiparametic Regression
+Author: Tatyana Krivobokova <tkrivob@gwdg.de>
+Maintainer: Tatyana Krivobokova <tkrivob@gwdg.de>
+Depends: SemiPar, MASS, nlme, cluster
+Description: Based on the function "spm" of the SemiPar package fits
+        semiparametric regression models with spatially adaptive
+        penalized splines.
+License: GPL (>= 2)
+Packaged: 2012-10-29 13:13:01 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 13:13:35

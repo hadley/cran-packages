@@ -1,0 +1,16 @@
+Package: patchPlot
+Version: 0.1.5
+Date: 2013-03-06
+Author: Pierrick Bruneau
+Maintainer: Pierrick Bruneau <pbruneau@gmail.com>
+Title: Scatterplots of image patches
+Description: Functions to generate scatterplots with images patches
+        instead of usual glyphs, with associated utilities.
+Depends: R (>= 2.10.0), grid, datautils
+LazyLoad: yes
+LazyData: yes
+License: LGPL-3
+Packaged: 2013-03-11 10:15:08 UTC; bruneau
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-11 11:55:30

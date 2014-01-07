@@ -1,0 +1,14 @@
+Package: rzmq
+Title: R binding for zmq (http://www.zeromq.org/)
+Version: 0.6.8
+Maintainer: Whit Armstrong <armstrong.whit@gmail.com>
+Author: Whit Armstrong <armstrong.whit@gmail.com>
+Description: R binding for zmq
+License: GPL-3
+SystemRequirements: libzmq, lippthread
+URL: http://github.com/armstrtw/rzmq
+BugReports: http://github.com/armstrtw/rzmq/issues
+Packaged: 2013-08-09 23:43:45 UTC; warmstrong
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-10 07:06:16

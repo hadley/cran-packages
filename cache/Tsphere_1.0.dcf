@@ -1,0 +1,17 @@
+Package: Tsphere
+Type: Package
+Title: Transposable Sphering for Large-Scale Inference with Correlated
+        Data.
+Version: 1.0
+Date: 2011-11-12
+Author: Genevera I. Allen
+Maintainer: Genevera I. Allen <gallen@rice.edu>
+URL: http://www.stat.rice.edu/~gallen/
+Description: Adjusts for correlations among the rows and columns via
+        the Transposable Sphering Algorithm when conducting large-scale
+        inference on the rows of a data matrix.
+License: GPL-2
+Depends: glasso, rms
+Packaged: 2012-10-29 08:57:46 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:46

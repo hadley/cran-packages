@@ -1,0 +1,13 @@
+Package: Rcmdr
+Version: 0.9-11
+Date: 2004/8/5
+Title: R Commander
+Author: John Fox <jfox@mcmaster.ca>.
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: R (>= 1.9.0), abind, car (>= 1.0-13), effects (>= 1.0-3), foreign, lattice, lmtest, mgcv, multcomp, mvtnorm, relimp, rgl
+LazyLoad: no
+Description: 
+  A platform-independent basic-statistics GUI (graphical user interface) for R, based on the tcltk package.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/Misc/Rcmdr/
+Packaged: Thu Aug  5 10:04:29 2004; John Fox

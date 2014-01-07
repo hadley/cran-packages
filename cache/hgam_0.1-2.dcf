@@ -1,0 +1,19 @@
+Package: hgam
+Title: High-dimensional Additive Modelling
+Version: 0.1-2
+Date: 2013-05-13
+Author: The students of the `Advanced R Programming Course' Hannah
+        Frick, Ivan Kondofersky, Oliver S. Kuehnle, Christian
+        Lindenlaub, Georg Pfundstein, Matthias Speidel, Martin
+        Spindler, Ariane Straub, Florian Wickler, Katharina Zink under
+        the supervision of Manuel Eugster and Torsten Hothorn
+Maintainer: Manuel Eugster <Manuel.Eugster@stat.uni-muenchen.de>
+Description: High-dimensional additive models as introduced by Meier,
+        van der Geer and Buehlmann (2009).
+Depends: grplasso, splines, lattice, rgl
+Suggests: parallel
+License: GPL-2
+Packaged: 2013-05-13 17:37:45 UTC; mjaeugster
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-13 23:05:04

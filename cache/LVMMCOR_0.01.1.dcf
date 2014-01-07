@@ -1,0 +1,23 @@
+Package: LVMMCOR
+Version: 0.01.1
+Date: 2013-05-10
+Title: A Latent Variable Model for Mixed Continuous and Ordinal
+        Responses
+Author: Ehsan Bahrami Samani and Nourallah Tazikeh Miyandarreh
+Maintainer: Ehsan Bahrami Samani <ehsan_bahrami_samani@yahoo.com>
+Description: A model for mixed ordinal and continuous responses is
+        presented where the heteroscedasticity of the variance of the
+        continuous response is also modeled. In this model ordinal
+        response can be dependent on the continuous response. The aim
+        is to use an approach similar to that of Heckman (1978) for the
+        joint modelling of the ordinal and continuous responses. With
+        this model, the dependence between responses can be taken into
+        account by the correlation between errors in the models for
+        continuous and ordinal responses
+Depends: R (>= 2.14.0),nlme,MASS
+License: GPL (>= 2)
+Contact: +982129902910
+Packaged: 2013-06-05 19:35:59 UTC; StatisticS
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-06 07:49:30

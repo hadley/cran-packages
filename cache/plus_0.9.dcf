@@ -1,0 +1,15 @@
+Package: plus
+Type: Package
+Version: 0.9
+Date: 2012-04-04
+Title: Penalized Linear Unbiased Selection
+Author: Cun-Hui Zhang and Ofer Melnik, with contributions from Yi Yu
+        and Stephanie Zhang
+Maintainer: Cun-Hui Zhang <czhang@stat.rutgers.edu>
+Depends: R (>= 2.10), grDevices, graphics, stats, utils
+Description: Efficient procedures for fitting an entire regression
+        sequences with different model types.
+License: GPL (>= 2)
+Packaged: 2012-04-06 22:47:10 UTC; stephaniezhang
+Repository: CRAN
+Date/Publication: 2012-04-08 05:21:51

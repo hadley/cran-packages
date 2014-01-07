@@ -1,0 +1,17 @@
+Package: ORCME
+Type: Package
+Title: Order Restricted Clustering for Microarray Experiments
+Version: 1.0
+Date: 2011-11-21
+Author: Adetayo Kasim, Martin Otava, Tobias Verbeke
+Maintainer: Martin Otava <martin.otava@uhasselt.be>
+Description: This package provides clustering of genes with similar 
+  dose response (or time course) profiles. It implements the method 
+  described by Lin et al. (2012).
+License: GPL-3
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: orcme
+Repository/R-Forge/Revision: 42
+Date/Publication: 2011-11-23 10:38:21
+Packaged: 2011-11-22 21:47:01 UTC; rforge

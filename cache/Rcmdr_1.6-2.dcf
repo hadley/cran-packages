@@ -1,0 +1,27 @@
+Package: Rcmdr
+Version: 1.6-2
+Date: 2010/10/28
+Title: R Commander
+Author: John Fox <jfox@mcmaster.ca>, with contributions from Liviu
+        Andronic, Michael Ash, Theophilius Boye, Stefano Calza, Andy
+        Chang, Philippe Grosjean, Richard Heiberger, G. Jay Kerns,
+        Renaud Lancelot, Matthieu Lesnoff, Uwe Ligges, Samir Messad,
+        Martin Maechler, Robert Muenchen, Duncan Murdoch, Erich
+        Neuwirth, Dan Putler, Brian Ripley, Miroslav Ristic, and Peter
+        Wolf.
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: R (>= 2.6.0), tcltk, grDevices, utils, car (>= 2.0-0),
+Suggests: abind, aplpack, colorspace, effects (>= 1.0-7), foreign,
+        grid, Hmisc, lattice, leaps, lmtest, MASS, mgcv, multcomp (>=
+        0.991-2), nlme, nnet, relimp, rgl, RODBC
+LazyLoad: no
+Description: A platform-independent basic-statistics GUI (graphical
+        user interface) for R, based on the tcltk package.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://socserv.socsci.mcmaster.ca/jfox/Misc/Rcmdr/
+Repository: CRAN
+Repository/R-Forge/Project: rcmdr
+Repository/R-Forge/Revision: 103
+Date/Publication: 2010-11-03 07:36:57
+Packaged: 2010-10-29 20:41:03 UTC; rforge

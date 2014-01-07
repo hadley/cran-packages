@@ -1,0 +1,36 @@
+Package: afex
+Type: Package
+Title: Analysis of Factorial Experiments
+Author: Henrik Singmann <henrik.singmann@psychologie.uni-freiburg.de>
+Depends: R (>= 2.14.0), car, lme4, pbkrtest, reshape2, stringr
+Suggests: ascii, xtable
+Description: Provides convenience functions for analyzing factorial
+        experiments using ANOVA or mixed-models. Functions ez.glm() and
+        aov.car() allow convenient specification of pure-between,
+        pure-within (i.e., repeated-measures), and mixed between-within
+        (i.e., split-plot) ANOVAs and ANCOVAs with type 2 and type 3
+        sums of squares for data in the long format (i.e., one
+        observation per row) wrapping car::Anova() (aggregating more
+        then one observation per individual and cell of the design).
+        Function nice.anova() produces publication ready ANOVA tables.
+        Function mixed() fits a mixed model using lme4::lmer() and
+        computes p-values for all effects in the model (using the
+        Kenward-Rogers approximation of degrees of freedom).  afex uses
+        type 3 sums of squares as default (imitating commercial
+        statistical software) and sets the default contrasts to
+        contr.sum.
+URL: http://www.psychologie.uni-freiburg.de/Members/singmann/R/afex
+License: GPL (>= 3)
+Encoding: UTF-8
+Authors@R: c(person(given="Henrik", family="Singmann",
+        email="henrik.singmann@psychologie.uni-freiburg.de",
+        role=c("aut", "cre")))
+Version: 0.2-26
+Date: 2012-08-09
+Collate: 'afex-package.R' 'aov.car.R' 'mixed.R' 'nice.anova.R'
+        'obk.long-data.R' 'zzz.R'
+Packaged: 2012-08-09 16:36:26 UTC; singmann
+Maintainer: Henrik Singmann
+        <henrik.singmann@psychologie.uni-freiburg.de>
+Repository: CRAN
+Date/Publication: 2012-08-09 17:10:08

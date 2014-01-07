@@ -1,0 +1,24 @@
+Package: iWebPlots
+Type: Package
+Title: Interactive web-based scatter plots
+Version: 0.1-0
+Date: 2011-04-07
+Author: Eleni Chatzimichali <e.chatzimichali@cranfield.ac.uk>, Conrad
+        Bessant <c.bessant@cranfield.ac.uk>
+Maintainer: Eleni Chatzimichali <e.chatzimichali@cranfield.ac.uk>
+Description: The iWebPlots package provides methods for the creation of
+        interactive web-based scatter plots, generated directly via the
+        R statistical environment. Interactivity is implemented using
+        the fundamental HTML image map technology, so no additional
+        software such as applets or plug-ins is required. Additional
+        features include dynamic tooltips and text annotations as well
+        as asynchronous alternation between two- and three-dimensional
+        scatter plots.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: geneplotter, scatterplot3d
+URL:
+        http://www.cranfield.ac.uk/health/researchareas/bioinformatics/page53292.html
+Packaged: 2011-04-07 08:17:59 UTC; elenachatzimichali
+Repository: CRAN
+Date/Publication: 2011-04-07 10:46:27

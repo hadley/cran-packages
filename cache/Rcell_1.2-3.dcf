@@ -1,0 +1,25 @@
+Package: Rcell
+Type: Package
+Version: 1.2-3
+Date: 2012-12-10
+Title: Microscopy Based Cytometry Data Analysis Package
+Author: Alan Bush <abush@fbmc.fcen.uba.ar>
+Maintainer: Alan Bush <abush@fbmc.fcen.uba.ar>
+Depends: R (>= 2.15.0), grid, proto, plyr (>= 1.8), reshape, ggplot2
+        (>= 0.9.3), EBImage (>= 4.0.0)
+Imports: Hmisc, stats, utils, digest
+Suggests: hopach, chron, xtable
+Description: A package to analyze microscopy based cytometry datasets.
+        It was originally design for Cell-ID, but can be adapted to
+        other image segmentation programs. It includes functions for
+        loading, manipulating and plotting the data. It can also create
+        automatic image montages of cells in a user defined layout.
+License: GPL-2
+Encoding: latin1
+URL: http://www.embnet.qb.fcen.uba.ar,
+        http://sourceforge.net/projects/cell-id
+LazyData: no
+BuildVignettes: no
+Packaged: 2012-12-11 01:24:30 UTC; alan
+Repository: CRAN
+Date/Publication: 2012-12-12 07:57:59

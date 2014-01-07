@@ -1,0 +1,16 @@
+Package: glmperm
+Type: Package
+Title: Inference in Generalized Linear Models
+Version: 1.0-3
+Date: 2010-08-16
+Author: Wiebke Werft and Douglas M. Potter
+Maintainer: Wiebke Werft <w.werft@dkfz.de>
+Description: A permutation test is used for inference in generalized
+        linear models (glm). The procedure is useful when parameter
+        estimates in ordinary glm fail to converge or are unreliable
+        due to small sample size.
+License: GPL-3
+Suggests: coin
+Packaged: 2010-08-16 14:25:02 UTC; werft
+Repository: CRAN
+Date/Publication: 2010-08-16 16:12:13

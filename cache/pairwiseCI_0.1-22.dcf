@@ -1,0 +1,24 @@
+Package: pairwiseCI
+Type: Package
+Title: Confidence intervals for two sample comparisons
+Version: 0.1-22
+Date: 2013-10-23
+Authors@R: c(person("Frank", "Schaarschmidt", role=c("aut", "cre"),
+ email="schaarschmidt@biostat.uni-hannover.de"),
+ person( "Daniel", "Gerhard", role="aut"))
+Author: Frank Schaarschmidt [aut, cre], Daniel Gerhard [aut]
+Maintainer: Frank Schaarschmidt <schaarschmidt@biostat.uni-hannover.de>
+Depends: MCPAN
+Imports: coin, boot, mratios, binMto, MASS
+Description: Calculation of the parametric, nonparametric confidence intervals
+ for the difference or ratio of location parameters, nonparametric confidence interval
+ for the Behrens-Fisher problem and for the difference, ratio and odds-ratio of binomial
+ proportions for comparison of independent samples. The package provides common wrapper
+ functions to split data sets and apply confidence intervals or tests to these subsets.
+ A by statement allows calculation of CI separately for the levels of further factors. 
+ CI are not adjusted for multiplicity.
+License: GPL-2
+Packaged: 2013-10-23 07:58:08 UTC; Schaarschmidt
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-23 10:22:19

@@ -1,0 +1,16 @@
+Package: HEAT
+Type: Package
+Title: Health Effects of Air Pollution and Temperature (HEAT)
+Version: 1.0
+Date: 2013-06-11
+Author: Youn-Hee Lim and Ho Kim
+Maintainer: Il-Sang Ohn <star-on@hanmail.net>
+Description: Timeseries analysis is conducted using Korean mortality
+        and environment variables
+Depends: R (>= 2.10), splines
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-06-12 02:50:54 UTC; ilsang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-12 14:02:58

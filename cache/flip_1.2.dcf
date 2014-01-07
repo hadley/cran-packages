@@ -1,0 +1,15 @@
+Package: flip
+Type: Package
+Title: Multivariate Permutation Tests
+Version: 1.2
+Date: 2011-11-17
+Author: Livio Finos
+Maintainer: Livio Finos <livio@stat.unipd.it>
+Depends: methods, foreach, e1071, someMTP, cherry
+Description: It implements univariate and multivariate permutation
+        test, also allowing for multiplicity control.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-02-11 15:51:59 UTC; livio
+Repository: CRAN
+Date/Publication: 2012-02-11 18:32:46

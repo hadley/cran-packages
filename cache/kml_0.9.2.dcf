@@ -1,0 +1,15 @@
+Package: kml
+Type: Package
+Title: K-Means for Longitudinal data
+Version: 0.9.2
+Date: 2008-08-01
+Author: Christophe M. Genolini
+Maintainer: Christophe M. Genolini <genolini@u-paris10.fr>
+Description: K-Means for Longitudinal data (KmL) is a version of k-means for longitudinal able to deal with missing value and proposing a graphical interphace for cloosing the correct number of clusters.
+License: GPL (>= 2)
+Lazyload: yes
+Depends: methods,clv
+URL: http:www.r-project.org,http://christophe.genolini.free.fr/kml
+Collate: global.r function.r longData.r partition.r clusterization.r longData-Partition.r imputation.r clusterizLongData.r artificialLongData.r
+Encoding: latin1
+Packaged: Thu Feb 19 18:57:53 2009; Christophe

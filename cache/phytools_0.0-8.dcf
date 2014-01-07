@@ -1,0 +1,17 @@
+Package: phytools
+Version: 0.0-8
+Date: 2011-8-18
+Title: Phylogenetic Tools for comparative biology (and other things)
+Author: Liam J. Revell
+Maintainer: Liam J. Revell <liam.revell@umb.edu>
+Depends: R (>= 2.6), ape, phangorn, mnormt, calibrate, msm
+Suggests: animation
+Imports:
+ZipData: no
+Description: phytools provides various functions for phylogenetic
+        analysis, mostly relevant to comparative biology.
+License: GPL (>= 2)
+URL: http://anolis.oeb.harvard.edu/~liam/R-phylogenetics
+Repository: CRAN
+Date/Publication: 2011-08-20 04:57:05
+Packaged: 2011-08-19 19:24:52 UTC; liam.revell

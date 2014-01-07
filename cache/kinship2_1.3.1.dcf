@@ -1,0 +1,23 @@
+Package: kinship2
+Version: 1.3.1
+Date: 2011-10-12
+Title: Pedigree functions
+Author: Terry Therneau, Elizabeth Atkinson, Jason Sinnwell, Martha
+        Matsumoto, Daniel Schaid, Shannon McDonnell
+Maintainer: Jason Sinnwell <sinnwell.jason@mayo.edu>
+Depends: Matrix, quadprog
+Description: Routines to handle family data with a pedigree object. The
+        initial purpose was to create correlation structures that
+        describe family relationships such as kinship and
+        identity-by-descent, which can be used to model family data in
+        mixed effects models, such as in the coxme function.  Also
+        includes a tool for pedigree drawing which is focused on
+        producing compact layouts without intervention.  Recent
+        additions include utilities to trim the pedigree object with
+        various criteria.
+LazyData: yes
+License: GPL (>= 2)
+URL: http://r-forge.r-project.org
+Packaged: 2011-10-12 14:36:50 UTC; sinnwell
+Repository: CRAN
+Date/Publication: 2011-10-12 15:48:28

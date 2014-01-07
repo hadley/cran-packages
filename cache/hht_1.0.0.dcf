@@ -1,0 +1,23 @@
+Package: hht
+Type: Package
+Title: The Hilbert-Huang Transform: Tools and Methods
+Version: 1.0.0
+Date: 2013-01-09
+Authors@R: c(person("Daniel", "Bowman", role=c("aut", "cre"),
+        email="daniel.bowman@unc.edu"))
+Depends: R (>= 2.15.1), EMD (>= 1.5.2), RSEIS
+Description: This package builds on the EMD package to provide
+        additional tools for empirical mode decomposition (EMD) and
+        Hilbert spectral analysis. It also implements the ensemble
+        empirical decomposition (EEMD) method to avoid mode mixing and
+        intermittency problems found in EMD analysis.  The package
+        comes with several plotting methods that can be used to view
+        intrinsic mode functions, the HHT spectrum, and the Fourier
+        spectrum.
+License: GPL (>= 3)
+URL: http://www.r-project.org
+Packaged: 2013-01-23 13:46:32 UTC; bowman
+Author: Daniel Bowman [aut, cre]
+Maintainer: Daniel Bowman <daniel.bowman@unc.edu>
+Repository: CRAN
+Date/Publication: 2013-01-23 16:20:26

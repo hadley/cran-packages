@@ -1,0 +1,21 @@
+Package: iBUGS
+Type: Package
+Title: An Interface to WinBUGS/OpenBUGS/JAGS by gWidgets
+Version: 0.1.3
+Date: 2013-03-28
+Author: Yihui Xie and Jiebiao Wang
+Maintainer: Jiebiao Wang <randel.wang@gmail.com>
+Description: This package has provided an interface to
+        WinBUGS/OpenBUGS/JAGS via R2WinBUGS and R2jags. Some options
+        will be intelligently guessed, e.g.  the path to
+        WinBUGS/OpenBUGS/JAGS and the data/parameter list. Users can
+        specify all the options in a GUI.
+License: GPL-2 | GPL-3
+LazyLoad: yes
+Depends: R2WinBUGS, gWidgetsRGtk2
+Suggests: R2jags, knitr
+Collate: 'bugs.options.R' 'iBUGS.R'
+Packaged: 2013-03-29 02:01:49 UTC; randel
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-29 16:45:50

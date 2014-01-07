@@ -1,0 +1,17 @@
+Package: regsubseq
+Type: Package
+Title: Detect and Test Regular Sequences and Subsequences
+Version: 0.10
+Date: 2007-09-27
+Author: Yanming Di
+Maintainer: Yanming Di<diy@stat.washington.edu>
+Description: For a sequence of event occurence times, we are interested
+        in finding subsequences in it that are too "regular". We define
+        regular as being significantly different from a homogeneous
+        Poisson process. The departure from the Poisson process is
+        measured using a L1 distance. See Di and Perlman 2007 for more
+        details.
+License: GPL-2
+Packaged: 2012-10-29 08:59:35 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:35

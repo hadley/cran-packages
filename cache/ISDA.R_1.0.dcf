@@ -1,0 +1,20 @@
+Package: ISDA.R
+Type: Package
+Title: interval symbolic data analysis for R
+Version: 1.0
+Date: 2011-06-04
+Author: Ricardo Jorge de Almeida Queiroz Filho <rjaqfcin@gmail.com>,
+        Roberta Andrade de Araujo Fagundes <raaf@cin.ufpe.br>
+Maintainer: Ricardo Jorge de Almeida Queiroz Filho <rjaqfcin@gmail.com>
+Depends: R(>= 2.7.0), scatterplot3d
+Description: describes a set of operations for symbolic data type based
+        on interval-valued. The operations are processing of punctuals
+        variables to interval variables, construction of a 3D graphic
+        interval, linear regression interval and interval descriptive
+        statistics such as mean, median, variance, standard deviation
+        and mode.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:10 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:10

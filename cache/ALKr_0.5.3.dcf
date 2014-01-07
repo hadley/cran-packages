@@ -1,0 +1,24 @@
+Package: ALKr
+Type: Package
+Title: Generate Age-Length Keys for fish populations
+Description: A collection of functions that implement several
+        algorithms for generating age-length keys for fish populations
+        from incomplete data.
+URL: http://www.github.com/ALKr
+Version: 0.5.3
+Date: 2013-05-07
+Author: Jose Francisco Loff, Alberto Murta, Laurence Kell
+Maintainer: Jose Francisco Loff <jfloff@phistat.com>
+Depends: R (>= 2.15.2), Rcpp (>= 0.10.2)
+LinkingTo: Rcpp
+Imports: MASS, methods
+License: BSD
+Collate: 'ALKr.r' 'gascuel.r' 'hoenig.r' 'hoenig_heisey.r'
+        'inverse_ALK.r' 'kimura_chikuni.r' 'package.r' 'calc_invALK.r'
+        'calc_ALK.r' 'classic_ALK.r' 'hom.r' 'RcppExports.R'
+        'age_slicing.r' 'summary.ALKr.r' 'summary_ALKr.r'
+        'ALKr_methods.r'
+Packaged: 2013-05-25 21:58:08 UTC; zeloff
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-26 08:25:25

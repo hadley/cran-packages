@@ -1,0 +1,21 @@
+Package: sdcMicroGUI
+Type: Package
+Title: Graphical user interface for package sdcMicro
+Version: 1.1.1
+Date: 2013-11-07
+Author: Alexander Kowarik, Matthias Templ, Bernhard Meindl, Francois Fonteneau
+Maintainer: Matthias Templ <matthias.templ@gmail.com>
+Description: A point and click graphical user interface based on top of the
+    sdcMicro package to create anonymized data set. The graphical user
+    interface provides full reproducibility of any result via the script menu
+    in the GUI.
+Depends: sdcMicro (>= 4.1.0), gWidgetsRGtk2, tcltk, cairoDevice
+Imports: vcd, foreign, Hmisc,tools
+License: GPL-2
+URL: https://github.com/alexkowa/sdcMicroGUI
+Collate: 'aux_functions.R' 'plot.indivRisk.r' 'sdcGUI.r' 'zzz.r'
+        'HelpHelperFunctions.R'
+Packaged: 2013-11-07 07:33:22 UTC; kowa$
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-08 07:48:03

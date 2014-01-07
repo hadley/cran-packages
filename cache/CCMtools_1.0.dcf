@@ -1,0 +1,16 @@
+Package: CCMtools
+Version: 1.0
+Date: 2010-23-02
+Title: Clustering through "Correlation Clustering Model" (CCM) and
+        cluster analysis tools.
+Author: Mathieu Vrac <mathieu.vrac@lsce.ipsl.fr>
+Maintainer: Mathieu Vrac <mathieu.vrac@lsce.ipsl.fr>
+Depends: R (>= 1.8.0), mclust, class, tree,mvtnorm
+Description: This package proposes a clustering method called
+        "Correlation Clustering Model" (CCM) based on mixture of
+        canonical correlation analysis (CCA). It also provides some
+        tools for cluster analysis.
+License: GPL (>= 2)
+Packaged: Fri Feb 26 14:54:05 2010; mvrac
+Repository: CRAN
+Date/Publication: 2010-02-26 14:28:39

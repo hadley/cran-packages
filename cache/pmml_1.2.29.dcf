@@ -1,0 +1,28 @@
+Package: pmml
+Type: Package
+Title: Generate PMML for various models
+Version: 1.2.29
+Date: 2012-02-19
+Author: Graham Williams, Michael Hahsler (arules), Zementis Inc, Hemant
+        Ishwaran, Udaya B. Kogalur, Rajarshi Guha
+Maintainer: Graham Williams <Graham.Williams@togaware.com>
+Depends: XML
+Suggests: arules, nnet, rpart, randomSurvivalForest, randomForest,
+        kernlab
+License: GPL (>= 2)
+Description: The Predictive Modelling Markup Language (PMML) is a
+        language for representing models using XML in an application
+        independent way. Such models can then be shared with other
+        applications that support PMML (see
+        http://www.dmg.org/products.html). The generic pmml() function
+        takes an R model as its argument and returns the corresponding
+        PMML.  Currently supported models for export include linear
+        regression (lm and glm), support vector machines (ksvm),
+        decision trees (rpart), neural networks (nnet, multinom),
+        association rules (arules), survival models (coxph, survreg),
+        random survival forests (randomSurvivalForest), and clusters
+        (kmeans, hclust).
+URL: http://rattle.togaware.com/
+Packaged: 2012-02-19 10:54:19 UTC; gjw
+Repository: CRAN
+Date/Publication: 2012-02-19 20:56:38

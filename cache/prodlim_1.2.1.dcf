@@ -1,0 +1,12 @@
+Package: prodlim
+Title: Product Limit Estimation
+Version: 1.2.1
+Author: Thomas A. Gerds
+Description: Fast and user friendly nonparametric estimation in
+        censored survival (event history) analysis.
+Depends: R (>= 1.9.1), stats, KernSmooth, survival
+Maintainer: Thomas A. Gerds <tag@biostat.ku.dk>
+License: GPL (>= 2)
+Packaged: 2011-04-24 09:27:43 UTC; tag
+Repository: CRAN
+Date/Publication: 2011-04-24 10:30:15

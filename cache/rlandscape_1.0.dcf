@@ -1,0 +1,20 @@
+Package: rlandscape
+Type: Package
+Title: Generates random landscapes with specifiable spatial
+        characteristics
+Version: 1.0
+Date: 2012-09-03
+Author: Gregor Passolt, Miranda J. Fix, Sandor F. Toth
+Maintainer: Gregor Passolt <gregor.passolt@gmail.com>
+Depends: spatstat, deldir (>= 0.0-19), gWidgets, gWidgetsRGtk2
+Description: Rlandscape is a tool for generating data (forests divided
+        into management units) for testing harvest scheduling models.
+        It enables the user to create large amounts of sample forests
+        while maintaining control over some spatial properties of the
+        data, such as the degree and area distributions.
+License: GPL (>= 2)
+Collate: 'rland.R' 'rland.gui.R' 'rland.points.R' 'rland.utils.R'
+        'rlandscape.R' 'plot.landscape.R'
+Packaged: 2012-09-10 17:44:50 UTC; Gregor
+Repository: CRAN
+Date/Publication: 2012-09-11 06:06:50

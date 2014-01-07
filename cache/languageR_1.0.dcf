@@ -1,0 +1,21 @@
+Package: languageR
+Type: Package
+Title: Data sets and functions with "Analyzing Linguistic Data: A
+        practical introduction to statistics".
+Version: 1.0
+Date: 2010-06-04
+Author: R. H. Baayen
+Maintainer: <baayen@ualberta.ca>
+Description: Data sets exemplifying statistical methods, and some
+        facilitatory utility functions used in "Analyzing Linguistic
+        Data: A practical introduction to statistics using R",
+        Cambridge University Press, 2008.
+LazyData: yes
+License: GPL (>= 2)
+Depends: R(>= 2.9.1), methods, lattice, zipfR, Matrix, lme4 (>=
+        0.999375-31)
+Suggests: cluster, e1071, Design, Hmisc, MASS, rpart
+Imports: methods, lattice, coda, lme4
+Repository: CRAN
+Date/Publication: 2010-06-04 18:17:33
+Packaged: 2010-06-04 15:29:18 UTC; harald

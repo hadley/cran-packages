@@ -1,0 +1,14 @@
+Package: MVN
+Type: Package
+Title: Multivariate Normality Tests
+Version: 1.0
+Date: 2013-02-12
+Author: Selcuk KORKMAZ
+Maintainer: Selcuk KORKMAZ <selcuk.korkmaz@hacettepe.edu.tr>
+Depends: R (>= 2.15.0), nortest, moments
+Description: The MVN library contain several multivariate normality
+        tests such as Henze-Zirkler, Mardia and Royston.
+License: GPL (>= 2)
+Packaged: 2013-02-13 17:08:54 UTC; pc
+Repository: CRAN
+Date/Publication: 2013-02-13 18:23:29

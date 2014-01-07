@@ -1,0 +1,22 @@
+Package: Causata
+Type: Package
+Title: Analysis utilities for binary classification and Causata users.
+Version: 4.1-0
+Date: 2013-05-30
+Author: Justin Hemann, David Barker, Suzanne Weller, Jason McFall
+Maintainer: Justin Hemann <justinh@causata.com>
+Description: The Causata package provides utilities for extracting data
+        from the Causata application, training binary classification
+        models, and exporting models as PMML for scoring.
+Depends: R (>= 2.15.1)
+Imports: XML, R.utils, rjson, RMySQL, RCurl, stringr, yaml, boot,
+        foreach, data.table, glmnet, ggplot2
+Suggests: doMC, testthat, pROC, knitr
+License: GPL
+LazyLoad: yes
+VignetteBuilder: knitr
+URL: www.causata.com
+Packaged: 2013-06-04 05:56:53 UTC; Justin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-04 09:05:51

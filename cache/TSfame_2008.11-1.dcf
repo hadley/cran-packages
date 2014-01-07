@@ -1,0 +1,14 @@
+Package: TSfame
+Version:2008.11-1
+Date: 2008-11-1
+Title: Time Series Database Interface extensions for fame
+Description: TSfame provides a fame interface for TSdbi.
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, DBI, fame, tis, zoo
+Imports: methods, TSdbi, DBI, tframe
+Suggests: tseries, TShistQuote
+Enhances: TSdbi
+License: GPL-2
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Sun Nov  2 21:39:03 2008; gilp

@@ -1,0 +1,25 @@
+Package: fxregime
+Version: 1.0-3
+Date: 2013-12-10
+Title: Exchange Rate Regime Analysis
+Authors@R: c(person(given = "Achim", family = "Zeileis", role = c("aut", "cre"), email = "Achim.Zeileis@R-project.org"),
+             person(given = "Ajay", family = "Shah", role = "ctb"),
+             person(given = "Ila", family = "Patnaik", role = "ctb"),
+             person(given = "Anmol", family = "Sethy", role = "ctb"))
+Description: Exchange rate regression and structural change tools
+             for estimating, testing, dating, and monitoring
+	     (de facto) exchange rate regimes.
+LazyData: yes
+Depends: R (>= 2.14.0), zoo, strucchange
+Suggests: lmtest, foreach
+Imports: graphics, stats, car, sandwich
+License: GPL-2
+Packaged: 2013-12-10 08:50:12 UTC; zeileis
+Author: Achim Zeileis [aut, cre],
+  Ajay Shah [ctb],
+  Ila Patnaik [ctb],
+  Anmol Sethy [ctb]
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-10 11:23:06

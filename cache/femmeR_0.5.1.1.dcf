@@ -1,0 +1,10 @@
+Package: femmeR
+Title: Output analysis of FEMME model results
+Version: 0.5.1.1
+Author: Henrik Andersson, Andreas Hofmann, Karline Soetaert
+Description: Plot and summarize results calculated by the modeling environment FEMME (Soetaert, 2002)
+Depends: coda
+Suggests: xtable
+Maintainer: Henrik Andersson <JAN@dhigroup.com>
+License: GPL
+Packaged: Mon Feb 23 10:48:03 2009; hornik

@@ -1,0 +1,22 @@
+Package: EvalEst
+Version: 2012.4-1
+Title: Dynamic Systems Estimation - extensions
+Description: EvalEst provides functions for evalating (time series)
+        model estimation methods. These facilitate monte carlo
+        experiments of repeated simulations and estimations. The
+        package also provides methods for looking at the distribution
+        of the results from these experiments, including model roots
+        (which are an equivalence class invariant).
+Depends: R (>= 2.5.0), setRNG, tframe (>= 2007.5-3), tfplot, dse (>=
+        2007.10-1)
+LazyLoad: yes
+License: GPL-2
+Copyright: 1993-1996,1998-2011 Bank of Canada. 1997,2012 Paul Gilbert
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://tsanalysis.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: tsanalysis
+Repository/R-Forge/Revision: 113
+Packaged: 2012-05-02 18:15:15 UTC; rforge
+Date/Publication: 2012-05-03 05:51:40

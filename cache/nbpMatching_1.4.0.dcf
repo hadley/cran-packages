@@ -1,0 +1,19 @@
+Package: nbpMatching
+Type: Package
+Title: functions for non-bipartite optimal matching
+Version: 1.4.0
+Date: 2012-11-19
+Author: Bo Lu, Robert Greevy, Cole Beck
+Maintainer: Cole Beck <cole.beck@vanderbilt.edu>
+Description: solves Mahalanobis distance matrices
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods, Hmisc
+Imports: MASS
+Repository: CRAN
+Repository/R-Forge/Project: nbpmatching
+Repository/R-Forge/Revision: 16
+Repository/R-Forge/DateTimeStamp: 2013-04-16 20:57:31
+Date/Publication: 2013-04-17 17:28:58
+Packaged: 2013-04-16 22:15:48 UTC; rforge
+NeedsCompilation: yes

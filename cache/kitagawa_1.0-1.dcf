@@ -1,0 +1,22 @@
+Package: kitagawa
+Type: Package
+Title: Model the spectral response of a closed water-well to harmonic
+        strains at seismic frequencies.
+Version: 1.0-1
+Date: 2012-10-23
+Author: Andrew J Barbour
+Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
+Description: Provides tools to calculate what the theoretical
+        hydrodynamic response will be for borehole strain and
+        fluid-pressure (water height) measurements of seismic waves,
+        for a given set of aquifer parameters.  The calculations are
+        based on the model presented by Kitagawa et al (2011); hence,
+        the name of the package.
+License: GPL (>= 2)
+URL: http://abarbour.github.com/kitagawa/
+Depends: R (>= 2.10.1), kelvin (>= 1.1-0)
+Collate: 'kitagawa-package.R' 'well_response.R' 'sensing_volume.R'
+        'kitplot.R' 'omega_constants.R' 'alpha_constants.R' 'nullchk.R'
+Packaged: 2012-10-25 22:32:50 UTC; abarbour
+Repository: CRAN
+Date/Publication: 2012-10-26 06:07:47

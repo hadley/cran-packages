@@ -1,0 +1,31 @@
+Package: klausuR
+Type: Package
+Title: Multiple Choice Test Evaluation
+Author: m.eik michalke <meik.michalke@hhu.de>
+Maintainer: m.eik michalke <meik.michalke@hhu.de>
+Depends: R (>= 2.9.0),xtable,psychometric,methods,graphics,tools
+Enhances: rkward
+Description: A set of functions designed to quickly generate results of
+        a multiple choice test. Generates detailed global results,
+        lists for anonymous feedback and personalised result feedback
+        (in LaTeX and/or PDF format), as well as item statistics like
+        Cronbach's alpha or disciminatory power.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://r-forge.r-project.org/projects/klausur
+Author@R: c(person(given="Meik", family="Michalke",
+        email="meik.michalke@hhu.de"))
+Version: 0.12-1
+Date: 2011-09-01
+Collate: 'compare.R' 'grand.table.R' 'klausuR.test-class.R'
+        'klausuR.answ-class.R' 'klausuR-class.R' 'klausur.data.R'
+        'klausur.gen.corr.R' 'klausur.gen.marks.R' 'klausur.gen.R'
+        'klausuR-internal.R' 'klausuR-internal.roxy.all.R'
+        'klausur.mufo.R' 'klausuR.mult-class.R' 'klausuR-package.R'
+        'klausur.R' 'klausur.report.R' 'nret.rescale.R'
+        'nret.translator.R' 'plot.klausuR.R' 'show.klausuR.R'
+        'sort.klausuR.R'
+Packaged: 2011-09-01 17:31:08 UTC; m
+Repository: CRAN
+Date/Publication: 2011-09-01 18:35:02

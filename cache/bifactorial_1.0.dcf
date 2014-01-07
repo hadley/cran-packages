@@ -1,0 +1,10 @@
+Package: bifactorial
+Version: 1.0
+Date: 2007-04-26
+Author: Peter Frommolt
+Maintainer: Peter Frommolt <peter.frommolt@uni-koeln.de>
+Title: Inferences for bi- and trifactorial trial designs
+Depends: mvtnorm,multcomp,lattice,graphics,methods
+Description: This package makes global and multiple inferences for given bi- and trifactorial clinical trial designs using bootstrap methods and a classical approach.
+License: General Public License (GPL)
+Packaged: Thu Dec  6 11:56:17 2007; pf

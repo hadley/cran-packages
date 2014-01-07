@@ -1,0 +1,16 @@
+Package: ORDER2PARENT
+Type: Package
+Title: Estimate parent distributions with data of several order
+        statistics
+Version: 1.0
+Date: 2010-09-15
+Author: Cheng Chou
+Maintainer: Cheng Chou <chengzho@usc.edu>
+Depends: splines, Matrix
+Description: This package uses B-spline based nonparametric smooth
+        estimators to estimate parent distributions given observations
+        on multiple order statistics.
+License: GPL-2
+Packaged: 2012-10-29 08:57:22 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:22

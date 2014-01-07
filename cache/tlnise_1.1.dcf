@@ -1,0 +1,20 @@
+Package: tlnise
+Depends: R (>= 2.9.0)
+Suggests: MASS
+Imports: stats
+Version: 1.1
+Date: 2009-07-06
+Title: Two-level normal independent sampling estimation
+Author: S-PLUS original by Phil Everson; R port by Roger D. Peng
+        <rpeng@jhsph.edu>
+Maintainer: Roger D. Peng <rpeng@jhsph.edu>
+Description: Functions for two level normal models as described in
+        Everson and Morris (2000). J. R. Statist. Soc. B, 62 prt 2,
+        pp.399--412.
+License: file LICENSE
+URL: http://www.swarthmore.edu/NatSci/peverso1/TLNise/tlnise.htm
+Packaged: 2009-09-28 16:57:47 UTC; rdpeng
+Repository: CRAN
+Date/Publication: 2009-09-28 19:15:03
+NeedsCompilation: yes
+License_restricts_use: no

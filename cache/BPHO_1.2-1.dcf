@@ -1,0 +1,11 @@
+Package: BPHO
+Version: 1.2-1
+Title: Bayesian Prediction with High-order Interactions
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 2.0.0)
+Description: This software is used in two situations. The first is to predict the
+             next outcome based on the previous states of a discrete sequence. The second is to classify a discreate response  based on a number of discreate covariates. In both situations, we use Bayesian logistic regression models and consider the high-order interactions in making prediction. The time arising from using high-order interactions is reduced greatly by our compression technique that represents a group of original parameters as a single one in  MCMC step. In this version, we use log-normal prior for the hyperparameters. When it is used for the second situation --- classification, in this version we consider the full set of interaction patterns up to a prespecified order.
+License:GPL (>=2)
+URL: http://www.r-project.org, http://math.usask.ca/~longhai
+Packaged: Wed Feb 20 23:53:11 2008; longhai

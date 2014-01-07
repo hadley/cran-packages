@@ -1,0 +1,17 @@
+Package: hbmem
+Type: Package
+Title: Hierarchial Bayesian Analysis of Recognition Memory
+Version: 0.1
+Date: 2009-07-07
+Author: Michael S. Pratte
+Maintainer: Mike <prattems@gmail.com>
+Depends: R (>= 1.8.0), methods
+Description: Contains functions for fitting hierarchial versions of
+        EVSD, UVSD, and DPSD to recognition memory confidence-ratings
+        data.
+License: LGPL (>= 2.0)
+LazyLoad: yes
+URL: http://pcl.missouri.edu
+Packaged: 2009-07-16 13:48:44 UTC; mike
+Repository: CRAN
+Date/Publication: 2009-07-18 16:11:22

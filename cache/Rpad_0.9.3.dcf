@@ -1,0 +1,11 @@
+Package: Rpad
+Title: Rpad functions
+Version: 0.9.3
+Author: Tom Short (EPRI Solutions, Inc.), Philippe Grosjean (UMH EcoNum)
+Description: Utility functions for the Rpad workbook-style
+        interface. Provides convenient plotting, HTML GUI
+        generation, and HTML output.
+Imports: grDevices, R2HTML
+Maintainer: Tom Short <tshort@eprisolutions.com>
+License: GPL version 2 or newer
+Packaged: Wed May 11 14:02:16 2005; tshort

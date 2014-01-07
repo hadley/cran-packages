@@ -1,0 +1,13 @@
+Package: introgress
+Type: Package
+Title: introgress
+Version: 1.0
+Date: 2009-02-24
+Author: Zachariah Gompert, C. Alex Buerkle
+Maintainer: C. Alex Buerkle <buerkle@uwyo.edu>
+Depends: nnet, genetics
+Description: introgress provides functions for analyzing introgression of genotypes between divergent, hybridizing lineages, including estimating genomic clines from multi-locus genotype data and testing for deviations from neutral expectations. Functions are also provided for maximum likelihood estimation of molecular hybrid index and graphical analysis.
+License: GPL (>= 2)
+URL: http://www.uwyo.edu/buerkle/
+LazyLoad: yes
+Packaged: Wed Feb 25 09:38:11 2009; zgompert

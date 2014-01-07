@@ -1,0 +1,17 @@
+Package: bpca
+Type: Package
+Title: Biplot of Multivariate Data Based on Principal Components
+        Analysis
+Version: 1.0-10
+Date: 2012-02-20
+Author: Jose Claudio Faria & Clarice Garcia Borges Demetrio
+Maintainer: Jose Claudio Faria <joseclaudio.faria@gmail.com>
+Depends: R (>= 2.6.0), scatterplot3d, rgl
+Description: Implements biplot (2d and 3d) of multivariate data based
+        on principal components analysis and diagnostic tools of the
+        quality of the reduction.
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2012-02-20 20:32:48 UTC; jcfaria
+Repository: CRAN
+Date/Publication: 2012-02-21 06:58:15

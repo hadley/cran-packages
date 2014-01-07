@@ -1,0 +1,17 @@
+Package: LogicForest
+Type: Package
+Title: Logic Forest
+Version: 1.0
+Date: 2010-07-07
+Author: Bethany Wolf
+Maintainer: Bethany Wolf <wolfb@musc.edu>
+Depends: LogicReg, CircStats, gtools, plotrix
+Description: Classification ensemble based on logic regression trees.
+        Used for classification of binary responses based on binary
+        predictors and for identification of important variables and
+        variable interactions predictive of a binary outcome.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-07-09 15:42:20 UTC; wolfb
+Repository: CRAN
+Date/Publication: 2010-07-25 11:06:03

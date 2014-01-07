@@ -1,0 +1,11 @@
+Package: tradeCosts
+Title: Trade Cost Analysis
+Version: 0.2-1
+Date: 2007-10-01
+Author: Arjun Ravi Narayan <contact@arjunnarayan.com>, Aaron Schwartz <Aaron.J.Schwartz@williams.edu>, Daniel Suo <danielsuo@gmail.com> and Luyi Zhao <luyizhao@fas.harvard.edu> with contributions from Jeff Enos <jeff@kanecap.com> and David Kane <david@kanecap.com> 
+Maintainer: Jeff Enos <jeff@kanecap.com>
+LazyLoad: yes
+Description: Performs ex-post analysis of security transaction costs.
+Depends: R (>= 2.4.0), methods, tools, graphics
+License: GPL (>= 2)
+Packaged: Tue Oct  2 09:12:55 2007; enos

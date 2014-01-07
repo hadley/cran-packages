@@ -1,0 +1,18 @@
+Package: HardyWeinberg
+Type: Package
+Title: Graphical tests for Hardy-Weinberg equilibrium
+Version: 1.3
+Date: 2009-03-20
+Author: Jan Graffelman <jan.graffelman@upc.edu>
+Maintainer: Jan Graffelman <jan.graffelman@upc.edu>
+Depends: R (>= 1.8.0), graphics, stats
+Description: Package HardyWeinberg is a package for exploring
+        bi-allelic marker data. It focuses on the graphical
+        representation of the results of tests for Hardy-Weinberg
+        equlibrium in a ternary plot. Routines for several tests for
+        Hardy-Weinberg equilibrium are included in the package.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www-eio.upc.edu/~jan
+Packaged: Fri Mar 27 15:55:46 2009; jan
+Repository: CRAN
+Date/Publication: 2009-03-27 16:39:55

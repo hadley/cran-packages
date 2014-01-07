@@ -1,0 +1,18 @@
+Package: restorepoint
+Type: Package
+Title: Debugging with restore points
+Version: 0.1
+Date: 2012-12-17
+Author: Sebastian Kranz
+Maintainer: Sebastian Kranz <sebastian.kranz@uni-ulm.de>
+Description: Debugging with restore points instead of break points. A
+        restore point stores all local variables when called inside a
+        function. The stored values can later be retrieved and
+        evaluated in a modified R console that replicates the
+        function's environment. To debug step by step, one can simply
+        copy & paste the function body from the R script. Particularly
+        convenient in combination with RStudio.
+License: GPL (>= 2)
+Packaged: 2013-02-10 10:42:00 UTC; Sebastian
+Repository: CRAN
+Date/Publication: 2013-02-10 12:02:59

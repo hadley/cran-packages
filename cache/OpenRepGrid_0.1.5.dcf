@@ -1,0 +1,23 @@
+Package: OpenRepGrid
+Maintainer: Mark Heckmann <heckmann@uni-bremen.de>
+License: GPL (>= 2)
+Title: Tools to analyse repertory grid data
+LazyData: yes
+Type: Package
+LazyLoad: yes
+Author: Mark Heckmann
+Description: Tools to analyse repertory grid data
+Version: 0.1.5
+Date: 2011-07-03
+Depends: methods, grid, colorspace, plyr, abind, rgl, psych, XML, tcltk
+Collate: 'bertin.r' 'calc.r' 'data-openrepgrid.r' 'dev-functions.r'
+        'export.r' 'gmMain.r' 'import.r' 'measures.r' 'openrepgrid.r'
+        'repgrid.r' 'repgrid-basicops.r' 'repgrid-constructs.r'
+        'repgrid-elements.r' 'repgrid-output.r' 'repgrid-plots.r'
+        'repgrid-ratings.r' 'rgl-3d.r' 'utils-import.r' 'utils.r'
+        'zzz.R'
+Repository: CRAN
+Repository/R-Forge/Project: openrepgrid
+Repository/R-Forge/Revision: 24
+Date/Publication: 2011-07-23 13:02:45
+Packaged: 2011-07-06 20:42:29 UTC; rforge

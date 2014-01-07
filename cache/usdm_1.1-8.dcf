@@ -1,0 +1,22 @@
+Package: usdm
+Type: Package
+Title: Uncertainty analysis for species distribution models
+Version: 1.1-8
+Date: 2013-03-19
+Author: Babak Naimi
+Depends: methods, raster
+Suggests: rgdal (>= 0.6-28)
+Maintainer: Babak Naimi <naimi.b@gmail.com>
+Description: This package aims to provide methods and tools for
+        assessing the impact of different sources of uncertainties
+        (e.g.positional uncertainty) on performance of species
+        distribution models (SDMs).)
+License: GPL (>= 3)
+URL: http://usdm.r-forge.r-project.org/; http://r-gis.net
+Repository: CRAN
+Repository/R-Forge/Project: usdm
+Repository/R-Forge/Revision: 14
+Repository/R-Forge/DateTimeStamp: 2013-03-19 17:03:33
+Date/Publication: 2013-03-20 07:53:43
+Packaged: 2013-03-19 20:50:20 UTC; rforge
+NeedsCompilation: no

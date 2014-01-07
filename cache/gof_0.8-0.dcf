@@ -1,0 +1,18 @@
+Package: gof
+Type: Package
+Title: Model-diagnostics based on cumulative residuals
+Version: 0.8-0
+Date: 2011-10-09
+Author: Klaus K. Holst
+Maintainer: Klaus. K. Holst <kkho@biostat.ku.dk>
+Description: Implementation of model-checking technique based on
+        cumulative residuals
+Depends: R (>= 2.8), survival
+Suggests: numDeriv, lava
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: gof
+Repository/R-Forge/Revision: 20
+Date/Publication: 2011-10-10 13:41:23
+Packaged: 2011-10-09 21:11:18 UTC; rforge

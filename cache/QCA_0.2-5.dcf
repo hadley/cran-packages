@@ -1,0 +1,12 @@
+Package: QCA
+Type: Package
+Title: Qualitative Comparative Analysis
+Version: 0.2-5
+Date: 2006-05-31
+Author: Adrian Dusa <adi@roda.ro>
+Maintainer: Adrian Dusa <adi@roda.ro>
+Depends: R (>= 1.9.0), cluster, lpSolve
+Suggests: XML
+Description: Performs the Quine-McCluskey algorithm for Qualitative Comparative Analysis, as described in Ragin, Charles C. 1987 "The Comparative Method. Moving beyond qualitative and quantitative strategies", Berkeley: University of California Press. It currently handles about 8 conditions and one outcome. While theoretically it could handle more conditions, it requires a lot of computer resources and is memory hungry; future versions will have more functions to address this problem, as well as functions for fuzzy-set QCA. The package doesn't currently handle missing values in the data, therefore it is not yet possible to perform simplifying assumptions
+License: GPL version 2 or newer
+Packaged: Fri Dec  1 18:22:40 2006; adi

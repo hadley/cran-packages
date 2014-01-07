@@ -1,0 +1,25 @@
+Package: rreval
+Type: Package
+Title: Remote R Evaluator (rreval)
+Version: 1.0
+Date: 2012-03-24
+Author: Barnet Wagman
+Maintainer: Barnet Wagman <bw@norbl.com>
+Description: rreval is a means for using R on a remote system from
+        within a local R session.  Any R expression can be evaluated on
+        the remote server. All non-graphical results are returned to
+        the local R session: this includes the results of remote
+        evaluations and (nearly) all textual output, including errors
+        and warnings.  rreval uses socket level communication via ssh
+        port forwarding. It supports uploading and downloading R
+        objects and scp file tranfers.
+License: GPL-3
+Depends: R (>= 2.14.1), digest
+SystemRequirements: Java (>=1.6), ssh daemon on the server side only:
+        see the rreval manual (vignette) for details.
+URL: http://norbl.com/rreval.html
+Collate: 'rreval-package.R' 'MessageNio.R' 'RcsIO.R' 'RReClient.R'
+        'RReServer.R'
+Packaged: 2012-03-19 17:35:13 UTC; moi
+Repository: CRAN
+Date/Publication: 2012-03-20 14:38:40

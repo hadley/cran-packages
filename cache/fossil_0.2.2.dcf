@@ -1,0 +1,20 @@
+Package: fossil
+Type: Package
+Title: Palaeoecological and Palaeogeographical Analysis Tools
+Version: 0.2.2
+Date: 2009-11-24
+Author: Matthew Vavrek <matthew@matthewvavrek.com>
+Maintainer: Matthew Vavrek <matthew@matthewvavrek.com>
+Depends: shapefiles
+Suggests: maps
+Description: A set of analytical tools useful in analysing ecological
+        and geographical data sets, both ancient and modern. The
+        package includes functions for estimating species richness
+        (Chao 1 and 2, ACE, ICE, Jacknife), shared species/beta
+        diversity, species area curves and geographic distances and
+        areas.
+License: GPL (>= 2)
+URL: http://matthewvavrek.com
+Packaged: 2009-11-25 20:33:18 UTC; matthew
+Repository: CRAN
+Date/Publication: 2009-11-26 08:12:30

@@ -1,0 +1,21 @@
+Package: readMLData
+Type: Package
+Title: Reading machine learning benchmark data sets from different
+        sources in their original format.
+Version: 0.9-5
+Date: 2012-02-03
+Author: Petr Savicky
+Maintainer: Petr Savicky <savicky@cs.cas.cz>
+Description: The data are not part of the package. The package requires
+        to receive a path to a local copy of the data and their
+        description, which consists of an XML file "contents.xml" and R
+        scripts. Each data set is read into R as a data frame using its
+        own R script.  An example of the description directory for some
+        of the data sets from UCI Machine Learning Repository is
+        available at "http://www.cs.cas.cz/~savicky/readMLData".
+Depends: XML
+License: GPL
+URL: http://www.cs.cas.cz/~savicky/readMLData
+Packaged: 2012-02-03 08:39:57 UTC; savicky
+Repository: CRAN
+Date/Publication: 2012-02-03 09:34:40

@@ -1,0 +1,15 @@
+Package: dse
+Title: Dynamic Systems Estimation (time series package)
+Description: Multivariate Time Series - ARMA and State Space models.
+        See ?dse.Intro for more details.
+Depends: R (>= 2.5.0), tframe (>= 2007.5-3), setRNG (>= 2004.4-1)
+Version: 2009.10-2
+Date: 2009-10-14
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: 2009-10-17 01:35:50 UTC; paul
+Repository: CRAN
+Date/Publication: 2009-10-18 10:09:30

@@ -1,0 +1,17 @@
+Package: abc
+Version: 1.8
+Date: 2013-10-14
+Title: Tools for Approximate Bayesian Computation (ABC)
+Author: Katalin Csillery, Michael Blum and Olivier Francois
+Maintainer: Michael Blum <michael.blum@imag.fr>
+Depends: R (>= 2.10), nnet, quantreg, MASS
+Description: The package implements several ABC algorithms for
+        performing parameter estimation and model selection.
+        Cross-validation tools are also available for measuring the
+        accuracy of ABC estimates, and to calculate the
+        misclassification probabilities of different models.
+Repository: CRAN
+License: GPL (>= 3)
+Packaged: 2013-10-28 14:27:28 UTC; kcsillery
+Date/Publication: 2013-10-29 14:33:22
+NeedsCompilation: no

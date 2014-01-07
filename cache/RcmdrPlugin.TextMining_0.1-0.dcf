@@ -1,0 +1,20 @@
+Package: RcmdrPlugin.TextMining
+Type: Package
+Title: Rcommander plugin for "tm" package
+Version: 0.1-0
+Author: Dzemil Lusija
+Maintainer: Dzemil Lusija <dzemill@gmail.com>
+Depends: R (>= 2.11.1), tcltk, tm (>= 0.5-3), XML (>= 3.1-0), Snowball
+        (>= 0.0-7),Rgraphviz (>= 1.26.0),proxy (>= 0.4-6), Rcmdr (>=
+        1.5-6)
+Description: WARNING: This package is currently in beta status! This
+        package provide GUI for demonstration of text mining concepts
+        and "tm" package. It is implemented as a plugin to the
+        R-Commander, which is based on tcl/tk. This set of dialogs can
+        be accessed through the menu TextMining that is added to the
+        R-Commander menus.
+License: Artistic-2.0
+Date: 2010-01-01
+Packaged: 2012-10-29 08:57:35 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:35

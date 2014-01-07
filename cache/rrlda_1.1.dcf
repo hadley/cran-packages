@@ -1,0 +1,15 @@
+Package: rrlda
+Version: 1.1
+Type: Package
+Title: Robust Regularized Linear Discriminant Analysis
+Date: 2011-09-18
+Author: Moritz Gschwandtner, Peter Filzmoser, Christophe Croux,
+        Gentiane Haesbroeck
+Maintainer: Moritz Gschwandtner <moritz.gschwandtner@chello.at>
+Depends: pcaPP, mvoutlier, glasso, matrixcalc
+Description: This package offers methods to perform robust regularized
+        linear discriminant analysis.
+License: GPL (>= 3)
+Packaged: 2012-06-09 16:19:42 UTC; Moritz
+Repository: CRAN
+Date/Publication: 2012-06-09 16:50:10

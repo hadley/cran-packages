@@ -1,0 +1,26 @@
+Package: distrDoc
+Version: 2.3.3
+Date: 2011-11-18
+Title: Documentation for packages distr, distrEx, distrSim, distrTEst,
+        distrTeach, distrMod, and distrEllipse
+Description: provides documentation in form of a common vignette to
+        packages distr, distrEx, distrMod, distrSim, distrTEst,
+        distrTeach, and distrEllipse
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas
+        Stabla
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+Depends: R(>= 2.6.0), tools, startupmsg, distr(>= 2.2.0), distrEx(>=
+        2.2.0), distrSim(>= 2.2.0), distrTEst(>= 2.2.0), distrTeach(>=
+        2.2.0), RandVar(>= 0.7), distrMod(>= 2.2.0), MASS, methods
+Suggests: Biobase, SweaveListingUtils
+ByteCompile: yes
+Encoding: latin1
+License: LGPL-3
+URL: http://distr.r-forge.r-project.org/
+LastChangedDate: {$LastChangedDate: 2011-11-18 12:34:59 +0100 (Fr, 18
+        Nov 2011) $}
+LastChangedRevision: {$LastChangedRevision: 750 $}
+SVNRevision: 744
+Packaged: 2012-02-21 10:07:08 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-02-21 10:07:45

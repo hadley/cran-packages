@@ -1,0 +1,12 @@
+Package: systemfit
+Version: 0.5-5
+Date: 2002/06/04
+Title: Simultaneous Equation Estimation Package
+Author: Jeff D. Hamann <jeff_hamann@hamanndonald.com>
+Maintainer: Jeff D. Hamann <jeff_hamann@hamanndonald.com>
+Depends: R (>= 1.3.0)
+Description: This package contains functions for fitting simultaneous
+ systems of equations using Ordinary Least Squares (OLS), Seemingly Unrelated
+ Regressions (SUR), Two-Stage Least Squares (2SLS), and Three-Stage Least Squares (3SLS). 
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.hamanndonald.com

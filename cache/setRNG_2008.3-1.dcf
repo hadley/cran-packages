@@ -1,0 +1,12 @@
+Package: setRNG
+Title: Set (normal) random number generator and seed
+Description: Set reproducible random number generator in R (and S). See ?setRNG.Intro for more details.
+Depends:   R (>= 2.5.0)
+Version: 2008.3-1
+Date: 2008-03-13
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Thu Mar 13 22:03:54 2008; paul

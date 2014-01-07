@@ -1,0 +1,21 @@
+Package: tdm
+Title: A Tool for Therapeutic Drug Monitoring (TDM)
+Version: 3.0.1
+Date: 2013/10/22
+Author: Miou-ting Chen, Yung-jin Lee <mobilepk@gmail.com>
+Description: TDM is designed to estimate individual pharmacokinetic
+        parameters with one or more drug serum/plasma concentrations
+        obtained from a single subject or multiple subjects using
+        JAGS (Just Another Gibbs Sampling) interfaced through rjags 
+        and JAGS. Besides, it also can calculate a suggested dose 
+        with the target drug concentration (C ->D) or calculate a 
+        predicted drug concentration with a given dose (D -> C).
+Maintainer: Yung-jin Lee <mobilepk@gmail.com>
+Depends: R (>= 2.12.0), rjags, coda
+Imports: png, grid
+License: GPL (>= 2)
+URL: http://pkpd.kmu.edu.tw/tdm/
+Packaged: 2013-10-21 17:09:00 UTC; datawalker
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-21 19:46:49

@@ -1,0 +1,13 @@
+Package: tiger
+Type: Package
+Title: TIme series of Grouped ERrors
+Version: 0.2.2
+Date: 2011-12-23
+Author: Dominik Reusser
+Maintainer: Dominik Reusser <reusser@pik-potsdam.de>
+Description: Temporally resolved groups of typical differences (errors) between two time series are determined and visualized 
+Depends: R (>= 2.10.0), e1071, hexbin, qualV, klaR, som
+License: GPL-2
+Packaged: 2011-12-23 09:42:17 UTC; reusser
+Repository: CRAN
+Date/Publication: 2011-12-23 10:06:15

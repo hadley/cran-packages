@@ -1,0 +1,18 @@
+Package: OrdLogReg
+Type: Package
+Title: Ordinal Logic Regression
+Version: 1.0
+Date: 2013-04-19
+Author: Bethany Wolf
+Maintainer: Bethany Wolf <wolfb@musc.edu>
+Depends: LogicReg
+Description: Develops a classification model for ordinal responses.  A
+        logic regression trees is constructed for ordinal categories in
+        the data and then all trees are used to predict the class of
+        observations.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-05-01 16:32:11 UTC; wolfb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-02 07:59:31

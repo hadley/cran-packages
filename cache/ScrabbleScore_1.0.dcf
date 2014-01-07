@@ -1,0 +1,17 @@
+Package: ScrabbleScore
+Type: Package
+Title: Calculates Scrabble score for strings
+Version: 1.0
+Date: 2013-10-01
+Author: Will Kurt
+Maintainer: Will Kurt <wckurt@gmail.com>
+Description: Given a word will produce that word's scrabble score. Unlike many naive implementations this package takes into consideration the distribution of letter in scrabble. So a word like 'zzz' will be scored '10' rather than '30'.
+License: MIT License
+Suggests: testthat (>= 0.7)
+Note: The name "Scrabble" is a trademark of Hasbro, Inc. in the United
+        States and Canada; elsewhere, it is a trademark of Mattel.
+Packaged: 2013-10-08 22:36:08 UTC; will
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-09 09:24:47

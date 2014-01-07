@@ -1,0 +1,33 @@
+Package: rriskBayes
+Type: Package
+Title: Predefined Bayes models fitted with Markov chain Monte Carlo
+        (MCMC) (related to the 'rrisk' project)
+Author: Natalia Belgorodski (STAT-UP Statistical Consulting, Germany),
+        Matthias Greiner (Federal Institute for Risk Assessment,
+        Germany), Alexander Engelhardt (STAT-UP Statistical Consulting,
+        Germany)
+Maintainer: Federal Institute for Risk Assessment, Matthias Greiner
+        <matthias.greiner@bfr.bund.de>
+Description: Collection of functions for fitting Bayesian models. The
+        functions can be used as stand-alone application or launched
+        during an 'rrisk' session.
+License: GPL (>= 3)
+LazyLoad: yes
+URL: http://www.bfr.bund.de/cd/52158
+Depends: R(>= 2.11.0), BRugs, methods, tcltk, tkrplot
+SystemRequirements: OpenBUGS (http://www.openbugs.info/w/Downloads)
+Enhances: zicounts
+Authors@R: c(person(given="Natalia",
+        family="Belgorodski",email="belgorodski@stat-up.de",role=c("aut"),comment="STAT-UP
+        Statistical Consulting"), person(given="Matthias",
+        family="Greiner",email="matthias.greiner@bfr.bund.de",role=c("aut",
+        "cre"),comment="Federal Institute for Risk Assessment,
+        Germany"), person(given="Alexander",
+        family="Engelhardt",email="engelhardt@stat-up.de",role=c("aut"),comment="STAT-UP
+        Statistical Consulting"))
+Version: 2.3
+Date: 2012-09-25
+Collate: 'rriskBayes-package.R' 'rriskBayes_functions_v2.3new.R'
+Packaged: 2012-09-25 08:51:32 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-09-26 09:05:12

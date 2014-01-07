@@ -1,0 +1,14 @@
+Package: maptree
+Version: 1.4-7
+Date: 2012-11-24
+Title: Mapping, pruning, and graphing tree models
+Author: Denis White, Robert B. Gramacy <rbgramacy@chicagobooth.edu>
+Maintainer: Robert B. Gramacy <rbgramacy@chicagobooth.edu>
+Depends: R (>= 2.14), cluster, rpart
+Description: Functions with example data for graphing, pruning, and
+        mapping models from hierarchical clustering, and classification
+        and regression trees.
+License: Unlimited
+Packaged: 2012-11-24 18:43:40 UTC; bobby
+Repository: CRAN
+Date/Publication: 2012-11-26 07:28:04

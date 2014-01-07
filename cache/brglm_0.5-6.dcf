@@ -1,0 +1,23 @@
+Package: brglm
+Type: Package
+Title: Bias reduction in binomial-response GLMs.
+Version: 0.5-6
+Date: 2011-08-16
+Author: Ioannis Kosmidis <ioannis@stats.ucl.ac.uk>
+Maintainer: Ioannis Kosmidis <ioannis@stats.ucl.ac.uk>
+URL: http://www.ucl.ac.uk/~ucakiko/index.html
+Description: Fit binomial-response GLMs using either a modified-score
+        approach to bias reduction or maximum penalized likelihood
+        where penalization is by Jeffreys invariant prior. Fitting
+        takes place by iteratively fitting a local GLM on a pseudo-data
+        representation. The interface is essentially the same as 'glm'.
+        More flexibility is provided by the fact that custom
+        pseudo-data representations can be specified and used for model
+        fitting. Functions are provided for the construction of
+        confidence intervals for the bias-reduced estimates.
+License: GPL (>= 2)
+Depends: R (>= 2.6.0), profileModel
+Suggests: MASS
+Packaged: 2011-08-16 22:46:47 UTC; yiannis
+Repository: CRAN
+Date/Publication: 2011-08-17 05:30:08

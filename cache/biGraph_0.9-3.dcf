@@ -1,0 +1,19 @@
+Package: biGraph
+Version: 0.9-3
+Date: 2011-01-23
+Title: Analysis Toolbox For Bipartite Graphs
+Author: Ingo Vogt <bigraph.vogt@gmail.com>
+Maintainer: Ingo Vogt <bigraph.vogt@gmail.com>
+Depends: R (>= 2.6.0),igraph, gmp, sets, MASS
+Suggests: multicore
+Enhances: igraph
+Description: This package enhances the igraph-package by providing
+        additional methods for the analysis of bipartite graphs and
+        their monopartite projections.
+License: GPL (>= 2)
+URL: http://cgl.imim.es/index.php
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-01-25 22:37:55 UTC; ingo
+Repository: CRAN
+Date/Publication: 2011-01-26 11:28:15

@@ -1,0 +1,15 @@
+Package: mr
+Version: 0.1
+Priority: optional
+Title: Marginal regresson models for dependent data
+Author: Guido Masarotto and Cristiano Varin
+Maintainer: Guido Masarotto <guido.masarotto@unipd.it> and Cristiano
+        Varin <sammy@unive.it>
+Depends: R (>= 2.0.0), nlme, sandwich, sn, geoR
+Description: likelihood inference in a class of marginal regression
+        models for non-normal responses with a flexible specification
+        of the dependence structure.
+License: GPL (>= 2)
+Packaged: 2010-12-01 21:38:09 UTC; sammy
+Repository: CRAN
+Date/Publication: 2010-12-02 12:50:44

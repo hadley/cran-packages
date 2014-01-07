@@ -1,0 +1,14 @@
+Package: RandVar
+Version: 0.6.2
+Date: 2007-10-02
+Title: Implementation of random variables
+Description: Implementation of random variables by means
+    of S4 classes and methods
+Depends: R (>= 2.4.0), methods, startupmsg, distr(>= 1.9), distrEx(>= 1.9)
+Author: Matthias Kohl
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+SaveImage: no
+LazyLoad: yes
+License: GPL version 2 or later
+URL: http://www.uni-bayreuth.de/departments/math/org/mathe7/DISTR/RandVar.html
+Packaged: Tue Oct  2 15:25:20 2007; Matthias Kohl

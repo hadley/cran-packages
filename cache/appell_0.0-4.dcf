@@ -1,0 +1,25 @@
+Package: appell
+Maintainer: Daniel Sabanes Bove <daniel.sabanesbove@ifspm.uzh.ch>
+License: GPL (>= 3)
+Title: Compute Appell's F1 hypergeometric function
+LazyLoad: yes
+Author: Daniel Sabanes Bove <daniel.sabanesbove@ifspm.uzh.ch> with
+        contributions by F. D. Colavecchia, R. C. Forrey, G. Gasaneo,
+        N. L. J. Michel, L. F.  Shampine, M. V. Stoitsov and H. A.
+        Watts.
+Description: This package wraps Fortran code by F. D. Colavecchia and
+        G. Gasaneo for computing the Appell's F1 hypergeometric
+        function. Their program uses Fortran code by L. F. Shampine and
+        H. A. Watts. Moreover, the hypergeometric function with complex
+        arguments is computed with Fortran code by N. L. J. Michel and
+        M. V. Stoitsov or with Fortran code by R. C.  Forrey. See the
+        function documentations for the references and please cite them
+        accordingly.
+Version: 0.0-4
+Date: 2013-04-16
+Depends: R (>= 2.14.0)
+Collate: 'appellf1.R' 'appell-package.R' 'hyp2f1.R'
+Packaged: 2013-04-16 15:35:24 UTC; daniel
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-16 18:14:09

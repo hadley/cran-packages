@@ -1,0 +1,15 @@
+Package: XML
+Version: 0.99-4
+Date: 2005/12/16
+Author:  Duncan Temple Lang (duncan@wald.ucdavis.edu)
+Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+Title: Tools for parsing and generating XML within R and S-Plus.
+Depends: R (>= 1.2.0), methods
+SystemRequirements: libxml2 (>= 2.6.3)
+Description: Parsing facilities for arbitrary XML files, DTDs and HTML, offering both
+      event and tree based parsers which are customizable with R functions.
+Note: This is released by the Omegahat Project for Statistical
+     Computing. Bug reports should be submitted via
+      http://www.omegahat.org/bugs
+URL:  http://www.omegahat.org/RSXML
+License: BSD. 

@@ -1,0 +1,17 @@
+Package: ETC
+Type: Package
+Title: Tests and simultaneous confidence intervals for equivalence to control
+Version: 1.1
+Date: 2008-01-30
+Author: Mario Hasler <hasler@biostat.uni-hannover.de>
+Maintainer: Mario Hasler <hasler@biostat.uni-hannover.de>
+Depends: R (>= 2.2.0), mvtnorm
+Description: The package allows selecting those treatments of a one-way layout
+ being equivalent to a control. Bonferroni adjusted "two one-sided t-tests"
+ (TOST) and related simultaneous confidence intervals are given for both
+ differences or ratios of means of normally distributed data. For the case of
+ equal variances and balanced sample sizes for the treatment groups, the
+ single-step procedure of Bofinger and Bofinger (1995) can be chosen. For
+ non-normal data, the Wilcoxon test is applied.
+License: GPL
+Packaged: Thu Jan 31 17:35:35 2008; Mario

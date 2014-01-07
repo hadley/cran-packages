@@ -1,0 +1,20 @@
+Package: topmodel
+Type: Package
+Title: Implementation of the hydrological model TOPMODEL in R
+Version: 0.7.1
+Date: 2010-01-07
+Author: Wouter Buytaert
+Maintainer: Wouter Buytaert <w.buytaert@imperial.ac.uk>
+Description: Set of hydrological functions including an R
+        implementation of the hydrological model TOPMODEL, which is
+        based on the 1995 FORTRAN version by Keith Beven. From version
+        0.7.0, the package is put into maintenance mode. New functions
+        for hydrological analysis are now developed as part of the
+        RHydro package. RHydro can be found on R-forge and is built on
+        a set of dedicated S4 classes.
+License: GPL (>= 2)
+URL:
+        http://wiki.r-project.org/rwiki/doku.php?id=guides:tutorials:hydrological_data_analysis
+Packaged: 2010-01-07 12:09:33 UTC; wouter
+Repository: CRAN
+Date/Publication: 2010-01-07 15:59:11

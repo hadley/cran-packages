@@ -1,0 +1,18 @@
+Package: NCmisc
+Type: Package
+Version: 1.0
+Date: 2013-07-25
+Title: Miscellaneous general purpose functions
+Author: Nicholas Cooper
+Maintainer: Nicholas Cooper <nick.cooper@cimr.cam.ac.uk>
+Depends: R (>= 2.10), grDevices, graphics, stats, utils
+Suggests: proftools
+Description: A set of handy functions. Includes: versatile one line progress bar, one 
+ line function timer with detailed output, time delay function, text histogram, CRAN
+ package search, simpler package installer, Linux command install check, a flexible 
+ Mode function, and more
+License: GPL (>= 2)
+Packaged: 2013-07-29 15:43:11 UTC; ncooper
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-29 21:30:02

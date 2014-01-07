@@ -1,0 +1,30 @@
+Package: PamGeneMixed
+Type: Package
+Title: Preprocessing and Modeling Kinase Activity Profiles in PamChip
+        Data
+Version: 1.03
+Date: 2013-04-01
+Author: Pushpike Thalikarathne, Ziv Shkedy, Dan Lin, Lieven Clement,
+        and Geert Verbeke
+Maintainer: Pushpike Thalikarathne <Pushpike@gmail.com>
+Description: This package contains the functions that can be used to
+        analyze the PamChip microarray data. The package is mainly
+        useful in fitting semi-parametric mixed effects models while
+        accommodating various types of mean structures and correlation
+        structures present in Kinase activity profiling experiments.
+        The package can be used to visualize, cleaning Pam Chip data.
+        And also it can be used in model fitting, velocity estimating,
+        and testing the estimated velocities between the groups. The
+        PamGeneMixed package is built up as a software implementation
+        for the paper titled The Use of Semi-parametric Mixed Models to
+        Analyze PamChip Peptide Array Data: an Application to an
+        Oncology Experiment which is published in Bioinformatics
+        (2011).
+Depends: R (>= 2.10), mgcv, gplots, utils, graphics, nlme, methods,
+        stats, Biobase
+License: GPL-3
+LazyLoad: yes
+Packaged: 2013-04-03 10:18:09 UTC; lucp2520
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-04 16:52:29

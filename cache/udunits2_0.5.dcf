@@ -1,0 +1,15 @@
+Package: udunits2
+Type: Package
+Title: udunits-2 bindings for R
+Version: 0.5
+Date: 2011-02-11
+Author: James Hiebert <hiebert@uvic.ca>
+Maintainer: James Hiebert <hiebert@uvic.ca>
+Description: This package provides simple bindings to version 2 of
+        Unidata's udunits library
+SystemRequirements: udunits-2
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-02-11 20:34:39 UTC; james
+Repository: CRAN
+Date/Publication: 2011-02-12 13:30:58

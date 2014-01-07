@@ -1,0 +1,19 @@
+Package: NMFN
+Type: Package
+Title: Non-negative Matrix Factorization
+Version: 1.0
+Date: 2009-11-24
+Author: Suhai (Timothy) Liu <suhai_tim_liu@hotmail.com> based on
+        multiplicative updates (Lee and Sung 2001) and alternating
+        least squares algorithm; Lars Kai Hansen's nnmf_als Matlab
+        implementation; Torsten Hothorn's Moore-Penrose inverse
+        function
+Maintainer: Suhai (Timothy) Liu <suhai_tim_liu@hotmail.com>
+Description: Non-negative Matrix Factorization (default - nnmf_mm:
+        multiplicative updates. Lee and Sung 2001; optional - nnmf_als:
+        alternating least squares)
+License: GPL
+LazyLoad: yes
+Packaged: 2009-12-03 19:02:41 UTC; sliua
+Repository: CRAN
+Date/Publication: 2009-12-03 19:28:54

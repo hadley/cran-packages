@@ -1,0 +1,15 @@
+Package: df2json
+Maintainer: Nacho Caballero <nachocab@gmail.com>
+Author: Nacho Caballero <nachocab@gmail.com>
+Version: 0.0.2
+License: GPL-3
+Title: Convert a dataframe to JSON
+Description: It handles numerics, characters, factors, and logicals.
+URL: http://github.com/nachocab/df2json
+Depends: R (>= 2.15.1), rjson
+Suggests: testthat, roxygen2
+Collate: 'df2json-package.r' 'df2json.R'
+Packaged: 2013-04-05 11:27:40 UTC; nacho
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-08 16:14:14

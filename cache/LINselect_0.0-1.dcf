@@ -1,0 +1,15 @@
+Package: LINselect
+Title: Selection of linear estimators
+Version: 0.0-1
+Date: 2013-12-20
+Author: Yannick Baraud, Christophe Giraud, Sylvie Huet
+Maintainer: Annie Bouvier <Annie.Bouvier@jouy.inra.fr>
+Description: LINselect allows to estimate the mean of a Gaussian vector, by choosing among a large collection of estimators. In particular it solves the problem of variable selection by choosing the best predictor among  predictors emanating from different methods as lasso, elastic-net, adaptive lasso, pls, randomForest. Moreover, it can be applied for choosing the tuning parameter in a Gauss-lasso procedure.
+Suggests: mvtnorm, elasticnet, MASS, randomForest, pls, gtools
+License: GPL (>= 3)
+URL:
+Encoding: latin1
+Packaged: 2013-12-20 13:01:49 UTC; abouvier
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-20 14:59:14

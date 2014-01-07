@@ -1,0 +1,16 @@
+Package: far
+Version: 0.6-2
+Date: 2007-10-01
+Title: Modelization for Functional AutoRegressive processes
+Author: Damon Julien <julien.damon@free.fr>
+   Guillas Serge <guillas@uchicago.edu>
+Maintainer: Damon Julien <julien.damon@free.fr>
+Depends: R (>= 2.0.0), nlme
+Description: Modelizations and previsions functions for
+   Functional AutoRegressive processes using
+   nonparametric methods: functional kernel,
+   estimation of the covariance operator in
+   a subspace, ...
+License: LGPL-2.1
+URL: http://julien.damon.free.fr/
+Packaged: Mon Oct  1 14:04:40 2007; jdamon

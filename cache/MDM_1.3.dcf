@@ -1,0 +1,14 @@
+Package: MDM
+Type: Package
+Title: Multinomial Diversity Model
+Version: 1.3
+Date: 2013-06-28
+Author: Glenn De'ath <g.death@aims.gov.au>; Code for mdm was adapted from multinom in the nnet package (Brian Ripley <ripley@stats.ox.ac.uk> and Bill Venables <Bill.Venables@csiro.au>)
+Maintainer: Glenn De'ath <g.death@aims.gov.au>
+Depends: R (>= 2.9.0), nnet
+Description: The multinomial diversity model is a toolbox for relating diversity to complex predictors. It is based on (1) Shannon diversity; (2) the multinomial logit model, and (3) the link between Shannon diversity and the log-likelihood of the MLM.
+License: GPL-2 | GPL-3
+Packaged: 2013-06-30 17:27:55 UTC; root
+Repository: CRAN
+Date/Publication: 2013-07-10 11:12:01
+NeedsCompilation: no

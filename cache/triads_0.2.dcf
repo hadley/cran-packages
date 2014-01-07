@@ -1,0 +1,17 @@
+Package: triads
+Type: Package
+Version: 0.2
+Date: 2010-08-10
+Title: Triad census for networks
+Author: Solomon Messing <solomon.messing@gmail.com>, Sean J Westwood
+        <seanjw@stanford.edu>, Mike Nowak <michael.nowak@gmail.com> and
+        Dan McFarland <dmcfarla@stanford.edu>
+Maintainer: Solomon Messing <solomon.messing@gmail.com>
+Depends: igraph
+Description: This program calculates the triad census positions of each
+        node in a graph object.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-08-11 00:20:50 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-08-11 04:48:17

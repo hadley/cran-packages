@@ -1,0 +1,26 @@
+Package: jaatha
+Version: 2.0.0
+Date: 2012-12-18
+License: GPL (>= 3)
+Title: Jaatha - A Fast Parameter Estimation Method for Evolutionary
+        Biology
+Author: Lisha Mathew, Paul R. Staab and Dirk Metzler
+Maintainer: Paul R. Staab <staab@biologie.uni-muenchen.de>
+Contact: Paul R. Staab <staab@biologie.uni-muenchen.de>
+Description: Jaatha is a composite likelihood method for inferring
+        evolutionary parameters using genetic data. Given a model of
+        the evolutionary history of two biological populations as well
+        as SNP data from multiple individuals from each population, it
+        estimates model parameters like the time of separation of both
+        species.
+Depends: methods, foreach, phyclust (>= 0.1-14), ape, Rcpp
+LinkingTo: Rcpp
+Suggests: doMC
+Collate: 'aaa_SimProgram.R' 'Block.R' 'DataProcessor.R'
+        'DemographicModel.R' 'helper_functions.R' 'Jaatha.R'
+        'ModelFitting.R' 'parallelization.R' 'read_fasta.R'
+        'sim_program_ms.R' 'sim_program_seqgen.R' 'Simulator.R'
+        'summary_statistics.R'
+Packaged: 2013-01-09 12:03:22 UTC; paul
+Repository: CRAN
+Date/Publication: 2013-01-09 14:25:57

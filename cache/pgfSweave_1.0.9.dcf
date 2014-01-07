@@ -1,0 +1,26 @@
+Package: pgfSweave
+Type: Package
+Title: Quality speedy graphics compilation with Sweave
+Version: 1.0.9
+Date: 2010-09-14
+Author: Cameron Bracken <cameron.bracken@gmail.com> and Charlie
+        Sharpsteen <source@sharpsteen.net>
+Maintainer: Cameron Bracken <cameron.bracken@gmail.com>
+Depends: stashR, filehash, tikzDevice, cacheSweave, getopt
+Imports: digest, tools, utils
+SystemRequirement: pgf (>=2.00) (http://sourceforge.net/projects/pgf/)
+        for the vignette and for externalization.
+Description: The pgfSweave package provides capabilities for 'caching'
+        graphics generated with Sweave.  Using pgfSweave, figure labels
+        are converted to LaTeX strings so not only do they match the
+        style of the document but math can be put in labels. pgfSweave
+        provides a new driver for Sweave (pgfSweaveDriver) and new
+        chunk options tikz, pgf and external on top of the cache option
+        provided by cacheSweave. This package is built upon cacheSweave
+        and therefore also Sweave.
+License: GPL
+LazyLoad: yes
+URL: https://r-forge.r-project.org/projects/pgfsweave/
+Packaged: 2010-09-20 19:53:17 UTC; cameron
+Repository: CRAN
+Date/Publication: 2010-09-21 08:14:54

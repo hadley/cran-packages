@@ -1,0 +1,13 @@
+Package: binGroup
+Title: Evaluation and experimental design for binomial group testing
+Version: 0.3-2
+Date: 2008-07-15
+Author: Frank Schaarschmidt
+Description: Confidence intervals and tests for a single binomial proportion.
+ Exact and approximate methods for equal group size and exact method for designs with unequal group sizes. 
+ Exact, Score and Wald Test for standard binomial and binomial group testing for designs with equal group size.
+ Experimental design depending on power, controlling bias and mse of the estimator 
+ depending on group size and sample size, and calculation of expected interval width.
+Maintainer: Frank Schaarschmidt <schaarschmidt@biostat.uni-hannover.de>
+License: GPL
+Packaged: Tue Jul 15 14:57:13 2008; manager

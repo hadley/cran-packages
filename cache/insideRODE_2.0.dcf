@@ -1,0 +1,24 @@
+Package: insideRODE
+Type: Package
+Title: insideRODE includes buildin functions with deSolve solver and
+        C/FORTRAN interfaces to nlme, together with compiled codes.
+Version: 2.0
+Date: 2011-04-19
+Author: YUZHUO PAN, XIAOYU YAN
+Maintainer: YUZHUO PAN <yuzhuo.pan@gmail.com>
+Depends: R (>= 2.13.0), deSolve, nlme, lattice, compiler
+Description: insideRODE package includes buildin functions from
+        deSolve, compiled functions from compiler, and C/FORTRAN code
+        interfaces to nlme. It includes nlmLSODA, nlmODE,
+        nlmVODE,nlmLSODE for general purpose; cfLSODA,cfLSODE, cfODE,
+        cfVODE call C/FORTRAN compiled dll functions.ver2.0 add
+        sink()function into example it helps to directly combine
+        c/fortran source code in R files. Finally, with new compiler
+        package, we generated compiled functions: nlmODEcp, nlmVODEcp,
+        nlmLSODEcp,nlmLSODAcp and cpODE, cpLSODA, cpLSODE, cpVODE. They
+        will help to increase speed.
+License: LGPL (> 2.0)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:01 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:01

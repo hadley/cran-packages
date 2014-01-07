@@ -1,0 +1,20 @@
+Package: EMT
+Type: Package
+Title: Exact Multinomial Test: Goodness-of-Fit Test for Discrete
+        Multivariate data
+Version: 1.0
+Date: 2010-03-22
+Author: Uwe Menzel
+Maintainer: Who to complain to <uwe.menzel@math.uu.se>
+Description: The package provides functions to carry out a
+        Goodness-of-fit test for discrete multivariate data. It is
+        tested if a given observation is likely to have occured under
+        the assumption of an ab-initio model. A p-value can be
+        calculated using different distance measures between observed
+        and expected frequencies. A Monte Carlo method is provided to
+        make the package capable of solving high-dimensional problems.
+License: GPL
+LazyLoad: yes
+Packaged: 2010-03-30 10:36:38 UTC; Uwe
+Repository: CRAN
+Date/Publication: 2010-04-02 17:05:09

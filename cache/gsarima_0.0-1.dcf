@@ -1,0 +1,15 @@
+Package: gsarima
+Version: 0.0-1
+Date: 2008-04-16
+Title: Two functions for Generalized SARIMA time series simulation
+Author: Olivier Briet <o.briet@gmail.com>
+Maintainer: Olivier Briet <o.briet_antispam_@gmail.com>
+Depends: R (>= 2.4.0)
+Imports: MASS
+Suggests: R2WinBUGS, dse1
+Description:  Write SARIMA models in (finite) AR representation and simulate 
+	generalized multiplicative seasonal autoregressive moving average (time) series 
+	with Normal / Gaussian, Poisson or negative binomial distribution. 
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: Sun Apr 20 21:03:37 2008; hornik

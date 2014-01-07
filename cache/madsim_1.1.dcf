@@ -1,0 +1,18 @@
+Package: madsim
+Type: Package
+Title: A Flexible Microarray Data Simulation Model
+Version: 1.1
+Date: 2013-04-17
+Author: Doulaye Dembele
+Maintainer: Doulaye Dembele <doulaye@igbmc.fr>
+Description: This function allows to generate two biological conditions
+        synthetic microarray dataset which has similar behavior to
+        those currently observed with common platforms. User provides a
+        subset of parameters.  Available default parameters settings
+        can be modified.
+License: GPL (>= 2.0)
+LazyLoad: yes
+Packaged: 2013-04-18 06:56:16 UTC; doulaye
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-18 11:33:46

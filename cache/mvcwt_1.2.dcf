@@ -1,0 +1,14 @@
+Package: mvcwt
+Type: Package
+Title: Wavelet analysis of multiple time series
+Version: 1.2
+Date: 2013-10-27
+Author: Timothy H. Keitt
+Maintainer: Tim Keitt <tkeitt@gmail.com>
+Depends: foreach, RColorBrewer, grDevices
+Description: This package computes the continuous wavelet transform of irregularly sampled time series.
+License: GPL
+Packaged: 2013-11-07 17:01:20 UTC; tkeitt
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-07 18:56:50

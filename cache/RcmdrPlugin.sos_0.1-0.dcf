@@ -1,0 +1,18 @@
+Package: RcmdrPlugin.sos
+Version: 0.1-0
+Date: 2009-12-20
+Title: Efficiently search R Help pages
+Author: Liviu Andronic
+Maintainer: Liviu Andronic <landronimirc@gmail.com>
+Depends: Rcmdr (>= 1.5-4), sos (>= 1.2-3), tcltk2
+Description: Rcmdr interface to sos. The plug-in renders the sos
+        searching functionality easily accessible via the Rcmdr menus.
+        It also simplifies the task of performing multiple searches and
+        subsequently obtaining the union or the intersection of the
+        search results.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: rsitesearch
+Repository/R-Forge/Revision: 162
+Date/Publication: 2009-12-26 14:50:38
+Packaged: 2009-12-21 21:06:55 UTC; rforge

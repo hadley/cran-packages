@@ -1,0 +1,16 @@
+Package: BaySIC
+Type: Package
+Title: Bayesian Analysis of Significantly Mutated Genes in Cancer
+Version: 1.0
+Date: 2013-03-12
+Author: Nicholas B. Larson
+Maintainer: Nicholas B. Larson <larson.nicholas@mayo.edu>
+Depends: R (>= 2.10), rjags, fields, poibin
+Description: This R package is the software implementation of the
+        algorithm BaySIC, a Bayesian approach toward analysis of
+        significantly mutated genes in cancer data.
+License: GPL (>= 2)
+Packaged: 2013-04-03 12:50:37 UTC; m097340
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-04 00:51:05

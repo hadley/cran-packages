@@ -1,0 +1,16 @@
+Package: ncomplete
+Version: 1.0-1
+Date: 2004/MAY/11
+Title: ncomplete
+Author: Peter J. Rousseeuw, Andreas Christmann
+        <christmann@statistik.uni-dortmund.de>
+Maintainer: Andreas Christmann <christmann@statistik.uni-dortmund.de>
+Description: The library contains R-functions to perform the regression
+        depth method (RDM) to binary regression to approximate the
+        minimum number of observations that can be removed such that
+        the reduced data set has complete separation.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: Fri Dec 10 19:17:41 2004; hornik
+Repository: CRAN
+Date/Publication: 2004-12-10 18:25:31

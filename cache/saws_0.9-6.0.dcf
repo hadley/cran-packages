@@ -1,0 +1,18 @@
+Package: saws
+Type: Package
+Title: Small-Sample Adjustments for Wald tests Using Sandwich
+        Estimators
+Version: 0.9-6.0
+Date: 2013-04-05
+Author: Michael Fay
+Maintainer: Michael Fay <mfay@niaid.nih.gov>
+Description: Tests coefficients with sandwich estimator of variance and
+        with small samples. Regression types supported are gee, linear
+        regression, and conditional logistic regression.
+Depends: R (>= 2.6.0), gee, stats
+Suggests: MASS
+License: GPL (>= 2)
+Packaged: 2013-04-05 18:22:47 UTC; faym
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-05 20:58:46

@@ -1,0 +1,14 @@
+Package: orloca
+Type: Package
+Depends: methods
+Suggests: grDevices, graphics
+Title: The package deals with Operations Research LOCational Analysis models
+Version: 1.0
+Date: 2008-03-21
+Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Description: This version of the package deals with the min-sum or center location problems. 
+ The min-sum location problem search for a point such that the weighted sum of the distances to the demand points are minimized.
+License: GPL (>= 2)
+URL: http://knuth.uca.es/R
+Packaged: Mon Jun 16 12:03:07 2008; hornik

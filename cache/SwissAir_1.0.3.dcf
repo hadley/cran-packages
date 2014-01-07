@@ -1,0 +1,12 @@
+Package: SwissAir
+Version: 1.0.3
+Date: 2005-07-26
+Title: Air Quality Data of Switzerland for one year in 30 min Resolution
+Maintainer: Rene Locher <rene.locher@zhwin.ch>
+Author: Rene Locher
+Description: Ozone, NOx (= Sum of Nitrogenmonoxide and Nitrogendioxide), Nitrogenmonoxide, ambient temperature, dew point, wind speed and wind direction at 3 sites around lake of Lucerne in Central Switzerland in 30 min time resolution for year 2004.
+Depends: R(>= 2.0.1)
+Suggests: IDPmisc
+License: GPL (GNU Public Licence), Version 2 or later
+SaveImage: yes
+Packaged: Fri Jul 29 17:51:37 2005; lor

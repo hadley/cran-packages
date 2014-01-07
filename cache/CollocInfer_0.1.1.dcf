@@ -1,0 +1,19 @@
+Package: CollocInfer
+Version: 0.1.1
+Date: 2010-04-25
+Title: Collocation Inference for Dynamic Systems
+Author: Giles Hooker <gjh27@cornell.edu>, Luo Xiao <lx42@cornell.edu>,
+        James Ramsay <ramsay@psych.mcgill.ca>
+Maintainer: Giles Hooker <gjh27@cornell.edu>
+Depends: R (>= 2.4.0), fda, MASS, odesolve, Matrix, SparseM
+Suggests: subplex, trust, maxLik
+Description: These functions implement collocation-inference for
+        continuous-time and discrete-time stochastic processes. They
+        provide model-based smoothing, gradient-matching, generalized
+        profiling and forwards prediction error methods.
+License: GPL (>= 2)
+URL: http://www.bscb.cornell.edu/~hooker
+LazyData: true
+Packaged: 2010-05-28 19:06:56 UTC; gilesh
+Repository: CRAN
+Date/Publication: 2010-05-30 11:37:40

@@ -1,0 +1,15 @@
+Package: harvestr
+Type: Package
+Title: A Parallel Simulation Framework
+Version: 0.1
+Date: 2012-03-10
+Author: Andrew Redd
+Maintainer: Andrew Redd <andrew.redd@hsc.utah.edu>
+Description: Functions for easy simulation and replicability.
+License: GPL (>= 2)
+Imports: rsprng (>= 1.0), plyr, digest
+Suggests: testthat, dostats, doParallel, foreach
+Collate: 'gather.R' 'withseed.R' 'harvestr-package.R'
+Packaged: 2012-03-12 22:34:51 UTC; u0092104
+Repository: CRAN
+Date/Publication: 2012-03-13 15:28:38

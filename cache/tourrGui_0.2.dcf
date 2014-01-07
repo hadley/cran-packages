@@ -1,0 +1,23 @@
+Package: tourrGui
+Type: Package
+Title: A Tour GUI using gWidgets
+Version: 0.2
+Date: 2011-02-01
+Author: Bei <beihuang@iastate.edu>, Dianne Cook <dicook@iastate.edu>,
+        Hadley Wickham <h.wickham@gmail.com>
+Maintainer: Dianne Cook <dicook@iastate.edu>
+Description: The GUI allows user to control the tour by checkboxes for
+        the variable selection, slider for the speed, and toggle boxes
+        for pause.
+Depends: R (>= 2.7), tourr, colorspace, RGtk2, gWidgets, Cairo
+Suggests: rggobi,TeachingDemos,ggplot2,ash
+License: MIT
+LazyData: true
+Collate: 'gui_andrews.r' 'gui_density.r' 'gui_faces.r' 'gui_image.r'
+        'gui_pcp.r' 'gui_scatmat.r' 'gui_stars.r' 'gui_stereo.r'
+        'gui_tour.r' 'gui_xy.r' 'tour_andrews.r' 'tour_density.r'
+        'tour_faces.r' 'tour_pcp.r' 'tour_scatmat.r' 'tour_stars.r'
+        'tour_stereo.r' 'tour_xy.r'
+Packaged: 2011-01-31 23:28:37 UTC; dicook
+Repository: CRAN
+Date/Publication: 2011-02-02 08:46:41

@@ -1,0 +1,17 @@
+Package: riv
+Type: Package
+Title: Robust instrumental variables estimator
+Version: 1.1-1
+Date: 2011-12-20
+Author: Beat Kaufmann <beat.kaufmann@epfl.ch> with contributions from
+        R.H. Zamar <ruben@stat.ubc.ca> and G.V. Cohen-Freue
+        <gcohen@stat.ubc.ca>.
+Maintainer: Gabriela Cohen-Freue <Gabriela.Cohen-Freue@hli.ubc.ca>
+Depends: MASS
+Description: Finds a robust instrumental variables estimator using a
+        high breakdown point S-estimator of multivariate location and
+        scatter matrix.
+License: GPL-2
+Packaged: 2012-10-29 08:59:36 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:36

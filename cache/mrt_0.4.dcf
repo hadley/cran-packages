@@ -1,0 +1,15 @@
+Package: mrt
+Type: Package
+Title: Wright & London's Modern Regression Techniques
+Version: 0.4
+Date: 2009-08-17
+Author: Daniel B. Wright
+Maintainer: Daniel B. Wright <dwright@fiu.edu>
+Depends: R (>= 2.9.0),boot,MBESS,Hmisc,moments
+Description: Datasets and functions from Wright and London's Modern
+        Regression Techniques
+License: Unlimited
+LazyLoad: yes
+Packaged: 2010-11-24 22:59:51 UTC; dwright
+Repository: CRAN
+Date/Publication: 2010-11-25 08:22:41

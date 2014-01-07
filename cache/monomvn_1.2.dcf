@@ -1,0 +1,21 @@
+Package: monomvn
+Type: Package
+Title: Estimation for multivariate normal data with monotone missingness
+Version: 1.2
+Date: 2008-05-14
+Author: Robert B. Gramacy <bobby@statslab.cam.ac.uk>
+Maintainer: Robert B. Gramacy <bobby@statslab.cam.ac.uk>
+Description: Estimation of multivariate normal data of arbitrary dimension
+	     where the pattern of missing data is monotone. Through the use of
+	     parsimonious/shrinkage regressions (plsr, pcr, lasso, ridge, etc.),
+	     where standard regressions fail, the package can handle an 
+             (almost) arbitrary amount of missing data.  The current version 
+             supports maximum likelihood inference and an alpha implementation
+             of a Bayesian version employing a Bayesian lasso.  A fully 
+             functional standalone (alpha) interface to the Bayesian lasso 
+             (from Park & Casella) is also provided
+Depends: R (>= 2.5), pls, lars, MASS
+Suggests: mvtnorm, accuracy
+License: LGPL
+URL: http://www.statslab.cam.ac.uk/~bobby/monomvn.html
+Packaged: Mon May 19 11:31:00 2008; bobby

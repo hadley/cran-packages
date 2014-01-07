@@ -1,0 +1,17 @@
+Package: caper
+Type: Package
+Title: Comparative Analyses of Phylogenetics and Evolution in R
+Version: 0.4
+Date: 2011-04-14
+Author: David Orme, Rob Freckleton, Gavin Thomas, Thomas Petzoldt,
+        Susanne Fritz, Nick Isaac
+Maintainer: David Orme <d.orme@imperial.ac.uk>
+Depends: R (>= 2.10), ape, MASS, mvtnorm
+Description: Functions for performing phylogenetic comparative
+        analyses.
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: caper
+Repository/R-Forge/Revision: 68
+Date/Publication: 2011-06-03 06:06:26
+Packaged: 2011-06-02 20:49:05 UTC; rforge

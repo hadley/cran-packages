@@ -1,0 +1,20 @@
+Package: catenary
+Type: Package
+Title: Fits a catenary to given points
+Version: 1.0
+Date: 2013-02-14
+Author: Jono Tuke, Matthew Roughan
+Maintainer: Jono Tuke <simon.tuke@adelaide.edu.au>
+Description: Gives methods to create a catenary object and then plot it
+        and get properties of it. Can construct from parameters or
+        endpoints. Also can get catenary fitted to data.
+License: GPL-3
+Depends: ggplot2, methods, boot
+Collate: 'catenary.R' 'package.R' 'fittedCatenary.R' 'getCatLength.R'
+        'minmaxLength.R' 'fitCatEndPts.R' 'f.R'
+        'getFunctionEnvelopeCat.R' 'getFunctionEnvelopePara.R'
+        'fitCat.R' 'fitMaxCat.R' 'fitNaturalCat.R' 'ctestiphon.R'
+Packaged: 2013-02-15 11:41:03 UTC; jonathantuke
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-15 16:22:29

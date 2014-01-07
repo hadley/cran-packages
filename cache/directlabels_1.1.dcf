@@ -1,0 +1,21 @@
+Package: directlabels
+Maintainer: Toby Dylan Hocking <toby.hocking@inria.fr>
+Author: Toby Dylan Hocking
+Version: 1.1
+License: GPL-3
+Title: Direct labels for plots
+Description: Direct labeling functions meant to be used with several
+        plotting packages, including lattice and ggplot2.
+URL: http://directlabels.r-forge.r-project.org/
+LazyLoad: false
+LazyData: true
+Depends: proto
+Suggests: ks, MASS, inlinedocs, quadprog, ggplot2, lattice, alphahull,
+        ElemStatLearn
+Imports: ggplot2
+Collate: utility.function.R compare.R dotplot.R lineplot.R
+        densityplot.R ggplot2.R positioning.functions.R doc.R lattice.R
+        scatterplot.R contourplot.R
+Packaged: 2010-11-26 15:31:32 UTC; hocking
+Repository: CRAN
+Date/Publication: 2010-11-26 16:37:05

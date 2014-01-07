@@ -1,0 +1,25 @@
+Package: doBy
+Version: 4.4.2
+Title: doBy - Groupwise summary statistics, general linear contrasts,
+        LSMEANS (least-squares-means), and other utilities
+Author: S<f8>ren H<f8>jsgaard <sorenh@agrsci.dk> and Ulrich Halekoh <Ulrich.Halekoh.agrsci.dk> with
+            contributions from Jim Robison-Cox, Kevin Wright and Alessandro A. Leidi.
+Maintainer: S<f8>ren H<f8>jsgaard <sorenh@agrsci.dk>
+Description: doBy contains a variety of utilities including: 1) Facilities for groupwise computations of
+            summary statistics and other facilities for working with grouped data. 2) General linear
+            contrasts and LSMEANS (least-squares-means also known as population means), 3) Rscript2HTML for
+            autmatic generation of HTML file from R-script with a minimum of markup, 4) implementation of
+            the Kenward-Roger method for estimating denominator degrees of freedom various for tests in
+            linear mixed models, 5) methods for determining p-values based on parametric bootstrap in
+            linear mixed models 6) other utilities. doBy originally contained facilities for 'doing
+            something to data where data would be partitioned by some variables which define groupings of
+            data' - hence the name doBy.
+Encoding: latin1
+URL: http://genetics.agrsci.dk/~sorenh/public/R/doBy/
+ZipData: no
+License: GPL (>= 2)
+Imports: Matrix
+Depends: R (>= 2.10), survival, R2HTML, multcomp, lme4, snow, MASS
+Packaged: 2011-11-02 22:11:32 UTC; SHD
+Repository: CRAN
+Date/Publication: 2011-11-03 06:50:28

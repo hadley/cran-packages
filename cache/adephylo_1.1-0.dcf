@@ -1,0 +1,19 @@
+Package: adephylo
+Version: 1.1-0
+Date: 2010/04/05
+Title: adephylo: exploratory analyses for the phylogenetic comparative
+        method.
+Author: Thibaut Jombart <t.jombart@imperial.ac.uk>, Stephane Dray
+        <dray@biomserv.univ-lyon1.fr>
+Maintainer: Thibaut Jombart <t.jombart@imperial.ac.uk>
+Suggests:
+Depends: methods, phylobase, ape, ade4
+Description: Multivariate tools to analyze comparative data, i.e. a
+        phylogeny and some traits measured for each taxa.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: utils.R partition.R table.phylo4d.R distances.R proximities.R
+        orthobasis.R ppca.R orthogram.R abouheif.R moran.R zzz.R
+Packaged: 2010-04-05 13:20:37 UTC; master
+Repository: CRAN
+Date/Publication: 2010-04-05 15:45:45

@@ -1,0 +1,17 @@
+Package: msBreast
+Type: Package
+Title: Protein Mass Spectra Dataset from a Breast Cancer Study
+Version: 1.0.1
+Date: Fri Apr 18 14:56:25 PDT 2008
+Author: Lixin Gong, William Constantine, and Yu Alex Chen
+Maintainer: Lixin Gong <lgong@insightful.com>
+Depends: R (>= 2.5.0), RSQLite
+DependsSplus:
+Suggests: msProcess
+Description: This package provides a dataset of 96 protein mass spectra
+  generated from a pooled sample of nipple aspirate fluid (NAF)
+  from healthy breasts and breasts with cancer.
+License: GNU General Public License Version 2
+Copyright: 2007-2008 Insightful Corporation. All rights reserved.
+URL: http://www.insightful.com/services/research/proteome/default.asp
+Packaged: Thu May 29 14:39:36 2008; lgong

@@ -1,0 +1,17 @@
+Package: mvnmle
+Version: 0.1-11
+Date: June 2011
+Title: ML estimation for multivariate normal data with missing values.
+Author: Kevin Gross, with help from Douglas Bates
+Maintainer: ORPHANED
+Depends: R (>= 1.2.0)
+Description: Finds the maximum likelihood estimate of the mean vector
+        and variance-covariance matrix for multivariate normal data
+        with missing values.
+License: GPL (>= 2)
+Packaged: 2012-12-21 19:17:04 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-12-21 20:38:43
+X-CRAN-Original-Maintainer: Kevin Gross <kevin_gross@ncsu.edu>
+X-CRAN-Comment: Orphaned on 2012-12-21 as the maintainer failed to
+        respond to requests for an update for R >= 2.14.0

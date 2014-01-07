@@ -1,0 +1,20 @@
+Package: EDISON
+Type: Package
+Title: Software for network reconstruction and changepoint detection.
+Version: 1.0
+Date: 2012-06-29
+Author: Frank Dondelinger, Sophie Lebre
+Maintainer: Frank Dondelinger <frankd@bioss.ac.uk>
+Description: Package EDISON (Estimation of Directed Interactions from
+        Sequences Of Nonhomogeneous gene expression) runs an MCMC
+        simulation to reconstruct networks from time series data, using
+        a non-homogeneous, time-varying dynamic Bayesian network.
+        Networks segments and changepoints are inferred concurrently,
+        and information sharing priors provide a reduction of the
+        inference uncertainty.
+License: GPL-2
+LazyLoad: yes
+Depends: corpcor, MASS
+Packaged: 2012-07-16 14:33:10 UTC; frankd
+Repository: CRAN
+Date/Publication: 2012-07-16 15:24:38

@@ -1,0 +1,14 @@
+Package: DiceView
+Title: Plot methods for computer experiments design and surrogate.
+Version: 1.3-0
+Date: 2012-03-29
+Author: Yann Richet, Yves Deville, Clement Chevalier
+Maintainer: Yann Richet <yann.richet@irsn.fr>
+Description: View 2D/3D sections or contours of computer experiments
+        designs, surrogates or test functions.
+Depends: methods, DiceKriging, DiceEval, rgl
+License: GPL-3
+URL: http://promethee.irsn.org/
+Repository: CRAN
+Packaged: 2012-06-27 12:34:14 UTC; richet
+Date/Publication: 2012-06-27 12:50:12

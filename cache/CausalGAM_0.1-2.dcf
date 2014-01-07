@@ -1,0 +1,18 @@
+Package: CausalGAM
+Version: 0.1-2
+Date: 2009-11-9
+Title: Estimation of Causal Effects with Generalized Additive Models
+Author: Adam Glynn <aglynn@iq.harvard.edu>, Kevin Quinn
+        <kquinn@law.berkeley.edu>
+Maintainer: Kevin Quinn <kquinn@law.berkeley.edu>
+Depends: R (>= 2.9.0), gam (>= 1.0.1)
+Description: This package implements various estimators for average
+        treatment effects---an inverse probability weighted (IPW)
+        estimator, an augmented inverse probability weighted (AIPW)
+        estimator, and a standard regression estimator---that make use
+        of generalized additive models for the treatment assignment
+        model and/or outcome model.
+License: GPL-2
+Packaged: 2009-11-09 22:08:48 UTC; Kevin
+Repository: CRAN
+Date/Publication: 2009-11-10 10:14:57

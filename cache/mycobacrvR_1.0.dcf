@@ -1,0 +1,22 @@
+Package: mycobacrvR
+Type: Package
+Title: Integrative immunoinformatics for Mycobacterial diseases in R
+        platform
+Version: 1.0
+Date: 2013-11-27
+Author: Deepika Kulshreshtha, Rupanjali Chaudhuri, S. Ramachandran
+Maintainer: S. Ramachandran<ramu@igib.in>
+Description: The mycobacrvR package contains utilities to provide detailed information for B cell and T cell epitopes for predicted adhesins from various servers such as ABCpred, Bcepred, Bimas, Propred, NetMHC and IEDB. Please refer the URL below to download data files (data_mycobacrvR.zip) used in functions of this package.
+URL: http://mycobacteriarv.igib.res.in/download.html
+Depends: R (>= 2.15), methods
+Collate: 'iedb_consensus_mhci_nmer.R' 'abcpred_nmer.R' 'algpred.R'
+        'allermatch.R' 'bcepred_nmer.R' 'bimas_nmer.R'
+        'filter.firstlayer.R' 'iedb_arb_mhcii_nmer.R'
+        'iedb_consensus_mhcii_nmer.R' 'netmhcNN_nmer.R'
+        'netmhcWT_nmer.R' 'propred_nmer.R' 'iedb_arb_mhci_nmer.R'
+        'zzz.R'
+License: GPL-2
+Packaged: 2013-12-25 20:15:28 UTC; rupa
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-26 15:23:38

@@ -1,0 +1,18 @@
+Package: forensic
+Type: Package
+Title: Statistical Methods in Forensic Genetics
+Version: 0.2
+Date: 2007-06-10
+Author: Miriam Marusiakova (Centre of Biomedical Informatics, Institute
+        of Computer Science, Academy of Sciences of the Czech Republic)
+Acknowledgement: The work was supported by the project 1M06014 of the
+        Ministry of Education, Youth and Sports of the Czech Republic.
+Maintainer: Miriam Marusiakova <maruskay@gmail.com>
+Description: The statistical evaluation of DNA mixtures, DNA profile
+        match probability
+LazyLoad: yes
+Depends: R (>= 2.4.0), genetics, combinat
+License: GPL
+Packaged: 2012-10-29 08:58:46 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:46

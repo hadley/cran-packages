@@ -1,0 +1,15 @@
+Package: DunnettTests
+Type: Package
+Title: Software implementation of step-down and step-up Dunnett test
+        procedures
+Version: 1.0
+Date: 2013-11-11
+Author: FAN XIA
+Maintainer: FAN XIA <phoebexia@yahoo.com>
+Description: For the implementation of the step-down or step-up Dunnett testing procedures, the package includes R functions to calculate critical constants and R functions to calculate adjusted P-values of the test statistics. In addition, the package also contains functions to evaluate testing powers and hence the necessary sample sizes specially for the classical problem of comparisons of several treatments with a control.
+License: GPL-2
+Depends: mvtnorm
+Packaged: 2013-11-12 14:30:42 UTC; natsuhan
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-12 15:51:11

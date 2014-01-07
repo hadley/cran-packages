@@ -1,0 +1,25 @@
+Package: MAR1
+Type: Package
+Title: Multivariate Autoregressive Modeling for Analysis of Community
+        Time-Series Data
+Version: 1.0
+Date: 2013-03-01
+Author: Lindsay P. Scheef
+Maintainer: Lindsay P. Scheef <scheef@utexas.edu>
+Description: The MAR1 package provides basic tools for preparing
+        ecological community time-series data for MAR modeling,
+        building MAR-1 models via model selection and bootstrapping,
+        and visualizing and exporting model results. It is intended to
+        make MAR analysis (sensu Ives et al. (2003) Analysis of
+        community stability and ecological interactions from
+        time-series data) a more accessible tool for anyone studying
+        community dynamics.  The user need not necessarily be familiar
+        with time-series modeling or command-based statistics programs
+        such as R.
+License: GPL-2
+Depends: R (>= 2.15.1), tcltk, leaps, bestglm
+Suggests: MARSS (>= 3.2)
+Packaged: 2013-03-03 21:05:33 UTC; Lindsay Scheef
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-04 07:47:36

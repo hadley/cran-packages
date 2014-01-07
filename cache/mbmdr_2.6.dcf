@@ -1,0 +1,18 @@
+Package: mbmdr
+Type: Package
+Title: Model Based Multifactor Dimensionality Reduction
+Version: 2.6
+Date: 2012-07-26
+Depends: R (>= 2.10), logistf
+Author: Victor Urrea, Malu Calle, Kristel Van Steen, Nuria Malats
+Maintainer: Victor Urrea <victor.urrea@uvic.cat>
+Description: Model Based Multifactor Dimension Reduction proposed by
+        Calle et al. (2008) as a dimension reduction method for
+        exploring gene-gene interactions.
+Acknowledgement: This work was supported by the Ministerio de Educacion
+        y Ciencia (Spain) (Grant: MTM2008-06747-C02-02)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-26 13:45:41 UTC; victor
+Repository: CRAN
+Date/Publication: 2012-07-26 15:09:20

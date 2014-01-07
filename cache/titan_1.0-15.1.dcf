@@ -1,0 +1,13 @@
+Package: titan
+Version: 1.0-15.1
+Date: 2008-09-29
+Title: Titration analysis for mass spectrometry data
+Author: Tom Price <info@tomprice.net>
+Maintainer: ORPHANED
+Depends: R (>= 2.7.0), MASS, boot, tcltk, splines, lattice
+Suggests:
+Description: GUI to analyze mass spectrometric data on the relative
+        abundance of two substances from a titration series.
+License: GPL version 2 or newer
+URL: http://tomprice.net/software.html
+Packaged: Mon Feb 23 11:44:13 2009; hornik

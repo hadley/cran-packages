@@ -1,0 +1,13 @@
+Package: verify
+Version: 0.8-4.1
+Date: 2004-02-29
+Title: Construction of test suites using verify objects
+Author: S Original by Patrick J. Burns. Ported to R by Nick Efthymiou
+Description: This small library contains simple tools for
+	constructing and manipulating objects of class verify.
+	These are used when regression-testing R software.
+License: This software may be re-distributed freely and used for
+	any non-commercial purpose.
+Maintainer: ORPHANED
+Depends: R (>= 1.4.1)
+Packaged: 2009-06-23 07:06:47 UTC; hornik

@@ -1,0 +1,44 @@
+Package: mosaic
+Type: Package
+Title: Project MOSAIC (mosaic-web.org) statistics and mathematics
+        teaching utilities
+Version: 0.8-1
+Date: 2013-10-04
+Depends: R (>= 2.10), grid, lattice (>= 0.20.21)
+Imports: Hmisc, methods, utils, splines
+Suggests: MASS, reshape2, ggplot2, plyr, maptools, manipulate, vcd,
+        RCurl, testthat, knitr, tools
+VignetteBuilder: knitr
+Author: Randall Pruim <rpruim@calvin.edu>, Daniel Kaplan
+    <kaplan@macalester.edu>, Nicholas Horton <nhorton@amherst.edu>
+Maintainer: Randall Pruim <rpruim@calvin.edu>
+Description: Data sets and utilities from Project MOSAIC (mosaic-web.org) used
+    to teach mathematics, statistics, computation and modeling.  Funded by the
+    NSF, Project MOSAIC is a community of educators working to tie together
+    aspects of quantitative work that students in science, technology,
+    engineering and mathematics will need in their professional lives, but
+    which are usually taught in isolation, if at all.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Collate: 'adapt_seq.R' 'aggregatingAux.R' 'aggregatingMeta.R'
+        'as.xtabs.R' 'bargraph.R' 'binom.test.R' 'Calculus.R' 'CIsim.R'
+        'compareMean.R' 'compareProportion.R' 'confint.R' 'cross.R'
+        'datasets.R' 'dfapply.R' 'do.R' 'dotPlot.R' 'evalFormula.R'
+        'expandFun.R' 'favstats.R' 'fetchData.R' 'fetchGoogle.R'
+        'findZeros.R' 'findZerosMult.R' 'fitModel.R' 'fitSpline.R'
+        'frequencyPolygon.R' 'integrateODE.R' 'interval.R'
+        'is.wholenumber.R' 'ladd.R' 'linear-algebra.R' 'logit.R'
+        'makeFun.R' 'maps.R' 'mm.R' 'mosaic-package.R' 'mPlots.R'
+        'ntiles.R' 'numD.R' 'oddsRatio.R' 'panel.lmbands.R'
+        'parseFormula.R' 'perctable.R' 'plotCumfreq.R' 'plotDist.R'
+        'plotFun.R' 'plotPoints.R' 'pqrdata.R' 'project.R'
+        'prop.test.R' 'rand.R' 'read.file.R' 'resample.R' 'rfun.R'
+        'rgeo.R' 'settings.R' 'simplify.R' 'smoothers.R' 'statTally.R'
+        'surround.R' 'symbolicD.R' 'symbolicInt.R' 'tally.R' 'themes.R'
+        'ttest.R' 'Tukey.R' 'utils.R' 'xchisq.test.R' 'xhistogram.R'
+        'xpnorm.R' 'xqqmath.R' 'zzz.R' 'ediff.R' 'fetchGapminder.R'
+Packaged: 2013-10-05 05:17:41 UTC; rpruim
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-05 07:40:45

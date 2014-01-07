@@ -1,0 +1,14 @@
+Package: CHsharp
+Title: Choi and Hall Clustering in 3d
+Version: 0.3
+Author: Douglas G. Woolford <dgwoolfo@uwo.ca>
+Description: Functions that cluster 1-3 dimensional data into their
+        local modes.  Based on a convergent form of Choi and Hall's
+        (1999) data sharpening method.  Note: sharp3dB is much faster
+        than sharp3d if data is ordered in at least one dimension.
+Maintainer: W. John Braun <braun@stats.uwo.ca>
+Depends: scatterplot3d, KernSmooth
+License: GPL (>= 2)
+Packaged: 2012-11-05 17:10:06 UTC; braun
+Repository: CRAN
+Date/Publication: 2012-11-05 17:59:47

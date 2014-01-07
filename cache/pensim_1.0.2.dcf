@@ -1,0 +1,18 @@
+Package: pensim
+Type: Package
+Title: Simulation of high-dimensional data and parallelized repeated
+        penalized regression
+Version: 1.0.2
+Date: 2011-01-19
+Author: L. Waldron, M. Pintilie, C. Huttenhower*, I. Jurisica* (*equal
+        contribution)
+Maintainer: Levi Waldron <lwaldron.research@gmail.com>
+Depends: R (>= 2.8.0), MASS, snow, rlecuyer, penalized, survival
+Description: Simulation of continuous, correlated high-dimensional data
+        with time to event or binary response, and parallelized
+        functions Lasso, Ridge, and Elastic Net penalized regression.
+License: GPL (> 2.0)
+LazyLoad: yes
+Packaged: 2011-02-03 03:28:35 UTC; lwaldron
+Repository: CRAN
+Date/Publication: 2011-02-03 08:19:33

@@ -1,0 +1,17 @@
+Package: RISmed
+Version: 2.1.0
+Type: Package
+Title: Download content from NCBI databases
+Date: 5-07-2013
+Author: Stephanie Kovalchik
+Depends: R (>= 2.8.0), methods
+Maintainer: S. A. Kovalchik <s.a.kovalchik@gmail.com>
+Description: Download content from NCBI databases. This package is
+        intended to facilitate analyses of NCBI database content. This
+        package is not intended for reference management.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-05-09 03:06:57 UTC; skoval
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-09 12:09:29

@@ -1,0 +1,17 @@
+Package: rainbow
+Type: Package
+Title: Rainbow plots, bagplots and boxplots for functional data
+Version: 1.7
+Date: 2009-12-19
+Depends: R (>= 2.6.0), hdrcde, MASS, pcaPP, cluster
+Author: Han Lin Shang and Rob J Hyndman
+Maintainer: Han Lin Shang <HanLin.Shang@buseco.monash.edu.au>
+Description: Functions and datasets for functional data display and
+        outlier detection.
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+URL: http://monashforecasting.com/index.php?title=R_packages
+Packaged: 2009-12-19 05:31:03 UTC; han
+Repository: CRAN
+Date/Publication: 2009-12-20 09:35:11

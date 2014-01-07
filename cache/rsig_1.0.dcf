@@ -1,0 +1,25 @@
+Package: rsig
+Type: Package
+Title: Robust Signature Selection for Survival Outcomes
+Version: 1.0
+Author: Sangkyun Lee <sangkyun.lee@tu-dortmund.de>, Michel Lang
+    <michellang@gmail.com>
+Maintainer: Sangkyun Lee <sangkyun.lee@tu-dortmund.de>
+Description: Robust and efficient feature selection algorithm to
+    identify important features for predicting survival risk.
+    The method is based on subsampling and averaging linear models
+    obtained from the (preconditioned) Lasso algorithm, with an extra 
+    shrinking procedure to reduce the size of signatures. An 
+    evaluation procedure using subsampling is also provided.
+License: GPL-2
+Depends: R (>= 2.15.0), survival, parallel
+Imports: BBmisc, glmnet, superpc, survcomp, Matrix
+Suggests: testthat
+LazyData: yes
+ByteCompile: yes
+Collate: 'zzz.R' 'helper.R' 'sampling.R' 'models.R' 'rsig.R'
+        'evaluate.R' 'rsig.all.R'
+Packaged: 2013-10-12 18:47:31 UTC; lee
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-12 23:54:18

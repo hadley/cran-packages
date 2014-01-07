@@ -1,0 +1,18 @@
+Package: matrixcalc
+Version: 1.0-2
+Date: 2012-07-27
+Title: Collection of functions for matrix differential calculus
+Author: Frederick Novomestky <fnovomes@poly.edu>
+Maintainer: Frederick Novomestky <fnovomes@poly.edu>
+Depends: R (>= 2.0.1)
+Description: A collection of functions to support matrix calculations
+        as presented in Magnus and Neudecker (1999). There are
+        additional functions that are comparable to APL functions which
+        are useful for actuarial models and calculations.  This package
+        is used for teaching and research purposes at the Department of
+        Finance and Risk Engineering, New York University, Polytechnic
+        Institute, Brooklyn, NY 11201.
+License: GPL (>= 2)
+Packaged: 2012-07-27 16:06:53 UTC; fred
+Repository: CRAN
+Date/Publication: 2012-07-27 16:53:51

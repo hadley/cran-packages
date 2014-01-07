@@ -1,0 +1,13 @@
+Package: tsfa
+Title: Time Series Factor Analysis
+Description:  Extraction of Factors from Multivariate Time Series. See ?00tsfa-Intro for more details.
+Depends: R (>= 2.1.0), GPArotation (>= 2006.9-1), setRNG (>= 2004.4-1), tframe (>= 2009.2-1), dse1 (>= 2006.1-1), dse2 (>= 2006.1-1) 
+Suggests: CDNmoney, MASS
+Version: 2009.02-1
+Date: 2009-02-09
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert and Erik Meijer <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert and Erik Meijer <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Mon Feb  9 12:12:58 2009; gilp

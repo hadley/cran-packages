@@ -1,0 +1,20 @@
+Package: fisheyeR
+Type: Package
+Title: Fisheye and Hyperbolic-space-alike Interactive Visualization
+        Tools in R
+Version: 0.9
+Date: 2009-12-29
+Author: Eduardo San Miguel Martin
+Maintainer: Eduardo San Miguel Martin
+        <eduardo.san.miguel.martin@gmail.com>
+Description: fisheyeR provides tools for creating Interactive Data
+        Visualizations by implementing ideas from Furnas, Munzner,
+        Costa and Venturini.
+License: GPL-2
+LazyLoad: yes
+Depends: tkrplot, methods
+Repository: CRAN
+Repository/R-Forge/Project: fisheyer
+Repository/R-Forge/Revision: 10
+Date/Publication: 2010-01-28 07:49:41
+Packaged: 2010-01-24 22:33:04 UTC; rforge

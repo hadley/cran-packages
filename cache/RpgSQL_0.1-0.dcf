@@ -1,0 +1,15 @@
+Package: RpgSQL
+Version: 0.1-0
+Date: 2010-02-13
+Title: DBI/RJDBC interface to PostgreSQL Database
+Author: G. Grothendieck
+Maintainer: G. Grothendieck <ggrothendieck@gmail.com>
+Description: DBI interface to PostgreSQL database via RJDBC.
+Depends: methods, RJDBC
+SystemRequirements: java runtime, PostgreSQL 8.4, PostgreSQL JDBC
+        driver
+License: GPL-2
+URL: http://www.postgreSQL.org
+Packaged: 2010-02-13 11:36:18 UTC; Louis
+Repository: CRAN
+Date/Publication: 2010-02-14 14:44:20

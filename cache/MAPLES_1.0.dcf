@@ -1,0 +1,17 @@
+Package: MAPLES
+Type: Package
+Title: Smoothed age profile estimation
+Version: 1.0
+Date: 2011-04-18
+Author: Roberto Impicciatore
+Maintainer: Roberto Impicciatore <roberto.impicciatore@unimi.it>
+Description: MAPLES is a general method for the estimation of age
+        profiles that uses standard micro-level demographic survey
+        data. The aim is to estimate smoothed age profiles and relative
+        risks for time-fixed and time-varying covariates.
+Depends: mgcv
+License: GPL (>= 2)
+LazyData: yes
+Packaged: 2011-04-26 16:50:02 UTC; roberto
+Repository: CRAN
+Date/Publication: 2011-04-26 17:36:50

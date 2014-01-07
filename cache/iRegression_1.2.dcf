@@ -1,0 +1,17 @@
+Package: iRegression
+Type: Package
+Title: Regression methods for interval-valued variables
+Version: 1.2
+Date: 2011-06-01
+Depends: mgcv
+Author: Eufrasio de A. Lima Neto with contribution from Claudio A.
+        Vasconcelos
+Maintainer: Eufrasio de A. Lima Neto <eufrasio@de.ufpb.br>
+Description: This package contains some important regression methods
+        for interval-valued variables. For each method, it is available
+        the fitted values, residuals and some goodness-of-fit measures.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-26 18:43:58 UTC; Eufrasio
+Repository: CRAN
+Date/Publication: 2012-07-26 19:51:15

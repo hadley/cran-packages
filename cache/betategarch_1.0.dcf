@@ -1,0 +1,16 @@
+Package: betategarch
+Type: Package
+Title: Estimation and simulation of the first-order Beta-t-EGARCH model
+Depends: R (>= 2.13.0)
+Version: 1.0
+Date: 2011-09-27
+Author: Genaro Sucarrat
+Maintainer: Genaro Sucarrat <genaro.sucarrat@bi.no>
+URL: http://www.sucarrat.net/
+Description: Estimation and simulation of the first-order Beta-t-EGARCH
+        model of Andrew Harvey.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-09-27 20:39:33 UTC; admin
+Repository: CRAN
+Date/Publication: 2011-09-28 07:01:56

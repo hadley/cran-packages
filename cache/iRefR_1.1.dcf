@@ -1,0 +1,23 @@
+Package: iRefR
+Version: 1.1
+Date: 2013-07-04
+Title: iRefIndex Manager
+Description: "iRefR" allows the user to load any version of the
+        consolidated protein interaction database "iRefIndex" and
+        perform tasks such as: selecting databases, pmids, experimental
+        methods, searching for specific proteins, separate binary
+        interactions from complexes and polymers, generate complexes
+        according to an algorithm that looks after possible
+        binary-represented complexes, make general database statistics
+        and create network graphs, among others.
+Author: Antonio Mora <antoniocmora@gmail.com>, Ian Donaldson
+        <ian.oslo@gmail.com>
+Maintainer: Antonio Mora <antoniocmora@gmail.com>
+Depends: R (>= 2.12.1), igraph (>= 0.6), graph, RBGL
+License: GPL (>= 2)
+URL: http://irefindex.org/wiki/index.php?title=iRefR
+BuildVignettes: FALSE
+Packaged: 2013-07-04 10:53:03 UTC; root
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-04 13:37:34

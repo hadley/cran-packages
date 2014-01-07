@@ -1,0 +1,27 @@
+Package: maptools
+Version: 0.8-14
+Date: 2012-01-15
+Title: Tools for reading and handling spatial objects
+Encoding: latin1
+Author: Nicholas J. Lewin-Koh and Roger Bivand, contributions by Edzer
+        J. Pebesma, Eric Archer, Adrian Baddeley, Hans-Jörg Bibiko,
+        Jonathan Callahan, Stéphane Dray, David Forrest, Michael
+        Friendly, Patrick Giraudoux, Duncan Golicher, Virgilio Gómez
+        Rubio, Patrick Hausmann, Karl Ove Hufthammer, Thomas Jagger,
+        Sebastian P. Luque, Don MacQueen, Andrew Niccolai, Tom Short,
+        Greg Snow, Ben Stabler and Rolf Turner
+Maintainer: Roger Bivand <Roger.Bivand@nhh.no>
+Depends: R (>= 2.10), foreign (>= 0.8), sp (>= 0.9-47), methods,
+        lattice
+Suggests: spatstat (>= 1.18), PBSmapping, maps, rgeos (>= 0.1-8),
+        gpclib, RArcInfo
+Description: Set of tools for manipulating and reading geographic data,
+        in particular ESRI shapefiles; C code used from shapelib. It
+        includes binary access to GSHHS shoreline files. The package
+        also provides interface wrappers for exchanging spatial objects
+        with packages such as PBSmapping, spatstat, maps, RArcInfo,
+        Stata tmap, WinBUGS, Mondrian, and others.
+License: GPL (>= 2)
+Packaged: 2012-01-15 13:18:16 UTC; rsb
+Repository: CRAN
+Date/Publication: 2012-01-15 13:44:59

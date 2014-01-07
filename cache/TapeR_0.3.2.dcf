@@ -1,0 +1,23 @@
+Package: TapeR
+Type: Package
+Title: Flexible tree taper curves based on semiparametric mixed models.
+Version: 0.3.2
+Date: 2013-012-14
+Authors@R: c(person(given = "Edgar", family = "Kublin", role = "aut"),
+             person(given = "Johannes", family = "Breidenbach", role = c("ctb","cre"),
+					email = "Johannes.Breidenbach@SkogogLandskap.no"))
+Description: This package implements functions for fitting taper curves (a semiparametric linear mixed effects taper model) to diameter measurements along stems. Further functions are provided to estimate the uncertainty around the predicted curves, to calculate timber volume (also by sections) and marginal (e.g., upper) diameters. For cases where tree
+  heights are not measured, methods for estimating
+  additional variance in volume predictions resulting from uncertainties in
+  tree height models (tariffs) are provided.  The example data include the taper curve parameters for Norway spruce used in the 3rd German NFI fitted to 380 trees and a subset of section-wise diameter measurements of these trees. The functions implemented here are detailed in the following publication: Kublin, E., Breidenbach, J., Kaendler, G. (2013) A flexible stem taper and volume prediction method based on mixed-effects B-spline regression, Eur J For Res, 132:983-997.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: nlme, splines, pracma
+Packaged: 2013-12-14 16:38:56 UTC; JOB
+Author: Edgar Kublin [aut],
+  Johannes Breidenbach [ctb, cre]
+Maintainer: Johannes Breidenbach
+        <Johannes.Breidenbach@SkogogLandskap.no>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-14 17:54:30

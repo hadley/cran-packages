@@ -1,0 +1,11 @@
+Package: Pomic
+Type: Package
+Title: Pattern Oriented Modelling Information Criterion
+Version: 0.9.1
+Date: 2008-22-08
+Author: Cyril Piou
+Maintainer: Cyril Piou <cyril.piou@yahoo.fr>
+Description: This package propose calculations of a non-parsimonious based information criterion to check the quality of simulations results of ABM/IBM or other non-linear rule-based models. The POMIC is based on the KL divergence and likelihood theory. This method is still under development and further work are needed for the incorporation of model complexity measurement in the information criterion.
+Depends: stats
+License: GPL-2
+Packaged: Fri Aug 22 15:17:05 2008; Cyril

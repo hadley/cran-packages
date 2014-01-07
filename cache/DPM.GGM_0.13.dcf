@@ -1,0 +1,15 @@
+Package: DPM.GGM
+Type: Package
+Title: Sparse covariance estimation in heterogeneous samples
+Version: 0.13
+Date: 2011-11-23
+Author: Alex Lenkoski, Andreas Neudecker
+Maintainer: Alex Lenkoski <alex.lenkoski@uni-heidelberg.de>
+Description: This package provides functions to estimate sparse
+        covariance in heterogenous samples
+Depends: R (>= 2.10), lattice
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-11-23 15:40:40 UTC; andreas
+Repository: CRAN
+Date/Publication: 2011-11-23 16:22:21

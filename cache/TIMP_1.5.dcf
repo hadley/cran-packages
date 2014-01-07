@@ -1,0 +1,11 @@
+Package: TIMP
+Type: Package
+Title: a problem solving environment for fitting separable nonlinear models in physics and chemistry applications
+Version: 1.5
+Author: Katharine M. Mullen, Ivo H. M. van Stokkum 
+Maintainer: Katharine M. Mullen <kate@nat.vu.nl>
+Depends: R (>= 2.6.0), methods, tcltk, vcd, fields, gplots, splines, gclus, nnls, quadprog, minpack.lm
+Description: TIMP is a problem solving environment for fitting separable nonlinear models to measurements arising in physics and chemistry experiments, and has been extensively applied to time-resolved spectroscopy and FLIM-FRET data.
+License: GPL (>= 2)
+URL: http://timp.r-forge.r-project.org/, http://www.nat.vu.nl/~kate/TIMP/
+Packaged: Mon Jan 28 21:38:37 2008; root

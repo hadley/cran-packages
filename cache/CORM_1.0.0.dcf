@@ -1,0 +1,20 @@
+Package: CORM
+Type: Package
+Version: 1.0.0
+License: GPL (>= 2)
+Description: We proposed a new model-based clustering method-the clustering of regression models method, which groups genes that share a similar relationship to the covariate(s). This method provides a unified approach for a family of clustering procedures and can be applied for data collected with various experimental designs. This package includes the implementation for two such clustering procedures: (1) clustering of linear models (CLM), and (2) clustering of linear mixed models (CLMM).
+Title: Clustering of Regression Models Method
+Authors@R: 
+        c(person("Li-Xuan","Qin",role=c("aut"),email="qinl@mskcc.org"),
+        person("Jiejun","Shi",role=c("cre"),email="shi.abraham.2010@gmail.com"))
+Depends: R (>= 2.10.0), cluster
+Suggests: MASS
+URL: http://www.r-project.org,
+        http://www.mskcc.org/mskcc/html/60448.cfm
+Packaged: 2013-12-09 16:05:06 UTC; abraham
+Author: Li-Xuan Qin [aut],
+  Jiejun Shi [cre]
+Maintainer: Jiejun Shi <shi.abraham.2010@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-09 21:12:21

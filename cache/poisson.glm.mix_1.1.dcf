@@ -1,0 +1,19 @@
+Package: poisson.glm.mix
+Type: Package
+Title: Fit high dimensional mixtures of Poisson GLMs
+Version: 1.1
+Date: 2013-06-20
+Author: Panagiotis Papastamoulis, Marie-Laure Martin-Magniette, Cathy
+        Maugis-Rabusseau
+Maintainer: Panagiotis Papastamoulis <papapast@yahoo.gr>
+Description: High dimensional mixtures of Poisson Generalized Linear
+        models with three different parameterizations of Poisson means
+        are considered. Moreover, partitioning the response variables
+        into a set of blocks is possible. The package estimates
+        parameters via EM algorithm. For an efficient initialization, a
+        random splitting small-EM is introduced.
+License: GPL-2
+Packaged: 2013-06-20 11:50:25 UTC; panagiotispapastamoulis
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-20 15:19:01

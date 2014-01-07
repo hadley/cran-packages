@@ -1,0 +1,21 @@
+Package: timeDate
+Version: 2160.95
+Revision: 5145
+Date: 2011-10-24
+Title: Rmetrics - Chronological and Calendarical Objects
+Author: Diethelm Wuertz, Yohan Chalabi and Martin Maechler with
+        contributions from Joe W. Byers, and others
+Depends: R (>= 2.10.0), graphics, utils, stats, methods
+Suggests: RUnit
+Maintainer: Rmetrics Core Team <Rmetrics-core@r-project.org>
+Description: Environment for teaching "Financial Engineering and
+        Computational Finance"
+NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE
+        FUTURE. THIS TYPICALLY INCLUDES FUNCTION AND ARGUMENT NAMES, AS
+        WELL AS DEFAULTS FOR ARGUMENTS AND RETURN VALUES.
+LazyData: yes
+License: GPL (>= 2)
+URL: http://www.rmetrics.org
+Packaged: 2012-03-20 08:27:21 UTC; yankee
+Repository: CRAN
+Date/Publication: 2012-03-20 10:05:41

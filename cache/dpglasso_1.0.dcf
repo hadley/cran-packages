@@ -1,0 +1,14 @@
+Package: dpglasso
+Type: Package
+Title: Primal Graphical Lasso
+Version: 1.0
+Date: 2012-08-28
+Author: Rahul Mazumder and Trevor Hastie
+Maintainer: Rahul Mazumder <rahul.mazumder@gmail.com>
+Description: fits the primal graphical lasso, via one-at-a-time
+        block-coordinate descent.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-23 22:10:59 UTC; hastie
+Repository: CRAN
+Date/Publication: 2012-10-24 07:09:18

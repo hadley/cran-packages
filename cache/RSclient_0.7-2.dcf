@@ -1,0 +1,13 @@
+Package: RSclient
+Version: 0.7-2
+Title: Client for Rserve
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: R (>= 2.7.0)
+Description: Client for Rserve, allowing to connect to Rserve instances and issue commands.
+License: GPL-2 | file LICENSE
+URL: http://www.rforge.net/RSclient/
+Packaged: 2013-08-02 15:23:44 UTC; svnuser
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-02 19:19:25

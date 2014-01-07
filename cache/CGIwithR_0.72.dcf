@@ -1,0 +1,14 @@
+Package: CGIwithR
+Version: 0.72
+Date: 2005-08-12
+Title: CGI Programming in R
+Author: David Firth, with extensions by Duncan Temple Lang
+Requires: R (>=2.1.0)
+Suggests: GDD
+Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+URL: http://www.omegahat.org/CGIwithR
+     http://www.warwick.ac.uk/go/cgiwithr, 
+     http://www.warwick.ac.uk/go/dfirth
+Description: Facilities for the use of R to write CGI scripts
+License: GPL Version 2 or later
+Packaged: Thu Dec  8 05:31:40 2005; duncan

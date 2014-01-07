@@ -1,0 +1,30 @@
+Package: PowerTOST
+Type: Package
+Title: Power and Sample size based on two one-sided t-tests (TOST) for
+        (bio)equivalence studies
+Version: 1.0-00
+Date: 2012-10-26
+Author: Detlew Labes
+Maintainer: D. Labes <DetlewLabes@gmx.de>
+Description: Contains functions to calculate power and sample size for
+        various study designs used for bioequivalence studies.  See
+        function known.designs() for study designs covered.  Moreover
+        the package contains functions for power and sample size based
+        on 'expected' power in case of uncertain (estimated)
+        variability.  ----- Added are functions for the power and
+        sample size for the ratio of two means with normally
+        distributed data on the original scale (based on Fieller's
+        confidence ('fiducial') interval).  ----- Contains further
+        functions for power and sample size calculations based on
+        non-inferiority t-test. This is not a TOST procedure but
+        eventually useful if the question of 'non-superiority' must be
+        evaluated.  The power and sample size calculations based on
+        non-inferiority test may also performed via 'expected' power in
+        case of uncertain (estimated) variability.
+Depends: mvtnorm
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2012-10-26 07:43:27 UTC; dlabes
+Repository: CRAN
+Date/Publication: 2012-10-26 09:32:57

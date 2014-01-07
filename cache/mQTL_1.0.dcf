@@ -1,0 +1,19 @@
+Package: mQTL
+Type: Package
+Title: Metabolomic Quantitative Trait Locus Mapping
+Version: 1.0
+Date: 2013-09-18
+Author: Lyamine Hedjazi and Jean-Baptiste Cazier 
+Maintainer: Lyamine Hedjazi <l.hedjazi@fondation-ican.com>
+Description: mQTL provides a complete QTL analysis pipeline for metabolomic data. 
+        Distinctive features include normalisation using PQN approach, peak alignment  
+        using RSPA approach, dimensionality reduction using SRV approach and finally 
+        QTL mapping using R/qtl package.
+License: GPL
+LazyLoad: yes
+LazyData: yes
+NeedsCompilation: yes
+Repository: CRAN
+Depends: R (>= 2.15.0), qtl, MASS, outliers
+Packaged: 2013-10-21 09:31:01 UTC; Utilisateur
+Date/Publication: 2013-10-21 12:44:23

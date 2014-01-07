@@ -1,0 +1,18 @@
+Package: outbreaker
+Version: 1.0-1
+Date: 2013/06/05
+Title: Bayesian inference of outbreak dynamics based on epidemiological
+        and genetic information.
+Author: Thibaut Jombart <t.jombart@imperial.ac.uk>, Anne Cori, Xavier
+        Didelot, Simon Cauchemez, Christophe Fraser, Neil Ferguson
+Maintainer: Thibaut Jombart <t.jombart@imperial.ac.uk>
+Suggests: parallel, EpiEstim
+Depends: R (>= 2.3.0)
+Imports: utils, ape, igraph, adegenet
+Description: Bayesian inference of outbreak dynamics based on
+        epidemiological and genetic information.
+License: GPL (>= 2)
+Packaged: 2013-06-05 17:00:17 UTC; thibaut
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-05 20:52:08

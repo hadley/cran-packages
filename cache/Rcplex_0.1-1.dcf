@@ -1,0 +1,18 @@
+Package: Rcplex
+Version: 0.1-1
+Title: R interface to CPLEX
+Author: Hector Corrada Bravo
+Maintainer: Hector Corrada Bravo <hcorrada@gmail.com>
+Description: R interface to CPLEX solvers for linear, quadratic, and
+        (linear and quadratic) mixed integer programs. A working
+        installation of CPLEX is required for usage of the Rcplex
+        package. See the file "INSTALL" for details on how to install
+        the Rcplex package in Linux/Unix-like systems. No support for
+        Windows platforms is currently available.
+LazyLoad: yes
+Depends: Matrix, gtools
+Imports: Matrix, gtools
+License: LGPL >= 2.0
+URL: http://www.r-project.org
+Packaged: Tue Jan 29 02:20:55 2008; hcorrada
+OS_type: unix

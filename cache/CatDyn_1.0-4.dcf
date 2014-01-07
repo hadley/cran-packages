@@ -1,0 +1,20 @@
+Package: CatDyn
+Type: Package
+Title: Fishery Stock Assessment by Catch Dynamic Models
+Version: 1.0-4
+Date: 2012-05-20
+Author: Ruben H. Roa Ureta
+Maintainer: Ruben H. Roa Ureta <ruben.roa.ureta@gmail.com>
+Depends: msm, optimx, BB
+Description: Using catch in biomass, fishing effort, and mean body mass
+        by time step, estimate stock abundance, natural mortality rate,
+        and fishing operational parameters. It includes methods for
+        plotting standard exploratory and analytical plots and to
+        pre-process data, five types of catch dynamics models of
+        increasing complexity, and two distributions for the catch
+        data.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-05-20 14:21:00 UTC; Rubin
+Repository: CRAN
+Date/Publication: 2012-05-20 20:28:42

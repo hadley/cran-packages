@@ -1,0 +1,32 @@
+Package: rexpokit
+Type: Package
+Title: R wrappers for EXPOKIT; other matrix functions
+Version: 0.23
+Date: 2013-02-09
+Authors@R: c(person("Nicholas J.", "Matzke", email =
+        "matzke@berkeley.edu", role = c("aut", "cre", "cph")),
+        person("Roger B.", "Sidje", email = "roger.b.sidje@ua.edu",
+        role = c("aut", "cph")))
+Maintainer: Nicholas J. Matzke <matzke@berkeley.edu>
+Depends: methods, SparseM, Rcpp (>= 0.9.10)
+LinkingTo: Rcpp
+Description: This package wraps some of the matrix exponentiation
+        utilities from EXPOKIT (http://www.maths.uq.edu.au/expokit/), a
+        FORTRAN library that is widely recommended for matrix
+        exponentiation (Sidje RB, 1998. "Expokit: A Software Package
+        for Computing Matrix Exponentials." ACM Trans. Math. Softw.
+        24(1): 130-156).  EXPOKIT includes functions for exponentiating
+        both small, dense matrices, and large, sparse matrices (in
+        sparse matrices, most of the cells have value 0).  Rapid matrix
+        exponentiation is useful in phylogenetics when we have a large
+        number of states (as we do when we are inferring the history of
+        transitions between the possible geographic ranges of a
+        species), but is probably useful in other ways as well.
+URL: http://phylo.wikidot.com/rexpokit
+License: GPL (>= 2)
+LazyLoad: yes
+ByteCompile: true
+Packaged: 2013-02-09 23:58:58 UTC; nickm
+Author: Nicholas J. Matzke [aut, cre, cph], Roger B. Sidje [aut, cph]
+Repository: CRAN
+Date/Publication: 2013-02-11 21:02:55

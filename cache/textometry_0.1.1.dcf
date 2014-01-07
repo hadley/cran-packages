@@ -1,0 +1,17 @@
+Package: textometry
+Type: Package
+Title: Textual Data Analysis Package used by the TXM Software
+Version: 0.1.1
+Date: 2013-07-31
+Author: Sylvain Loiseau, Vaudor Lise, Matthieu Decorde
+Maintainer: Matthieu Decorde <matthieu.decorde@ens-lyon.fr>
+Description: Statistical exploration of textual corpora using several methods
+    from french 'lexicometrie' and french 'Data Analysis' schools. It includes
+    methods for exploring irregularity of distribution of lexicon (or other
+    features) across parts of texts; multi-dimensional exploration, etc.
+License: GPL (>= 3)
+Depends: R (>= 2.5.0)
+Packaged: 2013-07-31 14:43:42 UTC; mdecorde
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-31 17:55:23

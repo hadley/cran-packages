@@ -1,0 +1,24 @@
+Package: pscl
+Version: 1.04.1
+Date: 2011-10-21
+Title: Political Science Computational Laboratory, Stanford University
+Author: Simon Jackman, with contributions from Alex Tahk, Achim
+        Zeileis, Christina Maimone and Jim Fearon
+Maintainer: Simon Jackman <jackman@stanford.edu>
+Depends: R (>= 2.10.0), MASS, stats, mvtnorm, coda, gam, vcd
+Suggests: MCMCpack, car, lmtest, sandwich, zoo
+Enhances: stats, MASS
+Imports: lattice
+Description: Bayesian analysis of item-response theory (IRT) models,
+        roll call analysis; computing highest density regions; maximum
+        likelihood estimation of zero-inflated and hurdle models for
+        count data; goodness-of-fit measures for GLMs; data sets used
+        in writing and teaching at the Political Science Computational
+        Laboratory; seats-votes curves.
+LazyLoad: true
+LazyData: true
+License: GPL-2
+URL: http://pscl.stanford.edu/
+Packaged: 2011-10-22 16:51:07 UTC; jackman
+Repository: CRAN
+Date/Publication: 2011-10-23 15:40:37

@@ -1,0 +1,14 @@
+Package: cimis
+Version: 0.1-5
+Date: 2010-10-25
+Title: R package for retrieving data from CIMIS.
+Author: Greg Hirson <ghirson@ucdavis.edu>
+Maintainer: Greg Hirson <ghirson@ucdavis.edu>
+Depends: R (>= 2.8.1), XML, RCurl
+Description: A set of functions for retrieving data from CIMIS, the
+        California Irrigation Management Information System.
+License: GPL (>= 2)
+URL: http://cran.r-project.org/package=cimis
+Packaged: 2010-10-26 01:54:03 UTC; greg
+Repository: CRAN
+Date/Publication: 2010-10-26 12:10:06

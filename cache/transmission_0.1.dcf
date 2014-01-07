@@ -1,0 +1,25 @@
+Package: transmission
+Type: Package
+Title: Continuous time infectious disease models on individual data.
+Version: 0.1
+Date: 2012-11-04
+Author: Alun Thomas, Andrew Redd
+Authors@R: c(person('Alun', 'Thomas', email='alun.thomas@utah.edu',
+        role=c('aut', 'cph')) , person('Andrew', 'Redd',
+        email='andrew.redd@hsc.utah.edu', role=c('aut', 'com', 'cre')))
+Maintainer: Andrew Redd <Andrew.Redd@hsc.utah.edu>
+Description: Simulate and fit continuous time infectious disease
+        transmission models. Infections can only occur through person
+        to person contact or imported from outside the unit.
+License: GPL (>= 3.0)
+LazyLoad: yes
+Suggests: testthat(>= 0.5)
+Depends: R (>= 2.15.0), methods, Rcpp (>= 0.9.15)
+Imports: ggplot2, reshape2, plyr
+LinkingTo: Rcpp
+RcppModules: continuous, sim
+Collate: 'zzz.R' 'alunll.R' 'convert.R' 'metrics.R' 'ml.R' 'time.R'
+        'utils.R' 'wrap.R' 'wrap_sim.R'
+Packaged: 2012-11-05 03:24:29 UTC; aredd
+Repository: CRAN
+Date/Publication: 2012-11-05 08:01:23

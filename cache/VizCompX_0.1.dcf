@@ -1,0 +1,20 @@
+Package: VizCompX
+Type: Package
+Title: Visualisation of Computer Models
+Version: 0.1
+Date: 2010-03-02
+Author: Neil Diamond
+Maintainer: Neil Diamond<neil.diamond@buseco.monash.edu.au>
+Depends: R (>= 2.10.1), lattice, emulator, mlegp
+Description: Nimrod generates a Latin Hypercube Design using the
+        emulator package. Based on this design, any function can be
+        evaluated on the design points. A generalisation of the
+        Nimrod/O test case is included. A Gaussian model can be fit to
+        the data using the mlegp package. The resulting surface can be
+        viewed using a wireframe plot with choice of viewing and
+        conditioning variables and levels.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:07 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:07

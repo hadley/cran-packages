@@ -1,0 +1,20 @@
+Package: prabclus
+Title: Test for clustering of presence-absence data
+Version: 2.0-2
+Date: 2006-10-06
+Author: Christian Hennig <chrish@stats.ucl.ac.uk>
+Depends: R (>= 2.0), MASS
+Suggests: mclust02
+Description: Distance-based parametric bootstrap tests for clustering, 
+  mainly intended for presence-absence data (clustering of species
+  distribution maps). Jaccard, Kulczynski and geco distance measures, 
+  clustering of presence-absence and abundance data, and nearest neighbor 
+  based noise detection (R port of Byers
+  and Raftery's (1998) "NNclean"). Main functions are prabtest (for
+  testing), prabclust (for clustering), prabinit (for preparing the data)
+  and NNclean (for noise detection). The help-pages for prabtest and
+  prabclust contain simple standard executions. 
+Maintainer: Christian Hennig <chrish@stats.ucl.ac.uk>
+License: GPL
+URL: http://www.homepages.ucl.ac.uk/~ucakche
+Packaged: Fri Oct  6 20:57:45 2006; chrish

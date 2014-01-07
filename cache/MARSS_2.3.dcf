@@ -1,0 +1,31 @@
+Package: MARSS
+Type: Package
+Title: Multivariate Autoregressive State-Space Modeling
+Version: 2.3
+Date: 2011-7-31
+Depends: MASS, mvtnorm, nlme, time, KFAS
+Author: Eli Holmes, Eric Ward, and Kellie Wills, NOAA, Seattle, USA
+Maintainer: eli.holmes@noaa.gov <eli.holmes@noaa.gov>
+Description: The MARSS package fits constrained and unconstrained
+        linear multivariate autoregressive state-space (MARSS) models
+        to multivariate time series data via priamarily an
+        Expectation-Maximization (EM) algorithm, although fitting via
+        the BFGS algorithm (using the optim function) is also provided.
+        Functions are provided for parametric and innovations
+        bootstrapping, Kalman filter and smoothing, bootstrap model
+        selection criteria (AICb), confidences intervals via the
+        hessian approximation and via bootstrapping and calculation of
+        auxilliary residuals for detecting outliers and shocks.  The
+        user guide shows examples of using MARSS for parameter
+        estimation for a variety of applications, model selection,
+        dynamic factor analysis, outlier and shock detection, and
+        addition of covariates.  Type RShowDoc("UserGuide",
+        package="MARSS") at the R command line to open the MARSS user
+        guide.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+BuildVignettes: yes
+Packaged: 2011-07-31 05:24:15 UTC; xholmesel
+Repository: CRAN
+Date/Publication: 2011-07-31 06:42:07

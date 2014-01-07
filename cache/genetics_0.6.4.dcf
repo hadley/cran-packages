@@ -1,0 +1,14 @@
+Package: genetics
+Title: Population Genetics
+Version: 0.6.4
+Date: 2002-11-13
+Author: Gregory Warnes and Friedrich Leisch
+Maintainer: Gregory Warnes <gregory_r_warnes@groton.pfizer.com>
+Depends: combinat
+Description: Classes and methods for handling genetic data. Includes
+  classes to represent genotypes and haplotypes at single markers up
+  to multiple markers on multiple chromosomes. Function include
+  allele frequencies, flagging homo/heterozygotes, flagging carriers
+  of certain alleles, computing disequlibrium, testing Hardy-Weinber
+  equilibrium, ...  
+License: GPL

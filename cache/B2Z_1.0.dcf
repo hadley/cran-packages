@@ -1,0 +1,15 @@
+Package: B2Z
+Type: Package
+Version: 1.0
+Date: 2010-02-21
+Title: Bayesian Two-Zone Model
+Author: Joao Vitor Dias Monteiro <monte092@umn.edu>, Sudipto Barnejee
+        <baner009@umn.edu>, Gurumurthy Ramachandran <ramac002@umn.edu>
+Maintainer: Joao Vitor Dias Monteiro <monte092@umn.edu>
+Depends: numDeriv, coda, mvtnorm
+Description: This package fits the Bayesian two-Zone Models.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-02-23 14:50:34 UTC; Owner
+Repository: CRAN
+Date/Publication: 2010-02-23 15:54:40

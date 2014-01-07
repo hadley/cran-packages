@@ -1,0 +1,35 @@
+Package: pbdNCDF4
+Version: 0.1-0
+Date: 2013-02-20
+Title: Programming with Big Data -- Interface to Parallel Unidata
+        NetCDF4 Format Data Files
+Authors@R: c(person("Pragneshkumar", "Patel", role = c("aut", "cre"),
+        email = "pragnesh@utk.edu"), person("George", "Ostrouchov",
+        role = "aut"), person("Wei-Chen", "Chen", role = "aut"),
+        person("Drew", "Schmidt", role = "aut"), person("David",
+        "Pierce", role = "aut"))
+Depends: R (>= 2.13.0), methods, rlecuyer, pbdMPI (>= 0.1-4)
+LazyLoad: yes
+LazyData: yes
+OS_type: unix
+Description: This package adds collective parallel read and write
+        capability to the R package ncdf4 version 1.8. Typical use is
+        as a parallel NetCDF4 file reader in SPMD style programming.
+        Each R process reads and writes its own data in a synchronized
+        collective mode, resulting in faster parallel performance.
+        Performance improvement is conditional on a parallel file
+        system.
+SystemRequirements: OpenMPI (>= 1.5.4) on Solaris, Linux and Mac.
+        Parallel HDF5 and NetCDF4 (4.1 or later) libraries.
+License: GPL (>= 3)
+URL: http://r-pbd.org/
+BugReports: RBigDataProgramming on Google Group
+MailingList: Please send questions and comments regarding pbdR to
+        RBigData@gmail.com
+Packaged: 2013-02-23 15:40:35 UTC; pragnesh
+Author: Pragneshkumar Patel [aut, cre], George Ostrouchov [aut],
+        Wei-Chen Chen [aut], Drew Schmidt [aut], David Pierce [aut]
+Maintainer: Pragneshkumar Patel <pragnesh@utk.edu>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-24 08:59:23

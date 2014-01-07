@@ -1,0 +1,19 @@
+Package: FourierDescriptors
+Type: Package
+Title: Generate images using Fourier descriptors.
+Version: 0.1-1
+Date: 2010-09-04
+Author: John Myles White
+Maintainer: John Myles White <jmw@johnmyleswhite.com>
+Description: The FourierDescriptors package provides methods for
+        creating, manipulating and visualizing Fourier descriptors, a
+        representational scheme used to describe closer planar
+        contours. The images most easily described using Fourier
+        descriptors are useful as stimuli for experiments in psychology
+        and neuroscience.
+License: Artistic-2.0
+LazyLoad: yes
+Depends: ggplot2
+Packaged: 2010-09-04 15:58:04 UTC; johnmyleswhite
+Repository: CRAN
+Date/Publication: 2010-09-05 06:46:27

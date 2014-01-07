@@ -1,0 +1,16 @@
+Package: icaOcularCorrection
+Type: Package
+Title: Independent Components Analysis (ICA) based artifact correction.
+Version: 3.0.0
+Date: 2013-07-12
+Depends: fastICA, mgcv
+Author: Antoine Tremblay, NeuroCognitive Imaging Lab, Dalhousie University
+Maintainer: Antoine Tremblay <trea26@gmail.com>
+Description: Removes eye-movement and other types of known (i.e., recorded) or unknown (i.e., not recorded) artifacts using the fastICA package. The correction method proposed in this package is largely based on the method described in on Flexer, Bauer, Pripfl, and Dorffner (2005). The process of correcting electro- and magneto-encephalographic data (EEG/MEG) begins by running function ``icac'', which first performs independent components analysis (ICA) to decompose the data frame into independent components (ICs) using function ``fastICA'' from the package of the same name. It then calculates for each trial the correlation between each IC and each one of the noise signals -- there can be one or more, e.g., vertical and horizontal electro-oculograms (VEOG and HEOG), electro-myograms (EMG), electro-cardiograms (ECG), galvanic skin responses (GSR), and other noise signals. Subsequently, portions of an IC corresponding to trials at which the correlation between it and a noise signal was at or above threshold (set to 0.4 by default; Flexer et al., 2005, p. 1001) are zeroed-out in the source matrix, ``S''. The user can then identify which ICs correlate with the noise signals the most by looking at the summary of the ``icac'' object (using function ``summary.icac''), the scalp topography of the ICs (using function ``topo_ic''), the time courses of the ICs (using functions ``plot_tric'' and ``plot_nic''), and other diagnostic plots. Once these ICs have been identified, they can be completely zeroed-out using function ``update.icac'' and the resulting correction checked using functions ``plot_avgba'' and ``plot_trba''. Some worked-out examples with R code are provided in the package vignette.
+Suggests: wavethresh
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-07-12 15:48:11 UTC; antoine
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-12 18:51:58

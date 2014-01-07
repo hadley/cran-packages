@@ -1,0 +1,18 @@
+Package: BCEA
+Type: Package
+Title: Bayesian Cost Effectiveness Analysis
+Version: 1.3-0
+Date: 2013-07-03
+Author: Gianluca Baio, Andrea Berardi
+Maintainer: Gianluca Baio <gianluca@stats.ucl.ac.uk>
+Suggests: MASS, ggplot2, grid
+Description: Produces an economic evaluation of a Bayesian model in the
+        form of MCMC simulations. Given suitable variables of cost and
+        effectiveness / utility for two or more interventions, BCEA
+        computes the most cost-effective alternative and produces
+        graphical summaries and probabilistic sensitivity analysis
+License: GPL (>= 2)
+Packaged: 2013-07-03 15:42:30 UTC; gianluca
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-03 17:55:02

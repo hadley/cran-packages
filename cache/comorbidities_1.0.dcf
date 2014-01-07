@@ -1,0 +1,21 @@
+Package: comorbidities
+Type: Package
+Title: Categorizes ICD-9-CM codes based on published comorbidity
+        indices
+Version: 1.0
+Date: 2011-10-02
+Author: Paul Gerrard
+Maintainer: Paul Gerrard <pbgerrard@partners.org>
+Description: Methods to categorize ICD-9-CM codes into sensible disease
+        categories have been developed and published by numerous
+        authors.  Two of the most widely used such methods are the Deyo
+        adaptation of the Charlson index and the Elixhauser index.
+        This package has functions to categorize comorbidites into the
+        Deyo-Charlson index, the original Elixhauser index of 30
+        comorbidities, and the AHRQ comorbidity index of 29 diagnoses
+        (an update to the original Elixhauser method).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:26 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:26

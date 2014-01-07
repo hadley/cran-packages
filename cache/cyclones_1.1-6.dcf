@@ -1,0 +1,12 @@
+Package: cyclones
+Version: 1.1-6
+Date: February 10 2006
+Title: Cyclone identification
+Author: Rasmus E. Benestad <rasmus.benestad@met.no>
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: ncdf, akima, clim.pact, R (>= 2.1.1)
+Description: Functions for locating local minima/maxima
+License: GPL version 2 or newer. The use should be acknowledged in publication acknowledgement: .. "results were obtained using cyclones by Benestad (The Norwegian Meteorological Institute and the Norwegian Research Council's RegClim programme)."
+URL: http://www.r-project.org http://cran.r-project.org
+ZipData: no 
+Packaged: Fri Feb 10 07:43:32 2006; rasmusb

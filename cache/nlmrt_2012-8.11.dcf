@@ -1,0 +1,23 @@
+Package: nlmrt
+Type: Package
+Title: Functions for nonlinear least squares solutions
+Version: 2012-8.11
+Date: 2012-08-11
+Author: John C. Nash
+Maintainer: <nashjc@uottawa.ca>
+Description: nlmrt provides tools for working with nonlinear least
+        squares problems using a calling structure similar to, but much
+        simpler than, that of the nls() function. Moreover, where nls()
+        specifically does NOT deal with small or zero residual
+        problems, nlmrt is quite happy to solve them. It also attempts
+        to be more robust in finding solutions, thereby avoiding
+        'singular gradient' messages that arise in the Gauss-Newton
+        method within nls(). The Marquardt-Nash approach in nlmrt
+        generally works more reliably to get a solution, though this
+        may be one of a set of possibilities, and may also be
+        statistically unsatisfactory.
+License: GPL-2
+Depends: minpack.lm, optimx, Rvmmin, Rcgmin
+Packaged: 2012-08-11 21:46:30 UTC; john
+Repository: CRAN
+Date/Publication: 2012-08-12 15:24:51

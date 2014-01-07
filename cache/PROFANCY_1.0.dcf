@@ -1,0 +1,23 @@
+Package: PROFANCY
+Version: 1.0
+Title: The package can prioritize candidate disease metabolites based
+        on global functional relationships between metabolites in the
+        context of metabolic pathways
+Author: Qianlan Yao, Desi Shang, Chunquan Li
+Maintainer: Qianlan Yao <yaoqianlan@yahoo.com>
+Description: The package can prioritize the candidate disease metabolites based on the assumption 
+       that functionally related metabolites tend to associate with the same or similar 
+       diseases in the context of metabolic pathway. The PROFANCY package (1) prioritizes the 
+       disease metabolites from global functional similarity and local modularity of the 
+       metabolic network; (2) allows users to select default metabolites or input their 
+       interested metabolites as seed nodes or candidate nodes (3) can prioritize the candidate 
+       metabolites in KEGG or EHMN metabolic network. 
+Depends: R (>= 2.15.2),Matrix,lattice,igraph
+Collate: getTopDiseaseMetaboliteList.R
+LazyData: Yes
+License: GPL (>= 2)
+biocViews: Disease Metabolites,Network,RandomWalk;
+Packaged: 2013-07-12 06:05:31 UTC; Administrator
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-12 08:58:53

@@ -1,0 +1,20 @@
+Package: fdrtool
+Version: 1.1.4
+Date: 2007-07-06
+Title: Estimation and Control of (Local) False Discovery Rates
+Author: Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.2.1), locfdr (>=  1.1-4)
+Suggests: 
+Description: This package allows to estimate both tail area-based false 
+   discovery rates (Fdr) as well as local false discovery rates (fdr) for a 
+   variety of null models (p-values, z-scores, correlation coeficients,
+   t-statistics).  The proportion of null values and the parameters of the null 
+   distribution are adaptively estimated from the data.  In addition, the package 
+   contains functions for non-parametric density estimation (Grenander estimator), 
+   for monotone regression (isotonic regression and antitonic regression with weights),
+   for computing the greatest convex minorant (GCM) and the least concave majorant (LCM), 
+   and for the half-normal and correlation distributions.
+License: GPL version 2 or newer
+URL: http://strimmerlab.org/software/fdrtool/
+Packaged: Fri Jul  6 14:48:05 2007; strimmer

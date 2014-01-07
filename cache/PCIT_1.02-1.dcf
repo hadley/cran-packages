@@ -1,0 +1,23 @@
+Package: PCIT
+Version: 1.02-1
+Date: 2009-11-05
+Title: PCIT algorithm - Partial Correlation Coefficient with
+        Information Theory
+Author: Nathan S. Watson-Haigh
+Maintainer: Nathan S. Watson-Haigh <nathan.watson-haigh@csiro.au>
+Description: This package provides the necessary functions for
+        performing the Partial Correlation coefficient with Information
+        Theory (PCIT) algorithm developed by Reverter and Chan (2008).
+        The PCIT algorithm identifies meaningful correlations to define
+        edges in a weighted network. The algorithm can be applied to
+        any correlation-based network including but not limited to gene
+        co-expression networks.
+Type: Package
+License: GPL-3
+Suggests: Rmpi
+URL: http://www.csiro.au/people/Nathan.Watson-Haigh.html
+        http://dx.doi.org/10.1093/bioinformatics/btn482
+LazyLoad: yes
+Packaged: 2009-11-05 06:37:38 UTC; WAT410
+Repository: CRAN
+Date/Publication: 2009-11-05 12:34:16

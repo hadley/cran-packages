@@ -1,0 +1,14 @@
+Package: pendensity
+Type: Package
+Title: Density Estimation with a Penalized Mixture Approach
+Version: 0.2.1
+Date: 2010-02-10
+Depends: R (>= 2.8.1), lattice, fda, mgcv
+Author: Christian Schellhase <cschellhase@wiwi.uni-bielefeld.de>
+Maintainer: Christian Schellhase <cschellhase@wiwi.uni-bielefeld.de>
+Description: Estimating penalized (conditional) densities
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-02-10 20:16:11 UTC; cschellhase
+Repository: CRAN
+Date/Publication: 2010-02-11 08:45:30

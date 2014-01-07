@@ -1,0 +1,19 @@
+Package: RankAggreg
+Type: Package
+Title: Weighted rank aggregation
+Version: 0.4-1
+Date: 2010-03-30
+Author: Vasyl Pihur <vpihur@gmail.com>, Somnath Datta
+        <somnath.datta@louisville.edu>, Susmita Datta
+        <susmita.datta@louisville.edu>
+Maintainer: Vasyl Pihur <vpihur@gmail.com>
+Depends: R (>= 2.4.0), gtools
+Suggests: clValid, tcltk
+Description: This package performs aggregation of ordered lists based
+        on the ranks using several different algorithms: Borda count,
+        Cross-Entropy Monte Carlo algorithm, Genetic algorithm, and a
+        brute force algorithm (for small problems)
+License: LGPL
+Packaged: 2010-03-30 15:18:38 UTC; vpihur
+Repository: CRAN
+Date/Publication: 2010-04-03 07:59:07

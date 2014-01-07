@@ -1,0 +1,15 @@
+Package: DSpat
+Type: Package
+Title: Spatial modelling for distance sampling data
+Version: 0.1.1
+Date: 2011-05-10
+Author: Devin Johnson, Jeff Laake, Jay VerHoef
+Maintainer: Jeff Laake <Jeff.Laake@noaa.gov>
+Description: Provides functions for fitting spatial models to line
+        transect sampling data and to estimate abundance within a
+        region.
+Depends: R (>= 2.0.0), spatstat, RandomFields, gpclib, mgcv
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:56:55 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:56:55

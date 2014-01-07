@@ -1,0 +1,33 @@
+Package: MetaPath
+Type: Package
+Title: Perform the Meta-Analysis for Pathway Enrichment analysis
+        (MAPE).
+Version: 0.9
+Date: 2011-05-20
+Author: Kui Shen and Geroge Tseng
+Maintainer: Kui Shen <kuishen@alumni.pitt.edu>
+Depends: R(>=
+        2.13.0),Biobase,AnnotationDbi,genefilter,GSEABase,limma,impute,qvalue
+Description: This R package was implemented to perform the
+        Meta-analysis for Pathway Enrichment (MAPE) methods introduced
+        by Shen and Tseng (2010). It includes functions to
+        automatically perform MAPE_G (integrating multiple studies at
+        gene level), MAPE_P (integrating multiple studies at pathway
+        level) and MAPE_I (a hybrid method integrating MAEP_G and
+        MAPE_P methods). In the simulation and real data analyses in
+        the paper, MAPE_G and MAPE_P have complementary advantages and
+        detection power depending on the data structure. In general,
+        the integrative form of MAPE_I is recommended to use. In the
+        case that MAPE_G (or MAPE_P) detects almost none pathway, the
+        integrative MAPE_I does not improve performance and MAPE_P (or
+        MAPE_G) should be used. Reference: Shen, Kui, and George C
+        Tseng. Meta-analysis for pathway enrichment analysis when
+        combining multiple microarray studies.Bioinformatics (Oxford,
+        England) 26, no. 10 (April 2010): 1316-1323.
+        doi:10.1093/bioinformatics/btq148.
+        http://www.ncbi.nlm.nih.gov/pubmed/20410053.
+License: GPL (>= 2.0)
+LazyLoad: yes
+Packaged: 2012-05-22 19:18:14 UTC; kshen
+Repository: CRAN
+Date/Publication: 2012-05-23 07:37:18

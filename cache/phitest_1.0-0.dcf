@@ -1,0 +1,25 @@
+Package: phitest
+Title: Nonparametric goodness-of-fit methods based on phi-divergences
+Version: 1.0-0
+Author: Leah R. Jager <jager@usna.edu>
+Description: This package perform a generalized goodness-of-fit test
+        based on phi-divergences.  This test works by considering the
+        maximum 'distance' between the hypothesized distribution
+        function and the empirical distribution function, where the
+        measure of 'distance' is based on a phi-divergence.  This
+        generalized family of tests is indexed by a real-valued
+        parameter, s, wich can take values in [-1,2].  Special cases of
+        this family include the Berk-Jones statistic (s=0), the
+        supremum form of the Anderson-Darling statistic (s=2), and the
+        statistic of Jaescke and Eicker (s=-1).  See the references for
+        the phi.test() function for references regarding these special
+        cases.  In addition to performing a statistical test, this
+        package will also invert the test statistic to form and plot
+        confidence bands for the true distribution function for sample
+        sizes up to 10,000.
+Maintainer: Leah R. Jager <jager@usna.edu>
+Depends: R (>= 2.7.0)
+License: GPL
+Packaged: Tue Aug 10 13:14:10 2010; jager
+Repository: CRAN
+Date/Publication: 2010-08-10 19:01:23

@@ -1,0 +1,27 @@
+Package: varcompci
+Type: Package
+Title: VARCOMPCI: A Package for Computation of Confidence Intervals for
+        Variance Components of Mixed Models in R.
+Version: 1.0
+Date: 2011-02-14
+Author: Civit, S., Vilardell, M., Hess, A., Matthew, Z., Ge, Y.,
+        Caballe, A.
+Maintainer: Sergi Civit <svives@ub.edu>
+Description: This package compute confidence intervals on individual
+        variances for any balanced mixed model, involving five or fewer
+        factors according to Burdick and Graybill (1992) methodology.
+        The package would fit a saturated model to the data (main
+        effect and interaction terms of all orders) providing an ANOVA
+        model with Expected Mean Squares (type III). The output will
+        include: a table showing the confidence interval (CI) and
+        estimate of each covariance parameter, as well as the method
+        used to compute the CI, the Expected Mean Square, an ANOVA
+        table showing the degrees of freedom (df), sums of squares
+        (SS), mean squares (MS), F statistic, and finally AIC and BIC
+        measures.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods
+Packaged: 2011-02-14 15:26:39 UTC; svives
+Repository: CRAN
+Date/Publication: 2011-02-14 17:47:00

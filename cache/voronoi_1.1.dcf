@@ -1,0 +1,14 @@
+Package: voronoi
+Type: Package
+Title: Methods and applications related to Voronoi tessellations
+Version: 1.1
+Date: 2011-08-08
+Author: Christopher D. Barr, Travis A. Gerke, David M. Diez
+Maintainer: Christopher D. Barr <cdbarr@gmail.com>
+Description: Methods and applications related to Voronoi tessellations
+License: GPL-3
+Depends: R (>= 2.11.1), deldir, spatialkernel, splancs, gpclib
+LazyLoad: yes
+Packaged: 2011-08-08 13:57:06 UTC; ddiez
+Repository: CRAN
+Date/Publication: 2011-08-08 15:46:13

@@ -1,0 +1,13 @@
+Package: asuR
+Type: Package
+Title: Advanced statistics using R
+Version: 0.08-24
+Date: 2007-06-01
+Author: Thomas Fabbro <thomas.fabbro@unibas.ch>
+Maintainer: Thomas Fabbro <thomas.fabbro@unibas.ch>
+Description: Functions and data sets for a lecture in Advanced Statistics using R. Especially the functions mancontr() and inspect() may be of general interest. With mancontr(), short for manual contrasts, it is possible to specify your own contrasts and give them useful names. Something that is important in most projects of reasonable size. The function inspect() shows a wide range of inspection plots to validate model assumptions (currently for models fitted with lm, glm, and lmer). And do not forget to have a look at norm.test(), it is not only fun!
+Depends: MASS, lattice, grid, methods, lme4
+Suggests: car
+License: GPL version 2 or newer
+URL: http://www.evolution.unibas.ch/teaching/r_course/asuR.htm
+Packaged: Fri Jun  1 16:13:13 2007; thomasfabbro

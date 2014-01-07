@@ -1,0 +1,14 @@
+Package: SemiParBIVProbit
+Version: 1.0-1
+Depends: VGAM, trust, mgcv, mvtnorm
+Author: Giampiero Marra <giampiero@stats.ucl.ac.uk> and Rosalba Radice
+        <rosalba.radice@lshtm.ac.uk>
+Maintainer: Giampiero Marra <giampiero@stats.ucl.ac.uk>
+Title: Semiparametric Bivariate Probit Modelling
+Description: Routine for bivariate probit modelling with linear
+        predictors specified using parametric and nonparametric
+        components.
+License: GPL (>= 2)
+Date/Publication: 2011-03-17 16:35:11
+Packaged: 2011-03-17 16:04:37 UTC; giampiero
+Repository: CRAN

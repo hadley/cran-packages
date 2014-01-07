@@ -1,0 +1,15 @@
+Package: nws
+Title: R functions for NetWorkSpaces and Sleigh
+Version: 1.7.0.0
+Author: REvolution Computing <nws-support@revolution-computing.com>
+        with support and contributions from Pfizer, Inc.
+Description: Provides coordination and parallel execution
+        facilities, as well as limited cross-language data exchange,
+        using the netWorkSpaces server developed by REvolution
+        Computing
+Maintainer: REvolution Computing <nws-support@revolution-computing.com>
+License: GPL Version 2 or later.
+Depends: R (>= 2.1), methods
+LazyLoad: yes
+URL: http://nws-r.sourceforge.net/
+Packaged: Fri Aug  8 10:48:08 2008; steve

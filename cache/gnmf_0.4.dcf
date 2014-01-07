@@ -1,0 +1,18 @@
+Package: gnmf
+Type: Package
+Title: Generalized Non-negative Matrix Factorization
+Version: 0.4
+Date: 2012-06-03
+Author: Jose M. Maisog, Guoli Wang, Karthik Devarajan
+Maintainer: Jose M. Maisog <bravas02@gmail.com>
+Description: This library performs a generalized non-negative matrix
+        factorization.
+License: GPL-2
+LazyLoad: yes
+URL: http://devarajan.fccc.edu
+Repository: CRAN
+Repository/R-Forge/Project: gnmf
+Repository/R-Forge/Revision: 3
+Packaged: 2012-06-10 22:15:07 UTC; rforge
+Depends: R (>= 2.10)
+Date/Publication: 2012-06-12 06:36:57

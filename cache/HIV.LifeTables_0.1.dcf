@@ -1,0 +1,17 @@
+Package: HIV.LifeTables
+Type: Package
+Title: HIV calibrated model life tables for countries with generalized
+        HIV epidemics
+Version: 0.1
+Date: 2012-12-04
+Author: David J Sharrow
+Maintainer: Dave Sharrow <dsharrow@uw.edu>
+Description: The functions in this package produce a complete set of mortality rates as a function of a combination of HIV prevalence and either life expectancy at birth (e0), child mortality (5q0), or child mortality with adult mortality (45q15)  
+License: Unlimited
+LazyData: yes
+LazyLoad: yes
+Packaged: 2013-12-12 21:33:31 UTC; davesharrow
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-13 00:12:41

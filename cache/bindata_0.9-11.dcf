@@ -1,0 +1,11 @@
+Package: bindata
+Version: 0.9-11
+Date: 2004-09-15
+Title: Generation of Artificial Binary Data
+Author: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at> and
+	Andreas Weingessel <Andreas.Weingessel@ci.tuwien.ac.at>
+Maintainer: Friedrich Leisch <Friedrich.Leisch@ci.tuwien.ac.at>
+Description: Generation of correlated artificial binary data.
+License: GPL version 2
+Depends: R (>= 2.0.0), e1071, mvtnorm
+Packaged: Wed Sep 15 14:28:58 2004; hornik

@@ -1,0 +1,23 @@
+Package: OptionsPdf
+Type: Package
+Title: This package estimates a mix of lognormal distributions from
+        interest-rate option data.
+Version: 0.9
+Date: 2012-02-02
+Author: Paolo Zagaglia
+Maintainer: Paolo Zagaglia <paolo.zagaglia@gmail.com>
+Depends: R (>= 2.14.1), matlab
+Description: This package provides the estimation of implied
+        probability density functions (pdf) from options data. The
+        pdf's take the form of a mix of lognormal distributions. The
+        methods used in the routines are discussed in the paper:
+        Soderlind, P., and L. E. O. Svensson (1997), "New Techniques to
+        Extract Market Expectations from Financial Instruments",
+        Journal of Monetary Economics, 40, 383-429.  The user should
+        kindly notice that this package is the R port of the Matlab
+        routines originally distributed by P. Soderlind, and freely
+        available from: http://home.datacomm.ch/paulsoderlind/
+License: GPL-3
+Packaged: 2012-02-04 02:55:48 UTC; Paolo Zagaglia
+Repository: CRAN
+Date/Publication: 2012-02-04 08:39:43

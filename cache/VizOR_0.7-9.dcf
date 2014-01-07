@@ -1,0 +1,29 @@
+Package: VizOR
+Type: Package
+Title: Graphical visualization tools for complex observational data
+        with focus on health sciences (VizOR)
+Version: 0.7-9
+Date: 2013-11-14
+Authors@R: c(person(given=c("Drew", "Griffin"), family="Levy",
+    role = "aut",
+    email = "levy.drew@gene.com"),
+    person(given=c("David", "C."), family="Norris",
+    role = c("aut","cre"),
+    email = "david@UnusualSolutionsThatWork.com"))
+Maintainer: David C. Norris <david@UnusualSolutionsThatWork.com>
+Copyright: 2010,2011,2012,2013 Genentech, Inc.
+Description: Provides individual- and aggregate-level graphical depictions of
+    patterns of treatment and response in patient registries, and a graphical
+    tool for examining potential for confounding in analyses of observational
+    data.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: lattice, grid,
+Imports: rms
+Suggests: rpanel
+Packaged: 2013-11-14 18:46:03 UTC; david
+Author: Drew Griffin Levy [aut],
+  David C. Norris [aut, cre]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-15 00:41:22

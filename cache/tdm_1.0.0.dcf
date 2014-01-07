@@ -1,0 +1,18 @@
+Package: tdm
+Title: TDM - A Tool for Therapeutic Drug Monitoring
+Version: 1.0.0
+Date: 2006-11-1
+Author: Miou-Ting Chen <Taistruby@gmail.com.tw>, Yung-Jin Lee
+Description: TDM can be used to estimate individual pharmacokinetic 
+             parameters with one or more drug serum/plasma concentra-
+             tions obtained from a single subject or multiple subjects
+             using OpenBUGS (Bayesian inference Using Gibbs Sampling)
+             interfaced through BRugs. Besides, it also can calculate
+             a suggested dose with the target drug concentration (C ->D)
+             or calculate a predicted drug concentration with a given 
+             dose (D -> C).
+Maintainer: Miou-Ting Chen <Taistruby@gmail.com.tw>
+Depends: R (>= 2.0.0), BRugs
+SystemRequirements: currently the only supported OS is Windows
+License: GPL version 2 or newer
+Packaged: Wed Nov  1 22:47:45 2006; miau

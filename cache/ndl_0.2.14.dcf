@@ -1,0 +1,16 @@
+Package: ndl
+Type: Package
+Title: Naive Discriminative Learning
+Version: 0.2.14
+Date: 2013-11-11
+Author: Cyrus Shaoul, Antti Arppe, Peter Hendrix, Petar Milin, and R. Harald Baayen.
+Maintainer: Cyrus Shaoul <cyrus.shaoul@uni-tuebingen.de>
+Description: Naive discriminative learning implements learning and classification models based on the Rescorla-Wagner equations and their equilibrium equations.
+License: GPL-3
+Depends: R (>= 3.0.0), MASS, Rcpp (>= 0.10.6)
+Suggests: Hmisc
+LinkingTo: Rcpp
+Packaged: 2013-11-11 14:53:33 UTC; cyrus
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-12 09:47:58

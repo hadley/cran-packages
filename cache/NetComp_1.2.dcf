@@ -1,0 +1,20 @@
+Package: NetComp
+Version: 1.2
+Date: 2012-1-26
+Title: Network Generation and Comparison
+Author: Shannon M. Bell <bell.shannonm@gmail.com>
+Maintainer: Shannon M. Bell <bell.shannonm@gmail.com>
+Depends: R (>= 2.12.1)
+Imports: igraph
+LazyLoad: yes
+Description: This package contains functions to carry out analyse high
+        throughput data analysis and to conduct dataset comparisons.
+        Similarity matrices from high thoughput phenotypic data
+        containing uninformative (e.g. wildtype) or missing data can be
+        calculated to report similarity of response.  A suite of graph
+        comparisons using an adjacency or correlation matrix format are
+        included to facilitate quick network analysis.
+License: GPL (>= 3)
+Packaged: 2012-01-26 18:31:06 UTC; shannon
+Repository: CRAN
+Date/Publication: 2012-01-27 11:27:42

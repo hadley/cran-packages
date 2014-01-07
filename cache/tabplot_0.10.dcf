@@ -1,0 +1,24 @@
+Package: tabplot
+Maintainer: Martijn Tennekes <mtennekes@gmail.com>
+License: GPL-3
+Title: Tableplot, a visualization of large statistical datasets
+Type: Package
+LazyLoad: yes
+Author: Martijn Tennekes and Edwin de Jonge
+Description: A tableplot is a visualisation of a (large) statistical
+        dataset with a dozen of variables, both both numeric and
+        categorical. Each column represents a variable and each row bin
+        is an aggregate of a certain number of records. Numeric
+        variables are visualized as bar charts, and categorical
+        variables as stacked bar charts. Missing values are taken into
+        account. A GUI has been implemented which is used to easily
+        customize the tableplot. Also supports large ffdf datasets from
+        the ff package.
+Version: 0.10
+URL: http://code.google.com/p/tableplot/
+Date: 2011-05-30
+Depends: data.table, grid, RColorBrewer
+Suggests: ff (>= 2.2-0), gWidgets, gWidgetsRGtk2, classInt, ggplot2
+Packaged: 2011-07-29 13:25:21 UTC; mtes
+Repository: CRAN
+Date/Publication: 2011-07-29 14:32:13

@@ -1,0 +1,27 @@
+Package: Meth27QC
+Type: Package
+Title: Meth27QC: sample quality analysis, and sample control analysis
+Version: 1.1
+Date: 2010-12-25
+Author: Ling Teng, Chao Chen, Chunyu Liu
+Maintainer: Ling Teng <tenglingling@gmail.com>
+Description: Meth27QC is a tool for analyzing Illumina Infinium
+        HumanMethylation27 BeadChip Data and generating QC reports.
+        This package allows users quickly assess data quality of the
+        Assay. Users can evaluate the data quality in the way that
+        Illumina GenomeStudio/BeadStudio recommended based on the
+        control probes. The package reads files exported from
+        GenomeStudio/BeadStudio software, generating intensity and
+        standard deviation plots grouped by the types of the control
+        probes. Meth27 carries 40 control probes for staining,
+        hybridization, target removal, extension, bisulfite conversion,
+        specificity, negative and non-polymorphic controls. Details of
+        those control probes can be found in the Infinium Assay for
+        Methylation Protocol Guide from Illumina.We also used the other
+        non-control probes to plot intensity of detected genes, signal
+        average for green and red. Outliers can be identified.
+Depends: gplots,tcltk
+License: GPL-2
+Packaged: 2011-02-16 19:10:39 UTC; happyfamily
+Repository: CRAN
+Date/Publication: 2011-02-18 07:26:56

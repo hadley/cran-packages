@@ -1,0 +1,15 @@
+Package: imputation
+Type: Package
+Title: imputation
+Version: 1.3
+Date: 2011-06-18
+Author: Jeffrey Wong
+Maintainer: <jeff.ct.wong@stanford.edu>
+Description: Fill missing values in a data matrix using SVD, SVT, or
+        kNN imputation.  Performance improvements to be released by
+        version 1.4.
+License: GPL
+LazyLoad: yes
+Packaged: 2011-06-18 21:49:00 UTC; jeffrey
+Repository: CRAN
+Date/Publication: 2011-06-19 06:36:42

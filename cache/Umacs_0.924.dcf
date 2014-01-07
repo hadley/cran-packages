@@ -1,0 +1,12 @@
+Package: Umacs
+Title: Universal Markov chain sampler
+Version: 0.924
+Date: 2007/10/10
+Author: Jouni Kerman <jouni@kerman.com>
+Maintainer: Jouni Kerman <jouni@kerman.com>
+Description: Universal Markov Chain Sampler
+Namespace: Umacs
+Suggests: rv, R2WinBUGS
+Depends: R(>= 2.5.1), methods, utils
+License: GPL-2
+Packaged: Tue Oct  9 22:42:31 2007; jkerman

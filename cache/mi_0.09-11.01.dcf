@@ -1,0 +1,16 @@
+Package: mi
+Version: 0.09-11.01
+Date: 2010-10-19
+Title: Missing Data Imputation and Model Checking
+Author: Andrew Gelman <gelman@stat.columbia.edu>, Jennifer Hill
+        <jh1030@columbia.edu>, Yu-Sung Su <ys463@columbia.edu>, Masanao
+        Yajima <my2167@columbia.edu>, Maria Grazia Pittau
+        <grazia@stat.columbia.edu>
+Maintainer: Yu-Sung Su <ys463@columbia.edu>
+Depends: methods, MASS, nnet, car, arm, Matrix, lme4, R2WinBUGS, abind
+Description: Missing-data imputation and model checking
+URL: http://www.stat.columbia.edu/~gelman/
+License: GPL (>= 2)
+Packaged: 2010-10-18 16:28:23 UTC; yusung
+Repository: CRAN
+Date/Publication: 2010-10-18 19:10:12

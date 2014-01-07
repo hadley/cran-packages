@@ -1,0 +1,15 @@
+Package: em2
+Type: Package
+Title: A package for computing reading time measures for
+        psycholinguistics.
+Version: 0.9
+Author: Pavel Logacev <pavel.logacev@gmail.com>, Shravan Vasishth <vasishth@acm.org>
+Description: em2 provides easy-to-use and fast functions for computing reading time measures used in psycholinguistic research based on eye tracking data.
+Maintainer: Pavel Logacev <pavel.logacev@gmail.com>
+Depends: R (>= 2.0.0), plyr
+License: GPL-3
+URL:
+Packaged: 2013-08-11 17:21:19 UTC; pavel
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-11 19:37:16

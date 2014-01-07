@@ -1,0 +1,16 @@
+Package: mixture
+Type: Package
+Title: Mixture Models for Clustering and Classification
+Version: 1.0
+Date: 2013-03-08
+Author: Ryan P. Browne and Paul D. McNicholas
+Maintainer: Ryan Browne <rbrowne@uoguelph.ca>
+Description: An implementation of all 14 Gaussian parsimonious
+        clustering models (GPCMs) for model-based clustering and
+        model-based classification.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-03-09 13:52:08 UTC; ryanbrowne
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-09 16:32:45

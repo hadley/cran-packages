@@ -1,0 +1,29 @@
+Package: rtiff
+Type: Package
+Title: A tiff reader for R.
+Version: 1.4.3
+Date: 2010-01-30
+Depends: pixmap
+Author: Eric Kort
+Maintainer: ORPHANED
+SystemRequirements: libtiff
+Description: This package will read and write TIFF format images and
+        return them as a pixmap object. Because the resulting object
+        can be very large for even modestly sized TIFF images, images
+        can be reduced as they are read for improved performance.  This
+        package is a wrapper around libtiff (www.libtiff.org), on which
+        it depends (i.e. the libtiff shared library must be on your
+        PATH for the binary to work, and tiffio.h must be on your
+        system to build the package from source). By using libtiff's
+        highlevel TIFFReadRGBAImage function, this package inherently
+        support a wide range of image formats and compression schemes.
+        This package also provides an implementation of the Ridler
+        Autothresholding algorithm for easy generation of binary masks.
+License: GPL-3 + file LICENSE
+Packaged: 2013-12-24 08:56:17 UTC; ripley
+Repository: CRAN
+Date/Publication: 2013-12-24 09:57:07
+X-CRAN-Original-Maintainer: Eric Kort <eric.kort@vai.org>
+X-CRAN-Comment: Orphaned on 2013-02-07 as maintainer addressed bounced.
+        Recent updates have been done by the CRAN team.
+NeedsCompilation: yes

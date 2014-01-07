@@ -1,0 +1,23 @@
+Package: ROptRegTS
+Version: 0.8
+Date: 2010-12-03
+Title: Optimally robust estimation for regression-type models
+Description: Optimally robust estimation for regression-type models
+        using S4 classes and methods
+Depends: R (>= 2.4.0), methods, distr(>= 1.9), distrEx(>= 1.9),
+        RandVar(>= 0.6), ROptEstOld(>= 0.5.2)
+Author: Matthias Kohl <Matthias.Kohl@stamats.de>, Peter Ruckdeschel
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+LazyLoad: yes
+License: LGPL-3
+Encoding: latin1
+URL: http://robast.r-forge.r-project.org/
+LastChangedDate: {$LastChangedDate: 2010-12-03 12:13:24 +0100 (Fri, 03
+        Dec 2010) $}
+LastChangedRevision: {$LastChangedRevision: 440 $}
+SVNRevision: 439
+Repository: CRAN
+Repository/R-Forge/Project: robast
+Repository/R-Forge/Revision: 445
+Date/Publication: 2011-01-21 08:49:48
+Packaged: 2011-01-05 21:44:54 UTC; rforge

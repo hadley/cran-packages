@@ -1,0 +1,16 @@
+Package: VIF
+Version: 0.5.1
+Date: 2009-08-18
+Title: VIF Regression: A Fast Regression Algorithm For Large Data
+Author: Dongyu Lin <dongyu@wharton.upenn.edu>
+Maintainer: Dongyu Lin <dongyu@wharton.upenn.edu>
+Description: This package implements a fast regression algorithm for
+        building linear model for large data as defined in the paper
+        "VIF-Regression: A Fast Regression Algorithm for Large Data
+        (2009)" by Dongyu Lin, Dean P. Foster and Lyle H. Ungar.
+License: GPL (>= 2)
+URL: http://stat.wharton.upenn.edu/~dongyu/Papers/VIF.pdf
+Repository: CRAN
+Date/Publication: 2011-02-18 19:17:43
+Packaged: 2011-02-16 08:01:37 UTC; ripley
+Depends: R (>= 2.10)

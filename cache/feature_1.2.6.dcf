@@ -1,0 +1,15 @@
+Package: feature
+Version: 1.2.6
+Date: 2011/01/04
+Title: Feature significance for multivariate kernel density estimation
+Author: Tarn Duong <tarn.duong@gmail.com> & Matt Wand <wand@uow.edu.au>
+Maintainer: Tarn Duong <tarn.duong@gmail.com>
+Depends: R (>= 1.4.0), KernSmooth, ks (>= 1.8.0), tcltk
+Suggests: MASS
+Description: Feature significance for multivariate kernel density
+        estimation
+License: GPL (>= 2)
+URL: http://www.mvstat.net/tduong
+Packaged: 2011-01-05 10:10:03 UTC; tduong
+Repository: CRAN
+Date/Publication: 2011-01-06 10:06:56

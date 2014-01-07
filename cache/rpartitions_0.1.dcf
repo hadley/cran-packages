@@ -1,0 +1,17 @@
+Package: rpartitions
+Title: Code for integer partitioning
+Description: Provides algorithims for randomly sampling a feasible set defined
+    by a given total and number of elements using integer partitioning.
+Version: 0.1
+Author: Ken Locey, Daniel McGlinn
+Maintainer: Daniel McGlinn <danmcglinn@gmail.com>
+Depends: R (>= 2.15.1), hash
+Suggests: testthat (>= 0.2)
+NeedsCompilation: yes
+Repository: CRAN
+URL: https://github.com/klocey/partitions
+License: MIT
+LazyData: true
+Collate: 'rpartitions.R' 'rpartitions-package.r'
+Packaged: 2013-12-11 04:02:10 UTC; adminwhite
+Date/Publication: 2013-12-11 07:34:59

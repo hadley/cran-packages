@@ -1,0 +1,17 @@
+Package: fork
+Title: R functions for handling multiple processes.
+Version: 1.2.1
+Date: 2007-03-24
+Author: Gregory R. Warnes <greg@random-technologies-llc.com>. Financial
+        support for some aspects of this package provided by Metrum
+        Research Group, LLC <http://www.metrumrg.com>.
+Description: These functions provides simple wrappers around the Unix
+        process management API calls: fork, signal, wait, waitpid,
+        kill, and _exit.  This enables construction of programs that
+        utilize and mange multiple concurrent processes.  Commercial
+        support for this package available from Random Technologies,
+        LLC <http://www.random-technologies-llc.com>
+Maintainer: Gregory R. Warnes <greg@random-technologies-llc.com>
+License: GPL-2
+Packaged: Tue Nov 27 12:12:57 2007; warnes
+OS_type: unix

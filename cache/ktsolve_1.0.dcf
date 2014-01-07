@@ -1,0 +1,21 @@
+Package: ktsolve
+Type: Package
+Title: Configurable function for solving families of nonlinear
+        equations
+Version: 1.0
+Date: 2013-08-29
+Author: Carl Witthoft
+Maintainer: Carl Witthoft, <carl@witthoft.com>
+Description: This function is designed for use with an arbitrary set of equations with
+ an arbitrary set of unknowns.
+ The user selects "fixed" values for enough unknowns to leave as many variables as
+ there are equations, which in most cases means the system is properly
+ defined and a unique solution exists. The function, the fixed values
+ and initial values for the remaining unknowns are fed to a nonlinear backsolver.  
+ The original version of "TK!Solver" was the inspiration for this function.
+License: LGPL-3
+Suggests: BB, nleqslv
+Packaged: 2013-09-11 22:18:21 UTC; cgw
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-12 16:14:05

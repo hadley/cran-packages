@@ -1,0 +1,18 @@
+Package: BayesValidate
+Version: 0.0
+Date: 2005-06-25
+Title: BayesValidate Package
+Author: Samantha Cook <cook@stat.columbia.edu>.
+Maintainer: Samantha Cook <cook@stat.columbia.edu>
+Depends: R (>= 2.0.1)
+Description: BayesValidate implements the software validation method
+        described in the paper "Validation of Software for Bayesian
+        Models using Posterior Quantiles" (Cook, Gelman, and Rubin,
+        2005).  It inputs a function to perform Bayesian inference as
+        well as functions to generate data from the Bayesian model
+        being fit, and repeatedly generates and analyzes data to check
+        that the Bayesian inference program works properly.
+License: GPL (>= 2)
+Packaged: Thu Mar 30 10:48:35 2006; hornik
+Repository: CRAN
+Date/Publication: 2006-03-30 09:22:53

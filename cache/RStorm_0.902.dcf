@@ -1,0 +1,14 @@
+Package: RStorm
+Type: Package
+Title: Simulate and Develop Streaming Processing in [R]
+Version: 0.902
+Date: 2013-07-26
+Author: Maurits Kaptein
+Maintainer: Maurits Kaptein <maurits@mauritskaptein.com>
+Description: While streaming processing provides opportunities to deal with extremely large and ever growing data sets in (near) real time, the development of streaming algorithms for complex models is often cumbersome: the software packages that facilitate streaming processing in production environments do not provide statisticians with the simulation, estimation, and plotting tools they are used to. Developers of streaming algorithms would thus benefit from the flexibility of [R] to create, plot and compute data while developing streaming algorithms. Package RStorm implements a streaming architecture modeled on Storm for easy development and testing of streaming algorithms in [R]. RStorm is not intended as a production package, but rather a development tool for streaming algorithms. 
+License: GPL-2
+Depends: plyr
+Packaged: 2013-08-27 06:11:02 UTC; mauritskate
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-28 12:25:31

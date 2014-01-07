@@ -1,0 +1,15 @@
+Package: rlme
+Type: Package
+Title: Rank-based Estimation and Prediction in Random Effects Nested
+        Models
+Version: 0.2
+Date: 2013-07-07
+Author: Yusuf Bilgic, Herb Susmann and Joseph McKean
+Maintainer: Yusuf Bilgic <bilgic@geneseo.edu>
+Description: Estimates robust rank-based fixed effects and predicts robust random effects in two- and three- level random effects nested models.
+License: GPL (>= 2)
+Imports: MASS, quantreg, nlme, mgcv, stringr, magic
+Packaged: 2013-07-21 21:47:57 UTC; ykb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-22 01:00:23

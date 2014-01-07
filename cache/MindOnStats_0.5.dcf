@@ -1,0 +1,15 @@
+Package: MindOnStats
+Type: Package
+Title: Data sets included in Utts and Heckard's Mind on Statistics
+Version: 0.5
+Date: 2011-05-03
+Author: Jonathan Godfrey
+Maintainer: Jonathan Godfrey <a.j.godfrey@massey.ac.nz>
+Description: 46 data sets that were imported using read.table() where
+        appropriate but more commonly after converting to a csv file
+        for importing via read.csv().
+License: GPL
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:19 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:19

@@ -1,0 +1,18 @@
+Package: tmg
+Type: Package
+Title: Truncated Multivariate Gaussian Sampling
+Version: 0.1
+Date: 2012-08-20
+Author: Ari Pakman
+Maintainer: Ari Pakman <ari@stat.columbia.edu>
+Description: Random number generation of truncated multivariate
+        Gaussian distributions using Hamiltonian Monte Carlo. The
+        truncation is defined using linear and/or quadratic
+        polynomials.
+License: GPL-2
+Depends: Rcpp (>= 0.9.13), RcppEigen (>= 0.3.0)
+LinkingTo: Rcpp, RcppEigen
+URL: http://arxiv.org/abs/1208.4118
+Packaged: 2012-08-22 19:32:44 UTC; aripakman
+Repository: CRAN
+Date/Publication: 2012-08-23 06:12:43

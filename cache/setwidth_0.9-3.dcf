@@ -1,0 +1,15 @@
+Package: setwidth
+Version: 0.9-3
+Date: 2011-12-01
+Title: Set the value of options("width") on terminal emulators
+Author: Jakson Aquino
+Maintainer: Jakson Alves de Aquino <jalvesaq@gmail.com>
+OS_type: unix
+Description: Automatically sets the value of options("width") when the
+   terminal emulator is resized. The functions of this package only work if R
+   is compiled for Unix systems and it is running interactively in a terminal
+   emulator.
+License: GPL (>= 2)
+Packaged: 2011-12-01 15:49:45 UTC; root
+Repository: CRAN
+Date/Publication: 2011-12-02 16:23:12

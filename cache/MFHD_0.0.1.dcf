@@ -1,0 +1,16 @@
+Package: MFHD
+Type: Package
+Title: Multivariate Functional Halfspace Depth
+Version: 0.0.1
+Date: 2013-02-13
+Depends: fda.usc
+Imports: deldir, depth, depthTools, matrixStats
+Description: Multivariate functional halfspace depth and median for two-dimensional functional data.
+License: GPL (>= 2)
+LazyLoad: yes
+Author: M. Hubert, K. Vakili.
+Maintainer: K. Vakili <kaveh.vakili@wis.kuleuven.be>
+Packaged: 2013-10-23 19:05:11 UTC; kaveh
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-23 23:50:20

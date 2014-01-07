@@ -1,0 +1,14 @@
+Package: ROracleUI
+Version: 1.2-0
+Date: 2010-09-10
+Title: Convenient Tools for Working with Oracle Databases
+Author: Arni Magnusson
+Maintainer: Arni Magnusson <arnima@hafro.is>
+Depends: DBI, ROracle
+SystemRequirements: Oracle client
+Description: Easy-to-use functions to explore Oracle databases and
+        import data into R. User interface for the ROracle package.
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2010-09-16 18:49:01
+Packaged: 2010-09-16 18:48:54 UTC; hornik

@@ -1,0 +1,17 @@
+Package: elec
+Type: Package
+Title: Collection of functions for statistical election audits
+Version: 0.1.2
+Date: 2010-06-01
+Author: Luke Miratrix
+Maintainer: Luke Mirarix <luke@vzvz.org>
+Description: This is a bizzare collection of functions written to do
+        various sorts of statistical election audits.  There are also
+        functions to generate simulated voting data, and simulated
+        "truth" so as to do simulations to check charactaristics of
+        these methods.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:37 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:37

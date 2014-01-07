@@ -1,0 +1,19 @@
+Package: ref
+Version: 0.98
+Date: 2012-08-05
+Title: References for R
+Author: Jens Oehlschlägel <jens.oehlschlaegel@truecluster.com>
+Maintainer: Jens Oehlschlägel <jens.oehlschlaegel@truecluster.com>
+Depends: R (>= 1.5.1)
+Description: small package with functions for creating references,
+        reading from and writing to references and a memory efficient
+        refdata type that transparently encapsulates matrices and
+        data.frames
+License: file LICENSE
+URL: http://CRAN.r-project.org
+Encoding: latin1
+Packaged: 2012-08-08 19:46:44 UTC; root
+Repository: CRAN
+Date/Publication: 2012-08-09 09:11:31
+NeedsCompilation: no
+License_restricts_use: yes

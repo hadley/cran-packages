@@ -1,0 +1,20 @@
+Package: quantchem
+Type: Package
+Title: Quantitative chemical analysis: calibration and evaluation of results
+Version: 0.1-1
+Date: 2005-09-11
+Depends: R (>= 2.0), MASS, outliers 
+Author: Lukasz Komsta
+Maintainer: Lukasz Komsta <luke@novum.am.lublin.pl>
+Description: Statistical evaluation of calibration curves
+ by different regression techniques: ordinary, weighted,
+ robust (up to 4th order polynomial).
+ Log-log and Box-Cox transform, estimation of
+ optimal power and weighting scheme. Tests for heteroscedascity
+ and normality of residuals. Different kinds of plots
+ commonly used in illustrating calibrations. Easy "inverse
+ prediction" of concentration by given responses
+ and statistical evaluation of results (comparison of
+ precision and accuracy by common tests).
+License: GPL
+Packaged: Sun Sep 11 21:28:56 2005; Lukke

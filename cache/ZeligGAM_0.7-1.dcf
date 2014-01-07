@@ -1,0 +1,24 @@
+Package: ZeligGAM
+License: GPL (>= 2)
+Maintainer: James Honaker <zelig-zee@iq.harvard.edu>
+Title: General Additive Models for Zelig
+Author: Matthew Owen, Skyler Cranmer, Olivia Lau, Kosuke Imai and Gary King
+Description: General Additive Models extend GLM's to support the application of
+    smoothing functions to the predictor terms.
+Version: 0.7-1
+URL: http://projects.iq.harvard.edu/zelig
+Date: 2013-09-23
+Depends: Zelig (>= 4.0-11), mgcv
+Collate: 'compute.ev.R' 'describe.logit.gam.R' 'describe.normal.gam.R'
+        'describe.poisson.gam.R' 'describe.probit.gam.R'
+        'model.frame.GamFormula.R' 'param.logit.gam.R'
+        'param.normal.gam.R' 'param.poisson.gam.R' 'param.probit.gam.R'
+        'plots.R' 'pv.R' 'qi.logit.gam.R' 'qi.normal.gam.R'
+        'qi.poisson.gam.R' 'qi.probit.gam.R' 'repeat.data.R'
+        'zelig2logit.gam.R' 'zelig2normal.gam.R' 'zelig2poisson.gam.R'
+        'zelig2probit.gam.R' 'ZeligGAM-package.R' 'common-methods.R'
+        'anova.zelig.R' 'logLik.zelig.R'
+Packaged: 2013-09-23 14:31:30 UTC; jhonaker
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-23 17:54:35

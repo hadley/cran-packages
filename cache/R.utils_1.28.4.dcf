@@ -1,0 +1,18 @@
+Package: R.utils
+Version: 1.28.4
+Depends: R (>= 2.5.0), R.oo (>= 1.15.8)
+Imports: utils, methods, R.methodsS3 (>= 1.5.2)
+Suggests: digest (>= 0.6.3)
+Date: 2013-11-20
+Title: Various programming utilities
+Authors@R: c(person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                          email = "henrikb@braju.com"))
+Author: Henrik Bengtsson [aut, cre, cph]
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Description: This package provides utility methods useful when programming and developing R packages.
+License: LGPL (>= 2.1)
+LazyLoad: TRUE
+Packaged: 2013-11-21 03:54:03 UTC; hb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-21 10:01:24

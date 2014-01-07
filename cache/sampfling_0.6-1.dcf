@@ -1,0 +1,13 @@
+Package: sampfling
+Version: 0.6-1
+Date: 2003-05-16
+Author: Carlos Enrique Carleos Artime <carleos@vodafone.es>
+Maintainer: Carlos Enrique Carleos Artime <carleos@vodafone.es>
+Depends: R (>= 1.5)
+Title: Sampford sampling (w/o replacement and unequal probabilities)
+Description: Implements a modified version of the Sampford sampling 
+  algorithm. Given a quantity assigned to each unit in the  
+  population, samples are drawn with probability proportional to te 
+  product of the quantities of the units included in the sample.
+License: GPL version 2 or later
+

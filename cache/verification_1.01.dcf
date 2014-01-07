@@ -1,0 +1,10 @@
+Package: verification
+Version: 1.01
+Date:  September 20, 2004 
+Title: Forecast verfication utilities.
+Author: NCAR- Research Application Program
+Maintainer: Matt Pocernich <pocernic@ucar.edu>
+Depends:  R (>= 1.9), fields, waveslim
+Description: This package contains utilities for verification of discrete and probablitic forecasts.
+License: GPL Version 2 or later.
+Packaged: Tue Sep 28 08:22:19 2004; pocernic

@@ -1,0 +1,22 @@
+Package: endogMNP
+Version: 0.2-1
+Date: 2010-03-30
+Title: R Package for Fitting Multinomial Probit Models with Endogenous
+        Selection
+Author: Lane F. Burgette <lb131@stat.duke.edu>
+Maintainer: Lane F. Burgette <lb131@stat.duke.edu>
+Depends: R (>= 2.1), utils
+Description: endogMNP is an R package that fits a Bayesian multinomial
+        probit model with endogenous selection, which is sometimes
+        called an endogenous switching model.  This can be used to
+        model discrete choice data when respondents select themselves
+        into one of several groups.  This package is based on the MNP
+        package by Kosuke Imai and David A. van Dyk.  This package
+        modifies their code.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://fds.duke.edu/db/aas/stat/faculty/lb131
+LazyLoad: yes
+Packaged: 2010-03-31 04:41:04 UTC; lburgette
+Repository: CRAN
+Date/Publication: 2010-04-02 17:08:05

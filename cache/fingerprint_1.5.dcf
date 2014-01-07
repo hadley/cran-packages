@@ -1,0 +1,16 @@
+Package: fingerprint
+Version: 1.5
+Date: 2006-01-13
+Title: Functions to operate on binary fingerprint data
+Author: Rajarshi Guha <rajarshi@presidency.com>
+Maintainer: Rajarshi Guha <rajarshi@presidency.com>
+Description: This package contains functions to manipulate binary fingerprints
+ of arbitrary length. A fingerprint is represented as a vector of integers, such
+ that each element represents the position in the fingerprint that is set to 1.
+ Basic operations such as logical AND, OR, NOT and XOR are supplied. Distance metrics are
+ also available. Fingerprints can be converted to Euclidean vectors (i.e., points
+ on the unit hypersphere)i and can also be folded using XOR.         
+ Now, arbitrary fingerprint formats can be handled via line handlers
+License: GPL
+URL: http://blue.chem.psu.edu/~rajarshi/code/R
+Packaged: Fri Sep 29 13:27:16 2006; hornik

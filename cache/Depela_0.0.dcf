@@ -1,0 +1,14 @@
+Package: Depela
+Version: 0.0
+Date: 2009-01-19
+Title: Depela
+Author: Andrew C. Chou <andrewchengchou@gmail.com>, Jing Tao
+        <amandajingtao@gmail.com>.
+Maintainer: Andrew C. Chou <andrewchengchou@gmail.com>
+Depends: stats, stats4, copula, R (>= 2.8.0)
+Description: Implement semiparametric estimation of copula model, and
+        deal with structural break problems in copula modelling.
+License: GPL (>= 2)
+Packaged: Mon Jan 19 10:13:00 2009; Zhou Cheng
+Repository: CRAN
+Date/Publication: 2009-01-20 07:41:57

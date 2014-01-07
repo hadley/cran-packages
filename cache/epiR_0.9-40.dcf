@@ -1,0 +1,22 @@
+Package: epiR
+Version: 0.9-40
+Date: 2012-04-05
+Title: An R package for the analysis of epidemiological data
+Author: Mark Stevenson <M.Stevenson@massey.ac.nz> with contributions
+        from Telmo Nunes, Javier Sanchez, Ron Thornton, Jeno Reiczigel,
+        Jim Robison-Cox and Paola Sebastiani
+Maintainer: Mark Stevenson <M.Stevenson@massey.ac.nz>
+Description: An R package for the analysis of epidemiological data.
+        Contains functions for directly and indirectly adjusting
+        measures of disease frequency, quantifying measures of
+        association on the basis of single or multiple strata of count
+        data presented in a contingency table, and computing confidence
+        intervals around incidence risk and incidence rate estimates.
+        Miscellaneous functions for use in meta-analysis, diagnostic
+        test interpretation, and sample size calculations.
+Depends: R (>= 2.14.0), survival
+License: GPL (>= 2)
+URL: http://epicentre.massey.ac.nz
+Packaged: 2012-04-05 05:16:38 UTC; mstevens
+Repository: CRAN
+Date/Publication: 2012-04-05 05:56:29

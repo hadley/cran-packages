@@ -1,0 +1,17 @@
+Package: aaMI
+Version: 1.0-0
+Date: 2005-06-21
+Title: Mutual information for protein sequence alignments
+Author: Kurt Wollenberg <kurt.wollenberg@gmail.com>
+Maintainer: Kurt Wollenberg <kurt.wollenberg@gmail.com>
+Depends: R (>= 2.0.0)
+Description: This package contains four functions. read.FASTA reads in a 
+     FASTA-format alignment file and parses it into a data frame. read.CX reads 
+     in a ClustalX .aln-format file and parses it into a data frame. read.Gdoc 
+     reads in a GeneDoc .msf-format file and parses it into a data frame. The 
+     alignment data frame returned by each of these functions has the sequence 
+     IDs as the row names and each site in the alignment is a column in the data 
+     frame. The program aaMI calculates the mutual information between each pair 
+     of sites (columns) in the protein sequence alignment data frame.
+License: GPL version 2 or newer
+Packaged: Fri Jun 24 11:43:01 2005; kwollenberg

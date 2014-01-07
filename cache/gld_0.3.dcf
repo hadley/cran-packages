@@ -1,0 +1,12 @@
+Package: gld
+Version: 0.3  
+Date: 2000/10/17
+Title: Basic functions for the generalised (Tukey) lambda distribution
+Author: Robert King <Robert.King@mailbox.gu.edu.au>
+Description: The generalised lambda distribution, or Tukey lambda distribution,
+	provides a wide variety of shapes with one functional form.  This 
+	package provides random numbers, quantiles, probabilities and densities.
+	Load this package, together with the drawdist package to draw pdfs 
+	and distribution functions for the gld.
+License: GPL version 2 or newer
+URL: http://www.ens.gu.edu.au/robertk/publ/sotware.html

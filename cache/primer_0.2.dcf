@@ -1,0 +1,18 @@
+Package: primer
+Type: Package
+Title: Functions and data for the forthcoming, A Primer of Ecology with
+        R
+Version: 0.2
+Date: 2009-06-02
+Author: M Henry H Stevens
+Maintainer: Hank Stevens <HStevens@muohio.edu>
+Depends: deSolve, lattice
+Suggests: bbmle, gdata, nlme, vegan
+Description: Functions are primarily functions for systems of ordinary
+        differential equations, difference equations, and eigenanalysis
+        and projection of demographic matrices; data are for examples.
+License: GPL
+LazyLoad: yes
+Packaged: 2009-06-03 17:52:35 UTC; HankOffice
+Repository: CRAN
+Date/Publication: 2009-06-03 20:55:55

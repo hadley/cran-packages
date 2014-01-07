@@ -1,0 +1,16 @@
+Package: pps
+Version: 0.94
+Date: 2005-11-21
+Title: Functions for PPS sampling
+Author: Jack G. Gambino <jack.gambino@gmail.com>
+Maintainer: Jack G. Gambino <jack.gambino@gmail.com>
+Description: The pps package contains functions to select samples using
+        PPS (probability proportional to size) sampling. It also
+        includes a function for stratified simple random sampling, a
+        function to compute joint inclusion probabilities for
+        Sampford's method of PPS sampling, and a few utility functions.
+        The user's guide pps-ug.pdf is included.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:59:30 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:30

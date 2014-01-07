@@ -1,0 +1,16 @@
+Package: fds
+Type: Package
+Title: Functional data sets
+Version: 1.5
+Date: 2010-03-30
+Depends: R (>= 2.6.0), rainbow, RCurl
+LazyLoad: yes
+LazyData: yes
+Author: Han Lin Shang and Rob J Hyndman
+Maintainer: Han Lin Shang <HanLin.Shang@buseco.monash.edu.au>
+Description: Functional data sets
+License: GPL (>= 2)
+URL: http://monashforecasting.com/index.php?title=R_packages
+Packaged: 2010-03-30 03:23:15 UTC; hanshang
+Repository: CRAN
+Date/Publication: 2010-04-03 07:59:32

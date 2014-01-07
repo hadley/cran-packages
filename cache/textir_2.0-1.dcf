@@ -1,0 +1,15 @@
+Package: textir
+Title: Inverse Regression for Text Analysis
+Version: 2.0-1
+Date:
+Author: Matt Taddy <taddy@chicagobooth.edu>
+Depends: R (>= 2.15), distrom, gamlr, Matrix
+Suggests: MASS
+Description: Multinomial [inverse] regression inference for text documents and associated attributes. Provides fast sparse multinomial logistic regression for phrase counts.  A minimalist partial least squares routine is also included.  Note that the topic modeling capability of textir is now a separate package, maptpx.
+Maintainer: Matt Taddy <taddy@chicagobooth.edu>
+License: GPL-3
+URL: http://faculty.chicagobooth.edu/matt.taddy/index.html
+Packaged: 2013-12-01 19:13:27 UTC; mtaddy
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-02 08:07:03

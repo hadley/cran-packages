@@ -1,0 +1,11 @@
+Package: knnflex
+Type: Package
+Title: A more flexible KNN
+Version: 1.0
+Depends: R (>= 2.4.0)
+Date: 2007-02-01
+Author: Atina Dunlap Brooks
+Maintainer: Atina Dunlap Brooks <atina.brooks@alumni.ncsu.edu>
+Description: A KNN implementaion which allows the specification of the distance used to calculate nearest neighbors (euclidean, binary, etc.), the aggregation method used to summarize repsonse (majority class, mean, etc.) and the method of handling ties (all, random selection, etc.).  Additionally, continuous responses are handled.
+License: GPL
+Packaged: Thu Feb  1 16:14:41 2007; atbroo

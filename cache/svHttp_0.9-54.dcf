@@ -1,0 +1,20 @@
+Package: svHttp
+Type: Package
+Version: 0.9-54
+Date: 2012-04-02
+Title: SciViews GUI API - R HTTP server
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"))
+Author: Philippe Grosjean
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 2.11.0)
+Imports: tools, svMisc (>= 0.9-68)
+Suggests: svSocket
+Description: Implements a simple HTTP server allowing to connect GUI
+        clients to R
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2013-01-27 21:13:02 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-28 07:38:01

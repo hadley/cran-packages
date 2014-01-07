@@ -1,0 +1,23 @@
+Package: tm.plugin.factiva
+Type: Package
+Title: Import articles from Factiva using the tm text mining framework
+Version: 1.1
+Date: 2012-06-30
+Authors@R: person("Milan", "Bouchet-Valat", email="nalimilan@club.fr",
+        role=c("aut", "cre"))
+Enhances: tm (>= 0.5)
+Imports: tm (>= 0.5), XML
+Description: This package provides a tm Source to create corpora from
+        articles exported from the Dow Jones Factiva content provider
+        as XML or HTML files. It is able to read both text content and
+        meta-data information.
+License: GPL (>= 2)
+URL: https://r-forge.r-project.org/projects/rcmdr-tms/
+BugReports: https://r-forge.r-project.org/tracker/?group_id=1179
+Author: Milan Bouchet-Valat [aut, cre]
+Maintainer: Milan Bouchet-Valat <nalimilan@club.fr>
+Repository: CRAN
+Repository/R-Forge/Project: rcmdr-tms
+Repository/R-Forge/Revision: 218
+Packaged: 2012-06-30 18:24:23 UTC; rforge
+Date/Publication: 2012-07-01 13:20:31

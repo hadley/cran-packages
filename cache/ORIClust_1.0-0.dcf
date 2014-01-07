@@ -1,0 +1,18 @@
+Package: ORIClust
+Type: Package
+Title: Order-restricted Information Criterion-based Clustering
+        Algorithm
+Version: 1.0-0
+Date: 2009-09-10
+Author: Tianqing Liu, Nan Lin, Ningzhong Shi and Baoxue Zhang
+Maintainer: Tianqing Liu <tianqingliu@gmail.com>
+Description: ORIClust is a user-friendly R-based software package for
+        gene clustering. Clusters are given by genes matched to
+        prespecified profiles across various ordered treatment groups.
+        It is particularly useful for analyzing data obtained from
+        short time-course or dose-response microarray experiments.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-09-16 02:42:05 UTC; yuan
+Repository: CRAN
+Date/Publication: 2009-09-18 20:18:19

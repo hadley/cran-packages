@@ -1,0 +1,12 @@
+Package: plugdensity
+Version: 0.8-1
+Date: 2004-11-03
+Title: Plug-in Kernel Density Estimation
+Author: Eva Herrmann <eherrmann@mathematik.tu-darmstadt.de> (C original);
+	R interface etc by Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Kernel density estimation with global bandwidth selection
+	     via "plug-in".
+License: GPL version 2 or later
+URL: originally from http://www.unizh.ch/biostat/Software/
+Packaged: Wed Nov  3 16:18:25 2004; maechler

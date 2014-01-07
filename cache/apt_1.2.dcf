@@ -1,0 +1,16 @@
+Package: apt
+Title: Asymmetric Price Transmission (apt)
+Version: 1.2
+Date: 2010-11-03 (first); 2012-9-18 (last)
+Author: Changyou Sun <csun@cfr.msstate.edu>
+Maintainer: Changyou Sun <csun@cfr.msstate.edu>
+Depends: R (>= 2.10.0), car, erer, urca
+Description: This package focuses on asymmetric price transmission
+        (APT) between two time series. It contains functions for linear
+        and nonlinear threshold cointegration, and furthermore,
+        symmetric and asymmetric error correction model.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-09-18 12:51:27 UTC; Edwin
+Repository: CRAN
+Date/Publication: 2012-09-20 06:42:29

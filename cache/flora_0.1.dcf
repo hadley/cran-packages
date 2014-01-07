@@ -1,0 +1,16 @@
+Package: flora
+Type: Package
+Title: flora: taxonomical information on flowering species that occur
+        in Brazil
+Version: 0.1
+Date: 2013-07-03
+Author: Gustavo Carvalho
+Maintainer: Gustavo Carvalho <gustavo.bio@gmail.com>
+Depends: R (>= 2.10), RCurl, XML, rjson
+Description: Retrieve taxonomical information of botanical names from
+        the Flora do Brasil website
+License: GPL
+Packaged: 2013-07-04 19:01:58 UTC; gustavo
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-04 21:48:47

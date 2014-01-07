@@ -1,0 +1,25 @@
+Package: ClinicalRobustPriors
+Version: 2.1-2
+Date: 2009-07-23
+Title: Robust Bayesian Priors in Clinical Trials: An R Package for
+        Practitioners
+Author: Jairo A. Fuquene P.
+Maintainer: Jairo A. Fuquene P. <jairo.a.fuquene@uprrp.edu>
+Description: In a recent paper, Fuquene, Cook, & Pericchi (2008)
+        (http://www.bepress.com/mdandersonbiostat/paper44 ) make a
+        comprehensive proposal putting forward robust, heavy-tailed
+        priors over conjugate, light-tailed priors in Bayesian
+        analysis. The behavior of Robust Bayesian methods is
+        qualitative different than Conjugate and short tailed Bayesian
+        methods and arguably much more reasonable and acceptable to the
+        practitioner and regulatory agencies. This package is useful to
+        compute the distributions (prior, likelihood and posterior) and
+        moments of the robust models: Cauchy/Binomial, Cauchy/Normal
+        and Berger/Normal. Both, Binomial and Normal Likelihoods can be
+        handled by the software. Furthermore, the assessment of the
+        hyperparameters and the posterior analysis can be processed.
+Depends: R (>= 2.7.2)
+License: GPL-2 | GPL-3
+Packaged: Thu Jul 23 17:49:51 2009; Usuario Profesor
+Repository: CRAN
+Date/Publication: 2009-07-24 06:04:20

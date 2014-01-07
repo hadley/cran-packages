@@ -1,0 +1,19 @@
+Package: betapart
+Type: Package
+Title: Partitioning beta diversity into turnover and nestedness
+        components
+Version: 1.1
+Date: 2012-02-24
+Author: Andres Baselga and David Orme
+Maintainer: Andres Baselga <andres.baselga@usc.es>
+Description: betapart allows computing pair-wise dissimilarities
+        (distance matrices) and multiple-site dissimilarities and to
+        separate the turnover and nestedness components of beta
+        diversity as described in Baselga (2010).
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: betapart
+Repository/R-Forge/Revision: 34
+Packaged: 2012-03-01 19:15:11 UTC; rforge
+Depends: R (>= 2.10)
+Date/Publication: 2012-03-02 06:59:45

@@ -1,0 +1,26 @@
+Package: RMETAR
+Maintainer: Jan Wijffels <jwijffels@bnosac.be>
+License: LGPL-2.1
+Title: Functionality to extract weather information from METAR reports.
+Type: Package
+Authors@R: c(person("Jan", "Wijffels", role = c("aut", "cre", "cph"),
+        email = "jwijffels@bnosac.be"), person("Eric", "McCarthy", role
+        = c("cph"), email = "eric@desert.net"))
+Copyright: C code in the src folder is taken and adapted from
+        http://sourceforge.net/projects/mdsplib/ for which Copyright
+        belongs to Eric McCarthy. This code has LGPL-2.1 license.
+Description: Functions to extract weather information from METAR reports
+    (Aviation Routine Weather Reports). Using the METAR Decoder Software
+    Package Library (mdsplib) which is provided by the National Weather
+    Service.
+Version: 1.0
+URL: http://www.bnosac.be
+Date: 2013-07-25
+Suggests: ff, ffbase, testthat
+Collate: 'decodemetar.R'
+Packaged: 2013-08-08 06:38:13 UTC; janw
+Author: Jan Wijffels [aut, cre, cph],
+  Eric McCarthy [cph]
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-08-09 07:06:02

@@ -1,0 +1,15 @@
+Package: DistatisR
+Type: Package
+Title: DiSTATIS Three Way Metric Multidimensional Scaling
+Version: 1.0
+Date: 2013-07-10
+Author: Derek Beaton [aut, com, ctb], Cherise Chin Fatt [ctb], Herve Abdi [aut, cre]
+Maintainer: Derek Beaton <exposition.software@gmail.com>
+Description: Implement DiSTATIS and CovSTATIS (three-way multidimensional scaling). For the  analysis of  multiple distance/covariance matrices collected on the same set of observations
+License: GPL-2
+Depends: prettyGraphs (>= 2.0.0), car
+URL: www.utdallas.edu/~herve
+Packaged: 2013-07-10 16:32:19 UTC; dbeaton
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-11 07:24:31

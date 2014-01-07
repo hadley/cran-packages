@@ -1,0 +1,12 @@
+Package: lodplot
+Type: Package
+Title: Plot a genome scan
+Version: 1.0
+Date: 2005-09-14
+Depends: R (>= 0.99), grid, graphics, stats
+Author: David L Duffy
+Maintainer: David Duffy <David.Duffy@qimr.edu.au>
+Description: Assorted plots of location score versus genetic map position
+License: GPL
+URL: http://www.qimr.edu.au/davidD
+Packaged: Thu Sep 15 11:29:56 2005; davidD

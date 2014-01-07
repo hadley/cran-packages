@@ -1,0 +1,15 @@
+Package: RImpala
+Version: 0.1.0
+Date: 2013-08-02
+Title: RImpala
+Author: Austin, Sachin, Vikas
+Maintainer: Austin Chungath Vincent <austin.cv@mu-sigma.com>
+Contact: Package Support <package.support@mu-sigma.com>
+Description: A package to connect and run queries on Cloudera Impala
+Depends: R (>= 2.7.0), rJava (>= 0.5-0)
+SystemRequirements: Java (>= 1.5)
+License: GPL-3
+Packaged: 2013-11-27 07:19:37 UTC; austin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-27 09:49:55

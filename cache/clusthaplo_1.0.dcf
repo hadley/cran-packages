@@ -1,0 +1,26 @@
+Package: clusthaplo
+Version: 1.0
+Date: 2012-07-27
+Title: Clusthaplo
+Authors@R: c(person("Damien", "Leroux", role = c("aut", "cre"), email =
+        "damien.leroux@toulouse.inra.fr"), person("Brigitte", "Mangin",
+        role = "aut", email="brigitte.mangin@toulouse.inra.fr"),
+        person("Sylvain", "Jasson", role = "aut",
+        email="sylvain.jasson@toulouse.inra.fr"), person("Abdelaziz",
+        "Rahmani", role = "aut", email =
+        "rahmani.abdelaziz@gmail.com"))
+Maintainer: Damien Leroux <damien.leroux@toulouse.inra.fr>
+Depends: R (>= 2.14), ggplot2, grid
+Suggests: RHmm
+Description: Performs clustering of haplotypes that ought to share a
+        common ancestor. It is based on the similarity measures of
+        every pair of haplotypes using a sliding window along the
+        genome.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        https://mulcyber.toulouse.inra.fr/projects/clusthaplo/
+Packaged: 2012-11-06 16:26:35 UTC; dleroux
+Author: Damien Leroux [aut, cre], Brigitte Mangin [aut], Sylvain Jasson
+        [aut], Abdelaziz Rahmani [aut]
+Repository: CRAN
+Date/Publication: 2012-11-06 16:34:07

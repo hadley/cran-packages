@@ -1,0 +1,15 @@
+Package: DRI
+Type: Package
+Title: DR-Integrator
+Version: 1.1
+Date: 2009-11-16
+Author: Keyan Salari, Robert Tibshirani, Jonathan R. Pollack
+Maintainer: Keyan Salari <ksalari@stanford.edu>
+Description: Integrative analysis of DNA copy number and gene
+        expression data described in Salari et al 2009
+License: GPL (>= 2)
+Depends: impute, cghFLasso
+LazyLoad: yes
+Packaged: 2009-11-17 08:36:21 UTC; pollacklab
+Repository: CRAN
+Date/Publication: 2009-11-17 08:55:54

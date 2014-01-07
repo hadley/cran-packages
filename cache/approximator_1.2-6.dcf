@@ -1,0 +1,16 @@
+Package: approximator
+Type: Package
+Title: Bayesian prediction of complex computer codes
+Version: 1.2-6
+Date: 28 June 2009
+Author: Robin K. S. Hankin
+Depends: R (>= 2.0.0), emulator (>= 1.2-11)
+Maintainer: Robin K. S. Hankin <hankin.robin@gmail.com>
+Description: Performs Bayesian prediction of complex computer codes
+  when fast approximations are available: M. C. Kennedy and A. O'Hagan
+  2000, Biometrika 87(1):1-13
+License: GPL
+Packaged: 2013-12-08 19:49:26 UTC; rhankin
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-08 23:07:06

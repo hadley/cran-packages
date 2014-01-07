@@ -1,0 +1,16 @@
+Package: edrGraphicalTools
+Type: Package
+Title: Provide tools for dimension reduction methods
+Version: 1.0
+Date: 2010-04-14
+Author: Benoit Liquet and Jerome Saracco
+Maintainer: <benoit.liquet@isped.u-bordeaux2.fr>
+Description: This package comes to illustrate the article "A graphical
+        tool for selecting the number of slices and the dimension of
+        the model in SIR and SAVE approaches"
+License: GPL (>= 2.0)
+Depends: rgl, mvtnorm
+LazyLoad: yes
+Packaged: 2010-04-26 20:52:24 UTC; bl
+Repository: CRAN
+Date/Publication: 2010-04-27 19:09:51

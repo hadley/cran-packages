@@ -1,0 +1,15 @@
+Package: pbivnorm
+Title: Vectorized Bivariate Normal CDF
+Version: 0.5-0
+Date: 2011-02-21
+Author: Fortran code by Alan Genz.  R code by Brenton Kenkel, based on
+        Adelchi Azzalini's 'mnormt' package.
+Maintainer: Brenton Kenkel <brenton.kenkel@gmail.com>
+Description: Provides a vectorized R function for calculating
+        probabilities from a standard bivariate normal CDF.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'pbivnorm.r' 'zzz.r'
+Packaged: 2012-10-29 08:59:24 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:24

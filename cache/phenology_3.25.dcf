@@ -1,0 +1,21 @@
+Package: phenology
+Type: Package
+Title: The package phenology fits a parametric function that describes
+        phenology
+Version: 3.25
+Date: 2012-04-06
+Author: Marc Girondot
+Maintainer: Marc Girondot <marc.girondot@u-psud.fr>
+Depends: fields
+Description: Functions to fit and test the phenology of species based
+        on counts.
+License: GPL-2
+Collate: 'BE_to_LBLE.R' 'LBLE_to_BE.R' 'Likelihood_phenology.R'
+        'Lnegbin.R' 'daily_count.R' 'add_SD.R' 'add_format.R'
+        'extract_result.R' 'fit_phenology.R' 'format_par.R'
+        'growlnotify.R' 'map_phenology.R' 'par_init.R' 'phenology.R'
+        'plot_delta.R' 'plot_map.R' 'plot_phenology.R' 'plot_phi.R'
+        'remove_site.R' 'shift_sinusoid.R' 'phenology-package.R'
+Packaged: 2012-04-06 07:05:10 UTC; marcgirondot
+Repository: CRAN
+Date/Publication: 2012-04-06 09:23:14

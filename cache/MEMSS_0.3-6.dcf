@@ -1,0 +1,16 @@
+Package: MEMSS
+Version: 0.3-6
+Date: 2009-11-03
+Title: Data sets from Mixed-effects Models in S
+Author: Douglas Bates <bates@stat.wisc.edu>
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Description: Data sets and sample analyses from Pinheiro and Bates,
+        "Mixed-effects Models in S and S-PLUS" (Springer, 2000).
+Depends: R(>= 2.8.0), lme4(>= 0.999375-25)
+LazyData: yes
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: lme4
+Repository/R-Forge/Revision: 508
+Date/Publication: 2009-11-03 17:58:18
+Packaged: 2009-11-02 21:04:08 UTC; rforge

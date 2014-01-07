@@ -1,0 +1,35 @@
+Package: PredictABEL
+Title: Assessment of risk prediction models
+Version: 1.2-1
+Date: 2012-07-22
+Author: Suman Kundu, Yurii S. Aulchenko, A. Cecile J.W. Janssens
+Maintainer: Suman Kundu <s.kundu@erasmusmc.nl>
+Depends: R (>= 2.12.0), Hmisc, ROCR, epitools, PBSmodelling
+Suggests: GenABEL
+Description: PredictABEL includes functions to assess the performance
+        of risk models. The package contains functions for the various
+        measures that are used in empirical studies, including
+        univariate and multivariate odds ratios (OR) of the predictors,
+        the c-statistic (or area under the receiver operating
+        characteristic (ROC) curve (AUC)), Hosmer-Lemeshow goodness of
+        fit test, reclassification table, net reclassification
+        improvement (NRI) and integrated discrimination improvement
+        (IDI). Also included are functions to create plots, such as
+        risk distributions, ROC curves, calibration plot,
+        discrimination box plot and predictiveness curves. In addition
+        to functions to assess the performance of risk models, the
+        package includes functions to obtain weighted and unweighted
+        risk scores as well as predicted risks using logistic
+        regression analysis. These logistic regression functions are
+        specifically written for models that include genetic variables,
+        but they can also be applied to models that are based on
+        non-genetic risk factors only.  Finally, the package includes
+        function to construct a simulated dataset with genotypes,
+        genetic risks, and disease status for a hypothetical
+        population, which is used for the evaluation of genetic risk
+        models.
+License: GPL (>= 2)
+URL: http://www.genabel.org/packages/PredictABEL
+Packaged: 2012-07-26 09:10:03 UTC; 488810
+Repository: CRAN
+Date/Publication: 2012-07-27 08:59:29

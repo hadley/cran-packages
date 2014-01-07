@@ -1,0 +1,22 @@
+Package: oro.nifti
+Version: 0.3.3
+Date: 2012-04-15
+Title: Rigorous - NIfTI+ANALYZE+AFNI Input / Output
+Author: Brandon Whitcher, Volker Schmid and Andrew Thornton, with
+        contributions by Karsten Tabelow
+Maintainer: Brandon Whitcher <bjw34032@users.sourceforge.net>
+Description: Functions for the input/output and visualization of
+        medical imaging data that follow either the ANALYZE, NIfTI or
+        AFNI formats.  This package is part of the Rigorous Analytics
+        bundle.
+Depends: R (>= 2.13.0), bitops, graphics, grDevices, methods, utils,
+        XML
+Imports: splines
+Enhances: fmri
+License: BSD
+URL: http://rigorousanalytics.blogspot.com, http://rig.oro.us.com
+LazyData: yes
+ZipData: no
+Packaged: 2012-09-12 05:59:39 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-09-12 05:59:56

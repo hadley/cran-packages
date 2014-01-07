@@ -1,0 +1,13 @@
+Package: knnTree
+Version: 1.0.0
+Date: 2002-02-12
+Title: k-nn classification with variable selection inside leaves of a tree
+Author: Sam Buttrey <buttrey@nps.navy.mil>
+Maintainer: Sam Buttrey <buttrey@nps.navy.mil>
+Description: Construct or predict with k-nearest-neighbor classifiers,
+    using cross-validation to select k, choose variables (by forward
+    or backwards selection), and choose scaling (from among no scaling,
+    scaling each column by its SD, or scaling each column by its MAD).
+    The finished classifier will consist of a classification tree with
+    one such k-nn classifier in each leaf.
+License: GPL version 2

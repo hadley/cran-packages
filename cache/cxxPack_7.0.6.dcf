@@ -1,0 +1,24 @@
+Package: cxxPack
+Title: R/C++ Tools for Literate Statistical Practice
+Version: 7.0.6
+Date: 2010-07-21
+Author: Dominick Samperi
+Maintainer: Dominick Samperi <djsamperi@gmail.com>
+Description: Builds on the Rcpp package/library by providing an
+        application layer library on the C++ side that includes models
+        of fundamental R data structures like data frames and time
+        series. Includes an extensible collection of tools like special
+        functions and a financial date library. Extends Sweave by
+        permitting vignettes (or research compendium docs) to include
+        C++ code chunks. This package/library might be used to develop
+        R and C++ solutions in parallel, to speed the transition from
+        experimental R code to production C++ code, or to develop rich
+        research compendium documents following literate statistical
+        practice that have embedded R and C++ code chunks. There is a
+        package vignette that provides many examples.
+Depends: R (>= 2.10.0), Rcpp (>= 0.8.2), RUnit, zoo
+SystemRequirements: GNU make
+License: GPL-3
+Repository: CRAN
+Date/Publication: 2010-07-24 20:09:38
+Packaged: 2010-07-22 05:34:01 UTC; dsamperi

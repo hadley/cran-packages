@@ -1,0 +1,20 @@
+Package: brainwaver
+Version: 1.2
+Date: 2006-10-4
+Title: Basic wavelet analysis of multivariate time series with a visualisation 
+ and parametrisation using graph theory.
+Author: Sophie Achard <sa428@cam.ac.uk>
+Maintainer: Sophie Achard <sa428@cam.ac.uk>
+Depends: R (>= 1.5.0), waveslim
+ZipData: no
+Description: This package computes the correlation matrix for each scale of a 
+ wavelet decomposition, namely the one performed by the R package waveslim 
+ (Whitcher, 2000). An hypothesis test is applied to each entry of one matrix 
+ in order to construct  an adjacency matrix of a graph. The graph obtained is 
+ finally analysed using the small-world theory (Watts and Strogatz, 1998) and 
+ using the computation of efficiency (Latora, 2001), tested using simulated 
+ attacks. The brainwaver project is complementary to the camba project for 
+ brain-data preprocessing. 
+License: GPL version 2 or newer
+URL: http://www.wbic.cam.ac.uk/~sa428
+Packaged: Wed Dec 13 11:28:38 2006; sophie

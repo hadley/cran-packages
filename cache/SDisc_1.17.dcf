@@ -1,0 +1,24 @@
+Package: SDisc
+Type: Package
+Title: Integrated methodology for the identification of homogeneous
+        profiles in data distribution
+Version: 1.17
+Date: 2009-10-27
+Author: Fabrice Colas
+Maintainer: Fabrice Colas <fcolas@liacs.nl>
+Description: Integrated set of tools and methods to identify
+        homogeneous profiles/subtypes in data distribution by cluster
+        analysis. It includes methods for data treatment and
+        pre-processing, repeated cluster analysis, model selection,
+        model reliability and reproducibility assessment, profiles
+        characterization and validation by visual and table summaries.
+        It applies particularly to the search for more homogeneous
+        profiles in cohort studies.
+Depends: R (>= 2.5.1), mclust, stats, utils, RColorBrewer, abind,
+        xtable, digest, e1071, snow
+License: BSD
+URL: https://gforge.nbic.nl/projects/subtypediscover/,
+        http://www.grano-salis.net/
+Packaged: 2009-11-05 10:39:32 UTC; fcolas
+Repository: CRAN
+Date/Publication: 2009-11-05 19:43:24

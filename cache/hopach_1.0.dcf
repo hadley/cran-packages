@@ -1,0 +1,20 @@
+Package: hopach
+Version: 1.0
+Date: 2004-01-01
+Title: Hierarchical Ordered Partitioning and Collapsing Hybrid (HOPACH)
+Author: Katherine S. Pollard <kpollard@soe.ucsc.edu>, with
+	Mark J. van der Laan <laan@stat.berkeley.edu>.
+Maintainer: Katherine S. Pollard <kpollard@soe.ucsc.edu>
+Depends: R (>= 1.8.0), cluster
+Description: The HOPACH clustering algorithm builds a hierarchical tree
+	of clusters by recursively partitioning a data set, while ordering
+	and possibly collapsing clusters at each level. The algorithm uses
+	the Mean/Median Split Silhouette (MSS) criteria to identify the
+	level of the tree with maximally homogeneous clusters. It also runs
+	the tree down to produce a final ordered list of the elements. The
+	non-parametric bootstrap allows one to estimate the probability that
+	each element belongs to each cluster (fuzzy clustering). 
+License: GPL version 2 or newer
+URL: http://www.r-project.org, 
+	http://www.stat.berkeley.edu/~laan/, 
+	http://lowelab.ucsc.edu/katie/

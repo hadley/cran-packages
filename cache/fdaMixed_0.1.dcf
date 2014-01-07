@@ -1,0 +1,18 @@
+Package: fdaMixed
+Type: Package
+Title: Functional data analysis in a mixed model framework
+Version: 0.1
+Date: 2011-08-01
+Author: Bo Markussen
+Maintainer: Bo Markussen <bomar@life.ku.dk>
+Description: Likelihood based analysis of 1-dimension functional data
+        in a mixed-effets model framework. Matrix computation are
+        approximated by semi-explicit operator equivalents with linear
+        computational complexity.
+License: GPL-2
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.0), RcppArmadillo (>= 0.2.10), Formula (>= 1.0-0)
+LinkingTo: Rcpp, RcppArmadillo, Formula
+Packaged: 2011-08-01 09:48:14 UTC; Bo Markussen
+Repository: CRAN
+Date/Publication: 2011-08-01 14:38:09

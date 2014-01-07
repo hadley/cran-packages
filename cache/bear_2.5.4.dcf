@@ -1,0 +1,20 @@
+Package: bear
+Version: 2.5.4
+Date: 2013-04-04
+Title: Average bioequivalence and bioavailability data analysis tool
+Author: Hsin-ya Lee, Yung-jin Lee
+Maintainer: Yung-jin Lee <mobilepk@gmail.com>
+Depends: R (>= 2.12.0), reshape, nlme, sciplot, plotrix, ICSNP, gdata
+Description: An average bioequivalence (ABE) and bioavailability data
+        analysis tool including sample size estimation,
+        noncompartmental analysis (NCA), ANOVA (lm) for a standard
+        RT/TR 2x2x2 crossover design or a parallel study. And linear
+        mixed effect model (lme of nlme) for a 2-treatment, 2-sequence
+        with 2 periods or more (i.e. 2x2x3/2x2x4) replicate crossover
+        design.
+License: GPL (>= 2)
+NeedsCompilation: no
+URL: http://pkpd.kmu.edu.tw/bear
+Packaged: 2013-04-04 08:42:33 UTC; datawalker
+Repository: CRAN
+Date/Publication: 2013-04-04 11:44:51

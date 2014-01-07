@@ -1,0 +1,32 @@
+Package: dlmap
+Type: Package
+Title: Detection Localization Mapping for QTL
+Version: 1.12
+Date: 2012-03-24
+Author: Emma Huang and Andrew George
+Maintainer: Emma Huang <Emma.Huang@csiro.au>
+Description: QTL mapping in a mixed model framework with separate
+        detection and localization stages. The first stage detects the
+        number of QTL on each chromosome based on the genetic variation
+        due to grouped markers on the chromosome; the second stage uses
+        this information to determine the most likely QTL positions.
+        The mixed model can accommodate general fixed and random
+        effects, including spatial effects in field trials and pedigree
+        effects. Applicable to backcrosses, doubled haploids,
+        recombinant inbred lines, F2 intercrosses, and association
+        mapping populations.
+License: GPL-2
+Depends: qtl, ibdreg, wgaim, nlme, mgcv
+Suggests: asreml
+Collate: 'calc.genoprob2.R' 'calcpos.R' 'cintern.R' 'dlcross.cross.R'
+        'dlcross.dlmap.R' 'dlcross.other.R' 'dlcross.R' 'dldetect.R'
+        'dllocalize.R' 'dlmap.R' 'dlmapdet.R' 'dlmaploc.R' 'dltest.R'
+        'ngen.dlcross.R' 'ngen.dlmap.R' 'ngen.R' 'nmrk.dlcross.R'
+        'nmrk.dlmap.R' 'nmrk.R' 'nphen.dlcross.R' 'nphen.dlmap.R'
+        'nphen.R' 'plot.dlcross.R' 'plot.dlmap.R' 'print.dlcross.R'
+        'print.dlmap.R' 'profileplot.dlmap.R' 'profileplot.R' 'pvfx.R'
+        'qchibar.R' 'summary.dlcross.R' 'summary.dlmap.R'
+        'waldtest.asreml.R' 'waldtest.R'
+Packaged: 2012-04-17 23:06:04 UTC; hua032
+Repository: CRAN
+Date/Publication: 2012-04-18 06:33:36

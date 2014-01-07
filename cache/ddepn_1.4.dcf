@@ -1,0 +1,22 @@
+Package: ddepn
+Type: Package
+Title: Dynamical Deterministic Effects Propagation Networks: Infer
+        signalling networks for timecourse RPPA data.
+Version: 1.4
+Date: 2010-10-25
+Author: Christian Bender
+Maintainer: Christian Bender <c.bender@dkfz-heidelberg.de>
+Depends: R (>= 2.9.0), graph (>= 1.20), Rgraphviz (>= 1.21.3),
+        KEGGgraph (>= 1.1.0), RBGL, genefilter
+Suggests: multicore, coda
+Description: Given a matrix of reverse-phase-protein-array timecourse
+        data, containing one or more experimental measurements for the
+        signalling patterns among proteins in cells, the package
+        attempts to model the time-dependent propagation of active and
+        passive states depending on a network. The most likely network
+        structure given the data is reconstructed.
+License: GPL (>= 2)
+LazyLoad: no
+Packaged: 2010-10-25 15:22:35 UTC; benderc
+Repository: CRAN
+Date/Publication: 2010-10-26 12:10:08

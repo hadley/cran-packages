@@ -1,0 +1,15 @@
+Package: hotspots
+Type: Package
+Title: Hot spots
+Version: 1.0.1
+Date: 2010-06-14
+Author: Anthony Darrouzet-Nardi
+Maintainer: Anthony Darrouzet-Nardi <anthony@darrouzet-nardi.net>
+Description: Calculates a hot spot cutoff and associated analyses for
+        statistical populations
+Depends: lattice, robustbase
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-07-05 19:51:23 UTC; anthony
+Repository: CRAN
+Date/Publication: 2010-07-06 07:34:59

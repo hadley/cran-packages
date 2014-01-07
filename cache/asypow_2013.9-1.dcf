@@ -1,0 +1,18 @@
+Package: asypow
+Title: Calculate Power Utilizing Asymptotic Likelihood Ratio Methods
+Version: 2013.9-1
+Date: 2013-09-24
+Author: S original by Barry W. Brown, James Lovato and Kathy Russel. 
+            R port by Kjetil B Halvorsen <kjetil1001@gmail.com>
+Description: A set of routines written in the S language
+             that calculate power and related quantities utilizing asymptotic
+             likelihood ratio methods.
+Maintainer: Kjetil B Halvorsen <kjetil1001@gmail.com>
+Depends: R (>= 2.2.0), stats
+LazyLoad: TRUE
+License: ACM | file LICENSE
+Packaged: 2013-09-24 10:41:16 UTC; kjetil
+NeedsCompilation: no
+License_restricts_use: yes
+Repository: CRAN
+Date/Publication: 2013-09-24 23:05:04

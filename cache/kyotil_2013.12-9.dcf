@@ -1,0 +1,18 @@
+Package: kyotil
+LazyLoad: yes
+LazyData: yes
+Version: 2013.12-9
+Date:
+Title: Utility Functions by Youyi & Krisz
+Author: Youyi Fong <yfong@fhcrc.org>, Krisztian Sebestyen <ksebestyen@gmail.com>
+Maintainer: Youyi Fong <yfong@fhcrc.org>
+Depends: R (>= 3.0.0)
+Imports:
+Suggests: RUnit, knitr, lme4, nlme, xtable, MASS
+VignetteBuilder: knitr
+Description: A miscellaneous set of functions for printing, plotting, kernels, etc.
+License: GPL (>= 2)
+Packaged: 2013-12-09 17:42:05 UTC; yfong
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-09 21:15:13

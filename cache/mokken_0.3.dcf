@@ -1,0 +1,13 @@
+Package: mokken
+Version: 0.3
+Date: 2007-11-04
+Title: Mokken Scale Analysis in R
+Author: L. Andries van der Ark <a.vdark@uvt.nl>
+Maintainer: L. Andries van der Ark <a.vdark@uvt.nl>
+Depends: R (>= 1.8.0)
+Description: mokken contains functions for performing mokken
+   scale analysis on test and questionnaire data. It includes an automated
+   item selection algorithm, and various checks of model assumptions.
+License: GPL Version 2 or later
+URL: http://spitswww.uvt.nl/~avdrark/, http://www.jstatsoft.org
+Packaged: Tue Nov  6 09:15:18 2007; a

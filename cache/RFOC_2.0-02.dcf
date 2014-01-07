@@ -1,0 +1,17 @@
+Package: RFOC
+Type: Package
+Title: Graphics for Spherical Distributions and Earthquake Focal
+        Mechanisms
+Version: 2.0-02
+Date: 2011-05-26
+Depends: R (>= 2.12), MASS, GEOmap, RPMG, RSEIS, splancs
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
+Description: Graphics for statistics on a sphere, as applied to
+        geological fault data, crystalogaphy, earthquake focal
+        mechanisms, radiation patterns, ternary plots and
+        geographical/geological maps.
+License: GPL
+Packaged: 2011-10-17 19:25:27 UTC; lees
+Repository: CRAN
+Date/Publication: 2011-10-20 08:46:55

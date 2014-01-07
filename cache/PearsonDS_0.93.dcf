@@ -1,0 +1,17 @@
+Package: PearsonDS
+Type: Package
+Title: Pearson Distribution System
+Version: 0.93
+Date: 2012-04-02
+Author: Martin Becker
+Maintainer: Martin Becker <martin.becker@mx.uni-saarland.de>
+Description: Implementation of the Pearson distribution system,
+        including full support for the (d,p,q,r)-family of functions
+        for probability distributions and fitting via method of moments
+        and maximum likelihood method.
+Suggests: gsl
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-04-02 13:46:30 UTC; mabe003
+Repository: CRAN
+Date/Publication: 2012-04-02 17:47:17

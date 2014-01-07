@@ -1,0 +1,22 @@
+Package: mlDNA
+Type: Package
+Title: Machine Learning-based Differential Network Analysis of
+        Transcriptome Data
+Version: 1.0
+Date: 2013-06-16
+Author: Chuang Ma and Xiangfeng Wang
+Maintainer: Chuang Ma <chuangma2006@gmail.com>
+URL: http://www.cmbb.arizona.edu/?page_id=36
+Depends: R (>= 2.15.1), biwt, cairoDevice, e1071, fBasics,
+        GeneSelector, grDevices, gplots, gWidgets, gWidgetsRGtk2, hash,
+        igraph, nnet, parmigene, pROC, qvalue, ROCR, rsgcc, stringr,
+        snowfall
+Suggests: bigmemory
+Description: Functions necessary to perform the machine learning-based
+        differential network analysis of transcriptome data.
+LazyLoad: yes
+License: GPL (>= 2)
+Packaged: 2013-06-17 17:05:23 UTC; wanglab
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-18 16:24:38

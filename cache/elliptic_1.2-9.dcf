@@ -1,0 +1,15 @@
+Package: elliptic
+Version: 1.2-9
+Date: 2008-03-23
+Title: elliptic functions
+Author: Robin K. S. Hankin
+Depends: R (>= 2.5.0), emulator, calibrator, MASS
+SystemRequirements: pari/gp
+Description: A suite of elliptic and related functions including
+        Weierstrass and Jacobi forms.  Also includes various tools for
+        manipulating and visualizing complex functions.
+Maintainer: Robin K. S. Hankin <hankin.robin@gmail.com>
+License: GPL-2
+Packaged: 2011-11-21 01:37:19 UTC; rksh
+Repository: CRAN
+Date/Publication: 2011-12-27 10:06:09

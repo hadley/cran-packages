@@ -1,0 +1,19 @@
+Package: entropy
+Version: 1.1.5
+Date: 2010-04-11
+Title: Entropy and Mutual Information Estimation
+Author: Jean Hausser and Korbinian Strimmer
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.7.0)
+Suggests:
+Description: This package implements various estimators of entropy,
+        such as the shrinkage estimator by Hausser and Strimmer, the
+        maximum likelihood and the Millow-Madow estimator, various
+        Bayesian estimators, and the Chao-Shen estimator.  It also
+        offers an R interface to the NSB estimator. Furthermore, it
+        provides functions for estimating mutual information.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/entropy/
+Packaged: Sun Apr 11 15:10:12 2010; strimmer
+Repository: CRAN
+Date/Publication: 2010-04-11 13:40:23

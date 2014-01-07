@@ -1,0 +1,17 @@
+Package: RVtests
+Type: Package
+Title: Rare Variant Tests Using Multiple Regression Methods
+Version: 1.0
+Date: 2012-05-18
+Author: C. Xu, C. M. Greenwood
+Maintainer: C. Xu <changjiang.xu@mail.mcgill.ca>
+Depends: R (>= 2.12.1), glmnet, spls, pls
+Description: Regularized multiple regression methods: ridge regression
+        (RR), principal components regression (PCR), partial least
+        squares regression (PLS), sparse PLS (SPLS), and the LASSO for
+        testing rare variants association with disease traits.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-14 05:28:08 UTC; changjiang.xu
+Repository: CRAN
+Date/Publication: 2012-07-14 16:00:51

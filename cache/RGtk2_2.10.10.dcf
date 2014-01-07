@@ -1,0 +1,13 @@
+Package: RGtk2
+Version: 2.10.10
+Date:    2007/5/5
+Title: R bindings for Gtk 2.8.0 and above
+Author:  Duncan Temple Lang <duncan@wald.ucdavis.edu> and Michael Lawrence <lawremi@iastate.edu>
+Depends: R (>= 2.4.0)
+SystemRequirements: Cairo (>= 1.0.0), ATK (>= 1.10.0), Pango (>= 1.10.0), GTK+ (>= 2.8.0), Libglade (>= 2.0)
+Maintainer: Michael Lawrence <lawremi@iastate.edu>
+Description: Facilities in the R language for programming
+  graphical interfaces using Gtk, the Gimp Tool Kit.
+License: GPL
+URL:  http://www.ggobi.org/rgtk2,  http://www.omegahat.org
+Packaged: Thu Jun 21 19:49:52 2007; larman

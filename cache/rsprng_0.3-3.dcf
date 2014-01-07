@@ -1,0 +1,13 @@
+Package: rsprng
+Version: 0.3-3
+Date: $Date: 2006-07-14 13:47:47 -0500 (Fri, 14 Jul 2006) $
+Title: R interface to SPRNG (Scalable Parallel Random Number Generators)
+Author: Na (Michael) Li <nali@umn.edu>
+Maintainer: Na (Michael) Li <nali@umn.edu>
+Depends: R (>= 1.2.0)
+Description: Provides interface to SPRNG APIs, and examples and
+  documentation for its use.  
+License: GPL version 2 or newer
+URL: http://www.r-project.org/, 
+     http://www.biostat.umn.edu/~nali/SoftwareListing.html
+Packaged: Fri Jul 14 13:57:23 2006; nali

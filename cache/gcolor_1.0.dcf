@@ -1,0 +1,16 @@
+Package: gcolor
+Type: Package
+Title: Provides an Inequation Algorithm Function and a solution to
+        import DIMACS files.
+Version: 1.0
+Date: 2009-10-12
+Depends: R (>= 2.8)
+Author: Jeffrey L. Duffany, Ph.D. and Euripides Rivera Negron
+Maintainer: Jeffrey L. Duffany, Ph.D. <jduffany@gmail.com>
+Description: Generates a valid colouring of a graph by solving the
+        system of inequations representing the graph.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-10-30 01:00:52 UTC; stretch
+Repository: CRAN
+Date/Publication: 2009-10-30 07:47:06

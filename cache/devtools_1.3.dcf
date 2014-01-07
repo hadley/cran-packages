@@ -1,0 +1,39 @@
+Package: devtools
+Title: Tools to make developing R code easier
+Version: 1.3
+Authors@R: c( person("Hadley", "Wickham", email =
+        "h.wickham@gmail.com", role = c("aut", "cre")),
+        person("Winston", "Chang", role = "aut"), person("R Core team",
+        role = "ctb", comment = "Some namespace and vignette code
+        extracted from base R"))
+Description: Collection of package development tools
+Depends: R (>= 2.15)
+Imports: httr, RCurl, utils, tools, methods, memoise, whisker,
+        evaluate, digest
+Suggests: testthat (>= 0.7), roxygen2, BiocInstaller, Rcpp (>= 0.10.0),
+        MASS, knitr
+License: GPL (>= 2)
+Collate: 'R.r' 'bash.r' 'build.r' 'check-cran.r' 'check-devtools.r'
+        'check-doc.r' 'check.r' 'clean.r' 'cran.r' 'create.r'
+        'decompress.r' 'dev-example.r' 'dev-help.r' 'document.r'
+        'env-utils.r' 'file-cache.r' 'has-devel.r' 'has-tests.r'
+        'imports-env.r' 'inst.r' 'install-bitbucket.r' 'install-git.r'
+        'install-github.r' 'install-gitorious.r' 'install-local.r'
+        'install-min.r' 'install-url.r' 'install-version.r' 'install.r'
+        'load-code.r' 'load-data.r' 'load-depends.r' 'load-dll.r'
+        'load.r' 'missing-s3.r' 'namespace-env.r' 'package-deps.r'
+        'package-env.r' 'package.r' 'parent-envs.r' 'path.r'
+        'rcpp-attributes.r' 'release.r' 'reload.r' 'remove-s4-class.r'
+        'rtools.r' 'run-example.r' 'run-examples.r' 'run-loadhooks.r'
+        'run-source.r' 'session-info.r' 'shims.r' 'source.r' 'system.r'
+        'test.r' 'topic-index.r' 'unload.r' 'utils.r' 'vignette-r.r'
+        'vignettes.r' 'wd.r' 'with-debug.r' 'with.r' 'zzz.r'
+        'compile-dll.r' 'dev-meta.r' 'dev-mode.r'
+        'reverse-dependencies.r' 'show-news.r'
+Packaged: 2013-07-03 00:01:26 UTC; hadley
+Author: Hadley Wickham [aut, cre], Winston Chang [aut], R Core team
+        [ctb] (Some namespace and vignette code extracted from base R)
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-04 18:54:22

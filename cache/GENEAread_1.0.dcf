@@ -1,0 +1,18 @@
+Package: GENEAread
+Type: Package
+Title: Package For Reading Binary files
+Version: 1.0
+Date: 19/06/2012
+Author: Zhou Fang <zhou@activinsights.co.uk>
+Maintainer: ActivInsights Ltd. <Joss@activinsights.co.uk>
+Description: Functions and analytics for GENEA-compatible accelerometer
+        data into R objects. See topic 'GENEAread' for an introduction
+        to the package.
+License: GPL
+LazyLoad: yes
+ByteCompile: yes
+Depends: bitops
+Suggests: mmap, MASS
+Packaged: 2012-06-27 15:37:39 UTC; zhou
+Repository: CRAN
+Date/Publication: 2012-06-28 05:18:26

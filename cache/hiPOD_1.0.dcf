@@ -1,0 +1,16 @@
+Package: hiPOD
+Type: Package
+Title: hierarchical Pooled Optimal Design
+Version: 1.0
+Date: 2012-04-27
+Author: Wei E. Liang
+Maintainer: Wei E. Liang <liang1@usc.edu>
+Description: Based on hierarchical modeling, this package provides a
+        few practical functions to find and present the optimal designs
+        for a pooled NGS design.
+Depends: rgl
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-06-01 06:31:21 UTC; IceRiver
+Repository: CRAN
+Date/Publication: 2012-06-01 14:26:57

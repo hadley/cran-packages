@@ -1,0 +1,16 @@
+Package: kin.cohort
+Type: Package
+Title: Analysis of kin-cohort studies
+Version: 0.6
+Date: 2009-01-30
+Author: Victor Moreno, Nilanjan Chatterjee, Bhramar Mukherjee
+Maintainer: Victor Moreno <v.moreno@iconcologia.net>
+Depends: survival
+Description: Analysis of kin-cohort studies. kin.cohort provides estimates of age-specific 
+ cumulative risk of a disease for carriers and noncarriers of a mutation. The cohorts are
+ retrospectively built from relatives of probands for whom the genotype is known. Currently 
+ the method of moments and marginal maximum likelihood are implemented. Confidence intervals 
+ are calculated from bootstrap samples.
+ Most of the code is a translation from previous matlab code by Chatterjee.
+License: GPL (>= 2)
+Packaged: Thu Jan 29 18:42:14 2009; h501uvma

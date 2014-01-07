@@ -1,0 +1,18 @@
+Package: fail
+Type: Package
+Title: File Abstraction Interface Layer (FAIL) mimicking a key-value
+        store
+Description: More comfortable interface to work with a directory of
+        RData files
+Version: 1.0
+Author: Michel Lang <michellang@gmail.com>
+Maintainer: Michel Lang <michellang@gmail.com>
+URL: https://github.com/mllg/fail
+License: BSD
+Imports: BBmisc
+Suggests: testthat
+ByteCompile: yes
+Collate: 'helper.R' 'methods.R' 'zzz.R' 'cache.R' 'fail.R'
+Packaged: 2012-12-04 13:35:03 UTC; lang
+Repository: CRAN
+Date/Publication: 2012-12-04 15:26:34

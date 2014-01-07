@@ -1,0 +1,16 @@
+Package: RGtk2Extras
+Type: Package
+Title: Data frame editor and dialog making wrapper for RGtk2
+Version: 0.5.0
+Date: 2010-09-27
+Author: Tom Taverner, with contributions from John Verzani and Iago
+        Conde
+Maintainer: Tom Taverner <thomas.taverner@pnl.gov>
+Description: Useful add-ons for RGtk2
+Depends: methods, RGtk2(>= 2.12.8), gWidgets, gWidgetsRGtk2
+Recommends: cairoDevice
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-10-09 00:24:56 UTC; D3X487
+Repository: CRAN
+Date/Publication: 2010-10-09 07:29:31

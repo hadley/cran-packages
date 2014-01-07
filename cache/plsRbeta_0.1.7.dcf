@@ -1,0 +1,24 @@
+Package: plsRbeta
+Version: 0.1.7
+Date: 2012-08-22
+Depends: R (>= 2.4.0), plsRglm
+Imports: mvtnorm, boot, Formula, plsdof
+Enhances: plsRglm
+Suggests: pls, MASS, betareg
+Title: Partial least squares Regression for beta regression models
+Author: Frederic Bertrand <frederic.bertrand@math.unistra.fr>, Myriam
+        Maumy-Bertrand <myriam.maumy-bertrand@math.unistra.fr>, Nicolas
+        Meyer <Nicolas.Meyer@nmeyer@unistra.fr>.
+Maintainer: Frederic Bertrand <frederic.bertrand@math.unistra.fr>
+Description: This package provides Partial least squares Regression for
+        (weighted) beta regression models and kfold crossvalidation of
+        such models using various criteria. It allows for missing data
+        in the eXplanatory variables. Bootstrap confidence intervals
+        constructions are also available.
+License: GPL-3
+Encoding: latin1
+URL: http://www-irma.u-strasbg.fr/~fbertran/
+Classification/MSC: 62J12, 62J99
+Packaged: 2012-08-22 09:44:00 UTC; Bertrand
+Repository: CRAN
+Date/Publication: 2012-08-27 07:02:38

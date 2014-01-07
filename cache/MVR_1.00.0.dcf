@@ -1,0 +1,34 @@
+Package: MVR
+Type: Package
+Title: Mean-Variance Regularization
+Description: MVR is a non-parametric method for joint adaptive
+        mean-variance regularization and variance stabilization of
+        high-dimensional data. It is suited for handling difficult
+        problems posed by high-dimensional multivariate datasets (p >>
+        n paradigm), such as in omics-type data, among which are that
+        the variance is often a function of the mean, variable-specific
+        estimators of variances are not reliable, and tests statistics
+        have low powers due to a lack of degrees of freedom. Key
+        features include (i) Normalization and/or variance
+        stabilization of the data, (ii) Computation of
+        mean-variance-regularized t- and F-statistics, (iii) Generation
+        of diverse diagnostic plots, (iv) Computationally efficiency
+        implementation, using C++ interfacing, and an option for
+        parallel computing to enjoy a fast and easy experience in the R
+        environment.
+Version: 1.00.0
+Date: 2011-07-26
+Depends: R (>= 2.13.0), statmod, snow
+Suggests: RColorBrewer
+Enhances:
+Author: Jean-Eudes Dazard, PhD. <jxd101@case.edu>, with contributions
+        from Hua Xu, PhD. <hxx58@case.edu>, and Alberto H. Santana,
+        MBA. <ahs4@case.edu>, and J. Sunil Rao, PhD.
+        <JRao@med.miami.edu>.
+Maintainer: Jean-Eudes Dazard, PhD. <jxd101@case.edu>
+URL: http://proteomics.case.edu/jean_eudes_dazard.aspx
+Repository: CRAN
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2011-07-26 18:38:21 UTC; jxd101
+Date/Publication: 2011-07-26 20:23:40

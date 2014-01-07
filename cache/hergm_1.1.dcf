@@ -1,0 +1,17 @@
+Package: hergm
+Version: 1.1
+Date: 2010-10-03
+Title: Hierarchical Exponential-Family Random Graph Models
+Author: Michael Schweinberger <michael.schweinberger@stat.psu.edu>
+Maintainer: Michael Schweinberger <michael.schweinberger@stat.psu.edu>
+Depends: ergm, gtools, snow
+LinkingTo: ergm
+Suggests:
+Description: The R package 'hergm' implements Hierarchical
+        Exponential-Family Random Graph Models (HERGMs), which can be
+        used to model a wide range of relational data (networks).
+        'hergm' implements both simulation and Bayesian inference.
+License: GPL-3
+Packaged: 2010-03-10 23:25:21 UTC; michael
+Repository: CRAN
+Date/Publication: 2010-03-11 07:04:56

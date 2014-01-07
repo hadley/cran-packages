@@ -1,0 +1,16 @@
+Package: abcdeFBA
+Type: Package
+Title: ABCDE_FBA: A-Biologist-Can-Do-Everything of Flux Balance
+        Analysis with this package.
+Version: 0.1
+Date: 2010-09-16
+Author: Abhilash Gangadharan, Neha Rohatgi
+Maintainer: Abhilash Gangadharan <gangutalk@gmail.com>
+Depends: Rglpk,rgl,corrplot,lattice,R (>= 2.10)
+Suggests: LIM
+Description: Functions for Constraint Based Simulation using Flux Balance Analysis and informative analysis of the data generated during simulation.
+License: GPL-2
+Lazyload: yes
+Packaged: 2011-11-05 07:23:27 UTC; Abhilash
+Repository: CRAN
+Date/Publication: 2011-11-05 10:48:08

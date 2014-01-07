@@ -1,0 +1,19 @@
+Package: logitnorm
+Title: Functions for the logitnormal distribution.
+Version: 0.8.29
+Date: 2012-08-24
+Author: Thomas Wutzler
+Maintainer: Thomas Wutzler <twutz@bgc-jena.mpg.de>
+Description: Density, distribution, quantile and random generation
+        function for the logitnormal distribution. Estimation of the
+        mode and the first two moments. Estimation of distribution
+        parameters.
+Depends:
+Suggests: RUnit
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: logitnorm
+Repository/R-Forge/Revision: 31
+Packaged: 2012-08-27 14:20:22 UTC; rforge
+Date/Publication: 2012-08-28 14:45:36

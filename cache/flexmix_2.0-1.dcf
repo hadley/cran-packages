@@ -1,0 +1,19 @@
+Package: flexmix
+Version: 2.0-1
+Date: 2007-09-07
+Author: Friedrich Leisch and Bettina Gruen
+Maintainer: Friedrich Leisch <Friedrich.Leisch@R-project.org>
+Title: Flexible Mixture Modeling
+Depends: lattice, modeltools (>= 0.2-13)
+Imports: methods, stats, stats4
+Suggests: MASS, ellipse, grid, mvtnorm, nnet
+Description: FlexMix implements a general framework for finite
+  mixtures of regression models using the EM algorithm. 
+  FlexMix provides the E-step and all data handling, while the M-step can be
+  supplied by the user to easily define new models. Existing drivers
+  implement mixtures of standard linear models, generalized linear
+  models and model-based clustering. 
+License: GPL-2
+URL: http://www.statistik.lmu.de/~leisch/FlexMix
+LazyLoad: yes
+Packaged: Tue Sep 11 14:28:58 2007; leisch

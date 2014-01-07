@@ -1,0 +1,29 @@
+Package: GOFSN
+Type: Package
+Title: Goodness-of-fit tests for the family of skew-normal models
+Version: 1.0
+Date: 2009-04-24
+Author: Veronica Paton Romero
+Maintainer: Veronica Paton Romero <v.paton@alumnos.urjc.es>
+Depends: R (>= 2.10), sn
+Description: GOFSN is a package that implements a method for checking
+        if a skew-normal model fits the observed dataset, when all
+        parameters are unknown. While location and scale parameters are
+        estimated by moment estimators, the shape parameter is
+        integrated with respect to the prior predictive distribution,
+        as proposed in (BOX, 1980). A default and proper prior on
+        skewness parameter is used to obtain the prior predictive
+        distribution, as proposed in (CABRAS, CASTELLANOS, 2008).
+        Goodness-of-fit tests, here proposed, depend only on sample
+        size and exhibit full agreement between nominal and actual
+        size. This package implements EDF statistics
+        Kolmogorov-Smirnov(D), Cram\'er-von Mises(W2) and proposes some
+        simple algorithms (SimulD,SimulW2) to approximate their
+        respective marginal predictive distributions. It also has
+        functions (ks.sn,W2.sn) that calculate the p-value on observed
+        data.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-23 09:27:24 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:31

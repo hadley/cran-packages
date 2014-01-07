@@ -1,0 +1,19 @@
+Package: Rmosek
+Version: 1.2.4
+Title: The R-to-MOSEK Optimization Interface
+Author: Henrik Alsing Friberg
+Maintainer: Henrik Alsing Friberg <haf@mosek.com>
+Description: An interface to the MOSEK optimization library designed to
+        solve large-scale mathematical optimization problems. Supports
+        linear, quadratic and second order cone optimization
+        with/without integer variables, in addition to the more general
+        separable convex problems.  Trial and free academic licenses
+        available at http://www.mosek.com.
+SystemRequirements: MOSEK and MOSEK License
+LinkingTo: Matrix
+Depends: R(>= 2.10.0), Matrix(>= 0.9996875-3)
+License: LGPL (>= 2.1)
+URL: http://rmosek.r-forge.r-project.org/, http://www.mosek.com/
+Packaged: 2012-09-03 12:30:55 UTC; hap
+Repository: CRAN
+Date/Publication: 2012-09-04 08:54:48

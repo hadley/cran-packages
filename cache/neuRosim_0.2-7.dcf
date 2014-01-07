@@ -1,0 +1,21 @@
+Package: neuRosim
+Type: Package
+Title: Functions to generate fMRI data including activated data, noise
+        data and resting state data.
+Version: 0.2-7
+Date: 2011-04-06
+Author: Marijke Welvaert with contributions from Joke Durnez, Beatrijs
+        Moerkerke, Yves Rosseel and Geert Verdoolaege
+Maintainer: Marijke Welvaert <Marijke.Welvaert@Ugent.be>
+Depends: R (>= 2.12.0), deSolve
+Description: The package allows users to generate fMRI time series or
+        4D data. Some high-level functions are created for fast data
+        generation with only a few arguments and a diversity of
+        functions to define activation and noise. For more advanced
+        users it is possible to use the low-level functions and
+        manipulate the arguments.
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2011-04-24 06:57:08
+Packaged: 2011-04-20 09:12:51 UTC; marijke

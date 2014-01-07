@@ -1,0 +1,16 @@
+Package: crmn
+Version: 0.0.19
+Date: 2012-06-19
+Author: Henning Redestig
+Maintainer: Henning Redestig <henning.red@gmail.com>
+Title: CCMN and other noRMalizatioN methods for metabolomics data
+Depends: pcaMethods (>= 1.24.0), Biobase, methods
+Imports: pls
+Description: Implements the Cross-contribution Compensating Multiple
+        standard Normalization (CCMN) method and other normalization
+        algorithms.
+License: GPL (>= 3)
+Collate: 'classes.R' 'crmn-package.R' 'misc.R' 'norm.R' 'generic.R'
+Packaged: 2012-07-13 05:41:44 UTC; henning
+Repository: CRAN
+Date/Publication: 2012-07-13 06:55:27

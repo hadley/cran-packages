@@ -1,0 +1,18 @@
+Package: PIN
+Type: Package
+Title: Estimates the parameters of a trading-tree model for the
+        computation of the probability of informed trading
+Version: 0.8
+Date: 2013-05-06
+Author: P. Zagaglia
+Maintainer: P. Zagaglia <paolo.zagaglia@gmail.com>
+Suggests: zoo, xts, highfrequency, TTR, timeDate, quantmod
+Description: Using information for trade initiation, the package
+        computes the probability of informed trading of Easley and
+        O'Hara (1987).
+License: GPL-3
+LazyLoad: yes
+Packaged: 1987-12-31 23:30:08 UTC; Paolo Zagaglia
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-07 06:22:04

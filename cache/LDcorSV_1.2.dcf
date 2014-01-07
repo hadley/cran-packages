@@ -1,0 +1,21 @@
+Package: LDcorSV
+Type: Package
+Title: LDcorSV
+Version: 1.2
+Date: 2012-08-31
+Depends: MASS
+Author: David Desrousseaux, Aurelie Siberchicot, Christine
+        Cierco-Ayrolles and Brigitte Mangin
+Maintainer: Brigitte Mangin <Brigitte.Mangin@toulouse.inra.fr>
+Description: The package provides a set of functions which aim is to
+        propose four measures of linkage disequilibrium: the usual r^2
+        measure, the r^2_S measure (r^2 corrected by the structure
+        sample), the r^2_V (r^2 corrected by the relatedness of
+        genotyped individuals), the r^2_VS measure (r^2 corrected by
+        both the relatedness of genotyped individuals and the structure
+        of the sample).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-31 09:26:36 UTC; mangin
+Repository: CRAN
+Date/Publication: 2013-02-11 08:56:28

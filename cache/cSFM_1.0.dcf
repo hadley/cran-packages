@@ -1,0 +1,16 @@
+Package: cSFM
+Type: Package
+Title: Covariate-adjusted Skewed Functional Model (cSFM)
+Version: 1.0
+Date: 2013-07-11
+Author: Meng Li, Ana-Maria Staicu, and Howard D. Bondell
+Maintainer: Meng Li <mli9@ncsu.edu>
+Depends: R (>= 2.15.3), sn
+Imports: mgcv, mnormt, MASS, moments, splines
+LazyLoad: yes
+Description: cSFM is a method to model skewed functional data when considering covariates via a copula-based approach.   
+License: GPL-2
+Packaged: 2013-10-20 16:48:08 UTC; mli9
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-21 00:09:50

@@ -1,0 +1,22 @@
+Package: rsm
+Version: 1.41
+Date: 2012-07-28
+Title: Response-surface analysis
+Authors@R: c(person("Russell", "Lenth", role = c("aut", "cre"), email =
+        "russell-lenth@uiowa.edu"))
+Author: Russell V. Lenth
+Maintainer: Russell V Lenth <russell-lenth@uiowa.edu>
+Depends: R (>= 1.4.0), graphics
+Description: Provides functions to generate response-surface designs,
+        fit first- and second-order response-surface models, make
+        surface plots, obtain the path of steepest ascent, and do
+        canonical analysis.
+License: GPL-2
+URL: http://www.r-project.org, http://www.stat.uiowa.edu/~rlenth
+LazyLoad: yes
+LazyData: yes
+BuildVignettes: no
+Datalist: no
+Packaged: 2012-07-27 21:04:15 UTC; rlenth
+Repository: CRAN
+Date/Publication: 2012-07-28 05:23:45

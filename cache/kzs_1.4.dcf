@@ -1,0 +1,11 @@
+Package: kzs
+Type: Package
+Title: Kolmogorov-Zurbenko Spatial Smoothing and Applications
+Version: 1.4
+Date: 2008-10-24
+Author: Derek Cyr <cyr.derek@gmail.com> and Igor Zurbenko <igorg.zurbenko@gmail.com>.
+Maintainer: Derek Cyr <cyr.derek@gmail.com>
+Depends: R (>= 2.8.0), graphics, lattice, stats 
+Description: A spatial smoothing algorithm based on convolutions of finite rectangular kernels that provides sharp resolution in the presence of high levels of noise.
+License: GPL (>= 2)
+Packaged: Tue Oct 28 13:41:02 2008; Owner

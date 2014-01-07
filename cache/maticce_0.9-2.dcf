@@ -1,0 +1,22 @@
+Package: maticce
+Type: Package
+Title: Mapping Transitions in Continuous Character Evolution
+Version: 0.9-2
+Date: 2009-9-8
+Depends: ouch, ape
+Enhances: ouch
+Suggests: geiger
+Author: Andrew Hipp <ahipp@mortonarb.org>, with contributions from
+        Marcial Escudero
+Maintainer: Andrew Hipp <ahipp@mortonarb.org>
+Description: Tools for an information-theoretic approach to estimating
+        the probability of continuous character transitions on
+        phylogenetic trees
+License: GPL
+URL: http://mattice.R-forge.R-project.org
+Revision: 1
+Repository: CRAN
+Repository/R-Forge/Project: mattice
+Repository/R-Forge/Revision: 230
+Date/Publication: 2009-09-10 09:52:33
+Packaged: 2009-09-09 20:20:26 UTC; rforge

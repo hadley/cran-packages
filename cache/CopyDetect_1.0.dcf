@@ -1,0 +1,23 @@
+Package: CopyDetect
+Version: 1.0
+Date: 10-01-2012
+Title: An R Package for Computing Statistical Indices to Detect Answer
+        Copying on Multiple-Choice Tests
+Author: Cengiz Zopluoglu
+Maintainer: Cengiz Zopluoglu <zoplu001@umn.edu>
+Depends: irtoys
+Description: This R package contains several IRT and non-IRT based
+        statistical indices proposed in the literature for detecting
+        answer copying on multiple-choice examinations. The current R
+        package includes the indices that have been shown as effective
+        and reliable based on the simulation studies. The CopyDetect
+        package provides results for the Omega index (Wollack, 1996),
+        Generalized Binomial Test (van der Linden & Sotaridona, 2006),
+        K index (Holland, 1996), K1 and K2 indices (Sotaridona &
+        Meijer, 2002), and S1 and S2 indices (Sotaridona & Meijer,
+        2003).
+License: GPL (>= 2)
+URL: http://www.tc.umn.edu/~zoplu001
+Packaged: 2012-10-02 22:15:32 UTC; CZ
+Repository: CRAN
+Date/Publication: 2012-10-03 05:55:47

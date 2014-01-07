@@ -1,0 +1,12 @@
+Package: mixPHM
+Type: Package
+Title: Mixtures of proportional hazard models.  
+Version: 0.5.0
+Date: 2007-07-19
+Author: Patrick Mair, Marcus Hudec
+Maintainer: Patrick Mair <patrick.mair@wu-wien.ac.at>
+Description: This package fits multivariate mixtures of various parametric proportional hazard models using the EM-Algorithm. Proportionality restrictions can be imposed on the latent groups and/or on the variables. Several survival distributions can be specified. Missing values are allowed. Independence is assumed over the single variables.
+Imports: graphics, stats
+Depends: survival
+License: GPL
+Packaged: Thu Jul 19 10:03:08 2007; admin

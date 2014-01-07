@@ -1,0 +1,20 @@
+Package: FSelector
+Type: Package
+Title: Selecting attributes
+Version: 0.18
+Date: 2009-04-11
+Author: Piotr Romanski
+Maintainer: Piotr Romanski <p.romanski@stud.elka.pw.edu.pl>
+Description: This package provides functions for selecting attributes
+        from a given dataset. Attribute subset selection is the process
+        of identifying and removing as much of the irrevelant and
+        redundant information as possible.
+License: GPL-2
+Depends: randomForest, RWeka, digest
+Suggests: mlbench, rpart
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: fselector
+Repository/R-Forge/Revision: 20
+Date/Publication: 2009-10-29 06:51:51
+Packaged: 2009-10-27 21:03:11 UTC; rforge

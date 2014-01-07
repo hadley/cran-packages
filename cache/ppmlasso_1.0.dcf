@@ -1,0 +1,15 @@
+Package: ppmlasso
+Type: Package
+Title: PPM-LASSO: Point process models with LASSO penalties
+Version: 1.0
+Date: 2013-10-13
+Author: Ian Renner
+Maintainer: Ian Renner <Ian.Renner@unsw.edu.au>
+Description: This package contains tools to fit point process models with sequences of LASSO penalties ("regularisation paths"). Regularisation paths of Poisson point process models or area-interaction models can be fitted with LASSO, adaptive LASSO or elastic net penalties. A number of criteria are available to judge the bias-variance tradeoff.
+License: GPL-3
+Depends: R (>= 3.0.0), spatstat (>= 1.32-0)
+Imports: methods
+Packaged: 2013-10-14 22:35:18 UTC; Ian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-15 08:17:54

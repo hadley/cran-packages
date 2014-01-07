@@ -1,0 +1,21 @@
+Package: CARE1
+Type: Package
+Title: Statistical package for population size estimation in
+        capture-recapture models.
+Version: 1.0.2
+Date: 2012-02-07
+Author: T.C. Hsieh
+Maintainer: Anne Chao <chao@stat.nthu.edu.tw>
+Description: The R package CARE1, the first part of the program CARE
+        (Capture-Recapture) in
+        http://chao.stat.nthu.edu.tw/softwareCE.html, can be used to
+        analyze epidemiological data via sample coverage approach (Chao
+        et al. 2001a). Based on the input of records from several
+        incomplete lists (or samples) of individuals, the R package
+        CARE1 provides output of population size estimate and related
+        statistics. The maximum number of lists is 5 for version 1.0.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-02-07 07:51:14 UTC; Johnson
+Repository: CRAN
+Date/Publication: 2012-02-07 08:43:54

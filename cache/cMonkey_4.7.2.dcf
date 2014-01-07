@@ -1,0 +1,18 @@
+Package: cMonkey
+Type: Package
+Title: cMonkey intgrated biclustering algorithm
+Version: 4.7.2
+Date: 2010-10-15
+Author: David J Reiss, Institute for Systems Biology
+Maintainer: David J Reiss <dreiss@systemsbiology.org>
+Description: cMonkey integrated biclustering algorithm for learning
+        co-regulated gene modules
+License: GPL-2
+LazyLoad: yes
+Suggests: RCurl, foreach, doMC, multicore, ff, igraph, RSVGTipsDevice,
+        hwriter, trimcluster
+Repository: CRAN
+Repository/R-Forge/Project: cmonkey
+Repository/R-Forge/Revision: 14
+Date/Publication: 2010-10-19 07:31:14
+Packaged: 2010-10-16 21:14:02 UTC; rforge

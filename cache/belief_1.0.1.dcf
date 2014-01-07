@@ -1,0 +1,19 @@
+Package: belief
+Type: Package
+Title: Contains basic functions to manipulate belief functions and
+        associated mass assignments
+Version: 1.0.1
+Date: 2010-09-07
+Author: N. Maillet, B. Charnomordic, S. Destercke
+Maintainer: S. Destercke <sebastien.destercke@cirad.fr>, B.
+        Charnomordic <bch@supagro.inra.fr>
+Description: This package contains basic functions to manipulate belief
+        functions and associated mass assignments (currently on finite
+        spaces only). It is aimed at providing a basic skeleton for
+        belief function applications using R.
+License: GPL (>= 2)
+LazyLoad: no
+Depends: methods
+Packaged: 2011-01-31 15:02:15 UTC; seb_home
+Repository: CRAN
+Date/Publication: 2011-01-31 15:12:44

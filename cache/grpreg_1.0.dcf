@@ -1,0 +1,10 @@
+Package: grpreg
+Title: Regularization paths for regression models with grouped covariates
+Version: 1.0
+Date: 2008-11-11
+Author: Patrick Breheny
+Maintainer: Patrick Breheny <patrick-breheny@uiowa.edu>
+Depends: 
+Description: Efficient algorithms for fitting the regularization path for linear or logistic regression models penalized by the group lasso, group bridge, or group MCP methods.  The algorithm is based on the idea of a locally approximated coordinate descent.  A technical report describing the methods and algorithms is available at <http://www.stat.uiowa.edu/techrep/tr393.pdf>.
+License: GPL-2
+Packaged: Sun Nov 23 07:10:47 2008; pbreheny

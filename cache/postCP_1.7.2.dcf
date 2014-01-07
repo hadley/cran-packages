@@ -1,0 +1,18 @@
+Package: postCP
+Type: Package
+Title: A package to estimate posterior probabilities and perform model
+        selection in change-point models using constrained HMM.
+Version: 1.7.2
+Date: 2013-11-25
+Author: Gregory Nuel and The Minh Luong
+Maintainer: The Minh Luong <theminh.luong@clinepi.mcgill.ca>
+Contact: Gregory Nuel <nuel@math.cnrs.fr>
+Description: The functions are used for change-point problems, after an initial set of change-points within the data has already been obtained. The function postCP obtains estimates of posterior probabilities of change-point and hidden states for each observation, and confidence intervals for the positions of the change-point. The function postCPsample obtains random samples of sets of change-points using the output of the postCP function. Model selection may be performed using function postCPmodelsel through criteria obtained from function postCPcrit.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: MASS, Segmentor3IsBack
+SystemRequirements: GNU make
+Packaged: 2014-01-02 17:52:35 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2014-01-02 19:18:27

@@ -1,0 +1,17 @@
+Package: rpud
+Version: 0.0.2
+Date: 2010-09-16
+Title: R functions for computation on GPU
+Author: Chi Yau <chi.yau@r-tutor.com>
+Maintainer: Chi Yau <chi.yau@r-tutor.com>
+Depends: R (>= 2.8.0)
+SystemRequirements: NVIDIA CUDA Toolkit 3.1 or above
+Description: This package provides R functions for performing
+        computation on GPU. The implementation is based on the NVIDIA
+        CUDA Toolkit. Besides the core functionality, it also aims for
+        robustness, performance, and scalability.
+License: GPL-3
+URL: http://www.r-tutor.com/gpu-computing
+Packaged: 2010-09-13 18:06:26 UTC; cyau
+Repository: CRAN
+Date/Publication: 2010-09-15 09:22:12

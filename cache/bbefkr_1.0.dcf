@@ -1,0 +1,18 @@
+Package: bbefkr
+Type: Package
+Title: Bayesian bandwidth estimation for functional kernel regression
+        with unknown error density
+Version: 1.0
+Date: 2013-10-21
+Depends: R (>= 3.0.2), splines
+Author: Han Lin Shang
+Maintainer: Han Lin Shang <H.Shang@soton.ac.uk>
+Description: Estimate optimal bandwidth for the regression mean function approximated by the functional Nadaraya-Watson estimator and the error density approximated by a kernel density of residuals
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+URL: https://sites.google.com/site/hanlinshangswebsite/
+Packaged: 2013-10-21 13:24:57 UTC; hanlinshang
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-21 17:24:51

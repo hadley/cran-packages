@@ -1,0 +1,16 @@
+Package: ipdmeta
+Type: Package
+Title: Mixed models for complete and partial IPD survival meta-analysis
+Version: 1.0
+Date: 2010-08-24
+Author: S. Kovalchik
+Maintainer: S. Kovalchik <skoval@ucla.edu>
+Depends: survival, coxme, Matrix, phmm, metafor
+Description: Mixed effects IPD meta-analysis, mixed data meta-analysis
+        with patient level data and mulivariate survival estimates for
+        aggregate studies
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-08-28 07:53:45 UTC; skoval
+Repository: CRAN
+Date/Publication: 2010-08-29 07:13:12

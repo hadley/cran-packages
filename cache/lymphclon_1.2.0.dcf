@@ -1,0 +1,19 @@
+Package: lymphclon
+Version: 1.2.0
+Date: 2013-07-15
+Title: Accurate Estimation of Clonal Coincidences and Abundances from
+        Biological Replicates
+Authors@R: c(person("Yi Liu", "Author and Developer", role = c("aut", "cre"), email = "liuyipei@stanford.edu"),
+             person("Richard Olshen", "Author", role = "aut", email = "olshen@stanford.edu"),
+             person("Andrew Fire", "Author", role = "ctb", email = "afire@stanford.edu"),
+             person("Scott Boyd", "Author", role = "ctb", email = "sboyd1@stanford.edu"))
+Author: Yi Liu, Richard Olshen, Andrew Fire, Scott Boyd
+Maintainer: Yi Liu <liuyipei@stanford.edu>
+Depends: R (>= 2.15.0)
+Imports: VGAM, MASS, expm, corpcor
+Description: We provide a clonality score estimator that takes full advantage of the multi-biological-replicate structure of modern sequencing experiments; it specifically takes into account the reality that, typically, the clonal coverage is well below 0.1%.
+License: LGPL-2
+Packaged: 2013-07-17 18:07:04 UTC; Liu
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-18 00:23:28

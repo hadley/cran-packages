@@ -1,0 +1,14 @@
+Package: MergeGUI
+Maintainer: Xiaoyue Cheng <xycheng@iastate.edu>
+License: GPL
+Title: A GUI for Merging Datasets in R
+Type: Package
+Author: Xiaoyue Cheng, Dianne Cook, Heike Hofmann
+Description: A GUI for merging datasets in R using gWidgets.
+Version: 0.1-1
+Date: 2011-06-18
+Depends: gWidgetsRGtk2, ggplot2, cairoDevice, rpart
+Collate: 'MergeGUI.R' 'zzz.R'
+Packaged: 2011-06-18 19:54:30 UTC; Cheng
+Repository: CRAN
+Date/Publication: 2011-06-20 06:36:56

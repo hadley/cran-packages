@@ -1,0 +1,19 @@
+Package: exactmaxsel
+Version: 1.0-4
+Date: 2009-05-29
+Title: Maximally selected statistics for binary response variables -
+        Exact methods
+Author: Anne-Laure Boulesteix <boulesteix@imse.med.tu-muenchen.de>
+Maintainer: Anne-Laure Boulesteix <boulesteix@imse.med.tu-muenchen.de>
+Depends: R (>= 2.0.0), combinat
+Suggests:
+Description: This package computes the exact distribution of some
+        maximally selected statistics in the following setting: the
+        'response' variable is binary, the splitting variable may be
+        nominal, ordinal or continuous. Currently, the package
+        implements the chi-square statistic and the Gini-index.
+License: GPL (>= 2)
+URL: http://cran.r-project.org/web/packages/exactmaxsel/index.html
+Packaged: 2012-10-29 08:58:40 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:40

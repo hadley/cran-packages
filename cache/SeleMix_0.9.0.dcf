@@ -1,0 +1,17 @@
+Package: SeleMix
+Type: Package
+Title: Selective Editing via Mixture models
+Version: 0.9.0
+Date: 2012-12-31
+Author: Ugo Guarnera, M. Teresa Buglielli
+Maintainer: Teresa Buglielli <bugliell@istat.it>
+Description: Detection of outliers and influential errors using a
+        latent variable model.
+Depends: mvtnorm, Ecdat, xtable
+License: EUPL
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-03-22 13:42:16 UTC; bugliell
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-25 15:46:37

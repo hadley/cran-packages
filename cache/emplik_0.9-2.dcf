@@ -1,0 +1,11 @@
+Package: emplik
+Maintainer: Mai Zhou <mai@ms.uky.edu>
+Version: 0.9-2
+Depends: R (>= 2.0)
+Author: Mai Zhou. (Art Owen for el.test())
+Description: empirical likelihood ratio tests for means/quantiles/hazards
+ 	from possibly censored and/or truncated data. Now does regression too.
+Title: Empirical likelihood ratio for censored/truncated data
+License: GPL 2.0 or newer
+URL: http://www.ms.uky.edu/~mai/splus/library/emplik/
+Packaged: Sun Oct  9 14:25:41 2005; mai

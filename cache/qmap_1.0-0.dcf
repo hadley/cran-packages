@@ -1,0 +1,16 @@
+Package: qmap
+Type: Package
+Title: Quantile-mapping for post-processing climate model output
+Version: 1.0-0
+Date: 2012-03-19
+Author: Lukas Gudmundsson
+Maintainer: Lukas Gudmundsson <lukas.gudmundsson@met.no>
+Depends: R (>= 2.8.0), fitdistrplus
+Description: Empirical adjustment of the distribution of variables
+        originating from (regional) climate model simulations using
+        quantile mapping.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-03-20 14:50:00 UTC; lukasg
+Repository: CRAN
+Date/Publication: 2012-03-21 08:17:33

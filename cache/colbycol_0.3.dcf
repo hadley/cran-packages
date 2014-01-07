@@ -1,0 +1,18 @@
+Package: colbycol
+Type: Package
+Title: Read big text files column by column
+Version: 0.3
+Date: 2009-06-27
+Author: Carlos J. Gil Bellosta
+Maintainer: Carlos J. Gil Bellosta <cgb@datanalyics.com>
+Description: This package tries to solve the memory restrictions posed
+        by large text files by breaking them into its columns, which
+        are subsequently read individually into R.
+Depends: rSymPy, rJava
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: colbycol
+Repository/R-Forge/Revision: 6
+Date/Publication: 2009-07-18 15:40:35
+Packaged: 2009-07-04 20:36:56 UTC; rforge

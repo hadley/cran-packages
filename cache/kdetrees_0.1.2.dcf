@@ -1,0 +1,24 @@
+Package: kdetrees
+Type: Package
+Title: Nonparametric method for identifying discordant trees
+Version: 0.1.2
+Date: 2012-12-15
+Author: Grady Weyenberg and Peter Huggins
+Maintainer: Ruriko Yoshida <ruriko.yoshida@uky.edu>
+Description: Given a set of phylogenetic trees on a group of taxa (for
+        example trees based on individual gene sequences), we present a
+        method for identifying a subset of trees which are discordant
+        with the other trees in the set. These discordant trees may
+        arise from either biologically interesting phenomena
+        (horizontal gene transfers, for example) or more mundane
+        sequencing or annotation errors.
+License: GPL-2
+Depends: R (>= 2.15.1)
+Imports: ape, phangorn, ggplot2
+Suggests: optparse
+URL: http://cophylogeny.net/
+LazyData: TRUE
+Collate: 'bw.R' 'dist.diss.R' 'kde.R' 'kdetrees-package.R' 'kernels.R'
+Packaged: 2013-02-08 18:57:37 UTC; grady
+Repository: CRAN
+Date/Publication: 2013-02-09 07:39:49

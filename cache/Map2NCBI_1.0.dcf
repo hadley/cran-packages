@@ -1,0 +1,23 @@
+Package: Map2NCBI
+Type: Package
+Title: Mapping Markers to the Nearest Genomic Feature
+Version: 1.0
+Date: 2013-09-24
+Author: Lauren L. Hulsman Hanna and David G. Riley
+Maintainer: Lauren Hanna <Lauren.Hanna@ndsu.edu>
+Description: Map2NCBI is an R package that allows the user to generate a list of 
+    features (gene, pseudo, RNA, CDS, and/or UTR) directly from NCBI database for 
+    any species with a current build available. Option to save downloaded and 
+    formatted files is available, and the user can prioritize the feature list 
+    based on type and assembly builds present in the current build used. The user 
+    can then use the list of features generated or provide a list to map a set of 
+    markers (designed for SNP markers with a single base pair position available) 
+    to the closest feature based on the map build. This function does require map 
+    positions of the markers to be provided and the positions should be based on 
+    the build being queried through NCBI.
+License: GPL (>= 2)
+Depends: R (>= 2.15.3)
+Packaged: 2013-09-24 20:36:59 UTC; Lauren.Hanna
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-24 23:08:17

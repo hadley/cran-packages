@@ -1,0 +1,17 @@
+Package: BoolNet
+Type: Package
+Title: Generation, reconstruction, simulation and analysis of Boolean
+        networks
+Version: 1.3
+Date: 2009-10-02
+Author: Christoph Muessel, Dao Zhou, Hans Kestler
+Maintainer: Hans Kestler <hans.kestler@uni-ulm.de>
+Suggests: igraph
+Description: Provides methods to reconstruct and generate Boolean
+        networks, and to analyze and visualize attractors in Boolean
+        networks
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2009-11-15 20:04:20 UTC; muessel
+Repository: CRAN
+Date/Publication: 2009-11-16 07:44:50

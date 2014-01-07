@@ -1,0 +1,14 @@
+Package: robustloggamma
+Version: 0.4-28
+Date: 2013-12-10
+Title: Robust estimation of the generalized log gamma model.
+Author: Claudio Agostinelli <claudio@unive.it>, Alfio Marazzi <Alfio.Marazzi@chuv.ch>, Victor Yohai <vyohai@uolsinectis.com.ar> and Alex Randriamiharisoa <Alex.Randriamiharisoa@chuv.ch>
+Maintainer: Claudio Agostinelli <claudio@unive.it>
+Description: Robust estimation of the generalized log gamma model is provided using Quantile Tau estimator and Weighted Likelihood estimator.
+Depends: R (>= 2.15.1), robustbase
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2013-12-10 16:24:10 UTC; claudio
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-19 21:27:59

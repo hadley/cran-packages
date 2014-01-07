@@ -1,0 +1,15 @@
+Package: oce
+Version: 0.1.62
+Date: 2007-05-27
+Title: Analysis of Oceanographic data
+Author: Dan Kelley <Dan.Kelley@Dal.Ca>
+Maintainer: Dan Kelley <Dan.Kelley@Dal.Ca>
+Depends: R (>= 0.99)
+Description: Supports the analysis of Oceanographic data,
+ including CTD measurements, sea-level timeseries, coastline
+ files, etc.  Also includes functions for calculating
+ seawater properties such as density, etc.
+License: GPL version 2 or newer
+URL: http://myweb.dal.ca/kelley/pub/sof/oce/index.php
+LazyLoad: yes
+Packaged: Tue May 29 16:59:09 2007; hornik

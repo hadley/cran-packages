@@ -1,0 +1,19 @@
+Package: adk
+Type: Package
+Title: Anderson-Darling K-Sample Test and Combinations of Such Tests
+Version: 1.0
+Date: 2008-01-20
+Author: Fritz Scholz
+Maintainer: <fscholz@u.washington.edu>
+Description: The Anderson-Darling K-sample test can be used to test whether several 
+ independent random samples of various sizes come from the same but unspecified 
+ continuous distribution. It is a rank test and consistent against all alternatives. 
+ A low to moderate number of tied observations can be tolerated. The combination of 
+ such tests can be used to test whether M groups of samples (with K allowed to vary 
+ from group to group) come from respective common distributions, which may vary from  
+ group to group. This is useful in testing for treatment effects in randomized 
+ (incomplete) block designs or in examining whether several laboratories perform 
+ equally well when asked to measure a sufficient number of test speciments   
+ from different batches or materials.
+License: GPL version 2 or newer
+Packaged: Tue Jan 22 15:57:26 2008; Fritz Scholz

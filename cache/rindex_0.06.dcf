@@ -1,0 +1,13 @@
+Package: rindex
+Type: Package
+Title: Indexing for R
+Version: 0.06
+Date: 2007-10-22
+Author: Jens Oehlschlägel <Jens_Oehschlaegel@truecluster.com>
+Maintainer: Jens Oehlschlägel <Jens_Oehschlaegel@truecluster.com>
+Depends: R (>= 2.6.0), regtest
+Description: Index structures allow quickly accessing elements from large collections. 
+  While btree are optimized for disk databases and ttree for ram databases we use hybrid static indexing which is quite optimal for R.
+License: file LICENSE
+Encoding: latin1
+Packaged: Mon Oct 22 20:39:12 2007; Jens Oehlschlaegel

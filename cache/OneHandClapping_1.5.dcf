@@ -1,0 +1,21 @@
+Package: OneHandClapping
+Type: Package
+Title: Prediction of condition-specific transcription factor
+        interactions
+Version: 1.5
+Date: 2012-07-27
+Authors@R: c(person("Sebastian", "Dümcke", role=c("aut","cre")
+        ,email="duemcke@genzentrum.lmu.de"),
+        person("Achim","Tresch",role="ths"))
+Encoding: UTF-8
+Description: Predictions of condition-specific TF interactions using
+        gene activity data, such as mRNA expression measurements and a
+        TF-target graph.
+License: GPL (>= 2)
+Imports: methods, graphics
+Depends: R (>= 2.14)
+Packaged: 2012-07-27 08:42:21 UTC; duemcke
+Author: Sebastian Dümcke [aut, cre], Achim Tresch [ths]
+Maintainer: Sebastian Dümcke <duemcke@genzentrum.lmu.de>
+Repository: CRAN
+Date/Publication: 2012-07-27 08:59:28

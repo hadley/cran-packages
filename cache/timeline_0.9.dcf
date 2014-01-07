@@ -1,0 +1,18 @@
+Package: timeline
+License: GPL (>= 2)
+Title: Timelines for a Grammar of Graphics
+Type: Package
+Author: Jason Bryer <jason@bryer.org>
+Maintainer: Jason Bryer <jason@bryer.org>
+Description: Create timeline plots.
+Version: 0.9
+URL: http://jason.bryer.org/timeline, http://github.com/jbryer/timeline
+BugReports: https://github.com/jbryer/timeline/issues
+Depends: ggplot2, R (>= 3.0)
+Suggests: shiny
+Date: 2013-04-30
+Collate: 'timeline.R' 'timeline-package.R' 'timelineShinyDemo.R'
+Packaged: 2013-05-09 12:09:10 UTC; jbryer
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-09 17:03:14

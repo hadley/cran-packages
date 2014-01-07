@@ -1,0 +1,17 @@
+Package: rrBLUP
+Title: Ridge Regression-BLUP and related methods for genomic selection
+Version: 1.2
+Author: Jeffrey Endelman
+Maintainer: Jeffrey Endelman <j.endelman@gmail.com>
+Description: At the core of this package is the function mixed.solve,
+        which contains a fast ML/REML algorithm for mixed models with
+        one variance component (other than the residual error).  This
+        algorithm can be used for association analysis (function GWA)
+        and genomic prediction (function kinship.BLUP), for which
+        several kinship models are available (e.g., realized
+        relationship and Gaussian).
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-08-17 15:52:24 UTC; Jeffrey
+Repository: CRAN
+Date/Publication: 2011-08-17 20:27:22

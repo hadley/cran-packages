@@ -1,0 +1,13 @@
+Package: effects
+Version: 1.0-2
+Date: 2003/10/29
+Title: Effect Displays for Linear and Generalized Linear Models
+Author: John Fox <jfox@mcmaster.ca>. I am grateful to Robert Andersen, David Firth, and 
+  Michael Friendly, for various suggestions.
+Maintainer: John Fox <jfox@mcmaster.ca>
+Depends: R (>= 1.8.0), lattice, grid
+Description: 
+  Graphical and tabular effect displays, e.g., of interactions, for linear 
+  and generalised linear models.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/

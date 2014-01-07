@@ -1,0 +1,14 @@
+Package: RBGL
+Version: 1.14.0
+Title: Interface to boost C++ graph lib
+Author: Vince Carey <stvjc@channing.harvard.edu>, Li Long
+        <lilong@isb-sib.ch>, R. Gentleman
+Maintainer: Li Long <lilong@isb-sib.ch>
+Depends: graph, methods
+Imports: methods
+Description: demo of interface with full copy of all hpp defining boost
+biocViews: GraphsAndNetworks
+License: The Artistic License, Version 2.0
+URL: http://www.bioconductor.org
+LazyLoad: yes
+Packaged: Thu Oct  4 13:52:08 2007; biocbuild

@@ -1,0 +1,20 @@
+Package: tm.plugin.dc
+Version: 0.2-2
+Date: 2012-06-22
+Title: Text Mining Distributed Corpus Plug-In
+Description: A plug-in for the text mining framework tm to support text
+        mining in a distributed way. The package provides a convenient
+        interface for handling distributed corpus objects based on
+        distributed list objects.
+Authors@R: c(person("Ingo", "Feinerer", role = "aut"), person("Stefan",
+        "Theussl", role = c("aut", "cre"), email =
+        "Stefan.Theussl@R-project.org"))
+License: GPL-3
+Depends: DSL (>= 0.1-1), tm (>= 0.5-6.10)
+Suggests: XML
+Imports: slam (>= 0.1-22)
+Packaged: 2012-06-22 13:01:19 UTC; theussl
+Author: Ingo Feinerer [aut], Stefan Theussl [aut, cre]
+Maintainer: Stefan Theussl <Stefan.Theussl@R-project.org>
+Repository: CRAN
+Date/Publication: 2012-06-22 13:26:01

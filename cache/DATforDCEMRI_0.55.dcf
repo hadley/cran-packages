@@ -1,0 +1,23 @@
+Package: DATforDCEMRI
+Type: Package
+Title: Deconvolution Analysis Tool for Dynamic Contrast Enhanced MRI
+Version: 0.55
+Date: 2013-03-19
+Author: Gregory Z. Ferl
+Maintainer: Gregory Z. Ferl <ferl.gregory@gene.com>
+Depends: R (>= 2.11.0), xtable, akima, R.oo, R.methodsS3, matlab,
+        lattice, locfit, graphics, grDevices, grid
+Suggests: R.matlab
+Description: This package performs voxel-wise deconvolution analysis of
+        DCE-MRI contrast agent concentration versus time data and
+        generates the Impulse Response Function, which can be used to
+        approximate commonly utilized kinetic parameters such as Ktrans
+        and ve.  An interactive advanced voxel diagnosis tool (AVDT) is
+        also provided to facilitate easy navigation of voxel-wise data.
+License: CC BY-NC-SA 3.0
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-03-20 03:28:49 UTC; ferlg
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-20 07:49:01

@@ -1,0 +1,20 @@
+Package: ForeCA
+Type: Package
+Title: ForeCA - Forecastable Component Analysis
+Version: 0.0.1
+Date: 2012-05-14
+Author: Georg M. Goerg <gmg@stat.cmu.edu>
+Maintainer: Georg M. Goerg <gmg@stat.cmu.edu>
+URL: http://www.stat.cmu.edu/~gmg
+Description: ForeCA is a new blind source separation (BSS) technique
+        for temporally dependent signals. Contrary to PCA or ICA it
+        explicitly searches for the best linear transformation that
+        makes the obtained sources as ''forecastable'' as possible. The
+        measure of forecastability Omega(x_t) is the entropy of the
+        spectral density of the signal.
+Depends: sapa
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-05-20 17:55:04 UTC; root
+Repository: CRAN
+Date/Publication: 2012-05-21 12:08:55

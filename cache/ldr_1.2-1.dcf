@@ -1,0 +1,18 @@
+Package: ldr
+Type: Package
+Title: Methods for likelihood-based dimension reduction in regression
+Version: 1.2-1
+Depends: R (>= 2.10), GrassmannOptim, Matrix
+Date: 2012-11-8
+Author: Kofi Placid Adragni, Andrew Raim
+Maintainer: Kofi Placid Adragni <kofi@umbc.edu>
+Description: Functions, methods, and datasets for fitting
+        likelihood-based dimension reduction in regression, using
+        principal fitted components (pfc), likelihood acquired
+        directions (lad), covariance reducing models (core).
+URL: http://www.math.umbc.edu/~kofi/ldr
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-09 17:19:43 UTC; kofi
+Repository: CRAN
+Date/Publication: 2012-11-09 18:00:48

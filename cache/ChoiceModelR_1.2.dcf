@@ -1,0 +1,32 @@
+Package: ChoiceModelR
+Type: Package
+Title: Choice Modeling in R
+Version: 1.2
+Date: 2012-11-16
+Author: Ryan Sermas, assisted by John V. Colias, Ph.D.
+        <DecisionAnalystR@decisionanalyst.com>
+Authors@R: c(person("Ryan", "Sermas", role = "aut", email =
+        "DecisionAnalystR@decisionanalyst.com"), person(c("John","V"),
+        "Colias", role = c("ctb","cre"), email =
+        "jcolias@decisionanalyst.com"), person("Decision Analyst,
+        Inc.", role = "cph"))
+Suggests: bayesm, MASS, lattice, Matrix
+Description: Implements an MCMC algorithm to estimate a hierarchical
+        multinomial logit model with a normal heterogeneity
+        distribution. The algorithm uses a hybrid Gibbs Sampler with a
+        random walk metropolis step for the MNL coefficients for each
+        unit. Dependent variable may be discrete or continuous.
+        Independent variables may be discrete or continuous with
+        optional order constraints. Means of the distribution of
+        heterogeneity can optionally be modeled as a linear function of
+        unit characteristics variables.
+License: GPL (>= 3)
+Copyright: (C) 2012 Decision Analyst, Inc. (ChoiceModelR is a trademark
+        of Decision Analyst, Inc.)
+URL: http://www.decisionanalyst.com
+LazyLoad: yes
+Packaged: 2012-11-19 18:46:20 UTC; jcolias
+Maintainer: John V Colias <jcolias@decisionanalyst.com>
+Depends: R (>= 2.10)
+Repository: CRAN
+Date/Publication: 2012-11-20 23:23:09

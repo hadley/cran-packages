@@ -1,0 +1,19 @@
+Package: lfe
+Version: 1.4-702
+Date: 2011-09-27
+Title: Linear Group Fixed Effects
+Author: Simen Gaure, Ragnar Frisch Centre for Economic Research
+Maintainer: Simen Gaure <Simen.Gaure@usit.uio.no>
+Copyright: 2011, Simen Gaure
+Depends: Matrix, R (>= 2.10.1)
+Suggests: compiler
+Description: Estimate linear models with multiple group fixed effects
+Keywords: Fixed Effect Estimator, Two-Way Fixed Effects, Panel Data,
+        Multiple Fixed Effects, Kaczmarz Method, Alternating
+        Projections
+License: Artistic-2.0
+Classification/JEL: C13, C33, C60
+Classification/MSC: 62J05, 65F10, 65F50
+Packaged: 2011-09-27 07:13:28 UTC; sgaure
+Repository: CRAN
+Date/Publication: 2011-09-27 10:35:46

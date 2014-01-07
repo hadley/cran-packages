@@ -1,0 +1,15 @@
+Package: automap
+Version: 1.0-11
+Date: 2011/21/07
+Title: Automatic interpolation package
+Author: Paul Hiemstra <p.hiemstra@geo.uu.nl>
+Maintainer: Paul Hiemstra <p.hiemstra@geo.uu.nl>
+Description: This package performs an automatic interpolation by
+        automatically estimating the variogram and then calling gstat.
+Depends: R (>= 2.10.0), methods, sp (>= 0.9-55), gstat (>= 0.9-65)
+Imports: lattice
+Suggests: ggplot2,maptools,gpclib
+License: GPL
+Packaged: 2011-07-21 09:49:34 UTC; hiemstra
+Repository: CRAN
+Date/Publication: 2011-07-23 13:49:59

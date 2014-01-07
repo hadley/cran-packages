@@ -1,0 +1,25 @@
+Package: ccChooser
+Type: Package
+Title: Developing a core collections
+Version: 0.2.6
+Date: 2012-09-25
+Author: Marcin Studnicki and Konrad Debski
+Maintainer: Marcin Studnicki <marcin_studnicki@sggw.pl>
+Depends: R(>= 2.14.1), cluster (>= 1.13.1)
+Description: ccChooser can be used to developing and evaluation of core
+        collections for germplasm collections (entire collection). This
+        package used to develop a core collection for biological
+        resources like genbanks. A core collection is defined as a
+        sample of accessions that represent, with the lowest possible
+        level of redundancy, the genetic diversity (the richness of
+        gene or genotype categories) of the entire collection. The
+        establishing a core collection that represents genetic
+        diversity of the entire collection with minimum loss of its
+        original diversity and minimum redundancies is an important
+        problem for gene-banks curators and crop breeders. ccChooser
+        establish core collection base on phenotypic data (agronomic,
+        morphological, phenological).
+License: GPL (>= 2)
+Packaged: 2012-09-25 20:10:59 UTC; Marcin
+Repository: CRAN
+Date/Publication: 2012-09-26 03:01:39

@@ -1,0 +1,23 @@
+Package: c060
+Version: 0.2
+Date: 2013-04-15
+Author: Martin Sill, Thomas Hielscher, Manuela Zucknick, Natalia
+        Becker.
+Maintainer: Martin Sill <m.sill@dkfz.de>
+Title: Additional variable selection, model validation and parameter
+        tuning functions for glmnet models
+Depends: glmnet, survival, parallel, mlegp, tgp, peperr, penalizedSVM
+Imports: glmnet, survival, parallel, mlegp, tgp, peperr, penalizedSVM
+Suggests: survival
+Description: c060 provides additional functions to perform stability
+        selection, model validation and parameter tuning for glmnet
+        models
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: c060
+Repository/R-Forge/Revision: 125
+Repository/R-Forge/DateTimeStamp: 2013-04-15 13:07:38
+Date/Publication: 2013-04-16 07:58:52
+Packaged: 2013-04-15 14:15:18 UTC; rforge
+NeedsCompilation: no

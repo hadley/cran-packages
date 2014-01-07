@@ -1,0 +1,27 @@
+Package: mcr
+Version: 1.1
+Date: 2012-07-23
+Title: Method Comparison Regression
+Author: Ekaterina Manuilova <ekaterina.manuilova@contractors.roche.com>
+        Andre Schuetzenmeister <andre.schuetzenmeister@roche.com>
+        Fabian Model <fabian.model@roche.com>
+Maintainer: Fabian Model <fabian.model@roche.com>
+Depends: R (>= 2.11.1), methods
+Description: This package provides regression methods to quantify the
+        relation between two measurement methods. In particular it
+        addresses regression problems with errors in both variables and
+        without repeated measurements. It implements the CLSI
+        recommendations for analytical method comparison and bias
+        estimation using patient samples.
+License: GPL (>= 3)
+Collate: "mcrMisc.r" "mcLinReg.r" "mcDeming.r" "mcWDeming.r"
+        "mcPaBaLarge.r" "mcPaBa.r" "mcCalcCI.r" "mcCalcTstar.r"
+        "mcBootstrap.r" "MCResultMethods.r" "MCResult.r"
+        "MCResultAnalyticalMethods.r" "MCResultAnalytical.r"
+        "MCResultJackknifeMethods.r" "MCResultJackknife.r"
+        "MCResultResamplingMethods.r" "MCResultResampling.r"
+        "MCResultBCaMethods.r" "MCResultBCa.r" "mcrInterface.r"
+        "mcrCompareFit.r" "mcrIncludeLegend.r" "zzz.r"
+Packaged: 2012-07-24 17:48:31 UTC; modelf
+Repository: CRAN
+Date/Publication: 2012-07-24 18:35:07

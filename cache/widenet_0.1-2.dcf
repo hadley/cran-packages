@@ -1,0 +1,16 @@
+Package: widenet
+Type: Package
+Title: Penalized Regression with Polynomial Basis Expansions
+Version: 0.1-2
+Date: 2013-07-29
+Author: Stephan Ritter, Alan Hubbard
+Maintainer: Stephan Ritter <sritter@berkeley.edu>
+Depends: glmnet, relaxnet
+Suggests: genefilter, parallel
+Description: Extends the glmnet and relaxnet packages with polynomial basis expansions. Basis expansion is applied to the predictors and a subset of the basis functions is chosen using relaxnet. Predictors may be screened using correlation or t-tests. Screening is done separately within cross-validation folds. Cross-validation may be used to select the order of basis expansion and alpha, the elastic net tuning parameter.
+License: GPL (>= 2)
+URL: http://cran.r-project.org/package=widenet
+Packaged: 2013-07-29 15:48:43 UTC; sritter
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-29 21:30:08

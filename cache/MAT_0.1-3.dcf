@@ -1,0 +1,15 @@
+Package: MAT
+Type: Package
+Title: Multidimensional Adaptive Testing (MAT)
+Version: 0.1-3
+Date: 2011-01-25
+Author: Seung W. Choi
+Maintainer: Seung W. Choi <s-choi@northwestern.edu>
+Description: Simulate Multidimensional Adaptive Testing for the
+        Multidimensional 3-Parameter Logistic (M3PL) model
+Depends: R (>= 2.7.0), MASS
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-01-26 04:55:18 UTC; Seung Choi
+Repository: CRAN
+Date/Publication: 2011-01-26 08:24:22

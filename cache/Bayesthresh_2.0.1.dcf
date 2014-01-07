@@ -1,0 +1,21 @@
+Package: Bayesthresh
+Version: 2.0.1
+Date: 2012-11-14
+Title: Bayesian thresholds mixed-effects models for categorical data
+Author: Fabio Mathias Correa <fmcorrea@uesc.br> and Julio Silvio de
+        Sousa Bueno Filho <juliobuenof@gmail.com>
+Maintainer: Fabio Mathias Correa <fmcorrea@uesc.br>
+Description: This package fits a linear mixed model for ordinal
+        categorical responses using Bayesian inference via Monte Carlo
+        Markov Chains. Default is Nandran & Chen algorithm using
+        Gaussian link function and saving just the summaries of the
+        chains.  Among the options, package allow for two other options
+        of algorithms, for using Student's "t" link function and for
+        saving the full chains.
+Depends: R(>= 2.15.2), lme4 (>= 0.999375-35), MASS, VGAM, mvtnorm,
+        matrixcalc, coda
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2013-03-26 12:05:55
+Packaged: 2013-03-26 08:42:17 UTC; raquel
+NeedsCompilation: yes

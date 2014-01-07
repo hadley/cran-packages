@@ -1,0 +1,20 @@
+Package: robustX
+Type: Package
+Title: eXperimental Functionality for Robust Statistics
+Version: 1.1-4
+Date: 2013-03-28
+Author: Werner Stahel, Martin Maechler and potentially others
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: eXperimental, eXtraneous, or eXtraordinary Functionality
+        for Robust Statistics.  In other words, methods which are not
+        yet well established, often related to methods in package
+        robustbase.
+Depends: robustbase
+Suggests: MASS, lattice
+Enhances: ICS
+License: GPL (>= 2)
+Encoding: UTF-8
+Packaged: 2013-03-28 20:54:43 UTC; maechler
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-28 22:47:26

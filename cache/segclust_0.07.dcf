@@ -1,0 +1,11 @@
+Package: segclust
+Version: 0.07
+Date: 2008-02-08
+Title: SegClust : a package for Segmentation and Segmentation/Clustering.
+Author: Franck Picard <picard@biomserv.univ-lyon1.fr>
+Maintainer: Mark Hoebeke <Mark.Hoebeke@jouy.inra.fr>
+Depends: 
+SystemRequirements: libgsl (>= 1.4)
+Description: SegClust corresponds to the implementation of the statistical model described in : Picard et al., A segmentation/clustering model for the analysis of array CGH data. Biometrics, 63(3) 2007. Segmentation functions are also available (from Picard et al. A statistical approach for array CGH data analysis. BMC Bioinformatics. 2005 Feb 11;6:27).
+License: GPL version 2 or newer
+Packaged: Mon Feb 11 09:06:29 2008; mhoebeke

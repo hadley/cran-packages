@@ -1,0 +1,20 @@
+Package: rangeMapper
+Version: 0.0-4
+Date: 2010-May-13
+Title: A package for easy generation of biodiversity (species richness)
+        or life-history traits maps using species geographical ranges
+Author: Mihai Valcu <valcu@orn.mpg.de>, James Dale
+        <J.Dale@massey.ac.nz>
+Maintainer: Mihai Valcu <valcu@orn.mpg.de>
+Depends: R (>= 2.10.0), utils, RSQLite, sp, rgdal, maptools, lattice,
+        RColorBrewer, tcltk, tcltk2, pixmap, classInt
+Suggests: lme4
+SystemRequirements: Bwidget, Tktable
+Description: A package to manipulate species range
+        (extent-of-occurrence) maps, mainly tools for easy generation
+        of biodiversity (species richness) or life-history traits maps.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Packaged: 2010-05-13 13:43:38 UTC; pecs
+Repository: CRAN
+Date/Publication: 2010-05-16 16:20:55

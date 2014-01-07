@@ -1,0 +1,16 @@
+Package: msProstate
+Type: Package
+Title: Protein Mass Spectra Dataset from a Prostate Cancer Study
+Version: 1.0.1
+Date: 2008-06-01
+Author: Lixin Gong, William Constantine, and Alex Chen
+Maintainer: Lixin Gong <lgong@insightful.com>
+Depends: R (>= 2.5.0), RSQLite
+DependsSplus:
+Suggests: msProcess
+Description: This package provides a dataset of protein mass spectra 
+  generated from patients with prostate cancer, benign prostatic hypertrophy, 
+  and normal controls.
+License: GNU General Public License Version 2
+Copyright: 2007-2008 Insightful Corporation. All rights reserved.
+Packaged: Sun Jun  1 21:01:49 2008; lgong

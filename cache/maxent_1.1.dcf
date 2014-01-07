@@ -1,0 +1,20 @@
+Package: maxent
+Type: Package
+Title: Maximum entropy classifier for R
+Version: 1.1
+Date: 2011-07-28
+Author: Tim Jurka
+Maintainer: Tim Jurka <tpjurka@ucdavis.edu>
+Depends: R (>= 2.12.0), methods, Rcpp, SparseM, tm
+LinkingTo: Rcpp
+Description: maxent is an R package with tools for text classification
+        using multinomial logistic regression, also known as maximum
+        entropy. The focus of this maximum entropy classifier is to
+        minimize memory consumption on very large datasets,
+        particularly sparse document-term matrices represented by the
+        tm package.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-07-29 19:16:08 UTC; timjurka
+Repository: CRAN
+Date/Publication: 2011-07-30 06:33:01

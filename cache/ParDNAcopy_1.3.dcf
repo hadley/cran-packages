@@ -1,0 +1,17 @@
+Package: ParDNAcopy
+Type: Package
+Title: parallel implementation of the "segment" function of package
+        "DNAcopy"
+Version: 1.3
+Date: 2013-01-01
+Author: Alex krasnitz, Guoli Sun
+Maintainer: Guoli Sun <gsun@cshl.edu>
+Description: parallelized version of the "segment" function from
+        Bioconductor package "DNAcopy", utilizing multi-core
+        computation on host CPU
+License: GPL-2
+Depends: DNAcopy, parallel
+Packaged: 2013-06-25 16:44:22 UTC; gsun
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-27 18:56:45

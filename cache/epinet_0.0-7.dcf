@@ -1,0 +1,17 @@
+Package: epinet
+Version: 0.0-7
+Date: 2010-01-15
+Title: A collection of epidemic/network-related tools
+Author: Chris Groendyke <cxg928@psu.edu>, David Welch
+        <jdw21@stat.psu.edu>, David R. Hunter <dhunter@stat.psu.edu>,
+Maintainer: Chris Groendyke <cxg928@psu.edu>
+Depends:
+Suggests: network
+Description: A collection of epidemic/network-related tools. Simulates
+        transmission of diseases through contact networks. Performs
+        Bayesian inference on network and epidemic parameters, given
+        epidemic data.
+License: GPL-2
+Packaged: 2010-01-16 01:49:40 UTC; ChrisG
+Repository: CRAN
+Date/Publication: 2010-01-17 10:52:44

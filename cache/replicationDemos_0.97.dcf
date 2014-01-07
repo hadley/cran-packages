@@ -1,0 +1,20 @@
+Package: replicationDemos
+Version: 0.97
+Date: FebruaRY 28 2012
+Title: A set of demonstrations of debunking of flawed analytical
+        set-ups
+Author: Rasmus E. Benestad <rasmus.benestad@physics.org>
+Maintainer: Rasmus E. Benestad <rasmus.benestad@physics.org>
+Depends: clim.pact, cyclones, waveslim, lmtest, deSolve, R (>= 2.10)
+Suggests: ncdf, akima
+Description: A set of R-functions providing some demonstration of bad
+        methods, and hence debunks some claims made in the climate
+        science literature. Most of the flaws exposed are breaches of
+        common practice within statistics, and these demonstrations
+        show why such breaches result in invalid results.
+License: GPL (>= 2)
+URL: http://www.r-project.org http://cran.r-project.org
+ZipData: no
+Packaged: 2012-02-28 22:14:34 UTC; rasmus
+Repository: CRAN
+Date/Publication: 2012-02-29 08:24:27

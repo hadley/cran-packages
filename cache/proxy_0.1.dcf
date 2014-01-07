@@ -1,0 +1,13 @@
+Package: proxy
+Type: Package
+Title: Distance and Similarity Measures
+Version: 0.1
+Date: 2007-07-09
+Author: David Meyer and Christian Buchta
+Maintainer: David Meyer <David.Meyer@R-project.org>
+Description: Provides an extensible framework for the effcient calculation of auto- and cross-proximities, along with implementations of the most popular ones. 
+Depends: R (>= 2.4.0)
+Suggests: cba
+Collate: registry.R database.R dist.R similarities.R dissimilarities.R util.R seal.R
+License: GNU GENERAL PUBLIC LICENSE Version 2
+Packaged: Mon Jul  9 14:40:29 2007; meyer

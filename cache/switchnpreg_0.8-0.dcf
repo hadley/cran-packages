@@ -1,0 +1,18 @@
+Package: switchnpreg
+Type: Package
+Title: Switching nonparametric regression models for a single curve and
+        functional data
+Version: 0.8-0
+Date: 2013-07-10
+Author: Camila de Souza <camila@stat.ubc.ca> and Davor Cubranic <cubranic@stat.ubc.ca>
+Maintainer: Davor Cubranic <cubranic@stat.ubc.ca>
+Description: Functions for estimating the parameters from the latent
+  state process and the functions corresponding to the J states as
+  proposed by De Souza and Heckman (2013).
+License: GPL-3
+Depends: MASS, splines, fda
+Imports: expm, HiddenMarkov
+Packaged: 2013-07-10 23:27:38 UTC; davor
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-11 07:32:58

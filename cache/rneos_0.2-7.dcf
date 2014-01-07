@@ -1,0 +1,19 @@
+Package: rneos
+Version: 0.2-7
+Date: 2012-07-22
+Title: rneos: XML-RPC Interface to NEOS
+Authors@R: person("Bernhard", "Pfaff", email = "bernhard@pfaffikus.de",
+        role = c("aut", "cre"))
+Depends: R (>= 2.10.0), methods, XMLRPC, RCurl, XML, stats
+LazyLoad: yes
+Description: Within this package the XML-RPC API to NEOS is
+        implemented. This enables the user to pass optimization
+        problems to NEOS and retrieve results within R.
+License: GPL (>= 2)
+Author: Bernhard Pfaff [aut, cre]
+Maintainer: Bernhard Pfaff <bernhard@pfaffikus.de>
+Repository: CRAN
+Repository/R-Forge/Project: rneos
+Repository/R-Forge/Revision: 224
+Packaged: 2012-07-22 14:19:42 UTC; rforge
+Date/Publication: 2012-07-26 21:32:19

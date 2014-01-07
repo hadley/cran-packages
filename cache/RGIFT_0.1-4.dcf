@@ -1,0 +1,19 @@
+Package: RGIFT
+Version: 0.1-4
+Encoding: latin1
+Date: 2012-01-10
+Title: Create quizzes in GIFT Format
+Author: María José Haro-Delicado, Virgilio Gómez-Rubio and Francisco 
+  Parreño-Torres
+Maintainer: Virgilio Gómez-Rubio <virgilio.gomez@uclm.es>
+Depends: R (>= 2.10.0)
+Suggests: foreign
+Description: This package provides some functions to create quizzes
+  in the GIFT format. This format is used by several Virtual Learning
+  Environments such as Moodle.
+License: GPL (>= 2)
+URL: http://docs.moodle.org/21/en/GIFT_format
+Packaged: 2013-10-01 09:16:35 UTC; virgil
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-01 11:20:19

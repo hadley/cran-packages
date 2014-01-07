@@ -1,0 +1,18 @@
+Package: GWG
+Type: Package
+Title: Calculation of probabilities for inadequate and excessive
+        gestational weight gain
+Version: 1.0
+Date: 2013-01-17
+Author: Christina Riedel
+Maintainer: Christina Riedel <christina.riedel@med.uni-muenchen.de>
+Description: Based on calculations of 758 women this package calculates
+        positive predictive values (PPV) and negative predictive values
+        (NPV) for inadequate and excessive gestational weight gain
+        (GWG) for different prevalences for different BMI categories.
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+Packaged: 2013-01-17 08:49:04 UTC; Christina
+Repository: CRAN
+Date/Publication: 2013-01-17 11:27:33

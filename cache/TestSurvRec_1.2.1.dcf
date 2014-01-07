@@ -1,0 +1,18 @@
+Package: TestSurvRec
+Type: Package
+Title: Statistical tests to compare two survival curves with recurrent
+        events
+Version: 1.2.1
+Date: 2013-10-07
+Depends: survrec, boot, R(>= 3.0.2)
+Author: Dr. Carlos Martinez
+Maintainer: Carlos Martinez <cmmm7031@gmail.com>
+Description: These are weighted tests type logrank for recurrent events.
+License: GPL-2
+URL: http://www.r-project.org
+Encoding: latin1
+LazyLoad: yes
+Packaged: 2013-10-09 17:50:29 UTC; Carlos Martinez
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-10 15:13:22

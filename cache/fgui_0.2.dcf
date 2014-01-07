@@ -1,0 +1,13 @@
+Package: fgui
+Version: 0.2
+Date: 2007-10-23
+Title: Function GUI
+Author: Thomas Hoffmann
+Maintainer: Thomas Hoffmann <thoffman@hsph.harvard.edu>
+Imports: tcltk
+Suggests: tcltk
+Description: Rapidly create a GUI interface for a function you created by automatically creating widgets for arguments of the function. Automatically parses help routines for context-sensative help to these arguments. The interface essentially a wrapper to some tcltk routines to both simplify and facilitate GUI creation. More advanced tcltk routines/GUI objects can be incorporated into the interface for greater customization for the more experienced.
+License: GPL
+URL: http://www.people.fas.harvard.edu/~tjhoffm/fgui.html
+LazyLoad: true
+Packaged: Mon May 19 11:12:59 2008; merlin

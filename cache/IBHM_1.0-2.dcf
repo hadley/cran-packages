@@ -1,0 +1,17 @@
+Package: IBHM
+Type: Package
+Title: Approximation using the IBHM method
+Version: 1.0-2
+Date: 2013-03-23
+Author: Pawel Zawistowski
+Maintainer: Pawel Zawistowski <dratewka@gmail.com>
+Description: This package implements an incremental model construction
+        method called IBHM which stands for Incrementally Built
+        Heterogenous Model. The method is designed for solving real
+        number approximation problems in a highly automated fashion.
+License: GPL (>= 2)
+Depends: DEoptim (>= 2.2-1), cmaes (>= 1.0-11), compiler(>= 2.15.2)
+Packaged: 2013-03-24 03:47:10 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-24 04:49:48

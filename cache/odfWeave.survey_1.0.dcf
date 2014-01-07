@@ -1,0 +1,15 @@
+Package: odfWeave.survey
+Type: Package
+Title: Support for odfWeave on the survey package
+Version: 1.0
+Date: 2009-05-14
+Author: Thomas Lumley
+Maintainer: Thomas Lumley <tlumley@u.washington.edu>
+Description: Provides methods for odfTable() for objects in the survey
+        package.
+Depends: odfWeave, survey
+License: GPL-2
+LazyLoad: yes
+Packaged: 2009-05-18 17:10:55 UTC; tlumley
+Repository: CRAN
+Date/Publication: 2009-05-18 17:31:14

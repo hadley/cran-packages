@@ -1,0 +1,17 @@
+Package: ROCt
+Type: Package
+Title: Time-dependent ROC curve estimation and adaptation to the
+        relative survival context
+Version: 0.8
+Date: 2013-12-20
+Author: Y. Foucher, K. Trebern-Launay and M. Lorent
+Maintainer: Y. Foucher <Yohann.Foucher@univ-nantes.fr>
+Description: This package contains functions in order to estimate time-dependent ROC with right-censored data. More precisely, two functions concern the estimation of ROC curves defined by Heagerty, Lumley and Pepe (Biometrics, 2000). The two other functions concern their adaptation for studying the capacity of a marker to predict the excess of mortality of a specific population compared to the general population (same age, gender and calendar year). This last part is based on additive relative survival models and the work of Pohar-Perme (Biometrics, 2011).
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.10), splines, date, survival, relsurv
+URL: www.r-project.org, www.divat.fr
+Packaged: 2013-12-20 13:19:29 UTC; Yohann
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-20 14:59:10

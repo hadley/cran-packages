@@ -1,0 +1,18 @@
+Package: mice
+Type: Package
+Version: 2.0
+Title: Multivariate Imputation by Chained Equations
+Date: 2009-08-27
+Author: Stef van Buuren <stef.vanbuuren@tno.nl> & Karin
+        Groothuis-Oudshoorn <k.groothuis@rrd.nl>
+Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
+Depends: R (>= 2.4.0), MASS, nnet, nlme
+Suggests: VIM, lattice, mitools, Zelig
+Description: Multiple Imputation using Fully Conditional Specification
+License: GPL-2 | GPL-3
+LazyLoad: yes
+LazyData: yes
+URL: http://www.stefvanbuuren.nl; http://www.multiple-imputation.com
+Packaged: 2009-08-27 10:14:18 UTC; buurensv
+Repository: CRAN
+Date/Publication: 2009-08-27 10:42:00

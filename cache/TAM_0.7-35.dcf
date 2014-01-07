@@ -1,0 +1,32 @@
+Package: TAM
+Type: Package
+Title: Test Analysis Modules
+Version: 0.7-35
+Date: 2013-09-15
+Author: Thomas Kiefer, Alexander Robitzsch, Margaret Wu
+Maintainer: Alexander Robitzsch <a.robitzsch@bifie.at>
+Authors@R: c(person("Thomas", "Kiefer", role = c("aut", "cre"), email =
+        "t.kiefer@bifie.at"), person("Alexander", "Robitzsch", role =
+        c("aut"), email = "a.robitzsch@bifie.at"),
+        person("Margaret", "Wu", role = "aut"))
+Description: 
+  The package includes marginal and joint maximum likelihood
+  estimation of uni- and multidimensional item response models 
+  (Rasch,  2PL, Generalized Partial Credit, Rating Scale, Multi Facets),
+  fit statistics, standard error estimation, as 
+  well as plausible value imputation and weighted likelihood
+  estimation of ability. 
+Depends: R (>= 2.15.1), MASS
+Imports: mvtnorm, tensor, sfsmisc, GPArotation, psych
+Suggests: CDM, sirt
+LinkingTo: Rcpp, RcppArmadillo
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+URL: https://sites.google.com/site/irttam1/,
+        https://sites.google.com/site/alexanderrobitzsch/software,
+        http://www.edmeasurementsurveys.com/TAM/Tutorials/
+Packaged: 2013-09-15 15:53:59 UTC; robitzsch
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-15 18:26:37

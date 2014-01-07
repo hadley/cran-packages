@@ -1,0 +1,16 @@
+Package: CePa
+Type: Package
+Title: Centrality-based pathway enrichment
+Version: 0.3
+Date: 2012-06-29
+Author: Zuguang Gu
+Maintainer: Zuguang Gu <jokergoo@gmail.com>
+Depends: R (>= 2.10.0), igraph, stats
+Description: Use pathway topology information to assign weight to
+        pathway nodes.
+LazyLoad: yes
+URL: http://mcube.nju.edu.cn/jokergoo/
+License: GPL (>= 2)
+Packaged: 2012-06-29 14:24:15 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-06-29 15:51:07

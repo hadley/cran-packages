@@ -1,0 +1,19 @@
+Package: MIPHENO
+Version: 0.1
+Date: 2011-11-01
+Title: Mutant Identification through Phenotypic High throughput Enabled
+        NOrmalization
+Author: Shannon M. Bell <bell.shannonm@gmail.com>,  Lyle D. Burgoon <burgoon.lyle@epa.gov>
+Maintainer: Shannon M. Bell <bell.shannonm@gmail.com>
+Depends: R (>= 2.12.1)
+Imports: doBy, gdata
+LazyLoad: yes
+Description: This package contains functions to carry out processing of high throughput data analysis and detection of putative hits/mutants.
+    Contents include a function for post-hoc quality control for removal of outlier sample sets, a median-based normalization method for use in
+    datasets where there are no explicit controls and where most of the responses are of the wildtype/no response class (see accompanying paper).
+    The package also includes a way to prioritize individuals of interest using am empirical cumulative distribution function. Methods for 
+    generating synthetic data as well as data from the Chloroplast 2010 project are included.
+License: GPL (>= 3)
+Packaged: 2011-11-29 02:00:06 UTC; Shannon
+Repository: CRAN
+Date/Publication: 2011-11-29 06:57:26

@@ -1,0 +1,24 @@
+Package: integrativeME
+Type: Package
+Title: integrative mixture of experts
+Version: 1.2
+Date: 2009-09-29
+Depends: R (>= 2.10), mclust, mixOmics, randomForest
+Author: Kim-Anh Le Cao
+Maintainer: Kim-Anh Le Cao <k.lecao@uq.edu.au>
+Description: Mixture of experts models (Jacobs et al., 1991) were
+        introduced to account for nonlinearities and other complexities
+        in the data. It is based on a divide-and-conquer strategy.
+        Mixture of experts are of interest due to their wide
+        applicability and the advantages of fast learning via the
+        expectation-maximization (EM) algorithm. We have extended and
+        implemented mixture of experts to combine categorical clinical
+        factors and continuous microarray data in a binary
+        classification framework to analyze cancer studies. To provide
+        a hybrid signature of clinical factors and gene markers, we
+        propose to apply different gene selection procedures as a first
+        step.
+License: GPL (>= 2)
+Packaged: 2012-07-23 10:09:21 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-07-23 10:35:32

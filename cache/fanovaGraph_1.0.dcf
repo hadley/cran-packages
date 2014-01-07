@@ -1,0 +1,15 @@
+Package: fanovaGraph
+Type: Package
+Title: Building Kriging models from FANOVA graphs
+Version: 1.0
+Date: 2011-11-30
+Author: Jana Fruth, Thomas Muehlenstaedt, Olivier Roustant
+Maintainer: <fruth@statistik.tu-dortmund.de>
+Description: 
+License: GPL-3
+LazyLoad: yes
+Depends: sensitivity, igraph, DiceKriging (>= 1.2)
+Suggests: tcltk, manipulate
+Packaged: 2011-12-12 08:26:04 UTC; fruth
+Repository: CRAN
+Date/Publication: 2011-12-12 12:21:48

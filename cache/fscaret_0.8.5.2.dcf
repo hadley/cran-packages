@@ -1,0 +1,28 @@
+Package: fscaret
+Type: Package
+Title: Automated caret feature selection
+Version: 0.8.5.2
+Date: 2013-06-28
+Depends: R (>= 3.0.0), caret, gsubfn, utils, parallel
+Suggests: ada, affy, arm, Boruta, bst, C50, car, caTools, class,
+        Cubist, e1071, earth (>= 2.2-3), elasticnet, ellipse, evtree,
+        extraTrees, fastICA, foba, gam, gbm (>= 2.1), glmnet (>= 1.8),
+        gpls, grid, hda, HDclassif, HiDimDA, Hmisc, ipred, kernlab,
+        kknn, klaR, kohonen, KRLS, lars, leaps, LogicForest, logicFS,
+        LogicReg, MASS, mboost, mda, mgcv, mlbench, neuralnet, nnet,
+        nodeHarvest, obliqueRF, pamr, partDSA, party (>= 0.9-99992),
+        penalized, penalizedLDA, pls, pROC, proxy, qrnn,
+        quantregForest, randomForest, RANN, relaxo, rFerns, rocc,
+        rpart, rrcov, RRF, rrlda, RSNNS, RWeka (>= 0.4-1), sda, SDDA,
+        sparseLDA (>= 0.1-1), spls, stepPlr,superpc, vbmp
+Author: Jakub Szlek <j.szlek@uj.edu.pl>, acknowledgments to Aleksander
+        Mendyk, contributions from stackoverflow and
+        r-help@r-project.org mailing list community.
+Maintainer: Jakub Szlek <j.szlek@uj.edu.pl>
+License: GPL-2 | GPL-3
+Description: Automated feature selection using variety of models
+        provided by caret package
+Packaged: 2013-06-28 12:46:36 UTC; kuba
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-28 15:37:39

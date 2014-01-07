@@ -1,0 +1,23 @@
+Package: integrOmics
+Type: Package
+Title: Integrate Omics data project
+Version: 1.0
+Date: 2009-05-16
+Author: Sebastien Dejean, Ignacio Gonzalez and Kim-Anh Le Cao
+Maintainer: Kim-Anh Le Cao <k.lecao@uq.edu.au>
+Description: The package supplies two efficients nethodologies:
+        regularized CCA and sparse PLS to unravel relationships between
+        two heterogeneous data sets coming from high throughput
+        technologies, such as omics data such as transcriptomics,
+        metabolomics or proteomics data, but also other large data
+        sets. Both methodologies allow to integrate two data sets when
+        the two types of variables are measured on the same
+        observations (samples). rCCA is a regularized version of CCA to
+        deal with the large number of variables. sPLS allows variables
+        selection in a one step procedure and two frameworks are
+        proposed: regression and canonical analysis. Graphical outputs
+        are provided to help interpreting the results.
+License: GPL (>= 2)
+Packaged: 2009-05-15 23:26:10 UTC; k.lecao
+Repository: CRAN
+Date/Publication: 2009-05-17 16:22:01

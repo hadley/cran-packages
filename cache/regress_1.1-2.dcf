@@ -1,0 +1,11 @@
+Package: regress
+Version: 1.1-2
+Date: 2009-2-10
+Title: Gaussian linear models with linear covariance structure
+Author: David Clifford <david.clifford@csiro.au>, Peter McCullagh <pmcc@galton.uchicago.edu>
+Maintainer: David Clifford <david.clifford@csiro.au>
+Description: Functions to fit Gaussian linear model by maximising the residual log likelihood where the covariance structure can be written as a linear combination of known matrices.  Can be used for multivariate models and random effects models.  Easy straight forward manner to specify random effects models, including random interactions.
+License: GPL
+URL: http://www.csiro.au
+SystemRequirements:
+Packaged: Tue Feb 10 10:38:12 2009; cli065

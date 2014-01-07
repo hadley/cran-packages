@@ -1,0 +1,20 @@
+Package: prefmod
+Type: Package
+Title: Utilities to fit paired comparison models for preferences
+Version: 0.8-18
+Date: 2010-01-21
+Author: Reinhold Hatzinger
+Maintainer: Reinhold Hatzinger <reinhold.hatzinger@wu.ac.at>
+Depends: stats, gnm, colorspace
+Description: Generates design matrix for analysing real paired
+        comparisons and derived paired comparison data (Likert type
+        items / ratings or rankings) using a loglinear approach.  Fits
+        loglinear Bradley-Terry model (LLBT) exploting an eliminate
+        feature. Computes pattern models for paired comparisons,
+        rankings, and ratings.  Some treatment of missing values (MCAR
+        and MNAR). Fits latent class (mixture) models for paired
+        comparison, rating and ranking patterns.
+License: GPL
+Packaged: 2010-01-21 10:09:44 UTC; hatz
+Repository: CRAN
+Date/Publication: 2010-01-22 07:15:44

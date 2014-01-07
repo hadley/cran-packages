@@ -1,0 +1,45 @@
+Package: random.polychor.pa
+Type: Package
+Title: A Parallel Analysis With Polychoric Correlation Matrices
+Version: 1.1.3.1
+Date: 2011-09-02
+Author: Fabio Presaghi & Marta Desimoni
+Maintainer: Fabio Presaghi <fabio.presaghi@uniroma1.it>
+Description: The Function performs a parallel analysis using simulated
+        polychoric correlation matrices. The nth-percentile of the
+        eigenvalues distribution obtained from both the randomly
+        generated and the real data polychoric correlation matrices is
+        returned. A plot comparing the two types of eigenvalues (real
+        and simulated) will help determine the number of real
+        eigenvalues that outperform random data. The function is based
+        on the idea that if real data are non-normal and the polychoric
+        correlation matrix is needed to perform a Factor Analysis, then
+        the Parallel Analysis method used to choose a non-random number
+        of factors should also be based on randomly generated
+        polychoric correlation matrices and not on Pearson correlation
+        matrices. Version 1.1.1, fixed a minor bug in the regarding the
+        estimated time needed to complete the simulation. Also in this
+        version, the function is now able to manage supplied
+        data.matrix in which variables representing factors (i.e.,
+        variables with ordered categories) are present and may cause an
+        error when the Pearson correlation matrix is calculated.
+        Version 1.1.2 simply has updated the function that calculates
+        the polycoric correlation matrix due to changes in the psych()
+        package. Version 1.1.3 tackles two problems signalled by users:
+        1) the possibility to make available the results of simulation
+        for plotting them in other softwares. Now the
+        random.polychor.pa will show, upon request, all the data used
+        in the scree-plot.  2) The function polichoric() of the psych()
+        package does not handle data matrices that include 0 as
+        possible category and will cause the function to stop with
+        error. So a check for the detection of the 0 code within the
+        provided data.matrix is now added and will cause the
+        random.polychor.pa function to stop with a warning message.
+Depends: psych, nFactors
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Encoding: latin1
+Repository: CRAN
+Date/Publication: 2011-11-07 14:05:32
+Packaged: 2011-11-07 07:47:26 UTC; root

@@ -1,0 +1,18 @@
+Package: ESPRESSO
+Type: Package
+Title: Power Analysis and Sample Size Calculation
+Version: 1.1
+Date: 2011-04-01
+Author: Amadou Gaye, Paul Burton
+Maintainer: Amadou Gaye <ag239@le.ac.uk>
+Description: The package allows for the Estimation of Sample-size and
+        Power by Exploring Simulated Study Outcomes. It supports
+        simulation-based power calculation for stand-alone case-control
+        studies and for case-control analyses nested in cohort studies,
+        that take account of realistic assessment error.
+Depends: MASS
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:00 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:00

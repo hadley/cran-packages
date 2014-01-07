@@ -1,0 +1,11 @@
+Package: ic50
+Title: Standardized high-throughput evaluation of cell-based compound screens
+Version: 1.4.1
+Date: 2008-12-05
+Depends: tcltk
+Author: Peter Frommolt
+Maintainer: Peter Frommolt <peter.frommolt@uni-koeln.de>
+Description: Calculation of IC50 values, automatic drawing of dose-response curves and validation of compound screens on 96- and 384-well plates.
+License: GPL
+URL: http://ccg.uni-koeln.de/
+Packaged: Fri Dec  5 18:39:21 2008; peter

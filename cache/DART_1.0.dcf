@@ -1,0 +1,18 @@
+Package: DART
+Type: Package
+Title: Denoising Algorithm based on Relevance network Topology
+Version: 1.0
+Date: 2011-05-09
+Author: Yan Jiao, Andrew E Teschendorff
+Depends: igraph,DARTData
+Maintainer: <Y.Jiao@ucl.ac.uk>
+Description: Denoising Algorithm based on Relevance network Topology is
+        an algorithm evaluating the consistency of perturbation gene
+        signature in molecular tumour profiles, which may improve the
+        subsequent inference of pathway activity in clinical tumour
+        specimens.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-05-25 21:32:11 UTC; rmhkyji
+Repository: CRAN
+Date/Publication: 2011-05-26 05:31:54

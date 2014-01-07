@@ -1,0 +1,16 @@
+Package: FunCluster
+Version: 1.0
+Date: 2006-03-01
+Title: Functional Profiling of cDNA Microarray Expression Data
+Author: Corneliu Henegar <corneliu@henegar.info>
+Maintainer: Corneliu Henegar <corneliu@henegar.info>
+Depends: R (>= 2.0.0), Hmisc, cluster
+Description: FunCluster performs a functional analysis of microarray data based 
+		Gene Ontology & KEGG functional annotations. Based on expression
+		data and functional annotations FunCluster builds classes of 
+		putatively co-regulated biological processes through a specially 
+		designed clustering procedure involving functional annotations
+		and expression data.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://corneliu.henegar.info/FunCluster.htm 
+Packaged: Thu Mar  2 22:38:31 2006; root

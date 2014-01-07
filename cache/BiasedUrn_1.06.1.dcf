@@ -1,0 +1,19 @@
+Package: BiasedUrn
+Type: Package
+Title: Biased Urn model distributions
+Version: 1.06.1
+Date: 2013-11-09
+Author: Agner Fog
+Maintainer: Agner Fog <agner@agner.org>
+Description: Statistical models of biased sampling in the form of 
+  univariate and multivariate noncentral hypergeometric distributions, 
+  including Wallenius' noncentral hypergeometric distribution and
+  Fisher's noncentral hypergeometric distribution 
+  (also called extended hypergeometric distribution).  
+  See vignette("UrnTheory") for explanation of these distributions.
+License: GPL-3
+URL: http://www.agner.org/random/ http://www.r-project.org
+Packaged: 2013-12-29 08:38:57 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-29 09:43:58

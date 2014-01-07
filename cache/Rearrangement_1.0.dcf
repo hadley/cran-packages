@@ -1,0 +1,21 @@
+Package: Rearrangement
+Type: Package
+Title: Monotonize point and interval functional estimates by
+        rearrangement
+Version: 1.0
+Date: 2011-09-11
+Author: Wesley Graybill, Mingli Chen, Victor Chernozhukov, Ivan
+        Fernandez-Val, Alfred Galichon
+Maintainer: Ivan Fernandez-Val <ivanf@bu.edu>
+Description: This package implements the rearrangement operator (Hardy,
+        Littlewood, and Polya 1952) for univariate, bivariate, and
+        trivariate point estimates of monotonic functions. It
+        additionally provides a function that creates simultaneous
+        confidence intervals for univariate functions and applies the
+        rearrangement operator to these confidence intervals.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: quantreg, splines
+Packaged: 2012-10-29 08:57:37 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:37

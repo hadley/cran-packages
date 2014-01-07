@@ -1,0 +1,20 @@
+Package: RcmdrPlugin.lfstat
+Type: Package
+Title: Rcmdr Plug-In for low flow analysis
+Version: 0.3
+Date: 2013-04-04
+Author: Daniel Koffler and Gregor Laaha
+Maintainer: Daniel Koffler <daniel.koffler@boku.ac.at>
+Depends: R (>= 2.14.0), lfstat
+Imports: Rcmdr (>= 1.9-5)
+Description: This package provides an Rcmdr "plug-in" based on the
+        lfstat package for low flow analysis.
+License: GPL (>= 2)
+RcmdrModels:
+Repository: CRAN
+Repository/R-Forge/Project: lfstat
+Repository/R-Forge/Revision: 31
+Repository/R-Forge/DateTimeStamp: 2013-04-05 07:40:11
+Date/Publication: 2013-04-15 10:20:31
+Packaged: 2013-04-09 19:16:18 UTC; rforge
+NeedsCompilation: no

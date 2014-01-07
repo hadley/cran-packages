@@ -1,0 +1,16 @@
+Package: polycor
+Title: Polychoric and Polyserial Correlations
+Date: 2010/03/25
+Version: 0.7-8
+Depends: R (>= 1.9.0), mvtnorm, sfsmisc
+Author: John Fox
+Description: Computes polychoric and polyserial correlations by quick
+        "two-step" methods or ML, optionally with standard errors;
+        tetrachoric and biserial correlations are special cases.
+Maintainer: John Fox <jfox@mcmaster.ca>
+License: GPL (>= 2)
+Repository: CRAN
+Repository/R-Forge/Project: polycor
+Repository/R-Forge/Revision: 6
+Date/Publication: 2010-04-03 07:59:45
+Packaged: 2010-03-25 21:46:10 UTC; rforge

@@ -1,0 +1,55 @@
+Package: RcmdrPlugin.EZR
+Type: Package
+Title: R Commander Plug-in for the EZR (Easy R) Package
+Version: 1.20
+Date: 2013-11-01
+Author: Yoshinobu Kanda
+Maintainer: Yoshinobu Kanda <ycanda-tky@umin.ac.jp>
+Depends: R (>= 3.00)
+Imports: Rcmdr (>= 2.0.0)
+Suggests: abind, aod, aplpack, car, clinfun, cmprsk, foreign, meta,
+        metatest, multcomp, mvtnorm, optmatch, pROC, RODBC, XLConnect
+Description: EZR (Easy R) adds a variety of statistical functions,
+        including survival analyses, ROC analyses, metaanalyses, sample
+        size calculation, and so on, to the R commander. EZR enables
+        point-and-click easy access to statistical functions,
+        especially for medical statistics. EZR is platform-independent
+        and runs on Windows, Mac OS X, and UNIX. Its complete manual is
+        available only in Japanese (Chugai Igakusha, ISBN-10:
+        4498109007), but an report that introduced the investigation of
+        EZR was published in Bone Marrow Transplantation (Nature
+        Publishing Group) as an Open article. This report can be used
+        as a simple manual. It can be freely downloaded from the
+        journal website as shown below.
+Copyright: The functionos in EZR package were programmed by Y. Kanda,
+        except for the following functions. dot.plot(), prop.conf(),
+        Cochran.Q.test(), pairwise.prop2.test(),
+        pairwise.pairedt.test(), pairwise.kruskal.test(),
+        pairwise.friedman.test(), pairwise.logrank.test(),
+        pairwise.gray.test(), Steel.Dwass(), Steel(), pdunnet(),
+        Mantel.Byar() were modified from the corresponding functions
+        distributed by professor Aoki
+        (http://aoki2.si.gunma-u.ac.jp/R). crr() and cuminc() were
+        derived from cmprsk package. nrisk() was modified from survplot
+        package (http://www.cbs.dtu.dk/~eklund/survplot/). epi.test()
+        and epi.kappa() were derived from epiR package.
+        jonckheere.test(), ph2simon() and ph2single() were derived from
+        clinfun package. Functions of meta-analysis were derived from
+        meta and metatest packages. Functions of matched-pair analysis
+        were derived from optmatch package, and its license restricts
+        to academic use. See
+        http://cran.r-project.org/web/packages/optmatch/LICENSE for
+        details. The package must be installed before performing
+        matched-pair analysis, assuming the user is covered by the
+        license. Functions of receiver-operating characteristics curve
+        analyses were derived from pROC package. Many dialog functions
+        in EZR were modified from the corresponding functions in Rcmdr
+        package and RcmdrPlugin.survivalT package.
+License: GPL (>= 2)
+URL:
+        http://www.nature.com/bmt/journal/vaop/ncurrent/pdf/bmt2012244a.pdf
+        http://www.jichi.ac.jp/saitama-sct/SaitamaHP.files/statmedEN.html
+Packaged: 2013-11-11 10:07:53 UTC; Yoshinobu_Kanda
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-11 11:24:01

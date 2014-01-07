@@ -1,0 +1,15 @@
+Package: EvalEst
+Title: Dynamic Systems Estimation - extensions
+Description: Multivariate Time Series - extensions.See ?00dse-Intro for
+        more details.
+Depends: R (>= 2.5.0), setRNG, tframe (>= 2007.5-3), dse (>= 2007.10-1)
+Version: 2009.10-2
+Date: 2009-10-16
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: 2009-10-17 01:43:01 UTC; paul
+Repository: CRAN
+Date/Publication: 2009-10-18 10:03:32

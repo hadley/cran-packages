@@ -1,0 +1,18 @@
+Package: pamm
+Type: Package
+Title: Power analysis for random effects in mixed models
+Version: 0.5
+Date: 2008-11-24
+Author: Julien Martin
+Maintainer: Julien Martin <julien.martin2@usherbrooke.ca>
+Description: Simulation functions to assess or explore the power of a
+        dataset to estimates significant random effects (intercept or
+        slope) in a mixed model. The functions are based on the "lme4"
+        package.
+License: GPL (>= 2)
+Depends: R (>= 2.4.0),lme4, mvtnorm, gmodels
+Suggests: rgl
+LazyLoad: yes
+Packaged: Sun Oct 4 11:14:31 2009; MiaToufou
+Repository: CRAN
+Date/Publication: 2009-10-04 15:43:36

@@ -1,0 +1,20 @@
+Package: DART
+Type: Package
+Title: Denoising Algorithm based on Relevance network Topology
+Version: 1.1
+Date: 2011-08-23
+Author: Yan Jiao, Andrew E Teschendorff
+Depends: R (>= 2.10.0), igraph
+Maintainer: <a.teschendorff@ucl.ac.uk>
+Description: Denoising Algorithm based on Relevance network Topology
+        (DART) is an algorithm designed to evaluate the consistency of
+        prior information molecular signatures (e.g in-vitro
+        perturbation expression signatures) in independent molecular
+        data (e.g gene expression data sets). If consistent, a pruning
+        network strategy is then used to infer the activation status of
+        the molecular signature in individual samples.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-08-24 21:37:15 UTC; aet21
+Repository: CRAN
+Date/Publication: 2011-08-25 04:34:27

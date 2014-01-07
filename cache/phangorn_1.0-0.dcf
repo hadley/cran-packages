@@ -1,0 +1,16 @@
+Package: phangorn
+Title: Phylogenetic analysis in R
+Version: 1.0-0
+Date: 2010-03-18
+Author: Klaus Schliep
+Description: Phylogenetic analysis in R (Estimation of phylogenetic
+        trees and networks using Maximum Likelihood, Maximum Parsimony,
+        Distance methods & Hadamard conjugation)
+Maintainer: Klaus Schliep <klaus.schliep@gmail.com>
+Imports: ape, stats
+Suggests: multicore
+Depends: quadprog, ape (>= 2.5)
+License: GPL (>= 2)
+Packaged: 2010-03-18 15:47:12 UTC; kschliep
+Repository: CRAN
+Date/Publication: 2010-03-18 19:15:59

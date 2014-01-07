@@ -1,0 +1,14 @@
+Package: Geneland
+Title: Detection of structure from multilocus genetic data.
+Author: Arnaud Estoup, Gilles Guillot, Filipe Santos
+Description: Stochastic simulation and MCMC inference of structure from
+        genetic (optionnaly georeferenced) data
+Maintainer: Gilles Guillot <gigu@imm.dtu.dk>
+URL: http://www2.imm.dtu.dk/~gigu/Geneland/
+License: GPL
+Version: 3.1.5
+Date: Fri Oct 2 11:09:14 2009
+Depends: RandomFields,fields,mapproj,maps,snow,tcltk
+Packaged: 2009-10-02 09:09:17 UTC; gilles
+Repository: CRAN
+Date/Publication: 2009-10-02 13:40:29

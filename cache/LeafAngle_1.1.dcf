@@ -1,0 +1,18 @@
+Package: LeafAngle
+Type: Package
+Title: Fits, plots, and summarizes leaf angle distributions.
+Version: 1.1
+Date: 2012-05-18
+Author: Remko Duursma
+Maintainer: <remkoduursma@gmail.com>
+Description: A leaf angle distribution is a special distribution that
+        is defined between 0 and 90 degrees, and a number of
+        distributions are used to characterize the leaf angle
+        distribution in real plant canopies. This package includes
+        methods to fit distributions to data, visualize the fit, and
+        compare fits of nine different distributions.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-05-18 08:24:25 UTC; 30022860
+Repository: CRAN
+Date/Publication: 2012-05-18 08:46:20

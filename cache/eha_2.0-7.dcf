@@ -1,0 +1,21 @@
+Encoding: UTF-8
+Package: eha
+Version: 2.0-7
+Date: 2012-01-03
+Title: Event History Analysis
+Description: Event history analysis: Sampling of risk sets in Cox regression, 
+	     selections in the Lexis diagram, bootstrapping. Parametric 
+	     proportional hazards fitting with left truncation and right 
+	     censoring for common families of distributions, piecewise 
+	     constant hazards, and discrete models. AFT regression for 
+	     left truncated and right censored data. Binary and Poisson 
+ 	     regression for clustered data, fixed and random effects with 
+	     bootstrapping.
+Enhances: survival, stats
+License: GPL (>= 3)
+Author: Göran Broström
+Depends: R (>= 2.13.0), stats, graphics, utils, survival
+Maintainer: Göran Broström <gb@stat.umu.se>
+Packaged: 2012-01-03 18:41:33 UTC; gb
+Repository: CRAN
+Date/Publication: 2012-01-05 21:37:45

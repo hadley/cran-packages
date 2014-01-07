@@ -1,0 +1,17 @@
+Package: WDI
+Type: Package
+Title: World Development Indicators (World Bank)
+Version: 0.1.4
+Date: 2011-03-19
+Author: Vincent Arel-Bundock <varel@umich.edu>
+Maintainer: Vincent Arel-Bundock <varel@umich.edu>
+Description: Search, extract and format data from the World Bank's
+        World Development Indicators
+License: GPL-3
+LazyLoad: yes
+LazyData: yes
+Depends: XML
+URL: http://www.umich.edu/~varel/
+Repository: CRAN
+Packaged: 2011-03-19 19:47:58 UTC; vincent
+Date/Publication: 2011-03-20 06:54:04

@@ -1,0 +1,17 @@
+Package: ncvar
+Version: 1.0-2
+Date: 2004-09-25
+Title: High-level R Interface to NetCDF Datasets
+Author:  Juerg Schmidli
+Maintainer: Juerg Schmidli <juerg.schmidli@env.ethz.ch>
+Depends: R (>= 1.7), RNetCDF
+Description: This package provides a high-level R interface to Unidata's NetCDF
+    data files. Using this package netCDF datasets, and all their
+    associated metadata, can be read and written in one go. It is also
+    easy to create datasets including lots of metadata.
+    This package supports both the CF and default NetCDF metadata conventions.
+    This package
+    supports more general NetCDF files and conventions than the ncdf
+    package by David Pierce. It uses the low-level NetCDF package
+    RNetCDF by Pavel Michna.
+License: GPL version 2 or newer 

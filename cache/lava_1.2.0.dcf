@@ -1,0 +1,40 @@
+Package: lava
+Type: Package
+Title: Linear Latent Variable Models
+Version: 1.2.0
+Date: 2013-04-14
+Author: Klaus K. Holst
+Maintainer: Klaus K. Holst <kkho@biostat.ku.dk>
+Description: Estimation and simulation of latent variable models
+Depends: R (>= 2.14), numDeriv
+Suggests: graph, Rgraphviz, igraph (>= 0.6), Matrix, lme4, geepack, gof
+        (>= 0.8), foreach, survival, testthat
+License: GPL-3
+LazyLoad: yes
+Collate: 'addattr.R' 'addvar.R' 'baptize.R' 'bootstrap.R' 'cancel.R'
+        'children.R' 'cluster.hook.R' 'coef.R' 'compare.R' 'confint.R'
+        'constrain.R' 'copy.R' 'correlation.R' 'covariance.R' 'deriv.R'
+        'describecoef.R' 'distribution.R' 'effects.R' 'endogenous.R'
+        'equivalence.R' 'estimate.multigroup.R' 'estimate.R'
+        'exogenous.R' 'finalize.R' 'fix.R' 'fixsome.R' 'formula.R'
+        'functional.R' 'glmest.R' 'gof.R' 'graph2lvm.R' 'graph.R'
+        'heavytail.R' 'index.sem.R' 'information.R' 'iv.R' 'kill.R'
+        'labels.R' 'latent.R' 'lava-package.R' 'lisrel.R' 'logLik.R'
+        'logo.R' 'lvm.R' 'makemissing.R' 'manifest.R' 'matrices.R'
+        'measurement.R' 'merge.R' 'missingMLE.R' 'model.frame.R'
+        'modelPar.R' 'model.R' 'modelsearch.R' 'modelVar.R' 'moments.R'
+        'multigroup.R' 'nested.R' 'nodecolor.R' 'Objective.R'
+        'onload.R' 'optims.R' 'parameter.R' 'parlabels.R' 'parpos.R'
+        'pars.R' 'partialcor.R' 'path.R' 'plot.R' 'predict.R' 'print.R'
+        'profile.R' 'randomslope.R' 'regression.R' 'reorder.R'
+        'residuals.R' 'score.R' 'sim.R' 'startvalues.R' 'subgraph.R'
+        'subset.R' 'summary.R' 'survival.R' 'variances.R' 'vars.R'
+        'vcov.R' 'weight.R' 'addhook.R' 'eventTime.R' 'utils.R'
+        'zblockdiag.R' 'zCol.R' 'zcommutation.R' 'zconfband.R' 'zId.R'
+        'zplotConf.R' 'zrevdiag.R' 'ztr.R' 'zoperators.R' 'zmypal.R'
+        'ztoformula.R' 'zdevcoords.R' 'curereg.R' 'estimate.default.R'
+        'iid.R' 'transform.R'
+Packaged: 2013-04-23 11:25:02 UTC; klaus
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-24 22:56:37

@@ -1,0 +1,19 @@
+Package: dcemri
+Version: 0.1.4
+Date: 2009-08-25
+Title: A Package for Medical Image Analysis
+Author: Brandon Whitcher <bjw34032@users.sourceforge.net> and Volker
+        Schmid <volkerschmid@users.sourceforge.net>, with contributions
+        from Andrew Thornton <zeripath@users.sourceforge.net>
+Maintainer: Brandon Whitcher <bjw34032@users.sourceforge.net>
+Depends: R (>= 2.6.0), graphics, grDevices
+Suggests: bitops, minpack.lm, multicore, splines
+Description: A collection of routines and documentation that allows one
+        to perform a quantitative analysis of dynamic contrast-enhanced
+        or diffusion-weighted MRI data.  Medical imaging data should be
+        organized using either the Analyze or NIfTI data formats.
+License: BSD
+URL: http://www.dcemri.org/, http://dcemri.sourceforge.net/
+Packaged: 2009-08-26 13:55:36 UTC; bjw34032
+Repository: CRAN
+Date/Publication: 2009-08-27 07:40:38

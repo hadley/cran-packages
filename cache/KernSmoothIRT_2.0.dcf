@@ -1,0 +1,15 @@
+Package: KernSmoothIRT
+Type: Package
+Title: Nonparametric Item Reponse Theory
+Version: 2.0
+Date: 2011-06-02
+Author: Angelo Mazza, Antonio Punzo, Brian McGuire
+Maintainer: Brian McGuire <mcguirebc@gmail.com>
+Description: This package fits nonparametric item and option characteristic curves using kernel smoothing. It allows for optimal selection of the smoothing bandwidth using cross-validation and a variety of exploratory plotting tools.
+License: GPL-2
+LazyLoad: yes
+Depends: Rcpp, plotrix, rgl
+LinkingTo: Rcpp
+Packaged: 2011-12-15 17:57:08 UTC; brian
+Repository: CRAN
+Date/Publication: 2011-12-16 17:47:55

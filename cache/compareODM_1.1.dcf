@@ -1,0 +1,15 @@
+Package: compareODM
+Type: Package
+Title: comparison of medical forms in CDISC ODM format
+Version: 1.1
+Date: 2012-06-12
+Author: Martin Dugas
+Maintainer: Martin Dugas <dugas@uni-muenster.de>
+Depends: R (>= 2.15.0), XML
+Description: Input: 2 ODM files (ODM version 1.3) Output: list of
+        identical, matching, similar and differing data items
+License: GPL
+LazyLoad: yes
+Packaged: 2012-06-12 09:53:36 UTC; dugasmar
+Repository: CRAN
+Date/Publication: 2012-06-12 19:52:51

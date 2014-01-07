@@ -1,0 +1,12 @@
+Package: mvbutils
+Version: 2.2.0
+Author: Mark V. Bravington <mark.bravington@csiro.au>
+Maintainer: Mark V. Bravington <mark.bravington@csiro.au>
+Depends: R (>= 2.7), utils, tools
+Date: 4/11/2008
+Title: Workspace organization; transparent lazy-loading; better editing & backup; easy documentation; easy package preparation; misc utils
+Description: Hierarchical workspace tree, per-object lazy-loading, code editing and backup, sourcing, easy documentation (formal and informal), easy package preparation, editing of "live" packages, macro functions, and miscellaneous utilities. Needed by debug package.
+LazyLoad: no
+License: GPL version 2 or later
+ChangeLog: inst/changes.txt
+Packaged: Thu Nov  6 18:10:15 2008; bra381

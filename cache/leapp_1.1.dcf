@@ -1,0 +1,22 @@
+Package: leapp
+Version: 1.1
+Date: 2013-01-05
+Title: latent effect adjustment after primary projection
+Author: Yunting Sun <yunting.sun@gmail.com> , Nancy R.Zhang
+        <nzhang@stanford.edu>, Art B.Owen <owen@stanford.edu>
+Maintainer: Yunting Sun <yunting.sun@gmail.com>
+Description: These functions take a gene expression value matrix, a
+        primary covariate vector, an additional known covariates
+        matrix.  A two stage analysis is applied to counter the effects
+        of latent variables on the rankings of hypotheses.  The
+        estimation and adjustment of latent effects are proposed by
+        Sun, Zhang and Owen (2011).  "leapp" is developed in the
+        context of microarray experiments, but may be used as a general
+        tool for high throughput data sets where dependence may be
+        involved.
+Depends: R (>= 2.2.1), sva, MASS
+License: GPL (>= 2)
+Packaged: 2014-01-06 19:24:42 UTC; ytsun
+Repository: CRAN
+Date/Publication: 2014-01-06 21:01:28
+NeedsCompilation: no

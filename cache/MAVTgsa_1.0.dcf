@@ -1,0 +1,21 @@
+Package: MAVTgsa
+Type: Package
+Title: Ordinary least square test and Multivariate Analysis Of Variance
+        test with n contrasts
+Version: 1.0
+Date: 2012-02-07
+Author: Chih-Yi Chien, Chen-An Tsai, Ching-Wei Chang, and James J. Chen
+Maintainer: Chih-Yi Chien <chihyi.chien@fda.hhs.gov>
+Depends: R (>= 2.13.2), MASS, corpcor(>= 1.6.0), multcomp(>= 1.2-7)
+Description: A gene set analysis functions for one-sided test (OLS) and
+        two-sided test (multivariate analysis of variance).  If the
+        experimental conditions are equal to 2, the p-value for
+        Hotelling's t^2 test is calculated.  If the experimental
+        conditions are great than 2, the p-value for Wilks' Lambda is
+        deterimined and post-hoc test is reported too.  The p-value for
+        individual gene test of significant gene sets are also listed.
+License: GPL-2
+LazyData: Yes
+Repository: CRAN
+Packaged: 2012-02-16 15:12:03 UTC; pelly
+Date/Publication: 2012-02-16 19:10:28

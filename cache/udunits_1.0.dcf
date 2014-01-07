@@ -1,0 +1,22 @@
+Package: udunits
+Title: interface to Unidata's routines to convert units
+Maintainer: David Pierce <dpierce@ucsd.edu>
+Version: 1.0
+Author: David Pierce
+Description: This package provides an R interface to the Unidata
+  udunits library routines, which can convert quantities between various units.
+  Units are indicated by human-readable strings, such as "m/s", "J",
+  "kg", or "in".  Routines for converting any quantity in known units
+  to other compatible units are provided.  Of particular use are the
+  time and calendar conversion routines.  Calendar dates are given
+  with units such as "days since 1900-01-01", for example.  Values with
+  this unit can be converted to normal, readable calendar dates.  This
+  will let you find that "32018 days since 1900-01-01" is actually
+  31 Aug 1987.  These routines follow the library's C interface, so consult that
+  section of Unidata's udunits manual for reference.  Here are some
+  example formatted units strings that can be used: "10 kilogram.meters/seconds2",
+  "10 kg-m/sec2", "10 kg m/s^2", "(PI radian)2", "degF", "degC", "100rpm",
+  "geopotential meters", "33 feet water".  Note that the udunits library
+  must already be installed on your machine for this package to work.
+License: GPL version 2 or newer
+URL: http://www.unidata.ucar.edu/packages/udunits/

@@ -1,0 +1,11 @@
+Package: bootspecdens
+Type: Package
+Title: Testing equality of spectral densities
+Version: 1.0
+Date: 2009-01-11
+Author: Tatjana Kinsvater
+Maintainer: Tatjana Kinsvater <tatjana.kinsvater@rub.de>
+Description: Bootstrap for testing the hypothesis that the spectral densities of a number m, m>=2, not necessarily independent time series are equal
+Depends: MASS
+License: GPL vesion 2 or later
+Packaged: Tue Jan 20 22:14:13 2009; Acer

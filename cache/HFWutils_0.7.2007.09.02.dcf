@@ -1,0 +1,13 @@
+Package: HFWutils
+Version: 0.7.2007.09.02
+Date: 2007-09-02
+Title: excel connections, garbage collection,string matching and passing by reference
+Author: Felix Wittmann <hfwittmann@gmail.com>
+Maintainer: Felix Wittmann <hfwittmann@gmail.com>
+LazyLoad: yes
+ZipData: no
+Depends: R (>= 2.3.1),debug,grDevices,methods,R.oo
+Description: package containing functions for excel connections and string matching
+ and passing by reference
+License: GPL (version 2 or later)
+Packaged: Sun Sep  2 17:47:19 2007; root

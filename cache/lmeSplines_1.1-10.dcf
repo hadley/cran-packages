@@ -1,0 +1,17 @@
+Package: lmeSplines
+Version: 1.1-10
+Title: Add smoothing spline modelling capability to nlme.
+Author: Rod Ball <rod.ball@scionresearch.com>
+Maintainer: Andrzej Galecki <agalecki@umich.edu>
+Description: Add smoothing spline modelling capability to nlme. Fit
+        smoothing spline terms in Gaussian linear and nonlinear
+        mixed-effects models
+Depends: nlme(>= 3.1-29)
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2013-08-04 02:08:38
+Repository/R-Forge/Project: nlmeu
+Repository/R-Forge/Revision: 122
+Repository/R-Forge/DateTimeStamp: 2013-08-02 14:37:01
+Packaged: 2013-08-02 18:20:41 UTC; rforge
+NeedsCompilation: no

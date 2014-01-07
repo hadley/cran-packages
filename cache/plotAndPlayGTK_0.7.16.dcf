@@ -1,0 +1,21 @@
+Package: plotAndPlayGTK
+Type: Package
+Title: A GUI for interactive plots using GTK
+Version: 0.7.16
+Date: 2007-06-25
+Author: Felix Andrews <felix@nfrac.org>, includes code by Graham Williams 
+  <Graham.Williams@togaware.com>
+Maintainer: Felix Andrews <felix@nfrac.org>
+Depends: R (>= 2.2.0), RGtk2, cairoDevice
+Suggests: lattice
+Imports: grid, lattice, RGtk2
+Description: A GUI (using GTK) for interactive plots in R. Just wrap it around a plot 
+  command, like plotAndPlay(plot(1:10)), and you have buttons to zoom in and out, 
+  re-centre the plot, identify data points, and save the plot in several formats.
+  It works (or should work) with traditional graphics plots as well as Lattice
+  (Trellis) plots, and handles multiple Lattice panels and pages.
+  New buttons can also be defined, with user-supplied call-back functions.
+  Also included in this package are several utilities for RGtk2 applications.
+License: GPL version 2 or newer
+URL: http://code.google.com/p/plotandplay-gtk/
+Packaged: Mon Jun 25 01:19:46 2007; Felix

@@ -1,0 +1,15 @@
+Package: YjdnJlp
+Type: Package
+Title: Text Analysis by Yahoo! Japan Develper Network
+Version: 0.9.7
+Date: 2011-03-20
+Author: Yohei Sato
+Maintainer: Yohei Sato <yokkuns@tkul.jp>
+Description: Japanese Text Analysis using Yahoo! Japan develper Network
+        (http://developer.yahoo.co.jp/webapi/jlp/)
+License: BSD
+LazyLoad: yes
+Depends: XML,RCurl,methods
+Packaged: 2011-03-21 01:47:42 UTC; yokkuns
+Repository: CRAN
+Date/Publication: 2011-03-21 06:46:47

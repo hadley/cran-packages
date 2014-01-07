@@ -1,0 +1,21 @@
+Package: truncreg
+Version: 0.2-1
+Date: 2013-12-24
+Title: Truncated Gaussian Regression Models
+Authors@R: c(person("Yves", "Croissant", role = c("aut", "cre"), email = "yves.croissant@univ-reunion.fr"),
+             person("Achim", "Zeileis", role = "aut", email = "Achim.Zeileis@R-project.org"))
+Depends: R (>= 1.8.0), maxLik
+Suggests: survival
+Description: Estimation of models for truncated Gaussian variables by maximum likelihood.
+License: GPL (>= 2)
+URL: http://R-Forge.R-project.org/projects/truncreg/
+Author: Yves Croissant [aut, cre],
+  Achim Zeileis [aut]
+Maintainer: Yves Croissant <yves.croissant@univ-reunion.fr>
+Repository: CRAN
+Repository/R-Forge/Project: truncreg
+Repository/R-Forge/Revision: 5
+Repository/R-Forge/DateTimeStamp: 2013-12-24 09:59:06
+Date/Publication: 2013-12-27 13:28:25
+Packaged: 2013-12-24 11:35:26 UTC; rforge
+NeedsCompilation: no

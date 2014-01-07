@@ -1,0 +1,36 @@
+Package: ellipse
+Version: 0.2-1
+Date: 02/04/2001
+Title: library ellipse for drawing ellipses and ellipse-like confidence regions
+Author:  Duncan Murdoch <murdoch@stats.uwo.ca> and E. D. Chow 
+    (porting to R by Jesus M. Frias Celayeta <iosu@bureau.ucc.ie>)
+Maintainer: Duncan Murdoch <murdoch@stats.uwo.ca>
+Description: This package contains various routines for drawing
+    ellipses and ellipse-like confidence regions.  There are three groups
+    of routines:
+    plotcorr - This routine implements the plots described in
+    Murdoch, D.J. and Chow, E.D. (1996).  A graphical display of large
+    correlation matrices. {\em The American Statistician} {\bf 50},178-180.
+    These display correlations using ellipses, whose shape is that
+    of the contours of a bivariate normal distribution with matching
+    correlation.
+    
+    pairs.profile - This routine implements a version of the profile plots
+    described in Bates and Watts (1988), Nonlinear Regression Analysis and its
+    Applications.
+
+    ellipse* - These routines provide the basis for the others, drawing
+    ellipses based on various S objects, including scalar correlations,
+    covariance matrices, arima.mle, lm, and nls fits.
+
+    The following functions are still unimplemented in R:
+
+    -postscript device for the plotcorr objects, together
+    with ellipse.chars and ellipse.fonts
+
+
+License: This library was written by D. J. Murdoch and
+    E. D. Chow. This software is licensed under the GPL terms. It
+    is free software and comes with ABSOLUTELY NO WARRANTY.
+
+

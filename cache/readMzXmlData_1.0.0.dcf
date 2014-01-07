@@ -1,0 +1,18 @@
+Package: readMzXmlData
+Version: 1.0.0
+Date: 2011-02-19
+Title: Reads mass spectrometry data in mzXML format.
+Author: Jarek Tuszynski, Sebastian Gibb
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+Depends: R (>= 2.9.0), bitops, digest, XML
+Description: readMzXmlData is a wrapper around read.mzXML provided by
+        caMassClass and caTools written by Jarek Tuszynski
+        <jaroslaw.w.tuszynski@saic.com>. It intends to load only
+        necessary stuff. That's why it is extracted from caMassClass
+        and caTools.
+License: GPL (>= 3)
+URL: http://www.sebastiangibb.de/maldiquant/
+LazyLoad: yes
+Packaged: 2011-02-20 22:12:23 UTC; sgibb
+Repository: CRAN
+Date/Publication: 2011-02-21 06:44:37

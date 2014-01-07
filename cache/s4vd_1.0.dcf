@@ -1,0 +1,20 @@
+Package: s4vd
+Version: 1.0
+Title: Biclustering via sparse singular value decomposition
+        incorporating stability selection
+Date: 2010-07-27
+Author: Martin Sill, Sebastian Kaiser
+Maintainer: Martin Sill <m.sill@dkfz.de>
+Depends: biclust,methods
+Suggests: isa2
+Description: The main function s4vd performs a biclustering via sparse
+        singular value decomposition with a nested stability selection.
+        The results is an biclust object and thus all methods of the
+        biclust package can be applied.
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: s4vd
+Repository/R-Forge/Revision: 89
+Date/Publication: 2011-07-23 14:42:30
+Packaged: 2011-07-07 21:23:00 UTC; rforge

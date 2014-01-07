@@ -1,0 +1,22 @@
+Package: ndvits
+Type: Package
+Version: 1.0
+Date: 2011-07-31
+Title: NDVI Time series extraction and analysis
+Author: Romain Frelat, Bruno Gerard.
+Maintainer: Romain Frelat <rfrelat@yahoo.com>
+Depends: R (>= 2.10), gstat, rgdal, bfast, RTisean, RColorBrewer,
+        lattice
+Description: The routines extract automatically, for area of interest,
+        Normalized Difference Vegetation Index (NDVI) time series from
+        different optical satellite instruments (AVHRR, Spot
+        Vegetation) and to provide tools to display and analyze the
+        time series.Functions have been developed to study landscapes
+        and more especially to detect changes in land use land cover.
+        Phenological metrics can be computed for every season as well
+        as vegetation anomaly maps.
+License: GPL-2
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: ndvits
+Date/Publication: 2011-08-09 09:53:11

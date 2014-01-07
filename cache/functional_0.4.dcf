@@ -1,0 +1,15 @@
+Package: functional
+Type: Package
+Title: Curry, Compose, and other higher-order functions
+Version: 0.4
+Date: 2010-03-02
+Author: Peter Danenberg <pcd@roxygen.org>
+Maintainer: Peter Danenberg <pcd@roxygen.org>
+Description: Curry, Compose, and other higher-order functions
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'functional.R'
+Packaged: 2013-04-04 02:31:52 UTC; peter
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-04 07:30:18

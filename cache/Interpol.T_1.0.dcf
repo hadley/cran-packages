@@ -1,0 +1,22 @@
+Package: Interpol.T
+Type: Package
+Title: Hourly interpolation of multiple temperature daily series
+Version: 1.0
+Date: 2012-01-31
+Author: Emanuele Eccel & Emanuele Cordano
+Maintainer: Emanuele Eccel <emanuele.eccel@iasma.it>
+Description: Hourly interpolation of daily minimum and maximum
+        temperature series. Carries out interpolation on multiple
+        series ad once. Requires some hourly series for calibration
+        (alternatively can use default calibration table).
+Depends: R (>= 2.10), date, chron
+License: GPL (>= 2)
+URL:
+        http://cri.fmach.eu/Research/Sustainable-Agro-Ecosystems-and-Bioresources/Dynamics-in-the-agro-ecosystems,http://www.agrometeorologia.it/documenti/Rivista2010_2/AIAM%202-2010_pag41.pdf,http://www.agrometeorologia.it/documenti/Rivista2010_2/AIAM%202-2010_pag45.pdf
+Collate: 'F_bias.R' 'F_daily_mean.R' 'F_date_time.R' 'F_Mo.Th.Ra.R'
+        'F_par_calibration.R' 'F_plot_meas_sim.R'
+        'F_shape_calibration.R' 'F_Th_interp.R' 'F_Th_int_series.R'
+        'Interpol.T-package.R'
+Packaged: 2012-02-01 10:53:15 UTC; ecor
+Repository: CRAN
+Date/Publication: 2012-02-01 11:13:42

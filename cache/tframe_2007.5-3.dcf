@@ -1,0 +1,13 @@
+Package: tframe
+Title: Time Frame coding kernel
+Description:  Functions for writing code that is independent of the way time is represented. See ?tframe.Intro for more details.
+Depends: R (>= 2.5.0) 
+Imports: stats 
+Version: 2007.5-3
+Date: 2007-07-11
+LazyLoad: yes
+License: Free. See the LICENCE file for details.
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Wed Jul 11 15:10:36 2007; gilp

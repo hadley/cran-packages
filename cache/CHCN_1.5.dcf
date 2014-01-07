@@ -1,0 +1,19 @@
+Package: CHCN
+Type: Package
+Title: Canadian Historical Climate Network
+Version: 1.5
+Date: 2012-06-07
+Author: Steven Mosher
+Maintainer: Steven Mosher <moshersteven@gmail.com>
+Depends: R (>= 2.11.0),methods,bitops, RCurl
+Description: A compilation of historical through contemporary climate
+        measurements scraped from the Environment Canada Website
+        Including tools for scraping data, creating metadata and
+        formating temperature files.
+License: GPL (>= 2)
+URL: http://stevemosher.wordpress.com/
+LazyLoad: yes
+LazyData: FALSE
+Packaged: 2012-06-08 17:15:33 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-06-08 18:23:46

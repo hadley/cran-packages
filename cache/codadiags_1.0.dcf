@@ -1,0 +1,15 @@
+Package: codadiags
+Type: Package
+Title: Markov chain Monte Carlo burn-in based on "bridge" statistics
+Version: 1.0
+Date: 2013-09-17
+Author: Yann Richet, Xavier Bay, Olivier Jacquet, Alexis Jinaphanh
+Maintainer: Yann Richet <yann.richet@irsn.fr>
+Description: Markov chain Monte Carlo burn-in based on "bridge" statistics, in the way of coda::heidel.diag, but including non asymptotic tabulated statistics.
+License: GPL-3
+Depends: R (>= 3.0.0), coda
+LazyData: no
+Packaged: 2013-11-18 09:27:52 UTC; richet
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-18 10:28:00

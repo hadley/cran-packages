@@ -1,0 +1,11 @@
+Bundle: empiricalBayes
+Contains: HighProbability localFDR
+Version: 2.1
+Date:	2008-03-05
+Author: Zahra Montazeri ,  David R. Bickel
+Maintainer: David. R. Bickel <DavidBickel.66846716@bloglines.com>
+BundleDescription: EmpiricalBayes provides a simple solution to the extreme 		   multiple testing problem by estimating local false
+		   discovery rates. It contains two packages, 				   localFDR and HighProbability. Given a vector of
+		  p-values, localFDR estimates local false discovery rates 		   and HighProbability determines which p-values are low 		   enough that their alternative hypotheses can be 			   considered highly probable .
+License: Mozilla Public License 1.1 
+Packaged: Mon Jul  7 20:04:12 2008; hornik

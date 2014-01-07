@@ -1,0 +1,22 @@
+Package: freeknotsplines
+Version: 1.0
+Date: 2012-10-03
+Title: Free-Knot Splines
+Author: Steven Spiriti <puzzlesteven@gmail.com>, Philip Smith
+        <philip.smith@ttu.edu>, Pierre Lecuyer
+        <lecuyer@iro.UMontreal.ca>,
+Maintainer: Steven Spiriti <puzzlesteven@gmail.com>
+Depends: R (>= 2.14.2), splines, methods
+Description: This package is for fitting free-knot splines for data
+        with one independent variable and one dependent variable.  Four
+        free-knot spline algorithms are provided for the case where the
+        number of knots is known in advance.  A knot-search algorithm
+        is provided for the case where the number of knots is not known
+        in advance.  In addition, methods are available to compute the
+        fitted values, the residuals, and the coefficients of the
+        splines, and to plot the results, along with a method to
+        summarize the results.
+License: GPL (>= 2)
+Packaged: 2012-10-03 18:40:56 UTC; Steven
+Repository: CRAN
+Date/Publication: 2012-10-04 20:58:12

@@ -1,0 +1,19 @@
+Package: GSM
+Title: Gamma Shape Mixture
+Version: 1.1
+Date: 2010-05-21
+Description: This package implements a Bayesian approach for estimation
+        of a mixture of gamma distributions in which the mixing occurs
+        over the shape parameter. This family provides a flexible and
+        novel approach for modeling heavy-tailed distributions, it is
+        computationally efficient, and it only requires to specify a
+        prior distribution for a single parameter.
+Author: Sergio Venturini
+Maintainer: Sergio Venturini <sergio.venturini@unibocconi.it>
+Depends: methods, utils
+License: GPL (>= 2)
+URL: http://projecteuclid.org/euclid.aoas/1215118537
+LazyLoad: yes
+Packaged: 2010-05-21 15:43:28 UTC; Sergio
+Repository: CRAN
+Date/Publication: 2010-05-22 08:55:49

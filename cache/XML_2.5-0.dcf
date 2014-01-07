@@ -1,0 +1,30 @@
+Package: XML
+Version: 2.5-0
+Date: 2009/06/01
+Author: Duncan Temple Lang (duncan@wald.ucdavis.edu)
+Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
+Title: Tools for parsing and generating XML within R and S-Plus.
+Depends: R (>= 1.2.0), methods, utils
+SystemRequirements: libxml2 (>= 2.6.3)
+Description: This package provides many approaches for both reading and
+        creating XML (and HTML) documents (including DTDs), both local
+        and accessible via HTTP or FTP.  It also offers access to an
+        XPath "interpreter".
+Note: The versions numbers 1.0 and 2.0 do not have any special
+        significance, but are merely the result of incrementing the
+        minor count by 1 for each release. Specifically, there is no
+        change in the interface.
+URL: http://www.omegahat.org/RSXML
+License: BSD
+Collate: AAA.R DTD.R DTDClasses.R DTDRef.R SAXMethods.S XMLClasses.R
+        applyDOM.R assignChild.R catalog.R createNode.R dynSupports.R
+        error.R flatTree.R hashTree.R htmlParse.R nodeAccessors.R
+        parseDTD.R schema.S summary.R tangle.R toString.S tree.R
+        version.R xmlErrorEnums.R xmlEventHandler.R xmlEventParse.R
+        xmlHandler.R xmlInternalSource.R xmlNodes.R xmlOutputBuffer.R
+        xmlOutputDOM.R xmlTree.R xmlTreeParse.R zzz.R supports.R
+        parser.R libxmlFeatures.R xmlString.R saveXML.R namespaces.R
+        readHTMLTable.R
+Packaged: 2009-06-02 20:18:26 UTC; hornik
+Repository: CRAN
+Date/Publication: 2009-06-02 20:26:51

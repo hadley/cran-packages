@@ -1,0 +1,18 @@
+Package: SemiParSampleSel
+Version: 1.0
+Author: Giampiero Marra <giampiero.marra@ucl.ac.uk>, Rosalba Radice
+        <r.radice@bbk.ac.uk> and Malgorzata Wojtys <m.wojtys@ucl.ac.uk>
+Maintainer: Giampiero Marra <giampiero.marra@ucl.ac.uk>
+Title: Semiparametric Sample Selection Modelling with Continuous
+        Response
+Description: Routine for fitting continuous response copula sample
+        selection models with semiparametric predictors, including
+        linear and nonlinear effects.
+Depends: R (>= 2.14.0), magic, mgcv, trust, mvtnorm, copula
+LazyLoad: yes
+License: GPL (>= 2)
+URL: http://www.ucl.ac.uk/statistics/people/giampieromarra
+Repository: CRAN
+Date/Publication: 2013-02-26 18:04:49
+Packaged: 2013-02-26 10:37:55 UTC; giampiero
+NeedsCompilation: no

@@ -1,0 +1,11 @@
+Package: phyloarray
+Depends: gstat
+Version: 0.1-1
+Date: 23 Octobre 2003
+Title: Phylogenetic Microarray Dataprocessing
+Author: Kurt Sys, LabMET - Laboratory of Microbial Ecology and
+        Technology, RUG
+Maintainer: ORPHANED
+Description: Software to process data from phylogenetic or identification microarrays. At present state, it is rather limited and focuss was on a fast and easy way for calculating background values by interpolation and plotting melting curves. The functions for reading the data are similar to those used in package 'sma' (statistical microarray analysis).
+License: GPL Version 2 or newer
+Packaged: Wed Sep 29 22:19:00 2004; hornik

@@ -1,0 +1,15 @@
+Package: AdaptFitOS
+Title: Adaptive Semiparametric Regression with Simultaneous Confidence
+        Bands
+Version: 0.45
+Date: 2012-12-13
+Author: Manuel Wiesenfarth and Tatyana Krivobokova
+Maintainer: Manuel Wiesenfarth <mwiesen@gwdg.de>
+Depends: SemiPar, MASS, nlme, cluster, mgcv, splines
+Description: Based on the function "asp" of the AdaptFit package fits
+        semiparametric regression models with spatially adaptive
+        penalized splines and computes simultaneous confidence bands.
+License: GPL (>= 2)
+Packaged: 2012-12-14 09:49:22 UTC; mwiesen
+Repository: CRAN
+Date/Publication: 2012-12-14 12:58:09

@@ -1,0 +1,18 @@
+Package: sapa
+Type: Package
+Title: Insightful Spectral Analysis for Physical Applications
+Version: 1.0-3
+Date: 2007-01-01
+Author: William Constantine (REvolution Computing) and Donald Percival
+        (Applied Physics Laboratory, University of Washington)
+Maintainer: William Constantine <bill@revolution-computing.com>
+Depends: R (>= 2.5.1), ifultools (>= 1.0-3), splus2R (>= 1.0-2)
+DependsSplus: ifultools (>= 1.0-2)
+Description: Software for the book Spectral Analysis for Physical
+        Applications, Donald B. Percival and Andrew T. Walden,
+        Cambridge University Press, 1993.
+License: GPL-2
+ZipData: no
+Packaged: 2010-04-19 04:19:04 UTC; wconstan
+Repository: CRAN
+Date/Publication: 2010-04-19 07:27:34

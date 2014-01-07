@@ -1,0 +1,22 @@
+Package: NSA
+Version: 0.0.32
+Date: 2012-12-20
+Title: Post-normalization of total copy numbers
+Author: Maria Ortiz-Estevez <mortizest@gmail.com>, Ander Aranburu
+        <aaranburu@ceit.es>, Angel Rubio <arubio@ceit.es>
+Maintainer: Maria Ortiz-Estevez <mortizest@gmail.com>
+Depends: R (>= 2.11.1), R.methodsS3 (>= 1.2.0), MASS, matrixStats (>=
+        0.2.1), R.oo (>= 1.7.3), R.utils (>= 1.4.2), aroma.core (>=
+        1.6.0), aroma.affymetrix, DNAcopy
+Description: Post-normalization of total copy-number estimates.
+License: LGPL (>= 2.1)
+URL: http://r-forge.r-project.org/projects/snpsprocessing/
+LazyLoad: TRUE
+biocViews: Infrastructure, Microarray, DNACopyNumber, Preprocessing,
+        aCGH, SNP, CopyNumberVariants
+Repository: CRAN
+Repository/R-Forge/Project: snpsprocessing
+Repository/R-Forge/Revision: 202
+Repository/R-Forge/DateTimeStamp: 2012-12-20 19:24:38
+Date/Publication: 2012-12-21 09:17:05
+Packaged: 2012-12-20 23:15:21 UTC; rforge

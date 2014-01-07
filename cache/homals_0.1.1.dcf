@@ -1,0 +1,11 @@
+Package: homals
+Version: 0.1.1
+Date: 2002-11-30
+Title: Homogeneity Analysis in R  
+Author: Jan de Leeuw <deleeuw@stat.ucla.edu> with Arno Ouwehand (arno@stat.ucla.edu) 
+Maintainer: Jan de Leeuw <deleeuw@stat.ucla.edu>
+Depends: R (>= 1.3), deldir 
+Description: Homogeneity Analysis (HOMALS) package with optional tcl/tk interface. 
+  Tcltk, tkrplot needs to be installed for the tcltk interface to function. 
+Keyword: homals 
+License: LGPL

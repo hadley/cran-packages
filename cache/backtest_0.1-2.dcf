@@ -1,0 +1,11 @@
+Package: backtest
+Type: Package
+Title: Exploring portfolio-based conjectures about financial instruments
+Version: 0.1-2
+Date: 2007-04-12
+Author: Kyle Campbell <kyle.w.campbell@williams.edu>, Jeff Enos <jeff@kanecap.com>, Daniel Gerlanc <daniel@gerlanc.com>, and David Kane <dave@kanecap.com>
+Description: The backtest package provides facilities for exploring portfolio-based conjectures about financial instruments (stocks, bonds, swaps, options, et cetera).
+Maintainer: Jeff Enos <jeff@kanecap.com>
+Depends: R (>= 2.3.0), methods, grid, lattice
+License: GPL version 2 or later.
+Packaged: Thu Apr 12 13:10:35 2007; enos

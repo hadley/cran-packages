@@ -1,0 +1,41 @@
+Package: editrules
+Maintainer: Edwin de Jonge <edwindjonge@gmail.com>
+License: GPL-3
+Title: R package for parsing, applying, and manipulating data cleaning
+        rules
+LazyData: no
+Type: Package
+LazyLoad: yes
+Author: Edwin de Jonge, Mark van der Loo
+Description: Facilitates reading and manipulating (multivariate) data
+        restrictions (edit rules) on numerical and categorical data.
+        Rules can be defined with common R syntax and parsed to an
+        internal (matrix-like format). Rules can be manipulated with
+        variable elimination and value substitution methods, allowing
+        for feasibility checks and more. Data can be tested against the
+        rules and erroneous fields can be found based on Fellegi and
+        Holt's generalized principle. Rules dependencies can be
+        visualized with using the igraph package.
+Version: 2.7
+Depends: R (>= 2.12.0), igraph
+URL: http://code.google.com/p/editrules/
+Date: 2011-09-25
+Suggests: lpSolveAPI, iterators
+Collate: 'adjacency.R' 'as.igraph.R' 'editset.R' 'editarray.R'
+        'editmatrix.R' 'as.matrix.R' 'backtracker.R' 'blocks.R' 'c.R'
+        'cateditmatrix.R' 'checkDatamodel.R' 'checkRows.R' 'contains.R'
+        'disjunct.R' 'duplicated.R' 'echelon.R' 'editarrayAttr.R'
+        'editAttr.R' 'editfile.R' 'editmatrixAttr.R' 'editrules-data.R'
+        'eliminate.R' 'errorLocalizer.R' 'errorLocalizer_mip.R'
+        'errorLocation.R' 'expandEdits.R' 'generateEdits.R' 'getH.R'
+        'getUpperBounds.R' 'getVars.R' 'is.R' 'isFeasible.R'
+        'isObviouslyInfeasible.R' 'isObviouslyRedundant.R' 'isSubset.R'
+        'list2env.R' 'localizeErrors.R' 'parseCat.R' 'parseEdits.R'
+        'parseMix.R' 'parseNum.R' 'perturbWeights.R' 'pkg.R' 'plot.R'
+        'plot_errorLocation.R' 'print.R' 'reduce.R' 'softEdits.R'
+        'str.R' 'subsetting.R' 'substValue.R' 'summary.R'
+        'violatedEdits.R' 'writeELAsMip.R' 'zzz.R'
+Packaged: 2013-03-01 14:52:19 UTC; ejne
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 17:38:09

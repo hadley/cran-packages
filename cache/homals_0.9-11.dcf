@@ -1,0 +1,23 @@
+Package: homals
+Type: Package
+Title: Gifi Methods
+Version: 0.9-11
+Date: 2009-07-20
+Author: Jan de Leeuw, Patrick Mair
+Maintainer: Jan de Leeuw <deleeuw@ucla.edu>
+Description: This package performs a homogeneity analysis and various
+        extensions. Rank restrictions on the category quantifications
+        can be imposed (nonlinear PCA). The categories are transformed
+        by means of optimal scaling with options for nominal, ordinal,
+        and numerical scale levels (for rank-1 restrictions). Variables
+        can be grouped into sets, in order to emulate regression
+        analysis and canonical correlation analysis.
+License: GPL
+URL: http://r-forge.r-project.org/projects/psychor/
+Imports: graphics, stats
+Depends: rgl, ape, scatterplot3d
+Repository: CRAN
+Repository/R-Forge/Project: psychor
+Repository/R-Forge/Revision: 90
+Date/Publication: 2009-07-27 12:49:15
+Packaged: 2009-07-25 20:51:40 UTC; rforge

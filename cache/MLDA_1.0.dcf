@@ -1,0 +1,12 @@
+Package: MLDA
+Type: Package
+Title: Methylation Linear Discriminant Analysis (MLDA)
+Version: 1.0
+Date: 2008-06-10
+Author: Wei Dai, Robert Brown, Jim Paul
+Maintainer: Wei Dai <w.dai@imperial.ac.uk> 
+Description: MLDA is a method to identify the differential methylated loci on CpG island array using Differential Methylation Hybridisation(DMH).
+License: GPL (version 2 or later)
+Depends: R (>= 2.7.0)
+LazyLoad: yes
+Packaged: Tue Jun 10 19:32:29 2008; wdai

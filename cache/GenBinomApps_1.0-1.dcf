@@ -1,0 +1,15 @@
+Package: GenBinomApps
+Type: Package
+Title: Clopper-Pearson Confidence Interval and Generalized Binomial
+        Distribution
+Version: 1.0-1
+Date: 2013-12-20
+Depends: stats
+Author: Horst Lewitschnig, David Lenzi
+Maintainer: Horst Lewitschnig <Horst.Lewitschnig@infineon.com>
+Description: Density, distribution function, quantile function and random generation for the Generalized Binomial Distribution. Functions to compute the Clopper-Pearson Confidence Interval and the required sample size. Enhanced model for burn-in studies, where failures are tackled by countermeasures.
+License: GPL-3
+Packaged: 2013-12-20 13:34:24 UTC; LenziDav
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-20 14:59:12

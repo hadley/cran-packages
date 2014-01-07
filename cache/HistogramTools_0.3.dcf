@@ -1,0 +1,17 @@
+Package: HistogramTools
+Type: Package
+Title: Utility Functions for R Histograms
+Version: 0.3
+Date: 2013-12-11
+Author: Murray Stokely <mstokely@google.com>
+Maintainer: Murray Stokely <mstokely@google.com>
+Imports: Hmisc, ash, stringr
+Suggests: RUnit, emdist, gdata
+Enhances: RProtoBuf
+Description: This package provides a number of utility functions useful for manipulating large histograms.  This includes methods to trim, subset, merge buckets, merge histograms, convert to CDF, and calculate information loss due to binning.  It also provides a protocol buffer representations of the default R histogram class to allow histograms over large data sets to be computed and manipulated in a MapReduce environment.
+URL: https://r-forge.r-project.org/projects/histogramtools/
+License: Apache License 2.0
+Packaged: 2013-12-11 23:05:19 UTC; mstokely
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-12 01:14:46

@@ -1,0 +1,23 @@
+Package: CAMAN
+Type: Package
+Version: 0.66
+Date: 2013-04-17
+Title: Finite Mixture Models and meta-analysis tools - based on C.A.MAN
+Author: Peter Schlattmann <peter.schlattmann@mti.uni-jena.de>, Johannes
+        Hoehne
+Maintainer: Philipp Doebler <philipp.doebler@googlemail.com>
+Description: Tools for the analysis of finite semiparametric mixtures.
+        These are useful when data is heterogeneous, e.g. in
+        pharmacokinetics or meta-analysis. The NPMLE and VEM algorithms
+        (flexible support size) and EM algorithms (finite support case)
+        are provided.
+Depends: R (>= 2.10), methods, sp
+License: GPL (>= 2)
+URL: http://r-forge.r-project.org/projects/caman/
+Repository: CRAN
+Repository/R-Forge/Project: caman
+Repository/R-Forge/Revision: 13
+Repository/R-Forge/DateTimeStamp: 2013-04-17 14:42:12
+Date/Publication: 2013-04-19 16:10:44
+Packaged: 2013-04-17 18:17:19 UTC; rforge
+NeedsCompilation: yes

@@ -1,0 +1,21 @@
+Package: expoRkit
+Type: Package
+Title: Expokit in R
+Version: 0.9
+Date: 2012-10-08
+Authors@R: c(person("Roger B.", "Sidje", email =
+        "roger.b.sidje@ua.edu", role = c("aut", "cph")), person("Niels
+        Richard", "Hansen", email = "Niels.R.Hansen@math.ku.dk", role =
+        c("aut", "cre", "cph")) )
+Maintainer: Niels Richard Hansen <Niels.R.Hansen@math.ku.dk>
+Depends: R (>= 2.14.1), methods
+Imports: Matrix, SparseM
+Description: An R-interface to the Fortran package Expokit.
+URL: https://bitbucket.org/nielsrhansen/exporkit/
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'expoRkit.R' 'expv.R' 'expoRkit-package.R' 'data.R'
+Packaged: 2012-10-08 15:49:12 UTC; Niels
+Author: Roger B. Sidje [aut, cph], Niels Richard Hansen [aut, cre, cph]
+Repository: CRAN
+Date/Publication: 2012-10-08 16:53:08

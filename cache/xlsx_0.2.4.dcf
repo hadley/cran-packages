@@ -1,0 +1,16 @@
+Package: xlsx
+Type: Package
+Title: Read, write, format Excel 2007 (xlsx) files
+Version: 0.2.4
+Date: 2010-10-20
+Depends: xlsxjars, rJava
+Imports: xlsxjars, rJava
+LazyLoad: yes
+Author: Adrian A. Dragulescu
+Maintainer: Adrian A. Dragulescu <adrian.dragulescu@gmail.com>
+Description: Provide R functions to read/write/format Excel 2007 (xlsx)
+        file formats.
+License: GPL-3
+Packaged: 2010-10-12 13:48:22 UTC; e47187
+Repository: CRAN
+Date/Publication: 2010-10-13 07:35:19

@@ -1,0 +1,18 @@
+Package: fds
+Type: Package
+Title: Functional data sets
+Version: 1.6
+Date: 2011-02-06
+Depends: R (>= 2.10.0), rainbow, RCurl
+LazyLoad: yes
+LazyData: yes
+LazyDataCompression: xz
+Author: Han Lin Shang and Rob J Hyndman
+Maintainer: Han Lin Shang <HanLin.Shang@monash.edu.au>
+Description: Functional data sets
+License: GPL (>= 2)
+URL: http://monashforecasting.com/index.php?title=R_packages
+Packaged: 2012-10-29 08:58:43 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:44
+X-CRAN-Original-LazyDataCompression: xz

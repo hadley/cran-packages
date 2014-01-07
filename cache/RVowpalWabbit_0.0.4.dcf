@@ -1,0 +1,39 @@
+Package: RVowpalWabbit
+Title: R interface to the Vowpal Wabbit
+Version: 0.0.4
+Date: $Date: 2011-09-25 21:51:47 -0500 (Sun, 25 Sep 2011) $
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Author: Dirk Eddelbuettel <edd@debian.org>
+Description: R interface to Vowpal Wabbit fast out-of-core learning
+        system The Vowpal Wabbit (VW) project is a fast out-of-core
+        learning system sponsored by Yahoo! Research and written by
+        John Langford along with a number of contributors.
+ .
+ There are two ways to have a fast learning algorithm: (a) start with a
+        slow algorithm and speed it up, or (b) build an intrinsically
+        fast learning algorithm. This project is about approach (b),
+        and it has reached a state where it may be useful to others as
+        a platform for research and experimentation.
+ .
+ There are several optimization algorithms available with the baseline
+        being sparse gradient descent (GD) on a loss function (several
+        are available). The code should be easily usable. Its only
+        external dependence is on the Boost library, which is often
+        installed by default.
+ .
+ This R package does not include the distributed computing
+        implementation of the cluster/ directory of the upstream
+        sources.  Use of the software as a network servie is also not
+        directly supported as the aim is a simpler direct call from R
+        for validation and comparison.
+Depends: R (>= 2.12.0), Rcpp (>= 0.9.6)
+LinkingTo: Rcpp
+SystemRequirements: The Boost 'program_options' library
+        (http://boost.org) is required.
+OS_type: unix
+License: GPL (>= 2)
+URL: https://github.com/JohnLangford/vowpal_wabbit/
+        http://dirk.eddelbuettel.com/code/rcpp.html
+Packaged: 2011-09-26 02:51:52.655237 UTC; edd
+Repository: CRAN
+Date/Publication: 2011-09-26 07:15:18

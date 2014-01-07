@@ -1,0 +1,15 @@
+Package: GEVcdn
+Type: Package
+Title: GEV conditional density estimation network
+Version: 1.1.2
+Author: Alex J. Cannon
+Maintainer: Alex J. Cannon <acannon@eos.ubc.ca>
+Description: A flexible nonlinear modelling framework for nonstationary
+        generalized extreme value analysis in hydroclimatology
+License: GPL-2
+Depends: VGAM
+Suggests: boot
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2012-11-13 23:29:56 UTC; acannon
+Date/Publication: 2012-11-14 07:08:48

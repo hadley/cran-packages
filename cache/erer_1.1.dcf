@@ -1,0 +1,18 @@
+Package: erer
+Title: Empirical Research in Economics with R
+Version: 1.1
+Date: 2010-11-15 (first built); 2012-3-28 (last)
+Author: Changyou Sun <csun@cfr.msstate.edu>
+Maintainer: Changyou Sun <csun@cfr.msstate.edu>
+Depends: R (>= 2.10.0), systemfit, lmtest, tseries, ggplot2
+Description: This package contains functions and datasets for the book
+        of 'Empirical Research in Economics: Growing up with R' by Dr.
+        Changyou Sun. These functions can calculate marginal effects
+        for a binary probit or logit model, estimate static and dynamic
+        Almost Ideal Demand System (AIDS) models, and conduct event
+        analysis.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-03-30 03:39:59 UTC; Edwin
+Repository: CRAN
+Date/Publication: 2012-03-30 04:41:33

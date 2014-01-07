@@ -1,0 +1,14 @@
+Package: ks
+Version: 1.6.8
+Date: 2009/10/08
+Title: Kernel smoothing
+Author: Tarn Duong <tarn.duong@gmail.com>
+Maintainer: Tarn Duong <tarn.duong@gmail.com>
+Depends: R (>= 1.4.0), KernSmooth, mvtnorm
+Suggests: rgl (>= 0.66), misc3d (>= 0.4-0), kernlab
+Description: Kernel density estimators and kernel discriminant analysis
+        for multivariate data
+License: GPL (>= 2)
+Packaged: Fri Oct 16 11:27:24 2009; tduong
+Repository: CRAN
+Date/Publication: 2009-10-16 11:11:33

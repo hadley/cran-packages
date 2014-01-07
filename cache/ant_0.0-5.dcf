@@ -1,0 +1,17 @@
+Package: ant
+Type: Package
+Title: Version of ant specific to R
+Version: 0.0-5
+Date: 2009-09-07
+Author: Romain Francois
+Maintainer: Romain Francois <francoisromain@free.fr>
+Description: Version of the ant apache build tool, with a few R
+        specific tasks to ease use of ant within an R package
+License: Apache License (== 2.0)
+LazyLoad: yes
+LazyData: no
+Depends: rJava (>= 0.7-0)
+SystemRequirements: Java (>= 5.0)
+Packaged: 2009-09-07 13:16:35 UTC; romain
+Repository: CRAN
+Date/Publication: 2009-09-07 18:53:25

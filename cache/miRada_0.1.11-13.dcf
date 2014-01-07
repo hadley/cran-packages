@@ -1,0 +1,15 @@
+Package: miRada
+Version: 0.1.11-13
+Date: 2012-11-12
+Title: MicroRNA Microarray Data Analysis
+Author: Bin Wang <bwang@southalabama.edu>.
+Maintainer: Bin Wang <bwang@southalabama.edu>
+Depends: R (>= 2.10.0), stats
+Description: This package collects algorithms/functions developed for
+        microRNA profiling data analyses.  Analytical platforms include
+        traditional hybridization microarray, CGH, beads-based
+        microarray, and qRT-PCR array.
+License: GPL (>= 2)
+Packaged: 2012-11-12 20:37:07 UTC; bwang
+Repository: CRAN
+Date/Publication: 2012-11-13 07:17:43

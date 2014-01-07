@@ -1,0 +1,21 @@
+Package: missForest
+Type: Package
+Title: Nonparametric Missing Value Imputation using Random Forest
+Version: 1.2
+Date: 2012-02-20
+Author: Daniel J. Stekhoven, <stekhoven@stat.math.ethz.ch>
+Maintainer: Daniel J. Stekhoven, <stekhoven@stat.math.ethz.ch>
+Depends: randomForest
+Description: The function 'missForest' in this package is used to
+        impute missing values particularly in the case of mixed-type
+        data. It uses a random forest trained on the observed values of
+        a data matrix to predict the missing values. It can be used to
+        impute continuous and/or categorical data including complex
+        interactions and nonlinear relations. It yields an out-of-bag
+        (OOB) imputation error estimate without the need of a test set
+        or elaborate cross-validation.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-02-20 14:17:10 UTC; hoven
+Repository: CRAN
+Date/Publication: 2012-02-20 15:08:37

@@ -1,0 +1,15 @@
+Package: depmix
+Version: 0.9.10
+Date: 2011-10-24
+Title: Dependent Mixture Models
+Author: Ingmar Visser <i.visser@uva.nl>
+Maintainer: Ingmar Visser <i.visser@uva.nl>
+Depends: R (>= 2.13.1), MASS
+Suggests: Rdonlp2
+Description: Fit (multigroup) mixtures of latent Markov models on mixed categorical and continuous (timeseries) data 
+License: GPL-3
+Repository: CRAN
+Repository/R-Forge/Project: depmix
+Repository/R-Forge/Revision: 503
+Date/Publication: 2011-11-07 14:05:20
+Packaged: 2011-11-03 22:05:47 UTC; rforge

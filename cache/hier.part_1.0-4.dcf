@@ -1,0 +1,15 @@
+Package: hier.part
+Version: 1.0-4
+Date: 2013-01-07
+Title: Hierarchical Partitioning
+Authors@R: c(person("Chris", "Walsh", role = c("aut","cre"), email =
+        "cwalsh@unimelb.edu.au"), person("Ralph", "Mac Nally", role =
+        "aut", email = "Ralph.MacNally@sci.monash.edu.au"))
+Author: Chris Walsh and Ralph Mac Nally
+Depends: gtools
+Description: Variance partition of a multivariate data set
+Maintainer: Chris Walsh <cwalsh@unimelb.edu.au>
+License: GPL
+Packaged: 2013-01-08 10:03:02 UTC; root
+Repository: CRAN
+Date/Publication: 2013-01-08 11:25:26

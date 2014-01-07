@@ -1,0 +1,26 @@
+Package: CompRandFld
+Version: 0.3
+Date: 2010-04-06
+Title: Composite-likelihood based Analysis of Random Fields
+Author: Simone Padoan <simone.padoan@epfl.ch>, Moreno Bevilacqua
+        <bevilacqua@stat.unipd.it>
+Maintainer: Simone Padoan <simone.padoan@epfl.ch>
+Depends: R (>= 2.9.0)
+Description: The aim of this package is to collect a set of procedures
+        for the analysis of Random Fields by Composite Likelihood
+        methods. Spatial analysis often involves dealing with large
+        dataset. Therefore even simple studies may be too
+        computationally demanding. Composite likelihood based methods
+        are emerging as useful tools for mitigating such computational
+        problems and show satisfactory results when compared with other
+        techniques such as, for example the tapering method. Moreover,
+        composite likelihood (and related quantities) have some good
+        properties similar to those of the standard likelihood.
+Suggests: RandomFields, rootSolve
+License: GPL (>= 2)
+URL: http://eflum.epfl.ch/people/padoan.en.php
+Repository: CRAN
+Repository/R-Forge/Project: comprandfld
+Repository/R-Forge/Revision: 45
+Date/Publication: 2010-10-15 14:57:55
+Packaged: 2010-10-14 20:34:47 UTC; rforge

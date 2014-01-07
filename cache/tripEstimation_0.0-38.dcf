@@ -1,0 +1,21 @@
+Package: tripEstimation
+Type: Package
+Title: Metropolis sampler and supporting functions for estimating
+        animal movement from archival tags and satellite fixes
+Version: 0.0-38
+Suggests: locfit
+Imports: akima, lattice, mgcv, rgdal, sp, zoo
+Author: Michael Sumner and Simon Wotherspoon
+Maintainer: Michael Sumner <mdsumner@gmail.com>
+Description: Data handling and estimation functions for animal movement
+        estimation from archival or satellite tags. Helper functions
+        are included for making image summaries binned by time interval
+        from MCMC simulations of point data.
+License: GPL-2
+URL: http://staff.acecrc.org.au/~mdsumner/Rutas/
+Repository: CRAN
+Repository/R-Forge/Project: trip
+Repository/R-Forge/Revision: 43
+Repository/R-Forge/DateTimeStamp: 2012-10-25 00:16:09
+Date/Publication: 2012-10-25 20:55:56
+Packaged: 2012-10-25 02:24:47 UTC; rforge

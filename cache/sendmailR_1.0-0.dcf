@@ -1,0 +1,14 @@
+Package: sendmailR
+Version: 1.0-0
+Title: send email from inside R
+Description: Package contains a simple smtp client which provides a
+        porable solution for sending emails from within R.
+Author: Olaf Mersmann <olafm@datensplitter.net>
+Maintainer: Olaf Mersmann <olafm@datensplitter.net>
+Depends: R (>= 2.9.0)
+License: GPL-2
+LazyData: yes
+Date:
+Packaged: 2009-07-20 22:27:11 UTC; olafm
+Repository: CRAN
+Date/Publication: 2009-07-21 12:29:26

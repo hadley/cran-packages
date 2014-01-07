@@ -1,0 +1,16 @@
+Package: FormalSeries
+Type: Package
+Title: Elementary arithemtic in formal series rings
+Version: 1.0
+Date: 2012-05-30
+Author: Tomasz Zmorzynski
+Maintainer: Tomasz Zmorzynski <kemot25@op.pl>
+Description: Implemented, addition, subtracking, multiplication,
+        division in formal series rings of any number of variables
+        (except division is only to 3 variables). Also are available
+        "[" "[<-" operators.
+Depends: methods
+License: GPL-2
+Packaged: 2012-08-09 11:59:16 UTC; DOM
+Repository: CRAN
+Date/Publication: 2012-08-09 12:40:29

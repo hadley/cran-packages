@@ -1,0 +1,11 @@
+Package: netmodels
+Type: Package
+Title: Tools for the study of scale free and small world networks
+Version: 0.1
+Date: 2008-03-19
+Author: Domingo Vargas
+Maintainer: Domingo Vargas<dvar1965@gmail.com>
+Depends: R (>= 2.6.2), igraph (>= 0.5), VGAM (>= 0.7-5)
+Description: Provides a set of functions designed to help in the study of scale free and small world networks. This functions are high level abstractions of the functions provided by the Igraph package.
+License: Artistic License 2.0
+Packaged: Sun Mar 30 21:07:29 2008; hornik

@@ -1,0 +1,20 @@
+Package: mkssd
+Version: 1.0
+Date: 2010-10-26
+Title: Efficient multi-level k-circulant supersaturated designs
+Author: B N Mandal <mandal.stat@gmail.com>
+Maintainer: B N Mandal <mandal.stat@gmail.com>
+Description: mkssd is a package that generates efficient multi-level
+        k-circulant supersaturated designs by interchanging the
+        elements of the generator vector. The package tries to generate
+        a supersaturated design that has chisquare efficiency more than
+        user specified efficiency level (mef). The package also
+        displays the progress of generation of an efficient multi-level
+        k-circulant design through a progress bar. The progress of 100%
+        means that one full round of interchange is completed. More
+        than one full round (typically 4-5 rounds) of interchange may
+        be required for larger designs.
+License: GPL (>= 2)
+Packaged: 2010-10-26 06:02:33 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2010-10-26 12:10:25

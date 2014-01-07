@@ -1,0 +1,17 @@
+Package: HIest
+Type: Package
+Title: Hybrid index estimation
+Version: 2.0
+Date: 2012-05-09
+Author: Ben Fitzpatrick
+Maintainer: Ben Fitzpatrick <benfitz@utk.edu>
+Depends: nnet, stats
+Description: Uses likelihood to estimate ancestry and heterozygosity.
+        Evaluates simple hybrid classifications (parentals, F1, F2,
+        backcrosses). Estimates genomic clines.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2013-02-16 10:27:38 UTC; benfitzpatrick
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-16 11:33:02

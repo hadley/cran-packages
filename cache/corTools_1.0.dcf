@@ -1,0 +1,13 @@
+Package: corTools
+Type: Package
+Title: Tools for processing data after a Genome Wide Association Study
+Version: 1.0
+Date: 2013-08-22
+Author: Angela Fan
+Maintainer: Angela Fan <angela.h.fan@gmail.com>
+Description: Designed for analysis of the results of a Genome Wide Association Study. Includes tools to pull lists of Chromosome number and SNP position below a certain significance threshold, refine gene networks (including data I/O for Cytoscape), and check SNP base pair changes. 
+License: Artistic License 2.0
+NeedsCompilation: no
+Packaged: 2013-08-23 16:14:15 UTC; AngelaFan
+Repository: CRAN
+Date/Publication: 2013-08-23 18:47:41

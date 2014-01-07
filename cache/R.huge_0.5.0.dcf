@@ -1,0 +1,19 @@
+Package: R.huge
+Version: 0.5.0
+Depends: R (>= 2.10.0)
+Imports: R.methodsS3 (>= 1.4.4), R.oo (>= 1.13.9), R.utils (>= 1.26.2)
+Suggests: R.utils (>= 1.26.2)
+Date: 2013-08-02
+Title: Methods for accessing huge amounts of data [DEPRECATED]
+Authors@R: c(person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                          email = "henrikb@braju.com"))
+Author: Henrik Bengtsson
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Description: THIS PACKAGE HAS BEEN DEPRECATED. Do not start building new projects based on it. Cross-platform alternatives are the following packages: bigmemory (CRAN), ff (CRAN), BufferedMatrix (Bioconductor).  The main usage of it was inside the aroma.affymetrix package. (The package currently provides a class representing a matrix where the actual data is stored in a binary format on the local file system.  This way the size limit of the data is set by the file system and not the memory.)
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/
+LazyLoad: TRUE
+Packaged: 2013-08-02 16:07:23 UTC; hb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-02 18:33:03

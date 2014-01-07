@@ -1,0 +1,17 @@
+Package: TGUITeaching
+Type: Package
+Title: Teaching GUI - prototype
+Version: 0.9.13
+Date: 2011-02-28
+Author: Matthias Templ, Gerlinde Dinges, Alexander Kowarik, Bernhard
+        Meindl
+Maintainer: Bernhard Meindl <bernhard.meindl@statistik.gv.at>
+Description: Teaching-GUI prototype, for creating TGUI content to
+        enhance classroom teaching supported by TGUI. A Graphical User
+        Interface to enhance and support modern teaching methods in an
+        interactive way.
+License: GPL
+Depends: TGUICore, tcltk, tkrplot, lattice, car
+Packaged: 2012-10-29 08:57:44 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:44

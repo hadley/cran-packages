@@ -1,0 +1,23 @@
+Package: catdata
+Type: Package
+Title: Categorical Data
+Version: 1.1
+Date: 2010-04-13
+Encoding: UTF-8
+Depends: R (>= 2.10), MASS
+Suggests: rms, qvcalc, glmmML, nnet, pscl, VGAM, gee, mlogit, Ecdat,
+        geepack, mgcv, rpart, party, ordinal, lme4, vcdExtra, glmnet,
+        mboost, class, e1071, flexmix, lqa, lpSolve, GAMBoost,
+        penalized
+Author: Gunther Schauberger, Gerhard Tutz
+Maintainer: Gunther Schauberger
+        <gunther.schauberger@stat.uni-muenchen.de>
+Description: This R-package contains examples from the book "Regression
+        for Categorical Data", Tutz 2011, Cambridge University Press.
+        The names of the examples refer to the chapter and the data set
+        that is used.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-07-26 16:21:59 UTC; schaubergerg
+Repository: CRAN
+Date/Publication: 2012-07-31 12:20:13

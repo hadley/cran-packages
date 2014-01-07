@@ -1,0 +1,27 @@
+Package: nutshellDE
+Type: Package
+Encoding: UTF-8
+Language: de
+Title: Beispieldaten zu "R in a Nutshell" [deutsche Ausgabe]
+Version: 1.0-2
+Date: 2012-05-08
+Author: Joseph Adler (Autor des nutshell-Pakets); Jörg Beyer (deutsche
+        Übersetzung und Bearbeitung; ergänzender Code).
+Maintainer: Christine Haite <nutshellDE@oreilly.de>
+URL: http://www.oreilly.de/catalog/rinanutger/index.html
+Description: Alle Datensätze und eine kleine Auswahl Hilfsfunktionen,
+        die als Beispiele in "R in a Nutshell" [deutsche Ausgabe] des
+        O'Reilly Verlags verwendet werden (ISBN 978-3-89721-649-5).
+        WICHTIG: Beim ersten Laden des Pakets nach der Installation
+        kann es etwas dauern, bis R zur Eingabezeile zurückkehrt.
+        Nähere Informationen erhalten Sie im Abschnitt
+        "Initialisierung" der Dokumentation.
+License: file LICENSE
+Depends: R (>= 2.11.0), arules
+Suggests: lattice, survival, MASS, RSQLite
+LazyLoad: yes
+LazyData: no
+ZipData: no
+Packaged: 2012-05-09 08:45:06 UTC; beyerjoerg
+Repository: CRAN
+Date/Publication: 2012-05-09 13:17:17

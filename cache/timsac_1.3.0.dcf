@@ -1,0 +1,14 @@
+Package: timsac
+Version: 1.3.0
+Title: TIMe Series Analysis and Control package
+Author: The Institute of Statistical Mathematics
+Maintainer: Masami Saga <msaga@mtb.biglobe.ne.jp>
+Depends: R (>= 2.14.0), graphics, stats
+Description: Functions for statistical analysis, prediction and control of time series.
+License: GPL (>= 2)
+MailingList: Please send questions and comments regarding timsac to
+        ismrp@jasp.ism.ac.jp
+Packaged: 2013-07-24 03:55:55 UTC; msaga
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-24 08:47:03

@@ -1,0 +1,16 @@
+Package: Peak2Trough
+Type: Package
+Title: Estimation of the peak-to-trough ratio of a seasonal variation
+        component
+Version: 1.1
+Date: 2011-05-03
+Author: Anette Luther Christensen <anluc@rn.dk>
+Maintainer: Anette Luther Christensen <anluc@rn.dk>
+Depends: R (>= 2.13.0) , Design , sspir
+Description: Estimation of the peak-to-trough ratio of a seasonal
+        variation component.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-07-12 08:52:02 UTC; ajsx
+Repository: CRAN
+Date/Publication: 2011-07-23 13:03:05

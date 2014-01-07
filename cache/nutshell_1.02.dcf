@@ -1,0 +1,19 @@
+Package: nutshell
+Type: Package
+Title: Data for "R in a Nutshell"
+Version: 1.02
+Date: 2011-08-17
+Author: Joseph Adler
+Maintainer: Joseph Adler <rinanutshell@gmail.com>
+Description: This package contains data sets used as examples in the
+        book "R in a Nutshell" from O'Reilly Media. For more
+        information on this book, see
+        http://oreilly.com/catalog/9780596801717/
+License: file LICENSE
+LazyLoad: yes
+ZipData: no
+Packaged: 2012-01-24 18:25:37 UTC; ripley
+Depends: R (>= 2.10)
+Suggests: MASS, RSQLite, arules, lattice, survival
+Repository: CRAN
+Date/Publication: 2012-01-24 18:47:40

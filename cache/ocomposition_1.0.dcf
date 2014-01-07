@@ -1,0 +1,15 @@
+Package: ocomposition
+Type: Package
+Title: Gibbs sampler for ordered compositional data
+Version: 1.0
+Date: 2011-08-27
+Author: Arturas Rozenas, Duke University
+Maintainer: <ar71@duke.edu>
+Description:
+License: GPL (>= 2)
+Depends: R (>= 2.12.1), MCMCpack, bayesm, mnormt
+LazyLoad: yes
+URL: www.duke.edu/~ar71
+Packaged: 2012-10-29 08:59:19 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:19

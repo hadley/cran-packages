@@ -1,0 +1,17 @@
+Package: ascrda
+Type: Package
+Title: Augmented SCRDA
+Version: 1.15
+Date: 2011-12-13
+Author: M. S. Islam and A. I. McLeod
+Maintainer: <aimcleod@uwo.ca>
+Depends: R (>= 2.10),class,nnet,rda,MASS,sfsmisc,e1071,pamr
+Description: Uses nearest neighbor autocovariates with SCRDA, provides cross-validation functions for the delete-d method, a simulation method is provided for generating synthetic microarray data, a consistent and simple interface is provided for functions from other R packages for SCRDA, PAM, SVM, DLDA, kNN.
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.4, I.5
+Classification/MSC: 62H30
+License: GPL (>= 2)
+Packaged: 2011-12-15 00:08:26 UTC; Aim
+Repository: CRAN
+Date/Publication: 2011-12-15 10:10:02

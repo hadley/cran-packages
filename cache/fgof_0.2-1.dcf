@@ -1,0 +1,15 @@
+Package: fgof
+Type: Package
+Title: Fast Goodness-of-fit Test
+Version: 0.2-1
+Date: 2012-05-23
+Author: Ivan Kojadinovic and Jun Yan
+Maintainer: Jun Yan <jun.yan@uconn.edu>
+Depends: mvtnorm, numDeriv
+Description: Goodness-of-fit test with multiplier or parametric
+        bootstrap.
+License: GPL (>= 3)
+LazyLoad: yes
+Packaged: 2012-05-23 19:17:51 UTC; jyan
+Repository: CRAN
+Date/Publication: 2012-05-25 06:53:15

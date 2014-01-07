@@ -1,0 +1,13 @@
+Package: RStackExchange
+Title: R based StackExchange client
+Description: Provides an interface to the StackExchange web API
+Version: 0.1.0
+Author: Jeff Gentry <geoffjentry@gmail.com>
+Maintainer: Jeff Gentry <geoffjentry@gmail.com>
+Depends: RCurl, RJSONIO, methods
+License: Artistic-2.0
+Collate: comm.R utils.R users.R answers.R badges.R comments.R
+        privileges.R questions.R revisions.R search.R tags.R
+Packaged: 2011-05-24 20:47:47 UTC; jgentry
+Repository: CRAN
+Date/Publication: 2011-05-25 06:36:23

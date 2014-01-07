@@ -1,0 +1,17 @@
+Package: ops
+Type: Package
+Title: Optimal Power Space Transformation
+Version: 1.0
+Date: 2012-02-12
+Author: Micha Sammeth
+Maintainer: Micha Sammeth <micha@sammeth.net>
+Description: Comparison of data by Pearson product-moment correlation
+        coefficients is prone to outliers. The problem can be
+        alleviated by normalizing data with outliers before computing
+        the Pearson correlation coefficient. The sample provides such
+        normalization by optimal power space transformation.
+License: Apache License 2.0
+LazyLoad: yes
+Packaged: 2012-02-19 23:47:21 UTC; karina
+Repository: CRAN
+Date/Publication: 2012-02-20 06:28:20

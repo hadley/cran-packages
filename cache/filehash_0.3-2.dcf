@@ -1,0 +1,13 @@
+Package:  filehash
+Version:  0.3-2
+Date:  2005-11-18
+LazyLoad:  yes
+Depends:  R (>= 2.1.0)
+Imports:  methods
+Title:  Simple file-based hash table
+Author:  Roger D. Peng <rpeng@jhsph.edu>
+Maintainer:  Roger D. Peng <rpeng@jhsph.edu>
+Description:  Simple file-based hash table
+License:  GNU GPL (version 2 or later)
+URL:  http://sandybox.typepad.com/software/
+Packaged: Fri Nov 18 10:15:41 2005; rpeng

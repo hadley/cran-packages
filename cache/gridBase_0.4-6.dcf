@@ -1,0 +1,13 @@
+Package: gridBase
+Title: Integration of base and grid graphics
+Version: 0.4-6
+Author: Paul Murrell
+Depends: R (>= 2.3.0), graphics, grid
+Imports: graphics, grid
+Suggests: lattice
+Description: Integration of base and grid graphics
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+License: GPL
+Packaged: 2012-12-04 19:23:21 UTC; EC\pmur002
+Repository: CRAN
+Date/Publication: 2012-12-04 20:47:58

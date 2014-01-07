@@ -1,0 +1,23 @@
+Package: arrayhelpers
+Maintainer: C. Beleites <cbeleites@units.it>
+License: GPL
+Title: Convenience functions for arrays
+LazyData: yes
+Type: Package
+LazyLoad: yes
+Author: C. Beleites <cbeleites@units.it>
+Description: Some convenient functions to work with arrays
+Version: 0.75-20110803
+URL: http://arrayhelpers.r-forge.r-project.org/
+Date: 2011-08-03
+Depends: svUnit, methods
+Collate: 'apply.R' 'array2df.R' 'array2vec.R' 'arrayhelpers.R'
+        'colSums.R' 'countrows.R' 'delold.R' 'dropdimnames.R'
+        'ensuredim.R' 'groupsum.R' 'init.R' 'makeNd.R' 'ndim.R'
+        'numericindices.R' 'restoredim.R' 'rowsum.R' 'stack.R' 'ta.R'
+        'validate.R'
+Repository: CRAN
+Repository/R-Forge/Project: arrayhelpers
+Repository/R-Forge/Revision: 17
+Date/Publication: 2011-08-05 16:52:43
+Packaged: 2011-08-03 20:46:06 UTC; rforge

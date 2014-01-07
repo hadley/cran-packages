@@ -1,0 +1,17 @@
+Package: caschrono
+Title: Séries temporelles avec R - Méthodes et cas
+Description: Functions, data sets and exercises solutions for the book
+        'Séries temporelles avec R - Méthodes et cas' (Yves Aragon,
+        Springer, 2011). For all chapters, a vignette is available with
+        some additional material and exercises solutions.
+Encoding: latin1
+Version: 1.0
+Date: 2011-02-21
+Author: Yves Aragon
+Maintainer: Thibault Laurent <Thibault.Laurent@univ-tlse1.fr>
+Depends: forecast, Hmisc, its, timeSeries
+Suggests: dse, expsmooth, FitARMA, fGarch
+License: GPL (>= 2)
+Packaged: 2011-03-07 11:18:53 UTC; laurent
+Repository: CRAN
+Date/Publication: 2011-03-07 11:33:02

@@ -1,0 +1,18 @@
+Package: mboost
+Title: Model-Based Boosting
+Date: $Date: 2007/01/24 14:06:08 $
+Version: 0.5-0
+Author: Torsten Hothorn and Peter Buhlmann
+Maintainer: Torsten Hothorn <Torsten.Hothorn@R-project.org>
+Description: Functional gradient descent algorithms 
+  (boosting) for optimizing general loss functions utilizing 
+  componentwise least squares, either of parametric linear form or
+  smoothing splines, or regression trees as base learners for fitting
+  generalized linear, additive and interaction models to potentially 
+  high-dimensional data.
+Depends: R (>= 2.3.0), methods, modeltools (>= 0.2.10), party (>= 0.8-6),
+  splines
+Suggests: mlbench, ipred
+SaveImage: yes
+License: GPL
+Packaged: Thu Feb  1 11:30:30 2007; hothorn

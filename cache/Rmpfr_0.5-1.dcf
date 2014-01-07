@@ -1,0 +1,26 @@
+Package: Rmpfr
+Type: Package
+Title: R MPFR - Multiple Precision Floating-Point Reliable
+Version: 0.5-1
+Date: 2012-12-03
+Author: Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+SystemRequirements: gmp (>= 4.2.3), mpfr (>= 3.0.0)
+SystemReqsNotes: MPFR (MP Floating-Point Reliable Library,
+        http://mpfr.org/) and GMP (GNU Multiple Precision library,
+        http://gmplib.org/), see README
+Depends: methods, gmp (>= 0.5-2), R (>= 2.12.0)
+Imports: gmp, stats, utils
+Suggests: MASS, polynom, sfsmisc (>= 1.0-20)
+SuggestNotes: MASS, polynom, sfsmisc are only needed for vignette
+URL: http://rmpfr.r-forge.r-project.org/
+Description: Rmpfr provides (S4 classes and methods for) arithmetic
+        including transcendental ("special") functions for arbitrary
+        precision floating point numbers. To this end, it interfaces to
+        the LGPL'ed MPFR (Multiple Precision Floating-Point Reliable)
+        Library which itself is based on the GMP (GNU Multiple
+        Precision) Library.
+License: GPL (>= 2)
+Packaged: 2012-12-03 16:34:51 UTC; maechler
+Repository: CRAN
+Date/Publication: 2012-12-03 16:53:48

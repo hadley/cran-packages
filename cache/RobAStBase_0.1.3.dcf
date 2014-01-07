@@ -1,0 +1,14 @@
+Package: RobAStBase
+Version: 0.1.3
+Date: 2008-11-27
+Title: Robust Asymptotic Statistics
+Description: Base S4-classes and functions for robust asymptotic
+        statistics.
+Depends: R(>= 2.7.0), methods, distr(>= 2.0), distrEx(>= 2.0),
+        distrMod(>= 2.0), RandVar(>= 0.6.3)
+Author: Matthias Kohl, Peter Ruckdeschel
+Maintainer: Matthias Kohl <Matthias.Kohl@stamats.de>
+LazyLoad: yes
+License: LGPL-3
+URL: http://robast.r-forge.r-project.org/
+Packaged: Sat Nov 29 16:52:31 2008; btm722

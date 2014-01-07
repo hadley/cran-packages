@@ -1,0 +1,9 @@
+Package: lago
+Version: 0.1-1
+Date: 2007-08-15
+Title: An efficient kernel algorithm for rare target detection and unbalanced classification
+Author: Alexandra Laflamme-Sanders, Wanhua Su, Mu Zhu
+Maintainer: Mu Zhu <m3zhu@math.uwaterloo.ca>
+Description: LAGO is a kernel method much like the SVM, except that it is constructed without the use of any iterative optimization procedure and hence very efficient. (Technometrics 48, 193-205; The American Statistician 62, 97-109, Sec 4.2)
+License: GPL (>=2)
+Packaged: Tue Apr 22 18:47:46 2008; m3zhu

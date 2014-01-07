@@ -1,0 +1,17 @@
+Package: benchden
+Type: Package
+Title: 28 benchmark densities from Berlinet/Devroye (1994)
+Version: 1.0.4
+Date: 2011-03-04
+Author: Thoralf Mildenberger, Henrike Weinert, Sebastian Tiemeyer
+Maintainer: Thoralf Mildenberger <thoralf.mildenberger@uni-bayreuth.de>
+Description: Full implementation of the 28 distributions introduced as
+        benchmarks for nonparametric density estimation by Berlinet and
+        Devroye (1994). Includes densities, cdfs, quantile functions
+        and generators for samples as well as additional information on
+        features of the densities. Also contains the 4 histogram
+        densities used in Rozenholc/Mildenberger/Gather (2010).
+License: GPL (>= 2)
+Packaged: 2011-03-04 15:50:45 UTC; thoralf
+Repository: CRAN
+Date/Publication: 2011-03-05 16:11:31

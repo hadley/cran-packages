@@ -1,0 +1,20 @@
+Package: PET
+Version: 0.4.7
+Date: 2009-10-25
+Title: Simulation and Reconstruction of PET Images
+Author: Joern Schulz <jschulz78@web.de> Peter Toft <pto@imm.dtu.dk>
+        Jesper James Jensen <jjj@oedan.dk> Peter Philipsen
+        <pap@imm.dtu.dk>
+Maintainer: Joern Schulz <jschulz78@web.de>
+Depends: adimpro (>= 0.4.2)
+Requires: The R-package 'adimpro' (for reading and writing some graphic
+        formats, it is used in the demos too).
+Description: This package implements different analytic/direct and
+        iterative reconstruction methods of Peter Toft. It also offer
+        the possibility to simulate PET data.
+License: GPL (>= 2)
+Copyright: This package is Copyright (C) 2006-2009 by Joern Schulz and
+        Peter Toft.
+Packaged: 2009-10-28 09:01:17 UTC; jsc005
+Repository: CRAN
+Date/Publication: 2009-10-28 11:02:02

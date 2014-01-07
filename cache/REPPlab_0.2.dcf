@@ -1,0 +1,17 @@
+Package: REPPlab
+Type: Package
+Title: R interface to EPP-lab, a Java program for exploratory
+        projection pursuit.
+Version: 0.2
+Date: 2013-10-22
+Author: Daniel Fischer, Alain Berro, Klaus Nordhausen, Anne Ruiz-Gazen
+Maintainer: Daniel Fischer <daniel.fischer@uta.fi>
+Depends: R (>= 2.15.1), rJava, lattice
+Suggests: tourr, amap
+Description: An R Interface to EPP-Lab (Version 0.1). EPP-Lab is a Java programm for projection pursuit using genetic algorithms written by Alain Berro.
+License: GPL (>= 2)
+Encoding: latin1
+Packaged: 2013-10-22 06:00:06 UTC; ejo138
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-22 08:15:34

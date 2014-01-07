@@ -1,0 +1,33 @@
+Package: compareGroups
+Type: Package
+Title: Descriptive analysis by groups
+Version: 2.0
+Date: 2013-08-02
+Depends: R (>= 2.13.1), Hmisc, xtable, gdata, HardyWeinberg
+Imports: survival, oce, epitools, tools
+Suggests: tcltk2, car
+Author: Isaac Subirana, Joan Vila, Héctor Sanz, Gavin Lucas, Judith Peñafiel
+    and David Giménez
+Maintainer: Isaac Subirana <isubirana@imim.es>
+Description: A package designed to read, interpret, summarise, display and
+    analyse epidemiological data. Can be used to create data summaries for
+    quality control, extensive reports for exploring data, including
+    publication-ready univariate or bivariate tables in plain text HTML and
+    LaTeX, and a figures to quickly visualise the distribution of your data.
+    Depending on the nature of the variable, various statistics are
+    calculated (mean, median, frequencies, incidences) and appropriate
+    tests are performed (t-test, Analysis of variance, Kruskal-Wallis, Fisher,
+    log-rank, ...). The latest version includes functionality for summarising
+    genetic data, and for performing low-level quality control of your database
+    (see radiograph()) to help identify data-entry errors. This version has
+    also been implemented in a web-interface to make this package accessible
+    to non-R-users (see www.comparegroups.eu).
+License: GPL (>= 2)
+URL: http://www.comparegroups.eu
+LazyLoad: yes
+Encoding: latin1
+BuildVignettes: False
+Packaged: 2013-08-02 13:25:44 UTC; isubirana
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-02 15:50:32

@@ -1,0 +1,14 @@
+Package: extRemes
+Version: 1.65
+Date: March 15 2004
+Title: Extreme value toolkit.
+Author: Eric Gilleland, Rick Katz, Greg Young
+Maintainer: Eric Gilleland <ericg@ucar.edu>
+Depends: R (>= 2.10.0),tcltk,ismev (>= 1.33),Lmoments
+Description: This toolkit provides a Graphical User Interface (GUI) to
+        various functions for doing extreme value analysis.
+License: GPL (>= 2)
+URL: http://www.assessment.ucar.edu/toolkit/
+Packaged: 2012-10-05 20:35:38 UTC; ericg
+Repository: CRAN
+Date/Publication: 2012-10-06 06:01:30

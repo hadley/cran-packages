@@ -1,0 +1,13 @@
+Title: The giRaph package for flexible graph representation in R
+Package: giRaph
+Namespace: giRaph
+Description: Supply data structures and algorithms for computations on graphs
+Version: 0.0.0.11
+Date: 2005/09/20
+Author: Jens Henrik Badsberg, Claus Dethlefsen, Luca La Rocca
+Maintainer: Claus Dethlefsen <aas.claus.dethlefsen@nja.dk>
+Depends: R (>= 2.1.1), graphics, methods
+Suggests: mathgraph,dynamicGraph
+License: GPL Version 2 or later.
+URL: http://www.math.aau.dk/gr
+Packaged: Sun Sep 18 08:06:12 2005; 86c9

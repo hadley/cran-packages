@@ -1,0 +1,22 @@
+Package: rmetasim
+Version: 1.1.01
+Author: Allan Strand <stranda@cofc.edu>, 
+	James Niehaus
+Maintainer: Allan Strand <stranda@cofc.edu>
+Date: 2006-3-15
+Depends: ape, ade4
+Title: An individual-based population genetic simulation environment
+License: GPL
+Description: An interface between R and the metasim simulation engine.
+	     Facilitates the use of the metasim engine to build and
+	     run individual based population genetics simulations. The
+	     simulation environment is documented in: Allan
+	     Strand. Metasim 1.0: an individual-based environment for
+	     simulating population genetics of complex population
+	     dynamics. Mol. Ecol. Notes, 2:373-376, 2002. (Please
+	     contact Allan Strand with comments, bug reports, etc).
+	     This version represents a significant alteration of
+	     function names that hopefully increases consistency and
+	     reduces the chances of collisions with other packages
+	     naming conventions.
+Packaged: Fri Sep 28 23:47:36 2007; astrand

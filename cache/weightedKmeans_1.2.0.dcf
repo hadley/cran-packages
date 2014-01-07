@@ -1,0 +1,24 @@
+Package: weightedKmeans
+Version: 1.2.0
+Date: 2012-04-27
+Title: Weighted KMeans Clustering
+Author: Graham Williams, Joshua Z Huang, Xiaojun Chen, Qiang Wang,
+        Longfei Xiao
+Maintainer: Graham Williams <Graham.Williams@togaware.com>
+Depends: lattice, latticeExtra, clv
+Description: Entropy weighted kmeans (ewkm) is a weighted subspace
+        clustering algorithm that is well suited to very high
+        dimensional data. Weights are calculated as the importance of a
+        variable with regard to cluster membership. The feature group
+        weighted kmenas (fgkm) extends this concept by grouping
+        features and weighting the group in addition to weihgting
+        individual features.
+License: GPL (>= 3)
+Copyright: 2011-2012 Shenzhen Institutes of Advanced Technology Chinese
+        Academy of Sciences
+LazyLoad: yes
+LazyData: yes
+URL: http://www.siat.ac.cn
+Packaged: 2012-04-26 20:11:09 UTC; gjw
+Repository: CRAN
+Date/Publication: 2012-04-27 06:28:29

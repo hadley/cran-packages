@@ -1,0 +1,12 @@
+Package: lmomRFA
+Version: 1.0
+Date: 2009-03-01
+Title: Regional frequency analysis using L-moments
+Author: J. R. M. Hosking
+Maintainer: J. R. M. Hosking <hosking@watson.ibm.com>
+Description: Functions for regional frequency analysis using the methods
+  of J.R.M. Hosking and J.R. Wallis (1997), "Regional frequency analysis:
+  an approach based on L-moments".
+Depends: lmom
+License: Common Public License Version 1.0
+Packaged: Mon Mar  2 10:18:24 2009; hosking

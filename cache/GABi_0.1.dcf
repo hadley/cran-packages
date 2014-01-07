@@ -1,0 +1,18 @@
+Package: GABi
+Version: 0.1
+Date: 2013-06-19
+Title: Framework for Generalized Subspace Pattern Mining
+Authors@R: person("Ed", "Curry", role = c("aut", "cre"),email =
+        "e.curry@imperial.ac.uk")
+Author: Ed Curry
+Maintainer: Ed Curry <e.curry@imperial.ac.uk>
+Depends: R (>= 2.15.0), hash
+Suggests: ArrayBin
+Description: Generalized subspace pattern mining in data arrays, using a genetic algorithm framework. 
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://www1.imperial.ac.uk/medicine/people/e.curry/
+Packaged: 2013-09-17 11:06:26 UTC; ecurry
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-17 14:47:54

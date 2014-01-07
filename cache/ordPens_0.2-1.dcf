@@ -1,0 +1,16 @@
+Package: ordPens
+Type: Package
+Title: Selection and/or Smoothing of Ordinal Predictors
+Version: 0.2-1
+Date: 2013-06-12
+Author: Jan Gertheiss
+Maintainer: Jan Gertheiss <jgerthe@uni-goettingen.de>
+Description: Selection and/or smoothing of ordinally scaled independent
+        variables using a group lasso or generalized ridge penalty
+Depends: grplasso, mgcv, RLRsim
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-06-13 08:16:19 UTC; jgerthe
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-14 12:23:13

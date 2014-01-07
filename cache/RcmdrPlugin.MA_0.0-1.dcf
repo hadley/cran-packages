@@ -1,0 +1,24 @@
+Package: RcmdrPlugin.MA
+Type: Package
+Title: Graphical User Interface for Conducting Meta-Analyses in R
+Version: 0.0-1
+Date: 2013-03-23
+Author: AC Del Re
+Maintainer: AC Del Re <acdelre@gmail.com>
+Description: This is an R-Commander plug-in for meta-analysis. This
+        package enables the user to conduct a meta-analysis in a
+        menu-driven, graphical user interface environment (e.g., SPSS).
+        It uses recommended procedures as described in The Handbook of
+        Research Synthesis and Meta-Analysis (Cooper, Hedges, &
+        Valentine, 2009).
+Depends: R (>= 2.15), MAd, metafor
+Imports: Rcmdr
+Enhances: compute.es, ggplot2
+License: GPL-2
+RcmdrModels: mareg, macat, rma
+URL:
+        http://rwiki.sciviews.org/doku.php?id=packages:cran:ma_meta-analysis
+Packaged: 2013-03-22 19:59:56 UTC; AC Del Re
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-23 06:30:48

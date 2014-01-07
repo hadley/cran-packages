@@ -1,0 +1,20 @@
+Package: svSocket
+Type: Package
+Version: 0.9-54
+Date: 2013-01-27
+Title: SciViews GUI API - R Socket Server
+Authors@R: c(person("Philippe", "Grosjean", role = c("aut", "cre"),
+        email = "phgrosjean@sciviews.org"), person("Matthew", "Dowle",
+        role = "ctb", email = "mdowle@mdowle.plus.com"))
+Author: Philippe Grosjean, with contributions from Matthew Dowle
+Maintainer: Philippe Grosjean <phgrosjean@sciviews.org>
+Depends: R (>= 2.6.0)
+Imports: tcltk, svMisc (>= 0.9-68)
+Description: Implements a simple socket server allowing to connect GUI
+        clients to R
+License: GPL-2
+URL: http://www.sciviews.org/SciViews-R
+BugReports: https://r-forge.r-project.org/tracker/?group_id=194
+Packaged: 2013-01-27 20:56:12 UTC; phgrosjean
+Repository: CRAN
+Date/Publication: 2013-01-28 07:38:23

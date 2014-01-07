@@ -1,0 +1,14 @@
+Package: CellularAutomaton
+Type: Package
+Title: One-Dimensional Cellular Automata
+Version: 1.1-1
+Date: 2013-08-19
+Author: John Hughes
+Maintainer: John Hughes <hughesj@umn.edu>
+Depends: R.oo, R.methodsS3
+Description: This package is an object-oriented implementation of one-dimensional cellular automata. It supports many of the features offered by Mathematica, including elementary rules, user-defined rules, radii, user-defined seeding, and plotting.
+License: GPL
+Packaged: 2013-08-20 00:22:37 UTC; jphughesjr
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-20 07:01:00

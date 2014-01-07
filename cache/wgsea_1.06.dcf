@@ -1,0 +1,14 @@
+Package: wgsea
+Type: Package
+Title: Wilcoxon based gene set enrichment analysis
+Version: 1.06
+Date: 2012-10-28
+Author: Chris Wallace
+Maintainer: Chris Wallace <chris.wallace@cimr.cam.ac.uk>
+Description: Non parametric alternative to Kolmogorov-Smirnov based
+        standard GSEA testing.
+License: GPL
+Depends: snpStats
+Packaged: 2012-10-28 13:35:35 UTC; chrisw
+Repository: CRAN
+Date/Publication: 2012-10-28 14:16:17

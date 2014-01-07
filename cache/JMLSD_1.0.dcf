@@ -1,0 +1,18 @@
+Package: JMLSD
+Type: Package
+Title: Joint Modeling of Longitudinal and Survival Data - Power
+        Calculation
+Version: 1.0
+Date: 2012-06-01
+Author: Emil A. Cornea, Liddy M. Chen, Bahjat F. Qaqish, Haitao Chu,
+        and Joseph G. Ibrahim
+Maintainer: Emil A. Cornea <ecornea@live.unc.edu>
+Description: The package contains a R-function to perform power
+        calculation for joint modeling of longitudinal and survival
+        data, with k-th order trajectories, when the
+        variance-covariance matrix Sigma_theta is unknown.
+License: GPL-2
+Depends: methods
+Packaged: 2012-06-04 17:43:06 UTC; Mihaela
+Repository: CRAN
+Date/Publication: 2012-06-04 18:11:13

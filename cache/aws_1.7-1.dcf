@@ -1,0 +1,22 @@
+Package: aws
+Version: 1.7-1
+Date: 2011-12-09
+Title: Adaptive Weights Smoothing
+Author: Joerg Polzehl <polzehl@wias-berlin.de>
+Maintainer: Joerg Polzehl <polzehl@wias-berlin.de>
+Depends: R (>= 2.5.0), methods
+Description: The package contains R-functions implementing the
+             Propagation-Separation Approach to adaptive smoothing as 
+             described in J. Polzehl and V. Spokoiny (2006), 
+             Propagation-Separation Approach for Local Likelihood Estimation,
+             Prob. Theory and Rel. Fields, 135(3):335--362.
+             and J. Polzehl and V. Spokoiny (2004) Spatially adaptive 
+             regression estimation: Propagation-separation approach,
+             WIAS-Preprint 998.
+License: GPL (>= 2)
+Copyright: This package is Copyright (C) 2005-2010 Weierstrass
+        Institute for Applied Analysis and Stochastics.
+URL: http://www.wias-berlin.de/projects/matheon_a3/
+Packaged: 2011-12-11 15:56:35 UTC; polzehl
+Repository: CRAN
+Date/Publication: 2011-12-11 17:42:19

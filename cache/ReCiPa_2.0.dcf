@@ -1,0 +1,15 @@
+Package: ReCiPa
+Type: Package
+Title: Redundancy Control in Pathways databases
+Version: 2.0
+Date: 2012-02-03
+Author: Juan C. Vivar
+Maintainer: Juan C. Vivar <jvivar@nccu.edu>
+Description: Pathways in a database could have many redundancies among
+        them. This package allows the user to set a maximum value for
+        the proportion of these redundancies.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-02-03 20:10:59 UTC; jcvivar
+Repository: CRAN
+Date/Publication: 2012-02-04 08:39:44

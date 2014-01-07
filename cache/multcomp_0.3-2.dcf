@@ -1,0 +1,11 @@
+Package: multcomp
+Title: Multiple Tests and Simultaneous Confidence Intervals 
+Version: 0.3-2
+Date: $Date: 2002/09/18 09:07:45 $
+Author: Frank Bretz <bretz@ifgb.uni-hannover.de>,
+ Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de> and 
+ Peter Westfall <WESTFALL@ba.ttu.edu>
+Description: Multiple comparison procedures for the one-way layout.
+Maintainer: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Depends: R (>= 1.5.1), mvtnorm (>=0.5-4)
+License: GPL

@@ -1,0 +1,30 @@
+Package: CommonTrend
+Version: 0.7-1
+Date: 2011-11-13
+Title: Extract and plot common trends from a cointegration system.
+        Calculate P-value for Johansen Statistics.
+Author: Fan Yang
+Maintainer: Fan Yang <yfno1@msn.com>
+Depends: R (>= 2.10)
+Imports: methods,MASS,urca
+Description: Directly extract and plot stochastic common trends from
+        a cointegration system using different approaches, currently
+        including Kasa (1992) and Gonzalo and Granger (1995). 
+	The approach proposed by Gonzalo and Granger, also known as
+        Permanent-Transitory Decomposition, is widely used in
+        macroeconomics and market microstructure literature. 
+	Kasa's approach, on the other hand, has a nice property that it only
+        uses the super consistent estimator: the cointegration vector
+        'beta'. 
+	This package also provides functions calculate P-value
+        from Johansen Statistics according to the approximation method
+        proposed by Doornik (1998).
+	Update:
+	0.7-1: Fix bugs in calculation alpha. Add formulas and more explanations.
+        0.6-1: Rewrite the description file.
+        0.5-1: Add functions to calculate P-value from Johansen statistic, and vice versa.
+License: GPL (>= 2)
+Packaged: 2013-09-05 17:47:36 UTC; yangguodaxia
+Repository: CRAN
+Date/Publication: 2013-09-05 20:02:29
+NeedsCompilation: no

@@ -1,0 +1,26 @@
+Package: TreePar
+Type: Package
+Title: Estimating diversification rate changes in phylogenies
+Version: 1.0
+Date: 2010-06-17
+Author: Tanja Stadler
+Maintainer: Tanja Stadler <tanja.stadler@env.ethz.ch>
+Depends: ape, TreeSim
+Description: For a given phylogeny on present day data (e.g. species or
+        viruses), a likelihood method is provided where the maximum
+        likelihood speciation and extinction rates are estimated. The
+        method accounts for rate changes and mass extinction events:
+        Time is split into intervals, and in each interval, the rates
+        can be different. Throughout an interval, the rates stay
+        constant. At the end of an interval, a pre-defined fraction of
+        the extant species becomes extinct. No species becoming extinct
+        is a rate shift event without mass extinction. The method
+        estimates the maximum likelihood interval sizes, and the
+        speciation and extinction rates in each interval. Note that the
+        method takes into account the whole phylogeny, in particular it
+        accounts for the "pull of the present" effect.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-06-18 10:19:08 UTC; tanja
+Repository: CRAN
+Date/Publication: 2010-06-18 15:13:30

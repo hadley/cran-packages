@@ -1,0 +1,14 @@
+Package: Unicode
+Version: 0.1-3
+Encoding: UTF-8
+Title: Unicode data and utilities
+Authors@R: person("Kurt", "Hornik", role = c("aut", "cre"), email =
+        "Kurt.Hornik@R-project.org")
+Description: Data from Unicode 6.0.0 and related utilities.
+Depends: R (>= 2.10.0)
+License: GPL-2
+Packaged: 2012-12-22 12:53:47 UTC; hornik
+Author: Kurt Hornik [aut, cre]
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Repository: CRAN
+Date/Publication: 2012-12-22 14:13:58

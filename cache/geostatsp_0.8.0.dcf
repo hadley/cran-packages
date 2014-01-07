@@ -1,0 +1,20 @@
+Package: geostatsp
+Type: Package
+Title: Geostatistics using SpatialPoints and rasters
+Version: 0.8.0
+Date: 2013-11-25
+Depends: Matrix, raster, sp, R (>= 3.0.0)
+Imports: parallel
+Suggests: pracma, geoR, RandomFields, rgdal
+Enhances: spatstat
+Author: Patrick Brown <patrick.brown@utoronto.ca>[aut, cre], Robert Hijmans [ctb]
+Maintainer: Patrick Brown <patrick.brown@utoronto.ca>
+Description: This package provides to geostatistical modelling facilities using raster and SpatialPoints objects.
+License: GPL
+Repository: CRAN
+Repository/R-Forge/Project: diseasemapping
+Repository/R-Forge/Revision: 644
+Repository/R-Forge/DateTimeStamp: 2013-11-25 18:11:41
+Date/Publication: 2013-11-27 07:11:07
+Packaged: 2013-11-25 19:16:34 UTC; rforge
+NeedsCompilation: yes

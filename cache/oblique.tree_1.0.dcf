@@ -1,0 +1,15 @@
+Package: oblique.tree
+Type: Package
+Title: Oblique Trees for Classification Data
+Version: 1.0
+Date: 2009-03-17
+Author: Alfred Truong
+Maintainer: Alfred Truong <truong@stats.ox.ac.uk>
+Description: Grows Oblique Trees to Classification Data.
+License: GPL-3
+Depends: tree
+Imports: nnet, glmnet
+Suggests: MASS
+Packaged: 2012-02-04 07:51:45 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-02-04 08:03:53

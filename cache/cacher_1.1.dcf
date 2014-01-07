@@ -1,0 +1,17 @@
+Package: cacher
+Title: Tools for caching and distributing statistical analyses
+Version: 1.1
+Date: 2009-05-28
+Depends: R (>= 2.9.0)
+Imports: utils
+Suggests: digest, CodeDepends, Rgraphviz
+Author: Roger D. Peng <rpeng@jhsph.edu>
+Maintainer: Roger D. Peng <rpeng@jhsph.edu>
+Description: This package provides tools for caching statistical
+        analyses in key-value databases which can subsequently be
+        distributed over the web.
+License: GPL (>= 2)
+URL: http://github.com/rdpeng/cacher/tree/master
+Packaged: 2009-06-23 17:29:08 UTC; rpeng
+Repository: CRAN
+Date/Publication: 2009-06-23 17:55:41

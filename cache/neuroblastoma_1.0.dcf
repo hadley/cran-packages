@@ -1,0 +1,13 @@
+Package: neuroblastoma
+Maintainer: Toby Dylan Hocking <toby@sg.cs.titech.ac.jp>
+Author: Toby Dylan Hocking
+Version: 1.0
+License: GPL-3
+Title: Neuroblastoma copy number profiles
+Description: Annotated neuroblastoma copy number profiles,
+	     a benchmark data set for change-point detection algorithms.
+Depends: R (>= 2.10)
+Packaged: 2013-07-23 00:28:19 UTC; toby
+Repository: CRAN
+Date/Publication: 2013-07-23 02:30:55
+NeedsCompilation: no

@@ -1,0 +1,14 @@
+Package: FeedbackTS
+Type: Package
+Title: Analysis of Feedback in Time Series
+Version: 1.0
+Date: 2013-08-06
+Author: Samuel Soubeyrand, Cindy E. Morris, E. Keith Bigg
+Maintainer: Samuel Soubeyrand <Samuel.Soubeyrand@avignon.inra.fr>
+Description: Analysis of fragmented time directionality to investigate feedback in time series. Tools provided by the package allow the analysis of feedback for a single time series and the analysis of feedback for a set of time series collected across a spatial domain.
+License: GPL (>= 2.0)
+Depends: R (>= 3.0.0), methods, maps, mapdata, proj4, geoR
+Packaged: 2013-09-26 14:36:04 UTC; ssoubeyrand
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-09-26 17:20:31

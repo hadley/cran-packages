@@ -1,0 +1,22 @@
+Package: rEMM
+Version: 1.0-0
+Date: 2010-07-11
+Title: Extensible Markov Model (EMM) for Data Stream Clustering in R
+Author: Michael Hahsler and Margaret H. Dunham
+Maintainer: Michael Hahsler <michael@hahsler.net>
+Description: The Extensible Markov Model (EMM) adds a temporal
+        component to data stream clustering by superimposing a
+        dynamically adapting Markov Chain. This package implements EMM
+        on top of threshold NN, a simple clustering algorithm for data
+        streams. Development of this package was supported in part by
+        NSF IIS-0948893.
+Classification/ACM: G.4, H.2.8, I.5.1
+URL: http://R-Forge.R-project.org/projects/remm/
+Depends: R (>= 2.7.0), methods, stats, proxy, cluster, MASS,
+        clusterGeneration
+Imports: stats
+Suggests: graph, Rgraphviz, RBGL
+License: GPL-2
+Packaged: 2010-07-13 12:50:16 UTC; hahsler
+Repository: CRAN
+Date/Publication: 2010-07-13 17:52:07

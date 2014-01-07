@@ -1,0 +1,16 @@
+Package: AtelieR
+Type: Package
+Title: A GTK GUI for teaching basic concepts in statistical inference,
+        and doing elementary bayesian tests.
+Version: 0.22
+Encoding: UTF-8
+Date: 2011-11-10
+Author: Yvonnick Noel
+Maintainer: Yvonnick Noel, University of Brittany, France
+        <yvonnick.noel@univ-rennes2.fr>
+Description: A collection of statistical simulation and computation tools with a GTK GUI, to help teach statistical concepts and compute probabilities. Two domains are covered: I. Understanding (Central-Limit Theorem and the Normal Distribution, Distribution of a sample mean, Distribution of a sample variance, Probability calculator for common distributions), and II. Elementary Bayesian Statistics (bayesian inference on proportions, contingency tables, means and variances, with informative and noninformative priors).
+License: GPL (>= 2)
+Depends: proto, cairoDevice, gWidgetsRGtk2, partitions
+Packaged: 2011-11-13 19:39:14 UTC; noel
+Repository: CRAN
+Date/Publication: 2011-11-14 09:58:06

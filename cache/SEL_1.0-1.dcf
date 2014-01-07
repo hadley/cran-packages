@@ -1,0 +1,24 @@
+Package: SEL
+Type: Package
+Title: Semiparametric elicitation
+Version: 1.0-1
+Date: 2009-07-10
+Depends: splines, quadprog, lattice
+Author: Bjoern Bornkamp
+Maintainer: Bjoern Bornkamp <bornkamp@statistik.tu-dortmund.de>
+Description: This package implements a novel method for transferring
+        expert statements about an uncertain bounded quantity into a
+        probability distribution (see Bornkamp and Ickstadt (2009) for
+        a detailed description).  For this purpose B-splines are used,
+        and the density is obtained by penalized least squares, where
+        the penalty encourages to distribute probability mass as
+        uniformly as possible. The package provides methods for fitting
+        the expert's distribution as well as methods for evaluating the
+        underlying density and cdf. In addition methods for plotting
+        the expert's distribution, drawing random numbers and
+        calculating quantiles of the expert's distribution are
+        provided.
+License: GPL
+Packaged: 2009-07-19 11:50:26 UTC; bjoern
+Repository: CRAN
+Date/Publication: 2009-07-19 20:10:03

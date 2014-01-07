@@ -1,0 +1,29 @@
+Package: Amelia
+Version: 1.1-23
+Date: 2007-03-24
+Title: Amelia II: A Program for Missing Data
+Author: James Honaker <tercer@ucla.edu>,
+        Gary King <king@harvard.edu>,
+        Matthew Blackwell <blackwel@fas.harvard.edu>
+Maintainer: Matthew Blackwell <blackwel@fas.harvard.edu>
+Depends: R (>= 2.0.0), foreign
+Description: Amelia II "multiply imputes" missing data in a single cross-section
+  (such as a survey), from a time series (like variables collected for
+  each year in a country), or from a time-series-cross-sectional data
+  set (such as collected by years for each of several countries).
+  Amelia II implements our bootstrapping-based algorithm that gives
+  essentially the same answers as the standard IP or EMis approaches,
+  is usually considerably faster than existing approaches and can
+  handle many more variables.  Unlike Amelia I and other statistically
+  rigorous imputation software, it virtually never crashes (but please
+  let us know if you find to the contrary!).  The program also
+  generalizes existing approaches by allowing for trends in time series
+  across observations within a cross-sectional unit, as well as priors
+  that allow experts to incorporate beliefs they have about the values
+  of missing cells in their data.  Amelia II also includes useful
+  diagnostics of the fit of multiple imputation models.  The program
+  works from the R command line or via a graphical user interface that
+  does not require users to know R.
+License: GPL version 2 or newer
+URL: http://gking.harvard.edu/amelia
+Packaged: Sat Mar 24 14:20:49 2007; king

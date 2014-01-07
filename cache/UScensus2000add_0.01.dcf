@@ -1,0 +1,21 @@
+Package: UScensus2000add
+Type: Package
+Title: US Census 2000 Suite of R Packages: Demographic Add
+Version: 0.01
+Date: 2009-11-11
+Author: Zack W. Almquist <almquist@uci.edu>
+Maintainer: Zack W. Almquist <almquist@uci.edu>
+Description: US 2000 Census shape files and additional demographic data
+        from the SF1 100 percent files. This package contains a helper
+        functions for the UScensus2000addblk, UScensus2000addblkgrp,
+        UScensus2000addtract, UScensus2000add packages.
+License: GPL (>= 2)
+Depends: R (>= 2.10), maptools, sp, foreign, methods, grDevices, base,
+        stats, utils, UScensus2000tract, UScensus2000cdp, gpclib, XML,
+        UScensus2000
+Suggests: UScensus2000blk, UScensus2000blkgrp
+LazyLoad: yes
+URL: http://disasternets.calit2.uci.edu/census2000/
+Packaged: 2009-12-16 07:57:02 UTC; zack
+Repository: CRAN
+Date/Publication: 2009-12-16 11:01:58

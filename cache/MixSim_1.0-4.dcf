@@ -1,0 +1,28 @@
+Package: MixSim
+Version: 1.0-4
+Date: 2012-03-26
+Title: Simulating Data to Study Performance of Clustering Algorithms
+Author: Volodymyr Melnykov, Wei-Chen Chen, and Ranjan Maitra
+Maintainer: Volodymyr Melnykov <Volodymyr.Melnykov@ndsu.edu>
+Depends: R (>= 2.6.0), MASS
+LazyLoad: yes
+LazyData: yes
+Description: MixSim allows simulating mixtures of Gaussian
+        distributions with different levels of overlap between mixture
+        components.  Pairwise overlap, defined as a sum of two
+        misclassification probabilities, measures the degree of
+        interaction between components and can be readily employed to
+        control the clustering complexity of datasets simulated from
+        mixtures. These datasets can then be used for systematic
+        performance investigation of clustering and finite mixture
+        modeling algorithms. Among other capabilities of MixSim, there
+        are computing the exact overlap for Gaussian mixtures,
+        simulating Gaussian and non-Gaussian data, simulating outliers
+        and noise variables, calculating various measures of agreement
+        between two partitionings, and constructing parallel
+        distribution plots for the graphical display of finite mixture
+        models.
+License: GPL (>= 2)
+Packaged: 2012-03-28 02:09:25 UTC; volmeln
+Repository: CRAN
+Date/Publication: 2012-03-28 11:10:10

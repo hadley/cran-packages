@@ -1,0 +1,15 @@
+Package: COUNT
+Type: Package
+Title: Functions, data and code for count data.
+Version: 1.2.1
+Date: 2012-03-19
+Depends: R (>= 2.10), MASS
+Author: Joseph M Hilbe <hilbe@asu.edu>
+Maintainer: Andrew Robinson <apro@unimelb.edu.au>
+Description: Functions, data and code for Hilbe, J.M. 2009. Negative
+        Binomial Regression, 2nd Edition (Cambridge University Press)
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-03-19 00:27:58 UTC; andrewpr
+Repository: CRAN
+Date/Publication: 2012-03-19 06:52:27

@@ -1,0 +1,23 @@
+Package: distrDoc
+Version: 2.2
+Date: 2009-10-16
+Title: Documentation for packages distr, distrEx, distrSim, distrTEst
+Description: provides documentation in form of a common vignette to
+        packages distr, distrEx, distrMod, distrSim, distrTEst
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas
+        Stabla
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+Depends: R(>= 2.6.0), tools, startupmsg, distr(>= 2.2.0), distrEx(>=
+        2.2.0), distrSim(>= 2.2.0), distrTEst(>= 2.2.0), distrTeach(>=
+        2.2.0), RandVar(>= 0.7), distrMod(>= 2.2.0), MASS, methods
+Suggests: Biobase
+LazyLoad: yes
+Encoding: latin1
+License: LGPL-3
+URL: http://distr.r-forge.r-project.org/
+LastChangedDate: {$LastChangedDate: 2009-10-16 06:35:42 +0200 (Fr, 16.
+        Okt 2009) $}
+LastChangedRevision: {$LastChangedRevision: 622 $}
+Packaged: 2009-11-03 09:45:30 UTC; btms02
+Repository: CRAN
+Date/Publication: 2009-11-03 15:30:44

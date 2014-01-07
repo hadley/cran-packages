@@ -1,0 +1,18 @@
+Package: KrigInv
+Type: Package
+Title: Kriging-based Inversion for Deterministic and Noisy Computer
+        Experiments
+Version: 1.3
+Date: 2012-08-01
+Author: Clement Chevalier, Victor Picheny and David Ginsbourger
+Maintainer: Clement Chevalier <clement.chevalier@stat.unibe.ch>
+Depends: DiceKriging, rgenoud, MASS, lhs, pbivnorm, randtoolbox,
+        DiceView
+Description: Criteria and algorithms for sequentially estimating level
+        sets of a multivariate numerical function, possibly observed in
+        noise.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-08-10 08:32:23 UTC; chevalier
+Repository: CRAN
+Date/Publication: 2012-08-10 12:28:41

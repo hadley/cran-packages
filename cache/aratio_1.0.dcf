@@ -1,0 +1,15 @@
+Package: aratio
+Type: Package
+Title: Assessment ratio analysis
+Version: 1.0
+Date: 2010-09-09
+Author: Daniel McMillen
+Maintainer: Daniel McMillen <mcmillen@illinois.edu>
+Description: Tools for analyzing assessment ratios
+Depends: akima, lattice, locfit, quantreg, boot
+Suggests:
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-09-10 16:36:19 UTC; Sarah
+Repository: CRAN
+Date/Publication: 2010-09-11 09:11:26

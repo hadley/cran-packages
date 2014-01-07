@@ -1,0 +1,28 @@
+Package: influence.ME
+Type: Package
+Title: Tools for detecting influential data in mixed effects models
+Version: 0.8
+Date: 2011-05-13
+Author: Rense Nieuwenhuis, Ben Pelzer, Manfred te Grotenhuis
+Maintainer: Rense Nieuwenhuis <r.nieuwenhuis@utwente.nl>
+Description: influence.ME provides a collection of tools for
+        calculating measures of influential data for mixed effects
+        models. It analyses models that were estimated using lme4. The
+        basic rationale behind identifying influential data is that
+        when iteratively single units are omitted from the data, models
+        based on these data should not produce substantially different
+        estimates. To standardize the assessment of how influential a
+        (single group of) observation(s) is, several measures of
+        influence are common practice. First, DFBETAS is a standardized
+        measure of the absolute difference between the estimate with a
+        particular case included and the estimate without that
+        particular case. Second, Cook's distance provides an overall
+        measurement of the change in all parameter estimates, or a
+        selection thereof.
+License: GPL-3
+URL: http://www.rensenieuwenhuis.nl/r-project/influenceme/
+Depends: lme4, lattice
+LazyLoad: yes
+Packaged: 2011-05-13 09:11:44 UTC; Rense
+Repository: CRAN
+Date/Publication: 2011-05-13 14:42:16

@@ -1,0 +1,19 @@
+Package: fso
+Version: 2.0-1
+Date: 2013-02-26
+Title: Fuzzy Set Ordination
+Author: David W. Roberts <droberts@montana.edu>
+Maintainer: David W. Roberts <droberts@montana.edu>
+Description: Fuzzy set ordination is a multivariate analysis used in
+        ecology to relate the composition of samples to possible
+        explanatory variables.  While differing in theory and method,
+        in practice, the use is similar to 'constrained ordination.'
+        The package contains plotting and summary functions as well as
+        the analyses
+Depends: labdsv,rgl
+License: GPL (>= 2)
+URL: http://ecology.msu.montana.edu/labdsv/R/labs/lab11/lab11.html
+Packaged: 2013-02-26 13:44:34 UTC; dvrbts
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-02-26 17:21:10

@@ -1,0 +1,17 @@
+Package: csampling
+Version: 1.2-1
+Date: 2011-11-23
+Title: Functions for Conditional Simulation in Regression-Scale Models
+Author: S original by Alessandra R. Brazzale <alessandra.brazzale@unipd.it>.
+  R port by Alessandra R. Brazzale <alessandra.brazzale@unipd.it>.
+Maintainer: Alessandra R. Brazzale <alessandra.brazzale@unipd.it>
+Depends: R (>= 2.14.0), marg, statmod, survival
+Description: Monte Carlo conditional inference for the parameters of a
+  linear nonnormal regression model
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://statwww.epfl.ch/AA/
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-11-23 15:15:59 UTC; brazzale
+Repository: CRAN
+Date/Publication: 2011-11-25 15:55:47

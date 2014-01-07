@@ -1,0 +1,18 @@
+Package: discreteMTP
+Type: Package
+Title: Multiple testing procedures for discrete test statistics
+Version: 0.1-2
+Date: 2012-05-04
+Authors@R: c(person("Ruth", "Heller", role = "aut"), person("Hadas",
+        "Gur", role = "aut"), person("Shay", "Yaacoby", role =
+        c("aut","cre"),email = "shay66@gmail.com"))
+Description: Multiple testing procedures for discrete test statistics,
+        that use the known discrete null distribution of the p-values
+        for simultaneous inference.
+License: GPL (>= 2)
+URL: http://www.math.tau.ac.il/~ruheller/
+Packaged: 2012-05-04 15:01:51 UTC; Shay
+Author: Ruth Heller [aut], Hadas Gur [aut], Shay Yaacoby [aut, cre]
+Maintainer: Shay Yaacoby <shay66@gmail.com>
+Repository: CRAN
+Date/Publication: 2012-05-05 09:25:07

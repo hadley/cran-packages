@@ -1,0 +1,18 @@
+Package: R.cache
+Version: 0.4.3
+Date: 2011-07-21
+Title: Fast and light-weight caching (memoization) of objects
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.5.0), R.methodsS3 (>= 1.2.1), R.oo (>= 1.8.0), R.utils
+        (>= 1.7.5)
+Suggests: digest (>= 0.4.2)
+Description: Methods for memoization, that is, caching arbitrary R
+        objects in persistent memory.  Objects can be loaded and saved
+        stratified on a set of hashing objects.
+License: LGPL (>= 2.1)
+URL: http://www.braju.com/R/
+LazyLoad: TRUE
+Packaged: 2011-07-21 16:56:23 UTC; hb
+Repository: CRAN
+Date/Publication: 2011-07-23 13:03:23

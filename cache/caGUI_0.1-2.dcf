@@ -1,0 +1,17 @@
+Package: caGUI
+Type: Package
+Title: A Tcl/Tk GUI for the functions in the ca package
+Version: 0.1-2
+Date: 2009-11-23
+Author: Angelos Markos <amarkos@uom.gr>
+Maintainer: Angelos Markos <amarkos@uom.gr>
+Depends: R (>= 2.0.0), rgl (>= 0.64-10), ca (>= 0.2-1), tcltk2 (>=
+        1.0-7), RODBC
+Description: A Graphical User Interface (GUI) for computation and
+        visualization of simple, multiple and joint correspondence
+        analysis with the ca package.
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Date/Publication: 2009-11-23 07:51:18
+Packaged: 2009-11-22 18:28:34 UTC; amarkos

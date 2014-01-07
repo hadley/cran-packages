@@ -1,0 +1,16 @@
+Package: PSCN
+Type: Package
+Title: Parent Specific DNA Copy Number Estimation
+Version: 1.0
+Date: 2011-03-28
+Author: Hao Chen, Haipeng Xing, and Nancy R. Zhang
+Maintainer: Hao Chen <haochen@stanford.edu>
+Depends: R (>= 2.10.0), MASS
+Description: This package estimate parent specific DNA copy number for
+        human genomes using high-density SNP arrays data, that is, the
+        data has two component, logR and B-allele frequency.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:26 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:26

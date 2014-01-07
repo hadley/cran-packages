@@ -1,0 +1,18 @@
+Package: tm.plugin.dc
+Version: 0.1-7
+Date: 2011-04-18
+Title: Text Mining Distributed Corpus Plug-In
+Description: A plug-in for the text mining framework tm to support text
+        mining in a distributed way. The package provides a convinient
+        interface for handling (distributed) storage.
+Author: Ingo Feinerer and Stefan Theussl
+Maintainer: Stefan Theussl <Stefan.Theussl@wu.ac.at>
+License: GPL-3
+Depends: tm (>= 0.5-6)
+Imports: slam (>= 0.1-22)
+Suggests: hive (>= 0.1-10)
+Repository: CRAN
+Repository/R-Forge/Project: rhadoop
+Repository/R-Forge/Revision: 81
+Date/Publication: 2011-05-13 06:58:55
+Packaged: 2011-04-28 14:56:21 UTC; rforge

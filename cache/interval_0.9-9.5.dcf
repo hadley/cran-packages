@@ -1,0 +1,17 @@
+Package: interval
+Type: Package
+Title: Weighted Logrank Tests and NPMLE for interval censored data
+Version: 0.9-9.5
+Date: 2010-02-03
+Author: Michael P. Fay
+Maintainer: Michael P. Fay <mfay@niaid.nih.gov>
+Depends: R (>= 2.2.1), stats, survival, perm, Icens, MLEcens
+Suggests: coin
+Enhances: coin
+LazyLoad: yes
+Description: Functions to fit nonparametric survival curves, plot them,
+        and perform logrank or Wilcoxon type tests.
+License: GPL (>= 2)
+Packaged: 2010-02-03 19:48:30 UTC; faym
+Repository: CRAN
+Date/Publication: 2010-02-03 21:03:28

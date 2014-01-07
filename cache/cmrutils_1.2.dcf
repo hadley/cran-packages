@@ -1,0 +1,17 @@
+Package: cmrutils
+Type: Package
+Title: Misc Functions of the Center for the Mathematical Research
+Version: 1.2
+Date: 2009-05-25
+Author: Andrey Paramonov
+Maintainer: Irakliy Sariev <gilby@bk.ru>
+Depends: R (>= 2.8.1), grDevices, chron
+Imports: grDevices
+Description: A collection of useful helper routines developed by
+        students of the Center for the Mathematical Research, Stankin,
+        Moskow.
+License: GPL (>= 3)
+URL: http://aparamon.msk.ru/svn/study/R-packages/cmrutils/
+Packaged: 2009-05-26 17:25:29 UTC; root
+Repository: CRAN
+Date/Publication: 2009-06-16 06:40:17

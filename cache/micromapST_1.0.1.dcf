@@ -1,0 +1,27 @@
+Package: micromapST
+Type: Package
+Version: 1.0.1
+Date: 2013-11-27
+Title: Linked Micromap Plots for U. S. States
+Author: Dan Carr <dcarr@gmu.edu> and Jim Pearson <jpearson@statnetconsulting.com>, 
+     with contributions from Linda Pickle <linda@statnetconsulting.com>.
+Maintainer: Jim Pearson <jpearson@statnetconsulting.com>
+Depends: R (>= 2.15.0)
+Imports: graphics, RColorBrewer, grDevices, stats
+Description: This package provides the users the ability to quickly create Linked 
+     Micromap plots of the 50 U.S. states and District of Columbia (51 areas).
+     Linked Micromaps are visualizations of georeferenced data that link statistical
+     graphics to an organized series of small maps. 
+     The Help description contains examples of how to use the micromapST function.
+     This package contains the US and State boundary files and FIPS/State conversion tables 
+     used by the micromapST function and several data sets used in the micromapST examples.
+     Copyrighted 2013 by Carr, Pearson and Pickle.
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+BuildResaveData: yes
+ByteCompile: yes
+Packaged: 2013-11-27 20:17:21 UTC; jpearson
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-27 21:56:41

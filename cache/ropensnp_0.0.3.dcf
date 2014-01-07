@@ -1,0 +1,21 @@
+Package: ropensnp
+Version: 0.0.3
+Date: 2013-03-01
+Description: A programmatic interface to openSNP.org data.
+Title: Interface to OpenSNP API methods
+License: CC0
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+        email = "myrmecocystus@gmail.com"))
+URL: https://github.com/ropensci/ropensnp
+BugReports: https://github.com/ropensci/ropensnp/issues
+Imports: RJSONIO, plyr, stringr, httr
+Suggests: roxygen2, testthat, rjson
+Collate: 'genotypes.R' 'users.R' 'allgensnp.R' 'phenotypes.R'
+        'fetch_genotypes.R' 'allphenotypes.R' 'annotations.R'
+        'phenotypes_byid.R'
+Packaged: 2013-03-01 17:34:59 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-01 19:20:15

@@ -1,0 +1,18 @@
+Package: SCEPtERextras
+Title: Additional grids for SCEPtER
+Version: 0.1-0
+Date: 2013-06-02
+Authors@R: c(person("Matteo", "Dell'Omodarme", role = c("aut", "cre"),
+        email = "mattdell@fastmail.fm"), person("Giada", "Valle", role
+        = "aut"))
+Description: Grid of stellar models computed with various initial
+        helium abundances and different mixing-length values.
+Depends: R (>= 2.10)
+LazyData: yes
+License: GPL (>= 2)
+Maintainer: Matteo Dell'Omodarme <mattdell@fastmail.fm>
+Packaged: 2013-06-04 09:05:01 UTC; matt
+Author: Matteo Dell'Omodarme [aut, cre], Giada Valle [aut]
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-04 16:10:31

@@ -1,0 +1,20 @@
+Package: TBSSurvival
+Version: 1.1
+Date: 2013-04-16
+Title: TBS Model R package
+Author: Adriano Polpo <polpo@ufscar.br>, Cassio de Campos
+        <cassio@idsia.ch>, D. Sinha <sinhad@stat.fsu.edu>, Stuart
+        Lipsitz <slipsitz@partners.org>, Jianchang Lin
+        <jlin@stat.fsu.edu>
+Maintainer: Cassio de Campos <cassio@idsia.ch>
+Depends: R (>= 2.15.3), mcmc, coda, survival, normalp, R.utils, BMS
+Suggests: Rsolnp
+Description: This package contains functions used to perform the
+        reliability/survival analysis using a parametric
+        Transform-both-sides (TBS) model.
+License: GPL (>= 3)
+Repository: CRAN
+URL: http://code.google.com/p/tbssurvival/
+Packaged: 2013-04-17 14:15:39 UTC; cassio
+NeedsCompilation: no
+Date/Publication: 2013-04-17 19:22:35

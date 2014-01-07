@@ -1,0 +1,11 @@
+Package: rqmcmb2
+Version: 1.0.1
+Date: 2003-12-03
+Title: Markov Chain Marginal Bootstrap for Quantile Regression
+Author: Maria Kocherginsky <mkocherg@uchicago.edu>, Xuming He <x-he@uiuc.edu>
+Maintainer: Maria Kocherginsky <mkocherg@uchicago.edu>
+Depends: quantreg
+Description: Markov Chain Marginal Bootstrap for Quantile Regression. A resampling 
+  method for inference in quantile regression.  Suitable for modest to large data sets.
+License: GPL
+URL: http://www.r-project.org

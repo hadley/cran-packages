@@ -1,0 +1,15 @@
+Package: widals
+Type: Package
+Title: Weighting by Inverse Distance with Adaptive Least Squares for
+        Massive Space-Time Data
+Version: 0.5
+Date: 2012-11-01
+Author: Dave Zes
+Maintainer: Dave Zes <zesdave@gmail.com>
+Description: Fit, forecast, predict massive spacio-temporal data
+Depends: R (>= 2.15.0), SSsimple, snowfall
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-11-22 06:11:48 UTC; running
+Repository: CRAN
+Date/Publication: 2012-11-22 06:17:39

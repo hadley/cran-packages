@@ -1,0 +1,21 @@
+Package: pmr
+Type: Package
+Title: Probability Models for Ranking Data
+Version: 1.2.1
+Date: 2013-06-25
+Depends: stats4,graphics
+Author: Paul H. Lee and Philip L. H. Yu
+Maintainer: Paul H. Lee <honglee@graduate.hku.hk>
+Description: Descriptive statistics (mean rank, pairwise frequencies,
+        and marginal matrix), Analytic Hierarchy Process models (with
+        Saaty's and Koczkodaj's inconsistencies), probability models
+        (Luce models, distance-based models, and rank-ordered logit
+        models) and visualization with multidimensional preference
+        analysis for ranking data are provided. Current, only complete
+        rankings are supported by this package.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-06-24 16:24:25 UTC; manufans
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-24 18:53:08

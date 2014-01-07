@@ -1,0 +1,12 @@
+Package: BradleyTerry
+Version: 0.8-7
+Date: 2008-07-10
+Title: Bradley-Terry models
+Author: David Firth
+Maintainer: David Firth <d.firth@warwick.ac.uk>
+URL: http://go.warwick.ac.uk/dfirth
+Description: Specify and fit the Bradley-Terry model and structured versions
+Depends: R (>= 1.8.0)
+Imports: brglm
+License: GPL (>= 2)
+Packaged: Thu Jul 10 22:40:38 2008; david

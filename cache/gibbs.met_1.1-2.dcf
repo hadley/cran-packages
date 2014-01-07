@@ -1,0 +1,10 @@
+Package: gibbs.met
+Version: 1.1-2
+Title: Naive Gibbs Sampling with Metropolis Steps
+Author: Longhai Li <longhai@math.usask.ca>
+Maintainer: Longhai Li <longhai@math.usask.ca>
+Depends: R (>= 2.5.1)
+Description: This package provides two generic functions for performing Markov chain sampling in a naive way for a user-defined target distribution, which involves only continuous variables. The function "gibbs_met" performs Gibbs sampling with each 1-dimensional distribution sampled with Metropolis update using Gaussian proposal distribution centered at the previous state. The function "met_gaussian" updates the whole state with Metropolis method using independent Gaussian proposal distribution centered at the previous state. The sampling is carried out without considering any special tricks for improving efficiency. This package is aimed at only routine applications in moderate-dimensional problems.
+License: GPL (>=2)
+URL: \url{http://www.r-project.org}, \url{http://math.usask.ca/~longhai}
+Packaged: Wed Mar 26 09:33:02 2008; longhai

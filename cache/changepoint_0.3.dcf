@@ -1,0 +1,20 @@
+Package: changepoint
+Type: Package
+Title: Contains funcions that run various single and multiple
+        changepoint methods
+Version: 0.3
+Date: 2011-01-21
+Author: Rebecca Killick <r.killick@lancs.ac.uk>, Idris A. Eckley
+        <i.eckley@lancs.ac.uk>
+Maintainer: Rebecca Killick <r.killick@lancs.ac.uk>
+Description: Implements various mainstream and specialised changepoint
+        methods for finding single and multiple changepoints within
+        data.  Many popular non-parametric and frequentist methods are
+        included.  The cpt.mean, cpt.var, cpt.meanvar, cpt.reg
+        functions should be your first point of call.
+Depends: R(>= 2.11), methods, graphics, base
+License: GPL
+LazyLoad: yes
+Packaged: 2011-01-24 23:12:47 UTC; killick
+Repository: CRAN
+Date/Publication: 2011-01-25 07:42:06

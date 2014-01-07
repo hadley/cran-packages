@@ -1,0 +1,27 @@
+Package: RcmdrPlugin.MAd
+Type: Package
+Title: Meta-Analysis with Mean Differences (MAd) Rcmdr Plug-in
+Version: 0.1
+Date: 2010-03-12
+Author: AC Del Re
+Maintainer: AC Del Re <acdelre@gmail.com>
+Description: This is an R-Commander plug-in for the MAc package
+        (Meta-Analysis with Correlations). This package enables the
+        user to conduct a meta-analysis in a menu-driven, graphical
+        user interface environment (e.g., SPSS), while having the full
+        statistical capabilities of R and the MAd package. The MAd
+        package itself contains a variety of useful functions for
+        conducting a research synthesis with mean differences data. One
+        of the unique features of the MAd package is in its integration
+        of user-friendly functions to complete many of the statistical
+        steps involved in a meta-analysis with mean differences. It
+        uses recommended procedures as described in The Handbook of
+        Research Synthesis and Meta-Analysis (Cooper, Hedges, &
+        Valentine, 2009).
+Depends: R (>= 2.10.1), Rcmdr, MAd, plyr, ggplot2
+License: GPL-2
+Log-Exceptions:
+Models:
+Packaged: 2010-03-12 22:32:12 UTC; User
+Repository: CRAN
+Date/Publication: 2010-03-13 14:54:42

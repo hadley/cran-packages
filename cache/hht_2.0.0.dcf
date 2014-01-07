@@ -1,0 +1,21 @@
+Package: hht
+Type: Package
+Title: The Hilbert-Huang Transform: Tools and Methods
+Version: 2.0.0
+Date: 2013-07-09
+Authors@R: c(person(given="Daniel C.",family="Bowman", role=c("aut", "cre"),
+        email="daniel.bowman@unc.edu"),
+        person(given="Jonathan M.", family="Lees", role=c("cre")))
+Depends: R (>= 3.0.0), EMD (>= 1.5.5), fields (>= 6.7.6)
+Description: This package builds on the EMD package to provide additional tools for empirical mode decomposition (EMD) and Hilbert spectral analysis. It also implements the ensemble empirical decomposition (EEMD) method to avoid mode mixing and intermittency problems found in EMD analysis.  The package comes with several plotting methods that can be used to view intrinsic mode functions, the HHT spectrum, and the Fourier spectrum.  The newest version (2.0.0) contains major changes and upgrades, and is not backwards compatible with hht 1.0.0. To see the version history and download the bleeding-edge version (at your own risk!), see the project website at code.google.com below.  See the other links for PDF files describing numerical and exact analytical methods for determining instantaneous frequency, some examples of signals processed with this package, and some examples of the Ensemble Empirical Mode Decomposition method. 
+License: GPL (>= 3)
+URL: https://code.google.com/p/r-hht/
+        http://www.unc.edu/~haksaeng/hht/analytic_instantaneous_freq.pdf
+        http://www.unc.edu/~haksaeng/hht/interesting_signals.pdf
+        http://www.unc.edu/~haksaeng/hht/eemd_examples.pdf
+Packaged: 2013-07-11 14:44:05 UTC; bowman
+Author: Daniel Bowman [aut, cre]
+Maintainer: Daniel Bowman <daniel.bowman@unc.edu>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-11 18:39:56

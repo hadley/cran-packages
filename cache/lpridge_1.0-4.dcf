@@ -1,0 +1,11 @@
+Package: lpridge
+Version: 1.0-4
+Date: 2007-04-11
+Title: Local Polynomial (Ridge) Regression
+Author: Burkhardt Seifert <seifert@ifspm.unizh.ch> (S original);
+	Packaged for R by Martin Maechler
+Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
+Description: Local Polynomial Regression with Ridging.
+Depends: stats, R (>= 2.0.0)
+License: GPL version 2 or later
+Packaged: Mon Jun 25 09:32:40 2007; maechler

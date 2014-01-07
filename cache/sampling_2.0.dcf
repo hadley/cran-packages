@@ -1,0 +1,13 @@
+Package: sampling
+Version: 2.0
+Date: 2008-06-20
+Title: Survey Sampling 
+Author: Yves Tillé <yves.tille@unine.ch>, Alina Matei <alina.matei@unine.ch>
+Maintainer: Alina Matei <alina.matei@unine.ch>
+Description: Functions for drawing and calibrating samples.
+Imports: lpSolve
+Depends: MASS, lpSolve
+License: GPL (>= 2).
+LazyLoad: no
+Encoding: latin1
+Packaged: Fri Jun 20 11:07:56 2008; sematei

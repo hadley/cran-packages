@@ -1,0 +1,20 @@
+Package: laeken
+Type: Package
+Title: Estimation of indicators on social exclusion and poverty
+Version: 0.4.5
+Date: 2013-08-18
+Depends: R (>= 2.10.0), boot, MASS
+Description: Estimation of indicators on social exclusion and poverty, as well
+    as Pareto tail modeling for empirical income distributions.
+License: GPL (>= 2)
+Authors@R: c(person("Andreas", "Alfons", email = "alfons@ese.eur.nl",
+    role = c("aut", "cre")), person("Josef", "Holzer", role = "aut"),
+    person("Matthias", "Templ", role = "aut"))
+Packaged: 2013-08-18 15:37:22 UTC; andreas
+Author: Andreas Alfons [aut, cre],
+  Josef Holzer [aut],
+  Matthias Templ [aut]
+Maintainer: Andreas Alfons <alfons@ese.eur.nl>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-18 17:55:07

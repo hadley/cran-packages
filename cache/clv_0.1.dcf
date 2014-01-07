@@ -1,0 +1,12 @@
+Package: clv
+Title: Cluster Validation Techniques
+Version: 0.1
+Author: Lukasz Nieweglowski. <wookashn@gmail.com>
+Maintainer: Lukasz Nieweglowski. <wookashn@gmail.com>
+Description: 
+	Package contains most of the popular internal and external cluster validation methods ready to use for the most of the outputs 
+	produced by functions comming from package "cluster". Package contains also functions and examples of usage for  cluster 
+	stablility for alghoritms implemented in "cluster" package. 
+Depends: cluster
+License: GPL version 2 or later
+Packaged: Tue Jul 10 15:28:24 2007; root

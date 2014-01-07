@@ -1,0 +1,24 @@
+Package: HandTill2001
+Type: Package
+Title: Multiple Class Area under ROC Curve
+Version: 0.2-9
+Date: 2013-11-23
+Authors@R: c(person(given = c("Andreas", "Dominik"), family = "Cullmann",
+    email = "r-package_handtill2001@arcor.de", role = c("aut","cre"), comment = NULL,
+    first = NULL, last = NULL)
+    , person(given = c("Edgar"), family=c("Kublin"), role = c("ctb"))
+    )
+Description: (nothing but) an S4 implementation of Eq. (3) and Eq. (7)
+    by David J. Hand and Robert J. Till (2001). A Simple Generalisation of
+    the Area Under the ROC Curve for Multiple Class Classification Problems.
+    Machine Learning, 45 (2), p. 171--186.  DOI:10.1023/A:1010920819831.
+Depends: R (>= 2.14), methods
+Suggests: MASS, rpart, mda, nnet
+License: GPL (>= 2)
+Packaged: 2013-11-23 23:17:06 UTC; qwer
+Author: Andreas Dominik Cullmann [aut, cre],
+  Edgar Kublin [ctb]
+Maintainer: Andreas Dominik Cullmann <r-package_handtill2001@arcor.de>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-24 01:09:28

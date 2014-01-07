@@ -1,0 +1,14 @@
+Package: BayesLCA
+Type: Package
+Title: Bayesian Latent Class Analysis
+Version: 1.1
+Date: 2013-02-01
+Depends: e1071, MCMCpack, fields, nlme
+Author: Arthur White and Brendan Murphy
+Maintainer: Arthur White <arthur.white@ucdconnect.ie>
+Description: Bayesian Latent Class Analysis using several different
+        methods.
+License: GPL (>= 2)
+Packaged: 2013-02-11 16:05:05 UTC; arthur
+Repository: CRAN
+Date/Publication: 2013-02-11 18:05:01

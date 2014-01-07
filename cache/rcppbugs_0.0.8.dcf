@@ -1,0 +1,15 @@
+Package: rcppbugs
+Title: R binding for cppbugs
+Version: 0.0.8
+Maintainer: Whit Armstrong <armstrong.whit@gmail.com>
+Author: Whit Armstrong <armstrong.whit@gmail.com>
+Description: R binding for cppbugs
+License: GPL-3
+URL: http://github.com/armstrtw/rcppbugs
+BugReports: http://github.com/armstrtw/rcppbugs/issues
+SystemRequirements: Boost
+Depends: Rcpp, RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+Packaged: 2012-04-26 17:16:42 UTC; warmstrong
+Repository: CRAN
+Date/Publication: 2012-04-27 06:28:28

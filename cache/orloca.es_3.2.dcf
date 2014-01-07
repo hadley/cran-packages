@@ -1,0 +1,19 @@
+Package: orloca.es
+Type: Package
+Depends: orloca (>= 3.2)
+Title: Spanish version of orloca package
+Version: 3.2
+Date: 2010-05-22
+Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and
+        Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
+Description: Version espanola del paquete orloca que trata de los
+        modelos de Localizacion en Investigacion Operativa (Operations
+        Research LOCational Analysis). En particular, el problema de
+        encontrar el punto que minimiza la suma ponderada de las
+        distancias a un conjunto de puntos dados.
+License: GPL (>= 2)
+URL: http://knuth.uca.es/orloca
+Packaged: 2010-05-22 07:58:06 UTC; mmarquez
+Repository: CRAN
+Date/Publication: 2010-05-26 16:54:51

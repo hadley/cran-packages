@@ -1,0 +1,12 @@
+Package: RSvgDevice
+Version: 0.6.2
+Date:    10/1/2005
+Title:   An R SVG graphics device.
+Author:  T Jake Luciani <jakeluciani@yahoo.com>
+Maintainer: T Jake Luciani <jakeluciani@yahoo.com>
+Depends: R (>= 1.4)
+Description: A graphics device for R that uses the w3.org xml
+             standard for Scalable Vector Graphics.
+License: GPL version 2 or newer. http://www.gnu.org/copyleft/gpl.html
+URL:     http://www.darkridge.com/~jake/RSvg/
+Packaged: Fri Jun  8 11:58:43 2007; paul

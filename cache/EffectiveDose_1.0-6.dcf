@@ -1,0 +1,14 @@
+Package: EffectiveDose
+Type: Package
+Title: Estimation of the Effective Dose including Bootstrap confidence intervals
+Version: 1.0-6
+Date: 2007-10-25
+Author: Regine Scheder
+Maintainer: Regine Scheder <regine.scheder@rub.de>
+Description:  estimates the effective dose level for quantal bioassay data by nonparametric techniques and gives a bootstrap confidence interval
+Depends: R (>= 2.4.1), methods, locfit
+Suggests: KernSmooth
+LazyLoad: yes
+Imports: graphics
+License: GPL (version 2 or later)
+Packaged: Thu Feb 28 10:01:19 2008; Regine

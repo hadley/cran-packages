@@ -1,0 +1,16 @@
+Package: FI
+Type: Package
+Title: Provide functions for forest inventory calculations
+Version: 1.0
+Date: 2013-01-17
+Authors@R: c( person(c('David', 'V.'), 'Dias', role = c('aut', 'cre'),
+        email = 'dvdscripter@gmail.com') )
+Description: Provide functions for forest inventory calculations.
+        Common volumetric equations (Smalian, Newton and Huber) as well
+        stacking factor and form
+License: GPL-3
+Packaged: 2013-01-24 18:58:47 UTC; dvd
+Author: David V. Dias [aut, cre]
+Maintainer: David V. Dias <dvdscripter@gmail.com>
+Repository: CRAN
+Date/Publication: 2013-01-25 17:42:30

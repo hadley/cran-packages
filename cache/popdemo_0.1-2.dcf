@@ -1,0 +1,26 @@
+Package: popdemo
+Version: 0.1-2
+Date: 2011-11-14
+Title: Provides Tools For Demographic Modelling Using Projection
+        Matrices
+Author: Iain Stott <ims203@exeter.ac.uk>, Dave Hodgson
+        <D.J.Hodgson@exeter.ac.uk>, Stuart Townley
+        <S.B.Townley@exeter.ac.uk>
+Maintainer: Iain Stott <ims203@exeter.ac.uk>
+Depends: R (>= 2.14.1)
+Imports: expm
+Description: popdemo provides a set of tools designed for modelling
+        population demography using population projection matrix (PPM)
+        models.  The focus is mainly on indices of transient dynamics,
+        and the use of control theory (specifically transfer
+        functions).  However, popdemo includes a number of tools
+        focussing on other areas of demographic modelling.  Some tools
+        may prove useful to anyone working with projection matrix
+        models of any type, or indeed matrices in general.  The package
+        is designed to build on those tools already available in
+        popbio.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-01-18 14:59:18 UTC; Iain
+Repository: CRAN
+Date/Publication: 2012-01-18 15:32:25

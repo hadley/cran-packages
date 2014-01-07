@@ -1,0 +1,10 @@
+Package: treelet
+Version: 0.1-0 
+Date: 2008-09-15
+Title: Treelet
+Author: Di Liu <diliu@andrew.cmu.edu>
+Maintainer:  Di Liu <diliu@andrew.cmu.edu>
+Depends: R (>= 2.0.1)
+Description:  a novel construction of multi-scale bases that extends wavelets to non-smooth signals. Returns a hierarchical tree and a multi-scale orthonormal basis which both reflect the internal structure of the data.
+License: GPL (version 2 or later)
+Packaged: Thu Sep 18 20:07:40 2008; Di Liu

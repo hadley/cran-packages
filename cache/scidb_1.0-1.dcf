@@ -1,0 +1,18 @@
+Package: scidb
+Type: Package
+Title: An R interface to SciDB
+Version: 1.0-1
+Date: 2013-03-27
+Author: Paradigm4, B. W. Lewis
+Maintainer: B. W. Lewis <blewis@illposed.net>
+Copyright: Paradigm4, Inc.
+Description: SciDB is an open-source array database (http://scidb.org).
+        The scidb package provides an R interface to SciDB.
+BugReports: https://github.com/Paradigm4/SciDBR/issues
+Depends: stats, methods, iterators
+License: AGPL-3
+LazyLoad: yes
+Packaged: 2013-03-27 17:01:16 UTC; blewis
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-27 18:17:28

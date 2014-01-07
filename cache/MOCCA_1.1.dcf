@@ -1,0 +1,14 @@
+Package: MOCCA
+Title: Multi-objective optimization for collecting cluster alternatives
+Version: 1.1
+Date: 2010-07-25
+Author: Johann Kraus <johann.kraus@uni-ulm.de>
+Maintainer: Hans Kestler <hans.kestler@uni-ulm.de>
+Description: This package provides methods to analyze cluster
+        alternatives based on multi-objective optimization of cluster
+        validation indices.
+Depends: R (>= 2.0.0), cclust, clv
+License: Artistic License 2.0
+Packaged: 2010-07-25 14:46:02 UTC; kraus
+Repository: CRAN
+Date/Publication: 2010-07-25 16:05:25

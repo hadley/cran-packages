@@ -1,0 +1,70 @@
+Package: mrds
+Imports: optimx, mgcv, Rsolnp
+Maintainer: Jeff Laake <jeff.laake@noaa.gov>
+License: GPL (>= 2)
+Title: Mark-Recapture Distance Sampling (mrds)
+LazyLoad: yes
+Author: Jeff Laake <jeff.laake@noaa.gov>, David Borchers
+        <dlb@mcs.st-and.ac.uk>, Len Thomas <len@mcs.st-and.ac.uk>,
+        David Miller <dlm22@st-and.ac.uk> and Jon Bishop
+        <jonb@mcs.st-and.ac.uk>
+Description: This package implements mark-recapture distance sampling
+        methods as described in D.L. Borchers, W. Zucchini and Fewster,
+        R.M. (1988), "Mark-recapture models for line transect surveys",
+        Biometrics 54: 1207-1220. and Laake, J.L. (1999) "Distance
+        sampling with independent observers: Reducing bias from
+        heterogeneity by weakening the conditional independence
+        assumption." in Amstrup, G.W., Garner, S.C., Laake, J.L.,
+        Manly, B.F.J., McDonald, L.L. and Robertson, D.G. (eds) "Marine
+        mammal survey and assessment methods", Balkema, Rotterdam:
+        137-148 and Borchers, D.L., Laake, J.L., Southwell, C. and
+        Paxton, C.L.G. "Accommodating unmodelled heterogeneity in
+        double-observer distance sampling surveys". 2006.  Biometrics
+        62:372-378.)
+Version: 2.0.5
+Date: 2012-3-23
+Depends: R (>= 2.0.0),optimx,Rsolnp
+Suggests: testthat
+Collate: 'adj.check.order.R' 'adjfct.cos.R' 'adjfct.herm.R'
+        'adjfct.poly.R' 'apex.gamma.R' 'assign.default.values.R'
+        'assign.par.R' 'average.line.R' 'calcp.mrds.R' 'cdf.ds.R'
+        'cds.R' 'coef.ds.R' 'coef.io.fi.R' 'coef.io.R' 'coef.rem.fi.R'
+        'coef.rem.R' 'coef.trial.fi.R' 'coef.trial.R' 'compute.Nht.R'
+        'covered.region.dht.R' 'create.ddfobj.R' 'create.model.frame.R'
+        'create.varstructure.R' 'ddf.ds.R' 'ddf.gof.R' 'ddf.io.fi.R'
+        'ddf.io.R' 'ddf.R' 'ddf.rem.fi.R' 'ddf.rem.R' 'ddf.trial.fi.R'
+        'ddf.trial.R' 'DeltaMethod.R' 'det.tables.R'
+        'detfct.fit.mono.R' 'detfct.fit.opt.R' 'detfct.fit.R'
+        'detfct.R' 'dht.deriv.R' 'dht.R' 'dht.se.R' 'ds.function.r'
+        'errors.R' 'flnl.R' 'flt.lnl.R' 'flt.var.R' 'fpt.lnl.r' 'g0.R'
+        'getpar.R' 'gof.ds.R' 'gof.io.fi.R' 'gof.io.R' 'gof.rem.fi.R'
+        'gof.rem.R' 'gof.trial.fi.R' 'gof.trial.R' 'gstdint.R'
+        'hermite.poly.R' 'histline.R' 'integratedetfct.logistic.R'
+        'integratedetfct.R' 'integratelogistic.analytic.R'
+        'integratelogistic.R' 'integratelogisticdup.R' 'io.glm.R'
+        'is.linear.logistic.R' 'is.logistic.constant.R'
+        'keyfct.gamma.R' 'keyfct.hn.R' 'keyfct.hz.R' 'logisticbyx.R'
+        'logisticbyz.R' 'logisticdetfct.R' 'logisticdupbyx.R' 'logit.R'
+        'mcds.R' 'mrds-package.R' 'NCovered.ds.R' 'NCovered.io.fi.R'
+        'NCovered.io.R' 'NCovered.R' 'NCovered.rem.fi.R'
+        'NCovered.rem.R' 'NCovered.trial.fi.R' 'NCovered.trial.R'
+        'p.det.R' 'pcramer.R' 'pdot.dsr.integrate.logistic.R' 'pks.R'
+        'plot_cond.R' 'plot_uncond.R' 'plot.det.tables.R' 'plot.ds.R'
+        'plot.io.fi.R' 'plot.io.R' 'plot.rem.fi.R' 'plot.rem.R'
+        'plot.trial.fi.R' 'plot.trial.R' 'predict.ds.R'
+        'predict.io.fi.R' 'predict.io.R' 'predict.rem.fi.R'
+        'predict.rem.R' 'predict.trial.fi.R' 'predict.trial.R'
+        'print.ddf.gof.R' 'print.det.tables.R' 'print.dht.R'
+        'print.summary.ds.R' 'print.summary.io.fi.R'
+        'print.summary.io.R' 'print.summary.rem.fi.R'
+        'print.summary.rem.R' 'print.summary.trial.fi.R'
+        'print.summary.trial.R' 'prob.deriv.R' 'prob.se.R'
+        'process.data.R' 'qqplot.ddf.R' 'rem.glm.R' 'scalevalue.R'
+        'setbounds.R' 'setcov.R' 'sethazard.R' 'setinitial.ds.R'
+        'sim.mix.R' 'summary.ds.R' 'summary.io.fi.R' 'summary.io.R'
+        'summary.rem.fi.R' 'summary.rem.R' 'summary.trial.fi.R'
+        'summary.trial.R' 'survey.region.dht.R' 'tablecgf.R'
+        'test.breaks.R' 'varn.R' 'zzz.R'
+Packaged: 2012-03-27 14:50:20 UTC; JLaake
+Repository: CRAN
+Date/Publication: 2012-03-27 18:01:59

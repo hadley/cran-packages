@@ -1,0 +1,18 @@
+Package: compeir
+Type: Package
+Title: Event-specific incidence rates for competing risks data
+Version: 1.0
+Date: 2011-03-09
+Author: Nadine Grambauer, Andreas Neudecker
+Maintainer: Nadine Grambauer <nadine@imbi.uni-freiburg.de>
+Description: The package enables to compute event-specific incidence
+        rates for competing risks data, to compute rate ratios,
+        event-specific incidence proportions and cumulative incidence
+        functions from these, and to plot these in a comprehensive
+        multi-state type graphic.
+License: GPL-2
+Depends: grid, lattice, etm
+LazyLoad: yes
+Packaged: 2011-03-09 16:31:58 UTC; nadine
+Repository: CRAN
+Date/Publication: 2011-03-09 16:36:04

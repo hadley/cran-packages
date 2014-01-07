@@ -1,0 +1,20 @@
+Package: cfa
+Description: Analysis of configuration frequencies for simple and
+        repeated measures, more sample CFa, hierarchical CFA,
+        bootstrap-CFA, functional CFA, Kieser-Victor CFA and various
+        plots, and Lindner's test using a conventional and an
+        accelerated algorithm
+Title: Analysis of configuration frequencies (CFA)
+Version: 0.9-1
+Date: 2011-05-20
+Author: Stefan Funke <s.funke@t-online.de> with contributions from
+        Patrick Mair <patrick.mair@wu-wien.ac.at>, Alexander von Eye
+        <voneye@msu.edu> (fCFA, kvCFA) and Joachim Harloff
+        <joachimharloff@joachimharloff.de>
+Maintainer: Stefan Funke <s.funke@t-online.de>
+Depends: R (>= 2.00)
+Suggests: multicore
+License: GPL (>= 2)
+Repository: CRAN
+Date/Publication: 2011-05-20 12:41:24
+Packaged: 2011-05-20 12:13:14 UTC; funke

@@ -1,0 +1,12 @@
+Package: dfcrm
+Version: 0.1-1
+Date: 2008-08-19
+Title: Dose-finding by the continual reassessment method
+Author: Ken Cheung <yc632@columbia.edu>
+Maintainer: Ken Cheung <yc632@columbia.edu>
+Depends: R (>= 1.3.0)
+Description: This package provides function to run the CRM and TITE-CRM 
+	in phase I trials and calibration tools for trial planning purposes.
+License: GPL-2
+URL: http://www.columbia.edu/~yc632
+Packaged: Wed Aug 20 15:57:43 2008; hornik

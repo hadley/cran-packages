@@ -1,0 +1,11 @@
+Package: wordnet
+Title: WordNet Interface
+Version: 0.1-2
+Date: 2008-01-20
+Author: Ingo Feinerer <h0125130@wu-wien.ac.at>
+Maintainer: Ingo Feinerer <h0125130@wu-wien.ac.at>
+Depends: rJava (>= 0.5-0)
+SystemRequirements: Java (>= 5.0)
+Description: An interface to WordNet using the Jawbone Java API to WordNet.
+License: MIT
+Packaged: Thu Feb  7 12:09:39 2008; hornik

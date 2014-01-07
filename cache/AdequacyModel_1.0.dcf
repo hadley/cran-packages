@@ -1,0 +1,24 @@
+Package: AdequacyModel
+Type: Package
+Title: Adequacy of models
+Version: 1.0
+Date: 2012-11-15
+Authors@R: c(person(given = "Pedro Rafael", family = "Diniz-Marinho",
+        role = c("aut", "cre"), email =
+        "pedro.rafael.marinho@gmail.com"), person(given = "Cicero
+        Rafael", family = "Barros-Dias", role = "aut", email =
+        "cicerorafael@gmail.com"))
+Maintainer: Pedro Rafael Diniz Marinho <pedro.rafael.marinho@gmail.com>
+Description: This package provides some useful functions for
+        calculating measures of goodness of fit, including statistics
+        Cramer-von Mises and Anderson-Darling.  These statistics are
+        often used to compare models not fitted. You can also calculate
+        other medias goodness of fit as the AIC, CAIC and BIC.
+Authors: Pedro Rafael Diniz Marinho [aut, cre], Cicero Rafael Barros
+        Dias [ctb]
+License: GPL
+Repository: CRAN
+Packaged: 2012-11-16 11:58:05 UTC; root
+Author: Pedro Rafael Diniz-Marinho [aut, cre], Cicero Rafael
+        Barros-Dias [aut]
+Date/Publication: 2012-11-16 16:21:22

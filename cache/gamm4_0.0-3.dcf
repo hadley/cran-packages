@@ -1,0 +1,14 @@
+Package: gamm4
+Version: 0.0-3
+Author: Simon Wood <simon.wood@r-project.org>
+Maintainer: Simon Wood <simon.wood@r-project.org>
+Title: Generalized additive mixed models using mgcv and lme4
+Description: Fit generalized additive mixed models via a version of
+        mgcv's gamm function, using lme4 for estimation via Fabian
+        Scheipl's trick.
+Depends: R (>= 2.9.0), methods, Matrix, lme4 (>= 0.999375-31), mgcv (>=
+        1.6-2)
+License: GPL (>= 2)
+Packaged: 2010-04-24 15:31:55 UTC; simon
+Repository: CRAN
+Date/Publication: 2010-04-27 19:09:56

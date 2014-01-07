@@ -1,0 +1,29 @@
+Package: pcaPA
+Title: Parallel Analysis for ordinal and numeric data using polychoric
+        and Pearson correlations with S3 classes.
+Version: 1.0
+Date: 2012-05-04
+Author: Carlos A. Arias <carias@icfes.gov.co> and Víctor H. Cervantes
+        <vcervantes@icfes.gov.co>.
+SystemRequirements: Gnu Scientific Library version >= 1.18
+Maintainer: Carlos A. Arias <carias@icfes.gov.co>
+Depends: R (>= 2.14.1), polycor, ltm, stats, ggplot2, mc2d
+Description: A set of functions to perform parallel analysis for
+        principal components analysis intended mainly for large data
+        sets. It performs a parallel analysis of continuous, ordered
+        (including dichotomous/binary as a special case) or mixed type
+        of data associated with a principal components analysis.
+        Polychoric correlations among ordered variables, Pearson
+        correlations among continuous variables and polyserial
+        correlation between mixed type variables (one ordered and one
+        continuous) are used. Whenever the use of polyserial or
+        polychoric correlations yields a non positive definite
+        correlation matrix, the resulting matrix is transformed into
+        the nearest positive definite matrix. For details on the GSL
+        installation in windows please visit the following link:
+        http://wiki.rglab.org/index.php?title=Public:Installation_of_GSL_from_Windows_binary
+License: GPL (>= 2)
+Encoding: latin1
+Packaged: 2012-05-06 01:57:28 UTC; herulor
+Repository: CRAN
+Date/Publication: 2012-05-08 04:07:04

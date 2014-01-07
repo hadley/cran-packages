@@ -1,0 +1,23 @@
+Package: MCPMod
+Type: Package
+Title: Design and Analysis of Dose-Finding Studies (see also
+        DoseFinding package)
+Version: 1.0-7
+Date: 2010-07-08
+Author: Bjoern Bornkamp, Jose Pinheiro and Frank Bretz
+Maintainer: Bjoern Bornkamp <bornkamp@statistik.tu-dortmund.de>
+Depends: mvtnorm, lattice, R (>= 2.4.1)
+Description: This package implements a methodology for the design and
+        analysis of dose-response studies that combines aspects of
+        multiple comparison procedures and modeling approaches (Bretz,
+        Pinheiro and Branson, 2005, Biometrics 61, 738-748). The
+        package provides tools for the analysis of dose finding trials
+        as well as a variety of tools necessary to plan a trial to be
+        conducted with the MCPMod methodology. ***NOTE*** The MCPMod
+        package will not be further developed, all future development
+        of the MCP-Mod methodology will be done in the DoseFinding
+        R-package. ***NOTE***
+License: GPL-3
+Packaged: 2010-07-09 15:59:32 UTC; bjoern
+Repository: CRAN
+Date/Publication: 2010-07-24 19:41:29

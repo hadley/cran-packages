@@ -1,0 +1,20 @@
+Package: ENmisc
+Type: Package
+Title: Neuwirth miscellaneous
+Version: 1.2-6
+Date: 2012-08-29
+Authors@R: c(person(given = "Erich", family = "Neuwirth", role =
+        c("aut", "cre"), email = "erich.neuwirth@univie.ac.at"))
+Maintainer: Erich Neuwirth <erich.neuwirth@univie.ac.at>
+Description: The ENmisc package contains utility function for different
+        purposes: mtapply and mlapply (multivariate version of tapply
+        and lapply), wtd.boxplot (a boxplot with weights), and a visual
+        interface to restructuring mosaic plots.
+License: GPL-2
+Depends: Hmisc, vcd (>= 1.2-11), RColorBrewer
+Suggests: Rcmdr, gWidgets (>= 0.0-45), gWidgetstcltk (>= 0.0-44)
+LazyLoad: yes
+Packaged: 2012-08-29 09:37:27 UTC; neuwirth
+Author: Erich Neuwirth [aut, cre]
+Repository: CRAN
+Date/Publication: 2012-08-29 12:07:45

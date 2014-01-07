@@ -1,0 +1,16 @@
+Package: llama
+Type: Package
+Title: Leveraging Learning to Automatically Manage Algorithms
+Version: 0.1
+Date: 2013-04-02
+Author: Lars Kotthoff, contributions by Barry Hurley
+Maintainer: Lars Kotthoff <larsko@4c.ucc.ie>
+Description: Provides functionality to train and evaluate algorithm
+        selection models for portfolios.
+Imports: plyr, foreach
+Suggests: RWeka, FSelector, e1071, flexclust, testthat
+License: BSD
+Packaged: 2013-04-02 18:19:41 UTC; larsko
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-02 20:51:41

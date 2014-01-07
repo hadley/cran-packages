@@ -1,0 +1,16 @@
+Package: bnpmr
+Type: Package
+Title: Bayesian monotonic nonparametric regression
+Version: 1.0
+Date: 2013-04-25
+Author: Bjoern Bornkamp
+Maintainer: Bjoern Bornkamp <bbnkmp@gmail.com>
+Description: Implements the Bayesian nonparametric monotonic regression
+        method described in Bornkamp & Ickstadt (2009), Biometrics, 65,
+        198-205.
+License: GPL
+LazyLoad: yes
+Packaged: 2013-04-25 19:53:37 UTC; bjoern
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-04-25 22:53:28

@@ -1,0 +1,15 @@
+Package: fdrtool
+Version: 1.0.0
+Date: 2006-08-08
+Title: Estimation and Control of (Local) False Discovery Rates
+Author: Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <korbinian.strimmer@lmu.de>
+Depends: R (>= 2.0.0), locfdr (>= 1.0-2)
+Suggests: 
+Description: This packages contains utility functions for 
+   controlling and estimating (local) false discovery rates,
+   including some diagnostic plots to support the choice of 
+   the most suitable fdr method.
+License: GPL version 2 or newer
+URL: http://www.strimmerlab.org/software/fdrtool/
+Packaged: Fri Aug 11 23:01:45 2006; strimmer

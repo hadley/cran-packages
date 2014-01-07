@@ -1,0 +1,17 @@
+Package: rainbow
+Type: Package
+Title: Rainbow plots, functional bagplot, functional HDR boxplot
+Version: 1.0
+Date: 2009-05-12
+Depends: R (>= 2.6.0), hdrcde, ks, MASS, pcaPP
+Suggests: tseries
+Author: Han Lin Shang and Rob J Hyndman
+Maintainer: Han Lin Shang <HanLin.Shang@buseco.monash.edu.au>
+Description: Functions and datasets used in the JCGS paper
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+URL: http://monashforecasting.com/index.php?title=R_packages
+Packaged: 2009-05-28 23:20:59 UTC; han
+Repository: CRAN
+Date/Publication: 2009-05-29 07:01:26

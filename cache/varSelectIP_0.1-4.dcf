@@ -1,0 +1,16 @@
+Package: varSelectIP
+Type: Package
+Title: Objective Bayes Model Selection
+Version: 0.1-4
+Date: 2011-01-24
+Author: Gopal, V. and Novelo, L. L. and Casella, G.
+Maintainer: Gopal, V. <viknesh@stat.ufl.edu>
+Suggests: Rmpi
+Depends: MASS, mvtnorm
+Description: Objective Bayes Variable Selection in Linear Regression
+        and Probit models.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-01-24 14:44:12 UTC; viknesh
+Repository: CRAN
+Date/Publication: 2011-01-24 14:48:14

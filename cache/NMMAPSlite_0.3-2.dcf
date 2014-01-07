@@ -1,0 +1,17 @@
+Package: NMMAPSlite
+Title: NMMAPS Data Lite
+Depends: R (>= 2.9.0), stashR
+Suggests: utils
+Date: 2010-02-15
+Version: 0.3-2
+Author: Roger D. Peng <rpeng@jhsph.edu>
+Maintainer: Roger D. Peng <rpeng@jhsph.edu>
+Description: Provides remote access to daily mortality, weather, and
+        air pollution data from the National Morbidity, Mortality, and
+        Air Pollution Study for 108 U.S. cities (1987--2000); data are
+        obtained from the Internet-based Health and Air Pollution
+        Surveillance System (iHAPSS)
+License: GPL (>= 2)
+Packaged: 2010-02-15 20:11:06 UTC; rdpeng
+Repository: CRAN
+Date/Publication: 2010-02-15 20:42:37

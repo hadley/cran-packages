@@ -1,0 +1,13 @@
+Package: lomb
+Type: Package
+Title: Lomb-Scargle Periodogram
+Version: 1.0
+Date: 2013-10-16
+Author: Thomas Ruf, partially based on C original by Press et al. (Numerical Recipes)
+Maintainer: Thomas Ruf <Thomas.Ruf@vetmeduni.ac.at>
+Description: Computes the Lomb-Scargle Periodogram for unevenly sampled time series. Includes a randomization procedure to obtain reliable p-values.
+License: GPL (>= 2)
+Packaged: 2013-10-20 17:05:20 UTC; ruf
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-21 00:11:15

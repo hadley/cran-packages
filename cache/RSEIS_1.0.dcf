@@ -1,0 +1,11 @@
+Package: RSEIS
+Type: Package
+Title: Seismic Time Series Analysis Tools
+Version: 1.0
+Date: 2007-10-17
+Depends: RPMG, Rwave
+Author: Jonathan M. Lees
+Maintainer: Jonathan M. Lees<jonathan.lees@unc.edu>
+Description: Multiple interactive codes to analyze seismic data, via, spectrum analysis, wavelet transforms, particle motion, hodograms.
+License: GPL
+Packaged: Tue Jan 22 10:12:01 2008; lees

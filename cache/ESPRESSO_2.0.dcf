@@ -1,0 +1,18 @@
+Package: ESPRESSO
+Type: Package
+Title: Power Analysis and Sample Size Calculation
+Version: 2.0
+Date: 2011-04-01
+Author: A. Gaye & Burton P.
+Maintainer: Amadou Gaye <ag239@le.ac.uk>
+Description: The package allows for the Estimation of Sample-size and Power by Exploring Simulated Study Outcomes. 
+ WE ARE AWARE A BUG ON THE LAST VERSION OF THE TOOL AND I WORKING TO SORT IT OUT. 
+ A NEW VERSION WILL BE AVAILABLE BY THE END OF DECEMBER 2013.
+ WE ARE ALSO WORKING ON A WEB-BASED INTERFACE WHICH THAT WILL BE AVAILABLE AT www.espresso-research.org
+Depends: MASS
+License: GPL-2
+LazyLoad: yes
+Packaged: 2013-12-03 16:36:48 UTC; gaye
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-03 17:47:10

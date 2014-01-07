@@ -1,0 +1,19 @@
+Package: astro
+Type: Package
+Title: Astronomy Functions, Tools and Routines
+Version: 1.0
+Date: 2013-04-06
+Author: Lee Kelvin
+Maintainer: Lee Kelvin <lee.kelvin@uibk.ac.at>
+Description: The astro package provides a series of functions, tools
+        and routines in everyday use within astronomy. Broadly
+        speaking, one may group these functions into 4 main areas,
+        namely; cosmology, FITS file manipulation, the Sersic function
+        and general (plotting and scripting) tools.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: MASS,plotrix
+Packaged: 2013-04-06 10:38:21 UTC; lee
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-06 15:31:13

@@ -1,0 +1,20 @@
+Package: Interpol.T
+Type: Package
+Title: Hourly interpolation of multiple temperature daily series
+Version: 2.0
+Date: 2012-07-11
+Author: Emanuele Eccel & Emanuele Cordano
+Maintainer: <emanuele.eccel@fmach.it>
+Description: Hourly interpolation of daily minimum and maximum
+        temperature series. Carries out interpolation on multiple
+        series ad once. Requires some hourly series for calibration
+        (alternatively can use default calibration table).
+Depends: R (>= 2.10), date, chron
+License: GPL (>= 2)
+Collate: 'F_bias.R' 'F_daily_mean.R' 'F_date_time.R' 'F_Mo.Th.Ra.R'
+        'F_par_calibration.R' 'F_plot_meas_sim.R'
+        'F_shape_calibration.R' 'F_Th_interp.R' 'F_Th_int_series.R'
+        'InterpolT-package.R'
+Packaged: 2012-07-17 08:04:52 UTC; ecor
+Repository: CRAN
+Date/Publication: 2012-07-17 09:59:44

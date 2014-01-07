@@ -1,0 +1,12 @@
+Bundle: VR
+Contains: MASS class nnet spatial
+Version: 6.1-7 
+Date: 2000/02/10
+Depends: R (>= 0.99)
+Author: S original by Venables & Ripley.
+  R port by Brian Ripley <ripley@stats.ox.ac.uk>, following earlier
+  work by Kurt Hornik and Albrecht Gebhardt.
+BundleDescription: Various functions from the libraries of Venables and
+  Ripley, `Modern Applied Statistics with S-PLUS' (3rd edition).
+License: GPL (version 2 or later)
+URL: http://www.stats.ox.ac.uk/pub/MASS3/

@@ -1,0 +1,22 @@
+Package: Pomic
+Type: Package
+Title: Pattern Oriented Modelling Information Criterion
+Version: 1.0.1
+Date: 2009-07-09
+Author: Cyril Piou
+Maintainer: Cyril Piou <cyril.piou@yahoo.fr>
+Description: This package propose calculations of an information
+        criterion to check the quality of simulations results of
+        ABM/IBM or other non-linear rule-based models. The POMDEV
+        measure is based on the KL divergence and likelihood theory. It
+        basically indicates the deviance of simulation results from
+        field observations. Once POMDEV scores and metropolis-hasting
+        sampling on different model versions are effectuated, POMIC
+        scores can be calculated. This method is still under
+        development and further work are needed for the incorporation
+        of multiple patterns assessment.
+Depends: stats
+License: GPL-2
+Packaged: 2012-10-29 08:57:27 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:27

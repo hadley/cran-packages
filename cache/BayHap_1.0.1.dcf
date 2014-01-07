@@ -1,0 +1,23 @@
+Package: BayHap
+Type: Package
+Title: Bayesian analysis of haplotype association using Markov Chain
+        Monte Carlo
+Version: 1.0.1
+Date: 2013-03-13
+Author: Raquel Iniesta and Victor Moreno
+Maintainer: Raquel Iniesta <riniesta@pssjd.org>
+Description: The package BayHap performs simultaneous estimation of
+        uncertain haplotype frequencies and association with haplotypes
+        based on generalized linear models for quantitative, binary and
+        survival traits. Bayesian statistics and Markov Chain Monte
+        Carlo techniques are the theoretical framework for the methods
+        of estimation included in this package. Prior values for model
+        parameters can be included by the user. Convergence diagnostics
+        and statistical and graphical analysis of the sampling output
+        can be also carried out.
+Depends: boa
+License: GPL (>= 2)
+Packaged: 2013-03-13 15:33:49 UTC; riniesta
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-03-13 21:25:31

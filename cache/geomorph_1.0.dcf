@@ -1,0 +1,17 @@
+Package: geomorph
+Type: Package
+Title: Geometric morphometric analysis of 2d/3d landmark data
+Version: 1.0
+Author: Dean Adams <dcadams@iastate.edu>, Erik Otarola-Castillo
+        <eotarolacastillo@fas.harvard.edu>
+Maintainer: Dean Adams <dcadams@iastate.edu>
+Depends: MASS,ape,geiger,calibrate,rgl,ReadImages
+Description: Read, manipulate, and digitize landmark data, generate
+        shape variables via Procrustes analysis for points, curves and
+        surfaces, perform shape analyses, and provide graphical
+        depictions of shapes and patterns of shape variation
+License: GPL (>= 2)
+Collate: 'geomorph.r'
+Packaged: 2012-10-26 19:03:50 UTC; Dean Adams
+Repository: CRAN
+Date/Publication: 2012-10-26 19:59:45

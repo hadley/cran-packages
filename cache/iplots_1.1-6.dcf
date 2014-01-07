@@ -1,0 +1,15 @@
+Package: iplots
+Version: 1.1-6
+Title: iPlots - interactive graphics for R
+Author: Simon Urbanek <simon.urbanek@r-project.org>, Tobias Wichtrey <tobias@tarphos.de>
+Maintainer: Simon Urbanek <simon.urbanek@r-project.org>
+Depends: R (>= 1.5.0), methods, rJava (>= 0.5-0)
+Suggests: maps, MASS
+Imports: grDevices, png
+License: GPL-2
+Description: Interactive plots for R
+URL: http://www.iPlots.org/
+Packaged: 2013-12-02 08:05:26 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-02 09:05:53

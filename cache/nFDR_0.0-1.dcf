@@ -1,0 +1,15 @@
+Package: nFDR
+Version: 0.0-1
+Date: 2005-06-06
+Title: Nonparametric Estimate of FDR Based on Bernstein Polynomials
+Author: Zhong Guan <zguan@iusb.edu>, Baolin Wu <baolin@biostat.umn.edu>
+        and Hongyu Zhao <hongyu.zhao@yale.edu>.
+Maintainer: Zhong Guan <zguan@iusb.edu>
+Depends: R (>= 2.0.1)
+Description: nFDR is package that implements the nonparametric estimate
+        of FDR based on Bernstein polynomials. It calculates the
+        proportion of true null hypotheses, FDR, FNR, and q-values.
+License: GPL (>= 2)
+Packaged: 2010-04-11 07:27:29 UTC; hornik
+Repository: CRAN
+Date/Publication: 2010-08-01 09:51:56

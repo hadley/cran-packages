@@ -1,0 +1,13 @@
+Package: rsprng
+Version: 0.1
+Date: $Date: 2002/04/15 18:52:38 $
+Title: R interface to SPRNG (Scalable Parallel Random Number Generators)
+Author: Na (Michael) Li <lina@u.washington.edu> and 
+  A. J. Rossini <rossini@u.washington.edu>.
+Maintainer: Na (Michael) Li <lina@u.washington.edu>
+Depends: R (>= 1.2.0)
+Description: Provides interface to SPRNG APIs, and examples and
+  documentation for its use.  
+License: GPL version 2 or newer
+URL: http://www.r-project.org/, 
+     http://software.biostat.washington.edu/statsoft/snake/

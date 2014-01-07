@@ -1,0 +1,19 @@
+Package: numConversion
+Type: Package
+Title: Test of accuracy of formatting numbers.
+Version: 0.2-4
+Date: 2012-01-10
+Author: Petr Savicky <savicky@cs.cas.cz>
+Maintainer: Petr Savicky <savicky@cs.cas.cz>
+Depends: Rmpfr, R (>= 2.13.0)
+Description: Functions scientific.mpfr() and get.format.from.sci()
+        allow to compute format information for numbers with high
+        accuracy using Rmpfr package. Function check.format() compares
+        this to the output of R base function format.info(). On
+        platforms with a proper "long double" type, the error should
+        not exceed 1 ulp of the input number.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-01-10 09:42:10 UTC; petr
+Repository: CRAN
+Date/Publication: 2012-01-10 10:38:28

@@ -1,0 +1,16 @@
+Package: ALDqr
+Type: Package
+Title: Algorithm Laplace density quantile regression
+Version: 0.0
+Date: 2013-05-13
+Author: Luis Benites Sanchez <lsanchez@ime.unicamp.br>, Victor Lachos
+        <hlachos@ime.unicamp.br>
+Description: EM algorithm for estimating the parameters and other
+        methods in a quantile regression.
+Depends: R (>= 2.15.0), compiler, HyperbolicDist, RcppArmadillo, sn
+Maintainer: Luis Benites Sanchez <lsanchez@ime.unicamp.br>
+License: GPL (>= 3.0)
+Packaged: 2013-05-15 00:41:53 UTC; lbenitesanchez
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-15 10:45:56

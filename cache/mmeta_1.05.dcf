@@ -1,0 +1,16 @@
+Package: mmeta
+Type: Package
+Title: Multivariate Meta-Analysis Using Sarmanov Beta Prior
+        Distributions
+Version: 1.05
+Date: 2012-12-23
+Author: Sheng Luo, Yong Chen, Xiao Su, Haitao Chu
+Maintainer: Xiao Su <Xiao.Su@uth.tmc.edu>
+Description: This package implements a novel bivariate meta-analysis
+        using Sarmanov beta prior distributions.
+Depends: R (>= 2.10.0), aod, xtable, BRugs
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-12-03 17:26:20 UTC; xsu
+Repository: CRAN
+Date/Publication: 2012-12-04 07:07:26

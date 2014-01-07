@@ -1,0 +1,17 @@
+Package: RepeatedHighDim
+Type: Package
+Title: Global tests for expression data of high-dimensional sets of
+        molecular features.
+Version: 2.0.0
+Date: 2013-08-21
+Author: Klaus Jung
+Maintainer: Klaus Jung <Klaus.Jung@ams.med.uni-goettingen.de>
+Description: Global tests for expression data of high-dimensional sets of
+    molecular features.
+Depends: MASS, nlme
+License: GPL-2
+Collate: 'RepeatedHighDim.R'
+Packaged: 2013-08-21 13:54:34 UTC; kjung
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-21 17:32:59

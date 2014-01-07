@@ -1,0 +1,14 @@
+Package: abn
+Version: 0.5-1
+Date: 2011-11-16
+Title: Additive Bayesian Networks
+Author: Fraser Lewis <fraseriain.lewis@uzh.ch>
+SystemRequirements: Gnu Scientific Library version >= 1.12
+Maintainer: Fraser Lewis <fraseriain.lewis@uzh.ch>
+Description: A graphical modelling formulation is used to construct Bayesian regression models for analyses of multivariate data. The models comprise of directed acyclic graphs where each node in the graph comprises a generalized linear model, and a greedy search heuristic is used to identify high scoring models that attempt to identify relationships between all variables in the data. Currently implemented are models for data comprising of categorical (Binomial with logit link) and/or continuous (Gaussian with identity link) variables. Laplace approximations are used to estimate marginal likelihoods and compute marginal posterior densities. 
+License: GPL (>= 2)
+LazyData: true
+URL: http://www.vetepi.uzh.ch
+Packaged: 2011-11-16 12:54:51 UTC; fraser
+Repository: CRAN
+Date/Publication: 2011-11-17 11:25:37

@@ -1,0 +1,17 @@
+Package: BoolNet
+Type: Package
+Title: Generation, reconstruction, simulation and analysis of
+        synchronous, asynchronous, and probabilistic Boolean networks
+Version: 1.42
+Date: 2010-06-16
+Author: Christoph Muessel, Martin Hopfensitz, Dao Zhou, Hans Kestler
+Maintainer: Hans Kestler <hans.kestler@uni-ulm.de>
+Suggests: igraph, XML
+Description: Provides methods to reconstruct and generate synchronous,
+        asynchronous, and probabilistic Boolean networks, and to
+        analyze and visualize attractors in Boolean networks
+License: Artistic-2.0
+LazyLoad: yes
+Packaged: 2010-06-16 13:10:53 UTC; muessel
+Repository: CRAN
+Date/Publication: 2010-06-16 15:07:44

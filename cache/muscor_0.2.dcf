@@ -1,0 +1,10 @@
+Package: muscor
+Version: 0.2 
+Date: 2008-10-17
+Title: Multi-stage Convex Relaxation
+Author: Tong Zhang <tongz@rci.rutgers.edu>
+Maintainer: Tong Zhang <tongz@rci.rutgers.edu>
+Depends: R (>= 2.0.0)
+Description: muscor is a package that solves a number of convex/non-convex sparse regularization formulations for regression or binary classification using multi-stage convex relaxation algorithm, described in the paper "Multi-stage Convex Relaxation for Learning with Sparse Regularization". Loss functions include least squares, logistic, truncated ls/huber. Regularization conditions include Lp + L2 (p in (0,1]), or capped-L1.
+License: GPL (>= 2) 
+Packaged: Sat Nov  8 10:22:36 2008; hornik

@@ -1,0 +1,19 @@
+Package: tsbugs
+Type: Package
+Title: Create time series BUGS models.
+Version: 1.1
+Author: Guy J. Abel
+Maintainer: Guy J. Abel <g.j.abel@gmail.com>
+Depends: R(>= 2.15.0)
+Suggests: R2OpenBUGS, fanplot
+Description: The tsbugs package contains a collection of R functions
+        that can be used to create time series BUGS models of various
+        order. Included are function to create BUGS with non-constant
+        variance such stochastic volatility models and random variance
+        shift models.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-02-04 15:12:49 UTC; gabel
+Repository: CRAN
+Date/Publication: 2013-02-04 16:51:39

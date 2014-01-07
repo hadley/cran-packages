@@ -1,0 +1,23 @@
+Package: R.matlab
+Version: 2.0.1
+Depends: R (>= 2.5.0), R.oo (>= 1.13.9)
+Imports: R.methodsS3 (>= 1.4.4), R.oo (>= 1.13.9)
+Suggests: R.utils (>= 1.25.2), Matrix, SparseM
+Date: 2013-07-11
+Title: Read and write of MAT files together with R-to-MATLAB
+        connectivity
+Authors@R: c(
+  person("Henrik", "Bengtsson", role=c("aut", "cre", "cph"),
+                                 email="henrikb@braju.com"),
+  person("Andy", "Jacobson", role="ctb", comment="Internal MAT v4 reader"),
+  person("Jason", "Riedy", role="ctb", email="ejr@cs.berkeley.edu",
+         comment="Support for reading compressed files (via 'Rcompression'), sparse matrices and UTF-encoded strings."))
+Author: Henrik Bengtsson, Andy Jacobson, Jason Riedy
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Description: This package provides methods readMat() and writeMat() to read and write MAT files.  It also makes it possible to communicate (evaluate code, send and retrieve objects etc.) with MATLAB v6 or higher running locally or on a remote host.
+License: LGPL (>= 2.1)
+LazyLoad: TRUE
+Packaged: 2013-07-11 19:26:06 UTC; hb
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-12 07:21:46

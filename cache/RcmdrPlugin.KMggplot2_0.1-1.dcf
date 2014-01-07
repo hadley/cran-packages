@@ -1,0 +1,27 @@
+Package: RcmdrPlugin.KMggplot2
+Type: Package
+Title: Rcmdr Plug-In for Kaplan-Meier Plot and Other Plots by Using the
+        ggplot2 Package
+Version: 0.1-1
+Author: Triad sou. and Kengo NAGASHIMA
+Maintainer: Triad sou. <triadsou@gmail.com>
+Depends: R (>= 2.14), stats, methods, grid, Rcmdr (>= 1.8-4), ggplot2
+        (>= 0.9.2)
+Imports: gtable (>= 0.1.1), RColorBrewer (>= 1.0-5), scales (>= 0.2.2),
+        survival (>= 2.36-14), tcltk2 (>= 1.2-3)
+Description: This package is an R Commander plug-in for Kaplan-Meier
+        plot and other plots by using the ggplot2 package.
+License: GPL-2
+Collate: 'guiparts-aaa.R' 'guiparts-checkboxes.R'
+        'guiparts-radioboxes.R' 'guiparts-textfield.R'
+        'guiparts-textfields.R' 'guiparts-toolbox.R'
+        'guiparts-variableboxes.R' 'package.R' 'plot-aaa.R'
+        'theme-bw.R' 'theme-gray.R' 'plot-pie.R' 'util-gettextKmg2.R'
+        'util-ggsaveKmg2.R' 'data-aaa.R' 'plot-discretebar.R'
+        'plot-hist.R' 'plot-box.R' 'plot-dist.R' 'plot-scatter.R'
+        'plot-qq.R' 'plot-contour.R' 'plot-scattermat.R' 'plot-km.R'
+        'plot-factorise.R' 'plot-line.R' 'util-nonFactors.R' 'zzz.R'
+        'theme-simple.R'
+Packaged: 2012-09-03 09:53:44 UTC; NAGASHIMA
+Repository: CRAN
+Date/Publication: 2012-09-04 06:16:03

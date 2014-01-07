@@ -1,0 +1,24 @@
+Package: DDHFm
+Title: Variance Stabilization by Data-Driven Haar-Fisz (for
+        Microarrays)
+Version: 1.1.1
+Date: 2013-10-30
+Authors@R: c(person("Efthimios", "Motakis", role=c("aut")),
+		person("Guy", "Nason", role=c("aut", "cre"),
+			email="g.p.nason@bristol.ac.uk"),
+		person("Piotr", "Fryzlewicz", role=c("aut")))
+Description: The package contains the normalizing and variance stabilizing
+	Data-Driven Haar-Fisz algorithm. Also contains related algorithms
+	for simulating from certain microarray gene intensity models and
+	evaluation of certain transformations.
+Depends: R (>= 2.10)
+Suggests: lokern, wavethresh
+License: GPL-2
+Packaged: 2013-10-31 12:51:54 UTC; magpn
+Author: Efthimios Motakis [aut],
+  Guy Nason [aut, cre],
+  Piotr Fryzlewicz [aut]
+Maintainer: Guy Nason <g.p.nason@bristol.ac.uk>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-31 19:15:56

@@ -1,0 +1,28 @@
+Package: pmclust
+Version: 0.1-3
+Date: 2013-01-01
+Title: Parallel Model-Based Clustering
+Authors@R: c(person("Wei-Chen", "Chen", role = c("aut", "cre"), email =
+        "wccsnow@gmail.com"), person("George", "Ostrouchov", role =
+        "aut"))
+Depends: R (>= 2.13.0), methods, rlecuyer, pbdMPI, MASS, MixSim
+LazyLoad: yes
+LazyData: yes
+Description: The pmclust aims to utilize model-based clustering
+        (unsupervised) for high dimensional and ultra large data,
+        especially in a distributed manner. The package employs Rmpi to
+        perform a expectation-gathering-maximization (EGM) algorithm
+        for finite mixture Gaussian models. The unstructured dispersion
+        matrices are assumed in the Gaussian models. The implementation
+        is default in the single program multiple data (SPMD)
+        programming model. The code can be executed through Rmpi and
+        independent to most MPI applications. See the High Performance
+        Statistical Computing (HPSC) website for more information,
+        documents and examples.
+License: GPL (>= 2)
+URL: http://r-pbd.org/
+Packaged: 2013-01-01 05:07:31 UTC; snoweye
+Author: Wei-Chen Chen [aut, cre], George Ostrouchov [aut]
+Maintainer: Wei-Chen Chen <wccsnow@gmail.com>
+Repository: CRAN
+Date/Publication: 2013-01-01 07:41:02

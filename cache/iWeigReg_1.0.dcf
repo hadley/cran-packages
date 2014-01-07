@@ -1,0 +1,17 @@
+Package: iWeigReg
+Type: Package
+Title: Improved methods for causal inference and missing data problems
+Version: 1.0
+Date: 2013-02-20
+Author: Zhiqiang Tan and Heng Shu
+Maintainer: Zhiqiang Tan <ztan@stat.rutgers.edu>
+URL: http://www.stat.rutgers.edu/~ztan
+Description: Improved methods based on inverse probability weighting
+        and outcome regression for causal inference and missing data
+        problems
+Depends: R (>= 2.9.1), MASS (>= 7.2-1), trust
+License: GPL (>= 2)
+Packaged: 2013-02-25 06:47:17 UTC; ripley
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-25 07:47:37

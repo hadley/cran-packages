@@ -1,0 +1,18 @@
+Package: scapeMCMC
+Version: 1.0-4
+Date: 2009-04-20
+Title: MCMC diagnostic plots
+Author: Arni Magnusson and Ian Stewart
+Maintainer: Arni Magnusson <arnima@u.washington.edu>
+Depends: R (>= 2.1.1), coda, gdata, gplots, grid, gtools, lattice
+LazyData: yes
+Description: Markov-chain Monte Carlo diagnostic plots, accompanying
+        the 'scape' package. The purpose of the package is to combine
+        existing tools from the 'coda' and 'lattice' packages, and make
+        it easy to adjust graphical details. It can be useful for
+        anyone using MCMC analysis, regardless of the application.
+License: GPL (>= 2)
+URL: http://students.washington.edu/arnima/s/
+Packaged: 2009-04-20 17:42:52 UTC; arnima
+Repository: CRAN
+Date/Publication: 2009-04-21 06:57:37

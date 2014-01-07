@@ -1,0 +1,17 @@
+Package: rforensicbatwing
+Type: Package
+Title: BATWING for calculating forensic trace-suspect match
+        probabilities
+Version: 1.1
+Date: 2013-01-18
+Author: Mikkel Meyer Andersen and Ian J. Wilson
+Maintainer: Mikkel Meyer Andersen <mikl@math.aau.dk>
+Description: A modified version (with great help from Ian J. Wilson) of
+        Ian J. Wilson's program BATWING for calculating forensic
+        trace-suspect match probabilities.
+License: GPL
+Depends: Rcpp (>= 0.10.0)
+LinkingTo: Rcpp
+Packaged: 2013-01-18 17:43:38 UTC; mikl
+Repository: CRAN
+Date/Publication: 2013-01-18 18:56:46

@@ -1,0 +1,23 @@
+Package: SweaveListingUtils
+Title: Utilities for Sweave together with TeX listings package
+Encoding: latin1
+Version: 0.4
+Depends: R(>= 2.10.0), startupmsg
+Suggests: distr
+Imports: stats
+LazyLoad: yes
+Author: Peter Ruckdeschel
+Description: provides utilities for defining R / Rd as
+        Tex-package-listings "language" and including R / Rd source
+        file (sniplets) copied from R-forge in its most recent version
+        (or another url) thereby avoiding inconsistencies between
+        vignette and documented source code
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@itwm.fraunhofer.de>
+License: LGPL-3
+Date: 2009-10-16
+LastChangedDate: {$LastChangedDate: 2009-10-16 05:53:10 +0200 (Fr, 16.
+        Okt 2009) $}
+LastChangedRevision: {$LastChangedRevision: 610 $}
+Packaged: 2009-11-03 12:35:22 UTC; btms02
+Repository: CRAN
+Date/Publication: 2009-11-03 13:47:37

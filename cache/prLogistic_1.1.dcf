@@ -1,0 +1,17 @@
+Package: prLogistic
+Type: Package
+Version: 1.1
+Date: 2011-10-25
+Title: Estimation of Prevalence Ratios using Logistic Models
+Author: Raydonal Ospina <raydonal@de.ufpe.br> and Leila D. Amorim
+        <leiladen@ufba.br>.
+Maintainer: Raydonal Ospina <raydonal@de.ufpe.br>
+Depends: R (>= 2.10.0), boot, methods, stats, stats4, lme4, Hmisc
+Description: Estimation of prevalence ratios using logistic models and
+        confidence intervals with delta and bootstrap methods.
+License: GPL-2
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-10-25 10:38:11 UTC; raydonal
+Repository: CRAN
+Date/Publication: 2011-10-26 18:00:38

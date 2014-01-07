@@ -1,0 +1,13 @@
+Package: CPE
+Title: Concordance Probability Estimates in Survival Analysis
+Version: 1.4.4
+Depends: R (>= 2.10.0),survival,rms
+Author: Qianxing Mo, Mithat Gonen and Glenn Heller
+Maintainer: Qianxing Mo <qmo@bcm.edu>
+Description: Functions to calculate concordance probability estimates
+        in survival analysis
+LazyData: no
+License: GPL (>= 2)
+Packaged: 2012-07-07 16:06:44 UTC; quincymo
+Repository: CRAN
+Date/Publication: 2012-07-07 16:21:46

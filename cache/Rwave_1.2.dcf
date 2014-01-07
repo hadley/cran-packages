@@ -1,0 +1,21 @@
+Package: Rwave
+Version: 1.2
+Date: 08-May-02
+Title: Time-Frequency analysis of 1-D signals
+Author: S original by Rene Carmona <rcarmona@princeton.edu>, 
+  R port by Brandon Whitcher <whitcher@ucar.edu>
+Maintainer: Brandon Whitcher <whitcher@ucar.edu>
+Depends: R
+Description: Rwave is a library of R functions which provide an
+  environment for the Time-Frequency analysis of 1-D signals (and
+  especially for the wavelet and Gabor transforms of noisy signals). 
+  It was originally written for Splus by Rene Carmona, Bruno Torresani,
+  and Wen L. Hwang, first at the University of California at Irvine and 
+  then at Princeton University. Credit should also be given to Andrea 
+  Wang whose functions on the dyadic wavelet transform are included.  
+  Rwave is based on the book:
+  "PRACTICAL TIME-FREQUENCY ANALYSIS: Gabor and Wavelet Transforms with
+  an Implementation in S", by Rene Carmona, Wen L. Hwang and Bruno 
+  Torresani, Academic Press (1998).
+License: Free of charge for non-commercial use.
+URL: http://www.orfe.princeton.edu/~rcarmona/

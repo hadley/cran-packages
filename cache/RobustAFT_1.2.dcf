@@ -1,0 +1,18 @@
+Package: RobustAFT
+Type: Package
+Title: Truncated Maximum Likelihood fit and Robust Accelerated Failure
+        Time regression for Gaussian and log-Weibull case.
+LazyLoad: yes
+Version: 1.2
+Date: 2013-06-15
+Depends: R (>= 2.9.2), robustbase, stats, graphics, survival
+Author: Alfio Marazzi <Alfio.Marazzi@chuv.ch>, Jean-Luc Muralti
+Maintainer: A. Randriamiharisoa <Alex.Randriamiharisoa@chuv.ch>
+Description: R functions for the computation of the truncated maximum
+        likelihood and the robust accelerated failure time regression
+        for gaussian and log-Weibull case.
+License: GPL (>= 2)
+Packaged: 2013-06-20 14:46:26 UTC; arandria
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-06-20 18:08:25

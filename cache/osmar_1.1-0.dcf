@@ -1,0 +1,25 @@
+Package: osmar
+Type: Package
+Title: OpenStreetMap and R
+Version: 1.1-0
+Date: 2012-01-10
+Author: Thomas Schlesinger and Manuel J. A. Eugster
+Maintainer: Thomas Schlesinger <tho.schlesinger@googlemail.com>
+Description: This package provides infrastructure to access
+        OpenStreetMap data from different sources, to work with the
+        data in common R manner, and to convert data into available
+        infrastructure provided by existing R packages (e.g., into sp
+        and igraph objects).
+Depends: methods, XML, RCurl, gtools, geosphere
+Suggests: igraph, sp (>= 0.9-93)
+License: GPL-2
+LazyLoad: yes
+URL: http://osmar.r-forge.r-project.org/
+Build-dep: roxygen2
+Collate: 'as-osmar-elements.R' 'as-osmar.R' 'osm-descriptors.R'
+        'source.R' 'get.R' 'osmar.R' 'source-api.R' 'source-osmosis.R'
+        'source-file.R' 'osmar-plotting.R' 'as-igraph.R' 'as-osm.R'
+        'as-sp.R' 'osmar-subsetting.R' 'osmar-finding.R'
+Packaged: 2012-01-11 08:42:15 UTC; vadmin
+Repository: CRAN
+Date/Publication: 2012-01-11 09:57:12

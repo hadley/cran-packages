@@ -1,0 +1,11 @@
+Package: selectiongain
+Type: Package
+Title:  gain of a model selection 
+Version: 1.0
+Date: 2008-11-24
+Author: Xuefei Mi, Xuefei Mi, Friedrich Utz
+Maintainer: Xuefei Mi <mi@pz.uni-hohenheim.de>
+Depends: R (>= 1.8.0), mvtnorm
+Description: This package calculate the gain from a model selection.  It uses part of Tallis' algorithm (1961). The original algorithm is to calculate the moment generating function of the truncated Mvtnorm distribution. There will be a Mvtmoment package for the whole Tallis' algorithm.
+License: GPL-2
+Packaged: Mon Nov 24 14:28:36 2008; mi

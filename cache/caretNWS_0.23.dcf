@@ -1,0 +1,10 @@
+Package: caretNWS
+Version: 0.23
+Date: 2008-09-03
+Title: Classification and Regression Training in Parallel Using NetworkSpaces
+Author: Max Kuhn, Steve Weston
+Description: Augment some caret functions using parallel processing
+Maintainer: Max Kuhn <Max.Kuhn@pfizer.com>
+Depends: R (>= 2.5.1), caret (>= 3.37), nws (>= 1.5.1)
+License: GPL-2
+Packaged: Fri Sep  5 04:51:34 2008; theussl

@@ -1,0 +1,22 @@
+Package: EDanalysis
+Type: Package
+Title: A R Package For Gene Enrichment Disequilibrium Analysis
+Version: 1.0
+Date: 2012-08-05
+Author: Yongshuai Jiang
+Maintainer: Yongshuai Jiang <jiangyongshuai@gmail.com>
+Description: An R package for gene Enrichment Disequilibrium analysis.
+License: LGPL
+Depends: R (>= 2.10.0), graph,Biobase (>=
+        2.0.0),DBI,RSQLite,AnnotationDbi (>= 1.7.19),GO.db (>=
+        1.13.0),SparseM (>= 0.73),topGO,grid,Rgraphviz,Category (>=
+        2.3.26),GOstats,org.Hs.eg.db
+Imports: graph,Biobase (>= 1.15.29),DBI,RSQLite,AnnotationDbi (>=
+        1.7.19),GO.db (>= 1.13.0),SparseM (>=
+        0.73),topGO,grid,Rgraphviz,Category (>=
+        2.3.26),GOstats,org.Hs.eg.db
+Suggests:
+        graph,Biobase,DBI,RSQLite,AnnotationDbi,GO.db,SparseM,topGO,grid,Rgraphviz,Category,GOstats,org.Hs.eg.db
+Packaged: 2012-08-04 11:28:49 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-08-04 13:31:55

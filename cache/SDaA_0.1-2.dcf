@@ -1,0 +1,22 @@
+Package: SDaA
+Type: Package
+Title: Sampling: Design and Analysis
+Version: 0.1-2
+Date: 2011-03-21
+Author: Tobias Verbeke
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>
+Description: Functions and Datasets from Lohr, S. (1999), Sampling:
+        Design and Analysis, Duxbury.
+Depends: survey, ggplot2 (>= 0.8.2)
+License: GPL-3
+LazyData: Yes
+Collate: 'agpop.R' 'agsrs.R' 'agstrat.R' 'anthrop.R' 'anthsrs.R'
+        'anthuneq.R' 'audit.R' 'books.R' 'certify.R' 'coots.R'
+        'counties.R' 'divorce.R' 'golfsrs.R' 'htpop.R' 'htsrs.R'
+        'htstrat.R' 'journal.R' 'lahiri.design.R' 'measles.R' 'ncvs.R'
+        'nybight.R' 'otters.R' 'ozone.R' 'samples.R' 'seals.R'
+        'selectrs.R' 'statepop.R' 'statepps.R' 'syc.R' 'teachers.R'
+        'teachmi.R' 'teachnr.R' 'winter.R'
+Packaged: 2011-03-21 13:41:42 UTC; tobias
+Repository: CRAN
+Date/Publication: 2011-03-21 15:34:10

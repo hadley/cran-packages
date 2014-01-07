@@ -1,0 +1,17 @@
+Package: esd4all
+Version: 1.0-3
+Date: October 23 2009
+Title: esd4all
+Author: Rasmus E. Benestad
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: clim.pact, cyclones, akima, ncdf, sgeostat, fields, spam, R
+        (>= 2.2.0)
+Description: functions for post-processing and gridding
+        empirical-statistical downscaled climate scenarios.
+License: GPL (>= 2)
+URL: http://www.r-project.org http://cran.r-project.org
+        http://noserc.met.no/grtools/esd4all.html
+ZipData: no
+Packaged: 2009-10-26 11:12:02 UTC; rasmusb
+Repository: CRAN
+Date/Publication: 2009-10-26 19:27:14

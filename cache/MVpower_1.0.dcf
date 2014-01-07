@@ -1,0 +1,18 @@
+Package: MVpower
+Type: Package
+Title: Give power for a given effect size using multivariate
+        classification methods
+Version: 1.0
+Date: 2010-02-11
+Author: Raji Balasubramanian and Yu Guo
+Maintainer: Yu Guo <yguo@bg-medicine.com>
+Depends: R (>= 2.7.1), randomForest, pamr, kernlab, class
+Description: Calculate power for a given effect size and sample size
+        using multivariate classification methods: Random forest (RF),
+        Prediction analysis of microarrays (PAM), K-nearest neighbor
+        (KNN), or Support vector machine (SVM)
+License: GPL-2
+lazyload: yes
+Packaged: Mon Feb 15 21:48:43 2010; yguo
+Repository: CRAN
+Date/Publication: 2010-02-16 07:31:15

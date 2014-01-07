@@ -1,0 +1,26 @@
+Package: prabclus
+Title: Functions for clustering of presence-absence and abundance data
+Version: 2.1-1
+Date: 2007-11-14
+Author: Christian Hennig <chrish@stats.ucl.ac.uk>, 
+        Bernhard Hausdorf <Hausdorf@zoologie.uni-hamburg.de>
+Depends: R (>= 2.0), MASS
+Suggests: mclust, spdep, tripack, maptools, foreign, SparseM, mvtnorm
+Description: Distance-based parametric bootstrap tests for clustering, 
+  mainly intended for presence-absence data and abundance data 
+  (clustering of species
+  distribution ranges). Jaccard, Kulczynski, quantitative Kulczynski 
+  and geco distance measures, 
+  clustering of presence-absence and abundance data, and nearest neighbor 
+  based noise detection (R port of Byers
+  and Raftery's (1998) "NNclean"). Main functions are prabtest, abundtest (for
+  testing), prabclust (for clustering), prabinit (for preparing the data)
+  and NNclean (for noise detection). The help-pages for prabtest, abundtest and
+  prabclust contain simple standard executions. Note that the use of the 
+  package mclust (called by function prabclust) is protected by a special 
+  license, see http://www.stat.washington.edu/mclust/license.txt, particularly
+  point 6. 
+Maintainer: Christian Hennig <chrish@stats.ucl.ac.uk>
+License: GPL
+URL: http://www.homepages.ucl.ac.uk/~ucakche
+Packaged: Thu Nov 15 15:48:36 2007; chrish

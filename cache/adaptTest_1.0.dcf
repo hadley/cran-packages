@@ -1,0 +1,21 @@
+Package: adaptTest
+Type: Package
+Title: Adaptive two-stage tests
+Version: 1.0
+Date: 2009-10-14
+Author: Marc Vandemeulebroecke
+Maintainer: Marc Vandemeulebroecke
+        <marc.vandemeulebroecke@novartis.com>
+Description: The functions defined in this program serve for
+        implementing adaptive two-stage tests. Currently, four tests
+        are included: Bauer and Koehne (1994), Lehmacher and Wassmer
+        (1999), Vandemeulebroecke (2006), and the horizontal
+        conditional error function. User-defined tests can also be
+        implemented. Reference: Vandemeulebroecke, An investigation of
+        two-stage tests, Statistica Sinica 2006.
+Depends: lattice
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: Thu Oct 15 13:12:39 2009; hackni1
+Repository: CRAN
+Date/Publication: 2009-10-16 10:38:55

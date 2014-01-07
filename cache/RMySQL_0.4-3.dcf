@@ -1,0 +1,11 @@
+Package: RMySQL
+Version: 0.4-3
+Date: 2001-11-02
+Title: MySQL interface for R
+Author: David A. James <dj@research.bell-labs.com>
+        Saikat DebRoy <saikat@stat.wisc.edu>
+Maintainer: David A. James <dj@research.bell-labs.com>
+Description: Database Interface and MySQL driver for R
+Depends: R (>= 1.2.0)
+License: LGPL version 2 or newer
+URL: www.omegahat.org, stat.bell-labs.com/stat/RS-DBI/index.html

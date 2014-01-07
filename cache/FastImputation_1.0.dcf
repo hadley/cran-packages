@@ -1,0 +1,23 @@
+Package: FastImputation
+Type: Package
+Title: Learn from training data then quickly fill in missing data.
+Version: 1.0
+Date: 2012-04-08
+Author: Stephen R. Haptonstahl
+Maintainer: Stephen R. Haptonstahl <srh@haptonstahl.org>
+Description: TrainFastImputation uses training data to describe a
+        multivariate normal distribution that the data approximates or
+        can be transformed into approximating and stores this
+        information as an object of class FastImputationPatterns. The
+        FastImputation function uses this FastImputationPatterns object
+        to impute (make a good guess at) missing data in a single line
+        or a whole dataframe of data.  This approximates the process
+        used by Amelia (\url{http://gking.harvard.edu/amelia/}) but is
+        much faster when filling in values for a single line of data.
+License: GPL (>= 2)
+Collate: 'FastImputation.R' 'TrainFastImputation.R' 'UnfactorColumns.R'
+        'BoundNormalizedVariable.R' 'NormalizeBoundedVariable.R'
+        'LimitToSet.R'
+Packaged: 2012-04-11 03:53:50 UTC; Steve
+Repository: CRAN
+Date/Publication: 2012-04-11 03:59:28

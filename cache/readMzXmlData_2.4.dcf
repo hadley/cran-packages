@@ -1,0 +1,25 @@
+Package: readMzXmlData
+Version: 2.4
+Date: 2012-09-12
+Title: Reads mass spectrometry data in mzXML format
+Authors@R: c(person("Sebastian", "Gibb", role=c("aut", "cre"),
+        email="mail@sebastiangibb.de"), person("Jarek", "Tuszynski",
+        role="aut", comment= "Author of .base64decode and .fregexpr"))
+Depends: R (>= 2.14.0), bitops, digest, XML
+Suggests: MALDIquant (>= 1.0)
+Description: Functions for reading mass spectrometry data in mzXML
+        format.
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/maldiquant/
+        https://github.com/sgibb/readMzXmlData/
+LazyLoad: yes
+Collate: 'attribute-functions.R' 'base64-functions.R'
+        'fregexpr-functions.R' 'grep-functions.R'
+        'mqReadMzXml-functions.R' 'package.R' 'parseMzXml.R'
+        'readMzXmlDir-functions.R' 'readMzXmlFile-functions.R'
+Packaged: 2012-09-12 19:30:23 UTC; sgibb
+Author: Sebastian Gibb [aut, cre], Jarek Tuszynski [aut] (Author of
+        .base64decode and .fregexpr)
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+Repository: CRAN
+Date/Publication: 2012-09-13 04:05:17

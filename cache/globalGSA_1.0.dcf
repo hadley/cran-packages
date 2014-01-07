@@ -1,0 +1,14 @@
+Package: globalGSA
+Type: Package
+Title: Global Gene-Set Analysis for Association Studies.
+Version: 1.0
+Date: 2013-10-22
+Author: Natalia Vilor, M.Luz Calle
+Maintainer: Natalia Vilor <natalia.vilor@uvic.cat>
+Description: Implementation of three different Gene set analysis (GSA) algorithms for combining the individual pvalues of a set of genetic variats (SNPs) in a gene level pvalue. The implementation includes the selection of the best inheritance model for each SNP.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-10-23 06:25:31 UTC; Natalia
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-23 23:52:23

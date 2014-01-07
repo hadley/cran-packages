@@ -1,0 +1,10 @@
+Package: maptree
+Version: 1.1-2
+Date: 2001/07/02
+Title: Mapping and graphing tree models
+Author: Denis White <white.denis@epa.gov>
+Maintainer: Denis White <white.denis@epa.gov>
+Depends: R (>= 1.0), mva, cluster, tree, rpart
+Description: Functions with example data for graphing and mapping models from hierarchical clustering and classification and regression trees. 
+License: Public Domain, unlimited distribution
+URL: http://www.epa.gov/wed/pages/staff/white/

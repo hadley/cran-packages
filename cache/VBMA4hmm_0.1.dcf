@@ -1,0 +1,16 @@
+Package: VBMA4hmm
+Version: 0.1
+Date: 2010-10-18
+Title: The VBMA4hmm (Variational Bayesian Markov Model for hidden
+        markov model) package
+Author: Stevenn Volant
+Maintainer: Stevenn Volant <stevenn.volant@agroparistech.fr>
+Description: This package allows one to deal with a 2-states HMM with a
+        fixed Gaussian distribution as emission for one state and a
+        mixture of Gaussian for the other state. Furthermore, by
+        computing optimal variational weights, it calculates an
+        averaged estimator of the posterior probabilities.
+License: GPL (>= 2)
+Packaged: 2012-10-29 08:58:06 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:06

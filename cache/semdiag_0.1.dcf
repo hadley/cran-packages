@@ -1,0 +1,14 @@
+Package: semdiag
+Type: Package
+Title: Structural equation modeling diagnostics
+Version: 0.1
+Date: 2010-02-07
+Author: Zhiyong Zhang and Ke-Hai Yuan
+Maintainer: Zhiyong Zhang <zhiyongzhang@nd.edu>
+Depends: R (>= 2.10), sem
+Description: Outlier and leverage diagnostics for SEM.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-09-25 20:35:14 UTC; zzhang4
+Repository: CRAN
+Date/Publication: 2011-09-26 07:15:32

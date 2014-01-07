@@ -1,0 +1,19 @@
+Package: penalizedSVM
+Type: Package
+Title: Feature Selection SVM using penalty functions
+Version: 1.1
+Date: 2010-08-2
+Depends: e1071, MASS, corpcor, statmod, tgp, mlegp, lhs
+Author: Natalia Becker, Wiebke Werft, Axel Benner
+Maintainer: Natalia Becker <natalia.becker@dkfz.de>
+Description: This package provides feature selection SVM using penalty
+        functions. The smoothly clipped absolute deviation (SCAD),
+        'L1-norm', 'Elastic Net' ('L1-norm' and 'L2-norm') and 'Elastic
+        SCAD' (SCAD and 'L2-norm') penalties are availible. The tuning
+        parameters can be founf using either a fixed grid or a interval
+        search.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:25 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:25

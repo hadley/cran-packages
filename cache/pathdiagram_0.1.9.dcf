@@ -1,0 +1,19 @@
+Package: pathdiagram
+Type: Package
+Title: Basic functions for drawing path diagrams
+Version: 0.1.9
+Date: 2013-07-28
+Author: Gaston Sanchez
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: Implementation of simple functions to draw
+    basic path diagrams just for visualization purposes.
+URL: http://www.gastonsanchez.com
+Depends: R (>= 3.0), shape
+Suggests: knitr
+VignetteBuilder: knitr
+License: GPL-3
+Collate: 'arrow.R' 'draw.R' 'latent.R' 'manifest.R' 'wall.R'
+Packaged: 2013-07-29 17:53:31 UTC; Gaston
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-07-29 19:57:33

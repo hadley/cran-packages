@@ -1,0 +1,13 @@
+Package: compositions
+Version: 0.9-10
+Date: 2005-05-06
+Title: Compositional Data Analysis  
+Author: K. Gerald van den Boogaart <boogaart@uni-greifswald.de>, Raimon Tolosana 
+Maintainer: K. Gerald van den Boogaart <boogaart@uni-greifswald.de> 
+Depends: R (>= 2.0.0)
+Description: The package provides functions for the consistent analysis of
+  compositional data (e.g. portions of substances) and positive numbers
+  (e.g. concentrations) in the way proposed by Aitchison.
+License: GPL version 2 or newer
+URL: http://www.stat.boogaart.de/compositions
+Packaged: Fri Jun 10 15:27:38 2005; boogaart

@@ -1,0 +1,11 @@
+Package: rhosp
+Title: Side effect risks in hospital : simulation and estimation
+Version: 1.05
+Author: Christophe Dutang and Julie Barthes
+Description: Evaluating risk (that a patient arises a side effect) during hospitalization is the main purpose of this package. Several methods (Parametric, non parametric and De Vielder estimation) to estimate the risk constant (R) are implemented in this package. There are also functions to simulate the different models of this issue in order to quantify the previous estimators. It is necessary to read at least the first six pages of the report to understand the topic.
+Maintainer: Christophe Dutang <christophe.dutang@ensimag.fr>
+License: GPL (>= 2)
+Packaged: 2013-12-11 08:13:06 UTC; dutangc
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-11 09:36:53

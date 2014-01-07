@@ -1,0 +1,24 @@
+Package: CADFtest
+Type: Package
+Title: This package performs the CADF unit root test proposed in Hansen
+        (1995).
+Version: 0.3-1
+Date: 2011-05-09
+Author: Claudio Lupi
+Maintainer: Claudio Lupi <lupi@unimol.it>
+Depends: dynlm, sandwich, tseries, urca
+Suggests: fUnitRoots
+Description: This package performs Hansen's (1995) Covariate-Augmented
+        Dickey-Fuller (CADF) test. The only required argument is y, the
+        Tx1 time series to be tested. If no stationary covariate X is
+        passed to the procedure, then an ordinary ADF test is
+        performed. The p-values of the test are computed using a
+        procedure proposed in Costantini, Lupi and Popp (2007),
+        illustrated in Lupi (2009).
+License: GPL (>= 2)
+URL: http://www.jstatsoft.org/v32/i02
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-05-09 15:36:54 UTC; claudio
+Repository: CRAN
+Date/Publication: 2011-05-09 15:48:09

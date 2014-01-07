@@ -1,0 +1,19 @@
+Package: cape
+Type: Package
+Title: Combined analysis of pleiotropy and epistasis
+Version: 1.0
+Date: 2013-04-02
+Author: Anna L. Tyler, Wei Lu, Justin J. Hendrick, Vivek M. Philip, and
+        Greg W. Carter
+Maintainer: Anna L. Tyler <anna.tyler@jax.org>
+Description: This package combines complementary information across
+        multiple related phenotypes to infer directed epistatic
+        interactions between genetic markers. The analysis in this
+        package can be applied to a variety of engineered and natural
+        populations.
+Depends: R (>= 2.15.2), corpcor, evd, qpcR, Matrix
+License: GPL-3
+Packaged: 2013-04-03 16:06:53 UTC; atyler
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-04 16:52:27

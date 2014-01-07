@@ -1,0 +1,18 @@
+Package: curvetest
+Type: Package
+Title: The package will formally test two curves represented by
+        discrete data sets to be statistically equal or not when the
+        errors of the two curves were assumed either equal or not using
+        the tube formula to calculate the tail probabilities.
+Version: 2.2
+Date: 2012-03-1
+Author: Zhongfa Zhang
+Maintainer: Zhongfa Zhang<zjz999@gmail.com>
+Description: Test Equality of Curves with Homoscedastic or
+        Heteroscedastic Errors.
+License: GPL-2
+LazyLoad: yes
+Depends: locfit, R.oo, methods, R.methodsS3
+Packaged: 2012-03-01 17:24:07 UTC; jacob
+Repository: CRAN
+Date/Publication: 2012-03-01 18:12:41

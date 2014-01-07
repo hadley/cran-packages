@@ -1,0 +1,14 @@
+Package: helloJavaWorld
+Version: 0.0-7
+Date: 2010-02-22
+Title: Hello Java World
+Author: Tobias Verbeke
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>
+Description: A dummy package to demonstrate how to interface to a jar
+        file that resides inside an R package.
+Depends: R (>= 2.7.0), rJava (>= 0.5-0)
+SystemRequirements: Java (>= 1.5)
+License: GPL-3
+Packaged: 2010-02-22 20:53:27 UTC; tobias
+Repository: CRAN
+Date/Publication: 2010-02-23 07:49:45

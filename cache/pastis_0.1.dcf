@@ -1,0 +1,29 @@
+Package: pastis
+Type: Package
+Title: Phylogenetic Assembly with Soft Taxonomic Inferences
+Author: Klaas Hartmann, Gavin Thomas, Arne Mooers, Jeffrey Joy, Aki
+        Mimoto, Walter Jetz
+Maintainer: Gavin Thomas <gavin.thomas@sheffield.ac.uk>
+Depends: caper (>= 0.5.0), ape (>= 3.0.0)
+Description: A pre-processor for mrBayes that assimilates sequences,
+        taxonomic information and tree constraints as per xxx.  The
+        main functions of interest for most users will be
+        pastis_simple, pastis_main and conch. The main analysis is
+        conducted with pastis_simple or pastis_main followed by a
+        manual execution of mrBayes (>3.2). The placement of taxa not
+        contained in the tree constraint can be investigated using
+        conch.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://to.be.determined
+Authors@R: c(person(given="Klaas", family="Hartmann",
+        email="klaas.hartmann@utas.edu.au", role=c("aut", "cre")),
+        person(given="Gavin", family="Thomas",
+        email="gavin.thomas@sheffield.ac.uk", role=c("aut", "cre")))
+Version: 0.1
+Date: 2013-05-27
+Packaged: 2013-05-28 08:24:18 UTC; gavinthomas
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-29 11:55:32

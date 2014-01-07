@@ -1,0 +1,17 @@
+Package: PASWR
+Type: Package
+Title: PROBABILITY and STATISTICS WITH R
+Version: 1.1
+LazyLoad: yes
+LazyData: yes
+Date: 2009-11-24
+Author: Alan T. Arnholt
+Maintainer: Alan T. Arnholt <arnholtat@appstate.edu>
+Depends: e1071, MASS, lattice
+Description: Data and functions for the book PROBABILITY and STATISTICS
+        WITH R.
+License: GPL (>= 2)
+URL: http://www1.appstate.edu/~arnholta/PASWR/
+Packaged: 2012-10-29 08:57:23 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:23

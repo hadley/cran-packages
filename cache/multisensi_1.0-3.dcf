@@ -1,0 +1,17 @@
+Package: multisensi
+Type: Package
+Title: Multivariate Sensitivity Analysis
+Version: 1.0-3
+Date: 2010-05-20
+Author: Matieyendou LAMBONI <clamboni@yahoo.fr>, Herve MONOD
+        <herve.monod@jouy.inra.fr>
+Maintainer: Herve MONOD <herve.monod@jouy.inra.fr>
+Description: An R library for performing sensitivity analysis on a
+        model with multivariate output
+License: CeCILL-2
+Repository: CRAN
+LazyLoad: yes
+Depends: R (>= 2.8.0)
+Suggests: MASS
+Packaged: 2012-10-29 08:59:15 UTC; ripley
+Date/Publication: 2012-10-29 08:59:15

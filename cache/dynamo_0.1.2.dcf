@@ -1,0 +1,11 @@
+Package: dynamo
+Title: Dynamic Models
+Type: Package
+Version: 0.1.2
+Date: 2007-12-20
+Author: Christian T. Brownlees
+Maintainer: Christian T. Brownlees <ctb@ds.unifi.it>
+Depends: R (>= 2.5)
+Description: Routines for estimation, simulation, regularization and prediction of univariate dynamic models including: ARMA, ARMA-GARCH, ACD, MEM.
+License: GPL (>=3)
+Packaged: Mon May 26 00:04:30 2008; ctb

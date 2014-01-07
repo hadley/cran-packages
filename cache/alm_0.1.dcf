@@ -1,0 +1,36 @@
+Package: alm
+Version: 0.1
+Date: 2013-10-05
+Description: R wrapper to the almetrics API platform developed by PLoS
+Title: R wrapper to the almetrics API platform developed by PLoS
+License: CC0
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"),
+    person("Carl", "Boettiger", role = "aut",
+    email = "cboettig@gmail.com"),
+    person("Karthik", "Ram", role = "aut",
+    email = "karthik.ram@gmail.com"),
+    person("Fenner", "Martin", role = "aut",
+    email = "mfenner.ram@plos.org"))
+URL: https://github.com/ropensci/alm
+BugReports: http://www.github.com/ropensci/alm/issues
+LazyLoad: yes
+LazyData: yes
+VignetteBuilder: knitr
+Imports: ggplot2, RCurl, RJSONIO, plyr, stringr, reshape, reshape2,
+        httr, grid, lubridate
+Suggests: testthat, roxygen2, rplos, knitr, rjson
+Enhances: rCharts
+Collate: 'almdatepub.R' 'almdateupdated.R' 'almpubmedcentid.R'
+        'almpubmedid.R' 'almtitle.R' 'almupdated.R' 'zzz.R' 'alm.R'
+        'almplot.R' 'almevents.R' 'startup.R' 'almtotals.R'
+        'signposts.R' 'plot_signposts.R' 'plot_density.R' 'globals.R'
+Packaged: 2013-10-05 16:32:49 UTC; scottmac2
+Author: Scott Chamberlain [aut, cre],
+  Carl Boettiger [aut],
+  Karthik Ram [aut],
+  Fenner Martin [aut]
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-05 20:05:02

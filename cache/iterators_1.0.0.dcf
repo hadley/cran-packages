@@ -1,0 +1,15 @@
+Package: iterators
+Type: Package
+Title: Iterator construct for R
+Version: 1.0.0
+Author: REvolution Computing
+Maintainer: REvolution Computing <support@REvolution-computing.com>
+Description: Support for iterators, which allow a programmer to
+        traverse through all the elements of a vector, list, or other
+        collection of data.
+Depends: R (>= 2.5.0), utils
+Suggests: foreach
+License: Apache License (== 2.0)
+Packaged: 2009-06-26 18:14:19 UTC; weston
+Repository: CRAN
+Date/Publication: 2009-06-27 08:16:21

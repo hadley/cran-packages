@@ -1,0 +1,17 @@
+Package: ineq
+Version: 0.2-11
+Date: 2013-10-12
+Title: Measuring Inequality, Concentration, and Poverty
+Authors@R: c(person(given = "Achim", family = "Zeileis", role = c("aut", "cre"), email = "Achim.Zeileis@R-project.org"),
+             person(given = "Christian", family = "Kleiber", role = "ctb", email = "Christian.Kleiber@unibas.ch"))
+Description: Inequality, concentration, and poverty measures. Lorenz curves (empirical and theoretical).
+Depends: R (>= 2.10.0)
+Imports: stats, graphics, grDevices
+License: GPL-2
+Packaged: 2013-10-12 10:47:56 UTC; zeileis
+Author: Achim Zeileis [aut, cre],
+  Christian Kleiber [ctb]
+Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-12 13:15:20

@@ -1,0 +1,17 @@
+Package: catR
+Type: Package
+Title: Procedures to generate IRT adaptive tests (CAT)
+Version: 1.0
+Date: 2010-06-13
+Author: David Magis (U Liege, Belgium), Gilles Raiche (UQAM, Canada)
+Maintainer: David Magis <david.magis@ulg.ac.be>
+Depends: R (>= 2.8.0)
+Description: The catR package allows the generation of response
+        patterns under computerized adaptive testing (CAT) framework,
+        with the choice of several starting rules, stopping rules and
+        ability estimators.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2010-06-13 13:19:30 UTC; User
+Repository: CRAN
+Date/Publication: 2010-06-14 06:55:34

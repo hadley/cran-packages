@@ -1,0 +1,25 @@
+Package: MDSGUI
+Type: Package
+Title: A GUI for interactive MDS in R
+Version: 0.1
+Date: 2012-08-28
+Author: Andrew Timm and Sugnet Gardner-Lubbe
+Maintainer: Andrew Timm <timmand@gmail.com>
+Depends: MASS, boot, RColorBrewer, scatterplot3d, tcltk, tcltk2,
+        tkrplot, rpanel, graphics, rgl, smacof
+Description: A graphical user interface (GUI) for performing
+        Multidimensional Scaling applications and interactively
+        analysing the results all within the GUI environment. The
+        MDS-GUI provides means of performing Classical Scaling, Least
+        Squares Scaling, Metric SMACOF, Non-Metric SMACOF, Kruskals
+        Analysis and Sammon Mapping with animated optimisation.
+License: GPL (>= 3)
+LazyLoad: yes
+OS_type: windows
+SystemRequirements: windows
+Repository: CRAN
+Repository/R-Forge/Project: mdsgui
+Repository/R-Forge/Revision: 7
+Repository/R-Forge/DateTimeStamp: 2012-11-21 13:44:33
+Date/Publication: 2012-11-26 12:47:21
+Packaged: 2012-11-21 15:16:10 UTC; rforge

@@ -1,0 +1,15 @@
+Package: ThreeWay
+Type: Package
+Title: Three-way component analysis
+Version: 1.0
+Date: 2011-10-27
+Author: Maria Antonietta Del Ferraro, Henk A.L. Kiers, Paolo Giordani
+Maintainer: Paolo Giordani <paolo.giordani@uniroma1.it>
+Description: Component analysis for three-way data arrays by means of
+        Candecomp/Parafac, Tucker3, Tucker2 and Tucker1 models
+Depends: R(>= 2.8.1), stats
+License: GPL (>= 2)
+LazyLoad: yes
+Repository: CRAN
+Packaged: 2012-10-29 08:57:46 UTC; ripley
+Date/Publication: 2012-10-29 08:57:46

@@ -1,0 +1,9 @@
+Package: maxstat
+Version: 0.3-4
+Title: Maximally Selected Rank- and Gauss Statistics
+Author: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Maintainer: Torsten Hothorn <Torsten.Hothorn@rzmail.uni-erlangen.de>
+Description: Maximally selected rank and Gauss statistics with
+ several p-value approximations.
+Depends: exactRankTests, mvtnorm, survival
+License: GPL

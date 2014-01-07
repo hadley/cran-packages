@@ -1,0 +1,17 @@
+Package: upclass
+Type: Package
+Title: Updated Classification Methods using Unlabelled Data
+Depends: mclust, classifly, gclus
+Version: 1.0
+Date: 2012-07-29
+Author: Niamh Russell, Laura Cribbin, Thomas Brendan Murphy
+Maintainer: Niamh Russell <niamh.russell@gmail.com>
+Description: This package contains a collection of functions which
+        implement data classification. It uses unlabeled data to obtain
+        parameter estimates of models. The functions can be implemented
+        over a number of models with the best model selected and
+        displayed.
+License: GPL-2
+Packaged: 2012-09-20 14:53:11 UTC; niamhrussell
+Repository: CRAN
+Date/Publication: 2012-09-20 19:28:42

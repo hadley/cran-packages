@@ -1,0 +1,12 @@
+Package: DescribeDisplay
+Version: 0.1.3
+Date:    2007-03-13
+Title:   R interface to DescribeDisplay (GGobi plugin)
+Author:  Hadley Wickham <hadley@iastate.edu>, Di Cook <dicook@iastate.edu>, Andreas Buja <buja@wharton.upenn.edu>
+Depends: R (>= 2.2.0), grid, reshape (>= 0.7.1), ggplot
+Maintainer: Hadley Wickham <hadley@iastate.edu>
+Description: Produce publication quality graphics from output of GGobi's describe display plugin
+License: BSD
+LazyData: true
+URL: http://www.ggobi.org/describe-display
+Packaged: Tue Mar 13 11:52:26 2007; hadley

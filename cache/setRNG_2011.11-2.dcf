@@ -1,0 +1,21 @@
+Package: setRNG
+Title: Set (Normal) Random Number Generator and Seed
+Description: SetRNG provides utilities to help set and record the
+        setting of the seed and the uniform and normal generators used
+        when a random experiment is run. The utilities can be used in
+        other functions that do random experiments to simplify
+        recording and/or setting all the necessary information for
+        reproducibility.  See the vignette and reference manual for
+        examples.
+Depends: R (>= 2.5.0)
+Version: 2011.11-2
+LazyLoad: yes
+License: GPL-2 | file LICENSE
+Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+URL: http://distr.r-forge.r-project.org/
+Repository: CRAN
+Repository/R-Forge/Project: distr
+Repository/R-Forge/Revision: 801
+Packaged: 2012-03-07 19:17:07 UTC; rforge
+Date/Publication: 2012-03-27 06:06:12

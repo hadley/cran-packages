@@ -1,0 +1,13 @@
+Package: qcc
+Version: 1.3
+Title: Quality Control Charts
+Date: 2008/10/??
+Description: Shewhart quality control charts for continuous, attribute and
+             count data. Cusum and EWMA charts. Operating characteristic
+             curves.  Process capability analysis. Pareto chart and
+             cause-and-effect chart.
+Author: Luca Scrucca <luca@stat.unipg.it>
+Maintainer: Luca Scrucca <luca@stat.unipg.it>
+Depends: R (>= 2.6)
+License: GPL version 2 (or newer)
+Packaged: Sat Oct 11 18:07:13 2008; luca

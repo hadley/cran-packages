@@ -1,0 +1,12 @@
+Package: clim.pact
+Version: 2.2-8
+Date: September 09 2007
+Title: Climate analysis and empirical-statistical downscaling (ESD) package for monthly and daily data.
+Author: Rasmus E. Benestad <rasmus.benestad@met.no>
+Maintainer: Rasmus E. Benestad <rasmus.benestad@met.no>
+Depends: ncdf, akima, R (>= 2.2.0)
+Description: The package contains R functions for retrieving data, making climate analysis and downscaling of monthly mean and daily mean global climate scenarios. (Windows-users may need to obtain the 'ncdf' package from URL 'http://www.stats.ox.ac.uk/pub/RWin/' to get clim.pact to work).
+License: GPL version 2 or newer. 
+URL: http://www.gvc2.gu.se/ngeo/rcg/edu/esd.pdf
+ZipData: no 
+Packaged: Fri Sep  7 12:20:45 2007; rasmusb

@@ -1,0 +1,18 @@
+Package: ImpactIV
+Type: Package
+Title: Identifying Causal Effect for Multi-Component Intervention Using
+        Instrumental Variable Method
+Version: 1.0
+Date: 2010-12-12
+Author: Peng Ding <dingyunyiqiu@163.com>
+Maintainer: Peng Ding <dingyunyiqiu@163.com>
+Description: In this package, you can find two functions proposed in
+        Ding, Geng and Zhou (2011) to estimate direct and indirect
+        causal effects with randomization and multiple-component
+        intervention using instrumental variable method.
+Depends: nnet
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:57:11 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:11

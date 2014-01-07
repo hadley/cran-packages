@@ -1,0 +1,34 @@
+Package: ldDesign
+Version: 2.0-1
+Title: Design of experiments for detection of linkage disequilibrium
+Author: Rod Ball <rod.ball@scionresearch.com>
+Maintainer: ORPHANED
+Description: R package for design of experiments for design of
+        genome-wide association studies.  Version 2 incorporating
+        quantitative traits and case-control studies. The Bayes factor
+        should be chosen large enough to give respectable posterior
+        odds. This requires Bayes factors of the order of 10^6 in
+        genome-wide association studies where prior odds are low.
+        Sample sizes needed to get this strength of evidence are
+        substantially higher than those from traditional power
+        calculations. The corresponding threshold for p-values is
+        substantially lower than commonly used.  For quantitative
+        traits ldDesign uses an existing deterministic power
+        calculation for detection of linkage disequilibrium between a
+        bi-allelic QTL and a bi-allelic marker, together with the
+        Spiegelhalter and Smith Bayes factor to generate designs with
+        power to detect effects with a given Bayes factor. For case-
+        control studies an asymptotic approximate Bayes factor is used
+        to derive an analytical power calculation in dominant,
+        recessive, additive and general genetic models.
+Depends:
+Suggests: nlme (>= 3.1.0)
+License: GPL (>= 2)
+URL: mailto:rod.ball@scionresearch.com www.scionresearch.com/
+Packaged: 2012-03-26 04:01:31 UTC; rod
+Repository: CRAN
+Date/Publication: 2012-03-26 08:06:33
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Rod Ball <rod.ball@scionresearch.com>
+X-CRAN-Comment: Orphaned on 2013-12-18 as maintainer address
+        <rod.ball@scionresearch.com> bounced.

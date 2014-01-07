@@ -1,0 +1,21 @@
+Package: YourCast
+Version: 1.1-7
+Date: 2010-03-15
+Title: YourCast
+Author: Federico Girosi <girosi@rand.org> Gary King <king@harvard.edu>
+        Jon Bischof <jbischof@fas.harvard.edu>
+Maintainer: Gary King <king@harvard.edu>
+Depends: R (>= 1.9.0), foreign, lattice
+Description: YourCast makes time series cross-sectional forecasts with
+        multiple cross-sections based on your assumptions. It allows a
+        variety of smoothing assumptions based on similarities among
+        the levels, trends, or interactions in the expected value of
+        the dependent variable rather than the coefficients.  YourCast
+        implements ideas in the book Federico Girosi and Gary King.
+        DEMOGRAPHIC FORECASTING. Princeton University Press, 2008; see
+        http://gking.harvard.edu/files/smooth/
+License: file LICENSE
+URL: http://gking.harvard.edu/yourcast
+Packaged: 2010-03-15 20:10:39 UTC; rbuild
+Repository: CRAN
+Date/Publication: 2010-03-16 17:06:15

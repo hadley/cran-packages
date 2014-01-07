@@ -1,0 +1,16 @@
+Package: compOverlapCorr
+Type: Package
+Title: Comparing overlapping correlation coefficients
+Version: 1.0
+Date: 2006-07-21
+Author: Ka-Loh Li <ka-loh.li@radiology.ucsf.edu>, and Xiaoping Zhu <
+        Xiaoping.Zhu@ucsf.edu>
+Maintainer: Ka-Loh Li <ka-loh.li@radiology.ucsf.edu>
+Description: This package contains function to test the difference
+        between two overlapping (in the sense of having a variable in
+        common) correlation coefficients, using a Z-test as described
+        by Meng, Rosenthal, and Rubin (Meng et al, 1992).
+License: GPL-2
+Packaged: 2012-10-29 08:58:26 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:26

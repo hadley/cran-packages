@@ -1,0 +1,13 @@
+Package: bda
+Version: 1.1.1-7
+Date: 2011-09-16
+Title: Algorithms for Birth Data Analysis
+Author: Bin Wang <bwang@jaguar1.usouthal.edu>.
+Maintainer: Bin Wang <bwang@jaguar1.usouthal.edu>
+Depends: R (>= 2.5.0), stats
+Suggests: MASS
+Description: This package collects functions developed for density estimation, regression and simultaneous confidence bands construction, EM based on data subject to measurement errors.
+License: Unlimited
+Packaged: 2012-01-06 19:26:21 UTC; bwang
+Repository: CRAN
+Date/Publication: 2012-01-06 20:56:24

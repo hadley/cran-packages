@@ -1,0 +1,16 @@
+Package: Rdrools
+Type: Package
+Title: A rules engine for R based on Drools
+Version: 0.0.2
+Date: 2011-11-29
+Author: SMS Chauhan <smschauhan@gmail.com>,  Zubin Dowlaty <zubin@dowlaty.com>
+Depends: R (>= 2.11.0), rJava (>= 0.6-0), Rdroolsjars (>= 0.0.1)
+Imports: rJava (>= 0.6-0), Rdroolsjars (>= 0.0.1)
+Maintainer: SMS Chauhan <smschauhan@gmail.com>
+Description: Rdrools is a rules engine for R based on the popular Java Drools engine
+License: LGPL-3
+LazyLoad: yes
+LazyData: yes
+Packaged: 2011-11-29 13:45:15 UTC; Sms.Chauhan
+Repository: CRAN
+Date/Publication: 2011-11-29 16:38:20

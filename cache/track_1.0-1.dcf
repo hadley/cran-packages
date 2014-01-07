@@ -1,0 +1,22 @@
+Package: track
+Version: 1.0-1
+Date: 2011-01-22
+Title: Track Objects
+Author: Tony Plate <tplate@acm.org>
+Maintainer: Tony Plate <tplate@acm.org>
+Description: Automatically stores objects in files on disk so that
+        files are rewritten when objects are changed, and so that
+        objects are accessible but do not occupy memory until they are
+        accessed. Keeps track of times when objects are created and
+        modified, and caches some basic characteristics of objects to
+        allow for fast summaries of objects.  Also provides a command
+        history mechanism that saves the last command to a history file
+        after each command completes.
+License: GPL
+Depends: R (>= 2.1.0)
+Suggests: scriptests
+Repository: CRAN
+Repository/R-Forge/Project: trackobjs
+Repository/R-Forge/Revision: 121
+Date/Publication: 2011-01-30 08:52:56
+Packaged: 2011-01-22 21:55:45 UTC; rforge

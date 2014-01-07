@@ -1,0 +1,16 @@
+Package: dfexplore
+Type: Package
+Title: Explore data.frames by plotting NA and classes of each variable
+Version: 0.2
+Date: 2013-12-06
+Author: Joris Muller
+Maintainer: Joris Muller <joris.muller@etu.unistra.fr>
+Description: Quickly and graphicaly show NA and classes of each variable and each observation of a data.frame. The aim is to show pattern of NA
+License: GPL
+Depends: ggplot2, methods
+URL: http://blog.chmilblick.fr
+Encoding: UTF-8
+Packaged: 2013-12-11 20:25:50 UTC; joris
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-12 01:38:32

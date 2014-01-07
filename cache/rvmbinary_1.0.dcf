@@ -1,0 +1,17 @@
+Package: rvmbinary
+Version: 1.0
+Date: 11-04-2012
+Title: RVM-Classification and Regression
+Author: Robert Lowe <ral64@cam.ac.uk>
+Maintainer: Robert Lowe <r.a.lowe1@googlemail.com>
+Depends: R (>= 1.8.0), kernlab
+Suggests: mlbench
+Description: Performs binary classification and regression of data
+        using a Relevance Vector Machine
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+Packaged: 2012-10-29 08:59:38 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 06:59:38
+X-CRAN-Original-Maintainer: r.a.lowe1@googlemail.com
+X-CRAN-Comment: Previous address reported this as current in Oct 2012.

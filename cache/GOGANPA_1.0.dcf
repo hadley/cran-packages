@@ -1,0 +1,14 @@
+Package: GOGANPA
+Type: Package
+Title: GO-Functional-Network-based Gene-Set-Analysis
+Version: 1.0
+Date: 2011-12-30
+Author: Billy Chang
+Maintainer: Billy Chang <billy.chang@utoronto.ca>
+Description: Accounting for genes' functional-non-equivalence within pathways in classical Gene-set-analysis.
+Depends: R (>= 2.10), GANPA, WGCNA
+Suggests: GANPA, WGCNA, GANPAdata
+License: GPL-2
+Packaged: 2012-01-02 17:37:23 UTC; billyhw
+Repository: CRAN
+Date/Publication: 2012-01-03 07:44:00

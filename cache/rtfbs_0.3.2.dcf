@@ -1,0 +1,24 @@
+Copyright: The code in src/pcre is Copyright (c) 1997-2010 University
+        of Cambridge.  All other code is Copyright (c) 2002-2011
+        University of California, Cornell University.
+Package: rtfbs
+Maintainer: Melissa Hubisz <mjhubisz@cornell.edu>
+License: BSD_3_clause + file LICENSE
+Title: R Transcription Factor Binding Site identification tool
+Author: Nicholas Peterson, Andre Martins, Melissa Hubisz, and Adam
+    Siepel
+Description: RTFBS identifies and scores possible Transcription Factor
+    Binding Sites and allows for FDR analysis and pruning.  It supports
+    splitting of sequences based on size or a specified GFF, grouping
+    by G+C content, and specification of Markov model order.  The heavy
+    lifting is done in C while all results are made available via R.
+Version: 0.3.2
+URL: http://compgen.bscb.cornell.edu/rtfbs
+Date: 2013-11-25
+Imports: rphast
+Depends: stats
+Collate: 'tfbs.R'
+Packaged: 2013-12-06 18:56:40 UTC; melissa
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-07 01:07:08

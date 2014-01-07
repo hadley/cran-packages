@@ -1,0 +1,14 @@
+Package: kernelPop
+Type: Package
+Title: Spatially explicit population genetic simulations
+Version: 0.12.3
+Date: 2013-10-31
+Author: Allan Strand and James Niehaus
+Maintainer: Allan Strand <stranda@cofc.edu>
+Depends: ape, ade4, MASS, pegas
+Description: This package creates a individual-based population genetic simulation.  Individuals have spatial coordinates, dispersal governed by mixtures of Weibull and normal pdfs.  It is discrete-time.  It can be arbitrarily complex given enough known or assumed demographic characteristics.  Simulates diploid and haploid inheritance. Allows the development of null distributions of genotypes for complex demographic scenarios.  This version includes some approximations for pollen (male gamete) dispersal.
+License: GPL
+Packaged: 2013-11-01 12:11:03 UTC; astrand
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-01 17:35:21

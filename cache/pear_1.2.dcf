@@ -1,0 +1,21 @@
+Package: pear
+Version: 1.2
+Date: 2011-05-18
+Title: Package for Periodic Autoregression Analysis
+Author: A. I. McLeod <aim@uwo.ca> and Mehmet Balcilar
+        <mehmet@mbalcilar.net>.
+Maintainer: A.I. McLeod <aimcleod@uwo.ca>
+Depends: R (>= 2.1.0)
+Description: Package for estimating periodic autoregressive models.
+        Datasets: monthly ozone and Fraser riverflow. Plots: periodic
+        versions of boxplot, auto/partial correlations, moving-average
+        expansion.
+LazyLoad: yes
+LazyData: yes
+Classification/ACM: G.3, G.4, I.5.1
+Classification/MSC: 62M10, 91B84
+License: GPL (>= 2)
+URL: http://www.stats.uwo.ca/faculty/aim
+Packaged: 2011-05-18 13:18:57 UTC; aim
+Repository: CRAN
+Date/Publication: 2011-05-18 13:31:42

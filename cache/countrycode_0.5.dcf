@@ -1,0 +1,19 @@
+Package: countrycode
+Type: Package
+Title: Create and manipulate data frames that contain country names or
+        country coding schemes
+Version: 0.5
+Date: 2010-03-02
+Author: Vincent Arel-Bundock <varel@umich.edu>
+Maintainer: Vincent Arel-Bundock <varel@umich.edu>
+Description: Standardizes country names, converts them into one of
+        seven coding schemes, assigns region descriptors, and generates
+        empty dyadic or country-year dataframes from the coding
+        schemes.
+License: GPL-3
+LazyLoad: yes
+LazyData: yes
+URL: http://www-personal.umich.edu/~varel/
+Packaged: 2010-08-14 13:44:21 UTC; vincent
+Repository: CRAN
+Date/Publication: 2010-08-14 16:54:26

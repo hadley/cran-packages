@@ -1,0 +1,28 @@
+Package: MLEcens
+Version: 0.1-0
+Date: 2007-07-30
+Title: Computation of the MLE for bivariate (interval) censored data
+Author: Marloes Maathuis <marloes@u.washington.edu>
+Maintainer: Marloes Maathuis <marloes@u.washington.edu>
+Depends: R (>= 2.4.0)
+Description: This package contains functions to compute the nonparametric 
+  maximum likelihood estimator (MLE) for 
+  the bivariate distribution of (X,Y), when 
+  realizations of (X,Y) cannot be observed directly. 
+  To be more precise, we consider the situation 
+  where we observe a set of rectangles 
+  (that we call 'observation rectangles') that are known 
+  to contain the unobservable realizations of (X,Y). We
+  compute the MLE based on such a set of rectangles. 
+  The methods can also be used for univariate censored data (see data set
+  'cosmesis'), and for 
+  censored data with competing risks (see data set 'menopause'). 
+  We also provide functions to visualize 
+  the observed data and the MLE. 
+  Please
+  feel free to contact me with questions or suggestions about this package. 
+  (This package contains the functionality
+  of the R-package 'bicreduc', which will no longer be maintained.)
+License: GPL (version 2 or later)
+URL: http://www.stat.washington.edu/marloes
+Packaged: Tue Jul 31 12:33:46 2007; marloes

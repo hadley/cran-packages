@@ -1,0 +1,18 @@
+Package: condGEE
+Version: 0.1-1
+Date: 2009-09-19
+Title: Parameter estimation in conditional GEE for recurrent event gap
+        times
+Author: David Clement
+Maintainer: David Clement <dyc24@cornell.edu>
+Depends: R (>= 2.01), numDeriv, rootSolve
+Description: Solves for the mean parameters, the variance parameter,
+        and their asymptotic variance in a conditional GEE for
+        recurrent event gap times, as described by Clement and
+        Strawderman (2009) in the journal Biostatistics. Makes a
+        parametric assumption for the length of the censored gap time.
+License: GPL (>= 2)
+URL: http://www.stat.cornell.edu/~clement/
+Packaged: Sat Sep 19 10:24:54 2009; dyc24
+Repository: CRAN
+Date/Publication: 2009-09-20 19:35:18

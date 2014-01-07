@@ -1,0 +1,17 @@
+Package: reams
+Type: Package
+Title: Resampling-Based Adaptive Model Selection
+Version: 0.1
+Date: 2011-12-06
+Author: Philip Reiss <phil.reiss@nyumc.org> and Lei Huang
+        <huangracer@gmail.com>
+Maintainer: Tao Zhang <tao-zhang-1@uiowa.edu>
+Depends: R (>= 2.9.0), leaps, mgcv
+Description: Resampling methods for adaptive linear model selection.
+        These can be thought of as extensions of the Akaike information
+        criterion that account for searching among candidate models.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-10-29 08:59:35 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:59:35

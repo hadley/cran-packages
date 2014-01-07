@@ -1,0 +1,24 @@
+Package: TilePlot
+Type: Package
+Title: This package analyzes functional gene tiling DNA microarrays for
+        studying complex microbial communities.
+Version: 1.1
+Date: 2011-04-07
+Author: Ian Marshall
+Maintainer: Ian Marshall <ianpgm@stanford.edu>
+Description: This package is intended for processing the output from
+        functional gene tiling DNA microarray experiments. It produces
+        hybridization pattern plots for each gene on the array, and
+        statistics for each gene including mean probe intensity, median
+        probe intensity, bright probe fraction, bright segment length
+        dependent score, bright probe mean intensity, and bright probe
+        median intensity. Output is generated in order of bright
+        segment length dependent score in both a latex/eps format and
+        tab-delimited text file. The package works in three modes:
+        single array, comparison of two arrays, and comparison of two
+        arrays with loess normalization.
+License: GPL-2
+LazyLoad: yes
+Packaged: Thu Apr 7 17:31:51 2011; ianmarshall
+Repository: CRAN
+Date/Publication: 2011-04-08 07:11:52

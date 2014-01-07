@@ -1,0 +1,18 @@
+Package: MDPtoolbox
+Type: Package
+Title: Markov Decision Processes toolbox
+Version: 4.0.1
+Date: 2012-12-31
+Author: Iadine Chades, Guillaume Chapron, Marie-Josee Cros, Frederick
+        Garcia, Regis Sabbadin
+Maintainer: Guillaume Chapron <gchapron@carnivoreconservation.org>
+Description: The Markov Decision Processes (MDP) toolbox proposes
+        functions related to the resolution of discrete-time Markov
+        Decision Processes: finite horizon, value iteration, policy
+        iteration, linear programming algorithms with some variants and
+        also proposes some functions related to Reinforcement Learning.
+License: BSD
+Depends: Matrix, linprog
+Packaged: 2012-12-31 16:02:59 UTC; Guillaume
+Repository: CRAN
+Date/Publication: 2012-12-31 17:20:39

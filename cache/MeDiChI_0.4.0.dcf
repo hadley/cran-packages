@@ -1,0 +1,20 @@
+Package: MeDiChI
+Type: Package
+Title: MeDiChI ChIP-chip deconvolution library
+Version: 0.4.0
+Date: Oct 12 2010
+Author: David J Reiss
+Maintainer: David J Reiss <dreiss@systemsbiology.org>
+Description: Model-based deconvolution of genome-wide binding
+        (ChIP-chip) data
+License: GPL-2
+Depends: R (>= 2.10), lars (>= 0.9.5), quadprog (>= 1.4.10), corpcor
+        (>= 1.4.5), Matrix (>= 0.99875.0)
+Suggests: zoo (>= 1.3-1), lattice, multicore (>= 0.1-3), doMC (>=
+        1.2.0)
+URL: http://baliga.systemsbiology.net/medichi
+Repository: CRAN
+Repository/R-Forge/Project: medichi
+Repository/R-Forge/Revision: 11
+Date/Publication: 2012-07-23 10:35:31
+Packaged: 2012-07-23 09:38:13 UTC; ripley

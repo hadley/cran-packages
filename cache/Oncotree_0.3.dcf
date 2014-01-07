@@ -1,0 +1,16 @@
+Package: Oncotree
+Type: Package
+Title: Estimating oncogenetic trees
+Version: 0.3
+Date: 2009-03-10
+Author: Aniko Szabo, Lisa Pappas
+Maintainer: Aniko Szabo <aszabo@mcw.edu>
+Depends: R (>= 2.3.1), boot
+Suggests: lattice
+Description: Contains functions to construct and evaluate directed tree
+        structures that model the process of occurrence of genetic
+        alterations during carcinogenesis.
+License: GPL 2 or newer
+Packaged: Wed Mar 11 16:03:27 2009; aszabo
+Repository: CRAN
+Date/Publication: 2009-03-12 09:28:15

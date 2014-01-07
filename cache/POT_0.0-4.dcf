@@ -1,0 +1,12 @@
+Package: POT
+Version: 0.0-4
+Date: 2006-02-05
+Title: Generalized Pareto Distribution and Peaks Over Threshold
+Author: Mathieu Ribatet <ribatet@lyon.cemagref.fr>
+Maintainer: Mathieu Ribatet <ribatet@lyon.cemagref.fr>
+Depends: R (>= 1.8.0)
+Description: Some functions usefull to perform a Peak Over Threshold analysis.
+	     Some piece of code come from the `evd' Package of Alec Stephenson.
+License: GPL version 2 or newer
+URL: http://www.lyon.cemagref.fr/hh/hydrologie/scientifiques/ribatet/hydrology-english.shtml
+Packaged: Tue May  2 17:35:48 2006; ribatema

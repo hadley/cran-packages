@@ -1,0 +1,13 @@
+Package: distr
+Title: Object orientated implementation of distributions
+Version: 1.5
+Depends: R(>= 2.0.0), methods, graphics, setRNG
+Imports: stats
+LazyLoad: yes
+SaveImage: no
+Author: Florian Camphausen, Matthias Kohl, Peter Ruckdeschel, Thomas Stabla
+Description: Object orientated implementation of distributions and some additional functionality
+Maintainer: Peter Ruckdeschel <Peter.Ruckdeschel@uni-bayreuth.de>
+License: GPL (version 2 or later)
+URL: http://www.uni-bayreuth.de/departments/math/org/mathe7/DISTR/
+Packaged: Tue Mar 29 20:17:24 2005; tom

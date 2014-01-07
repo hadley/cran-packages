@@ -1,0 +1,24 @@
+Package: USPS
+Title: Unsupervised and Supervised methods of Propensity Score
+        Adjustment for Bias
+Version: 1.2-1
+Date: 2011-12-25
+Author: Bob Obenchain <wizbob@att.net>
+Maintainer: Bob Obenchain <wizbob@att.net>
+Depends: R (>= 1.8.0), cluster, lattice, gss
+Description: Unsupervised methods: Define Local Treatment Differences
+        (LTDs) and Local Average Outcomes (LAOs) within Clusters of
+        well-matched patients and display their distributions across
+        Clusters.  This form of Nonparametric Preprocessing of
+        observational data is also called Local Control because it uses
+        post-hoc blocking to implement nested ANOVA (treatment within
+        cluster.)  Supervised methods: Estimate and Validate Propensity
+        Scores and use them to either sub-group or smooth observed
+        patient outcomes over the common support of alternative
+        treatment cohorts.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://members.iquest.net/~softrx/
+BuildVignettes: no
+Packaged: 2011-12-26 20:22:51 UTC; Bob
+Repository: CRAN
+Date/Publication: 2011-12-27 10:06:02

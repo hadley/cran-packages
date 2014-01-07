@@ -1,0 +1,17 @@
+Package: lmSupport
+Type: Package
+Title: Support for Linear Models
+Version: 1.05
+Date: 2011-03-31
+Author: John Curtin <jjcurtin@wisc.edu>
+Maintainer: John Curtin <jjcurtin@wisc.edu>
+Description: This package accompanies John Curtin's graduate course in
+        the General Linear Model (PSY710).
+License: GPL (>= 2)
+Depends: car, psych, gplots, gvlma
+Suggests: RDCOMClient
+LazyLoad: yes
+URL: http://dionysus.psych.wisc.edu/
+Packaged: 2011-04-01 02:26:27 UTC; John Curtin
+Repository: CRAN
+Date/Publication: 2011-04-01 06:27:41

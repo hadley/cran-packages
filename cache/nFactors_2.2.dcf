@@ -1,0 +1,14 @@
+Package:      nFactors
+Type:         Package
+Title:        Non Graphical Solution to the Cattell Scree Test
+Version:      2.2
+Date:         2007-04-24
+Encoding:     latin1
+Author:       Gilles Raiche <raiche.gilles@uqam.ca>
+Maintainer:   Gilles Raiche <raiche.gilles@uqam.ca>
+Depends:      R (>= 2.0.0)
+Description:  Two numerical indices are proposed for the Cattell Scree test:
+                1. Acceleration factor (with or without Parallel Analysis)
+                2. Optimal Coordinates (with or without Parallel Analysis)
+License:      GPL (version 2 or later)
+Packaged: Thu Feb  5 16:16:50 2009; HP_Propriétaire

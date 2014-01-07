@@ -1,0 +1,21 @@
+Package: RWeka
+Version: 0.3-9
+Date: 2007-12-21
+Title: R/Weka interface
+Author: Kurt Hornik, with contributions from Christian Buchta, 
+  Torsten Hothorn, Alexandros Karatzoglou, David Meyer, and
+  Achim Zeileis
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Description: An R interface to Weka (Version 3.5.7).
+   Weka is a collection of machine learning algorithms for data mining
+   tasks written in Java, containing tools for data pre-processing,
+   classification, regression, clustering, association rules, and
+   visualization. Both the R interface and Weka itself are contained
+   in the RWeka package. For more information on Weka see
+   http://www.cs.waikato.ac.nz/~ml/weka/.
+Depends: R (>= 2.6.0), rJava (>= 0.5-0), grid
+Imports: graphics, stats, utils
+Suggests: party (>= 0.8-0), mlbench, e1071
+SystemRequirements: Java (>= 5.0)
+License: GPL-2
+Packaged: Fri Dec 21 10:30:19 2007; hornik

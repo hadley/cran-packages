@@ -1,0 +1,18 @@
+Package: walkscoreAPI
+Type: Package
+Title: Walk Score and Transit Score API
+Version: 1.0
+Date: 2011-07-06
+Author: John Whalen
+Maintainer: John Whalen <whalenjf@gmail.com>
+Description: A collection of functions to perform the Application
+        Programming Interface (API) calls associated with the Walk
+        Score website (www.walkscore.com) within the R environment.
+        These functions can be used to query the Walk Score and Tranist
+        Score database for a wide variety of information using R
+        scripts.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-08-12 16:45:21 UTC; John
+Repository: CRAN
+Date/Publication: 2011-08-12 20:02:04

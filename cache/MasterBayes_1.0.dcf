@@ -1,0 +1,10 @@
+Package: MasterBayes 
+Title: Maximum Likelihood and Markov chain Monte Carlo methods for Pedigree Reconstruction, Analysis and Simulation.
+Version: 1.0
+Depends: coda, genetics, gtools
+Date: 2006-05-29
+Author: Jarrod Hadfield
+Maintainer: Jarrod Hadfield <j.hadfield@sheffield.ac.uk>
+Description: The primary aim of MasterBayes is to use MCMC techniques to integrate over uncertainity in pedigree configurations estimated from molecular markers and phenotypic data.  Emphasis is put on the marginal distribution of parameters that relate the phenotypic data to the pedigree. All simulation is done in compiled C++ for efficency.
+License: GPL version 2 or newer
+Packaged: Sun Oct  1 23:53:28 2006; hornik

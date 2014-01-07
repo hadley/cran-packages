@@ -1,0 +1,17 @@
+Package: MethComp
+Version: 1.15
+Date: 2012-03-19
+Title: Functions for analysis of method comparison studies.
+Author: Bendix Carstensen, Lyle Gurrin, Claus Ekstrom
+Maintainer: Bendix Carstensen <bxc@steno.dk>
+Depends: R (>= 2.10), nlme
+Suggests: R2WinBUGS, coda, BRugs, lattice, rjags, lme4
+Description: Methods (standard and advanced) for comparison of
+        measurement methods.
+License: GPL (>= 2)
+URL: http://BendixCarstensen.com/MethComp/
+Repository: CRAN
+Repository/R-Forge/Project: methcomp
+Repository/R-Forge/Revision: 57
+Packaged: 2012-03-29 10:17:15 UTC; rforge
+Date/Publication: 2012-03-29 16:18:15

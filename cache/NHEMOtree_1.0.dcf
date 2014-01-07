@@ -1,0 +1,20 @@
+Package: NHEMOtree
+Type: Package
+Title: Non-hierarchical evolutionary multi-objective tree learner to
+        perform cost-sensitive classification
+Depends: partykit, emoa, sets, rpart
+Version: 1.0
+Date: 2013-05-05
+Author: Swaantje Casjens
+Maintainer: Swaantje Casjens <swaantje.casjens@tu-dortmund.de>
+Description: NHEMOtree performs cost-sensitive classification by
+        solving the two-objective optimization problem of minimizing
+        misclassification rate and minimizing total costs for
+        classification. The three methods comprised in NHEMOtree are
+        based on EMOAs with either tree representation or bitstring
+        representation with an enclosed classification tree algorithm.
+License: GPL-3
+Packaged: 2013-05-09 09:55:32 UTC; hendrik
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-09 15:46:02

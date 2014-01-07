@@ -1,0 +1,20 @@
+Package: pglm
+Version: 0.1-2
+Date: 2013-12-27
+Title: panel generalized linear model
+Authors@R: person("Yves", "Croissant", role = c("aut", "cre"), email = "yves.croissant@univ-reunion.fr")
+Depends: R (>= 2.10), maxLik, plm
+Imports: statmod
+Suggests: lmtest, car
+Description: Estimation of panel models for glm-like models: this includes binomial models (logit and probit) count models (poisson and negbin) and ordered models (logit and probit)
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Author: Yves Croissant [aut, cre]
+Maintainer: Yves Croissant <yves.croissant@univ-reunion.fr>
+Repository: CRAN
+Repository/R-Forge/Project: pglm
+Repository/R-Forge/Revision: 8
+Repository/R-Forge/DateTimeStamp: 2013-12-28 07:37:40
+Date/Publication: 2013-12-28 16:02:08
+Packaged: 2013-12-28 11:15:17 UTC; rforge
+NeedsCompilation: no

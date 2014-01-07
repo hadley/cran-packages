@@ -1,0 +1,17 @@
+Package: BACCO
+Type: Package
+Title: Bayesian Analysis of Computer Code Output (BACCO)
+Version: 2.0-7
+Date: 2009-06-29
+Author: Robin K. S. Hankin
+Maintainer: <hankin.robin@gmail.com>
+Depends: emulator, calibrator, approximator
+Description: The BACCO bundle of packages is replaced by the BACCO
+        package, which provides a vignette that illustrates the
+        constituent packages (emulator, approximator, calibrator) in
+        use.
+License: GPL
+LazyLoad: yes
+Packaged: 2012-11-07 03:01:17 UTC; rksh
+Repository: CRAN
+Date/Publication: 2012-11-07 06:02:51

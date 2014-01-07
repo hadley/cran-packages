@@ -1,0 +1,14 @@
+Package: HaploSim
+Type: Package
+Title: HaploSim
+Version: 1.8
+Date: 2009-02-05
+Author: Albart Coster, John Bastiaansen
+Maintainer: <Albart.Coster@wur.nl>
+Depends: methods,utils, R (>= 2.6.0), pedigree (>= 1.1)
+Description: Simulate haplotypes through meioses. Allows specification
+        of population parameters.
+License: GPL (>= 2)
+Packaged: Mon Apr 6 09:24:41 2009; root
+Repository: CRAN
+Date/Publication: 2009-04-14 17:26:10

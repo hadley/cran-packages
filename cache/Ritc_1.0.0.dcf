@@ -1,0 +1,14 @@
+Package: Ritc
+Type: Package
+Title: Isothermal Titration Calorimetry (ITC) Data Analysis
+Version: 1.0.0
+Author: Yingyun Liu
+Maintainer: Yingyun Liu <yingyun@comcast.net>
+Depends: minpack.lm
+Description: This package implements the simulation and regression of
+        integrated Isothermal Titration Calorimetry (ITC) data using
+        the most commonly used one-to-one binding reaction model.
+License: GPL (>= 2)
+Packaged: 2013-01-31 19:50:38 UTC; Liu
+Repository: CRAN
+Date/Publication: 2013-01-31 21:05:57

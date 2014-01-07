@@ -1,0 +1,20 @@
+Package: orth
+Title: Multivariate Logistic Regressions Using Orthogonalized
+        Residuals.
+Version: 1.5.1
+Author: Kunthel By, Bahjat F. Qaqish, and John S. Preisser
+Maintainer: Kunthel By <kby@bios.unc.edu>
+Description: Performs multivariate logistic regressions by way of
+        orthogonalized residuals. As a special case, the methodology
+        recasts alternating logistic regressions in a way that is
+        consistent with standard estimating equation theory. Cluster
+        diagnostics and observation level diagnostics such as leverage
+        and Cook's distance are computed based on an approximation.
+        Exact versions of these diagnostics are computationally
+        demanding and as of this version, will not be included.
+Depends: methods
+LazyLoad: yes
+License: GPL (>= 2)
+Packaged: 2011-01-25 17:17:49 UTC; euclid
+Repository: CRAN
+Date/Publication: 2011-01-25 18:16:15

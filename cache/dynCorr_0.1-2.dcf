@@ -1,0 +1,14 @@
+Package: dynCorr
+Version: 0.1-2
+Date: 2012-10-31
+Title: Dynamic Correlation Package
+Author: Joel Dubin, Dandi Qiao, Hans-Georg Mueller.
+Maintainer: Joel Dubin <jdubin@uwaterloo.ca>
+Depends: lpridge
+Description: Computes dynamical correlation estimates and percentile
+        bootstrap confidence intervals for pairs of longitudinal
+        responses, including consideration of lags and derivatives.
+License: GPL-2
+Repository: CRAN
+Date/Publication: 2012-10-31 18:13:31
+Packaged: 2012-10-31 17:58:35 UTC; qddwudan

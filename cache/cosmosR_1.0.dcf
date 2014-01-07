@@ -1,0 +1,19 @@
+Package: cosmosR
+Type: Package
+Title: cosmosR
+Version: 1.0
+Date: 2013-09-18
+Author: Maxime Wack
+Maintainer: Maxime Wack <maximewack@free.fr>
+Depends: xlsx
+Description: This package aims at the easy production of descriptive and
+    bivariate statistics tables in HTML. It can load files in csv, xls/xlsx
+    formats, and read labels and formats from SAS or plain text files. It is
+    intended to be usable by absolute R beginners. Ce paquet permet la
+    production facile de tableaux HTML descriptifs et comparatifs, meme pour
+    les debutants sous R.
+License: GPL-3
+Packaged: 2014-01-03 13:04:15 UTC; u992093
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-01-03 15:05:40

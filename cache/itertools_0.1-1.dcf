@@ -1,0 +1,18 @@
+Package: itertools
+Type: Package
+Title: Iterator Tools
+Version: 0.1-1
+Author: Steve Weston, Hadley Wickham
+Maintainer: Steve Weston <stephen.b.weston@gmail.com>
+Description: Various tools for creating iterators, many patterned after
+        functions in the Python itertools module, and others patterned
+        after functions in the 'snow' package.
+Depends: R (>= 2.5.0), iterators(>= 1.0.0)
+Suggests: foreach
+Enhances: foreach, iterators
+License: GPL-2
+Repository: CRAN
+Repository/R-Forge/Project: itertools
+Repository/R-Forge/Revision: 38
+Date/Publication: 2010-01-14 15:37:23
+Packaged: 2010-01-13 21:12:15 UTC; rforge

@@ -1,0 +1,16 @@
+Package: reccsim
+Type: Package
+Title: Simulation of Rare Events Case-Control Studies.
+Version: 0.9-1
+Date: 2012-04-20
+Author: Christian Westphal
+Maintainer: Christian Westphal <westphal@staff.uni-marburg.de>
+Description: All this package needs is some idea of a risk model and a
+        population description and it will generate a random
+        case-control-study from that risk model and population for you.
+        You may repeat this to simulate powers of testing models and
+        such.
+License: GPL (>= 2)
+Packaged: 2012-09-28 15:03:27 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-09-28 15:04:03

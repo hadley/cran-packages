@@ -1,0 +1,17 @@
+Package: MTSKNN
+Version: 0.0-4
+Date: 2009-12-6
+Title: Multivariate two-sample tests based on K-nearest-neighbors
+Author: Lisha Chen <lisha.chen@yale.edu>, Peng Dai
+        <peng.dai@stonybrook.edu> and Wei Dou <wei.dou@yale.edu>
+Maintainer: Wei Dou <wei.dou@yale.edu>
+Depends:
+Suggests:
+Description: The package contains four multivariate two-sample tests
+        which are all based on k-nearest-neighbors. The testing
+        procedures are distribution free and are robust from balanced
+        designs to unbalanced designs.
+License: GPL (>= 2)
+Packaged: Sun Dec 6 18:17:07 2009; wd72
+Repository: CRAN
+Date/Publication: 2009-12-07 07:47:33

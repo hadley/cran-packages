@@ -1,0 +1,16 @@
+Package: hypervolume
+Type: Package
+Title: High-dimensional kernel density estimation and geometry
+        operations.
+Version: 0.9.9
+Date: 2013-10-12
+Author: Benjamin Blonder
+Maintainer: Benjamin Blonder <bblonder@gmail.com>
+Description: Estimates the shape and volume of high-dimensional objects and performs set operations: intersection / overlap, union, unique components, and inclusion test. Can measure the n-dimensional ecological hypervolume and perform species distribution modeling.
+License: GPL-3
+Depends: Rcpp, rgl, methods, raster, maps
+LinkingTo: Rcpp
+Packaged: 2013-10-26 08:55:16 UTC; benjaminblonder
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-26 15:33:51

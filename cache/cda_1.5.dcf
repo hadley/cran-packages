@@ -1,0 +1,37 @@
+Package: cda
+Version: 1.5
+Authors@R: c(person("Baptiste", "Auguie",
+    email = "baptiste.auguie@gmail.com",
+    role = c("aut", "cre")),
+    person("LAPACK authors",
+    role = "cph",
+    comment = "copyrights apply to src/zgels.f"))
+License: GPL-3
+Copyright: file inst/COPYRIGHTS for src/zgels.f obtained from LAPACK
+Title: Coupled dipole approximation of light scattering by clusters of
+        nanoparticles
+Description: Solves the electromagnetic problem of coupled-dipoles (scattering
+    and absorption by a cluster of subwavelength particles in arbitrary 3D
+    configuration) by setting up the interaction matrix and solving the linear
+    system for multiple incident fields. Functions are provided for linear
+    polarisation as well as circular polarisation with full angular averaging
+    (optical activity). Retardation is included in the dipole-dipole
+    interaction.
+URL: https://github.com/baptiste/cda
+Type: Package
+LazyLoad: yes
+VignetteBuilder: knitr
+SystemRequirements: GNU make
+LinkingTo: Rcpp, RcppArmadillo
+Depends: methods, dielectric
+Suggests: rgl, grid, ggplot2, gridExtra, testthat, knitr
+Imports: Rcpp (>= 0.10.5), RcppArmadillo (>= 0.3.900), statmod,
+        randtoolbox, reshape2, plyr
+RcppModules: cda, cd, dispersion, array
+Packaged: 2013-11-27 00:38:56 UTC; baptiste
+Author: Baptiste Auguie [aut, cre],
+  LAPACK authors [cph] (copyrights apply to src/zgels.f)
+Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-27 07:10:09

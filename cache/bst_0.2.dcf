@@ -1,0 +1,19 @@
+Package: bst
+Type: Package
+Title: Gradient Boosting
+Version: 0.2
+Date: 2011-02-12
+Author: Zhu Wang
+Maintainer: Zhu Wang <zwang@ccmckids.org>
+Description: The package contains HingeBoost for binary and multi-class
+        classification with unequal misclassification costs. Functional
+        gradient descent algorithm to optimize the cost-sensitive hinge
+        loss. The algorithm can fit linear classifier with linear least
+        squares, nonlinear classifer with smoothing spline (or trees)
+        as base learner. The package also can conduct regression.
+Depends: rpart
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-03-31 11:06:36 UTC; Zwang
+Repository: CRAN
+Date/Publication: 2011-03-31 15:18:32

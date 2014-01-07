@@ -1,0 +1,23 @@
+Package: Matrix
+Version: 0.995-15
+Date: 2006-08-15
+Title: A Matrix package for R
+Author: Douglas Bates <bates@stat.wisc.edu> and Martin Maechler <maechler@stat.math.ethz.ch>
+Maintainer: Douglas Bates <bates@stat.wisc.edu>
+Description: Classes and methods for numerical linear algebra
+    using Lapack, LDL, and Metis.
+Depends: R (>= 2.3.1), stats, methods, utils, lattice
+Imports: graphics, lattice, grid, stats
+Suggests: mlmRev, MASS, coda
+SystemRequirements: GNU make
+LazyLoad: yes
+LazyData: no
+LazyDataNote: no longer available, since we use data/*.R
+License: GPL version 2 or later.
+ This R package includes code from the Metis package and from NIST.
+ This code is covered by separate copyrights; see the file Copyrights
+ for details.  This R package includes code from the University of
+ Florida sparse matrix library maintained by Tim Davis.  All sections
+ of that code are covered by the GPL or LGPL licenses.  See the
+ directory doc/UFsparse for details.
+Packaged: Tue Aug 15 20:32:20 2006; maechler

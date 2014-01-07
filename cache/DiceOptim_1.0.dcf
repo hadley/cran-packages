@@ -1,0 +1,14 @@
+Package: DiceOptim
+Version: 1.0
+Title: Kriging-based optimization for computer experiments
+Date: 2009-11-30
+Author: D. Ginsbourger, O. Roustant
+Maintainer: D. Ginsbourger <david.ginsbourger@unine.ch>
+Description: Expected Improvement. EGO algorithm. Parallelized versions
+        of EGO: Constant Liars.
+Depends: DiceKriging, rgenoud, MASS
+License: GPL-3
+URL: http://www.dice-consortium.fr/
+Packaged: 2010-03-10 12:06:42 UTC; David
+Repository: CRAN
+Date/Publication: 2010-03-10 14:55:35

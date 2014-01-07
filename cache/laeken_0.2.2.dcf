@@ -1,0 +1,15 @@
+Package: laeken
+Type: Package
+Title: Estimation of indicators on social exclusion and poverty
+Version: 0.2.2
+Date: 2011-04-23
+Author: Andreas Alfons, Josef Holzer and Matthias Templ
+Maintainer: Andreas Alfons <andreas.alfons@econ.kuleuven.be>
+Depends: boot, MASS
+Description: Estimation of indicators on social exclusion and poverty,
+        as well as Pareto tail modeling for empirical income
+        distributions (including graphical tools).
+License: GPL (>= 2)
+Packaged: 2011-04-23 21:06:54 UTC; andi
+Repository: CRAN
+Date/Publication: 2011-04-24 08:12:34

@@ -1,0 +1,22 @@
+Package: crn
+Type: Package
+Title: Downloads and Builds datasets for Climate Reference Network
+Version: 1.1
+Date: 2011-09-20
+Author: Steven Mosher
+Maintainer: Steven Mosher <moshersteven@gmail.com>
+Depends: R (>= 2.11.0), chron, RCurl
+Description: The crn package provides the core functions required to
+        download and format data from the Climate Reference Network.
+        Both daily and hourly data are downloaded from the ftp, a
+        consolidated file of all stations is created, station metadata
+        is extracted. In addition functions for selecting individual
+        variables and creating R friendly datasets for them is
+        provided.
+License: GPL (>= 2)
+URL: http://stevemosher.wordpress.com/
+LazyLoad: yes
+LazyData: FALSE
+Packaged: 2012-08-01 22:56:52 UTC; steve
+Repository: CRAN
+Date/Publication: 2012-08-02 04:40:52

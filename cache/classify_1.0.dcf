@@ -1,0 +1,29 @@
+Package: classify
+Type: Package
+Title: Classification Accuracy and Consistency under IRT models.
+Version: 1.0
+Date: 2012-04-30
+Author: Dr Chris Wheadon and Dr Ian Stockford
+Maintainer: Dr Chris Wheadon <chris.wheadon@gmail.com>
+Description: IRT classification uses the probability that candidates of
+        a given ability, will answer correctly questions of a specified
+        difficulty to calculate the probability of their achieving
+        every possible score in a test. Due to the IRT assumption of
+        conditional independence (that is every answer given is assumed
+        to depend only on the latent trait being measured) the
+        probability of candidates achieving these potential scores can
+        be expressed by multiplication of probabilities for item
+        responses for a given ability. Once the true score and the
+        probabilities of achieving all other scores have been
+        determined for a candidate the probability of their score lying
+        in the same category as that of their true score
+        (classification accuracy), or the probability of consistent
+        classification in a category over administrations
+        (classification consistency), can be calculated.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.9.10), plyr, ggplot2, R2WinBUGS, lattice, reshape2,
+        methods, R2jags
+LinkingTo: Rcpp
+Packaged: 2012-08-22 16:52:09 UTC; ubuntu
+Repository: CRAN
+Date/Publication: 2012-08-22 21:35:17

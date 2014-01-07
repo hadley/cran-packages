@@ -1,0 +1,16 @@
+Package: Rfacebook
+Title: Access to Facebook API via R
+Description: Provides an interface to the Facebook API
+Version: 0.2
+Date: 2013/11/15
+Author: Pablo Barbera <pablo.barbera@nyu.edu>
+Maintainer: Pablo Barbera <pablo.barbera@nyu.edu>
+Depends: R (>= 2.12.0), httr, rjson
+License: GPL-2
+Collate: 'fbOAuth.R' 'getUsers.R' 'searchFacebook.R' 'updateStatus.R'
+        'getFriends.R' 'getNetwork.R' 'Rfacebook-package.R' 'utils.R'
+        'getPage.R' 'getPost.R'
+Packaged: 2013-11-16 01:16:41 UTC; pablobarbera
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-16 06:37:02

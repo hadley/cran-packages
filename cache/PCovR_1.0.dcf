@@ -1,0 +1,22 @@
+Package: PCovR
+Type: Package
+Title: Principal Covariates Regression
+Version: 1.0
+Depends: gtools, psych, GPArotation, ThreeWay, MASS
+Date: 2013-03-20
+Authors@R:
+        c(person("Marlies","Vervloet",role=c("aut","cre"),email="marlies.vervloet@ppw.kuleuven.be"),person("Henk","Kiers",role="aut"),person("Eva","Ceulemans",role="ctb"))
+Description: Analyzing regression data with many and/or highly
+        collinear predictor variables, by simultaneously reducing the
+        predictor variables to a limited number of components and
+        regressing the criterion variables on these components. Several
+        rotation options are provided in this package, as well as model
+        selection options.
+License: GPL (>= 2)
+Packaged: 2013-03-20 09:23:44 UTC; u0073672
+Author: Marlies Vervloet [aut, cre], Henk Kiers [aut], Eva Ceulemans
+        [ctb]
+Maintainer: Marlies Vervloet <marlies.vervloet@ppw.kuleuven.be>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-03-20 13:15:29

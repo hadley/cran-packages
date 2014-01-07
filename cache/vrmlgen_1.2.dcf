@@ -1,0 +1,17 @@
+Package: vrmlgen
+Type: Package
+Title: Generate 3D visualizations for data exploration on the web
+Version: 1.2
+Date: 2009-11-10
+Author: Enrico Glaab
+Maintainer: <e.glaab@cs.nott.ac.uk>
+Suggests: misc3d
+Description: vrmlgen creates 3D scatter and bar plots, visualizations
+        of 3D meshes, parametric functions and height maps in
+        web-formats like the Virtual Reality Markup Language (VRML,
+        filetype .wrl) and the LiveGraphics3D format.
+License: GNU General Public License
+URL: http://www.cs.nott.ac.uk/~egg/vrmlgen
+Packaged: Wed Nov 11 18:01:54 2009; egg
+Repository: CRAN
+Date/Publication: 2009-11-12 11:33:30

@@ -1,0 +1,22 @@
+Package: webvis
+Type: Package
+Title: Create graphics for the web from R.
+Version: 0.0.1
+Date: 2010-04-01
+Author: Shane Conway
+Maintainer: Shane Conway <shane.conway@gmail.com>
+Description: Uses Protovis to provide web graphics for R (exposes most
+        low-level functions).  Package is still under active
+        development and shouldn't be considered stable until version
+        0.1.  Currently uses a web browser to process JavaScript,
+        although future version will process JavaScript directly and
+        return the SVG output.  Also does not properly support discrete
+        labels (e.g. with histograms) or statistical functions.  See
+        website for more details.
+License: BSD
+LazyLoad: no
+URL: http://code.google.com/p/rwebvis/
+Collate: 'protovis.marks.R' 'protovis.R' 'util.R' 'zzz.R'
+Packaged: 2010-04-17 19:33:17 UTC; TMC
+Repository: CRAN
+Date/Publication: 2010-04-18 17:38:00

@@ -1,0 +1,15 @@
+Package: mixdist
+Version: 0.5-2
+Date: 2008-05-02
+Title: Finite Mixture Distribution Models
+Author: Peter Macdonald <pdmmac@mcmaster.ca>, with contributions
+    from Juan Du <duduyy@hotmail.com>
+Maintainer: Peter Macdonald <pdmmac@mcmaster.ca>
+Depends: R (>= 1.4.0)
+Description: This package contains functions for fitting finite mixture 
+    distribution models to grouped data and conditional data by the method 
+    of maximum likelihood using a combination of a Newton-type algorithm and 
+    the EM algorithm.
+License: GPL (>= 2)
+URL: http://www.r-project.org, http://www.math.mcmaster.ca/peter/mix/mix.html
+Packaged: Fri May  2 15:53:27 2008; Amy Liu

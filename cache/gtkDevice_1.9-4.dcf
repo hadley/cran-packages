@@ -1,0 +1,13 @@
+Package: gtkDevice
+Version: 1.9-4
+Date:    2005/10/17
+Title: Loadable and embeddable gtk device driver for R
+Author:  Lyndon Drake
+	 Packaging and extensions by Martyn Plummer and Duncan Temple Lang
+Depends: R (>= 1.9.0)
+Maintainer: Martyn Plummer <plummer@iarc.fr>
+Note:  Please also send bugs, etc. to Duncan Temple Lang <duncan@wald.ucdavis.edu>    
+Description: GTK graphics device driver that may be used independently of the R-GNOME interface 
+     and can be used to create R devices as embedded components in a GUI using a Gtk drawing area widget, e.g. using RGtk.
+License: GPL
+Packaged: Thu Dec  8 07:31:12 2005; duncan

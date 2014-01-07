@@ -1,0 +1,12 @@
+Package: micEcdat
+Version: 0.1-1
+Date: 2005-10-18
+Title: Individual data sets for micro-econometrics
+Author: Yves Croissant <yves.croissant@let.ish-lyon.cnrs.fr>
+Maintainer: Yves Croissant <yves.croissant@let.ish-lyon.cnrs.fr>
+Depends: R (>= 1.8.0)
+Suggests: car, systemfit, sem, lmtest, sandwich, Ecdat
+Description: These data sets come mainly from the Journal of Applied Econometrics' and the Journal of Business and Economic Statistics' data archives.
+License: GPL version 2 or newer
+URL: http://www.r-project.org
+Packaged: Fri Oct 21 15:51:35 2005; yves

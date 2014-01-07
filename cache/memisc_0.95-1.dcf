@@ -1,0 +1,20 @@
+Package: memisc
+Type: Package
+Title: Tools for Management of Survey Data, Graphics, Programming, Statistics, and Simulation
+Version: 0.95-1
+Date: 2008-10-1
+Author: Martin Elff
+Maintainer: Martin Elff <elff@uni-mannheim.de>
+Description: One of the aims of this package is to make life easier for useRs
+  who deal with survey data sets. It provides an infrastructure for the management of
+  survey data including value labels, definable missing values, recoding of variables,
+  production of code books, and import of (subsets of) SPSS and Stata files.
+  Further, it provides functionality to produce tables and data frames of
+  arbitrary descriptive statistics and (almost) publication-ready tables
+  of regression model estimates. Also some convenience tools for
+  graphics, programming, and simulation are provided.
+License: GPL-2
+LazyLoad: Yes
+Depends: lattice, grid, stats, methods, utils, MASS
+URL: http://webrum.uni-mannheim.de/sowi/elff/content.php/EnglishVersion/MartinsRPackages
+Packaged: Wed Oct  1 16:37:46 2008; elff

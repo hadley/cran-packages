@@ -1,0 +1,58 @@
+Package: evmix
+Title: Extreme Value Mixture Modelling and Threshold Estimation
+Version: 1.0
+Date: 2013-06-06
+Author: Yang Hu and Carl Scarrott, University of Canterbury
+Maintainer: Carl Scarrott <carl.scarrott@canterbury.ac.nz>
+Depends: stats, graphics, MASS, emdbook
+Description: The usual distribution functions, maximum likelihood inference and
+    model diagnostics for univariate stationary extreme value mixture models
+    are provided. Kernel density estimation including various boundary
+    corrected kernel density estimation methods, with cross-validation
+    likelihood based bandwidth estimators are included. Reasonable consistency
+    with the base functions in the \code{evd} package is provided, so that
+    users can safely interchange most code.
+License: GPL-3
+URL: http://www.math.canterbury.ac.nz/~c.scarrott/evmix
+Repository: CRAN
+Collate: 'dbetagpd.r' 'dgammagpd.r' 'dgpd.r' 'dnormgpd.r'
+        'dweibullgpd.r' 'evmix-package.r' 'fbetagpd.r' 'fgammagpd.r'
+        'fgpd.r' 'fnormgpd.r' 'fweibullgpd.r' 'lbetagpd.r'
+        'lgammagpd.r' 'lgpd.r' 'lnormgpd.r' 'lweibullgpd.r'
+        'nlbetagpd.r' 'nlgammagpd.r' 'nlgpd.r' 'nlnormgpd.r'
+        'nlweibullgpd.r' 'pbetagpd.r' 'pgammagpd.r' 'pgpd.r'
+        'pnormgpd.r' 'pweibullgpd.r' 'qbetagpd.r' 'qgammagpd.r'
+        'qgpd.r' 'qnormgpd.r' 'qweibullgpd.r' 'rbetagpd.r'
+        'rgammagpd.r' 'rgpd.r' 'rnormgpd.r' 'rweibullgpd.r' 'dgng.r'
+        'fgng.r' 'lgng.r' 'nlgng.r' 'pgng.r' 'qgng.r' 'rgng.r'
+        'dlognormgpd.r' 'flognormgpd.r' 'llognormgpd.r' 'plognormgpd.r'
+        'qlognormgpd.r' 'rlognormgpd.r' 'evmixdiag.r' 'mrlplot.r'
+        'dgammagpdcon.r' 'fgammagpdcon.r' 'lgammagpdcon.r'
+        'nlgammagpdcon.r' 'pgammagpdcon.r' 'qgammagpdcon.r'
+        'rgammagpdcon.r' 'dweibullgpdcon.r' 'fweibullgpdcon.r'
+        'lweibullgpdcon.r' 'nlweibullgpdcon.r' 'pweibullgpdcon.r'
+        'qweibullgpdcon.r' 'rweibullgpdcon.r' 'dnormgpdcon.r'
+        'fnormgpdcon.r' 'lnormgpdcon.r' 'nlnormgpdcon.r'
+        'pnormgpdcon.r' 'qnormgpdcon.r' 'rnormgpdcon.r' 'dgngcon.r'
+        'fgngcon.r' 'lgngcon.r' 'nlgngcon.r' 'pgngcon.r' 'qgngcon.r'
+        'rgngcon.r' 'tcplot.r' 'dhpd.r' 'fhpd.r' 'lhpd.r' 'nlhpd.r'
+        'phpd.r' 'qhpd.r' 'rhpd.r' 'dhpdcon.r' 'fhpdcon.r' 'lhpdcon.r'
+        'nlhpdcon.r' 'phpdcon.r' 'qhpdcon.r' 'dlognormgpdcon.r'
+        'plognormgpdcon.r' 'qlognormgpdcon.r' 'rlognormgpdcon.r'
+        'flognormgpdcon.r' 'llognormgpdcon.r' 'nllognormgpd.r'
+        'nllognormgpdcon.r' 'ddwm.r' 'fdwm.r' 'ldwm.r' 'nldwm.r'
+        'pdwm.r' 'qdwm.r' 'rdwm.r' 'dkden.r' 'pkden.r' 'qkden.r'
+        'rhpdcon.r' 'rkden.r' 'fkden.r' 'lkden.r' 'nlkden.r'
+        'dbckden.r' 'pbckden.r' 'qbckden.r' 'rbckden.r' 'lbckden.r'
+        'nlbckden.r' 'undocumented.r' 'fbckden.r' 'dkdengpd.r'
+        'fkdengpd.r' 'lkdengpd.r' 'nlkdengpd.r' 'pkdengpd.r'
+        'qkdengpd.r' 'rkdengpd.r' 'dkdengpdcon.r' 'fkdengpdcon.r'
+        'lkdengpdcon.r' 'nlkdengpdcon.r' 'pkdengpdcon.r'
+        'qkdengpdcon.r' 'rkdengpdcon.r' 'dmgammagpd.r' 'pmgammagpd.r'
+        'qmgammagpd.r' 'rmgammagpd.r' 'dgkg.r' 'fgkg.r' 'lgkg.r'
+        'nlgkg.r' 'pgkg.r' 'qgkg.r' 'rgkg.r' 'dbckdengpd.r'
+        'fbckdengpd.r' 'lbckdengpd.r' 'nlbckdengpd.r' 'pbckdengpd.r'
+        'qbckdengpd.r' 'rbckdengpd.r'
+Packaged: 2013-07-06 07:45:13 UTC; csc51
+NeedsCompilation: no
+Date/Publication: 2013-07-06 14:36:14

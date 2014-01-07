@@ -1,0 +1,16 @@
+Package: foreign
+Priority: recommended
+Version: 0.8-18
+Date: 2006-11-29
+Title: Read Data Stored by Minitab, S, SAS, SPSS, Stata, Systat, dBase, ...
+Depends: R (>= 2.4.0), stats
+Imports: methods
+Maintainer: R-core <R-core@r-project.org>
+Author: R-core members, Saikat DebRoy <saikat@stat.wisc.edu>,
+	Roger Bivand <Roger.Bivand@nhh.no> and others:
+	see COPYRIGHTS file in the sources.
+Description: Functions for reading and writing data stored by statistical
+        packages such as Minitab, S, SAS, SPSS, Stata, Systat, ...,
+	and for reading and writing .dbf (dBase) files.
+License: GPL version 2 or later
+Packaged: Wed Nov 29 11:48:38 2006; ripley

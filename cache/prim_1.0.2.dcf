@@ -1,0 +1,10 @@
+Package: prim
+Version: 1.0.2
+Date: 2007/06/29
+Title: Patient Rule Induction Method (PRIM) 
+Author: Tarn Duong <tduong@maths.unsw.edu.au> 
+Maintainer: Tarn Duong <tduong@maths.unsw.edu.au>
+Depends: R (>= 1.4.0), ks, rgl
+Description: PRIM for estimating highest density regions in high-dimensional data
+License: GPL (version 2 or later)
+Packaged: Fri Jun 29 17:59:18 2007; tduong

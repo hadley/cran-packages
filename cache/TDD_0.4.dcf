@@ -1,0 +1,15 @@
+Package: TDD
+Type: Package
+Title: Time-Domain Deconvolution of Seismometer Response
+Version: 0.4
+Date: 2013-03-03
+Author: Jake Anderson
+Maintainer: Jake Anderson <ajakef@gmail.com>
+Description: Deconvolution of instrument responses from seismic traces and seismogram lists from RSEIS.  Includes pre-calculated instrument responses for several common instruments.
+Depends: R (>= 2.10), signal, RSEIS, pracma
+License: GPL
+LazyLoad: yes
+Packaged: 2013-10-03 22:10:15 UTC; jake
+Repository: CRAN
+Date/Publication: 2013-10-04 07:48:29
+NeedsCompilation: no

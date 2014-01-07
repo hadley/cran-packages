@@ -1,0 +1,20 @@
+Package: fmri
+Version: 1.2-5
+Date: 2007-12-06
+Title: Analysis of fMRI experiments
+Author: Karsten Tabelow <tabelow@wias-berlin.de>,
+        Joerg Polzehl <polzehl@wias-berlin.de>
+Maintainer: Karsten Tabelow <tabelow@wias-berlin.de>
+Suggests: tkrplot,fastICA
+Description: The library contains R-functions to perform an fmri analysis
+             as described in
+             Tabelow, K., Polzehl, J., Voss, H.U., and Spokoiny, V. 
+             Analysing fMRI experiments with structure adaptive smoothing procedures,
+             NeuroImage, 33:55-62 (2006).
+License: GPL (>= 2)
+Copyright: This package is Copyright (C) 2006-2008 Weierstrass Institute for 
+                                       Applied Analysis and Stochastics.
+URL: http://www.wias-berlin.de/projects/matheon_a3/
+Note: This software comes with NO warranty! It is NOT intended to be used 
+      in clinical applications! For evaluation only!
+Packaged: Fri Mar 28 14:59:28 2008; tabelow

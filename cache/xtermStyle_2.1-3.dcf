@@ -1,0 +1,25 @@
+Encoding: UTF-8
+Package: xtermStyle
+Type: Package
+Title: Basic text formatting using xterm escape sequences
+Version: 2.1-3
+Date: 2010-01-06
+Author: Christofer Bäcklin
+Maintainer: Christofer Bäcklin <christofer.backlin@medsci.uu.se>
+Description: Text formatting in xterm and ansi terminals using escape
+        sequences. Supports colors and various font styles. It began as
+        a standalone version of the ‘xterm256’ package by Romain
+        Francois since that package is tangled up with the syntax
+        highlighting package ‘highlight’ but has been developed in
+        another direction since then.  For some more sophisticated
+        examples of this package functionality check out the ‘dataview’
+        package as that was the very reason ‘xtermStyle’ came into
+        existence. However as ‘xtermStyle’ can be used independently
+        they were released separately.
+License: GPL (>= 2)
+LazyLoad: yes
+Collate: 'colors.R' 'control.R' 'helpers.R' 'style.R'
+        'xtermStyle-package.R'
+Packaged: 2011-01-06 15:35:11 UTC; christofer
+Repository: CRAN
+Date/Publication: 2011-01-06 20:10:43

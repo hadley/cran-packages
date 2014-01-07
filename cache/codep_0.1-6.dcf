@@ -1,0 +1,18 @@
+Package: codep
+Type: Package
+Title: Multiscale Codependence Analysis
+Version: 0.1-6
+Date: 2010-03-2
+Author: Guillaume Guenard, with contributions from Bertrand Pages
+Maintainer: Guillaume Guenard <guenard@cict.fr>
+Description: Computation of Multiscale Codependence Analysis and
+        Moran's eigenvector maps (mem), as an additional feature.
+Depends: R (>= 2.0.0), stats
+Suggests: vegan
+License: GPL-2
+LazyLoad: yes
+Revision: 001
+URL: http://www.r-project.org
+Packaged: 2012-10-29 08:58:25 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:25

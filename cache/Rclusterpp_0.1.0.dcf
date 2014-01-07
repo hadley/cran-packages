@@ -1,0 +1,16 @@
+Package: Rclusterpp
+Type: Package
+Title: Linkable C++ clustering
+Version: 0.1.0
+Date: 2011-08-24
+Author: Michael Linderman 
+Maintainer: Michael Linderman <michael.d.linderman@gmail.com>
+Description: Provide flexible native clustering routines that can be linked against in downstream packages. 
+License: MIT License
+LazyLoad: yes
+Depends: R (>= 2.12.0), Rcpp (>= 0.9.6), RcppEigen (>= 0.1.2)
+Suggests: RUnit, rbenchmark, fastcluster, inline
+LinkingTo: Rcpp, RcppEigen
+Packaged: 2011-10-27 18:53:00 UTC; mlinderm
+Repository: CRAN
+Date/Publication: 2011-10-27 19:52:16

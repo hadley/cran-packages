@@ -1,0 +1,19 @@
+Package: ipptoolbox
+Type: Package
+Title: IPP Toolbox
+Version: 1.1
+Date: 2008-11-04
+Author: Philipp Limbourg <p.limbourg@uni-due.de>
+Depends: R (>= 2.7.0), AlgDesign, copula, evd, triangle
+Maintainer: Philipp Limbourg <p.limbourg@uni-due.de>
+Description: An R package for uncertainty quantification and
+        propagation in the framework of Dempster-Shafer Theory and
+        imprecise probabilities. This package was developed in the
+        context of a collaborative research project between EDF R&D
+        (http//rd.edf.com) and the University of Duisburg-Essen,
+        Information Logistics (http//www.uni-due.de/il).
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-01-08 12:42:10 UTC; Philipp
+Repository: CRAN
+Date/Publication: 2011-01-08 13:25:53

@@ -1,0 +1,31 @@
+Package: bilan
+Type: Package
+Title: Bilan water balance model
+Version: 2013.12
+Date: 2013.12
+Author: T. G. Masaryk Water Research Institute, p.r.i.: 
+    Ladislav Kasparek, Martin Hanel, Stanislav Horacek, Petr Maca, Adam Vizina
+Maintainer: Stanislav Horacek <stanislav.horacek@gmail.com>
+Description: The input data into the model are daily or monthly series of basin 
+    average precipitation and air temperature. The structure of the model 
+    is formed by a system of relationships describing basic principles of 
+    water balance on ground, in the zone of aeration, including the effect 
+    of vegetation cover, and in the saturated zone. Air temperature is used 
+    as an indicator of energy conditions, which affect significantly the water 
+    balance components, in particular the development and melting of snow cover. 
+    The potential evapotranspiration is estimated either by a simple radiation
+    -based method, which considers temperature, day of the year and latitude
+    of the basin or by empirical relationships considering vegetation zone 
+    and relative humidity.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: Rcpp (>= 0.9.10)
+LinkingTo: Rcpp
+SystemRequirements: GNU make
+Encoding: UTF-8
+Classification/ACM: J.2
+Collate: 'bilan_optim.r' 'bilan.r' 'bilan_system.r'
+Packaged: 2013-12-17 06:26:52 UTC; ripley
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-17 07:29:41

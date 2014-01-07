@@ -1,0 +1,21 @@
+Package: cplexAPI
+Type: Package
+Title: R Interface to C API of IBM ILOG CPLEX
+Version: 1.2.9
+Date: 2013-05-23
+Authors@R: c(person("Gabriel", "Gelius-Dietrich", role = c("aut",
+        "cre"), email = "geliudie@uni-duesseldorf.de"))
+Depends: R (>= 2.6.0), methods
+Description: R Interface to C API of IBM ILOG CPLEX, depends on IBM
+        ILOG CPLEX (>= 12.1)
+SystemRequirements: IBM ILOG CPLEX (>= 12.1)
+License: GPL-3
+LazyLoad: yes
+Collate: generics.R cplexConst.R cplexErrorClass.R cplexPtrClass.R
+        cplex.R cplexAPI.R cplex_checkAPI.R cplex_longparamAPI.R zzz.R
+Packaged: 2013-05-23 13:44:11 UTC; gabriel
+Author: Gabriel Gelius-Dietrich [aut, cre]
+Maintainer: Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-05-23 18:27:48

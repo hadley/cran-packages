@@ -1,0 +1,13 @@
+Package: GRASS
+Version: 0.1-5
+Date: 2000/11/22
+Title: Interface between GRASS geographical information system and R
+Author: Interface functions by Roger Bivand <Roger.Bivand@nhh.no>, wrapper
+	and helper functions modified from various originals by interface author.
+Description: Interface between GRASS geographical information system and R,
+	based on starting R from within the GRASS environment and chosen LOCATION
+	and MAPSET. Wrapper and helper functions are provided for a range of R
+	functions to match the interface metadata structures. 
+Depends: R, spatial, akima, sgeostat.
+License: GPL version 2 or later.
+URL: http://www.geog.uni-hannover.de/grass/statsgrasslist.html

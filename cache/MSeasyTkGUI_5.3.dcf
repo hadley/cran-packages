@@ -1,0 +1,17 @@
+Package: MSeasyTkGUI
+Type: Package
+Title: MSeasy Tcl/Tk Graphical User Interface
+Version: 5.3
+Date: 2012-04-20
+Author: Yann Guitton
+Maintainer: Yann Guitton <yann.guitton@gmail.com>
+Depends: R (>= 2.12.0), MSeasy(>= 5.3), tcltk
+Suggests: xcms
+Description: A Tcl/Tk GUI for some basic functions in the MSeasy
+        package
+License: GPL-2
+URL: http://sites.google.com/site/rpackagemseasy/
+LazyLoad: yes
+Packaged: 2012-05-04 08:23:11 UTC; Yann
+Repository: CRAN
+Date/Publication: 2012-05-04 09:47:34

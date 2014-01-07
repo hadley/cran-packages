@@ -1,0 +1,17 @@
+Package: cotrend
+Type: Package
+Title: Consistant Cotrend Rank Selection
+Version: 1.0
+Date: 2011-10-28
+Author: A. Christian Silva
+Maintainer: A. Christian Silva <a.christian.silva@gmail.com>
+Description: Implements cointegration/cotrending rank selection
+        algorithm in Guo and Shintani(2011). Paper: "Consistant
+        Cotrending rank selection when both stochastic and nonlinear
+        deterministic trends are present", Preprint, Feb 2011.
+Depends: xts
+License: GPL
+LazyLoad: yes
+Packaged: 2012-10-29 08:58:28 UTC; ripley
+Repository: CRAN
+Date/Publication: 2012-10-29 08:58:28

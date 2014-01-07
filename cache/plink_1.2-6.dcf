@@ -1,0 +1,32 @@
+Package: plink
+Version: 1.2-6
+Date: 2010-09-15
+Title: IRT Separate Calibration Linking Methods
+Depends: R (>= 2.11.1), methods, lattice
+Imports: MASS, statmod
+Author: Jonathan P. Weeks <weeksjp@gmail.com>
+Maintainer: Jonathan P. Weeks <weeksjp@gmail.com>
+Description: This package uses item response theory methods to compute
+        linking constants and conduct chain linking of unidimensional
+        or multidimensional tests for multiple groups under a common
+        item design.  The unidimensional methods include the Mean/Mean,
+        Mean/Sigma, Haebara, and Stocking-Lord methods for dichotomous
+        (1PL, 2PL and 3PL) and/or polytomous (graded response, partial
+        credit/generalized partial credit, nominal, and multiple-choice
+        model) items.  The multidimensional methods include the
+        Reckase-Martineau method and extensions of the Haebara and
+        Stocking-Lord method using a single dilation parameter,
+        multiple dilation parameters, or the Oshima, Davey, & Lee
+        approach for multidimensional extensions of all the
+        unidimensional dichotomous and polytomous item response models.
+        The package also includes functions for importing item and/or
+        ability parameters from common IRT software, conducting IRT
+        true score and observed score equating, and plotting item
+        response curves/surfaces, vector plots, and comparison plots
+        for examining parameter drift.
+LazyLoad: Yes
+LazyData: Yes
+License: GPL (>= 2)
+Packaged: 2010-09-15 11:07:07 UTC; Jonathan Weeks
+Repository: CRAN
+Date/Publication: 2010-09-15 12:06:16

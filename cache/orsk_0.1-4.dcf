@@ -1,0 +1,17 @@
+Package: orsk
+Type: Package
+Title: Converting Odds Ratio to Relative Risk in Cohort Studies with
+        Partial Data Information
+Version: 0.1-4
+Date: 2012-7-26
+Author: Zhu Wang
+Maintainer: Zhu Wang <zwang@ccmckids.org>
+Description: Converting the Odds Ratio to the Relative Risk in Cohort
+        Studies with Partial Data Information
+Depends: BB
+Suggests: setRNG
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-08-04 16:09:33 UTC; zhu
+Repository: CRAN
+Date/Publication: 2012-08-05 13:00:04

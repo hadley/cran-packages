@@ -1,0 +1,10 @@
+Package: rrcov
+Date: 2004-06-21 
+Title: Scalable Robust Estimators with HBDP
+Version: 0.2
+Author: Originally written for S-PLUS (fastlts and fastmcd) by Peter Rousseeuw <rousse@uia.ua.ac.be> & Katrien van Driessen <Katrien.Vandriessen@ua.ac.be <katrien.vandriessen@ua.ac.be>, ported to R, adapted and packaged by Valentin Todorov - <valentin.todorov@chello.at>. 
+Description: Functions for Robust Location and Scatter Estimation and Robust Regression with HBDP: covMcd(), ltsReg().
+Maintainer: Valentin Todorov <valentin.todorov@chello.at>
+Depends: R (>= 1.9) 
+License: GPL version 2 or later 
+Packaged: Wed Jun 23 00:07:32 2004; Share

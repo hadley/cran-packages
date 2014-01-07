@@ -1,0 +1,15 @@
+Package: climate.plot
+Type: Package
+Version: 0.1.1
+Date: 2006-02-11
+Title: Creates detailed seasonal plots of temperature and precipitation data
+Author: M.W. Toews
+Maintainer: M.W. Toews <mwtoews@sfu.ca>
+Suggests: 
+Description: Plots temperature and precipitation data. Requires daily minimum, 
+  maximum and mean temperatures, and total, rain and snow precipitation. Useful
+  for determining climate normals, cumulative precipitation departure and
+  precipitation interarrivals.
+License: BSD
+URL: http://www.sfu.ca/~mwtoews/
+Packaged: Sat Feb 11 06:36:11 2006; mwtoews

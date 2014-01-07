@@ -1,0 +1,11 @@
+Package: varmixt
+Version: 0.2-4
+Date: 2005-06-17
+Title: Mixture model on the Variance for the analysis of gene expression data
+Author: Paul Delmar and Julie Aubert
+Maintainer: Julie Aubert <Julie.Aubert@inapg.inra.fr>
+Depends: R (>= 2.0),MASS,stats, qvalue
+Description: This package performs mixture model on the variance for the analysis of gene expression data.
+License: GPL version 2 or newer
+URL: http://www.r-project.org
+Packaged: Wed Feb  8 12:59:03 2006; hornik

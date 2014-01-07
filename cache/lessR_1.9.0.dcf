@@ -1,0 +1,30 @@
+Package: lessR
+Type: Package
+Title: Less Code, More Results
+Version: 1.9.0
+Date: 2011-5-22
+Author: David W. Gerbing, School of Business Administration, Portland
+        State University
+Maintainer: David W. Gerbing <davidg@sba.pdx.edu>
+Suggests: MBESS, leaps, car
+Description: Each function accomplishes the work of several or more
+        standard R functions.  For example, two function calls, rad()
+        and full(), together read the csv data and generate descriptive
+        statistics for all variables in the data frame, plus histograms
+        and bar charts for all respective numerical and non-numerical
+        variables. The function smd.t.test introduces the ODDSMD plot,
+        which displays the Overlapping Density Distributions of two
+        independent groups as well as a visual display of the mean
+        difference and standardized mean difference. Other functions
+        provide for descriptive statistics, the t-test from descriptive
+        statistics, a comprehensive regression analysis, color
+        plotting, color bar chart, color histogram, color box plot,
+        density curves, a calibrated power curve plotted with colors,
+        and the reading and display of csv formatted data. The function
+        help.me provides a help system that suggests specific analyses
+        and functions.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-05-23 02:49:43 UTC; david
+Repository: CRAN
+Date/Publication: 2011-05-23 07:06:52

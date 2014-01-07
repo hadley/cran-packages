@@ -1,0 +1,13 @@
+Package: TSMySQL
+Title: Time Series Database Interface extensions for MySQL
+Description: TSMySQL provides a MySQL interface for TSdbi.
+Depends: R (>= 2.5.0), methods, tframe, TSdbi, RMySQL
+Imports: methods, TSdbi, DBI, RMySQL (>= 0.6-0) 
+Suggests: zoo, tseries
+Version: 2007.10-1
+Date: 2007-10-31
+License: GPL-2.
+Author: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+Maintainer: Paul Gilbert <pgilbert@bank-banque-canada.ca>
+URL: http://www.bank-banque-canada.ca/pgilbert
+Packaged: Wed Oct 31 04:30:46 2007; paul

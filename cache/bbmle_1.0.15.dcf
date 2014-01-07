@@ -1,0 +1,20 @@
+Package: bbmle
+Title: Tools for general maximum likelihood estimation
+Version: 1.0.15
+Author: Ben Bolker <bolker@mcmaster.ca>, R Development Core Team
+Maintainer: Ben Bolker <bolker@mcmaster.ca>
+Depends: R (>= 3.0.0), stats4, methods
+Imports: stats, numDeriv, lattice, MASS
+Suggests: emdbook, rms, ggplot2, RUnit, MuMIn, AICcmodavg, Hmisc,
+        optimx (>= 2013.8.6), knitr
+VignetteBuilder: knitr
+BuildVignettes: yes
+Description: Methods and functions for fitting maximum likelihood models in R.
+    This package modifies and extends the mle classes in the stats4 package.
+License: GPL
+Collate: 'mle2-class.R' 'mle2-methods.R' 'mle.R' 'confint.R'
+        'predict.R' 'profile.R' 'update.R' 'dists.R' 'IC.R' 'slice.R'
+Packaged: 2013-11-20 21:52:59 UTC; bolker
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-21 06:48:23

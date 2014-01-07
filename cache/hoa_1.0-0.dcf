@@ -1,0 +1,11 @@
+Bundle: hoa
+BundleDescription: Various functions for higher order likelihood-based
+  inference
+Contains: cond marg nlreg csampling 
+Version: 1.0-0
+Date: 2005-05-31
+Depends: R (>= 2.0.1), statmod, survival
+Maintainer: Alessandra R. Brazzale <alessandra.brazzale@isib.cnr.it>
+License: GPL (version 2 or later)
+URL: http://www.r-project.org, http://www.isib.cnr.it/~brazzale/CS/
+Packaged: Fri Jun 24 10:09:07 2005; brazzale

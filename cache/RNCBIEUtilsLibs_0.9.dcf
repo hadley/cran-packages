@@ -1,0 +1,16 @@
+Package: RNCBIEUtilsLibs
+Type: Package
+Title: EUtils libraries for use in the R environment.
+Depends: R (>= 2.9.0), rJava (>= 0.8)
+Imports: methods
+SystemRequirements: Java
+Author: Martin Schumann
+Maintainer: Martin Schumann <martin.schumann.email@gmail.com>
+Description: Provides the libraries of the EUtils operations for the
+        RNCBI package.
+License: GPL-3
+Version: 0.9
+URL: https://code.google.com/p/rncbi/
+Packaged: 2010-06-24 12:30:52 UTC; master
+Repository: CRAN
+Date/Publication: 2010-06-25 05:45:21

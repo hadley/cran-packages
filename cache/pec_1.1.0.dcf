@@ -1,0 +1,13 @@
+Package: pec
+Title: Prediction Error Curves for Survival Models
+Version: 1.1.0
+Author: Thomas A. Gerds
+Description: Validation of predicted surival probabilities using
+        inverse weighting and resampling.
+Depends: R (>= 1.9.1), prodlim, survival
+Suggests: Design, timereg, mfp, survnnet, rpart
+Maintainer: Thomas A. Gerds <tag@biostat.ku.dk>
+License: GPL (>= 2)
+Packaged: Wed Apr 15 12:37:20 2009; tag
+Repository: CRAN
+Date/Publication: 2009-04-15 11:03:41

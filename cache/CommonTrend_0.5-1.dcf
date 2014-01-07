@@ -1,0 +1,15 @@
+Package: CommonTrend
+Version: 0.5-1
+Date: 2011-11-13
+Title: Extract and plot common trends from a cointegration system
+Author: Fan Yang
+Maintainer: Fan Yang <yfno1@msn.com>
+Depends: R (>= 2.10)
+Imports: methods,MASS, urca
+Description: Directly extract and plot common trends from cointegration systems using different approaches, currenctly including Kasa (1992) and Gonzalo and Granger (1995). The approach proposed by Gonzalo and Granger, also known as Permanent-Transitory Decomposition, is widely used in Macroeconomics and Market Microstructure literature. The Kasa's approach has a nice property that it only uses the super consistent estimater \eqn{\beta}.
+License: GPL (>= 2)
+Collate: 'GG.ComT.R' 'Kasa.ComT.R' 'optimlag.R' 'plotComT.R'
+        'print.ComT.R' 'print.optimlag.R'
+Packaged: 2011-11-21 09:15:51 UTC; <e6><9d><a8><e8><bf><87>
+Repository: CRAN
+Date/Publication: 2011-11-21 10:57:26

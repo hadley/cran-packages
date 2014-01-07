@@ -1,0 +1,14 @@
+Package: VarSwapPrice
+Type: Package
+Title: Pricing a variance swap on an equity index
+Version: 1.0
+Date: 2012-03-14
+Author: Paolo Zagaglia
+Maintainer: Paolo Zagaglia <paolo.zagaglia@gmail.com>
+Description: Computes a portfolio of European options that replicates
+        the cost of capturing the realised variance of an equity index.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2012-03-15 17:59:36 UTC; paolozagaglia
+Repository: CRAN
+Date/Publication: 2012-03-15 18:43:58

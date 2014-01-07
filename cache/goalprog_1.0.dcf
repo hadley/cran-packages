@@ -1,0 +1,11 @@
+Package: goalprog
+Version: 1.0
+Date:    2008-01-04
+Author: Frederick Novomestky <fnovomes@poly.edu>
+Maintainer: Frederick Novomestky <fnovomes@poly.edu>
+Depends:  R (>= 2.0.1), linprog
+Description: A collection of functions to solve weighted and lexicographical
+        goal programming problems as specified by Lee (1972) and Ignizio (1976).
+Title: Weighted and lexicographical goal programming and optimization
+License: GPL (>=2)
+Packaged: Thu Jan 17 13:45:40 2008; Fred

@@ -1,0 +1,19 @@
+Package: mixcat
+Type: Package
+Title: Mixed effects cumulative link and logistic regression models
+Version: 1.0-2
+Date: 2011-12-22
+Author@R: c(person("Georgios", "Papageorgiou", email =
+        "gpapageo@gmail.com"), person("John", "Hinde", email =
+        "john.hinde@nuigalway.ie"))
+Author: Georgios Papageorgiou and John Hinde
+Maintainer: Georgios Papageorgiou <gpapageo@gmail.com>
+Depends: R (>= 2.8.1), statmod
+LazyLoad: yes
+Description: Mixed effects cumulative and baseline logit link models
+        for the analysis of ordinal or nominal responses, with
+        non-parametric distribution for the random effects
+License: GPL (>= 2)
+Packaged: 2012-10-18 18:45:16 UTC; gpapageo
+Repository: CRAN
+Date/Publication: 2012-10-19 06:46:02

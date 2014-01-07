@@ -1,0 +1,15 @@
+Package: knncat
+Version: 1.1.11
+Date: 2008-05-06
+Title: Nearest-neighbor classification with categorical variables
+Author: Sam Buttrey
+Maintainer: Sam Buttrey <buttrey@nps.edu>
+Description: This program scales categorical variables in such a way as
+        to make NN classification as accurate as possible. It also
+        handles continuous variables and prior probabilities, and does
+        intelligent variable selection and estimation of error rates
+        and the right number of NN's.
+License: GPL-2
+Packaged: Tue May 6 15:10:17 2008; sebuttre
+Repository: CRAN
+Date/Publication: 2008-05-07 06:39:33

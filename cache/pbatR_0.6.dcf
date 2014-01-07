@@ -1,0 +1,12 @@
+Package: pbatR
+Version: 0.6
+Date: 2006-01-09
+Title: Frontend to PBAT to run within R.
+Author: pbat: Christoph Lange, R interface: Thomas Hoffmann
+Maintainer: Thomas Hoffmann <thoffman@hsph.harvard.edu>
+Depends: R (>= 2.0.0), survival, tcltk
+Description: This package provides a frontend to the PBAT software, automatically reading in the output from the pbat program and displaying the corresponding figure when appropriate (i.e. PBAT-logrank). Includes support for multiple processes.
+License: GPL
+URL: http://www.r-project.org, http://www.biostat.harvard.edu/~clange/default.htm
+SaveImage: yes
+Packaged: Sat Jan 14 21:21:09 2006; merlin

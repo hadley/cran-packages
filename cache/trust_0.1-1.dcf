@@ -1,0 +1,11 @@
+Package: trust
+Version: 0.1-1
+Date: 13 Jan 2006
+Title: Trust Region Optimization
+Author: Charles J. Geyer <charlie@stat.umn.edu>.
+Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
+Depends: R (>= 2.4.1)
+Description: local optimization using two derivatives and trust regions
+License: X11 (http://www.x.org/Downloads_terms.html)
+URL: http://www.stat.umn.edu/geyer/trust/
+Packaged: Sat Mar 15 20:26:56 2008; charlie

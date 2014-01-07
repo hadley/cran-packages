@@ -1,0 +1,21 @@
+Package: ISIPTA
+Type: Package
+Title: ISIPTA network analysis
+Version: 0.1-7
+Date: 2012-04-10
+Author: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>,
+        Gero Walter <gero.walter@stat.uni-muenchen.de>, Thomas Augustin
+        <thomas@stat.uni-muenchen.de>
+Maintainer: Manuel J. A. Eugster <manuel.eugster@stat.uni-muenchen.de>
+Description: A Network Analysis of the Imprecise Probability Community
+        based on ISIPTA Electronic Proceedings (see
+        http://www.sipta.org/).
+Depends: igraph, colorspace, geosphere, rworldmap, ggplot2, plyr
+Suggests: XML, stringr
+License: GPL-2
+URL: http://mjaeugster.github.com/ISIPTA/
+Build-dep: roxygen2
+Collate: 'graph.R'
+Packaged: 2012-04-10 08:20:26 UTC; vadmin
+Repository: CRAN
+Date/Publication: 2012-04-10 08:59:55

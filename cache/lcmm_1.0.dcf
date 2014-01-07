@@ -1,0 +1,15 @@
+Package: lcmm
+Type: Package
+Title: Estimation of latent class mixed models
+Version: 1.0
+Date: 2010-04-06
+Author: Cecile Proust-Lima and Benoit Liquet
+Maintainer: <cecile.proust@isped.u-bordeaux2.fr>
+Description: This package provides functions for the estimation of
+        latent class mixed models using a maximum likelihood method
+License: GPL (>= 2.0)
+Depends: R (>= 2.9.0)
+LazyLoad: yes
+Packaged: 2010-04-21 16:06:49 UTC; cproust
+Repository: CRAN
+Date/Publication: 2010-04-22 05:30:17

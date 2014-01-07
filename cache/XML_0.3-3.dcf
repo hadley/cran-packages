@@ -1,0 +1,16 @@
+Package: XML
+Version: 0.3-3
+Date: 2000/11/27
+Author:  Duncan Temple Lang (duncan@research.bell-labs.com)
+Title: XML parsing tools for R and S.
+Description: Parsing facilities for both XML files and DTDs, offering both
+      event and tree based parsers and customizable with R functions.
+Depends: Daniel Veillard's libxml 
+            (ftp://ftp.gnome.org/pub/GNOME/stable/sources/libxml/)
+     and/or
+          Jim Clark's expat (http://www.jclark.com/xml)
+Note: This is released by the Omegahat Project for Statistical
+     Computing. Bug reports should be submitted via
+      http://www.omegahat.org/bugs
+URL: http://www.omegahat.org/RSXML
+License: GPL. http://www.gnu.org/copyleft/gpl.html

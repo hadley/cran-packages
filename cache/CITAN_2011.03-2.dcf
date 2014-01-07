@@ -1,0 +1,22 @@
+Package: CITAN
+Type: Package
+Version: 2011.03-2
+Date: 2011-03-23
+License: LGPL (>= 3)
+Depends: R (>= 2.8.0), ADGofTest
+Title: CITation ANalysis toolpack
+Author: Marek Gagolewski <gagolews@ibspan.waw.pl>
+Description: CITAN is a library of functions useful in - but not
+        limited to - quantitative research in the field of
+        scientometrics. It also contains various methods for dealing
+        with the Pareto-type II distribution.
+Maintainer: Marek Gagolewski <gagolews@ibspan.waw.pl>
+Collate: 'CITAN-package.R' 'distrib_hirsch.R' 'distrib_p2.R'
+        'distrib_sstat.R' 'dp2.estimate.R' 'impact_functions.R'
+        'impact_visualization.R' 'p2.confint.h.R'
+        'p2.confint.rho.approx.R' 'p2.confint.rho.R' 'p2.estimate.R'
+        'p2.ftest.R' 'p2.goftest.R' 'p2.htest.approx.R' 'p2.htest.R'
+        'rho.R'
+Packaged: 2011-03-23 13:35:15 UTC; gagolews
+Repository: CRAN
+Date/Publication: 2011-03-23 14:11:28

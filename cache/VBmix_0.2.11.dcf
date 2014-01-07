@@ -1,0 +1,21 @@
+Package: VBmix
+Version: 0.2.11
+Date: 2013-03-06
+Author: Pierrick Bruneau
+Maintainer: Pierrick Bruneau <pbruneau@gmail.com>
+Title: Variational Bayesian mixture models
+Description: Variational algorithms and methods for fitting mixture
+        models. Main functions are varbayes, vbcomp, vbconstr, mppca,
+        mmppca and gmmkmsock.
+SystemRequirements: GSL, Qt, fftw3
+Depends: R (>= 2.10.0), e1071, lattice, grid, nnet, pixmap, mnormt,
+        MASS
+Imports:
+LazyLoad: yes
+LazyData: yes
+License: GPL-2 | GPL-3
+Packaged: 2013-03-11 10:16:13 UTC; bruneau
+NeedsCompilation: yes
+OS_type: unix
+Repository: CRAN
+Date/Publication: 2013-03-11 11:55:33

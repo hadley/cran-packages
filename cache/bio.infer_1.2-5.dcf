@@ -1,0 +1,16 @@
+Package: bio.infer
+Type: Package
+Title: Compute biological inferences
+Version: 1.2-5
+Date: 2009-10-08
+Author: Lester L. Yuan
+Maintainer: Lester L. Yuan <yuan.lester@epa.gov>
+Description: Imports benthic count data, reformats this data, and
+        computes environmental inferences from this data.
+Depends: R (>= 2.7.0), tcltk
+LazyLoad: FALSE
+LazyData: FALSE
+License: GPL (>= 2)
+Packaged: 2009-10-08 15:23:12 UTC; Lester
+Repository: CRAN
+Date/Publication: 2009-10-08 16:48:29

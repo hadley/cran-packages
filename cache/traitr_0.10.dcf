@@ -1,0 +1,25 @@
+Package: traitr
+Type: Package
+Title: An interface for creating GUIs modeled in part after traits UI
+        module for python.
+Version: 0.10
+Author: John Verzani <jverzani@gmail.com>
+Maintainer: John Verzani <jverzani@gmail.com>
+URL: https://r-forge.r-project.org/R/?group_id=761
+Description: An interface for creating GUIs modeled in part after the
+        traits UI module for python. The basic design takes advantage
+        of the model-view-controller design pattern. The interface
+        makes basic dialogs quite easy to produce.
+Depends: digest, proto, gWidgets
+Suggests:
+Extends: gWidgetsRGtk2 (>= 0.0-63), gWidgetsQt, gWidgetstcltk
+License: GPL (>= 2)
+LazyLoad: FALSE
+Collate: 'helpers.R' 'base.R' 'model.R' 'view.R' 'controller.R'
+        'container.R' 'editor.R' 'itemgroup.R' 'dialog.R' 'items.R'
+        'itemlist.R' 'loadanimation.R' 'traitR-package.R'
+Repository: CRAN
+Repository/R-Forge/Project: gwidgets
+Repository/R-Forge/Revision: 96
+Date/Publication: 2010-08-16 16:12:15
+Packaged: 2010-08-15 20:52:24 UTC; rforge

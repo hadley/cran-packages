@@ -1,0 +1,21 @@
+Package: magma
+Title: Matrix Algebra on GPU and Multicore Architectures
+Version: 0.2.2-1
+Date: 2010-08-27
+Author: Brian J Smith <brian-j-smith@uiowa.edu>
+Maintainer: Brian J Smith <brian-j-smith@uiowa.edu>
+Depends: R (>= 2.10.0), methods
+SystemRequirements: MAGMA shared libraries (== release 0.2), LAPACK
+        shared library, NVIDIA CUDA Toolkit (>= release 3.0)
+Description: Magma matrix classes and methods for parallel processing
+        of matrix algebra operations.  Operations are performed with
+        algorithms developed by the MAGMA research project.  MAGMA aims
+        to achieve the fastest possible linear algebra libraries on
+        hybrid multicore CPU and GPU architectures by exploiting their
+        massive parallelism and minimizing communication latencies.
+License: GPL (>= 3)
+URL: http://icl.cs.utk.edu/magma
+OS_type: unix
+Packaged: 2010-08-27 13:21:44 UTC; bjsmith
+Repository: CRAN
+Date/Publication: 2010-08-27 13:36:31

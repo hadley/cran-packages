@@ -1,0 +1,20 @@
+Package: demography
+Version: 1.05
+Date: 2010-09-30
+Title: Forecasting mortality, fertility, migration and population data
+Author: Rob J Hyndman with contributions from Heather Booth, Leonie
+        Tickle and John Maindonald
+Maintainer: Rob J Hyndman <Rob.Hyndman@monash.edu>
+Depends: R (>= 2.6.0), forecast (>= 1.0), rainbow, ftsa
+Suggests: mgcv, cobs, strucchange, RCurl
+LazyData: yes
+LazyLoad: yes
+Description: Functions for demographic analysis including lifetable
+        calculations; Lee-Carter modelling; functional data analysis of
+        mortality rates, fertility rates, net migration numbers; and
+        stochastic population forecasting.
+License: GPL (>= 2)
+URL: http://robjhyndman.com/software/demography
+Packaged: 2010-09-30 02:33:05 UTC; hyndman
+Repository: CRAN
+Date/Publication: 2010-09-30 06:57:36

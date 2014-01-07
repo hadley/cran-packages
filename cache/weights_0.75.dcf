@@ -1,0 +1,24 @@
+Package: weights
+Type: Package
+Title: Weighting and Weighted Statistics
+Version: 0.75
+Date: 2012-08-03
+Author: Josh Pasek, with some assistance from Alex Tahk and some code
+        modified from R-core
+Maintainer: Josh Pasek <josh@joshpasek.com>
+Description: This package currently provides a variety of functions for
+        producing simple weighted statistics, such as weighted
+        Pearson's correlations, partial correlations, Chi-Squareds,
+        histograms, and t-tests.  Also now includes some software for
+        quickly recoding survey data.  Future versions of the package
+        will be more closely integrated with anesrake and additional
+        weighting tools and will provide the option to find weighting
+        benchmarks and weight data using a variety of methodologies.
+        NOTE: Weighted partial correlation calculations temporarily
+        pulled to address a bug.
+Depends: Hmisc, anesrake, gdata
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-08-08 06:09:07 UTC; jmping
+Repository: CRAN
+Date/Publication: 2012-08-17 10:20:53

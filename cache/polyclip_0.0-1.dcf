@@ -1,0 +1,17 @@
+Package: polyclip
+Version: 0.0-1
+Date: 2013-10-06
+Title: Polygon Clipping
+Author: Original code by Angus Johnson, ported to R by Adrian Baddeley
+Maintainer: Adrian Baddeley <Adrian.Baddeley@uwa.edu.au>
+Depends: R (>= 3.0.0)
+Description: R port of the Clipper library. Performs polygon clipping operations (intersection, union etc) using Vatti's clipping algorithm.
+License: BSL
+URL: http://www.angusj.com/delphi/clipper.php
+LazyData: true
+LazyLoad: true
+ByteCompile: true
+Packaged: 2013-10-06 06:09:57 UTC; adrian
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-10-06 11:18:04

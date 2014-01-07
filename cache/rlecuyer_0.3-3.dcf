@@ -1,0 +1,17 @@
+Package: rlecuyer
+Version: 0.3-3
+Date: 2012/02/01
+Title: R interface to RNG with multiple streams
+Author: Hana Sevcikova <hanas@u.washington.edu>, Tony Rossini
+        <anthony.rossini@novartis.com>
+Maintainer: Hana Sevcikova <hanas@u.washington.edu>
+Description: Provides an interface to the C implementation of the
+        random number generator with multiple independent streams
+        developed by L'Ecuyer et al (2002). The main purpose of this
+        package is to enable the use of this random number generator in
+        parallel R applications.
+License: GPL (>= 2)
+URL: http://www.iro.umontreal.ca/~lecuyer/myftp/papers/streams00.pdf
+Packaged: 2012-02-01 23:33:05 UTC; hana
+Repository: CRAN
+Date/Publication: 2012-02-02 07:29:27

@@ -1,0 +1,18 @@
+Package: mutoss
+Type: Package
+Title: Unified multiple testing procedures
+Version: 0.1-6
+Author: MuToss Coding Team (Berlin 2010), Gilles Blanchard, Thorsten Dickhaus,
+    Niklas Hack, Frank Konietschke, Kornelius Rohmeyer, 
+    Jonathan Rosenblatt, Marsel Scheer, Wiebke Werft
+Maintainer: Kornelius Rohmeyer <rohmeyer@small-projects.de>
+Description: The Mutoss package and accompanying mutossGUI package are
+    designed to ease the application and comparison of multiple
+    hypothesis testing procedures.
+Depends: R (>= 2.10.0), multcomp (>= 1.1-0), methods, plotrix, lattice
+Suggests: fdrtool, multtest (>= 2.2.0), mvtnorm, qvalue, RUnit
+License: GPL
+LazyLoad: yes
+Packaged: 2011-12-05 22:41:29 UTC; kornel
+Repository: CRAN
+Date/Publication: 2011-12-06 07:00:31

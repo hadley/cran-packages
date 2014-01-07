@@ -1,0 +1,11 @@
+Package: crosshybDetector
+Type: Package
+Title: Detection of cross-hybridization events in microarray experiments
+Version: 1.0
+Date: 2007-07-20
+Author: Paolo Uva <paolo_uva@merck.com>
+Maintainer: Paolo Uva <paolo_uva@merck.com>
+Description: Functions for identification of probes potentially affected by cross-hybridizations in microarray experiments. Includes functions for diagnostic plots. 
+License: LGPL
+Depends: marray, pairseqsim
+Packaged: Mon Jul 30 14:48:22 2007; uvapaolo

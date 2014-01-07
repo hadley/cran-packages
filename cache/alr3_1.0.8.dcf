@@ -1,0 +1,16 @@
+Package: alr3
+Version: 1.0.8
+Date:  2006/04/26
+Title: Methods and data to accompany Applied Linear Regression 3rd edition
+Author: Sanford Weisberg <sandy@stat.umn.edu>
+Maintainer: Sanford Weisberg <sandy@stat.umn.edu>
+Description:  This library is a companion to the textbook S. Weisberg (2005), 
+ "Applied Linear Regression," 3rd edition, Wiley. It includes all the
+ data sets discussed in the book (except one), and several few functions that 
+ are tailored to the methods discussed in the book.  Ver. 1.0.3 corrects bugs in (1) weights for POD models; (2) use of 'subset' arguments with boot.case.  Ver. 1.0.4 corrects a few bugs with overparameterized models. Ver. 1.0.5 changes one default argument. Ver 1.0.6 replaces the pure.error.anova function so it prints nicer and works with interactions. Ver 1.0.7 fixes a bug in residual.plots and
+ adds an additional argument and adds a new function alrweb to access the 
+ website for the book in a browser. Ver 1.0.8 fixed a bug in delta.method for
+ generalized linear models.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.stat.umn.edu/alr
+Packaged: Wed Apr 26 13:57:34 2006; sandy

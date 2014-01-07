@@ -1,0 +1,20 @@
+Package: textir
+Title: Inverse Regression for Text Analysis
+Version: 1.2
+Date: 2011-2-12
+Author: Matt Taddy <taddy@chicagobooth.edu>
+Depends: R (>= 2.4), slam
+Suggests: tm
+Description: A set of tools for inference about text and associated
+        speaker/document sentiment.  This includes the mnlm function
+        for map estimation in Laplace regularized multinomial logistic
+        regression, which can be used for inverse regression analysis
+        of sentiment in text.  Feel free to send questions/comments!
+Maintainer: Matt Taddy <taddy@chicagobooth.edu>
+License: LGPL
+URL: http://faculty.chicagobooth.edu/matt.taddy/index.html
+Reference: Taddy (2011), Inverse Regression for Analysis of Sentiment
+        in Text, http://arxiv.org/abs/1012.2098
+Packaged: 2011-02-12 20:25:43 UTC; mtaddy
+Repository: CRAN
+Date/Publication: 2011-02-13 16:11:53

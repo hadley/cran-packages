@@ -1,0 +1,14 @@
+Package: klaR
+Version: 0.5-6
+Date: 2008-01-16
+Title: Classification and visualization
+Author: Christian Roever, Nils Raabe, Karsten Luebke, Uwe Ligges, Gero Szepannek, Marc Zentgraf
+Maintainer: Uwe Ligges <ligges@statistik.tu-dortmund.de>
+SystemRequirements: SVMlight
+Suggests: scatterplot3d (>= 0.3-22), som, mlbench, rpart, e1071
+Depends: R (>= 2.0.0), MASS
+Description: Miscellaneous functions for classification and visualization
+         developed at the Fakultaet Statistik, Technische Universitaet Dortmund
+License: GPL-2
+URL: http://www.statistik.tu-dortmund.de
+Packaged: Wed Jan 16 13:51:39 2008; ligges

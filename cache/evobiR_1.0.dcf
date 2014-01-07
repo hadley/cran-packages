@@ -1,0 +1,15 @@
+Package: evobiR
+Type: Package
+Title: evobiR: evolutionary biology in R.
+Version: 1.0
+Date: 2013-10-08
+Author: Heath Blackmon
+Maintainer: Heath Blackmon <coleoguy@gmail.com>
+URL: http://www.uta.edu/karyodb/evobiR/
+Depends: seqinr, ape, stringr, geiger, taxize
+Description: evobiR is a collection of tools for use in evolutionary biology
+License: GPL (>= 2)
+Packaged: 2013-10-21 15:21:05 UTC; hlb7922
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-21 17:35:27

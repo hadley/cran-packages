@@ -1,0 +1,26 @@
+Package: gap
+Version: 1.1-8
+Date: 2013-2-26
+Title: Genetic analysis package
+Author: Jing Hua Zhao and colleagues with inputs from Kurt Hornik and
+        Brian Ripley
+Maintainer: Jing Hua Zhao <jinghua.zhao@mrc-epid.cam.ac.uk>
+Depends: R (>= 2.10)
+Suggests: BradleyTerry2, coxme, rms, MASS, NCBI2R, grid, haplo.stats,
+        kinship2, magic, nlme, pedigree, pedigreemm, regress, survival
+LazyData: Yes
+LazyLoad: Yes
+Description: It is designed as an integrated package for genetic data
+        analysis of both population and family data. Currently, it
+        contains functions for sample size calculations of both
+        population-based and family-based designs, probability of
+        familial disease aggregation, kinship calculation, some
+        statistics in linkage analysis, and association analysis
+        involving one or more genetic markers including haplotype
+        analysis with or without environmental covariates.
+License: GPL (>= 2)
+URL: http://www.mrc-epid.cam.ac.uk/~jinghua.zhao
+Repository: CRAN
+Date/Publication: 2013-02-26 16:37:50
+Packaged: 2013-02-26 13:30:01 UTC; jhz22
+NeedsCompilation: yes

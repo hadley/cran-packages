@@ -1,0 +1,22 @@
+Package: gstat
+Version: 1.0-18
+Date: 2013/11/19
+Title: spatial and spatio-temporal geostatistical modelling, prediction
+        and simulation
+Authors@R: c(person("Edzer", "Pebesma", role = c("aut", "cre"), email =
+        "edzer.pebesma@uni-muenster.de"), person("Benedikt", "Graeler",
+        role = "aut"))
+Description: variogram modelling; simple, ordinary and universal point or block (co)kriging, sequential Gaussian or indicator (co)simulation; variogram and variogram map plotting utility functions.
+Depends: R (>= 2.10)
+Imports: methods, lattice, sp (>= 0.9-72), zoo, spacetime (>= 1.0-0)
+Suggests: rgdal (>= 0.5.2), rgeos, fields, mapdata, maptools, xts
+License: GPL (>= 2.0) | file LICENCE
+URL: http://52north.org/geostatistics,
+        https://r-forge.r-project.org/projects/gstat/
+Packaged: 2013-11-19 17:00:11 UTC; edzer
+Author: Edzer Pebesma [aut, cre],
+  Benedikt Graeler [aut]
+Maintainer: Edzer Pebesma <edzer.pebesma@uni-muenster.de>
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-19 19:31:42

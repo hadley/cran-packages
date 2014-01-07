@@ -1,0 +1,32 @@
+Package: aspace
+Type: Package
+Title: A collection of functions for estimating centrographic
+        statistics and computational geometries for spatial point
+        patterns
+Version: 3.1
+Date: 2011-08-08
+Author: Randy Bui, Ron N. Buliung, Tarmo K. Remmel
+Maintainer: Ron N. Buliung <ron.buliung@utoronto.ca>
+Description: A collection of functions for computing centrographic
+        statistics (e.g., standard distance, standard deviation
+        ellipse, standard deviation box) for observations taken at
+        point locations. Separate plotting functions have been
+        developed for each measure. Users interested in writing results
+        to ESRI shapefiles can do so by using results from aspace
+        functions as inputs to the convert.to.shapefile and
+        write.shapefile functions in the shapefiles library. The aspace
+        library was originally conceived to aid in the analysis of
+        spatial patterns of travel behaviour (see Buliung and Remmel,
+        2008). Major changes in the current version include (1) removal
+        of dependencies on several external libraries (e.g., gpclib,
+        maptools, sp), (2) the separation of plotting and estimation
+        capabilities, (3) reduction in the number of functions, and (4)
+        expansion of analytical capabilities with additional functions
+        for descriptive analysis and visualization (e.g., standard
+        deviation box, centre of minimum distance, central feature).
+License: GPL (>= 2)
+Depends: R (>= 2.15.1), splancs, Hmisc, shapefiles
+LazyData: yes
+Packaged: 2012-08-08 06:41:26 UTC; Randy Bui
+Repository: CRAN
+Date/Publication: 2012-08-08 07:09:02

@@ -1,0 +1,17 @@
+Package: cem
+Version: 1.0.39
+Date: 2008-08-18
+Title: cem
+Author: Stefano Iacus <stefano.iacus@unimi.it>
+         Gary King <king@harvard.edu>
+         Giuseppe Porro <giuseppe.porro@unimi.it>
+Maintainer: Gary King <king@harvard.edu>
+Depends: R (>= 2.6.0)
+Description: This program implements the coarsened exact matching algorithm
+    (and many extensions) described in Stefano M. Iacus, Gary King, 
+    and Giuseppe Porro, "Matching for Causal Inference Without
+    Balance Checking," http://gking.harvard.edu/files/abs/cem-abs.shtml
+License: GPL-2
+URL: http://gking.harvard.edu/cem
+Suggests: Amelia, MatchIt
+Packaged: Mon Aug 18 17:10:39 2008; king

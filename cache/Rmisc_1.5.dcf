@@ -1,0 +1,19 @@
+Package: Rmisc
+Type: Package
+Title: Rmisc: Ryan Miscellaneous
+Version: 1.5
+Date: 2013-10-21
+Author: Ryan M. Hope <rmh3093@gmail.com>
+Maintainer: Ryan M. Hope <rmh3093@gmail.com>
+Description: The Rmisc library contains many functions useful for data analysis
+    and utility operations.
+License: GPL-3
+Suggests: latticeExtra, Hmisc, stats4
+Depends: lattice, plyr
+Collate: 'CI.R' 'STDERR.R' 'group.UCL.R' 'group.CI.R' 'group.STDERR.R'
+        'lr.glover.R' 'multiplot.R' 'panel.circle.R' 'rounder.R'
+        'rsi.R' 'summarySE.R'
+Packaged: 2013-10-21 19:55:26 UTC; ryanhope
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-10-22 00:46:56

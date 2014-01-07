@@ -1,0 +1,23 @@
+Package: FindIt
+Version: 0.1
+Date: 2012-12-01
+Title: R Package for Finding Heterogeneous Treatment Effects
+Author: Marc Ratkovic <ratkovic@princeton.edu>, Kosuke Imai
+        <kimai@princeton.edu>,
+Maintainer: Marc Ratkovic <ratkovic@princeton.edu>
+Depends: R (>= 2.15.1), glmnet
+Imports: glmnet
+Description: FindIt is an R package that implements the heterogeneous
+        treatment effect estimation procedure proposed by Imai and
+        Ratkovic (2012).  The method assumes a binary outcome, coded
+        +/- 1, and a treatment variable, code 0/1, with a set of
+        pre-treatment covariates.  Through the use of one LASSO
+        constraint over the treatment parameters of interest and
+        another over the pretreatment covariates, the method directly
+        targets the heterogeneous treatment effects of interest.
+LazyLoad: yes
+LazyData: yes
+License: GPL (>= 2)
+Packaged: 2012-12-10 15:37:04 UTC; ratkovic
+Repository: CRAN
+Date/Publication: 2012-12-10 17:29:03

@@ -1,0 +1,43 @@
+Package: plspm
+Type: Package
+Title: Tools for Partial Least Squares Path Modeling (PLS-PM)
+Version: 0.4.1
+Date: 2013-12-08
+Authors@R: c(
+    person("Gaston", "Sanchez",
+    email = "gaston.stat@gmail.com", role = c("aut", "cre")),
+    person("Laura", "Trinchera", role = "aut"),
+    person("Giorgio", "Russolillo", role = "aut"))
+Description: plspm contains a set of functions for performing Partial Least
+    Squares Path Modeling (PLS-PM) analysis for both metric and non-metric
+    data, as well as REBUS analysis.
+URL: http://www.gastonsanchez.com http://www.plsmodeling.com
+Depends: R (>= 3.0.1), amap, diagram, tester, turner
+Suggests: plsdepot, FactoMineR, ggplot2, reshape, testthat, knitr
+VignetteBuilder: knitr
+License: GPL-3
+LazyLoad: yes
+Collate: 'plspm.r' 'auxiliar.r' 'check_arguments.r'
+        'check_specifications.r' 'get_alpha.r' 'get_ave.r'
+        'get_boots.r' 'get_dummies.r' 'get_effects.r' 'get_generals.r'
+        'get_gof.r' 'get_inner_summary.r' 'get_manifests.r'
+        'get_metric.r' 'get_nom_scale.r' 'get_num_scale.r'
+        'get_ord_scale.r' 'get_path_scheme.r' 'get_paths.r'
+        'get_plsr1.r' 'get_PLSRdoubleQ.r' 'get_rank.r' 'get_rho.r'
+        'get_scores.r' 'get_treated_data.r' 'get_unidim.r'
+        'get_weights.r' 'get_weights_nonmetric.r' 'innerplot.r'
+        'outerplot.r' 'plot.plspm.r' 'rescale.r' 'summary_plspm.r'
+        'test_manifest_scaling.r' 'test_null_weights.r'
+        'unidimensionality.r' 'test_factors.r' 'russett-data.r'
+        'plspm.fit.r' 'plspm.groups.r' 'test_dataset.r' 'get_GQI.r'
+        'get_locals_test.r' 'get_scaled_data.r' 'it.reb.r'
+        'local.models.r' 'print.rebus.r' 'rebus.pls.r' 'rebus.test.r'
+        'res.clus.r' 'get_PLSR.r' 'get_PLSR_NA.r' 'quantiplot.r'
+Packaged: 2013-12-08 15:52:12 UTC; Gaston
+Author: Gaston Sanchez [aut, cre],
+  Laura Trinchera [aut],
+  Giorgio Russolillo [aut]
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-08 17:28:05

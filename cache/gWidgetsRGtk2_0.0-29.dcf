@@ -1,0 +1,13 @@
+Package: gWidgetsRGtk2
+Version: 0.0-29
+Date: 2008-01-22
+Title: Toolkit implementation of gWidgets for RGtk2
+Author: Michael Lawrence, John Verzani
+Maintainer: John Verzani <gwidgetsrgtk@gmail.com>
+Depends: methods, gWidgets(>= 0.0.25), RGtk2
+Suggests: cairoDevice (>= 2.3.0)
+Description: Port of gWidgets API to RGtk2
+License: GPL (>= 2)
+URL: http://www.math.csi.cuny.edu/pmg
+LazyLoad: yes
+Packaged: Wed Jan 23 22:05:08 2008; verzani

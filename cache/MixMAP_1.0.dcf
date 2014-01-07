@@ -1,0 +1,18 @@
+Package: MixMAP
+Type: Package
+Title: Implements the MixMAP algorithm
+Version: 1.0
+Date: 2012-08-13
+Author: Gregory J. Matthews
+Maintainer: Gregory J. Matthews <gjm112@gmail.com>
+Depends: R (>= 2.15.1),lme4, Matrix, methods
+Description: This function implements the MixMAP algorithm, which
+        performs gene level tests of association using data from a
+        previous GWAS or data from a meta-analysis of several GWAS.
+        Conceptually, genes are detected as significant if the
+        collection of p-values within a gene are determined to be
+        collectively smaller than would be observed by chance.
+License: GPL-3
+Packaged: 2012-12-06 23:37:36 UTC; gregorymatthews
+Repository: CRAN
+Date/Publication: 2012-12-07 21:12:02

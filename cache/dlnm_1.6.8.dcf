@@ -1,0 +1,20 @@
+Package: dlnm
+Type: Package
+Title: Distributed Lag Non-linear Models
+Version: 1.6.8
+Date: 2013-05-16
+Author: Antonio Gasparrini and Ben Armstrong
+Maintainer: Antonio Gasparrini <antonio.gasparrini@lshtm.ac.uk>
+Imports: stats, graphics, grDevices, utils, splines
+Depends: R (>= 2.8.0)
+Suggests: splines, mgcv, mvmeta
+Description: The package dlnm contains functions to specify and run
+        distributed lag linear and non-linear models.
+URL: http://www.ag-myresearch.com/package-dlnm
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Packaged: 2013-05-16 18:43:10 UTC; EMSUAGAS
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-05-16 21:50:30

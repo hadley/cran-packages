@@ -1,0 +1,20 @@
+Package: MicroStrategyR
+Type: Package
+Title: MicroStrategyR Package
+Author: Rick Pechter <rpechter@microstrategy.com>
+Maintainer: Rick Pechter <rpechter@microstrategy.com>
+Depends: R (>= 3.0.0), gWidgetsRGtk2
+Description: Deploys your R Analytic to MicroStrategy
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: http://RIntegrationPack.codeplex.com
+Authors@R: c(person(given="Rick", family="Pechter",
+        email="rpechter@microstrategy.com", role=c("aut", "cre")))
+Version: 1.0-1
+Date: 2013-04-26
+Collate: 'MicroStrategyR.R'
+Packaged: 2013-04-26 23:11:05 UTC; rpechter
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-27 14:08:06

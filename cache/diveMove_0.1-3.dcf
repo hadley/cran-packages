@@ -1,0 +1,13 @@
+Package: diveMove
+Type: Package
+Title: Dive analysis and calibration
+Version: 0.1-3
+Depends: methods, chron
+Suggests: KernSmooth, quantreg
+Author: Sebastian P. Luque <spluque@gmail.com>
+Maintainer: Sebastian P. Luque <spluque@gmail.com>
+Description: Functions to filter and summarize time-depth recorder (TDR)
+             data, and miscellaneous functions for handling location data.
+SaveImage: true
+License: GPL (GNU Public License), Version 2 or later
+Packaged: Wed Apr 19 22:29:48 2006; sluque

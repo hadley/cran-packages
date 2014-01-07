@@ -1,0 +1,10 @@
+Package: seao.gui
+Version: 0.1
+Depends: seao
+Date: 22 May 2003
+Title: Simple evolutionary algorithm optimization: graphical user interface
+Author:	Kurt Sys, LabMET - Laboratory of Microbial Ecology and Technology, RUG
+Maintainer: Kurt Sys <kurt.sys@UGent.be>
+Description: Graphical interface for seao-package. All functions can be called seperately, but there's also a function which can call all other functions. The functions called with this graphical interface hasn't the same flexibility of the functions called from the command-line. This may change in the future, although I doubt that... 
+License: GPL Version 2 or newer
+URL: http://LabMET.UGent.be, http://LabMET.UGent.be/~kurt

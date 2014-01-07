@@ -1,0 +1,27 @@
+Package: TreePar
+Type: Package
+Title: Estimating speciation and extinction rates based on phylogenies
+Version: 2.1
+Date: 2011-07-12
+Author: Tanja Stadler
+Maintainer: Tanja Stadler <tanja.stadler@env.ethz.ch>
+Depends: ape, Matrix, subplex, TreeSim
+Description: For a given species phylogeny on present day data which is
+        calibrated to calendar-time, a method for estimating maximum
+        likelihood speciation and extinction processes is provided. The
+        method allows for non-constant rates. Rates may change (i) as a
+        function of time, i.e. rate shifts at specified times or mass
+        extinction events (implemented as bd.shifts.optim) or (ii) as a
+        function of the number of species, i.e. density-dependence
+        (implemented as bd.densdep.optim). Note that the method takes
+        into account the whole phylogeny, in particular it accounts for
+        the "pull of the present" effect. For a given phylogeny on
+        higher taxa, but where the number of species is known within
+        each higher taxa, speciation and extinction rates can be
+        estimated, under the assumption that these rates remained
+        constant (implemented as bd.groups.optim).
+License: GPL-2
+LazyLoad: yes
+Packaged: 2011-07-13 10:38:33 UTC; tanja
+Repository: CRAN
+Date/Publication: 2011-07-23 13:04:47

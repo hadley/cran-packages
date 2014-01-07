@@ -1,0 +1,19 @@
+Package:	clusterGeneration
+Version:	1.2.0  
+Date:		2006-10-24
+Title:		random cluster generation (with specified degree of separation)
+Author:		Weiliang Qiu <stwxq@channing.harvard.edu>, 
+		Harry Joe <harry@stat.ubc.ca>.
+Maintainer:	Weiliang Qiu<stwxq@channing.harvard.edu>	
+Depends:	R (>= 2.0.0), MASS
+Description:	The package contains functions for generating random 
+                clusters, generating random covariance/correlation matrices, 
+                calculating a separation index (data and population version) 
+		for pairs of clusters or cluster distributions, and 
+		1-D and 2-D projection plots to visualize clusters.
+		The package also contains a function to generate random 
+		clusters based on factorial designs with factors such as 
+		degree of separation, number of clusters,
+		number of variables, number of noisy variables. 
+License:	GPL version 2 or newer
+Packaged: Mon Nov 13 09:39:14 2006; hornik

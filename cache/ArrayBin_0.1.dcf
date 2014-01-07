@@ -1,0 +1,19 @@
+Package: ArrayBin
+Version: 0.1
+Date: 2013-02-01
+Title: My First Collection of Functions
+Authors@R: person("Ed", "Curry", role = c("aut", "cre"),email =
+        "e.curry@imperial.ac.uk")
+Author: Ed Curry
+Maintainer: Ed Curry <e.curry@imperial.ac.uk>
+Depends: R (>= 2.15.0), SAGx
+Description: Fast adaptive binarization for numeric data arrays,
+        particularly designed for high-throughput biological datasets.
+        Includes options to filter out rows of the array with
+        insufficient magnitude or variation (based on gap statistic).
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://www1.imperial.ac.uk/medicine/people/e.curry/
+Packaged: 2013-02-01 16:17:36 UTC; ecurry
+Repository: CRAN
+Date/Publication: 2013-02-01 17:35:11

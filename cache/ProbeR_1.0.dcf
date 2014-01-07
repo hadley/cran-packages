@@ -1,0 +1,9 @@
+Package: ProbeR
+Version: 1.0
+Author: Eun-Kyung Lee
+Maintainer: Eun-Kyung Lee <gracesle@snu.ac.kr>
+Title:  Reliability for gene expression from Affymetrix chip
+Description: Most statistical methods for finding interesting genes are focusing on the summary value with large fold change or large variations. Very few methods are considered the probe level data. This package is to calculate the reliability of the gene expression data from Affymetrix chip using the probe-level data.
+Depends:
+License: Free
+Packaged: Mon Jul  3 14:54:16 2006; Kyung

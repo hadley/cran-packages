@@ -1,0 +1,20 @@
+Package: biclust
+Version: 0.7.1
+Date: 2009-03-13
+Author: Sebastian Kaiser, Rodrigo Santamaria, Roberto Theron, Luis
+        Quintales and Friedrich Leisch.
+Maintainer: Sebastian Kaiser <Sebastian.Kaiser@stat.uni-muenchen.de>
+Title: BiCluster Algorithms
+Depends: MASS
+Imports: grid, methods, vcd
+Description: The main function biclust provides several algorithms to
+        find biclusters in two-dimensional data: Cheng and Church,
+        Spectral, Plaid Model, Xmotifs and Bimax. In addition, the
+        package provides methods for data preprocessing (normalization
+        and discretisation), visualisation, and validation of bicluster
+        solutions.
+License: GPL-2
+LazyLoad: yes
+Packaged: Fri Mar 13 11:13:20 2009; kaiser
+Repository: CRAN
+Date/Publication: 2009-03-13 10:52:45

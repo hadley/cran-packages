@@ -1,0 +1,10 @@
+Package: tseries
+Version: 0.9-19
+Date: 2004-01-31
+Title: Time series analysis and computational finance
+Author: Compiled by Adrian Trapletti <a.trapletti@bluewin.ch>
+Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
+Description: Package for time series analysis and computational finance
+Depends: ts, mva, quadprog
+License: GPL (see file COPYING)
+Packaged: Sat Jan 31 13:32:57 2004; hornik

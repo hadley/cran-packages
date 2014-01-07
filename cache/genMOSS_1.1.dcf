@@ -1,0 +1,14 @@
+Package: genMOSS
+Title: Functions for the Bayesian analysis of GWAS data
+Version: 1.1
+Date: 2013-08-27
+Author: Matthew Friedlander, Adrian Dobra, Helene Massam, and Laurent Briollais
+Maintainer: Matthew Friedlander <friedlander@lunenfeld.ca>
+Depends: R (>= 2.10)
+Description: The genMOSS package implements the Mode Oriented Stochastic Search (MOSS) algorithm as well as a simple moving window approach to look for combinations of SNPs that are associated with a response.
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2013-09-19 09:54:18 UTC; mfriedlander
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-09-19 16:03:48

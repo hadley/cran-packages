@@ -1,0 +1,16 @@
+Package: RcmdrPlugin.Export
+Version: 0.2-0
+Date: 2008-04-08
+Title: Graphically export objects to LaTeX or HTML
+Author: Liviu Andronic
+Maintainer: Liviu Andronic <landronimirc@gmail.com>
+Depends: R (>= 2.6.0), Rcmdr (>= 1.3-12), xtable
+Description: This package provides facilities to graphically export
+  Rcmdr output to LaTeX or HTML code. Essentially, at the moment, 
+  the plug-in is a graphical front-end to xtable(). It is intended
+  to (1) facilitate exporting Rcmdr output to formats other than 
+  ASCII text and (2) provide R novices with an easy to use, easy to
+  access reference on exporting R objects to formats suited for
+  printed output.
+License: GPL-3
+Packaged: Tue Apr  8 23:52:00 2008; liviu

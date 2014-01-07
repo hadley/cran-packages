@@ -1,0 +1,12 @@
+Package: agRee
+Title: Various Methods for Measuring Agreement.
+Version: 0.1-1
+Author: Dai Feng
+Description: Plots for visualization and point and interval estimates
+        for different metrics of agreement.
+Maintainer: Dai Feng <dai_feng@merck.com>
+Depends: R (>= 2.14.0), coda (>= 0.13-5), MCMCpack (>= 1.2-1)
+License: GPL
+Packaged: 2012-10-12 18:44:44 UTC; dafeng
+Repository: CRAN
+Date/Publication: 2012-10-12 19:51:19

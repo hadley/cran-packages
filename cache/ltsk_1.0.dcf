@@ -1,0 +1,16 @@
+Package: ltsk
+Type: Package
+Title: local time space kriging
+Version: 1.0
+Date: 2013-06-29
+Author: Jin Chen, Jun Chen, Naresh Kumar, Dong Liang
+Maintainer: Dong Liang <dong-liang@uiowa.edu>
+Description: Implement local time space variogram estimation and
+        kriging
+License: GPL-2
+Depends: R (>= 2.10), mvtnorm, fields, gstat, snow, spam, sp,
+        spacetime, zoo, xts
+Packaged: 2013-07-04 20:05:10 UTC; dliang
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-07-05 07:22:23

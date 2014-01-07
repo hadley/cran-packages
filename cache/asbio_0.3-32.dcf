@@ -1,0 +1,17 @@
+Package: asbio
+Type: Package
+Title: A collection of statistical tools for biologists
+Version: 0.3-32
+Depends: R (>= 2.10), plotrix, vegan, MASS
+Suggests: car, odesolve, lmomco, cluster, boot, akima, tcltk
+Date: 2011-5-3
+Author: Ken Aho; many thanks to V. Winston and D. Roberts
+Maintainer: Ken Aho <kenaho1@gmail.com>
+Description: Contains functions from: "Foundational Statistics for
+        Biologists; A Textbook Using R" (Under contract; CRC Press;
+        Release: Spring 2012)
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2011-05-03 20:40:28 UTC; kenaho
+Repository: CRAN
+Date/Publication: 2011-05-04 07:13:40

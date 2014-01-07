@@ -1,0 +1,14 @@
+Package: GPFDA
+Title: Apply Gaussian Process in Functional data analysis
+Version: 0.1
+Date: 2013-09-30
+Depends: R (>= 3.0),data.table,fda,spam
+Imports: MASS
+Author: Yafeng Cheng
+Maintainer: Yafeng Cheng <yafeng.cheng@ncl.ac.uk>
+Description: Use functional regression as the mean structure and Gaussian Process as the covariance structure.
+License: GPL-3
+Packaged: 2013-12-29 20:53:37 UTC; AdminYafeng
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-12-29 22:16:51

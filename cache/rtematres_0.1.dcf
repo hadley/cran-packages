@@ -1,0 +1,17 @@
+Package: rtematres
+Title: The rtematres API package
+Description: Exploit controlled vocabularies organized on tematres servers.
+Version: 0.1
+Author: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>
+Maintainer: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>
+Suggests: ggplot2, plyr
+Imports: XML, RCurl, rjson, gdata, testthat
+Date: 2013-08-13
+License: GPL-3
+URL: https://github.com/cpfaff/rtematres
+Collate: 'rtematres.api.base.R' 'rtematres.options.R'
+        'rtematres-package.R' 'rtematres.helper.R' 'zzz.R'
+Packaged: 2013-08-13 16:51:12 UTC; sabsirro
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-08-13 19:21:28

@@ -1,0 +1,13 @@
+Package: NPsimex
+Type: Package
+Title: Nonparametric Smoothing for contaminated data using
+        Simulation-Extrapolation
+Version: 0.2-1
+Date: 2011-11-3
+Author: Xiao-Feng Wang
+Maintainer: Xiao-Feng Wang <wangx6@ccf.org>
+Description: This package contains a collection of functions to to perform nonparametric deconvolution using simulation extrapolation (SIMEX). We propose an estimator that adopts the SIMEX idea but bypasses the simulation step in the original SIMEX algorithm. There is no bandwidth parameter and the estimate is determined by appropriately selecting "design points". See details in: Wang, X.F., Sun, J. and Fan, Z. (2011). Deconvolution density estimation with heteroscedastic errors using SIMEX.
+License: GPL (>= 3)
+Packaged: 2011-11-04 16:32:37 UTC; xfwang
+Repository: CRAN
+Date/Publication: 2011-11-04 20:30:22

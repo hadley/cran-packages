@@ -1,0 +1,19 @@
+Package: Ecdat
+Version: 0.2-3
+Date: 2013-04-24
+Title: Data sets for econometrics
+Author: Yves Croissant <yves.croissant@let.ish-lyon.cnrs.fr>
+Maintainer: Spencer Graves <spencer.graves@effectivedefense.org>
+Depends: R (>= 2.10)
+Suggests: car, systemfit, sem, lmtest, sandwich, gdata, RCurl, XML, tis
+Description: Data sets for econometrics
+LazyData: true
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Repository: CRAN
+Repository/R-Forge/Project: ecdat
+Repository/R-Forge/Revision: 122
+Repository/R-Forge/DateTimeStamp: 2013-10-02 16:37:02
+Date/Publication: 2013-10-04 07:48:18
+Packaged: 2013-10-02 18:15:26 UTC; rforge
+NeedsCompilation: no

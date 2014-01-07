@@ -1,0 +1,23 @@
+Package: EMA
+Type: Package
+Title: Easy Microarray data Analysis
+Version: 1.3.2
+Date: 2012-03-01
+Author: EMA group
+Maintainer: <ema-package@curie.fr>
+Description: We propose both a clear analysis strategy and a selection
+        of tools to investigate microarray gene expression data. The
+        most usual and relevant existing R functions were discussed,
+        validated and gathered in an easy-to-use R package (EMA)
+        devoted to gene expression microarray analysis. These functions
+        were improved for ease of use, enhanced visualisation and
+        better interpretation of results.
+License: GPL
+LazyLoad: yes
+Depends: R (>= 2.10), cluster, heatmap.plus, FactoMineR, GOstats,
+        survival, multtest, gcrma, rgl, GSA, RankProd, siggenes, MASS,
+        biomaRt, xtable, AnnotationDbi
+Suggests: hgu133plus2.db, lumi, vsn
+Packaged: 2012-03-21 12:03:04 UTC; nservant
+Repository: CRAN
+Date/Publication: 2012-03-21 16:43:08

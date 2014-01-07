@@ -1,0 +1,15 @@
+Package: quaternions
+Version: 0.2
+Date: 2005-02-28
+Title: Arithmetics and linear algebra with Quaternions
+Author: K. Gerald van den Boogaart <boogaart@uni-greifswald.de>
+Maintainer: K. Gerald van den Boogaart <boogaart@math.tu-freiberg.de>
+Depends: R (>= 2.1)
+Description: The skew body of quaternions is an usefull tool to handle
+        geometric problems. This package allows to handle quaternions
+        with R nearly as simple as real or complex numbers.
+License: GPL (>= 2)
+URL: http://stat.boogaart.de/quaternions/
+Packaged: Tue May 11 00:37:52 2010; boogaart
+Repository: CRAN
+Date/Publication: 2010-05-11 05:33:08

@@ -1,0 +1,40 @@
+Package: Digiroo2
+Type: Package
+Title: An application programming interface for generating null models
+        of social contacts based on individuals' space use
+Version: 0.6
+Date: 2013-02-21
+Author: Ross Dwyer, Emily Best and Anne Goldizen
+Maintainer: Ross Dwyer <ross.dwyer@uq.edu.au>
+Description: Digiroo2 is an R package developed by researchers at the
+        University of Queensland to investigate association patterns
+        and social structure in wild animal populations. Proximity
+        between individuals is generally considered to be an
+        appropriate proxy for associations and pairwise association
+        indices are the most widely used technique for analysing animal
+        social structure. However, little attention is given to
+        identifying how patterns of spatial overlap affect these
+        association patterns. For example, do individuals associate
+        randomly with others with whom they share home ranges, or do
+        some individuals go out of their way to associate with or avoid
+        particular individuals? This program builds a null model of
+        random associations based on an individual's space use
+        determined using home range methodologies. Random points may be
+        generated within a specified home range contour or according to
+        the Utilization Distribution (UD). Expected associations of
+        individuals are extracted based on probability of occurrence
+        and the proximity between home range weighted random points.
+        Association matrices can be generated from multiple
+        permutations for analysis using SOCPROG 2.4 (Whitehead 2009) to
+        create 'expected' pairwise half-weight association indices
+        (HWIs). These may be compared with the 'observed' HWIs from
+        field observations to reveal whether pairs of animals associate
+        more (= attraction) or less (= avoidance) than expected by
+        chance.
+Depends: R (>= 2.14.0), maptools, spatstat, spdep
+Suggests: adehabitatHR, raster
+License: GPL (>= 2)
+Packaged: 2013-02-21 04:00:30 UTC; rdwye
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-02-21 07:52:44

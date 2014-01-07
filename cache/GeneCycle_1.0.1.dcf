@@ -1,0 +1,15 @@
+Package: GeneCycle
+Version: 1.0.1
+Date: 2006-09-28
+Title: Identification of Periodically Expressed Genes
+Author: Miika Ahdesmaki, Konstantinos Fokianos, and
+        Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <korbinian.strimmer@lmu.de>
+Depends: R (>= 2.0.0), longitudinal (>= 1.1.2), fdrtool (>= 1.0.0)
+Suggests: 
+Description: The GeneCycle package implements the approaches of Wichert et al.
+  (2004) and Ahdesmaki et al. (2005) for detecting periodically
+  expressed genes from gene expression time series data. 
+License: GPL version 2 or newer
+URL: http://www.strimmerlab.org/software/genecycle/
+Packaged: Fri Sep 29 14:41:20 2006; strimmer

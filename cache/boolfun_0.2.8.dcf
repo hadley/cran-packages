@@ -1,0 +1,18 @@
+Package: boolfun
+Title: Cryptographic Boolean Functions
+Version: 0.2.8
+Date: 2010
+Author: F.Lafitte
+Description: This package can be used to assess cryptographic
+        properties of Boolean functions such as nonlinearity, algebraic
+        immunity, resiliency, etc... It also implements functionality
+        to handle Boolean polynomials, namely multiplication and
+        addition of multivariate polynomials with coefficients and
+        exponents in {0,1}.
+Maintainer: Frederic Lafitte <frederic.lafitte@rma.ac.be>
+Depends: R (>= 2.3.0), R.oo
+License: GPL (>= 3)
+Keywords: math, symbolmath, logic
+Packaged: 2012-12-13 10:51:53 UTC; sushi
+Repository: CRAN
+Date/Publication: 2012-12-13 14:21:01

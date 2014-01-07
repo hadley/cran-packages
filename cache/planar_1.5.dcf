@@ -1,0 +1,29 @@
+Package: planar
+Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
+Title: Multilayer optics
+LinkingTo: Rcpp, RcppArmadillo
+Type: Package
+LazyLoad: yes
+Authors@R: person("Baptiste", "Auguie", email = "baptiste.auguie@gmail.com",
+    role = c("aut", "cre"), comment = "Some functions ported from the original
+    Matlab SPLAC code by E.C. Le Ru and P. G. Etchegoin (see Refs.)")
+License: GPL-3
+Description: Solves the electromagnetic problem of reflection and transmission
+    of a plane wave or a Gaussian beam, at a multilayer planar interface. Also
+    computed are the decay rates and emission profile for a dipolar emitter
+    near a multilayer structure.
+SystemRequirements: GNU make
+Version: 1.5
+VignetteBuilder: knitr
+Depends: methods, dielectric
+Imports: Rcpp (>= 0.9.5), RcppArmadillo (>= 0.2.3), statmod, cubature,
+        reshape2, plyr
+Suggests: ggplot2, Hmisc, grid, gridExtra, lattice, knitr, testthat
+RcppModules: planar, gaussian
+Encoding: UTF-8
+Packaged: 2013-12-16 14:02:36 UTC; baptiste
+Author: Baptiste Auguie [aut, cre] (Some functions ported from the original
+    Matlab SPLAC code by E.C. Le Ru and P. G. Etchegoin (see Refs.))
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-12-16 17:02:34

@@ -1,0 +1,18 @@
+Package: ODB
+Type: Package
+Title: Open Document Databases (.odb) management
+Version: 1.0.0
+Date: 2011-06-15
+Author: Sylvain Mareschal
+Maintainer: Sylvain Mareschal <maressyl@gmail.com>
+URL: http://www.ovsa.fr/R
+Description: This package provides functions to create, connect, update
+        and query HSQL databases embedded in Open Document Databases
+        (.odb) files, as OpenOffice and LibreOffice do.
+License: GPL (>= 3)
+LazyLoad: yes
+Depends: methods, DBI, RJDBC, XML
+SystemRequirements: zip
+Packaged: 2011-06-15 19:12:53 UTC; Sylvain
+Repository: CRAN
+Date/Publication: 2011-06-17 06:44:34

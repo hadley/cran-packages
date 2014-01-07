@@ -1,0 +1,17 @@
+Package: orcutt
+Type: Package
+Title: Estimate procedure in case of first order autocorrelation
+Version: 1.0
+Date: 2012-09-11
+Author: Stefano Spada, Matteo Quartagno, Marco Tamburini
+Maintainer: Spada Stefano <lostefanospada@gmail.com>
+Description: This package has been implemented to solve first order
+        autocorrelation problems using an iterative method. This
+        procedure estimates both autocorrelation and beta coefficients
+        recursively until we reach the convergence (8th decimal). The
+        residuals are computed after estimating Beta using EGLS
+        approach and Rho is estimated using the previous residuals.
+License: GPL-2
+Packaged: 2012-09-14 17:20:09 UTC; io
+Repository: CRAN
+Date/Publication: 2012-09-15 13:24:45

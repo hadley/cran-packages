@@ -1,0 +1,21 @@
+Package: RCA
+Type: Package
+Title: Relational Class Analysis
+Version: 1.4
+Date: 2013-05-15
+Author: Amir Goldberg <amirgo@stanford.edu>, Gabor Csardi
+        <csardi.gabor@gmail.com>, Jinjian Zhai
+        <jinjian.zhai@alumni.stanford.edu>
+Maintainer: Yuan Wang <wangyuanvivien@post.harvard.edu>
+Description: Relational Class Analysis (RCA) is a method for detecting
+        heterogeneity in attitudinal data. (as described in Goldberg
+        A., 2011, Am. J. Soc, 116(5)) .  src/ also contains the source
+        files of igraph-C which was written by Gabor.
+Depends: igraph, R (>= 2.15.1)
+LinkingTo: igraph
+License: GPL (>= 2)
+Repository: CRAN
+LazyLoad: yes
+Packaged: 2013-05-17 06:55:33 UTC; jinjian
+NeedsCompilation: yes
+Date/Publication: 2013-05-23 22:47:19

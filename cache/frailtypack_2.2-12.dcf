@@ -1,0 +1,30 @@
+Package: frailtypack
+Version: 2.2-12
+Date: 2010-01-11
+Title: Frailty models using maximum penalized likelihood estimation
+Author: Juan R González, Virginie Rondeau
+        <Virginie.Rondeau@isped.u-bordeaux2.fr> and Yassin Mazroui
+        <Yassin.Mazroui@isped.u-bordeaux2.fr>
+Maintainer: Juan R Gonzalez <jrgonzalez@creal.cat>
+Depends: R (>= 2.0.0), survival
+Description: Frailtypack now fits several classes of frailty models
+        using Penalized Likelihood on the hazard function. 1) A shared
+        gamma frailty model and Cox proportional hazards model. Left
+        truncated, censored data and strata (max=2) are allowed.
+        Clustered and recurrent survival times can be studied (the
+        Andersen-Gill(1982) approach has been implemented for recurrent
+        events). An automatic choice of the smoothing parameter is
+        possible using an approximated cross-validation procedure. 2)
+        Additive frailty models for proportional hazards models with
+        two correlated random effects (intercept random effect with
+        random slope). 3) Nested frailty models for hierarchically
+        clustered data (with 2 levels of clustering) by including two
+        iid gamma random effects. 4) Joint frailty models in the
+        context of joint modelling of recurrent events with terminal
+        event.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Encoding: latin1
+Packaged: Mon Jan 11 08:38:43 2010; jrgonzalez
+Repository: CRAN
+Date/Publication: 2010-01-11 07:50:35

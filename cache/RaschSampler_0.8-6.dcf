@@ -1,0 +1,19 @@
+Package: RaschSampler
+Type: Package
+Title: Rasch Sampler
+Version: 0.8-6
+Date: 2012-07-03
+Authors@R: c(person(given="Reinhold", family="Hatzinger",
+        email="reinhold.hatzinger@wu.ac.at", role=c("cre","aut")),
+        person(given="Patrick", family="Mair",
+        email="patrick.mair@wu.ac.at", role=c("cre","aut")),
+        person(given=c("Norman", "D."), family="Verhelst",
+        email="norman.verhelst@cito.nl", role=c("cre","aut")))
+Author: Reinhold Hatzinger, Patrick Mair, Norman D. Verhelst
+Maintainer: Reinhold Hatzinger <reinhold.hatzinger@wu.ac.at>
+Depends: stats
+Description: Sampling binary matrices with fixed margins
+License: GPL-2
+Packaged: 2012-07-03 16:37:47 UTC; maier
+Repository: CRAN
+Date/Publication: 2012-07-07 07:17:10

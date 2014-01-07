@@ -1,0 +1,13 @@
+Package: climatol
+Version: 1.0.3
+Date: 2006/10/06
+Title: Some Tools for Climatology
+Author: José A. Guijarro <jaguijarro@inm.es>
+Maintainer: José A. Guijarro <jaguijarro@inm.es>
+Depends: R (>= 1.8.0)
+Description: Functions to fill missing data in climatological
+  (monthly) series and to test their homogeneity, plus functions
+  to draw wind-rose and Walter&Lieth diagrams.
+License: GPL (Version 2 or above)
+URL: http://webs.ono.com/climatol/climatol.html
+Packaged: Fri Oct  6 14:12:57 2006; jag

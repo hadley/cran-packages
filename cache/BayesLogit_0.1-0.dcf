@@ -1,0 +1,16 @@
+Package: BayesLogit
+Version: 0.1-0
+Date: 2012-05-06
+Depends: R (>= 2.14.0)
+Title: Logistic Regression
+Author: Nicolas Polson, James G. Scott, and Jesse Windle
+Maintainer: Jesse Windle <jwindle@ices.utexas.edu>
+Description: The BayesLogit package does posterior simulation for
+        binary and multinomial logistic regression using the
+        Polya-Gamma latent variable technique. This method is fully
+        automatic, exact, and fast.  A routine to efficiently sample
+        from the Polya-Gamma class of distributions is included.
+License: GPL (>= 3)
+Packaged: 2012-05-06 13:49:06 UTC; jwindle
+Repository: CRAN
+Date/Publication: 2012-05-06 14:11:24

@@ -1,0 +1,21 @@
+Package: margLikArrogance
+Type: Package
+Title: Marginal Likelihood Computation via Arrogance Sampling
+Version: 0.1-1
+Date: 2010-12-29
+Author: Benedict Escoto
+Maintainer: Benedict Escoto <favir@emerose.org>
+Depends: R (>= 2.7.0)
+Description: In Bayesian statistics, models are evaluated on the basis
+        of data by comparing their marginal likelihoods conditional on
+        the data.  This package helps compute models' marginal
+        likelihoods using samples from the models' posterior parameter
+        distributes (the inputs are similar to those of the harmonic
+        mean estimator).  The computation itself is done via "arrogance
+        sampling", a kind of nonparametric (histogram-based) importance
+        sampling.
+License: GPL (>= 2)
+LazyLoad: no
+Packaged: 2010-12-29 23:33:34 UTC; ben
+Repository: CRAN
+Date/Publication: 2011-01-03 12:35:26

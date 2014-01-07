@@ -1,0 +1,17 @@
+Package: MasterBayes
+Title: ML and MCMC Methods for Pedigree Reconstruction and Analysis
+Version: 2.50
+Depends: coda, genetics, gtools, kinship2
+Date: 2012-07-15
+Author: Jarrod Hadfield
+Maintainer: Jarrod Hadfield <jarrod.hadfield@zoo.ox.ac.uk>
+Description: The primary aim of MasterBayes is to use MCMC techniques
+        to integrate over uncertainty in pedigree configurations
+        estimated from molecular markers and phenotypic data.  Emphasis
+        is put on the marginal distribution of parameters that relate
+        the phenotypic data to the pedigree. All simulation is done in
+        compiled C++ for efficency.
+License: GPL (>= 2)
+Packaged: 2012-07-15 13:29:33 UTC; jarrod
+Repository: CRAN
+Date/Publication: 2012-07-15 17:12:17

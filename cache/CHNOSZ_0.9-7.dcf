@@ -1,0 +1,27 @@
+Package: CHNOSZ
+Title: Chemical Thermodynamics and Activity Diagrams
+Version: 0.9-7
+Date: 2011-08-23
+Author: Jeffrey M. Dick <jmdick@asu.edu>
+Maintainer: Jeffrey M. Dick <jmdick@asu.edu>
+Depends: R (>= 2.10.0), utils
+Suggests: xtable
+Description: This package includes functions and data sets to support
+        chemical thermodynamic modeling in biochemistry and
+        low-temperature geochemistry. The features include calculation
+        of the standard molal thermodynamic properties and chemical
+        affinities of reactions involving minerals and/or biomolecules;
+        a database of thermodynamic properties of aqueous, crystalline
+        and gaseous species; amino acid group additivity for the
+        standard molal thermodynamic properties of neutral and ionized
+        proteins; use of the revised Helgeson-Kirkham-Flowers equations
+        of state for aqueous species; construction of equilibrium
+        activity diagrams as a function of temperature, pressure, and
+        chemical activities or fugacities of basis species.
+License: GPL (>= 2)
+BuildResaveData: no
+ZipData: no
+URL: http://www.chnosz.net/
+Packaged: 2011-08-23 00:43:25 UTC; jedick
+Repository: CRAN
+Date/Publication: 2011-08-23 05:10:01

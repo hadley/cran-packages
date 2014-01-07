@@ -1,0 +1,19 @@
+Package: demoKde
+Type: Package
+Title: Kernel Density Estimation for Demonstration Purposes
+Version: 0.9-3
+Date: 2013-11-23
+Imports: stats
+Suggests: MASS, graphics
+Author: Bill Venables
+Maintainer: Bill Venables <Bill.Venables@gmail.com>
+Description: Demonstration code showing how (univariate) kernel
+	     density estimates are computed, at least conceptually,
+	     and allowing users to experiment with different kernels,
+	     should they so wish.  NOTE: the density function in the
+	     stats package should be used for computational efficiency.
+License: GPL-2
+Packaged: 2013-11-23 03:55:35 UTC; Bill
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-23 06:47:25

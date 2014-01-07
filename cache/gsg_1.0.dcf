@@ -1,0 +1,16 @@
+Package: gsg
+Type: Package
+Title: Calculation of selection coefficients
+Version: 1.0
+Date: 2012-12-21
+Author: Michael Morrissey, Krzysztof Sakrejda
+Maintainer: Michael Morrissey <michael.morrissey@st-andrews.ac.uk>
+Depends: mgcv, mvtnorm, boot, numDeriv
+Description: gsg (gam selection gradients) provides a unified approach
+        to the regression analysis of selection from longitudinal data
+        collected from natural populations.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-12-21 08:53:55 UTC; michael
+Repository: CRAN
+Date/Publication: 2012-12-21 12:01:50

@@ -1,0 +1,15 @@
+Package: AdMit
+Version: 1-00.02
+Date: 2008-06-10
+Title: Adaptive Mixture of Student-t distributions
+Author: David Ardia, Lennart F. Hoogerheide and Herman K. van Dijk
+Maintainer: David Ardia <david.ardia@unifr.ch>
+Depends: coda, mvtnorm
+Description: This package provides functions to perform the fitting of an
+  adaptive mixture of Student-t distributions to a target density through its kernel function.
+  The mixture approximation can then be used as the importance density
+  in importance sampling or as the candidate density in the Metropolis-Hastings algorithm to
+  obtain quantities of interest for the target density itself.
+License: GPL version 2 or newer
+URL: http://perso.unifr.ch/david.ardia/
+Packaged: Tue Jun 10 16:32:58 2008; David Ardia

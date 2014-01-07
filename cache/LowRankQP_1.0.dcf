@@ -1,0 +1,12 @@
+Package: LowRankQP
+Version: 1.0
+Date: 2005-09-14
+Title: Low Rank Quadratic Programming
+Author: J. T. Ormerod <jormerod@maths.unsw.edu.au>
+        M. P. Wand <matt@maths.unsw.edua.au>
+Maintainer: J. T. Ormerod <jormerod@maths.unsw.edu.au>
+Description: This package contains routines and documentation for
+        solving quadratic programming problems where the hessian
+        is represented as the product of two matrices.
+License: GPL version 2 or later
+Packaged: Tue Feb 21 11:38:59 2006; jormerod

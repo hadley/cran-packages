@@ -1,0 +1,17 @@
+Package: discrimARTs
+Type: Package
+Title: Discrimination of Alternate Reproductive Tactics (ARTs).
+Version: 0.1
+Date: 2013-03-22
+Author: J. Mark Rowland, Clifford Qualls, and Christian Gunning
+Maintainer: Clifford Qualls, <cqualls@salud.unm.edu>
+Description: This package computes the maximum likelihood estimate of a
+        mixture of distributions of a measured ARTs trait.  Supported
+        distributions include a mix of 2 normals and a mix of 2 facing
+        gamma distributions.
+License: Artistic-2.0
+Depends: R (>= 2.10.0), grid, RUnit
+Packaged: 2013-04-17 07:13:14 UTC; xian
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-04-18 07:11:38

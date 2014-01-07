@@ -1,0 +1,27 @@
+Package: nga
+Description: This package implements the earthquake ground motion
+        prediction equations developed as part of the Next Generation
+        Attenuation of Ground Motions (NGA) project coordinated by the
+        Pacific Earthquake Engineering Research Center (PEER) in 2008.
+        The models implemented in this package are AS08 (Abrahamson &
+        Silva, 2008), BA08 (Boore & Atkinson, 2008), CB08 (Campbell &
+        Bozorgnia, 2008), and CY08 (Chiou & Youngs, 2008).  This
+        numerical implementation has been validated by comparing the
+        results for 128,000 test cases against the results obtained
+        using the Fortran implementation composed by David M. Boore and
+        Kenneth W. Campbell. Users are encouraged to view the U.S.
+        Geological Survey Open-File Report entitled "Implementation of
+        the Next Generation Attenuation (NGA) Ground-Motion Prediction
+        Equations in Fortran and R," by J. Kaklamanos, D. M. Boore, E.
+        M. Thompson, and K. W. Campbell (2010) for further details on
+        these programs.
+Title: NGA Earthquake Ground Motion Prediction Equations
+Version: 1.2
+Date: 2010-10-30
+Author: James Kaklamanos <james.kaklamanos@tufts.edu> and Eric M.
+        Thompson <eric.thompson@tufts.edu>
+Maintainer: James Kaklamanos <james.kaklamanos@tufts.edu>
+License: GPL-2
+Packaged: 2010-10-30 19:44:56 UTC; jkakla01
+Repository: CRAN
+Date/Publication: 2010-11-03 07:42:13

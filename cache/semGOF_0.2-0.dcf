@@ -1,0 +1,18 @@
+Package: semGOF
+Version: 0.2-0
+Date: 2012-08-06
+Title: Goodness-of-fit indexes for structural equation models
+Author: Elena Bertossi <bertossielena@gmail.com>
+Maintainer: Elena Bertossi <bertossielena@gmail.com>
+Depends: R (>= 2.14.0), sem, stats, MASS, matrixcalc
+Suggests: boot, tcltk, polycor
+Description: This is an add-on package which provides fourteen
+        goodness-of-fit indexes for structural equation models using
+        'sem' package.
+License: GPL (>= 2)
+URL: http://www.r-project.org,
+        http://sites.google.com/site/bertossielena
+LazyLoad: yes
+Packaged: 2012-08-06 18:05:44 UTC; proprietario
+Repository: CRAN
+Date/Publication: 2012-08-07 19:04:20

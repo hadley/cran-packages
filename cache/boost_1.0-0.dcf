@@ -1,0 +1,14 @@
+Package:	boost
+Title:		Boosting Methods for Real and Simulated Data
+Version:	1.0-0
+Author:		Marcel Dettling
+Description:	Contains a collection of boosting methods, these are
+		'BagBoost', 'LogitBoost', 'AdaBoost' and 'L2Boost',
+		along with feature preselection by the Wilcoxon test
+		statistic. Moreover, methods for the simulation of
+		data according to correlation and mean structures of
+		existing real datasets are included. 
+Maintainer:	Marcel Dettling, <dettling@jhu.edu>
+URL:		http://stat.ethz.ch/~dettling
+License:	GPL 2.0
+Packaged: Thu Dec  9 22:57:38 2004; dettling

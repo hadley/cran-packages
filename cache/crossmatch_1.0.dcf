@@ -1,0 +1,20 @@
+Package: crossmatch
+Type: Package
+Title: The cross-match test
+Version: 1.0
+Date: 2010-10-23
+Author: Ruth Heller <ruheller@ie.technion.ac.il>, Dylan Small
+        <dsmall@wharton.upenn.edu>, Paul Rosenbaum
+        <rosenbap@wharton.upenn.edu>
+Maintainer: Ruth Heller <ruheller@wharton.upenn.edu>
+Description: This package performs a test for comparing two
+        multivariate distributions by using the distance between
+        observations. The input is a distance matrix and the labels of
+        the two groups to be compared, the output is the number of
+        cross-matches and a p-value.
+Depends: nbpMatching
+License: GPL-2
+LazyLoad: yes
+Packaged: 2010-10-23 11:52:14 UTC; USER
+Repository: CRAN
+Date/Publication: 2010-10-23 12:40:30

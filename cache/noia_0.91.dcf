@@ -1,0 +1,12 @@
+Package: noia
+Type: Package
+Title: Implementation of the Natural and Orthogonal InterAction (NOIA) model
+Version: 0.91
+Date: 2008-04-25
+Author: Arnaud Le Rouzic, 2007-2008
+Maintainer: Arnaud Le Rouzic <a.p.s.lerouzic@bio.uio.no>
+Depends: stats
+Description: The NOIA model, as described extensively in Alvarez-Castro & Carlborg (2007) Genetics 176(2):1151-1167, is a framework facilitating the estimation of genetic effects and genotype-to-phenotype maps. This package provides the basic tools to perform linear and multilinear regressions from real populations (provided the phenotype and the genotype of every individuals), estimating the genetic effects from different reference points, the genotypic values, and the decomposition of genetic variances in a multi-locus, 2 alleles system. This package is presented in Le Rouzic & Alvarez-Castro (2008) Evolutionary Bioinformatics (in press). 
+License: GPL version 2.
+Scientists: please be aware that the fact that this program is released as Free Software does not excuse you from scientific propriety, which obligates you to give appropriate credit. If you write a scientific paper describing research that made substantive use of this program, it is your obligation as a scientist to mention the fashion in which this software was used, including the version number, with a citation to the literature, in the Methods section.
+Packaged: Fri Apr 25 11:59:53 2008; arnaudl

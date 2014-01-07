@@ -1,0 +1,45 @@
+Package: mirt
+Version: 0.9.0
+Date: 2013-08-30
+Type: Package
+Title: Multidimensional Item Response Theory
+Authors@R: c( person("Joshua", "Pritikin", role=c('ctb')), person("Phil",
+    "Chalmers", email = "rphilip.chalmers@gmail.com", role = c("aut", "cre")))
+Description: Analysis of dichotomous and polytomous response data using latent
+    trait models under the Item Response Theory paradigm. Exploratory models
+    can be estimated via quadrature or stochastic methods, a generalized
+    confirmatory bi-factor analysis is included, and confirmatory models can be
+    fit with a Metropolis-Hastings Robbins-Monro algorithm which may include
+    polynomial or product constructed latent traits. Multiple group analysis
+    and mixed effects designs may be performed for unidimensional or
+    multidimensional item response models for detecting differential item
+    functioning and modelling item and person covariates.
+Depends: R (>= 2.15), stats4, lattice, methods
+Imports: GPArotation, mvtnorm, Rcpp, numDeriv
+Suggests: testthat, plink, boot, latticeExtra, parallel
+ByteCompile: yes
+LazyLoad: yes
+LazyData: yes
+LinkingTo: Rcpp
+Repository: CRAN
+License: GPL (>= 2)
+URL: https://github.com/philchalmers/mirt
+Collate: 'bfactor.R' 'expand.table.R' 'itemplot.R' 'key2binary.R'
+        'fscores.R' 'mirt-package.R' 'mirt.R' 'simdata.R'
+        '00-classes.R' 'utils.R' '01-itemtypes.R' '02-item_methods.R'
+        'calcLogLik.R' 'LoadPars.R' 'model.elements.R' 'PrepData.R'
+        'Confirmatory-methods.R' 'Exploratory-methods.R' 'MHRM.group.R'
+        'MultipleGroup-methods.R' 'multipleGroup.R' 'wald.R'
+        'EMstep.group.R' 'extract.item.R' 'iteminfo.R' 'itemfit.R'
+        'personfit.R' '03-estimation.R' '04-derivatives.R'
+        'read.mirt.R' 'fscores.internal.R' 'itemplot.internal.R'
+        'mixedmirt.R' 'Mixed-methods.R' 'fitIndices.R' 'testinfo.R'
+        'imputeMissing.R' 'mod2values.R' 'probtrace.R' 'boot.mirt.R'
+        'createItem.R' 'randef.R' 'mirtCluster.R' 'mirt.model.R'
+        'expected.item.R' 'PLCI.mirt.R'
+Packaged: 2013-08-31 04:06:04 UTC; phil
+Author: Joshua Pritikin [ctb],
+  Phil Chalmers [aut, cre]
+Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
+NeedsCompilation: yes
+Date/Publication: 2013-08-31 06:06:16

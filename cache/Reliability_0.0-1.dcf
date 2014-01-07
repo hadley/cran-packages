@@ -1,0 +1,11 @@
+Package: Reliability
+Version: 0.0-1
+Date: 2007-05-06
+Title: Functions for estimating parameters in software reliability models
+Author: Andreas Wittmann <andreas_wittmann@gmx.de> 
+Maintainer: Andreas Wittmann <andreas_wittmann@gmx.de>
+Depends: R (>= 2.4.0)
+Description: Functions for estimating parameters in software reliability models.
+             Only infinite failure models are implemented so far. 
+License: Unlimited 
+Packaged: Thu Nov 22 17:34:23 2007; Witti

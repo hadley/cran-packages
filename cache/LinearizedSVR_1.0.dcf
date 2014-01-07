@@ -1,0 +1,16 @@
+Package: LinearizedSVR
+Type: Package
+Title: Linearized Support Vector Regression
+Version: 1.0
+Date: 2012-02-15
+Author: Sriharsha Veeramachaneni and Ken Williams
+Maintainer: Ken Williams <ken.williams@windlogics.com>
+Description: Train and predict using fast prototype-based Linearized
+        Support-Vector Regression methods.
+License: BSD
+Copyright: WindLogics Inc., 2012
+Collate: 'linearizedSVR.R'
+Depends: kernlab, LiblineaR, expectreg, testthat
+Packaged: 2012-03-08 20:48:55 UTC; kwilliams
+Repository: CRAN
+Date/Publication: 2012-03-13 15:17:00

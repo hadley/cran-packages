@@ -1,0 +1,23 @@
+Package: hypothesestest
+Type: Package
+Title: Confidence Intervals and Tests of Statistical Hypotheses
+Version: 1.0
+Date: 2012-05-14
+Author: Chengfeng Liu,Huiqing Liu,Yingyan Liang,Ruibin Feng
+Maintainer: Chengfeng Liu <478996606@qq.com>
+Description: Compute the confidence interval of the population mean
+        with one sample or of the difference of population means of two
+        samples from normal distributions or t-distributions.Compute
+        the confidence interval of population variance with one sample
+        or of the difference of population variances of two samples by
+        chi-square tests.Test for population mean or the differences of
+        two normal samples under normality with the given null
+        hypothesis H0,which depends on the user,so that he can know if
+        he can reject H0 or not at the significance level alpha.Do the
+        chi-square tests with one or two samples which have multinomial
+        distributions by using an approximate chi-square distribution
+        when n is large enough.
+License: GPL (>= 2)
+Packaged: 2012-07-11 10:25:37 UTC; Administrator
+Repository: CRAN
+Date/Publication: 2012-07-11 11:35:50

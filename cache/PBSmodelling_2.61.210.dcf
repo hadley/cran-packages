@@ -1,0 +1,28 @@
+Package: PBSmodelling
+Version: 2.61.210
+Date: 2010-04-14
+Title: GUI Tools Made Easy: Interact with Models, Explore Data, Give
+        Dynamic Presentations
+Author: Jon T. Schnute <Jon.Schnute@dfo-mpo.gc.ca>, Alex Couture-Beil
+        <alex@mofo.ca>, Rowan Haigh <Rowan.Haigh@dfo-mpo.gc.ca>, and
+        A.R. (Rob) Kronlund <Allen.Kronlund@dfo-mpo.gc.ca>
+Maintainer: Jon Schnute <Jon.Schnute@dfo-mpo.gc.ca>
+Depends: R (>= 2.7.0), methods
+Suggests: PBSmapping, PBSddesolve, deSolve, KernSmooth, XML
+Description: PBS Modelling provides software to facilitate the design,
+        testing, and operation of computer models. It focuses
+        particularly on tools that make it easy to construct and edit a
+        customized graphical user interface (GUI). Although it depends
+        heavily on the R interface to the Tcl/Tk package, a user does
+        not need to know Tcl/Tk. The package contains examples that
+        illustrate models built with other R packages, including
+        PBSmapping, deSolve, PBSddesolve, and BRugs. It also serves as
+        a convenient prototype for building new R packages, along with
+        instructions and batch files to facilitate that process. The R
+        directory '.../library/PBSmodelling/doc' includes a complete
+        user guide PBSmodelling-UG.pdf. To use this package
+        effectively, please consult the guide.
+License: GPL (>= 2)
+Packaged: 2010-05-12 17:46:02 UTC; Alex
+Repository: CRAN
+Date/Publication: 2010-06-24 05:45:16

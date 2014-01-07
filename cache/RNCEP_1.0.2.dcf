@@ -1,0 +1,24 @@
+Package: RNCEP
+Type: Package
+Title: Obtain, organize, and visualize NCEP weather data
+Version: 1.0.2
+Date: 2011-01-01
+Author: Michael U. Kemp <M.U.Kemp@UvA.nl> with contributions from E.
+        Emiel van Loon, Judy Shamoun-Baranes, and Willem Bouten
+Maintainer: Michael U. Kemp <M.U.Kemp@UvA.nl>
+Description: This package contains functions to retrieve, organize, and
+        visualize weather data from the NCEP/NCAR Reanalysis and
+        NCEP/DOE Reanalysis II datasets.  Data are queried via the
+        Internet and may be obtained for a specified spatial and
+        temporal extent or interpolated to a point in space and time.
+        We also provide functions to visualize these weather data on a
+        map.
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: abind, maps, fields, tgp, fossil, tcltk
+Suggests: raster, sp, RSAGA
+URL: http://www.esrl.noaa.gov/psd/data/gridded/reanalysis/
+        http://sites.google.com/site/michaelukemp/rncep
+Packaged: 2011-04-11 07:45:19 UTC; Michael User
+Repository: CRAN
+Date/Publication: 2011-04-11 09:24:05

@@ -1,0 +1,10 @@
+Package: wombsoft
+Type: Package
+Title: Wombling Computation
+Version: 1.0
+Date: 2007-01-04
+Author: Ameline Crida
+Maintainer: Ameline Crida <ameline.crida@e.ujf-grenoble.fr>
+Description: Analyses individually geo-referenced multilocus genotypes for the inferences of genetic boundaries between populations. It is based on the wombling method that estimates the systemic function by looking for the local variation of the allele frequencies. The systemic function estimation is based on the local polynomial regression, and a binomial test assess the significance of boundaries. The method applies to codominant or dominant markers and allows for missing data.
+License:GPL version 2 or newer
+Packaged: Thu Feb 22 18:33:46 2007; hornik

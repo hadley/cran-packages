@@ -1,0 +1,20 @@
+Package: catIrt
+Type: Package
+Version: 0.2-1
+Date: 2012-07-03
+Title: An R Package for Simulating IRT-Based Computerized Adaptive
+        Tests
+Author: Steven W. Nydick
+Maintainer: Steven W. Nydick <nydic001@umn.edu>
+Depends: R (>= 2.11.0), sfsmisc (>= 1.0-14), stats
+Suggests: irtoys, ltm, catR
+Description: Functions designed to simulate data that conform to basic
+        unidimensional IRT models (for now 3-parameter binary response
+        models and graded response models) along with Post-Hoc CAT
+        simulations of those models with various item selection
+        methods, ability estimation methods, and termination criteria.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-08-01 11:40:30 UTC; stevennydick
+Repository: CRAN
+Date/Publication: 2012-08-01 12:26:57

@@ -1,0 +1,22 @@
+Package: PF
+Type: Package
+Title: Functions related to prevented fraction.
+Version: 9.4
+Date: 2012-08-14
+Author: Dave Siev
+Maintainer: Marie Vendettuoli <marie.c.vendettuoli@aphis.usda.gov>
+Description: Functions related to prevented fraction.
+License: MIT
+LazyLoad: yes
+LazyData: yes
+Depends: methods, grid, xtable, RColorBrewer, gdata
+Suggests: R2wd
+Collate: 'aaa.r' 'aab.r' 'class-rr1_tables.r' 'class-rror_tables.r'
+        'class-rrsc_tables.r' 'class-rrsi_tables.r'
+        'class-rrstr_tables.r' 'class.r' 'generics.r'
+        'getPFTable_generics.r' 'PFPackage.r' 'IDRlsi.r' 'IDRsc.r'
+        'phiWt.r' 'RRlsi.r' 'RRmh.r' 'RRmpWald.r' 'RRor.r' 'RRotsst.r'
+        'RRsc.r' 'RRStr.r' 'RRtosst.r' 'rsbWt.r' 'tauWt.r'
+Packaged: 2012-08-14 22:20:44 UTC; mvendett
+Repository: CRAN
+Date/Publication: 2012-08-17 08:24:08

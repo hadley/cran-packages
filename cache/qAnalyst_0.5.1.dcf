@@ -1,0 +1,12 @@
+Package: qAnalyst
+Type: Package
+Title: Variables and Attributes Control Charts
+Version:  0.5.1
+Date:  2008-02-12
+URL: www.quantide.com
+Author: Andrea Spano' and Giorgio Spedicato
+Maintainer: Andrea Spano' <andrea.spano@quantide.com>
+Description: qAnalyst makes control charts for variables and attributes according to Douglas C. Montgomery Introduction to Statistical Quality Control book. Moreover, capability analysis for normal and non - normal distributions is implemented.
+License: GPL (>=2) 
+Depends: lattice, MASS, alr3, SuppDists
+Packaged: Fri Feb 15 15:13:26 2008; giorgio

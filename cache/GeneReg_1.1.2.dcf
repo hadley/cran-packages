@@ -1,0 +1,21 @@
+Package: GeneReg
+Type: Package
+Title: Construct time delay gene regulatory network
+Version: 1.1.2
+Date: 2010-09-01
+Author: Tao Huang
+Maintainer: Tao Huang <huangtao@sibs.ac.cn>
+Description: GeneReg is an R package for inferring time delay gene
+        regulatory network using time course gene expression profiles.
+        The main idea of time delay linear model is to fit a linear
+        regression model using a set of putative regulators to estimate
+        the transcription pattern of a specific target gene.
+Depends: splines, igraph
+License: LGPL
+URL: http://www.biomedcentral.com/1756-0500/3/142
+Citation: Tao Huang, Lei Liu, Ziliang Qian, Kang Tu, Yixue Li, Lu Xie:
+        Using GeneReg to construct time delay gene regulatory networks.
+        BMC Res Notes 2010, 3(1):142.
+Repository: CRAN
+Date/Publication: 2012-10-29 08:57:07
+Packaged: 2012-10-29 08:57:07 UTC; ripley

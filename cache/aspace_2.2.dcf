@@ -1,0 +1,23 @@
+Package: aspace
+Type: Package
+Title: A collection of functions for estimating centrographic statistcs
+        and computational geometries for spatial point patterns
+Version: 2.2
+Date: 21-11-2009
+Author: Randy Bui, Ron N. Buliung, Tarmo K. Remmel
+Maintainer: Ron N. Buliung <ron.buliung@utoronto.ca>
+Description: A collection of functions for computing centrographic
+        statistics (e.g., standard distance, standard deviation
+        ellipse, standard deviation box), and minimum convex polygons
+        (MCP) for observations taken at point locations.  A tool is
+        also provided for converting geometric objects associated with
+        the centrographic statistics, and MCPs into ESRI Shapefiles.
+        Separate plotting functions have been developed for each
+        measure.
+License: GPL (>= 2)
+Depends: R (>= 2.0.1), adehabitat, ade4, gpclib, sp, maptools, splancs,
+        Hmisc
+LazyData: yes
+Packaged: 2009-11-23 22:28:27 UTC; Randy Bui
+Repository: CRAN
+Date/Publication: 2009-11-24 10:11:38

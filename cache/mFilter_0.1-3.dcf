@@ -1,0 +1,21 @@
+Package: mFilter
+Title: Miscellaneous time series filters
+Date: 2007-10-2
+Version: 0.1-3
+Author: Mehmet Balcilar <mbalcilar@yahoo.com>
+Depends: R (>= 2.2.0), stats
+Suggests: tseries, pastecs, locfit, tseriesChaos, RTisean, tsDyn,
+        forecast
+Description: The package implements several time series filters useful
+        for smoothing and extracting trend and cyclical components of a
+        time series. The routines are commonly used in economics and
+        finance, however they should also be interest to other areas.
+        Currently, Christiano-Fitzgerald, Baxter-King,
+        Hodrick-Prescott, Butterworth, and trigonometric regression
+        filters are included in the package.
+Maintainer: Mehmet Balcilar <mbalcilar@yahoo.com>
+License: GPL (>= 2)
+URL: http://www.mbalcilar.net/mFilter, http://www.r-project.org
+Packaged: Tue Nov 6 09:32:46 2007; mehmet
+Repository: CRAN
+Date/Publication: 2007-11-06 10:00:46

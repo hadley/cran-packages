@@ -1,0 +1,30 @@
+Package: lmomco
+Title: L-moments, Trimmed L-moments, L-comoments, and Many Distributions
+Version: 0.88
+Date: 2007-09-01
+Author: William H. Asquith
+Description: The package implements the statistical theory of L-moments including 
+ L-moment estimation, probability-weighted moment estimation, parameter estimation 
+ for numerous familiar and not-so-familiar distributions, and L-moment estimation 
+ for the same distributions from the parameters. L-moments are derived from the 
+ expectations of order statistics and are linear with respect to the probability- 
+ weighted moments. L-moments are directly analogous to the well-known product 
+ moments; however, L-moments have many advantages including unbiasedness, 
+ robustness, and consistency with respect to the product moments. This package 
+ is oriented around the FORTRAN algorithms of J.R.M. Hosking, and the 
+ nomenclature for many of the functions parallels that of the Hosking library. 
+ However, numerous extensions are made to aid in expand of the breadth and ease
+ of L-moment application. Much theoretical extension of L-moment theory has 
+ occurred in recent years. E.A.H. Elamir and A.H. Seheult have developed the 
+ trimmed L-moments, which are implemented in this package. Further, recent 
+ developments by Robert Serfling and Peng Xiao have extended L-moments into 
+ multivariate space; the so-called sample L-comoments are implemented here. The 
+ supported distributions with moment type shown as L (L-moments) or TL (trimmed 
+ L-moments) and additional support for right-tail censoring ([RC]) include:
+ Cauchy(TL), Exponential(L), Gamma(L), Generalized Extreme Value(L),
+ Generalized Lambda(L & TL), Generalized Logistic (L), Generalized Normal(L),
+ Generalized Pareto(L[RC] & TL), Gumbel(L), Normal(L), Kappa(L),
+ Pearson Type III(L), Reverse Gumbel(L[RC]), Wakeby(L), and Weibull(L).
+Maintainer: William H. Asquith <wasquith@austin.rr.com>
+License: GPL
+Packaged: Mon Sep  3 08:31:48 2007; wasquith

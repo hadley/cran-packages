@@ -1,0 +1,33 @@
+Package: NlsyLinks
+Type: Package
+Title: Utilities and kinship information for behavior genetics and
+        developmental research using the NLSY.
+Version: 1.300
+Date: 2013-11-21
+Author: Will Beasley, Joe Rodgers, David Bard, Michael Hunter, and Kelly
+    Meredith
+Maintainer: Will Beasley <wibeasley@hotmail.com>
+Description: Utilities and kinship information for behavior genetics and
+    developmental research using the NLSY (http://www.bls.gov/nls/)
+URL: https://r-forge.r-project.org/projects/nlsylinks/
+Depends: R(>= 2.14.0), stats
+Imports: methods, lavaan
+Suggests: devtools, ggplot2, knitr, plyr, scales, testit, testthat,
+        xtable
+License: GPL
+LazyData: TRUE
+VignetteBuilder: knitr
+Collate: 'AceEstimate.R' 'AceLavaanGroup.R' 'AceUnivariate.R'
+        'CleanSemAceDataset.R' 'ColumnUtilities.R'
+        'CreateAceEstimate.R' 'CreatePairLinksDoubleEntered.R'
+        'CreatePairLinksDoubleEnteredWithNoOutcomes.R'
+        'CreatePairLinksSingleEntered.R' 'CreateSpatialNeighbours.R'
+        'CreateSubjectTag.R' 'DeFriesFulker.R' 'ExtraOutcomes79Doc.R'
+        'Links79PairDoc.R' 'Links79PairExpandedDoc.R' 'NlsyLinks.R'
+        'ReadCsvNlsy79.R' 'RGroupSummary.R' 'ValidateOutcomeDataset.R'
+        'ValidatePairLinks.R' 'ValidatePairLinksAreSymmetric.R'
+        'SubjectDetails79Doc.R'
+Packaged: 2013-11-26 15:59:28 UTC; Will
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-11-27 07:06:43

@@ -1,0 +1,22 @@
+Package: colbycol
+Type: Package
+Title: Read big text files column by column, sometimes much bigger than
+        available RAM, into R.
+Version: 0.7
+Date: 2011-04-17
+Author: Carlos J. Gil Bellosta
+Maintainer: Carlos J. Gil Bellosta <cgb@datanalytics.com>
+Description: This package tries to solve the memory restrictions posed
+        by large text files by breaking them into their columns first.
+        These columns are later read individually into R. The package
+        also provides some helper functions for manipulating the newly
+        created objects.
+URL: http://colbycol.r-forge.r-project.org
+Depends: rJava, filehash
+License: GPL
+LazyLoad: yes
+Repository: CRAN
+Repository/R-Forge/Project: colbycol
+Repository/R-Forge/Revision: 23
+Date/Publication: 2011-05-23 15:58:58
+Packaged: 2011-05-09 20:55:31 UTC; rforge

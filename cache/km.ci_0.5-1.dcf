@@ -1,0 +1,11 @@
+Package: km.ci
+Type: Package
+Title: Confidence intervals for the Kaplan-Meier estimator
+Version: 0.5-1
+Date: 2007-10-21
+Author: Ralf Strobl <rstrobl@ibe.med.uni-muenchen.de>
+Maintainer: ORPHANED
+Depends: R (>= 1.8.0), survival, stats
+Description: Computes various confidence intervals for the Kaplan-Meier estimator, namely: Petos CI, Rothman CI, CI's based on Greenwoods variance, Thomas and Grunkemeier CI and the simultaneous confidence bands by Nair and Hall and Wellner.
+License: GPL (>= 2)
+Packaged: Sun Oct 21 00:23:13 2007; hornik

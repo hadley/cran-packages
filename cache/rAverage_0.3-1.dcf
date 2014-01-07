@@ -1,0 +1,20 @@
+Package: rAverage
+Version: 0.3-1
+Date: 2010-07-23
+Title: Parameter estimation for the Averaging model of Information
+        Integration Theory
+Author: Stefano Noventa <stefano.noventa@unipd.it>, Davide Massidda
+        <davide.massidda@unipd.it>, Marco Vicentini
+        <marco.vicentini@gmail.com>, Giulio Vidotto
+        <giulio.vidotto@unipd.it>
+Maintainer: Stefano Noventa <stefano.noventa@unipd.it>, Davide Massidda
+        <davide.massidda@unipd.it>
+Depends: R (>= 2.8), methods, tcltk, foreign
+Suggests: RODBC
+Description: Parameter estimation for the averaging model of Anderson's
+        Information Integration Theory
+License: GPL (>= 2)
+URL: http://qplab.psy.unipd.it/
+Packaged: 2010-07-26 13:12:41 UTC; Davide
+Repository: CRAN
+Date/Publication: 2010-07-26 13:47:11

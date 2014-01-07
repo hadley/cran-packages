@@ -1,0 +1,16 @@
+Package: Actigraphy
+Type: Package
+Title: Actigraphy Data Analysis
+Version: 1.1
+Date: 2012-09-19
+Author: William Shannon, Tao Li, Hong Xian, Jia Wang, Elena Deych,
+        Carlos Gonzalez
+Maintainer: Berkley Shands <bshands@dom.wustl.edu>
+Depends: R (>= 2.14.0), fda, lattice
+Description: This package implements functional linear modeling and
+        analysis for actigraphy data.
+License: GPL-2
+LazyLoad: yes
+Packaged: 2012-09-19 17:12:51 UTC; bshands
+Repository: CRAN
+Date/Publication: 2012-09-19 22:12:52

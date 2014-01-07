@@ -1,0 +1,19 @@
+Package: ez
+Type: Package
+Title: Easy analysis and visualization of factorial experiments.
+Version: 1.1
+Date: 2009-04-26
+Author: Michael A. Lawrence
+Maintainer: Michael A. Lawrence <Mike.Lawrence@dal.ca>
+Depends: R (>= 1.8.0), car, ggplot2
+Description: This package facilitates easy analysis of factorial
+        experiments, including purely within-Ss designs (a.k.a.
+        "repeated measures"), purely between-Ss designs, and mixed
+        within-and-between-Ss designs. The functions in this package
+        provide easy access to descriptive statistics, ANOVA,
+        permutation tests, and visualization of results.
+License: GPL-3
+LazyLoad: yes
+Packaged: 2009-04-26 19:37:14 UTC; mike
+Repository: CRAN
+Date/Publication: 2009-04-27 06:48:08

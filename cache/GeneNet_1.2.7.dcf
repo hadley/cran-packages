@@ -1,0 +1,21 @@
+Package: GeneNet
+Version: 1.2.7
+Date: 2013-06-16
+Title: Modeling and Inferring Gene Networks
+Author: Juliane Schaefer, Rainer Opgen-Rhein, and Korbinian Strimmer.
+Maintainer: Korbinian Strimmer <strimmer@uni-leipzig.de>
+Depends: R (>= 2.15.1), corpcor (>= 1.6.6), longitudinal (>= 1.1.7),
+        fdrtool (>= 1.2.10), igraph (>= 0.6)
+Suggests:
+Description: GeneNet is a package for analyzing gene expression (time
+        series) data with focus on the inference of gene networks.  In
+        particular, GeneNet implements the methods of Schaefer and
+        Strimmer (2005a,b,c) and Opgen-Rhein and Strimmer (2006, 2007)
+        for learning large-scale gene association networks (including
+        assignment of putative directions).
+License: GPL (>= 3)
+URL: http://strimmerlab.org/software/genenet/
+Packaged: 2013-06-16 15:08:26 UTC; strimmer
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2013-06-16 17:50:06

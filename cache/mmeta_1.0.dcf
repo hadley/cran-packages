@@ -1,0 +1,15 @@
+Package: mmeta
+Type: Package
+Title: mmeta
+Version: 1.0
+Date: 2011-06-21
+Author: Sheng Luo <Sheng.T.Luo@uth.tmc.edu> Yong Chen
+        <Yong.Chen@uth.tmc.edu>
+Maintainer: Xiao Su <Xiao.Su@uth.tmc.edu>
+Description: This package implements a novel bivariate meta-analysis.
+Depends: R (>= 2.10.0), aod,xtable,BRugs
+License: GPL (>= 2)
+LazyLoad: yes
+Packaged: 2012-07-26 18:27:18 UTC; xsu
+Repository: CRAN
+Date/Publication: 2012-07-26 19:53:55

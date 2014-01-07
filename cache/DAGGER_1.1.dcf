@@ -1,0 +1,15 @@
+Package: DAGGER
+Title: Consensus genetic maps
+Version: 1.1
+Date: 2011-02-18
+Author: Jeffrey Endelman <j.endelman@gmail.com>
+Maintainer: Jeffrey Endelman <j.endelman@gmail.com>
+Description: Integrates the information from multiple linkage maps to
+        create a consensus directed graph, which is then linearized to
+        produce a consensus map.
+Depends: Rglpk
+License: GPL-3
+LazyLoad: yes
+Packaged: 2011-02-18 23:19:20 UTC; Jeffrey
+Repository: CRAN
+Date/Publication: 2011-02-19 09:11:12

@@ -1,0 +1,20 @@
+Package: ibd
+Version: 1.0
+Date: 2013-01-07
+Title: INCOMPLETE BLOCK DESIGNS
+Author: Baidya Nath Mandal <bnmandal@iasri.res.in>
+Maintainer: Baidya Nath Mandal <bnmandal@iasri.res.in>
+Depends: R (>= 2.15.1), lpSolve, MASS
+Description: This package contains several utility functions related to
+        incomplete block designs. The package also contains function to
+        generate efficient incomplete block designs with given numbers
+        of treatments, blocks and block size. The package also contains
+        function to generate an incomplete block design with specified
+        concurrence matrix. There are functions to generate balanced
+        treatment incomplete block designs and incomplete block designs
+        for test versus control treatments with specified concurrence
+        matrix.
+License: GPL (>= 2)
+Packaged: 2013-01-14 06:40:51 UTC; dell
+Repository: CRAN
+Date/Publication: 2013-01-14 08:01:42

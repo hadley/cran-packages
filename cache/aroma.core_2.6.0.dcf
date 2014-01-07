@@ -1,0 +1,32 @@
+Package: aroma.core
+Version: 2.6.0
+Date: 2012-09-05
+Title: Core methods and classes used by aroma.* packages part of The
+        Aroma Framework
+Author: Henrik Bengtsson <henrikb@braju.com>
+Maintainer: Henrik Bengtsson <henrikb@braju.com>
+Depends: R (>= 2.14.0), utils, R.methodsS3 (>= 1.4.2), R.oo (>= 1.9.8),
+        R.utils (>= 1.16.0), R.devices (>= 2.1.1), R.cache (>= 0.6.2),
+        R.filesets (>= 1.1.5), R.rsp (>= 0.8.2), matrixStats (>=
+        0.5.2), digest (>= 0.5.2)
+Imports: utils, R.methodsS3 (>= 1.4.2), R.oo (>= 1.9.8), RColorBrewer
+        (>= 1.0-5)
+Suggests: RColorBrewer (>= 1.0-5), png (>= 0.1-4), EBImage (>= 3.9.7),
+        Cairo (>= 1.5-1), sfit (>= 0.1.8), expectile (>= 0.2.5), GLAD
+        (>= 1.12.0), DNAcopy (>= 1.24.0), HaarSeg (>= 0.0.2), mpcbs (>=
+        1.1.1), aroma.light (>= 1.22.0), PSCBS (>= 0.28.1),
+        preprocessCore (>= 1.8.0)
+Description: This package contains core methods and classes used by
+        higher-level aroma.* packages part of the Aroma Project, e.g.
+        aroma.affymetrix and aroma.cn.  Its API should be considered to
+        be in alpha and beta versions, and is mostly of interest to
+        developers.
+License: LGPL (>= 2.1)
+URL: http://www.aroma-project.org/
+LazyLoad: TRUE
+biocViews: Microarray, OneChannel, TwoChannel, MultiChannel,
+        DataImport, DataRepresentation, GUI, Visualization,
+        Preprocessing, QualityControl, aCGH, CopyNumberVariants
+Packaged: 2012-09-06 00:42:43 UTC; hb
+Repository: CRAN
+Date/Publication: 2012-09-06 05:21:38

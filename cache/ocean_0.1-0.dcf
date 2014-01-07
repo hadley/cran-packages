@@ -1,0 +1,24 @@
+Package: ocean
+Version: 0.1-0
+Date: 2013-11-09
+Title: Biophysical Oceanography Tools
+Authors@R: c(person("Benjamin", "Jones", role = c("aut", "cre"),
+    email = "btjones16@gmail.com"))
+Author: Benjamin Jones [aut, cre]
+Maintainer: Benjamin Jones <btjones16@gmail.com>
+Depends: R (>= 3.0.2), ncdf, proj4
+Description: This package contains a set of functions for manipulating and
+    visualizing output from numerical ocean models. Many of the routines are
+    targeted towards Lagrangian particle-tracking models with the data stored
+    in NetCDF files. This package may be useful to spatial marine ecologists 
+    and biological or physical oceanographers.
+License: GPL-3
+URL: https://github.com/btjones16/ocean
+BugReports: https://github.com/btjones16/ocean/issues
+Collate: 'att_plot.R' 'bathy_colors.R' 'calculate_element_size.R'
+        'filter2d.R' 'find_element.R' 'is_in_grid.R' 'jet_colors.R'
+        'lagrangian_pdd.R' 'spaghetti.R'
+Packaged: 2013-11-17 02:26:20 UTC; btjones
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2013-11-17 08:52:51

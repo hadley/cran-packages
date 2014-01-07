@@ -1,0 +1,29 @@
+Package: selectiongain
+Type: Package
+Title: A tool for efficient calculation and optimization of the
+        expected gain from multi-stage
+Version: 2.0.1
+Date: 2012-07-11
+Author: Xuefei Mi, Friedrich Utz, Albrecht E. Melchinger (Project
+        contact person: Melchinger at uni-hohenheim.de )
+Maintainer: Xuefei Mi <xuefeimi@uni-hohenheim.de>
+Depends: R (>= 2.15.1), mvtnorm
+Description: Multi-stage selection is practised in numerous fields of
+        the life and social sciences and particularly in breeding. A
+        special characteristic of multi-stage selection is that
+        candidates are evaluated in successive stages with increasing
+        intensity and efforts, and only a fraction of the superior
+        candidates is selected and promoted to the next stage. For the
+        optimum design of such selection programs, the selection gain
+        plays a crucial role. It can be calculated by integration of a
+        truncated multivariate normal (MVN) distribution. While
+        mathematical formulas for calculating the selection gain and
+        the variance among selected candidates, were developed long
+        time ago, solutions for numerical calculation were not
+        available. This package can also be used for optimizing
+        multi-stage selection programs for a given total budget and
+        different costs of evaluating the candidates in each stage.
+License: GPL-2
+Packaged: 2012-07-12 13:03:43 UTC; Mi
+Repository: CRAN
+Date/Publication: 2012-07-12 13:32:23
